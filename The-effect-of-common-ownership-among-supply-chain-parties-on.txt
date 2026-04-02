@@ -1,0 +1,1175 @@
+                                          International Review of Economics and Finance 96 (2024) 103596
+
+
+                                                      Contents lists available at ScienceDirect
+
+
+                               International Review of Economics and Finance
+                                               journal homepage: www.elsevier.com/locate/iref
+
+
+
+
+The effect of common ownership among supply chain parties on
+decision-making and surplus with manufacturer encroachment
+Jumpei Hamamura ∗
+Kwansei Gakuin University, Japan
+
+
+
+ARTICLE              INFO                           ABSTRACT
+
+Keywords:                                           In the financial economics field, several studies assess the effect of common ownership on
+Common ownership                                    the economic consequence, decision-making of firms, and social performance. In this situation,
+Product market competition                          based on recent supply chain practices and manufacturer encroachment, we examine the effect
+Supply chain management
+                                                    of common ownership on supply chain parties composed of a retailer and a manufacturer and
+Manufacturer encroachment
+                                                    social performance. From our model analysis, we demonstrate that manufacturer encroachment
+Game theory
+                                                    improves the retailer’s profit under specific economic environments, while generally, manufac-
+                                                    turer encroachment harms the retailer’s profit because the manufacturer obtains market share
+                                                    through a direct channel. Additionally, we demonstrate that increasing common ownership
+                                                    improves total surplus in a specific case. Therefore, our analysis does not only propose the
+                                                    positive effects of common ownership among all vertical supply chain parties for supply chain
+                                                    coordination, as opposed to what is indicated by the real world, but also implies that society
+                                                    should accommodate common ownership among supply chain parties in specific economic
+                                                    environments from the perspective of total surplus.
+
+
+
+
+1. Introduction
+
+
+    In the financial economics field, many practitioners, investors, and researchers shed light on common ownership among
+competing firms. For example, in Financial Times, it is stated as ‘‘Global regulators are starting to home in on an academic theory
+on the drawbacks of overlapping corporate ownership by investors, a trend that could pose a threat to the $80tn asset management
+industry’’.1 This is one of the typical explanations of common ownership and one can recognize the attention to common ownership
+by stakeholders and regulators. Additionally, according to Azar et al. (2018) and Dennis et al. (2022), one can confirm the importance
+of common ownership for the firm value and social performance by the stakeholders and researchers. In particular, the relationship
+between product market competition and common ownership is widely investigated in the financial economics field. This is because
+while common ownership is one of the related issues in the finance field, from the definition of common ownership, product market
+competition plays an important role to discuss the effect of it.
+    In this study, we also focus on common ownership among competing firms in the product market. In particular, we shed light on
+the asymmetric competition among supply chain parties. When shareholders become increasingly powerful, supply chain participants
+are often mutually owned by the same institutional owners who share common ownership. For example, Vanguard Group holds
+
+
+
+  ∗ Correspondence to: School of Business Administration, Kwansei Gakuin University, 1-155 Uegahara Ichibancho, Nishinomiya, Hyogo, 662-8501, Japan.
+      E-mail address: jhama0129@gmail.com.
+  1   We cite the following article, which is published on January 22, 2019. https://www.ft.com/content/59325462-fe57-11e8-aebf-99e208d3e521
+
+https://doi.org/10.1016/j.iref.2024.103596
+Received 26 November 2023; Received in revised form 15 August 2024; Accepted 4 September 2024
+Available online 17 September 2024
+1059-0560/© 2024 Elsevier Inc. All rights are reserved, including those for text and data mining, AI training, and similar technologies.
+J. Hamamura                                                                                  International Review of Economics and Finance 96 (2024) 103596
+
+
+5.5% shares of Rollins, Inc.2 and 8.08% shares of Dick’s Sporting Goods.3 Additionally, according to Chen (2021), Tenneco Inc.,
+a designer and manufacturer of emission control products, shares common ownership with customers (e.g., Caterpillar Inc. and
+Harley Davidson Inc.). These examples illustrate interesting aspects of common ownership along supply chains regarding a company’s
+portfolio holdings. However, while common ownership is considered a social issue from the perspective of antitrust policies, previous
+studies have failed to examine the impact of common ownership on supply chain participants, assuming a dual-channel supply chain.
+Therefore, this study analytically explores the effect of common ownership on decision-making, the economic consequence of supply
+chain parties, and social performance.
+    IT developments have made it easier for manufacturers to open a direct channel, leading to manufacturer encroachment. For
+example, Hewlett-Packard Co. has a direct channel for selling its products to consumers without using retail stores. Additionally,
+reputed companies such as Fast Retailing Co., Ltd., Procter and Gamble, and Apple Inc. use direct channels to sell their products.
+With manufacturer encroachment, the manufacturer becomes a retailer’s competitor rather than a supply chain partner. Specifically,
+it becomes challenging to consider the ownership of supply chain parties if the owner is a partner or a competitor. For example, the
+Vanguard Group holds an 11.50% share of Best Buy4 and 7.4% of General Electric Co..5 This example represents the case in which
+the retailer (Best Buy) is encroached by the manufacturer (General Electric) through common ownership. How do manufacturers’
+and retailers’ decision-making change in the threat of manufacturer encroachment? This study considered the following research
+questions: (i) What is the effect of manufacturer encroachment and common ownership on supply chain parties’ decision-making?
+(ii) What is the effect of manufacturer encroachment and common ownership on retailer profits? (iii) What is the surplus effect of
+common ownership?
+    This study constructs an analytical model based on game theory to explore the impact of common ownership on decision-making
+processes and surplus management. In our model, the supply chain comprises one retailer and one manufacturer. The manufacturer
+produces goods and sells them to the retailer at wholesale price. The retailer supplies the product to the final goods market by
+determining its quantity. The manufacturer can also decide whether to encroach on the final goods market. When a manufacturer
+encroaches quantity competition among the retailer and manufacturer occurs in the retail market. Our model assumes common
+ownership among firms to emphasize the other parties’ profit. The timeline of these events is as follows: First, the manufacturer
+chooses whether to encroach. Second, the manufacturer decides on the wholesale price. Finally, in the non-encroachment scenario,
+only the retailer determines the quantity, whereas, in the encroachment scenario, the retailer and manufacturer determine the
+quantity. We describe our basic model in Section 3.6
+    From our analysis, we obtained the following results. In the non-encroachment case, the degree of channel substitution does
+not affect the retailer’s profit, because the competition does not occur between the participants in the supply chain. In the non-
+encroachment case, the wholesale price charged by the manufacturer increases as the degree of common ownership increases. Under
+large common ownership, while the retailer raises the supplied quantity to enhance the manufacturer’s profit, anticipating retailer
+behavior, the manufacturer raises the wholesale price to avoid excessive supply in the retail market. In the case of encroachment,
+the degree of channel substitution plays an important role in considering our result. Under a large degree of channel substitution,
+it is not profitable for the manufacturer and retailer to supply large quantities in the retail market, because intense competition
+leads to cannibalization. Therefore, the manufacturer manages the retail market to enhance its profit and the retailer’s profit under
+common ownership. From the discussion presented above, the following two effects are important when considering the effect of
+common ownership on wholesale prices: (i) Increasing wholesale prices because the retailer raises quantity by emphasizing the
+manufacturer’s profit, and (ii) decreasing wholesale prices to provide the market share to retailers. In the case of a small degree
+of channel substitution, the wholesale price increases and the retailer increases the quantity as the degree of common ownership
+increases. Therefore, each firm improves its profit under common ownership by increasing its profit. In this case, one can infer that
+consumer surplus may decrease with increasing common ownership, because large common ownership leads to tacit collusion in
+the product market by supply chain parties. However, this is not always true in our model. In the case of a small degree of channel
+substitution, when the wholesale price increases, although the quantity supplied by the manufacturer decreases with increasing
+common ownership, that supplied by the retailer increases. The retailer radically increases the quantity in the retail market by
+reducing the quantity supplied by the manufacturer. Consequently, the total quantity supplied to the retail market increases as
+common ownership increases. In our additional analysis, we check the robustness of this result by assuming a direct selling cost
+for the manufacturer in Section 5.4. In addition, by using a numerical example, we confirm that our main results are presented in
+Section 5.2.
+    These results represent important contributions to supply chain management practices and earlier studies from the perspective of
+decision-making and policy-making. First, our results on retailer profits suggest that common ownership improves a retailer’s profit.
+This also indirectly enhances the profit in the encroachment case. These findings imply that retailers should aggressively join the
+
+
+   2 We obtain this information from the Rollins 2020 Annual Report and 2021 Proxy Statement, p.4. URL: https://www.rollins.com/~/media/Files/R/Rollins-
+
+V2/documents/annual-reports/2020-rollins-annual-report-v1.pdf (Last accessed, September 12, 2021)
+   3 We obtain this information from the Notice of Dick’s Sporting Goods’ Annual Meeting of Stockholders and 2021 Proxy Statement, p.5. URL: https:
+
+//s27.q4cdn.com/812551136/files/doc_financials/2021/04/DEF-14A-2021-DKS-Proxy-Statement_FINAL.2.pdf (Last accessed, September 12, 2021)
+   4 We obtain this information from the 2021 Proxy statement of Best Buy, p.40. URL: http://s2.q4cdn.com/785564492/files/doc_financials/2021/ar/2021-
+
+Best-Buy-Proxy.pdf (Last accessed, September 12, 2021)
+   5 We obtain this information from the 2021 Notice of Annual Meeting and Proxy Statement of General Electric Co., p.25. URL: https://www.ge.com/sites/
+
+default/files/ge_proxy2021.pdf (last accessed September 12, 2021)
+   6 Note that, in additional analysis, we assume an additional marginal cost when the manufacturer sells products to consumers directly.
+
+
+
+                                                                           2
+J. Hamamura                                                                                        International Review of Economics and Finance 96 (2024) 103596
+
+
+common ownership between retailers and manufacturers for supply chain coordination as a managerial insight. In particular, when
+the degree of channel substitution is small and the degree of common ownership is large, manufacturer encroachment improves
+retailer profit. Therefore, the practical implication of this result for supply chain management is that shareholders should increase
+their degree of common ownership under a small degree of channel substitution. Second, we propose optimal decision-making
+by supply chain parties with common ownership. For optimal decision-making, it is important to support supply chain parties in
+practice. Third, we find that common ownership has positive effects on the total surplus in the encroachment case. Hence, regarding
+supply chain management, society should accommodate common ownership by manufacturers and retailers from the perspective of
+an antitrust policy.
+
+2. Related literature
+
+    Our contributions can be clarified through the earlier supply chain and common-ownership studies. Additionally, using the
+game theoretical approach, many supply chain management studies elucidate the effects of opening a direct channel by a
+manufacturer (e.g., Chiang et al., 2003; Hamamura & Zennyo, 2021; Hsiao & Chen, 2013; Matsui & Tsunoda, 2022; Matsushima &
+Mizuno, 2018; Mizuno, 2012; Tsay & Agrawal, 2004). In this context, Chiang et al. (2003) presents a traditional economic analysis of
+a dual-channel supply chain. Additionally, Hamamura and Zennyo (2021), Pei and Yan (2015), Yoon (2016), and Zhang et al. (2020)
+use non-cooperative game theory to demonstrate the positive effects of spillover investments. From a managerial perspective, Matsui
+and Tsunoda (2022) considers the effects of exclusive territories on supply chain management. Additionally, Hua et al. (2010)
+includes the assumption of a delivery lead-time for a manufacturer in a direct channel. Few studies claim that manufacturer
+encroachment positively affects a retailer’s profit. Only a few studies have examined the effects of common ownership on supply
+chain management. We focus on the study that is closest to our model.
+    The effects of the dual-channel on the retailer’s profit and surplus were also investigated in previous studies (Arya et al., 2007; Sun
+et al., 2019; Yoon, 2016; Zhang et al., 2020). Arya et al. (2007) demonstrates the bright side of manufacturer encroachment, which
+enhances retailers’ profit. Additionally, Yoon (2016) describes that a manufacturer’s cost-reducing investment improves the retailer’s
+profits through the spillover effects of its investment. Furthermore, Zhang et al. (2020) considers demand-enhancing investments. Pei
+and Yan (2015) conducts supportive retailers’ services that coordinate the dual-channel distribution as an effective incentive. They
+assume that additional retail services positively impact demand. Hamamura and Zennyo (2021) describes the effects of a retailer’s
+voluntary investment in cost reduction on manufacturer encroachment. In addition, Hsiao and Chen (2013) explores an asymmetric
+channel structure despite the ex-ante symmetry between manufacturers.
+    In the supply chain study, Aviv and Shamir (2021) is closest to our research. They also explore the impact of common ownership
+on supply chain parties using non-cooperative game theory. However, while we assume common ownership between a manufacturer
+and retailer, Aviv and Shamir (2021) considers common ownership between horizontal retailers. In other words, while we shed light
+on the impact of common ownership on the strategies of supply chain parties with supplier encroachment, Aviv and Shamir (2021)
+focus only on indirect channels through retailers, assuming that one manufacturer does not open the direct channel. Additionally,
+while Aviv and Shamir (2021) assumes asymmetric information between supply chain parties, we do not assume this to clarify the
+impact of common ownership on strategies and surplus. Moreover, assuming a two-echelon supply chain comprised of one assembler
+and multiple upstream suppliers, Xiao et al. (2021) considers backward shareholding among supply chain parties. However, they
+do not examine the direct channels of the manufacturer.
+    Additionally, in the economics field, based on non-cooperative game theory, several findings in the study have described
+economic analyses of common (overlapping) ownership (e.g., Li & Zhang, 2021; López & Vives, 2019; Sato & Matsumura, 2020)
+because common ownership is an important issue from the perspective of antitrust policy. Li and Zhang (2021) demonstrates the
+adverse effects of common ownership on the consumer and total surplus in a duopoly, whereas Sato and Matsumura (2020) shows
+that increasing common ownership engenders decreased entry and may or may not improve total surplus. Therefore, common
+ownership helps improve the total surplus under a particular economic environment. Additionally, López and Vives (2019) shows
+that considering R&D spillover, common ownership enhances consumer surplus and total surplus. Among these reports, few have
+described studies demonstrating the positive aspects of common ownership on consumer surplus and total surplus with product
+market competition. Our study also assesses the positive effects of common ownership.
+    Empirical studies have indicated the importance of common ownership in supply chain management (Chen, 2021; Freeman,
+2021).7 In the recent study, Chen (2021) claims that common ownership facilitates innovation by improving relationships between
+supply chain parties. Additionally, Freeman (2021) demonstrates that common ownership enhances innovative collaboration
+by increasing R&D, patenting, and patent cross-citations. These empirical results indicate that common ownership has positive
+management. While common ownership among supply chain parties influences decision-making in supply chain studies, Aviv and
+Shamir (2021) only examines its effects. Therefore, one can infer that some light must be shed on common ownership among supply
+chain parties.8
+
+
+  7 Recently, financial economic studies empirically examine the effect of common ownership (e.g., Zhu et al., 2024). In these studies, several empirical studies
+
+analyze the effect of common ownership on the competition and decision-making of firms (e.g., Azar et al., 2018; Cheng et al., 2022; Dennis et al., 2022;
+Ramalingegowda et al., 2021). Therefore, one may infer that, recently, financial economics researchers widely pay attention to common ownership.
+  8 One may consider that our model is close to vertical shareholdings research (e.g., Flath, 1989; Fu et al., 2018). However, these studies do not assume
+
+manufacturer encroachment.
+
+
+                                                                               3
+J. Hamamura                                                                          International Review of Economics and Finance 96 (2024) 103596
+
+
+   We summarize the key differences between our study and previous studies as follows. (i) While prior studies do not consider
+common ownership among vertical supply chain parties with manufacturer encroachment, we consider common ownership by a
+shareholder between a manufacturer and retailer. (ii) We demonstrate that manufacturer encroachment positively impacts retailer
+profit. This result has been corroborated by several studies (e.g., Arya et al., 2007; Yoon, 2016). (iii) Assuming a dual-channel
+supply chain, we demonstrate the positive effects of common ownership on total surplus. While several prior studies demonstrate
+the positive impact of common ownership on total surplus (López & Vives, 2019; Sato & Matsumura, 2020), they do not assume
+a supply chain. Our study finds that common ownership supports supply chain participants and contributes to the total surplus.
+While common ownership is profitable, it harms the total anti-competition surplus. Therefore, the impact of common ownership
+on supply chain parties influences decisions regarding supply chain management and anti-competitive policies. Additionally, our
+results provide a new explanation for the impact of common ownership on supply chain management. Thus, our results explain joint
+investments by shareholders among supply chains, indicating that a firm’s profits improve with common ownership. Production is
+commonly owned in many cases (e.g., Rollins Inc. and Dick’s Sporting Goods, Caterpillar Inc., Harley Davidson Inc., and Best Buy and
+General Electric). Our findings can explain the common ownership practices of manufacturers. Our results suggest that manufacturers
+must determine their levels of common ownership and strategies after observing the degree of channel differentiation. Therefore, this
+study not only contributes to supply chain practice from the economic analysis perspective, but also suggests important implications
+from the perspective of antitrust policy.
+
+3. Main model
+
+    This study assumes a supply chain comprising a manufacturer (𝑀) and a retailer (𝑅) because we shed light on the dual-channel
+supply chain. The manufacturer produces goods at a marginal cost, 𝑐. For simplicity, this study normalizes 𝑐 = 0. The manufacturer
+sells products to the retailer at a wholesale price, 𝑤, before the retailer sells them to consumers as an indirect distribution channel. In
+addition, we assume that the manufacturer determines whether to open a direct distribution channel. In this study, the manufacturer
+opens a direct channel as an encroachment case, and one where it does not open a direct channel as a non-encroachment case.
+    When a manufacturer encroaches on the retail market using a direct channel, quantity competition occurs between the two
+channels. In this case, the manufacturer and retailer select the quantities 𝑞𝑀 and 𝑞𝑅 , respectively. In this study, 𝑝𝑀 and 𝑝𝑅 represent
+the prices in the direct and indirect channels, respectively. Consumers can buy products from the direct and indirect distribution
+channels. Following prior studies (e.g., Dixit, 1979), this study assumes the utility function of a representative consumer to be
+                                     1( 2               2
+                                                          )
+        𝑈 (𝑞𝑅 , 𝑞𝑀 ) = 𝑎(𝑞𝑅 + 𝑞𝑀 ) −   𝑞 + 2𝜃𝑞𝑅 𝑞𝑀 + 𝑞𝑀     ,                                                                          (1)
+                                     2 𝑅
+where 𝑎 (> 0) represents the potential market size and 𝜃 ∈ (0, 1] represents the degree of channel substitution. When 𝜃 is high, the
+two channels are highly substitutable. When 𝜃 approaches zero, both channels engage in a monopolistic market.
+    Considering the utility maximization of the consumer, subject to the budget constraint, the following inverse demand functions
+are obtained:
+
+       𝑝𝑖 = 𝑎 − 𝑞𝑖 − 𝜃𝑞𝑗 ,   𝑖, 𝑗 = 𝑅, 𝑀, 𝑖 ≠ 𝑗.                                                                                              (2)
+
+Based on Singh and Vives (1984), this study assumes that consumer surplus is 𝐶𝑆 =           2
+                                                                                          (𝑞𝑅                2 )∕2.
+                                                                                                + 2𝜃𝑞𝑅 𝑞𝑀 + 𝑞𝑀
+   We define the profit functions of the retailer and manufacturer as:
+
+       𝜋𝑅 = (𝑝𝑅 − 𝑤)𝑞𝑅 ,                                                                                                                      (3)
+       𝜋𝑀 = 𝑤𝑞𝑅 + 𝑝𝑀 𝑞𝑀 ,                                                                                                                     (4)
+
+In our main model, while we do not assume the additional selling cost in the direct channel (i.e., , direct channel inefficiencies) for
+simplicity, we will discuss the impact of direct selling cost, which was proposed by Arya et al. (2007) in Section 5.4. In this study,
+the total surplus is defined as the sum of the profits of all firms and consumer surpluses: 𝑇 𝑆 = 𝐶𝑆 +𝜋𝑅 +𝜋𝑀 . Such economic analysis
+is typically applied to policy-making. Based on an economic analysis, an antitrust policy in e-commerce was discussed. In this case,
+consumer and total surpluses are important variables to consider when discussing policy-making in the distribution. Therefore, our
+assumption of the surplus is reasonable when considering supply chain or distribution practices.
+    When the manufacturer does not open a direct channel, we assume 𝑞𝑀 = 0. Hence, the inverse demand function of an indirect
+channel is 𝑝𝑅 = 𝑎 − 𝑞𝑅 . In this case, the manufacturer’s profit function is 𝜋𝑀 = 𝑤𝑞𝑅 : Additionally, the manufacturer supplies the
+product through the retailer (i.e., an indirect channel). In this study, we assume that the manufacturer can choose to open the direct
+channel. In other words, we exclude cases in which the manufacturer does not supply products through indirect channels. This is
+because if the manufacturer has the option to stop the trade with the retailer, then the manufacturer sets 𝑞𝑀 = (𝑎 − 𝑐)∕2 and earns
+𝜋𝑀 = 𝑉𝑀 = (𝑎 − 𝑐)2 ∕4 as a monopolist profit. In this case, the manufacturer always closes the indirect channel, and therefore, we
+assume that the manufacturer must open the indirect channel in our analysis because we will discuss the common ownership among
+supply chain parties with the existence of both firms.
+    Based on the results of previous studies, this study assumes common ownership between a manufacturer and a retailer (e.g., Li
+& Zhang, 2021; López & Vives, 2019; Sato & Matsumura, 2020). In this case, the profit functions of firms 𝑉𝑀 and 𝑉𝑅 are:
+
+       𝑉𝑀 = 𝜋𝑀 + 𝜆𝜋𝑅 ,                                                                                                                        (5)
+       𝑉𝑅 = 𝜋𝑅 + 𝜆𝜋𝑀 ,                                                                                                                        (6)
+
+
+                                                                    4
+J. Hamamura                                                                                       International Review of Economics and Finance 96 (2024) 103596
+
+
+where 𝜆 ∈ (0, 1) denotes the degree of ownership. Because earlier studies assumed symmetric shares of ownership by owners, we also
+assumed symmetric shares, 𝜆, for simplicity. In our main model, we assume a symmetric ownership share to simplify our discussion
+and relax this assumption in Section 5.3 to check the robustness of our result. However, if we obtain an important result under the
+specific assumption, we can also show that in the relaxed case. When 𝜆 is large, the common owners share a large share of each
+firm. Our assumption is unique in terms of dual-channel supply chain studies because we aim to investigate the impact of common
+ownership on strategies, profits, and surpluses. In previous sections, using practical examples and previous studies, we discuss the
+importance of exploring the impact of common ownership on supply√chains. Therefore, 𝜆 is the most important assumption in
+examining the research question. In the main analysis, we assume 𝜆 < 2 − 1 to ensure the positive outcomes.
+    We assume the following timing for the game. First, the manufacturer determines whether to open a direct channel (stage 1).
+Second, the manufacturer sets the wholesale price (stage 2). Third, quantity competition occurs in the product market (Stage 3). In
+particular, when the manufacturer opens a direct channel, the manufacturer and retailer decide on quantities; otherwise, only the
+retailer decides on the supplied quantity. We assume that the manufacturer decides on the channel strategy because, in practice,
+whether the manufacturer opens a direct channel is a long-term decision. We use the sub-game perfect equilibrium as an equilibrium
+concept in this study and analyze the equilibrium by backward induction.
+
+4. Equilibrium analysis
+
+    We consider the following two cases (i.e., non-encroachment and encroachment), given the encroachment decision in stage 1.
+In Section 4.1, we propose the outcome of decisions after the manufacturer decides not to open a direct channel. In Section 4.2, we
+propose the outcomes of the encroachment case. Finally, we analyze the decision of the manufacturer on whether to open a direct
+channel in Section 4.3.
+
+4.1. Non-encroachment case
+
+   As described in this subsection, we derive the outcomes for the non-encroachment case. We denote the outcomes in this case with
+superscript 𝑁𝐸. In this case, the retailer chooses quantity at stage 3 to maximize Eq. (6) under 𝑞𝑀 = 0. We identify the retailer’s
+quantity decision in stage 3 as follows under the non-encroachment case.
+          𝑁𝐸      𝑎 − 𝑤(1 − 𝜆)
+         𝑞𝑅  =                 .                                                                                                                           (7)
+                       2
+This outcome reflects the effects of common ownership. When common ownership is large,                        𝑁𝐸
+                                                                                               is large because it decreases because,
+                                                                                                             𝑞𝑅
+in this case, the retailer emphasizes the manufacturer’s profit and induces profit from wholesales for the manufacturer. Therefore,
+common ownership modifies the double marginalization problem through its effects.
+    Next, we consider the manufacturer’s wholesale price decisions. Using Eq. (7), the manufacturer selects 𝑤 to maximize Eq. (5).
+Therefore, we obtain the following outcome.
+                        𝑎
+         𝑤𝑁𝐸 =                   .                                                                                                                         (8)
+                  (1 − 𝜆)(2 + 𝜆)
+Based on this outcome, we consider the effects of common ownership on wholesale prices in the supply chain. Differentiating 𝑤𝑁𝐸
+by 𝜆, we obtain
+         𝜕𝑤𝑁𝐸      𝑎(1 + 2𝜆)
+              =                   > 0.                                                                                                                     (9)
+          𝜕𝜆    (1 − 𝜆)2 (2 + 𝜆)2
+As shown in Eq. (9), the wholesale price increases as common ownership increases. This is true because in this case, the
+manufacturer wishes to raise the retailer’s profit, preventing excessive supply by the retailer, although the retailer wishes to raise the
+manufacturer’s profit by increasing the quantity. Excessive supply is the most important problem in cases of double marginalization.
+From Eq. (7), increasing the wholesale price is the best method to alleviate this problem. Therefore, the manufacturer increases the
+wholesale price to mitigate excessive supply in the quantity decision.9 From these outcomes, we obtain the following proposition.
+
+Proposition 1. In the non-encroachment case, the wholesale prices increase as the degree of common ownership increases.
+
+      Using Eqs. (7) and (8), we obtain the following outcomes in this case,
+           𝑁𝐸     𝑎(1 + 𝜆)                   𝑎(3 + 𝜆)
+          𝑞𝑅  =             ,        𝑝𝑁𝐸
+                                       𝑅 = 2(2 + 𝜆) ,
+                  2(2 + 𝜆)
+                              (          )
+          𝑁𝐸
+                  𝑎2 (1 + 𝜆) 1 − 2𝜆 − 𝜆2          𝑁𝐸          𝑎2 (1 + 𝜆)
+         𝜋𝑅     =                          ,    𝜋𝑀     =                  ,
+                       4(1 − 𝜆)(2 + 𝜆)2                  2(1 − 𝜆)(2 + 𝜆)2
+                  𝑎2 (1 + 𝜆)2                   𝑎2 (1 + 𝜆)2
+         𝑉𝑅𝑁𝐸   =              ,         𝑁𝐸
+                                        𝑉𝑀   =              .
+                  4(2 + 𝜆)2                      4(2 + 𝜆)
+
+
+  9   It can be inferred that the manufacturer decreases the wholesale price to mitigate the double marginalization problem under the price decision.
+
+
+                                                                               5
+J. Hamamura                                                                                            International Review of Economics and Finance 96 (2024) 103596
+        √
+When 𝜆 < 2 − 1, all outcomes are positive, and the second order conditions are satisfied.
+                                                      𝑁𝐸 to be
+  From this outcome, we consider the effects of 𝜆 on 𝑞𝑅
+           𝑁𝐸
+         𝜕𝑞𝑅             𝑎
+                 =             > 0.                                                                                                                               (10)
+          𝜕𝜆         2(2 + 𝜆)2
+The quantity set by the retailer in the non-encroachment case increases with 𝜆. This outcome implies that when firms emphasize
+the other supply chain party’s profit, the retailer increases the quantity because the manufacturer raises the wholesale price. In this
+case, the retailer also emphasizes the manufacturer’s profit and increases its quantity to improve the manufacturer’s profit under a
+high wholesale price. From this outcome, we obtain the following proposition.
+
+Proposition 2. In the non-encroachment case, the quantity set by the retailer increases with the degree of common ownership.
+   This proposition is influenced by the effects of common ownership on wholesale prices. Therefore, firms’ common ownership
+has an important effect on the decision-making of the retailer and manufacturer.
+   Finally, we obtain the following consumer surplus and total surplus in the non-encroachment case.
+                     𝑎2 (1 + 𝜆)2
+        𝐶𝑆 𝑁𝐸 =                  ,                                                                                                                                (11)
+                     8(2 + 𝜆)2
+                         (            )
+                     𝑎2 7 + 10𝜆 + 3𝜆2
+        𝑇 𝑆 𝑁𝐸 =                           .                                                                                                                      (12)
+                          8(2 + 𝜆)2
+In addition, we analyze the effects of 𝜆 on 𝐶𝑆 𝑁𝐸 and 𝑇 𝑆 𝑁𝐸 .
+         𝜕𝐶𝑆 𝑁𝐸    𝑎2 (1 + 𝜆)
+                 =            > 0,                                                                                                                                (13)
+           𝜕𝜆      4(2 + 𝜆)3
+         𝜕𝑇 𝑆 𝑁𝐸   𝑎2 (3 + 𝜆)
+                 =            > 0.                                                                                                                                (14)
+           𝜕𝜆      4(2 + 𝜆)3
+This result indicates that 𝐶𝑆 𝑁𝐸 and 𝑇 𝑆 𝑁𝐸 increase as 𝜆 increases. This result is interesting because few studies demonstrate the
+positive effects of common ownership on consumer surplus and total surplus with product market competition (López & Vives,
+2019; Sato & Matsumura, 2020). When the manufacturer emphasizes the retailer’s profit, it improves. Additionally, in the non-
+encroachment case, increasing 𝜆 enhances the quantity supplied in the product market. Therefore, these positive effects engender
+an improvement in the total surplus in the non-encroachment scenario. From this analysis, we obtain the following proposition.
+
+Proposition 3. In the non-encroachment case, increasing 𝜆 improves the total surplus; that is, 𝜕𝑇 𝑆 𝑁𝐸 ∕𝜕𝜆 > 0.
+   In earlier studies, an increase in the share of ownership was demonstrated to harm the total surplus, because common ownership
+engenders cartelization (e.g., Li & Zhang, 2021). In addition, earlier studies examined the anti-competitive effects of common
+ownership and antitrust regulations (e.g., Azar et al., 2018). Therefore, this result demonstrates new findings related to common
+ownership.
+
+4.2. Encroachment case
+
+   As explained in this subsection, we derive the outcomes of the encroachment case. We present the outcomes, in this case, using
+the superscript 𝐸. In this case, the retailer and manufacturer decide on the quantity at stage 3 to maximize Eqs. (5) and (6). The
+quantity decisions made by the retailer and manufacturer in Stage 3 are identified as
+          𝐸    𝑎 [2 − 𝜃(1 + 𝜆)] − 2(1 − 𝜆)𝑤
+         𝑞𝑅 =                               ,                                                                                                                     (15)
+                      4 − 𝜃 2 (1 + 𝜆)2
+         𝐸     𝑎 [2 − 𝜃(1 + 𝜆)] + 𝜃(1 − 𝜆)(1 + 𝜆)𝑤
+        𝑞𝑀   =                                     .                                                                                                              (16)
+                          4 − 𝜃 2 (1 + 𝜆)2
+From this outcome, when the wholesale price increases, 𝑞𝑅      𝐸 decreases and 𝑞 𝐸 increases.10
+                                                                                𝑀
+                                                                                                           𝐸 , 𝑞 𝐸 ). We get
+   Next, we consider Stage 2. At this stage, the manufacturer chooses the wholesale price to maximize 𝑉𝑀 (𝑞𝑅    𝑀
+              [ 3        3 − 2𝜃 2 (2 − 𝜆)(𝜆 + 1)2 − 4𝜃𝜆(1 + 𝜆) + 8
+                                                                   ]
+            𝑎  𝜃  (1 + 𝜆)
+      𝑤𝐸 =                      [                        ]           .                                                                                            (17)
+                       2(1 − 𝜆) 4(2 + 𝜆) − 3𝜃 2 (1 + 𝜆)2
+Based on this outcome, we consider the impact of common ownership on wholesale prices in the supply chain in an encroachment
+case. Differentiating 𝑤𝐸 by 𝜆, we obtain
+                        [                    (      )                    ]
+       𝜕𝑤𝐸      𝑎(1 − 𝜃) 3𝜃 4 (1 + 𝜆)4 − 4𝜃 2 5 + 𝜆2 (1 + 𝜆)2 + 32𝜆 + 16
+             =                       [                       ]2            ,                                            (18)
+        𝜕𝜆                 (1 − 𝜆)2 4(2 + 𝜆) − 3𝜃 2 (1 + 𝜆)2
+
+
+ 10 From the first-order conditions of each firm’s strategies, 𝜆 only has a role in shifting the slope of the best-response functions. Therefore, a strategic substitute
+
+between quantities holds in this case.
+
+
+                                                                                   6
+J. Hamamura                                                                                    International Review of Economics and Finance 96 (2024) 103596
+
+
+where 3𝜃 4 (1 + 𝜆)4 − 4𝜃 2 (5 + 𝜆2 )(1 + 𝜆)2 + 32𝜆 + 16 > 0 holds and 𝜕𝑤𝐸 ∕𝜕𝜆 > 0. This result implies that the wholesale price increases
+as 𝜆 increases under small 𝜃. This implication corresponds to the non-encroachment case because when 𝜃 is sufficiently small,
+each channel approaches a monopoly, and the situation is similar to the non-encroachment case. Therefore, the impact of 𝜆 on
+𝑤𝐸 is the same as that in the non-encroachment case. However, under a large 𝜃, the effect of increasing 𝜆 differs from that in the
+non-encroachment case (i.e., 𝜕𝑤𝐸 ∕𝜕𝜆 < 0). Under a large 𝜃, it is not profitable for the manufacturer to supply large quantities in the
+retail market because intense competition leads to cannibalization. Therefore, the manufacturer handles the retail market to enhance
+its own profit and the retailer’s profit under common ownership. From the discussion presented above, the following two effects
+are important to consider the effect of 𝜆 on wholesale price: (i) increasing wholesale prices because the retailer raises quantity by
+emphasizing the manufacturer’s profit, and (ii) decreasing wholesale prices to give the market to retailers. The second effect plays
+an important role when 𝜃 is large. Based on this outcome, we obtain the following proposition.
+                                                                                                                       √
+Proposition 4. In the encroachment case, when 3𝜃 4 (1 + 𝜆)4 − 4𝜃 2 (5 + 𝜆2 )(1 + 𝜆)2 + 32𝜆 + 16 < 0 and 𝜆 <             2 − 1 hold true, the wholesale
+price decreases as the degree of common ownership increases.
+
+   Using, Eq. (17), we calculate and obtain the following outcomes under an encroachment case.
+
+        𝐸         2𝑎(1 − 𝜃)(1 + 𝜆)
+       𝑞𝑅 =                            ,                                                                                                               (19)
+              4(2 + 𝜆) − 3𝜃 2 (1 + 𝜆)2
+        𝐸     𝑎 [2 − 𝜃(1 + 𝜆)] [4 + 𝜃(1 + 𝜆) + 2𝜆]
+       𝑞𝑀 =          [                        ]      ,                                                                                                 (20)
+                   2 4(2 + 𝜆) − 3𝜃 2 (1 + 𝜆)2
+                [                                            ]
+              𝑎 4(3 + 𝜆) − 4𝜃 − 4𝜃 2 (1 + 𝜆)2 + 𝜃 3 (1 + 𝜆)2
+       𝑝𝐸
+        𝑅 =              [                         ]           ,                                                                                       (21)
+                        2 4(2 + 𝜆) − 3𝜃 2 (1 + 𝜆)2
+                [                                      (            )]
+              𝑎 4(2 + 𝜆) − 2𝜃 (1 − 𝜆) (1 + 𝜆) + 𝜃 2 1 + 6𝜆 + 5𝜆2
+       𝑝𝐸
+        𝑀 =                   [                          ]             ,                                                                               (22)
+                             2 4(2 + 𝜆) − 3𝜃 2 (1 + 𝜆)2
+                                  [                                                      ]
+        𝐸
+              2𝑎2 (1 − 𝜃)2 (1 + 𝜆) 2 − (2 − 𝜃) (2 + 𝜃) 𝜆 − 2 (1 − 𝜃) (1 + 𝜃) 𝜆2 + 𝜃 2 𝜆3
+       𝜋𝑅 =                               [                        ]                       ,                                                           (23)
+                                  (1 − 𝜆) 4(2 + 𝜆) − 3𝜃 2 (1 + 𝜆)2
+        𝐸
+       𝜋𝑀 = 𝑤𝐸 𝑞 𝑅
+                 𝐸
+                   + 𝑝𝐸  𝐸
+                      𝑀 𝑞𝑀 ,                                                                                                                           (24)
+       𝑉𝑅𝐸 = 𝜋𝑅
+              𝐸     𝐸
+                + 𝜆𝜋𝑀 ,                                                                                                                                (25)
+        𝐸      𝐸       𝐸
+       𝑉𝑀 =   𝜋𝑀   + 𝜆𝜋𝑅 .                                                                                                                             (26)
+         √
+When 𝜆 < 2 − 1 holds, all outcomes are positive, and the second order conditions are satisfied.
+                                                      𝐸.
+  From this outcome, we consider the effects of 𝜆 on 𝑞𝑅
+        𝐸
+                      (                   )
+     𝜕𝑞𝑅    2𝑎(1 − 𝜃) 4 + 3𝜃 2 (1 + 𝜆)2
+           = [                          ]2 > 0.                                                                                                        (27)
+      𝜕𝜆       4(2 + 𝜆) − 3𝜃 2 (1 + 𝜆)2
+Therefore, the effect of 𝜆 is the same as in the non-encroachment case. When the second effect in wholesale pricing is strong, the
+manufacturer intends to enhance the profit of the retailer from the product market to avoid competition. In this case, the retailer
+emphasizes the manufacturer’s profits. The increasing quantity raises the transaction quantity between the retailer and manufacturer
+to improve the manufacturer’s profit. Therefore, 𝜕𝑞𝑅 𝐸 ∕𝜕𝜆 > 0 always holds.
+                                                   𝐸
+    Additionally, considering the effects of 𝜆 on 𝑞𝑀 , the mechanism is clear.
+          𝐸
+                            (               )
+       𝜕𝑞𝑀       4𝑎(1 − 𝜃)𝜃 3 + 4𝜆 + 𝜆2
+            = −[                           ]2 < 0.                                                                              (28)
+        𝜕𝜆        4(2 + 𝜆) − 3𝜃 2 (1 + 𝜆)2
+This outcome also indicates that increasing 𝜆 lowers the quantity of manufacturers in this case. In this case, whereas the retailer raises
+the quantity to improve the manufacturer’s profit, the manufacturer can reduce the quantity through the direct channel because
+the manufacturer can earn profit from the retailer’s behavior. If the manufacturer supplies a large quantity, then one can infer that
+this behavior has led to an excessive supply in the product market. These manufacturer and retailer behaviors point to collusion by
+common ownership, as demonstrated in earlier economic studies.
+    In addition, based on the outcomes of Eqs. (27)–(28), we propose the following.
+
+Proposition 5. In the encroachment case, the quantity set by the retailer increases as the degree of common ownership increases.
+
+Proposition 6.     In the encroachment case, the quantity set by the manufacturer decreases as the degree of common ownership increases.
+
+   In an intense competition case (i.e., a high degree of 𝜃), because the retailer desires to improve the manufacturer’s profit under
+a large 𝜆, the retailer aims to increase trade to enhance the manufacturer’s profit while avoiding product market competition.
+Therefore, under large 𝜆, the retailer chooses a tacit collusion strategy. This result is the same as that obtained in previous studies.
+
+                                                                            7
+J. Hamamura                                                                                     International Review of Economics and Finance 96 (2024) 103596
+
+
+    Finally, the consumer surplus and total surplus in the encroachment case are computed as
+                               𝑎2 𝐴 1
+        𝐶𝑆 𝐸 =     [                          ]2 ,                                                                                                      (29)
+                 8 4(2 + 𝜆) − 3𝜃 2 (1 + 𝜆)2
+                               𝑎2 𝐴 2
+        𝑇 𝑆𝐸 =     [                          ]2 ,                                                                                                      (30)
+                 8 3𝜃 2 (𝜆 + 1)2 − 4(𝜆 + 2)
+where 𝐴1 ≡ 16(5 + 6𝜆 + 2𝜆2 ) − 16𝜃𝜆(1 + 𝜆)(3 + 𝜆) − 4𝜃 2 (1 + 𝜆)(19 + 15𝜆 + 3𝜆2 − 𝜆3 ) + 4𝜃 3 (1 + 𝜆)3 (3 + 𝜆) + 𝜃 4 (1 + 𝜆)3 (9 + 𝜆), and
+𝐴2 ≡ 16(19 + 22𝜆 + 6𝜆2 ) − 16𝜃(1 + 𝜆)(3 + 𝜆)(4 + 𝜆) − 4𝜃 2 (1 + 𝜆)(25 + 57𝜆 + 25𝜆2 + 𝜆3 ) + 20𝜃 3 (1 + 𝜆)3 (3 + 𝜆) + 𝜃 4 (1 + 𝜆)3 (3 + 11𝜆).
+   In addition, we analyze the effect of 𝜆 on 𝐶𝑆 𝐸 and 𝑇 𝑆 𝐸 as
+        𝜕𝐶𝑆 𝐸         𝑎2 (1 − 𝜃)𝐴3
+              = [                         ]3 ,                                                                                                          (31)
+         𝜕𝜆    2 4(2 + 𝜆) − 3𝜃 2 (1 + 𝜆)2
+        𝜕𝑇 𝑆 𝐸         𝑎2 (1 − 𝜃)𝐴4
+               = [                         ]3 ,                                                                                                         (32)
+         𝜕𝜆     2 4(2 + 𝜆) − 3𝜃 2 (1 + 𝜆)2
+where 𝐴3 ≡ 16(1 + 𝜆) − 8𝜃(4 + 11𝜆 + 6𝜆2 + 𝜆3 ) − 4𝜃 2 (1 + 𝜆)2 (2 − 5𝜆 − 𝜆2 ) + 2𝜃 3 (1 + 𝜆)2 (19 + 8𝜆 + 𝜆2 ) − 6𝜃 4 (1 + 𝜆)4 − 3𝜃 5 (1 + 𝜆)4 , and
+𝐴4 ≡ 16(3 + 𝜆) − 8𝜃(8 + 11𝜆 + 6𝜆2 + 𝜆3 ) + 4𝜃 2 (𝜆 + 1)2 (8 + 𝜆 − 𝜆2 ) − 2𝜃 3 (1 + 𝜆)2 (1 − 16𝜆 − 5𝜆2 ) − 12𝜃 4 (1 + 𝜆)4 + 3𝜃 5 (1 + 𝜆)4 . Eqs. (31) and (32)
+are positive when 𝜃 is sufficiently small. Thus, 𝐶𝑆 𝑁𝐸 and 𝑇 𝑆 𝑁𝐸 increase as 𝜆 increases. We summarize this result in the following
+proposition:
+
+Proposition 7. In the encroachment case, the consumer surplus and total surplus increase as the degree of common ownership increases
+under specific economic conditions.
+
+Proof. See Appendix.
+     This is a surprising finding. Earlier studies conducted from an antitrust perspective find that when firms engage in competition
+in a product market, common ownership adversely affects consumer surplus and total surplus. In particular, in a marketing study,
+it is interesting that the anti-competitive effects of common ownership improve consumer surplus.
+     The effects of wholesale prices and quantities led to this result. For a small 𝜃, while the wholesale price increases and the quantity
+supplied by the manufacturer decreases as common ownership increases, the quantity supplied by the retailer increases as common
+ownership increases. In this case, a high degree of common ownership leads to a large quantity chosen by the retailer to improve
+the manufacturer’s profit. In addition, we can show ∣ 𝜕𝑞𝑅   𝐸 ∕𝜕𝜆 ∣>∣ 𝜕𝑞 𝐸 ∕𝜕𝜆 ∣ straightforwardly. This outcome implies that the effect of
+                                                                         𝑀
+increasing 𝜆 on the increase in retailer quantity is greater than the effect of increasing 𝜆 on the decrease in manufacturer quantity.
+
+4.3. Encroachment decision and comparison of retailer profits
+
+                                                                                                           𝐸 − 𝑉 𝑁𝐸 .
+    Using the earlier outcomes, we consider the manufacturer’s channel decisions. First, we analyze 𝛥𝑉𝑀 ≡ 𝑉𝑀    𝑀
+                 [   (            )                                         ]
+               𝑎2 𝜃 2 5 + 7𝜆 + 3𝜆2 (1 + 𝜆)2 − 8𝜃(1 + 𝜆)(2 + 𝜆)2 + 4(2 + 𝜆)2
+       𝛥𝑉𝑀 =                         [                         ]              > 0.                                                                      (33)
+                             4(2 + 𝜆) 4(2 + 𝜆) − 3𝜃 2 (1 + 𝜆)2
+By this outcome, because 𝛥𝑉𝑀 > 0 holds, the manufacturer always opens a direct channel.
+   The effects of manufacturer encroachment on retailer profits generally differ from those of the manufacturer’s profit. After
+defining 𝛥𝑉𝑅 = 𝑉𝑅𝐸 − 𝑉𝑅𝑁𝐸 , we obtain the following outcome.
+                                  𝑎2 𝐴 5
+        𝛥𝑉𝑅 =              [                          ]2 ,                                                                                              (34)
+                 4(𝜆 + 2)2 4(2 + 𝜆) − 3𝜃 2 (1 + 𝜆)2
+where 𝐴5 ≡ 16𝜆(2+𝜆)4 −32𝜃(1+𝜆)2 (2+𝜆)2 +4𝜃 2 (14−10𝜆−23𝜆2 −10𝜆3 −𝜆4 )(1+𝜆)2 (2+𝜆)+8𝜃 3 𝜆(1+𝜆)2 (2+𝜆)4 −𝜃 4 (9−2𝜆−11𝜆2 −5𝜆3 )(1+𝜆)4 .
+In light of this finding, we consider the retailer’s profit. The following proposition is obtained regarding the effect of manufacturer
+encroachment on the retailer’s profit.
+
+Proposition 8. When 𝜃 is sufficiently small, the manufacturer encroachment enhances the retailer’s profit. Formally, 𝛥𝑉𝑅 > 0 for a
+sufficiently small 𝜃.
+
+Proof. See Appendix.
+    This proposition indicates that manufacturer encroachment enhances the retailer’s profit. Although some studies have demon-
+strated the positive effects of manufacturer encroachment (e.g., Arya et al., 2007; Yoon, 2016), our results are supported by other
+mechanisms described in earlier reports in the literature. This proposition shows that, when the degree of product substitution is
+sufficiently small, manufacturer encroachment improves the retailer’s profit.
+    Fig. 1 illustrates the effect of 𝜃 on 𝑉𝑅𝐸 and 𝑉𝑅𝑁𝐸 under 𝑎 = 1. Fig. 1 shows that 𝜃 has no effect on 𝑉𝑅𝑁𝐸 because no competition
+exists between the supply chain parties. However, 𝑉𝑅𝐸 decreases as 𝜃 increases, because the product market competition between
+
+                                                                             8
+J. Hamamura                                                                                         International Review of Economics and Finance 96 (2024) 103596
+
+
+
+
+                                                  Fig. 1. Effects of 𝜃 on 𝑉𝑅𝐸 and 𝑉𝑅𝑁𝐸 under 𝑎 = 1 and 𝜆 = 0.2.
+
+
+
+
+       Fig. 2. Effects of 𝜃 and 𝑎 on 𝑉𝑅𝐸 and 𝑉𝑅𝑁𝐸 under 𝑎 = 1 and 𝜆 = 0.2. Note: The yellow graph represents 𝑉𝑅𝑁𝐸 , and the green graph represents 𝑉𝑅𝐸 .
+
+
+
+
+the retailer and manufacturer intensifies as 𝜃 increases. This figure indicates that under soft competition, 𝑉𝑅𝑁𝐸 < 𝑉𝑅𝐸 holds. Under
+a sufficiently small 𝜃, each firm faces the retail market as if it is a monopoly, and they earn large profits from the product market.
+Therefore, in the common ownership case, each firm improves its profit by improving both firms’ profits.11
+    Additionally, to consider the effect of 𝑎, we visualize the 3D figure in Fig. 2. In this figure, one can observe that 𝑎 does not have
+a serious impact on the difference of 𝑉𝑅 in this model. When 𝑎 approaches 0, the effect of 𝜃 is different from other cases. However,
+this case is a limited case.
+    Fig. 3 represents the regions where 𝛥𝑉𝑅 > 0 and 𝛥𝑉𝑅 < 0 under 𝑎 = 1. This figure also suggests the existence of a specific
+economic condition, 𝛥𝑉𝑅 > 0. In particular, under a small 𝜃, the region of 𝛥𝑉𝑅 > 0 is large. From Fig. 3, it is clear that 𝜆 > 0 plays
+an important role in the derivation of the results of our study. When 𝜆 is sufficiently large, 𝛥𝑉𝑅 > 0 is satisfied irrespective of the
+degree of 𝜃. Therefore, under a small 𝜆, we can obtain 𝛥𝑉𝑅 > 0 in a small 𝜃, and under a sufficiently large 𝜆, we can obtain 𝛥𝑉𝑅 > 0
+in any 𝜃. From this explanation, Proposition 8 indicates the condition that 𝛥𝑉𝑅 > 0 in our model.
+    We can confirm that while the wholesale price always increases in the non-encroachment case as common ownership increases,
+it decreases in the encroachment case as common ownership increases in a small degree of channel substitution. Therefore, in the
+case of encroachment, the retailer can enjoy profitable trade and supply large quantities in the retail market. Consequently, these
+positive effects lead to Proposition 8.
+    Because each firm, in this case, aims at collusion, which is likely to engender a cartel by reducing the supplied quantity, our result
+is similar to those reported in earlier studies based on an assumption of oligopolistic competition in a product market. However,
+retailers are generally exploited for their profits through manufacturer encroachment. Implying that common ownership enhances a
+retailer’s profit through mutual help by reducing the quantity of the manufacturer in our model, our study proposes new perspectives
+for supply chain management.
+
+
+ 11   In fact, although we can demonstrate the case in which 𝜋𝑅𝐸 > 𝜋𝑅𝑁𝐸 , interpreting its outcome and considering the underlying economic intuition is difficult.
+
+
+                                                                                9
+J. Hamamura                                                                                          International Review of Economics and Finance 96 (2024) 103596
+
+
+
+
+                                                    Fig. 3. Regions of 𝛥𝑉𝑅 > 0 and 𝛥𝑉𝑅 < 0 under 𝑎 = 1.
+
+
+                               Table 1
+                               Retailer’s profit matrix under specific parameters and 𝑎 = 10.
+                                                  𝜆 = 0.05                      𝜆 = 0.1                        𝜆 = 0.15
+                                𝜃   = 0.1         𝛥𝑉𝑅   ≃ 0.046 > 0             𝛥𝑉𝑅   ≃ 1.243 > 0              𝛥𝑉𝑅   ≃ 2.442 > 0
+                                𝜃   = 0.2         𝛥𝑉𝑅   ≃ −0.975 < 0            𝛥𝑉𝑅   ≃ 0.181 > 0              𝛥𝑉𝑅   ≃ 1.339 > 0
+                                𝜃   = 0.3         𝛥𝑉𝑅   ≃ −1.853 < 0            𝛥𝑉𝑅   ≃ −0.731 < 0             𝛥𝑉𝑅   ≃ 0.395 > 0
+                                𝜃   = 0.4         𝛥𝑉𝑅   ≃ −2.616 < 0            𝛥𝑉𝑅   ≃ −1.523 < 0             𝛥𝑉𝑅   ≃ −0.425 < 0
+
+
+
+
+5. Discussion
+
+5.1. Comparison of surplus
+
+   This section sheds light on the welfare effects. Using 𝐶𝑆 𝐸 and 𝐶𝑆 𝑁𝐸 to elucidate the effects of encroachment on the consumer
+surplus, we define 𝛥𝐶𝑆 ≡ 𝐶𝑆 𝐸 − 𝐶𝑆 𝑁𝐸 .
+                                    𝑎2 𝐴6
+       𝛥𝐶𝑆 =               [                          ]2 > 0,                                                                                                (35)
+                 8(2 + 𝜆)2 4(2 + 𝜆) − 3𝜃 2 (1 + 𝜆)2
+where 𝐴6 ≡ 16(2 + 𝜆)4 − 16𝜃𝜆(1 + 𝜆)(2 + 𝜆)2 (3 + 𝜆) − 4𝜃 2 (1 + 𝜆)(2 + 𝜆)(32 + 31𝜆 + 3𝜆2 − 5𝜆3 − 𝜆4 ) + 4𝜃 3 (1 + 𝜆)3 (2 + 𝜆)2 (3 + 𝜆) + 𝜃 4 (1 + 𝜆)3 (27 +
+13𝜆 − 14𝜆2 − 8𝜆3 ). This outcome implies that manufacturer encroachment always improves the consumer surplus. This is an intuitive
+result because if the channel increases, then the supplied quantities increase. Consequently, consumers can purchase products from
+their preferred channels.
+    In addition, using 𝑇 𝑆 𝐸 and 𝑇 𝑆 𝑁𝐸 to elucidate the effects of encroachment on the total surplus, we define 𝛥𝑇 𝑆 ≡ 𝑇 𝑆 𝐸 − 𝑇 𝑆 𝑁𝐸
+as.
+                                    𝑎2 𝐴 7
+       𝛥𝑇 𝑆 =              [                          ]2 > 0,                                                                                                (36)
+                 8(2 + 𝜆)2 4(2 + 𝜆) − 3𝜃 2 (1 + 𝜆)2
+where 𝐴7 ≡ 48(𝜆 + 2)4 − 16𝜃(2 + 𝜆)2 (1 + 𝜆)(3 + 𝜆)(4 + 𝜆) − 4𝜃 2 (1 + 𝜆)(2 + 𝜆)(1 + 4𝜆 + 𝜆2 )(8 + 5𝜆 + 𝜆2 ) + 20𝜃 3 (1 + 𝜆)3 (2 + 𝜆)2 (3 + 𝜆) − 𝜃 4 (1 +
+𝜆)3 (51 + 97𝜆 + 70𝜆2 + 16𝜆3 ). As 𝛥𝐶𝑆 > 0 is always satisfied, 𝛥𝑇 𝑆 > 0 also holds. The results of this analysis indicate that manufacturer
+encroachment is profitable for both consumer and total surpluses. Therefore, consumers and regulators should accommodate the
+encroachment of the manufacturer into the retail market from the perspective of total surplus in the product market.
+
+5.2. Numerical examples
+
+    In this section, we examine numerical examples to confirm whether our main results are robust or not. We specify 𝜆 and 𝜃 to
+calculate 𝛥𝑉𝑅 for 𝑎 = 10. In addition, we specify the combination between 𝜆 and 𝜃 as 𝜆 = 0.05, 0.1, 0.15, and 𝜃 = 0.1, 0.2, 0.3, 0.4.
+Because Proposition 8 requires a sufficiently small 𝜃, we specify 𝜃 as 𝜃 = 0.1, 0.2, 0.3, 0.4.      √ In addition, from the shareholders’
+perspective, 𝜆 ≤ 0.15 and because a large 𝜆 implies substantial domination. In this case, 𝜆 < 2 − 1, which is the positive condition
+of our main outcomes, is satisfied Based on this specification, we calculate 𝛥𝑉𝑅 for nine cases and present the results in Table 1.
+    From Table 1, under small 𝜃 (𝜃 = 0.1), 𝛥𝑉𝑅 > 0 is satisfied for any 𝜆. However, under a sufficiently large 𝜃 (𝜃 = 0.4), 𝛥𝑉𝑅 < 0 is
+satisfied for any 𝜆. In addition, we discuss the effect of 𝜆 on 𝛥𝑉𝑅 , as illustrated in Fig. 3. Table 1 indicates that increasing 𝜆 increases
+
+                                                                              10
+J. Hamamura                                                                                                 International Review of Economics and Finance 96 (2024) 103596
+
+
+𝛥𝑉𝑅 . Our numerical examples also demonstrate that 𝛥𝑉𝑅 increases with increases in 𝜃 and 𝜆. Therefore, from this example, we can
+infer that when 𝛥𝑉𝑅 > 0 is obtained under a sufficiently small 𝜃, we can also obtain 𝛥𝑉𝑅 under a relatively large 𝜃. Thus, from
+Proposition 8, one can confirm that our main result is robust.
+
+5.3. Asymmetric ownership
+
+   Next, we consider the degree of asymmetry of ownership share to examine the effect of common ownership. In this case, we
+define the degree of ownership share between the two parties as 𝜆𝑀 and 𝜆𝑅 . Therefore, we assume that the profit function of the
+manufacturer is 𝑉̂𝑀 = 𝜋𝑀 + 𝜆𝑀 𝜋𝑅 and the profit function of the retailer is 𝑉̂𝑅 = 𝜋𝑅 + 𝜆𝑅 𝜋𝑀 , where ̂ denotes the case of the
+asymmetric degree of ownership share. In this section, we assume 𝑎 = 1 for simplicity.
+   By backward induction, we derive the outcomes in the equilibrium under the non-encroachment case and obtain the following
+result.
+
+Result 1.     In the non-encroachment case, we obtain the following outcomes in equilibrium:
+        𝑁𝐸         1 − 𝜆𝑅 𝜆𝑀                            1 − 𝜆𝑀
+      𝑞̂𝑅  =                       , 𝑤̂ 𝑁𝐸 =                             ,
+              2(2 − 𝜆𝑅 𝜆𝑀 + 𝜆𝑀 )              (1 − 𝜆𝑅 )(2 − 𝜆𝑀 − 𝜆𝑀 𝜆𝑅 )
+                           [                         ]
+         𝑁𝐸
+              (1 − 𝜆𝑀 𝜆𝑅 ) 1 + 𝜆𝑀 𝜆2𝑅 − (3 − 𝜆𝑀 )𝜆𝑅         𝑁𝐸        (1 − 𝜆𝑀 )(1 − 𝜆𝑀 𝜆𝑅 )
+      𝜋̂ 𝑅  =                                          , 𝜋̂ 𝑀  =                               ,
+                    4(1 − 𝜆𝑅 )(2 − 𝜆𝑀 − 𝜆𝑀 𝜆𝑅 )2                  2(1 − 𝜆𝑅 )(2 − 𝜆𝑀 − 𝜆𝑀 𝜆𝑅 )2
+                   (1 − 𝜆𝑀 𝜆𝑅 )2                       (1 − 𝜆𝑀 𝜆𝑅 )2
+      𝑉̂𝑅𝑁𝐸 =                           𝑁𝐸
+                                      𝑉̂𝑀   =                               ,
+               4(2 − 𝜆𝑀 − 𝜆𝑀 𝜆𝑅 )   2          4(1 − 𝜆𝑅 )(2 − 𝜆𝑀 − 𝜆𝑀 𝜆𝑅 )
+                          (1 − 𝜆𝑀 𝜆𝑅 )2                                7 − 2𝜆𝑀 (2 + 5𝜆𝑅 ) + 𝜆2𝑀 𝜆𝑅 (4 + 3𝜆𝑅 )
+       ̂ 𝑁𝐸 =
+      𝐶𝑆                                           ,    𝑇̂𝑆
+                                                              𝑁𝐸
+                                                                   =                                            .
+                   8(2 − 𝜆𝑀 − 𝜆𝑀 𝜆𝑅           )2                               8(2 − 𝜆𝑀 − 𝜆𝑀 𝜆𝑅 )2
+                                                         √
+When 0 < 𝜆𝑀 < 1 and 0 < 𝜆𝑅 < (3∕𝜆𝑀 −                      (9 − 𝜆𝑀 )(1 − 𝜆𝑀 )∕𝜆2𝑀 − 1)∕2 ≡ 𝜆̄ 𝑅 are satisfied, all outcomes are positive.
+
+   Using Result 1, we consider the impact of ownership share on the quantity, wholesale price, profits, and surplus. Differentiating
+the variables by 𝜆𝑅 and 𝜆𝑀 , we obtain the following proposition in the asymmetric ownership share under the non-encroachment
+case.
+
+Proposition 9.          The degree of ownership share has the following impact on outcomes in the non-encroachment case:
+           𝑁𝐸
+       𝜕 𝑞̂𝑅                  𝑁𝐸
+                          𝜕 𝑞̂𝑅               𝜕 𝑤̂ 𝑁𝐸              𝜕 𝑤̂ 𝑁𝐸
+                 < 0,                > 0,             > 0,                 < 0,
+        𝜕𝜆𝑅                𝜕𝜆𝑀                 𝜕𝜆𝑅                  𝜕𝜆𝑀
+            𝑁𝐸
+       𝜕 𝜋̂ 𝑅                   𝑁𝐸
+                           𝜕 𝜋̂ 𝑅                  𝑁𝐸
+                                              𝜕 𝜋̂ 𝑀                    𝑁𝐸
+                                                                   𝜕 𝜋̂ 𝑀
+                 < 0,                > 0,             > 0,                 < 0,
+        𝜕𝜆𝑅                𝜕𝜆𝑀                  𝜕𝜆𝑅                 𝜕𝜆𝑀
+              𝑁𝐸                     𝑁𝐸                      𝑁𝐸                   𝑁𝐸
+          ̂
+       𝜕 𝐶𝑆                     ̂
+                             𝜕 𝐶𝑆                      𝜕 𝑇̂𝑆                𝜕 𝑇̂𝑆
+                   < 0,                     > 0,                < 0,                 > 0.
+         𝜕𝜆𝑅                   𝜕𝜆𝑀                        𝜕𝜆𝑅                 𝜕𝜆𝑀
+
+Proof. See Appendix.
+
+   Proposition 9 implies that the impact of ownership share on the outcomes differs between the two parties. Therefore, in the main
+model, one effect dominates the other’s outcomes. Specifically, the wholesale price, quantity, consumer surplus, and total surplus
+are improved by increasing 𝜆. This means that when we consider the quantity, consumer surplus, and total surplus, the impact of
+𝜆𝑀 plays an important role; when we consider the wholesale price, 𝜆𝑅 has a significant impact. Of course, when the supply chain
+party emphasizes the rival’s profit, its own profit decreases, and the other party’s profit increases.
+   Next, we focus on encroachment. In a similar manner, we derive the outcomes in this case and obtain the following result.
+
+Result 2.     In the encroachment case, we obtain the following outcomes in equilibrium:
+        𝐸                        2(1 − 𝜃)(1 − 𝜆𝑀 𝜆𝑅 )
+      𝑞̂𝑅 =                                                              ,
+             4(2 − 𝜆𝑀 − 𝜆𝑀 𝜆𝑅 ) − 𝜃 2 (1 + 𝜆𝑀 )(3 − 3𝜆𝑀 𝜆𝑅 − 𝜆𝑀 + 𝜆𝑅 )
+        𝐸    4(2 − 𝜆𝑀 − 𝜆𝑀 𝜆𝑅 ) − 2𝜃(1 + 𝜆𝑀 )(1 − 𝜆𝑀 𝜆𝑅 ) − 𝜃 2 (1 − 𝜆𝑀 )(1 + 𝜆𝑀 )(1 + 𝜆𝑅 )
+      𝑞̂𝑀  =           [                                                           ]        ,
+                     2 4(2 − 𝜆𝑀 − 𝜆𝑀 𝜆𝑅 ) − 𝜃 2 (1 + 𝜆𝑀 )(3 − 3𝜆𝑀 𝜆𝑅 − 𝜆𝑀 + 𝜆𝑅 )
+                               (                   )
+              8(1 − 𝜆𝑀 ) − 4𝜃 2𝜆𝑅 − 𝜆𝑀 − 𝜆𝑀 𝜆2𝑅 − 2𝜃 2 𝐵1 + 𝜃 3 (1 − 𝜆𝑀 )(1 + 𝜆𝑀 )(1 + 𝜆𝑅 )2
+      𝑤̂ 𝐸 =                 [                                                            ]   ,
+                  2(1 − 𝜆𝑅 ) 4(2 − 𝜆𝑀 − 𝜆𝑀 𝜆𝑅 ) − 𝜃 2 (1 + 𝜆𝑀 )(3 − 3𝜆𝑀 𝜆𝑅 − 𝜆𝑀 + 𝜆𝑅 )
+                                   [        (                                )      (                         )]
+         𝐸
+             2(1 − 𝜃)2 (1 − 𝜆𝑀 𝜆𝑅 ) 2 − 𝜆𝑅 6 − 2𝜆𝑀 − 𝜃 2 (1 − 𝜆𝑀 )(1 + 𝜆𝑀 ) + 𝜆2𝑅 2𝜆𝑀 + 𝜃 2 (1 − 𝜆𝑀 )(1 + 𝜆𝑀 )
+      𝜋̂ 𝑅 =                          [                                                         ]2               ,
+                             (1 − 𝜆𝑅 ) 4(2 − 𝜆𝑀 − 𝜆𝑀 𝜆𝑅 ) − 𝜃 2 (1 + 𝜆𝑀 )(3 − 3𝜆𝑀 𝜆𝑅 − 𝜆𝑀 + 𝜆𝑅 )
+         𝐸                                       𝐵2
+      𝜋̂ 𝑀 =             [                                                           ]2 ,
+              4(1 − 𝜆𝑅 ) 4(2 − 𝜆𝑀 − 𝜆𝑀 𝜆𝑅 ) − 𝜃 2 (1 + 𝜆𝑀 )(3 − 3𝜆𝑀 𝜆𝑅 − 𝜆𝑀 + 𝜆𝑅 )
+
+                                                                                         11
+J. Hamamura                                                                                               International Review of Economics and Finance 96 (2024) 103596
+
+
+        𝑉̂𝑅𝐸 = 𝜋̂ 𝑅
+                  𝐸         𝐸
+                    + 𝜆𝑅 𝜋̂ 𝑀 ,     𝐸
+                                  𝑉̂𝑀       𝐸
+                                       = 𝜋̂ 𝑀         𝐸
+                                              + 𝜆𝑀 𝜋̂ 𝑅 ,
+                                     [                           ]2
+                                      4(1 − 𝜃)𝜃(1 − 𝜆𝑀 𝜆𝑅 ) + 𝐵3
+         ̂ 𝐸=
+        𝐶𝑆           [                                                         ]2 ,
+                    8 4(2 − 𝜆𝑀 − 𝜆𝑀 𝜆𝑅 ) − 𝜃 2 (1 + 𝜆𝑀 )(3 − 3𝜆𝑀 𝜆𝑅 − 𝜆𝑀 + 𝜆𝑅 )
+           𝐸
+               ̂ 𝐸 + 𝜋̂ 𝐸 + 𝜋̂ 𝐸 ,
+        𝑇̂𝑆 = 𝐶𝑆       𝑅      𝑀
+
+where 𝐵1 ≡ 2 + 𝜆𝑀 (1 − 𝜆𝑅 )2 − 𝜆2𝑀 (1 + 2𝜆𝑅 − 𝜆2𝑅 ), 𝐵2 ≡ 16(6 + 𝜆2𝑀 (1 + 3𝜆𝑅 − 𝜆2𝑅 − 𝜆3𝑅 ) − 𝜆𝑀 (6 + 2𝜆𝑅 − 4𝜆2𝑅 ) − 4𝜆𝑅 ) − 64𝜃(1 − 𝜆𝑀 )(1 − 𝜆𝑀 𝜆𝑅 ) −
+4𝜃 2 (7 + 𝜆4𝑀 (1 − 𝜆𝑅 )𝜆2𝑅 + 𝜆3𝑀 (2 − 8𝜆3𝑅 + 4𝜆2𝑅 + 6𝜆𝑅 ) − 𝜆2𝑀 (9 + 5𝜆3𝑅 − 21𝜆2𝑅 + 19𝜆𝑅 ) + 2𝜆𝑀 (6 + 𝜆3𝑅 + 7𝜆2𝑅 − 8𝜆6 ) − 4𝜆2𝑅 − 7𝜆𝑅 ) + 8𝜃 3 (1 + 𝜆𝑀 )(3 +
+𝜆3𝑀 (1 − 𝜆𝑅 )𝜆2𝑅 + 𝜆2𝑀 (5 − 𝜆𝑅 )𝜆2𝑅 − 7𝜆𝑀 𝜆𝑅 − 𝜆𝑀 + 𝜆𝑅 ) − 𝜃 4 (1 − 𝜆𝑀 )(1 + 𝜆𝑀 )(1 + 𝜆𝑅 )(3 + 𝜆2𝑀 (1 + 4𝜆𝑅 − 5𝜆2𝑅 ) − 4𝜆𝑀 (1 + 𝜆2𝑅 ) − 𝜆2𝑅 + 4𝜆𝑅 ),
+and 𝐵3 ≡ 4(2 − 𝜆𝑀 − 𝜆𝑀 𝜆𝑅 ) − 2𝜃(1 + 𝜆𝑀 )(1 − 𝜆𝑀 𝜆𝑅 ) − 𝜃 2 (1 − 𝜆𝑀 )(1 + 𝜆𝑀 )(1 + 𝜆𝑅 ), Additionally, when 0 < 𝜆𝑀 < 1 and 0 < 𝜆𝑅 < 𝜆̄ 𝑅 are
+satisfied, all the outcomes are positive.
+
+   Additionally, in contrast to the non-encroachment case, the strategic effect in retail market competition plays an important role in
+considering the effect of common ownership. Therefore, using Result 2, we consider the impact of ownership share on the quantity,
+wholesale price, profits, and surplus. While, differentiating outcomes by 𝜆𝑅 and 𝜆𝑀 , we examine the impact of common ownership.
+                                                                       𝐸 ∕𝜕𝜆
+Because it is difficult to specify the understandable outcomes in 𝜕 𝜋̂ 𝑀                ̂
+                                                                            𝑀 and 𝜕 𝐶𝑆∕𝜕𝜆𝑀 , we initially focus on other outcomes.
+Consequently, we obtain the following proposition in the asymmetric ownership share under the encroachment case:
+
+Proposition 10.         The degree of ownership share has the following impact on the outcomes in the encroachment case.
+            𝐸
+        𝜕 𝑞̂𝑅               𝐸
+                        𝜕 𝑞̂𝑀                                           𝐸
+                                                                   𝜕 𝜋̂ 𝑅                    𝐸
+                                                                                        𝜕 𝜋̂ 𝑅               𝐸
+                                                                                                        𝜕 𝜋̂ 𝑀              𝐸
+                                       𝜕 𝑤̂ 𝐸        𝜕 𝑤̂ 𝐸                                                             𝜕 𝑇̂𝑆
+                > 0,            < 0,          > 0,          < 0,            < 0,                 > 0,            > 0,         > 0.
+        𝜕𝜆𝑀             𝜕𝜆𝑀            𝜕𝜆𝑅           𝜕𝜆𝑀           𝜕𝜆𝑅                  𝜕𝜆𝑀             𝜕𝜆𝑅              𝜕𝜆𝑀
+Additionally, we obtain
+            𝐸
+        𝜕 𝑞̂𝑅
+                ⋛ 0,   𝜆𝑀 ⋛ 𝛼,
+        𝜕𝜆𝑅
+            𝐸
+        𝜕 𝑞̂𝑀
+                ⋛ 0,    𝜆𝑀 ⋛ 𝛼,
+        𝜕𝜆𝑅
+                𝐸
+        𝜕 𝑇̂𝑆
+              ⋛ 0,        𝜆𝑀 ⋚ 𝛼,
+         𝜕𝜆𝑅
+                𝐸
+           ̂
+        𝜕 𝐶𝑆
+             > 0,         𝑢𝑛𝑑𝑒𝑟 𝜆𝑀 > 𝛼 𝑎𝑛𝑑 𝜃 > 𝛽,
+         𝜕𝜆𝑅
+                𝐸
+           ̂
+        𝜕 𝐶𝑆
+             < 0,         𝑢𝑛𝑑𝑒𝑟 𝜆𝑀 < 𝛼 𝑎𝑛𝑑 𝜃 < 𝛽,
+         𝜕𝜆𝑅
+where 𝛼 and 𝛽 are defined in Appendix.
+
+Proof. See Appendix.
+
+    From this proposition, we can confirm that the effects of 𝜆𝑅 on 𝑤, 𝜋𝑅 , and 𝜋𝑀 do not differ between the non-encroachment
+and encroachment cases. Moreover, the effects of 𝜆𝑀 on 𝑞𝑅 , 𝑤, 𝜋𝑅 , and 𝑇 𝑆 also do not differ between the non-encroachment
+and encroachment cases. However, depending on the parameters, 𝜆𝑅 and 𝜆𝑀 affect 𝑞𝑅 , 𝑞𝑀 , 𝜋𝑀 , 𝐶𝑆, and 𝑇 𝑆. In particular, in
+the non-encroachment case, the manufacturer does not set 𝑞𝑀 because it does not open the direct channel. While 𝑞̂𝑀  𝐸 decreases
+
+as 𝜆𝑀 because the manufacturer does not obtain market share by emphasizing the retailer’s profit. Depending on the economic
+environment, 𝜆𝑅 has a different effect.
+                                 𝐸 ∕𝜕𝜆
+    In addition, we explore 𝜕 𝜋̂ 𝑀              ̂                                                          𝐸
+                                       𝑀 and 𝜕 𝐶𝑆∕𝜕𝜆𝑀 to improve our understanding. First, we confirm 𝜕 𝜋̂ 𝑀 ∕𝜕𝜆𝑀 and obtain the
+following observations:
+
+Observation 1.         The manufacturer’s profit increases as 𝜆𝑀 increases under a specific economic environment.
+
+Proof. See Appendix.
+
+   Generally, an increase of 𝜆𝑀 means that the manufacturer strongly emphasizes the retailer’s profit; therefore, the manufacturer
+enhances the retail market by reducing the quantity or the wholesale price to enhance the retailer’s profit. However, in a specific case,
+by reducing the quantity, both firms can engage in tacit collusion in the retail market. On the other hand, because the manufacturer
+reduces the wholesale price to improve the retailer’s profit and the retailer can enhance the quantity, the total surplus improves as
+𝜆𝑀 increases.
+                        ̂ 𝐸 ∕𝜕𝜆𝑀 and obtain the following observations:
+   Next, we consider 𝜕 𝐶𝑆
+
+Observation 2.         The consumer surplus increases as 𝜆𝑀 increases in a specific economic environment.
+
+Proof. See Appendix.
+
+                                                                                   12
+J. Hamamura                                                                             International Review of Economics and Finance 96 (2024) 103596
+
+
+
+
+                                   Fig. 4. The effect of 𝜆𝑅 and 𝜆𝑀 on 𝜕𝜋𝑅 ∕𝜕𝜆𝑅 under 𝑎 = 1 and 𝜃 = 99∕100.
+
+
+
+
+                                      Fig. 5. The effect of 𝜆𝑀 on 𝜕𝜋𝑀 ∕𝜕𝜆𝑀 under 𝑎 = 1 and 𝜃 = 99∕100.
+
+
+
+
+    This observation indicates that, while the manufacturer enhances common ownership, it may yield a positive outcome for
+consumer surplus. Additionally, while consumer surplus decreases as 𝜆𝑀 increases in a specific case, tacit collusion improves the
+total profits of the supply chain parties. This opposite effect leads to an improvement in total surplus.
+    Finally, we analyze whether manufacturer encroachment under common ownership improves the retailer’s profit. Based on this
+analysis, we obtain the following proposition.
+
+Proposition 11.   In a specific economic environment, manufacturer encroachment improves the retailer’s profit. Formally, 𝛥𝑉̂𝑅 ≡
+̂ 𝐸  ̂ 𝑁𝐸
+𝑉𝑅 − 𝑉𝑅 > 0 for a specific case.
+
+Proof. See Appendix.
+
+   From this additional analysis, we can confirm that the main results in the prior sections are obtained. Therefore, under
+asymmetric ownership share, while we obtain the complex result, we can confirm that our main result is robust. However, an
+asymmetric case helps to understand the effect of common ownership among supply chain parties with manufacturer encroachment.
+This robustness check encourages us to suggest our implications for decision-making and regulation practice.
+   Lastly, we consider the optimal choice of 𝜆𝑅 and 𝜆𝑀 to maximize the profits 𝜋𝑅 and 𝜋𝑀 respectively. Under the non-encroachment
+case, because we can confirm that both firms’ profit decreases as their own share increases from Proposition 9, both firms do not
+enhance the level of 𝜆𝑖 to improve the profit. Consequently, under the non-encroachment case, both firms choose 𝜆𝑖 = 0 to maximize
+their profits.
+   On the other hand, under the encroachment case, we cannot obtain the explicit outcome for the complexity. Therefore, we specify
+𝜃 and propose the important outcomes numerically in this analysis. For example, under 𝜃 = 99∕100, we observe that 𝜆𝑀 ≃ 2.40864
+and 𝜆𝑅 ≃ 0.289482 are obtained as outcomes of maximization problems, which satisfy the second-order condition. However, the
+above outcomes do not satisfy the conditions of 0 < 𝜆𝑀 < 1 and 0 < 𝜆𝑅 < 1.
+   To consider this problem, we confirm whether the corner solution is optimal for both firms using the figure. First, we consider
+𝜕𝜋𝑅 ∕𝜕𝜆𝑅 because the owner of the retailer decides the level of ownership to maximize the profit. Considering 𝜕𝜋𝑅 ∕𝜕𝜆𝑅 , we draw
+the figure with respect to 𝜆𝑅 and 𝜆𝑀 in Fig. 4. In this figure, the gray surface denotes the region 𝜕𝜋𝑅 ∕𝜕𝜆𝑅 = 0, and we can confirm
+that 𝜕𝜋𝑅 ∕𝜕𝜆𝑅 = 0 is always negative in under 𝑎 = 1 and 𝜃 = 99∕100. In other words, 𝜋𝑅 decreases as 𝜆𝑅 increases, and therefore,
+the owner of the retailer does not enhance 𝜆𝑅 to maximize the profit. This implies that the owner chooses 𝜆𝑅 = 0 in this case.
+   On the other hand, given that the owner chooses 𝜆𝑅 = 0, the manufacturer considers the optimal 𝜆𝑀 in this case. To consider
+the effect of 𝜆𝑀 on 𝜕𝜋𝑀 ∕𝜕𝜆𝑀 , we present Fig. 5. In this figure, we can find that, depending on the level of 𝜆𝑀 , 𝜕𝜋𝑀 ∕𝜕𝜆𝑀 > 0 and
+𝜕𝜋𝑀 ∕𝜕𝜆𝑀 < 0 are obtained. In other words, there is an optimal level of 𝜆𝑀 as an interior solution under 𝑎 = 1 and 𝜃 = 99∕100 to
+maximize 𝜋𝑀 . We solve 𝜕𝜋𝑀 ∕𝜕𝜆𝑀 = 0 to consider the maximization problem, we obtain 𝜆𝑀 ≃ 0.153 as an optimal 𝜆𝑀 . Because,
+under 𝜆𝑀 > 0.153, 𝜋𝑀 decreases as 𝜆𝑀 increases, and, under 𝜆𝑀 < 0.153, 𝜋𝑀 increases as 𝜆𝑀 increases, 𝜆 ≃ 0.153 maximizes the
+profit of the manufacturer.
+
+                                                                     13
+J. Hamamura                                                                                             International Review of Economics and Finance 96 (2024) 103596
+
+                           Table 2
+                           Outcomes under non-encroachment and encroachment case with a direct selling cost.
+                                     Non-encroachment case (𝑁𝐸)         Encroachment case (𝐸)
+                                          1                             5+3𝜆−𝑐𝑀 (1+𝜆)
+                            𝑤̃        (1−𝜆)(2+𝜆)                           2(5+3𝜆)
+                                       1+𝜆                               2𝑐𝑀 (1+𝜆)
+                            𝑞̃𝑅       2(2+𝜆)                            (1−𝜆)(5+3𝜆)
+                                                                        (1−𝜆)(5+3𝜆)−𝑐𝑀 (7+2𝜆−𝜆2 )
+                            𝑞̃𝑀      –                                         2(1−𝜆)(5+3𝜆)
+                                       3+𝜆                              5+3𝜆+𝑐𝑀 (3+𝜆)
+                            𝑝̃𝑅       2(2+𝜆)                               3(5+3𝜆)
+                                                                        5+3𝜆+𝑐𝑀 (3+𝜆)
+                            𝑝̃𝑀      –                                     3(5+3𝜆)
+                                                                            [ 𝑐2                                       ]
+                                          1+𝜆                           1          (45+41𝜆−𝜆2 −5𝜆3 )
+                            𝜋̃𝑀       2(1−𝜆)(2+𝜆)2                      4
+                                                                               𝑀
+                                                                                    (1−𝜆)(5+3𝜆)2
+                                                                                                        + 1 − 2𝑐𝑀
+                                                                          2
+                                      (1+𝜆)(1−2𝜆−𝜆2 )                   2𝑐𝑀 (1+𝜆)(2+𝜆)
+                            𝜋̃𝑅         4(1−𝜆)(2+𝜆)2                     (1−𝜆)(5+3𝜆)2
+                                                                                                     2
+                                      (1+𝜆)2                            (1−𝜆)(5+3𝜆)−2𝑐𝑀 (1−𝜆)(5+3𝜆)+𝑐𝑀 (3+𝜆)2
+                            𝑉̃𝑀       4(2+𝜆)                                             4(1−𝜆)(5+3𝜆)
+                                                                            [ 𝑐2                                          ]
+                                       (1+𝜆)2                           1          (16+69𝜆+49𝜆2 −𝜆3 −5𝜆4 )
+                            𝑉̃𝑅       4(2+𝜆)2                           4
+                                                                               𝑀
+                                                                                      (1−𝜆)(5+3𝜆)2
+                                                                                                             + 𝜆(1 − 2𝑐𝑀 )
+
+                             ̃         (1+𝜆)2                           [5+3𝜆−𝑐𝑀 (3+𝜆)]2
+                            𝐶𝑆        8(2+𝜆)2                               8(5+3𝜆)2
+                                       (1+𝜆)2
+                                                                                                               2
+                                                                        3(1−𝜆)(5+3𝜆)2 −2𝑐𝑀 (1−𝜆)(5+3𝜆)(13+7𝜆)+𝑐𝑀 (131+127𝜆+9𝜆2 −11𝜆3 )
+                            𝑇̃𝑆       8(2+𝜆)2                                                          8(1−𝜆)(5+3𝜆)2
+
+
+
+
+    Assuming the endogenous ownership, we find that the common ownership may arise in equilibrium. This result also indicates
+that it becomes a good consequence for the supply chain to have a small share of the retailer. One can infer that while this result
+may suggest vertical integration to the manufacturer, the existence of the decision rights for the retailer plays an important role in
+enhancing the supply chain-wide profit.
+    However, under the common ownership case, one can consider that owners hope to enhance the supply chain-wide profit because
+firms partially have common owners in our assumption. In the future study, one can analyze the case to maximize the supply
+chain-wide profit with common ownership.
+
+5.4. Additional cost on a direct channel
+
+    Finally, following Arya et al. (2007), we analyze the case in which the manufacturer is confronted with selling costs in a direct
+channel. Given these circumstances, the manufacturer’s profit is defined as 𝜋̃𝑀 = (𝑝𝑀 − 𝑐𝑀 )𝑞𝑀 + 𝑤𝑞𝑅 , where ∼ denotes the case in
+which the manufacturer faces selling costs in the direct channel and 𝑐𝑀 (> 0) represents additional selling costs in the direct channel.
+In addition, we normalize 𝑎 = 1 (> 𝑐𝑀 ) and 𝜃 = 1 for simplicity. While the degree of product differentiation has an important role
+to consider the main model, because we can demonstrate the robustness of our main results and our purpose of this section is to
+show the robustness of our results, we normalize 𝜃 as 1. The other settings were the same      √ as those in the basic model. Solving this
+case using backward induction, we obtain the outcomes proposed in                                                                          2
+                                                                       √ Table 2. When 𝜆 < 2 − 1 and 𝑐𝑀 < (1 − 𝜆)(5 + 3𝜆)∕(7 + 2𝜆 − 𝜆 )
+are satisfied, all outcomes are positive. Therefore, we assume 𝜆 < 2 − 1 and 𝑐𝑀 < (1 − 𝜆)(5 + 3𝜆)∕(7 + 2𝜆 − 𝜆2 ).
+    These outcomes demonstrate that direct selling costs play an important role in firms’ strategies and profits. In particular,
+wholesale prices decrease as 𝑐𝑀 increases, and market prices increase as 𝑐𝑀 increases. In addition, the retailer’s quantity, 𝑞̃𝑅          𝐸,
+
+increases as 𝑐𝑀 increases, and the manufacturer’s quantity, 𝑞̃𝑀   𝐸 , decreases as 𝑐   increases. This result  indicates that direct selling
+                                                                                     𝑀
+costs improve the retailer’s market share and that the manufacturer is adversely affected by direct selling costs.
+    First, we examine the profits and encroachment decisions of manufacturers. We define 𝛥𝑉̃𝑀 ≡ 𝑉̃𝑀     𝐸 − 𝑉̃ 𝑁𝐸 and obtain the following
+                                                                                                              𝑀
+outcome.
+                               (          )                                2 (2 + 𝜆)(3 + 𝜆)2
+                (1 − 𝜆)(5 + 3𝜆) 1 − 𝜆 − 𝜆2 − 2𝑐𝑀 (1 − 𝜆)(2 + 𝜆)(5 + 3𝜆) + 𝑐𝑀
+        𝛥𝑉̃𝑀 =                                                                               .                                         (37)
+                                          4(1 − 𝜆)(2 + 𝜆)(5 + 3𝜆)
+                                         √
+When (1 − 𝜆)(5 + 3𝜆)∕(3 + 𝜆)2 < 𝑐𝑀 < (1 + 𝜆)4 (1 − 𝜆)(5 + 3𝜆)∕(2 + 𝜆)(3 + 𝜆)4 , 𝛥𝑉̃𝑀 < 0 holds. Therefore, in this case, 𝑉̃𝑀   𝐸 < 𝑉̃ 𝑁𝐸 is
+                                                                                                                                      𝑀
+obtained. The manufacturer does not open direct channels in the retail market. We summarize this result in the following proposition.
+
+Proposition 12. In a specific economic environment, the manufacturer
+                                                             √        does not encroach on the retail market with direct selling costs.
+Formally, 𝛥𝑉̃𝑀 < 0 holds when (1 − 𝜆)(5 + 3𝜆)∕(3 + 𝜆)2 < 𝑐𝑀 < (1 + 𝜆)4 (1 − 𝜆)(5 + 3𝜆)∕(2 + 𝜆)(3 + 𝜆)4 .
+
+    The negative effect of direct selling costs on manufacturer quantity leads to this result. When 𝑐𝑀 is sufficiently large, the
+manufacturer reduces the quantity supplied to the product market through the direct selling costs. Therefore, encroachment is
+not profitable for the manufacturers. Fig. 6 shows the regions where 𝛥𝑉̃𝑀 > 0 and 𝛥𝑉̃𝑀 < 0. This figure implies that encroachment
+is not profitable for the manufacturer under conditions of high 𝑐𝑀 and 𝜆.
+    In addition, we consider the effects of manufacturer encroachment on retailer profit. After defining 𝛥𝑉̃𝑅 ≡ 𝑉̃𝑅𝐸 − 𝑉̃𝑅𝑁𝐸 , we obtain
+the following outcome.
+                                 (                 )                                    2 𝐵 (2 + 𝜆)2
+               −(5 + 3𝜆)2 (1 − 𝜆) 1 − 2𝜆 − 3𝜆2 − 𝜆3 − 2𝑐𝑀 𝜆(1 − 𝜆)(2 + 𝜆)2 (5 + 3𝜆)2 + 𝑐𝑀  2
+        𝛥𝑉̃𝑅 =                                                                                       ,                              (38)
+                                                            2
+                                             4(1 − 𝜆)(𝜆 + 2) (3𝜆 + 5) 2
+
+
+                                                                       14
+J. Hamamura                                                                               International Review of Economics and Finance 96 (2024) 103596
+
+
+
+
+                                                    Fig. 6. Regions of 𝛥𝑉̃𝑀 > 0 and 𝛥𝑉̃𝑀 < 0.
+
+
+
+
+where 𝐵2 ≡ 16 + 69𝜆 + 49𝜆2 − 𝜆3 − 5𝜆4 , We can demonstrate that a case exists in which 𝛥𝑉̃𝑅 > 0 under a specific 𝑐𝑀 . In addition, this
+result can be specified more easily than when no direct selling costs are incurred. This result implies the bright side of manufacturer
+encroachment on the retailer’s profit with direct selling costs, similar to Arya et al. (2007). We summarize this result in the following
+proposition:
+
+Proposition 13. Under specific conditions, manufacturer encroachment enhances the retailer’s profit through direct selling costs. Formally,
+𝛥𝑉̃𝑅 > 0 for a specific 𝑐𝑀 .
+
+Proof. See Appendix.
+
+   Next, we consider welfare effects. Under these conditions, 𝛥𝐶𝑆    ̃ ≡ 𝐶𝑆 ̃ 𝐸 − 𝐶𝑆
+                                                                                   ̃ 𝑁𝐸 is computed as
+               [                            ][                                  ]
+                 5 + 3𝜆 − 𝑐𝑀 (2 + 𝜆)(3 + 𝜆) (3 + 2𝜆)(5 + 3𝜆) − 𝑐𝑀 (2 + 𝜆)(3 + 𝜆)
+         ̃ =
+       𝛥𝐶𝑆                                                                        > 0.                                                            (39)
+                                        8(2 + 𝜆)2 (5 + 3𝜆)2
+                                                             √
+Therefore, in this case, 𝛥𝐶𝑆 is always positive when 𝜆 < 2 − 1 and 𝑐𝑀 < (1 − 𝜆)(5 + 3𝜆)∕(7 + 2𝜆 − 𝜆2 ).
+                            𝐸       𝑁𝐸
+   In addition, 𝛥𝑇̃𝑆 ≡ 𝑇̃𝑆 − 𝑇̃𝑆         is computed as:
+                                                                                   2 𝐵 (2 + 𝜆)2
+                (1 − 𝜆)(5 + 2𝜆)(5 + 3𝜆)2 − 2𝑐𝑀 (1 − 𝜆)(5 + 3𝜆)(13 + 7𝜆)(2 + 𝜆)2 + 𝑐𝑀  3
+       𝛥𝑇̃𝑆 =                                                                                      ,                                              (40)
+                                           8(1 − 𝜆)(2 + 𝜆)2 (5 + 3𝜆)2
+where 𝐵3 ≡ 131 + 127𝜆 + 9𝜆2 − 11𝜆3 , From this outcome, 𝛥𝑇̃𝑆 < 0 is obtained under specific economic conditions. We summarize
+this result in the following proposition:
+
+Proposition 14. Under specific conditions, manufacturer encroachment adversely affects the total surplus (i.e., 𝛥𝑇̃𝑆 < 0).
+
+Proof. See Appendix.
+
+    This proposition implies that whereas manufacturer encroachment improves consumer surplus, total surplus is adversely affected
+by manufacturer encroachment because the effects of opening a direct channel with direct selling costs on profits are strongly
+negative. Therefore, although it is profitable for a consumer to open a direct channel, manufacturer encroachment is not profitable.
+Consequently, manufacturer encroachment adversely affects the total surplus. However, this is not a unique result when considering
+common ownership. Although common ownership affects the threshold of 𝛥𝑇̃𝑆 < 0, it plays no important role in the consideration
+of this result.
+
+6. Conclusion
+
+    This study examines the effects of common ownership on supply chain management with the manufacturer’s encroachment
+decision. The results of our analyses demonstrate that given a large share of ownership by the manufacturer, the retailer’s profit is
+improved by manufacturer encroachment. Additionally, we demonstrate that increasing ownership share improves the total surplus
+in a specific case. In our additional analysis, we confirm the robustness and extensibility of our model. In particular, an asymmetric
+ownership share and the manufacturer’s direct selling cost have an important role in practice.
+
+                                                                        15
+J. Hamamura                                                                                         International Review of Economics and Finance 96 (2024) 103596
+
+
+   These results constitute important contributions to supply chain management practice and financial economics studies. First,
+the result obtained for the retailer’s profit suggests that common ownership directly improves the retailer’s profit and indirectly
+enhances the profit in the encroachment case. This result implies that the retailer should aggressively engage in common ownership
+between the retailer and manufacturer. Second, we can ascertain some positive aspects of common ownership regarding the total
+surplus. Therefore, for supply chain management, society should accept common ownership by manufacturers and retailers.
+   We can consider the following future research based on our model. First, for our main model, we assume a monopoly case
+by using one supply chain. Therefore, future research should include analyses incorporating the assumptions of a competitor in a
+product market. Second, while this study considers only quantity competition, future research can consider cases that include price
+competition. Third, recently, to explore optimal decision-making by supply chain parties, several studies assume that other kinds of
+agents have a specific utility. In particular, risk-averse agents are supposed to analyze the supply chain coordination (e.g., Matsui,
+2019). Therefore, in future research, one can consider the effect of risk-averse agents under common ownership among supply chain
+parties. While one can consider the above future studies based on our model, there are beyond our scope, and we propose a basic
+analysis of the impact of common ownership on the dual-channel supply chain.
+
+Declaration of competing interest
+
+    The authors declare that they have no known competing financial interests or personal relationships that could have appeared
+to influence the work reported in this paper.
+
+Availability of data and material
+
+    Not applicable.
+
+Acknowledgments
+
+   I would like to express our gratitude to an anonymous reviewer and to the Editor, Prof. Brian Lucey for the very helpful
+and constructive comments they offered on my manuscript. The author thanks Joonghwa Oh, Yasuhiro Ohta, Atsuhi Shiiba, and
+participants at the 2021 Second JAMA Research Seminar online and Seminar at Keio University. I would like to thank Tsan-
+Ming Choi, Kenji Matsui, Kazuo Yamada, and Yusuke Zennyo for their helpful comments. This work was partially supported by
+Perspectives on Social Infrastructure Maintenance & Replacement of Water Business Workshop at Momoyama Gakuin University
+(No. 280, 2020), JSPS, Japan KAKENHI Grant Numbers JP18K12909, and JP21K13409. The usual disclaimers apply.
+
+Appendix A. Supplementary data
+
+    Supplementary material related to this article can be found online at https://doi.org/10.1016/j.iref.2024.103596.
+
+References
+
+Arya, A., Mittendorf, B., & Sappington, D. E. (2007). The bright side of supplier encroachment. Marketing Science, 26(5), 651–659.
+Aviv, Y., & Shamir, N. (2021). Financial cross-ownership and information dissemination in a supply chain. Manufacturing & Service Operations Management, 23(6),
+     1524–1538.
+Azar, J., Schmalz, M. C., & Tecu, I. (2018). Anticompetitive effects of common ownership. The Journal of Finance, 73(4), 1513–1565.
+Chen, X. (2021). Common ownership along the supply chain and supplier innovations (Ph.D. thesis), University of Oregon.
+Cheng, C. A., Li, X., Xie, J., & Zhong, Y. (2022). Accounting conservatism and common ownership by dedicated institutional blockholders. Journal of Business
+     Finance & Accounting, In press.
+Chiang, W.-Y., Chhajed, D., & Hess, J. D. (2003). Direct marketing, indirect profits: A strategic analysis of dual-channel supply-chain design. Management Science,
+     49(1), 1–20.
+Dennis, P., Gerardi, K., & Schenone, C. (2022). Common ownership does not have anticompetitive effects in the airline industry. The Journal of Finance, 77(5),
+     2765–2798.
+Dixit, A. (1979). A model of duopoly suggesting a theory of entry barriers. Bell Journal of Economics, 10(1), 20–32.
+Flath, D. (1989). Vertical integration by means of shareholding interlocks. International Journal of Industrial Organization, 7(3), 369–380.
+Freeman, K. (2021). Overlapping ownership along the supply chain. Kelley School of Business Research Paper No. 16-84, Available at SSRN 2873199.
+Fu, H., Ma, Y., & Cai, X. (2018). Downstream firm’s investment with equity holding in decentralized assembly systems. Omega, 75, 27–56.
+Hamamura, J., & Zennyo, Y. (2021). Retailer voluntary investment against a threat of manufacturer encroachment. Marketing Letters, 32(4), 1–17.
+Hsiao, L., & Chen, Y.-J. (2013). The perils of selling online: Manufacturer competition, channel conflict, and consumer preferences. Marketing Letters, 24(3),
+     277–292.
+Hua, G., Wang, S., & Cheng, T. E. (2010). Price and lead time decisions in dual-channel supply chains. European Journal of Operational Research, 205(1), 113–126.
+Li, Y., & Zhang, J. (2021). Product positioning with overlapping ownership. Economics Letters, In press.
+López, Á. L., & Vives, X. (2019). Overlapping ownership, R&D spillovers, and antitrust policy. Journal of Political Economy, 127(5), 2394–2437.
+Matsui, K. (2019). A supply chain member should set its margin later if another member’s cost is highly uncertain. European Journal of Operational Research,
+     275(1), 127–138.
+Matsui, K., & Tsunoda, Y. (2022). Effectiveness of exclusive territories by competing manufacturers managing dual-channel supply chains. Managerial and Decision
+     Economics, 43(4), 1015–1024.
+Matsushima, N., & Mizuno, T. (2018). Supplier encroachment and retailer effort. ISER Discussion Paper No. 1027, Available at SSRN 3152706.
+Mizuno, T. (2012). Direct marketing in oligopoly. Journal of Economics & Management Strategy, 21(2), 373–397.
+Pei, Z., & Yan, R. (2015). Do channel members value supportive retail services? Why? Journal of Business Research, 68(6), 1350–1358.
+Ramalingegowda, S., Utke, S., & Yu, Y. (2021). Common institutional ownership and earnings management. Contemporary Accounting Research, 38(1), 208–241.
+
+
+                                                                                16
+J. Hamamura                                                                                         International Review of Economics and Finance 96 (2024) 103596
+
+
+Sato, S., & Matsumura, T. (2020). Free entry under common ownership. Economics Letters, 195, Article 109489.
+Singh, N., & Vives, X. (1984). Price and quantity competition in a differentiated duopoly. Rand Journal of Economics, 15(4), 546–554.
+Sun, X., Tang, W., Chen, J., Li, S., & Zhang, J. (2019). Manufacturer encroachment with production cost reduction under asymmetric information. Transportation
+    Research Part E: Logistics and Transportation Review, 128, 191–211.
+Tsay, A. A., & Agrawal, N. (2004). Channel conflict and coordination in the e-commerce age. Production and Operations Management, 13(1), 93–110.
+Xiao, W., Li, K., & Fu, H. (2021). Quality investment in a decentralized assembly system with backward shareholding. International Journal of Production Economics,
+    242, Article 108291.
+Yoon, D.-H. (2016). Supplier encroachment and investment spillovers. Production and Operations Management, 25(11), 1839–1854.
+Zhang, J., Cao, Q., & He, X. (2020). Manufacturer encroachment with advertising. Omega, 91, Article 102013.
+Zhu, S., Lu, R., Xu, T., Wu, W., & Chen, Y. (2024). Can common institutional owners inhibit bad mergers and acquisitions? evidence from China. International
+    Review of Economics & Finance, 89, 246–266.
+
+
+
+
+                                                                                17
+

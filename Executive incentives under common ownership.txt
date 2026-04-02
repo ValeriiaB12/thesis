@@ -1,0 +1,1666 @@
+﻿Journal of Corporate Finance 93 (2025) 102806 
+
+Contents lists available at ScienceDirect
+
+Journal of Corporate Finance
+journal homepage: www.elsevier.com/locate/jcorpfin
+
+Executive incentives under common ownership
+Thomas Schneider
+University of Oklahoma, USA
+
+A R T I C L E  I N F O A B S T R A C T
+
+Editor: M Ringgenberg Relative performance evaluation (RPE) increases competition and limits pay-for-luck by 
+rewarding executives for outperforming rivals. This study tests whether institutional investors 
+
+JEL codes: reduce RPE use when they own stakes in competing firms. Contrary to this, the Big Three asset 
+G30 managers – BlackRock, Vanguard, and State Street – demonstrate strong preferences for RPE, 
+G32 reflected in portfolio firms’ RPE adoptions, say-on-pay vote support, and peer group selections. 
+L13
+M12 No evidence suggests that common ownership by these or other institutional investors reduces 
+
+RPE, as confidence bounds and point estimates are near zero. Overall, the rising prevalence of 
+Keywords:
+Common ownership RPE challenges concerns about anticompetitive effects from common ownership.
+Executive compensation
+Relative performance evaluation
+
+1. Introduction
+
+Large, diversified institutional shareholders have become increasingly prominent in the United States’ financial markets. The ‘Big 
+Three’ asset management firms – BlackRock, Vanguard, and State Street – own substantial stakes in most publicly traded companies 
+and consequently hold positions in firms that are natural product-market rivals.1 Such ‘common owners’ may wish to discourage 
+competition and even foster collusion among their portfolio firms to extract rents above those implied by a competitive market 
+equilibrium (Bresnahan and Salop, 1986; Reynolds and Snapp, 1986). This paper tests whether institutional investors influence ex
+ecutive compensation in a manner consistent with achieving anti-competitive outcomes, specifically reducing relative performance 
+evaluation (RPE), and finds clear evidence to the contrary.
+
+Seminal work on contract theory contends that an agent’s performance should not be measured in a vacuum, but relative to the 
+performance of peers that operate under similar circumstances (Lazear and Rosen, 1981; Holmstrom, 1982; Green and Stokey, 1983). 
+This literature shows that principals and risk-averse agents can achieve Pareto improvement by incorporating RPE into compensation 
+arrangements.2 However, the foundational theories supporting RPE assume that each principal’s utility is based solely on the 
+
+E-mail address: tschneider@ou.edu. 
+1 Fichtner et al. (2017) report that one of the Big Three is the largest shareholder in 88 % of S&P 500 companies.
+2 RPE identifies performance due to an agent’s effort by filtering out aggregate market or industry trends. RPE schema regularly used in executive 
+
+compensation include evaluating performance net of the return to a benchmark group or index and rank-order tournaments where rewards are 
+based on percentile achievement of stock returns or various accounting metrics versus a peer group.
+
+https://doi.org/10.1016/j.jcorpfin.2025.102806
+Received 31 July 2023; Received in revised form 16 February 2025; Accepted 28 April 2025  
+Available online 29 April 2025 
+0929-1199/© 2025 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies. 
+
+
+
+T. Schneider                                                                                                                                                                  J o u r n a l  o f   C o r p o r a t e  F  i n  a  n c  e  93 (2025) 102806 
+
+performance of one agent. In contrast, it may not be advantageous for principals with ownership interests in multiple, competing 
+agents to adopt RPE-based incentive contracts (Kraus and Rubin, 2010).
+
+Indeed, theory shows that RPE can intensify competition and even incite destructive sabotage (Lazear, 1989; Gibbons and Murphy, 
+1990). Recent empirical studies support this idea, consistently concluding that RPE heightens competition among rival firms.3 Since 
+common owners have stakes in competing firms and could profit from collusion, they may seek to discourage or abolish RPE among 
+their portfolio constituents.
+
+This paper examines whether common owners reduce RPE and finds no evidence to support this across three distinct dimensions. 
+First, firms with higher levels of common ownership are no less likely to use RPE in executive compensation. Second, common owners 
+do not exhibit differential support for RPE in ‘say-on-pay’ shareholder referendums. Third, firms do not avoid benchmarking RPE 
+against peers that share a common owner with them. In all settings, the point estimates for the effects of common ownership are 
+statistically and economically small or oppositely signed, contradicting the hypothesis that common owners discourage RPE to make 
+collusion incentive-compatible for their firms’ managers.
+
+To test this theory, I begin with two independent variables at the firm-year level: Institutional Direct Ownership is the fraction of 
+outstanding shares held by institutional investors, and Institutional Common Ownership is the fraction of other firms in the same industry 
+that share an institutional blockholder in common with the firm.4 The first measure captures direct ownership by institutions with over 
+$100 million in assets as reported to the SEC in Form 13F, and the second captures the extent to which these institutions also own the 
+firm’s competitors. Using detailed data on executive compensation awards from Incentive Lab, I build a dummy variable, RPE, that 
+flags if the firm-year uses RPE and a continuous variable, RPE%, that equals the dollar-weighted fraction of CEO pay linked to RPE 
+awards.
+
+I begin by regressing the RPE outcomes on the ownership measures. I find no effect of Institutional Direct Ownership on RPE, but 
+surprisingly, I find a strong, positive effect of Institutional Common Ownership on RPE. These results are inconsistent with collusion, but 
+because RPE increases competitive pressures, it is unclear why common ownership would increase RPE.
+
+To understand why RPE loads positively on aggregate common ownership, I decompose the two ownership measures into those 
+associated with the Big Three asset managers and those attributable to other institutional investors. The Big Three are central to the 
+ongoing debate on common ownership because in addition to their diversified holdings, their voting power grants them considerable 
+sway over corporate policies, including executive compensation.5 Additionally, the Big Three use dedicated stewardship teams to 
+engage directly with portfolio companies and influence governance practices behind the scenes.6 The Big Three may demand RPE for 
+its pay-for-performance properties, as their size uniquely positions them to hold managers accountable. Alternatively, they may 
+advocate for RPE because, as large asset managers subject to significant scrutiny, they seek to avoid any appearance of collusion or 
+conflicts of interest.
+
+I define Big 3 Direct Ownership as the fraction of shares held by the Big Three asset managers, and I define Big 3 Common Ownership as 
+the fraction of other firms in the same industry that share a Big Three blockholder in common with the firm. I build analogous measures 
+for non-Big Three institutional investors: Other Direct Ownership and Other Common Ownership. Regressing RPE on these four refined 
+measures produces a strong, positive coefficient on Big 3 Direct Ownership and insignificant coefficients on the remaining measures. The 
+positive effects of the former are the opposite of what a collusion hypothesis would predict, and the statistically insignificant co
+efficients on the latter are inconsistent with the idea that common owners discourage competition. The fact that Big 3 Direct Ownership 
+loads positively while Big 3 Common Ownership is statistically indistinguishable from zero suggests that these asset managers favor RPE 
+for its ability to align pay with performance, rather than to avoid apparent conflicts of interest among their commonly owned 
+companies.
+
+To establish causality and address the possibility that ownership and compensation are endogenously determined, I use an 
+instrumental variables specification that exploits the fact that much of the Big Three’s holdings are mechanically determined by 
+passive ownership that tracks major stock index lists. I instrument Big 3 Direct Ownership with a dummy variable that flags whether the 
+firm is an S&P 500 index constituent, and I instrument Big 3 Common Ownership with a variable equal to the fraction of other firms in 
+the same industry that are S&P 500 members. Since S&P 500 membership is primarily driven by firm size, I argue that these in
+struments plausibly satisfy the exclusion restriction (see section 3.1 below).
+
+In first-stage regressions, I find strong relationships between the instruments and the respective endogenous variables even in the 
+presence of firm fixed effects, which satisfies the relevance condition. In 2SLS, the instrumented effects are consistent with the OLS 
+
+3 Feichter et al. (2022) find that RPE emboldens managers into taking more frequent and complex competitive actions against peers, such as 
+introducing new products and launching new marketing campaigns. Bloomfield et al. (2024) find that firms strategically disclose information that 
+harms their RPE peers’ stock prices. Schneider et al. (2024) find that banks are less likely to invest in loans underwritten by rival banks named as 
+RPE peers.
+
+4 I define a blockholder using the traditional 5 % ownership cutoff (e.g., Holderness, 2009). For robustness, I alternatively measure common 
+ownership using O’Brien and Salop’s (2000) modification to the Herfindahl-Hirschman industry concentration index that captures partial common, 
+ΔMHHI, as well as a measure of profit-weighted common ownership following Harford et al. (2011) and find consistent results. Industry is by four- 
+digit SIC code, though the results are robust to using the Hoberg-Phillips industry classifications. Please see section 4.5 below and the Internet 
+Appendix for tabulation of robustness tests.
+
+5 Bebchuk and Hirst (2019) estimate that the Big Three collectively cast 25 % of all votes at S&P 500 companies, and they extrapolate that this 
+may rise to over 40 % of all votes at those companies within two decades.
+
+6 For instance, the Wall Street Journal reported that in 2021, Blackrock’s stewardship team “engaged with 2300 companies via emails, phone calls 
+and meetings,” “weighing in on matters as varied as executive compensation, climate change and abortion access” (Au-Yeung, 2022).
+
+2 
+
+
+
+T. Schneider                                                                                                                                                                  J o u r n a l  o f   C o r p o r a t e  F  i n  a  n c  e  93 (2025) 102806 
+
+results: Big 3 Direct Ownership positively relates to RPE while the effects of Big 3 Common Ownership are small and statistically 
+indistinguishable from zero with tight confidence bounds. These results firmly refute the idea that the Big Three disfavor RPE in 
+executive compensation to encourage collusion.
+
+Next, I study how common ownership and RPE affect shareholder advisory votes on executive compensation known as ‘say-on-pay’. 
+If common owners wish to facilitate collusion, they may use say-on-pay to voice support for compensation that does not include RPE. 
+However, Appendix 2 reports an excerpt from Vanguard’s recent U.S. Proxy Voting Policy, in which Vanguard lists the alignment of 
+pay and relative performance as the first consideration when evaluating executive compensation. Specifically, Vanguard states that it 
+mainly assesses this through “analysis of three-year total shareholder return and realized pay over the same period vs. a relevant set of 
+peer companies.” Including relative metrics in pay awards directly remedies this by increasing (decreasing) realized pay following 
+outperformance (underperformance) of peers. Vanguard further states that a warning sign is raised if “The plan uses absolute metrics 
+only.” Thus, these voting guidelines communicate a clear preference for RPE in executive pay, and funds do not typically deviate from 
+their voting guidelines (Couvert, 2021).
+
+I obtain firm-level say-on-pay vote tallies from ISS Voting Analytics and define Votes as the percentage of votes cast in favor of say- 
+on-pay. Although BlackRock, Vanguard, and State Street are inherently distinct institutions, their voting is significantly correlated due 
+to factors including their overwhelming coincidence of interests (Bebchuk and Hirst, 2022), their shared philosophy concerning 
+corporate governance (Bubb and Catan, 2022), and their overlapping investor ideology (Bolton et al., 2020). As such, I continue to 
+focus on measures that separate the Big Three’s ownership (i.e., Big 3 Direct Ownership and Big 3 Common Ownership) from ownership by 
+other institutional investors (i.e., Other Direct Ownership and Other Common Ownership). This approach is consistent with Bebchuk and 
+Hirst (2022), who state, “As a result, it makes sense to aggregate the voting power of the Big Three in order to properly understand their 
+power.”
+
+I regress Votes on the four ownership measures and their interactions with the RPE variables. The hypothesis that the common 
+owners support pay without RPE predicts negative coefficients on these interaction terms, but that is not what I find. Instead, the 
+coefficient on Big 3 Direct Ownership × RPE is positive while the coefficients on the remaining interaction terms are statistically and 
+economically insignificant. Taken together, the Big Three reveal a unique preference for RPE through their voting behavior, which is 
+not mitigated by their common ownership, and other institutions appear indifferent to RPE in their votes. These results hold in 
+alternative specifications that additionally interact the ownership measures with other dimensions of pay, including the log of total 
+compensation and the proportion of pay delivered in stock and option grants.
+
+Last, I test whether common owners attempt to circumvent the competitive effects of RPE by altering the composition of underlying 
+award reference groups. Redesigning and recalibrating an entire compensation program to exclude RPE could be prohibitively 
+challenging and costly. Instead, the common owners could simply pressure firms to avoid peer groups that pit their portfolio firms in 
+direct contest with each other. This could manifest as benchmarking RPE against a general market index that is too broad to capture the 
+gains from industry-level collusion or against a custom peer group that excludes commonly held rivals by design. In tests of the former, 
+I find no evidence that common ownership alters benchmark group choice.
+
+To test the latter, I build an annual firm-peer pair variable, RPE Peer, that flags if the benchmarking firm chooses the other firm as an 
+RPE peer that year. I define pairwise variables, Big 3 Common Block and Other Common Block, as dummies that indicate if the two firms 
+share one of the Big Three or one of the non-Big Three institutions in common as a blockholder, respectively. Regressing RPE Peer on 
+these measures of common ownership produces small but positive effects for the former and insignificant effects for the latter, both 
+inconsistent with avoiding competition. I then interact the common ownership measures as well as the direct ownership measures (at 
+the benchmarking firm) with a measure of how closely the firms compete. To measure competition, I use the pairwise product sim
+ilarity score developed by Hoberg and Phillips (2010, 2016), which measures the extent of product market overlap. Firm-pairs that 
+score higher on this metric compete to offer similar goods and thus stand the most to gain from collusion. The coefficients of RPE Peer 
+on Big 3 Direct Ownership × Competition are large and positive even in the presence of pairwise fixed effects. This implies that after a 
+firm experiences an increase in Big Three ownership, the firm tends to benchmark RPE against closer competitors. Interacting 
+Competition with Big 3 Common Block or the non-Big Three measures produces coefficients that are statistically near zero. Thus, 
+common owners do not avoid RPE that rewards outperforming their other portfolio companies. Additionally, I define a market-based 
+measure of competitive overlap using pairwise stock return correlations and find similar effects.
+
+This paper contributes to the debate on the anticompetitive effects of common ownership by showing that common owners do not 
+eschew RPE, which intensifies competition. The statistically insignificant results on common ownership and RPE align with those on 
+common ownership and product market competition in Koch et al. (2021) and Lewellen and Lowry (2021). Although those papers do 
+not study compensation, they carefully address various methodological issues and find no consistent anticompetitive effects of 
+common ownership in the broad economy, in contrast to empirical literature that reaches mixed conclusions in narrower settings.7 My 
+paper complements theirs by eliminating RPE as a potential channel through which common owners might attempt to achieve 
+anticompetitive outcomes.
+
+In the same vein, my paper adds to the literature on how common ownership shapes executive incentives. First, the paper 
+
+7 Within the airline industry, Azar et al. (2018) find that common ownership has anticompetitive effects on ticket prices, while Kennedy et al. 
+(2017) and Dennis et al. (2022) find no such effects. Within banking, Azar et al. (2022) find that common ownership limits competition regarding 
+interest rates and fees, while Gramlich and Grundl (2017) show that these effects are economically small and of mixed sign. Regarding mergers and 
+acquisitions, Matvos and Ostrovsky (2008) find that common ownership may explain why shareholders agree to overpay, while Harford et al. (2011)
+show that this result does not hold when common ownership is measured by relative weights.
+
+3 
+
+
+
+T. Schneider                                                                                                                                                                  J o u r n a l  o f   C o r p o r a t e  F  i n  a  n c  e  93 (2025) 102806 
+
+demonstrates the importance of disentangling the effects of common ownership from the direct effects of ownership by large 
+stewardship-focused asset managers that happen to be common owners. By introducing this separation, my paper helps clarify results 
+from Kwon (2016), who finds that common ownership is positively related to RPE, and Bloomfield et al. (2024), who find that common 
+ownership and RPE are positively related or unrelated depending on specification.8 Specifically, my paper shows that the seemingly 
+positive effect of All Common Ownership on RPE is in fact driven entirely by the Big Three’s direct ownership. Common ownership by 
+the Big Three and other institutions has no discernable effect on RPE. My result that the Big Three’s direct ownership increases RPE 
+corroborates the consensus of the extant compensation and governance literatures that institutional blockholders are competent 
+monitors of executive activity and serve an important role in motivating and disciplining managers (Edmans and Holderness, 2016; 
+Edmans et al., 2017).
+
+Additionally, by testing for explicit RPE as disclosed in mandatory SEC regulatory filings, my paper contrasts with those that study 
+implicit RPE, which only infers RPE through regression analysis.9 Papers that study common ownership and implicit RPE include Anton 
+et al. (2016) and Liang (2016), who find that common ownership decreases implicit RPE, and Kwon (2016) who finds the opposite.10
+
+Testing for implicit RPE requires assumptions including peer group composition, performance metrics, and payout style that may 
+induce measurement error and cloud inference (Murphy, 1999; Bannister and Newman, 2003). Importantly, implicit tests will fail to 
+detect RPE even if an executive’s entire realized pay is contingent upon it unless the target award value also covaries with peer 
+performance.11 Using explicit RPE data from Incentive Lab allows me to observe contract details and conclude that common ownership 
+is not negatively related to RPE.
+
+Furthermore, studying explicit RPE allows me to observe variation in executive incentive design that is not captured by measures of 
+executives’ wealth-performance sensitivity (WPS), which quantifies how executive wealth changes with firm value, as calculated by 
+functions of stock- and option-based pay.12 Although Anton et al. (2023) find that common ownership lowers WPS in a manner that is 
+potentially consistent with an anticompetitive effect, WPS inherently ignores whether the underlying pay is delivered as RPE-based 
+awards. Cash-, stock-, and option-based awards may all be contingent upon or scale with relative performance, and thus WPS is 
+unable to capture RPE or its competitive effects.13 My results show that the largest common owners – the Big Three – prefer RPE at their 
+portfolio firms, intensifying competitive pressures, while other common owners do not have anticompetitive effects.
+
+Last, this paper contributes to an emerging literature on how the Big Three shape corporate outcomes. The Big Three can potentially 
+have large effects on firms’ policies because their large ownership stakes in portfolio firms grant them high propensities to be pivotal 
+voters in shareholder votes (Bebchuk and Hirst, 2019; Griffin, 2020). Additionally, Brav et al. (2024) note that the Big Three have 
+greater access to management through their prominent shareholder status and can shape firms’ outcomes through direct communi
+cation. Azar et al. (2021) show that Big Three ownership reduces carbon emissions, consistent with the idea that their common 
+ownership may help resolve certain collective action issues. Gormley et al. (2023) find that the Big Three’s activism efforts increased 
+the number of female directors on boards following the #MeToo movement. To understand why the Big Three and other passive 
+investors engage as shareholders, Lewellen and Lewellen (2022) demonstrate that these institutions derive substantial benefits from 
+stock price appreciation, primarily through assets under management fees and fund flows generated by their activism. Brav et al. 
+(2023) survey the literature on passive ownership and show that the benefits from engagement are higher for the Big Three than other 
+institutions due to economies of scale. My paper adds to this literature by showing that Big Three ownership increases RPE use – while 
+non-Big Three ownership does not – and importantly, common ownership does not offset this effect.
+
+2. Institutional example
+
+The United States’ airline industry has been the focus of academic debate regarding the anticompetitive effects of common 
+ownership. The industry is dominated by a small number of large companies that compete to sell mostly undifferentiated products, and 
+the companies in this industry are highly connected by their institutional shareholders. Researchers have speculated that common 
+ownership has caused airlines to collude, resulting in artificially high ticket prices. However, the empirical evidence of such effects is 
+
+8 Although Bloomfield et al. (2024) briefly examine RPE, their main contribution is that they find no relationship between common ownership 
+and revenue-based pay. My paper complements theirs by showing that, contrary to the collusion hypothesis, the Big Three prefer RPE in executive 
+compensation.
+
+9 The canonical implicit RPE test regresses executive pay on firm and industry returns; a positive coefficient on firm return and a negative co
+efficient on industry return is considered evidence of implicit RPE.
+10 These papers augment the usual implicit RPE test by interacting firm and industry returns with measures of industry concentration such as the 
+
+Herfindahl-Hirschman index (HHI), following the approach in Aggarwal and Samwick (1999), and the increase in industry concentration implied by 
+partial common ownership captured by O’Brien and Salop’s (2000) modified HHI (ΔMHHI). In this augmented test, a positive coefficient on the 
+interaction of industry return and ΔMHHI suggests that firms with greater partial common ownership use less implicit RPE.
+11 For example, consider an executive who, every year, receives her entire compensation package as an explicit RPE contract with a target value of 
+
+$1 million. Since the U.S. Securities and Exchange Commission (SEC) requires only the fair value of the award to be incorporated into total flow 
+compensation, the implicit test will fail to detect any RPE because the fixed value of $1 million does not vary with performance even though the 
+award payout is entirely determined by relative performance. See SEC Final Rule 33-8732a, November 7, 2006.
+12 See Hall and Liebman (1998), Jensen and Murphy (1990), and Edmans et al. (2009), for the development of WPS.
+13 Furthermore, since RPE awards often deny grants for underperformance (e.g., no stock payout for performance below the 25th percentile), the 
+
+Big Three’s preference for RPE may partially explain Anton et al.’s (2023) result that common ownership reduces WPS if RPE has reduced stock 
+compensation at underperforming firms.
+
+4 
+
+
+
+T. Schneider                                                                                                                                                                  J o u r n a l  o f   C o r p o r a t e  F  i n  a  n c  e  93 (2025) 102806 
+
+Table 1 
+Institutional example: U.S. Airlines.
+
+Panel A: RPE Use
+
+Passengers RPE RPE%
+
+American Airlines Group, Inc. 199,640,000 Yes 27.8 %
+Delta Air Lines, Inc. 186,390,000 Yes 18.9 %
+Southwest Airlines Co. 157,677,000 No
+United Continental Holdings, Inc. 148,067,000 Yes 27.1 %
+Alaska Air Group, Inc. 44,034,000 Yes 18.3 %
+JetBlue Airways, Inc. 40,038,000 Yes 37.4 %
+
+Panel B: Shares Held by Largest 5 Investors
+
+American Airlines Group, Inc. Delta Air Lines, Inc. Southwest Airlines Co.
+T. Rowe Price Assoc., Inc. 13.90 % Blackrock Inc. 9.10 % PRIMECAP Mgmt Co. 11.80 %
+Berkshire Hathaway Inc. 9.00 % Berkshire Hathaway Inc. 8.00 % Blackrock Inc. 7.60 %
+PRIMECAP Mgmt Co. 8.90 % Vanguard Group, Inc. 6.10 % Berkshire Hathaway Inc. 7.00 %
+Blackrock Inc. 6.80 % JPMorgan Chase & Co. 4.50 % Vanguard Group, Inc. 6.20 %
+Vanguard Group, Inc. 6.00 % State Street Co. 4.20 % Fidelity Mgmt & Co. 5.60 %
+
+United Continental Holdings, Inc. Alaska Air Group, Inc. JetBlue Airways, Inc.
+Blackrock Inc. 9.50 % T. Rowe Price Assoc., Inc. 10.10 % Vanguard Group, Inc. 8.00 %
+Berkshire Hathaway Inc. 9.10 % Vanguard Group, Inc. 9.70 % Fidelity Mgmt & Co. 7.90 %
+Vanguard Group, Inc. 6.80 % Blackrock Inc. 6.20 % Blackrock Inc. 7.80 %
+PRIMECAP Mgmt Co. 6.20 % PRIMECAP Mgmt Co. 5.20 % PRIMECAP Mgmt Co. 5.90 %
+PAR Capital Mgmt, Inc. 5.10 % PAR Capital Mgmt, Inc. 3.70 % Goldman Sachs & Co. 3.80 %
+
+Panel C: RPE Peer Group Constituents
+
+American Airlines Group, Inc. Delta Air Lines, Inc. Southwest Airlines Co.
+Alaska Air Group, Inc. Alaska Air Group, Inc. N/A
+Delta Air Lines, Inc. American Airlines Group, Inc.
+JetBlue Airways, Inc. JetBlue Airways, Inc.
+Southwest Airlines Co. Southwest Airlines Co.
+Spirit Airlines, Inc. United Continental Holdings, Inc.
+United Continental Holdings, Inc.
+
+United Continental Holdings, Inc. Alaska Air Group, Inc. JetBlue Airways, Inc.
+Alaska Air Group, Inc. Air Canada Alaska Air Group, Inc.
+American Airlines Group, Inc. Allegiant Travel Co. American Airlines Group, Inc.
+Delta Air Lines, Inc. American Airlines Group, Inc. Delta Air Lines, Inc.
+JetBlue Airways, Inc. Delta Air Lines, Inc. Hawaiian Holdings, Inc.
+Southwest Airlines Co. Hawaiian Holdings, Inc. Southwest Airlines Co.
+
+JetBlue Airways, Inc. Spirit Airlines
+Republic Airways Holdings, Inc. United Continental Holdings, Inc.
+SkyWest Airlines, Inc.
+Southwest Airlines Co.
+Spirit Airlines
+United Continental Holdings, Inc.
+WestJet Airlines, Ltd.
+
+Data as of FY2017.
+
+mixed: Azar et al. (2018) report that common ownership has anticompetitive effects on airline ticket prices, while Kennedy et al. 
+(2017) and Dennis et al. (2022) find no such effects. In this section, I informally explore the likelihood that the Big Three and other 
+common owners have softened competition by reducing RPE in airline executive compensation.
+
+Four major companies command the majority of market share in the United States airline industry. Panel A of Table 1 lists the 
+largest U.S. airlines ranked by number of annual passengers in sample year 2017. American Airlines Group (American), Delta Air Lines 
+(Delta), Southwest Airlines (Southwest), and United Continental Holdings (United) each accounted for over 140 million passengers 
+that year. The next biggest airlines are much smaller: Alaska Air Group (Alaska) and JetBlue Airways (JetBlue) had over 40 million 
+passengers.
+
+Panel B of Table 1 lists each major airline’s top 5 largest shareholders, revealing that the airlines share a substantial amount of 
+common ownership. The two biggest of the Big Three, BlackRock and Vanguard, are top shareholders in all six major airlines. Absent 
+agency issues, each airline will seek to maximize its individual value, including through competitive actions that benefit it at the 
+expense of other airlines. However, since common owners are exposed to the gains and losses of all their portfolio constituents, they 
+
+5 
+
+
+
+T. Schneider                                                                                                                                                                  J o u r n a l  o f   C o r p o r a t e  F  i n  a  n c  e  93 (2025) 102806 
+
+Table 2 
+Summary statistics.
+
+Mean Std.Dev. 25th Median 75th
+
+Relative Performance Evaluation
+RPE 0.472 0.499 0.000 0.000 1.000
+RPE% 0.101 0.146 0.000 0.000 0.166
+
+Ownership and Instruments
+All Direct Ownership 0.725 0.233 0.627 0.781 0.883
+All Common Ownership 0.544 0.351 0.246 0.623 0.867
+Big 3 Direct Ownership 0.160 0.073 0.121 0.166 0.208
+Big 3 Common Ownership 0.518 0.363 0.145 0.589 0.857
+Other Direct Ownership 0.566 0.196 0.466 0.595 0.697
+Other Common Ownership 0.111 0.192 0.000 0.000 0.143
+Firm in S&P 500 0.418 0.493 0.000 0.000 1.000
+Industry in S&P 500 0.540 0.291 0.396 0.600 0.764
+Industry ΔMHHI 0.535 0.306 0.357 0.498 0.616
+Industry HHI 0.213 0.169 0.085 0.170 0.286
+
+Firm Characteristics
+Industry Exposure 0.411 0.235 0.218 0.411 0.601
+Stock Return 0.184 0.405 − 0.051 0.136 0.347
+Return-on-Assets 0.084 0.103 0.033 0.074 0.131
+Book-to-Market 0.462 0.412 0.205 0.390 0.653
+Leverage 0.273 0.211 0.099 0.250 0.399
+log MCAP 8.760 1.407 7.881 8.667 9.643
+Multi-segment 0.858 0.349 1.000 1.000 1.000
+
+Executive Characteristics
+CEO/Chair Duality 0.384 0.486 0.000 0.000 1.000
+General Ability Index − 0.000 1.000 − 0.780 − 0.245 0.556
+Executive Age 56.385 6.706 52.000 56.000 60.000
+Executive Tenure 7.365 5.287 3.000 6.000 11.000
+
+Say-on-Pay
+Votes 0.902 0.124 0.894 0.949 0.972
+log Executive Pay 15.757 0.882 15.329 15.856 16.323
+Pct Stock-based Pay 0.552 0.238 0.435 0.592 0.716
+
+Benchmark Group, Conditional on using RPE
+Relative to Peer Group 0.552 0.497 0.000 1.000 1.000
+Relative to Industry Index 0.184 0.387 0.000 0.000 0.000
+Relative to Market Index 0.341 0.474 0.000 0.000 1.000
+
+This table presents summary statistics at the firm-year level. The sample consists of all firms in the Incentive Lab database from 2010 to 2021 with 
+non-missing data items after merging with BoardEx, Compustat, CRSP, and Thomson/Refinitiv. The sample contains 11,516 observations while the 
+sub-sample conditional on using RPE is 5441 observations. Variables are defined in Appendix 1. Continuous variables are winsorized at the 1st and 
+99th levels.
+
+may wish for airlines to internalize certain externalities and collude to maximize their total portfolio value instead.
+To achieve incentive-compatibility, common owners will avoid compensation that rewards airline executives for outperforming 
+
+other airlines. However, as Panel A shows, five of the six major airlines use RPE in their executive compensation programs. RPE 
+represents an economically large fraction of pay, accounting for 27 % of pay at American and United, 18 % at Alaska and Delta, and 37 
+% at JetBlue. Furthermore, these airlines all choose to benchmark RPE awards against each other.14 For example in Panel C, American 
+names Alaska, Delta, JetBlue, Southwest, Spirit, and United as its comparator group. That is, American’s CEO gets paid more when his 
+airline outperforms the others despite connections through common ownership.
+
+The data show that airline executives have substantial monetary incentives to compete against each other. Given the prevalence of 
+RPE and the high common ownership at the airlines, it is unlikely that common owners have sought to encourage collusion by 
+discouraging relative incentives.
+
+14 Alternatively, common owners could broaden the RPE peer group by adding companies from outside the airline industry, avoid competition by 
+excluding commonly held airline peers, or use a broadly defined index (e.g. the S&P 500) that does not perfectly reflect benefits from airline industry 
+collusion.
+
+6 
+
+
+
+T. Schneider                                                                                                                                                                  J o u r n a l  o f   C o r p o r a t e  F  i n  a  n c  e  93 (2025) 102806 
+
+Fig. 1. RPE and common ownership. 
+This table plots the prevalence of RPE use in executive compensation alongside institutional ownership and common ownership. RPE is a dummy 
+variable equal to one if the firm uses RPE in CEO compensation. RPE% is the dollar fraction of CEO compensation tied to RPE awards. Big 3 Direct 
+Ownership is the fraction of shares owned by BlackRock, State Street, and Vanguard. Big 3 Common Ownership is the fraction of same-industry firms 
+that share a common Big Three blockholder with the firm. Other Direct Ownership is the fraction of the firm’s stock owned by institutional investors 
+excluding the Big Three. Other Common Ownership is the fraction of same-industry firms that share at least one non-Big Three institutional investor as 
+a blockholder with the firm. The sample consists of all firms in the Incentive Lab database with non-missing data items after merging with BoardEx, 
+Compustat, CRSP, and Thomson/Refinitiv.
+
+3. Data and empirical design
+
+To test the idea that the common owners discourage RPE among portfolio firms, I develop hypotheses and build models in three 
+distinct settings: (1) firm-level RPE use, (2) voting in say-on-pay referendums, and (3) RPE benchmark choice and peer selection.
+
+3.1. RPE use
+
+The paper’s core thesis is that if common owners wish to soften competition or encourage coordination among portfolio firms that 
+are otherwise natural product market competitors, they will avoid compensation plans that explicitly reward executives for out
+performing competitors. Formally: 
+Hypothesis 1. If common owners discourage competition, firms that share a higher degree of common ownership with their competitors will 
+be less likely to use RPE in executive compensation.
+
+To test this hypothesis, I obtain detailed data on explicit RPE in executive incentive awards from ISS Incentive Lab.15 This database 
+contains the compensation items reported in annual proxy statements for the largest 750 public firms in the United States economy. As 
+the set of firms can change from year to year, Incentive Lab back- and forward-fills the data once a firm is ranked within the top 750. 
+Merging with BoardEx, Compustat, CRSP, and Thomson/Refinitiv produces a panel of 11,516 firm-years covering 1375 unique firms 
+from 2010 to 2021, with nearly 1000 firms per year.16
+
+Incentive Lab reports compensation awards granted to firms’ top executives as disclosed in SEC filings. I focus on performance- 
+based compensation awards (as opposed to unrestricted or time-based grants) where the payout is contingent upon achieving 
+measurable goals, which Incentive Lab classifies as absolute or relative. Payouts from absolute goals are determined by the firm’s 
+
+15 To the best of my knowledge, Incentive Lab is the only data provider that tracks RPE awards in executive compensation. Bettis et al. (2014), 
+Bennett et al. (2017), and Bettis et al. (2018) are among the first to study compensation contracts using Incentive Lab data.
+16 The sample period starts in 2010 after the Global Financial Crisis and after BlackRock acquired Barclays Global Investors, which ensures a 
+
+consistent time series.
+
+7 
+
+
+
+T. Schneider                                                                                                                                                                  J o u r n a l  o f   C o r p o r a t e  F  i n  a  n c  e  93 (2025) 102806 
+
+performance relative to fixed targets, e.g. return-on-equity above 10 %, while payouts from relative goals are measured in comparison 
+to other firms’ performance, e.g. total shareholder return above peer group median. I define the binary firm-year variable RPE as equal 
+to 1 if the firm grants an award with at least one relative goal to their CEO that year and 0 otherwise. Additionally, Incentive Lab 
+reports the fair value of compensation for each award, which I use to build the variable RPE%, defined as the dollar-weighted fraction 
+of total CEO pay tied to relative goals.17 For firm-years without any RPE, RPE% is zero.
+
+Table 2 reports summary statistics at the firm-year level. The mean of RPE is 0.472, meaning that 47 % of firm-years use RPE. There 
+is considerable variation in RPE in both the cross-section and time series. Fig. 1 plots the average values of the variables of interest over 
+the sample period. The figure shows that relative incentives proliferated over the decade from 27 % of sample firms using RPE in 2010 
+to 62 % in 2021.18 The mean of RPE% is 0.101, implying that conditional on using RPE, about 21 % (=0.101/0.472) of pay is tied to 
+relative awards. This conditional fraction has remained steady over the sample period, perhaps reflecting optimal contracting.
+
+I build measures of common ownership from the Thomson Reuters Institutional Managers (13f) Holdings database, which catalogs 
+the long equity positions of institutional investors with at least $100 million in exchange-traded assets under management. I define All 
+Direct Ownership as the total fraction of shares owned by investors in the database. At the mean, these institutions own 72.5 % of shares 
+at sample firms. Next, I define All Common Ownership as the value-weighted fraction of firms in the same industry (4-digit SIC code) that 
+share at least one institutional blockholder (at least 5 % ownership) in common with the firm. The average firm shares a blockholder 
+with over 54 % of firms in the same industry.
+
+To study how the Big Three asset managers may differentially affect executive incentives, I define Big 3 Direct Ownership as the 
+fraction of shares owned by Blackrock, Vanguard, and State Street, and I define Other Direct Ownership as the fraction of shares owned 
+by the remaining institutional investors.19 On average, the Big Three own 16 % of shares in sample firms while the others own 56 %. I 
+define Big 3 Common Ownership as the value-weighted fraction of firms in the same industry that share at least one of the Big Three as a 
+blockholder in common with the firm. Other Common Ownership is the analogous fraction for same-industry firms commonly held by 
+non-Big Three institutional blockholders. The average firm shares a Big Three blockholder with around 52 % of firms in the same 
+industry, while this fraction is only 11 % for other investors.
+
+Figure 1 shows that at the same time RPE rapidly increased, Big 3 Direct Ownership rose from 11.5 % to 20 %, and Big 3 Common 
+Ownership grew nearly in tandem with RPE. In contrast, Other Direct Ownership and Other Common Ownership declined initially but 
+remained relatively stable over much of the sample period, hovering around 55 % and 10 %, respectively. The persistent and correlated 
+growth of RPE and the Big Three’s measures challenges the notion that common owners’ expanding influence has produced anti
+competitive effects. If these asset managers were softening competition, RPE usage would be expected to decline as their ownership 
+increased.
+
+I test Hypothesis 1 by regressing the measures of RPE on the measures of direct and common ownership as in, 
+RPEi,t = β1Direct Ownershipi,t− 1 + β2Common Ownershipi,t− 1 + λ Controlsi,t− 1 + ηi + ηt + εi,t , (1) 
+
+where i and t denote firm and year, respectively. The subscripts of ‘t − 1’ on the ownership measures signify that they are observed at 
+the end of the preceding fiscal year, which is ideal as compensation decisions are usually made in the first quarter of the fiscal year. 
+Controls include measures of industry competitiveness (HHI), the firm’s exposure to the industry (stock return correlation with in
+dustry), firm performance (stock return and return-on-assets), value and leverage (book-to-market and debt-to-assets), size and 
+complexity (log market capitalization and a multi-segment dummy) and a set of CEO characteristics (CEO-Chair duality, General 
+Ability Index, age, and tenure). All variables are fully defined in Appendix 1. I include firm and year fixed effects to remove unob
+servable fixed firm-level characteristics and time trends, and I cluster standard errors by firm.
+
+The hypothesis that common owners discourage RPE in executive compensation predicts β2 < 0. In contrast, if the institutional 
+investors act as stewards of corporate governance and adhere to standard principal-agent theory, then β1 > 0, and if their common 
+ownership does not dilute this preference, then β2 = 0. I find no evidence to support Hypothesis 1. When measuring ownership 
+separately for the Big Three versus other institutions, I find that higher Big 3 Direct Ownership increases RPE use while the measures of 
+common ownership are statistically zero. However, this OLS model is prone to bias if compensation and ownership are endogenously 
+determined. For example, if the Big Three purposely avoid investing in firms that compete with each other, a positive coefficient on Big 
+3 Direct Ownership could follow from standard contract theory and the coefficient on Big 3 Common Ownership would not be identified.
+
+To identify the causal effects of the Big Three’s ownership on RPE, I exploit the fact that these large asset managers hold a sub
+stantial portion of their investments due to passive ownership that tracks major market indices. When firms are added or removed from 
+index lists, the Big Three mechanically increase or decrease their ownership in these firms. Since Incentive Lab covers compensation 
+
+17 Firms frequently distribute multiple awards each year, with considerable variation in the methods of awarding and reporting. For instance, a 
+firm might present a single hybrid award that encompasses both absolute and relative objectives or issue two distinct awards, one for absolute goals 
+and another for relative goals. As Incentive Lab does not report how payouts are split between absolute and relative goals in hybrid awards, I 
+approximate this fraction for each award by dividing the number of relative goals by the total number of goals. Roughly 65 % of awards with RPE 
+are hybrid, and the average hybrid award lists 2.7 absolute goals and 1.4 relative goals. The results are similar if I arbitrarily split hybrid award 
+payouts fifty-to-fifty between absolute and relative goals.
+18 This trend in RPE is consistent with that observed by Bizjak et al. (2022) who also use the Incentive Lab data.
+19 Following Azar et al. (2018), I aggregate fund-level holdings to the institution level.
+
+8 
+
+
+
+T. Schneider                                                                                                                                                                  J o u r n a l  o f   C o r p o r a t e  F  i n  a  n c  e  93 (2025) 102806 
+
+awards at the 750 largest firms in the U.S. economy, I use membership in the Standard and Poor’s 500 (S&P 500) market index to create 
+instruments that identify variation in the Big Three’s ownership.20 In each sample year, around 20 firms are replaced during the S&P 
+500’s reconstitution, generating significant variation in membership; over half of S&P 500 constituents from the start of the sample in 
+2010 were replaced by the end of the sample in 2021.
+
+My first instrument is a dummy variable, Firm in S&P 500, that marks whether the firm is an S&P 500 index constituent. This 
+instrument generates variation in the Big Three’s direct ownership in the firm, Big 3 Direct Ownership. It is excludable if the firm’s 
+choice to use RPE is not a determinant of S&P 500 membership, if an omitted factor does not drive both RPE and membership, and if 
+membership does not influence RPE choice through other pathways. The first two possibilities are remote because the criteria that 
+cause S&P 500 turnover are float-adjusted market capitalization, a float-adjusted stock liquidity ratio, and trailing four-quarter 
+earnings.21 I address the possibility that performance may cause both RPE choice and index inclusion with control variables. 
+Although the S&P’s Index Committee has some discretion over constituent selection, it primarily regards accelerated inclusion of 
+major IPOs, continued inclusion of current constituents following their acquisition by non-constituent firms, and delayed deletion of 
+longtime constituents that might only violate the inclusion criteria temporarily. Additionally, although S&P 500 membership could 
+affect RPE if other investors who prefer it tend to target firms in that index, such activists often act in at least indirect coordination with 
+large passive investors such as the Big Three (Appel et al., 2019). Thus, Firm in S&P 500 likely satisfies the excludability condition.
+
+My second instrument, Industry in S&P 500, is the fraction of other firms in the same industry that are members of the S&P 500. This 
+measure identifies plausibly exogenous variation in the extent of the Big Three’s common ownership of the firm and its competitors, Big 
+3 Common Ownership. Since this instrument identifies variation through other firms entering or exiting the S&P 500, it is improbable 
+that it could directly affect the firm’s governance choices including executive compensation design. Even if a rival’s inclusion in the 
+S&P 500 was a factor in the firm’s pay-setting process, it would only feasibly affect RPE in whether the firm names the rival as a 
+benchmark peer. That is, even if a firm is differentially inclined to benchmark RPE against rivals in the S&P 500, it is unlikely that it 
+would affect the firm’s use of RPE as a component of pay. Thus, Industry in S&P 500 is also likely excludable.
+
+First-stage regressions confirm these instruments exhibit strong relationships with their respective endogenous variables even in 
+the presence of firm fixed effects. I estimate two-stage least-squares (2SLS) instrumental variables models of Eq. (1). The 2SLS models 
+show that the Big Three increase RPE at the firms they own, and their common ownership does not counteract this effect.
+
+3.2. Say-on-pay votes
+
+My second set of tests investigates ‘say-on-pay’ advisory shareholder votes on executive compensation. These votes serve as a 
+referendum where shareholders express their approval or disapproval of executive pay packages. Although say-on-pay votes are 
+nonbinding, dissent often produces changes to executive compensation design resulting in increased pay-to-performance sensitivity 
+(Ferri and Maber, 2013; Correa and Lel, 2016).
+
+If common owners aim to soften competition by reducing RPE, I hypothesize that they will use say-on-pay to voice their support for 
+compensation packages that do not contain relative pay elements. Formally: 
+Hypothesis 2. If common owners discourage competition, firms that share a higher degree of common ownership with their competitors will 
+receive a higher percentage of votes in favor of compensation in say-on-pay referendums when they incorporate less explicit RPE-based incentive 
+pay into executive compensation contracts.
+
+To test Hypothesis 2, I obtain firm-level say-on-pay vote tallies from ISS Voting Analytics and define Votes as the percentage of votes 
+cast in favor of say-on-pay.22 As Table 2 reports, the average say-on-pay proposal receives 90 % support. Although most votes receive 
+high support as evidenced by the 25th percentile of 89 %, there is significant variation in the left tail as the standard deviation is over 
+12 %age points.
+
+I test Hypothesis 2 by regressing Votes on the interactions of ownership and the RPE variables as in, 
+
+Votesi,t = γ1Direct Ownershipi,t− 1 ×RPEi,t + γ2Common Ownershipt− 1 ×RPEi,t + β1Direct Ownershipi,t− 1 + β2Common Ownershipi,t− 1
+
++ β3RPEi,t + λ Controlsi,t− 1 + ηi + ηt + εi,t ,
+
+(2) 
+
+where subscripts and fixed effects are as before. Controls include those in Eq. (1) and two dimensions of executive compensation that 
+shareholders often consider in say-on-pay votes (e.g., Malenko and Shen, 2016): the level of total CEO compensation (log Total 
+Compensation) and the fraction of compensation delivered in stock and option awards (Pct Stock-based Pay). In robustness tests, I 
+augment Eq. (2) to include the interactions of the ownership measures with log Total Compensation and Pct Stock-based Pay as additional 
+controls and find similar results.
+
+The hypothesis that the common owners use say-on-pay to voice their support for pay packages without RPE implies γ2 < 0. 
+
+20 Since Incentive Lab requires sample firms to ever appear among the 750 largest in the U.S. economy, I cannot use, for example, Russell 1000 
+index inclusion as a valid identification strategy.
+21 See S&P Dow Jones Indices: S&P U.S. Indices Methodology (2024) for details on eligibility criteria.
+22 The numerator of Votes is always the number of votes in favor. The denominator is the corresponding ‘base’ in the ISS data, which can be votes in 
+
+favor plus votes against, votes in favor plus votes against plus abstentions, or the number of outstanding shares.
+
+9 
+
+
+
+T. Schneider                                                                                                                                                                  J o u r n a l  o f   C o r p o r a t e  F  i n  a  n c  e  93 (2025) 102806 
+
+Table 3 
+RPE Peer selection summary statistics.
+
+Panel A: Summary statistics by firm-peer-year
+
+mean sd p25 p50 p75
+
+RPE Peer 0.065 0.247 0.000 0.000 0.000
+Big 3 Direct Ownership 0.187 0.075 0.152 0.195 0.235
+Big 3 Common Block 0.743 0.437 0.000 1.000 1.000
+Other Direct Ownership 0.536 0.182 0.432 0.554 0.648
+Other Common Block 0.081 0.273 0.000 0.000 0.000
+Product Similarity 0.362 0.331 0.137 0.401 0.624
+Return Correlation 0.054 0.063 0.004 0.033 0.080
+Similar Stock Return 0.357 0.479 0.000 0.000 1.000
+Similar Return-on-Assets 0.502 0.500 0.000 1.000 1.000
+Similar Book-to-Market 0.319 0.466 0.000 0.000 1.000
+Similar Leverage 0.356 0.479 0.000 0.000 1.000
+Similar MCAP 0.239 0.427 0.000 0.000 0.000
+Both Single- or Multi-segment 0.727 0.445 0.000 1.000 1.000
+Same 1-digit SIC industry 1.000 0.000 1.000 1.000 1.000
+Same 2-digit SIC industry 0.290 0.454 0.000 0.000 1.000
+Same 3-digit SIC industry 0.167 0.373 0.000 0.000 0.000
+Same 4-digit SIC industry 0.138 0.345 0.000 0.000 0.000
+Firm-Peer-Year Observations 527,283
+
+Panel B: Firm-year average differences between peers and non-peers
+
+Peers Non-Peers Difference
+
+RPE Peer 1.000 0.000 1.000***
+Big 3 Direct Ownership 0.183 0.182 0.000
+Big 3 Common Block 0.755 0.714 0.041***
+Other Direct Ownership 0.538 0.539 − 0.001
+Other Common Block 0.134 0.079 0.055***
+Product Similarity 0.555 0.341 0.214***
+Return Correlation 0.144 0.051 0.093***
+Similar Stock Return 0.444 0.330 0.114***
+Similar Return-on-Assets 0.559 0.451 0.108***
+Similar Book-to-Market 0.413 0.311 0.102***
+Similar Leverage 0.519 0.344 0.176***
+Similar MCAP 0.404 0.223 0.181***
+Both Single- or Multi-segment 0.758 0.737 0.022***
+Same 1-digit SIC industry 1.000 1.000 0.000
+Same 2-digit SIC industry 0.827 0.291 0.537***
+Same 3-digit SIC industry 0.643 0.143 0.500***
+Same 4-digit SIC industry 0.565 0.108 0.457***
+Number of Peers 11.274 160.146
+Peers added this year 1.238
+Peers removed next year 0.854
+Firm-Year Observations 3047
+
+This table presents summary statistics at the firm-peer-year level. The sample consists of all firms in the Incentive Lab database from 2010 to 2021 
+with non-missing data items after merging with BoardEx, Compustat, CRSP, and Thomson/Refinitiv that use RPE and benchmark against a peer 
+group, or 3047 firm-years. Counterfactual peers are firms in the same 1-digit SIC industry, producing 527,283 firm-peer-year observations. Variables 
+are defined in Appendix 1. Continuous variables are winsorized at the 1st and 99th levels.
+
+However, as discussed above regarding Appendix 2, the stewardship-focused institutional investors such as the Big Three may prefer 
+RPE in executive compensation because it tethers pay to performance while limiting ‘pay-for-luck’. If these investors prefer RPE, then 
+γ1 > 0, and if common ownership is not a mitigating factor, then γ2 = 0. My results are consistent with the latter.
+
+3.3. Peer selection
+
+My third set of tests investigate the possibility that the common owners circumvent RPE’s competitive effects by altering firms’ RPE 
+benchmark groups. Each RPE goal lists the underlying benchmark group used as the basis of comparison when evaluating relative 
+performance. Using Incentive Lab, I classify these groups into three categories: a peer group (e.g. panel C of Table 1), an industry- 
+specific index (e.g. the Dow Jones U.S. Banks Index), or a broad market index (e.g. the Russell 1000). If the common owners wish 
+to discourage competition while using RPE in compensation, they may choose to benchmark against a market index that is too broad to 
+capture gains from industry-level collusion or against a custom peer group that is designed to exclude commonly held competitors. 
+That is, they will be less inclined to benchmark against an industry-specific index because that would incentivize managers to compete 
+more fiercely against firms in their own industries.
+
+10 
+
+
+
+T. Schneider                                                                                                                                                                  J o u r n a l  o f   C o r p o r a t e  F  i n  a  n c  e  93 (2025) 102806 
+
+I test this in two stages, first by studying benchmark group choice, and second by studying individual peer firm selection. I 
+formalize the first hypothesis as follows: 
+Hypothesis 3a. If common owners discourage competition, firms that share a higher degree of common ownership with their competitors will 
+be more likely to benchmark RPE against a peer group or market index and less likely to benchmark against an industry index.
+
+To test Hypothesis 3a, I define three binary variables, Relative to Peer Group, Relative to Industry Index, and Relative to Market Index, 
+that indicate whether the firm benchmarks RPE against each corresponding group. Table 2 reports that 55 % of firms that use RPE 
+benchmark performance against a peer group, 18 % benchmark against an industry index, and 34 % benchmark against a broad market 
+index.23
+
+I estimate Eq. (1) with these three measures as dependent variables. If common owners use RPE in a manner that softens 
+competition, then the β-coefficients on ownership and common ownership measures will be positive for the Peer Group or Market Index 
+outcomes, and negative for the Industry Index outcome. However, I find no evidence of this.
+
+Second, I study whether the common owners tailor firms’ custom RPE peer groups to avoid pitting their portfolio constituents 
+against each other. The idea is that even if common owners encourage the use of RPE, they might pressure firms to remove commonly 
+owned rivals from their peer groups to limit competition. Formally: 
+Hypothesis 3b. If common owners discourage competition, firms will be less likely to include rivals in their RPE peer groups when they share 
+a common owner.
+
+To test Hypothesis 3b, I construct a dataset of firm-peer pairs and define the binary variable RPE Peer as equal to 1 if the bench
+marking firm names the other in its RPE peer group that year and 0 if the firm is not named. For practicality and tractability, I restrict 
+the counterfactual peers to those in the same 1-digit SIC code as the benchmarking firm since firms predominately select RPE peers 
+from their industry (e.g. Gong et al., 2011).
+
+Table 3 reports summary statistics at the firm-peer-year level. The average peer group contains 11.274 firms. While peer groups are 
+fairly consistent from year to year, they are not static. On average, a firm adds 1.238 new peer firms to the group each year and removes 
+0.854 firms when moving into the next year. These numbers imply an addition rate of 11 % (=1.238/11.274) and a deletion rate of 7.6 
+% (=0.854/11.274). This dynamic suggests that adjustments to RPE peer groups, though modest, occur regularly and could provide a 
+strategic mechanism for influential stakeholders to drive change. An influential common owner might exert pressure on firms to drop a 
+commonly held firm from the RPE peer group, particularly if the two firms are fierce competitors. For instance, as Feichter et al. (2022)
+note, the Big Three may influence changes in their portfolio firms through “hidden power” via private engagements with management.
+
+Moreover, narrowly adjusting the peer group is arguably more feasible than attempting a full redesign of a compensation program 
+to exclude RPE. Compensation programs typically consist of finely tuned short-term and long-term goals, require board ratification, 
+and are subject to an advisory shareholder vote. The fixed costs associated with a comprehensive redesign can be substantial, including 
+consulting fees, legal and compliance-related expenses, and the costs of stakeholder engagement. Thus, excluding a commonly held 
+competitor from the RPE group is potentially a cost-effective path of least resistance to discourage competition.
+
+To test whether common ownership affects peer selection, I define pairwise dummy variables, Big 3 Common Block and Other 
+Common Block, at the firm-peer-year level as equal to 1 an investor simultaneously holds blocks in both the firm and its potential peer. 
+Constraining potential peers to the same 1-digit SIC code, about 160 potential candidates are not selected, producing a baseline 
+probability that a firm chooses a given peer of 6.5 % (=11.274/160.146). Panel A of Table 3 reports that 74.3 % of sample pairs share a 
+Big Three blockholder. Panel B shows that the fraction is 75.5 % among RPE peers and only 71.4 % for non-RPE peers. For non-Big 
+Three institutions, 8.1 % share a common blockholder but this rises to 13.4 % for RPE peers that are selected and drops to 7.9 % 
+for non-peers. These patterns are the opposite of what Hypothesis 3b suggests.
+
+To further test whether common owners discourage RPE between close competitors, I adopt two measures of pairwise competi
+tiveness. Product Similarity is the pairwise product market similarity score based on textual analysis of product descriptions by Hoberg 
+and Phillips (2010, 2016). Return Correlation is pairwise stock return correlation based on the prior year’s daily returns, which provides 
+a market-based measure of competitiveness.
+
+I test whether common ownership influences RPE peer selection by estimating models of the form, 
+
+RPE Peeri,j,t = ϕ1Direct Ownershipi,t− 1 ×Competitioni,j,t− 1 +ϕ2Common Blocki,j,t− 1 ×Competitioni,j,t− 1 +ϕ3Common Blocki,j,t− 1 (3) 
++ϕ4Competitioni,j,t− 1 + λ Controlsi,j,t− 1 + ηi,j + ηi,t + ηj,t + εi,j,t ,
+
+for firm i and potential peer j in year t. Controls is a collection of firm-peer-year measures that capture other dimensions of similarity 
+including a set of dummies that, in an approach akin to Faulkender and Yang (2013), indicate whether the firms are within one sample 
+standard deviation of each other in terms of firm-level observables. Granular firm× peer fixed effects absorb unobserved pairwise 
+traits, while firm× year and peer× year fixed effects account for within-firm-year and within-peer-year heterogeneity. The direct 
+effects of Direct Ownership and Other Direct Ownership are absorbed by the firm× year fixed effects. I cluster standard errors at the firm- 
+pair level.
+
+The hypothesis that the common owners discourage competition among their portfolio constituents by not rewarding them for 
+outperforming each other predicts ϕ2 < 0 and ϕ3 < 0. On the other hand, if the stewardship-focused investors use RPE to filter out 
+
+23 These fractions sum to over 100 % because firms sometimes use multiple benchmarks.
+
+11 
+
+
+
+T. Schneider                                                                                                                                                                  J o u r n a l  o f   C o r p o r a t e  F  i n  a  n c  e  93 (2025) 102806 
+
+Table 4 
+RPE and common ownership.
+
+Panel A: Binary RPE Outcome
+
+(1) (2) (3) (4) (5)
+
+RPE RPE RPE RPE RPE
+
+Institutional Direct Ownership − 0.014
+(− 0.33)
+
+Institutional Common Ownership 0.180***
+(6.24)
+
+Big 3 Direct Ownership 1.305*** 1.591*** 0.296**
+(7.82) (9.10) (1.99)
+
+Big 3 Common Ownership 0.028 0.043 − 0.008
+(0.96) (1.48) (− 0.37)
+
+Other Direct Ownership − 0.005 − 0.265*** − 0.051
+(− 0.10) (− 5.33) (− 1.19)
+
+Other Common Ownership 0.020 0.014 0.024
+(0.52) (0.37) (0.95)
+
+Controls Yes Yes Yes Yes Yes
+Firm FE No No No No Yes
+Year FE Yes Yes Yes Yes Yes
+Observations 11,516 11,516 11,516 11,516 11,426
+Adjusted R-squared 0.146 0.166 0.132 0.173 0.625
+
+Panel B: Continuous RPE Outcome
+
+(1) (2) (3) (4) (5)
+
+RPE% RPE% RPE% RPE% RPE%
+
+Institutional Direct Ownership 0.004
+(0.30)
+
+Institutional Common Ownership 0.033***
+(3.98)
+
+Big 3 Direct Ownership 0.309*** 0.365*** 0.116***
+(5.39) (5.95) (2.60)
+
+Big 3 Common Ownership − 0.000 0.004 − 0.004
+(− 0.05) (0.40) (− 0.62)
+
+Other Direct Ownership 0.005 − 0.052*** − 0.025*
+(0.33) (− 3.29) (− 1.88)
+
+Other Common Ownership − 0.006 − 0.006 0.008
+(− 0.59) (− 0.58) (1.04)
+
+Controls Yes Yes Yes Yes Yes
+Firm FE No No No No Yes
+Year FE Yes Yes Yes Yes Yes
+Observations 11,516 11,516 11,516 11,516 11,426
+Adjusted R-squared 0.077 0.090 0.071 0.093 0.576
+
+This table shows that ownership by the Big Three asset management firms is positively associated with RPE in executive compensation, and this effect 
+is not mitigated by common ownership. RPE is a dummy variable equal to one if the firm uses RPE in CEO compensation. RPE% is the dollar fraction of 
+CEO compensation tied to RPE awards. Institutional Direct Ownership is the fraction of the firm’s stock owned by institutional investors. Institutional 
+Common Ownership is the fraction of same-industry firms that share at least one institutional investor as a blockholder with the firm. Big 3 Direct 
+Ownership is the fraction of shares owned by BlackRock, State Street, and Vanguard. Big 3 Common Ownership is the fraction of same-industry firms 
+that share a common Big Three blockholder with the firm. Other Direct Ownership is the fraction of the firm’s stock owned by institutional investors 
+excluding the Big Three. Other Common Ownership is the fraction of same-industry firms that share at least one non-Big Three institutional investor as a 
+blockholder with the firm. Variables are defined in Appendix 1. Controls are suppressed for brevity but are reported in the Internet Appendix. 
+Estimation is OLS with fixed effects. Standard errors are clustered by firm; t-statistics are in parenthesis. * p < 0.10, ** p < 0.05, *** p < 0.01.
+
+shared exogenous shocks as contract theory suggests, then ϕ1 > 0 and ϕ2 = 0, which is precisely what I find.
+
+4. Results
+
+4.1. RPE use
+
+Table 4 reports results from regressing RPE and RPE% on the measures of direct and common ownership as in Eq. (1). All speci
+fications include year-level fixed effects, and the final column includes firm-level fixed effects.
+
+Column (1) reports the estimated relationship between RPE and the aggregate measures of institutional ownership. The effect of 
+Institutional Direct Ownership is small and statistically insignificant, whereas the effect of Institutional Common Ownership is large, 
+positive, and statistically significant. These findings are inconsistent with Hypothesis 1, but it remains unclear why common ownership 
+
+12 
+
+
+
+T. Schneider                                                                                                                                                                  J o u r n a l  o f   C o r p o r a t e  F  i n  a  n c  e  93 (2025) 102806 
+
+Table 5 
+RPE and big three common ownership, instrumental variables.
+
+First Stage First Stage First Stage First Stage 2SLS 2SLS 2SLS 2SLS
+
+(1) (2) (3) (4) (5) (6) (7) (8)
+
+Big 3 Direct Big 3 Direct Big 3 Common Big 3 Common RPE RPE RPE% RPE%
+Ownership Ownership Ownership Ownership
+
+Big 3 Direct 
+Ownership 3.281*** 3.075* 0.628** 0.527
+
+(3.68) (1.69) (2.31) (0.98)
+Big 3 Common 
+
+Ownership 0.049 0.169 0.012 0.097
+(0.21) (0.71) (0.17) (1.37)
+
+Firm in S&P 500 0.047*** 0.015*** 0.111*** 0.003
+(11.51) (4.48) (5.71) (0.19)
+
+Industry in S&P 500 0.010* 0.003 0.175*** 0.217***
+(1.86) (0.53) (6.53) (5.42)
+
+Controls Yes Yes Yes Yes Yes Yes Yes Yes
+Firm FE No Yes No Yes No Yes No Yes
+Year FE Yes Yes Yes Yes Yes Yes Yes Yes
+Observations 11,516 11,426 11,516 11,426 11,516 11,426 11,516 11,426
+Adjusted R-squared 0.261 0.760 0.140 0.621 0.051 − 0.162 0.037 − 0.112
+Kleibergen-Paap F- 
+
+statistic 26.969 10.291 26.969 10.291
+Stock-Yogo 10 % 
+
+critical value 7.03 7.03 7.03 7.03
+
+This table reports instrumental variables regressions for the effect of Big Three ownership and common ownership on RPE use. A dummy variable that 
+indicates the firm is in the S&P 500 instruments for Big 3 Direct Ownership, which is the fraction of shares owned by BlackRock, State Street, and 
+Vanguard. The fraction of same-industry firms in the S&P 500 instruments for Big 3 Common Ownership, which is the fraction of same-industry firms 
+that share a Big Three blockholder with the firm. RPE is a dummy variable equal to one if the firm uses RPE in CEO compensation. RPE% is the dollar 
+fraction of CEO compensation tied to RPE awards. Variables are defined in Appendix 1. Controls are suppressed for brevity but are reported in the 
+Internet Appendix. Standard errors are clustered by firm; t-statistics are in parenthesis. * p < 0.10, ** p < 0.05, *** p < 0.01.
+
+would increase RPE.
+Separating institutional investors into the Big Three versus all others reveals that the overall effect of common ownership is driven 
+
+by the direct ownership of the Big Three. The β1 coefficient on Big 3 Direct Ownership in Panel A column (2) is 1.305, which implies that 
+a one standard deviation increase in their ownership corresponds to a 20 % increase (=1.305 × 0.073/0.472) in the unconditional 
+probability that the firm uses RPE, relative to the sample mean.24 In contrast, the coefficients on Big 3 Common Ownership are small and 
+statistically indistinguishable from zero in all columns. The point estimate and standard error for β2 are 0.028 and 0.029, respectively, 
+which implies that the one-sided 95 % confidence lower bound on the point estimate is − 0.020 (=0.028–1.645 × 0.029). A coefficient 
+of − 0.020 predicts that a one standard deviation increase in Big 3 Common Ownership corresponds to a relatively small 1.55 % 
+reduction (= − 0.020 × 0.363/0.472) in RPE use relative to the sample mean. Thus, we can say with 95 % confidence that the true 
+effect of a one-sigma increase in Big 3 Common Ownership on RPE is no more negative than a 1.55 % decline; the true effect is likely zero 
+or even positive. Based on these estimates, the Big Three’s common ownership does not reduce firms’ RPE use.
+
+Column (3) reports the effects of other institutional investors’ direct and common ownership on RPE. Both effects are small and 
+tightly within the neighborhood of zero. Focusing on the effect of Other Common Ownership, the estimate for β2 is 0.020 with a standard 
+error of 0.039. This implies a one-sided 95 % confidence lower bound of − 0.043 (=0.020–1.645 × 0.039). Translating, the impact of a 
+one-sigma increase in Other Common Ownership is unlikely to lower RPE by more than a modest 1.76 % decline (= − 0.043 × 0.192/ 
+0.472).
+
+Columns (4) and (5) report results when both Big Three and other institutions’ direct and common ownership are included as 
+separate variables. The effect of Big 3 Direct Ownership on RPE is strongly positive and persists even in the presence of firm-level fixed 
+effects. In contrast, the effect of Other Direct Ownership on RPE is negative, although only weakly so when within-firm variation is 
+removed. This result is intuitive because non-Big Three institutions are smaller and potentially less influential or less interested in 
+influencing governance stewardship than the Big Three.25 The effects of Big 3 Common Ownership and Other Common Ownership remain 
+near zero in all specifications.
+
+To investigate whether multicollinearity between the measures of Direct Ownership and Common Ownership complicates this 
+
+24 All in-text calculations are performed using full precision but are rounded for display, which may cause visual rounding errors.
+25 Affecting changes within firms is costly, and the Big Three achieve economies of scale that other institutional investors cannot. Additionally, 
+
+other investors’ objective functions may be different than the Big Three, who the results show favor RPE. For example, other institutional investors 
+might hold shares primarily to gain exposure to a firm’s industry and may prefer compensating managers based on overall performance rather than 
+relative performance. Moreover, RPE is a relatively modern compensation apparatus (recall Fig. 1) and other institutional investors may lack the 
+incentive or initiative to advocate for its adoption.
+
+13 
+
+
+
+T. Schneider                                                                                                                                                                  J o u r n a l  o f   C o r p o r a t e  F  i n  a  n c  e  93 (2025) 102806 
+
+inference, I examine variance inflation factors (VIF) for the regression models. The VIF factor values are reported in Appendix 3. In 
+column (1), the VIF values are 2.00 for Big 3 Ownership and 1.77 for Big 3 Common Ownership. These values are well below the 
+commonly accepted threshold of 10, which is often used to signal severe multicollinearity issues. Moving to the most saturated model 
+in column (6), the VIF values on the coefficients of interest are 6.62 for Big 3 Direct Ownership, 3.70 for Big 3 Common Ownership, 4.42 
+for Other Direct Ownership, and 1.85 for Other Common Ownership. These values suggest that the variables of interest have sufficient 
+variance for both between- and within-estimators. All VIF values on the parameters of interest fall within the range considered to 
+indicate a low to moderate degree of multicollinearity, suggesting that the relationships between these regressors (and the control 
+variables) do not unduly inflate the standard errors of the estimated coefficients.
+
+Table 5 presents results from instrumental variables specifications of eq. (1), where Firm in S&P 500 instruments for Big 3 Direct 
+Ownership and Industry in S&P 500 instruments for Big 3 Common Ownership. The first four columns report first-stage regressions, 
+confirming strong relationships between the instruments and the respective endogenous regressors. The relevant t-statistics on Firm in 
+S&P 500 are 11.51 and 4.48 with and without firm-level fixed effects, and the corresponding t-statistics for Industry in S&P 500 are 6.53 
+and 5.42. This high level of significance is important because it facilitates accurate estimation of standard errors in the second stage. 
+This, in turn, allows me to distinguish between effects that are only statistically insignificant due to lack of power and those that are 
+truly zero.
+
+These first-stage relationships are also economically significant. The coefficient on Firm in S&P 500 in column (1) is 0.047, implying 
+that all else equal, firms in the S&P 500 have 4.7 percentage points higher Big 3 Direct Ownership than those not in the index. This 
+coefficient is 0.015 in column (2) with the addition of firm fixed effects, meaning that Big 3 Direct Ownership increases (or decreases) by 
+1.5 percentage points when a firm is added to (or removed from) the S&P 500. Columns (3) and (4) show that Industry in S&P 500 
+strongly predicts Big 3 Common Ownership. The point estimate of 0.217 in column (4) implies that a one-sigma increase in the in
+strument produces a 13 % increase (=0.217 × 0.291/0.486) in Big 3 Common Ownership, relative to the sample mean.
+
+To formally assess the relevance condition, I report Kleibergen-Paap rank Wald F-statistics and the associated benchmark critical 
+value in the last two rows of Table 5. The F-statistic is 26.969 in the specifications without firm-level fixed effects and 10.291 in the 
+specifications with firm-level fixed effects. In both models, the KP F-statistic exceeds the Stock-Yogo critical value of 7.03 (the 10 % 
+maximal IV bias threshold for a model with two endogenous regressors and two excluded instruments), indicating that the instruments 
+are sufficiently strong. Therefore, I reject the null hypothesis of weak instruments. Thus, in addition to being excludable (recall section 
+3.1), the instruments satisfy the relevance condition.
+
+The last four columns of Table 5 report 2SLS results. The effect of Big 3 Direct Ownership on RPE is statistically positive in columns 
+(5) thru (7) and is negative in none. The magnitude of this effect increases relative to OLS and is economically significant yet plausible. 
+The instrumented coefficient on Big 3 Direct Ownership in the presence of firm-level fixed effects in column (6) is 3.075, implying that 
+the 1.5 percentage point higher Big 3 Direct Ownership associated with the firm joining the S&P 500 in column (2) increases the 
+probability that the firm uses RPE by 4.6 percentage points or about 9.8 % of the unconditional sample mean (=3.075 × 0.015/0.470). 
+Extrapolating, the full effect of a one-sigma increase in Big 3 Direct Ownership, or 7.2 % of a firm’s shares, causes a 47.1 % increase 
+(=3.075 × 0.072/0.470) in the probability that the firm uses RPE, relative to the sample mean. This magnitude is large but feasible 
+considering the influence that 7.2 percent of a company’s shares can have on corporate policy.
+
+In contrast, the instrumented effect of Big 3 Common Ownership on RPE use remains small and within the statistical neighborhood of 
+zero, meaning that their common ownership likely has no effect on firms’ RPE use. In column (6), the instrumented coefficient on Big 3 
+Common Ownership in the presence of firm fixed effects is 0.169 with a standard error of 0.238, meaning that the one-sided 95 % 
+confidence lower bound on this estimate is − 0.223 (=0.169–1.645 × 0.238). Therefore, with 95 % confidence, the true reduction in 
+RPE due to a one standard deviation increase in Big 3 Common Ownership is no more than a 17.7 % decline in probability relative to the 
+sample mean (= − 0.223 × 0.373/0.470). Even at the 95 % lower bound, the implied decline in RPE due to a one-sigma increase in Big 
+3 Common Ownership is considerably smaller than the 47.1 % increase implied by the baseline point estimate for the effect of a one- 
+sigma increase in Big 3 Direct Ownership. The true effect of Big 3 Common Ownership on RPE is likely zero or even positive. Taken 
+together, firms with more shares owned by the Big Three asset managers are more likely to use RPE in executive compensation, and this 
+propensity is not offset by the Big Three’s common ownership of rival firms.
+
+4.2. Say-on-pay votes
+
+Table 6 reports results from regressing say-on-pay vote outcomes on measures of the Big Three’s ownership and common ownership 
+as in Eq. (2). The coefficients on the interactions of Big 3 Direct Ownership and the RPE measures are statistically positive in all columns 
+while the interactions involving Big 3 Common Ownership, Other Direct Ownership, and Other Common Ownership are statistically sig
+nificant in none.
+
+Focusing on Panel A, The coefficient on Big 3 Direct Ownership × RPE in the presence of firm-level fixed effects, in column (2), is 
+0.198. A one standard deviation increase in Big 3 Direct Ownership at a firm that uses RPE is expected to produce 1.4 percentage points 
+more support (=0.198 × 0.072) for say-on-pay than a firm that does not. Relative to Votes standard deviation, this represents an 
+
+14 
+
+
+
+T. Schneider                                                                                                                                                                  J o u r n a l  o f   C o r p o r a t e  F  i n  a  n c  e  93 (2025) 102806 
+
+Table 6 
+RPE, common ownership, and Say-on-Pay.
+
+Panel A: Binary RPE Interactions
+
+(1) (2) (3) (4) (5) (6)
+
+Votes Votes Votes Votes Votes Votes
+
+Big 3 Direct Ownership × RPE 0.149** 0.198*** 0.160** 0.232***
+(2.28) (2.92) (2.26) (3.22)
+
+Big 3 Common Ownership × RPE − 0.004 − 0.007 − 0.001 0.003
+(− 0.36) (− 0.59) (− 0.11) (0.20)
+
+Other Direct Ownership × RPE − 0.001 0.006 − 0.015 − 0.012
+(− 0.06) (0.26) (− 0.79) (− 0.56)
+
+Other Common Ownership × RPE 0.037 0.002 − 0.016 − 0.114
+(0.64) (0.03) (− 0.24) (− 1.49)
+
+Big 3 Direct Ownership − 0.084 − 0.092 − 0.079 − 0.108
+(− 1.49) (− 1.51) (− 1.29) (− 1.58)
+
+Big 3 Common Ownership 0.009 − 0.004 0.009 − 0.006
+(1.02) (− 0.42) (0.93) (− 0.61)
+
+Other Direct Ownership − 0.010 − 0.003 − 0.003 0.006
+(− 0.64) (− 0.14) (− 0.17) (0.30)
+
+Other Common Ownership 0.005 − 0.048 − 0.000 0.019
+(0.11) (− 0.72) (− 0.01) (0.25)
+
+RPE − 0.006 − 0.019* 0.012 0.007 0.001 − 0.007
+(− 0.67) (− 1.96) (1.13) (0.56) (0.07) (− 0.59)
+
+log Total Compensation − 0.034*** − 0.006 − 0.034*** − 0.006 − 0.034*** − 0.006
+(− 7.64) (− 1.42) (− 7.49) (− 1.45) (− 7.72) (− 1.41)
+
+Pct Stock-based Pay 0.022** 0.027** 0.022* 0.027** 0.023** 0.027**
+(2.02) (2.43) (1.95) (2.38) (2.14) (2.44)
+
+Controls Yes Yes Yes Yes Yes Yes
+Firm FE No Yes No Yes No Yes
+Year FE Yes Yes Yes Yes Yes Yes
+Observations 9309 9230 9309 9230 9309 9230
+Adjusted R-squared 0.061 0.282 0.060 0.280 0.061 0.282
+
+Panel B: Continuous RPE Interactions
+
+(1) (2) (3) (4) (5) (6)
+
+Votes Votes Votes Votes Votes Votes
+Big 3 Direct Ownership × RPE% 0.359* 0.351* 0.353* 0.388*
+
+(1.93) (1.65) (1.68) (1.68)
+Big 3 Common Ownership × RPE% 0.010 − 0.019 0.018 0.000
+
+(0.25) (− 0.43) (0.44) (0.00)
+Other Direct Ownership × RPE% 0.043 0.019 0.019 − 0.007
+
+(0.64) (0.25) (0.28) (− 0.09)
+Other Common Ownership × RPE% 0.121 0.016 − 0.105 − 0.200
+
+(0.57) (0.07) (− 0.41) (− 0.67)
+Big 3 Direct Ownership − 0.023 − 0.028 − 0.024 − 0.018
+
+(− 0.78) (− 0.79) (− 0.48) (− 0.28)
+Big 3 Common Ownership − 0.039 − 0.022 0.006 − 0.006
+
+(− 0.84) (− 0.41) (0.76) (− 0.69)
+Other Direct Ownership − 0.017 − 0.002 − 0.015 − 0.000
+
+(− 1.18) (− 0.12) (− 1.01) (− 0.02)
+Other Common Ownership 0.021 − 0.048 0.005 − 0.017
+
+(0.47) (− 0.77) (0.11) (− 0.25)
+RPE% 0.006 − 0.006 0.006 0.013 − 0.024 − 0.013
+
+(0.76) (− 0.75) (0.16) (0.30) (− 0.58) (− 0.28)
+log Total Compensation − 0.032*** − 0.005 − 0.033*** − 0.005 − 0.033*** − 0.005
+
+(− 7.21) (− 1.26) (− 7.19) (− 1.28) (− 7.23) (− 1.28)
+Pct Stock-based Pay 0.018 0.026** 0.019* 0.026** 0.020* 0.026**
+
+(1.64) (2.30) (1.67) (2.28) (1.76) (2.30)
+Controls Yes Yes Yes Yes Yes Yes
+Firm FE No Yes No Yes No Yes
+Year FE Yes Yes Yes Yes Yes Yes
+Observations 9309 9230 9309 9230 9309 9230
+Adjusted R-squared 0.060 0.280 0.059 0.280 0.060 0.280
+
+This table shows that firms with higher Big Three ownership receive more support in advisory say-on-pay votes if they use RPE in CEO compensation, 
+and this effect is not mitigated by common ownership. Votes is the fraction of shareholder votes in favor of the compensation program. RPE is a 
+dummy variable equal to one if the firm uses RPE in CEO compensation. RPE% is the dollar fraction of CEO compensation tied to RPE awards. Big 3 
+Direct Ownership is the fraction of shares owned by BlackRock, State Street, and Vanguard. Big 3 Common Ownership is the fraction of same-industry 
+firms that share a common Big Three blockholder with the firm. Other Direct Ownership is the fraction of the firm’s stock owned by institutional 
+
+15 
+
+
+
+T. Schneider                                                                                                                                                                  J o u r n a l  o f   C o r p o r a t e  F  i n  a  n c  e  93 (2025) 102806 
+
+investors excluding the Big Three. Other Common Ownership is the fraction of same-industry firms that share at least one non-Big Three institutional 
+investor as a blockholder with the firm. Variables are defined in Appendix 1. Controls are suppressed for brevity but are reported in the Internet 
+Appendix. Estimation is OLS with fixed effects. Standard errors are clustered by firm; t-statistics are in parenthesis. * p < 0.10, ** p < 0.05, *** p <
+0.01.
+
+Table 7 
+RPE benchmark choice and common ownership.
+
+(1) (2) (3) (4) (5) (6) (7) (8) (9)
+
+Peer Peer Peer Industry Industry Industry Market Market Market 
+Group Group Group Index Index Index Index Index Index
+
+Big 3 Direct 
+Ownership 0.105 0.178 − 0.007 0.112 0.088 0.097
+
+(0.53) (0.82) (− 0.04) (0.51) (0.45) (0.47)
+Big 3 Common 
+
+Ownership 0.004 0.008 0.004 0.016 − 0.026 − 0.029
+(0.09) (0.21) (0.13) (0.48) (− 0.68) (− 0.75)
+
+Other Direct 
+Ownership − 0.045 − 0.079 − 0.102* − 0.131* − 0.012 − 0.007
+
+(− 0.89) (− 1.30) (− 1.66) (− 1.90) (− 0.25) (− 0.14)
+Other Common 
+
+Ownership 0.023 0.024 − 0.016 − 0.015 0.050 0.052
+(0.61) (0.66) (− 0.43) (− 0.41) (1.53) (1.60)
+
+Controls Yes Yes Yes Yes Yes Yes Yes Yes Yes
+Firm FE Yes Yes Yes Yes Yes Yes Yes Yes Yes
+Year FE Yes Yes Yes Yes Yes Yes Yes Yes Yes
+Observations 5326 5326 5326 5326 5326 5326 5326 5326 5326
+Adjusted R-squared 0.704 0.704 0.704 0.645 0.645 0.645 0.687 0.688 0.688
+
+This table studies the choice of RPE benchmark reference groups as a function of common ownership. The outcome indicates whether performance is 
+benchmarked against a Peer Group, an Industry Index, or a Market Index. Big 3 Direct Ownership is the fraction of shares owned by BlackRock, State 
+Street, and Vanguard. Big 3 Common Ownership is the fraction of same-industry firms that share a common Big Three blockholder with the firm. Other 
+Direct Ownership is the fraction of the firm’s stock owned by institutional investors excluding the Big Three. Other Common Ownership is the fraction of 
+same-industry firms that share at least one non-Big Three institutional investor as a blockholder with the firm. Variables are defined in Appendix 1. 
+Controls are suppressed for brevity but are reported in the Internet Appendix. Estimation is OLS with fixed effects. Standard errors are clustered by 
+firm; t-statistics are in parenthesis. * p < 0.10, ** p < 0.05, *** p < 0.01.
+
+increase of 11.7 % (=0.198 × 0.072/0.122).26 This effect’s statistical and economic significance suggests that the Big Three support 
+RPE in executive compensation despite its competitive effects.
+
+In contrast, the coefficients on Big 3 Common Ownership and the RPE measures are small and insignificant in all columns. In column 
+(2), the point estimate is − 0.007 and its standard error is 0.013. The one-sided 95 % confidence lower bound for the coefficient is 
+− 0.028 (= − 0.007–1.645 × 0.013). At this lower bound, a one standard deviation increase in Big 3 Common Ownership corresponds to 
+a 1.0 percentage point decrease in support (− 0.028 × 0.373). Thus, even at the 95 % lower bound, the negative effect of Big 3 Common 
+Ownership × RPE is over a magnitude smaller than the 11.7 % positive effect implied by the point value estimate on Big 3 Direct 
+Ownership × RPE. The true effect of this interaction is likely zero.
+
+The coefficients on Other Direct Ownership × RPE and Other Common Ownership × RPE are insignificant in all specifications. Thus, 
+although the effect of Other Direct Ownership on RPE use is negative in some of the Table 4 specifications, these institutions do not 
+vocalize any preference regarding RPE with their voting behavior. This is consistent with other institutions being neutral or perhaps 
+apathetic to RPE in executive compensation. In Column (4) of the present table, the point estimate and standard error for Other 
+Common Ownership× RPE are 0.002 and 0.066, respectively. This implies a lower-95 % confidence bound of − 0.107 (=0.002–1.645 ×
+0.066), suggesting that a one-sigma increase in Other Common Ownership would reduce Votes by a modest 2 percentage points. This 
+lower bound is again dwarfed in comparison to the effect of Big 3 Direct Ownership× RPE, and the true effect Other Common Ownership×
+RPE is likely zero.
+
+Additionally, I address the possibility that the RPE measures capture an omitted dimension of executive compensation that cor
+relates with RPE. For example, if the institutions vote against overpaying executives and if firms that overpay their executives typically 
+do not use RPE, this omitted term may confound the results. I augment Eq. (2) by interacting the measures of direct and common 
+ownership with log Total Compensation and Pct Stock-based Pay and re-estimate. The resulting table, which contains twelve interaction 
+terms, has been relegated to the Internet Appendix due to its length. However, the inference is unchanged: the interactions of Big 3 
+Direct Ownership and the RPE measures are statistically positive and the interactions of the common ownership and RPE measures are 
+
+26 To understand the effect of initiating RPE on say-on-pay support, one must interpret the interaction effect in conjunction with the direct effect of 
+RPE. A firm that uses RPE and is at the 25th percentile of Big 3 Direct Ownership receives 0.5 percentage points more support in say-on-pay than if it 
+did not use RPE (=0.198 × 0.121–0.019), while a firm at the 75th percentile of Big 3 Direct Ownership receives 2.2 percentage points more support 
+(=0.198 × 0.208–0.019).
+
+16 
+
+
+
+T. Schneider                                                                                                                                                                  J o u r n a l  o f   C o r p o r a t e  F  i n  a  n c  e  93 (2025) 102806 
+
+Table 8 
+RPE peer selection and common ownership.
+
+Panel A: Product Similarity
+
+(1) (2) (3) (4) (5) (6)
+
+RPE Peer RPE Peer RPE Peer RPE Peer RPE Peer RPE Peer
+
+Big 3 Direct Ownership × Similarity 0.517*** 0.622***
+(2.64) (2.89)
+
+Big 3 Common Block × Similarity 0.031 − 0.003
+(1.42) (− 0.13)
+
+Other Direct Ownership × Similarity 0.050 − 0.024
+(0.62) (− 0.27)
+
+Other Common Block × Similarity 0.029 0.030
+(1.05) (1.10)
+
+Big 3 Direct Ownership Absorbed Absorbed Absorbed Absorbed
+
+Big 3 Common Block 0.003* 0.002 0.003 0.003*
+(1.82) (0.89) (1.63) (1.73)
+
+Other Direct Ownership Absorbed Absorbed Absorbed Absorbed
+
+Other Common Block 0.001 − 0.001 0.001 − 0.001
+(0.43) (− 0.99) (0.42) (− 1.02)
+
+Similarity 0.112*** − 0.010 0.112*** 0.036 0.112*** − 0.036
+(5.42) (− 0.25) (5.42) (0.78) (5.42) (− 0.74)
+
+Controls Yes Yes Yes Yes Yes Yes
+Firm × Peer FE Yes Yes Yes Yes Yes Yes
+Firm × Year FE Yes Yes Yes Yes Yes Yes
+Peer × Year FE Yes Yes Yes Yes Yes Yes
+Observations 484,720 484,720 484,720 484,720 484,720 484,720
+Adjusted R-squared 0.830 0.830 0.830 0.830 0.830 0.830
+
+Panel B: Return Correlation
+
+(1) (2) (3) (4) (5) (6)
+
+RPE Peer RPE Peer RPE Peer RPE Peer RPE Peer RPE Peer
+
+Big 3 Direct Ownership × Correlation 0.041*** 0.048***
+(3.55) (3.91)
+
+Big 3 Common Ownership × Correlation 0.000 − 0.000
+(0.10) (− 0.13)
+
+Other Direct Ownership × Correlation − 0.006 − 0.015***
+(− 1.22) (− 2.62)
+
+Other Common Ownership × Correlation − 0.000 0.000
+(− 0.01) (0.06)
+
+Big 3 Direct Ownership Absorbed Absorbed Absorbed Absorbed
+
+Big 3 Common Ownership 0.003* 0.003* 0.003 0.003*
+(1.82) (1.74) (1.64) (1.67)
+
+Other Direct Ownership Absorbed Absorbed Absorbed Absorbed
+
+Other Common Ownership 0.001 0.001 0.001 0.000
+(0.45) (0.46) (0.44) (0.40)
+
+Correlation 0.005*** − 0.003 0.005*** 0.009*** 0.005*** 0.004
+(6.52) (− 1.28) (6.51) (3.31) (6.52) (1.32)
+
+Controls Yes Yes Yes Yes Yes Yes
+Firm × Peer FE Yes Yes Yes Yes Yes Yes
+Firm × Year FE Yes Yes Yes Yes Yes Yes
+Peer × Year FE Yes Yes Yes Yes Yes Yes
+Observations 484,720 484,720 484,720 484,720 484,720 484,720
+Adjusted R-squared 0.830 0.830 0.830 0.830 0.830 0.830
+
+This table shows that firms with higher Big Three ownership are more likely to choose close competitors as RPE peers, and this is not lessened by 
+pairwise common ownership. RPE Peer is a dummy variable that indicates if the firm was chosen as an RPE peer. Big 3 Direct Ownership is the fraction 
+of shares owned by BlackRock, State Street, and Vanguard. Big 3 Common Block is a dummy variable that equals one if the firm-pair share a Big Three 
+blockholder. Other Direct Ownership is the fraction of the firm’s stock owned by institutional investors excluding the Big Three. Other Common Block is a 
+dummy variable that equals one if the firm-pair share a non-Big Three blockholder. Similarity is the Hoberg-Phillips pairwise text-based similarity 
+score of product market overlap. Correlation is pairwise stock return correlation. Variables are defined in Appendix 1. Controls are suppressed for 
+brevity but are reported in the Internet Appendix. Estimation is OLS with fixed effects. Standard errors are clustered by firm-pair; t-statistics are in 
+parenthesis. * p < 0.10, ** p < 0.05, *** p < 0.01.
+
+17 
+
+
+
+T. Schneider                                                                                                                                                                  J o u r n a l  o f   C o r p o r a t e  F  i n  a  n c  e  93 (2025) 102806 
+
+zero. I find no evidence that institutional investors use say-on-pay to voice their support for compensation that excludes relative 
+incentives.
+
+4.3. Peer selection
+
+Table 7 presents results from regressing Relative to Peer Group, Relative to Industry Index, and Relative to Market Index on the 
+measures of institutions’ direct and common ownership, similar to Eq. (1). The effects observed in this analysis are quite muted. The 
+coefficients on Big 3 Direct Ownership, Big 3 Common Ownership, and Other Common Ownership are insignificant in all columns. Other 
+Direct Ownership is weakly negatively related to Industry Index. Overall, the results suggest that these institutions are unlikely to alter 
+RPE reference group choice at the firms they own, and there is no evidence that common ownership has any effect.
+
+Table 8 investigates the possibility that investors alter peer groups to exclude commonly held competitors as in Eq. (3). Column (1) 
+reports a small yet positive effect at the 10 % level of significance of Big 3 Common Block on RPE peer selection. This implies that firms 
+are, if anything, more likely to select peers with whom they share a Big Three blockholder, which is contrary to the idea that the Big 
+Three avoid pitting their portfolio firms against each other. Also in Column (1), the direct effects of the two competitiveness measures, 
+Product Similarity and Return Correlation (in Panels A and B, respectively), are positive, meaning that firms benchmark against peers 
+that are closer rivals in terms of product market space and economic exposure.
+
+The remaining columns reveal that the effects attributed to the competitiveness measures are largely due to the Big Three’s 
+presence. Introducing the interactions of the direct and common ownership with Product Similarity and Return Correlation produces 
+large effects on their interactions with Big 3 Direct Ownership and causes their direct effects to shrink to near zero. In Columns (2) and 
+(6), the interaction terms involving Big 3 Direct Ownership are statistically positive, while Product Similarity and Return Correlation have 
+negligible effects. These results suggest that the Big Three influence pairwise peer selection by encouraging the firms they own to 
+benchmark performance-contingent pay against closely related rivals.
+
+Furthermore, the coefficients on the interaction terms involving Big 3 Common Block and Other Common Block are statistically 
+indifferent from zero. For example, the point estimate on Big 3 Common Block × Product Similarity in Column (2) of Panel A is 0.031 and 
+its standard error is 0.022. The one-sided lower 95 % bound on this estimate is − 0.004 (=0.031–1.645 × 0.022), which means that a 
+one-sigma increase in Product Similarity produces a small 0.15 percentage point reduction in peer selection probability (= − 0.004 ×
+0.331) at firms with a Big 3 Common Block, or about 2.3 % of the sample mean (=0.0015/0.065). Alternatively, the same lower bound 
+on Big 3 Common Block × Return Correlation is − 0.003 (=0.000–1.645 × 0.002), which predicts an even smaller effect in conjunction 
+with Return Correlation’s smaller standard deviation. Interpreting the effect of Other Common Block × Product Similarity in Column (4) 
+of Panel A, the lower 95 % confidence bound is − 0.017 (=0.029–1.645 × 0.028), where a one-sigma increase in Other Common Block 
+corresponds to a 0.3 % (= − 0.017 × 0.192) reduction in peer selection probability, and the effect in Panel B is even smaller.
+
+I conclude that common ownership does not materially affect pairwise peer selection. This statistically insignificant non-result is 
+inconsistent with the hypothesis that institutional investors discourage competition among their portfolio companies.
+
+4.4. Robustness tests
+
+This section outlines several sets of robustness tests that corroborate the paper’s main results and, for brevity, are reported in the 
+Internet Appendix. Please see the Internet Appendix for complete discussions of these tests. First, I adopt the modified Herfindahl- 
+Hirschman Index developed by O’Brien and Salop (2000) and use ΔMHHI – which captures common ownership by all institutional 
+owners – as the measure of common ownership. Second, I use alternative industry specifications based on product descriptions by 
+Hoberg and Phillips (2010, 2016). Third, I use an alternative definition of the common ownership based on relative portfolio weights 
+as in Harford et al. (2011). Last, I estimate nonlinear alternatives to the paper’s linear regression models. In all cases, the results 
+support the main paper. Altogether, I find no evidence that common owners reduce RPE in executive compensation.
+
+5. Conclusion
+
+The Big Three asset management firms have significant economic power in U.S. capital markets, accounting for over 20 % of 
+holdings at most firms in recent years (Fig. 1). These institutions have been at the center of a debate on antitrust regulations, as they 
+regularly command stakes in natural product market competitors and could gain from collusion. Scholars including Elhauge (2016, 
+2021) and Posner et al. (2016) have recommended antitrust enforcement actions to limit common ownership such as divestitures or 
+prohibiting funds from owning multiple stocks within concentrated industries.
+
+My paper looks for evidence of anticompetitive behavior in executive compensation design and tests whether the Big Three reduce 
+incentive programs that reward executives for outperforming their rivals. In contrast, I find that the Big Three encourage RPE at the 
+firms they own to align pay with performance despite its known competitive effects. Their common ownership does not diminish this 
+propensity, and my statistical estimates of these effects are tightly within the neighborhood of zero. My results do not support the 
+hypothesis that the Big Three have anti-competitive effects and suggest that antitrust intervention may be imprudent.
+
+CRediT authorship contribution statement
+
+Thomas Schneider: Writing – review & editing, Writing – original draft, Visualization, Validation, Supervision, Software, Re
+sources, Project administration, Methodology, Investigation, Funding acquisition, Formal analysis, Data curation, Conceptualization.
+
+18 
+
+
+
+T. Schneider                                                                                                                                                                  J o u r n a l  o f   C o r p o r a t e  F  i n  a  n c  e  93 (2025) 102806 
+
+Acknowledgements
+
+This article is part of a Special issue entitled: ‘Non-significant results’ published in Journal of Corporate Finance. I thank the editor, 
+Matthew Ringgenberg, and two anonymous referees for helpful comments. I am grateful to Mary Ellen Carter, Clifford Holderness, 
+Nadya Malenko, Philip Strahan, and Jérôme Taillard for valuable conversations and advice. Send correspondence to Thomas 
+Schneider, the University of Oklahoma, Michael F. Price College of Business, Division of Finance, 307 West Brooks Street, Norman, OK 
+73019, USA.
+
+Appendix A. Variable definitions
+
+Relative Performance Evaluation
+RPE: A dummy variable that indicates if the firm uses relative performance evaluation as a component of CEO compensation [Incentive Lab]
+RPE%: The dollar-weighted fraction of the CEO’s pay that is linked to relative performance awards [Incentive Lab]
+
+Ownership and Instruments
+Institutional Direct Ownership: The fraction of the firm’s stock owned by institutional investors [Thomson Reuters]
+Institutional Common Ownership: The fraction of same-industry firms that share at least one institutional investors as a blockholder with the firm [Thomson 
+Reuters]
+Big 3 Direct Ownership: The fraction of the firm’s stock owned by BlackRock, State Street, and Vanguard [Thomson Reuters]
+Big 3 Common Ownership: The fraction of same-industry firms that share at least one of the Big Three as a blockholder with the firm [Thomson Reuters]
+Other Direct Ownership: The fraction of the firm’s stock owned by institutional investors, excluding BlackRock, State Street, and Vanguard [Thomson Reuters]
+Other Common Ownership: The fraction of same-industry firms that share at least one non-Big Three institutional investor as a blockholder with the firm 
+[Thomson Reuters]
+Firm in S&P 500: A dummy variable that indicates that the firm is in the S&P 500 [CRSP]
+Industry in S&P 500: The fraction of same-industry firms that are in the S&P 500 [CRSP]
+Industry ΔMHHI: The incremental increase in industry concentration attributable to common ownership as in O’Brien and Salop (2000) [CRSP]
+Industry HHI: Herfindahl-Hirschman Index of industry concentration [CRSP]
+
+Firm Characteristics
+Industry Exposure: The correlation of the firm’s stock returns with the industry’s return over the prior year [CRSP]
+Stock Return: The firm’s total stockholder return including dividends [CRSP]
+Return-on-Assets: Net income divided by total assets [Compustat]
+Book-to-Market: Book value of equity divided by market value of equity [Compustat]
+Leverage: Total debt divided by assets [Compustat]
+log MCAP: Natural log of market capitalization [Compustat]
+Multi-segment: A dummy if the firm is a multi-segment conglomerate [Compustat]
+
+Executive Characteristics
+CEO/Chair Duality: A dummy variable if the CEO is chairperson of the board [BoardEx, Incentive Lab]
+General Ability Index: The extent to which a CEO has general managerial skills, in contrast to specialist skills, as in Custódio et al. (2013) [BoardEx]
+Executive Age: The CEO’s age [BoardEx, Incentive Lab]
+Executive Tenure: The number of years the CEO has been in that position [BoardEx, Incentive Lab]
+
+Say-on-Pay
+Votes: The fraction of votes in support of the firm’s executive compensation program, defined as votes in favor divided by the prescribed base, which is either 
+votes in favor plus votes against, votes in favor plus votes against plus abstentions, or the number of outstanding shares [ISS Voting Analytics]
+log Total Compensation: The natural log of the total fair value of CEO compensation [Incentive Lab]
+Pct Stock-based Pay: The dollar-weighted fraction of the CEO’s pay that is delivered in stock-based or option-based pay [Incentive Lab]
+
+Benchmark Group
+Relative to Peer Group: A dummy variable that indicates if the firm benchmarks RPE relative to a peer group [Incentive Lab]
+Relative to Industry Index: A dummy variable that indicates if the firm benchmarks RPE relative to an industry index such as the S&P 500 Industrials Index 
+[Incentive Lab]
+Relative to Market Index: A dummy variable that indicates if the firm benchmarks RPE relative to an industry index such as the S&P 500 Index [Incentive Lab]
+
+Peer Selection
+Product Similarity: The Hoberg and Phillips (2010, 2016) pairwise text-based product market similarity score from 10 K product descriptions [https:// 
+hobergphillips.tuck.dartmouth.edu/]
+Return Correlation: Pairwise stock return correlation between the firm and the potential peer [CRSP]
+Similar Variable: A dummy variable that indicates that the firm and the peer are within one sample standard deviation of each other for a variety of metrics 
+(MCAP, Leverage, etc.) [Compustat]
+
+19 
+
+
+
+T. Schneider                                                                                                                                                                  J o u r n a l  o f   C o r p o r a t e  F  i n  a  n c  e  93 (2025) 102806 
+
+Appendix B. Excerpt of voting guidelines
+
+This appendix presents an excerpt from Vanguard’s 2024 U.S. Proxy Voting Policy as it pertains to 
+advisory votes on executive compensation. The excerpt shows that Vanguard’s policy exhibits a 
+preference for the use of RPE in executive incentives. Source: https://corporate.vanguard.com/ 
+content/dam/corp/advocate/investment-stewardship/pdf/policies-and-reports/us_proxy_voting_ 
+policy_2024.pdf
+
+Advisory votes on executive compensation (Say on Pay) 
+Because norms and expectations vary by industry type, company size, company age, and 
+geographic location, the following guidelines illustrate elements of effective executive 
+compensation plans and are not a “one-size-fits-all” tool. 
+A fund’s considerations when evaluating executive pay fall into three broad categories:   
+
+Alignment of pay and performance. The funds look for evidence of clear alignment between pay 
+outcomes and company performance. This is mainly assessed through alignment of incentive targets 
+with corporate strategy and analysis of three-year total shareholder return and realized pay over the 
+same period vs. a relevant set of peer companies. If there are concerns that pay and performance are not 
+aligned, a fund may vote against a pay-related proposal.
+Compensation plan structure. Plan structures should be aligned with the company’s stated long-term 
+strategy and should support pay-for-performance alignment. Where a plan includes structural issues 
+which the funds determine have led to, or could in the future lead to, pay-for-performance 
+misalignment, a fund may vote against a pay-related proposal. For compensation structures which are 
+not typical of a market, the Vanguard-advised funds look for specific disclosure demonstrating how the 
+structure supports long-term value creation for shareholders.
+Governance of compensation plans. The funds look for boards to have a clear strategy and philosophy on 
+executive pay, utilize robust processes to evaluate and evolve executive pay plans, and implement 
+executive pay plans responsive to shareholder feedback over time. The funds also look for boards to 
+explain these matters to shareholders via company disclosures. Where pay-related proposals consis
+tently receive low support, the funds look for boards to demonstrate responsiveness to shareholder 
+concerns.
+A fund will vote case by case on executive compensation proposals (including Say on Pay, 
+compensation reports, and compensation policies) and in general will support those that enhance long- 
+term shareholder value. It may also vote for compensation proposals that reflect improvements in 
+compensation practices in the interests of long-term shareholder value creation, even if the proposals 
+are not perfectly aligned with all these guidelines.
+While a fund will not be prescriptive as to exact structure of a compensation plan, it will seek structures 
+and processes that can reasonably be expected to align pay and performance over time. Such structures 
+may include a meaningful portion of equity vesting on performance criteria, strategically aligned 
+performance metrics set to rigorous goals, and clear disclosure of the program and outcomes enabling 
+shareholders to understand the connection to long-term shareholder value, among other factors. A 
+fund does not look for nonfinancial metrics (such as environmental, social, and governance [ESG] 
+metrics) to be a standard component of all compensation plans. When compensation committees 
+choose to include nonfinancial metrics, the funds look for the same qualities the funds do with more 
+traditional metrics, such as rigor, disclosure, and alignment with key strategic goals and/or material 
+risks.
+The following situations are among those that raise a higher level of concern related to a compensation 
+plan: 
+• Pay outcomes are significantly higher than those of peers but total shareholder return is well below 
+
+that of peers.
+• The long-term plan makes up less than 50 % of total pay.
+• The long-term plan has a performance period of less than three years.
+• Plan targets are reset or retested or are not rigorous.
+• The target for total pay is set above the peer-group median.
+The following situations are among those that raise warning signs, or a moderate level of concern:   
+
+• The peer group used to benchmark pay is not comparably aligned with the company in size or 
+strategy.
+
+• The plan uses absolute metrics only.
+• The plan allows for positive discretion only.
+• The company uses one-time (e.g., retention) awards.
+• The disclosure related to plan structure or payout is limited.
+
+Where these warning signs exist, elements of strong compensation governance, such as board 
+responsiveness and disclosure that includes data, rationale, and alternatives considered, can 
+sometimes serve to mitigate these concerns.
+
+20 
+
+
+
+T. Schneider                                                                                                                                                                  J o u r n a l  o f   C o r p o r a t e  F  i n  a  n c  e  93 (2025) 102806 
+
+Appendix C. Variance inflation factors
+
+VIF VIF VIF VIF VIF VIF
+
+(1) (2) (3) (4) (3) (4)
+
+Big 3 Direct Ownership 2.00 5.80 2.23 6.62
+Big 3 Common Ownership 1.77 3.66 1.83 3.70
+Other Direct Ownership 1.15 3.64 1.40 4.42
+Other Common Ownership 1.13 1.84 1.15 1.85
+Industry HHI 1.12 12.94 1.12 12.92 1.12 12.94
+Industry Exposure 1.32 2.69 1.30 2.69 1.33 2.69
+Stock Return 1.26 1.63 1.26 1.63 1.27 1.63
+Return-on-Assets 1.24 4.09 1.24 4.09 1.24 4.10
+Book-to-Market 1.39 4.46 1.40 4.46 1.40 4.46
+Leverage 1.19 6.37 1.18 6.37 1.19 6.38
+log Market Cap. 1.36 13.70 1.39 13.73 1.40 13.75
+Multi-segment 1.06 5.19 1.06 5.19 1.06 5.19
+Current Chair 1.23 3.79 1.23 3.79 1.23 3.80
+General Ability Index 1.09 4.07 1.09 4.08 1.10 4.08
+Executive Age 1.31 4.78 1.32 4.77 1.32 4.78
+Executive Tenure 1.36 4.37 1.35 4.36 1.36 4.37
+Firm FE No Yes No Yes No Yes
+Year FE Yes Yes Yes Yes Yes Yes
+Observations 11,516 11,426 11,516 11,426 11,516 11,426
+
+This table reports variance inflation factors (VIF) for the regression models involving ownership and common ownership. VIF values below the 
+commonly accepted threshold of 10 indicate that multicollinearity is within an acceptable range. Big 3 Direct Ownership is the fraction of shares owned 
+by BlackRock, State Street, and Vanguard. Big 3 Common Ownership is the fraction of same-industry firms that share a common Big Three blockholder 
+with the firm. Other Direct Ownership is the fraction of the firm’s stock owned by institutional investors excluding the Big Three. Other Common 
+Ownership is the fraction of same-industry firms that share at least one non-Big Three institutional investor as a blockholder with the firm. Variables 
+are defined in Appendix 1. Estimation is OLS with fixed effects.
+
+Appendix D. Supplementary data
+
+Supplementary data to this article can be found online at https://doi.org/10.1016/j.jcorpfin.2025.102806.
+
+Data availability
+
+The authors do not have permission to share data.
+
+References
+
+Aggarwal, Rajesh K., Samwick, Andrew A., 1999. Executive compensation, strategic competition, and relative performance evaluation: theory and evidence. J. Financ. 
+54, 1999–2043.
+
+Anton, Miguel, Ederer, Florian, Gine, Mireia, Schmalz, Martin, 2016. Common Ownership and Relative Performance Evaluation. Working Paper. 
+Anton, Miguel, Ederer, Florian, Gine, Mireia, Schmalz, Martin, 2023. Common ownership, competition, and top management incentives. J. Polit. Econ. 131, 
+
+1294–1355.
+Appel, I.R., Gormley, T.A., Keim, D.B., 2019. Standing on the shoulders of giants: the effect of passive investors on activism. Rev. Financ. Stud. 32 (7), 2720–2774.
+Au-Yeung, A., 2022. The 70 BlackRock analysts who speak for millions of shareholders. Wall Street J. 279 (142), B1–B2.
+Azar, J., Duro, M., Kadach, I., Ormazabal, G., 2021. The big three and corporate carbon emissions around the world. J. Financ. Econ. 142 (2), 674–696.
+Azar, Jose, Schmalz, Martin C., Tecu, Isabel, 2018. Anticompetitive effects of common ownership. J. Financ. 73, 1513–1565.
+Azar, Jose, Raina, Sahil, Schmalz, Martin, 2022. Ultimate ownership and bank competition. Financ. Manag. 51, 227–269.
+Bannister, James W., Newman, Harry A., 2003. Analysis of corporate disclosures on relative performance evaluation. Account. Horiz. 17, 235–246.
+Bebchuk, L.A., Hirst, S., 2019. The Specter of the Giant Three (No. w25914). National Bureau of Economic Research.
+Bebchuk, Lucian, Hirst, Scott, 2022. Big three power, and why it matters. Bul. Rev. 102, 1547.
+Bennett, Benjamin, Bettis, J.C., Gopalan, Radhakrishnan, Milbourn, Todd, 2017. Compensation goals and firm performance. J. Financ. Econ. 124, 307–330.
+Bettis, J. Carr, Bizjak, John, Coles, Jeffery, Young, Brian, 2014. The Presence, Value, and Incentive Properties of Relative Performance Evaluation in Executive 
+
+Compensation Contracts (Working paper). 
+Bettis, J.C., Bizjak, J., Coles, J.L., Kalpathy, S., 2018. Performance-vesting provisions in executive compensation. J. Account. Econ. 66 (1), 194–221.
+Bizjak, J., Kalpathy, S., Li, Z.F., Young, B., 2022. The choice of peers for relative performance evaluation in executive compensation. Rev. Finance 26 (5), 1217–1239.
+Bloomfield, M.J., Friedman, H.L., Kim, H.Y., 2024. Common ownership, executive compensation, and product market competition. Account. Rev. 99 (2), 31–56.
+Bloomfield, M.J., Heinle, M.S., Timmermans, O., 2024. Relative performance evaluation and strategic peer-harming disclosures. J. Account. Res. 62 (3), 877–933.
+Bolton, P., Li, T., Ravina, E., Rosenthal, H., 2020. Investor ideology. J. Financ. Econ. 137 (2), 320–352.
+Brav, A., Malenko, A., Malenko, N., 2023. Corporate Governance Implications of the Growth in Indexing. Oxford Research Encyclopedia of Economics and Finance.
+Brav, A., Jiang, W., Li, T., Pinnington, J., 2024. Shareholder monitoring through voting: new evidence from proxy contests. Rev. Financ. Stud. 37 (2), 591–638.
+Bresnahan, Timothy F., Salop, Steven C., 1986. Quantifying the competitive effects of production joint ventures. Int. J. Ind. Organ. 4, 155–175.
+Bubb, R., Catan, E.M., 2022. The party structure of mutual funds. Rev. Financ. Stud. 35 (6), 2839–2878.
+Correa, R., Lel, U., 2016. Say on pay laws, executive compensation, pay slice, and firm valuation around the world. J. Financ. Econ. 122 (3), 500–520.
+Couvert, M., 2021. What is the impact of mutual funds. In: ESG References on Portfolio Firms? (No. 21-42). Swiss Finance Institute.
+
+21 
+
+
+
+T. Schneider                                                                                                                                                                  J o u r n a l  o f   C o r p o r a t e  F  i n  a  n c  e  93 (2025) 102806 
+
+Custódio, C., Ferreira, M.A., Matos, P., 2013. Generalists versus specialists: Lifetime work experience and chief executive officer pay. J. Financ. Econ. 108 (2), 
+471–492.
+
+Dennis, Patrick, Gerardi, Kristopher, Schenone, Carola, 2022. Common ownership does not have anticompetitive effects in the airline industry. J. Financ. 77, 
+2765–2798.
+
+Edmans, A., Gabaix, X., Landier, A., 2009. A multiplicative model of optimal CEO incentives in market equilibrium. Rev. Financ. Stud. 22 (12), 4881–4917.
+Edmans, Alex, Holderness, Clifford, 2016. Blockholders: A Survey of Theory and Evidence.
+Edmans, Alex, Gabaix, Xavier, Jenter, Dirk, 2017. Executive Compensation: A Survey of Theory and Evidence.
+Elhauge, E., 2016. Horizontal shareholding. Harv. Law Rev. 129, 1267.
+Elhauge, E., 2021. The causal mechanisms of horizontal shareholding. Ohio State Law J. 82 (1), 1–76.
+Faulkender, M., Yang, J., 2013. Is disclosure an effective cleansing mechanism? The dynamics of compensation peer benchmarking. Rev. Financ. Stud. 26 (3), 
+
+806–839.
+Feichter, Christoph, Moers, Frank, Timmermans, Oscar, 2022. Relative performance evaluation and competitive aggressiveness. J. Account. Res. 60, 1859–1913.
+Ferri, F., Maber, D.A., 2013. Say on pay votes and CEO compensation: evidence from the UK. Rev. Finance 17 (2), 527–563.
+Gibbons, Robert, Murphy, Kevin J., 1990. Relative performance evaluation for chief executive officers. Ind. Labor Relat. Rev. 43, S30–S51.
+Gong, Guojin, Li, Laura Y., Shin, Jae Y., 2011. Relative performance evaluation and related peer groups in executive compensation contracts. Account. Rev. 86, 
+
+1007–1043.
+Gormley, T.A., Gupta, V.K., Matsa, D.A., Mortal, S.C., Yang, L., 2023. The big three and board gender diversity: the effectiveness of shareholder voice. J. Financ. Econ. 
+
+149 (2), 323–348.
+Gramlich, Jacob, Grundl, Serafin, 2017. Estimating the Competitive Effects of Common Ownership. Technical report. Board of Governors of the Federal Reserve 
+
+System.
+Green, Jerry R., Stokey, Nancy L., 1983. A comparison of tournaments and contracts. J. Polit. Econ. 91, 349–364.
+Griffin, C.N., 2020. Margins: estimating the influence of the big three on shareholder proposals. SMU L. Rev. 73, 409.
+Hall, B.J., Liebman, J.B., 1998. Are CEOs really paid like bureaucrats? Q. J. Econ. 113 (3), 653–691.
+Harford, Jarrad, Jenter, D., Li, K., 2011. Institutional cross-holdings and their effect on acquisition decisions. J. Financ. Econ. 99, 27–39.
+Hoberg, G., Phillips, G., 2010. Product market synergies and competition in mergers and acquisitions: a text-based analysis. Rev. Financ. Stud. 23 (10), 3773–3811.
+Hoberg, G., Phillips, G., 2016. Text-based network industries and endogenous product differentiation. J. Polit. Econ. 124 (5), 1423–1465.
+Holderness, C.G., 2009. The myth of diffuse ownership in the United States. Rev. Financ. Stud. 22 (4), 1377–1408.
+Holmstrom, Bengt, 1982. Moral Hazard in teams. Bell J. Econ. 13, 324–340.
+Jensen, M.C., Murphy, K.J., 1990. Performance pay and top-management incentives. J. Polit. Econ. 98 (2), 225–264.
+Kennedy, P., O’Brien, D.P., Song, M., Waehrer, K., 2017. The competitive effects of common ownership: economic foundations and empirical evidence. Available at 
+
+SSRN 3008331. 
+Koch, A., Panayides, M., Thomas, S., 2021. Common ownership and competition in product markets. J. Financ. Econ. 139 (1), 109–137.
+Kraus, A., Rubin, Amir, 2010. Reducing managers’ incentives to cannibalize: managerial stock options when shareholders are diversified. J. Financ. Intermed. 19, 
+
+439–460.
+Kwon, Heung Jin, 2016. Executive Compensation under Common Ownership. Working Paper.
+Lazear, Edward P., 1989. Pay equality and industrial politics. J. Polit. Econ. 97, 561–580.
+Lazear, Edward P., Rosen, Sherwin, 1981. Rank-order tournaments as optimum labor contracts. J. Polit. Econ. 89, 841–864.
+Lewellen, J., Lewellen, K., 2022. Institutional investors and corporate governance: the incentive to be engaged. J. Financ. 77 (1), 213–264.
+Lewellen, K., Lowry, M., 2021. Does common ownership really increase firm coordination? J. Financ. Econ. 141 (1), 322–344.
+Liang, Lantian Max, 2016. Common Ownership and Executive Compensation. Working Paper. 
+Malenko, N., Shen, Y., 2016. The role of proxy advisory firms: evidence from a regression-discontinuity design. Rev. Financ. Stud. 29 (12), 3394–3427.
+Matvos, Gregor, Ostrovsky, Michael, 2008. Cross-ownership, returns, and voting in mergers. J. Financ. Econ. 89, 391.
+Murphy, Kevin J., 1999. Executive compensation. In: Ashenfelter, O., Card, D. (Eds.), Handbook of Labor Economics, 1 edition vol. 3, Part B. Elsevier, pp. 2485–2563. 
+
+chapter 38. 
+O’Brien, Daniel P., Salop, Steven C., 2000. Competitive effects of partial ownership: financial interest and corporate control. Antitrust Law J. 67, 559–614.
+Posner, E.A., Scott Morgan, F.M., Weyl, E.G., 2016. A proposal to limit the anticompetitive power of institutional investors. Antitrust Law J. 81, 669.
+Reynolds, Robert J., Snapp, Bruce R., 1986. The competitive effects of partial equity interests and joint ventures. Int. J. Ind. Organ. 4, 141–153.
+Schneider, T., Strahan, P.E., Yang, J., 2024. Syndicated lending, competition, and relative performance evaluation. Rev. Financ. Stud. 37 (12), 3802–3834.
+
+22

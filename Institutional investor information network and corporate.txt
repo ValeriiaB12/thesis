@@ -1,0 +1,1612 @@
+﻿Research in International Business and Finance 79 (2025) 103099 
+
+Contents lists available at ScienceDirect
+
+Research in International Business and Finance
+journal homepage: www.elsevier.com/locate/ribaf
+
+Institutional investor information network and corporate 
+risk taking
+Xiao-Li Gong a,b,*, Ya-Li Dong a, Xiong Xiong c
+
+a School of Economics, Qingdao University, Qingdao 266061, China
+b Laboratory of Computation and Analytics of Complex Management Systems, Tianjin University, Tianjin 300072, China
+c College of Management and Economics, Tianjin University, Tianjin 300072, China
+
+A R T I C L E  I N F O A B S T R A C T
+
+Keywords: Institutional investors form the network through common heavy holdings, and there is infor
+Institutional investor mation sharing in the network. This paper examines the impact of institutional investor infor
+Information sharing mation sharing on corporate risk taking. It is found that the information sharing of institutional 
+Risk taking investors can bring about the effect of external supervision and resource advantage, and signif
+Information asymmetry
+Herding behavior of analysts icantly improve the level of enterprise risk taking. The mechanism analysis shows that the in
+
+formation sharing of institutional investors can improve the level of corporate risk taking mainly 
+by reducing the information asymmetry and restraining the herding behavior of analysts. Further 
+analysis shows that in the enterprises with high degree of financialization, high degree of 
+financing constraint, no political connection, high agency cost, good internal control quality, 
+good legal environment, and growth stage company, information sharing has a greater effect on 
+the improvement of enterprise risk taking. This paper has enriched the study of social network 
+and corporate risk taking, and has positive practical significance for enterprises to improve the 
+efficiency of investment decision-making.
+
+1. Introduction
+
+In recent years, China’s economy has been in a critical transition period from rapid growth to high-quality development. As the 
+micro-foundation of the economy and society, enterprises not only contribute to the rapid development of the economy, but also 
+contribute to the high-quality development of the economy. Enhancing the ability of enterprises to cope with future uncertainties and 
+improving risk-taking levels play an important role in the high-quality development of the economy. The risk-taking level reflects the 
+price a company willing to pay to obtain potentially high returns, which is reflected in the company’s choice of investment projects that 
+have a positive future net present value but are full of risks (Acharya et al., 2011; Boubakri et al., 2013). A higher level of risk-taking 
+can enhance the long-term competitive advantage of enterprise and corporate value (Koirala et al., 2020; Cucculelli and Ermini, 2012), 
+and also accelerate the accumulation of social capital as well as promoting long-term economic growth (John et al., 2008). Therefore, if 
+an enterprise chooses investment projects with lower risks in the long term, both the enterprise’s own production efficiency and the 
+development of social productivity will be hindered. The level of risk-taking often depends on the management’s risk propensity in 
+operating activities and the company’s ability to obtain resources. Based on the existing literature, the factors affecting corporate 
+risk-taking mainly involve social environment and policy systems (Gopalan et al., 2021; Raithatha and Popli, 2022), corporate 
+
+* Corresponding author at: School of Economics, Qingdao University, Qingdao 266061, China.
+E-mail address: qdgongxiaoli@126.com (X.-L. Gong). 
+
+https://doi.org/10.1016/j.ribaf.2025.103099
+Received 12 September 2024; Received in revised form 17 May 2025; Accepted 14 August 2025  
+Available online 15 August 2025 
+0275-5319/© 2025 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies. 
+
+
+
+X.-L. Gong et al.                                                                                                                                   R e s e a r c h   i n  I n t e r n a t i o n a l   B u s i n e s s   a n d  F  i n  a  n c  e  79 (2025) 103099 
+
+micro-governance (Lin et al., 2019) and manager characteristics (Do et al., 2022). But what is more subjective and proactive is closely 
+related to the management of risk decision-making entities. In the situations of principal-agent and information asymmetry in en
+terprises, management often avoids high-risk projects for the sake of their own compensation and professional reputation, resulting in 
+some high-risk investment projects with positive future net present values being abandoned by management, which damages 
+shareholder value and affecting macroeconomic growth. So, how to better supervise management behavior and improve corporate 
+risk-taking is of great significance.
+
+Professional institutional investors have the dual advantages of information acquisition and capital scale. They can conduct 
+detailed collection and analysis of corporate information (Jiang and Yuan, 2018), and participate in corporate activities by soliciting 
+voting proxies from small shareholders and submitting shareholder proposals (Matvos and Ostrovsky, 2010). So institutional investors 
+are given high expectations in terms of corporate governance. However, market survey reports as of 2022 show that the participation 
+of institutional investors and shareholders in corporate governance in China is still not ideal. Faced with many restrictive factors such 
+as the excessive voice of corporate major shareholders and information asymmetry, institutional investors have higher cost in 
+corporate governance. Therefore, individual institutional investor plays relatively limited role in corporate governance (Shleifer and 
+Vishny, 1986). However, the joint participation of institutional investors in corporate governance may make up for the weak 
+governance effectiveness of individual institutional investors and strengthen the governance effect on the company. Social embedd
+edness theory points out that any individual in economic society is in a certain relationship, and their behavioral decisions will be 
+affected by the network. The same is true when it comes to asset selection. As peers, institutional investors frequently exchange in
+formation, and their decision-making behaviors will influence each other (Pool et al., 2015). The consistency of institutional investors’ 
+decision-making behavior will promote the performance of their functions at the group level (Cvijanović et al., 2022), which may make 
+up for the shortcomings of individual institutional investors and improve the governance effect of enterprises (He et al., 2019).
+
+Different institutional investors will allocate assets to the same listed company, resulting in the phenomenon of common share
+holding. Based on this common shareholding behavior, an institutional investor network is formed among institutional investors, and 
+there is information exchange and sharing in the network (Krishnamurti et al., 2021; Gong and Liu, 2023; Li et al., 2023). Therefore, 
+this paper uses the joint shareholding behavior of institutional investors to construct an institutional investor network and studies the 
+impact of information sharing in the network on corporate risk-taking. Currently, some scholars have studied the impact of different 
+social networks on corporate risk-taking levels based on the perspective of social networks (Fan et al., 2021; Ferris et al., 2019), but 
+there is no literature that directly studies the impact of institutional investors on corporate risk-taking levels from the network level.
+
+The contributions of this paper mainly include the following aspects: (1) This paper enriches the literature on the factors affecting 
+corporate risk-taking. Based on social network theory, this paper constructs an institutional investor network and finds that infor
+mation sharing within the institutional investor network has external supervision and resource advantage effects, which helps to 
+improve the level of corporate risk-taking, and expands and deepens the relevant research on corporate risk-taking from the social 
+network level. (2) This paper enriches the research literature on the economic consequences of institutional investors. Based on the 
+perspective of corporate risk-taking, we reveal the impact of the relationship network that is prevalent in my country’s traditional 
+relationship-based society on corporate governance. (3) This paper explores the differences in the role of institutional investor in
+formation sharing on corporate risk-taking behavior under different scenarios of financialization degree, financing constraints, po
+litical connections, agency costs, internal control quality, regional legal environment and life cycle.
+
+2. Literature review and research hypothesis
+
+2.1. Institutional investor network and corporate risk-taking
+
+Risk selection is an important decision in the corporate investment decision-making process and is related to the company’s risk- 
+taking level. Tobin’s theoretical analysis shows that in a perfect market, the real investment level can be predicted by marginal Q, and 
+the company’s investment behavior depends only on the investment opportunities represented by marginal Q. That is, managers 
+should choose all investment projects with positive expected net present values so that marginal Q equals 1. However, in reality, 
+managers’ choice of investment projects is affected by many factors. According to the agency theory, since managers’ human capital is 
+a non-diversified investment and managers have no other investments to disperse risks, managers tend to abandon high-risk invest
+ment projects to avoid the personal wealth loss, unemployment risk and reputation loss. Hence, in the face of mismatch between 
+income and required risk responsibilities, avoiding investment projects of higher risks but higher income becomes the logical choice. 
+Especially when the contract between owners and managers is incomplete and information asymmetry occurs, management lacks 
+corresponding constraints and often chooses to live a "quiet life" (Bertrand and Mullainathan, 2003), instead of actively choosing 
+high-risk and high-yield investments project. In addition, enterprise risk-taking is a resource-consuming activity, and has strong 
+resource dependence (Almeida and Campello, 2007). The investment projects and funds required for corporate investment require 
+high information costs and transaction costs. This means that even if corporate managers are willing to engage in high-risk and 
+high-return investment activities, they may lack the corresponding resources, resulting in insufficient investment and low investment 
+efficiency (Faccio et al., 2016). Therefore, if a company cannot obtain sufficient resources, it is often difficult to make risky strategic 
+investments, which in turn affects the company’s risk-taking level.
+
+Existing research shows that there is information sharing within institutional investor information networks (Krishnamurti et al., 
+2021; Gong and Liu, 2023; Li et al., 2023). Information sharing among institutional investors can produce two effects: one is the 
+external supervision effect, the other is the resource advantage effect. First of all, information sharing among institutional investors can 
+broaden the channels for institutional investors to obtain information, make up for the lack of information, and improve the 
+
+2 
+
+
+
+X.-L. Gong et al.                                                                                                                                   R e s e a r c h   i n  I n t e r n a t i o n a l   B u s i n e s s   a n d  F  i n  a  n c  e  79 (2025) 103099 
+
+comprehensiveness of information obtained by institutional investors. Secondly, institutional investors can also verify the information 
+and correct cognitive biases through direct information exchange to improve the accuracy of the information they obtain. The 
+improvement in the comprehensiveness and accuracy of information obtained by institutional investors has greatly reduced the su
+pervision costs of institutional investors’ supervision of enterprises, prompting institutional investors to actively supervise corporate 
+behaviors. In addition, the willingness of individual institutional investors to actively supervise management may be limited due to 
+their weak voice, while institutional investor information sharing makes the behavior of institutional investors within the network 
+consistent, prompting institutional investors to act together to exert greater influence on corporate governance. Therefore, information 
+sharing among institutional investors can enable them to better play a supervisory role, and reduce opportunistic behavior of corporate 
+management, thereby improving the level of risk taking.
+
+Information sharing among investors on the network enables individual institutional investors to obtain more information on 
+industry development, thereby increasing the richness and diversity of information to enterprises, which enable management to keep 
+abreast of industry dynamics and development trends, and to discover more favorable investment opportunities more accurately and 
+timely, thereby reducing the risk of underinvestment caused by management’s lack of key decision-making information. At the same 
+time, the resource allocation effect of the institutional investor network can more conveniently help companies obtain more resources 
+needed for investment at a lower cost (Dahl and Pedersen, 2005). Based on the above analysis, this paper proposes hypothesis H1: 
+H1. Information sharing among institutional investors can improve corporate risk-taking levels.
+
+2.2. Institutional investor network, information asymmetry and corporate risk-taking
+
+The risk-taking behavior of the enterprise is highly dependent on resources, and the resources required include investment projects, 
+funds, technology, etc. If there are not enough investment projects and cannot obtain enough funds, enterprises will face greater 
+resource constraints when investing, resulting in lower corporate risk-taking levels. Investors’ investment decisions will be affected by 
+the information they obtain (Travis, 2021), Biddle et al. (2009) pointed out that information asymmetry is an important reason for 
+corporate underinvestment and low investment efficiency. On the one hand, when the degree of information asymmetry increases, 
+investors will reduce investment demand, which can reduce the investment projects available to the enterprise. On the other hand, 
+higher information asymmetry will also increase corporate financing constraints. Bank loans are the main source for enterprises to 
+obtain long-term development funds. Higher information asymmetry will increase banks’ risk aversion motivation, banks will require 
+higher loan interest rates and formulate more stringent loan treaties from enterprises based on the consideration of preventing loan 
+risks, making it more difficult for companies to obtain external financing (Bai et al., 2006).
+
+The external monitoring effect generated by information sharing by institutional investors can prompt managers to adopt better 
+accounting policies, and institutional investors can also disclose the earnings management methods of their holding companies, 
+thereby reducing the degree of information asymmetry between the outside world and enterprises (Chung et al., 2002). Supervision by 
+institutional investors can also improve the quality of corporate information disclosure (Boone and White, 2015) and reduce the degree 
+of information asymmetry between companies and external stakeholders. When institutional investors discover that corporate man
+agers are hiding information or engaging in improper behavior, they can sue the managers, prompting them to proactively improve the 
+quality of information disclosure (Cheng et al., 2010; Pukthuanthong et al., 2017). With reduced information asymmetry, external 
+investors such as banks can obtain more corporate information, reduce investment risks, and make it easier for companies to obtain 
+funds and investment projects. Based on the above analysis, this paper proposes hypothesis H2: 
+H2. Institutional investor information sharing improves corporate risk-taking by reducing information asymmetry.
+
+2.3. Institutional investor network, herding behavior of analysts and corporate risk-taking
+
+Securities analysts are important information intermediaries in the capital market, and investors can obtain relevant information 
+about listed companies through research reports issued by securities analysts. However, there is obvious convergence in the behavior 
+of analysts, and they will issue similar forecast ratings to other analysts, that is, there is analyst herding behavior (Welch, 2003). 
+Analyst herding behavior will reduce corporate risk-taking levels. On the one hand, analysts’ herding behavior reduces private in
+formation in research reports, resulting in less corporate information available in the market, which makes it more difficult for in
+vestors to understand the true situation of the company and evaluate the future returns of the company’s high-risk projects. So, in order 
+to avoid risks, investors will reduce the supply of funds, thereby increasing the financing constraints faced by enterprises and reducing 
+their risk-taking levels. On the other hand, analyst herding behavior shows that many analysts simply imitate other people’s research 
+reports to obtain information about the company, and do not pay too much attention to the company’s operating conditions, thereby 
+reducing the external supervision pressure on the company’s management, which induces opportunistic behavior of management, that 
+is, the management invests in more low-risk projects for its own interests.
+
+Existing researches have shown that there is a correlation between analysts’ forecasting behavior and institutional investors, which 
+proves that there is close exchange of information between institutional investors and analysts (Liu and Chen, 2024). Close 
+communication between institutional investors and analysts will increase analysts’ private information, which will reduce analyst 
+herding behavior. The more frequent the exchange of information in the institutional investor network and the higher the degree of 
+information sharing, the more private information analysts obtain, thereby reducing analyst herding behavior. Based on the above 
+analysis, this paper proposes hypothesis H3: 
+
+3 
+
+
+
+X.-L. Gong et al.                                                                                                                                   R e s e a r c h   i n  I n t e r n a t i o n a l   B u s i n e s s   a n d  F  i n  a  n c  e  79 (2025) 103099 
+
+Fig. 1. The network of holding a large number of shares.
+
+Fig. 2. The institutional investors network of Muyuan Shares.
+
+H3. Institutional investor information sharing improves corporate risk-taking by inhibiting analysts herding behavior.
+
+3. Research design
+
+3.1. Institutional investor network
+
+It is found that institutional investor networks are generally constructed through three methods. The first type is a network built 
+based on the social relationships of institutional investors, such as alumni relationships (Galariotis et al., 2015). Fund managers in the 
+same social network have similar shareholding behaviors and trading styles (Cici et al., 2017). And the second kind is a network based 
+on geographical location, for example, fund managers living in the same city exhibit consistent trading behavior (Hong et al., 2005). 
+The third kind is a network built based on asset allocation. Crane et al. (2019) studied the situation of the U.S. capital market, con
+structed an institutional investor network based on common ownership relationships, and then analyzed the corporate governance 
+effect of the institutional investor network. The network built based on the shareholdings of institutional investors supports infor
+mation exchange through the consistency of transactions and positions within the network, so the consistency of trading behavior 
+among funds supports the existence of the network. Following the third method, this paper constructs an institutional investor network 
+based on institutional investors’ heavy holdings of stocks of the same listed company.
+
+If institutional investors hold a large number of the same stocks, it is assumed that there is a connection between the two insti
+tutional investors. The institutional investor network is defined as a collection of funds that directly and jointly hold a heavy position in 
+the stock (In the network, each institutional investor is a node, and two institutional investors are connected by a straight line.). The 
+standard for large holdings is that the proportion of institutional investors’ holdings accounts for 5 % or more of the fund’s net value. 
+As shown in Fig. 1, Muyuan shares are taken as an example. The blue squares in the picture represent funds, and the orange squares 
+represent stocks. Muyuan shares were heavily held by Qianhai Kaiyuan Refinancing Theme Select Fund in mid-2021. At the same time, 
+the fund also held heavy positions in four stocks including TCL Zhonghuan, Wen’s Shares, Gemdale Group and Poly Development. 
+
+4 
+
+
+
+X.-L. Gong et al.                                                                                                                                   R e s e a r c h   i n  I n t e r n a t i o n a l   B u s i n e s s   a n d  F  i n  a  n c  e  79 (2025) 103099 
+
+Table 1 
+Variable definition and description.
+
+Variable name Variable Variable meaning and description
+symbol
+
+Explanatory Density Network density. The larger the value, the higher the efficiency of information sharing.
+variables Center Network centrality. The larger the value, the higher the efficiency of information sharing.
+
+Explained variable Risk Risk-taking level. The larger the value, the higher the risk-taking level.
+Mediating variable Asy KV measurement method, the smaller the value, the better the information disclosure quality and the smaller the degree 
+
+of information asymmetry.
+Herd Analyst herding behavior. The larger its value, the higher the degree of analyst herding behavior.
+
+Control variables Size Enterprise size. The value is natural logarithm of total assets at the end of each year.
+Lev Asset-liability ratio. The value is the ratio of total liabilities to total assets at the end of the period.
+Top1 Shareholding ratio of the largest shareholder.
+Salary Salary sensitivity. Average salary of directors, supervisors and senior executives.
+TobinQ Corporate performance.
+ROA Return on assets.
+Age Business operating life.
+Growth Sales revenue growth rate. The value is the annual growth rate of corporate operating income.
+PPE Fixed assets ratio. The value is the ratio of fixed assets to total assets at the end of the period.
+Cap Capital expenditures. The value is the natural logarithm of the cash paid by an enterprise to build fixed assets, intangible 
+
+assets and other long-term assets.
+Eps Earnings per share.
+
+​ Dual The two positions are combined into one. If the chairman and general manager are one person, the value is 1, otherwise it 
+is 0.
+
+Table 2 
+Descriptive statistics.
+
+Variable N Mean Sd Min Max P25 P50 P75 P90
+
+Risk 9515 0.0272 0.0281 0.0017 0.1699 0.0104 0.0182 0.0328 0.0579
+Density 9415 0.4167 0.1904 0.1039 1 0.2802 0.3763 0.5119 0.6786
+Center 9515 − 0.2975 0.1565 − 0.7180 0 − 0.4198 − 0.3042 − 0.1655 − 0.1000
+Size 9515 22.7415 1.3861 20.3527 27.0485 21.7442 22.5285 23.5121 24.6088
+Lev 9515 0.4201 0.1940 0.0569 0.8455 0.2655 0.4160 0.5656 0.6848
+Top1 9514 34.2218 14.9071 8.4500 74.3000 22.5100 32.1600 44.0700 55.3000
+Salary 9493 12.9354 0.7095 11.2938 14.9295 12.4553 12.9071 13.3642 13.8469
+TobinQ 8996 2.5272 1.6548 0.8825 9.7768 1.4446 2.0142 3.0001 4.5565
+ROA 9457 0.0310 0.0335 − 0.1684 0.5733 0.0088 0.0230 0.0450 0.0723
+Age 9514 2.8719 0.3196 1.9459 3.4965 2.7081 2.8904 3.0910 3.2581
+Growth 9513 0.2539 0.4022 − 0.3982 2.4463 0.0439 0.1707 0.3486 0.6266
+PPE 9170 0.2017 0.1534 0.0032 0.6748 0.0839 0.1666 0.2827 0.4236
+Cap 9513 19.4082 1.6866 15.1332 24.1042 18.3311 19.3500 20.4109 21.5949
+Eps 9515 0.7550 0.9048 − 1.1375 5.8816 0.2513 0.5293 0.9914 1.6629
+Dual 9415 0.2908 0.4542 0 1 0 0 1 1
+
+Among them, TCL Zhonghuan, Wen’s Gemdale Holdings, Gemdale Group and Poly Development are heavily held by 19 funds 
+including Harvest Reverser Strategy, Huashang Future Theme, etc. These 19 funds form a joint shareholding relationship with the CR 
+Yuan Mass Optimization. Fig. 2 shows the institutional investor network of Muyuan Foodstuff Co., Ltd. consisting of Qianhai Kaiyuan 
+Refinancing Theme Selection and other 19 funds.
+
+3.2. Variable definition and measurement
+
+Network density is an indicator that describes the structural characteristics of a network, and can effectively measure the rate of 
+information flow within the network. The greater the network density, the faster the information flow (Pareek, 2011). Network 
+centrality better describes the differences in the positions of different individuals in the network, and can effectively capture an in
+dividual’s ability to obtain information and influence the behavior of other individuals (El-Khatib et al., 2015). Individuals with 
+stronger network centrality have stronger abilities to obtain and transmit information through the network (Bajo et al., 2016). 
+Therefore, this paper uses network density and network centrality to characterize the network characteristics of institutional investors, 
+and measures the efficiency of information sharing from two dimensions: the speed of information dissemination in the network and 
+the degree of control of information in the network by institutional investors.
+
+3.2.1. Network density
+Network density measures the closeness of the connections between institutional investors in the network. In the network, each 
+
+institutional investor is a node, and two institutional investors are connected by a straight line. Network density is defined as the ratio 
+of the number of edges actually connected between nodes in the network to the maximum number of edges that may exist. The specific 
+
+5 
+
+
+
+X.-L. Gong et al.                                                                                                                                   R e s e a r c h   i n  I n t e r n a t i o n a l   B u s i n e s s   a n d  F  i n  a  n c  e  79 (2025) 103099 
+
+Table 3 
+Baseline model regression results.
+
+(1) (2) (3) (4)
+Risk Risk Risk Risk
+
+Density 0.0042*** 0.0048*** ​ ​
+Center (2.83) (3.01) 0.0053*** 0.0065*** 
+
+(3.11) (3.54)
+Size ​ − 0.0006 ​ − 0.0005
+​ ​ (− 1.03) ​ (− 0.93)
+Lev ​ 0.0031 ​ 0.0030
+​ ​ (1.28) ​ (1.25)
+Top1 ​ − 0.0001*** ​ − 0.0001***
+
+​ ​ (− 5.32) ​ (− 5.26)
+Salary ​ 0.0006 ​ 0.0006
+​ ​ (0.91) ​ (0.95)
+TobinQ ​ 0.0016*** ​ 0.0016***
+
+​ ​ (6.50) ​ (6.58)
+ROA ​ 0.0061 ​ 0.0065
+​ ​ (0.55) ​ (0.58)
+Age ​ 0.0021 ​ 0.0019
+​ ​ (1.46) ​ (1.34)
+Growth ​ 0.0025*** ​ 0.0026***
+
+​ ​ (3.60) ​ (3.63)
+PPE ​ − 0.0054* ​ − 0.0051
+​ ​ (− 1.68) ​ (− 1.61)
+Cap ​ − 0.0014*** ​ − 0.0014***
+
+​ ​ (− 3.93) ​ (− 3.95)
+Eps ​ − 0.0017*** ​ − 0.0017***
+
+​ ​ (− 3.82) ​ (− 3.76)
+Dual ​ 0.0008 ​ 0.0009
+​ ​ (1.01) ​ (1.14)
+Constant 0.0252*** 0.0527*** 0.0285*** 0.0554***
+
+​ (4.09) (4.27) (4.65) (4.57)
+Ind Yes Yes Yes Yes
+Year Yes Yes Yes Yes
+N 9415 8428 9515 8513
+R2 0.0563 0.0634 0.0549 0.0619
+
+calculation method is shown in formula (1). 
+Densityi = 2Ei/ki(ki − 1) (1) 
+
+Among them, Eirepresents the actual number of edges in the network, ki represents the number of nodes in the network, 
+andki(ki − 1)/2 is the maximum number of edges that may be connected between institutional investors.
+
+The greater the network density, the closer the connections between institutional investors, the faster the information is trans
+mitted within the network, and the higher the efficiency of information sharing.
+
+3.2.2. Network centrality
+The network centrality CenterD is defined as the weighted sum of the differences between the network centrality Vmax of the node 
+
+with the highest centrality and the centrality of another point Vi. The calculation method is shown in formula (2). 
+1 ∑N
+
+CenterD = [C (V
+N x) − (V
+− 2 i m D
+
+=1 D a C i)] (2) 
+
+Among them, Vmaxrepresents the centrality value of the node with the highest centrality in the network, and CD(Vi) represents the 
+centrality of a certain node Vi, whose value is the ratio of the number of nodes ki connected to it to the maximum possible number of 
+nodes N-1. The calculation method is as follows. 
+
+CD(Vi) = ki/(N − 1) (3) 
+The more central the position of a node in the network, the stronger its control over information, and the lower the efficiency of 
+
+information sharing in the network. This paper takes the opposite of the network centrality index, and the larger its value, the higher 
+the efficiency of information sharing.
+
+3.2.3. Enterprise risk-taking level
+This paper uses the volatility of corporate earnings to measure the risk-taking level of listed companies. Higher risk-taking means 
+
+increased uncertainty about a company’s future cash inflows, and corporate earnings volatility is widely used to measure risk-taking. 
+Roai represents the ratio of enterprise i’s profit before interest, taxes, depreciation and amortization (EBITDA) in the corresponding 
+year to the total assets at the end of the year. We firstly adjust the company’s Roa for each year using the industry average, and then 
+
+6 
+
+
+
+X.-L. Gong et al.                                                                                                                                   R e s e a r c h   i n  I n t e r n a t i o n a l   B u s i n e s s   a n d  F  i n  a  n c  e  79 (2025) 103099 
+
+Table 4 
+Regression results of replacing measures of corporate risk-taking level.
+
+(1) (2) (3) (4) (5) (6)
+roa range of three- roa range of three- standard deviation of standard deviation of roa rang of five- roa rang of five- 
+year year five-year five-year year year
+
+Density 0.0094*** ​ 0.0053*** ​ 0.0134*** ​
+​ (3.21) ​ (3.05) ​ (3.22) ​
+Center ​ 0.0122*** ​ 0.0048** ​ 0.0121**
+
+​ ​ (3.57) ​ (2.37) ​ (2.50)
+Size − 0.0012 − 0.0011 − 0.0013** − 0.0013* − 0.0038** − 0.0037**
+
+​ (− 1.13) (− 1.05) (− 1.99) (− 1.90) (− 2.35) (− 2.27)
+Lev 0.0054 0.0052 0.0003 0.0002 − 0.0009 − 0.0008
+​ (1.20) (1.16) (0.10) (0.08) (− 0.13) (− 0.11)
+Top1 − 0.0003*** − 0.0003*** − 0.0002*** − 0.0002*** − 0.0006*** − 0.0006***
+
+​ (− 5.41) (− 5.33) (− 6.70) (− 6.52) (− 6.71) (− 6.51)
+Salary 0.0011 0.0011 0.0003 0.0001 0.0006 0.0002
+​ (0.90) (0.92) (0.32) (0.12) (0.32) (0.11)
+TobinQ 0.0030*** 0.0030*** 0.0005 0.0004 0.0010 0.0008
+​ (6.62) (6.68) (1.61) (1.36) (1.47) (1.21)
+ROA 0.0225 0.0231 0.0096 0.0096 0.0366 0.0361
+​ (1.09) (1.12) (0.77) (0.77) (1.22) (1.20)
+Age 0.0041 0.0037 0.0001 − 0.0003 0.0002 − 0.0006
+​ (1.54) (1.41) (0.04) (− 0.16) (0.05) (− 0.14)
+Growth 0.0047*** 0.0047*** 0.0018** 0.0018** 0.0044** 0.0042**
+
+​ (3.61) (3.63) (2.37) (2.29) (2.38) (2.29)
+PPE − 0.0099* − 0.0095 − 0.0227*** − 0.0224*** − 0.0545*** − 0.0536***
+
+​ (− 1.67) (− 1.61) (− 5.89) (− 5.86) (− 5.91) (− 5.85)
+Cap − 0.0025*** − 0.0025*** − 0.0011*** − 0.0011*** − 0.0024** − 0.0025***
+
+​ (− 3.82) (− 3.83) (− 2.79) (− 2.85) (− 2.51) (− 2.58)
+Eps − 0.0030*** − 0.0030*** − 0.0025*** − 0.0025*** − 0.0056*** − 0.0058***
+
+​ (− 3.62) (− 3.57) (− 4.20) (− 4.33) (− 4.04) (− 4.17)
+Dual 0.0014 0.0016 0.0010 0.0011 0.0021 0.0023
+​ (0.98) (1.12) (1.14) (1.22) (0.98) (1.04)
+Constant 0.0993*** 0.1050*** 0.0927*** 0.0987*** 0.2326*** 0.2475***
+
+​ (4.33) (4.66) (5.95) (6.41) (6.23) (6.71)
+Ind Yes Yes Yes Yes Yes Yes
+Year Yes Yes Yes Yes Yes Yes
+N 8428 8513 7425 7504 7425 7504
+R2 0.0645 0.0626 0.0814 0.0783 0.0829 0.0795
+
+calculate the company’s industry-adjusted Roa standard deviation during each observation period. 
+√̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅
+√
+√ 1 ∑N 1 ∑N
+
+Risk √
+i = (Adj Roa
+
+N in − Adj Roain)|N = 3 (4) 
+− 1 n N
+
+=1 n=1
+
+Ebitda
+Adj Roa in 1 ∑X Ebitdakn
+
+in = − (5) 
+Assetsin Xn k=1 Assetskn
+
+3.2.4. Information asymmetry
+Referring to the method of Ascioglu et al. (2005), the KV measurement method is used to measure the degree of information 
+
+asymmetry of listed companies. The KV measurement method measures the information disclosure quality through the slope of the 
+regression of stock return on trading volume. The basic principle is that if the information disclosure quality of listed companies is 
+poor, investors mainly obtain information based on the trading volume of listed companies’ stocks, and have a low degree of 
+dependence on information disclosure. At this time, changes in trading volume will cause large changes in stock prices, so the rate of 
+change is an inverse indicator of information disclosure quality, that is, the smaller the KV value, the better the information disclosure 
+quality. And the better the quality of information disclosure, the lower the degree of information asymmetry.
+
+3.2.5. Analyst herding behavior
+Referring to the method of Gleason and Lee (2003), the correlation between analysts’ forecast changes in future EPS of the target 
+
+company at different time points and the average forecast data of the entire industry analyst group is used as proxy indicator of analyst 
+herding behavior. The formula is shown as follows. 
+
+∑Ni /
+Herdi,t = ( Herd analystj,t) Ni (6) 
+
+j=1
+
+7 
+
+
+
+X.-L. Gong et al.                                                                                                                                   R e s e a r c h   i n  I n t e r n a t i o n a l   B u s i n e s s   a n d  F  i n  a  n c  e  79 (2025) 103099 
+
+Table 5 
+Regression results of replacing network density index.
+
+(1) (2) (3) (4)
+Risk roa range of three-year standard deviation of five-year roa rang of five-year
+
+New_Den 0.0012*** 0.0025*** 0.0013*** 0.0033***
+
+​ (3.10) (3.35) (2.98) (3.10)
+Size − 0.0008 − 0.0017 − 0.0016** − 0.0044***
+
+​ (− 1.52) (− 1.64) (− 2.35) (− 2.71)
+Lev 0.0041* 0.0073 0.0004 − 0.0004
+​ (1.67) (1.60) (0.15) (− 0.06)
+Top1 − 0.0001*** − 0.0003*** − 0.0002*** − 0.0006***
+
+​ (− 5.10) (− 5.20) (− 6.42) (− 6.44)
+Salary 0.0005 0.0009 0.0001 0.0004
+​ (0.73) (0.70) (0.16) (0.18)
+TobinQ 0.0015*** 0.0028*** 0.0004 0.0008
+​ (6.29) (6.38) (1.30) (1.13)
+ROA 0.0061 0.0228 0.0088 0.0346
+​ (0.55) (1.10) (0.70) (1.15)
+Age 0.0018 0.0034 − 0.0003 − 0.0006
+​ (1.22) (1.27) (− 0.15) (− 0.12)
+Growth 0.0028*** 0.0052*** 0.0020** 0.0047**
+
+​ (3.90) (3.92) (2.52) (2.49)
+PPE − 0.0049 − 0.0090 − 0.0224*** − 0.0540***
+
+​ (− 1.50) (− 1.49) (− 5.74) (− 5.79)
+Cap − 0.0015*** − 0.0027*** − 0.0012*** − 0.0025***
+
+​ (− 4.16) (− 4.06) (− 2.85) (− 2.61)
+Eps − 0.0017*** − 0.0029*** − 0.0024*** − 0.0055***
+
+​ (− 3.69) (− 3.50) (− 4.04) (− 3.89)
+Dual 0.0006 0.0012 0.0007 0.0013
+​ (0.83) (0.80) (0.75) (0.58)
+Constant 0.0667*** 0.1265*** 0.1049*** 0.2617***
+
+​ (5.41) (5.52) (6.72) (7.00)
+Ind Yes Yes Yes Yes
+Year Yes Yes Yes Yes
+N 8210 8210 7225 7225
+R2 0.0566 0.0579 0.0754 0.0770
+
+where the core variable is Herd_analystj,t, which means an analyst will adjust the EPS forecast based on the overall industry 
+judgment. That is, whether the analyst’s last EPS forecast for stock i in year t has been adjusted in the direction of the average of the 
+latest industry forecast compared to the first forecast of that year. If so, the value of Herd_analys is 1, otherwise it is 0. Ni is the total 
+number of stock analyst teams that continue to track and predict company i for year t. When Herd_indexi,t is larger, the degree of 
+herdization predicted by securities analysts for company i is higher.
+
+3.2.6. Control variables
+Considering other factors that may affect the risk-taking level of listed companies, referring to the research of John et al. (2008) and 
+
+Boubakri et al. (2013), the control variables include company size (Size), asset-liability ratio (Lev), salary sensitivity (Salary), share
+holding ratio of the largest shareholder (Top1), company performance (TobinQ), return on assets (ROA), company operating years 
+(Age), corporate sales revenue growth rate (Growth), fixed asset ratio (PPE), capital expenditures (Cap), earnings per share (Eps) and 
+dual positions (Dual).
+
+3.3. Model specification
+
+In order to verify the relationship between institutional investors’ information sharing and corporate risk taking, this paper con
+structed the following model. 
+
+∑ ∑
+Riski,t = β0 + β1Insi,t + βControlsi,t + Indj + Yeart + εi,t (7) 
+
+where Risk represents the enterprise’s risk-taking level; Ins represents network density (Density) and network centrality (Center); 
+Controls represents a series of control variables selected above. In addition, in order to eliminate the impact of industry characteristics 
+and time trends on the results, we also control industry (Ind) and year (Year) fixed effects (Table 1).
+
+4. Empirical results
+
+4.1. Data and descriptive statistical analysis
+
+This paper selects the annual data of Shanghai and Shenzhen A-share listed companies from 2010 to 2022 as the research samples. 
+
+8 
+
+
+
+X.-L. Gong et al.                                                                                                                                   R e s e a r c h   i n  I n t e r n a t i o n a l   B u s i n e s s   a n d  F  i n  a  n c  e  79 (2025) 103099 
+
+Table 6 
+Regression results of reducing the sample interval.
+
+(1) (2) (3) (4)
+Risk Risk Risk Risk
+
+Density 0.0034** 0.0044** ​ ​
+​ (1.98) (2.29) ​ ​
+Center ​ ​ 0.0037* 0.0050**
+
+​ ​ ​ (1.86) (2.29)
+Size ​ 0.0007 ​ 0.0007
+​ ​ (1.02) ​ (1.10)
+Lev ​ 0.0001 ​ − 0.0002
+​ ​ (0.02) ​ (− 0.07)
+Top1 ​ − 0.0002*** ​ − 0.0002***
+
+​ ​ (− 5.90) ​ (− 5.89)
+Salary ​ 0.0005 ​ 0.0005
+​ ​ (0.58) ​ (0.60)
+TobinQ ​ 0.0012*** ​ 0.0012***
+
+​ ​ (3.88) ​ (3.89)
+ROA ​ 0.0206 ​ 0.0210
+​ ​ (1.59) ​ (1.62)
+Age ​ 0.0012 ​ 0.0011
+​ ​ (0.67) ​ (0.64)
+Growth ​ 0.0023** ​ 0.0023**
+
+​ ​ (2.47) ​ (2.52)
+PPE ​ − 0.0053 ​ − 0.0051
+​ ​ (− 1.36) ​ (− 1.33)
+Cap ​ − 0.0020*** ​ − 0.0019***
+
+​ ​ (− 4.53) ​ (− 4.52)
+Eps ​ − 0.0015*** ​ − 0.0016***
+
+​ ​ (− 3.04) ​ (− 3.09)
+Dual ​ 0.0009 ​ 0.0011
+​ ​ (0.97) ​ (1.16)
+Constant 0.0239*** 0.0423*** 0.0267*** 0.0446***
+
+​ (2.81) (2.72) (3.16) (2.93)
+Ind Yes Yes Yes Yes
+Year Yes Yes Yes Yes
+N 7065 6190 7142 6254
+R2 0.0503 0.0625 0.0484 0.0601
+
+The data on the heavy holdings of institutional investors in this paper comes from the WIND database, and the company’s financial 
+data and other data come from the CSMAR database. We perform the following preprocessing on the original sample data: 1) Remove 
+samples of financial listed companies; 2) Remove ST listed companies; 3) Remove samples with missing important variables. At the 
+same time, in order to avoid the influence of outliers, all continuous variables are winsorized by 1 % above and below. Finally, 9515 
+firm-year sample observations were obtained.
+
+Table 2 reports the descriptive statistical results of each main variable. It can be found that the maximum and minimum values of 
+the enterprise’s risk-taking level are 0.1699 and 0.0017 respectively, and there is a larger difference between them. The mean value of 
+the enterprise’s risk-taking level is 0.0272, which is greater than the median 0.0182, and the 75 % quantile and the 90 % quantiles are 
+0.0328 and 0.0579 respectively. The above data shows that there are large differences in the risk-taking levels of listed companies in 
+China, and most companies tend to bear lower risks. For the measurement index of institutional investor network, the maximum and 
+minimum values of network density are 1 and 0.1039 respectively. The network density of the institutional investor network with the 
+highest network density is 41.67 % higher than that of other institutional investor networks, which illustrates that there is a difference 
+in the speed of information transmission in the institutional investor network. And the maximum and minimum values of network 
+centrality are 0 and − 0.7180 respectively. The network centrality of the institutional investor network with the largest network 
+centrality is 29.75 % higher than that of other institutional investor networks, indicating the difference in the position of institutional 
+investors in the network. Overall, the efficiency of information sharing varies greatly among different institutional investor networks.
+
+4.2. Analysis of regression results
+
+Table 3 reports the benchmark regression results between institutional investor information sharing and corporate risk-taking. It 
+can be found from columns (1) and (2) in the table that when no control variables are added, the influence coefficients of network 
+density and network centrality of institutional investor networks on corporate risk-taking level are 0.0042 and 0.0048 respectively, 
+and all are significant at the 1 % level. It indicates that without considering other control variables, institutional investor information 
+sharing can significantly affect corporate risk-taking level. Taking control variables into account, the regression results in columns (3) 
+and (4) illustrate that the impact of network density and network centrality on corporate risk-taking level is significantly positive at the 
+1 % level. That is, the higher the efficiency of institutional investor information sharing, the higher the risk-taking level of enterprises. 
+As a result, the H1 hypothesis is illustrated.
+
+9 
+
+
+
+X.-L. Gong et al.                                                                                                                                   R e s e a r c h   i n  I n t e r n a t i o n a l   B u s i n e s s   a n d  F  i n  a  n c  e  79 (2025) 103099 
+
+Table 7 
+First-order difference regression results of institutional investor network indicators.
+
+(1) (2) (3) (4)
+Risk Risk Risk Risk
+
+d_Density 0.0029* 0.0037** ​ ​
+​ (1.79) (2.17) ​ ​
+d_Center ​ ​ 0.0053*** 0.0066***
+
+​ ​ ​ (3.20) (3.84)
+Size ​ − 0.0024*** ​ − 0.0024***
+
+​ ​ (− 3.07) ​ (− 3.15)
+Lev ​ 0.0029 ​ 0.0024
+​ ​ (0.85) ​ (0.69)
+Top1 ​ − 0.0002*** ​ − 0.0002***
+
+​ ​ (− 4.35) ​ (− 4.30)
+Salary ​ 0.0010 ​ 0.0009
+​ ​ (1.10) ​ (1.07)
+TobinQ ​ 0.0006** ​ 0.0006**
+
+​ ​ (2.03) ​ (2.03)
+ROA ​ 0.0059 ​ 0.0044
+​ ​ (0.39) ​ (0.29)
+Age ​ 0.0028 ​ 0.0028
+​ ​ (1.32) ​ (1.34)
+Growth ​ − 0.0000 ​ − 0.0000
+​ ​ (− 0.04) ​ (− 0.03)
+PPE ​ − 0.0120*** ​ − 0.0118***
+
+​ ​ (− 2.62) ​ (− 2.59)
+Cap ​ − 0.0005 ​ − 0.0005
+​ ​ (− 0.99) ​ (− 0.97)
+Eps ​ − 0.0019*** ​ − 0.0018***
+
+​ ​ (− 3.33) ​ (− 3.23)
+Dual ​ 0.0017 ​ 0.0016
+​ ​ (1.60) ​ (1.56)
+Constant 0.0177** 0.0641*** 0.0180** 0.0653***
+
+​ (2.12) (3.69) (2.15) (3.78)
+Ind Yes Yes Yes Yes
+Year Yes Yes Yes Yes
+N 5834 5293 5896 5344.
+R2 0.0656 0.0776 0.0666 0.0785
+
+Table 8 
+The regression results of instrumental variable.
+
+The first stage The second stage
+(1) (2)
+
+​ Center Risk
+Center ​ 0.1259***
+
+​ ​ (2.35)
+Turnover 0.0044*** ​
+​ (8.96) ​
+Constant 0.3301*** − 0.7970
+​ (5.85) (− 0.26)
+​ Yes Yes
+Ind Yes Yes
+Year Yes Yes
+N 8210 8210
+F 80.3336(P value=0.0098)
+Adj-R2 0.1300
+Hansen J 12.7530
+Chi-sq (1) P-val 0.0004
+
+4.3. Robustness analysis
+
+In order to test the robustness of the previous results, this paper investigates from the aspects of replacing the explained variable, 
+changing the measurement method of the explanatory variable and adjusting the sample interval.
+
+1) Replace the explained variable.
+First, this paper uses the Roa range (roa range of three-year) of the company during the observation period to measure the volatility 
+
+of earnings. Second, we take 5 years as an observation period and calculate the industry-adjusted Roa standard deviation (standard 
+deviation of five-year) and range (roa rang of five-year) within each observation period. As shown in Table 4, the regression results have 
+
+10 
+
+
+
+X.-L. Gong et al.                                                                                                                                   R e s e a r c h   i n  I n t e r n a t i o n a l   B u s i n e s s   a n d  F  i n  a  n c  e  79 (2025) 103099 
+
+Table 9 
+Mediating effect of information asymmetry.
+
+(1) (2)
+Asy Asy
+
+Density − 0.0921*** ​
+​ (− 6.28) ​
+Center ​ − 0.1171***
+
+​ ​ (− 6.84)
+Size 0.0280*** 0.0283***
+
+​ (6.96) (7.12)
+Lev − 0.0233 − 0.0234
+​ (− 1.25) (− 1.26)
+Top1 − 0.0001 − 0.0002
+​ (− 0.78) (− 1.09)
+Salary 0.0140*** 0.0137***
+
+​ (2.97) (2.95)
+TobinQ 0.0368*** 0.0367***
+
+​ (17.70) (17.82)
+ROA − 0.1346 − 0.1312
+​ (− 1.50) (− 1.48)
+Age − 0.0062 − 0.0061
+​ (− 0.67) (− 0.66)
+Growth 0.0099 0.0075
+​ (1.37) (1.05)
+PPE − 0.0526** − 0.0501**
+
+​ (− 2.21) (− 2.13)
+Cap 0.0033 0.0036
+​ (1.12) (1.23)
+Eps 0.0499*** 0.0498***
+
+​ (14.92) (14.97)
+Dual − 0.0080 − 0.0091
+​ (− 1.39) (− 1.58)
+Constant − 0.5505*** − 0.6385***
+
+​ (− 6.47) (− 7.84)
+Ind Yes Yes
+Year Yes Yes
+N 5589 5646
+R2 0.2963 0.2975
+
+not changed substantially, so the conclusions of this paper are relatively robust.
+2) Change the measure of network density. The network density of a stock is a decreasing function of the stock’s market capi
+
+talization (Nagel, 2005). In order to further eliminate the impact of stock market capitalization on the results, the residuals after the 
+regression of network density on stock circulation market capitalization are used as proxy variables for network density, and then the 
+regression analysis is re-run. The results are shown in Table 5. After eliminating the impact of stock market capitalization, the re
+lationships between network density and the standard deviation (Risk) and range (roa range of three-year) of Roa with a 3-year 
+observation period and the standard deviation (standard deviation of five-year) and range (roa rang of five-year) of the Roa with a 
+5-year observation period are significantly positive, indicating that the conclusions of this paper is robust.
+
+3) Reduce the sample interval. The occurrence of extreme events may affect the research conclusions of this paper. Considering the 
+impact of the 2015 stock market crash and its lag, we eliminate the data from 2015 to 2016 and rerun the regression. The results are 
+shown in Table 6. The relationships between network density and network centrality and corporate risk-taking levels are still 
+significantly positive, indicating the robustness of the conclusions of this paper.
+
+4) The method of first-order difference. In the regression model, it is necessary to consider such a mutually causal endogeneity 
+problem, that is, companies with a high level of risk-taking are more likely to attract the attention of institutional investors, making the 
+network density of the institutional investor networks larger. So, the increase in corporate risk-taking level is not due to the increase in 
+the density of institutional investor networks, but to the large number of institutional investors holding shares in companies with 
+higher risk-taking level. In order to control the problem of mutual causation, this paper uses institutional investor network indicators 
+lagged one year to conduct regression analysis again. The test results are shown in Table 7. It can be seen from the regression results 
+that the regression coefficients of network density and network centrality are both significantly positive, indicating that the positive 
+correlation between institutional investor information sharing and corporate risk-taking level is not due to the endogenous rela
+tionship of reverse causation. Therefore, the above conclusions of this paper are robust.
+
+5) The method of instrumental variable. Unobserved factors may cause institutional investors to invest in companies with higher 
+level of risk-taking, biasing the estimates in this paper. Therefore, referring to the practice of Aggarwal et al. (2011), this paper selects 
+stock turnover rate (Turnover) as an instrumental variable. Because institutional investors may hold shares of companies with high 
+turnover rates, but turnover rates have no direct relationship with corporate risk-taking behavior, the condition of exogeneity of 
+instrumental variables is met. The results are shown in Table 8. Column (1) is the first-stage regression result. The coefficient of 
+Turnover is significantly positive, and the F value is greater than 10, indicating that the Turnover can affect the efficiency of information 
+
+11 
+
+
+
+X.-L. Gong et al.                                                                                                                                   R e s e a r c h   i n  I n t e r n a t i o n a l   B u s i n e s s   a n d  F  i n  a  n c  e  79 (2025) 103099 
+
+Table 10 
+Mediating effect of analyst herding behavior.
+
+(1) (2)
+Herd Herd
+
+Density − 0.0699*** ​
+​ (− 4.80) ​
+Center ​ − 0.0976***
+
+​ ​ (− 5.83)
+Size − 0.0048 − 0.0044
+​ (− 0.99) (− 0.92)
+Lev 0.0012 0.0028
+​ (0.06) (0.13)
+Top1 0.0002 0.0001
+​ (0.69) (0.57)
+Salary 0.0110* 0.0116**
+
+​ (1.95) (2.06)
+TobinQ 0.0010 0.0008
+​ (0.43) (0.36)
+ROA 0.3858*** 0.4064***
+
+​ (3.86) (4.07)
+Age − 0.0164 − 0.0181
+​ (− 1.32) (− 1.47)
+Growth 0.0217*** 0.0194***
+
+​ (3.03) (2.72)
+PPE − 0.0017 0.0030
+​ (− 0.06) (0.11)
+Cap 0.0090*** 0.0085***
+
+​ (2.80) (2.65)
+Eps 0.0115*** 0.0108***
+
+​ (3.09) (2.91)
+Dual − 0.0044 − 0.0051
+​ (− 0.66) (− 0.77)
+Constant 0.1663 0.0989
+​ (1.51) (0.93)
+Ind Yes Yes
+Year Yes Yes
+N 5630 5681
+R2 0.0932 0.0939
+
+sharing among institutional investors. Column (2) shows that after controlling for the impact of possible omitted variables, the co
+efficient of network center is significantly positive, indicating that the effect of information sharing of institutional investors on 
+improving corporate risk-taking level still exists.
+
+5. Mechanism test
+
+The above test results show that information sharing among institutional investors can improve corporate risk-taking level. This 
+paper further attempts to explore the mechanism by which information sharing of institutional investor affects corporate risk-taking 
+level. We use the following empirical model to test the mediating role of information asymmetry and analyst herding behavior: 
+
+∑ ∑
+Asyi,t = α0 +α1Insi,t + αControlsi,t + Indj + Yeart + εi,t (8) 
+
+∑ ∑
+Herdi,t = γ0 + γ1Insi,t + γControlsi,t + Indj + Yeart + εi,t (9) 
+
+where Asy represents the degree of information asymmetry, Herd represents analyst herding behavior, Ins represents network density 
+and network centrality, and the remaining variables are consistent with the baseline model. If the signs of α1 and γ1 are significantly 
+negative, it means that information asymmetry and analyst herding behavior play the mediating role in the impact of institutional 
+investors’ information sharing on corporate risk-taking level.
+
+5.1. The role of information asymmetry
+
+Table 9 shows the test results of the mediating effect of information asymmetry. Columns (1) and (2) show that the impact of 
+network density and network centrality on information asymmetry is significantly negative at the 1 % levels, indicating that insti
+tutional investor information sharing can reduce the degree of corporate information asymmetry. Reducing the degree of information 
+asymmetry helps external investors understand the company’s situation more truly and reduces the financing constraints faced by the 
+company, which can improve the company’s risk-taking level. Therefore, information sharing by institutional investors can improve 
+the level of corporate risk-taking by reducing the degree of corporate information asymmetry, that is, information asymmetry plays an 
+
+12 
+
+
+
+X.-L. Gong et al.                                                                                                                                   R e s e a r c h   i n  I n t e r n a t i o n a l   B u s i n e s s   a n d  F  i n  a  n c  e  79 (2025) 103099 
+
+Table 11 
+Grouped regression results of financialization degree.
+
+High degree of financialization High degree of financialization Low degree of financialization Low degree of financialization
+(1) (2) (3) (4)
+
+Density 0.0075*** ​ 0.0027 ​
+​ (3.42) ​ (1.18) ​
+Center ​ 0.0074*** ​ 0.0048*
+​ ​ (2.92) ​ (1.79)
+Lev 0.0038 0.0035 0.0002 0.0006
+​ (1.13) (1.04) (0.06) (0.16)
+Top1 − 0.0002*** − 0.0002*** − 0.0001*** − 0.0001***
+
+​ (− 4.75) (− 4.59) (− 2.91) (− 2.90)
+Salary 0.0005 0.0003 0.0008 0.0009
+​ (0.50) (0.34) (0.88) (1.03)
+TobinQ 0.0015*** 0.0015*** 0.0016*** 0.0016***
+
+​ (4.58) (4.56) (4.33) (4.34)
+ROA 0.0075 0.0104 − 0.0038 − 0.0042
+​ (0.48) (0.66) (− 0.24) (− 0.27)
+Age 0.0031 0.0028 0.0019 0.0018
+​ (1.54) (1.40) (0.96) (0.89)
+Growth − 0.0006 − 0.0005 0.0047*** 0.0046***
+
+​ (− 0.53) (− 0.42) (4.97) (4.92)
+PPE − 0.0051 − 0.0052 − 0.0081* − 0.0071*
+​ (− 1.06) (− 1.10) (− 1.86) (− 1.65)
+Cap − 0.0008* − 0.0009* − 0.0017*** − 0.0017***
+
+​ (− 1.70) (− 1.80) (− 3.30) (− 3.41)
+Eps − 0.0017*** − 0.0017*** − 0.0015** − 0.0015**
+
+​ (− 2.75) (− 2.80) (− 2.34) (− 2.23)
+Dual 0.0023** 0.0024** − 0.0001 0.0000
+​ (2.19) (2.25) (− 0.11) (0.01)
+Constant 0.0593*** 0.0643*** 0.0526*** 0.0535***
+
+​ (3.39) (3.74) (3.00) (3.12)
+Ind Yes Yes Yes Yes
+Year Yes Yes Yes Yes
+N 4568 4601 3860 3912
+R2 0.0800 0.0749 0.0529 0.0515
+
+intermediary role in the process of institutional investor information sharing affecting corporate risk-taking level. Hypothesis H2 has 
+been verified.
+
+5.2. The role of analyst herding behavior
+
+Table 10 shows the test results of the mediating effect of analyst herding behavior. Columns (1) and (2) show that the effects of 
+network density and network centrality on analyst herding behavior are both significantly negative at the 1 % level, indicating that 
+institutional investor information sharing can inhibit analyst herding behavior. The reduction of analysts’ herding behavior increases 
+the company-related information obtained by external investors, which is beneficial to companies’ acquisition of resources. At the 
+same time, analysts’ increased attention to the company can reduce management’s opportunistic behavior, thereby improving the 
+level of corporate risk-taking. Therefore, institutional investor information sharing can improve corporate risk-taking levels by 
+inhibiting analyst herding behavior. That is, analyst herding behavior plays a mediating role in the process of institutional investor 
+information sharing affecting corporate risk-taking levels. Hypothesis H3 has been verified.
+
+6. Heterogeneity analysis
+
+The previous analysis and empirical results show that information sharing in institutional investor networks can produce external 
+supervision effect and resource advantage effect, which prompt managers to carry out high-risk investment activities that are more 
+beneficial to enterprise development, and provide enterprises with corresponding resources support, thereby improving the level of 
+corporate risk-taking. However, a company’s operating activities and investment strategies will also be affected by the company’s 
+internal governance mechanism and the external environment. For companies with different characteristics, the impact of institutional 
+investor networks on corporate risk-taking levels may be different. In consequence, based on the previous analysis, this paper further 
+studies the heterogeneity of institutional investor information sharing affecting corporate risk-taking levels from the perspectives of 
+corporate internal governance and external environment.
+
+6.1. The effect of financialization
+
+In recent years, China’s economy has experienced a trend of financialization. Generally speaking, corporate investment in financial 
+
+13 
+
+
+
+X.-L. Gong et al.                                                                                                                                   R e s e a r c h   i n  I n t e r n a t i o n a l   B u s i n e s s   a n d  F  i n  a  n c  e  79 (2025) 103099 
+
+Table 12 
+Grouped regression results of differences in financing constraints.
+
+High degree of financing High degree of financing Low degree of financing Low degree of financing 
+constraints constraints constraints constraints
+(1) (2) (3) (4)
+
+Density 0.0045** ​ 0.0033 ​
+​ (1.96) ​ (1.58) ​
+Center ​ 0.0089*** ​ 0.0024
+​ ​ (3.25) ​ (1.01)
+Size 0.0012 0.0013 − 0.0006 − 0.0006
+​ (1.29) (1.47) (− 0.80) (− 0.81)
+Lev 0.0061* 0.0061* − 0.0063* − 0.0063*
+​ (1.91) (1.92) (− 1.75) (− 1.75)
+Top1 − 0.0002*** − 0.0002*** − 0.0001** − 0.0001**
+
+​ (− 4.95) (− 4.84) (− 2.38) (− 2.37)
+Salary − 0.0001 − 0.0000 0.0018** 0.0017**
+
+​ (− 0.16) (− 0.03) (2.19) (2.06)
+TobinQ 0.0018*** 0.0019*** 0.0009** 0.0008**
+
+​ (5.56) (5.86) (2.30) (2.19)
+ROA 0.0139 0.0142 0.0508*** 0.0511***
+
+​ (0.90) (0.93) (3.08) (3.11)
+Age 0.0029 0.0025 0.0006 0.0006
+​ (1.58) (1.35) (0.29) (0.32)
+Growth − 0.0012 − 0.0012 0.0059*** 0.0060***
+
+​ (− 0.84) (− 0.91) (7.28) (7.38)
+PPE − 0.0103** − 0.0103** 0.0019 0.0024
+​ (− 2.25) (− 2.25) (0.46) (0.58)
+Cap − 0.0015*** − 0.0014*** − 0.0015*** − 0.0015***
+
+​ (− 2.88) (− 2.83) (− 3.22) (− 3.25)
+Eps − 0.0066*** − 0.0065*** 0.0013*** 0.0013***
+
+​ (− 8.64) (− 8.50) (2.63) (2.59)
+Dual 0.0009 0.0011 0.0021* 0.0020*
+​ (0.91) (1.10) (1.94) (1.89)
+Constant 0.0282 0.0274 0.0362** 0.0401**
+
+​ (1.44) (1.43) (1.97) (2.21)
+Ind Yes Yes Yes Yes
+Year Yes Yes Yes Yes
+N 4616 4674 3812 3839
+R2 0.1069 0.1064 0.0501 0.0500
+
+products will have two opposite effects on corporate development. One is that enterprises use part of their idle funds to invest in short- 
+term financial products, which can increase the liquidity of corporate assets and, to a certain extent, alleviate the constraints on the 
+company’s main business investment activities caused by future shortages of funds. The other is that the high yield of financial 
+products causes companies to allocate too much financial assets, crowding out funds for investment in other main businesses, resulting 
+in underinvestment of corporates. However, both of these effects will have an impact on the company’s future investment activities, 
+thereby affecting the company’s risk-taking level. Therefore, this paper selects the ratio of financial assets held by enterprises to total 
+assets to measure the degree of financialization of enterprises according to the method of Orhangazi (2008) and Demir (2009), and 
+divides the samples into low financialization and high financialization according to the median level. We examine the difference in the 
+impact of institutional investor information sharing on corporate risk-taking level in samples of enterprises with different degrees of 
+financialization.
+
+The regression results are shown in Table 11. It can be seen that in the sample of enterprises with a high degree of financialization, 
+the coefficient of network density is significantly positive at the 1 % level, while in the sample of enterprises with a low degree of 
+financialization, the coefficient of network density is not significant. In addition, in the sample of enterprises with a high degree of 
+financialization, the coefficient of network centrality is significantly positive at the 1 % level, but in the sample of enterprises with a 
+low degree of financialization, the coefficient of network centrality is significantly positive at the 10 % level. Overall, in enterprises 
+with a high degree of financialization, the impact of information sharing by institutional investors on the level of corporate risk-taking 
+is more significant. The above results may be due to the fact that enterprises with a higher degree of financialization face higher 
+resource constraints when conducting other investment activities, so the resource advantage effect of institutional investment net
+works can play a greater role. At the same time, the external supervision effect of the institutional investor network can better restrain 
+managers from over-allocating financial assets. It prompts managers to carry out investment activities that are more conducive to the 
+long-term development of enterprises, thereby improving the level of corporate risk-taking.
+
+6.2. Perspective of enterprise resource acquisition
+
+6.2.1. Financing constraints
+Financing constraints mean a company can obtain sufficient funds for investment in high-risk and high-yield projects, which will 
+
+14 
+
+
+
+X.-L. Gong et al.                                                                                                                                   R e s e a r c h   i n  I n t e r n a t i o n a l   B u s i n e s s   a n d  F  i n  a  n c  e  79 (2025) 103099 
+
+Table 13 
+Regression results of political connections.
+
+Have political connections Have political connections No political connections No political connections
+(1) (2) (3) (4)
+
+Density 0.0021 ​ 0.0059*** ​
+​ (0.77) ​ (2.98) ​
+Center ​ 0.0015 ​ 0.0082***
+
+​ ​ (0.47) ​ (3.67)
+Size − 0.0004 − 0.0006 − 0.0009 − 0.0007
+​ (− 0.47) (− 0.64) (− 1.31) (− 1.08)
+Lev 0.0033 0.0038 0.0036 0.0032
+​ (0.79) (0.92) (1.19) (1.06)
+Top1 − 0.0002*** − 0.0002*** − 0.0001*** − 0.0001***
+
+​ (− 3.41) (− 3.41) (− 3.99) (− 3.87)
+Salary − 0.0004 − 0.0004 0.0003 0.0004
+​ (− 0.35) (− 0.36) (0.41) (0.45)
+TobinQ 0.0018*** 0.0017*** 0.0014*** 0.0014***
+
+​ (3.96) (3.90) (4.79) (4.89)
+ROA 0.0121 0.0104 0.0078 0.0087
+​ (0.62) (0.53) (0.57) (0.64)
+Age 0.0013 0.0013 0.0035* 0.0033*
+​ (0.55) (0.55) (1.93) (1.85)
+Growth 0.0014 0.0014 0.0032*** 0.0032***
+
+​ (1.03) (1.06) (3.80) (3.86)
+PPE − 0.0103* − 0.0089* − 0.0022 − 0.0024
+​ (− 1.92) (− 1.66) (− 0.55) (− 0.62)
+Cap − 0.0013** − 0.0014** − 0.0012*** − 0.0012***
+
+​ (− 2.11) (− 2.20) (− 2.75) (− 2.74)
+Eps − 0.0029*** − 0.0028*** − 0.0013** − 0.0013**
+
+​ (− 3.45) (− 3.34) (− 2.46) (− 2.45)
+Dual − 0.0026* − 0.0027** 0.0021** 0.0023**
+
+​ (− 1.93) (− 2.01) (2.23) (2.48)
+Constant 0.0727*** 0.0783*** 0.0486*** 0.0494***
+
+​ (3.67) (4.01) (3.08) (3.20)
+Ind Yes Yes Yes Yes
+Year Yes Yes Yes Yes
+N 2648 2673 5780 5840
+R2 0.0881 0.0865 0.0588 0.0571
+
+affect the company’s risk-taking level. From the previous theoretical analysis, it can be seen that corporate risk-taking is resource- 
+consuming activity. If there are not enough resources, companies will face greater investment restrictions, which reduces the level 
+of corporate risk-taking. The institutional investor network has a resource support function and can reduce the financing constraints 
+faced by enterprises. Hence, this paper expects that the higher the corporate financing constraints, the stronger the effect of institu
+tional investor networks on corporate risk-taking levels. We use the WW index as a proxy variable for corporate financing constraints 
+according to the method of Whited and Wu (2006), divide the sample into high-financing-constrained and low-financing-constrained 
+enterprises according to the median level, and then perform group regression.
+
+The regression results are shown in Table 12. In companies with higher financing constraints, the coefficients of network density 
+and network centrality are significantly positive at the 5 % and 1 % levels respectively. While in enterprises with lower financing 
+constraints, the coefficients of network density and network centrality are not significant. These show that the resource support 
+function of institutional investor networks can play a more valuable role for companies with higher financing constraints, and 
+significantly improve the level of corporate risk-taking.
+
+6.2.2. Political connections
+By actively establishing ties with the government, companies can obtain government subsidies, tax incentives, and more bank loans 
+
+for high-risk investment activities. This study shows that the information advantages of institutional investor networks can reduce 
+corporate information asymmetry, help companies obtain more high-quality investment projects, and improve corporate resource 
+acquisition capabilities. As a result, whether there is a connection with the government will affect the relationship between institu
+tional investor networks and corporate risk taking. Based on the above analysis, referring to the research of Otchere et al. (2020), this 
+paper takes whether the chairman or general manager hold a government position as the basis for whether a company is related to the 
+government. And the heterogeneity of how institutional investor information sharing affects corporate risk-taking levels in different 
+samples is examined.
+
+Columns (1) and (2) in Table 13 show that in politically connected enterprises, the coefficients of network density and network 
+centrality are not significant. Columns (3) and (4) show that in companies without political connections, the coefficients of network 
+density and network centrality are both significantly positive at the 1 % level. The above results show that enterprises with connections 
+to the government can obtain more government support, and have more funds available for high-risk investment activities. Among 
+enterprises that are not related to the government, the enterprises face greater resource constraints, so the resource advantage effect of 
+
+15 
+
+
+
+X.-L. Gong et al.                                                                                                                                   R e s e a r c h   i n  I n t e r n a t i o n a l   B u s i n e s s   a n d  F  i n  a  n c  e  79 (2025) 103099 
+
+Table 14 
+Grouped regression results of agency cost.
+
+High agency costs High agency costs Low agency costs Low agency costs
+(1) (2) (3) (4)
+
+Density 0.0054** ​ 0.0025 ​
+​ (2.27) ​ (1.20) ​
+Center ​ 0.0108*** ​ 0.0024
+​ ​ (3.90) ​ (0.98)
+Size − 0.0005 − 0.0005 0.0005 0.0005
+​ (− 0.66) (− 0.59) (0.62) (0.74)
+Lev 0.0026 0.0027 0.0032 0.0028
+​ (0.78) (0.80) (0.89) (0.81)
+Top1 − 0.0001*** − 0.0001*** − 0.0001*** − 0.0001***
+
+​ (− 3.69) (− 3.61) (− 2.99) (− 3.08)
+Salary 0.0015 0.0016* − 0.0001 − 0.0001
+​ (1.58) (1.71) (− 0.06) (− 0.16)
+TobinQ 0.0017*** 0.0018*** 0.0016*** 0.0016***
+
+​ (5.29) (5.50) (4.37) (4.40)
+ROA − 0.0426** − 0.0420** 0.0637*** 0.0643***
+
+​ (− 2.45) (− 2.42) (4.34) (4.40)
+Age 0.0036* 0.0029 0.0021 0.0022
+​ (1.88) (1.53) (1.03) (1.09)
+Growth 0.0023** 0.0024** 0.0030*** 0.0030***
+
+​ (2.12) (2.21) (3.27) (3.29)
+PPE − 0.0115** − 0.0112** − 0.0012 − 0.0010
+​ (− 2.47) (− 2.43) (− 0.29) (− 0.23)
+Cap − 0.0007 − 0.0007 − 0.0021*** − 0.0021***
+
+​ (− 1.33) (− 1.30) (− 4.56) (− 4.56)
+Eps − 0.0047*** − 0.0046*** − 0.0004 − 0.0004
+​ (− 5.86) (− 5.76) (− 0.72) (− 0.73)
+Dual 0.0012 0.0014 − 0.0002 − 0.0002
+​ (1.18) (1.30) (− 0.19) (− 0.16)
+Constant 0.0271 0.0301* 0.0551*** 0.0562***
+
+​ (1.59) (1.80) (3.15) (3.29)
+Ind Yes Yes Yes Yes
+Year Yes Yes Yes Yes
+N 4169 4213 4259 4300
+R2 0.0849 0.0838 0.0562 0.0560
+
+the institutional investor network plays a greater marginal role and can significantly improve the risk-taking level of the enterprise.
+
+6.3. Perspective of internal corporate governance
+
+6.3.1. Agency costs
+Under the system of separation of ownership and management rights, principal-agent problems are common in enterprises. 
+
+Corporate owners with ownership rights and managers with management rights have inconsistent utility functions, resulting in 
+managers not necessarily making investment decisions based on shareholders’ demands and wealth maximization. Companies with 
+more serious agency problems have managers with more decision-making autonomy and more room for opportunistic behavior, which 
+may affect the level of corporate risk-taking. Based on the above analysis, this paper uses the management expense ratio as the variable 
+of corporate agency cost according to the method of Ang et al. (2000), divides the sample into enterprises with low agency cost and 
+high agency cost according to the median level, and examines the differences in the impact of institutional investor information sharing 
+on corporate risk-taking levels in corporate samples with different agency costs.
+
+The regression results are shown in Table 14. The results in columns (1) and (2) of the table show that in enterprises with higher 
+agency costs, the coefficients of network density and network centrality are significantly positive on the level at 5 % and 1 % 
+respectively. The results in columns (3) and (4) of the table show that in enterprises with low agency costs, the coefficients of network 
+density and network centrality are not significant. The above results show that the more severe the agency costs, the higher the 
+possibility of corporate management to engage in opportunistic behavior, so the supervisory effect of institutional investors’ infor
+mation sharing can play a more significant role. That is, the higher the agency costs within a company, the more the institutional 
+investor network can improve the level of corporate risk-taking.
+
+6.3.2. Internal control quality
+In the context of the separation of ownership and control in the corporate system, managers do not act entirely in accordance with 
+
+the owners’ business objectives. In their daily business activities, managers may avoid high-risk, high-return investment activities for 
+their own interests, reputation, etc. In different corporate governance mechanisms, the decision-making behavior of management is 
+different. At the same time, institutional investors, as external stakeholders, can supervise the behavior of management. The effec
+tiveness of the external supervision mechanism also depends on the level of internal governance of the enterprise. Based on this, we 
+
+16 
+
+
+
+X.-L. Gong et al.                                                                                                                                   R e s e a r c h   i n  I n t e r n a t i o n a l   B u s i n e s s   a n d  F  i n  a  n c  e  79 (2025) 103099 
+
+Table 15 
+Grouped regression results of internal control quality.
+
+Good quality of internal control Good quality of internal control Bad quality of internal control Bad quality of internal control
+(1) (2) (3) (4)
+
+Density 0.0058*** ​ 0.0018 ​
+​ (2.91) ​ (0.71) ​
+Center ​ 0.0079*** ​ 0.0033
+​ ​ (3.52) ​ (1.06)
+Size − 0.0010 − 0.0010 0.0001 0.0002
+​ (− 1.60) (− 1.56) (0.14) (0.21)
+Lev − 0.0036 − 0.0039 0.0069* 0.0070*
+​ (− 1.22) (− 1.32) (1.85) (1.89)
+Top1 − 0.0001** − 0.0001** − 0.0002*** − 0.0002***
+
+​ (− 2.09) (− 2.02) (− 4.75) (− 4.76)
+Salary 0.0012 0.0012 0.0008 0.0008
+​ (1.51) (1.53) (0.75) (0.80)
+TobinQ 0.0014*** 0.0014*** 0.0018*** 0.0018***
+
+​ (4.82) (4.90) (4.30) (4.37)
+ROA 0.0354*** 0.0362*** − 0.0154 − 0.0162
+​ (2.65) (2.72) (− 0.84) (− 0.88)
+Age 0.0025 0.0024 0.0024 0.0022
+​ (1.51) (1.45) (1.14) (1.04)
+Growth 0.0064*** 0.0064*** − 0.0003 − 0.0003
+​ (7.63) (7.66) (− 0.26) (− 0.28)
+PPE − 0.0061 − 0.0067* − 0.0083* − 0.0068
+​ (− 1.56) (− 1.75) (− 1.70) (− 1.40)
+Cap − 0.0009** − 0.0009** − 0.0022*** − 0.0022***
+
+​ (− 2.06) (− 2.05) (− 3.95) (− 3.96)
+Eps 0.0012** 0.0013** − 0.0059*** − 0.0058***
+
+​ (2.45) (2.51) (− 6.92) (− 6.79)
+Dual 0.0014 0.0015* − 0.0001 − 0.0000
+​ (1.51) (1.66) (− 0.08) (− 0.01)
+Constant 0.0439*** 0.0484*** 0.0567*** 0.0563***
+
+​ (3.06) (3.46) (2.92) (2.95)
+Ind Yes Yes Yes Yes
+Year Yes Yes Yes Yes
+N 4924 4962 3504 3551
+R2 0.0585 0.0587 0.0832 0.0815
+
+divide the internal control quality of enterprises into high internal control quality and low internal control quality samples according to 
+the median level, and examine the differences in the impact of institutional investors’ information sharing on the level of corporate 
+risk-taking in different samples. Drawing on the research of Zheng and Han, we use the Dibo Internal Control Index as an indicator to 
+measure the quality of corporate control.
+
+The regression results are shown in Table 15. The results in columns (1) and (2) of the table show that in companies with higher 
+information disclosure quality, the coefficients of network density and network centrality are significantly positive on the level at 5 % 
+and 1 % respectively. While the results in columns (3) and (4) of the table show that in companies with low information disclosure 
+quality, the coefficients of network density and network centrality are not significant. The reason for this phenomenon may be that 
+companies with poor information disclosure quality have a higher degree of information asymmetry and analysts’ herding behavior is 
+more serious, which inhibits the intermediary mechanism of institutional investors’ information sharing affecting risk-taking level of 
+corporate. Hence, companies with better information disclosure quality can ensure that institutional investor information sharing can 
+affect corporate risk-taking levels by reducing corporate information asymmetry and inhibiting analyst herding behavior.
+
+6.4. External environment perspective
+
+6.4.1. Legal environment
+The conclusion of this paper shows that information sharing among institutional investors will improve the efficiency of infor
+
+mation dissemination, and reduce information asymmetry between internal and external enterprises, enhancing the risk-taking level of 
+enterprises. However, whether regional regulations and systems are complete and whether judicial and administrative agencies are 
+strictly enforcing laws will directly affect corporate governance behaviors. When the legal environment in the region where a company 
+is located is poor, management is more likely to conceal poor performance and bad news, resulting in lower corporate information 
+transparency and exacerbating information asymmetry between the company and external investors. Therefore, the impact of insti
+tutional investor information sharing on corporate risk-taking levels may differ under different legal environments. Based on the above 
+analysis, we use the marketization index compiled by the Institute of National Economy as the proxy variable for the regional legal 
+level according to the research of Fu et al. (2025), divides the samples into regions with good and poor rule of law levels according to 
+the median level, and groups them to test the impact of information sharing by institutional investors on the level of corporate 
+risk-taking.
+
+17 
+
+
+
+X.-L. Gong et al.                                                                                                                                   R e s e a r c h   i n  I n t e r n a t i o n a l   B u s i n e s s   a n d  F  i n  a  n c  e  79 (2025) 103099 
+
+Table 16 
+Grouped regression results of legal environment.
+
+Good legal environment Good legal environment Bad legal environment Bad legal environment
+(1) (2) (3) (4)
+
+Density 0.0073*** ​ 0.0017 ​
+​ (3.01) ​ (0.80) ​
+Center ​ 0.0073** ​ 0.0051**
+
+​ ​ (2.55) ​ (2.12)
+Size − 0.0000 − 0.0000 − 0.0009 − 0.0008
+​ (− 0.05) (− 0.02) (− 1.13) (− 1.08)
+Lev − 0.0027 − 0.0030 0.0061* 0.0062*
+​ (− 0.76) (− 0.85) (1.85) (1.90)
+Top1 − 0.0001*** − 0.0001*** − 0.0001*** − 0.0001***
+
+​ (− 3.70) (− 3.65) (− 3.58) (− 3.59)
+Salary 0.0014 0.0013 0.0001 0.0003
+​ (1.42) (1.34) (0.16) (0.35)
+TobinQ 0.0009*** 0.0009** 0.0020*** 0.0020***
+
+​ (2.63) (2.55) (5.66) (5.86)
+ROA 0.0050 0.0054 0.0078 0.0089
+​ (0.31) (0.34) (0.50) (0.57)
+Age 0.0011 0.0011 0.0021 0.0019
+​ (0.59) (0.54) (1.04) (0.93)
+Growth 0.0065*** 0.0064*** − 0.0002 − 0.0000
+​ (5.84) (5.79) (− 0.18) (− 0.05)
+PPE − 0.0004 − 0.0012 − 0.0087** − 0.0077*
+​ (− 0.08) (− 0.24) (− 2.04) (− 1.83)
+Cap − 0.0016*** − 0.0016*** − 0.0013*** − 0.0013***
+
+​ (− 3.03) (− 3.00) (− 2.69) (− 2.68)
+Eps − 0.0012** − 0.0012** − 0.0027*** − 0.0027***
+
+​ (− 2.02) (− 1.96) (− 4.09) (− 4.06)
+Dual 0.0016 0.0016 0.0003 0.0005
+​ (1.51) (1.52) (0.26) (0.47)
+Constant 0.0360* 0.0418** 0.0660*** 0.0650***
+
+​ (1.89) (2.23) (3.98) (3.99)
+Ind Yes Yes Yes Yes
+Year Yes Yes Yes Yes
+N 3919 3945 4509 4568
+R2 0.0752 0.0757 0.0649 0.0629
+
+The regression results are shown in Table 16. For enterprises in areas with good legal environment, the coefficient of network 
+density is significantly positive at the 1 % level, while for enterprises in areas with poor legal environment, the coefficient of network 
+density is not significant. In addition, for enterprises in areas with good legal environment, network centrality increases every 1 unit, 
+the level of enterprise risk-taking increases by 0.0073 %. For enterprises in areas with poor legal environment, network centrality 
+increases every 1 unit, the level of enterprise risk-taking increases by 0.0051 %. Overall, in areas with a good legal environment, 
+institutional investor information sharing has a more significant impact on corporate risk-taking levels. This may be due to that a high 
+level of legal rule makes corporate information, financial and other disclosure behaviors more standardized and complete, and 
+corporate information transparency is higher. Hence, institutional investors play a greater role in improving corporate risk-taking 
+levels by reducing information asymmetry.
+
+6.4.2. Enterprise life cycle
+According to the research of this paper and the theoretical analysis of previous literature, the financing constraint of enterprises is 
+
+one of the main factors that restrict enterprises from taking risks. The theory of enterprise life cycle shows that enterprises in different 
+life cycles have different characteristics in governance, operation, finance, etc. Therefore, there are differences in the financing needs 
+and financing constraints faced by enterprises in different life cycles. Based on this, this paper believes that the impact of information 
+sharing by institutional investors on the level of corporate risk-taking may vary depending on the different life cycles of enterprises. To 
+test the above logic, this paper, based on Dickinson’s approach (2011), uses a combination of operating cash flow, investment cash 
+flow and financing cash flow to divide the life cycle of an enterprise into growth, maturity and decline stages, and further refers to the 
+maturity and decline stages as the non-growth stage.
+
+The regression results are shown in Table 17. Columns (1) and (2) show that when an enterprise is in the growth stage, the co
+efficients of network density and network centrality are significantly positive at the 1 % level. Columns (3) and (4) show that for 
+enterprises in the non-growth stage, the coefficients of network density and network centrality are not significant. The above results 
+show that the role of information sharing by institutional investors in improving the risk-taking level of enterprises is greater in the 
+growth stage of enterprises, but smaller in the non-growth stage. This may be because non-growth-stage enterprises have stable profits 
+and continuous cash flow, and stable internal financing can generally support their investment needs, so the financing constraints they 
+face will not have a significant impact on the investment activities of enterprises. Growth-stage enterprises are developing rapidly and 
+have greater financing needs, but at this time, the investment risks of enterprises are also higher, and the financing constraints they 
+
+18 
+
+
+
+X.-L. Gong et al.                                                                                                                                   R e s e a r c h   i n  I n t e r n a t i o n a l   B u s i n e s s   a n d  F  i n  a  n c  e  79 (2025) 103099 
+
+Table 17 
+Grouped regression results of enterprise life cycle.
+
+Growth stage Growth stage Non-growth stage Non-growth stage
+(1) (2) (3) (4)
+
+Density 0.0058*** ​ 0.0018 ​
+​ (2.91) ​ (0.71) ​
+Center ​ 0.0079*** ​ 0.0033
+​ ​ (3.52) ​ (1.06)
+Size − 0.0010 − 0.0010 0.0001 0.0002
+​ (− 1.60) (− 1.56) (0.14) (0.21)
+Lev − 0.0036 − 0.0039 0.0069* 0.0070*
+​ (− 1.22) (− 1.32) (1.85) (1.89)
+Top1 − 0.0001** − 0.0001** − 0.0002*** − 0.0002***
+
+​ (− 2.09) (− 2.02) (− 4.75) (− 4.76)
+Salary 0.0012 0.0012 0.0008 0.0008
+​ (1.51) (1.53) (0.75) (0.80)
+TobinQ 0.0014*** 0.0014*** 0.0018*** 0.0018***
+
+​ (4.82) (4.90) (4.30) (4.37)
+ROA 0.0354*** 0.0362*** − 0.0154 − 0.0162
+​ (2.65) (2.72) (− 0.84) (− 0.88)
+Age 0.0025 0.0024 0.0024 0.0022
+​ (1.51) (1.45) (1.14) (1.04)
+Growth 0.0064*** 0.0064*** − 0.0003 − 0.0003
+​ (7.63) (7.66) (− 0.26) (− 0.28)
+PPE − 0.0061 − 0.0067* − 0.0083* − 0.0068
+​ (− 1.56) (− 1.75) (− 1.70) (− 1.40)
+Cap − 0.0009** − 0.0009** − 0.0022*** − 0.0022***
+
+​ (− 2.06) (− 2.05) (− 3.95) (− 3.96)
+Eps 0.0012** 0.0013** − 0.0059*** − 0.0058***
+
+​ (2.45) (2.51) (− 6.92) (− 6.79)
+Dual 0.0014 0.0015* − 0.0001 − 0.0000
+​ (1.51) (1.66) (− 0.08) (− 0.01)
+Constant 0.0439*** 0.0484*** 0.0567*** 0.0563***
+
+​ (3.06) (3.46) (2.92) (2.95)
+Ind Yes Yes Yes Yes
+Year Yes Yes Yes Yes
+N 4924 4962 3504 3551
+R2 0.0585 0.0587 0.0832 0.0815
+
+face are greater. Therefore, information sharing by institutional investors can play a greater marginal effect to ease the financing 
+constraints of enterprises, thereby improving the risk-taking level of enterprises.
+
+7. Conclusion
+
+Based on the social network theory, this paper constructs an institutional investor network by connecting institutional investors 
+with heavy holdings of shares of the same listed company, and studies the impact of information sharing among institutional investors 
+within the network on corporate risk-taking levels. The study found that information sharing among institutional investors can 
+improve corporate risk-taking levels. The higher the efficiency of information sharing, the higher the risk-taking level of listed 
+companies. In particular, this paper finds that institutional investor information sharing affects corporate risk-taking levels by reducing 
+the degree of information asymmetry and reducing analyst herding behavior. In order to verify the robustness of the conclusion, we 
+successively changed the calculation method of corporate risk-taking level, the measurement method of information sharing effi
+ciency, the sample selection time range, and used the first-order lag test and instrumental variable method to control endogeneity. In 
+addition, based on the internal and external perspectives of the enterprise, the difference in the network governance role of institu
+tional investors under different circumstances was examined. The analysis found that in samples with high degree of financialization, 
+high financing constraints, no political connections, high agency costs, good information disclosure quality, good legal environment, 
+and relatively developed regional economies, The analysis found that in samples with a high degree of financialization, high financing 
+constraints, no political connections, high agency costs, good internal control quality, good legal environment, and growth stage 
+company, institutional investor information sharing can more significantly improve the enterprises risk-taking level.
+
+Based on the above research conclusions and combined with the governance situation of listed companies in China, this paper puts 
+forward the following suggestions: (1) Listed companies should actively introduce institutional investors, increase the shareholding 
+ratio of institutional investors, so as to form a multi-dimensional institutional investor network and improve corporate risk-taking 
+level. (2) Institutional investors should make full use of resources in the network to enhance their voice in participating in corpo
+rate governance. So institutional investors need to strengthen their connections with other institutional investors or market partici
+pants, and make up for the disadvantages caused by information asymmetry, as well as improving the ability to participate in the 
+governance of listed companies. (3) Policymakers should further introduce relevant policies and measures to continuously improve the 
+market environment, and provide a better market environment and institutional guarantee for the long-term development of 
+
+19 
+
+
+
+X.-L. Gong et al.                                                                                                                                   R e s e a r c h   i n  I n t e r n a t i o n a l   B u s i n e s s   a n d  F  i n  a  n c  e  79 (2025) 103099 
+
+institutional investors. At the same time, accelerating market-oriented reform will help improve the risk-taking level of enterprises, 
+thereby promoting the economic development of the entire society.
+
+Author contributions
+
+All authors have read and approved the final manuscript.
+
+CRediT authorship contribution statement
+
+Xiong Xiong: Formal analysis, Conceptualization, Funding acquisition, Data curation. Ya-Li Dong: Writing – original draft. Xiao- 
+Li Gong: Writing – review & editing.
+
+Declaration of Competing interest
+
+The authors declare that we have no competing interests.
+
+Acknowledgments
+
+We would like to acknowledge the financial support from the National Natural Science Foundation of China (Nos. 72271135, 
+72141304, 71901130); National Social Science Fund of China (22&ZD117); Special Funds for Taishan Scholars (tsqn202211120); 
+Laboratory of Computation and Analytics of Complex Management Systems (Tianjin University); 2024 Qingdao Social Science 
+Planning Project. Qingdao University Interdisciplinary Joint Research Project (XT2024302).
+
+Data availability
+
+Data will be made available on request.
+
+References
+
+Acharya, V.V., Amihud, Y., Litov, L., 2011. Creditor rights and corporate risk-taking. J. Financ. Econ. 102 (1), 150–166.
+Aggarwal, R., Erel, I., Ferreira, M., et al., 2011. Does governance travel around the world? Evidence from institutional investors. J. Financ. Econ. 100 (1), 154–181.
+Almeida, H., Campello, M., 2007. Financial constraints, asset tangibility and corporate investment. Rev. Financ. Stud. 20, 1429–1460.
+Ang, J.S., Cole, R.A., Lin, J.W., 2000. Agency costs and ownership structure. J. Financ 55 (1), 81–106.
+Ascioglu, A., Hegde, S.P., Mcdermott, J.B., 2005. Auditor compensation, disclosure quality, and market liquidity: evidence from the stock market. J. Acc. Public Pol. 
+
+24 (4), 325–354.
+Bai, C., Lu, J., Tao, Z., 2006. Property rights protection and access to bank loans: evidence from private enterprises in China. Econ. Transit 14 (4), 611–628.
+Bajo, E., Chemmanur, J.T., Simonyan, K., et al., 2016. Underwriter networks, investor attention, and initial public offerings. J. Financ. Econ. 122 (2), 376–408.
+Bertrand, M., Mullainathan, S., 2003. Enjoying the quiet life corporate governance and managerial preferences. J. Polit. Econ. 111 (5), 1043–1075.
+Biddle, G.C., Hilary, G., Verdi, R.S., 2009. How does financial reporting quality relate to investment efficiency? J. Account. Econ. 48 (2), 112–131.
+Boone, A.L., White, J.T., 2015. The effect of institutional ownership on firm transparency and information production. J. Financ Econ. 117 (3), 508–533.
+Boubakri, N., Mansi, S.A., Saffar, W., 2013. Political institutions, connectedness and corporate risk-taking. J. Int. Bus. Stud. 44, 195–215.
+Cheng, C.S.A., Huang, H.H., Li, Y., et al., 2010. Institutional monitoring through shareholder litigation. J. Financ Econ. 95 (3), 356–383.
+Chung, R., Firth, M., Kim, J.B., 2002. Institutional monitoring and opportunistic earnings management. J. Corp. Financ 8 (1), 29–48.
+Cici, G., Jaspersen, S., Kempf, A., 2017. Speed of information diffusion within fund families. Rev. Asset. Pricing St. 7 (1), 144–170.
+Crane, A.D., Koch, A., Michenaud, S., 2019. Institutional investor cliques and governance. J. Financ. Econ. 133 (1), 175–197.
+Cucculelli, M., Ermini, B., 2012. New product introduction and product tenure: what effects on firm growth. Res. Policy 41 (5), 808–821.
+Cvijanović, D., Dasgupta, A., Zachariadis, K.E., 2022. The wall street stampede: exit as governance with interacting blockholders. J. Financ. Econ. 144 (2), 433–455.
+Dahl, M., Pedersen, C., 2005. Social networks in the R&D process: the case of the wireless communication industry around aalborg, Denmark. J. Eng. Technol. Manag. 
+
+22, 75–92.
+Demir, F., 2009. Financial liberalization, private investment and portfolio choice: financialization of real sectors in emerging markets. J. Dev. Econ. 88 (2), 314–324.
+Dickinson, V., 2011. Cash flow patterns as a proxy for firm life cycle. Acc. Rev. 86 (6), 1969–1994.
+Do, T., Zhang, H., Zuo, L., 2022. Rocking the boat: how relative performance evaluation affects corporate risk taking. J. Account. Econ. 73 (1), 101425.
+El-Khatib, R., Fogel, K., Jandik, T., 2015. CEO network centrality and merger performance. J. Financ. Econ. 116 (2), 349–382.
+Faccio, M., Marchica, M., Mura, R., 2016. CEO gender, corporate risk-taking, and the efficiency of capital allocation. J. Corp. Financ. 39, 193–209.
+Fan, Y.Y., Boateng, A., Ly, K.C., et al., 2021. Are bonds blind? Board-ceo social networks and firm risk. J. Corp. Financ. 68, 101922.
+Ferris, S.P., Javakhadze, D., Rajkovic, T., 2019. An international analysis of CEO social capital and corporate risk-taking. Eur. Financ. Manag 25 (1), 3–37.
+Fu, C., Luo, D., Zhang, J., et al., 2025. Tax incentives, marketization level, and corporate digital transformation. Int Rev. Econ. Financ 97, 103777.
+Galariotis, E.C., Rong, W., Spyrou, S.I., 2015. Herding on fundamental information: a comparative study. J. Bank. Financ 50, 589–598.
+Gleason, C.A., Lee, C.M.C., 2003. Analyst forecast revisions and market price discovery. Acc. Rev. 78 (1), 193–225.
+Gong, X.L., Liu, J., 2023. Institutional investor information network, analyst forecasting and stock price crash risk. Res. Int. Bus. Financ. 65, 101942.
+Gopalan, R., Gormley, T.A., Kalda, A., 2021. It’s not so bad: director bankruptcy experience and corporate risk-taking. J. Financ. Econ. 142 (1), 261–292.
+He, J., Huang, J.K., Zhao, S., 2019. Internalizing governance externalities: the role of institutional cross-ownership. J. Financ. Econ. 134 (2), 400–418.
+Hong, H., Kubik, J.D., Stein, J.C., 2005. Thy neighbor’s portfolio: word-of-mouth effects in the holdings and trades of money managers. J. Financ. 60 (6), 2801–2824.
+Jiang, X., Yuan, Q., 2018. Institutional investors’ corporate site visits and corporate innovation. J. Corp. Financ. 48, 148–168.
+John, K., Litov, L., Yeung, B., 2008. Corporate governance and risk-taking. J. Financ. 63 (4), 1679–1728.
+Koirala, S., Marshall, A., Neupane, S., et al., 2020. Corporate governance reform and risk-taking: evidence from a quasi-natural experiment in an emerging market. 
+
+J. Corp. Financ. 61, 101396.
+Krishnamurti, C., Chowdhury, H., Han, H.D., 2021. CEO centrality and stock price crash risk. J. Behav. Exp. Financ. 31, 100551.
+Li, J., Zhou, Z.Q., Zhang, Y., et al., 2023. Information interaction among institutional investors and stock price crash risk based on multiplex networks. Int. Rev. 
+
+Financ. Anal. 89, 102780.
+
+20 
+
+
+
+X.-L. Gong et al.                                                                                                                                   R e s e a r c h   i n  I n t e r n a t i o n a l   B u s i n e s s   a n d  F  i n  a  n c  e  79 (2025) 103099 
+
+Lin, C., Officer, M.S., Schmid, T., et al., 2019. Is skin in the game a game changer? Evidence from mandatory changes of D&O insurance policies. J. Account. Econ. 68 
+(1), 101225.
+
+Liu, W., Chen, A., 2024. Institutional ownership and analysts’ earnings forecasts. Financ. Res. Lett. 61, 104987.
+Matvos, G., Ostrovsky, M., 2010. Heterogeneity and peer effects in mutual fund proxy voting. J. Financ. Econ. 98 (1), 90–112.
+Nagel, S., 2005. Short sales, institutional investors and the cross-section of stock returns. J. Financ. Econ. 78 (2), 277–309.
+Orhangazi, Ö., 2008. Financialisation and capital accumulation in the non-financial corporate sector: a theoretical and empirical investigation on the US economy: 
+
+1973-2003. Camb. J. Econ. 32 (6), 863–886.
+Otchere, I., Senbet, L.W., Zhu, P., 2020. Does political connection distort competition and encourage corporate risk taking? International evidence. J. Empir. Financ 
+
+55, 21–42.
+Pareek, A., 2011. Information networks: implications for mutual fund trading behavior and stock returns, Working Paper.
+Pool, V.K., Stoffman, N., Yonker, S.E., 2015. The people in your neighborhood: social interactions and mutual fund portfolios. J. Financ. 70 (6), 679–2731.
+Pukthuanthong, K., Turtle, H., Walker, T., et al., 2017. Litigation risk and institutional monitoring. J. Corp. Financ 45, 342–359.
+Raithatha, M., Popli, M., 2022. Persistence of past: impact of historical institutions on corporate risk taking. Financ. Res. Lett. 45, 102195.
+Shleifer, A., Vishny, R.W., 1986. Large shareholders and corporate control. J. Polit. Econ. 94 (3), 461–488.
+Travis, D., 2021. The demand for public information by local and nonlocal investors: evidence from investor-level data. J. Account. Econ. 72 (1), 101417.
+Welch, I., 2003. Herding among security analysts. J. Financ. Econ. 58 (3), 369–396.
+Whited, M.T., Wu, G., 2006. Financial constraints risk. Rev. Financ Stud. 19 (2), 531–559.
+
+21

@@ -1,0 +1,2534 @@
+﻿THE JOURNAL OF FINANCE • VOL. LXIII, NO. 5 • OCTOBER 2008
+
+Buyer–Supplier Relationships and the
+Stakeholder Theory of Capital Structure
+
+SHANTANU BANERJEE, SUDIPTO DASGUPTA, and YUNGSAN KIM∗
+
+ABSTRACT
+Firms in bilateral relationships are likely to produce or procure unique products—
+especially when they are in durable goods industries. Consistent with the arguments
+of Titman and Titman and Wessels, such firms are likely to maintain lower leverage.
+We compile a database of firms’ principal customers (those that account for at least
+10% of sales or are otherwise considered important for business) from the Business
+Information File of Compustat and find results consistent with the predictions of this
+theory.
+
+OVER THE PAST TWO DECADES, a literature has evolved to address how a firm’s
+relationship with its stakeholders affects overall corporate strategy, including
+its capital structure choice. An important aspect of that relationship is the
+interaction between a firm and its customers and suppliers. Titman (1984) and
+Titman and Wessels (1988) argue that a firm’s customers face switching costs
+in the event the firm is liquidated, and that these costs are especially high when
+the firm’s products are unique because they induce specific investments by the
+customers (see also Grinblatt and Titman (2002)). These costs affect the firm’s
+optimal capital structure. Maksimovic and Titman (1991) further argue that
+a firm’s incentive to maintain product quality is less if it faces the prospect of
+liquidation, and that this may cause the firm to lose customers concerned about
+product quality.
+
+To date, however, little empirical evidence exists on how buyer–supplier re-
+lationships shape the financial policy of corporations. The most well-known ev-
+idence comes from Titman and Wessels (1988), who find that firms in durable
+goods industries (which supposedly produce more unique products and there-
+fore impose higher liquidation costs on customers) have lower leverage. Yet,
+many factors may explain why firms in durable goods industries have lower
+leverage. In this paper, our objective is to exploit additional sources of variation
+
+∗Banerjee is at the Accounting and Finance Department, Lancaster University. Dasgupta is
+at the Department of Finance, Hong Kong University of Science and Technology. Kim is at the
+Department of Economics and Finance, Hanyang University. We thank an anonymous referee
+for comments that greatly improved the paper. We also thank Vidhan Goyal, Michael Lemmon,
+and Sheridan Titman and seminar participants at HKUST, University of Lancaster, and Uni-
+versity of Sydney for helpful comments. Dasgupta acknowledges financial support from Hong
+Kong’s Research Grants Council under grant number HKUST6232/03H. All errors are the authors’
+responsibility only.
+
+2507
+
+
+
+2508 The Journal of Finance
+
+within these industries to provide stronger evidence that uniqueness and in-
+vestment specificity matter for capital structure decisions.1
+
+Titman’s (1984) model is in the context of a firm selling to a large number of
+customers. When a firm sells to a few big customers, however, the relationship
+is often bilateral. The firm depends on the big customers for a large proportion
+of its sales, which makes the firm’s assets specific to the big customers. Joskow
+(1988) identifies this kind of asset-specificity as “dedicated assets,” referring to
+investments by the seller made with the expectation of a considerable amount
+of trade with particular buyers. Further, with the amount of trade so big, the
+product is likely to be customized, leading to physical asset specificity.
+
+Such bilateral buyer–supplier relationships are of particular interest for
+studying the effect of specific investments on capital structure. If a supplier
+firm is dependent on a customer in the sense that the customer accounts for a
+major part of its sales, then the customer’s liquidation (and hence debt ratio)
+is a relevant consideration for the supplier. Thus, unlike in Titman’s (1984)
+model, the supplier may be more concerned about the difficulty of redeploying
+its own specific assets should the customer fail than about its own leverage
+affecting the customer’s decision to make relation-specific investments.2 Given
+such difficulty, the supplier may prefer to remain less levered to reduce the
+cost of financial distress and may also prefer the principal customer to be less
+levered.
+
+In this paper we build on Titman and Wessels (1988) by exploiting firm-level
+proxies for the importance of bilateral relationships. Prior to 1998, U.S. firms
+were required to disclose the names of their principal customers, defined as
+those that account for at least 10% of sales or are otherwise considered im-
+portant for business. We obtain information on the principal customers of U.S.
+firms from the Business Information File of Compustat 98. Then, by inverting
+this database, we create another database that contains information, for each
+Compustat-listed firm, on the amounts purchased from Compustat-listed man-
+ufacturing suppliers that identify the firm as a principal customer in a given
+year.3
+
+1 Kale and Shahrur (2004) use input–output accounts for the U.S. economy to identify supplier
+and customer firm industries for firms in their sample. They find that firms with higher R&D
+intensity in supplier industries have lower debt ratios. They also find that customer firms in higher
+R&D industries have lower debt ratios. These results are also consistent with specific investment
+being important for capital structure. See also Kale and Shahrur (2007).
+
+2 If the customer accounts for a major part of the supplier’s sales, then the customer determines
+whether the supplier is in financial distress. In other words, the customer will only withdraw if
+the cost of losing its specific investment in a supplier exceeds the benefit of switching.
+
+3 Several other studies use the information on principal customers from Compustat: Kalwani
+and Narayandas (1995), Kim (1996), Dasgupta and Kim (1997), Fee and Thomas (2004), Banerjee,
+Dasgupta, and Kim (2004), and Fee, Hadlock, and Thomas (2006). Kim (1996) and Kalwani and
+Narayandas (1995) look at the effect of principal customer relationships on the seller’s profit mar-
+gin. Dasgupta and Kim (1997) examine how principal customer relationships affect bilateral bar-
+gaining between the supplier and the customer and the supplier’s capital structure, while Banerjee,
+Dasgupta, and Kim (2004) examine the effect of principal customer relationships on the provision
+of trade credit. Fee and Thomas (2004) examine whether sources of gain in horizontal mergers
+depend on downstream anti-competitive collusion or increase in upstream buying power. Fee et al.
+(2006) examine whether principal customers own equity stakes in the supplier.
+
+
+
+Buyer–Supplier Relationships and the Stakeholder Theory 2509
+
+Based on these two databases, we investigate how the supplier–customer
+relationship affects the financing choices of the customers and the suppliers.
+First we examine whether customer firms maintain lower leverage when they
+have a more extensive network of dependent suppliers (i.e., suppliers for whom
+purchases by the customer firm constitute a significant proportion of sales).
+For such firms, the suppliers are important stakeholders, for they make spe-
+cific investments in the relationship, which also benefit the customer firms.
+However, since the suppliers are undiversified and are dependent on the cus-
+tomers’ purchases, their incentive to make specific investments is affected by
+the customer’s financial condition. To encourage its suppliers to make specific
+investments, therefore, the customer should maintain lower leverage.
+
+We find that in manufacturing industries producing durable products (hence-
+forth “durable goods industries” or the “durable sector”), customer firms that
+purchase a higher proportion of their inputs from “dependent suppliers” main-
+tain lower leverage ratios. However, the results are much weaker for customer
+firms in manufacturing industries that produce nondurable products (hence-
+forth “nondurable goods industries” or the “nondurable sector”), and are to-
+tally nonexistent for nonmanufacturing customer firms.4 Moreover, even for
+customers in the durable sector, the results are driven by the proportion of pur-
+chases coming from suppliers that are also in durable sectors. These results sup-
+port our hypothesis that customers in durable sectors maintain conservative
+capital structures to encourage their suppliers to commit more relationship-
+specific investments.
+
+We also investigate how the customer–supplier relationship affects the de-
+pendent suppliers’ capital structure choice. As mentioned above, the dependent
+suppliers may themselves maintain low leverage to protect themselves against
+the devastating effect of losing principal customers. We find such a negative
+relationship, but, here too, this result is only present for suppliers in durable
+goods industries. Moreover, we find that the presence of the “government” as
+a large customer does not affect supplier firms’ debt levels even in the durable
+sectors.5 One notable result is that there is a very high proportion of zero lever-
+age firms among those with principal customers. The question of why firms
+have zero leverage has received attention recently. Our findings suggest one
+possible reason, namely, the customer profile of these firms. We also show di-
+rect evidence that the termination of sales to principal customers adversely
+affects the suppliers in various respects.
+
+The rest of the paper is organized as follows. Section II presents a brief
+overview of the stakeholder theory of capital structure and develops our hy-
+potheses about buyer–supplier relationships and capital structure. Section III
+
+4 We follow Titman and Wessels (1988) in classifying industries with primary SIC codes of 3,400
+and above but less than 4,000 as those producing durable products, and those with primary SIC
+codes of 2,000 and above but less than 3,400 as producing nondurable products.
+
+5 There are several possible explanations for this result. For example, the government buyers are
+least likely to go bankrupt, they may not be driven by the profit motive, and can sometimes place
+orders to distressed firms to help them stay afloat, thereby saving the distressed firms’ employees
+from losing jobs. Thus, the risk of a supplier firm entering financial distress from losing sales to
+the government buyers may be perceived to be low.
+
+
+
+2510 The Journal of Finance
+
+describes the data source and sample. Section IV defines the variables and ex-
+plains the methodology for our empirical tests. Section V presents the results
+of our empirical analysis, and Section VI concludes.
+
+I. Principal Customers and Capital Structure
+A. Hypothesis Development
+
+It has been argued that the possibility of liquidation can impose costs on a
+firm’s nonfinancial stakeholders such as employees, customers, and suppliers
+(Titman (1984), Grinblatt and Titman (2002)). For example, employees may
+not only lose their jobs, but also find it difficult to identify a new employer if
+the liquidated firm had been producing unique products. Since liquidation is
+more likely if a company has higher leverage, employees would be reluctant to
+work for such companies and would demand higher wages, particularly if the
+firm produces unique or specialized products. Customers purchasing durable
+and sophisticated goods often require after-sales services and/or spare parts,
+and so would prefer to buy a durable or unique product from a company that is
+financially healthy. A highly levered company may face lower demand or may
+have to offer price discounts to attract customers.6
+
+Titman and Wessels (1988) test the empirical implications of the above ar-
+guments. They show that firms manufacturing machines and equipment (pri-
+mary SIC codes from 3,400 to 3,990) are financed more conservatively. Using
+research and development expenses, selling expenses, and quit rates as indi-
+cators for product uniqueness, they find that firms producing unique products
+indeed maintain lower debt ratios. Opler and Titman (1994) find that highly
+levered firms in declining industries suffer sales declines relative to less levered
+firms, and that the impact of high leverage on sales loss is more pronounced
+for firms with a higher ratio of R&D to sales, that is, firms producing unique
+products.7
+
+In this paper, we exploit information about a firm’s principal customers to
+test several implications of the stakeholder theory of capital structure. The key
+aspect of a principal customer relationship is that the relationship is bilateral.
+In bilateral relationships, the product being produced is likely to be unique,
+especially in durable goods industries, and hence requires specific investment
+(recall that Titman and Wessels (1988) argue that firms in durable goods in-
+dustries produce unique products). In contrast, if a firm sells to a large number
+of customers, the product is likely to be standardized.
+
+There is a huge literature on the subject of how relation-specific investments
+and hold-up problems affect the organizational form of transactions, such as
+
+6 See the HBS case Massey Ferguson Ltd. (1980), in Case Problems in Finance, 10th ed. (Home-
+wood, Ill.: Irwin, 1992), pp. 175–194, for an example of customer-driven financial distress costs.
+
+7 Maksimovic and Titman (1991) show that customers might be unwilling to do business with
+a highly levered firm, even if they do not incur substantial costs in the event that the firm goes
+bankrupt. This is because firms with high levels of long-term debt may reduce standards of quality
+control to mitigate short-term cash flow problems.
+
+
+
+Buyer–Supplier Relationships and the Stakeholder Theory 2511
+
+make-or-buy decisions. Here, our focus is on how relation-specific investments
+affect capital structure decisions. The fact that the principal customer decided
+to “buy” a particular product from the supplier implies that the hold-up prob-
+lem is not serious enough to prevent outsourcing of that product. Moreover, the
+supplier can benefit from concentrating its sales on a few principal customers in
+terms of lower inventory and administrative costs, some of which are passed on
+to the principal customers in the form of a lower price for the product (Kalwani
+and Narayandas (1995)). However, the transacting parties are still likely to be
+concerned about the other party’s financial health, since their relation-specific
+investments would become worthless if their transaction partner defaulted on
+debt payments and ended up being liquidated. Such concern is especially serious
+for suppliers that depend on the principal customers for a significant portion
+of their business and are in the durable goods manufacturing sector. Thus, cus-
+tomer firms in durable goods industries must be financially stable in order to
+persuade their suppliers to undertake relation-specific investments, especially
+if their purchases account for a significant part of their suppliers’ sales. There-
+fore, we expect that a firm that buys a higher proportion of its inputs from
+dependent suppliers (i.e., suppliers for whom the firm is a major customer)
+would maintain lower debt, particularly in the durable manufacturing sector,
+where specific investments are more important. These considerations lead to
+our first testable hypothesis:
+
+Hypothesis 1: (i) A customer firm’s debt ratio will be decreasing in the impor-
+tance of its purchases from dependent suppliers. (ii) This ef-
+fect will be stronger for customers in durable goods industries
+producing unique products, and for customers with depen-
+dent suppliers in durable goods industries producing unique
+products.
+
+The principal customer relationship can also affect the capital structure
+choice of the supplier firms. Since a firm selling a major part of its sales to
+a few customers is less diversified, it is likely that the potential loss of business
+from a principal customer may destabilize the firm. As a consequence, the sup-
+plier firms may prefer to maintain lower leverage themselves. Supplier firms
+in durable sectors may be especially sensitive to this possibility, since the in-
+vestments they make are likely to be specialized, so that it is difficult to switch
+production easily. This leads to our second testable hypothesis:
+
+Hypothesis 2: (i) A supplier firm’s debt ratio will be decreasing in the impor-
+tance of its sales to principal customers. (ii) This effect will be
+stronger for suppliers in durable goods industries producing
+unique products.
+
+Many supplier firms identify the government as a principal customer. The
+government is likely to represent a more stable source of demand than other
+types of principal customers, thanks to its high creditworthiness and concern for
+public interest. This is especially true if the loss of demand from the government
+is likely to plunge the firm into financial distress, with potentially harmful
+
+
+
+2512 The Journal of Finance
+
+consequences for the firm’s stakeholders, including its employees. Thus, one
+should expect a weaker or no effect on leverage when the principal customer is
+an agent of the government.8 Therefore, we have the following.
+
+Hypothesis 3: Suppliers’ debt ratios should be less affected by the importance
+of sales to government buyers than sales to nongovernment
+principal customers.
+
+B. Further Discussion
+Hypothesis 2 is motivated by the idea that principal customer relationships
+
+are inherently risky, and likely to break down after several years. Especially
+for supplier firms producing unique products, such breakdowns are costly, since
+these suppliers are producing to a customer’s specification, not the market. To
+mitigate these costs, they should have less debt. It should be pointed out, how-
+ever, that there could be other reasons why dependent suppliers might maintain
+less debt. For example, it could be the case that principal customers prefer the
+suppliers to have less debt because the latter are then more likely to remain
+solvent and deliver the product. It could also be the case that suppliers main-
+tain less debt (more financial flexibility) to avoid expropriation by principal
+customers.9
+
+When a firm’s stakeholders are concentrated or can act collectively and con-
+tracts are incomplete, ex post bargaining and opportunism can arise after the
+firm and the stakeholders have made specific investments in the relationship.
+Capital structure can be used to affect the outcome of such bargaining. This
+issue has been explored in the context of worker-firm bargaining by Bronars
+and Deere (1991), Dasgupta and Sengupta (1993), and Perotti and Spier (1993),
+who show that leverage can mitigate the wage demands of workers. It might be
+supposed that higher leverage might provide some bargaining advantage to the
+customer firm against the suppliers and vice versa. However, it seems highly
+unlikely that this factor would motivate the capital structure decisions of either
+the customer firms or the suppliers. If the customer firm’s purchases constitute
+a significant fraction of the sales of a supplier firm, then the customer firm will
+
+8 Another difference between government and nongovernment customers is that while non-
+government large customers (which are almost always other companies) usually use the goods
+as inputs in their own production process or for reselling, the government generally purchases
+for consumption. Thus, reputational or monetary losses from poor quality products procured from
+the suppliers may be less important when the government is a principal customer. Therefore, if
+leverage adversely affects supplier incentives to maintain quality, government customers are less
+likely to be concerned about the suppliers’ leverage. Moreover, rigorous administrative control over
+procurement contracts makes the decision-making process of government agents mainly depen-
+dent on price and the stated quality features of the products rather than the financial status of the
+suppliers.
+
+9 Hennessy (2007) argues that while high leverage increases a firm’s bargaining share in the
+relational supply chain, it also reduces the incentives for the suppliers to deliver high quality
+that is nonverifiable. He predicts that a firm dealing with competitive suppliers will maintain low
+leverage. Our results are consistent with this prediction.
+
+
+
+Buyer–Supplier Relationships and the Stakeholder Theory 2513
+
+have considerable bargaining power anyway by virtue of the sheer importance
+of its order for the supplier. Thus, the bargaining advantage would appear to be
+a less important factor compared to the effect of the customer firm’s leverage on
+the specific investments of the supplier firm. Moreover, a supplier firm is not
+likely to maintain high leverage to extract bargaining concessions from princi-
+pal customers as such high leverage would make it vulnerable to both financial
+and operational risk. Unlike a firm bargaining with a union, a supplier firm
+does face the risk that the customer might terminate the relationship volun-
+tarily or involuntarily, and brinkmanship may cause the principal customer to
+seek alternative sources of supply.
+
+There is also a possibility that the principal customer–supplier relationship
+is accompanied by cross-shareholdings between the two, implying that the re-
+lationship is not entirely at arm’s length. However, according to a recent study
+(Fee et al. (2006)), a principal customer has a block holding of equity in its
+supplier in only about 3.31% of the cases. A principal customer may also assist
+dependent suppliers financially. Banerjee, Dasgupta, and Kim (2004) present
+evidence that principal customers settle their accounts payable with supplier
+firms more promptly (i.e., use less trade credit) when the supplier is in finan-
+cial trouble. This is consistent with the hypothesis that the principal customers
+value their specific investments in the relationship, and the recent examples
+of Delphi and Visteon10 suggest that, for this reason, principal customers are
+sometimes prepared to bail their major suppliers out. However, principal cus-
+tomer relations do not last forever: Many relationships in our data are termi-
+nated after several years. While we do not investigate in detail the reasons for
+such terminations, it is clear that the supplier’s financial well-being and even
+survival is closely linked to the demand from and the financial condition of the
+principal customer.11
+
+II. Data and Preliminary Analysis
+A. Data
+
+Our sample consists of all U.S. manufacturing firms (primary SIC code within
+2,000 and 3,990) included in Compustat in the period 1979 to 1997. Segment
+customer data are obtained from the Business Information File of Compustat
+
+10 Visteon—a parts supplier to Ford—was spun-off from Ford in 2000. Plagued with declining
+demand from the big three car manufacturers, it has been bailed out twice by Ford.
+
+11 There is a fairly substantial literature on how capital structure interacts with the competitive
+environment in the firm’s product market. Perhaps the most robust empirical evidence (Chevalier
+(1995)) is that a less-levered firm can benefit from more leverage if it has several other competitors
+who have debt. However, the presence of a dominant less-levered rival may make it susceptible to
+predation. These results are consistent with multiperiod models in which consumers have switching
+costs and firms have an incentive to set low prices today to lock in customers (Chevalier and
+Scharfstein (1996), Dasgupta and Titman (1998)). Campello and Fluck (2007) find that highly
+levered firms lost market share during the 1990 to 1991 recession in industries with high switching
+costs, especially if these industries were low-debt industries. These high switching cost industries
+largely overlap with the durable goods industries considered here.
+
+
+
+2514 The Journal of Finance
+
+98. The Statement of Financial Accounting Standards No. 14 (SFAS No. 14-
+“Financial Reporting for Segments of Business Enterprise”) of the Financial
+Accounting Standards Board (FASB) requires firms to disclose the names of and
+the sales to their principal customers, if the revenue generated from the sales
+to a particular customer exceeds 10% of total revenue of the firm, or if the firm
+considers the sales important to its business.12 Compustat keeps records of up to
+four nongovernment principal customers for each business segment (however,
+some of these reported principal customers contribute less than 10% of total
+sales). We restrict our sample period to 1997 because in June 1997, the FASB
+issued SFAS 131, revising SFAS No. 14, which affected disclosure requirements
+of some of the segment information, including the customer segment.13
+
+We classify the reported customers as a “public company,” as a “private com-
+pany,” as “government,” or as “unidentified.” The classification requires some
+amount of discretion since the reported principal customer names do not fol-
+low a set pattern. For example, while the “diesel engine and parts” segment
+of Cummins Engine reports FORD MOTOR as one of its principal customers
+in 1980 and 1981, it reports FORD MTR as its customer in the subsequent 2
+years. While both of these could be identified easily as Ford Motor Co. (gvkey =
+4,839), there are cases that are far more ambiguous. When a customer abbre-
+viation matches more than one company in the historical names file of the
+CRSP/Compustat merged data file and an Academic Universe search on Com-
+pany Financials, we first look into the business description of the matched
+firms in the merged database and eliminate the ones that do not seem to have
+anything to do with the product of the segment concerned.14 We then do the
+same for the unlisted firms identified in an Academic Universe search. After
+this exercise, if we are left with one listed company or one private company
+that seems to be the only possible match, then we classify the customer accord-
+ingly. However, if we are left with more than one public company or at least
+one public and one private company, we classify the customer as “unidentified.”
+The “unidentified” category also includes customers reported as “2-Customers”
+or “Not reported,” and any customers that cannot be traced in an Academic
+Universe search. If more than one private and no public company meet the
+criteria, we classify the customer as “private.” Finally, if we cannot find a
+match in the Company Financial menu of Academic Universe, we conduct a
+news search around the time period to determine whether the customer was a
+wholly owned subsidiary of a listed company. If we find the possibility of any
+such linkage from any news item, we check the “Subsidiaries of the Registrant”
+section of the 10K filing of the possible parent company to confirm the link-
+age. If a linkage is confirmed, the parent company is identified as the principal
+
+12 SEC regulation S-K has similar requirements.
+13 As of 1998, firms are no longer required to report the identity of their principal customers,
+
+but they still need to report the sales to each of them. As a result of the change in regulation, some
+firms restated their segment information.
+
+14 We prefer visual examination of the possible matches rather than write a program that lists
+the possible matches from the name history files because the reporting firm often removes the
+vowels from the customer name in order to abbreviate, or uses popular brand/store names rather
+than the company name.
+
+
+
+Buyer–Supplier Relationships and the Stakeholder Theory 2515
+
+customer. Customers reported as “Domestic Government” or “U.S. Navy,” etc.,
+are classified as “government.” Some companies report foreign governments
+as their principal customers. However, these cases are very few, so we include
+both domestic and foreign government customers into a single group. The fi-
+nal sample includes 22,785 manufacturing firm-years reporting at least one
+large customer within the sample period 1979 to 1997, and a total of 35,391
+large customers, 37% of which are identified as firms included in Compustat,
+15% as government agents, and 11% as private customers.15 The number of all
+manufacturing firm-years in Compustat in the sample period is 68,988. Table
+AI shows the industry-wise distribution of sample firms. Inverting the princi-
+pal customer information, we can compile a database that contains, for each
+Compustat-listed firm, information on its Compustat-listed dependent suppli-
+ers, that is, other Compustat-listed firms for whom the firm is identified as a
+principal customer in a given year.
+
+Table I shows the mean and the median values of some firm characteristics
+for all manufacturing firms, manufacturing customer firms (i.e., firms reported
+as principal customers), and supplier firms (i.e., firms reporting principal cus-
+tomers). These samples are divided into durable sector (primary SIC from 3,400
+to 3,990) and nondurable sector (primary SIC from 2,000 to 3,390) firms. On
+average, the customer firms are much larger and older, while suppliers are
+smaller and younger, than the average manufacturing firm. The mean and the
+median profitability of the customer firms are somewhat higher than those for
+the whole sample, which in turn are higher than those for the supplier firms.
+Consistent with Titman and Wessels (1988), firms in all three groups have
+lower debt ratios in the durable sectors than in the nondurable sectors. Overall,
+Table I reveals differences across these three groups in many dimensions—with
+firm size being the most noticeable. To understand which firm characteristics
+differ systematically between supplier or customer firms and their peers, and
+could potentially affect the choice of capital structure, we carry out industry
+and size-matched comparisons, described in detail below.
+
+B. Comparison with Control Groups
+We first try controlling for the two most obvious differences: size and industry
+
+composition. That is, we compare the firm characteristics between dependent
+supplier (customer) firms and control firms of similar size in the same industry.
+We select the sample of dependent supplier (customer) firms and the control
+group in the following manner. First, for each two-digit SIC code, we identify all
+supplier (customer) firms and retain those that fall between the 5th and the 95th
+
+percentile values of firm size (deflated total assets). Next, we select all firms
+in each industry that are not dependent supplier (customer) firms but that fall
+in the size range of their peer supplier (customer) firms in the samples created
+
+15 Firms sometimes report principal customers that account for less than 10% of total sales
+because the supplier considers the sale important to its business. In calculating total sales to
+various categories of large customers, we need an objective cutoff point to maintain uniformity. We
+therefore drop those customers that account for less than 10% of net sales for the firm.
+
+
+
+2516 The Journal of Finance
+
+Table I
+Summary Statistics
+
+The mean (x̄) and the median (Me) values of firm characteristics for firm-years between 1979 and 1997 in the manufacturing sector in Compustat are
+reported in Panel A. Panels B and C report the same statistics for the sample of customer and supplier firms, respectively. The variables are described
+in Appendix B. All variables are censored at the 1st and 99th percentile values.
+
+(B) (C)
+(A) All Customer Firms in All Supplier Firms in the
+
+All Manufacturing Compustat in the Manufacturing Sector with
+Firms in Compustat Manufacturing Sector Principal Customers
+
+Durable Nondurable Durable Nondurable Durable Nondurable
+Sector Sector Sector Sector Sector Sector
+
+x̄ Me x̄ Me x̄ Me x̄ Me x̄ Me x̄ Me
+
+Total Assets 647 33 1,182 90 5,314 1,515 5,851 2,593 303 23 261 40
+Q 2.02 1.39 1.93 1.30 1.77 1.37 2.12 1.63 2.05 1.44 2.19 1.40
+FA/TA 0.23 0.21 0.34 0.32 0.26 0.24 0.36 0.36 0.22 0.20 0.30 0.29
+ROA −0.07 0.03 −0.05 0.04 0.04 0.05 0.05 0.07 −0.06 0.03 −0.08 0.03
+Margin −0.49 0.34 −1.86 0.28 0.35 0.33 0.14 0.38 0.20 0.33 −0.78 0.25
+AGE 10.87 7.00 12.97 8.00 21.40 20.00 25.97 31.00 11.12 8.00 11.37 7.00
+R&D 0.08 0.02 0.08 0.00 0.07 0.05 0.07 0.02 0.09 0.04 0.14 0.00
+SGA 0.29 0.24 0.22 0.15 0.25 0.24 0.29 0.24 0.32 0.25 0.23 0.16
+Dividend 0.37 0.00 0.52 1.00 0.60 1.00 0.82 1.00 0.22 0.00 0.30 0.00
+CV(Sales) 1.05 1.02 1.05 1.01 1.04 1.02 1.02 1.01 1.05 1.02 1.06 1.02
+S/A 1.92 1.31 2.01 1.37 1.40 1.20 1.33 1.13 1.29 1.23 1.34 1.28
+LDM 0.11 0.06 0.15 0.11 0.11 0.09 0.11 0.09 0.10 0.05 0.13 0.08
+LDB 0.15 0.10 0.20 0.16 0.14 0.12 0.17 0.14 0.15 0.08 0.19 0.14
+Number of Firms 3,202 4,114 416 292 2,430 1,445
+Number of Obsa 34,716 27,528 1,840 1,170 14,474 7,643
+
+aThe figures are the numbers of firm-years for which data on total assets are available. However, there are some missing values for most of the other
+variables.
+
+
+
+Buyer–Supplier Relationships and the Stakeholder Theory 2517
+
+in the first step. Note that the two samples differ in terms of the skewness of
+the distribution of firm size. In particular, supplier (customer) firms are biased
+towards smaller (larger) sizes. Consequently, we make some adjustments to
+match the sample and the control groups better.
+
+For example, there are 772 dependent supplier firms in the food and kindred
+products industry, and the 5th percentile, median, and 95th percentile values
+of supplier firm size are 1.84, 32.8, and 552 million dollars, respectively. For
+other firms in the same industry, the number of firms between sizes 1.84 and
+32.8 million is 512, and that between 32.8 and 552 million is 1,204. We ran-
+domly pick 347 firms16 from both these size ranges to create the control group
+for supplier firms in the food and kindred product industry. Finally, we pool
+together the samples from all industries in the manufacturing sector. Such a
+selection process makes the median firm size of the supplier (customer) sample
+and the control group roughly similar, and their number of observations exactly
+the same.
+
+In Table II, Panel A, we report mean and median values of firm characteristics
+of the supplier firms and the control group after pooling all the manufacturing
+industries into one group. We find that dependent supplier firms have signifi-
+cantly lower debt (both market (LDM) and book (LDB) leverage) than their size
+and industry-matched peers. Dependent suppliers are younger and have lower
+selling costs (SGA and Advert), have higher R&D and intangibles (Intang), and
+have higher profitability (ROA) and growth opportunities (Q) than their peers.
+The lower selling costs and the higher profitability of supplier firms are con-
+sistent with the findings of Kalwani and Narayandas (1995). The higher R&D,
+intangibles, and growth opportunities are consistent with the profile of firms
+producing unique products for their principal customers.
+
+In Table II Panel B, we report mean and median values of firm characteristics
+of the customer firms and the control group. We find that customer firms also
+have lower debt ratios than firms in the control sample. The customer firms are
+quite different from the other firms of similar size in many other respects as
+well. They have significantly higher profitability, growth opportunity, selling
+costs, R&D, and sales-to-assets (S/A) than firms of similar size in the same in-
+dustry. Sales-to-assets is an interesting variable in this particular study. Both
+S/A and large purchases from outside suppliers can be used as a proxy for the
+vertical integration of a firm.17 While it is not surprising that firms making
+large purchases of intermediate goods have higher S/A, it remains to be seen
+whether the stakeholder effect on capital structure persists even after control-
+ling for vertical integration through S/A.
+
+The comparisons between supplier/customer firms and their peers confirm
+that the dependent supplier firms and customer firms do have lower debt after
+controlling for the differences in firm size and industry composition. However,
+
+16 There are 347 supplier firm observations between the 5th percentile and median value of
+supplier firm size in this sample.
+
+17 A firm that employs a larger fraction of its assets for internal sales is more vertically integrated,
+and will have a lower S/A ratio than a firm that markets the same quantity to customers but
+procures the intermediate products from outside suppliers.
+
+
+
+2518 The Journal of Finance
+Table II
+
+Comparison of Firm Characteristics of Dependent Suppliers and Customers with their Respective
+Control Group Firms
+
+The mean (x̄) and the median (Me) values of firm characteristics for the sample of dependent supplier firms in the manufacturing sector and the
+corresponding control group are shown in Panel A and those for the sample of customer firms and its control group are shown in Panel B. The null
+hypotheses of no difference between mean firm characteristics of the samples and their respective control groups are tested and the t-values are
+shown. The control groups have the same number of observations and same industry composition as their respective supplier or customer sample.
+Their median firm sizes, measured by deflated total assets, are also very similar. Refer to Section II of the paper for a detailed explanation of how the
+two control samples are constructed. Variable definitions are in Appendix B. All variables are Winsorized at the 0.5 percentile on both tails. ∗∗∗ (∗∗, ∗)
+denotes significance at the 1% (5%, 10%) level.
+
+(A) (B)
+Comparison of Dependent Supplier Characteristics Comparison of Customer Firm Characteristics
+
+Supplier Customer
+Dependent Control Minus Big Control Minus
+Suppliers Group Control = 0 Customers Group Control = 0
+
+x̄ Me x̄ Me t-ratio x̄ Me x̄ Me t-ratio
+
+LDM 0.112 0.057 0.122 0.070 −9.14∗∗∗ 0.109 0.085 0.144 0.117 −16.67∗∗∗
+LDB 0.161 0.100 0.167 0.112 −4.05∗∗∗ 0.151 0.128 0.186 0.158 −13.60∗∗∗
+Age 10.54 7.000 11.40 8.000 −12.33∗∗∗ 24.26 28.00 19.84 18.00 15.47∗∗∗
+R&D 0.113 0.019 0.104 0.013 5.535∗∗∗ 0.062 0.038 0.053 0.018 4.252∗∗∗
+SGA 0.286 0.220 0.322 0.254 −20.42 0.241 0.221 0.214 0.183 9.150∗∗∗
+Advert 0.018 0.002 0.024 0.010 −14.26∗∗∗ 0.029 0.014 0.021 0.009 7.161∗∗∗
+ROA −0.05 0.031 −0.06 0.031 3.89∗∗∗ 0.055 0.063 0.034 0.047 11.37∗∗∗
+Q 2.111 1.430 2.062 1.338 3.14∗∗∗ 1.912 1.475 1.567 1.283 12.54∗∗∗
+FA/TA 0.251 0.218 0.251 0.228 −0.74 0.304 0.286 0.317 0.289 −4.549∗∗∗
+Intang 0.037 0.000 0.040 0.000 −5.48∗∗∗ 0.048 0.000 0.052 0.002 −2.438∗∗
+STDE 12.00 3.601 13.80 3.456 −8.46∗∗∗ 459.2 163.6 277.7 83.59 11.39∗∗∗
+CV(Sales) 1.057 1.022 1.058 1.019 −1.18 1.033 1.013 1.029 1.011 3.231∗∗∗
+Dividend 0.231 0.000 0.314 0.000 −26.88∗∗∗ 0.682 1.000 0.699 1.000 −1.837∗
+S/A 1.275 1.234 1.277 1.253 −0.43 1.233 1.171 1.137 1.087 10.49∗∗∗
+Sales 140.9 30.19 168.1 36.13 −10.27∗∗∗ 6,126 2,378 4,910 1,498 5.537∗∗∗
+Obs 18,830 2,554
+
+
+
+Buyer–Supplier Relationships and the Stakeholder Theory 2519
+
+they also show that the differences in most other variables persist after con-
+trolling for size and industry, indicating the need to further control for other
+firm-specific attributes, observed and unobserved. We address these issues in
+our regression specifications discussed below.
+
+C. Characteristics of Customer–Supplier Relationships
+Our proxies for the importance of purchases from dependent suppliers (Hy-
+
+pothesis 1) and sales to principal customers (Hypothesis 2) are as follows:
+
+Purchases/COGS—All identified suppliers: This is a measure of a customer
+firm’s reliance on dependant suppliers, that is, suppliers for whom the cus-
+tomer is identified as a principal customer. We define this variable to be the
+total purchases from all Compustat-listed manufacturing sector suppliers
+that record the current firm as (one of) their principal customer(s), as a
+proportion of Cost of Goods Sold of the customer firm.
+
+BIGALL: Proportion of a firm’s sales to all customers that it reports as prin-
+cipal customers.
+
+C.1. The Importance of Purchases from Dependent Suppliers
+By definition, sales to principal customers are important for the supplying
+
+firm. How important are the purchases from dependent suppliers for the prin-
+cipal customers? Table III, Panel A, presents summary information on the pro-
+portion of purchases from dependent suppliers to estimated total materials
+costs for four size groups of customer firms. The mean and median values of
+this variable decrease monotonically in the size of the customer firms, perhaps
+because larger firms are more vertically integrated. For the smallest size group,
+
+Table IIIA
+Proportion of Purchases from Dependent Suppliers in the Customer
+
+Firm’s Materials Cost
+Summary statistics for the amount of purchase by customer firms from their dependent suppliers as
+a proportion of the customer firms’ materials cost are reported. Materials cost of a firm is obtained
+by multiplying the firm’s Cost of Goods Sold with the relevant industry’s ratio of materials cost to
+Cost of Goods Sold. Industry data are available at the four-digit SIC level in the National Bureau of
+Economic Research site. The sample consists of customer firm-years between 1979 and 1997 only
+and the observations are partitioned into size quartiles.
+
+All Manufacturing Durable Goods Nondurable Goods
+Sector Customer Sector Customer Sector Customer
+
+Firms Firms Firms
+Size Groups of
+Customer Firms Mean Median Mean Median Mean Median
+
+0–25 percentile 13.0% 7.0% 14.1% 7.0% 10.7% 6%
+25–50 percentile 4.0% 1.7% 5.1% 2.1% 2.3% 1.4%
+50–75 percentile 2.2% 0.7% 2.9% 0.8% 1.3% 0.3%
+75–100 percentile 1.9% 0.7% 2.5% 1.0% 1.0% 0.4%
+
+
+
+2520 The Journal of Finance
+
+Table IIIB
+Proportion of Purchases from Dependent Suppliers during High
+
+and Low Sales Years
+Columns 1 and 2 report the mean and median purchases from dependent suppliers as a fraction
+of total sales when sales growth in that firm-year is in the highest quartile (high sales growth) or
+in the lowest quartile (low sales growth) for each firm. The sample consists of customer firm-years
+between 1979 and 1997.
+
+(A) (B)
+Durable Goods Nondurable Goods (C)
+Manufacturing Manufacturing Nonmanufacturing
+
+Customers Customers Customers
+
+(1) Low (2) High (1) Low (2) High (1) Low (2) High
+Sales Sales Sales Sales Sales Sales
+
+Growth Growth Growth Growth Growth Growth
+
+Mean 0.043 0.046 0.028 0.038 0.033 0.039
+Median 0.012 0.013 0.006 0.005 0.010 0.010
+Number of Firms 509 555 332 329 502 517
+
+Table IIIC
+Distribution of Purchases from Durable versus Nondurable
+
+Dependent Suppliers
+The first column reports the number of years in which a customer firm makes purchases from
+dependent suppliers in the manufacturing sector between 1979 and 1997. The following three
+columns show the number of cases in which such purchases were made only from durable goods
+suppliers, nondurable goods suppliers, and both types of dependent suppliers.
+
+Number of Obs. Number of Obs. Number of Obs.
+Number of Obs. with Purchases with Purchases with Purchases
+with Purchases from Durable from Nondurable from both Types of
+from Dependent Dependent Dependent Dependent
+
+Suppliers Suppliers Suppliers Suppliers
+
+Durable Sector 1,829 1,661 375 207
+Customers
+
+Nondurable Sector 1,144 367 892 115
+Customers
+
+Nonmanufacturing 1,803 1,262 776 235
+Customers
+
+however, the proportion is quite large: The mean and median values are 13%
+and 7%, respectively, for customers in the durable goods sector, and are com-
+parable for customers in the other sectors. Given the diminishing importance
+of supplier dependence for the bigger customer firms, we would expect any ef-
+fects of supplier dependence on customer firms’ capital structure to be present
+mainly for the smaller size groups.
+
+C.2. Durable versus Nondurable Sector Purchases
+Titman and Wessels (1988) argue that manufacturing firms in durable goods
+
+sectors are more likely to produce unique products. Below, we provide additional
+
+
+
+Buyer–Supplier Relationships and the Stakeholder Theory 2521
+
+evidence on the nature of products purchased by customer firms from durable
+and nondurable sector suppliers.
+
+First, by directly investigating the products purchased by customers in
+durable and nondurable goods sectors, we find that durable goods sector cus-
+tomers are likely to buy unique products from durable goods sector suppliers,
+but standardized products from nondurable goods sector suppliers. Consider, for
+example, Chrysler Corp., a manufacturer in the durable goods sector. Chrysler
+purchased engines, rebuilt automotive parts, electronic components, resistance
+wielding components, and structural automotive parts. Most of these are unique
+products specially made for them by their dependent suppliers. Chrysler also
+bought fiber materials, carpets and vinyl, polyurethane foam, automobile seat-
+ing systems, and batteries from their nondurable goods suppliers. Although a
+large order from Chrysler is important for any supplier, these products need
+little or no investment that would be unique for Chrysler as opposed to any
+other large customer. In contrast, consider Abbott Labs, a company in the non-
+durable sector producing pharmaceutical, medical, and nutritional products.
+Abbott purchased chemical compounds, containers, and other packaging ma-
+terials from their nondurable goods suppliers. They also purchased urological
+catheters, disposable medical devices, and air purification equipment from their
+durable goods sector suppliers. None of these items require significant relation-
+specific investments from the dependent suppliers and the durable goods pur-
+chased are largely finished products rather than specialized inputs. Thus, it
+appears that durable goods manufacturers buy specialized inputs from sup-
+pliers in durable goods sectors, but general purpose products from suppliers in
+nondurable sectors, whereas, manufacturers in nondurable sectors buy general
+purpose products from suppliers in both durable and nondurable goods sectors.
+We investigate the items purchased by a large number of customer firms from
+the two sectors and find that, in most cases, the properties of the purchased
+items show a similar pattern.
+
+Second, we find that the dependent suppliers of customer firms in the durable
+goods sector are largely in the same durable goods sector themselves, and we
+find a similar pattern for the nondurable goods sector customers. In Table III,
+Panel C, we report that 91% of the customer firms in the durable goods sector
+have at least one dependent supplier from the durable goods sector and only
+20% of them have suppliers producing nondurable goods (11% have suppliers
+from both sectors). Similarly, nondurable manufacturing sector customers have
+more suppliers that manufacture nondurable goods (78%) and only 32% of them
+have dependent suppliers from the durable goods sector. Thus, durable goods
+sector customers are likely to buy mostly unique products, and nondurable
+goods sector customers mostly standardized products.
+
+C.3. Frequency and Duration of Purchases by and Sales
+to Principal Customers
+
+Table IV presents statistics on the frequency and duration of customer–
+supplier relationships. In Panel A, we note that, on average, a customer firm in
+the durable goods sector has dependent suppliers for 4.39 years (column 1), or
+
+
+
+2522 The Journal of Finance
+
+Table IV
+Descriptive Statistics for the Frequency and Duration
+
+of Customer–Supplier Relationships
+Panel A reports summary statistics for the number (proportion) of years a firm, identified at least
+once as a principal customer, purchases from dependent suppliers and Panel B reports summary
+statistics for the number (proportion) of years a suppler firm reports sales to principal customers. For
+each panel, the four columns report the summary statistics of the following items for the respective
+subgroup of customer and supplier firms:
+Column (1): Total number of years a customer (supplier) firm reports a dependent supplier (large
+
+customer).
+Column (2): Number of consecutive years a customer (supplier) firm reports a dependent supplier
+
+(large customer). If a customer firm has more than one stretch of consecutive years of purchases
+from dependent suppliers, the stretch with the maximum number of consecutive years is used.
+
+Column (3): Proportion of years a customer (supplier) reports a dependent supplier (large customer)
+as a fraction of years the firm appears in the sample.
+
+Column (4): Proportion of consecutive years a customer (supplier) firm reports a dependent supplier
+(large customer) as a fraction of years the firm appears in the sample.
+
+Panel A
+
+(A) Durable Goods (B) Nondurable Goods (C)
+Manufacturing Manufacturing Nonmanufacturing
+
+Customers Customers Customers
+
+(1) (2) (3) (4) (1) (2) (3) (4) (1) (2) (3) (4)
+
+Mean 4.39 3.73 0.35 0.31 3.96 3.36 0.31 0.28 4.16 3.53 0.32 0.29
+SD 4.48 4.04 0.27 0.26 3.80 3.24 0.25 0.24 4.38 3.88 0.27 0.25
+5th percentile 1 1 0.05 0.05 1 1 0.05 0.05 1 1 0.05 0.05
+25th percentile 1 1 0.13 0.11 1 1 0.11 0.10 1 1 0.11 0.11
+Median 3 2 0.26 0.21 2 2 0.25 0.20 2 2 0.21 0.17
+75th percentile 5 4 0.50 0.42 5 4 0.42 0.37 5 4 0.47 0.36
+95th percentile 16 14 1 1 13 11 0.92 0.83 14 12 1 1
+Number of 431 299 440
+
+Firms
+
+Panel B
+
+(A) Durable Goods (B) Nondurable Goods
+Manufacturing Suppliers Manufacturing Suppliers
+
+(1) (2) (3) (4) (1) (2) (3) (4)
+
+Mean 5.29 4.73 0.55 0.51 5.96 5.37 0.60 0.56
+SD 4.06 3.75 0.29 0.29 4.75 4.49 0.29 0.30
+5th percentile 1 1 0.11 0.11 1 1 0.125 0.11
+25th percentile 2 2 0.31 0.25 2 2 0.33 0.30
+Median 4 4 0.5 0.47 4 4 0.6 0.50
+75th percentile 7 6 0.8 0.75 8 7 0.875 0.831
+95th percentile 14 12 1 1 17 16 1 1
+Number of Firms 1,445 2,430
+
+about a third of the years it is in the sample (column 3). Moreover, these years
+tend to cluster together. This can be seen from the fact that the sample average
+of the maximum number of consecutive firm-years for which a principal cus-
+tomer has dependent suppliers is 3.73 (column 2), which is close to the average
+
+
+
+Buyer–Supplier Relationships and the Stakeholder Theory 2523
+
+number of firm-years for which a dependent supplier is reported. The consec-
+utive firm-years constitute 31% of the firm years a firm is in the sample, on
+average (column 4). We do not find any evidence, however, that the importance
+of dependent suppliers is associated with major increases or decreases in sales
+growth. As can be seen from Table III, Panel B, the proportion of purchases from
+dependent suppliers as a fraction of total sales is not different between high and
+low sales growth years for the customer firms. Therefore, supplier dependence
+appears to be the result of either a change in procurement policy or a need for
+new inputs for new production processes—presumably eventually eliminated
+through vertical integration or another change in procurement policy.18
+
+In Panel B of Table IV, we report similar statistics for dependent suppliers.
+The pattern is very similar: On average, a dependent supplier reports a prin-
+cipal customer for 5.3 years (column 1), which amounts to 55% of the years in
+the sample (column 3). Clustering is even stronger here—the sample average
+of the maximum number of consecutive firms-years for which a principal cus-
+tomer is reported is 4.73 (column 2), and these firm-years constitute 50% of
+the firm-years a firm is in the sample (column 4). It is also noticeable from a
+comparison of the means and medians in columns 1 and 2 of Panels A and B
+that both the number of customer firm-years and the maximum consecutive
+duration are more skewed for the customers than the corresponding variables
+for the dependent suppliers.
+
+III. Regression Analysis
+A. Regression Specification
+
+As we can see in Table II, customer firms and supplier firms are substantially
+different from other firms in many respects. Further, the observed differences
+strongly suggest that there should be unobserved differences in many other
+characteristics. Therefore, the cross-sectional differences in capital structure
+may well reflect those factors that affect both the supplier–customer relation-
+ship and the capital structure. In this context, the best empirical strategy to cap-
+ture the effect of the customer–supplier relationship is to examine the changes
+within the same firm as the firm’s relationship with its customers or suppli-
+ers changes over time. As mentioned in Section II.C.3, the customer–supplier
+relationship changes slowly over time and tends to be clustered in time. This
+gives us an opportunity to test the theories advanced in Section I by taking
+advantage of the panel structure of the data, controlling for the observed and
+the unobserved heterogeneity across firms.
+
+We employ a regression model that allows slow adjustments of capital struc-
+ture to the year-by-year changes in the proportion of purchases from dependent
+suppliers or the proportion of sales to principal customers. We start with the
+partial adjustment model
+
+18 In support of vertical integration being associated with less supplier dependence, in unreported
+regressions we find that the probability of not having a dependent supplier is positively related to
+a decrease in sales over assets.
+
+
+
+2524 The Journal of Finance
+(
+
+dit − dit−1 = d ∗
+it − )
+
+β dit−1 , (1)
+
+where dit and d∗
+it denote, respectively, the actual and the target debt ratios for
+
+firm i at time t, and β denotes the speed of adjustment (0 < β < 1). We also
+assume that the target itself is a function of a set of variables Xit:
+
+∑
+d ∗
+
+it = ak X kit , (2)
+k
+
+where Xkit is a determinant of the target leverage ratio and ak is its coefficient.
+Substituting d∗
+
+it from equation (2) into equation (1) yields,
+∑
+
+dit = β ak X kit + (1 − b) dit−1. (3)
+k
+
+We perform two distinct sets of panel regression analyses to test the hypotheses
+laid out in Section I: one for customers and the other for suppliers. Most of the
+results reported in the tables are based on the market long-term debt ratio as
+the dependent variable, which we define as
+
+LDM = Total Long-Term Debt
+.
+
+Total Debt + Market Value of Equity
+
+However, all our results hold if we consider the book long-term debt ratio, de-
+fined as
+
+LDB = Total Long-Term Debt
+.
+
+Total Assets
+
+Our results are also robust to the inclusion of short-term debt in the definition
+of the debt ratio. The results for these alternative definitions of the debt ratio
+are available on request.
+
+Our key variables among the determinants of capital structure (i.e., Xkit)
+are those related to supplier–customer relationships. For the customers, we
+consider the following variables to represent the importance of purchases from
+the dependent suppliers:
+
+Purchases/COGS–All identified suppliers: Please see Section II.C.
+Purchases/COGS–Durable suppliers: Total supply from all Compustat-listed
+
+durable manufacturing sector suppliers (primary SIC from 3,400 to 3,990)
+who record the current firm as (one of) their principal customer(s), as a
+proportion of Cost of Goods Sold of the customer firm.
+
+Purchases/COGS–Nondurable suppliers: Total supply from all Compustat-
+listed nondurable manufacturing sector suppliers (primary SIC from 2,000
+to 3,390) who record the current firm as (one of) their principal customer(s),
+as a proportion of Cost of Goods Sold of the customer.19
+
+19 Purchases/COGS–Durable suppliers and Purchases/COGS–Nondurable suppliers add up to
+Purchases/COGS–All identified suppliers.
+
+
+
+Buyer–Supplier Relationships and the Stakeholder Theory 2525
+
+Consistent with Hypothesis 1, we expect that in equation (3), the effect of
+Purchases/COGS–All identified suppliers will be negative, but the effect should
+be stronger for customer firms in the durable manufacturing sector.20 Moreover,
+even for customers in this sector, the importance of supplier-specific investment
+is expected to be greater for suppliers in durable goods industries. Thus, we
+hypothesize Purchases/COGS–Durable suppliers to have a stronger negative
+effect than Purchases/COGS–Nondurable suppliers on the debt ratio of the
+customer firms. In addition, we expect these effects to be stronger for smaller
+customer firms, which are likely to be less vertically integrated (more reliant
+on purchases from dependent suppliers) and less creditworthy.
+
+For suppliers, we consider the variables related to the importance of sales to
+principal customers. Specifically, the following variables feature in our regres-
+sions:
+
+BIGALL: Please see Section II.C.
+BIGNONGOV: Proportion of sales to all of the firm’s big customers identified
+
+as Compustat firms, private companies, or not identified (“unidentified”).
+Private companies are identified from Academic Universe and include com-
+panies listed elsewhere but not included in Compustat.
+
+BIGGOVT: Proportion of sales to all big customers identified as “govern-
+ment.”
+
+Note that BIGNONGOV and BIGGOVT add up to BIGALL.
+Consistent with Hypothesis 2, we expect that the effect of BIGALL on the debt
+
+ratio of supplier firms in equation (3) will be negative, but the effect should be
+stronger for supplier firms in the durable manufacturing sector. Moreover, con-
+sistent with Hypothesis 3, we expect BIGNONGOV to have a stronger negative
+effect on the supplier’s capital structure than BIGGOVT.
+
+Definitions of these supplier and customer related variables are summarized
+in Appendix A. Other control variables include some of the conventional factors
+affecting debt. Definitions of these variables are in Appendix B. We also include
+time (year) dummies to control for any factors that affect all the firms at the
+same time, such as a recession, a trend in capital structure, a general change
+in the corporate procurement process, etc. Moreover, all the reported t-ratios
+are based on standard errors that are heteroskedasticity-consistent and allow
+for clustering at the firm level.
+
+We report the pair-wise correlation between the independent variables in
+Table V. The stakeholder-related variables (Purchases/COGS from all depen-
+dent suppliers and proportion of sales to all big customers) are not highly cor-
+related with the control variables.
+
+20 Recall the evidence discussed in Section II.C.2 that (i) customer firms in nondurable or non-
+manufacturing sectors tend to buy mostly from suppliers in the same sectors, and (ii) even when
+customer firms in nondurable manufacturing or nonmanufacturing sectors have dependent sup-
+pliers in the durable goods sector, the purchases appear to be standardized items requiring little
+specific investment.
+
+
+
+2526 The Journal of Finance
+
+Table V
+Pair-Wise Correlations between the Explanatory Variables
+
+for the Sample of All Firms
+The sample contains all firm-years for firms between 1979 and 1997 in the manufacturing sector in
+Compustat that have no missing values for any of the listed variables. There are 59,526 such observations.
+The list of variables includes all the independent variables used in the subsequent regressions. The
+definitions of these variables are in Appendices A and B. The significance level is reported below the
+correlation coefficients.
+
+Log Dividend
+Q (Sales) FA/TA ROA Age R&D SGA Dummy S/A BIGALL
+
+Log(Sales) −0.255
+0.000
+
+FA/TA −0.052 0.299
+0.000 0.000
+
+ROA −0.214 0.462 0.068
+0.000 0.000 0.000
+
+R&D 0.172 −0.412 −0.168 −0.529 −0.220
+0.000 0.000 0.000 0.000 0.000
+
+SGA 0.133 −0.403 −0.249 −0.420 −0.219 0.283
+0.000 0.000 0.000 0.000 0.000 0.000
+
+Dividend −0.193 0.560 0.258 0.284 0.462 −0.234 −0.252
+Dummy
+
+0.000 0.000 0.000 0.000 0.000 0.000 0.000
+S/A 0.018 0.171 −0.011 0.162 0.062 −0.373 −0.225 0.079
+
+0.000 0.000 0.011 0.000 0.000 0.000 0.000 0.000
+BIGALL 0.079 −0.247 −0.111 −0.112 −0.163 0.201 0.015 −0.216 −0.055
+
+0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000
+Purchases/ −0.009 0.074 −0.024 0.021 0.017 0.008 0.000 0.003 0.004 0.006
+
+COGS
+All Suppliers 0.028 0.000 0.000 0.000 0.000 0.043 0.960 0.488 0.375 0.175
+
+B. Further Discussion on Empirical Methodology
+Our regression strategy builds on the results of Titman and Wessels (1988),
+
+but further refines their results by specifically and directly testing whether,
+within the same “durable goods” industries and after controlling for the effects
+of R&D and selling expenses, certain groups of stakeholders have a significant
+impact on the capital structure of their partner firms. We expect dependent
+suppliers and customers with a network of dependent suppliers to have lower
+leverage within the durable goods industries. However, when the suppliers and
+customers are outside the durable goods industries, we expect supplier depen-
+dence to have little effect on the capital structure of either the suppliers or
+the customers. Thus, for our results to be spurious, certain firm characteristics
+would have to simultaneously cause firms to enter into stakeholder relation-
+ships and also cause them to maintain lower debt ratios; moreover, these firm
+characteristics would have to affect capital structure only in durable goods
+industries.
+
+To further ensure that unobserved or observed firm characteristics are not
+driving our results, we follow several strategies. First, because we find that
+
+
+
+Buyer–Supplier Relationships and the Stakeholder Theory 2527
+
+many observed firm-specific variables differ significantly between the firms in
+stakeholder relationships and their control groups in Table II, we include these
+variables and the fixed firm effects as controls in our regressions to mitigate
+the concern that differences in firm characteristics between firms in stake-
+holder relationships and other firms explain our results. Second, to control
+for the effects of economy-wide phenomena, we include year dummies in our
+regressions. We also break up our analysis into subperiods and check for the
+robustness of our results across subperiods.21 Next, to mitigate the concern that
+customer–supplier variables are correlated with firm growth, which in turn af-
+fects leverage ratios, we include variables such as Tobin’s q, sales growth, and
+profitability as controls. Finally, we also estimate our main results in a 5-year
+difference form. Our specification examines how the debt ratio responds, over a
+5-year period, to yearly changes in customer/supplier variables within the pe-
+riod. If adjustment to a target is costly (Strebulaev (2007), Leary and Roberts
+(2005)), we expect the change in leverage to be more strongly related to the ear-
+lier changes in the customer/supplier-related variables. An additional advan-
+tage of this specification is that if the debt ratio responds to annual changes in
+customer/supplier variables at lags as long as 5 years, it mitigates the concern
+that our results are spuriously driven by factors that are correlated with such
+changes.22
+
+C. Regression Results
+C.1. Customer Firms’ Capital Structure
+
+In Tables VI and VII, we report the results concerning the effect of purchases
+from dependent suppliers on customer firms’ capital structure. The dependent
+variable is long-term market leverage, and the explanatory variables of interest
+are the ones that indicate the importance of the purchases from Compustat-
+listed manufacturing suppliers that identify the customer as a principal cus-
+tomer (i.e., dependent suppliers). The sample in Table VI consists of all firm-
+years for firms that are identified as a principal customer by another Compustat
+firm at least once during 1979 to 1997. As a result, the samples in this table con-
+sist mostly of large firms and the sample sizes are relatively small. In Table VII,
+we consider all firms in Compustat, including those that are identified as prin-
+cipal customers. We control for fixed firm effects for the results reported in
+Tables VI and VII. In each of these tables, the sample is divided according to
+whether the firms belong to the durable goods manufacturing sector (Panel A),
+nondurable goods manufacturing sector (Panel B), or nonmanufacturing sector
+
+21 The results of subperiod analysis are not reported in the paper.
+22 For example, it is known that more profitable firms have retentions, which affects the denom-
+
+inator of the book debt ratio, whereas higher stock returns affect the denominator of the market
+debt ratio. If increases in purchases from dependent suppliers or sales to principal customers are
+correlated with these variables, our regressions could be picking up these spurious effects. However,
+these effects are likely to manifest immediately rather than at long lags.
+
+
+
+2528 The Journal of Finance
+
+Table VI
+The Effect of Dependent Suppliers on the Market Leverage of Customer Firms
+
+The following model is estimated: LDMit = α + γ LDMit−1 + kδkBkit + lδlFlit + κ i + uit, where the market leverage, LDMit, is defined as the ratio of
+long-term debt to the market value of equity plus total debt. Bkit represents purchases from dependent manufacturing suppliers from different sectors
+as a fraction of Cost of Goods Sold of the customer firms. Please see Appendix A for exact definitions of these variables. Flit refers to control variables
+in the regressions. It includes log of total sales (Log(Sales)), profitability (ROA), tangibility (FA/TA), growth opportunities (Q), R&D to sales (R&D),
+selling general and administrative expense (SGA), dividend dummy (Dividend), and total sales to total assets (S/A). The definitions of these variables
+are in Appendix B. The regressions also include firm and year dummies, but their coefficients are not reported. The sample contains all firm-years for
+firms in Compustat that are identified as a principal customer by at least one other Compustat firm for at least one year between 1979 and 1997. The
+control variables are censored at the 1st and 99th percentile values to eliminate influence of outliers. Panel A shows the results for the manufacturing
+firms in durable goods industries only (primary SIC codes from 3,400 to 3,990). In column 3 (respectively, column 4), we drop all customer firms whose
+median size is above median (respectively, below median) among all customer firms. Panel B replicates the analysis for manufacturing firms in the
+nondurable goods industries only (SIC codes between 2,000 and 3,400) and Panel C shows the result for nonmanufacturing customer firms (all other
+sectors except the financial sector). The t-values, given in parentheses, are based on standard errors that are heteroskedasticity-consistent and allow
+clustering at the firm level. ∗∗∗ (∗∗,∗) denotes significance at the 1% (5%, 10%) level.
+
+(A) Durable Goods (B) Nondurable Goods (C) Nonmanufacturing
+Manufacturing Customers Manufacturing Customers Customers
+
+(3) (4)
+(1) (2) Smaller Larger (1) (2) (1) (2)
+All All Customer Customer All All All All
+
+Firms Firms Firms Firms Firms Firms Firms Firms
+
+LDMt−1 0.518 0.517 0.497 0.527 0.536 0.536 0.545 0.545
+(19.73)∗∗∗ (19.72)∗∗∗ (13.93)∗∗∗ (13.17)∗∗∗ (17.80)∗∗∗ (17.81)∗∗∗ (18.65)∗∗∗ (18.63)∗∗∗
+
+Purchases/COGS −0.040 −0.012 0.089
+All identified suppliers (−1.54) (−0.30) (1.44)
+Purchases/COGS −0.048 −0.071 0.018 0.047 0.110
+Durable suppliers (−1.81)∗ (−2.43)∗∗ (−0.26) (0.92) (1.44)
+Purchases/COGS 0.120 0.160 −0.414 −0.039 0.015
+Nondurable suppliers (1.23) (1.55) (0.99) (−0.69) (0.23)
+
+
+
+Buyer–Supplier Relationships and the Stakeholder Theory 2529
+
+Q −0.013 −0.013 −0.011 −0.019 −0.010 −0.010 −0.022 −0.022
+(−6.78)∗∗∗ (−6.77)∗∗∗ (−5.31)∗∗∗ (−4.22)∗∗∗ (−4.91)∗∗∗ (−4.92)∗∗∗ (−7.04)∗∗∗ (−7.03)∗∗∗
+
+Log(Sales) 0.016 0.016 0.017 0.014 0.018 0.018 0.011 0.012
+(3.72)∗∗∗ (3.76)∗∗∗ (2.93)∗∗∗ (3.15)∗∗∗ (4.53)∗∗∗ (4.56)∗∗∗ (2.10)∗∗ (2.12)∗∗
+
+FA/TA 0.088 0.089 0.157 −0.006 −0.012 −0.012 0.051 0.051
+(2.14)∗∗ (2.15)∗∗ (2.54)∗∗ (−0.16) (−0.44) (−0.45) (1.90)∗ (1.90)∗
+
+ROA −0.051 −0.051 −0.061 −0.071 −0.032 −0.032 −0.080 −0.080
+(−2.82)∗∗∗ (−2.83)∗∗∗ (−3.06)∗∗∗ (−1.51) (−1.06) (−1.06) (−3.08)∗∗∗ (−3.12)∗∗∗
+
+R&D 0.011 0.011 −0.031 0.079 −0.015 −0.015 −0.069 −0.070
+(0.29) (0.28) (−0.76) (0.83) (−0.61) (−0.61) (−1.03) (−1.04)
+
+SGA −0.035 −0.035 −0.064 −0.007 0.010 0.010 −0.012 −0.012
+(−1.38) (−1.38) (−1.80)∗ (−0.24) (0.79) (0.81) (−0.51) (−0.49)
+
+Dividend −0.015 −0.015 −0.012 −0.020 −0.008 −0.008 −0.018 −0.018
+(−2.13)∗∗ (−2.15)∗∗ (−1.28) (−1.84)∗ (−0.77) (−0.78) (−1.90)∗ (−1.91)∗
+
+S/A −0.041 −0.041 −0.044 −0.035 −0.056 −0.055 −0.033 −0.033
+(−4.61)∗∗∗ (−4.61)∗∗∗ (−4.82)∗∗∗ (−2.43)∗∗ (−5.64)∗∗∗ (−5.59)∗∗∗ (−4.93)∗∗∗ (−4.94)∗∗∗
+
+Constant 0.008 0.006 0.022 0.019 0.010 0.008 0.072 0.072
+(0.25) (0.22) (0.64) (0.48) (0.28) (0.25) (1.57) (1.56)
+
+Firms 408 408 230 178 266 266 394 394
+Observations 4,675 4,675 2,309 2,366 3,414 3,414 4,436 4,436
+R-squared 0.72 0.72 0.70 0.76 0.78 0.78 0.80 0.80
+
+
+
+2530 The Journal of Finance
+
+Table VII
+The Effect of Dependent Suppliers on Market Leverage of Customer Firms (Sample of All Firms)
+
+The following model is estimated: LDMit = α + γ LDMit−1 + kδkBkit + lδlFlit + κ i + uit, where the market leverage, LDMit, is defined as the ratio
+of long-term debt to the market value of equity plus total debt. Bkit represents purchases from manufacturing suppliers from different sectors as a
+fraction of Cost of Goods Sold of the customer firms. Please see Appendix A for exact definitions of these variables. Flit refers to control variables in
+the regressions. It includes log of total sales (Log(Sales)), profitability (ROA), tangibility (FA/TA), growth opportunities (Q), R&D to sales (R&D),
+selling general and administrative expense (SGA), dividend dummy (Dividend), and total sales to total assets (S/A). The definitions of these variables
+are in Appendix B. The regressions also include firm and year dummies, but their coefficients are not reported. The sample contains all firms in
+Compustat between 1979 and 1997. The control variables are censored at the 1st and 99th percentile values to eliminate influence of outliers. Panel
+A shows the results for the manufacturing firms in durable goods industries only (primary SIC codes from 3,400 to 3,990). In column 3 (respectively,
+column 4), we drop all customer firms whose median size is above median (respectively, below median) among all customer firms. Panel B replicates
+the analysis for manufacturing firms in the nondurable goods industries only (SIC codes between 2,000 and 3,400) and Panel C shows the result for
+nonmanufacturing customer firms (all other sectors except the financial sector). The t-values, given in parentheses, are based on standard errors that
+are heteroskedasticity-consistent and allow clustering at the firm level. ∗∗∗ (∗∗,∗) denotes significance at the 1% (5%, 10%) level.
+
+(B) Nondurable Goods
+(A) Durable Goods Manufacturing (C) Nonmanufacturing
+
+Manufacturing Customers Customers Customers
+
+(3) (4)
+(1) (2) Smaller Larger (1) (2) (1) (2)
+All All Customer Customer All All All All
+
+Firms Firms Firms Firms Firms Firms Firms Firms
+
+LDMt−1 0.472 0.472 0.466 0.469 0.481 0.481 0.453 0.453
+(34.94)∗∗∗ (34.94)∗∗∗ (32.94)∗∗∗ (32.44)∗∗∗ (31.38)∗∗∗ (31.38)∗∗∗ (48.21)∗∗∗ (48.21)∗∗∗
+
+Purchases/COGS −0.046 −0.008 0.073
+All identified suppliers (−1.85)∗ (−0.20) (1.05)
+Purchases/COGS −0.056 −0.075 0.025 0.051 0.091
+Durable suppliers (−2.17)∗∗ (−2.70)∗∗∗ (0.37) (1.18) (1.06)
+Purchases/COGS 0.133 0.140 0.051 −0.034 0.011
+Nondurable suppliers (1.17) (1.19) (0.09) (−0.64) (0.14)
+
+
+
+Buyer–Supplier Relationships and the Stakeholder Theory 2531
+
+Q −0.009 −0.009 −0.009 −0.009 −0.009 −0.009 −0.011 −0.011
+(−14.3)∗∗∗ (−14.3)∗∗∗ (−13.7)∗∗∗ (−13.3)∗∗∗ (−11.9)∗∗∗ (−11.9)∗∗∗ (−17.7)∗∗∗ (−17.7)∗∗∗
+
+Log(Sales) 0.015 0.015 0.015 0.015 0.017 0.017 0.015 0.015
+(9.81)∗∗∗ (9.82)∗∗∗ (9.29)∗∗∗ (9.54)∗∗∗ (9.10)∗∗∗ (9.11)∗∗∗ (12.61)∗∗∗ (12.61)∗∗∗
+
+FA/TA 0.144 0.144 0.155 0.142 0.112 0.112 0.106 0.106
+(10.51)∗∗∗ (10.52)∗∗∗ (10.78)∗∗∗ (10.43)∗∗∗ (8.16)∗∗∗ (8.16)∗∗∗ (13.92)∗∗∗ (13.92)∗∗∗
+
+ROA −0.040 −0.040 −0.038 −0.038 −0.026 −0.026 −0.016 −0.016
+(−8.06)∗∗∗ (−8.06)∗∗∗ (−7.72)∗∗∗ (−7.59)∗∗∗ (−4.17)∗∗∗ (−4.17)∗∗∗ (−4.11)∗∗∗ (−4.11)∗∗∗
+
+R&D −0.005 −0.005 −0.007 −0.004 0.013 0.013 0.002 0.002
+(−0.54) (−0.55) (−0.76) (−0.41) (1.45) (1.45) (0.27) (0.27)
+
+SGA −0.020 −0.020 −0.020 −0.018 −0.006 −0.006 −0.006 −0.006
+(−3.17)∗∗∗ (−3.17)∗∗∗ (−3.09)∗∗∗ (−2.83)∗∗∗ (−1.07) (−1.06) (−1.07) (−1.07)
+
+Dividend −0.012 −0.012 −0.012 −0.012 −0.014 −0.014 −0.009 −0.009
+(−3.81)∗∗∗ (−3.81)∗∗∗ (−3.52)∗∗∗ (−3.60)∗∗∗ (−3.35)∗∗∗ (−3.35)∗∗∗ (−3.01)∗∗∗ (−3.02)∗∗∗
+
+S/A −0.029 −0.029 −0.028 −0.028 −0.035 −0.035 −0.025 −0.025
+(−10.8)∗∗∗ (−10.8)∗∗∗ (−10.2)∗∗∗ (−10.1)∗∗∗ (−9.22)∗∗∗ (−9.22)∗∗∗ (−14.3)∗∗∗ (−14.3)∗∗∗
+
+Constant 0.049 0.049 0.053 0.048 0.055 0.055 0.039 0.039
+(7.12)∗∗∗ (7.11)∗∗∗ (7.75)∗∗∗ (6.84)∗∗∗ (5.43)∗∗∗ (5.42)∗∗∗ (5.85)∗∗∗ (5.85)∗∗∗
+
+Firms 3,357 3,357 3,179 3,127 2,517 2,517 6,734 6,734
+Observations 25,221 25,221 22,855 22,912 19,751 19,751 44,388 44,388
+R-squared 0.72 0.72 0.72 0.72 0.76 0.76 0.78 0.78
+
+
+
+2532 The Journal of Finance
+
+(Panel C). This division is based on primary SIC codes.23 In addition, we split
+the durable sector customer firms according to firm size, that is, whether the
+customer firm’s size is above or below median. As mentioned before, the regres-
+sions contain year dummies and incorporate fixed firm effects, but these effects
+are not reported in the tables.
+
+From Panel A, Column 1 of Table VI, we see that durable sector customers
+who rely on dependent suppliers for a larger proportion of their inputs maintain
+significantly lower market leverage. In column 2, we decompose total manufac-
+tured inputs from dependent suppliers into those from durable and nondurable
+goods suppliers (i.e., those producing durable and nondurable products). We
+find that the negative effect comes from firms that depend heavily on durable
+goods suppliers. From Panels B and C of Table VI, we find that the proportion of
+purchases from dependent suppliers has no significant effect on the customer
+firms’ capital structures in nondurable goods manufacturing and nonmanufac-
+turing industries, regardless of whether the supplier is in the durable sector
+or the nondurable sector.24 These results are consistent with the hypothesis
+that, in the durable sector, where specific investments are more important,
+customers choose lower debt ratios to encourage more specific investment by
+dependent suppliers in the durable sector when they purchase more from the
+latter. Many of such purchases are likely to be intermediate goods specific to the
+customer firms’ products. However, as we discuss in Section II.C, the durable
+sector suppliers that sell to nondurable sector customers tend to sell general
+purpose durable goods, such as air purifiers, rather than intermediate goods.
+We get a very similar picture from the results reported in Table VII.
+
+In both tables, the results reported in columns 3 and 4 of Panel A show that
+the effect of purchases from dependent suppliers on capital structure comes
+primarily from the smaller customers. This is reasonable, as the large customers
+are very large firms and their default is unlikely to be a major concern for the
+dependent suppliers. They are also likely to be much more vertically integrated
+(as indicated by the lower sales to assets ratio), and thus are less likely to depend
+on suppliers.25
+
+23 Firms with primary SIC codes from 3,400 to 3,990 are classified as durable goods manufactur-
+ing firms and those with primary SIC codes between 2,000 and 3,400 are classified as nondurable
+goods manufacturing firms. The remaining firms, excluding those in the financial sector (primary
+SIC codes between 6,000 and 7,000), are classified as nonmanufacturing firms.
+
+24 Recall that our method of identifying principal customers starts with suppliers in the manu-
+facturing sector. Not all of these principal customers are in the manufacturing sector. Thus, while
+our supplying firms are all in the manufacturing sector, some of the customer firms are not.
+
+25 In Tables VI and VII, for a firm that is not identified as a principal customer by any other firm
+in Compustat in a given year, purchases/COGS = 0. This does not mean that the firm does not use
+any outside supply of inputs; rather, this means that its demand is not considered significantly large
+by any of the Compustat-listed supplier firms in that particular year. Since none of the suppliers
+consider the order from such a firm as significant, the firm’s leverage ratio is inconsequential for
+the investment decisions of the suppliers. In other words, the variable purchases/COGS should
+be reinterpreted in these regressions as an interaction of purchases/COGS and a dummy variable
+that takes the value of one if each of the suppliers from whom the purchases are made considers
+the purchase an important proportion of their sales, and zero otherwise.
+
+
+
+Buyer–Supplier Relationships and the Stakeholder Theory 2533
+
+In all the above regressions, the economic magnitude of the effect of purchases
+from suppliers as a proportion of the customer’s COGS on leverage is signifi-
+cant. For example, the coefficients reported in Panel A, column 2 of Table VI
+imply that a 10% increase in the proportion of purchases to COGS from durable
+goods suppliers would cause the debt ratio to decrease by 0.5 percentage points.
+This is an economically significant number for two reasons. First, it is econom-
+ically important in the context of the mean and the median market leverage
+ratios of 11% and 6%, respectively, for durable sector customer firms (please see
+Table I). Second, note that the customer firms in our sample are large firms,
+with generally low default probability. Thus, a significant effect here suggests
+that the effect would be quite important for smaller customer firms buying from
+(possibly still smaller) dependent suppliers.
+
+C.2. Dependent Supplier’s Capital Structure
+In Tables VIII and IX, we report the results concerning the effect of princi-
+
+pal customers on the supplier firms’ capital structure. The dependent variable
+is long-term market leverage, and the explanatory variables of interest are
+the ones that capture the importance of various categories of big customers.
+In particular, we distinguish between sales to private principal customers and
+government principal customers. In Table VIII, we consider all firm-years for
+supplier firms that report sales to a principal customer at least once during
+1979 to 1997, and in Table IX, we include all Compustat firms in the manu-
+facturing sector. We control for fixed firm effects in all these regressions and
+include year dummies. In both of these tables, we report results for two groups
+of firms, namely, those in durable goods manufacturing industries and those in
+nondurable goods manufacturing industries.
+
+The results support the hypothesis that suppliers selling proportionately
+more to principal customers maintain lower debt ratios, and that the effect
+is stronger in the durable sector. The coefficient on BIGALL is negative and
+significant for suppliers in the durable sector; however, the same variable has
+an insignificant negative coefficient for firms in the nondurable sector. When we
+break up sales to principal customers into sales to government and nongovern-
+ment customers, a clearer picture emerges. Sales to nongovernment principal
+customers (BIGNONGOV) has a significant negative effect for firms in the
+durable sector, while sales to government principal customers (BIGGOVT) has
+no such effect—consistent with our hypothesis.
+
+These results are consistent with the idea that supplier firms in durable
+manufacturing sectors maintain lower leverage ratios to attenuate the indirect
+costs of financial distress that would have to be incurred in the event they lose
+their principal customers. These costs are likely to be higher for durable sectors
+for two reasons. First, for reasons discussed earlier, stakeholder-driven losses
+are likely to be larger for firms producing durable or unique products. Second,
+it is more difficult to redeploy investments that are specific to major customers
+in durable sectors.
+
+
+
+2534 The Journal of Finance
+
+Table VIII
+The Effect of Sales to Principal Customers on the Market Leverage
+
+of Dependent Suppliers
+The following model is estimated: LDMit = α + γ LDMit−1 + kδkBkit + lδlFlit + κ i + uit, where
+the market leverage, LDMit is defined as the ratio of long-term debt to the market value of equity
+plus total debt. Bkit is the proportion of sales to each category of principal customer as a percentage
+of total sales. The exact definitions of these variables are shown in Appendix A. Flit refers to
+the control variables in the regressions. It includes log of total sales (Log(Sales)), profitability
+(ROA), tangibility (FA/TA), growth opportunities (Q), R&D to sales (R&D), selling general and
+administrative expense (SGA), dividend dummy (Dividend), and total sales to total assets (S/A).
+The definitions of these variables are in Appendix B. The regressions also include firm and year
+dummies, but their coefficients are not reported. The sample contains all manufacturing firms in
+Compustat that have been a supplier to a large customer at least once between 1979 and 1997.
+The control variables are censored at the 1st and 99th percentile values to eliminate influence
+of outliers. Panel A reports the results for manufacturing firms in durable goods industries only
+(primary SIC codes from 3,400 to 3,990) and Panel B shows the analysis for manufacturing firms
+in the nondurable goods industries only (SIC codes between 2,000 and 3,400). The t-values, given
+in parentheses, are based on standard errors that are heteroskedasticity-consistent and allow
+clustering at the firm level. ∗∗∗ (∗∗) denotes significance at the 1% (5%) level.
+
+(A) Durable Goods Firms (B) Nondurable Goods Firms
+
+(1) (2) (1) (2)
+
+LDMt−1 0.465 0.465 0.473 0.473
+(27.85)∗∗∗ (27.86)∗∗∗ (21.23)∗∗∗ (21.19)∗∗∗
+
+BIGALL −0.013 −0.006
+(−2.44)∗∗ (−1.04)
+
+BIGNONGOV −0.016 −0.008
+(−2.88)∗∗∗ (−1.34)
+
+BIGGOVT 0.019 −0.005
+(1.41) (−0.14)
+
+Q −0.010 −0.010 −0.008 −0.008
+(−12.85)∗∗∗ (−12.86)∗∗∗ (−8.99)∗∗∗ (−8.97)∗∗∗
+
+Log(Sales) 0.011 0.011 0.016 0.016
+(5.53)∗∗∗ (5.52)∗∗∗ (6.61)∗∗∗ (6.54)∗∗∗
+
+FA/TA 0.167 0.168 0.123 0.123
+(10.39)∗∗∗ (10.41)∗∗∗ (6.59)∗∗∗ (6.60)∗∗∗
+
+ROA −0.043 −0.043 −0.021 −0.020
+(−7.00)∗∗∗ (−6.92)∗∗∗ (−2.65)∗∗∗ (−2.63)∗∗∗
+
+R&D −0.030 −0.030 0.011 0.011
+(−2.63)∗∗∗ (−2.67)∗∗∗ (1.09) (1.08)
+
+SGA −0.031 −0.031 −0.009 −0.009
+(−3.79)∗∗∗ (−3.73)∗∗∗ (−1.46) (−1.43)
+
+Dividend −0.009 −0.009 −0.014 −0.014
+(−2.56)∗∗ (−2.51)∗∗ (−2.61)∗∗∗ (−2.61)∗∗∗
+
+S/A −0.033 −0.033 −0.034 −0.034
+(−9.58)∗∗∗ (−9.58)∗∗∗ (−7.67)∗∗∗ (−7.67)∗∗∗
+
+Constant 0.075 0.075 0.069 0.069
+(8.62)∗∗∗ (8.57)∗∗∗ (6.02)∗∗∗ (6.01)∗∗∗
+
+Firms 2,161 2,161 1,268 1,268
+Observations 16,682 16,682 9,946 9,946
+R-squared 0.72 0.72 0.75 0.75
+
+
+
+Buyer–Supplier Relationships and the Stakeholder Theory 2535
+
+Table IX
+The Effect of Sales to Principal Customers on the Market Leverage of
+
+Dependent Suppliers (Sample of All Firms)
+The following model is estimated: LDMit = α + γ LDMit−1 + kδkBkit + lδlFlit + κ i + uit, where the
+market leverage, LDMit is defined as the ratio of long-term debt to the market value of equity plus
+total debt. Bkit is the proportion of sales to each category of principal customer as a percentage of to-
+tal sales. The exact definitions of these variables are shown in Appendix A. Flit refers to the control
+variables in the regressions. It includes log of total sales (Log(Sales)), profitability (ROA), tangi-
+bility (FA/TA), growth opportunities (Q), R&D to sales (R&D), selling general and administrative
+expense (SGA), dividend dummy (Dividend), and total sales to total assets (S/A). The definitions of
+these variables are in Appendix B. The regressions also include firm and year dummies, but their
+coefficients are not reported. The sample contains all manufacturing firms in Compustat between
+1979 and 1997. The control variables are censored at the 1st and 99th percentile values to elim-
+inate influence of outliers. Panel A reports the results for manufacturing firms in durable goods
+industries only (primary SIC codes from 3,400 to 3,990) and Panel B shows the analysis for manu-
+facturing firms in the nondurable goods industries only (SIC codes between 2,000 and 3,400). The
+t-values, given in parentheses, are based on standard errors that are heteroskedasticity-consistent
+and allow clustering at the firm level. ∗∗∗ (∗∗,∗) denotes significance at the 1% (5%, 10%) level.
+
+(A) Durable Goods Firms (B) Nondurable Goods Firms
+
+(1) (2) (1) (2)
+
+LDMt−1 0.472 0.472 0.480 0.480
+(35.21)∗∗∗ (35.22)∗∗∗ (30.38)∗∗∗ (30.35)∗∗∗
+
+BIGALL −0.012 −0.004
+(−2.27)∗∗ (−0.62)
+
+BIGNONGOV −0.015 −0.006
+(−2.73)∗∗∗ (−0.93)
+
+BIGGOVT 0.018 −0.004
+(1.36) (−0.09)
+
+Q −0.009 −0.009 −0.009 −0.009
+(−13.86)∗∗∗ (−13.86)∗∗∗ (−11.66)∗∗∗ (−11.64)∗∗∗
+
+Log(Sales) 0.014 0.014 0.017 0.017
+(8.00)∗∗∗ (7.99)∗∗∗ (8.71)∗∗∗ (8.65)∗∗∗
+
+FA/TA 0.145 0.145 0.120 0.120
+(10.43)∗∗∗ (10.45)∗∗∗ (8.51)∗∗∗ (8.52)∗∗∗
+
+ROA −0.046 −0.046 −0.028 −0.028
+(−8.92)∗∗∗ (−8.85)∗∗∗ (−4.31)∗∗∗ (−4.29)∗∗∗
+
+R&D −0.022 −0.022 0.006 0.006
+(−2.23)∗∗ (−2.26)∗∗ (−0.73) (−0.72)
+
+SGA −0.029 −0.029 −0.011 −0.011
+(−4.13)∗∗∗ (−4.09)∗∗∗ (−1.93)∗ (−1.91)∗
+
+Dividend −0.012 −0.012 −0.014 −0.014
+(−3.84)∗∗∗ (−3.80)∗∗∗ (−3.52)∗∗∗ (−3.53)∗∗∗
+
+S/A −0.035 −0.035 −0.042 −0.042
+(−12.33)∗∗∗ (−12.34)∗∗∗ (−11.98)∗∗∗ (−11.98)∗∗∗
+
+Constant 0.067 0.067 0.063 0.063
+(8.75)∗∗∗ (8.73)∗∗∗ (6.59)∗∗∗ (6.58)∗∗∗
+
+Firms 3,348 3,348 2,477 2,477
+Observations 25,200 25,200 19,512 19,512
+R-squared 0.73 0.73 0.76 0.76
+
+
+
+2536 The Journal of Finance
+
+Notice that a firm’s sales to a principal customer have negative effects on
+the capital structure only when the principal customer is in the private sector.
+Sales to nongovernment principal customers (BIGNONGOV) have a signifi-
+cant negative effect for firms in the durable sector, while sales to government
+principal customers (BIGGOVT) have no such effects—consistent with our hy-
+pothesis. This is because the government is highly creditworthy and also likely
+to be concerned about the potential impact of a loss of its orders to the owners,
+employees, or other stakeholders of a supplier firm; thus, the potential for fi-
+nancial distress when the principal customer is the domestic government may
+be deemed less likely by the supplier firms. Below (in Section IV.F), we will
+present some evidence based on a univariate analysis suggesting that the po-
+tential for financial distress subsequent to the loss of a principal customer’s
+business may indeed be a motivation for firms to maintain lower leverage.
+
+The impact of sales to principal customers on supplier firms’ debt ratios is eco-
+nomically significant. Consider the effect of BIGNONGOV (proportion of sales
+to nongovernment principal customers) in Panel A of Table VIII, column 2. This
+coefficient implies that a firm directing 75% of its sales to nongovernment prin-
+cipal customers would have a long-term debt ratio that is lower by 1.2 percent-
+age points than that of supplier without principal customers. This difference
+is economically important given that the mean and the median long-term debt
+ratios of supplier firms in our sample are, respectively, 11% and 6%.
+
+C.3. Other Control Variables in the Regressions
+Lastly, we discuss the other control variables in Tables VI to IX. Most of the
+
+control variables have the expected signs and are significant except R&D.
+A control variable of interest but not previously extensively discussed in the
+
+capital structure literature is the sales-to-assets ratio.26 This variable consis-
+tently shows a strongly significant negative effect. We interpret this variable as
+a proxy for the extent of outsourcing. For example, this ratio should be high for
+retail firms that basically outsource all production, while mining firms should
+have low values of this ratio. Firms with a high value of sales-to-assets are more
+dependent on outside suppliers, some of whom may have high stakes in the re-
+lationships. The stakeholder theory of capital structure predicts that firms with
+higher values of this ratio should maintain lower leverage to encourage specific
+investment by outside suppliers. This is exactly what we find: In Tables VI to
+IX, firms with a higher sales-to-assets ratio have lower leverage. Interestingly,
+we find that excluding the sales-to-assets from the regressions in Tables VI to
+IX has a material effect on the impact on the estimated coefficients on the ratio
+of customer purchases to COGS: The estimated coefficients become larger and
+statistically more significant.
+
+26 An exception is Demirgüç-Kunt and Maksimovic (1999), who consider the ratio of sales to net
+fixed assets. They argue that a firm with a high ratio of sales-to-net fixed assets is more likely
+to need short-term financing to support sales, since it has more short-term assets on the balance
+sheet.
+
+
+
+Buyer–Supplier Relationships and the Stakeholder Theory 2537
+
+IV. Alternative Regressions, Additional Evidence,
+and Robustness Checks
+
+A. Long-term History of Purchases from Dependent Suppliers
+Our regressions so far control for fixed firm effects and hence capture how
+
+“within variation” of the observed firm-specific variables affects the debt ratio.
+We noted earlier that the summary statistics reported in Table IV suggest
+that purchases from dependent suppliers are clustered in time. Therefore, it
+is possible to examine directly whether the customer firm’s debt ratio is higher
+if it had no history of purchases from dependent suppliers in the recent past.
+To this end, we define a new dummy variable:
+
+No previous purchase dummy: This variable takes the value of one if there
+are no purchases from dependent suppliers in the past 5 years, and zero
+otherwise.
+
+Table X shows the results. The no previous purchase dummy has a positive
+and significant coefficient for the sample of durable sector customers, implying
+that, if a firm did not have dependent suppliers for the past 5 years at least, its
+leverage is significantly higher. Columns 2 and 3 estimate the model on sub-
+samples of larger- and smaller-than-median customer firms, respectively. They
+show that it is mostly the smaller-than-median customers that adjust leverage
+to changes in their procurement process. In column 4, we rerun the regression
+by dropping the firm-years in which purchases from dependent suppliers is
+positive. The no previous purchase dummy still has a positive coefficient. This
+implies that even if a firm currently has no purchases from dependent suppli-
+ers, its debt ratio is lower if in the last 5 years it had at least one such supplier.
+In other words, the effect of purchases from dependent suppliers is somewhat
+persistent, consistent with slow adjustment to a target debt ratio.
+
+B. Five-Year Changes in Leverage
+There is increasing evidence that adjustment costs affect capital structure
+
+decisions (Leary and Roberts (2005)). Since firms do not rebalance their capital
+structures every year, we are more likely to pick up effects of changes in cus-
+tomer/supplier related variables on capital structure if we examine changes in
+debt ratio over longer periods. We estimate regressions similar to Kayhan and
+Titman (2007) in which the dependent variable is the change in a firm’s debt
+ratio from period t − 5 to t, and the independent variables are also in terms of
+5-year changes. In addition, for customer (supplier) firms, the 5-year change in
+purchases from dependent suppliers (sales to principal customers) is split up
+into annual changes so that we are able to examine whether the change in the
+debt ratio is more affected by past changes as opposed to more recent changes,
+consistent with slow adjustment. The results are reported in Table XI, Panels A
+and B. Following Kayhan and Titman (2007), who run similar regressions, we
+bootstrap our results and report the 95% confidence intervals for the key vari-
+ables. The results in Table XI, Panel A, show that for durable goods sector cus-
+
+
+
+2538 The Journal of Finance
+
+Table X
+The Effect of Past History of Purchases from Dependent Suppliers on Market Leverage of Customer Firms
+The dependent variable is LDMit, defined as the ratio of long-term debt to market value of equity plus total debt. The No previous purchases dummy is
+our variable of interest and it takes the value one if there are no purchases from dependent suppliers in the past 5 years. We control for lagged market
+leverage (LDMit−1), log of total sales (Log(Sales)), profitability (ROA), tangibility (FA/TA), growth opportunities (Q), R&D to sales (R&D), selling
+general and administrative expense (SGA), dividend dummy (Dividend), and total sales to total assets (S/A). The sample contains all firm-years for
+firms in Compustat that are identified as a principal customer by at least one other Compustat firm for at least 1 year between 1979 and 1997 and
+this dummy variable is computed only for observations that at least have 5 years of past data. Panel A shows the results for the manufacturing firms
+in durable goods industries only (primary SIC codes from 3,400 to 3,990), Panel B replicates the analysis for manufacturing firms in the nondurable
+goods industries only (SIC codes between 2,000 and 3,400), and Panel C shows the result for nonmanufacturing customer firms (all other sectors
+except the financial sector). We control for firm fixed effects and allow for clustering at firm level. The t-values, given in parentheses, are based on
+heteroskedasticity-consistent standard errors. ∗∗∗ (∗∗,∗) denotes significance at the 1% (5%, 10%) level.
+
+(A)
+Durable Goods (B)
+
+Manufacturing Customers Nondurable (C)
+Goods Non-
+
+(4) Manufacturing manufacturing
+(1) (2) (3) All Customer Customers Customers
+All Larger Smaller Firms: “No (1) (1)
+
+Customer Customer Customer Purchases” All All
+Firms Firms Firms Years Only Firms Firms
+
+LDMt−1 0.457 0.497 0.403 0.482 0.462 0.460
+(15.62)∗∗∗ (13.23)∗∗∗ (9.65)∗∗∗ (12.87)∗∗∗ (10.51)∗∗∗ (12.66)∗∗∗
+
+No previous 0.006 0.003 0.010 0.007 0.001 0.005
+purchases dummy (1.99)∗∗ (0.72) (2.27)∗∗ (1.65)∗ (0.47) (1.41)
+Q −0.016 −0.026 −0.013 −0.019 −0.008 −0.025
+
+(−8.73)∗∗∗ (−5.81)∗∗∗ (−6.52)∗∗∗ (−7.03)∗∗∗ (−5.66)∗∗∗ (−7.51)∗∗∗
+Log(Sales) 0.022 0.025 0.021 0.020 0.021 0.007
+
+(5.10)∗∗∗ (4.36)∗∗∗ (3.73)∗∗∗ (3.46)∗∗∗ (5.60)∗∗∗ (1.93)∗
+
+
+
+Buyer–Supplier Relationships and the Stakeholder Theory 2539
+
+FA/TA 0.129 −0.041 0.245 0.152 0.006 0.045
+(3.40)∗∗∗ (−1.07) (4.55)∗∗∗ (2.68)∗∗∗ (0.21) (1.51)
+
+ROA −0.045 −0.034 −0.064 −0.033 −0.020 −0.089
+(−1.90)∗ (−0.75) (−2.43)∗∗ (−1.04) (−0.83) (−3.22)∗∗∗
+
+AGE −0.171 −0.195 −0.227 −0.180 −0.279 −0.140
+(−3.39)∗∗∗ (−3.38)∗∗∗ (−2.87)∗∗∗ (−2.69)∗∗∗ (−6.39)∗∗∗ (−2.68)∗∗∗
+
+R&D −0.026 0.060 −0.099 −0.049 −0.009 −0.138
+(−0.43) (0.64) (−1.35) (−0.60) (−0.30) (−2.68)∗∗∗
+
+SGA −0.037 0.013 −0.088 −0.032 0.005 0.007
+(−1.42) (0.54) (−1.87)∗ (−0.77) (0.49) (0.40)
+
+Dividend −0.015 −0.010 −0.015 −0.011 0.000 −0.010
+(2.03)∗∗ (0.88) (1.61) (−1.14) (0.01) (−1.07)
+
+S/A −0.045 −0.032 −0.055 −0.037 −0.079 −0.032
+(−4.40)∗∗∗ (−2.59)∗∗∗ (−4.95)∗∗∗ (−2.99)∗∗∗ (−8.19)∗∗∗ (−5.78)∗∗∗
+
+Constant 0.024 0.003 0.064 0.028 0.104 0.154
+(1.02) (0.07) (1.89)∗ (0.84) (3.62)∗∗∗ (5.24)∗∗∗
+
+Firms 383 173 210 326 247 364
+Observations 3,255 1,681 1,574 1,980 2,377 3,085
+R-squared 0.72 0.76 0.71 0.74 0.79 0.80
+
+
+
+2540 The Journal of Finance
+Table XIA
+
+The Effects of Year-by-Year Changes in Purchases from Dependent Suppliers on Five-Year Changes
+in Market Leverage of Customer Firms
+
+The following model is estimated: 
+LDMit = α + kδk
+Bkit + lδl
+Flit + γ (LDMit−5 − LDM ∗
+it−5) + κ i + uit, where the market leverage, LDMit, is defined as the ratio of long-term debt to the
+
+market value of equity plus total debt. The symbol 
+ stands for 5-year changes in the variable. LDMt−5 − LDM ∗
+t−5 is the deviation of market leverage from its predicted value at year (t − 5).
+
+LDM∗
+it is predicted using the model, LDMit = α + kδkBit + lδlFlit−1 + κ i + ui for each of the three sectors separately. Bit is purchases from dependent manufacturing suppliers as a fraction
+
+of Cost of Goods Sold of the customer firms. Flit refers to control variables in the regressions. Please see Appendix B for exact definitions of these variables. In the model reported here, we
+break down 5-year changes in Purchases/COGS into 5 year-by-year changes. The regressions also include firm and year dummies but these dummies and the constant are not reported. In
+each panel, the sample in regression (1) consists of all firms in Compustat between 1979 and 1997 and that in regression (2) consists of firms in Compustat that are identified as a principal
+customer at least once during the same period. The control variables are censored at the 1st and 99th percentile values to eliminate influence of outliers. Panel A shows the results for the
+manufacturing firms in the durable goods industries only (primary SIC codes from 3,400 to 3,990), Panel B replicates the analysis for manufacturing firms in the nondurable goods industries
+only (SIC codes between 2,000 and 3,400), and Panel C shows the result for nonmanufacturing customer firms (all other sectors except the financial sector). The regression for each column
+is replicated 500 times by drawing firm clusters, with replacement, from the relevant sample.
+
+(A) Durable Goods Manufacturing Firms (B) Nondurable Goods Manufacturing Firms (C) Nonmanufacturing Firms
+
+(1) (2) (1) (2) (1) (2)
+
+Coeff [95% Conf. Int.] Coeff [95% Conf. Int.] Coeff [95% Conf. Int.] Coeff [95% Conf. Int.] Coeff [95% Conf. Int.] Coeff [95% Conf. Int.]
+
+
+t−(t−1) Purchases/ −0.010 −0.091 0.072 −0.009 −0.091 0.073 −0.082 −0.204 0.040 −0.087 −0.217 0.043 −0.017 −0.105 0.071 −0.009 −0.107 0.088
+COGS
+
+
+(t−1)−(t−2) Purchases/ −0.065 −0.143 0.012 −0.055 −0.144 0.033 −0.166 −0.415 0.083 −0.143 −0.373 0.086 0.038 −0.101 0.176 0.039 −0.106 0.183
+COGS
+
+
+(t−2)−(t−3) Purchases/ −0.108 −0.192 −0.025 −0.088 −0.146 −0.031 −0.014 −0.210 0.181 −0.017 −0.210 0.177 0.043 −0.107 0.193 0.039 −0.118 0.196
+COGS
+
+
+(t−3)−(t−4) Purchases/ −0.091 −0.192 0.010 −0.077 −0.169 0.014 0.077 −0.118 0.273 0.087 −0.101 0.276 0.119 −0.014 0.252 0.122 −0.018 0.261
+COGS
+
+
+(t−4)−(t−5) Purchases/ −0.074 −0.152 0.004 −0.058 −0.126 0.011 −0.004 −0.148 0.140 0.018 −0.113 0.149 0.009 −0.124 0.142 0.001 −0.130 0.132
+COGS
+
+
+Q −0.008 −0.009 −0.006 −0.009 −0.013 −0.005 −0.007 −0.008 −0.005 −0.009 −0.015 −0.003 −0.008 −0.009 −0.006 −0.017 −0.023 −0.011
+
+Log(Sales) 0.016 0.012 0.020 0.018 0.006 0.029 0.016 0.011 0.022 0.009 −0.007 0.024 0.014 0.011 0.018 0.014 0.003 0.026
+
+FA/TA 0.133 0.103 0.162 0.146 0.055 0.236 0.092 0.056 0.127 0.070 0.010 0.130 0.096 0.079 0.113 0.007 −0.053 0.066
+
+ROA −0.033 −0.044 −0.022 −0.046 −0.085 −0.007 −0.024 −0.038 −0.010 −0.030 −0.091 0.031 −0.027 −0.037 −0.018 −0.105 −0.162 −0.048
+
+R&D −0.012 −0.043 0.019 0.009 −0.101 0.119 0.009 −0.011 0.028 −0.018 −0.094 0.059 −0.005 −0.021 0.011 −0.106 −0.258 0.045
+
+SGA −0.016 −0.033 0.002 −0.063 −0.121 −0.006 −0.012 −0.023 0.000 0.001 −0.020 0.023 −0.019 −0.033 −0.004 −0.032 −0.088 0.023
+
+Dividend −0.034 −0.041 −0.027 −0.042 −0.060 −0.025 −0.031 −0.041 −0.020 −0.021 −0.049 0.007 −0.027 −0.034 −0.020 −0.044 −0.066 −0.022
+
+S/A −0.021 −0.027 −0.016 −0.032 −0.050 −0.015 −0.027 −0.034 −0.019 −0.038 −0.063 −0.014 −0.019 −0.024 −0.015 −0.018 −0.029 −0.007
+LDMt−5 − LDM∗
+
+t−5 −1.078 −1.111 −1.045 −1.025 −1.085 −0.965 −1.061 −1.103 −1.019 −1.016 −1.098 −0.934 −1.071 −1.096 −1.045 −1.010 −1.085 −0.935
+Firms 1,809 324 1,387 221 3,256 300
+Observations 12,452 2,750 9,668 2,064 20,064 2,601
+R-squared 0.69 0.72 0.69 0.68 0.70 0.68
+
+
+
+Buyer–Supplier Relationships and the Stakeholder Theory 2541
+Table XIB
+
+The Effects of Year-by-Year Changes in Sales to Principal Customers on Five-Year Changes
+in Market Leverage of SupplierFirms
+
+The following model is estimated: 
+LDMit = α + kδk
+Bkit + lδl
+Flit + γ (LDMit−5 − LDM ∗
+it−5) + κ i + uit, where the market leverage, LDMit, is defined as the
+
+ratio of long-term debt to the market value of equity plus total debt. The symbol 
+ stands for 5-year changes in the variable. LDBt−5 − LDB ∗
+t−5 is the deviation
+
+of market leverage from its predicted value at year (t − 5). LDM ∗
+it is predicted using the model, LDMit = α + kδkBkit + lδlFlit−1 + κ i + uit for each of the
+
+three sectors separately. Bkit is the proportion of sales to each category of principal customer as a percentage of total sales. Flit refers to control variables in
+the regressions. Please see Appendix B for exact definitions of these variables. In the model reported here, we break down 5-year changes, 
+BIGALL, into five
+year-by-year changes. The regressions also include firm and year dummies but these dummies and the constant are not reported. In each panel, the sample in
+regression (1) consists of all firms in Compustat between 1979 and 1997 and that in regression (2) consists of firms in Compustat that have been a supplier to a
+large customer at least once during the same period. The control variables are censored at the 1st and 99th percentile values to eliminate influence of outliers.
+Panel A shows the results for the manufacturing firms in the durable goods industries only (primary SIC codes from 3,400 to 3,990) and Panel B replicates the
+analysis for manufacturing firms in the nondurable goods industries only (SIC codes between 2,000 and 3,400). The regression for each column is replicated
+500 times by drawing firm clusters, with replacement, from the relevant sample.
+
+(A) Durable Goods Manufacturing Firms (B) Nondurable Goods Manufacturing Firms
+
+(1) (2) (1) (2)
+
+Coeff [95% Conf. Int.] Coeff [95% Conf. Int.] Coeff [95% Conf. Int.] Coeff [95% Conf. Int.]
+
+
+t−(t−1)BIGALL −0.022 −0.041 −0.004 −0.023 −0.041 −0.006 −0.010 −0.029 0.009 −0.012 −0.030 0.007
+
+(t−1)−(t−2)BIGALL −0.027 −0.049 −0.006 −0.028 −0.049 −0.007 −0.010 −0.033 0.014 −0.013 −0.037 0.012
+
+(t−2)−(t−3)BIGALL −0.021 −0.041 −0.002 −0.022 −0.042 −0.002 −0.001 −0.026 0.024 −0.003 −0.027 0.022
+
+(t−3)−(t−4)BIGALL −0.021 −0.038 −0.003 −0.021 −0.038 −0.004 −0.009 −0.037 0.019 −0.012 −0.040 0.016
+
+(t−4)−(t−5)BIGALL −0.033 −0.049 −0.017 −0.033 −0.049 −0.018 −0.013 −0.036 0.011 −0.014 −0.039 0.012
+
+Q −0.008 −0.010 −0.007 −0.008 −0.010 −0.006 −0.007 −0.009 −0.006 −0.005 −0.007 −0.003
+
+Log(Sales) 0.017 0.011 0.023 0.014 0.006 0.023 0.018 0.012 0.024 0.017 0.009 0.024
+
+FA/TA 0.147 0.116 0.179 0.162 0.125 0.200 0.098 0.062 0.134 0.120 0.075 0.165
+
+ROA −0.038 −0.051 −0.025 −0.039 −0.054 −0.023 −0.030 −0.045 −0.014 −0.013 −0.032 0.005
+
+R&D −0.025 −0.062 0.011 −0.043 −0.086 0.000 0.000 −0.022 0.022 0.003 −0.022 0.028
+
+SGA −0.019 −0.040 0.002 −0.014 −0.041 0.013 −0.017 −0.029 −0.005 −0.012 −0.024 0.001
+
+Dividend −0.035 −0.042 −0.028 −0.031 −0.040 −0.022 −0.028 −0.038 −0.017 −0.033 −0.046 −0.019
+
+S/A −0.026 −0.032 −0.020 −0.022 −0.030 −0.015 −0.034 −0.042 −0.025 −0.029 −0.038 −0.019
+LDMt−5 − LDM ∗
+
+t−5 −1.071 −1.104 −1.037 −1.069 −1.110 −1.029 −1.059 −1.102 −1.017 −1.080 −1.133 −1.027
+Firms 1,747 1,204 1,332 719
+Observations 12,052 8,167 9,403 4,865
+R-squared 0.70 0.70 0.70 0.69
+
+
+
+2542 The Journal of Finance
+
+tomers, the contemporaneous change in purchases from dependent suppliers
+has no effect on the change in the debt ratio; however, the effect mainly comes
+from past changes. For the nondurable goods and nonmanufacturing sector cus-
+tomers, there are no significant effects at any lag.27 In Table XI, Panel B, we find
+that for supplier firms in the durable goods sector, the change in sales to prin-
+cipal customers is significant at all five lags. However, once again, the effect is
+confined to the durable goods sector suppliers: None of the lags is significant for
+the nondurable sector suppliers. Therefore, it is not the case that our previous
+results are due to the fact that leverage ratios for firms in durable goods sectors
+for some reason respond more rapidly to changes in customer/supplier-related
+variables than do leverage ratios in the nondurable goods sector.
+
+C. Principal Customers and Zero-Debt Supplier Firms
+In 15% of all manufacturing firm-years in our sample, firms have zero long-
+
+term debt in their books. We examine whether the likelihood that a firm has zero
+debt increases if it sells a higher proportion of its sales to principal customers.
+To do so, we estimate a Logit regression in which the dependent variable takes
+a value of one if a firm has zero debt, and zero otherwise. The explanatory
+variables are the proportion of sales to various categories of principal customers
+(this variable is zero if a firm has no sales to principal customers at all in a
+given year), plus the usual controls for leverage used in the earlier regressions.
+The results are reported in Table XII. We find that firms in durable industries
+selling to nongovernment customers have a significantly higher probability
+of zero long-term debt. This effect is absent for sales to government, and is
+absent for sales to all categories of principal customers for firms in nondurable
+industries. The magnitude of the effect is quite large: The odds ratio for a firm
+selling 100% of its sales to a principal customer is 1.5 times as large as that for
+a firm not selling to a principal customer at all.
+
+The question of why firms have zero leverage has received attention recently.
+Strebulaev and Yang (2006) note that it is puzzling that these firms have zero
+leverage, since they also appear more profitable (and hold more cash as well as
+pay out more in dividends) than size and industry controlled comparison firms.
+Our findings suggest one possible reason, namely, the customer profile of these
+firms.
+
+D. Dynamic Panel Considerations
+For the fixed-effect estimator, the presence of a lagged dependent variable
+
+implies that the consistency of the estimates depends on T (the number of peri-
+ods) being large. Since our baseline specification in equation (3) incorporates a
+lagged dependent variable, we reestimate the baseline model following Arellano
+
+27 The point estimates of the coefficients on change in purchases from dependent suppliers at
+the first and second lag are relatively large, but estimated very imprecisely (the 95% confidence
+intervals are large, and zero lies well within these intervals).
+
+
+
+Buyer–Supplier Relationships and the Stakeholder Theory 2543
+
+Table XII
+Logit Models of the Effect of Principal Customers on the Probability
+
+of the Supplier Firm Having Zero Debt
+The following Logit model is estimated: ZERODEBTit = α + kθ lkBkit + lηlFlit (+ κ i) + uit, where
+ZERODEBTit is a dummy variable that takes the value of one if the firm has no long-term debt
+in that particular year. Bkit is the proportion of sales to each category of principal customer as a
+percentage of total sales. The exact definitions of these variables are in Appendix A. Flit refers
+to the control variables in the regressions. It includes log of total sales (Log(Sales)), profitability
+(ROA), tangibility (FA/TA), growth opportunities (Q), R&D to sales (R&D), selling general and
+administrative expense (SGA), dividend dummy (Dividend), and total sales to total assets (S/A).
+The definitions of these variables are in Appendix B. The regressions also include year dummies
+and firm fixed effects (in column 2s), but their coefficients are not reported. The sample contains
+all manufacturing firms in Compustat between 1979 and 1997. The control variables are censored
+at the 1st and 99th percentile values to eliminate influence of outliers. Panel A shows the results
+for manufacturing firms in durable goods industries only (primary SIC codes from 3,400 to 3,990)
+and Panel B shows the results for manufactured firms in nondurable goods industries (SIC codes
+between 2,000 and 3,400). In each panel, results for two sets of tests are reported—those that allow
+for firm-level clustering (column 1) and those that control for firm-fixed effects (column 2). The
+z-values are given in parentheses. ∗∗∗ (∗∗,∗) denotes significance at the 1% (5%, 10%) level.
+
+(A) Durable Goods Firms (B) Nondurable Goods Firms
+
+(1) (2) (1) (2)
+
+BIGNONGOV 0.388 0.362 0.140 −0.108
+(3.20)∗∗∗ (2.50)∗∗ (0.95) (−0.59)
+
+BIGGOVT −0.240 −0.137 −0.679 −1.082
+(−0.68) (−0.39) (−1.17) (−1.39)
+
+Q −0.012 −0.032 −0.000 −0.002
+(−1.88)∗ (−4.29)∗∗∗ (−0.04) (−0.21)
+
+Log(Sales) −0.361 −0.441 −0.470 −0.498
+(−16.58)∗∗∗ (−12.32)∗∗∗ (−16.96)∗∗∗ (−11.06)∗∗∗
+
+FA/TA −4.761 −5.381 −3.571 −5.062
+(−14.75)∗∗∗ (−17.76)∗∗∗ (−11.08)∗∗∗ (−14.17)∗∗∗
+
+ROA 0.460 −0.138 0.368 −0.300
+(5.07)∗∗∗ (−1.49) (3.19)∗∗∗ (−2.48)∗∗
+
+R&D 0.327 −0.260 0.041 −0.526
+(1.97)∗∗ (−1.26) (0.25) (−2.21)∗∗
+
+SGA 0.412 −0.049 0.554 −0.104
+(2.89)∗∗∗ (−0.31) (3.65)∗∗∗ (−0.61)
+
+Dividend 0.590 0.631 0.960 0.334
+(5.39)∗∗∗ (5.61)∗∗∗ (8.04)∗∗∗ (2.38)∗∗
+
+S/A 0.162 0.270 0.229 0.426
+(3.32)∗∗∗ (5.70)∗∗∗ (4.94)∗∗∗ (6.45)∗∗∗
+
+Constant −0.680 −0.724
+(−4.52)∗∗∗ (−4.05)∗∗∗
+
+Firms 1,319 682
+Observations 33,295 12,969 25,453 6,814
+
+and Bond (1991), who propose a GMM estimator. The results are reported in
+Table XIII. Our results are essentially unchanged. The supplier and customer
+variables are significant only for durable goods sector suppliers and customers,
+and insignificant for those in nondurable goods sectors.
+
+
+
+2544 The Journal of Finance
+
+Table XIII
+Arellano-Bond Dynamic Panel Data Estimation of the Market Leverage Model
+
+The table reports the results of applying the Arellano-Bond method to our basic model: LDMit = α + γ LDMit−1 + kδkBkit + lδlFlit + κ i + uit,
+where LDMit, the market leverage, is defined as the ratio of long-term debt to the market value of equity plus total debt. Bkit represents purchases
+from dependent suppliers or sales to large customers. Please see Appendix A for exact definitions of these variables. Flit refers to control variables in
+the regressions. The definitions of these variables are in Appendix B. The symbol 
+ stands for 1-year change in the variable. The regression includes
+year dummies, but their coefficients are not reported. The sample contains all firms in Compustat between 1979 and 1997. The control variables are
+censored at the 1st and 99th percentile values to eliminate influence of outliers. Panel A shows the results for the manufacturing firms in durable goods
+industries only (primary SIC codes from 3,400 to 3,990). In column 2 (respectively, column 3), we drop all customer firms whose size is above median
+(respectively, below median) among all customer firms. Panel B replicates the analysis for manufacturing firms in the nondurable goods industries
+only (SIC codes between 2,000 and 3,400) and Panel C shows the result for nonmanufacturing customer firms (all other sectors except the financial
+sector). The t-values, given in parentheses, are based on heteroskedasticity-consistent standard errors. ∗∗∗ (∗∗,∗) denotes significance at the 1% (5%,
+10%) level.
+
+(B) (C)
+(A) Nondurable Goods Nonmanufacturing
+
+Durable Goods Manufacturing Firms Manufacturing Firms Customers
+
+Customer Smaller Larger Supplier Customer Supplier Customer
+Firms Customer Customer Firms Firms Firms Firms
+Only Firms Firms Only Only Only Only
+
+LDMt−1 − LDMt−2 0.497 0.433 0.483 0.546 0.549 0.561 0.549
+(11.1)∗∗∗ (8.07)∗∗∗ (7.50)∗∗∗ (19.07)∗∗∗ (9.81)∗∗∗ (13.9)∗∗∗ (10.27)∗∗∗
+
+
+Purchases/COGS −0.042 −0.078 0.073 0.103 0.113
+Durable suppliers (−1.43) (−2.60)∗∗∗ (0.70) (0.72) (1.73)∗
+
+Purchases/COGS 0.138 0.150 −0.138 −0.023 0.024
+Nondurable suppliers (1.10) (1.13) (−0.30) (−0.21) (0.29)
+
+BIGNONGOV −0.021 −0.007
+
+(−3.21)∗∗∗ (−0.89)
+
+BIGGOVT 0.019 0.004
+
+(1.05) (0.06)
+
+
+
+Buyer–Supplier Relationships and the Stakeholder Theory 2545
+
+
+Q −0.015 −0.010 −0.030 −0.011 −0.013 −0.009 −0.028
+(−6.91)∗∗∗ (−4.77)∗∗∗ (−4.70)∗∗∗ (−13.27)∗∗∗ (−4.25)∗∗∗ (−8.80)∗∗∗ (−5.17)∗∗∗
+
+
+Log(Sales) 0.028 0.037 0.043 0.014 0.046 0.019 0.036
+(3.62)∗∗∗ (4.17)∗∗∗ (2.83)∗∗∗ (4.05)∗∗∗ (4.68)∗∗∗ (6.04)∗∗∗ (2.70)∗∗∗
+
+∆FA/TA 0.137 0.269 −0.095 0.232 −0.002 0.149 0.098
+(2.29)∗∗ (3.92)∗∗∗ (−1.20) (9.57)∗∗∗ (−0.04) (5.81)∗∗∗ (1.45)
+
+
+ROA −0.049 −0.061 −0.048 −0.028 −0.037 −0.014 −0.099
+(−2.59)∗∗∗ (−3.03)∗∗∗ (−1.03) (−3.61)∗∗∗ (−1.38) (−1.56) (−2.88)∗∗∗
+
+
+R&D −0.018 −0.034 −0.018 −0.008 −0.013 0.007 −0.099
+(−0.33) (−0.64) (−0.06) (−0.56) (−0.35) (0.63) (−1.02)
+
+
+SGA −0.051 −0.042 −0.054 −0.027 0.023 −0.015 −0.060
+(−1.76)∗ (−1.22) (−0.84) (−2.91)∗∗∗ (0.97) (−1.95)∗ (−1.17)
+
+
+Dividend −0.010 −0.020 0.006 −0.006 0.023 0.012 −0.009
+(−1.05) (−1.65)∗ (0.51) (−0.92) (1.16) (1.40) (−0.57)
+
+
+S/A −0.047 −0.065 −0.032 −0.039 −0.128 −0.053 −0.054
+(−3.02)∗∗∗ (−3.53)∗∗∗ (−1.85)∗ (−7.40)∗∗∗ (−6.78)∗∗∗ (−7.28)∗∗∗ (−5.48)∗∗∗
+
+Constant −0.006 −0.010 −0.003 0.002 −0.007 −0.013 −0.007
+(−2.00)∗∗ (−1.99)∗∗ (−1.67)∗ (0.61) (−2.80)∗∗∗ (−6.00)∗∗∗ (−1.47)
+
+Number of Firms 390 218 172 1,867 256 1,096 361
+Observations 4,067 2,000 2,067 13,685 2,977 8,200 3,837
+
+
+
+2546 The Journal of Finance
+
+E. Endogeneity Tests on Purchases from Dependent Suppliers
+and Sales to Principal Customers
+
+The key right-hand side variables in our baseline regressions—purchases
+from dependent suppliers and sales to principal customers—could depend on
+firm attributes. As such, these variables could be correlated with the error
+terms in our baseline models, which might cause the parameters in our baseline
+models to be inconsistently estimated. To see whether or not ordinary least
+squares is a consistent estimator for our baseline models, we perform Davidson
+and MacKinnon’s (1993) augmented regression test. Our tests do not provide
+any evidence that the ordinary least square estimates of the baseline models
+are inconsistent.28
+
+F. Supplier Characteristics during and after Big Customer Relationship(s)
+Our findings imply that the lower leverages of both principal customers and
+
+suppliers are due to the destabilizing effect on suppliers of losing principal
+customers. In this section, we examine whether the termination of relation-
+ships with principal customers has a significant impact on the supplier firms.
+We compare the average supplier firm characteristics during the years that a
+supplier reported sales to a particular category of principal customers (i.e., gov-
+ernment or nongovernment), and during the 3 years immediately following the
+termination of such relationships.29 In Table XIV, we report the univariate re-
+sults for comparison. We find that 3-year averages of investment over net fixed
+assets, sales growth (beginning 1 year after the relationship terminates),30 and
+market-to-book equity show declining trends after the end of nongovernment
+big customer relationships in both the durable and the nondurable sectors. Alt-
+man’s Z score also falls in both these sectors after the end of nongovernment
+big customer relationships. These results confirm that the loss of principal cus-
+tomers has an adverse effect on supplier firms. However, while the declines in
+investment over assets, sales growth, and market-to-book are sharper for the
+durable sector compared to the nondurable sector, the declines in the Z-scores
+are similar. This is consistent with the idea that the suppliers in the durable
+goods industries adjust their leverage in advance to attenuate the financial dis-
+tress costs. It is also noteworthy that we do not see any corresponding declines in
+investment, sales growth, etc. for government principal customers after the end
+of a relationship. This is consistent with the argument that government princi-
+pal customers are unlikely to terminate relationships when such terminations
+
+28 These tests are not reported in a table, but are available on request.
+29 We require a firm to report sales to principal customers for at least 2 consecutive years. We
+
+also examine the firm characteristics 3 years before the relationship but do not find particularly
+remarkable differences.
+
+30 We consider sales growth beginning 1 year after the end of a relationship because sales growth
+in the year immediately after the relationship ends will reflect the loss of the principal customer’s
+business.
+
+
+
+Buyer–Supplier Relationships and the Stakeholder Theory 2547
+
+Table XIV
+Univariate Comparisons of Firm Characteristics after and during
+
+Big-Customer Relationships
+We compare average values of firm characteristics during the length of a principal customer re-
+lationship that lasts for at least 2 consecutive years (labeled “During average”), with the 3-year
+average immediately after the end of the relationship (labeled “Post average”). Means are reported
+in the upper row, and medians in the lower row. We perform a paired t-test of the means (upper
+row) and the Wilcoxon matched-pairs signed-rank test of the medians (lower row) for the null hy-
+pothesis that post-average minus during-average = 0. In Part I, we report these tests for suppliers
+of nongovernment big customers in the durable goods sectors and nondurable goods sectors sepa-
+rately. In Part II, we report the results for suppliers of government big customers. ∗∗∗ (∗∗,∗) denotes
+significance at the 1% (5%, 10%) level.
+
+Part I: Average Supplier Characteristics during and after
+Nongovernment Big Customer Relationship(s)
+
+(A) Durable (B) Nondurable
+Manufacturing Sector Manufacturing Sector
+
+Firm Post During t-Value Post During t-Value
+Characteristics Average Average (z-Value) Obs. Average Average (z-Value) Obs.
+
+Investment-to-Net 0.414 0.536 −4.461∗∗∗ 317 0.321 0.394 −2.095∗∗ 200
+Fixed Assets 0.306 0.367 (−4.884∗∗∗) 0.242 0.241 (−1.717∗)
+
+Total Sales 0.123 0.275 −4.934∗∗∗ 213 0.104 0.178 −1.712∗ 134
+Growtha 0.099 0.128 (−4.842∗∗∗) 0.068 0.071 (−1.136)
+
+Nonbig-Buyer 0.138 0.310 −3.633∗∗∗ 213 0.118 0.194 −1.589∗∗ 131
+Sales Growth 0.102 0.132 (−3.101∗∗∗) 0.074 0.073 (−0.377)
+
+Selling, Gen. & 0.345 0.340 0.354 345 0.265 0.272 −0.297 217
+Admin. Exp. 0.306 0.284 (2.054∗∗) 0.184 0.170 (−3.005∗∗∗)
+
+Market-to-Book 1.802 2.079 −4.200∗∗∗ 288 1.978 2.071 −1.123 188
+Assets 1.378 1.634 (−4.810∗∗∗) 1.368 1.430 (−1.857∗)
+
+Market-to-Book 2.274 2.702 −3.414∗∗∗ 288 2.410 2.819 −2.690∗∗∗ 179
+Equity 1.701 2.088 (−4.705∗∗∗) 1.757 2.006 (−2.725∗∗∗)
+
+Stock Returns 0.093 0.148 −1.634∗ 266 0.179 0.102 1.807∗ 162
+0.052 0.096 (−2.194∗∗) 0.135 0.072 (1.981∗∗)
+
+Altman’s Z-score 11.188 13.342 −4.142∗∗∗ 291 9.534 12.319 −3.625∗∗∗ 177
+(1993) 9.566 10.501 (−4.755∗∗∗) 7.786 8.653 (−3.292∗∗∗)
+
+(continued)
+
+could have serious consequences for the supplier.31 Overall, the evidence of an
+adverse impact of the termination of a principal customer relationship is sup-
+portive of the hypothesis that the low leverage of dependent suppliers is due to
+the suppliers’ concerns about demand stability.
+
+G. Robustness Checks
+Our results so far indicate that stakeholder relationships have economically
+
+and statistically significant effects on the capital structure of the involved firms
+31 For this to be true, it must either be the case that even though no sales to the government are
+
+reported that exceed 10% of overall sales, the government does not withdraw totally, or that the gov-
+ernment only withdraws when the firm is experiencing rapid sales growth to other (nonprincipal)
+customers.
+
+
+
+2548 The Journal of Finance
+
+Table XIV—Continued
+
+Part II: Average Supplier Characteristics during
+and after Government Big Customer Relationship(s)
+
+Manufacturing Sector (Both Durable and Nondurable)
+
+Firm Post During t-Value
+Characteristics Average Average (z-Value) Obs.
+
+Investment-to-total 0.406 0.492 −2.424∗∗ 250
+Net Fixed Assets 0.305 0.319 (−2.589∗∗∗)
+
+Total Sales Growth 0.151 0.191 −1.184 188
+0.104 0.087 (−0.300)
+
+Nonbig-Buyer 0.183 0.165 0.431 186
+Sales Growth 0.107 0.065 (1.355)
+
+Selling, Gen. & 0.339 0.323 0.714 305
+Admin. Exp. 0.259 0.245 (2.509∗∗)
+
+Market-to-Book 2.268 2.306 −0.440 232
+Assets 1.621 1.735 (−0.791)
+
+Market-to-Book 3.009 3.306 −1.606 222
+Equity 2.115 2.372 (−1.732∗)
+
+Stock Returns 0.148 0.128 0.499 190
+0.096 0.061 (0.972)
+
+Altman’s Z-score 12.098 13.252 −1.436 228
+(1993) 9.279 9.681 (−1.404)
+
+aFor total sales growth and nonbig customer sales growth, our starting period is 1 year after the
+relation terminates. As a result, the number of observations is smaller.
+
+when they are in durable goods industries, but not when they are in nondurable
+goods industries. Since bigger firms, such as principal customer firms, are likely
+to operate in many industry segments, the question may arise as to the extent to
+which this industry classification accurately describes the firms in our sample.
+
+It turns out that very few manufacturing firms have a substantial part of
+their sales in both durable and nondurable industries. Only 5% of the firms in
+our sample have sales in excess of 20% of their overall sales in both types of in-
+dustries. Redefining firms in durable (nondurable) goods industries to be those
+that have at least 90% of their sales in durable (nondurable) goods industries
+does not qualitatively change the results (not reported in a table).
+
+Since Compustat only tracks four principal customers per business seg-
+ment, there may be a concern that our identification of principal customers
+could be subject to a censoring bias. To mitigate this concern, we reestimate
+the regressions for supplier firms for whom three or less principal customers
+are reported per business segment. Again, our results (not reported) remain
+unchanged.
+
+Finally, there could be some concern that stakeholder relationships are asso-
+ciated with some inherent volatility of sales or risk, and the effect on debt ratios
+could be picking up this effect. We repeat our estimations with the coefficient
+of variation of sales as a control variable. Once again, our results continue to
+hold.
+
+
+
+Buyer–Supplier Relationships and the Stakeholder Theory 2549
+
+V. Conclusion
+In spite of a variety of anecdotal evidence and a well-developed theoretical
+
+literature, there are few large-sample studies of how nonfinancial stakeholder
+relationships affect firms’ capital structure decisions. This paper attempts to
+partially fill this gap by examining how supplier and customer relationships
+affect the capital structure decisions of firms in the Compustat database. Stake-
+holder relationships involve relationship-specific investments by the firm and
+its stakeholders that affect firm value. Titman (1984) is the first to point out
+that one reason capital structure decisions can affect firm value is that the
+incentive of any one party to make relationship-specific investments is likely
+to depend on the liquidation likelihood of the other party. This paper tests and
+finds support for two hypotheses related to this idea. First, we show that the
+debt ratio of firms in durable goods industries (where specific investment is im-
+portant) is decreasing in the importance of purchases from suppliers who are
+dependent on these firms for a major part of their sales. Second, we show that
+suppliers in durable goods industries maintain lower debt ratios if they depend
+on relatively few customers for a major proportion of their sales. The economic
+magnitudes of these stakeholder effects on capital structure are substantial,
+and suggest that further research in this area should be worthwhile.
+
+Appendix A: Customer- and Supplier-Related Variables
+
+Dependent Supplier-related Variables:
+Purchases/COGS All identified Total supply from all Compustat-listed manufacturing
+
+suppliers sector suppliers as a proportion of Cost of Goods Sold of
+the customer.
+
+Purchases/COGS Durable suppliers Total supply from all durable manufacturing sector
+suppliers (SIC from 3400 to 3990) as a proportion of Cost
+of Goods Sold of the customer.
+
+Purchases/COGS Nondurable Total supply from all nondurable manufacturing sector
+suppliers: suppliers (SIC from 2000 to 3400) as a proportion of Cost
+
+of Goods Sold of the customer.a
+
+Big Customer-Related Variables:
+BIGALL Proportion of sales to all big customers.b
+BIGNONGOV Proportion of sales to all of the firm’s big customers
+
+identified as Compustat firms, private companies or
+unidentified. Private companies are identified from
+Academic Universe and they include companies listed
+elsewhere but not included in Compustat.
+
+BIGGOVT Proportion of sales to all big customers identified as
+government agencies.c
+
+aPurchases/COGS–Durable suppliers and Purchases/COGS–Nondurable suppliers add up to
+Purchases/COGS–All identified suppliers.
+bAll the components of sales to various categories of big customers are expressed as proportions of
+the firm’s total (net) sales. A reported customer is considered “big” if it accounts for at least 10%
+of total (net) sales of the firm.
+cBIGNONGOV and BIGGOVT add up to BIGALL.
+
+
+
+2550 The Journal of Finance
+
+Table AI
+Industry-wise Distribution of Sample Firms
+
+Number of Firm-Years That Number of Firm-
+Two-Digit Reported Big Customers Years in Compustat
+Sic Code Industry Description (1979–1997) (1979–1997)
+
+2,000 Food and Kindred products 772 3,781
+2,100 Tobacco products 19 229
+2,200 Textile Mill products 452 1,339
+2,300 Apparel & other finished products 604 1,574
+2,400 Lumber and Wood Pds. Ex. Furn. 188 1,178
+2,500 Furniture and Fixture 282 1,069
+2,600 Paper and Allied Products 332 1,848
+2,700 Printing Publishing and Allied 379 2,579
+2,800 Chemicals and Allied 2,635 8,823
+2,900 Petroleum refining and related Inds. 125 1,080
+3,000 Rubber & Misc. plastic products 828 2,233
+3,100 Leather and Leather products 206 459
+3,200 Stone, clay, glass, concrete pds. 276 1,288
+3,300 Primary metal industries 696 2,641
+3,400 Fabr. Metal ex.machy, Trans. Eq. 974 3,150
+3,500 Inds. Comml Machy,, Computer Eq. 3,703 10,350
+3,600 Electr. Oth. Elec. Eq. ex. Cmp. 4,977 10,870
+3,700 Transportation Equipment 1,396 3,435
+3,800 Measr. Instr. Photo Gds. Watches 3,313 9,233
+3,900 Misc Manufacturing Industries 628 1,829
+Total 22,785 68,988
+
+Appendix B: Other Firm Characteristic Variables
+
+Compustat Annual
+Variable Name Description Data Item Number
+
+LDMt Total Long-term Debt/(Total Debt + Market Value of Item9/[Item6-Item60 +
+Equity) (Item199 ∗ Item25)]
+
+LDBt Total Long-term Debt/(Book Value of Total Assets) Item9/Item6
+Q (Market Value of Equity + Total Liabilities)/ Book Value [(Item199 ∗ Item25) + Item6 -
+
+of Assets Item216]/(Item181+Item216)
+Log(Sales) Natural logarithm of Total Sales (Net). Log(Item12)
+Total Assets Total Liabilities and Stockholders’ Equity Item6
+FA/TA [Total Fixed Assets (Net)]/ Total Assets Item8/Item6
+ROA Return on Assets Item18/Item6
+Margin (Sales(Net)—Cost of Goods Sold)/ Sales(Net) (Item12- Item41)/Item12
+AGE Number of years the firm has remained in Compustat
+R&D (Research and Development Expense)/Total Sales (Net) Item46/Item12
+SGA (Selling, General and Administrative Expenses)/ Total Item189/Item12
+
+Sales (Net)
+Dividend Dummy that is equal to one if the firm pays a common Dummy variable based on Item
+
+dividend in the particular year; otherwise, zero 21
+S/A [Total Sales(Net)]/(Total Assets) Item12/Item6
+CV(Sales) Coefficient of variation of Total Sales (Net) based on past SD(Item12)/mean(Item 12)
+
+5 years’ data
+Advert Advertising Expense/ Total Sales (Net) Item45/Item12
+Intang (Intangibles)/(Total Assets) Item33/Item6
+STDE Standard deviation of a firm’s operating income before SD (Item 13)
+
+depreciation, calculated using all available years
+between 1979 and 1997
+
+
+
+Buyer–Supplier Relationships and the Stakeholder Theory 2551
+
+REFERENCES
+Arellano, Manuel, and Stephen Bond, 1991, Some tests of specification for panel data: Monte Carlo
+
+evidence and an application to employment equations, Review of Economic Studies 58, 277–
+291.
+
+Banerjee, Shantanu, Sudipto Dasgupta, and Yungsan Kim, 2004, Buyer-supplier relationships and
+trade credit, Working paper, Hong Kong University of Science and Technology.
+
+Broners, Stephen G., and Donald R. Deere, 1991, The threat of unionization, the use of debt, and
+the preservation of shareholder wealth, Quarterly Journal of Economics 56, 231–254.
+
+Campello, Murillo, and Zsuzsanna Fluck, 2007, Product market performance, switching costs and
+liquidation values: The real effects of financial leverage, Working paper, University of Illinois
+at Urbana-Champaign.
+
+Chevalier, Judith, 1995, Capital structure and product market competition: Empirical evidence
+from the supermarket industry, American Economic Review 85, 415–435.
+
+Chevalier, Judith, and David Scharfstein, 1996, Capital-market imperfections and counter-cyclical
+markups: Theory and evidence, American Economic Review 86, 703–725.
+
+Dasgupta, Sudipto, and Yungsan Kim, 1997, Vertical buyer-supplier relationships and capital struc-
+ture, Working paper, Hong Kong University of Science and Technology.
+
+Dasgupta, Sudipto, and Kunal Sengupta, 1993, Sunk investment, bargaining and the choice of
+capital structure, International Economic Review 3, 203–220.
+
+Dasgupta, Sudipto, and Sheridan Titman, 1998, Pricing strategy and financial policy, Review of
+Financial Studies 11, 705–737.
+
+Davidson, Russell, and James G. MacKinnon, 1993, Estimation and Inference in Econometrics
+(Oxford University Press, New York).
+
+Demirgüç-Kunt, Asli, and Vojislav Maksimovic, 1999, Institutions, financial markets and firm debt
+maturity, Journal of Financial Economics 54, 295–336.
+
+Fee, C. Edward, Charles J. Hadlock, and Shawn Thomas, 2006, Corporate equity ownership and
+the governance of product market relationships, Journal of Finance 61, 1217–1250.
+
+Fee, C. Edward, and Shawn Thomas, 2004, Sources of gain in horizontal mergers: Evidence from
+customers, suppliers, and rival firms, Journal of Financial Economics, 423–460.
+
+Grinblatt, Mark, and Sheridan Titman, 2002, Financial Markets and Corporate Strategy (McGraw-
+Hill Education, New York).
+
+Henessy, Christopher A., 2007, Debt, bargaining, and credibility in firm-supplier relationships,
+Working paper, University of California, Berkeley.
+
+Joskow, Paul L., 1988, Asset specificity and the structure of vertical relationships: Empiri-
+cal test of transaction cost analysis, Journal of Law, Economics and Organization 4, 121–
+139.
+
+Kale, J., and H. Shahrur, 2004, Capital structure and the characteristics of supplier and customer
+markets, 2004 FMA Annual Meetings.
+
+Kale, Jayant R., and Husayn Shahrur, 2007, Corporate capital structure and the characteristics of
+supplier and customer markets, Journal of Financial Economics 83, 321–365.
+
+Kalwani, Manohar U., and Narakesari Narayandas, 1995, Long-term manufacturer-supplier rela-
+tionships: Do they pay off for supplier firms? Journal of Marketing 59, 1–16.
+
+Kayhan, Ayla, and Sheridan Titman, 2007, Firms’ histories and their capital structures, Journal
+of Financial Economics 83, 1–32.
+
+Kim, Yungsan, 1996, Big customers, selling expenses and profit margin, Journal of Economic Re-
+search 1, 311–326.
+
+Leary, Mark T., and Michael R. Roberts, 2005, Do firms rebalance their capital structures? Journal
+of Finance 60, 2575–2619.
+
+Maksimovic, Vojislav, and Sheridan Titman, 1991, Financial policy and reputation for product
+quality, Review of Financial Studies 2, 175–200.
+
+Opler, Tim C., and Sheridan Titman, 1994, Financial distress and corporate performance, Journal
+of Finance 49, 1015–1040.
+
+Perotti, Enrico, and Kathryn E. Spier, 1993, Capital structure as a bargaining tool: The role of
+leverage in contract renegotiation, American Economic Review 83, 1131–1141.
+
+
+
+2552 The Journal of Finance
+
+Strebulaev, Ilya A., 2007, Do tests of capital structure theory mean what they say? Journal of
+Finance, 62, 1747–1787.
+
+Strebulaev, Ilya A., and Baozhong Yang, 2006, The mystery of zero-leveraged firms, Working paper,
+Stanford University.
+
+Titman, Sheridan, 1984, The effect of capital structure on a firm’s liquidation decision, Journal of
+Financial Economics 13, 137–151.
+
+Titman, Sheridan, and Roberto Wessels, 1988, The determinants of capital structure choice, Jour-
+nal of Finance 43, 1–19.

@@ -1,0 +1,1746 @@
+﻿Journal of Business Research 110 (2020) 327–346
+
+Contents lists available at ScienceDirect
+
+Journal of Business Research
+journal homepage: www.elsevier.com/locate/jbusres
+
+Customer concentration and stock price crash risk T
+Sang Mook Leea,⁎, Pornsit Jiraporna, Hakjoon Songb
+
+a Pennsylvania State University Great Valley, United States
+b California State University Dominguez Hills, United States
+
+A R T I C L E I N F O A B S T R A C T
+
+Keywords: We investigate the impact of customer concentration on stock price crash risk. Customer concentration may
+Corporate customer concentration represent a source of significant cash flow and business risk for supplier firms or benefit supplier firms in terms of
+Government customer concentration efficient product, inventory and supply chain management. Using a large sample of firms for the period
+Stock price crash risk 1977–2016, we find that corporate customer concentration is positively associated with stock price crash risk.
+Customer switching cost We find, however, that government customer concentration is negatively associated with stock price crash risk.
+Information asymmetry
+
+Further analyses demonstrate that our results are robust to potential endogeneity and reverse causality concerns.
+JEL Classification: In the cross-sectional analyses, we find that the likelihood that a supplier firm with a concentrated customer base
+G12 experiences higher crash risk is attenuated by lower switching cost and is accentuated when the degree of
+G14 information asymmetry is high.
+M41
+
+1. Introduction concentration and stock price crash risk of a supplier firm. Specifically,
+we first examine whether corporate customer concentration of a sup-
+
+An important risk factor that influences a firm’s ability to generate plier firm is associated with its future stock price crash risk. Second, we
+current and future cash flow is the concentration of its customer base. further examine how this customer concentration-stock price crash risk
+According to the Statement of Financial Accounting Standards (SFAS) association is different when the customers are affiliated with the
+No. 131, firms are required to disclose information about their custo- government.
+mers1 who individually represent more than 10% of the firm’s revenues Stock price crash risk refers to the likelihood that an abrupt, large-
+(hereinafter “major customers”), reflecting the view that customer scale decline in a firm’s stock price could occur, and is typically char-
+concentration is a significant source of a firm’s operational risk. On the acterized by the third moment of firm-specific return distribution or the
+one hand, a supplier firm2 with higher customer concentration would conditional skewness of distribution of firm-specific returns after net-
+face relatively high volatility of current and future cash flows and other ting out common (market-wide and/or industry-wide) factors. The
+business risks (Dhaliwal, Judd, Serfling, & Shaikh, 2016; Dhaliwal, prominent predictor of stock price crash risk is the managerial tendency
+Michas, Naiker, & Sharma, 2019; Huang, Lobo, Wang, & Xie, 2016). to withhold bad news from outside investors. However, managers can
+This is because supplier cash flows rely excessively on a few con- hide and accumulate bad news within the firm only up to a certain
+centrated customers, which makes it difficult for the supplier to di- threshold. When the hidden bad news accumulated over time reaches a
+versify the associated operational risk. On the other hand, such supplier tipping point beyond which the cost of hiding that same bad news ex-
+firms would be better able to reduce inventory cost and improve the ceeds the associated benefit, managers are forced to exercise an aban-
+efficiency in working capital management. This is because customer donment option, which results in all the hidden, accumulated bad news
+concentration allows for more stable customer-supplier relationships to come out all at once. As a result, we observe an abrupt, large-scale
+and thus helps to reduce the information asymmetry that may exist decline in firm-specific return or a stock price crash (Jin & Myers,
+along the supply chain (Kalwani & Narayandas, 1995; Patatoukas, 2006).
+2012). On the one hand, corporate customer concentration can increase the
+
+In this study, we investigate the association between customer likelihood of stock price crash occurrence or simply, stock price crash
+
+⁎ Corresponding author.
+E-mail addresses: sxl65@psu.edu (S.M. Lee), pxj11@psu.edu (P. Jiraporn), hsong@csudh.edu (H. Song).
+
+1 Major customers can refer to either major corporate customers or major government customers throughout the paper, depending on the type of customers.
+2 We use ‘a supplier firm’ and ‘a supplier’ interchangeably throughout the paper.
+
+https://doi.org/10.1016/j.jbusres.2020.01.049
+Received 30 June 2019; Received in revised form 22 January 2020; Accepted 23 January 2020
+Available online 29 February 2020
+0148-2963/ © 2020 Elsevier Inc. All rights reserved.
+
+
+
+S.M. Lee, et al. Journal of Business Research 110 (2020) 327–346
+
+risk. First, a supplier firm with a concentrated corporate customer base, deviation of firm-specific abnormal weekly returns of the down weeks,
+who relies typically on a few major customers, faces significant business compared to those of the up weeks.
+and cash flow risks, if any major customer becomes distressed or Our findings based on the sample of 131,505 firm-year observations
+switches to a different supplier, or internally develops products (13,612 supplier firms) for the years 1977–2016 are as follows. First,
+(Dhaliwal et al., 2016, 2019; Huang et al., 2016). Further, a supplier we find that the corporate customer concentration of a supplier firm is
+firm with a concentrated corporate customer base has a greater ten- positively associated with its future stock price crash risk, and that this
+dency to engage in relationship-specific investments (Banker, Byzalov, association is robust to the use of alternative measures of corporate
+& Plehn-Dujowich, 2014; Kang, Mahoney, & Tan, 2009). Such invest- customer concentration and stock price crash risk. Second, we find that
+ments are, in general, risky, particularly when the supplier-customer government customer concentration is negatively associated with stock
+relationship becomes unstable or adversely affected by uncontrollable price crash risk and that this association is also robust to the use of
+external factors. In addition, the relationship-specific investments are alternative measures of government customer concentration and stock
+more likely to involve negative net present value (NPV) projects that price crash risk. Our findings suggest that a supplier firm with a highly
+entail short-term losses and are difficult to abandon (Irvine, Park, & concentrated corporate customer base is more vulnerable to business
+Yildizhan, 2016). A supplier with a concentrated corporate customer and cash flow risks and that its managers are therefore likely in-
+base has greater business and cash flow risks, and in this vein, is likely centivised to engage in earnings management to manage corporate
+to experience a high level of bad news hoarding, leading to stock price customers' perceptions, which leads to increased bad news hoarding
+crash risk in the future. Second, such a supplier firm may have incentive and subsequent heightened stock price crash risk. However, a supplier
+to manage earnings upward to maintain its business relationships with firm with more stable and less risky government customers is less
+major customers having a bargaining advantage (Raman & Shahrur, vulnerable to business and cash flow risks and its managers are there-
+2008). Furthermore, the supplier may have incentive to manage these fore less likely to hoard bad news, which lowers their stock price crash
+major customers’ perceptions, particularly adverse perceptions, of its risks.
+ability to generate future cash flows and manage business risk In addition, we examine cross-sectional differences in the associa-
+(Dhaliwal et al., 2016; Huang et al., 2016). As a result, managers of tion between corporate customer concentration and stock price crash
+such supplier firms are more likely to engage in earnings management risk. First, when major corporate customers can easily switch supplier
+and bad news hoarding to manage major customers’ expectations, firms at a low cost, major corporate customers can act as an additional
+which in turn increases its future stock price crash risk. external monitoring mechanism and managers of the supplier firm
+
+On the other hand, corporate customer concentration can decrease which relies on a few major corporate customers are more likely to
+stock price crash risk. First, a supplier firm’s reliance on a few major disclose information in a timely manner and are less able to hoard bad
+customers may lead to a more efficient supplier-customer relationship news. Alternatively, low switching costs make it easier for major cus-
+and thus improve its financial performance (Irvine et al., 2016; tomers to switch their suppliers and thereby increase the business and
+Patatoukas, 2012). This decreases the business and cash flow risks faced cash flow risks of the suppliers and their subsequent bad news
+by the supplier firm and bad news hoarding, which in turn contributes hoarding, resulting in increased stock price crash risks. To test this
+to lowering its future stock price crash risk. Second, a supplier firm with notion, we construct an interaction variable between corporate cus-
+major corporate customers should be more responsive to the demand tomer concentration and low switching cost, which is an indicator
+for higher quality accounting practices and conservative accounting variable that equals 1 if a supplier firm’s market share is below the
+practices that facilitate external monitoring of the supplier firm by median market share of all firms excluding the supplier firm in the same
+those major customers (Hui, Klasa, & Yeung, 2012). Given that ac- 2-digit SIC industry in a given year, and 0 otherwise. We then conduct
+counting conservatism reduces stock price crash risk (Kim & Zhang, regression analyses and find that the likelihood of a supplier firm with a
+2016), as it deters bad news hoarding and overinvestment, a supplier concentrated corporate customer base having a higher stock price crash
+firm with a concentrated corporate customer base is likely to experience risk is attenuated when major corporate customers face lower costs of
+a lower level of crash risk. switching suppliers, suggesting that a supplier firm with a concentrated
+
+In contrast to corporate customer concentration at a general level, corporate customer base is less likely to hoard unfavourable news when
+we argue that suppliers’ reliance on government or government-related major corporate customers have a lower switching cost, leading to
+customers decreases stock price crash risk. This is because business with lower stock price crash risks overall.
+government customers, which is typically characterized by long-term Second, the detrimental effect of corporate customer concentration
+contractual relationships and cost-plus pricing, has a very low downside of a supplier firm on its future stock price crash risk may be more
+risk such as bankruptcy risk, and can thus provide suppliers with stable pronounced when the supplier firm is subject to greater information
+cash flows (Irvine et al., 2016; Patatoukas, 2012). Thus, the stable cash asymmetry. To test this notion, we construct an interaction variable
+flow and reduced business risk related to business with a concentrated between corporate customer concentration and low information
+government customer base contribute to lowering the bad news asymmetry. We measure the information asymmetry using analyst
+hoarding and the stock price crash risk of the supplier firm. forecast dispersion. Specifically, we create an indicator variable that
+
+Following the Statement of Financial Accounting Standards No. 14 equals 1 if the dispersion of annual EPS forecasts by financial analysts
+(SFAS 14) and prior studies (Dhaliwal et al., 2016; Patatoukas, 2012), following a supplier firm is below the 2-digit SIC industry median dis-
+we construct three measures to capture the degree of a supplier firm's persion in a given year, and 0 otherwise. We find that the detrimental
+customer concentration: (1) an indicator variable which has a value of 1 impact of corporate customer concentration on future stock crash risk is
+if a supplier firm reports at least one customer who accounts for more more pronounced for supplier firms with higher information asym-
+than 10% of its annual revenues; (2) the sales-based Herfindahl- metry.
+Hirschman Index as the sum of the squares of the ratios of supplier firm We conduct propensity score matching analyses to estimate causal
+revenues from major customer to its total revenues; and (3) the fraction treatment effects and the results using the PSM subsample corroborate
+of a supplier firm's annual revenues that are accounted for by all major the conclusion that corporate customer concentration leads supplier
+customers. For firm-specific measures of stock price crash risk, we also firms to experience greater stock price crash. It is possible that our main
+follow prior research (e.g., Hutton, Marcus, & Tehranian, 2009; Kim results might be driven by certain unobservable firm characteristics
+et al., 2011a, 2011b): (1) an indicator variable which has a value of 1 if which are omitted in the models. To mitigate the effect of the omitted-
+we observe at least one crash week during a year; (2) the negative of the variable bias, we estimate the firm fixed-effect model in place of the
+ratio of the third moment to the standard deviation cubed of firm- industry fixed effects. Results obtained with the firm fixed-effect model
+specific abnormal weekly returns; and (3) the Log Ratio of the standard are mostly consistent with our main results. Thus, our results are not
+
+328
+
+
+
+S.M. Lee, et al. Journal of Business Research 110 (2020) 327–346
+
+likely to be driven by unobservable and time-invariant firm character- concentration and suppliers’ stock returns and suggest that changes in
+istics which can be omitted. Furthermore, in order to mitigate en- customer concentration are incrementally informative to investors,
+dogeneity that can be attributed to reverse causality and unobserved when setting stock prices.3 In contrast, Dhaliwal et al. (2016) document
+heterogeneity, we conduct an instrumental-variable (IV) analysis. that suppliers with a concentrated customer base have a higher cost of
+Following prior studies (Hilary & Hui, 2009; Kumar, Page, & Spalt, equity. To our knowledge, however, prior research has paid little at-
+2011) that use an earlier year’s value of their focal explanatory variable tention to the effect of customer concentration on future stock price
+as an IV, we employ customer concentration in the earliest year for each crash risk. As a result, little is known about whether and how suppliers’
+firm as our IV assuming that it affects customer concentration in any crash risk is influenced by the extent of their corporate customer con-
+subsequent years of the same firm (relevance condition), but could centration. Unlike the above two studies which focus on the first mo-
+influence the firm’s stock crash risk in subsequent years only through its ment of return distribution, i.e., stock return performance and cost of
+impact on subsequent years’ customer concentration (exclusion condi- equity, our study focuses primarily on the effect of customer con-
+tion). As an additional IV, we utilise the average corporate customer centration on stock price crash risk, which is the conditional skewness
+concentration in the same U.S. county, excluding firm i because firms in or extreme negative tail risk of stock return distribution (third moment).
+the same area should attract similar customers and exhibit similar As such, our study contributes to the existing literature on customer
+customer concentration (relevance condition), but do not affect the concentration and sheds light on the economic consequences of cus-
+future stock crash risk (exclusion condition). Our IV analysis confirms tomer concentration in the context of its impact on stock price crash
+that greater corporate customer concentration leads to higher stock risk.
+price crash risk. It can be claimed that our results could pick up an Furthermore, recent literature investigates various determinants of
+indirect effect of corporate customer concentration via corporate tax future stock price crash risk. This literature has documented that
+avoidance on stock crash risk. To address this issue, we establish the opaque financial reporting, executive equity incentives, CEO over-
+mediation models where we employ OLS regressions where two of the confidence, corporate tax avoidance, and transient institutional own-
+stock crash risk measures (DUVOL and NCSKEW) are regressed on each ership are positively associated with firm-specific stock price crash risk,
+corporate customer concentration measure while corporate tax avoid- while it decreases with accounting conservatism, corporate social re-
+ance behaviour is included as a mediating variable. We find that cor- sponsibility, industry-specialist auditors, the adoption of International
+porate customer concentration is a direct determinant of stock crash Financial Reporting Standards, religiosity, and financial statement
+risk, rather than a mere reflection of its indirect effect via corporate tax comparability (Hutton et al., 2009; Kim et al., 2011a, 2011b; An &
+avoidance. Zhang, 2013; Kim, Li, & Li, 2014; Callen & Fang, 2015; Robin & Zhang,
+
+Our paper differs from the concurrent paper (Chen, Hu, Yao, & 2015; DeFond, Hung, Li, & Li, 2015; Kim, Li, Li, & Yu, 2016a; Kim,
+Zhao, 2018) in several aspects. First, we hypothesize a negative relation Wang, & Zhang, 2016b; Kim & Zhang, 2016). We contribute to the stock
+between government customers and stock price crash risk and find that price crash risk literature by showing that customer concentration is an
+the suppliers’ reliance on government or government-related customers important determinant of the future stock price crash risk of supplier
+decreases stock price crash risk due to the low downside risk of gov- firms, along the supplier chain.
+ernmental customers. Second, we develop hypotheses based on business The paper proceeds as follows. In Sections 2 and 3, we review the
+risk and accounting quality in a more organized manner. This differs relevant literature and develop our research hypotheses. In Section 4,
+from Chen, Hu, Yao, and Zhao (2018) who developed their hypothesis we discuss our research design. In Section 5, we present the empirical
+based only on earnings quality. Our study develops hypotheses using results. Section 6 concludes the paper.
+both earnings quality and business risk. That is, we clearly and sepa-
+rately frame our argument around how the business risk associated with 2. Literature review
+customer concentration affects stock crash risk and how the earnings
+quality incentives induced by customer concentration affect stock price 2.1. Customer concentration
+crash risk.
+
+Third, our cross-sectional analyses investigate how the detrimental Relying heavily on a few major customers for a large portion of sales
+relationship between corporate customer concentration and stock price can be risky for suppliers. First, if any major customer becomes finan-
+crash risk differs when major corporate customers can easily switch cially distressed or switches to a different supplier, or develops product
+their supplier firms at a low cost and that the supplier firm is subject to internally, a supplier firm can lose significant sales from this major
+greater information asymmetry whereas Chen et al.(2018) analyse the customer, which could in turn lead to a huge decline in the suppliers’
+cross-sectional effects on durable goods and high R&D expenses. cash flow (Dhaliwal et al., 2016, 2019; Huang et al., 2016). Consistent
+Fourth, following Chen, Hong, and Stein (2001), we use the down-to-up with this reasoning, prior studies (Hertzel, Li, Officer, & Rodgers, 2008;
+volatility (DUVOL) as an additional stock crash risk measure, given that, Kolay, Lemmon, & Tashjian, 2016) document that suppliers experience
+unlike other stock crash risk measures, DUVOL is less likely to be overly negative abnormal returns in response to any declaration of bankruptcy
+influenced by a handful of extreme weekly returns because it measures from their major customers. Second, suppliers can face the risk of losing
+return asymmetries that do not involve third moments of weekly re- future cash flows from any inability to collect outstanding receivables if
+turns. Lastly, we demonstrate that corporate customer concentration major customers become bankrupt (Dhaliwal et al., 2016). This notion
+acts as a direct determinant of stock price crash risk, rather than as a is consistent with the evidence that a supplier offering its major cus-
+mere reflection of its indirect effect via corporate tax avoidance. tomers more trade credit experiences greater abnormal negative ab-
+
+This study contributes to the current body of literature in several normal returns in response to any declaration of bankruptcy an-
+ways. Recent studies investigate how customer concentration affects nouncement from a major customer (Jorion & Zhang, 2009; Kolay et al.,
+suppliers' financial policy (Banerjee, Dasgupta, & Kim, 2008; Itzkowitz, 2016). Third, a supplier firm can be exposed to higher potential busi-
+2013), performance and risk (Campello & Gao, 2017; Dhaliwal et al., ness risk even when the supplier firm is able to keep financially stable
+2016; Gosman, Kelly, Olsson, & Warfield, 2004; Kalwani & Narayandas, major customers. Major customers, who are naturally powerful players
+1995; Patatoukas, 2012), financial reporting quality (Hui et al., 2012; within the supply chain, are likely to demand stricter requirements and
+Raman & Shahrur, 2008), and auditor decision making (Dhaliwal et al., unique designs for their products, when compared to diversified non-
+2019; Krishnan, Patatoukas, & Wang, 2019). Particularly, some studies
+examine the association between customer concentration and stock
+market performance and risk. Patatoukas (2012) and Irvine et al. 3 The sample of Patatoukas (2012) excludes firms with negative operating
+(2016) show a positive association between changes in customer earnings whereas that of Irvine et al. (2016) includes such firms.
+
+329
+
+
+
+S.M. Lee, et al. Journal of Business Research 110 (2020) 327–346
+
+major customers. In this environment, a supplier firm may have to in- hypothesis related to the association between corporate customer
+vest heavily in relationship-specific assets whose alternative use is concentration and future stock price crash risk. On the one hand, cor-
+limited (Dhaliwal et al., 2019). Furthermore, major customers with porate customer concentration can increase stock price crash risk for
+strong bargaining power are likely to extract significant price conces- the following reasons. First, a supplier firm with major corporate cus-
+sions and trade credit extensions from suppliers, which may lead to a tomers faces significant business and cash flow risks, if any major
+significant decrease in supplier profitability (Schumacher, 1991; corporate customer becomes distressed or switches to a different sup-
+Snyder, 1996). Fourth, a supplier with high customer concentration can plier. In addition, a supplier firm with a concentrated corporate cus-
+face higher demand uncertainty and higher fixed-cost structure (lower tomer base tends to engage in relationship-specific investments because
+cost elasticity) which leads to an increase in operating risk (Irvine et al., managers of the supplier firm have foresight regarding the potential
+2016). This occurs because they could face greater exposure to demand benefits of making such investments (i.e., increase in demand from a
+shocks generated by their major customers and make greater fixed in- strong customer) (Banker et al., 2014; Kang et al., 2009).4 Examples of
+vestments which are specific to their relationships with major custo- such investments include investing in specialized inventory manage-
+mers. Such customer-specific investments allow suppliers to meet the ment systems, hiring quality customer representatives, enhancing de-
+increased demand of major customers, but, when demand falls, these livery capabilities, and purchasing machines to tailor to specific cus-
+customer-specific fixed investments are more difficult to eliminate or tomer needs (Chang, Hall, & Paz, 2017). Such investments are generally
+transfer to other customers, relative to other general investments risky, particularly when the supplier-customer relationship becomes
+(Irvine et al., 2016). Consistent with high risks associated with cus- unstable or adversely affected by uncontrollable environmental factors,
+tomer concentration, Dhaliwal et al. (2016) document a positive re- because only a long-term explicit contract with customers allows a
+lationship between customer concentration and suppliers' cost of equity supplier firm to definitively recoup investment costs.5
+and cost of public debt. Campello and Gao (2017) find a positive as- Furthermore, relationship-specific investments are more likely to be
+sociation between customer concentration and suppliers' loans with negative net present value (NPV) projects that entail short-term losses
+higher interest rate spreads, more restrictive covenants, and shorter and are more difficult to abandon, particularly when suppliers rely on a
+maturities. few major corporate customers and the suppliers' investment decisions
+
+A contrasting view is that a supplier firm with a greater reliance on depend heavily on their customers' preferences, but not their own. In
+a few major customers may have lower business risks; such firms can this vein, suppliers with a concentrated corporate customer base are
+reduce operating expenses like inventory and administrative costs and likely to engage in bad news hoarding, raising significant business and
+enhance asset utilization due to customer-supplier relationships along cash flow risks and, as a result, they experience a higher level of stock
+the supply chain (Kalwani & Narayandas, 1995; Patatoukas, 2012). A price crash risk.
+concentrated customer base is likely to foster information sharing along Second, a supplier firm may have incentive to manage its earnings
+the supply chain, and facilitate product coordination and collaborative upward to maintain its relationship with major corporate customers
+marketing and advertising efforts, which engenders efficiencies in because those customers will evaluate financial performance of the
+production and marketing costs, as well as inventory and working ca- supplier firm and assess the risk of maintaining current business rela-
+pital management (Patatoukas, 2012). Moreover, major customers can tions with the supplier (Raman & Shahrur, 2008).6 Furthermore, a
+provide an additional layer of monitoring to reduce overall risks un- supplier firm which relies on a few major corporate customers may
+derlying the supply-chain relationships (Fee, Hadlock, & Thomas, have incentive to manage perceptions of these major customers, parti-
+2006). In a similar vein, Patatoukas (2012) documents a positive as- cularly the negative perceptions on the supplier firm's ability to gen-
+sociation between customer concentration and accounting-based per- erate future cash flows and manage business risk in relation to major
+formance measures (return on asset and return on equity). customers (Dhaliwal et al., 2016; Huang et al., 2016). Hence, managers
+
+of such supplier firms are more likely to engage in bad news hoarding
+2.2. Stock price crash risk through earnings management to manage customers' expectations,
+
+which in turn increases its future stock price crash risk.7
+Stock price crash risk is the likelihood that an abrupt, large-scale Moreover, when a supplier firm with a concentrated corporate
+
+decline in a firm's stock price occurs, and is typically captured by the customer base is engaged in relationship-specific investments, the value
+third moment of firm-specific return distribution or the conditional of risky relationship-specific investments can be maintained and en-
+skewness of distribution of firm-specific returns after netting out the hanced by the supplier and its customers' favourable prospects. If either
+common (market-wide and/or industry-wide) factors. The prominent party goes default or reneges on the terms of trade, the supplier and its
+predictor of stock price crash risk is the managerial tendency to with- customers likely end or modify their long-term business relations and
+hold bad news from outside investors. Prior studies (Hutton et al., 2009; suffer losses from relation-specific investments (Dou, Hope, & Thomas,
+Jin & Myers, 2006; Kim et al., 2011a, 2011b; Kothari, Shu, & Wysocki, 2013; Raman & Shahrur, 2008). Hence, a supplier firm may have
+2009) argue that managers withhold bad news from external stake-
+holders because of their concerns over job security, and incentive
+compensation based on short-term performance, aggressive tax plan- 4 Irvine et al. (2016) find that firms with higher concentration of large cor-
+ning and strategies. However, bad news cannot be concealed forever. porate customers make greater relationship-specific investments early in the
+When hidden bad news has accumulated over a tipping point beyond customer relationship and are initially more likely to incur losses. However, as
+which the cost of hiding bad news is greater than the associated benefit, the relationship matures, the initial negative effect reverses, leading to lower
+all bad news that has built up inside the supplier firm comes out all at cost of credit, increasing technology sharing, and improvement in firm profit-
+once, leading to a large-scale, unanticipated decline in stock price or ability.
+
+5
+simply a stock price crash. Related to this notion, managers, on average, Terms of future transactions are very uncertain and outcomes from relation-
+tend to delay the disclosure of bad news to investors (Kothari et al., specific investments are not perfectly describable, ex-ante, and are not con-
+2009). A survey result consistently shows that managers with bad news tractible (Tirole, 1999).
+
+6
+tend to delay its disclosure more than those with good news (Graham, Bowen, DuCharme, and Shores (1995) suggest that the firm selects income-
+
+increasing accounting discretions when implicit claims between the firm and its
+Harvey, & Rajgopal, 2005). stakeholders such as customers and employees are higher.
+
+7 Suppliers relying on major customers are more likely to be involved in ag-
+3. Hypotheses development gressive tax avoidance activities (Huang et al., 2016; Cen, Mayhew, Zhang, &
+
+Zuo, 2017) that can be used to manage firms' earnings upward (Dhaliwal,
+Based on prior studies and our reasoning, we develop our first Gleason, & Mills, 2004; Cook, Huston, & Omer, 2008).
+
+330
+
+
+
+S.M. Lee, et al. Journal of Business Research 110 (2020) 327–346
+
+incentive to inflate its earnings to enhance the perception of major discourage suppliers' bad news hoarding behaviours. We therefore ex-
+corporate customers. Consistent with this argument, Raman and pect to observe a negative relation between the government customer
+Shahrur (2008) find that relation-specific investments between a sup- concentration of a supplier and its stock price crash risk. To provide
+plier firm and its customers are positively associated with the magni- large-sample, systematic evidence on this unexplored issue, we propose
+tude of discretionary accruals and the likelihood of reporting a large and test our second hypothesis, stated in the alternative form:
+earnings increase. This could in turn contribute to building up stock
+price crash risk through bad news hoarding in the future. H2. The government customer concentration of a supplier firm is nega-
+
+On the other hand, corporate customer concentration can decrease tively associated with its future stock price crash risk.
+stock price crash risk. First, a supplier’s reliance on a few major cus-
+tomers may lead to a more efficient supplier-customer relationship, a 4. Research design
+decrease in administrative and inventory costs, enhanced working ca-
+pital, and thus an improvement in the supplier’s financial performance 4.1. Sample selection
+(Irvine et al., 2016; Patatoukas, 2012), which in turn reduces business
+and cash flow risks faced by the supplier firm. In this vein, a supplier We first obtain the supplier-customer relationship data from the
+firm with a concentrated corporate customer base, which has lower Compustat segment customer files to construct our customer con-
+business and cash flow risks, is likely to experience a lower level of bad centration measures. Next, we collect the stock return data from the
+news hoarding and stock price crash risk. Second, a supplier with a Center for Research in Security Prices (CRSP) files to estimate future
+concentrated corporate customer base should be more responsive to the stock price crash risk. We collect the financial statement data from the
+demand for higher quality accounting practices in general8 and con- Compustat annual files and the stock trading data from CRSP daily
+servative accounting practices in particular, because such practices fa- stock files. We use both accounting and market measures to measure
+cilitate external monitoring of the supplier by major customers who the financial performance and stock price movement of our sample
+hold a bargaining advantage (Hui et al., 2012).9 Given that accounting firms. We exclude firms in the utility (SIC4900-4999) and financial
+conservatism reduces stock price crash risk (Kim & Zhang, 2016) as it service (SIC6000-6900) industries from our sample.10 After we merge
+deters bad news hoarding and overinvestment, a supplier firm with a our customer concentration measures with the stock price crash risk
+concentrated corporate customer base is likely to experience a lower measures using unique firm-year pairs, we remove the firm-year ob-
+level of stock price crash risk. servations with missing values for both the accounting and market
+
+Therefore, how corporate customer concentration affects future performance measures. Our sample period begins in 1977 when the first
+stock price crash risk is ultimately an empirical question. To provide disclosure on major customers was required by supplier firms in their
+large-sample, systematic evidence on this unresolved issue, we propose annual reports and ends in 2016 which is most recent year for which
+and test our first hypothesis, stated in a non-directional form: the supplier-customer relationship data was available from the Com-
+
+pustat segment customer files at the time of our data collection. Our
+H1. Corporate customer concentration of a supplier firm is not asso- selection procedures leave us with a final sample of 131,505 firm-year
+ciated with its future stock price crash risk. observations, consisting of 13,612 unique supplier firms over the period
+
+of 40 years between 1977 and 2016. The actual numbers of observa-
+This far, we have discussed the impact of corporate customer con- tions used in our study can be slightly different, depending on regres-
+
+centration on suppliers. In sharp contrast to corporate customer con- sion model specifications, since the data availability varies across the
+centration, relying on a large portion of sales on government customers analyses.
+may entail reduced business risk to suppliers for the following reasons
+(Dhaliwal et al., 2016; Huang et al., 2016). First, government customers
+(government or government-related customers) are unlikely to declare 4.2. Customer concentration risk measures
+bankruptcy and provide stable cash flows to suppliers. Second, gov-
+ernment customers typically make long-term contracts with their sup- Since the Financial Accounting Standard Board (FASB) issued the
+pliers, which reduces the possibility that government customers will Statement of Financial Accounting Standards No. 14 (SFAS 14) in 1976,
+switch to a different supplier. Third, a substantial fraction of govern- a firm with major customers which individually represent more than
+mental contracts use cost-plus pricing. This contractual arrangement 10% of the firm’s revenues has been required to disclose the identity
+typically increases operational risk to government customers, but not to and type11 of each major customer along with the amount of revenue
+their suppliers. Consistent with the reasoning that government custo- derived from each of them in its annual reports. From the Compustat
+mers entail a lower risk, Dhaliwal et al. (2016) document a negative segment customer files, we first identified supplier firms which dis-
+association between government customer concentration and the sup- closed the sales to their major customers. As some supplier firms vo-
+pliers' cost of equity. In a similar vein, Huang et al. (2016) show that luntarily disclose information regarding customers which account for
+suppliers with government customers engage in lower levels of tax less than 10% of sales in their annual reports, we omitted those cus-
+avoidance. Furthermore, Cohen and Li (2013) find that a supplier with tomers to mitigate the possible self-selection bias associated with vo-
+a high government customer concentration hold less cash because of luntary disclosure in the calculations of our customer concentration
+higher stability of operating cash flows. Thus, the reduced cash flows measures, following Dhaliwal et al. (2016).
+and business risk related to government customers are likely to Based on prior studies (Dhaliwal et al., 2016; Patatoukas, 2012), we
+
+construct three measures of corporate (government) customer con-
+centration, Major Corp (Major Gov’t), Corp (Gov’t) Customer HHI, and
+
+8 As concentrated major customers monitor the suppliers’ operations and in- Major Corp (Gov’t) Customer Sales to capture the degree to which a
+duce them to improve efficiency and productivity, suppliers likely manage supplier firm depends on its major corporate customers in terms of
+earnings less and this could lead to a lower level of crash risk. This is similar to
+the positive impact of governance function such as product competition on
+earnings management and disclosure quality (Li, 2010; Laksmana & Yang, 10 These firms are probably less prone to the agency conflict because of the
+2014). intense regulatory pressure. Thus, the adverse effect of customer concentration
+
+9 When customers are concentrated and have a bargaining advantage, sup- found in industrial firms are not likely to be significant in these industries.
+pliers recognize bad news more quickly than good news. In other words, a 11 Compustat segment customer files provide seven customer types including
+concentrated customer base could lead to more conservative accounting prac- corporate and government customer (state, local, domestic, and foreign gov-
+tices (Hui et al., 2012), which in turn decrease future stock price crash risk. ernment).
+
+331
+
+
+
+S.M. Lee, et al. Journal of Business Research 110 (2020) 327–346
+
+Table 1 crash risk and firm size (SIZE), calculated by the natural log of total
+Summary statistics. Table below presents the summary statistics for customer assets, to control for the positive firm size effect documented in prior
+concentration measures and stock price crash risk measures along with control studies (Chen et al., 2001; Hutton et al., 2009). Opacity, measured by
+variables. Definitions of all variables are presented in Appendix A. All variables the prior three years’ moving sum of the absolute value of performance-
+are winsorized at both upper and lower 1% to prevent extreme outliers from matched discretionary accruals (Kothari, Leone, & Wasley, 2005), is a
+distorting our estimations. proxy for the managers' general propensity to hide bad information and
+
+Variable mean p50 sd p25 p75 firms with opaque financial statements experience greater crash risk
+(Hutton et al., 2009). In addition, financial leverage (LEV), calculated
+
+Panel A. Customer Concentration
+Major Corp Customer 0.374 0.000 0.484 0.000 1.000 by total assets minus stockholders' equity, divided by the total assets, is
+Corp Customer HHI 0.052 0.000 0.132 0.000 0.040 likely to increase the monitoring intensity of managers' bad news
+Major Corp Customer Sales 0.150 0.000 0.247 0.000 0.231 hoarding by creditors and a negative association between leverage and
+Major Gov’t Customer 0.077 0.000 0.266 0.000 0.000 crash risk is expected. High profitability (ROA) is likely to reduce the
+Gov’t Customer HHI 0.016 0.000 0.088 0.000 0.000 managers' bad news hoarding and a negative association between ROA
+Major Gov’t Customer Sales 0.032 0.000 0.133 0.000 0.000
+
+and crash risk is expected.
+Panel B. Stock Crash Risk
+CRASH 0.185 0.000 0.388 0.000 0.000
+DUVOL −0.038 −0.052 0.392 −0.287 0.192 4.5. Empirical Models
+NCSKEW −0.040 −0.082 0.869 −0.491 0.341
+
+Panel C. Control Variables To test our hypotheses, we estimate the following baseline model in
+MBt-1 2.584 1.718 3.733 1.003 3.022 Eq. (1). Each of the three crash risk measures, i.e., the dependent
+LEV t-1 0.228 0.200 0.201 0.049 0.347 variable, is measured in year t, while all the independent variables are
+SIZE t-1 5.273 5.141 2.272 3.538 6.848 measured in year t-1. In all models, we also include year-fixed-effects to
+ROA t-1 −0.020 0.037 0.216 −0.026 0.078
+ABACC address the possible effect of economic fluctuation during our sample
+
+t-1 0.444 0.220 0.656 0.100 0.492
+DTURNOVER t-1 0.002 0.000 0.082 −0.018 0.019 period and industry-fixed-effects (defined by two-digit SIC code) to
+SIGMA t-1 0.064 0.054 0.037 0.038 0.080 address the fact that some industries are more likely to suffer from stock
+RET t-1 −0.003 −0.001 0.003 −0.003 −0.001 price crash risk, than other industries.
+NCSKEW t-1 −0.048 −0.089 0.790 −0.491 0.326
+
+Crash Measure,t = + 1 Customer Concentration Measur
+
+annual revenues as described in detail in Appendix B. In Panel A of et 1 + 2 Controlsj,t 1 + Industry fixed
+Table 1, the mean value of Major Corp (Gov’t) Customer indicates that effect + Year fixed effects + (1)
+about 37.4% (7.7%) of our firm-year observations have at least one Depending on the type of the crash risk measure used as the de-
+major corporate (government) customer who accounts for more than pendent variable, we employ logit/OLS regression models. Specifically,
+10% of a supplier firm’s annual revenues. Additionally, Major Corp we employ logit regression models when crash risk is measured by
+(Gov’t) Customer Sales indicates that on average, major corporate CRASH. We use an OLS regression if CRASH RISK is measured by either
+(government) customers contribute to 15.0% (3.2%) of annual revenue NCSKEW or DUVOL. We use three customer concentration measures,
+of the supplier firms, over our sample period from 1977 to 2016. whether government or corporate (Major Customer, Customer HHI and
+
+Major Customer Sales) as CUSTOMER CONCENTRATION MEASURES in
+4.3. Stock crash risk measures Eq. (1). We include firm or stock-specific control variables in Eq. (1).
+
+Appendix A provides the detailed definitions of all the variables used in
+Following prior research (e.g., Hutton et al., 2009; Kim et al., our regression analyses.
+
+2011a, 2011b), we construct three firm-specific measures of stock price
+crash risk, CRASH, NCSKEW, and DUVOL as detailed in Appendix C. As 5. Empirical results
+presented in Panel B of Table 1, the mean value of CRASH is 18.5%,
+which is comparable to that reported in Kim et al. (16.1%, 2011a and 5.1. Tests of hypothesis H1: The effect of corporate customer concentration
+17.2%, 2011b). The mean DUVOL and NCSKEW is −0.038 an −0.040, on crash risk
+respectively, which are slightly lower than those reported in Kim et al.
+(2011a, 2011b), perhaps due to the expanded sample period of our Table 2 presents the empirical results for the tests of our first hy-
+study. pothesis (H1) relating to the association between the corporate cus-
+
+tomer concentration of a supplier firm and its future stock price crash
+4.4. Control variables risk. Throughout the paper, all reported t-values in parentheses are
+
+based on the robust standard errors corrected for double (firm and year)
+Control variables which affect future stock price crash risk have clustering. In Table 2, Panel A presents the results of the logit regression
+
+been identified in prior studies (Chen et al., 2001; Hutton et al., 2009; for Eq. (1) with CRASH in year t as the dependent variable. As shown in
+Kim & Zhang, 2016; Kim et al., 2011a, 2011b, 2014). Following Chen column 1, the coefficient of Major Corp Customer is positive and highly
+et al. (2001), who document that crash risk is higher for stocks with significant, suggesting that a supplier firm with at least one major
+high investor opinion heterogeneity, high stock volatility, high positive corporate customer is more likely to experience a stock crash at least
+past returns, and high past return skewness, we control for stock-spe- once a year, when compared to its competitors who do not have major
+cific characteristics by including (1) de-trended stock trading volume corporate customers. This finding implies that a supplier firm with at
+(DTURNOVER) for the intensity of differences of opinions among in- least one major corporate customer is more likely to withhold bad news
+vestors, (2) firm-specific weekly return volatility (SIGMA) as volatile related to cash flows and business risks and earnings management,
+stocks are more likely to be crash-prone, (3) firm-specific average thereby increasing its stock price crash risk.
+weekly returns (RET) for potential bubble build-up as indicated by high Models 2 and 3, where we replace Major Corp Customer with Corp
+past returns and subsequent large price drop, and (4) prior-year nega- Customer HHI and Major Corp Customer Sales, also exhibit positive and
+tive skewness (NCSKEW) for the potential serial correlation of the third significant coefficients on Corp Customer HHI and Major Corp Customer
+moment of stock returns. We also control the market-to-book ratio (MB) Sales, corroborating the detrimental impact that corporate customer
+because growth stocks with high past returns could experience high concentration has on crash risk (as reported in column 1). In order to
+
+332
+
+
+
+S.M. Lee, et al. Journal of Business Research 110 (2020) 327–346
+
+Table 2
+The effect of corporate customer concentration on stock price crash risk. Panel A presents the results of Logit regressions which examine the impact of corporate
+customer concentration measures on stock price crash risk. CRASH has a value of 1 if a firm experiences one or more crash events in a year, and 0 otherwise. Panel B
+presents results of OLS regressions to examine the impact of corporate customer concentration measures on stock crash risk. In Models 1 to 3, DUVOL measures the
+down-to-up volatility of crash likelihood. In Models 4 to 6, NCSKEW represents the negative conditional return skewness. All regressions include industry and year
+dummies. T-statistics clustered at both firm and year are in parentheses. * p < 0.1, ** p < 0.05, *** p < 0.01.
+
+Panel A (1) (2) (3)
+LOGIT Models CRASH
+
+Major Corp Customert-1 0.083***
+(4.659)
+
+Corp Customer HHIt-1 0.274***
+(4.483)
+
+Major Corp Customer Salest-1 0.180***
+(5.243)
+
+MBt-1 0.009*** 0.009*** 0.009***
+(4.354) (4.334) (4.322)
+
+LEV t-1 0.029 0.033 0.033
+(0.667) (0.758) (0.771)
+
+SIZE t-1 0.013** 0.011** 0.013**
+(2.439) (2.204) (2.428)
+
+ROA t-1 0.158*** 0.172*** 0.167***
+(3.511) (3.832) (3.715)
+
+ABACC t-1 0.019 0.016 0.016
+(1.388) (1.192) (1.210)
+
+DTURNOVER t-1 0.438*** 0.438*** 0.439***
+(4.484) (4.483) (4.501)
+
+SIGMA t-1 3.287*** 3.313*** 3.203***
+(3.696) (3.726) (3.599)
+
+RET t-1 47.434*** 47.808*** 46.936***
+(5.414) (5.457) (5.357)
+
+NCSKEW t-1 0.079*** 0.079*** 0.079***
+(7.531) (7.554) (7.545)
+
+Constant −3.211*** −3.206*** −3.211***
+(−15.561) (−15.555) (−15.577)
+
+Observations 109,055 109,055 109,055
+Year FE YES YES YES
+Industry FE YES YES YES
+Pseudo R2 0.0281 0.0280 0.0281
+
+Panel B (1) (2) (3) (4) (5) (6)
+OLS Models DUVOL NCSKEW
+
+Major Corp Customert-1 0.015*** 0.030***
+(5.651) (5.059)
+
+Corp Customer HHIt-1 0.052*** 0.115***
+(4.967) (4.625)
+
+Major Corp Customer Salest-1 0.036*** 0.076***
+(6.512) (5.859)
+
+MBt-1 0.002*** 0.002*** 0.002*** 0.004*** 0.004*** 0.004***
+(6.211) (6.191) (6.164) (5.408) (5.375) (5.359)
+
+LEV t-1 0.016** 0.017** 0.017*** 0.032** 0.034** 0.034**
+(2.438) (2.546) (2.588) (2.159) (2.281) (2.304)
+
+SIZE t-1 0.029*** 0.029*** 0.029*** 0.062*** 0.062*** 0.062***
+(35.368) (35.180) (35.463) (33.690) (33.572) (33.807)
+
+ROA t-1 0.021*** 0.024*** 0.023*** 0.035** 0.041** 0.039**
+(2.997) (3.360) (3.251) (2.147) (2.498) (2.379)
+
+ABACC t-1 0.006** 0.005** 0.005** 0.011** 0.010* 0.010*
+(2.493) (2.290) (2.267) (2.100) (1.901) (1.898)
+
+DTURNOVER t-1 0.098*** 0.098*** 0.098*** 0.207*** 0.207*** 0.207***
+(6.435) (6.432) (6.456) (5.892) (5.891) (5.912)
+
+SIGMA t-1 1.307*** 1.311*** 1.288*** 3.568*** 3.568*** 3.526***
+(9.320) (9.352) (9.182) (11.392) (11.398) (11.255)
+
+RET t-1 11.763*** 11.825*** 11.650*** 31.833*** 31.899*** 31.573***
+(8.854) (8.908) (8.772) (10.768) (10.801) (10.686)
+
+NCSKEW t-1 0.019*** 0.019*** 0.019*** 0.041*** 0.041*** 0.041***
+(11.007) (11.036) (11.025) (10.316) (10.345) (10.333)
+
+Constant −0.408*** −0.407*** −0.408*** −0.842*** −0.841*** −0.843***
+(−16.686) (−16.683) (−16.720) (−16.522) (−16.525) (−16.558)
+
+Observations 108,879 108,879 108,879 108,917 108,917 108,917
+Year FE YES YES YES YES YES YES
+Industry FE YES YES YES YES YES YES
+Adjusted R2 0.0592 0.0591 0.0593 0.0482 0.0482 0.0484
+
+333
+
+
+
+S.M. Lee, et al. Journal of Business Research 110 (2020) 327–346
+
+assess the economic magnitude of this effect, we estimate the marginal in Table 2 of corporate customer concentration on future stock crash
+effect of each of corporate customer concentration measure on the ex- risk in Eq. (2) below.
+pected probability of a future stock crash to occur. While holding all
+other control variables at their means, we find that the marginal effects Crash Measurej,t = + 1 Corporate Customer Concentration
+of Major Corp Customer, Corp Customer HHI, and Major Corp Customer Measurej,t 1 + 2 Government Customer
+Sales are 1.2%, 4%, and 2.6% respectively, implying that the effect of
+corporate customer concentration on the occurrence of future stock Concentration Measurej,t 1 + 3 Control
+crash is not only statistically significant, but also economically mean- sj,t 1 + Industry fixed effect + Year fixed
+ingful, given that the unconditional mean of CRASH is 18.5% in our
+sample. effects + (2)
+
+Panel B of Table 2 reports results of the OLS regressions where As shown in Table 3, we find that all three government customer
+DUVOL and NCSKEW, are used as the dependent variables12 in columns concentration measures in year t-1 are negatively related to stock price
+1 to 3 and columns 4 to 6, respectively, and the same corporate cus- crash risk in year t, while each corresponding corporate customer
+tomer concentration measures are used as our test variables of interest. concentration measure remains significantly positive in all models.
+As shown in columns 1 to 3 (4 to 6) in Panel B of Table 2, both the Specifically, as presented in column 1 of Panel A, the coefficient on
+down-to-up volatility (DUVOL) and the negative conditional return Major Gov’t Customer is negative and highly significant (t = -2.274),
+skewness (NCSKEW) are positively and significantly related to each of suggesting that a supplier firm with at least one major government
+the three corporate concentration measures at less than the 1% level, customer is less likely to experience a future stock price crash. This
+which is consistent with the results shown in Panel A of Table 2. When finding is consistent with our expectation that a supplier firm who is
+it comes to economic significance, having at least one major corporate dependent on safer government customers as a significant source of its
+customer results in significant increases in both continuous measures of annual revenue is likely to be less risky and more stable in terms of
+future stock crash risk. Specifically, DUVOL and NCSKEW rise by 0.015 future cash flow and business prospects. Therefore, this kind of supplier
+and 0.03 which represent increases in DUVOL and NCSKEW of 3.8% firm is less likely to withhold bad news related to cash flow and busi-
+(0.015/0.392) and 3.5% (0.03/0.869) of their respective standard de- ness risks, when it is associated with major government customers’
+viations when a supplier firm has at least one major corporate cus- business. When we replace Major Gov’t Customer with Gov’t Customer
+tomer. These findings lend additional support to our first hypothesis HHI and Major Gov’t Customer Sales, we continue to find negative and
+H1, indicating that firms with highly concentrated corporate customer significant coefficients on Gov’t Customer HHI and Major Gov’t Customer
+bases are exposed to a high degree of future stock price crash risk. Sales, suggesting that a supplier firm with high government customer
+
+With respect to the control variables in Table 2, we find that their concentrations experiences a lower level of future crash risk. In terms of
+coefficients are generally in line with the findings of prior studies. economic magnitude, we estimate the marginal effect of each of gov-
+Specifically, DTURNOVER (Chen et al., 2001) and NCSKEW (Kim et al., ernment customer concentration measures on the expected probability
+2011a, 2011b) are significantly positive in all models in Table 2. SIZE is of future stock crash. While holding all other control variables at their
+a firm-specific control variable whose positive coefficient is highly means, we find that the marginal effects of Major Gov’t Customer, Gov’t
+significant in all cases, which is consistent with prior findings in the Customer HHI, and Major Gov’t Customer Sales on having at least one crash
+current body of literature (e.g., Hutton et al., 2009). Unlike prior stu- week occur in a subsequent year (CRASH) are −1.1%, −2.9%, and
+dies (e.g., Kim, Wang, & et al., 2016b; Callen & Fang, 2015), we find −2.0% respectively, implying that the beneficial effect of having gov-
+that coefficients of ROA are positive in most cases. This finding suggests ernments as customers on the occurrence of future stock price crash is
+that investors might factor potential reversal in firm profitability over not only statistically significant, but also economically meaningful. We
+time into their assessment of the current stock price. further expand our analyses using the OLS regressions with the two
+
+Overall, our findings in Table 2 provide fairly consistent evidence continuous measures for future stock price crash risk, DUVOL and
+that the corporate customer concentration of a supplier firm is posi- NCSKEW as the dependent variables. Similar to Panel A in Table 3
+tively associated with its future stock price crash risk after controlling (where CRASH is used as the dependent variable), the results in Panel B
+for firm and stock-specific characteristics along with year and industry show the significantly negative coefficients of all three government
+fixed effects. The association between the two is highly robust, not only customer concentration measures, irrespective of whether crash risk is
+to the use of different crash risk measures, but also to the use of dif- measured by DUVOL or NCSKEW. These results are also consistent with
+ferent corporate customer concentration measures. the findings in Dhaliwal et al. (2016) who document a negative asso-
+
+ciation between government customer concentration of a supplier firm
+5.2. Tests of hypothesis H2: The effect of government customer and its cost of equity capital. Overall, our findings in Panels A and B of
+concentration on crash risk Table 3 lend strong support to our second hypothesis H2 – that a sup-
+
+plier firm with higher government customer concentration is less ex-
+To test our second hypothesis (H2) that the government customer posed to business risk, and thus, has less incentives to hoard bad news
+
+concentration of a supplier firm is negatively associated with its future and this therefore lowers their future stock price crash risks.
+stock price risk, we employ the same empirical model presented in Eq. Additionally, results in Table 3 imply that the effect of major cor-
+(1) but replace our measures of corporate customer concentration with porate customer concentration on future stock crash risk of a supplier
+those of government customer concentration as our test variables of firm might vary, depending on whether the supplier firm also has major
+interest. We include each of the corporate customer concentration government customer(s) at the same time14. To further test this im-
+measures corresponding to each of the government customer con- plication empirically, we create one interaction term between each
+centration measures as an additional control variable to isolate13 the corporate customer concentration measure and each government cus-
+effect of government customer concentration from the observed effect tomer concentration measure and include it in Eq (2). The coefficient of
+
+the interaction term is designed to capture the varying effect of major
+corporate customers of a supplier firm on its stock crash risk, depending
+
+12 As a robustness test, we use the number of crash weeks in a year as an on the concurrent existence and degree of major government customers
+additional measure for stock price crash risk and find that our results remain
+robust (not tabulated).
+
+13 It is possible that having higher government customer concentration can 14 We appreciate the reviewer for suggesting that we investigate the potential
+simply capture the fact that the firm has less corporate customer concentration. interaction effect between corporate and government customer concentrations.
+
+334
+
+
+
+S.M. Lee, et al. Journal of Business Research 110 (2020) 327–346
+
+Table 3
+The effect of government customer concentration on stock price crash risk. Panel A presents the results of Logit regressions which examine the impact of government
+customer concentration measures on stock price crash risk. CRASH has a value of 1 if a firm experiences one or more crash events in a year, and 0 otherwise. Panel B
+presents results of OLS regressions to examine the impact of government customer concentration measures on stock price crash risk. In Models 1 to 3, DUVOL
+measures the down-to-up volatility of crash likelihood. In Models 4 to 6, NCSKEW represents the negative conditional return skewness. All regressions include
+industry and year dummies. T-statistics clustered at both firm and year are in parentheses. * p < 0.1, ** p < 0.05, *** p < 0.01.
+
+Panel A (1) (2) (3)
+LOGIT Models CRASH
+
+Major Gov't Customert-1 −0.073**
+(−2.274)
+
+Major Corp Customert-1 0.084***
+(4.685)
+
+Gov't Customer HHIt-1 −0.198**
+(−2.076)
+
+Corp Customer HHIt-1 0.281***
+(4.584)
+
+Major Gov't Customer Salest-1 −0.136**
+(−2.135)
+
+Major Corp Customer Salest-1 0.181***
+(5.263)
+
+Observations 109,055 109,055 109,055
+Control Variables YES YES YES
+Year FE YES YES YES
+Industry FE YES YES YES
+Pseudo R2 0.0281 0.0281 0.0282
+
+Panel B (1) (2) (3) (4) (5) (6)
+OLS Models DUVOL NCSKEW
+
+Major Gov't Customert-1 −0.016*** −0.029***
+(−3.395) (−2.756)
+
+Major Corp Customert-1 0.015*** 0.031***
+(5.716) (5.111)
+
+Gov't Customer HHIt-1 −0.041*** −0.080**
+(−2.930) (−2.524)
+
+Corp Customer HHIt-1 0.054*** 0.119***
+(5.117) (4.744)
+
+Major Gov't Customer Salest-1 −0.028*** −0.053**
+(−2.970) (−2.507)
+
+Major Corp Customer Salest-1 0.037*** 0.076***
+(6.568) (5.904)
+
+Observations 108,879 108,879 108,879 108,917 108,917 108,917
+Control Variables YES YES YES YES YES YES
+Year FE YES YES YES YES YES YES
+Industry FE YES YES YES YES YES YES
+Adjusted R2 0.0592 0.0592 0.0594 0.0483 0.0483 0.0484
+
+of the supplier firm. As shown in Appendix D, we find that corporate incurring high switching costs. As a result, major corporate customers
+customer concentration measures continue to be significantly positive with low switching costs are likely to have higher bargaining power
+in all models while the interaction terms are negative and significant in against suppliers and, consequently, can act more effectively as external
+five out of nine models, suggesting that, in general, the detrimental monitors and encourage suppliers to disclose sufficient information,
+effect of corporate customer concentration on stock crash risk can be good or bad, in a timely manner to improve their monitoring efficacy.
+attenuated by the beneficial effect of government customer concentra- As long as the stock market is information-efficient, then timely-dis-
+tion. closed bad news would be incorporated promptly into the stock price,
+
+thereby contributing to a decreased future stock price crash risk for the
+supplier firm. On the other hand, low switching costs for major custo-
+
+5.3. Cross-sectional tests15: Do switching costs and information asymmetries mers also enables them to easily switch their suppliers and thereby
+matter? increase the business and cash flow risks of the suppliers and their
+
+subsequent bad news hoarding and crash risks. Thus, the predicted
+5.3.1. The moderating effect of customer switching costs direction of the moderating effect of low switching costs for major
+
+Prior studies (Dhaliwal et al., 2016; Huang et al., 2016) suggest that customers on the association between customer concentration and stock
+a supplier firm with a concentrated corporate customer base is exposed crash risk is not ex-ante clear. Following Dhaliwal et al. (2016), we use
+to a high risk of losing its major corporate customers, as major custo- a supplier firm’s market share in its 2-digit SIC industry to measure the
+mers are able to switch their suppliers from one to another without switching cost faced by major corporate customers. Specifically, a
+
+supplier firm’s market share is defined as the ratio of its sales to the
+15 We further examined the moderating role of relationship-specific invest- total 2-digit SIC industry sales in year t-1.16 Then, we construct an
+
+ment by a supplier firm. As shown in Appendix H, we did not find clear evi-
+dence that the effect of corporate customer concentration of a supplier firm on
+its future stock crash risk can vary, depending on the intensity of relationship- 16 As suggested in Dhaliwal et al. (2016), we also use the 3-digit SIC industry
+specific investments that the supplier firm makes for its major corporate cus- data to measure an alternative switching cost and find that our results are ro-
+tomers. bust to this alternative measure of switching cost (not tabulated).
+
+335
+
+
+
+S.M. Lee, et al. Journal of Business Research 110 (2020) 327–346
+
+Table 4
+The moderating effect of customer switching costs. The table below reports the interaction effect of customer switching costs and customer concentration measures
+on stock price crash risk. Panel A presents results of Logit regressions where CRASH is the dependent variable while Panel B presents results of OLS regressions where
+DUVOL and NCSKEW are the dependent variables. Low Switching Cost has a value of 1 if customer switching costs are below the sample median market share of all
+firms in the same 2-digit SIC industry in a given year, and 0 otherwise. Customer switching costs are measured using supplier firms' market share based on 2-digit SIC
+industries. All regressions include industry and year dummies. Z- or T-statistics clustered at both firm and year are in parentheses, depending on the type of regression
+models. * p < 0.1, ** p < 0.05, *** p < 0.01.
+
+Panel A (1) (3) (5)
+LOGIT Models CRASH
+
+Major Corp Customert-1 0.116***
+(5.262)
+
+Major Corp Customert-1 X Low −0.085**
+Switching Cost
+
+(−2.486)
+Corp Customer HHIt-1 0.384***
+
+(4.047)
+Corp Customer HHIt-1 X Low −0.174
+
+Switching Cost
+(−1.453)
+
+Major Corp Customer Salest-1 0.245***
+(5.359)
+
+Major Corp Customer Salest-1 X Low −0.133**
+Switching Cost
+
+(−2.060)
+Low Switching Costs 0.021 −0.010 0.005
+
+(0.743) (−0.398) (0.200)
+
+Observations 109,055 109,055 109,055
+Control Variables YES YES YES
+Year FE YES YES YES
+Industry FE YES YES YES
+Pseudo R2 0.0281 0.0281 0.0282
+
+Panel B (1) (2) (3) (4) (5) (6)
+OLS Models DUVOL NCSKEW
+
+Major Corp Customert-1 0.023*** 0.048***
+(7.117) (6.620)
+
+Major Corp Customert-1 X Low Switching Cost −0.020*** −0.043***
+(−3.795) (−3.639)
+
+Corp Customer HHIt-1 0.092*** 0.191***
+(5.561) (5.047)
+
+Corp Customer HHIt-1 X Low Switching Cost −0.061*** −0.115**
+(−2.924) (−2.359)
+
+Major Corp Customer Salest-1 0.055*** 0.114***
+(7.491) (6.787)
+
+Major Corp Customer Salest-1 X Low Switching Cost −0.037*** −0.075***
+(−3.520) (−3.070)
+
+Low Switching Costs 0.004 −0.002 0.001 0.005 −0.008 −0.001
+(0.947) (−0.435) (0.366) (0.573) (−0.966) (−0.128)
+
+Observations 108,879 108,879 108,879 108,917 108,917 108,917
+Control Variables YES YES YES YES YES YES
+Year FE YES YES YES YES YES YES
+Industry FE YES YES YES YES YES YES
+Adjusted R2 0.0593 0.0592 0.0594 0.0484 0.0483 0.0485
+
+indicator variable Low Switching Cost that equals 1 if a supplier firm’s with CRASH as the dependent variable. As shown in columns 1 to 3 of,
+market share is below the sample median market share of all firms, Panel A, Table 4, the coefficients on the interaction of Low Switching
+excluding the supplier firm in the same two-digit SIC industry in a given Cost with all three corporate customer concentration measures are ne-
+year, and 0 otherwise. To examine the moderating effect of switching gative and mostly significant, suggesting that the likelihood of a sup-
+costs, we interact Low Switching Cost with the three corporate cus- plier firm with a concentrated corporate customer base having a higher
+tomer concentration measures. Specifically, we augment Eq. (1) by future stock price crash risk is attenuated when its major corporate
+adding Low Switching Cost and its interaction with each of the three customers are able to easily switch to another supplier without in-
+corporate customer concentration measure as follows, in Equation (3). curring much cost. Furthermore, as shown in Panel B where DUVOL and
+
+NCSKEW are used as the dependent variables in columns 1 to 3 and
+Crash Measurej,t = + 1 Customer Concentration Measur columns 4 to 6, respectively, we again find significant and negative
+
+e coefficients on the interaction terms across all six columns. Interest-
+j,t 1 + 2 Low Switching Costj,t 1 + 3 Custom
+
+ingly, the coefficients on the interaction terms are comparable to those
+er Concentration Measurej,t 1 Low Switching of our customer concentration measures in magnitude, but with oppo-
+Costj,t 1 + 4 Controlsj,t 1 + Industry fixed site signs in almost all models in Panels A and B of Table 4, suggesting
+effect + Year fixed effects + . that the detrimental effect of customer concentration can be almost
+
+(3) offset by the opposite effect of the interaction term. This implies that
+Panel A of Table 4 presents the results of the logit regression models the incentives for a supplier firm’s managers to hide bad information
+
+336
+
+
+
+S.M. Lee, et al. Journal of Business Research 110 (2020) 327–346
+
+relating to major corporate customers can be discouraged by major and significant across all cases. Overall, the findings in Table 5 suggest
+corporate customers who command greater bargaining power over the that the detrimental impact of corporate customer concentration on
+supplier firm. Overall, the findings in Table 4 lend further support to future stock price crash risk is more pronounced for firms with high
+the evidence that a supplier firm which has a concentrated corporate information asymmetry.
+customer base becomes more information-transparent when major
+corporate customers have a better ability to switch supplier firms at a 5.4. Robustness tests
+relatively low cost. In other words, major corporate customers which
+have a relatively low switching cost can act as an additional external Even though we include as many firm and stock-specific control
+monitoring mechanism which prevents the supplier firm with a con- variables as possible in the empirical models which have been identi-
+centrated corporate customer base from hoarding unfavourable in- fied in prior studies to affect future stock crash risk, we are not free
+formation or delaying its disclosure (or selectively disclosing it). from endogeneity concerns including omitting variables that might af-
+
+fect at the same time both a supplier firm’s customer concentration and
+its stock price crash risk. For example, if our customer concentration
+
+5.3.2. The moderating effect of information asymmetry measures are capturing nonlinear effects of our control variables on the
+Information intermediation by financial analysts adds value to the stock price crash risk, then the linear combination of control variables
+
+market by collecting, interpreting, and discovering information (Daniel, in our analyses might not be sufficient to adequately take it into ac-
+Lee, & Naveen, 2014). In order to facilitate the information flow be- count the differences between a supplier firm with a concentrated
+tween firms and investors, financial analysts keep track of information corporate customer base and those without one.
+disclosure by managers and periodically publish research reports which
+aim to help reduce the information asymmetry between inside man- 5.5. Propensity score matching
+agers and outside investors. If a firm’s manager tends to disclose good
+news early, but withholds bad news until the last moment, then fi- To estimate causal treatment effects, we conduct propensity score
+nancial analysts are faced with greater information asymmetry with matching (PSM) as follows. For each supplier firm which reports at least
+respect to bad news, resulting in less accuracy and wider variation in one major corporate customer (treatment group), we look for a matched
+their EPS forecasts. In such cases, the firm’s stock is likely to be over- control firm that does not have any major corporate customers in a
+valued due to bad news hoarding for a substantial period until it crashes given year (control group) without replacement. To this end, we first
+down to its equilibrium price at the very moment when managers are predict the likelihood that a firm has at least one major corporate
+forced to abandon all concealed bad news, which is sometimes accu- customer in the first-stage logit model where Major Corp Customer, an
+mulated over multiple periods. Therefore, we predict that the detri- indicator variable, is regressed on all nine firm and stock-specific con-
+mental effect of corporate customer concentration on future stock price trol variables in Eq. (1) along with year and industry fixed effects. Using
+crash risk is more pronounced when a supplier firm is subject to greater the predicted likelihood or the propensity score estimated in the first-
+information asymmetry. To test this notion, we use, as a proxy for in- stage logit model, we one-to-one match each firm in our treatment
+formation asymmetry, analyst forecast dispersion in a year17, which is group with a firm in our control group that has the closest propensity
+measured by dividing the standard deviation of annual EPS forecasts18 score within 0.1% width without replacement. Our propensity score
+by the absolute value of the mean annual EPS forecasts among financial matching leaves us with the PSM subsample of 71,692 firm-years which
+analysts following a supplier firm. Analysts’ EPS forecasts are widely consist of 35,846 supplier firm-year pairs with at least one major cor-
+distributed to outside stakeholders, particularly when relevant in- porate customer and 35,846 pairs without any major corporate cus-
+formation is not available in a timely manner for them to analyse it tomer.
+properly. Specifically, following Dhaliwal et al. (2016), we construct an Following Dhaliwal et al. (2016), we conduct three matching di-
+indicator variable Low Dispersion which equals 1 if dispersion of analyst agnostic tests to evaluate whether our matching procedure is successful
+annual EPS forecasts is below the median of all firms in the 2-digit SIC as follows. First, we estimate the logic models where the treatment
+industry in a given year, and 0 otherwise. By construction, low dis- group is regressed on the same control variables used for propensity
+persion represents low information asymmetry. score matching and compare the results for the full sample and those for
+
+To examine our prediction of the moderating effect of information the propensity score matching (PSM) subsample and find that the sta-
+asymmetry, we interact Low Dispersion with the three corporate cus- tistically insignificant coefficients of all control variables and the dra-
+tomer concentration measures, and re-estimate Eq. (1) by including Low matic drop of pseudo-R2 to below 0.1% in the PSM subsample indicate
+Dispersion and its interaction with each of the three corporate customer that none of the control variables predict which supplier firms are more
+concentration measures. Panel A of Table 5 presents the results of the likely to be in the treatment group. Second, we compare the summary
+logit regression with CRASH as the dependent variable. As shown in statistics of the propensity scores including the mean and the standard
+Panel A, the coefficients on the interaction terms of Low Dispersion with deviation between the treatment and the control group and find no
+all three corporate customer concentration measures are significantly notable differences in all summary statistics between the two groups,
+negative in columns 1 and 3, while it is negative, but insignificant in suggesting that the firms in those two groups are identical in terms of
+column 2. In Panel B of Table 5 where DUVOL or NCSKEW is used as the propensity scores. Lastly, the mean difference tests report no statistical
+dependent variable, we estimate OLS regressions and find similar re- differences in means of all the control variables between the treatment
+sults: the three corporate customer concentration measures are sig- and the control group, suggesting that firms in the two groups are
+nificantly positive, and the coefficient on the interactions of Low Dis- identical at least in terms of firm and stock-specific variables used in
+persion with the three customer concentration measures are negative our empirical models. When combined together, each of the three di-
+
+agnostic tests (not reported here for brevity) strongly support that our
+17 matching procedures are successful, and the two groups essentially
+
+I/B/E/S provides the mean and the standard deviation of annual EPS differ only in whether supplier firms have at least one major corporate
+forecasts for multiple fiscal years as well as quarterly and semi-annual EPS
+forecasts at monthly frequency. We first calculate analyst forecast dispersion customer or not. Therefore, if corporate customer concentration does
+each month and then average them to get analyst forecast dispersion in a year not matter, the two groups of firms would not exhibit any significant
+in order to smooth out monthly fluctuation of analyst forecast dispersion within difference in their future stock crash risks. Using this PSM subsample,
+a year. we re-estimate the OLS/LOGIT regressions depending on the type of a
+
+18 As in Garfinkel (2009), we use annual EPS forecasts for the current fiscal dependent variable. Consistent with earlier findings, the results in
+year because these tend to be more accurate than EPS forecasts for later years. Appendix E using the PSM subsample show that all three corporate
+
+337
+
+
+
+S.M. Lee, et al. Journal of Business Research 110 (2020) 327–346
+
+Table 5
+The moderating effect of information asymmetry. The table below reports the interaction effect of dispersion of analysts’ EPS forecast and customer concentration
+measures on stock price crash risk. Panel A presents the results of Logit regressions where CRASH is the dependent variable while Panel B presents the results of OLS
+regressions where DUVOL and NCSKEW are the dependent variables. Low Dispersion has a value of 1 if dispersion of annual EPS forecasts of analysts following a firm
+is below 2-digit SIC industry median dispersion in a given year, and 0 otherwise. Following Garfinkel (2009), dispersion is measured as standard deviations of annual
+EPS forecasts, scaled by absolute mean forecasts of all analysts following a firm in a given year. To be included in the sample, the firm should be followed by at least
+two analysts in a given year. All regressions include industry and year dummies. Z- or T-statistics clustered at both firm and year are in parentheses depending on the
+type of regression models. * p < 0.1, ** p < 0.05, *** p < 0.01.
+
+Panel A (1) (3) (5)
+LOGIT Models CRASH
+
+Major Corp Customert-1 0.115***
+(3.935)
+
+Major Corp Customert-1 X Low −0.077**
+Dispersion
+
+(−1.962)
+Corp Customer HHIt-1 0.298***
+
+(3.083)
+Corp Customer HHIt-1 X Low −0.083
+
+Dispersion
+(−0.538)
+
+Major Corp Customer Salest-1 0.223***
+(4.129)
+
+Major Corp Customer Salest-1 X Low −0.135*
+Dispersion
+
+(−1.744)
+Low Dispersion 0.051** 0.027 0.044*
+
+(2.056) (1.269) (1.905)
+
+Observations 71,723 71,723 71,723
+Control Variables YES YES YES
+Year FE YES YES YES
+Industry FE YES YES YES
+Pseudo R2 0.0340 0.0340 0.0341
+
+Panel B (1) (2) (3) (4) (5) (6)
+OLS Models DUVOL NCSKEW
+
+Major Corp Customert-1 0.023*** 0.048***
+(5.238) (4.936)
+
+Major Corp Customert-1 X Low Dispersion −0.015*** −0.038***
+(−2.622) (−2.894)
+
+Corp Customer HHIt-1 0.078*** 0.172***
+(4.453) (4.108)
+
+Corp Customer HHIt-1 X Low Dispersion −0.042* −0.106*
+(−1.679) (−1.687)
+
+Major Corp Customer Salest-1 0.050*** 0.105***
+(5.668) (5.090)
+
+Major Corp Customer Salest-1 X Low Dispersion −0.030** −0.074**
+(−2.450) (−2.572)
+
+Low Dispersion 0.005 0.002 0.005 0.013* 0.005 0.010
+(1.570) (0.727) (1.423) (1.668) (0.699) (1.441)
+
+Observations 71,694 71,694 71,694 71,697 71,697 71,697
+Control Variables YES YES YES YES YES YES
+Year FE YES YES YES YES YES YES
+Industry FE YES YES YES YES YES YES
+Adjusted R2 0.0528 0.0528 0.0530 0.0418 0.0418 0.0419
+
+customer concentration measures still carry positive and significant variable bias is to run a firm fixed-effect model19. This approach con-
+coefficients, irrespective of which stock price crash measure is used. trols for any unobservable characteristics that remain time-invariant
+Thus, the results using the PSM subsample both support and enrich the over our sample period because it captures only the variation over time
+conclusion that corporate customer concentration leads supplier firms within firms. We, therefore, re-estimate the baseline OLS regressions in
+to experience a higher incidence and a greater degree of future stock Eq (1), but replace industry fixed effects with firm fixed effects. The
+price crash. In summary, the results are robust to potential endogeneity
+and show that customer concentration is not merely associated with,
+but rather brings about a higher incidence and a greater degree of fu- 19 We perform the change analysis to examine the impact of changes in one-
+ture stock price crash risk. year period in corporate customer concentration on changes in future stock
+
+price crash risk over the same period. Given that there is not much variation in
+
+5.6. Fixed-effect models CRASH in one-year period, we focus on two continuous stock price crash risk
+measures, DUVOL and NCSKEW as dependent variables. All three corporate
+customer concentration measures still carry an expected positive sign, and their
+
+It is conceivable that our results in Table 2 might be driven by coefficients are all significant, irrespective of how future stock price crash risk is
+certain unobservable firm characteristics that are omitted in the measured, suggesting that changes in stock price crash risk are not just asso-
+models. One approach that can help mitigate the effect of the omitted- ciated with, but driven by changes in customer concentration. Results will be
+
+available upon request to authors.
+
+338
+
+
+
+S.M. Lee, et al. Journal of Business Research 110 (2020) 327–346
+
+regression results in Appendix F report that all three corporate customer (relevance condition). As a result, we utilize the average corporate
+concentration measures still carry an expected positive sign, and their customer concentration in the same U.S. county22, excluding firm i, as
+coefficients are mostly significant (seven out of nine models), irre- our alternative IV. Because we exploit the corporate customer con-
+spective of how stock price crash risk is measured, after controlling for centration of the surrounding firms without including firm i, our in-
+firm-fixed effects. Therefore, our results are unlikely driven by un- strument is likely exogenous (exclusion condition). Each firm has con-
+observable and time-invariant firm characteristics that might be trol over its own customer concentration, but it does not have any
+omitted. control over the customer concentration of another firm in the same
+
+area. As shown in Panel B of Appendix G, results using this alternative
+instrumental variable indicate that corporate customer concentration
+
+5.7. Instrumental-variable analysis (IV) exacerbates the stock price crash risk, corroborating the earlier docu-
+mented results. Because the IV analysis is more robust to endogeneity,
+
+In order to mitigate endogeneity, we execute an instrumental-vari- our results are more likely to show a causal effect of corporate customer
+able (IV) analysis20. This approach alleviates the endogeneity biases concentration on the stock price crash risk.
+that can be attributed to reverse causality and unobserved hetero-
+geneity. Following prior studies (Hilary & Hui, 2009; Kumar et al.,
+2011) who use an earlier year’s value of their focal explanatory variable 5.8. Mediating models
+as an IV, we employ customer concentration in the earliest year for each
+firm as our IV21, assuming that it affects customer concentration in any So far, we have documented robust evidence that the corporate
+subsequent years of the same firm (relevance condition), but could customer concentration of a firm leads directly to a significantly higher
+influence the firm’s stock crash risk in subsequent years only through its likelihood that the firm will experience a stock price crash in the future.
+impact on subsequent years’ customer concentration (exclusion condi- However, Huang et al. (2016) argue that supplier firms with a con-
+tion). For each firm, we identify the earliest year when the firm appears centrated corporate customer base are more likely to engage in ag-
+in the sample. Then, we use customer concentration in the earliest year gressive tax avoidance activities to manipulate major customers’ per-
+as our IV. One possible criticism against using the earliest value as an ception of its financial health while Kim, Li, and Zhang (2011b)
+instrument is that customer concentration might be sticky, changing document that corporate tax avoidance activities lead to firm-specific
+only slowly over time. If this is the case, then the value in the earliest stock price crash risks. Therefore, some might argue that our docu-
+year may not be so different from the value in any of the subsequent mented effect of corporate customer concentration on stock crash risk is
+years. To alleviate this concern, we take the following steps. We cal- merely picking up an indirect effect of corporate customer concentra-
+culate the standard deviation of corporate customer concentration for tion via corporate tax avoidance on stock crash risk. To mitigate this
+each firm over time. A higher standard deviation indicates that cor- concern, we further extend our research question to understand whe-
+porate customer concentration in the firm changes more quickly, while ther corporate tax avoidance acts as a channel/mechanism through
+a low standard deviation implies that it is sticky over time. In the which corporate customer concentration affects stock crash risk, and if
+second-stage IV regression, we include only those firms whose corpo- so, to what degree. In other words, we test whether and to what degree
+rate customer concentration changes more quickly than the median. a firm’s tax avoidance can mediate the observed positive effect of a
+This way, we concentrate only on those firms whose corporate customer firm’s corporate customer concentration on its stock crash risk. To se-
+concentration changes more quickly, mitigating the concern for sticki- parate the indirect effect of corporate customer concentration via the
+ness. Results (Model (1) in Panel A of Appendix G) from the first-stage firm’s tax avoidance behaviour from its direct effect on stock crash risk,
+IV regression where Corp Customer HHI is the dependent variable we establish the mediation models where we employ OLS regressions
+shows that the coefficient of Corp Customer HHI (Earliest year) is po- where two of the stock crash risk measures (DUVOL and NCSKEW) are
+sitive and highly significant. In the second-stage IV regression where regressed on each corporate customer concentration measure while
+DUVOL and NCSKEW are used respectively as the dependent variable, corporate tax avoidance behaviour23 is included as a mediating vari-
+the coefficient of Corp Customer HHI predicted/instrumented from the able. In our setting, the direct effect captures an effect of corporate
+first stage IV regression is significantly positive as shown in Models (2) customer concentration (causal variable, CV) on stock crash risk (out-
+and (3) in Panel A of Appendix G. Therefore, our IV analysis confirms come variable) that is not mediated by corporate tax avoidance (med-
+that greater corporate customer concentration leads to higher stock iating variable, MV) and the indirect effect is an effect of corporate
+price crash risk. As a robustness check, when we perform a similar customer concentration on stock crash risk that travels through cor-
+analysis using Major Corp Customer Sales as our measure of corporate porate tax avoidance. The total effect represents the sum of the direct
+customer concentration, we find very similar results as reported in and the indirect effects. As shown in Table 6, the CurrentETRt-1 re-
+Models (4), (5), and (6). The high F-statistics refute the null hypothesis presenting the degree of corporate tax avoidance24 exhibits a sig-
+that our instrument is weak, while the statistically significant Durbin p- nificantly negative coefficient, suggesting that aggressive tax avoidance
+values also suggest that there might be an endogenous relationship
+between corporate customer concentration of a frim and its stock crash 22 We use ZIP Code Tabulation Area (ZCTA) Relationship File available from
+risk, supporting the validity of employing the IV estimation. Further- US Census Bureau which provides mapping table between zip code of a firm’s
+more, to ensure that the results are robust, we adopt an alternate in- headquarter and FIPS code of a US county where the firm operates.
+strumental variable. We posit that customers and suppliers located 23 To capture the degree of corporate tax avoidance, we use current effective
+closer to each other are more likely to have a relationship as they are tax rate (CurrentETR). Based on Huang et al. (2016), CurrentETR is defined as
+expected to be aware of and interact with each other. In other words, total income tax expense (Compustat: TXT), net of deferred income tax expense
+locations matter. If this is the case, then firms in the same area should (Compustat: TXDI), divided by pretax net income (Compustat: PI) less special
+attract similar customers and exhibit similar customer concentration items (Compustat: SPI). By construction, CurrentETR reflects how effectively
+
+firms reduce their tax burden in a current period not only through permanent
+book-tax difference, but also by temporarily deferring it to future period, which
+
+20 IV analysis is widely employed in finance and economics to eliminate en- will result in an increase in tax obligation later. Therefore, a lower CurrentETR
+dogeneity concerns, which include, but are not limited to (1) omitted variable implies higher level of tax avoidance.
+bias, (2) reverse causality bias, and (3) errors-in-variable bias. 24 Even after we use two other traditional measures of corporate tax avoid-
+
+21 We also exploit the fact that customer concentration in the earliest year for ance, book effective tax rate (Chen, Chen, Cheng, & Shevlin, 2010) and cash
+each firm could not have resulted from the stock price crash risk in the sub- effective tax rate (Hanlon & Shevlin, 2003) in place of current effective tax rate,
+sequent years. the results remain the same. Results will be available upon request to authors.
+
+339
+
+
+
+S.M. Lee, et al. Journal of Business Research 110 (2020) 327–346
+
+Table 6
+The mediating effects of corporate tax avoidance. The table below reports the results of the mediation models where we examine how and whether the effect of
+corporate customer concentration on stock price crash risk is mediated through corporate tax avoidance. Specifically, we employ OLS regressions where the stock
+price crash risk is regressed on each corporate customer concentration measure while the current effective tax rate (currentETR), representing the degree of corporate
+tax avoidance by a firm is used as a mediating variable. All models include year dummies and industry (2 digit SIC) dummies. For definitions of other variables, please
+refer to Appendix A. The t-statistics are reported in parentheses. *, **, *** represent statistical significance at the 10%, 5%, and 1% levels, respectively.
+
+(1) (2) (3) (4) (5) (6)
+VARIABLES DUVOL DUVOL DUVOL NCSKEW NCSKEW NCSKEW
+
+Major Corp Customert-1 0.013*** 0.025***
+(4.508) (3.863)
+
+Corp Customer HHIt-1 0.047*** 0.100***
+(4.462) (4.253)
+
+Major Corp Customer Salest-1 0.032*** 0.064***
+(5.491) (4.968)
+
+CurrentETR t-1 −0.041*** −0.041*** −0.041*** −0.090*** −0.089*** −0.089***
+(−6.571) (−6.553) (−6.502) (−6.393) (−6.364) (−6.325)
+
+Observations 89,154 89,154 89,154 89,185 89,185 89,185
+Control Variables YES YES YES YES YES YES
+Year FE YES YES YES YES YES YES
+Industry FE YES YES YES YES YES YES
+R-squared 0.061 0.061 0.061 0.050 0.050 0.050
+Adjusted R2 0.0602 0.0602 0.0603 0.0493 0.0493 0.0494
+Sobel Z 4.939 5.244 5.424 4.863 5.144 5.317
+Mediating Variable (MV) CurrentETR t-1 CurrentETR t-1 CurrentETR t-1 CurrentETR t-1 CurrentETR t-1 CurrentETR t-1
+
+Causal Variable (CV) Major Corp Corp Customer Major Corp Customer Major Corp Corp Customer Major Corp Customer
+Customert-1 HHIt-1 Salest-1 Customert-1 HHIt-1 Salest-1
+
+Indirect effect of CV through MV(A) 0.0005*** 0.0020*** 0.0012*** 0.0010*** 0.0044*** 0.0027***
+Direct effect of CV(B) 0.0132*** 0.0469*** 0.0318*** 0.0252*** 0.1001*** 0.0645***
+Total effect(C = A + B) 0.0136*** 0.0489*** 0.0331*** 0.0263*** 0.1045*** 0.0671***
+Ratio of Indirect effect to Total effect 0.0353 0.0413 0.0375 0.0399 0.0419 0.0402
+
+(A/C)
+Ratio of Indirect effect to Direct effect 0.0366 0.0430 0.0390 0.0415 0.0438 0.0419
+
+(A/B)
+Ratio of Total effect to Direct effect(C/ 1.0366 1.0430 1.0390 1.0415 1.0438 1.0419
+
+B)
+
+leads to higher stock crash risk, which is consistent with findings in Kim with their customers. As a result, managers of such supplier firms tend
+et al. (2011b). Furthermore, we continue to observe the same positive to engage in bad news hoarding behaviour. This hoarding behaviour
+coefficient of each of the corporate customer concentration measures, leads to a positive association between corporate customer concentra-
+capturing its direct effect on stock crash risk. We also identify that its tion and stock price crash risk. However, a supplier firm with a con-
+indirect effect through corporate tax avoidance is significantly positive, centrated government customer base is less likely to hoard bad news
+suggesting that corporate customer concentration, through its effect on related to business and cash flow risks because government customers
+corporate tax avoidance, indirectly affects stock crash risk positively. As provide stable cash flow and less bankruptcy risk and this tendency
+shown in Table 6, however, the proportion of the indirect effect of leads us to observe a negative association between government cus-
+corporate customer concentration on stock crash risk that is mediated tomer concentration and stock price crash risk. Further analyses show
+through corporate tax avoidance out of the total effect is < 5% in all that our results are robust to PSM analyses, firm fixed-effect analyses
+models, suggesting that corporate customer concentration acts as a and IV analyses. In the cross-sectional analyses, we find that the like-
+direct determinant of stock crash risk, rather than a mere reflection of lihood of a supplier firm with a concentrated corporate customer base
+its indirect effect via corporate tax avoidance. having a higher stock price crash risk is attenuated by lower switching
+
+costs and is more pronounced when the degree of information asym-
+6. Conclusion metry is high.
+
+While our study provides evidence that customer concentration
+Our study examines how corporate and government customer con- tends to increase a supplier firm’s stock price crash risk, such evidence
+
+centration affects stock price crash risk. We also study the cross-sec- should not be interpreted in such a way that a supplier firm should
+tional variation in the association between corporate customer con- avoid customer concentration. On the contrary, customer concentration
+centration and stock price crash risk in terms of customer switching can be beneficial for the supplier firm because of efficient product,
+costs and information asymmetry. Our results demonstrate that various inventory and supply chain management.
+measures of corporate customer concentration have positive associa-
+tions with different measures of stock price crash risk. We also find that
+various measures of government customer concentration have negative Acknowledgement
+associations with different measures of stock price crash risk. Our
+findings suggest thatsuppliers with a concentrated corporate customer We appreciate helpful comments and suggestions of Mine Ertugrul
+base have an incentive to manage customers' expectations of their (Associate Editor), two anonymous reviewers, Jeong-Bon Kim and
+performance and their earnings and they have a tendency to engage in workshop participants at the 2017 American Accounting Association
+risky relationship-specific investments that entail high business risk Annual Meeting and 2017 Southern Finance Association Meeting.
+
+340
+
+
+
+S.M. Lee, et al. Journal of Business Research 110 (2020) 327–346
+
+Appendix A. Variable definitions
+
+Variable Definition
+
+Major Corp (Gov’t) Customer 1 if a supplier firm reports at least one corporate(government) customer who accounts for more than 10% of its annual revenues, and 0 otherwise.
+Corp (Gov’t) Customer HHI Sales-based Herfindahl-Hirschman Index as sum of the squares of the ratios of supplier firm revenue to major corporate (government) customer to its
+
+total revenue
+Major Corp (Gov't) Customer Fraction of a supplier firm's annual revenues that are accounted for by all major corporate(government) customers
+
+Sales
+CRASH 1 if we observe at least one crash week during a year, and 0 otherwise.
+DUVOL Log Ratio of the standard deviation of firm-specific abnormal weekly returns of the down weeks to that of the up weeks
+NCSKEW Negative of the ratio of the third moment to standard deviation cubed of firm-specific abnormal weekly returns
+MB Market to Book ratio. Market capitalization of shareholders’ equity (PRCC_F*CSHO in Compustat) divided by the book value of shareholders’ equity
+
+(CEQ in Compustat).
+LEV Leverage ratio, calculated as the total assets (AT in Compustat) minus the stockholders' equity (CEQ), divided by the total assets (AT in Compustat).
+SIZE Natural log of total assets (AT in Compustat).
+ROA Return On Assets. Net income (NI in Compustat) divided by total assets (AT in Compustat).
+ABACC Prior three years’ moving sum of the absolute value of performance matched discretionary accruals estimated based on Kothari et al. (2005).
+DTURNOVER Average monthly share turnover for the last fiscal year minus the average monthly share turnover for the year before the last fiscal year. Monthly share
+
+turnover is defined as the total monthly trading volume (VOL in CRSP) divided by the total monthly number of shares outstanding (SHROUT in
+Compustat).
+
+SIGMA Standard deviation of firm-specific abnormal weekly returns
+RET Fiscal year’s average firm-specific abnormal weekly returns
+
+Appendix B. Customer concentration risk measures
+
+We first create an indicator variable, Major Corporate Customer, which equals 1 if a supplier firm reports at least one corporate customer who
+accounts for more than 10% of its annual revenues, and 0 otherwise.
+
+As our second customer concentration measure, we borrow the concept of the Herfindahl-Hirschman Index (HHI), and compute Customer HHI for
+major corporate customers, denoted by Corp Customer HHI. We compute Corp Customer HHI for each supplier firm i by summing the squares of the
+ratios of a supplier firm i’s revenue to each major corporate customer j’s total revenue in year t. This Corp Customer HHI variable is designed to take
+into account not only the number of major corporate customers j disclosed by a supplier firm i, but also the influence that each major corporate
+customer j exercises on the supplier firm i’s revenues.25 The specific formula we use for Corp Customer HHI is as follows:
+
+2
+J Revenues
+
+Corp Customer HHI = i,j,t
+i,t j=1 Revenuesi,t (4)
+
+Our third measure of corporate customer concentration, denoted by Major Corp Customer Sales, is defined as the fraction of a supplier firm i’s
+annual revenues that are accounted for by all major corporate customers j in year t as shown in formula below.26
+
+J
+Major Corp Customer Salesi,t = (Revenuei,j,t/Revenuei,t)
+
+j=1 (5)
+To test our second hypothesis about the effect of government27 customer concentration on future crash risk, we apply the same methodology that
+
+we use for corporate customer concentration measures. Thus we construct three measures of government customer concentration, Major Gov’t
+Customer, Gov’t Customer HHI, and Major Gov’t Customer Sales, which correspond to Major Corp Customer, Corp Customer HHI, and Major Corp
+Customer Sales, respectively, to capture the incidence and degree to which a supplier firm depends on its major government customers in terms of
+annual revenues.
+
+Appendix C. Stock crash risk measures
+
+To construct each firm-specific crash risk measure, we first run the following extended index model in Eq. (3) using unique firm-year-week
+observations and define firm-specific weekly return for firm j in week t as Wj,t = ln(1 + j,t) where j,t is the residual return from Eq. (6).
+rj,t = j + 1,j rm,t 2 + 2,j rm,t 1 + 3,j rm,t + 4,j rm,t+1 + 5,j rm,t+2 + j,t (6)
+where rj,t is the return on stock j in week t and rm,t is the market index weighted by value from CRSP in week t. If a firm experiences firm-specific
+weekly returns Wj,t for a specific week which is equal to or lower than 3.2 standard deviations below the mean of the firm-specific weekly returns Wj,t
+for the entire fiscal year, we then define that week as a crash week (Hutton et al., 2009; Kim et al., 2011a, 2011b).28 We first create an indicator
+variable, CRASH, which equals 1 if we observe at least one crash week during the entire year and, 0 otherwise.
+
+As our second crash risk measure, we calculate the negative conditional firm-specific return skewness (NCSKEW), following prior research (Chen
+et al., 2001; Kim et al., 2011a, 2011b). NCSKEW is defined as the negative of the ratio of the third moment to the standard deviation cubed of firm-
+specific weekly returns, Wj,t for each firm-year pair, as shown in formula below:
+
+25 By construction, this measure has a maximum value of 1 if one single major corporate customer, j accounts for all revenues earned by the supplier firm, i and a
+minimum of zero if a supplier firm, i does not report any major corporate customer, j in its annual reports.
+
+26 By construction, the higher (lower) value of Major Corp Customer Sales represents more (less) customer concentration.
+27 In defining government customer concentration measures, we include not only U.S. federal government, but also state, local, and foreign governments, given that
+
+any type of government is less likely to default than corporate customers.
+28 As in prior studies, we choose 3.2 standard deviations to generate a frequency of 0.1% in the normal distribution.
+
+341
+
+
+
+S.M. Lee, et al. Journal of Business Research 110 (2020) 327–346
+
+NCSKEW = [n (n 1)3/2 W3
+j,t j,t]/[(n 1)(n 2)( W2 3/
+
+j,t) 2] (7)
+As the third stock price crash risk measure, we create the down-to-up volatility (DUVOL) (Chen et al., 2001; Kim et al., 2011a, 2011b). We first
+
+separate all weeks within each unique firm-year pair into the down weeks which experience firm-specific weekly returns Wj,t below its mean of firm-
+specific weekly returns Wj,t for the entire year. We then calculate the standard deviation of firm-specific weekly returns Wj,tfor the down weeks. We
+make the same separation and calculations of the standard deviation of firm-specific weekly returns, Wj,tfor the up weeks. We then define the
+variable, DUVOL as the log ratio of the standard deviation of firm-specific abnormal weekly returns, Wj,tof the down weeks to that of the up weeks in
+the following formula.
+
+(n 1) W2
+DUVOL u
+
+j t = log DOWN j,t
+, (n 2
+
+d 1) UP Wj,t (8)
+where nuis the number of the up weeks and nd is the number of the down weeks for the entire year of a given firm. The higher value of DUVOL
+corresponds to a more left skewed distribution, which indicates the higher incidence of crash.
+
+Appendix D. The interaction effect of corporate and government customer concentration on stock price crash risk
+
+Panel A presents the results of Logit regressions which examine the interaction impact between corporate customer concentration and gov-
+ernment customer concentration measures on stock price crash risk. Interaction Term represents the interaction between each measure of corporate
+and government customer concentration used in the same model. In Panel A, CRASH has a value of 1 if a firm experiences one or more crash events
+in a year, and 0 otherwise. In Models 1 to 3 of Panel B, DUVOL measures the down-to-up volatility of crash likelihood. In Models 4 to 6 of Panel B,
+NCSKEW represents the negative conditional return skewness. All regressions include industry and year dummies. T-statistics clustered at both firm
+and year are in parentheses. * p < 0.1, ** p < 0.05, *** p < 0.01.
+
+Panel A (1) (2) (3)
+LOGIT Models CRASH
+
+Interaction Term −0.041 −0.562 −0.456**
+(−0.663) (−1.200) (−2.033)
+
+Major Gov't Customert-1 −0.055
+(−1.308)
+
+Major Corp Customert-1 0.087***
+(4.681)
+
+Gov't Customer HHIt-1 −0.133
+(−1.224)
+
+Corp Customer HHIt-1 0.297***
+(4.756)
+
+Major Gov't Customer Salest-1 −0.051
+(−0.683)
+
+Major Corp Customer Salest-1 0.199***
+(5.607)
+
+Observations 109,055 109,055 109,055
+Control Variables YES YES YES
+Year FE YES YES YES
+Industry FE YES YES YES
+Pseudo R2 0.0281 0.0281 0.0282
+
+Panel B (1) (2) (3) (4) (5) (6)
+OLS Models DUVOL NCSKEW
+
+Interaction Term −0.029*** −0.046 −0.087*** −0.067*** −0.177 −0.211***
+(−3.284) (−0.794) (−2.780) (−3.386) (−1.454) (−3.025)
+
+Major Gov't Customert-1 −0.003 0.001
+(−0.510) (0.049)
+
+Major Corp Customert-1 0.018*** 0.037***
+(6.380) (5.847)
+
+Gov't Customer HHIt-1 −0.035** −0.058
+(−2.214) (−1.600)
+
+Corp Customer HHIt-1 0.056*** 0.125***
+(5.115) (4.840)
+
+Major Gov't Customer Salest-1 −0.011 −0.011
+(−0.945) (−0.456)
+
+Major Corp Customer Salest-1 0.041*** 0.086***
+(6.998) (6.386)
+
+Observations 108,879 108,879 108,879 108,917 108,917 108,917
+Control Variables YES YES YES YES YES YES
+Year FE YES YES YES YES YES YES
+Industry FE YES YES YES YES YES YES
+Adjusted R2 0.0593 0.0592 0.0594 0.0484 0.0483 0.0485
+
+342
+
+
+
+S.M. Lee, et al. Journal of Business Research 110 (2020) 327–346
+
+Appendix E. Robustness check: Propensity score matching
+
+Panel A presents results of Logit regressions to examine the impact of corporate customer concentration on stock price crash risk. CRASH has a
+value of 1 if a firm experiences one or more crash events in a year, and 0 otherwise. Panel B presents results of OLS regressions to examine the impact
+of corporate customer concentration on stock price crash risk. In Models 1 to 3, DUVOL measures the down-to-up volatility of crash likelihood. In
+Models 4 to 6, NCSKEW represents the negative conditional return skewness. All regressions include industry and year dummies. T-statistics
+clustered at both firm and year are in parentheses. * p < 0.1, ** p < 0.05, *** p < 0.01.
+
+Panel A (1) (2) (3)
+LOGIT Models CRASH
+
+Major Corp Customert-1 0.090***
+(4.498)
+
+Corp Customer HHIt-1 0.266***
+(3.785)
+
+Major Corp Customer Salest-1 0.185***
+(4.771)
+
+Observations 65,951 65,951 65,951
+Control Variables YES YES YES
+Year FE YES YES YES
+Industry FE YES YES YES
+Pseudo R2 0.0241 0.0240 0.0241
+
+Panel B (1) (2) (3) (4) (5) (6)
+OLS Models DUVOL NCSKEW
+
+Major Corp Customert-1 0.014*** 0.030***
+(4.732) (4.445)
+
+Corp Customer HHIt-1 0.053*** 0.113***
+(4.357) (3.976)
+
+Major Corp Customer Salest-1 0.036*** 0.075***
+(5.610) (5.162)
+
+Observations 65,854 65,854 65,854 65,880 65,880 65,880
+Control Variables YES YES YES YES YES YES
+Year FE YES YES YES YES YES YES
+Industry FE YES YES YES YES YES YES
+Adjusted R2 0.0546 0.0546 0.0548 0.0450 0.0450 0.0452
+
+Appendix F. Robustness check: Fixed-Effect Models
+
+Panel A presents the results of fixed-effect Logit regressions which examine the impact of corporate customer concentration on stock price crash
+risk. CRASH has a value of 1 if a firm experiences one or more crash events in a year, and 0 otherwise. Panel B presents results of fixed-effect OLS
+regressions to examine the impact of corporate customer concentration on stock price crash risk. In Models 1 to 3, DUVOL measures the down-to-up
+volatility of crash likelihood. In Models 4 to 6, NCSKEW represents the negative conditional return skewness. All regressions include firm- and year
+dummies. Robust z- or t- statistics are in parentheses. * p < 0.1, ** p < 0.05, *** p < 0.01.
+
+Panel A (1) (2) (3)
+Fixed Effect LOGIT Models CRASH
+
+Major Corp Customert-1 0.051*
+(1.800)
+
+Corp Customer HHIt-1 0.135
+(1.451)
+
+Major Corp Customer Salest-1 0.097*
+(1.664)
+
+Observations 93,292 93,292 93,292
+Control Variables YES YES YES
+Year FE YES YES YES
+Firm FE YES YES YES
+Pseudo R2 0.0293 0.0293 0.0293
+
+Panel B (1) (2) (3) (4) (5) (6)
+Fixed Effect OLS Models DUVOL NCSKEW
+
+Major Corp Customert-1 0.008** 0.012
+(2.006) (1.445)
+
+343
+
+
+
+S.M. Lee, et al. Journal of Business Research 110 (2020) 327–346
+
+Corp Customer HHIt-1 0.044*** 0.072**
+(3.282) (2.391)
+
+Major Corp Customer Salest-1 0.030*** 0.049***
+(3.599) (2.673)
+
+Observations 108,879 108,879 108,879 108,917 108,917 108,917
+Control Variables YES YES YES YES YES YES
+Year FE YES YES YES YES YES YES
+Firm FE YES YES YES YES YES YES
+Adjusted R2 0.111 0.112 0.112 0.0994 0.0994 0.0994
+
+Appendix G. Robustness check: Instrumental-variable (IV) analysis
+
+The table below reports the results of IV regressions. In panel A, we use corporate customer concentration in its earliest year as an instrumental
+variable. Specifically, Model (1) reports the 1st-stage IV regression analysis where we employ corporate customer concentration in its earliest year as
+an independent variable of interest while positioning corporate customer concentration in its subsequent years as a dependent variable. Models (2)
+and (3) report the 2nd-stage IV regression analysis where we employ customer concentration (instrumented) which is predicted in the 1st-stage IV
+analysis in Model (1) as an independent variable of interest while positioning each stock crash measure as a dependent variable. To measure
+corporate customer concentration, we use Corp Customer HHI in Models (1) to (3) and Major Corp Customer Sales in Models (4) to (6). Panel B
+reports results of IV regressions where we use average corporate customer concentration of all firms excluding itself in the same US county as an
+instrumental variable. DUVOL measures the down-to-up volatility of crash likelihood and NCSKEW represents the negative conditional return
+skewness. For the tests, we focus on those firms where corporate customer concentration changes more quickly over time. To identify those firms, we
+first calculate the standard deviation of each corporate customer concentration measure for each firm over time. Then, we select the subsample of
+firms where the standard deviation of each corporate customer concentration measure is above its median. All regressions include industry and year
+dummies. t-statistics are in parentheses. * p < 0.1, ** p < 0.05, *** p < 0.01.
+
+Panel A (1) (2) (3) (4) (5) (6)
+IV stage 1st-stage 2nd-stage 2nd-stage 1st-stage 2nd-stage 2nd-stage
+Dependent variable Corp Customer HHIt-1 DUVOL NCSKEW Major Corp Customer Salest-1 DUVOL NCSKEW
+
+Corp Customer HHIt-1(Earliest year) 0.364***
+(89.503)
+
+Major Corp Customer Salest-1 (Earliest year) 0.351***
+(87.972)
+
+Corp Customer HHIt-1(Instrumented) 0.093*** 0.228***
+(5.300) (5.761)
+
+Major Corp Customer Salest-1 (Instrumented) 0.126*** 0.358***
+(4.269) (5.371)
+
+Observations 55,517 55,517 55,541 55,654 55,654 55,679
+Control Variables YES YES YES YES YES YES
+Year FE YES YES YES YES YES YES
+Industry FE YES YES YES YES YES YES
+R-squared 0.205 0.063 0.052 0.225 0.062 0.051
+IV F-stat 7,739 7,748 8,011 8,025
+Durbin pval 0.00867 9.83e-05 0.000667 3.89e-05
+
+Panel B (1) (2) (3) (4) (5) (6)
+IV stage 1st-stage 2nd-stage 2nd-stage 1st-stage 2nd-stage 2nd-stage
+Dependent variable Corp Customer HHIt- DUVOL NCSKEW Major Corp Customer Salest- DUVOL NCSKEW
+
+1 1
+
+Average Corp Customer HHIt-1 of all firms excluding itself in its US county 0.097***
+(11.357)
+
+Average Major Corp Customer Salest-1 of all firms excluding itself in its US 0.147***
+county
+
+(18.554)
+Corp Customer HHIt-1(Instrumented) 0.723*** 1.577**
+
+(2.584) (2.523)
+Major Corp Customer Salest-1 (Instrumented) 0.204** 0.441**
+
+(2.182) (2.114)
+
+Observations 85,314 85,314 85,346 85,314 85,314 85,346
+Control Variables YES YES YES YES YES YES
+Year FE YES YES YES YES YES YES
+Industry FE YES YES YES YES YES YES
+R-squared 0.124 0.018 0.009 0.185 0.052 0.041
+IV F-stat 129 129.2 344.3 344.5
+Durbin pval 0.0152 0.0180 0.0729 0.0788
+
+344
+
+
+
+S.M. Lee, et al. Journal of Business Research 110 (2020) 327–346
+
+Appendix H. The moderating effect of Relationship-specific investments
+
+The table below reports the interaction effect of relation-specific investment by a supplier firm and its corporate customer concentration
+measures on stock price crash risk. Panel A presents results of Logit regressions where CRASH is the dependent variable while Panel B presents results
+of OLS regressions where DUVOL and NCSKEW are the dependent variables. High Relation-specific Investment has a value of 1 if R&D investments
+by a supplier firm is above the sample median market share of all firms in the same 2-digit SIC industry in a given year, and 0 otherwise. All
+regressions include industry and year dummies. Z- or T-statistics clustered at both firm and year are in parentheses, depending on the type of
+regression models. * p < 0.1, ** p < 0.05, *** p < 0.01.
+
+Panel A (1) (3) (5)
+LOGIT Models CRASH
+
+Major Corp Customert-1 0.093***
+(4.588)
+
+Major Corp Customert-1 X High Relation-specific Investment 0.041
+(1.021)
+
+Corp Customer HHIt-1 0.279***
+(3.983)
+
+Corp Customer HHIt-1 X High Relation-specific Investment 0.041
+(0.304)
+
+Major Corp Customer Salest-1 0.187***
+(4.785)
+
+Major Corp Customer Salest-1 X High Relation-specific Investment 0.038
+(0.509)
+
+High Relation-specific Investment 0.068** 0.083*** 0.078***
+(2.167) (3.219) (2.748)
+
+Observations 109,055 109,055 109,055
+Control Variables YES YES YES
+Year FE YES YES YES
+Industry FE YES YES YES
+Pseudo R2 0.0282 0.0282 0.0282
+
+Panel B (1) (2) (3) (4) (5) (6)
+OLS Models DUVOL NCSKEW
+
+Major Corp Customert-1 0.018*** 0.036***
+(6.029) (5.355)
+
+Major Corp Customert-1 X High Relation-specific Investment 0.013** 0.024*
+(2.117) (1.763)
+
+Corp Customer HHIt-1 0.051*** 0.112***
+(4.215) (3.914)
+
+Corp Customer HHIt-1 X High Relation-specific Investment −0.004 −0.010
+(−0.153) (−0.174)
+
+Major Corp Customer Salest-1 0.039*** 0.079***
+(6.084) (5.422)
+
+Major Corp Customer Salest-1 X High Relation-specific Investment −0.009 0.017
+(−0.760) (0.581)
+
+High Relation-specific Investment 0.001 0.007* 0.005 0.008 0.019** 0.015
+(0.330) (1.960) (1.306) (0.770) (2.224) (1.642)
+
+Observations 108,879 108,879 108,879 108,917 108,917 108,917
+Control Variables YES YES YES YES YES YES
+Year FE YES YES YES YES YES YES
+Industry FE YES YES YES YES YES YES
+Adjusted R2 0.0592 0.0592 0.0593 0.0483 0.0483 0.0484
+
+References Chang, H., Hall, C. M., & Paz, M. T. (2017). Customer concentration, cost structure, and
+performance. Drexel University and Cornell University.
+
+Chen, S., Chen, X., Cheng, Q., & Shevlin, T. (2010). Are family firms more tax aggressive
+An, H., & Zhang, T. (2013). Stock price synchronicity, crash risk, and institutional in- than non-family firms? Journal of Financial Economics, 95(1), 41–61.
+
+vestors. Journal of Corporate Finance, 21, 1–15. Chen, Y., Hu, G., Yao, J., & Zhao, J. (2018). Customer concentration, bad news with-
+Banerjee, S., Dasgupta, S., & Kim, Y. (2008). Buyer-supplier relationships and the sta- holding, and stock price crash risk. Working paper. Hong Kong Polytechnic
+
+keholder theory of capital structure. Journal of Finance, 63(5), 2507–2552. University and Deakin University.
+Banker, R. D., Byzalov, D., & Plehn-Dujowich, J. M. (2014). Demand uncertainty and cost Chen, J., Hong, H., & Stein, J. (2001). Forecasting crashes, trading volume, past returns,
+
+behaviour. The Accounting Review, 89(3), 839–865. and conditional skewness in stock prices. Journal of Financial Economics, 61(3),
+Bowen, R., DuCharme, L., & Shores, D. (1995). Stakeholders implicit claims and ac- 345–381.
+
+counting method choice. Journal of Accounting and Economics, 20(3), 255–295. Cohen, D. A., & Li, B. (2013). Why do firms hold less cash? A customer base explanation.
+Callen, J. L., & Fang, X. (2015). Religion and stock price crash risk. Journal of Financial Working paper. University of Texas at Dallas.
+
+and Quantitative Analysis, 50(1/2), 169–195. Cook, K., Huston, R., & Omer, T. (2008). Earnings management through effective tax
+Campello, M., & Gao, J. (2017). Customer concentration and loan contract term. Journal rates: The effects of tax planning investment and the Sarbanes-Oxley Act of 2002.
+
+of Financial Economics, 123(1), 108–136. Contemporary Accounting Research, 25(2), 447–471.
+Cen, L., Mayhew, E., Zhang, L., & Zuo, L. (2017). Customer-supplier relationships and Daniel, N., Lee, S., & Naveen, L. (2014). Information discovery by analysts. Working paper.
+
+corporate tax avoidance. Journal of Financial Economics, 123(2), 377–394. Drexel University and Temple University.
+
+345
+
+
+
+S.M. Lee, et al. Journal of Business Research 110 (2020) 327–346
+
+DeFond, M. L., Hung, M., Li, S., & Li, Y. (2015). Does mandatory IFRS adoption affect Journal of Financial Economics, 101(3), 713–730.
+crash risk? The Accounting Review, 90(1), 265–299. Kim, J., Li, Y., & Zhang, L. (2011b). Corporate tax avoidance and stock price crash risk:
+
+Dhaliwal, D., Gleason, C., & Mills, L. (2004). Last-chance earnings management: Using the Firm-level analysis. Journal of Financial Economics, 100(3), 639–662.
+tax expense to meet analysts' forecasts. Contemporary Accounting Research, 21(2), Kim, J., Wang, Z., & Zhang, L. (2016). CEO overconfidence and stock price crash risk.
+431–459. Contemporary Accounting Research, 33(4), 1720–1749.
+
+Dhaliwal, D., Judd, J. S., Serfling, M., & Shaikh, S. (2016). Customer concentration risk Kim, J., & Zhang, L. (2016). Accounting conservatism and stock price crash risk: Firm-
+and the cost of equity capital. Journal of Accounting and Economics, 61(1), 23–48. level evidence. Contemporary Accounting Research, 33(1), 412–441.
+
+Dhaliwal, D., Michas, P. N., Naiker, V., & Sharma, D. S. (2019). Greater reliance on major Kolay, M., Lemmon, M., & Tashjian, E. (2016). Spreading the Misery? Sources of bank-
+customers and auditor going concern opinions. Contemp Account Res. https://doi.org/ ruptcy spill over in the supply chain. Journal of Financial and Quantitative Analysis,
+10.1111/1911-3846.12551. 51(6), 1955–1990.
+
+Dou, Y., Hope, O., & Thomas, W. B. (2013). Relation-specificity, contract enforceability, Kothari, S. P., Leone, A., & Wasley, C. E. (2005). Performance matched accrual measures.
+and income smoothing. The Accounting Review, 88(5), 1629–1656. Journal of Accounting and Economics, 39(1), 163–197.
+
+Fee, E. C., Hadlock, C. J., & Thomas, S. (2006). Corporate equity ownership and the Kothari, S. P., Shu, S., & Wysocki, P. D. (2009). Do managers withhold bad news? Journal
+governance of product market relationship. The Journal of Finance, 61(3), 1217–1251. of Accounting Research, 47(1), 241–276.
+
+Garfinkel, J. (2009). Measuring investors' opinion divergence. Journal of Accounting Krishnan, G. V., Patatoukas, P. N., & Wang, A. Y. (2019). Customer-base concentration:
+Research, 47(5), 1317–1348. Implications for audit pricing and quality. Journal of Management Accounting Research,
+
+Gosman, M., Kelly, P., Olsson, P., & Warfield, T. (2004). The profitability and pricing of 31(1), 129–152.
+major customers. Review of Accounting Studies, 9(1), 117–139. Kumar, A., Page, J., & Spalt, O. (2011). Religious beliefs, gambling attitudes, and fi-
+
+Graham, J. R., Harvey, C. R., & Rajgopal, S. (2005). The economic implications of cor- nancial market outcomes. Journal of Financial Economics, 102(3), 671–708.
+porate financial reporting. Journal of Accounting and Economics, 40(1–3), 3–73. Laksmana, I., & Yang, Y. (2014). Product market competition and earnings management:
+
+Hanlon, M., & Shevlin, T. (2003). The tax benefits of employee stock options: The ac- Evidence from discretionary accruals and real activity manipulation. Advances in
+counting and implications for research. Accounting Horizons, 16(1), 1–16. Accounting, 30, 263–275.
+
+Hertzel, M. G., Li, Z., Officer, M. S., & Rodgers, K. J. (2008). Inter-firm linkages and the Li, X. (2010). The impacts of product market competition on the quantity and quality of
+wealth effects of financial distress along the supply chain. Journal of Financial voluntary disclosures. Review of Accounting Studies, 15(3), 663–711.
+Economics, 87, 374–387. Patatoukas, P. N. (2012). Customer-base concentration: Implications for firm perfor-
+
+Hilary, G., & Hui, K. W. (2009). Does religion matter in corporate decision making in mance and capital markets. The Accounting Review, 87(2), 363–392.
+America? Journal of Financial Economics, 93(3), 455–473. Raman, K., & Shahrur, H. (2008). Relationship-specific investments and earnings man-
+
+Huang, H. H., Lobo, G. J., Wang, C., & Xie, H. (2016). Customer concentration and cor- agement: Evidence on corporate suppliers and customers. The Accounting Review,
+porate tax avoidance. Journal of Banking and Finance, 72, 184–200. 83(4), 1041–1081.
+
+Hui, K. W., Klasa, S., & Yeung, P. E. (2012). Corporate suppliers and customers and ac- Robin, A. J., & Zhang, H. (2015). Do industry-specialist auditors influence stock price
+counting conservatism. Journal of Accounting and Economics, 53(1–2), 115–135. crash risk? Auditing: A Journal of Practice & Theory, 34(3), 47–79.
+
+Hutton, A. P., Marcus, A. J., & Tehranian, H. (2009). Opaque financial reports, R2, and Schumacher, U. (1991). Buyer structure and seller performance in U.S. manufacturing
+crash risk. Journal of Financial Economics, 94(1), 67–86. industries. The Review of Economics and Statistics, 73(2), 277–284.
+
+Irvine, P. J., Park, S. S., & Yildizhan, C. (2016). Customer-base concentration, profit- Snyder, C. M. (1996). A dynamic theory of countervailing power. The RAND Journal of
+ability, and the relationship life cycle. The Accounting Review, 91(3), 883–906. Economics, 27(4), 747–769.
+
+Itzkowitz, J. (2013). Customers and cash: How relationships affect suppliers' cash hold- Tirole, J. (1999). Incomplete contracts: Where do we stand? Econometrica, 67(4),
+ings. Journal of Corporate Finance, 19, 159–180. 741–781.
+
+Jin, L., & Myers, C. S. (2006). R2 around the world: New theory and new tests. Journal of
+Financial Economics, 79(2), 257–292. Sang Mook Lee is an Assistant Professor of Finance at Pennsylvania State University
+
+Jorion, P., & Zhang, G. (2009). Credit contagion from counterparty risk. Journal of Great Valley and he has published at Long Range Planning, Financial Management,
+Finance, 64(5), 2053–2087. Human Resource Management, Journal of Organizational Behavior, and Business and
+
+Kalwani, M., & Narayandas, N. (1995). Long-term manufacturer-supplier relationships: Society.
+Do they pay off for supplier firms? Journal of Marketing, 59(1), 1–16.
+
+Kang, M., Mahoney, J. T., & Tan, D. (2009). Why firms make unilateral investments
+specific to other firms: The case of OEM suppliers. Strategic Management Journal, Pornsit Jiraporn is a Professor of Finance at Pennsylvania State University Great Valley
+30(2), 117–135. and he has published in Journal of Banking and Finance and Financial Management,
+
+Kim, Y., Li, H., & Li, S. (2014). Corporate social responsibility and stock price crash risk.
+Journal of Banking and Finance, 43, 1–13. Hakjoon Song is an Associate Professor of Accounting at California State University
+
+Kim, J., Li, L., Li, L. Y., & Yu, Y. (2016). Financial statement comparability and expected Dominguez Hills and he has published at the Accounting Review, Auditing: A Journal of
+crash risk. Journal of Accounting and Economics, 61(2–3), 294–312. Practice and Theory, and Accounting Horizons.
+
+Kim, J., Li, Y., & Zhang, L. (2011a). CFOs versus CEOs: Equity incentives and crashes.
+
+346

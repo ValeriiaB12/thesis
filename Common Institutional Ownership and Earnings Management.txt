@@ -1,0 +1,2265 @@
+﻿Common Institutional Ownership and Earnings Management*
+
+SANTHOSH RAMALINGEGOWDA, University of Georgia
+
+STEVEN UTKE, University of Connecticut
+
+YONG YU, University of Texas at Austin†
+
+ABSTRACT
+This study examines the relation between earnings management and block ownership of same-
+industry peer firms by a common set of institutional investors (common institutional ownership).
+This relation is important given the tremendous growth of common institutional ownership and the
+significant influence of blockholders on financial reporting. We hypothesize that common institu-
+tional ownership mitigates earnings management by enhancing institutions’ monitoring efficiency
+and by encouraging institutions to internalize the negative externality of a firm’s earnings manage-
+ment on peer firms’ investments. Consistent with our hypothesis, we find that higher common
+institutional ownership is related to less earnings management. Analyses of a quasi-natural experi-
+ment based on financial institution mergers show that this negative relation is unlikely to be driven
+by the endogeneity of common institutional ownership. Cross-sectional tests provide evidence that
+the negative relation is stronger among firms for which common institutional ownership is likely
+to generate a greater reduction in institutions’ information acquisition and processing costs, and
+among firms whose severe financial misstatements are more likely to distort co-owned peer firms’
+investments, supporting both mechanisms underlying our hypothesis. Our findings inform the
+ongoing debate on the costs and benefits of common institutional ownership by highlighting an
+important benefit: the enhanced monitoring of financial reporting.
+
+Keywords: institutional investors, common ownership, earnings management, monitoring, exter-
+nality, blockholdings
+
+Propriété commune par des investisseurs institutionnels
+et gestion des résultats
+
+RÉSUMÉ
+La présente étude examine la relation entre la gestion des résultats et la détention commune de
+blocs d’actions de sociétés paires d’un même secteur d’activités par un ensemble d’investisseurs
+institutionnels (propriété commune). Cette relation est importante, compte tenu de l’énorme
+croissance de la propriété commune et de l’influence des détenteurs de blocs d’actions sur la com-
+munication de l’information financière. Nous présumons que la propriété commune réduit la
+gestion des résultats en augmentant l’efficacité du contrôle des institutions et en encourageant
+celles-ci à internaliser l’externalité négative de la gestion des résultats d’une firme sur les
+investissements des firmes paires. Conformément à notre hypothèse, nous établissons qu’un haut
+niveau de propriété commune est lié à une gestion des résultats moindre. Des analyses d’une expé-
+rience quasi naturelle fondée sur des fusions d’institutions financières montrent que cette relation
+
+*Accepted by Ole-Kristian Hope. We appreciate helpful comments from Linda Bamber, Chao Chen, Junxiong Fang, Robert
+Freeman, Ole-Kristian Hope, Todd Kravet, Trent Krupa, Josh Lee, Alan Webb, Ben Whipple, Mike Willenborg, two anony-
+mous reviewers, and workshop participants at Fudan University, the University of Connecticut, and the University of Georgia.
+
+†Corresponding author.
+
+Contemporary Accounting Research Vol. 38 No. 1 (Spring 2021) pp. 208–241 © CAAA
+doi:10.1111/1911-3846.12628
+
+
+
+Common Institutional Ownership and Earnings Management 209
+
+négative n’est pas susceptible d’être stimulée par l’endogénéité de la propriété commune. Des ana-
+lyses transversales fournissent des données probantes indiquant que la relation négative est plus
+marquée chez les sociétés pour lesquelles la propriété commune est susceptible de générer une
+réduction plus importante des coûts d’acquisition et de traitement de l’information assumés par les
+institutions, de même que chez celles dont des déclarations financières inexactes graves sont plus
+susceptibles de fausser les investissements des sociétés paires en copropriété, à l’appui des deux
+mécanismes qui sous-tendent notre hypothèse. Nos observations éclairent le débat en cours sur les
+coûts et avantages de la propriété commune en mettant en lumière un avantage important, soit un
+meilleur contrôle de la communication de l’information financière.
+
+Mots clés : blockholdings, propriété commune par des investisseurs institutionnels, gestion des
+résultats, contrôle, externalité, blocs d’actions
+
+1. Introduction
+Block ownership of same-industry peer firms by a common set of institutional owners—that is,
+common institutional ownership (CIO, hereafter)—has increased tremendously over the past two
+decades. For example, the fraction of US public firms with an institutional blockholder that also
+simultaneously blockholds at least one of the firm’s industry peers has increased from less than
+10% in 1980 to about 60% in 2014. The rising importance of CIO stands in sharp contrast to our
+limited understanding of its influences on firms’ financial reporting. Prior research generally finds
+that institutional investors or blockholders are large, sophisticated users of financial statements
+who play a monitoring role in improving financial reporting (e.g., Rajgopal and
+Venkatachalam 1997; Ayers et al. 2011; Ramalingegowda and Yu 2012; Dou et al. 2018). How-
+ever, these studies treat institutions’ or blockholders’ holdings in each portfolio firm as an inde-
+pendent position and do not consider that the impact of one portfolio firm’s financial reporting on
+other portfolio firms could, in turn, influence institutions’ or blockholders’ monitoring role. In this
+study, we take a first step to fill this void by examining the relation between CIO and firms’ earn-
+ings management.
+
+We posit that CIO can help discipline earnings management through two mechanisms. The
+first mechanism is through reducing institutions’ information costs of monitoring (the economy of
+scale mechanism, hereafter). Given the economic commonality among firms in the same industry,
+information and expertise that common institutional investors gain from monitoring one portfolio
+firm can help them better analyze and monitor peer firms they blockhold. This economy of scale
+effect can reduce common institutional investors’ information acquisition and processing costs
+and enhance their efficiency in monitoring portfolio firms’ financial reporting.
+
+The second mechanism is through internalizing the negative externality of a firm’s earnings
+management on peer firms (the externality mechanism, hereafter). To the extent that a firm’s
+financial reports are used by the firm’s peers to identify profitable investment opportunities,
+accounting misstatements by the firm can send a misleading signal to its peers about available
+investment opportunities, distorting peers’ investment decisions. Consistent with this prediction,
+Beatty et al. (2013) find that accounting overstatements result in higher investments by peer firms
+(see also Li 2016). This negative externality increases the cost of earnings management to com-
+mon institutional investors because one portfolio firm’s overstatement not only reduces the over-
+stating firm’s value but also reduces the value of other co-owned peer firms whose investment
+strategies are distorted by the overstatement. Thus, we expect common institutional investors to
+internalize the externality of earnings management on peer firms’ investments and thereby
+enhance institutions’ incentives to discipline portfolio firms’ earnings management.
+
+Although we posit that CIO can discipline earnings management, it is also possible that CIO
+may not reduce, and may even exacerbate, earnings management. Common institutional investors
+likely possess superior information over other investors. Their large ownership of multiple peer
+firms not only gives common institutional investors access to firm management and boards of
+
+CAR Vol. 38 No. 1 (Spring 2021)
+
+ 19113846, 2021, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1911-3846.12628 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+210 Contemporary Accounting Research
+
+directors (e.g., McCahery et al. 2016), but also enhances their information advantage by facilitating
+information spillovers across co-owned peer firms. Further, common institutional investors are bet-
+ter able to process public information, in part because analyzing multiple co-owned peer firms
+simultaneously can enhance their abilities to extract useful information from noise. Overall, given
+their superior information and processing ability, common institutional investors may have lower
+demand for high-quality financial reporting and may even prefer less transparency to protect their
+information advantage (e.g., Bushee et al. 2003; Dou, Hope, Thomas, and Zou 2016).
+
+We examine the relation between CIO and earnings management using a large sample of
+60,148 firm-years over the period 1989–2015. We focus on income-increasing earnings manage-
+ment because it is likely more detrimental to firm value (e.g., Becker et al. 1998) and because it is
+known to induce negative externalities that are detrimental to peer firms’ value (Beatty et al. 2013).
+These reasons provide common institutional investors stronger incentives to reduce income-
+increasing earnings management. We measure CIO using an indicator variable equal to one for a
+firm-year if an institutional investor has a blockholding (>5% of shares outstanding) in this firm
+and at least one of its industry peers simultaneously in that year (He and Huang 2017). We gauge
+income-increasing earnings management using both performance-adjusted discretionary accruals
+and the likelihood of meeting or beating analysts’ forecasts by one cent or less. Controlling for
+total institutional ownership, the presence of blockholdings, various determinants of earnings man-
+agement, and firm and year fixed effects, our regression analysis reveals a negative relation
+between CIO and earnings management. This negative relation is also economically meaningful.
+Our results indicate that the presence of CIO is associated with a 0.003 decrease in discretionary
+accruals (compared with the sample mean of −0.003), and a 1.5 percentage point decrease in the
+likelihood of meeting or just beating analyst forecasts, which is equivalent to a 13% decrease from
+the unconditional base rate of 11.6% in our sample.
+
+We address potential concerns about endogeneity of CIO by conducting a difference-in-
+differences analysis of the quasinatural experiment of financial institution mergers. Financial insti-
+tution mergers result in a significant increase in CIO but are plausibly exogenous to the character-
+istics of institutions’ portfolio firms, including portfolio firms’ financial reporting attributes. We
+compare the change in earnings management for a treatment sample consisting of firms for which
+the mergers are likely to increase the firms’ ownership linkages with peer firms–that is, with peer
+firm block-holdings by both merging institutions before the merger—relative to a control sample
+consisting of other blockheld firms in the same institutions’ portfolios that are unlikely to experi-
+ence changes in CIO due to the mergers. We find that, relative to control firms, treatment firms
+exhibit a decrease in earnings management after the mergers. Overall, these results are consistent
+with CIO having a causal effect in mitigating earnings management.
+
+We next conduct cross-sectional tests of the mechanisms—economy of scale or externality—
+through which CIO mitigates earnings management. First, we examine the economy of scale
+mechanism by exploring cross-sectional variation in the likelihood that CIO reduces information
+costs of monitoring. CIO is likely to generate a greater economy of scale effect among firms
+whose common institutional investors blockhold more peer firms. Hence, we expect CIO to have
+a stronger effect in mitigating earnings management among these firms. Consistent with our
+expectation, we find that the negative relation between CIO and earnings management is more
+pronounced among firms whose common institutional investors blockhold more peer firms. This
+result provides evidence in support of the economy of scale mechanism.
+
+Second, we examine the externality mechanism by exploring cross-sectional variation in the like-
+lihood of the negative externality of earnings management on peer firms’ investments. Beatty
+et al. (2013) predict and find that this negative externality is greater among industries with higher
+investor sentiment, lower cost of capital, and higher private benefits of control, because under these
+conditions accounting overstatements are more likely to lead peer firms to become optimistic about
+industry productivity and consequently make more investments. They also predict and find the nega-
+tive externality is greater among firms with higher unexpected overlap in analyst coverage with peer
+
+CAR Vol. 38 No. 1 (Spring 2021)
+
+ 19113846, 2021, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1911-3846.12628 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Common Institutional Ownership and Earnings Management 211
+
+firms, because analysts help transmit peer information (e.g., Hope and Zhao 2018) that includes dis-
+torted signals about investment opportunities around misstatements and thus facilitates the spillover
+of this externality. Hence, to the extent that CIO internalizes this negative externality of earnings
+management on peer firms’ investments, we would expect the negative relation between CIO and
+earnings management to be stronger in these industries and firms. We find only limited support for
+this expectation with our accrual and meet/beat measures of earnings management. We generally
+find a significantly negative relation between CIO and discretionary accruals or meet/beat among
+(i) industries with higher investor sentiment, lower cost of capital and higher private benefits of
+control and (ii) firms with higher unexpected overlap in analyst coverage with common institu-
+tional investors’ other co-owned peer firms. However, the magnitude of the negative relation in
+these industries/firms is not statistically different from the magnitude of the negative relation in
+other industries/firms.
+
+One possible reason for the limited support for the externality mechanism is the lack of power of
+our tests using the discretionary accrual and meet/beat measures of earnings management. These two
+measures likely capture both opportunistic reporting that pushes the boundaries of GAAP and severe
+misstatements that fall outside the boundaries of GAAP. To the extent only severe misstatements that
+violate GAAP generate a significant externality on peer firm’s investments, in part due to the larger
+magnitude of earnings management in severe misstatements, discretionary accruals and meet/beat
+may be less powerful in detecting the externality mechanism. Thus, we focus on severe financial mis-
+statements to conduct a more powerful test of the externality mechanism. Using financial misstate-
+ments or frauds based on SEC and DOJ enforcement actions, as identified by Call et al. (2018), as a
+proxy for the extreme form of earnings management, we find that CIO is negatively related to earn-
+ings management among (i) industries with higher investor sentiment, lower cost of capital, and
+higher private benefits of control and (ii) firms with higher unexpected overlap in analyst coverage
+with common institutional investors’ other co-owned peer firms. Further, we find that this negative
+relation in these industries/firms is significantly more negative than the negative relation in other
+industries/firms. These results provide stronger evidence in support of the externality mechanism.
+
+To shed light on the effect of CIO on other forms of earnings management, we examine the
+relation between CIO and firms’ real activities manipulation. On the one hand, if the enhanced
+monitoring by CIO also helps discipline real activities manipulation, we expect a similar negative
+relation between CIO and real activities manipulation. On the other hand, if CIO has a disciplin-
+ary effect on accrual-based earnings management only, it can lead firms to shift their earnings
+management behavior away from accrual-based earnings management toward real activities
+manipulation, resulting in a positive relation between CIO and real activities manipulation. We
+find that CIO is negatively related to abnormal discretionary expenses, providing some evidence
+that CIO also disciplines real activities manipulation through discretionary expenses.
+
+Finally, we examine whether CIO has an effect on earnings response coefficients (ERCs).
+Given our findings that CIO has a disciplinary effect on earnings management, it is possible that
+this effect results in greater price informativeness of earnings because the market places more
+weight on reported earnings of firms with CIO. We find that CIO is positively related to earnings
+response coefficients, consistent with CIO enhancing the price informativeness of earnings.
+
+Our study contributes to the literature on investor monitoring and financial reporting. Prior
+studies focus on institutional or blockholder ownership in an individual firm and treat holdings in
+each portfolio firm as an independent position (e.g., Rajgopal and Venkatachalam 1997; Ayers
+et al. 2011; Ramalingegowda and Yu 2012; Dou, Hope, Thomas, and Zou 2016; Dou et al. 2018).
+We extend this literature by examining a distinct and increasingly important aspect of institutional
+ownership—common block ownership of industry peers. We find that CIO has a disciplining
+effect on financial reporting, and that this disciplining effect is greater where (i) CIO lowers infor-
+mation costs of monitoring to a greater extent and (ii) a firm’s earnings management generates a
+greater negative externality on peer firms’ investments. These findings add to the literature by
+
+CAR Vol. 38 No. 1 (Spring 2021)
+
+ 19113846, 2021, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1911-3846.12628 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+212 Contemporary Accounting Research
+
+providing new evidence that CIO mitigates earnings management by enhancing institutions’ mon-
+itoring efficiency and by internalizing the negative externality of earnings management.
+
+Our study also adds to the growing literature on CIO. Prior finance research shows that CIO
+weakens product market competition (e.g., Azar et al. 2018; Azar et al. 2019), fosters market
+share growth (He and Huang 2017), increases return correlations (Antón and Polk 2014), and
+reduces executive pay incentives (Antón et al. 2018). Our findings highlight a new role of CIO in
+improving firms’ financial reporting—another important firm decision that impacts firm value.
+
+Our study is related to, but distinct from, Park et al. (2019), who find that CIO increases vol-
+untary disclosure by reducing proprietary costs of disclosure and internalizing the positive exter-
+nalities of disclosure in improving peer firms’ liquidity and cost of capital. We contribute to the
+literature beyond Park et al. (2019) in at least two ways. First, we examine how CIO influences
+financial reporting—a firm decision distinct from voluntary disclosure.1 Second, we show that
+CIO affects financial reporting through reducing information costs of monitoring and internalizing
+the negative externality of earnings management in distorting peer firms’ investments. These two
+mechanisms are new and distinct from the mechanisms documented by Park et al. (2019).2
+
+2. Related research and hypothesis development
+Background and related research
+CIO by large institutional investors has become ubiquitous across all industries in the United
+States. For example, as of 2016, BlackRock (the largest asset management firm) had $4.5 trillion
+of assets under management and had blockholdings (more than 5% ownership) in more than half
+of all listed companies in the United States. The combined ownership of BlackRock, Vanguard,
+and State Street now makes them the largest shareholder in more than 40% of all United States
+listed companies and 88% of S&P 500 companies (Fichtner et al. 2017). The large holdings give
+these institutional investors access to management and the board, and the clout to influence deci-
+sions. Although within fund management companies (e.g., BlackRock) each individual fund’s
+(e.g., BlackRock Large Cap Growth Fund) holdings in a portfolio firm may be small, fund man-
+agement companies generally exercise the shareholder voting rights of all individual funds jointly
+and centralize their formal and informal interactions with their portfolio firms (see Appel
+et al. 2016; Fichtner et al. 2017). Institutional investors typically exert influence on their portfolio
+firms through regular communications with firm executives, “behind the scenes” engagements,
+proxy voting, litigation, and the threat of exit (e.g., Carleton et al. 1998; Cheng et al. 2010; Appel
+et al. 2016; Azar et al. 2018, 2019; Dou et al. 2018).3
+
+The increasing importance of CIO has spurred a growing literature examining its economic con-
+sequences (see, e.g., Schmalz (2018) for a review). One stream of research examines anticompetitive
+effects of CIO. Theory in industrial organization predicts that because one firm’s competitive actions
+may hurt peer firms in the industry and thereby reduce the total value of the industry portfolio, CIO
+
+1. Ex ante, one cannot “infer” our findings on earnings management from Park et al.’s (2019) results on voluntary dis-
+closure because earnings quality and voluntary disclosure can be both substitutes and complements (e.g., Francis
+et al. 2008; Baginski and Rakow 2012). Hinson and Utke (2019) also show earnings quality and voluntary disclo-
+sure are distinct constructs that have a relatively low correlation.
+
+2. In concurrent work, He et al. (2020) find that CIO is related to more negative accruals and the negative accruals
+improve the association between accruals and cash flows, consistent with CIO enhancing monitoring. Our study dif-
+fers from He et al. (2020) in three ways. First, while they focus on properties of accruals, we examine a broader
+construct of earnings management that includes meet/beat and financial fraud. Second, we present evidence on the
+mechanism through which CIO enhances monitoring—namely, through reducing information costs of monitoring
+(the economy of scale mechanism). Third, they do not consider the negative externality of financial reporting. We
+show that internalizing the externality of misreporting on peer firms’ investments is an important mechanism for
+CIO to reduce earnings management.
+
+3. Whether the influence of the subset of passive investors on governance is positive (Appel et al. 2016; Barzuza et al. 2019)
+or negative (Schmidt and Fahlenbrach 2017; Qin and Wang 2018; Heath et al. 2020) is the subject of debate.
+
+CAR Vol. 38 No. 1 (Spring 2021)
+
+ 19113846, 2021, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1911-3846.12628 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Common Institutional Ownership and Earnings Management 213
+
+can reduce firms’ incentives to compete aggressively with one another (O’Brien and Salop 2000; Gilo
+et al. 2006). Consistent with this anticompetitive effect, Azar et al. (2018) find that higher CIO in the
+US airline industry is associated with an increase in airline ticket prices by 3–7%. Azar et al. (2019)
+provide similar evidence from the US banking industry showing that higher CIO is related to lower
+deposit account interest rates, higher maintenance fees, and higher thresholds for waiving fees. Antón
+et al. (2018) suggest that one important mechanism for this anticompetitive effect of CIO is through
+less use of relative performance evaluation (RPE) and more weight on industry profit in executives’
+compensation contracts.4 Further, He and Huang (2017) document that CIO encourages various forms
+of product market collaboration among commonly owned firms and increases market share growth,
+productivity, and profitability. Relatedly, Freeman (2019) shows that CIO of customer-supplier pairs
+enhances the customer-supplier relationship.
+
+Recent work also examines how CIO influences acquisitions, shareholder voting, and innova-
+tion. Matvos and Ostrovsky (2008) find that institutions owning both the acquirer and the target in
+a merger are more likely to approve the acquisition. Harford et al. (2011) show that common own-
+ership increases the likelihood that portfolio firms are targeted in takeovers. He et al. (2019) find a
+positive relation between CIO and the likelihood of voting against management in shareholder-
+sponsored governance proposals. Kostovetsky and Manconi (2020) find that higher CIO is associ-
+ated with more patent citations among portfolio firms, consistent with CIO facilitating the spread of
+innovation. We add to this emerging literature by examining the effect of CIO on firms’ financial
+reporting—another important firm decision that impacts firm value.
+
+Institutional investors are generally large, sophisticated investors who play a monitoring role
+in enhancing reporting quality. For example, Bushee (1998) finds that firms with higher institu-
+tional ownership are less likely to cut R&D expenditures to meet earnings benchmarks. Rajgopal
+and Venkatachalam (1997) and Cornett et al. (2008) find a negative association between institu-
+tional ownership and abnormal accruals. Ayers et al. (2011) and Chhaochharia et al. (2012) find
+that the presence of local institutional investors is associated with less aggressive reporting.
+Ramalingegowda and Yu (2012) find that firms with higher ownership by monitoring institutions
+report more conservatively. We extend this literature by examining the influence of CIO—a dis-
+tinct and increasingly important ownership structure—on financial reporting. Prior work treats
+institutions’ holdings in each portfolio firm as an independent position, but does not consider
+(i) the possibility that analyzing a portfolio firm’s financial reports affects the efficiency in moni-
+toring co-owned peer portfolio firms or (ii) the externalities of a portfolio firm’s reporting prac-
+tices on the institution’s co-owned peer firms. CIO provides a unique opportunity to examine
+how these interactions among portfolio firms affect institutions’ influence on financial reporting.
+
+Our study is also related to the literature that examines the effect of large shareholders on finan-
+cial reporting in general.5 Earlier studies in this literature find inconclusive evidence. While some
+studies find a negative relation between large shareholders and earnings management (e.g., Dechow
+et al. 1996), other studies find no significant relation between the two (e.g., Larcker et al. 2007). In
+more recent work, Dou, Hope, Thomas, and Zou (2016) analyze all blockholders of S&P 1500
+firms using a fixed effects approach, and document evidence of significant heterogeneity in
+blockholders’ influence on earnings management. Dou et al. (2018) find evidence that blockholders
+have a positive impact on financial reporting quality and this impact is stronger when managers’
+wealth is tied more closely to stock prices, consistent with blockholders improving financial
+reporting through exit threats. Our study adds to this literature by showing how simultaneous
+blockholdings of peer firms (i.e., CIO) influences the effect of blockholders on financial reporting.
+
+4. In contrast, Kwon (2016) reports a positive relation between CIO and RPE and argues that the anticompetitive
+effects of CIO may occur through channels other than RPE. However, Elhauge (2017) argues that data limitations
+and research design choices in Kwon (2016) cause those results to differ from Antón et al. (2018).
+
+5. See Armstrong et al. (2010), Beyer et al. (2010), and Hope (2013) for recent reviews of this literature.
+
+CAR Vol. 38 No. 1 (Spring 2021)
+
+ 19113846, 2021, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1911-3846.12628 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+214 Contemporary Accounting Research
+
+Hypothesis development
+A large body of accounting research shows that managers have various economic incentives for
+opportunistic financial reporting, including capital market, contractual, and regulatory motivations,
+and managers’ opportunistic financial reporting can destroy firm value and impose significant costs
+on shareholders (e.g., Field et al. 2001). Institutional investors with large holdings have the financial
+incentives and clout to influence firms’ financial reporting practices (e.g., Armstrong et al. 2010).
+These institutions require timely and reliable information to monitor management’s actions and par-
+ticipate in firms’ strategic decisions. They are also sophisticated investors with a superior ability to
+process information. Large institutions can influence their portfolio firms’ policies directly through
+regular communications with firm executives, “behind the scenes” engagements and proxy voting
+to improve governance structure, and litigation (e.g., Carleton et al. 1998; Cheng et al. 2010;
+Edmans 2014; Boone and White 2015; Appel et al. 2016; Azar et al. 2018, 2019; McCahery
+et al. 2016; He et al. 2019), and indirectly through the threat of exit—that is, “voting with their
+feet” (e.g., Admati and Pfleiderer 2009; Edmans and Manso 2011; Dou et al. 2018).
+
+Institutional investors’ size, sophistication, and interactions with firms and managers indicate that
+institutional investors can affect earnings management in at least three ways. First, they can voice their
+preferences to managers through private communications or voting. For example, BlackRock claims
+that it engages with firms or uses its vote to encourage better disclosure when it believes reporting or
+disclosure is inadequate (Boone and White 2015). Second, their monitoring can improve the firm’s
+governance structure, which has been found to constrain earnings management. Third, they can use
+the threat of exit to better align the incentives of managers and shareholders, which reduces managers’
+rent-extracting activities and thereby their need to manipulate earnings (Dou et al. 2018). Because
+these mechanisms enable institutional investors to impose significant costs on managers that manipu-
+late earnings, incentives for earnings management are reduced. While some governance changes may
+take time, institutional blockholders can have a timely impact on earnings management by engaging
+in private communications with management promptly. Further, corporate managers likely avoid earn-
+ings management in anticipation of higher costs, such as price drops due to institutions’ selling of
+shares, in the presence of monitoring by institutional blockholders (e.g., Park et al. 2019). Consistent
+with the above arguments, prior research finds evidence that institutional investors play a monitoring
+role in improving financial reporting and disciplining earnings management (e.g., Rajgopal and
+Venkatachalam 1997; Bushee 1998; Cornett et al. 2008; Ayers et al. 2011).
+
+We posit that CIO can discipline earnings management through both the economy of scale
+and externality mechanisms. The economy of scale mechanism refers to the reduction in institu-
+tions’ information costs of monitoring. Firms in the same industry tend to have similar business
+environments, geographic locations, products, operations, and financial reporting practices. These
+commonalities among same-industry firms give rise to a significant fixed component in institu-
+tions’ costs in monitoring firms from the same industry. The industry-level information and
+expertise that an institutional blockholder gains from monitoring one portfolio firm can effectively
+reduce that blockholder’s information acquisition and processing costs of monitoring peer firms
+in the portfolio. Institutional investors have also implemented mechanisms to facilitate informa-
+tion sharing among fund managers and coordinate monitoring activities. For example, many large
+funds such as Vanguard and BlackRock have a centralized governance committee that communi-
+cates with the fund managers in making monitoring decisions.6 Invesco uses a voting platform in
+which fund managers debate upcoming votes at their portfolio companies and reach consensus.
+
+6. For example, in explaining its approach, BlackRock states that its investment stewardship team “work[s] closely with
+BlackRock’s active portfolio managers when engaging companies and in addressing relevant governance issues. Addi-
+tionally, BlackRock’s investment teams leverage qualitative and quantitative company information, as well as sector
+and industry research, from various external service providers which can be used in BIS’ analysis of and conversations
+with companies and with clients” (see “BlackRock Investment Stewardship,” https://www.blackrock.com/corporate/
+literature/publication/blk-profile-of-blackrock-investment-stewardship-team-work.pdf).
+
+CAR Vol. 38 No. 1 (Spring 2021)
+
+ 19113846, 2021, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1911-3846.12628 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Common Institutional Ownership and Earnings Management 215
+
+T. Rowe Price requests that a fund manager explain when their voting deviates from the central
+recommendations (Fisch et al. 2019). Consistent with this notion that holding same-industry firms
+reduces information costs and enhances monitoring effectiveness, Gompers et al. (2008) find ven-
+ture capital firms with more investments in the same industry make more efficient investments.
+Kang et al. (2018) show that institutions’ monitoring effectiveness increases with the number of
+their blockholdings, especially when these blockholdings are in the same industry. Therefore, by
+creating an economy of scale, CIO can enable institutions to better monitor their portfolio firms
+and discipline the firms’ earnings management.
+
+The externality mechanism refers to the internalization of the negative externality of a firm’s
+earnings management on peer firms’ investments. To the extent a firm’s financial reports are used
+by the firm’s peers to identify profitable investment opportunities, accounting misstatements by
+the firm can send a misleading signal to its peers about available investment opportunities, dis-
+torting peers’ investment decisions. Specifically, Gigler (1994) and Kumar and Langberg (2010)
+develop theoretical models showing that favorable reports from one firm lead to increased invest-
+ments by peer firms. Durnev and Mangen (2009) find that peers of restating firms revise their
+investments in response to the restatements. Beatty et al. (2013) and Li (2016) find that financial
+misreporting misleads peer firms and in turn distorts peer firms’ investments. In the presence of
+this negative externality, earnings management becomes more costly for common institutions
+because one portfolio firm’s misstatement not only reduces its own firm value but also reduces
+the value of co-owned peer firms whose investment strategies are distorted by the misstatement.
+Thus, by internalizing this negative externality, CIO gives institutions stronger incentives to mon-
+itor and discipline portfolio firms’ financial reporting, resulting in less earnings management.
+Therefore, based on the above discussions, we state our hypothesis in the alternative form as
+follows:
+
+HYPOTHESIS 1. Higher common institutional ownership is associated with less earnings man-
+agement, ceteris paribus.
+
+However, there are also reasons to believe that our hypothesized relation may not hold, or
+that CIO may even increase earnings management. Large holdings provide institutions access to
+firm management and boards, along with their private information. CIO can enhance institutions’
+information advantage in two ways. First, it facilitates information spillovers across co-owned
+peer firms. That is, private information common institutional investors obtain from one portfolio
+firm also gives them an information advantage in co-owned peer firms. Second, CIO enhances
+institutions’ ability to process public information. By analyzing multiple co-owned peer firms
+simultaneously, common institutional investors are better able to extract useful information from
+noise, which may be more difficult and costly for other shareholders. The increased private infor-
+mation can substitute for common institutional investors’ demand for high quality financial
+reporting. Further, given the potential incentives to extract private benefits from other stake-
+holders, common institutional investors may even prefer greater managerial discretion in financial
+reporting to protect their information advantage (e.g., Bushee et al. 2003; Dou, Hope, Thomas,
+and Zou 2016).
+
+3. Research design
+Measures of CIO and earnings management
+Our main measure of CIO in a firm is the CROSSDUM measure introduced by He and Huang (2017).
+Because CIO arises when an institution concurrently blockholds more than one firm in the same
+industry in a particular period, CROSSDUM is an indicator variable equal to one for a firm-year if
+an institution has a blockholding (> 5% of shares outstanding) in that firm and at least one of its
+industry peers simultaneously in any of the four quarters in the year, and zero otherwise. We use
+
+CAR Vol. 38 No. 1 (Spring 2021)
+
+ 19113846, 2021, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1911-3846.12628 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+216 Contemporary Accounting Research
+
+4-digit SIC to identify peer firms. We also examine an alternative measure of CIO based on the num-
+ber of unique institutions that cross-hold the firm and find similar results (see “Alternative measures
+of CIO and earnings management” in section 5).
+
+To gauge earnings management, we focus on two measures of income-increasing earnings
+management.7 The first measure is discretionary accruals (DACC) based on the performance-
+adjusted modified Jones model (Kothari et al. 2005). Specifically, DACC is the regression resid-
+ual obtained from estimating the following model for each industry (4-digit SIC) and year:
+
+ 
+ACjt = α+ β0 1=AVGATjt + β1ΔCASHREVjt + β2PPEjt + β3ROAjt−1 + β4ROAjt + εjt; ð1Þ
+where ACjt is total accruals for firm j in year t, defined as net income from continuing operations
+minus operating cash flow scaled by average total assets; AVGATjt is average total assets for firm
+j based on assets at the beginning and end of year t; ΔCASHREVjt is the change in cash sales
+(i.e., change in revenue minus change in accounts receivable) for firm j at the end of year t scaled
+by average total assets; PPEjt is net property, plant, and equipment for firm j at the end of year
+t scaled by average total assets; and ROAjt−1(jt) is net income for firm j in year t − 1 (t) scaled by
+total assets at the end of year t − 1 (t).
+
+Our second measure of earnings management is the propensity to meet or just beat analysts’
+consensus EPS forecast by up to one cent. Specifically, BEAT is an indicator variable equal to
+one if actual EPS is equal to or greater than I/B/E/S analysts’ consensus EPS forecast by up to
+one cent. BEAT is equal to zero otherwise. The forecast is measured immediately before firm j’s
+earnings announcement for year t.
+
+Regression model
+To test Hypothesis 1, we estimate the following regression model to examine the relation between
+CIO and earnings management:
+
+EMjt = α0 + α1CROSSDUMjt−1 +CONTROLS + εjt, ð2Þ
+where EMjt is either: DACCjt, firm j’s performance-adjusted discretionary accruals in year t; or
+BEATjt, firm j’s propensity to meet or beat analysts’ consensus EPS forecast by up to one cent
+in year t. CROSSDUMjt−1 is our measure of CIO at the end of year t − 1. The key coefficient
+of interest, α1, captures the relation between CIO and earnings management. A negative α1
+would indicate that CIO is related to less earnings management (i.e., lower discretionary
+accruals or a lower propensity to beat analysts’ forecasts by a small margin), providing support
+for Hypothesis 1.
+
+We include three sets of controls. First, we control for a variety of firm characteristics that
+are likely related to earnings management. LogTAjt is the natural logarithm of total assets and
+proxies for firm size. We include return on assets (ROAjt) for the BEAT regression (note that
+DACC is already adjusted for ROA) and a measure of how frequently a firm experiences losses
+(LOSSjt) to account for the effect of high or poor performance on incentives to manage earnings
+to sustain or increase reported performance. We include market-to-book ratio (MBjt) and sales
+growth (SALEGRjt) to account for the incentives of high or low growth firms to manage earnings
+to sustain or increase reported growth. We control for return volatility (STDRETjt) to account for
+differences in earnings management across firms operating in more or less volatile environments,
+and the debt to asset ratio (DEBTjt) to account for any effect of debt on earnings management.
+
+7. In untabulated tests, we find no significant relation between common institutional ownership and unsigned discre-
+tionary accruals, a proxy for both income-increasing and income-decreasing earnings management. This finding,
+combined with our results on income-increasing earnings management, is consistent with monitoring by common
+institutional owners having a stronger effect in mitigating income-increasing earnings management.
+
+CAR Vol. 38 No. 1 (Spring 2021)
+
+ 19113846, 2021, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1911-3846.12628 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Common Institutional Ownership and Earnings Management 217
+
+We also control for the prior year’s level of earnings management (DACCjt−1 or BEATjt−1) to
+account for the potential mean reversion of earnings management.8
+
+Second, to ensure that our CIO measure (CROSSDUMjt−1) does not pick up other effects of
+institutional ownership, we control for total institutional ownership (IOjt−1), an indicator for
+blockholdings (more than 5% ownership) in a firm in any of the four quarters of the year
+(BLOCKjt−1), and the natural logarithm of the average number of firms owned by each of firm j’s
+institutional investors (LogNUMFIRMSjt−1).
+
+9 Further, to ensure that our results are not con-
+founded by common institutional investors’ industry expertise, we control for common institu-
+tional investors’ industry holdings (INDHOLDjt−1).
+
+10 The Appendix presents detailed variable
+definitions.
+
+Third, we include firm fixed effects to control for any time-invariant observable or unobservable
+firm characteristics. To control for time trends in earnings management, we also include year fixed
+effects.11
+
+4. Sample
+We obtain institutional ownership data based on institutional investors’ 13-F filings with the US
+SEC from Thomson Reuters. We combine firm-year institutional ownership data from the Thomson
+Reuters database with firm-year data from the merged Compustat/CRSP and I/B/E/S databases.
+After excluding financial and utility firms, and deleting firms with missing financial, price, institu-
+tional ownership or analyst forecast data, our sample consists of 60,148 (43,667) firm-years from
+1989 to 2015 for the DACC (BEAT) sample.12
+
+Table 1 provides summary statistics for our sample. Panel A presents descriptive statistics and
+panel B presents correlations. All continuous variables are winsorized at the 1 and 99% levels to
+mitigate the influence of outliers. The mean value of DACC is −0.003, close to 0 as expected of
+the residual of the performance-adjusted discretionary accruals regression. The mean value of BEAT
+is 0.116, suggesting that around 12% of firms meet or beat consensus analyst annual earnings fore-
+cast by one cent or less. The mean value of CROSSDUM is 0.572, indicating 57.2% of our sample
+firm-years are cross-held by at least one blockholding institutional investor. This percentage is
+higher than the 41.5% reported in He and Huang (2017), possibly because our sample firms are
+from a more recent time period. The average firm-year in our sample has a return on assets (ROA)
+of −0.031, a market-to-book ratio (MB) of 3.216, sales growth (SALEGR) of 0.179, return volatility
+(STDRET) of 0.040, and a long-term debt to assets ratio (DEBT) of 0.148. On average, institutions
+own 40% of common shares of the sample firm-years (IO), and have a blockholding (BLOCK) in
+76.2% of the sample firm-years.
+
+Panel B presents univariate evidence that CROSSDUM is negatively correlated with both
+DACC and BEAT, as predicted in Hypothesis 1. CROSSDUM is also significantly correlated with
+virtually all other control variables. For example, CROSSDUM is positively related with size and
+performance (LogTA and ROA) and negatively correlated with return volatility (STDRET). This
+highlights the importance of controlling for these variables in our multivariate regressions in
+section 5.
+
+8. Results are similar if we include one- and two-year, or one-, two-, and three-year, lags of earnings management
+measures or do not include any lagged earnings management measure (untabulated).
+
+9. Results are also robust to controlling for ownership by the firm’s top five institutional investors (untabulated).
+10. In untabulated analysis, we also examine the robustness of our results to controlling for year t − 1 ownership by
+
+insiders and percentage of independent directors. Data on these two characteristics is available only for years
+1996–2015 from ExecuComp and RiskMetrics for a limited number of firms. Nevertheless, the results for our vari-
+able of interest, CROSSDUM, are robust to including these two controls in equation (2).
+
+11. Our results are robust to excluding the financial crisis period (2007–2009) and do not differ significantly between
+pre- and post-SOX periods.
+
+12. The sample begins in 1989 because it is the first year with comprehensive cash flow data necessary to
+compute DACC.
+
+CAR Vol. 38 No. 1 (Spring 2021)
+
+ 19113846, 2021, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1911-3846.12628 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+218 Contemporary Accounting Research
+
+CAR Vol. 38 No. 1 (Spring 2021)
+
+TABLE 1
+Summary statistics
+
+Panel A: Descriptive statistics
+
+Variable Mean SD P25 P50 P75
+
+DACCjt −0.003 0.080 −0.042 −0.002 0.037
+BEATjt 0.116 0.321 0.000 0.000 0.000
+CROSSDUMjt−1 0.572 0.495 0.000 1.000 1.000
+LogTAjt 5.318 2.066 3.791 5.168 6.677
+ROAjt −0.031 0.214 −0.045 0.031 0.074
+LOSSjt 0.324 0.328 0.000 0.200 0.500
+MBjt 3.216 3.740 1.246 2.088 3.633
+SALEGRjt 0.179 0.597 −0.025 0.084 0.236
+STDRETjt 0.040 0.023 0.024 0.034 0.049
+DEBTjt 0.148 0.167 0.001 0.090 0.250
+IOjt−1 0.400 0.288 0.133 0.373 0.646
+BLOCKjt−1 0.762 0.426 1.000 1.000 1.000
+LogNUMFIRMSjt−1 7.478 0.491 7.232 7.537 7.785
+INDHOLDjt−1 0.013 0.035 0.000 0.001 0.009
+DACCjt−1 −0.001 0.081 −0.042 −0.001 0.039
+BEATjt−1 0.119 0.324 0.000 0.000 0.000
+
+(The table is continued on the next page.)
+
+ 19113846, 2021, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1911-3846.12628 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Common Institutional Ownership and Earnings Management 219
+
+CAR Vol. 38 No. 1 (Spring 2021)
+
+TABLE 1 (continued)
+
+Panel B: Correlation table
+
+Variable (1) (2) (3) (4) (5) (6) (7) (8) (9) (10) (11) (12) (13) (14) (15) (16)
+
+(1) DACCjt 1.000 0.011 −0.039 −0.042 0.021 0.076 0.014 0.043 0.011 −0.006 −0.053 −0.027 0.035 −0.004 0.164 −0.005
+(2) BEATjt 0.008 1.000 −0.010 0.030 0.064 −0.021 0.059 0.004 −0.039 −0.036 0.028 −0.008 −0.046 −0.007 −0.013 0.095
+(3) CROSSDUMjt−1 −0.040 −0.010 1.000 0.314 0.089 −0.099 −0.039 −0.043 −0.206 0.031 0.515 0.646 −0.108 0.329 −0.041 0.004
+(4) LogTAjt −0.050 0.027 0.342 1.000 0.348 −0.405 −0.018 −0.048 −0.551 0.302 0.662 0.325 −0.613 0.084 −0.051 0.019
+(5) ROAjt −0.011 0.080 0.060 0.297 1.000 −0.535 −0.109 −0.026 −0.435 0.101 0.228 0.114 −0.217 −0.088 −0.103 0.040
+(6) LOSSjt 0.068 −0.030 −0.084 −0.407 −0.509 1.000 0.217 0.166 0.429 −0.100 −0.271 −0.146 0.281 0.150 0.054 −0.024
+(7) MBjt −0.009 0.083 −0.013 0.087 0.200 0.058 1.000 0.177 0.035 0.004 0.012 −0.064 −0.105 0.109 −0.021 0.043
+(8) SALEGRjt 0.051 0.043 0.003 0.045 0.258 0.010 0.259 1.000 0.038 −0.023 −0.060 −0.044 0.007 0.033 0.044 −0.003
+(9) STDRETjt 0.036 −0.030 −0.182 −0.606 −0.441 0.474 −0.084 −0.051 1.000 −0.103 −0.445 −0.260 0.389 −0.013 0.041 −0.032
+(10) DEBTjt −0.008 −0.035 0.014 0.343 −0.010 −0.128 −0.094 −0.013 −0.167 1.000 0.087 0.054 −0.097 −0.047 0.013 −0.042
+(11) IOjt−1 −0.060 0.029 0.521 0.692 0.227 −0.277 0.122 0.017 −0.474 0.097 1.000 0.539 −0.446 0.196 −0.051 0.028
+(12) BLOCKjt−1 −0.030 −0.008 0.646 0.356 0.083 −0.137 −0.031 −0.002 −0.239 0.045 0.566 1.000 −0.179 0.212 −0.025 −0.007
+(13) LogNUMFIRMSjt−1 0.053 −0.043 −0.181 −0.643 −0.291 0.336 −0.255 −0.091 0.477 −0.162 −0.536 −0.255 1.000 −0.045 0.032 −0.032
+(14) INDHOLDjt−1 −0.038 −0.005 0.893 0.320 0.019 −0.006 0.060 0.019 −0.141 −0.030 0.498 0.577 −0.193 1.000 −0.002 −0.006
+(15) DACCjt−1 0.183 −0.017 −0.042 −0.061 −0.121 0.053 −0.038 0.046 0.061 0.014 −0.058 −0.027 0.052 −0.037 1.000 0.008
+(16) BEATjt−1 −0.010 0.095 0.004 0.016 0.048 −0.031 0.076 0.024 −0.027 −0.042 0.029 −0.007 −0.029 0.000 0.007 1.000
+Notes: Panel A reports descriptive statistics for the main and control variables in equation (2) over the years 1989–2015 (t = 1989 to 2015). Panel B reports Pearson
+(Spearman) correlations above (below) the diagonal for the main and control variables in equation (2) over the years 1989–2015 (t = 1989 to 2015). Correlations in
+bold are significant at the 0.05 level (two-tailed).The statistics are based on 60,148 firm-years for all variables except for the two BEAT variables, which are based on
+43,667 firm-years. All continuous variables are winsorized at the 1% and 99% levels to mitigate the influence of outliers. The Appendix contains detailed variable
+definitions.
+
+ 19113846, 2021, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1911-3846.12628 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+220 Contemporary Accounting Research
+
+5. Results
+Test of the relation between CIO and earnings management
+Table 2 reports the main results on the average relation between CIO (CROSSDUM) and earn-
+ings management (DACC or BEAT) in the full sample. Column (1) and column (2) report the
+
+TABLE 2
+The relation between common institutional ownership and earnings management
+
+EMjt = α0 + α1CROSSDUMjt−1 + α2LogTAjt + (α3ROAjt) + α4LOSSjt + α5MBjt + α6SALEGRjt
++ α7STDRETjt + α8DEBTjt + α9IOjt−1 + α10BLOCKjt−1 + α11LogNUMFIRMSjt−1
++ α12INDHOLDjt−1 + α13EMjt−1 + ε
+
+EM = DACCjt BEATjt
+(1) (2)
+
+Coefficient Coefficient
+Variable (SE) (SE)
+
+CROSSDUMjt−1 −0.325*** −0.015***
+(0.108) (0.005)
+
+LogTAjt 0.067 −0.003
+(0.105) (0.004)
+
+ROAjt 0.115***
+(0.013)
+
+LOSSjt 2.071*** 0.035**
+(0.341) (0.016)
+
+MBjt 0.066*** 0.003***
+(0.017) (0.001)
+
+SALEGRjt 0.264*** −0.003
+(0.095) (0.003)
+
+STDRETjt −29.570*** −0.710***
+(3.384) (0.162)
+
+DEBTjt −2.399*** −0.005
+(0.406) (0.019)
+
+IOjt−1 −0.730*** −0.018
+(0.225) (0.011)
+
+BLOCKjt−1 0.018 −0.001
+(0.147) (0.007)
+
+LogNUMFIRMSjt−1 −0.272 −0.045***
+(0.185) (0.010)
+
+INDHOLDjt−1 2.119 0.043
+(1.870) (0.064)
+
+EMjt−1 −0.027*** −0.062***
+(0.006) (0.006)
+
+Fixed effects Firm, Year Firm, Year
+N 60,148 43,667
+Adj. R2 0.007 0.012
+
+Notes: Columns (1) and (2) report the results of estimating equation (2) using a pooled OLS regression over
+t = 1989–2015 for DACC and BEAT, respectively. DACC is multiplied by 100 for clearer exposition. ROA
+(α3) is not included in the DACC regression because we use performance-adjusted DACC, adjusted for ROA.
+Robust standard errors are reported in parentheses below the coefficients and are based on standard errors
+clustered at the firm level to adjust for heteroscedasticity and serial correlation. *, **, and *** represent two-
+tailed significance levels of 0.10, 0.05, and 0.01, respectively. All continuous variables are winsorized at 1%
+and 99%. Detailed variable definitions are in the Appendix.
+
+CAR Vol. 38 No. 1 (Spring 2021)
+
+ 19113846, 2021, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1911-3846.12628 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Common Institutional Ownership and Earnings Management 221
+
+OLS estimation of equation (2) using DACC and BEAT, respectively.13 In all regressions, we
+multiply DACC by 100 for exposition, and cluster standard errors by firm.
+
+We find that the coefficient on CROSSDUM is negative and significant in both columns,
+indicating that higher CIO is associated with lower discretionary accruals and a lower likeli-
+hood of meeting or just beating analyst forecasts. This relation is not only statistically signifi-
+cant but also economically meaningful. Specifically, our results in column (1) indicate that the
+presence of CIO is associated with a 0.003 decrease in discretionary accruals, which is signifi-
+cant given that the mean of DACC is −0.003 in our sample.14 Our results in column (2) indicate
+that the presence of CIO is on average associated with a 1.5 percentage point decrease in the
+likelihood of meeting or just beating analysts’ forecasts, which is equivalent to a 13% decrease
+from the unconditional base rate of BEAT in our sample (11.6%). Overall, these results indicate
+that CIO is associated with less earnings management, providing support for Hypothesis 1.15
+
+Turning to the control variables, we find a positive relation between earnings management and
+market-to-book ratios and frequent losses, and a negative relation for return volatility and lagged
+earnings management. These results are largely consistent with prior research (e.g., Reichelt and
+Wang 2010; Ayers et al. 2011).
+
+Tests to address endogeneity of CIO
+We conduct two tests to alleviate the endogeneity concern about CIO and to provide more evi-
+dence on the causal relation between CIO and earnings management. First, we conduct a falsifi-
+cation test. If common institutions self-select into firms with lower earnings management, we
+would expect that earnings management prior to CIO should be negatively associated with
+CIO. To rule this out, we regress CROSSDUMjt on lagged earnings management (DACCjt−1 or
+BEATjt−1) and controls within a subsample of firms with no CIO in the prior two years (i.e.,
+both CROSSDUMjt−1 and CROSSDUMjt−2 equal zero). As shown in panel A of Table 3, we
+find no significant relation between lagged earnings management and current CIO, providing no
+evidence that common institutional investors self-select into low earnings management firms.
+
+Second, we follow prior research (e.g., He and Huang 2017) and analyze a plausibly exoge-
+nous shock to CIO stemming from financial institution mergers. These institution-level mergers
+are likely exogenous to the characteristics of the institutions’ portfolio firms, including the earn-
+ings management attributes of the portfolio firms. Further, upon merger, the acquiring financial
+institution generally takes over the existing portfolio of the target institution and maintains these
+holdings for an extended period of time. Thus, by acquiring same-industry blockholdings of the
+target institution, the acquiring financial institution likely becomes a common institutional block-
+holder of a number of additional firms, resulting in a natural increase in CIO. If CIO disciplines
+earnings management, we expect a decrease in earnings management following the mergers for
+treatment firms (i.e., firms for which the mergers are likely to increase CIO) relative to control
+firms (i.e., firms for which the mergers are unlikely to change CIO).
+
+We identify merging institutions based on the list provided in He and Huang (2017). As dis-
+cussed in He and Huang (2017), to be included in their list the merger must be between financial
+institutions (SIC 6000 to 6999) in the Thomson Reuters institutional ownership database, the
+
+13. Because our regression includes a large number of fixed effects, we use OLS to estimate the BEAT equation to
+avoid the incidental parameter problem (Greene 2004). However, our inferences remain unchanged if we estimate a
+probit regression for BEAT with industry fixed effects (untabulated).
+
+14. The DACC coefficient in Table 2 is multiplied by 100 for exposition. The effect is −0.325 / 100 = −0.003.
+15. In untabulated tests, we examine how the results vary between long-term and short-term (i.e., transient) institutions
+
+(e.g., Bushee 1998; Dou, Hope, Thomas, and Zou 2016). Our results hold for the subsample of long-term, but not
+short-term, common owners, consistent with the stronger monitoring role of long-term institutions documented in
+prior research. In another test, we find that the effect of CIO on earnings management is significantly negative for
+firms with more persistent CIO (i.e., two or more consecutive years). We find no significant effect in firms with less
+persistent CIO.
+
+CAR Vol. 38 No. 1 (Spring 2021)
+
+ 19113846, 2021, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1911-3846.12628 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+222 Contemporary Accounting Research
+
+TABLE 3
+Tests to address endogeneity of common ownership
+
+Panel A: Falsification test of common institutional owners self-selecting into firms with low earnings
+management
+
+DV = CROSSDUMjt CROSSDUMjt
+(1) (2)
+
+Coefficient Coefficient
+Variable (SE) (SE)
+
+DACCjt−1 > −0.001
+(< 0.001)
+
+BEATjt−1 0.004
+(0.012)
+
+Controls Included Included
+Fixed effects Firm, Year Firm, Year
+N 21,734 11,829
+Adj. R2 0.300 0.312
+
+Panel B: Test based on the exogenous shock to common ownership using financial institution mergers
+
+EM = DACCjt BEATjt
+(1) (2)
+
+Coefficient Coefficient
+Variable (SE) (SE)
+
+TREAT×POSTjt −1.921** −0.080*
+(0.815) (0.043)
+
+POSTt 0.576 0.012
+(0.441) (0.021)
+
+LogTAjt 0.790 −0.018
+(0.989) (0.040)
+
+ROAjt 0.182**
+(0.087)
+
+LOSSjt 8.644** 0.141
+(3.955) (0.165)
+
+MBjt 0.093 0.007
+(0.147) (0.005)
+
+SALEGRjt 1.207 −0.035
+(0.948) (0.029)
+
+STDRETjt −34.257* −1.269
+(19.547) (0.800)
+
+DEBTjt −3.283 −0.085
+(3.095) (0.109)
+
+IOjt−1 −1.300 −0.016
+(0.856) (0.039)
+
+BLOCKjt−1 −3.262*** 0.013
+(1.234) (0.067)
+
+LogNUMFIRMSjt−1 3.521** −0.084
+(1.712) (0.077)
+
+INDHOLDjt−1 −11.350 −0.461
+(13.267) (0.383)
+
+EMjt−1 −0.097** 0.094**
+(0.045) (0.037)
+
+(The table is continued on the next page.)
+
+CAR Vol. 38 No. 1 (Spring 2021)
+
+ 19113846, 2021, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1911-3846.12628 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Common Institutional Ownership and Earnings Management 223
+
+TABLE 3 (continued)
+
+Panel B: Test based on the exogenous shock to common ownership using financial institution mergers
+
+EM = DACCjt BEATjt
+(1) (2)
+
+Coefficient Coefficient
+Variable (SE) (SE)
+
+Fixed effects Firm-Merger Firm-Merger
+N 1,892 1,628
+Adj. R2 0.046 0.030
+
+Notes: In panel A, we regress current common ownership (CROSSDUM) on prior period earnings
+management (DACC and BEAT in columns (1) and (2), respectively) over the period t = 1989–2015. We
+retain firm-years with no common institutional ownership in the prior two years (i.e., CROSSDUMjt−1 = 0
+and CROSSDUMjt−2 = 0). DACC is multiplied by 100 for clearer exposition. Equation (2) control variables
+are included, where the institutional ownership controls are at time t and the other controls are at time t − 1,
+but not tabulated for brevity. Panel B reports the difference-in-difference test of the effect of financial
+institution mergers on earnings management. The sample covers one year before and one year after the
+merger of 22 institutions over years 1992 to 2008. Columns (1) and (2) report the results of estimating OLS
+regression on equation (3), for DACC and BEAT, respectively. DACC is multiplied by 100 for clearer
+exposition. TREAT is absorbed by firm-merger fixed effects and not presented in the table. POST is an
+indicator variable equal to one for the year after the financial institution merger, and zero for the year before
+the merger. Robust standard errors are reported in parentheses below the coefficients and are based on
+standard errors clustered at the firm-merger level to adjust for heteroscedasticity and serial correlation. *, **,
+and *** represent two-tailed significance levels of 0.10, 0.05, and 0.01, respectively. All continuous
+variables are winsorized at 1% and 99%. Detailed variable definitions are in the Appendix.
+
+merger must be completed within one year of the announcement date, and the target institution
+must stop filing ownership reports within one year of the completion of the deal. Following He
+and Huang (2017), our treatment firms include those blockheld by only one of the merging insti-
+tutions in the quarter prior to the merger announcement, with the other merging institution
+blockholding at least one industry rival in the same quarter prior to the merger. Thus, by con-
+struction, treatment firms cannot have CIO prior to the merger through ownership by both the
+acquirer and target. However, treatment firms can have CIO prior to the merger due to holdings
+by the acquirer or target and some other institution not involved in the merger. Our control firms
+include those blockheld by the merging institution that blockholds the treatment firms, with the
+other party to the merger not blockholding any same-industry peer of the firm. Thus, these control
+firms are unlikely to experience a change in CIO as a result of the merger. After excluding
+mergers before the start of our main sample period and requiring data on earnings management
+and control variables for treatment and control firms over three years centered on the merger year,
+our final sample for this test consists of 1,892 (1,628) observations for the DACC (BEAT) regres-
+sion from 22 financial institution mergers over years 1992–2008.
+
+We conduct a difference-in-differences test of changes in earnings management for treatment
+versus control firms using the following regression:
+
+EMjt = α0 + α1TREATj + α2POSTt + α3TREATj×POSTt +CONTROLS + εjt, ð3Þ
+
+where EMjt refers to DACCjt or BEATjt. TREAT is an indicator set equal to one for treatment firms
+and zero for control firms. POST is an indicator set equal to one for the year after the merger
+year, and zero for the year before the merger year (the merger year is omitted). In addition to the
+
+CAR Vol. 38 No. 1 (Spring 2021)
+
+ 19113846, 2021, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1911-3846.12628 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+224 Contemporary Accounting Research
+
+controls in equation (2), this model includes fixed effects for firm-institution merger pairs, follow-
+ing He and Huang (2017).16,17
+
+Table 3, panel B, reports the results. Column (1) (column (2)) reports an OLS estimation
+where the proxy for earnings management is DACC (BEAT). Note that the TREAT variable is
+absorbed by the firm-institution merger fixed effects. Consistent with our main results, we find
+that TREAT×POST is significantly negative in both columns, indicating a decrease in earnings
+management after the mergers for treatment firms relative to control firms. Similar to He and
+Huang (2017), we find effects of larger magnitude in the mergers sample than in the full sample.
+As noted by He and Huang (2017), this may be due to endogeneity in the main sample related to
+cross-holders diversifying across firms with inherently different properties, including earnings
+management attributes, or due to differences in the firms or industries included in the mergers
+sample. The results from analyzing the quasi-natural experiment based on financial institution
+mergers provide evidence that CIO has a causal effect in mitigating earnings management.
+
+Cross-sectional test of the economy of scale mechanism
+We examine the economy of scale mechanism by exploring the cross-sectional variation in the
+effect of CIO in reducing information costs of monitoring. If CIO creates economies of scale
+(i.e., spreading the fixed costs of monitoring), then this effect should be stronger when institutions
+blockhold a relatively larger number of same-industry firms (e.g., Kang et al. 2018). Thus, we
+expect that the negative relation between CIO and earnings management is stronger among firms
+whose common institutional investors blockhold more peer firms. To test this prediction, we
+follow He and Huang (2017) and calculate AvgNum, the average number of firm j’s industry
+peers blockheld by firm j’s common institutional investors in the year.18 At the beginning of each
+year, we put firms with CIO (CROSSDUM = 1) into AvgNum terciles and retain the lowest
+(“low-AvgNum”) and highest (“high-AvgNum”) terciles or groups, and then compare firms in the
+low- and high-AvgNum groups to firms with no CIO (CROSSDUM = 0) separately. That is, in the
+low-AvgNum (high-AvgNum) subsample, the coefficient on CROSSDUM measures the effect of
+CIO on earnings management in commonly owned low-AvgNum (high-AvgNum) firm-years
+relative to firm-years with no CIO.
+
+Results are reported in Table 4. Controls are included but untabulated for brevity. Column
+(1) and column (3) report the results for the low-AvgNum group for the DACC and BEAT mea-
+sures, respectively. The coefficient on CROSSDUM is negative and significant at the 5% level for
+both the DACC (column 1) and BEAT (column 3) measures. Column (2) and column (4) report
+the results for the high-AvgNum group for the DACC and BEAT measures, respectively. The coef-
+ficient on CROSSDUM is negative and significant at the 1% level for both the DACC (column 2)
+and BEAT (column 4) measures. Further, the coefficient on CROSSDUM in the high-AvgNum
+group is significantly more negative than that in the low-AvgNum group for both DACC (two-
+tailed p = 0.051) and BEAT (two-tailed p = 0.039). These results show that the negative relation
+
+16. Consistent with He and Huang (2017), we find a significant increase in CIO for treatment firms relative to control
+firms after the merger. Specifically, following He and Huang (2017), we regress CROSSDUM on TREAT, POST,
+TREAT×POST, controls, and fixed effects from equation (3) (except lagged earnings management). CROSSDUM is
+measured at the end of the quarter before the merger announcement date (for the pre-event period) or at the end of
+quarter after the deal closing date (for the postevent period). We find that the coefficient on TREAT×POST is 0.099
+and significant (t-stat = 2.40), representing a 47% increase in CROSSDUM for treatment firms relative to con-
+trol firms.
+
+17. We conduct two tests of whether the parallel trends assumption holds in our setting. First, we compare the mean
+change in our earnings management measures between treatment and control firms for each year in the six-year
+premerger window and find no significant difference between the two groups of firms in any year. Second, we con-
+duct a placebo test using year t − 3 as the “pseudo-event” year, and find no evidence that treatment firms exhibit a
+significant change in earnings management relative to control firms around this pseudo-event year.
+
+18. Results are similar if we calculate AvgNum after excluding firm-years with material misstatements (untabulated),
+mitigating the concern that the economy of scale results may be attributable to the externality mechanism.
+
+CAR Vol. 38 No. 1 (Spring 2021)
+
+ 19113846, 2021, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1911-3846.12628 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Common Institutional Ownership and Earnings Management 225
+
+TABLE 4
+Cross-sectional test of the relation between common institutional ownership and earnings management based
+on the number of same-industry blockholdings by common institutional owners
+
+EMjt = α0 + α1CROSSDUMjt−1 + α2LogTAjt + (α3ROAjt) + α4LOSSjt + α5MBjt + α6SALEGRjt
++ α7STDRETjt + α8DEBTjt + α9IOjt−1 + α10BLOCKjt−1 + α11LogNUMFIRMSjt−1
++ α12INDHOLDjt−1 + α13EMjt−1 + ε
+
+EM = DACCjt BEATjt
+
+Number of industry peers Low-AvgNum High-AvgNum Low-AvgNum High-AvgNum
+held cross section (1) (2) (3) (4)
+
+Coefficient Coefficient Coefficient Coefficient
+Variable (SE) (SE) (SE) (SE)
+
+CROSSDUMjt−1 −0.242** −0.592*** −0.013** −0.031***
+(0.113) (0.173) (0.006) (0.009)
+
+Controls Included Included Included Included
+Fixed effects Firm, Year Firm, Year Firm, Year Firm, Year
+Difference in CROSSDUM
+(High minus Low) −0.350* −0.018**
+
+p-value (two-tailed) 0.051 0.039
+N 74,783 49,202
+Adj. R2 0.009 0.013
+
+Notes: Columns (1) and (3) report the results of estimating equation (2) using a pooled OLS regression over
+t = 1989–2015 for DACC and BEAT, respectively, for “low-AvgNum” industries. Columns (2) and (4) report
+the same information for “high-AvgNum” industries. More specifically, following He and Huang (2017), we
+compute the average number of rivals blockheld by common owners, AvgNum, and then group firms in the
+highest tercile of AvgNumjt−1 into the “high-AvgNum” group and firms in the lowest tercile of AvgNumjt−1
+into the “low-AvgNum” group. We then compare firms in the in the low- and high-AvgNum groups to firms
+with no common institutional owners (CROSSDUM = 0) separately. That is, in the low-AvgNum (high-
+AvgNum) subsample, the coefficient on CROSSDUM measures the effect of CIO on earnings management in
+commonly owned low-AvgNum (high-AvgNum) firm-years relative to firm-years with no CIO. DACC is
+multiplied by 100 for clearer exposition. Equation (2) control variables are included but not tabulated for
+brevity. ROA (α3) is not included in the DACC regression because we use performance-adjusted DACC,
+adjusted for ROA. Robust standard errors are reported in parentheses below the coefficients and are based on
+standard errors clustered at the firm level to adjust for heteroscedasticity and serial correlation. *, **, and ***
+represent two-tailed significance levels of 0.10, 0.05, and 0.01, respectively. All continuous variables are
+winsorized at 1% and 99%. Detailed variable definitions are in the Appendix.
+
+between CIO and earnings management is stronger for firms where CIO leads to a greater reduction
+in institutions’ information costs of monitoring. This finding provides evidence consistent with CIO
+reducing earnings management through the economy of scale mechanism.
+
+Cross-sectional test of the externality mechanism
+We examine the externality mechanism by exploring cross-sectional variation in the negative exter-
+nality of earnings management on peer firms’ investments. If CIO mitigates earnings management
+through the externality mechanism, then this mitigating effect should be stronger among firms
+whose earnings management is likely to generate a greater externality on peer firms’ investments.
+The theoretical work of Kumar and Langberg (2010) suggests that misreporting by one firm gener-
+ates greater investment distortion by peer firms when the cost of capital is lower, managers’ private
+
+CAR Vol. 38 No. 1 (Spring 2021)
+
+ 19113846, 2021, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1911-3846.12628 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+226 Contemporary Accounting Research
+
+benefits of control are higher, or when investors are more optimistic about growth potential. Under
+these conditions the misreporting will cause peer firms to have more overly optimistic expectations.
+Consistent with this prediction, Beatty et al. (2013) find that the negative externality of misstate-
+ments in distorting peer firms’ investments is greater in industries with higher investor sentiment,
+lower cost of capital, and higher private benefits of control. Thus, to the extent that CIO internalizes
+this negative externality of earnings management on peer firms’ investments, we expect the nega-
+tive relation between CIO and earnings management to be more pronounced in these industries.
+
+Following Beatty et al. (2013), for each industry (4-digit SIC)-year, we measure (i) investor
+sentiment (SENTIMENT) using the first principal component of the total number of IPOs, the
+average first-day returns of IPOs, stock turnover, and the difference between the average market
+to book ratio between dividend and nondividend paying firms; (ii) cost of capital using the
+median earnings-to-price ratio (MEDIANEP); and (iii) managers’ private benefits of control using
+the number of merger and acquisitions (M&A). We then rank all industries in our sample based
+on SENTIMENT, negative MEDIANEP, and M&A separately, and then take the average of the
+three ranks to capture the overall effect of the three measures (Factor). We then put the firms in
+the top (bottom) tercile of the average rank into the “high-Factor” (“low-Factor”) group.
+
+Table 5, panel A, reports the results of estimating the relation between CIO and earnings
+management for the low-Factor group (columns (1) and (3)) and the high-Factor group (columns
+(2) and (4)) separately. Controls are included but untabulated for brevity. Using the DACC mea-
+sure of earnings management, we find that the coefficient on CROSSDUM is negative but insig-
+nificant for the low-Factor group, but significantly negative for the high-Factor group (−0.482,
+two-tailed p < 0.05). Although the magnitude of the negative coefficient on CROSSDUM is larger
+for the high-Factor group, the difference in this coefficient between the high-Factor and low-Fac-
+tor groups is not statistically significant at the 0.10 level (two-tailed p = 0.174). Using the BEAT
+measure of earnings management, we find that the coefficient on CROSSDUM is insignificant and
+similar for the both the high- and low-Factor groups.
+
+In addition to the externality being greater in “high-Factor” firms, Beatty et al. (2013) argue
+that analysts help transmit distorted investment signals, and predict and find that the externality of
+misstatements in distorting peer firms’ investments is greater when the misstating firm and its
+peer firms have higher unexpected overlap in analyst coverage. Thus, if CIO mitigates earnings
+management through the externality mechanism, we expect this mitigating effect to be stronger
+among firms with higher unexpected overlap in analyst coverage with peer firms.
+
+We first follow Beatty et al.’s (2013) approach to estimate residual analyst coverage overlap
+by first removing the economic similarity between firms with overlapping analyst coverage. For
+each industry-year, we measure the raw overlap between each pair of firms in that industry as the
+logarithm of one plus the number of analysts covering the both firms, and then regress the raw
+overlap on the economic determinants of overlap including return co-movement (the R-square
+from regressing one firm’s daily return on the other firm’s daily returns) and the firm-pair average
+of firm size, market-to-book ratio, leverage, sales growth. We extract the regression residual as
+residual analyst overlap for each pair of firms (Overlap).
+
+We then sort the firm-pairs with CIO into terciles based on residual analyst overlap, and put
+firms with CIO (CROSSDUM = 1) with at least one residual analyst overlap in the top tercile in
+the “high-Overlap” group and the rest in the “low-Overlap” group. We then compare firms in the
+low- and high-Overlap groups to firms with no CIO (CROSSDUM = 0) separately. That is, in the
+low-Overlap (high-Overlap) subsample, the coefficient on CROSSDUM measures the effect of
+CIO on earnings management in commonly owned low-Overlap (high-Overlap) firm-years rela-
+tive to firm-years with no CIO.
+
+Table 5, panel B, reports the results of estimating the relation between CIO and earnings
+management for the low-Overlap group (columns (1) and (3)) and the high-Overlap group (col-
+umns (2) and (4)) separately. For both the DACC and BEAT regressions, we find that the coeffi-
+cient on CROSSDUM is insignificantly negative for the low-Overlap group, and significantly
+
+CAR Vol. 38 No. 1 (Spring 2021)
+
+ 19113846, 2021, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1911-3846.12628 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Common Institutional Ownership and Earnings Management 227
+
+TABLE 5
+Cross-sectional test of the relation between common institutional ownership and earnings management based
+on the negative externality of misreporting
+
+Panel A: Cross-sectional test based on the negative externality from high investor sentiment, low cost of
+capital, and high private benefits of control
+
+EMjt = α0 + α1CROSSDUMjt−1 + α2LogTAjt + (α3ROAjt) + α4LOSSjt + α5MBjt + α6SALEGRjt
++ α7STDRETjt + α8DEBTjt + α9IOjt−1 + α10BLOCKjt−1 + α11LogNUMFIRMSjt−1
++ α12INDHOLDjt−1 + α13EMjt−1 + ε
+
+EM = DACCjt BEATjt
+
+Factor cross section = Low-Factor High-Factor Low-Factor High-Factor
+(1) (2) (3) (4)
+
+Coefficient Coefficient Coefficient Coefficient
+Variable (SE) (SE) (SE) (SE)
+
+CROSSDUMjt−1 −0.132 −0.482** −0.007 −0.010
+(0.169) (0.194) (0.012) (0.008)
+
+Controls Included Included Included Included
+Fixed effects Firm, Year Firm, Year Firm, Year Firm, Year
+Difference in CROSSDUM (High minus Low) −0.350 −0.003
+p-value (two-tailed) 0.174 0.880
+N 44,855 32,631
+Adj. R2 0.008 0.011
+
+Panel B: Cross-sectional test based on the negative externality from analyst overlap
+
+EMjt = α0 + α1CROSSDUMjt−1 + α2LogTAjt + (α3ROAjt) + α4LOSSjt + α5MBjt + α6SALEGRjt
++ α7STDRETjt + α8DEBTjt + α9IOjt−1 + α10BLOCKjt−1 + α11LogNUMFIRMSjt−1
++ α12INDHOLDjt−1 + α13EMjt−1 + ε
+
+EM = DACCjt BEATjt
+
+Analyst overlap Low- High- Low- High-
+cross section = Overlap Overlap Overlap Overlap
+
+(1) (2) (3) (4)
+Coefficient Coefficient Coefficient Coefficient
+
+Variable (SE) (SE) (SE) (SE)
+
+CROSSDUMjt−1 −0.191 −0.412*** −0.006 −0.016***
+(0.125) (0.115) (0.007) (0.006)
+
+Controls Included Included Included Included
+Fixed effects Firm, Year Firm, Year Firm, Year Firm, Year
+Difference in CROSSDUM (High minus Low) −0.221 −0.010
+p-value (two-tailed) 0.101 0.159
+N 85,913 58,461
+Adj. R2 0.009 0.012
+
+Notes: Panel A, columns (1) and (3), report the results of estimating equation (2) using a pooled OLS
+regression over t = 1989–2015 for DACC and BEAT, respectively, for “low-Factor” industries. Panel A,
+columns (2) and (4), report the same information for “high-Factor” industries. Specifically, we put the firms
+in the top tercile of Factor into the “high-Factor” group and the firms in the bottom tercile into the “low-
+Factor” group. Panel B, columns (1) and (3), report the results of estimating equation (2) using a pooled
+OLS regression over t = 1989–2015 for DACC and BEAT, respectively, for “low-Overlap” firms. Panel B,
+columns (2) and (4), report the same information for “high-Overlap” firms. Specifically, we retain firm-pairs
+
+CAR Vol. 38 No. 1 (Spring 2021)
+
+ 19113846, 2021, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1911-3846.12628 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+228 Contemporary Accounting Research
+
+TABLE 5 (continued)
+with residual analyst overlap (Overlap) that also have common institutional owners. These firm-pairs are
+sorted into terciles based on Overlap. Firms with common institutional investors (CROSSDUM = 1) with at
+least one residual analyst overlap in the top tercile are classified as the “high-Overlap” group. Firms with
+common institutional investors (CROSSDUM = 1) that do not have at least one residual analyst overlap in
+the top tercile are classified as the “low-Overlap” group. We then compare firms in the lowest and highest
+groups to firms with no common institutional owners (CROSSDUM = 0) separately. That is, in the low-
+Overlap (high-Overlap) subsample, the coefficient on CROSSDUM measures the effect of CIO on earnings
+management in commonly owned low-Overlap (high-Overlap) firm-years relative to firm-years with no CIO.
+DACC is multiplied by 100 for clearer exposition. Equation (2) control variables are included but not
+tabulated for brevity. ROA (α3) is not included in the DACC regression because we use performance-
+adjusted DACC, adjusted for ROA. Robust standard errors are reported in parentheses below the coefficients
+and are based on standard errors clustered at the firm level to adjust for heteroscedasticity and serial
+correlation. *, **, and *** represent two-tailed significance levels of 0.10, 0.05, and 0.01, respectively. All
+continuous variables are winsorized at 1% and 99%. Variable definitions are in the Appendix.
+
+negative for the high-Overlap group. However, the difference between high- and low-Overlap
+groups in the magnitude of the negative coefficient is only marginally significant for the DACC
+measure (two-tailed p = 0.101), and insignificant (two-tailed p = 0.159) for the BEAT measure.
+
+Overall, the results in Table 5 provide limited support for the externality mechanism.
+Although the negative relation between CIO and earnings management is generally larger in mag-
+nitude among (i) industries with higher investor sentiment, lower cost of capital, and higher pri-
+vate benefits of control and (ii) firms with higher unexpected overlap in analyst coverage, the
+difference between these industries or firms and other industries or firms is not statistically signifi-
+cant, providing inconclusive evidence for our cross-sectional externality predictions.
+
+Further tests of the externality mechanism using material misstatements
+As discussed in the introduction, one possible reason for the limited support for the externality
+mechanism in Table 5 is the lack of power of our tests using the general measures of earnings
+management based on accruals and meet/beat. In this subsection, we conduct a more powerful
+test of the externality mechanism using more extreme types of earnings management—that is,
+severe misstatements that violate GAAP, which are more likely to generate a significant external-
+ity on peer firms’ investments. Thus, severe misstatements are likely to provide a more powerful
+setting for detecting the externality mechanism. We identify severe financial misstatements using
+the data from Call et al. (2018), which include the universe of SEC and DOJ enforcement actions
+that we were able to match to Compustat covering misstated periods (i.e., violation periods) from
+1989 to 2010.19 We identify misstating firms as either firms against whom fraud charges were
+filed or firms that misled their auditors. We set the indicator variable, MISSTATE, equal to one
+for the firm-years that were misstated (i.e., violation periods), and zero otherwise.
+
+Table 6, column (1), reports the results of estimating equation (2) using MISSTATE as the
+dependent variable for our full sample, and columns (2) through (5) report the cross-sectional
+tests of the externality mechanism (described in the previous subsection). We find no significant
+relation between CROSSDUM and MISSTATE on average (column (1)). However, when we
+examine the subsample of industries where misstatements likely generate a greater negative exter-
+nality on peer firms’ investments, we observe a significantly negative relation between
+CROSSDUM and MISSTATE. More specifically, as shown in column (3), the coefficient on
+
+19. The dataset is publicly available at https://research.chicagobooth.edu/-/media/research/arc/docs/journal/online-
+supplements/csmw-datasheet-and-code.zip?la=en&hash=3037EBF733967B4A9C76A1EBFC7E9B751A2276A1.
+We thank the authors for making the data available. We also thank Antonis Kartapanis for sharing firm ID
+information.
+
+CAR Vol. 38 No. 1 (Spring 2021)
+
+ 19113846, 2021, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1911-3846.12628 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Common Institutional Ownership and Earnings Management 229
+
+TABLE 6
+The relation between common institutional ownership and misstatements
+
+MISSTATEjt = α0 + α1CROSSDUMjt−1 + α2LogTAjt + α3ROAjt + α4LOSSjt + α5MBjt + α6SALEGRjt
++ α7STDRETjt + α8DEBTjt + α9IOjt−1 + α10BLOCKjt−1 + α11LogNUMFIRMSjt−1
++ α12INDHOLDjt−1 + α13MISSTATEjt−1 + ε
+
+Sample = Full sample Factor Overlap
+
+Cross section = None Low High Low High
+(1) (2) (3) (4) (5)
+
+Coefficient Coefficient Coefficient Coefficient Coefficient
+Variable (SE) (SE) (SE) (SE) (SE)
+
+CROSSDUMjt−1 −0.001 0.003 −0.004** > −0.001 −0.003**
+(0.001) (0.003) (0.002) (0.001) (0.001)
+
+Controls Included Included Included Included Included
+Fixed effects Firm, Year Firm, Year Firm, Year Firm, Year Firm, Year
+Difference in CROSSDUM
+(High minus Low) n/a −0.007** −0.003*
+
+p-value (two-tailed) n/a 0.023 0.069
+N 54,415 40,320 79,540
+Adj. R2 0.350 0.328 0.335
+
+Notes: Column (1) reports the results of estimating equation (2) using a pooled OLS regression over
+t = 1989–2010 for MISSTATE. Columns (2) and (3) report the results of partitioning the sample between
+“low-Factor” and “high-Factor” industries, which is calculated from Beatty et al. (2013) and detailed in
+Table 5, panel A. Columns (4) and (5) report the results for “low-Overlap” and “high-Overlap” firms, which
+are calculated based on Beatty et al. (2013) and detailed in Table 5, panel B. Equation (2) control variables
+are included but not tabulated for brevity. Robust standard errors are reported in parentheses below the
+coefficients and are based on standard errors clustered at the firm level to adjust for heteroscedasticity and
+serial correlation. *, **, and *** represent two-tailed significance levels of 0.10, 0.05, and 0.01,
+respectively. All continuous variables are winsorized at 1% and 99%. Detailed variable definitions are in the
+Appendix.
+
+CROSSDUM is significantly negative (−0.004, two-tailed p < 0.05) in industries with higher
+investor sentiment, lower cost of capital, and higher private benefits of control (i.e., the high-Fac-
+tor group). In contrast, as shown in column (2), the coefficient on CROSSDUM is insignificant in
+the low-Factor group. Further, the negative coefficient on CROSSDUM in the high-Factor group
+is significantly more negative than the coefficient on CROSSDUM in the low-Factor group (two-
+tailed p = 0.023). Columns (4) and (5) reveal a similar pattern when we examine firms based on
+low- and high-analyst overlap.20 Overall, the results from examining severe misstatements pro-
+vide stronger evidence in support of the externality mechanism. The findings are consistent with
+CIO mitigating earnings management by internalizing the negative externality of earnings man-
+agement on peer firms’ investments.
+
+Tests of real activities manipulation
+Having found that CIO mitigates accrual-based earnings management, we further examine the effect
+of CIO on firms’ real activities manipulation, which is achieved by altering the timing or structuring
+
+20. Untabulated tests also show that the externality mechanism results are stronger when we use an alternate measure of
+CIO from He and Huang (2017) that incorporates the number of firms in an industry held by common institutional
+investors, consistent with the importance of the externality increasing with the number of peer portfolio firms.
+
+CAR Vol. 38 No. 1 (Spring 2021)
+
+ 19113846, 2021, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1911-3846.12628 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+230 Contemporary Accounting Research
+
+of an operational, investment, or financing transaction. Prior research (e.g., Roychowdhury 2006;
+Cohen and Zarowin 2010) provides evidence for both accrual-based earnings management and real
+activities manipulation and examine the trade-off between the two earnings management strategies.
+If the enhanced monitoring by CIO also helps discipline firms’ real activities manipulation, we
+expect a similar negative relation between CIO and real activities manipulation. Alternatively, if CIO
+has a disciplinary effect on accrual-based earnings management only, it can lead firms to shift their
+earnings management behavior away from accrual-based earnings management toward real activities
+manipulation, resulting in a positive relation between CIO and real activities manipulation.
+
+We follow Roychowdhury (2006) and measure real earnings management (REAL_EM) using
+three separate proxies: (i) abnormal discretionary expenses (ABNDISX); (ii) production expenses
+(ABNPROD); and (iii) cash flow from operations (ABNCFO).21 These three variables are defined
+in the Appendix. Columns (1) through (3) of Table 7 present results of estimating equation (2)
+using ABNDISX, ABNPROD, and ABNCFO as the dependent variable, respectively. We find that
+the coefficient on CROSSDUM is negative and significant at the 0.10 level for ABNDISX, but
+insignificant for ABNPROD and ABNCFO. This result provides evidence that CIO has a disciplin-
+ary effect in mitigating real activities manipulation through discretionary expenses. However, we
+find no evidence that CIO affects real activities manipulation through production expenses or cash
+flow. Overall, these findings are consistent with CIO disciplining not only accrual-based earnings
+management but also some real activities manipulation. Further, these results are inconsistent with
+commonly owned firms shifting earnings management from accruals to real activities, suggesting
+that CIO is associated with an overall improvement in financial reporting quality.
+
+Tests of earnings response coefficient (ERC)
+In this subsection, we examine whether CIO has an effect on earnings response coefficients (ERCs).
+Given our findings that CIO has a disciplinary effect on earnings management, it is possible that this
+effect results in greater price informativeness of earnings because the market places more weight on
+higher quality earnings (e.g., Ali et al. 2007). To examine this possibility, we examine whether CIO
+is associated with a greater ERC (i.e., a positive coefficient on EARNINGS×CROSSDUM). Results
+are reported in Table 8. The variable measurement of returns (RETURN), earnings (EARNINGS),
+and the control variables follow Ali et al. (2007, equation (7)) and are described in the Appendix.
+We find a significant positive relation between CROSSDUM and ERC, indicated by the positive
+coefficient on EARNINGS×CROSSDUM. This suggests that firms with CIO have an incrementally
+stronger response to earnings surprises. This result is consistent with CIO enhancing the price infor-
+mativeness of earnings.
+
+Alternative measures of CIO and earnings management
+In this subsection, we examine the robustness of our results to alternate measures of CIO and
+earnings management. First, we examine the robustness of our findings to an alternative measure
+of CIO, RNumCross, defined as the decile rank of the average number of unique institutions that
+cross-held the firm in the four quarters of the year (He and Huang 2017), which considers the
+number of common institutional investors in the firm. As shown in columns (1) and (2) of
+Table 9, panel A, our results are robust to using this alternative measure of CIO.
+
+Second, we examine the robustness of our results to using the text-based fixed industry clas-
+sification (FIC) developed by Hoberg and Phillips (2010, 2016) to identify industry peers for CIO
+(CROSSDUM_HP). Hoberg and Phillips (2010, 2016) assign firms to 400 industries based on
+product descriptions in firms’ 10-K filings. As shown in columns (3) and (4) of Table 9, panel A,
+our results are robust to this alternative measure of industry classification. Note that we also
+
+21. We thank Bret Johnson for sample code for these measures, as used in Cunningham et al. (2020).
+
+CAR Vol. 38 No. 1 (Spring 2021)
+
+ 19113846, 2021, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1911-3846.12628 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Common Institutional Ownership and Earnings Management 231
+
+TABLE 7
+The relation between common institutional ownership and real earnings management
+
+REAL_EMjt = α0 + α1CROSSDUMjt−1 + α2LogTAjt + α3ROAjt + α4LOSSjt + α5MBjt + α6SALEGRjt
++ α7STDRETjt + α8DEBTjt + α9IOjt−1 + α10BLOCKjt−1 + α11LogNUMFIRMSjt−1
++ α12INDHOLDjt−1 + α13REAL_EMjt−1 + ε
+
+REAL_EM = ABNDISXjt ABNPRODjt ABNCFOjt
+(1) (2) (3)
+
+Coefficient Coefficient Coefficient
+Variable (SE) (SE) (SE)
+
+CROSSDUMjt−1 −0.066* 0.001 −0.004
+(0.036) (0.003) (0.010)
+
+LogTAjt 0.094*** 0.022*** 0.028***
+(0.024) (0.004) (0.009)
+
+ROAjt −0.015 −0.228*** 0.391***
+(0.099) (0.010) (0.038)
+
+LOSSjt −0.048 0.016 −0.087***
+(0.082) (0.011) (0.029)
+
+MBjt −0.013*** −0.004*** 0.004*
+(0.004) (0.001) (0.002)
+
+SALEGRjt −0.089*** −0.002 0.119***
+(0.019) (0.004) (0.013)
+
+STDRETjt 3.337*** −0.212** 1.209***
+(0.892) (0.083) (0.270)
+
+DEBTjt −0.170 −0.008 −0.051
+(0.129) (0.012) (0.038)
+
+IOjt−1 0.096 −0.018*** 0.027
+(0.088) (0.007) (0.027)
+
+BLOCKjt−1 −0.053 −0.004 −0.000
+(0.043) (0.004) (0.014)
+
+LogNUMFIRMSjt−1 −0.029 0.015*** 0.000
+(0.048) (0.006) (0.012)
+
+INDHOLDjt−1 −2.677*** −0.060 −0.621**
+(0.932) (0.063) (0.277)
+
+REAL_EMjt−1 0.185*** −0.040*** 0.232***
+(0.007) (0.015) (0.010)
+
+Fixed effects Firm, Year Firm, Year Firm, Year
+N 50,775 50,775 50,775
+Adj. R2 0.138 0.082 0.177
+
+Notes: Columns (1), (2), and (3) report the results of estimating equation (2) using a pooled OLS regression
+over t = 1989–2015 after replacing the dependent variable with ABNDISX, ABNPROD, and ABNCFO,
+respectively. Robust standard errors are reported in parentheses below the coefficients and are based on
+standard errors clustered at the firm level to adjust for heteroscedasticity and serial correlation. *, **, and
+*** represent two-tailed significance levels of 0.10, 0.05, and 0.01, respectively. All continuous variables
+are winsorized at 1% and 99%. Detailed variable definitions are in the Appendix.
+
+adjust our discretionary accruals calculation to use the FIC rather than SIC industry classifications
+(DACC_HP) to correspond to the adjusted CIO measure.
+
+Finally, we examine the robustness of our results to three alternate measures of earnings
+management. First, we use BEAT_ADJ, which equals one for firms that meet or beat analysts’
+forecasts but would have missed the forecasts in the absence of discretionary accruals (Davis
+et al. 2009). This measure potentially reduces measurement error by capturing firms most likely
+
+CAR Vol. 38 No. 1 (Spring 2021)
+
+ 19113846, 2021, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1911-3846.12628 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+232 Contemporary Accounting Research
+
+TABLE 8
+The relation between common institutional ownership and earnings response coefficients
+
+RETURNjt = α0 + α1EARNINGSjt + α2CROSSDUMjt−1 + α3EARNINGSjt×CROSSDUMjt−1 + α4IOjt−1
+
++ α5EARNINGSjt×IOjt−1 + α6LogNUMFIRMSjt−1 + α7EARNINGSjt×LogNUMFIRMSjt−1
++ α8INDHOLDjt−1 + α9EARNINGSjt×INDHOLDjt−1 + α10EARNINGSjt×VARjt−1
++ α11EARNINGSjt×DEBTjt−1 + α12EARNINGSjt×MBjt−1 + α13EARNINGSjt×LogMVEjt−1
++ α14EARNINGSjt×BETAjt−1 + α15EARNINGSjt×ROAjt−1 + α16EARNINGSjt×PROAjt−1 + ε
+
+Coefficient
+Variable (SE)
+
+EARNINGSjt −0.390
+(0.816)
+
+CROSSDUMjt−1 0.033***
+(0.008)
+
+EARNINGSjt×CROSSDUMjt−1 0.136**
+(0.068)
+
+IOjt−1 −0.064***
+(0.013)
+
+EARNINGSjt×IOjt−1 −0.119
+(0.137)
+
+BLOCKjt−1 −0.012
+(0.011)
+
+EARNINGSjt×BLOCKjt−1 −0.107
+(0.102)
+
+LogNUMFIRMSjt−1 0.043***
+(0.007)
+
+EARNINGSjt×LogNUMFIRMSjt−1 0.050
+(0.097)
+
+INDHOLDjt−1 0.003
+(0.089)
+
+EARNINGSjt×INDHOLDjt−1 −1.709**
+(0.717)
+
+EARNINGSjt×VARjt−1 −0.208**
+(0.099)
+
+EARNINGSjt×DEBTjt−1 −0.515***
+(0.165)
+
+EARNINGSjt×MBjt−1 0.034***
+(0.010)
+
+EARNINGSjt×LogMVEjt−1 0.010
+(0.024)
+
+EARNINGSjt×BETAjt−1 0.011
+(0.041)
+
+EARNINGSjt×ROAjt−1 0.699***
+(0.097)
+
+EARNINGSjt×PROAjt−1 0.111
+(0.228)
+
+Fixed effects Industry×EARNINGS
+N 44,757
+Adj. R2 0.060
+
+Notes: The table reports the results of estimating ERC following equation (7) from Ali et al. (2007) using a
+pooled OLS regression over t = 1989–2015. Ali et al. (2007) control variables, plus additional institutional
+ownership controls from equation (2), are included. In addition to the previously defined variables, control
+variables from Ali et al. (2007) are defined in the Appendix. Robust standard errors are reported in parentheses
+below the coefficients and are based on standard errors clustered at the firm level to adjust for heteroscedasticity
+and serial correlation. *, **, and *** represent two-tailed significance levels of 0.10, 0.05, and 0.01, respectively.
+All continuous variables are winsorized at 1% and 99%.
+
+CAR Vol. 38 No. 1 (Spring 2021)
+
+ 19113846, 2021, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1911-3846.12628 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Common Institutional Ownership and Earnings Management 233
+
+TABLE 9
+Alternative measures of common institutional ownership or earnings management
+
+Panel A: Alternative measures of common institutional ownership
+
+EMjt = α0 + α1CIO_Measurejt−1 + α2LogTAjt + (α3ROAjt) + α4LOSSjt + α5MBjt + α6SALEGRjt
++ α7STDRETjt + α8DEBTjt + α9IOjt−1 + α10BLOCKjt−1 + α11LogNUMFIRMSjt−1
++ α12INDHOLDjt−1 + α13EMjt−1 + ε
+
+EM = DACCjt BEATjt DACC_HPjt BEATjt
+(1) (2) (3) (4)
+
+Coefficient Coefficient Coefficient Coefficient
+Variable (SE) (SE) (SE) (SE)
+
+RNumCrossjt−1 −0.450*** −0.019***
+(0.144) (0.007)
+
+CROSSDUM_HPjt−1 −0.357*** −0.009*
+(0.134) (0.005)
+
+Controls Included Included Included Included
+Fixed effects Firm, Year Firm, Year Firm, Year Firm, Year
+N 60,148 43,667 47,195 43,667
+Adj. R2 0.008 0.012 0.006 0.012
+
+Panel B: Alternative measures of earnings management
+
+EM = BEAT_ADJjt Special itemsjt Write downsjt
+(1) (2) (3)
+
+Coefficient Coefficient Coefficient
+Variable (SE) (SE) (SE)
+
+CROSSDUMjt−1 −0.014*** −0.137** −0.044*
+(0.004) (0.069) (0.025)
+
+Controls Included Included Included
+Fixed effects Firm, Year Firm, Year Firm, Year
+N 42,555 62,047 26,975
+Adj. R2 0.012 0.320 0.108
+Notes: Panel A, columns (1) and (2), report the results of estimating equation (2) using a pooled OLS regression
+over t = 1989–2015 for DACC and BEAT, respectively, after replacing CROSSDUMjt−1 with RNumCrossjt−1. Panel
+A, columns (3) and (4), report the results of estimating equation (2) using a pooled OLS regression over t = 1989–
+2015 for DACC_HP and BEAT, respectively, after replacing CROSSDUMjt−1 with CROSSDUM_HPjt−1. Panel B,
+columns (1), (2), and (3), report the results of estimating equation (2) using a pooled OLS regression over
+t = 1989–2015 for BEAT_ADJ and Special items, respectively, and over t = 2001–2015 for Write downs. DACC,
+DACC_HP, Special items, and Write downs are multiplied by 100 for clearer exposition. Equation (2) control
+variables are included but not tabulated for brevity. ROA (α3) is not included in the DACC regression because we
+use performance-adjusted DACC, adjusted for ROA. Robust standard errors are reported in parentheses below the
+coefficients and are based on standard errors clustered at the firm level to adjust for heteroscedasticity and serial
+correlation. *, **, and *** represent two-tailed significance levels of 0.10, 0.05, and 0.01, respectively. All
+continuous variables are winsorized at 1% and 99%. Detailed variable definitions are in the Appendix.
+
+managing earnings to meet or beat earnings. As shown in column (1) of Table 9, panel B, our
+result is robust to this alternative BEAT measure. However, we caution that this measure may be
+subject to the “backing out” problem (Elgers et al. 2003).22 We also employ two model-free
+
+22. In brief, the backing out problem is the mechanical relation that can arise when measuring performance relative to a target
+by subtracting estimated discretionary accruals from reported earnings to generate “unmanaged earnings.” Elgers et al. (2003)
+show that this approach can lead to patterns resembling earnings management even in the absence of earnings management.
+
+CAR Vol. 38 No. 1 (Spring 2021)
+
+ 19113846, 2021, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1911-3846.12628 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+234 Contemporary Accounting Research
+
+measures of earnings management, special items (Special items) and write-downs (Write downs),
+following Dou, Khan, and Zou (2016). Results, presented in columns (2) and (3) of Table 9,
+panel B, are consistent with CIO encouraging firms to recognize these expenses.
+
+6. Conclusion
+Common block ownership of industry rivals by institutional investors (common institutional own-
+ership; CIO) has become increasingly common over the past two decades. This study examines
+how CIO influences earnings management. We propose that CIO can have a disciplinary effect
+on firms’ earnings management by creating an economy of scale in institutional monitoring (the
+economy of scale mechanism) and by internalizing the negative externality of a firm’s earnings
+management on peer firms’ investments (the externality mechanism).
+
+We find a negative relation between CIO and earnings management. A difference-in-
+differences analysis of an exogenous increase in CIO stemming from financial institution mergers
+yields evidence that this negative relation is unlikely to be driven by the endogeneity of CIO. Fur-
+ther, cross-sectional tests provide evidence consistent with CIO mitigating earnings management
+through both the economy of scale and externality mechanisms. More specifically, the negative
+relation between CIO and earnings management is more pronounced among firms whose com-
+mon institutional investors blockhold a relatively larger number of peer firms, consistent with the
+economy of scale mechanism. We also find that the negative relation between CIO and earnings
+management is more pronounced among (i) industries with higher investor sentiment, lower cost
+of capital, and higher private benefits of control, and (ii) firms with higher unexpected overlap in
+analyst coverage with common institutional investors’ other co-owned peer firms. Both of these
+results are consistent with the externality mechanism.
+
+Our study adds to our understanding of how institutional investors influence financial reporting
+by documenting a disciplinary effect of CIO that is above and beyond the effect of institutional own-
+ership in the firm. Our study also adds to our understanding of the economic consequences of CIO by
+providing new evidence on the effect of CIO on financial reporting and the mechanisms behind the
+effect. Our findings are relevant to policy makers, regulators, and investors who seek to better under-
+stand the benefits and costs of CIO. While much of the ongoing debate on CIO focuses on its poten-
+tial anticompetitive effects, our findings highlight a “bright side” of common institutional ownership:
+it enhances shareholder monitoring of financial reporting and reduces earnings manipulation.
+
+While we show that CIO mitigates earnings management by enhancing institutions’ monitor-
+ing efficiency and by internalizing the negative externality of earnings management on peer firms’
+investments, CIO can also influence investee firms’ financial reporting through other potential
+mechanisms. For example, CIO could affect financial reporting through the change in firms’ com-
+petitive environments, adjustments to board structure, or the internalization of other externalities
+of financial reporting. Future research can investigate these other potential mechanisms, which
+will shed additional light on how CIO shapes financial reporting.
+
+Appendix
+Variable definitions
+
+Variable Definition
+
+Main dependent variables
+EMjt DACCjt or BEATjt
+DACCjt Discretionary accruals calculated as the residual from the performance-adjusted
+
+modified Jones model based on Kothari et al. (2005) estimated for each industry
+
+(The Appendix is continued on the next page.)
+
+CAR Vol. 38 No. 1 (Spring 2021)
+
+ 19113846, 2021, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1911-3846.12628 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Common Institutional Ownership and Earnings Management 235
+
+Appendix (continued)
+
+Variable Definition
+
+(4-digit SIC)-year requiring at least 10 observations per industry-year.
+Specifically,
+ACjt = α + β0(1/AVGATjt) + β1ΔCASHREVjt + β2PPEjt + β3ROAjt−1
+
++ β4ROAjt + εjt,
+where
+ACjt is total accruals for firm j in year t, defined as net income from continuing
+operations minus operating cash flow scaled by average total assets
+
+AVGATjt is average total assets for firm j based on assets at the beginning and
+end of year t
+
+ΔCASHREVjt is the change in cash sales (i.e., change in revenue minus change
+in accounts receivable) for firm j at the end of year t scaled by average total
+assets
+
+PPEjt is net property, plant, and equipment for firm j at the end of year t scaled
+by average total assets
+
+ROAjt−1(jt) is income before extraordinary items for firm j in year t − 1 (t) scaled
+by total assets at the end of year t − 1 (t)
+
+BEATjt An indicator variable equal to one if firm j meets or beats by up to one cent the
+consensus analyst annual EPS forecast existing in I/B/E/S immediately before the
+earnings announcement of earnings for year t, and zero otherwise
+
+MISSATATEjt An indicator variable equal to one if either fraud charges (Fraud) are included in an
+enforcement action or the firm misled its auditors (Misled auditor) for the
+misstated firm-years (i.e., violation periods for firm j in year t) per the Call
+et al. (2018) dataset, and zero otherwise. This definition follows Call et al. (2018,
+137), who identify misstatements as enforcement actions for financial
+misrepresentation with “intent”
+
+Main variables of interest
+CROSSDUMjt−1 An indicator variable equal to one for firm j if an institution has a blockholding
+
+(> 5% of shares outstanding) in this firm and at least one of its industry peers
+simultaneously in any of the four quarters in year t − 1, and zero otherwise.
+Industry peers are identified using 4-digit SIC
+
+TREATj An indicator variable equal to one if firm j is a treatment firm, and zero otherwise
+(i.e., if firm j is a control firm). Treatment firms are firms that are blockheld by
+one of the merging institutions in the quarter prior to the merger announcement,
+where the other merging institution does not blockhold the firm, but blockholds
+at least one industry rival in the same quarter prior to the merger. Control firms
+include firms blockheld by the merging institution that blockholds the treatment
+firms, with the other party to the merger not blockholding any same-industry
+rivals of the firm
+
+POSTt An indicator variable equal to one for the year after the financial institution merger
+for the treatment and control firms identified for this merger, and equal to zero
+for the year before the merger
+
+Main control variables
+LogTAjt The natural logarithm of total assets of firm j as of the end of year t
+ROAjt Income before extraordinary items divided by total assets of firm j, both measured
+
+as of the end of year t (as defined in the DACC calculation)
+LOSSjt The proportion of years prior to year t in which firm j reported negative net income.
+
+We calculate this measure using up to 10 prior years of data
+MBjt Market value of equity divided by total common equity for firm j, both measured as
+
+of the end of year t
+
+(The Appendix is continued on the next page.)
+
+CAR Vol. 38 No. 1 (Spring 2021)
+
+ 19113846, 2021, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1911-3846.12628 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+236 Contemporary Accounting Research
+
+Appendix (continued)
+
+Variable Definition
+
+SALEGRjt Sales growth in year t for firm j
+STDRETjt Standard deviation of daily returns for firm j over year t
+DEBTjt Long-term debt divided by total assets for firm j, both measured as of the end of
+
+year t
+IOjt−1 Shares held, as a percentage of shares outstanding, by all institutional investors of
+
+firm j at the end of year t − 1
+BLOCKjt−1 An indicator variable equal to one if firm j is blockheld in any of the four quarters
+
+of year t − 1, and zero otherwise
+LogNUMFIRMSjt−1 The natural logarithm of the average number of firms owned by firm j’s
+
+institutional investors at the end of year t − 1
+INDHOLDjt−1 The industry expertise of firm j’s common owners at the end of year t − 1,
+
+calculated as follows. First, we calculate the percentage of each common owner’s
+portfolio value invested in a given 4-digit SIC industry for each quarter of year
+t − 1 (Ind_Pct). We then calculate the average Ind_Pct of all firm j’s common
+owners in a quarter (Ind_Pct_Firm). Finally, because common ownership is
+measured over the four quarters of t − 1, we average the firm-quarter measure
+over the four quarters of t − 1. This variable equals zero for firms that are not
+commonly owned
+
+Variables for creating cross sections
+AvgNumjt−1 Average number of rivals blockheld by firm j’s common owners in year t − 1.
+
+Specifically, for each quarter of year t − 1 we compute the number of firms
+commonly owned by each institutional blockholder of firm j. We sum this
+number across the institutional owners of firm j and divide by the total number of
+common owners to calculate the average number of rivals owned by each
+common owner of firm j in each quarter of t − 1. We then average the quarterly
+values over the year
+
+SENTIMENTjt−1 Following Beatty et al. (2013), this variable is the first principal component of the
+following four measures, computed at the industry (4-digit SIC)-year level: total
+number of IPOs (from Jay Ritter’s IPO founding date file, available at https://site.
+warrington.ufl.edu/ritter/ipo-data/, updated as of March 2019 and described in
+Loughran and Ritter 2004); the average first-day returns of IPOs (obtained by
+linking Ritter’s offer dates to CRSP); annual stock turnover; and the difference in
+the average MB between the dividend and nondividend paying firms. The
+variable is calculated for firm j’s industry in year t − 1
+
+MEDIANEPjt−1 The median earnings-per-share (basic, before extraordinary items) divided by year
+end stock price for firm j’s industry (4-digit SIC) in year t − 1
+
+M&Ajt−1 The number of completed mergers and acquisitions, where the acquirer is in firm j’s
+industry (4-digit SIC), in year t − 1. Merger and acquisition data is obtained from
+SDC, requiring US based. Acquirers and greater than 50 percent ownership of
+the target after the acquisition
+
+Factorjt−1 The average of the ranks of SENTIMENTjt−1, negative MEDIANEPjt−1 and
+M&Ajt−1
+
+Overlapjt−1 Following Beatty et al. (2013), for each industry (4-digit SIC)-year, we measure the
+analyst overlap between each pair of firms in that industry as the logarithm of
+one plus the number of analysts covering a given pair of firms. We then regress
+the overlap on the economic determinants including return comovement (the
+R-square from regressing one firm’s daily return on the other firm’s daily returns
+over the year, requiring at least 100 daily observations) and the firm-pair average
+of lag LogTA, lag market-to-book ratio (market value of equity plus book value
+
+(The Appendix is continued on the next page.)
+
+CAR Vol. 38 No. 1 (Spring 2021)
+
+ 19113846, 2021, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1911-3846.12628 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Common Institutional Ownership and Earnings Management 237
+
+Appendix (continued)
+
+Variable Definition
+
+of liabilities, scaled by total assets), lag DEBT, and ChgSALE (ChgSALE is
+defined below). We extract the regression residual as residual analyst overlap for
+each pair of firms. We retain firm-pairs with residual analyst overlap that also
+have common institutional investors
+
+Additional analyses—dependent variables
+REAL_EMjt ABNDISXjt, ABNPRODjt, or ABNCFOjt
+ABNDISXjt Following Roychowdhury (2006), abnormal discretionary expenses is the residual
+
+from the following regression (multiplied by −1):
+DISXjt = β0(1/ATjt−1) + β1SALEjt + εjt,
+where
+DISXjt is SG&A expense for firm j in year t scaled by lagged assets. Note that
+
+Roychowdhury (2006) adds advertising and R&D expenses to this variable,
+but these amounts are already included in total SG&A expense so we do not
+add them (as also noted in Srivastava 2019, footnote 13)
+
+SALEjt is revenue for firm j in year t scaled by lagged assets.
+ABNPRODjt Following Roychowdhury (2006), abnormal production costs is the residual from
+
+the following regression:
+PRODjt = β0(1/ATjt−1) + β1SALEjt + β2ChgSALEjt + β3ChgSALEjt−1 + εjt,
+where
+PRODjt is firm j’s cost of goods sold in year t plus its change in inventory from
+
+year t − 1 to year t scaled by lagged assets
+ChgSALEjt (jt−1) is firm j’s change in sales from year t − 1 (t − 2) to year
+
+t (t − 1), scaled by lagged assets
+ABNCFOjt Following Roychowdhury (2006), abnormal operating cash flow is the residual
+
+from the following regression:
+CFOjt = β0(1/ATjt−1) + β1SALEjt + β2ChgSALEjt + εjt,
+where
+CFOjt is cash flow from continuing operations for firm j in year t scaled by
+
+lagged assets
+RETURNjt The abnormal return for the 12-month period ending 3 months after the year t fiscal
+
+year end for firm j, where abnormal return is the firm return minus the CRSP
+equal weighted index
+
+DACC_HPjt Discretionary accruals as calculated previously, except substituting Hoberg and
+Phillips’s (2010, 2016) fixed industry classification (FIC), which assigns firms to
+400 industries based on product descriptions in the firms’ 10-K, in place of
+4-digit SIC. Because this text-based classification is unavailable prior to 1996, we
+use the earliest available text-based classification to backfill any prior years
+
+BEAT_ADJjt Following Davis et al. (2009), an indicator variable equal to one if firm j’s annual
+forecast error is non-negative and adjusted annual forecast error is less than zero,
+and zero otherwise. Forecast error is actual minus consensus analyst EPS forecast
+existing in I/B/E/S immediately before the earnings announcement of earnings for
+year t. Adjusted forecast error is actual EPS minus DACC per share minus
+consensus analyst EPS forecast existing in I/B/E/S immediately before the
+earnings announcement of earnings for year t
+
+Special itemsjt Special items divided by total assets for firm j, both measured as of the end of year
+t. Missing special items are set equal to zero
+
+Write downsjt After-tax write-downs divided by total assets for firm j, both measured as of the
+end of year t. Data begins in 2001. Missing write-downs (in 2001 or later) are set
+equal to zero
+
+(The Appendix is continued on the next page.)
+
+CAR Vol. 38 No. 1 (Spring 2021)
+
+ 19113846, 2021, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1911-3846.12628 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+238 Contemporary Accounting Research
+
+Appendix (continued)
+
+Variable Definition
+
+Additional analyses—control variables
+EARNINGSjt Change in earnings per share (annual) of firm j for year t scaled by the stock price
+
+at the beginning of the return (RETURN) accumulation period
+VARjt−1 The standard deviation of firm j’s ROA for the prior 16 quarters through the end of
+
+year t − 1
+LogMVEjt−1 Natural logarithm of firm j’s market value of equity as of the end of year t − 1
+BETAjt−1 Firm j’s beta over year t − 1 over the 200 trading days starting 20 days before the
+
+earnings announcement. We require at least 100 daily observations
+PROAjt−1 The sum of firm j’s total income before extraordinary items over the five years
+
+prior to year t − 1 divided by the sum of assets over the same period
+Additional analyses—alternative variables of interest
+RNumCrossjt−1 The decile rank of the average number of unique institutions that cross-held the
+
+firm in the four quarters of year t − 1. Specifically, we compute the number of
+same-industry rivals that are owned by firm j’s common institutional investors in
+each quarter of year t − 1. These values are then averaged over year t − 1 and
+decile ranked
+
+CROSSDUM_HPjt−1 An indicator variable equal to one for firm j if an institution has a blockholding
+(> 5% of shares outstanding) in this firm and at least one of its industry peers
+simultaneously in any of the four quarters in year t − 1, and zero otherwise.
+Industry peers are identified using Hoberg and Phillips’s (2010, 2016) fixed
+industry classification (FIC), which assigns firms to 400 industries based on
+product descriptions in the firms’ 10-K. Because this text-based classification is
+unavailable prior to 1996, we use the earliest available text-based classification to
+backfill any prior years
+
+References
+Admati, A. R., and P. Pfleiderer. 2009. The “Wall Street walk” and shareholder activism: Exit as a form of
+
+voice. Review of Financial Studies 22 (7): 2645–85.
+Ali, A., T.-Y. Chen, and S. Radhakrishnan. 2007. Corporate disclosures by family firms. Journal of Account-
+
+ing and Economics 44 (1–2): 238–86.
+Antón, M., F. Ederer, M. Giné, and M. Schmalz. 2018. Common ownership, competition, and top manage-
+
+ment incentives. Working paper, IESE Business School, University of Michigan, and Yale University.
+Antón, M., and C. Polk. 2014. Connected stocks. Journal of Finance 69 (3): 1099–127.
+Appel, I. R., T. A. Gormley, and D. B. Keim. 2016. Passive investors, not passive owners. Journal of Finan-
+
+cial Economics 121 (1): 111–41.
+Armstrong, C. S., W. R. Guay, and J. P. Weber. 2010. The role of information and financial reporting in cor-
+
+porate governance and debt contracting. Journal of Accounting and Economics 50 (2–3): 179–234.
+Ayers, B. C., S. Ramalingegowda, and P. E. Yeung. 2011. Hometown advantage: The effects of monitoring
+
+institution location on financial reporting discretion. Journal of Accounting and Economics 52 (1):
+41–61.
+
+Azar, J., S. Raina, and M. Schmalz. 2019. Ultimate ownership and bank competition. Working paper, IESE
+Business School, University of Alberta, and University of Oxford.
+
+Azar, J., M. C. Schmalz, and I. Tecu. 2018. Anticompetitive effects of common ownership. Journal of
+Finance 73 (4): 1513–65.
+
+Baginski, S., and K. C. Rakow. 2012. Management earnings forecast disclosure policy and the cost of equity
+capital. Review of Accounting Studies 17 (2): 279–321.
+
+CAR Vol. 38 No. 1 (Spring 2021)
+
+ 19113846, 2021, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1911-3846.12628 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Common Institutional Ownership and Earnings Management 239
+
+Barzuza, M., Q. Curtis, and D. Webber. 2019. Shareholder value(s): Index fund activism and the new
+millennial corporate governance. Working paper.
+
+Beatty, A., S. Liao, and J. J. Yu. 2013. The spillover effect of fraudulent financial reporting on peer firms’
+investments. Journal of Accounting and Economics 55 (2–3): 183–205.
+
+Becker, C. L., M. L. DeFond, J. Jiambalvo, and K. R. Subramanyam. 1998. The effect of audit quality on
+earnings management. Contemporary Accounting Research 15 (1): 1–24.
+
+Beyer, A., D. Cohen, T. Lys, and B. Walther. 2010. The financial reporting environment: Review of recent
+literature. Journal of Accounting and Economics 50 (2–3): 295–343.
+
+Boone, A. L., and J. T. White. 2015. The effect of institutional ownership on firm transparency and informa-
+tion production. Journal of Financial Economics 117 (3): 508–33.
+
+Bushee, B. J. 1998. The influence of institutional investors on myopic R&D investment behavior. The
+Accounting Review 73 (3): 305–33.
+
+Bushee, B. J., D. A. Matsumoto, and G. S. Miller. 2003. Open versus closed conference calls: The determi-
+nants and effects of broadening access to disclosure. Journal of Accounting and Economics 34 (1–3):
+149–80.
+
+Call, A. C., G. S. Martin, N. Y. Sharp, and J. H. Wilde. 2018. Whistleblowers and outcomes of financial
+misrepresentation enforcement actions. Journal of Accounting Research 56 (1): 123–71.
+
+Carleton, W. T., J. M. Nelson, and M. S. Weisbach. 1998. The influence of institutions on corporate gover-
+nance through private negotiations: Evidence from TIAA-CREF. Journal of Finance 53 (4): 1335–62.
+
+Cheng, C. S. A., H. H. Huang, Y. Li, and G. Lobo. 2010. Institutional monitoring through shareholder litiga-
+tion. Journal of Financial Economics 95 (3): 356–83.
+
+Chhaochharia, V., A. Kumar, and A. Niessen-Ruenzi. 2012. Local investors and corporate governance. Jour-
+nal of Accounting and Economics 54 (1): 42–67.
+
+Cohen, D. A., and P. Zarowin. 2010. Accrual-based and real earnings management activities around sea-
+soned equity offerings. Journal of Accounting and Economics 50 (1): 2–19.
+
+Cornett, M. M., A. J. Marcus, and H. Tehranian. 2008. Corporate governance and pay-for-performance: The
+impact of earnings management. Journal of Financial Economics 87 (2): 357–73.
+
+Cunningham, L. M., B. A. Johnson, E. S. Johnson, and L. L. Lisic. 2020. The switch-up: An examination of
+changes in earnings management after receiving SEC comment letters. Contemporary Accounting
+Research 37 (2): 917–44.
+
+Davis, L., B. Soo, and G. Trompeter. 2009. Auditor tenure and the ability to meet or beat earnings forecasts.
+Contemporary Accounting Research 26 (2): 517–48.
+
+Dechow, P., R. Sloan, and A. Sweeney. 1996. Causes and consequences of earnings manipulation: An analy-
+sis of firms subject to enforcement actions by the SEC. Contemporary Accounting Research 13
+(1): 1–36.
+
+Dou, Y., O.-K. Hope, W. Thomas, and Y. Zou. 2016. Individual large shareholders, earnings management,
+and capital market consequences. Journal of Business Finance and Accounting 43 (7–8): 872–902.
+
+Dou, Y., O.-K. Hope, W. Thomas, and Y. Zou. 2018. Blockholder exit threats and financial reporting qual-
+ity. Contemporary Accounting Research 35 (2): 1004–28.
+
+Dou, Y., M. Khan, and Y. Zou. 2016. Labor unemployment insurance and earnings management. Journal of
+Accounting and Economics 61 (1): 166–84.
+
+Durnev, A., and C. Mangen. 2009. Corporate investments: Learning from restatements. Journal of Account-
+ing Research 47 (3): 679–720.
+
+Edmans, A. 2014. Blockholders and corporate governance. Annual Review of Financial Economics 6:
+23–50.
+
+Edmans, A., and G. Manso. 2011. Governance through trading and intervention: A theory of multiple
+blockholders. Review of Financial Studies 24 (7): 2395–428.
+
+Elgers, P. T., R. J. Pfeiffer Jr., and S. L. Porter. 2003. Anticipatory income smoothing: A re-examination.
+Journal of Accounting and Economics 35 (3): 405–22.
+
+Elhauge, E. 2017. The growing problem of horizontal shareholding. Competition Policy International Anti-
+trust Chronicle (June): 1–15.
+
+CAR Vol. 38 No. 1 (Spring 2021)
+
+ 19113846, 2021, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1911-3846.12628 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+240 Contemporary Accounting Research
+
+Fichtner, J., E. M. Heemskerk, and J. Garcia-Bernardo. 2017. Hidden power of the big three? Passive index
+funds, re-concentration of corporate ownership, and new financial risk. Business and Politics 19 (2):
+298–326.
+
+Field, T., T. Lys, and L. Vincent. 2001. Empirical research on accounting choice. Journal of Accounting and
+Economics 31 (1–3): 255–307.
+
+Fisch, J., A. Hamdani, and S. Solomon. 2019. The new titans of Wall Street: A theoretical framework for
+passive investors. University of Pennsylvania Law Review 168 (1): 17–72.
+
+Francis, J., D. Nanda, and P. Olsson. 2008. Voluntary disclosure, earnings quality, and cost of capital. Jour-
+nal of Accounting Research 46 (1): 53–99.
+
+Freeman, K. M. 2019. The effects of common ownership on customer-supplier relationships. Working paper,
+Indiana University.
+
+Gigler, F. 1994. Self-enforcing voluntary disclosures. Journal of Accounting Research 32 (2): 224–40.
+Gilo, D., Y. Moshe, and Y. Spiegel. 2006. Partial cross ownership and tacit collusion. RAND Journal of
+
+Economics 37 (1): 81–99.
+Gompers, P., A. Kovner, J. Lerner, and D. Scharfstein. 2008. Venture capital investment cycles: The impact
+
+of public markets. Journal of Financial Economics 87 (1): 1–23.
+Greene, W. 2004. The behavior of the fixed effects estimator in nonlinear models. Econometrics Journal 7
+
+(1): 98–119.
+Harford, J., D. Jenter, and K. Li. 2011. Institutional cross-holdings and their effect on acquisition decisions.
+
+Journal of Financial Economics 99 (1): 27–39.
+He, J. J., and J. Huang. 2017. Product market competition in a world of cross-ownership: Evidence from
+
+institutional blockholdings. Review of Financial Studies 30 (8): 2674–718.
+He, J. J., J. Huang, and S. Zhao. 2019. Internalizing governance externalities: The role of institutional cross-
+
+ownership. Journal of Financial Economics 134 (2): 400–18.
+He, J., L. Li, and E. Yeung. 2020. Two tales of monitoring: Effects of institutional cross-blockholding on
+
+accruals. Working paper, University of Georgia, University of Kansas, and Cornell University.
+Heath, D., D. Macciocchi, R. Michaely, and M. C. Ringgenberg. 2020. Do index funds monitor? Working
+
+paper, University of Utah and University of Geneva.
+Hinson, L. A., and S. Utke. 2019. Structural equation modeling in archival capital markets research: An
+
+empirical application to disclosure and cost of capital. Working paper, University of Florida and Uni-
+versity of Connecticut.
+
+Hoberg, G., and G. Phillips. 2010. Product market synergies and competition in mergers and acquisitions: A
+text-based analysis. Review of Financial Studies 23 (10): 3774–811.
+
+Hoberg, G., and G. Phillips. 2016. Text-based network industries and endogenous product differentiation.
+Journal of Political Economy 124 (5): 1423–65.
+
+Hope, O.-K. 2013. Large shareholders and accounting research. China Journal of Accounting Research 6
+(1): 3–20.
+
+Hope, O.-K., and W. Zhao. 2018. Market reactions to the closest peer firm’s analyst revisions. Accounting
+and Business Research 48 (4): 345–72.
+
+Kang, J., J. Luo, and H. Na. 2018. Are institutional investors with multiple blockholdings effective moni-
+tors? Journal of Financial Economics 128 (3): 576–602.
+
+Kostovetsky, L., and A. Manconi. 2020. Common institutional ownership and diffusion of innovation.
+Working paper, Boston College and Bocconi University.
+
+Kothari, S. P., A. J. Leone, and C. E. Wasley. 2005. Performance matched discretionary accrual measures.
+Journal of Accounting and Economics 39 (1): 163–97.
+
+Kumar, P., and N. Langberg. 2010. Innovation and investment bubbles. Working paper, University of
+Houston.
+
+Kwon, H. J. 2016. Executive compensation under common ownership. Working paper, University of
+Chicago.
+
+Larcker, D. F., S. A. Richardson, and I. Tuna. 2007. Corporate governance, accounting outcomes, and orga-
+nizational performance. The Accounting Review 82 (4): 963–1008.
+
+CAR Vol. 38 No. 1 (Spring 2021)
+
+ 19113846, 2021, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1911-3846.12628 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Common Institutional Ownership and Earnings Management 241
+
+Li, V. 2016. Do false financial statements distort peer firms’ decisions? The Accounting Review 91 (1):
+251–78.
+
+Loughran, T., and J. Ritter. 2004. Why has IPO underpricing changed over time? Financial Management 33
+(3): 5–37.
+
+Matvos, G., and M. Ostrovsky. 2008. Cross-ownership, returns, and voting in mergers. Journal of Financial
+Economics 89 (3): 391–403.
+
+McCahery, J. A., Z. Saunter, and L. T. Starks. 2016. Behind the scenes: The corporate governance prefer-
+ences of institutional investors. Journal of Finance 71 (6): 2905–32.
+
+O’Brien, D. P., and S. C. Salop. 2000. Competitive effects of partial ownership: Financial interest and corpo-
+rate control. Antitrust Law Journal 67 (3): 559–614.
+
+Park, J., J. Sani, N. Shroff, and H. White. 2019. Disclosure incentives when competing firms have common
+ownership. Journal of Accounting and Economics 67 (2–3): 387–415.
+
+Qin, N., and D. Wang. 2018. Are passive investors a challenge to corporate governance? Working paper,
+Northern Illinois University and University of Maryland.
+
+Rajgopal, S., and M. Venkatachalam. 1997. The role of institutional investors in corporate governance: An
+empirical investigation. Working paper, Stanford University.
+
+Ramalingegowda, S., and Y. Yu. 2012. Institutional ownership and conservatism. Journal of Accounting
+and Economics 53 (1–2): 98–114.
+
+Reichelt, K. J., and D. Wang. 2010. National and office-specific measures of auditor industry expertise and
+effects on audit quality. Journal of Accounting Research 48 (3): 647–86.
+
+Roychowdhury, S. 2006. Earnings management through real activities manipulation. Journal of Accounting
+and Economics 42 (3): 335–70.
+
+Schmalz, M. C. 2018. Common ownership concentration and corporate conduct. Annual Review of Financial
+Economics 10: 413–48.
+
+Schmidt, C., and R. Fahlenbrach. 2017. Do exogenous changes in passive institutional ownership affect cor-
+porate governance and firm value? Journal of Financial Economics 124 (2): 285–306.
+
+Srivastava, A. 2019. Improving the measures of real earnings management. Review of Accounting Studies 24
+(4): 1277–316.
+
+CAR Vol. 38 No. 1 (Spring 2021)
+
+ 19113846, 2021, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1911-3846.12628 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

@@ -1,0 +1,1395 @@
+﻿Vol. 25, No. 2, February 2016, pp. 258–272 DOI 10.1111/poms.12417
+ISSN 1059-1478|EISSN 1937-5956|16|2502|0258 © 2015 Production and Operations Management Society
+
+Customer-Base Concentration and Inventory
+Efficiencies: Evidence from the Manufacturing Sector
+
+B. Korcan Ak, Panos N. Patatoukas
+Haas School of Business, University of California at Berkeley, 2220 Piedmont Ave, Berkeley, California 94720, USA,
+
+korcan_ak@haas.berkeley.edu, panos@haas.berkeley.edu
+
+W hat is the link between customer-base concentration and inventory efficiencies in the manufacturing sector? Using
+hand-collected data from 10-K Filings, we find that manufacturers with more concentrated customer bases hold
+
+fewer inventories for less time and are less likely to end up with excess inventories, as indicated by the lower likelihood
+and magnitude of inventory write-downs and reversals. Using disaggregated inventory disclosures, we find that inventory
+efficiencies primarily flow through the finished goods inventory account, while raw material efficiencies are offset by
+higher work-in-process holdings and longer work-in-process cycles. In additional analysis, we document a valuation pre-
+mium for more concentrated manufacturers after controlling for other firm characteristics, including default risk and cost
+of capital estimates. We conclude that investors trade off the costs and benefits of relationships with a limited number of
+major customers and, on balance, consider customer-base concentration as a net positive for firm valuation. Overall, our
+study adds to interdisciplinary research in accounting and operations management by shedding new light on the rele-
+vance of major customer disclosures for fundamental analysis and valuation in the manufacturing sector.
+
+Key words: Customer-base concentration; inventory efficiencies; inventory write-downs; firm valuation
+History: Received: September 2014; Accepted: June 2015 by Anil Arya, after 2 revisions.
+
+1. Introduction tainty, which translates into lower inventory hold-
+ings, shorter inventory holding periods, and lower
+
+Although inventory management is as old as manu- obsolescence risk. According to industry experts,
+facturing itself, little is known about the empirical firms with lower inventories are more valuable than
+link between customer-base structure and inventory firms with bloated inventories (e.g., Chen et al. 2005,
+efficiencies. This link is ex ante unclear. On one hand, Lieberman et al. 1999). Indeed, studies in fundamen-
+the conventional view based on the relative bargain- tal analysis and valuation provide evidence that firms
+ing power literature emphasizes that manufacturers with large inventory changes (i.e., inventory accruals)
+with concentrated customer bases are held captive by underperform in the stock market (e.g., Allen et al.
+their major customers and are forced to carry excess 2013, Belo and Lin 2012, Thomas and Zhang 2002).
+inventory (bargaining power view). On the other hand, Consistent with the OM view, we find that manu-
+researchers in operations management (OM) argue facturers with more concentrated customer bases hold
+that relationships with a limited number of major cus- significantly fewer inventories and experience shorter
+tomers enable manufacturers to achieve inventory inventory holding periods. Our findings hold after
+efficiencies through the implementation of supply- controlling for a wide array of firm characteristics,
+chain practices that mitigate demand uncertainty including firm size, age, growth, sales volatility, num-
+(OM view). ber of reported business segments, leverage, margins,
+In this study, we investigate the link between cus- and capital intensity, as well as industry and year
+
+tomer-base concentration (CC) and inventory efficien- fixed effects. Following the accounting cost flows, we
+cies for a panel of manufacturers in the United States. disaggregate total inventories into raw materials,
+We focus on manufacturers because inventories work-in-process, and finished goods. Our granular
+account for a significant fraction of such firms’ asset investigation of individual inventory accounts draws
+base. Given that inventory is costly to hold and is sub- a nuanced picture of the link between CC and inven-
+ject to obsolescence risk, one of the main objectives of tory efficiencies. Specifically, we find that inventory
+inventory management is mitigating demand uncer- efficiencies primarily flow through the finished goods
+
+inventory account, while raw material efficiencies are
+Data Availability: Data are available from the sources offset by higher work-in-process holdings and longer
+identified in the text. work-in-process cycles.
+
+258
+
+
+
+Ak and Patatoukas: Customer-Base Concentration and Inventory
+Production and Operations Management 25(2), pp. 258–272, © 2015 Production and Operations Management Society 259
+
+To examine the link between CC and inventory After establishing a significantly positive link
+investment efficiencies, we hand-collect information between CC and inventory efficiencies, we test
+about the occurrence and magnitude of inventory whether there is a valuation premium for more con-
+write-downs. Under U.S. GAAP firms are required to centrated manufacturers. If CC translates into value-
+write down inventories, that is, reduce the balance relevant efficiencies, then Tobin’s Q, that is, the ratio
+sheet carrying value, when market value falls below of the market value of invested capital scaled by the
+reported cost. Inventory write-downs are dictated by book value of total assets, should be higher for more
+the lower of cost or market basis for inventory valua- concentrated manufacturers. Consistent with this
+tion, while inventory write-ups are generally not prediction, we document a valuation premium for
+allowed. Inventory write-downs represent a common more concentrated manufacturers after controlling
+way in which prior accrual estimation errors are for other firm characteristics, including default risk
+reversed (e.g., Allen et al. 2013), and can offer insights and cost of capital estimates. We acknowledge that
+into a firm’s propensity to end up with excess inven- our evidence of a valuation premium may only be
+tory without reference to a model for the optimal level partially attributed to that between CC and inven-
+of inventory investment. tory efficiencies. Nevertheless, the evidence suggests
+Although inventory write-down information is not that investors trade off the costs and benefits of rela-
+
+readily available from the usual academic data tionships with a limited number of major customers
+sources, we are able to extract such information and, on balance, consider CC as a net positive for
+directly from 10-K filings using a text mining algo- firm valuation.
+rithm. Our algorithm searches the 10-K filings avail- We contribute to accounting and OM research in
+able post-1995 through the SEC EDGAR database for several ways. First, we focus on the manufacturing
+variations in keyword strings and extracts all sector and provide direct evidence on the link
+matches. We manually review all matches and read between CC and inventory efficiencies. Second, using
+the corresponding 10-K filings to confirm whether or disaggregated inventory disclosures, we shed light on
+not an inventory write-down was recorded and, if so, how inventory efficiencies accrue to more concen-
+its dollar amount. Our hand-collected sample of trated manufacturers. Third, using our hand-collected
+reported inventory write-downs yields evidence con- sample of inventory write-downs as well as Compus-
+sistent with a positive link between CC and inventory tat information about reported special items, we
+investment efficiencies. uncover a link between CC and inventory investment
+Using logistic regressions, we find that more con- efficiencies. Fourth, our evidence of a valuation pre-
+
+centrated manufacturers are significantly less likely to mium for more concentrated manufacturers implies
+report an inventory write-down. Turning to the mag- that investors consider relationships with a limited
+nitude of reported write-downs, we use Tobit regres- number of major customers as a net positive for firm
+sions (due to left censoring of write-downs at zero) valuation. More generally, our study provides new
+and find that conditioning on the occurrence of an insights on the costs and benefits of major customer
+inventory write-down its absolute magnitude relationships for supplier firms—a topic that is of
+decreases with CC. Overall, our evidence suggests growing significance among academics and practi-
+that more concentrated manufacturers are associated tioners alike (e.g., Banerjee et al. 2008, Cachon and
+with a lower likelihood and magnitude of inventory Olivares 2010, Campello and Gao 2014, Cen et al.
+write-downs, which is consistent with the OM view 2015, Dhaliwal et al. 2015, Irvine et al. 2014, Kale and
+that such firms are less likely to end up with excess Shahrur 2007, Krishnan et al. 2015, Osadchiy et al.
+inventories. 2015, Patatoukas 2012).
+To gain insights for our full sample period (includ- The study proceeds as follows. Section 2 provides
+
+ing the years prior to the introduction of the SEC the background and motivates our research questions.
+EDGAR database), we search for a link between CC Section 3 describes the research design. Section 4 pre-
+and inventory reversals, which we define as a sents the results. Section 5 concludes and provides
+decline in total inventories in excess of 1% of the directions for future research.
+beginning of year total assets accompanied by com-
+mensurate negative Compustat special items. After 2. Background and Research Questions
+we confirm that inventory reversals and inventory
+write-downs share a common component, we pro- What is the link between CC and inventory efficien-
+vide evidence that relationships with a limited num- cies? In what follows, we discuss the bargaining power
+ber of major customers mitigate accrual estimation view, which predicts a negative association between
+errors: more concentrated manufacturers are associ- CC and inventory efficiencies, and the OM view,
+ated with a lower likelihood and magnitude of which predicts a positive association between CC and
+inventory reversals. inventory efficiencies. We conclude that the direction
+
+ 19375956, 2016, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/poms.12417 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Ak and Patatoukas: Customer-Base Concentration and Inventory
+260 Production and Operations Management 25(2), pp. 258–272, © 2015 Production and Operations Management Society
+
+of the link between inventory efficiencies and CC is ex mitigate supply-chain distortions such as the bull-
+ante unclear. whip effect, that is, the phenomenon where orders to
+
+the upstream supplier tend to have higher variance
+2.1. The Bargaining Power View than sales to the downstream customer (e.g., Lee et al.
+The bargaining power view emphasizes the negatives 1997). In turn, enhanced demand forecasting leads to
+of dealing with a limited number of major customers a reduction of inventory investment because the opti-
+(e.g., Galbraith 1952, Lustgarten 1975, Porter 1974, mal buffer size of the safety stock is an increasing
+Scherer 1970). The conventional argument goes as fol- function of demand uncertainty (e.g., Porteus 2002,
+lows. Major customers have the bargaining power Zipkin 2000).
+and pressure their dependent suppliers to maintain a Another supply-chain practice is known as vendor-
+high level of product availability, which is typically managed inventory (VMI). Under a VMI agreement,
+measured in terms of fill rates, that is, the fraction of the manufacturer makes the main inventory replen-
+customer demands that can be filled from inventory ishment decisions for its customer. This means that
+immediately, and in-stock probability, that is, the the customer relinquishes control of key resupply
+probability that all customer demands are satisfied decisions, while the manufacturer monitors the cus-
+over a time interval. In turn, higher fill rates and in- tomer’s inventory levels and makes periodic replen-
+stock probability translate into higher inventory hold- ishment decisions regarding order quantities,
+ings and longer inventory holding periods (e.g., shipping, and timing (e.g., Kulp 2002). Suppliers are
+Cachon and Terwiesch 2008). According to the attracted to VMI because coordination and informa-
+bargaining power view, major customers may also tion sharing mitigates demand uncertainty and helps
+use their power to pressure their dependent suppliers dampen the peaks and valleys of production, thereby
+to agree to carry on their books finished goods that allowing smaller buffers of capacity and inventory.
+would normally belong to the customers. An example Trust between the supply-chain partners is critical for
+of such agreement is consignment inventory, under the successful implementation of VMI agreements.
+which the manufacturer retains ownership of prod- Therefore, such agreements are more likely to be
+ucts located at customer sites until the customer implemented successfully when the supplier is serv-
+consumes or resells the products (e.g., Kelly and ing only a limited number of major customers (e.g.,
+Gosman 2000). Kulp et al. 2004, Vollmann and Cordon 1998, Waller
+Overall, the bargaining power view predicts a neg- et al. 1999).
+
+ative association between CC and inventory efficien- Relationships with a limited number of major cus-
+cies. Based on this view, more concentrated tomers may also enable the successful adoption of
+manufacturers are predicted to hold more inventories just-in-time (JIT) manufacturing. JIT is characterized
+and to experience longer inventory holding periods. as a pull approach to manufacturing, as opposed to
+Relatedly, more concentrated manufacturers are pre- the traditional push approach (e.g., Selto et al. 1995).
+dicted to be more likely to end up with excess inven- Under JIT, manufacturers produce in smaller
+tory on their books with increased obsolescence risk, batches only in response to a customer order so that
+which should translate into more frequent and larger inventories are minimized. This is in contrast to the
+inventory write-downs. traditional push approach to manufacturing where
+
+inventories build up if parts are not used and prod-
+2.2. The OM View ucts are not sold as quickly as they can be pro-
+Although the bargaining power view emphasizes the duced. Indeed, prior studies provide evidence that
+negatives of CC, research in OM suggests that rela- JIT manufacturing reduces inventory levels and
+tionships with a limited number of major customers increases inventory turns (e.g., Fullerton et al. 2003,
+enable the implementation of supply-chain practices Huson and Nanda 1995). Balakrishnan et al. (1996)
+that mitigate demand uncertainty thereby leading to propose that major customers often urge for the
+inventory efficiencies. One such practice is collabora- adoption of JIT manufacturing in a concerted effort
+tive planning, forecasting, and replenishment (CPFR), to help their dependent suppliers reduce inventory
+which is a set of technology-enabled standards that levels. Relatedly, Kinney and Wempe (2002) argue
+provides a roadmap for enabling collaborative that although JIT manufacturing requires substantial
+demand and supply planning and execution pro- downstream coordination costs, such costs are
+cesses (e.g., Aviv 2001). A key component of CPFR is decreasing in the number of major customers. There-
+information sharing, under which the manufacturer fore, more concentrated manufacturers enjoy lower
+sets up a common information system with its major coordination costs in ordering, production, schedul-
+customers to exchange demand forecast updates (e.g., ing, and delivery.
+Ren et al. 2010, Terwiesch et al. 2005). Such infras- Overall, the OM view predicts a positive link
+tructure is set up to reduce demand uncertainty and between CC and inventory efficiencies. In particular,
+
+ 19375956, 2016, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/poms.12417 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Ak and Patatoukas: Customer-Base Concentration and Inventory
+Production and Operations Management 25(2), pp. 258–272, © 2015 Production and Operations Management Society 261
+
+more concentrated manufacturers are predicted to standing. We measure inventory holdings as the
+hold fewer inventories and to experience shorter ratio of total inventories scaled by total assets
+inventory holding periods. The OM view also pre- (TOTHLD). We measure average inventory days out-
+dicts that more concentrated manufacturers are less standing as the ratio of total inventories scaled by
+likely to end up with excess inventories on their cost of goods sold multiplied by 365 (TOTDAYS).
+books, therefore the likelihood and magnitude of We search for a link between inventory efficiencies
+inventory write-downs are predicted to decrease with and CC using OLS regression models of the follow-
+CC. ing form:
+
+XK
+2.3. Null Hypothesis InventoryEfficienciesit¼aþb1CCitþ bkX
+
+k
+itþeit: ð2Þ
+
+On balance, we conclude that the link between CC k¼2
+
+and inventory efficiencies is ex ante unclear. On one
+hand, increased major customer dependency may be Throughout the study, we estimate models using
+a reflection of an adversarial supply-chain relation- pooled cross-sectional regressions. As explained in
+ship in which the manufacturer is pressured to carry Section 2, our null hypothesis is no association
+extra inventories with increased obsolescence risk. On between CC and inventory efficiencies. Therefore, we
+the other hand, relationships with a limited number use two-tailed tests when testing for statistical signifi-
+of major customers may enable manufacturers to cance. It is well known that OLS standard errors are
+achieve inventory efficiencies through the implemen- biased when the residuals of a given firm are corre-
+tation of supply-chain practices that mitigate demand lated across years or the residuals of a given year are
+uncertainty. Therefore, we state our hypothesis in null correlated across firms. To address time-series and
+form: there is no association between CC and inventory cross-sectional residual dependence, we base statisti-
+efficiencies. cal inferences on two-way cluster-robust standard
+
+errors (e.g., Petersen 2009).1
+
+3. Research Design The vector of control variables Xk includes log mar-
+ket capitalization (MV), log firm age (AGE), sales
+
+The starting point in our search for a link between growth (SG), sales growth volatility (SGV), and an
+customer-base structure and inventory efficiencies in indicator variable for manufacturers with at least two
+the manufacturing sector is Patatoukas’ (2012) mea- business segments (CONGLO). These variables are
+sure of CC: included because more concentrated firms tend to be
+
+XJ   smaller, with higher sales growth, and are less likely
+
+CCit ¼
+Sales 2 to operate in multiple business segments (Patatoukas
+
+ijt
+; ð1Þ 2012). We include total leverage (LEV) to control for
+
+Sa es
+j¼ l
+
+1 it variation in capital structure. We include gross mar-
+gins (GM) to control for the “earns-vs.-turns” trade-
+
+where Salesijt represents firm i’s sales to major cus- off, that is, the managerial practice of trading off
+tomer j in year t and Salesit represents firm i’s total inventory turns with gross margins (e.g., Gaur et al.
+sales in year t. The CC measure captures two ele- 2005). To control for the impact of accumulated
+ments of diversification, namely the number of losses, we include an indicator variable for manufac-
+major customers with which the firm interacts, and turers with either negative book value of equity or
+the relative importance of each major customer in book value of equity in excess of market value of
+the firm’s annual revenue. The range of CC is equity (ACCLOSS). We include the ratio of net PP&E
+between 0 and 1, where lower (higher) values corre- to total assets (CAP) to control for variation in capital
+spond to less (more) concentrated customer bases. intensity, which is known to be positively related
+Major customer disclosures are mandated by State- with inventory turnover (e.g., Gaur and Kesavan
+ment of Financial Accounting Standards No. 131 of 2009). The vector of control variables also includes
+the Financial Accounting Standards Board and industry and year fixed effects. Industry fixed effects
+Regulation S-K of the Securities and Exchange are based on two-digit SIC codes and are included
+Commission. because industry membership is a source of variation
+
+in firm performance and inventory practices (e.g.,
+3.1. Customer-Base Concentration and Inventory Blazenko and Vandezande 2003, Radhakrishnan
+Efficiencies et al. 2014). Year fixed effects are based on the calen-
+To examine the link between CC and inventory effi- dar year of fiscal year-ends and are included to con-
+ciencies, we start with inventory variables commonly trol for aggregate time-varying factors affecting
+used in financial statement analysis, including inven- inventory efficiencies (e.g., Rumyantsev and Netessine
+tory holding ratios and average inventory days out- 2007).
+
+ 19375956, 2016, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/poms.12417 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Ak and Patatoukas: Customer-Base Concentration and Inventory
+262 Production and Operations Management 25(2), pp. 258–272, © 2015 Production and Operations Management Society
+
+3.1.1. Disaggregated Inventory Accounts. Manu- ries. Our results are not sensitive when we allocate
+facturers record three accounts of inventories: raw the LIFO reserve entirely to raw materials or finished
+materials, work-in-progress, and finished goods. The goods.
+raw materials account absorbs the cost of parts and
+materials purchased from vendors for use in the pro- 3.2. Customer-Base Concentration and Inventory
+duction process. When raw materials are used in the Write-Downs
+production process, the cost of the materials used is U.S. GAAP requires firms to value inventories at the
+transferred into work-in-process inventory. The lower of cost or market (Accounting Standards Codifica-
+work-in-process account absorbs the cost of the inven- tion 330 Inventory). Market value is defined as current
+tory of partially completed goods. Work-in-process replacement cost, but not greater than net realizable
+includes the materials used in the production as well value (estimated as selling price less reasonable costs
+as labor cost and overhead cost. When the production of completion and disposal) and not less than net real-
+process is completed, the cost of goods is transferred izable value reduced by a normal profit margin.
+from work-in-process to the finished goods account. Under the lower of cost or market basis for inventory
+In turn, the finished goods account absorbs the cost of valuation, inventory write-downs are required when
+the stock of completed goods ready for delivery to market value falls below reported cost, while inven-
+customers. When finished goods are sold, cost of tory write-ups are generally not allowed when market
+goods sold is debited and finished goods inventory is value rises above reported cost. Under U.S. GAAP,
+credited. Following the accounting cost flows, we dis- any write-down of inventory to the lower of cost or
+aggregate total inventories and investigate the link market creates a new cost basis that subsequently can-
+between CC and inventory efficiencies across all three not be reversed. Inventory write-downs under U.S.
+inventory accounts. The total inventories are reported GAAP represent a common way in which prior inven-
+on the balance sheet, while the disaggregated inven- tory accrual estimation errors are reversed (e.g., Allen
+tory account balances are typically disclosed in the et al. 2013) and can offer insights into a firm’s propen-
+notes to the financial statements. Given that the sup- sity to end up with excess inventory without reference
+plier–customer relationship is centered on the transfer to a model for the optimal level of inventory invest-
+of ownership of finished goods, the OM view predicts ment.2
+
+that inventory efficiencies are likely to flow mostly According to the Compustat North America User’s
+through this inventory account. Guide, inventory write-downs are reclassified by
+
+Compustat in special items (mnemonic SPI) when
+3.1.2. LIFO Reserves and Financial Ratio reported separately or called nonrecurring. Compus-
+
+Comparability. A common chore in financial state- tat special items, however, are a “black box” pooling
+ment analysis is converting the results of a firm that inventory write-downs with as many as 23 cate-
+uses “last-in, first-out” (LIFO) for inventory costing so gories of unusual or nonrecurring items (e.g., Frankel
+that they can be compared with a firm that uses “first- 2009). To circumvent the limitations of Compustat
+in, first-out” (FIFO). Achieving comparability in special items, we develop a text mining algorithm to
+inventory ratios across firms is possible because firms extract inventory write-down information directly
+that use LIFO are required to disclose what their total from 10-K filings, which are widely available post-
+inventories would have been had they used FIFO. 1995 on the SEC EDGAR database (e.g., Griffin
+The excess of FIFO value over LIFO is known as the 2003).
+LIFO reserve. We use LIFO reserve information from Our text-mining algorithm searches the 10-K filings
+Compustat and make the following adjustments to for the strings “writ” and “wrot,” which capture vari-
+the reported numbers: ations in the word write, within 15 words of the string
+
+“inventor,” which captures variation in the word
+Total InventoriesFIFOit ¼ Total InventoriesLIFOit inventory. We manually review the matches and read
+þ LIFO RESERVEit;Total Assets
+
+FIFO
+it ¼ Total AssetsLIFO all corresponding 10-K filings to confirm whether or
+
+it
+
+þ not an inventory write-down was recorded and, if so,
+LIFO RESERVEit;COGSFIFOit ¼ COGSLIFOit its dollar amount. As an additional sanity check, we
+
+ ðLIFO RESERVEit  LIFO RESERVEit1Þ: identify observations associated with a decline in total
+ð3Þ inventories in excess of 1% of the beginning of year
+
+total assets and if the text mining algorithm yields no
+We note that LIFO reserve disclosures are avail- match, then we manually review the corresponding
+
+able only for total inventories. To adjust individual 10-K filings.
+inventory accounts, we allocate the LIFO reserve We examine the association between CC and the
+based on the relative contribution of raw materials, occurrence of inventory write-downs using the
+work-in-process, and finished goods to total invento- following logistic regression model:
+
+ 19375956, 2016, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/poms.12417 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Ak and Patatoukas: Customer-Base Concentration and Inventory
+Production and Operations Management 25(2), pp. 258–272, © 2015 Production and Operations Management Society 263
+
+XK According to standard valuation models (e.g., Pen-
+DWDit ¼ aþ b1CCit þ bkX
+
+k
+it þ eit; ð4Þ man 2011), the Tobin’s Q is (i) increasing in expected
+
+k¼2 growth and profitability and (ii) decreasing in dis-
+count rates. Specifically, a higher Tobin’s Q implies
+
+where DWDit is an indicator variable that equals
+that investors assign a higher valuation premium
+
+one if a firm reports an inventory write-down. The
+because they are expecting higher growth, and/or
+
+coefficient of interest is the slope on CC. A negative
+higher profitability, and/or lower discount rates. If
+
+(positive) b1 coefficient would suggest that more
+having a limited number of major customers is a net
+
+concentrated manufacturers are less (more) likely to
+positive (negative) for the valuation of manufacturers,
+
+end up with excess inventory, as indicated by the
+then the slope on CC should be positive (negative).3
+
+lower (higher) likelihood of an inventory write-
+down. The vector of control variables is the same as
+
+3.4. Sample
+the one defined in equation (2).
+
+Our study focuses on U.S. manufacturers with SIC
+We also search for an association between CC and
+
+codes between 2000 and 3999. For a firm-year to be
+the absolute magnitude of inventory write-downs
+
+included in our sample it must have nonmissing data
+(WD). Due to the left censoring ofWD at zero, we esti-
+
+about CC, inventory holding components, inventory
+mate the following Tobit regression model:
+
+holding periods, inventory reversals, and the vector
+
+XK of control variables. To reduce the impact of extreme
+WD observations, we trim variables at the top and bottom
+
+it ¼ aþ b1CCit þ bkX
+k
+it þ eit: ð5Þ
+
+k¼2 one percentile based on annual cross-sectional cutoffs.
+Our sample includes 15,084 firm-year observations
+
+To shed light on the association between inventory
+from 1977 to 2006, spanning 20 industries in the man-
+
+investment efficiencies and CC for our full sample
+ufacturing sector. The sample covers the 30-year per-
+
+period including the period prior to the introduction
+iod studied by Patatoukas (2012) and starts in 1977
+
+of the SEC EDGAR database, we use Compustat spe-
+because this is the first year of Compustat coverage of
+
+cial items to construct a proxy for inventory write-
+major customer disclosures. Post-1995, the sample
+
+downs and repeat the regressions in equations (4)
+includes 7893 firm-year observations.
+
+and (5). Specifically, we construct an indicator vari-
+able, denoted DREVERSAL, that equals one if a firm
+experienced an inventory reversal. We define an 4. Empirical Results
+inventory reversal as a decline in total inventories in
+
+4.1. Descriptive Analysis
+excess of 1% of the beginning of period total assets
+
+Table 1, Panel A, reports descriptive statistics. We
+accompanied by commensurate negative Compustat
+
+find evidence of significant variation in the level of
+special items. The key advantage of DREVERSAL is
+
+CC. The average value of CC is 0.113 with a standard
+that it can be measured for our full sample period,
+
+deviation of 0.168. Figure 1a shows that CC rises from
+while DWD can be measured only post-1995, that is,
+
+an average value of 0.06 in 1977 to 0.13 in 2006. Evi-
+after the introduction of the SEC EDGAR database.
+
+dence of increasing CC overlaps with increasing
+Focusing on the post-1995 period, we find that inven-
+
+inventory efficiencies over the sample period. Prior to
+tory reversals and inventory write-downs share a
+
+turning to inventory efficiency variables, we note that
+common component with a correlation coefficient
+
+the majority of manufacturers do not report LIFO
+of 71%.
+
+reserves. Indeed, the mean value of the indicator vari-
+able LIFO shows that such reserves are reported for
+
+3.3. Customer-Base Concentration and Firm
+14.5% of our sample. Figure 1b provides evidence
+
+Valuation
+that LIFO usage commoves over time with the GDP
+
+If relationships with a limited number of major cus-
+price deflator, which is consistent with the fact that
+
+tomers translate into value-relevant efficiencies, then
+firms have more incentives to adopt the LIFO method
+
+more concentrated manufacturers should trade at a
+for inventories when inflation is high (e.g., Biddle and
+
+higher valuation premium. To shed light on the valu-
+Ricks 1988). The frequency of reported LIFO reserves
+
+ation link, we search for an association between the
+peaked in 1981 at 30% and has dropped to 9% by
+
+Tobin’s Q ratio, that is, the ratio of the market value of
+2006. We observe that inflation also peaked in 1981 at
+
+invested capital scaled by the book value of total
+9.3% and has hovered around 2.5% since the mid-
+
+assets, and CC. Specifically, we estimate the following
+1980s.
+
+OLS regression model:
+The descriptive statistics for inventory holdings
+
+XK highlight the importance of inventory management in
+Tobin0s Qit ¼ aþ CCit þ bkX
+
+k
+it þ eit: ð6Þ the manufacturing sector. The average manufacturer
+
+k¼2 ties up as much as 21.5% of its asset base in inventories.
+
+ 19375956, 2016, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/poms.12417 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Ak and Patatoukas: Customer-Base Concentration and Inventory
+264 Production and Operations Management 25(2), pp. 258–272, © 2015 Production and Operations Management Society
+
+Table 1 Descriptive Statistics
+
+Percentiles
+
+Mean SD 5th 25th 50th 75th 95th
+
+Panel A: Empirical distributions
+CCit 0.113 0.168 0.003 0.018 0.047 0.130 0.470
+LIFOit 0.145 0.352 0.000 0.000 0.000 0.000 1.000
+TOTHLDit 0.215 0.141 0.008 0.107 0.196 0.307 0.469
+FINHLDit 0.077 0.086 0.000 0.017 0.049 0.104 0.261
+WIPHLDit 0.055 0.066 0.000 0.009 0.034 0.077 0.188
+RAWHLDit 0.083 0.072 0.000 0.029 0.066 0.117 0.226
+TOTDAYSit 113.4 80.8 8.1 61.6 98.1 148.2 260.7
+FINDAYSit 38.6 40.5 0.0 10.1 27.4 54.9 114.1
+WIPDAYSit 31.1 41.7 0.0 5.0 17.7 41.0 106.8
+RAWDAYSit 43.7 41.8 0.0 16.6 33.1 59.5 119.2
+DREVERSALit 0.089 0.285 0.000 0.000 0.000 0.000 1.000
+DWDit 0.058 0.234 0.000 0.000 0.000 0.000 1.000
+TOBINit 1.800 1.999 0.491 0.793 1.186 2.020 5.090
+
+Variable (1) (2) (3) (4) (5) (6)
+
+Panel B: Pairwise correlations
+(1) CCit 1.000 0.190*** 0.137*** 0.027*** 0.045*** 0.187***
+(2) TOTHLDit 1.000 0.471*** 0.001 0.049*** 0.240***
+(3) TOTDAYSit 1.000 0.040*** 0.021* 0.005
+(4) DREVERSALit 1.000 0.713*** 0.062***
+(5) DWDit 1.000 0.082***
+(6) TOBINit 1.000
+
+CCit quintile portfolio
+
+Q1 (Low) Q5 (High) Spread Q5  Q1
+
+Panel C: Univariate comparisons
+TOTHLDit Mean 0.216 0.180 0.036***
+
+Median 0.195 0.154 0.042***
+TOTDAYSit Mean 118.9 95.8 23.1***
+
+Median 103.0 79.9 23.1***
+DREVERSALit Mean 0.094 0.072 0.022***
+
+Median 0.000 0.000 0.000
+DWDit Mean 0.066 0.032 0.033***
+
+Median 0.000 0.000 0.000
+TOBINit Mean 1.640 2.312 0.672***
+
+Median 1.123 1.469 0.346***
+
+This Table reports descriptive statistics for key variables. The variables are defined in Appendix A. Panel A reports the empirical distributions. Panel B
+reports pairwise correlations. Panel C reports the mean and median values of key variables for the top (Q5) and bottom (Q1) quintile portfolio based on
+customer-base concentration CCit along with the spread in the mean and median values. ***, **, and * indicate statistical significance at 1, 5, and 10
+levels, respectively, using two-tailed tests. The sample includes 15,084 firm-year observations from 1977 to 2006. Post-1995, the sample includes 7893
+firm-year observations.
+
+The disaggregated disclosures reveal that total inven- evident for raw materials, work-in-process, and fin-
+tories are not evenly distributed across the individual ished goods. Focusing on inventory holding periods,
+inventory accounts. In particular, finished goods, the average manufacturer holds finished goods for
+work-in-process, and raw materials, on average, 39 days, work-in-process for 31 days, and raw mate-
+account for 35.8%, 25.6%, and 38.6% of total invento- rials for 44 days, while the total inventory cycle lasts
+ries, respectively. In turn, finished goods, work-in- for approximately 114 days. The mean value of the
+process, and raw materials, on average, account for indicator variable DREVERSAL shows that 8.9% of
+7.7%, 5.5%, and 8.3% of total assets, respectively. the full sample is associated with inventory reversals.
+Figure 1c and d present the time series of inventory In turn, the mean value of the indicator variable DWD
+
+holdings. We find a decreasing trend in total inven- shows that 5.8% of the post-1995 subsample is associ-
+tory holdings, which suggests increasing inventory ated with inventory write-downs.
+efficiencies for the average manufacturer. Specifically, Table 1, Panel B, reports pairwise correlations and
+the average value of TOTHLD decreases from 33% in yields preliminary evidence that CC is negatively
+1977 to 15% in 2006. This decreasing trend is also related to total inventory holdings and inventory
+
+ 19375956, 2016, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/poms.12417 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Ak and Patatoukas: Customer-Base Concentration and Inventory
+Production and Operations Management 25(2), pp. 258–272, © 2015 Production and Operations Management Society 265
+
+Figure 1 Time Series of Customer-Base Concentration and Inventory Variables (a) Customer-Base Concentration (b) Reported LIFO Reserve
+Frequency (Left Axis) and GDP Price Deflator (Right Axis) (c) Total Inventory Holdings (d) Total Inventory Holding Components
+
+Panel (a): Customer-base concentration.
+0.16 CC
+
+0.14
+
+0.12
+
+0.10
+
+0.08
+
+0.06
+
+0.04
+
+0.02
+
+0.00
+
+Panel (b): Reported LIFO reserve frequency (left axis) and GDP price deflator (right axis).
+0.35 LIFO GDP Price Deflator 0.10
+
+0.09
+0.30
+
+0.08
+0.25 0.07
+
+0.20 0.06
+
+0.05
+0.15 0.04
+
+0.10 0.03
+
+0.02
+0.05
+
+0.01
+
+0.00 0.00
+
+Panel (c): Total inventory holdings.
+0.40 TOTHLD
+
+0.35
+
+0.30
+
+0.25
+
+0.20
+
+0.15
+
+0.10
+
+0.05
+
+0.00
+
+Panel (d): Total inventory holding components.
+0.14 RAWHLD WIPHLD FINHLD
+
+0.12
+
+0.10
+
+0.08
+
+0.06
+
+0.04
+
+0.02
+
+0.00
+
+Notes: (a, b, c, and d) This Figure present the time series of annual cross-sectional averages for customer-base concentration (CC), reported LIFO reserve
+frequency (LIFO), total inventory holdings (TOTHLD), and inventory holding component, including raw materials holdings (RAWHLD), work-in-process
+holdings (WIPHLD), and finished goods holdings (FINHLD). The sample includes 15,084 firm-year observations from 1977 to 2006.
+
+1977 1977 1977 1977
+1978 1978 1978 1978
+1979 1979 1979 1979
+1980 1980 1980 1980
+1981 1981 1981 1981
+1982 1982 1982 1982
+1983 1983 1983 1983
+1984 1984 19841985 1984
+1985 1985 1986 1985
+1986 1986 1987 1986
+1987 1987 1988 1987
+1988 1988 1989 1988
+1989 1989 1990 1989
+1990 1990 1991 1990
+1991 1991 1992 1991
+1992 1992 1993 1992
+1993 1993 1994 1993
+1994 1994 1995 1994
+1995 1995 1996 1995
+1996 1996 1997 1996
+1997 1997 1998 1997
+1998 1998 19992000 1998
+1999 1999 2001 1999
+2000 2000 2002 2000
+2001 2001 2003 2001
+2002 2002 2004 2002
+2003 2003 2005 2003
+2004 2004 2006 2004
+2005 2005 2005
+2006 2006 2006
+
+ 19375956, 2016, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/poms.12417 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Ak and Patatoukas: Customer-Base Concentration and Inventory
+266 Production and Operations Management 25(2), pp. 258–272, © 2015 Production and Operations Management Society
+
+holding periods as well as to inventory write-downs Table 2 Inventory Holding Components and Customer-Base Concentration
+
+and reversals. Table 1, Panel C, compares the mean and
+Regressions of inventory holdings
+
+median values of inventory variables for the top
+and bottom quintiles of CC. Consistent with the pair- (1) (2) (3) (4)
+
+wise correlations, total inventory holdings and inven- Total Finished Work-in- Raw
+
+tory holding periods, as well as the likelihood of inventories goods process materials
+
+inventory write-downs and reversals, are on average Intercept 0.226*** 0.132*** 0.020** 0.114***
+(11.37) (8.67) (2.17) (12.93)
+
+lower for more concentrated manufacturers.
+CCit 0.090*** 0.075*** 0.021** 0.036***
+
+(6.77) (9.80) (2.05) (5.72)
+4.2. Customer-Base Concentration and Inventory MVit 0.021*** 0.005*** 0.003*** 0.013***
+Efficiencies (17.06) (5.85) (4.96) (18.85)
+
+Table 2 reports results from regressions of inventory AGEit 0.032*** 0.011*** 0.015*** 0.007***
+(9.52) (4.34) (7.06) (3.89)
+
+holdings on CC based on equation (2). We find a neg-
+SGit 0.007*** 0.004*** 0.002 0.002
+
+ative association between total inventory holdings (3.41) (3.87) (1.64) (1.42)
+and CC after controlling for a wide array of firm char- SGVit 0.016* 0.010** 0.002 0.004
+acteristics, including firm size, age, growth, sales (1.86) (2.12) (0.63) (0.99)
+
+volatility, number of reported business segments, CONGLOit 0.005 0.004 0.002 0.003
+(1.14) (1.31) (0.87) (1.36)
+
+total leverage, gross margins, and capital intensity, as
+LEVit 0.001 0.000** 0.000 0.000
+
+well as industry and year fixed effects. In terms of (1.19) (2.02) (0.34) (0.19)
+economic magnitude, all else equal, a one-standard GMit 0.008*** 0.003*** 0.001** 0.003***
+deviation (SD) increase in CC is associated with a (6.05) (5.39) (2.53) (4.80)
+
+7.03% decrease in total inventory holdings (significant ACCLOSSit 0.005 0.010** 0.003 0.002
+(1.17) (2.36) (0.94) (0.82)
+
+at the 1% level). We next probe the link between CC
+CAPit 0.116*** 0.066*** 0.004 0.046***
+
+and inventory holding components, including raw (5.27) (6.43) (0.46) (4.79)
+materials, work-in-process, and finished goods. Industry fixed Yes Yes Yes Yes
+Looking across columns 2 through 4, the coefficient effects
+
+estimates on CC are 0.075, 0.021, and 0.036, for fin- Year fixed effects Yes Yes Yes Yes
+Adjust R2 (%) 37 27 22 24
+
+ished goods, work-in-process, and raw materials,
+respectively, and together add up to 0.090, which by This Table reports results from pooled cross-sectional OLS regressions of
+virtue of OLS regression properties is equal to the inventory holdings, including raw materials (RAWHLDit), work-in-process
+
+coefficient on CC for total inventory holdings. In (WIPHLDit), finished goods (FINHLDit), as well as total inventory holdings
+
+terms of the impact on total inventory holdings, all (TOTHLDit) on customer-base concentration (CCit) and a vector of control
+variables, including log market value of equity (MVit), log firm age
+
+else equal, a 1 SD increase in CC is associated with a (AGEit), sales growth (SGit), sales growth volatility (SGVit), an indicator
+5.86% decrease due to finished goods, a 1.64% variable for multi-segment firms (CONGLOit), leverage (LEVit), gross
+increase due to work-in-process, and a 2.81% decrease margins (GMit), accumulated losses (ACCLOSSit), capital intensity (CAPit),
+
+due to raw material holdings. We conclude that effi- industry fixed effects based on two-digit SIC codes, and year fixed
+
+ciencies in terms of lower total inventory holdings for effects. Statistical significance is based on t-statistics (in parentheses)
+using standard errors clustered by firm and year. ***, **, and * indicate
+
+more concentrated manufacturers primarily flow statistical significance at 1, 5, and 10% levels, respectively, using two-
+through the finished goods account, while lower raw tailed tests. The sample includes 15,084 firm-year observations from
+material inventories are offset by higher work-in-pro- 1977 to 2006.
+
+cess holdings.
+Table 3 reports results from regressions of inven-
+
+tory holding periods on CC based on equation (2).
+The regression results for inventory holding periods work-in-process cycles. In terms of the impact on total
+mirror those for inventory holdings. First, we find a inventory holding period, all else equal, a 1 SD
+negative association between total inventory holding increase in CC is associated with a 5.69% decrease
+period and CC. In terms of economic magnitude, all due to finished goods, a 2.08% increase due to work-
+else equal, a 1 SD increase in CC is associated with a in-process, and a 2.65% decrease due to raw material
+6.26% decrease in total inventory holding period (sig- holding days.
+nificant at the 1% level). Second, a comparison of the The coefficient estimates on the control variables
+coefficient estimates for the disaggregated inventory are in line with prior research on the determinants of
+accounts reveals that evidence of shorter inventory inventory turns. Inventory holding periods increases
+holding cycles for more concentrated manufacturers in gross margins and decrease in sales growth and
+is mostly driven by the negative association between capital intensity, which is consistent with prior evi-
+CC and finished goods holding days, while shorter dence from the retail sector (e.g., Gaur and Kesavan
+raw material holding periods are offset by longer 2009, Gaur et al. 2005). We also find that inventory
+
+ 19375956, 2016, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/poms.12417 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Ak and Patatoukas: Customer-Base Concentration and Inventory
+Production and Operations Management 25(2), pp. 258–272, © 2015 Production and Operations Management Society 267
+
+Table 3 Inventory Holding Periods and Customer-Base Concentration of recent research on finished goods when exploring
+variation in inventory efficiencies (e.g., Cachon and
+
+Regressions of inventory holding perio
+Olivares 2010), while raw material efficiencies are off-
+
+(1) (2) (3) (4) set by higher work-in-process holdings and longer
+Work- work-in-process cycles. In general, the work-in-pro-
+
+Total Finished in- Raw cess inventory is determined by queuing, processing,
+inventories goods process materials
+
+waiting for batch, moving, and waiting to match (e.g.,
+Intercept 102.690*** 62.278*** 14.983*** 55.395***
+
+Hopp and Spearman 2011). With these determinants
+(11.69) (10.99) (2.90) (12.18)
+
+CCit 42.262*** 38.434*** 14.032* 17.860*** in mind, a potential explanation for longer work-in-
+(4.65) (11.03) (1.93) (5.69) process cycles is that processing time increases when
+
+MVit 0.384 0.789** 1.438*** 2.611*** servicing a limited number of major customers due to
+(0.46) (2.03) (2.63) (7.55) higher product customization to meet customers’
+
+AGEit 2.167 0.382 3.542*** 1.757*
+demands. Without access to proprietary plant-level
+
+(1.18) (0.37) (2.92) (1.73)
+SGit 6.139*** 1.390 2.835*** 1.914** data, however, it is impossible to directly test the
+
+(3.55) (1.25) (4.48) (2.10) empirical link of CC with processing time and other
+SGVit 3.144 1.898 1.386 0.141 work-in-process determinants.
+
+(0.44) (0.77) (0.56) (0.04)
+CONGLOit 12.028*** 5.180*** 2.415 4.433***
+
+4.3. Customer-Base Concentration and Inventory
+(4.39) (3.67) (1.35) (3.26)
+
+LEVit 0.476** 0.150 0.251** 0.376*** Write-Downs
+(2.28) (1.44) (2.32) (3.38) Next, we search for a link between inventory invest-
+
+GMit 16.896*** 6.284*** 4.537*** 6.076*** ment efficiencies and CC. Our analysis is based on
+(7.63) (7.84) (5.71) (7.18) hand-collected data from 10-K filings about the occur-
+
+ACCLOSSit 1.830 3.404* 0.662 0.912
+rence and magnitude of inventory write-downs post-
+
+(0.70) (1.84) (0.37) (0.66)
+CAPit 71.459*** 35.050*** 4.716 31.693*** 1995, that is, after the introduction of the SEC EDGAR
+
+(8.09) (8.55) (0.96) (6.76) database.
+Industry fixed Yes Yes Yes Yes Table 4 reports logistic and Tobit regression results
+effects for inventory write-downs based on equations (4)
+
+Year fixed Yes Yes Yes Yes
+and (5), respectively. Starting with the logistic regres-
+
+effects
+Adjust R2 (%) 17 12 11 18 sion results, we find that more concentrated manufac-
+
+turers are significantly less likely to report inventory
+This Table reports results from pooled cross-sectional OLS regressions of write-downs. All else equal, a 1 SD increase in CC is
+inventory days outstanding, including raw materials (RAWDAYit), work-in- associated with a 44% decrease in the odds of an
+process (WIPDAYit), finished goods (FINDAYit), as well as total inventory
+days outstanding (TOTDAYit) on customer-base concentration (CCit) and a inventory write-down. The Tobit regression results
+vector of control variables, including log market value of equity (MVit), mirror the logistic regression results. The coefficient
+log firm age (AGEit), sales growth (SGit), sales growth volatility (SGVit), estimate on CC in Column 2 is significantly negative,
+an indicator variable for multi-segment firms (CONGLOit), leverage (LEVit), which suggests that more concentrated manufactur-
+gross margins (GMit), accumulated losses (ACCLOSSit), capital intensity ers are not only associated with a lower likelihood of
+(CAPit), industry fixed effects based on two-digit SIC codes, and year
+fixed effects. Statistical significance is based on t-statistics (in inventory write-downs but also conditioning on the
+parentheses) using standard errors clustered by firm and year. ***, **, occurrence of an inventory write-down its absolute
+and * indicate statistical significance at 1, 5, and 10% levels, magnitude decreases with CC.
+respectively, using two-tailed tests. The sample includes 15,084 firm-year We note that inferences based on the coefficient
+observations from 1977 to 2006. estimates on the control variables are consistent with
+
+economic intuition. Large and high growth firms are
+holding periods are shorter for firms that report at less likely to report an inventory write-down, while
+least two business segments, which is consistent with manufacturers with more volatile sales and accumu-
+prior evidence of higher productive efficiency for lated losses are more likely to report such write-
+multi-segment firms relative to single-segment firms downs. The positive coefficient estimate on GM
+(e.g., Schoar 2002). implies a link between gross margins and the propen-
+To summarize, we find that more concentrated sity of firms to end up with excess inventory, which is
+
+manufacturers tie up a smaller fraction of their assets consistent with our evidence that manufacturers with
+in inventories and experience shorter inventory hold- higher gross margins hold more inventories and expe-
+ing periods.4 Our investigation of individual inven- rience longer inventory holding periods.
+tory accounts draws a nuanced picture of the link To examine the association between CC and inven-
+between CC and inventory efficiencies. Inventory effi- tory investment efficiencies for our full sample per-
+ciencies primarily flow through the finished goods iod, that is, including the years prior to the
+inventory account, which is consistent with the focus introduction of the SEC EDGAR database, we also
+
+ 19375956, 2016, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/poms.12417 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Ak and Patatoukas: Customer-Base Concentration and Inventory
+268 Production and Operations Management 25(2), pp. 258–272, © 2015 Production and Operations Management Society
+
+Table 4 Inventory Write-Downs and Customer-Base Concentration Table 5 Inventory Reversals and Customer-Base Concentration
+
+Regressions of inventory write-downs Regressions of inventory reversals
+
+(1) (2) (1) (2)
+Logistic model Tobit model Logistic model Tobit model
+
+Intercept 2.660*** 0.102*** Intercept 1.754*** 0.170***
+(3.66) (4.65) (4.92) (5.68)
+
+CCit 1.485*** 0.049*** CCit 0.731** 0.059**
+(2.74) (16.56) (2.50) (2.22)
+
+MVit 0.081** 0.004*** MVit 0.098*** 0.012***
+(2.21) (7.70) (3.69) (17.28)
+
+AGEit 0.089 0.006*** AGEit 0.046 0.008
+(1.06) (3.98) (0.88) (1.44)
+
+SGit 3.009*** 0.110*** SGit 2.474*** 0.172***
+(13.61) (22.69) (12.37) (7.15)
+
+SGVit 0.542** 0.019*** SGVit 0.379* 0.052**
+(2.27) (9.60) (1.80) (2.11)
+
+CONGLOit 0.197 0.004* CONGLOit 0.067 0.001
+(1.49) (1.71) (0.86) (0.08)
+
+LEVit 0.026 0.001*** LEVit 0.014 0.001***
+(1.38) (6.58) (1.19) (14.35)
+
+GMit 0.157*** 0.006*** GMit 0.143*** 0.011***
+(2.95) (8.48) (3.09) (2.68)
+
+ACCLOSSit 0.433*** 0.015*** ACCLOSSit 0.354*** 0.031***
+(3.45) (29.84) (4.76) (4.14)
+
+CAPit 0.208 0.019*** CAPit 0.165 0.000
+(0.39) (2.84) (0.80) (0.03)
+
+Industry fixed effects Yes Yes Industry fixed effects Yes Yes
+Year fixed effects Yes Yes Year fixed effects Yes Yes
+Pseudo R2 (%) 16 40 Pseudo R2 (%) 13 20
+
+This Table reports results from pooled cross-sectional logistic and Tobit This Table reports results from pooled cross-sectional logistic and Tobit
+regressions of the inventory write-down indicator variable (DWDit) and regressions of the inventory reversal indicator variable (D_REVERSALit)
+the inventory write-down magnitude (WDit), respectively, on customer- and the inventory reversal magnitude (REVERSALit), respectively, on
+base concentration (CCit) and a vector of control variables, including log customer-base concentration (CCit) and a vector of control variables,
+market value of equity (MVit), log firm age (AGEit), sales growth (SGit), including log market value of equity (MVit), log firm age (AGEit), sales
+sales growth volatility (SGVit), an indicator variable for multi-segment growth (SGit), sales growth volatility (SGVit), an indicator variable for
+firms (CONGLOit), leverage (LEVit), gross margins (GMit), accumulated multi-segment firms (CONGLOit), leverage (LEVit), gross margins (GMit),
+losses (ACCLOSSit), capital intensity (CAPit), industry fixed effects based accumulated losses (ACCLOSSit), capital intensity (CAPit), industry fixed
+on two-digit SIC codes, and year fixed effects. Goodness-of-fit is effects based on two-digit SIC codes, and year fixed effects. Goodness-
+measured using McFadden’s (1974) pseudo R2, which compares the of-fit is measured using McFadden’s (1974) pseudo R2, which compares
+unrestricted (i.e., full model) and restricted (i.e., constant only) log the unrestricted (i.e., full model) and restricted (i.e., constant only) log
+likelihoods. Statistical significance is based on z-statistics (in likelihoods. Statistical significance is based on z-statistics (in
+parentheses) using standard errors clustered by firm and year. ***, **, parentheses) using standard errors clustered by firm and year. ***, **,
+and * indicate statistical significance at 1%, 5%, and 10% levels, and * indicate statistical significance at 1, 5, and 10% levels,
+respectively, using two-tailed tests. The sample includes 7893 firm-year respectively, using two-tailed tests. The sample includes 15,084 firm-year
+observations from 1995 to 2006. observations from 1977 to 2006.
+
+on CC is also significantly negative, which suggests
+search for a link between inventory reversals and CC. that more concentrated manufacturers are not only
+As explained in subsection 3.3, we define an inven- less likely to experience an inventory reversal but also
+tory reversal as a decline in total inventories in excess conditioning on recording an inventory reversal its
+of 1% of the beginning of period total assets accompa- absolute magnitude decreases with CC.5
+
+nied by commensurate negative Compustat special To summarize, our logistic and Tobit regression
+items. analysis of inventory write-downs and reversals
+Table 5 reports logistic and Tobit regression results yields evidence consistent with a positive link
+
+for inventory reversals based on equations (4) and (5), between CC and inventory investment efficiencies.
+respectively. Focusing on the logistic regression Manufacturers with more concentrated customer
+results, the coefficient estimate on CC is significantly bases are associated with a lower likelihood and mag-
+negative while its magnitude implies that, all else nitude of inventory write-downs and reversals, which
+equal, a 1 SD increase in CC is associated with a 47% is consistent with the OM view that manufacturers
+decrease in the odds of an inventory reversal. Turning can achieve inventory efficiencies through relation-
+to the Tobit regression results, the coefficient estimate ships with a limited number of major customers.
+
+ 19375956, 2016, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/poms.12417 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Ak and Patatoukas: Customer-Base Concentration and Inventory
+Production and Operations Management 25(2), pp. 258–272, © 2015 Production and Operations Management Society 269
+
+4.4. Customer-Base Concentration and Firm Table 6 Firm Valuation and Customer-Base Concentration
+
+Valuation
+Regressions of Tobin’s Q
+
+The findings presented so far provide evidence of
+inventory efficiencies for more concentrated manufac- (1) (2) (3) (4)
+
+turers. Next, we test whether more concentrated man- Intercept 1.067*** 0.178 0.003 0.022
+ufacturers are associated with a valuation premium. (5.10) (0.75) (0.01) (0.09)
+
+Table 6 reports results from regressions of Tobin’s Q CCit 1.425*** 1.316*** 1.315*** 1.314***
+(5.13) (4.92) (4.91) (4.89)
+
+on CC based on equation (6). Consistent with the
+MVit 0.275*** 0.457*** 0.457*** 0.457***
+
+pairwise correlations, we find a positive association (8.09) (10.82) (10.81) (10.84)
+between Tobin’s Q and CC after controlling for other AGEit 0.342*** 0.303*** 0.303*** 0.302***
+firm characteristics as well as industry and year fixed (8.34) (7.86) (7.86) (7.84)
+
+effects. All else equal, a 1 SD increase in CC implies a SGit 0.522*** 0.481*** 0.480*** 0.479***
+(8.90) (9.39) (9.35) (9.38)
+
+13.30% increase in Tobin’s Q (significant at the 1%
+SGVit 0.047 0.008 0.003 0.006
+
+level). Column 2 extends the right-hand side of equa- (0.42) (0.07) (0.02) (0.06)
+tion (6) to include the inverse of total assets (1/TA), CONGLOit 0.222*** 0.221*** 0.221*** 0.223***
+that is, the scale variable of the Tobin’s Q, and shows (3.55) (3.71) (3.71) (3.75)
+
+that evidence of a positive link between CC and firm LEVit 0.030*** 0.027*** 0.027*** 0.027***
+(5.01) (4.85) (4.82) (4.75)
+
+valuation is not sensitive.
+GMit 0.003 0.015 0.016 0.016
+
+Our evidence of a valuation premium for more con- (0.08) (0.50) (0.51) (0.52)
+centrated manufacturers is related to recent research ACCLOSSit 0.254*** 0.060 0.056 0.056
+on the implications of major customer dependency (3.60) (0.91) (0.84) (0.85)
+
+for cost of capital, default risk, and firm valuation CAPit 0.854*** 0.542*** 0.544*** 0.550***
+(4.53) (3.07) (3.08) (3.11)
+
+(e.g., Campello and Gao 2014, Cen et al. 2015, Dhali-
+1/TAit 7.957*** 7.971*** 7.976***
+
+wal et al. 2015, Osadchiy et al. 2015).6 Columns 3 and (8.85) (8.86) (8.86)
+4, however, show that our evidence is not sensitive COCit 2.016** 2.028**
+after extending the right-hand side of equation (6) to (2.48) (2.45)
+
+include an implied cost of capital estimate (COC) and DDit 0.183
+(0.55)
+
+Merton’s (1974) distance-to-default (DD), which is a
+market-based measure of default risk.7
+
+Industry fixed Yes Yes Yes Yes
+effects
+
+Turning to the coefficient estimates on the control Year fixed effects Yes Yes Yes Yes
+variables, the evidence is in line with prior research Adjust R2 (%) 24 31 31 31
+
+on firm valuation. Large and high growth firms are
+This Table reports results from pooled cross-sectional OLS regressions of
+
+rewarded with higher valuation multiples, while Tobin’s Q (TOBINit) on customer-base concentration (CCit) and a vector
+older and more levered firms are associated with of control variables, including log market value of equity (MVit), log firm
+lower multiples. The negative slope on CAP suggests age (AGEit), sales growth (SGit), sales growth volatility (SGVit), an
+
+a negative premium for higher capital intensity, while indicator variable for multi-segment firms (CONGLOit), leverage (LEVit),
+gross margins (GMit), accumulated losses (ACCLOSSit), capital intensitythe negative slope on CONGLO is consistent with
+(CAPit), the inverse of total assets (1/TAit), Easton’s (2004) implied cost
+
+long-standing evidence of a corporate diversification of capital (COCit), Merton’s (1974) distance-to-default (DDit), industry
+discount (e.g., Lang and Stulz 1994). Finally, the sig- fixed effects based on two-digit SIC codes, and year fixed effects.
+nificantly negative coefficient on COC is consistent Statistical significance is based on t-statistics (in parentheses) using
+
+with the valuation property that higher cost of capital standard errors clustered by firm and year. ***, **, and * indicate
+statistical significance at 1, 5, and 10% levels, respectively, using two-
+
+translates into lower firm valuation. We hasten to note
+tailed tests. The sample includes 15,084 firm-year observations from
+
+that evidence of a valuation premium for more con- 1977 to 2006.
+centrated manufacturers may only be partially attrib-
+uted to the positive link between CC and inventory
+efficiencies. Nevertheless, the evidence suggests that tories for less time and are less likely to end up with
+investors trade off the costs and benefits of major cus- excess inventories, as indicated by the lower likeli-
+tomer relationships and, on balance, consider CC as a hood and magnitude of inventory write-downs and
+net positive for firm valuation. reversals. Using disaggregated inventory disclosures,
+
+we find that inventory efficiencies primarily flow
+5. Conclusion and Directions for through the finished goods inventory account, while
+
+Future Research raw material efficiencies are offset by higher work-in-
+process holdings and longer work-in-process cycles.
+
+We investigate the link between CC and inventory We also document a valuation premium for more con-
+efficiencies in the manufacturing sector. We find that centrated manufacturers, which implies that investors
+more concentrated manufacturers hold fewer inven- trade off the costs and benefits of relationships with a
+
+ 19375956, 2016, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/poms.12417 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Ak and Patatoukas: Customer-Base Concentration and Inventory
+270 Production and Operations Management 25(2), pp. 258–272, © 2015 Production and Operations Management Society
+
+limited number of major customers and, on balance, Appendix A: (Continued)
+
+consider CC as a net positive for firm valuation.
+Taken together, our evidence is consistent with the Label Definition
+
+OM view that manufacturers can achieve inventory SIit Compustat special items scaled by the beginning of year
+efficiencies through relationships with a limited num- total assets
+
+ber of major customers. An interesting direction for DREVERSALit Indicator variable = 1 if DINVit ≤ 0.01 and
+SIit ≤ 0.01;= 0 otherwise
+
+future research would be to examine the implications
+REVERSALit Product of D_REVERSALit multiplied by the absolute
+
+of single vs. multiple sourcing strategies for inventory value of SIit
+efficiencies. Given that firms are only required to dis- DWDit Indicator variable = 1 for inventory write-downs;
+close information about their major customers, a chal- 0 = otherwise
+
+lenge for future researchers will be the identification WDit Absolute value of inventory write-downs
+MVit Log of market value of equity as of fiscal year-end
+
+of supplier firms with single vs. multiple vendors.
+TOBINit Tobin’s Q ratio measured as market value of equity
+
+Another direction for future research would be to plus (short-term and long-term) debt scaled by
+search for variation in our findings across industries total assets
+within the manufacturing sector as well as to further AGEit Log of firm age measured relative to first year of
+
+disaggregate the drivers of inventory efficiencies Compustat coverage
+SGit Annual percentage growth in sales
+
+using plant-level data. Such research would further
+SGVit Sales growth volatility measured as the cross-sectional
+
+broaden our knowledge of the link between cus- standard deviation of annual percentage growth in sales
+tomer-base structure, fundamental analysis, and firm across annual partitions based on two-digit SIC codes
+valuation. CONGLOit Indicator variable = 1 if the firm reports at least two
+
+business segments
+LEVit Total leverage measured as book value of total assets
+
+Acknowledgments scaled by the book value of equity
+GMit Gross margin measured as one minus CoGS scaled
+
+We thank Eric Allen, Anil Arya, Ling Cen, Efthimios Demi- by sales
+rakos, Aytekin Ertan, Pnina Feldman, Dimitris Ghicas, Jose ACCLOSSit Indicator variable = 1 if at the beginning of the year the
+Guajardo, Dena Kefallinos, Yaniv Konchitchki, Gopal Krish- firm reported book value of equity that is either
+
+nan, Henry Laurion, George Patatoukas, David Perez, James negative or below market value
+
+Ryans, Richard Sloan, Samuel Tan, Terry Taylor, Jake Tho- CAPit Net PP&E scaled by total assets
+1/TAit The inverse of total assets
+
+mas, Candace Yano, Jean Zeng, three anonymous reviewers,
+DD
+
+and seminar participants at U.C. Berkeley and Athens it Distance-to-default measured across annual partitions
+based on two-digit SIC codes as the cross-sectional
+
+University of Economics & Business for helpful comments. average value of Merton’s (1974) distance-to-default
+Panos gratefully acknowledges financial support from the measure of default risk using the SAS code of Bharath
+Center for Financial Reporting and Management at U.C. and Shumway (2008)
+Berkeley and the Hellman Fellowship. COCit Cost of capital measured across annual partitions based
+
+on two-digit SIC codes as the cross-sectional average
+value of the implied cost of capital estimate using
+
+Appendix A: Labels and Definitions of Easton’s (2004) modified PEG ratio mode.
+Variables
+
+Label Definition Notes
+CCit Customer-base concentration measured as in Patatoukas 1Our inferences are not sensitive when we estimate the
+
+(2012)
+models using annual cross-sectional regressions and base
+
+LIFOit Indicator variable = 1 if the firm reported LIFO reserve;
+= 0 otherwise statistical inferences on Fama and MacBeth (1973) t-statis-
+
+TOTHLDit Total inventories scaled by total assets tics. Our inferences are also not sensitive when we use
+RAWHLDit Raw materials inventories scaled by total assets random coefficients regression models allowing for hetero-
+WIPHLDit Work-in-process inventories scaled by total assets geneity in the coefficient estimates over time and across
+FINHLDit Finished goods inventories scaled by total assets firms. In additional tests, we find consistent results using
+TOTDAYSit Total inventories scaled by CoGS multiplied by 365 rank and log transformations of CC, whereas including
+RAWDAYSit Raw materials inventories scaled by CoGS multiplied second and higher order polynomial transformations of
+
+by 365 CC does not yield significant evidence of nonlinear rela-
+WIPDAYSit Work-in-process inventories scaled by CoGS multiplied
+
+tions. These results are available upon request.
+by 365 2In general, there are two approaches for reporting inven-
+
+FINDAYSit Finished goods inventories scaled by CoGS multiplied
+by 365 tory write-downs: the reserve and the direct approach.
+
+DINV Under the reserve approach, the firm maintains an inven-
+it Change in total inventories scaled by beginning of year
+
+total assets tory reserve account that is increased as a write-down is
+recorded and is decreased subsequently when inventories
+
+(continued) for which the reserve was created are disposed. The initial
+
+ 19375956, 2016, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/poms.12417 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Ak and Patatoukas: Customer-Base Concentration and Inventory
+Production and Operations Management 25(2), pp. 258–272, © 2015 Production and Operations Management Society 271
+
+increase in the inventory reserve represents the expected References
+decline in the value of inventories and the corresponding Allen, E., C. Larson, R. G. Sloan. 2013. Accrual reversals, earnings,
+dollar amount is typically disclosed in Financial State- and stock returns. J. Accoun. Econ. 56(1): 113–129.
+ments Schedule II—Valuation and Qualifying Accounts at Aviv, Y. 2001. The effect of collaborative forecasting on supply
+the end of the 10-K filing. Under the direct approach, the chain performance. Manage. Sci. 47(10): 1326–1343.
+firm does not maintain a regular reserve account but Balakrishnan, R., T. Linsmeier, M. Venkatachalam. 1996. Financial
+rather it records a write-down expense, which is typically benefits from JIT adoption: Effects of customer concentration
+included in cost of goods sold and the corresponding dol- and cost structure. Accoun. Rev. 71(2): 183–205.
+
+lar amount is disclosed in the notes to the financial state- Banerjee, S., S. Dasgupta, Y. Kim. 2008. Buyer-supplier relation-
+
+ments. We note that under either approach firms typically ships and the stakeholder theory of capital structure. J.
+
+do not associate write-downs with individual inventory Finance 63(5): 2507–2552.
+
+accounts. Belo, F., X. Lin. 2012. The inventory growth spread. Rev. Finance
+3An implicit assumption in the Tobin’s Q calculation is Stud. 25(1): 278–313.
+
+that due to mark-to-market accounting the book value of Bharath, S. T., T. Shumway. 2008. Forecasting default with the
+Merton distance-to-default model. Rev. Finance Stud. 21(3):
+
+debt is close to the market value of debt. Another implicit
+1339–1369.
+
+assumption is that the book value of total assets is a good
+Biddle, G. C., W. E. Ricks. 1988. Analysts forecast errors and stock
+
+proxy for the replacement cost of assets. Although both
+price behavior near the earnings announcement dates of LIFO
+
+assumptions may be violated, we have no reason to adopters. J. Accoun. Res. 26(2): 169–194.
+believe that measurement error in Tobin’s Q is correlated Blazenko, G. W., K. Vandezande. 2003. Corporate holding of fin-
+with CC. ished goods inventories. J. Econ. Bus. 55(3): 255–266.
+4In additional tests, we exploit within-firm variation and Cachon, G. P., M. Olivares. 2010. Drivers of finished-goods inven-
+find consistent evidence that customer-base concentration tory in the U.S. automobile industry. Manage. Sci. 56(1): 202–
+increases are associated with lower inventory holdings 216.
+and shorter inventory holding periods. We also search for Cachon, G. P., C. Terwiesch. 2008. Matching Supply with
+variation across partitions based on (i) supplier firm sales Demand: An Introduction to Operations Management. McGraw-
+volatility and (ii) customer-base sales volatility and we do Hill, London, UK.
+
+not find evidence of significant differences in our results. Campello, M., J. Gao. 2014. Customer concentration and loan con-
+These results are available upon request. tract terms. Working paper, Cornell University, Ithaca, NY.
+5In additional tests, we search for an intertemporal link Cen, L., S. Dasgupta, R. Elkamhi, R. Pungaliya. 2015. Reputation
+
+between CC and inventory investment efficiencies. Using and loan contract terms: The role of principal customers. Rev.
+
+logistic and Tobit regressions, we find consistent evidence Finance. Forthcoming. doi: 10.1093/rof/rfv014
+
+that CC negatively predicts inventory write-downs and Chen, H., M. Z. Frank, O. Q. Wu. 2005. What actually happened
+to the inventories of American companies between 1981 and
+
+reversals across forecast horizons ranging from one to
+2000? Manage. Sci. 51(7): 1015–1031.
+
+three years ahead. These results are available upon
+Dhaliwal, D. S., J. S. Judd, M. A. Serfling, S. A. Shaikh. 2015. Cus-
+
+request.
+6 tomer concentration risk and the cost of equity capital. J.
+Cen et al. (2015) argue that major customers have strong Accoun. Econ. Forthcoming. doi:10.1016/j.jacceco.2015.03.005.
+incentives to evaluate and maintain the stability of their Easton, P. D. 2004. PE ratios, PEG ratios, and estimating the
+supply chain, and thus the existence and continuation of implied expected rate of return on equity capital. Accoun. Rev.
+long-term major customer relationships provide a de facto 79(1): 73–95.
+certification to the suppliers as firms of higher operating Fama, E. F., J. D. MacBeth. 1973. Risk, return, and equilibrium:
+stability and lower default risk. Campello and Gao (2014) Empirical tests. J. Polit. Econ. 81(3): 607–636.
+argue that in spite of the beneficial effects of major cus- Frankel, R. 2009. Discussion of “Are special items informative
+tomer dependency on supplier performance, higher levels about future profit margins?”. Rev. Acc. Stud. 14(2–3): 237–
+of concentration increase interest rate spreads and the 245.
+
+number of restrictive covenants on a firm’s bank loans, Fullerton, R. R., C. S. McWatters, C. Fawson. 2003. An examina-
+while reducing loan maturities. Dhaliwal et al. (2015) pro- tion of the relationships between JIT and financial perfor-
+
+vide evidence that implied cost of capital estimates as well mance. J. Oper. Manag. 21(4): 383–404.
+
+as measures of systematic risk and idiosyncratic risk Galbraith, J. K. 1952. American Capitalism: The Concept of Counter-
+
+increase with major customer dependency. Osadchiy et al. vailing Power. Houghton Mifflin, Boston, MA.
+
+(2015) find evidence of an inverse relation between major Gaur, V., S. Kesavan. 2009. The effects of firm size and sales growth
+rate on inventory turnover performance in the U.S. retail sector.
+
+customer dependency and measures of systematic risk,
+N. Agrawal and S. Smith eds. In Retail Supply Chain Manage-
+
+which they attribute to risk-reduction benefits from order ment: Quantitative Models and Empirical Studies, Springer, Retail
+pooling across major customers. Supply Chain Management, Santa Clara CA, USA, 25–52.
+7We estimate distance-to-default using Bharath and Shum- Gaur, V., M. L. Fisher, A. Raman. 2005. An econometric analysis
+way’s (2008) SAS code. We estimate implied cost of capital of inventory turnover performance in retail services. Manage.
+using Easton’s (2004) modified PEG ratio model (our Sci. 51(2): 181–194.
+results are not sensitive using Dhaliwal et al.’s (2015) com- Griffin, P. A. 2003. Got information? Investor response to Form
+posite index of alternative cost of capital estimates). Due 10-K and Form 10-Q EDGAR filings. Rev. Acc. Stud. 8(4): 433–
+to the additional data requirements, we measure distance- 460.
+
+to-default and implied cost of capital using annual cross- Hopp, W. J., M. L. Spearman. 2011. Factory Physics. Waveland
+
+sectional averages across two-digit SIC codes. Press, Long Grove, IL.
+
+ 19375956, 2016, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/poms.12417 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Ak and Patatoukas: Customer-Base Concentration and Inventory
+272 Production and Operations Management 25(2), pp. 258–272, © 2015 Production and Operations Management Society
+
+Huson, M., D. Nanda. 1995. The impact of just-in-time manufac- Patatoukas, P. N. 2012. Customer-base concentration: Implications
+turing on firm performance in the US. J. Oper. Manag. 12(3): for firm performance and capital markets. Accoun. Rev. 87(2):
+297–310. 363–392.
+
+Irvine, P., S. Park, C. Yildizhan. 2014. Customer-base concen- Penman, S. H. 2011. Accounting for Value. Columbia University
+tration, profitability and distress across the corporate life Press, New York, NY.
+cycle. Working paper, Texas Christian University, Fort Petersen, M. 2009. Estimating standard errors in finance panel
+Worth, TX. data sets: Comparing approaches. Rev. Finan. Stud. 22(1): 435–
+
+Kale, J., H. Shahrur. 2007. Corporate capital structure and the 480.
+characteristics of suppliers and customers. J. Finance Econ. Porter, M. E. 1974. Consumer behavior, retailer power and market
+83(2): 321–365. performance in consumer goods industries. Rev. Econ. Stat.
+
+Kelly, T., M. Gosman. 2000. Increased buyer concentration and its 56(4): 419–436.
+effects on profitability in the manufacturing sector. Rev. Ind. Porteus, E. L. 2002. Foundations of Stochastic Inventory Theory. Stan-
+Organ. 17(1): 41–59. ford University Press, Stanford CA, USA.
+
+Kinney, M. R., W. F. Wempe. 2002. Further evidence on the extent Radhakrishnan, S., Z. Wang, Y. Zhang. 2014. Customers’ capital
+and origins of JIT’s profitability effects. Accoun. Rev. 77(1): market information quality and suppliers’ performance. Prod.
+203–225. Oper. Manag. 23(10): 1690–1705.
+
+Krishnan, G. V., G. Lee, P. N. Patatoukas, A. Wang. 2015. Major Ren, Z. J., M. A. Cohen, T. H. Ho, C. Terwiesch. 2010. Information
+customer dependency: Implications for audit pricing and sharing in a long-term supply chain relationship: The role of
+quality. Working paper, U.C. Berkeley, Berkeley, CA. customer review strategy. Oper. Res. 58(1): 81–93.
+
+Kulp, S. C. 2002. The effect of information precision and informa- Rumyantsev, S., S. Netessine. 2007. What can be learned from
+tion reliability on manufacturer-retailer relationships. Accoun. classical inventory models? A cross-industry exploratory
+Rev. 77(3): 653–677. investigation. Manuf. Serv. Oper. Manag. 9(4): 409–429.
+
+Kulp, S. C., H. L. Lee, E. Ofek. 2004. Manufacturer benefits from Scherer, F. M. 1970. Industrial Market Structure and Economic Perfor-
+information integration with retail customers. Manage. Sci. 50 mance. Rand McNally, Chicago, IL.
+(4): 431–444. Schoar, A. 2002. Effects of corporate diversification on productiv-
+
+Lang, L. H., R. M. Stulz. 1994. Tobin’s Q, corporate diversification, ity. J. Finance 57(6): 2379–2403.
+and firm performance. J. Polit. Econ. 102(6): 1248–1280. Selto, F. H., C. J. Renner, S. M. Young. 1995. Assessing the organi-
+
+Lee, H. L., V. Padmanabhan, S. Whang. 1997. Information distor- zational fit of a just-in-time manufacturing system: Testing
+tion in a supply chain: The bullwhip effect. Manage. Sci. 43(4): selection, interaction and systems models of contingency the-
+546–558. ory. Acc. Organ. Soc. 20(7): 665–684.
+
+Lieberman, M. B., S. Helper, L. Demeester. 1999. The empirical Terwiesch, C., Z. J. Ren, T. H. Ho, M. A. Cohen. 2005. An empiri-
+determinants of inventory levels in high-volume manufactur- cal analysis of forecast sharing in the semiconductor equip-
+ing. Prod. Oper. Manag. 8(1): 44–55. ment supply chain. Manage. Sci. 51(2): 208–220.
+
+Lustgarten, S. 1975. The impact of buyer concentration in manu- Thomas, J. K., H. Zhang. 2002. Inventory changes and future
+facturing industries. Rev. Econ. Stat. 57(2): 125–132. returns. Rev. Acc. Stud. 7(2–3): 163–187.
+
+McFadden, D. 1974. The measurement of urban travel demand. J. Vollmann, T. E., C. Cordon. 1998. Building successful customer-
+Public Econ. 3(4): 303–328. supplier alliances. Long Range Plan. 31(5): 684–694.
+
+Merton, R. C. 1974. On the pricing of corporate debt: The risk Waller, M., M. E. Johnson, T. Davis. 1999. Vendor-managed
+structure of interest rates. J. Finance 29(2): 449–470. inventory in the retail supply chain. J. Bus. Logisti. 20(1): 183–
+
+Osadchiy, N., V. Gaur, S. Seshadri. 2015. Systematic risk in supply 204.
+chain networks. Working paper, Cornell University, Ithaca, Zipkin, P. H. 2000. Foundations of Inventory Management. McGraw-
+NY. Hill, New York, NY.
+
+ 19375956, 2016, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/poms.12417 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

@@ -1,0 +1,2949 @@
+﻿THE JOURNAL OF FINANCE • VOL. LXXIII, NO. 4 • AUGUST 2018
+
+Anticompetitive Effects of Common Ownership
+
+JOSÉ AZAR, MARTIN C. SCHMALZ, and ISABEL TECU∗
+
+ABSTRACT
+Many natural competitors are jointly held by a small set of large institutional in-
+vestors. In the U.S. airline industry, taking common ownership into account implies
+increases in market concentration that are 10 times larger than what is “presumed
+likely to enhance market power” by antitrust authorities.1 Within-route changes in
+common ownership concentration robustly correlate with route-level changes in ticket
+prices, even when we only use variation in ownership due to the combination of two
+large asset managers. We conclude that a hidden social cost—reduced product market
+competition—accompanies the private benefits of diversification and good governance.
+
+∗José Azar is with IESE Business School. Martin Schmalz is with the Ross School of Business,
+University of Michigan, the Centre for Economic Policy Research, and the European Corporate
+Governance Institute. Isabel Tecu is with Charles River Associates. For helpful comments, we
+thank Alex Edmans, Alminas Zaldokas, Alon Brav, Amit Seru, Andrei Shleifer, Andrew Ellul, Carl
+Shapiro (discussant), Charles Hadlock, Cindy Alexander, Daniel Crane, Daniel Ferreira (discus-
+sant), Daniel Greenfield (discussant), David Reitman, Dirk Jenter, Einer Elhauge, Evgeny Lyan-
+dres (discussant), Farzad Saidi (discussant), Fiona Scott Morton, Francine Lafontaine, Glen Weyl,
+Gregor Matvos, Han Kim, Holger Müller, Jeremy Stein, Jesse Shapiro, Johan Hombert, John
+Coates, Jonathan Berk (discussant), Juwon Kwak (discussant), Kai-Uwe Kühn, Louis Kaplow,
+Maggie Levenstein, Martino DeStefano, Matthew Shapiro, Michael Roberts (the Editor), Nancy
+Rose; Peter Cramton, Robert Levinson, Ryan Kellogg, Sarath Sanga (discussant), Scott Stern,
+Severin Borenstein, Sheridan Titman (discussant), Steven Salop, Susan Athey, Todd Gormley,
+Toni Whited, Umit Gurun, Vicente Cuñat (discussant), Vikram Nanda (discussant), Yossi Spiegel,
+anonymous referees; several corporate governance and proxy voting executives, the general coun-
+sel, and a board member of various large asset management companies; a pricing manager of a
+major airline; our colleagues; seminar participants at ASU, Berkeley, Bonn, BC, Charles River
+Associates, Chicago Booth, Columbia GSB, DICE, FRB of New York, FRB of Governors, Goethe
+Universität, Harvard, Humboldt Universität, IESE, INSEAD, Köln, Mannheim, McGill, MIT, Stan-
+ford, Stockholm, Toulouse School of Economics, Tilburg, U.S. Department of Justice, UV Amster-
+dam, UBC, University of Michigan, UNC, Western University, Yale; conference audiences at the
+American Bar Association, EARIE, ESWC, EFA, FTC Microeconomics Conference, IFN (Stock-
+holm), IIOC, LBS Symposium, LSE Adam Smith, LSE Economic Networks and Finance, NBER
+Corporate Finance, NBER SI Law & Economics, Searle Antitrust Conference, Princeton JRCPP,
+TAU Finance Conference, Texas Finance Festival, and the Utah Winter Finance Conference; and
+Oliver Richard for help with the DB1B data. Schmalz is grateful for generous financial support
+through an NTT Fellowship from the Mitsui Life Financial Center. Bret Herzig, Yichuan Wang,
+and Eric Wilson provided excellent research assistance. All of the authors have read the Journal
+of Finance’s disclosure policy and have no conflicts of interest to disclose. Charles River Associates
+had the right to review the article prior to its circulation. The views expressed herein are the
+views and opinions of the authors and do not reflect or represent the views of other consultants or
+experts who are affiliated with Charles River Associates, nor do they reflect the views and opinions
+of Charles River Associates or any of the organizations with which the authors are affiliated.
+
+1 See https://www.ftc.gov/sites/default/files/attachments/merger-review/100819hmg.pdf.
+DOI: 10.1111/jofi.12698
+
+1513
+
+
+
+1514 The Journal of Finance©R
+
+A LONG THEORETICAL LITERATURE IN industrial organization predicts that par-
+tial common ownership of natural competitors by overlapping sets of investors
+can reduce firms’ incentives to compete: the benefits to one firm of compet-
+ing aggressively—for example, gains in market share—come at the expense
+of firms that are part of the same investors’ portfolio, reducing total portfolio
+value. Theory thus predicts that common ownership can push product markets
+toward monopolistic outcomes and imply a deadweight loss for the economy
+and adverse consequences for consumers.
+
+Contrasting this theoretical argument, the empirical literature thus far
+largely assumes that common ownership interests by financial institutions
+do not matter for firms’ objectives and product market outcomes. The question
+of whether this assumption is warranted has first-order implications for many
+areas of economics, such as finance, industrial organization, macroeconomics,
+and antitrust policy. In this paper, we aim to shed light on this question by
+studying the effect of common ownership on product market outcomes. Specifi-
+cally, we ask, first, how large are current levels of common ownership, and what
+are the implications for market concentration measures, and second, do current
+levels of common ownership adversely affect product market competition?
+
+With respect to the scope of the first question, highly diversified mutual fund
+families and other institutional investors now hold a high (70% to 80%, Ben-
+David et al. (2015)) and increasing share of U.S. publicly traded firms’ equity.
+Because several asset management companies are also extremely large, the
+same fund family is often the single largest beneficial owner of several firms in
+an industry, with similarly diversified investors following suit. Table I provides
+examples.2 The potential scale of the resulting antitrust problem spans across
+all industries, geographies, and economies with tradable equity securities.
+
+The second question presents a formidable identification challenge.3 Cor-
+relations between common ownership and price-cost margins across firms or
+industries do not necessarily have a causal interpretation, as reverse causality
+or potentially omitted control variables may play a role. To take a step toward
+addressing these challenges, we focus on the U.S. domestic airline industry
+as a laboratory. This industry focus is motivated by the fact that high-quality
+route-level price and quantity data are publicly available, and each route can
+be considered a separate market. These features allow us to relate common
+ownership concentration to prices within the same firm, period, and indus-
+try, which reduces the amount of confounding variation. Furthermore, using
+
+2 In 2013, BlackRock was the single largest shareholder of one-fifth of all American publicly
+traded firms (see Davis (2013) and December 7, 2013, The rise of BlackRock, The Economist, see
+also Craig, Susanne, May 18, 2013, The giant of shareholders, quietly stirring, The New York
+Times). Fichtner, Heemskerk, and Garcia-Bernardo (2016) calculate that the combined holdings
+of BlackRock, Vanguard, and State Street make them the largest investor of 88% of all firms in
+the S&P 500. See Roe (1990) and Elhauge (2015) for a discussion of the legal constraints of such
+ownership structures.
+
+3 An obvious problem would exist if one beneficial owner controlled 50% or more of the voting
+securities of all firms in the industry. An open empirical question is whether N investors that each
+hold more than 50/N% of votes in all firms, or similar structures, can have similar effects.
+
+ 15406261, 2018, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12698 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Anticompetitive Effects of Common Ownership 1515
+Table I
+
+Illustrative Cases of Within-Industry Common Ownership Links
+This table shows the largest (institutional and noninstitutional) beneficial owners and corresponding stakes for an illustrative sample of U.S. publicly
+traded natural competitors as of 2016Q2. The data source is S&P Capital IQ. Panel C corresponds to Azar, Raina, and Schmalz (2016). Berkshire’s
+holdings in Bank of America (*) are warrants without voting rights. Panel D reflects holdings as of 2016Q4.
+
+Panel A: Technology Firms
+
+Apple [%] Microsoft [%]
+
+Vanguard 6.05 Vanguard 6.41
+BlackRock 5.72 BlackRock 5.80
+State Street 3.82 Capital Research 4.76
+Fidelity 2.34 - Steve Ballmer - 4.24
+Northern Trust Corporation 1.26 State Street 3.80
+
+- Bill Gates - 2.54
+T. Rowe Price 2.27
+
+Panel B: Pharmacies
+
+CVS [%] Walgreens Boots Alliance [%] Rite Aid [%]
+
+Vanguard 6.66 -Stefano Pessina- 13.06 Vanguard 7.24
+BlackRock 6.02 Vanguard 5.58 BlackRock 4.20
+State Street 4.00 BlackRock 4.55 Arrowgrass Capital 3.55
+Fidelity 3.67 KKR 3.38 Franklin Resources 2.87
+Wellington 2.37 State Street 3.34 Pentwater Capital 1.89
+
+T. Rowe Price 2.70
+Panel C: Banks
+
+JPMorgan Chase [%] Bank of America [%] Citigroup [%]
+
+Vanguard 6.28 Berkshire Hathaway* 6.90 BlackRock 6.43
+BlackRock 6.28 Vanguard 5.94 Vanguard 5.96
+State Street 4.12 BlackRock 5.94 State Street 4.04
+Capital Research 3.68 State Street 4.01 Fidelity 3.00
+Fidelity 2.10 Fidelity 2.37 Invesco 1.67
+
+Wells Fargo [%] PNC Financial [%] U.S. Bancorp [%]
+
+Berkshire Hathaway 10.46 Wellington 8.34 BlackRock 6.51
+Vanguard 5.67 Vanguard 6.30 Berkshire Hathaway 5.94
+BlackRock 5.42 BlackRock 5.03 Vanguard 5.59
+State Street 3.68 State Street 4.33 Fidelity 4.12
+Wellington 2.55 Barrow Hanley 3.71 State Street 3.84
+
+(Continued)
+
+ 15406261, 2018, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12698 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+1516 The Journal of Finance©R
+Table I—Continued
+
+Panel D: Airlines
+
+Delta Air Lines [%] Southwest Airlines Co. [%] American Airlines [%]
+
+Berkshire Hathaway 8.25 PRIMECAP 11.78 T. Rowe Price 13.99
+BlackRock 6.84 Berkshire Hathaway 7.02 PRIMECAP 8.97
+Vanguard 6.31 Vanguard 6.21 Berkshire Hathaway 7.75
+State Street Global Advisors 4.28 BlackRock 5.96 Vanguard 6.02
+J.P. Morgan Asset Mgt. 3.79 Fidelity 5.53 BlackRock 5.82
+Lansdowne Partners Limited 3.60 State Street Global Advisors 3.76 State Street Global Advisors 3.71
+PRIMECAP 2.85 J.P. Morgan Asset Mgt. 1.31 Fidelity 3.30
+AllianceBernstein L.P. 1.67 T. Rowe Price 1.26 Putnam 1.18
+Fidelity 1.54 BNY Mellon Asset Mgt. 1.22 Morgan Stanley 1.17
+PAR Capital Mgt. 1.52 Egerton Capital (UK) LLP 1.10 Northern Trust Global Inv 1.02
+
+United Continental Holdings [%] Alaska Air [%] JetBlue Airways [%]
+
+Berkshire Hathaway 9.20 T. Rowe Price 10.14 Vanguard 7.96
+BlackRock 7.11 Vanguard 9.73 Fidelity 7.58
+Vanguard 6.88 BlackRock 5.60 BlackRock 7.33
+PRIMECAP 6.27 PRIMECAP 4.95 PRIMECAP 5.91
+PAR Capital Mgt. 5.18 PAR Capital Mgt. 3.65 Goldman Sachs Asset Mgt. 2.94
+State Street Global Advisors 3.45 State Street Global Advisors 3.52 Dimensional Fund Advisors 2.42
+J.P. Morgan Asset Mgt. 3.35 Franklin Resources 2.59 State Street Global Advisors 2.40
+Altimeter Capital Mgt. 3.26 BNY Mellon Asset Mgt. 2.34 Wellington 2.07
+T. Rowe Price 2.25 Citadel 1.98 Donald Smith Co. 1.80
+AQR Capital Management 2.15 Renaissance Techn. 1.93 BarrowHanley 1.52
+
+Spirit Airlines [%] Allegiant Travel Company [%] Hawaiian [%]
+
+Fidelity 10.70 Gallagher Jr., M. J. (Chairman, CEO) 20.30 BlackRock 11.20
+Vanguard 7.41 BlackRock 8.61 Vanguard 10.97
+Wellington 5.44 Renaissance Techn. 7.28 Aronson, Johnson, Ortiz, LP 5.99
+Wasatch Advisors Inc. 4.33 Vanguard 6.65 Renaissance Techn. 4.67
+BlackRock 3.77 Fidelity 5.25 Dimensional Fund Advisors 3.17
+Jennison Associates 3.49 Franklin Resources 4.52 State Street Global Advisors 2.43
+Wells Capital Mgt. 3.33 Wasatch Advisors Inc. 4.39 PanAgora Asset Mgt. 2.22
+Franklin Resources 2.79 T. Rowe Price 4.23 LSV Asset Management 2.22
+OppenheimerFunds. 2.67 TimesSquare Capital Mgt. 3.91 BNY Mellon Asset Mgt. 1.84
+Capital Research and Mgt. 2.64 Neuberger Berman 3.07 Numeric Investors 1.79
+
+ 15406261, 2018, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12698 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Anticompetitive Effects of Common Ownership 1517
+
+only variation in airline ownership caused by a consolidation event in the asset
+management industry that is unlikely to be caused by developments in the U.S.
+airline industry supports a causal interpretation of our results. To alleviate con-
+cerns about model misspecification and the endogeneity of market shares, for
+which we lack an exogenous source of variation, we conduct a variety of placebo
+tests.
+
+We first calculate measures of market concentration that take into account
+not only market shares, but also the network of cash flow and control rights that
+constitute airline shareholders’ economic interests. We find that the anticom-
+petitive incentives implied by common ownership concentration alone—which
+are incremental to those implied by the traditional Herfindahl-Hirschman
+Index (HHI) market concentration and are measured on the same scale—
+are more than 10 times larger than what the Federal Trade Commission
+(FTC)/Department of Justice (DOJ) 2010 horizontal merger guidelines presume
+“to be likely to enhance market power.” They are also 10 times larger than the
+HHI threshold beyond which the burden of proof shifts from the regulator to
+the private parties involved to show that the implied concentration is not likely
+to enhance market power. The magnitude of common ownership concentration
+furthermore dwarfs the time-series variation in HHI. These facts suggest that
+it is reasonable to expect an effect of common ownership on product prices.
+
+Next, we test whether these anticompetitive incentives do indeed translate
+into measurable effects on product market competition. Specifically, we exam-
+ine whether changes in common ownership concentration in a given route over
+time are associated with changes in ticket prices in the same route. For ex-
+ample, theory predicts that the entrance of an independent player (a firm not
+owned by the same set of investors who own the incumbent airlines) increases
+competition and reduces prices. By contrast, competition should soften in a
+route when the owners of incumbent airlines acquire significant ownership
+and control rights in an independent carrier serving the same route.
+
+Using fixed-effect panel regressions, we find that ticket prices are approxi-
+mately 3% to 7% higher in the average U.S. airline route than would be the
+case under separate ownership. This effect of common ownership is similar in
+magnitude to, and incremental to, the effect of the traditional HHI measure of
+market concentration, and controls for commonly used covariates. Given that
+the industry’s average net profit margin in 2015 was 4% (IATA (2015)), the
+magnitude of the effect is economically significant. Fixed effects difference out
+alternative interpretations at the firm, route, firm-route, and firm-time levels,
+such as confounding effects of fuel or oil price changes. We also find that changes
+in passenger volume are negatively related to changes in common ownership,
+which indicates that the price effects are not driven by increased demand that
+institutional shareholders correctly anticipate (a reverse-causality argument).
+
+We conduct a large number of placebo and robustness tests to examine the
+empirical validity of concerns regarding functional form, market definition,
+confounding mergers and bankruptcies, reverse causality, the assumption that
+control is proportional to the fraction of votes held, and the model of compe-
+tition. Some of these tests may have direct policy implications. For example,
+
+ 15406261, 2018, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12698 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+1518 The Journal of Finance©R
+
+we run a difference-in-differences (DiD) test based on BlackRock’s acquisition
+of Barclays Global Investors (BGI) in 2009. This identification strategy uses
+only the variation in common ownership across routes that is implied by the
+hypothetical combination of the two parties’ portfolios as of the quarter before
+the announcement of the acquisition. Since airline stocks constituted only a
+small fraction of the merging parties’ portfolios, it is unlikely that this varia-
+tion is driven by expected changes in U.S. airline ticket prices. While estimated
+using much less variation than the panel regressions, the estimates from this
+strategy are arguably less affected by endogeneity of ownership and market
+shares. The results indicate that product prices may be 10% to 12% higher due
+to common ownership. Multiplying these estimates by the average route-level
+increase in common ownership due to the consolidation event indicates that the
+acquisition itself increased average ticket prices by about one-half a percent.
+
+Additional tests help shed light on the corporate governance mechanisms
+that may translate common owners’ incentives to firms’ product market strate-
+gies. These tests also further help alleviate endogeneity and misspecification
+concerns. For example, we find that the results are driven by the top-ranked
+shareholders of a firm as well as by long-term shareholders. The fact that no
+significant effects obtain when we assume control by shareholders that are
+unlikely to have control (such as very small and short-term shareholders) is
+inconsistent with endogeneity of market shares driving the main results. We
+also document significant effects from both firm- and market-level variation in
+common ownership over time, and find that the effects are stronger for larger
+and for more concentrated markets. These findings are consistent with a model
+of rational attention allocation by investors and airlines to markets where the
+bottom-line impact of increased prices is greater.
+
+We complement the above analysis with a discussion of anecdotal and empir-
+ical evidence on shareholder engagement related to product market strategy
+using (i) voice, (ii) incentives, and (iii) voting. Notwithstanding the evidence
+presented, however, it is important to recognize that common owners of com-
+petitors need not explicitly communicate their anticompetitive incentives to
+management for the documented outcomes to materialize. For instance, not ex-
+plicitly demanding or incentivizing tougher competition between portfolio firms
+may allow managers to enjoy the “quiet life” (Hicks (1935), Bertrand and Mul-
+lainathan (2003)), and thus lead to an equilibrium with reduced competition
+and sustained high margins. Indeed, we are not aware of systematic evidence
+supporting the view that large diversified asset managers actively encourage
+their portfolio firms to compete more aggressively against each other. (Such
+behavior would likely violate both the asset managers’ and their investors’ in-
+centives.) By contrast, concentrated owners such as hedge fund activists have
+been shown to push their target firms to compete more aggressively against
+industry rivals. Competitive concerns thus arise when concentrated owners get
+crowded out by diversified institutions that also hold large stakes in industry
+rivals — even if the institutions driving the common ownership links are entirely
+“passive” in terms of corporate governance (other than voting).
+
+ 15406261, 2018, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12698 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Anticompetitive Effects of Common Ownership 1519
+
+The paper proceeds as follows. Section I discusses the related literature.
+Section II develops our hypotheses and Section III describes the data that we
+use in the empirical analyses presented in Section IV. Section V discusses the
+institutional setting and potential governance mechanisms that may underlie
+the empirical facts presented. Finally, we conclude by discussing policy impli-
+cations and directions for research in Section VI.
+
+I. Related Literature
+To our knowledge, this paper is the first to empirically identify an effect of
+
+common ownership concentration on product prices and to document an effect
+of consolidation in the asset management industry on portfolio firms’ product
+prices. We thus complement a long but mostly theoretical literature arguing
+that shareholders with diversified portfolios seek to maximize joint portfolio
+profits as opposed to individual firm profits, and as a result large-shareholder
+diversification can reduce competition in product markets, for example, Rotem-
+berg (1984), Farrell (1985), Gordon (1990, 2003), Admati, Pfleiderer, and Zech-
+ner (1994), Hansen and Lott (1996), Rubin (2006), Margotta (2010), Azar (2012),
+and Azar (2017).
+
+This literature has a rich background. Under imperfect competition, when
+shareholders hold more than one firm, they may disagree about the firm’s
+objective (see, for example, Hart (1979)). A theory of shareholder preference
+aggregation is therefore necessary. To that end, Azar (2012, 2017) develops
+models of oligopoly firm behavior in which competition for shareholder votes
+among potential managers leads firms to aggregate and internalize shareholder
+interests, including holdings in competitors.4
+
+Reynolds and Snapp (1986) extend classic oligopoly models to allow firms to
+hold shares in competitors.5 Bresnahan and Salop (1986) introduce a modified
+Herfindahl-Hirschman Index (MHHI) to quantify the competitive effects of
+horizontal joint ventures. We use O’Brien and Salop’s (2000) version of the
+MHHI to measure common ownership concentration.
+
+On the empirical side, Bolle and Güth (1992) calculate the ultimate owner-
+ship of natural competitors in the German gas industry and argue that a firm’s
+price setting behavior reflects its shareholders’ interests in the firm’s competi-
+tors. Hansen and Lott (1996) document the extent of common ownership across
+a selection of competitors by institutional investors. More recently, Davis (2008)
+suggests that increasing concentration of mutual fund ownership of U.S. firms
+points to “a new finance capitalism,” but focuses on ownership by families of
+
+4 Early models of voting on production choices and the internalization of production externalities
+include Benninga and Muller (1979), DeMarzo (1993), and Crès and Tvede (2005). See also Dekel,
+Jackson, and Wolinsky (2008), Dekel and Wolinsky (2012), and Casella, Llorente-Saguer, and
+Palfrey (2012).
+
+5 See also Bernheim and Whinston (1985), Flath (1991, 1992), Malueg (1992), Nye (1992), Bolle
+and Güth (1992), Reitman (1994), Parker and Röller (1997), Clayton and Jorgensen (2005), Gilo,
+Moshe, and Spiegel (2006), Foros, Kind, and Shaffer (2011), Bebchuk, Kraakman, and Triantis
+(2000), and Nain and Wang (2016).
+
+ 15406261, 2018, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12698 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+1520 The Journal of Finance©R
+
+actively managed funds that constitute “relatively transient owners.” Networks
+of common ownership among diversified institutional investors are studied by,
+for example, Faccio and Lang (2002), Vitali, Glattfelder, and Battiston (2011),
+and Davis (2013) and have been related to shareholder voting and various firm-
+level outcomes by Matvos and Ostrovsky (2008, 2010), Harford, Jenter, and Li
+(2011), and Fichtner, Heemskerk, and Garcia-Bernardo (2016).
+
+In terms of relating common ownership to competition, the paper closest
+to ours is Azar (2012), who computes measures of common ownership of U.S.
+stocks over time and finds a positive relation between common ownership and
+profit margins in cross-industry panel regressions. He concludes that the full
+ownership structure of a firm, including institutional shareholders with pas-
+sive portfolio strategies, should be accounted for in the calculation of modified
+indices of market concentration. Following this work, He and Huang (2017) use
+trends across industries in a binary common ownership measure and correlate
+it with firm-level outcomes such as profitability and market share growth.
+No prior study has examined effects of common ownership concentration on
+product prices or quantities.
+
+In terms of methodology and setting, our analysis is related to Borenstein
+(1990), Werden, Joskow, and Johnson (1991), Kim and Singal (1993), Evans
+and Kessides (1994), Borenstein and Rose (1994, 1995), Peters (2006), Gools-
+bee and Syverson (2008), Brueckner, Lee, and Singer (2013), Luo (2014), and
+Kwoka, Hearle, and Alepin (2016), who study the effects of airline mergers and
+other route characteristics on prices. Our study differs, however, in that we
+investigate the effects of changes in market concentration due to changes in
+the ownership structure of the industry, holding constant the known structural
+determinants of prices.
+
+We also contribute to the literature on institutional investors’ involvement in
+corporate governance (see Section V). It is well known that “activist” investors
+induce changes in executive compensation, turnover, and other corporate de-
+cisions that may affect product markets (see especially Brav et al. (2008) and
+Brav, Jiang, and Kim (2011)). We note that strategic changes can typically be
+implemented only with the support of the firms’ largest shareholders, which in-
+creasingly are institutions traditionally referred to as “passive” investors. Yet,
+practitioners point out that “having a passive investment strategy has nothing
+to do with your behavior as an owner.”6 Our paper thus provides evidence for
+the notion that “the boundary between long-only money managers and activists
+is starting to blur.”7
+
+Last, our results provide an empirical answer to the question “Do firm bound-
+aries matter?” (Mullainathan and Scharfstein (2001), Atalay, Hortaçsu, and
+Syverson (2014)). Our results suggest that common ownership links can blur
+formal firm boundaries.
+
+6 Scott, Mike, April 6, 2014, Passive investment, active ownership, Financial Times.
+7 Gelles, David, and Michael de la Merced, September 26, 2014, New alliances in battle for
+
+corporate control, The New York Times.
+
+ 15406261, 2018, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12698 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Anticompetitive Effects of Common Ownership 1521
+
+II. Hypotheses
+The above literature in finance and industrial organization predicts that
+
+within-industry diversification of influential shareholders can lead to less com-
+petition in portfolio firms’ product markets. To see why, imagine an industry
+with two equal-sized firms, A and B. Suppose A undercuts B’s price to attract
+customers from B and thus gain market share. Depending on the parameters,
+firm A may benefit from such a move by selling many more units of a product
+at an only slightly reduced price. Variations of this logic are the basis for many
+standard models of competition.
+
+However, A’s gain in market share comes at the expense of firm B’s market
+share, and average prices in the market are lower. As a result, the owner of firm
+B loses more revenue than the owner of firm A gains and thus the sum of A’s and
+B’s producer rents falls. This means that an investor holding equal-sized stakes
+in both A and B would enjoy greater total (i.e., portfolio) profits if the two firms
+set prices or quantities as if they were two divisions of a monopoly instead of as
+two independent firms. We therefore expect less competition compared to the
+standard model, to the extent that shareholders are diversified across natural
+competitors and portfolio firms act in their diversified shareholders’ interest.
+
+This simple intuition is understood to be potentially important not only in the
+academic literature but also in the popular press. For example, following Berk-
+shire Hathaway’s acquisition of major stakes in each of the nation’s largest four
+airlines, CNBC’s Becky Quick asked, “You know, Warren, it does occur to me,
+though, if you’re building up such a significant stake in all the major players,
+is that anything that’s, like, monopolistic behavior? Is there any concern to
+think that you would say something to the airlines to make them make sure
+that they’re not competing [ . . . ] quite the same? What would keep somebody
+from worrying about that?”8
+
+To empirically investigate whether common ownership of competitors leads
+to higher product prices, we need a measure that captures the extent to which
+
+8 Quick, Becky, February 27, 2017, Buffett’s Berkshire takes stakes in four major airlines, CNBC,
+http://www.cnbc.com/2017/02/27/billionaire-investor-warren-buffett-speaks-with-cnbcs-becky-
+quick-on-squawk-box.html. We discuss evidence of various types of shareholders making demands
+to soften competition in Section V. That said, recalling Table I, it seems reasonable to assume
+that Wells Fargo’s top managers understand even without explicit communication with either
+shareholders or competitors’ managers that it is not in Berkshire Hathaway’s largest share-
+holders’ best interest to compete aggressively for market share against Bank of America. After
+all, Berkshire Hathaway, Wells Fargo’s largest shareholder, famously acquired a multibillion
+dollar ownership stake in Bank of America during the financial crisis. We feel assured that not
+only Bank of America’s, but also JPMorgan’s management is well informed of these interests,
+given regular interactions between JPMorgan’s top management and its largest shareholders on
+corporate governance topics (e.g., Foley, Stephen, and Ben McLannahan, February 1, 2016, Top
+U.S. financial groups hold secret summits on long-termism, Financial Times) and given the fact
+that Berkshire Hathaway’s Co-CIO is a JPMorgan director (Buhayar, Noah, September 20, 2016,
+Buffett’s investing deputy Combs named to JPMorgan’s board, Bloomberg). We find it equally
+likely that top management of the largest airlines in the United States also learned about major
+shifts in the ownership structure of the industry even without being personally informed by
+Warren Buffett.
+
+ 15406261, 2018, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12698 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+1522 The Journal of Finance©R
+
+firms’ most powerful owners are also owners of natural competitors. One such
+measure is the MHHI, originally developed by Bresnahan and Salop (1986) and
+updated by O’Brien and Salop (2000), which is used by regulators worldwide to
+assess the competitive risks of holdings of a firm’s stock by direct competitors.
+(Regulators usually ignore beneficial ownership by financial investors; by con-
+trast, we calculate MHHIs, taking into account all beneficial owners of a firm’s
+shares, which in most cases are industry outsiders.)
+
+One attractive property of the MHHI is that it allows one to decompose to-
+tal market concent∑ration (MHHI) into two parts: industry concentration as
+measured by HHI, j s2
+
+j , where sj is the market share of firm j; and common
+ownership concentration, referred to as MHHI delta. HHI captures the num-
+ber and relative size of competitors while MHHI delta captures the extent to
+which those competitors are connected by common ownership and control links.
+Formally,
+
+∑ ∑ ∑
+γ β ∑ ∑ ∑
+
+s i j ik ∑
+jsk ∑ i = s2 + s ∑i γijβik
+
+jsk , (1)
+γ β j
+
+︸ j k i ij ij
+︷︷ ︸ ︸ j︷︷ ︸ j k= j i γijβij
+
+︸ ︷︷ ︸
+MHHI HHI MHHI delta
+
+where βij is the ownership share of firm j accruing to shareholder i, γij is
+the control share of firm j exercised by shareholder i, and k indexes firm j’s
+competitors.
+
+Another attractive feature of the MHHI is that it can be interpreted in the
+context of a Cournot model of competition. As we explain in Internet Appendix9
+
+Section I, this helps inform interpretation of our empirical results and clar-
+ify potential sources of endogeneity. However, we do not estimate the model.
+Rather, we use MHHI delta as a reduced-form measure of the decrease in
+incentives to compete due to common ownership.
+
+The empirical question that we address is whether common ownership con-
+centration as measured by MHHI delta has explanatory power for airline ticket
+prices after controlling for market concentration as traditionally measured (by
+HHI) and other known determinants of prices. If MHHI delta does not capture
+an important part of shareholder incentives, or if governance or informational
+frictions prevent the implementation of shareholders’ anticompetitive incen-
+tives, empirical tests should support the null hypothesis.
+
+H0: Common ownership concentration, as measured by MHHI delta, has no
+effect on ticket prices.
+
+If, on the other hand, economic incentives, as captured by MHHI delta, ex-
+plain economic outcomes at least in part, the alternative hypothesis should find
+support.
+
+H1: Common ownership by diversified investors, as measured by MHHI delta,
+has a positive effect on ticket prices.
+
+9 The Internet Appendix may be found in the online version of this article.
+
+ 15406261, 2018, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12698 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Anticompetitive Effects of Common Ownership 1523
+
+We test these hypotheses using various methods to calculate MHHI delta,
+some of which relax the “proportional control” assumption, which holds that
+effective control is proportional to the fraction of control rights held. We also
+conduct tests in which the measure of common ownership concentration can be
+interpreted in the context of a Bertrand model of competition.
+
+III. Data
+A. Data on Ticket Prices and Market Shares
+
+We construct fares and passenger shares for each market using the publicly
+available Department of Transportation’s Airline Origin and Destination Sur-
+vey DB1B database, which contains 10% of airline tickets each quarter over
+the period 2001Q1 to 2014Q4. Following the literature, the markets that we
+consider in our baseline specifications are origin-destination airport pairs in
+the United States, regardless of direction. To construct prices and the number
+of passengers at the carrier level, we assign a ticket to the marketing carrier
+(rather than the operating carrier), and we exclude tickets with multiple tick-
+eting carriers from the analysis.10 We limit our analysis to markets with an
+average of at least 20 passengers a day. We describe other filters (to screen
+out tickets that cannot be readily assigned to a particular market, that contain
+unreliable information, etc.) in the Internet Appendix, along with the key vari-
+ables. We retain over one million observations at the carrier-market-quarter
+level.
+
+Table II reports summary statistics for our sample, both at the carrier-market
+and at the market level. The average 2008 CPI-adjusted fare per passenger
+across markets is $219. The average number of passengers per quarter is 3,930
+per carrier market and 18,429 per market. Average HHI, calculated based on
+passenger shares of ticketing carriers, is about 5,300 across markets and over
+time. On average, around two-thirds of passengers in a given market use con-
+necting flights, and sample markets contain 0.73 nonstop carriers. Southwest
+competes nonstop in 9% of the markets, and other low-cost carriers (LCCs)
+compete nonstop in 8% of the markets. For each market in our sample, we
+follow prior airline literature (see, for example, Brueckner, Lee, and Singer
+(2013)) and use data from the Bureau of Economic Analysis to calculate the
+geometric mean of population and income per capita across the metro areas at
+the endpoints. The average “market population” is 2.3 million and the average
+“market income” is approximately $42,000.
+
+B. Data on Airline Ownership
+To construct the common ownership network of each market-year-quarter,
+
+we start with institutional holdings from the Thomson-Reuters Spectrum data
+
+10 We thus abstract from frictions associated with imperfect vertical integration (Forbes and
+Lederman (2009, 2010)). Note that alliances other than direct affiliations are typically between
+domestic and foreign carriers, not between domestic carriers (Brueckner and Whalen (2000)).
+
+ 15406261, 2018, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12698 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+1524 The Journal of Finance©R
+Table II
+
+Summary Statistics
+This table shows summary statistics of our sample, both at the market-carrier level and at the market level. Data on airfares and market characteristics
+come from the Department of Transportation; data on ownership come from 13F filings and proxy statements. We exclude routes with less than 20
+passengers per day on average MHHI delta is the increase in concentration due solely to common ownership. Other variable definitions are provided
+in the Internet Appendix.
+
+Mean Std. Dev. Min. Max. N
+Market-Carrier Level
+Average Fare 229.16 97.5 25 2,498.62 1,312,778
+Log Average Fare 5.37 0.36 3.22 7.82 1,312,778
+HHI 4,639.46 2,076.81 971.16 10,000 1,312,778
+MHHI 6,493.13 1,654.73 2,039.11 10,218.54 1,243,621
+MHHI delta 1,870.24 1,127.29 0 5,798.57 1,243,621
+Number of Nonstop Carriers 0.81 1.3 0 11 1,312,778
+Southwest Indicator 0.09 0.29 0 1 1,312,778
+Other LCC Indicator 0.09 0.28 0 1 1,312,778
+Share of Passengers Traveling Connect, Market Level 0.67 0.39 0 1 1,312,778
+Share of Passengers Traveling Connect 0.86 0.32 0 1 1,312,778
+Population 2.42 2.01 0.02 16.32 1,215,267
+Income per Capita 41.89 4.9 21.53 92.5 1,215,267
+Distance 2,686.52 1,552.06 27 12,714 1,312,778
+Average Passengers 3,930.37 11,590.52 10 234,146 1,312,778
+Market Level
+Average Fare 219.31 72.52 29.66 1,045.88 282,333
+Log Average Fare 5.34 0.33 3.39 6.95 282,333
+HHI 5,264.44 2,370.44 971.16 10,000 282,333
+MHHI 6,976.12 1,767.65 2,039.11 10,218.54 262,766
+MHHI delta 1,731.44 1,206.51 0 5,798.57 262,766
+Number of Nonstop Carriers 0.73 1.19 0 11 282,333
+Southwest Indicator 0.09 0.29 0 1 282,333
+Other LCC Indicator 0.08 0.27 0 1 282,333
+Share of Passengers Traveling Connect, Market Level 0.64 0.41 0 1 282,333
+Share of Passengers Traveling Connect 0.64 0.41 0 1 282,333
+Population 2.28 1.97 0.02 16.32 255,384
+Income per Capita 41.59 5.06 21.53 92.5 255,384
+Distance 2,342.93 1,520.76 27 11,920.14 282,333
+Average Passengers 18,428.79 33,341.41 1,800 386,097.72 282,333
+Correlation between HHI and MHHI: 0.87
+Correlation between HHI and MHHI delta: −0.69
+
+ 15406261, 2018, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12698 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Anticompetitive Effects of Common Ownership 1525
+
+set that comes from 13F filings. These data include all U.S. holdings of publicly
+traded firms by institutional investors that manage more than $100 million, as
+well as information on the number of shares that are voting shares.11 Holdings
+are not observed during bankruptcy periods. During the bankruptcies of Amer-
+ican Airlines, Delta Airlines, Northwest Airlines, United Airlines, and U.S.
+Airways, we repeat the last observed value for percentage of shares owned;
+we offer detailed robustness and placebo results by varying the treatment
+of bankruptcy events. We complement the institutional ownership data with
+hand-collected noninstitutional ownership from proxy statements, available
+from the SEC’s website, for owners that hold at least 5% of outstanding shares
+in any company in our sample.
+
+To shed light on the extent of common ownership in the current U.S. airline
+industry, we list the top 10 shareholders and their ownership percentage as
+of the fourth quarter of 2016 for a sample of airlines in Table I. Note that
+American Airlines’ top-seven shareholders (who jointly control 49.55% of the
+stock) are also among the top 10 investors of Southwest Airlines and various
+other competitors. Similarly, each of Southwest’s top-six shareholders is among
+the top 10 shareholders of American and Delta, and five of them are among the
+top 10 holders of United as well. By contrast, an individual who owns 20.30%
+of Allegiant Air is the airline’s largest shareholder but does not appear among
+the largest holders of any of the other airlines. We use such cross-sectional
+variation in airline ownership and its changes over time as a source of variation
+in market-level competitor ownership networks.
+
+C. Quantifying Economic Incentives Using MHHI
+Table I gives a sense of the degree to which industry competitors are com-
+
+monly owned, but does not quantify common ownership concentration. To do so,
+we calculate the control share of shareholder i in firm j, γij, as the percentage
+of the sole and shared voting shares of firm j held by shareholder i. Similarly,
+we calculate the ownership share of investor i in firm j, βij, as the percentage
+of all shares (voting and nonvoting) of firm j held by shareholder i. We disre-
+gard shareholdings with voting and nonvoting shares of less than 0.5%. This
+filter amounts to assuming that institutions with less than 0.5% ownership of
+the firm have no weight in the firm’s objective function; we consider variations
+of this assumption below. With respect to the definition of “shareholder,” we
+aggregate holdings at the fund-family level to match the institutional feature
+of voting and governance at the family level, as well as fund families’ incen-
+tives, which—consistent with the incentives of their investors—are determined
+
+11 The Thomson-Reuters data set is known to be incomplete and feature various inaccuracies.
+To improve its accuracy, we combine holdings from separate filings by the same asset manager,
+and add missing filings that we obtain from the SEC’s website for BlackRock in 2010 and 2013 to
+2015, Barclays in 2003Q4, Northern Trust in 2014Q1, BNY Mellon in 2013Q3, and JPMorgan in
+2003Q4, 2008Q3, and 2013Q3 to Q4.
+
+ 15406261, 2018, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12698 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+1526 The Journal of Finance©R
+
+primarily by the value of their total assets under management.12 (The family’s
+incentives must not be confused with the incentives of an individual fund man-
+ager within the family, which are often tied to outperforming a benchmark or
+tracking an index).13
+
+We calculate MHHI delta (the density of the ownership network) for each
+route quarter between 2001Q1 and 2014Q4. Figure 1 shows the average MHHI
+and average HHI across routes over that period; the difference (MHHI delta)
+is the part of market concentration that is due to common ownership. Despite
+various mergers, market-level HHI is quite stable over time. By contrast, the
+average MHHI delta was around 1,400 at the beginning of the period, declined
+to approximately 1,000 in 2006 to 2007, and then increased to about 2,500
+in 2014. Weighting by average passengers in the market over time, the aver-
+age MHHI delta in 2014 is 2,044. The stark increase in MHHI delta in 2009
+coincides with BlackRock’s acquisition of BGI that we will use in one of our
+identification strategies.
+
+To put these numbers in perspective, the DOJ/FTC 2010 Horizontal Merger
+Guidelines state that in highly concentrated markets (that is, markets with
+an HHI greater than 2,500), mergers involving changes in HHI of more than
+200 points are “presumed likely to enhance market power.” Thus, the average
+MHHI delta in the airline industry due to common ownership in 2014Q4 im-
+plies increases in concentration that are more than 10 times higher than the
+threshold that raises antitrust concerns, if one applies the guidelines to MHHI.
+This threshold also marks the point beyond which, if two parties intended to
+merge, the burden of proof that the merger does not lead to enhanced market
+power shifts to the merging parties (as opposed to the regulator). Hence, if
+the regulator were to apply this logic in changes of market concentration that
+are due to common ownership, asset managers would have to prove that the
+common ownership links that their holdings or acquisitions create do not affect
+market prices.
+
+Figure 1 also provides histograms of the distribution of MHHI delta across
+routes in 2001Q1 and 2014Q4. Across the full sample, about 5% of routes have
+
+12 Although some evidence exists of coordination of governance activities across fund families,
+we do not empirically study the possibility of blockholders forming coalitions as suggested by
+Zwiebel (1995), because we have no hard data on such behavior. Interviews with proxy managers
+indicate that antitrust concerns prevent them from discussing proxy voting with other investors
+at a high frequency.
+
+13 One may thus wonder why fund managers rescind their votes to an office that may vote the
+shares different from their fund’s interest. There are two reasons. First, it is well known that cross-
+fund subsidization is in the interest of their families (Gaspar, Massa, and Matos (2006)). Second,
+coordinating corporate governance activities at the family level can be consistent with fulfilling the
+fund manager’s fiduciary duty toward individual investors as the equilibrium outcome can benefit
+all investors compared to the alternative of disaggregated voting, even if each individual owner
+would choose a slightly different policy. This can be true for both cost degression and strategic
+reasons. The strategic interpretation is that the asset manager serves a coordinating role, similar
+to the role of some voting trusts a century ago. Individual investors appear content to give up
+voting rights to the fund manager for similar reasons.
+
+ 15406261, 2018, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12698 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Anticompetitive Effects of Common Ownership 1527
+
+8,000
+
+7,000
+
+6,000
+
+5,000
+
+4,000
+
+2,000 4,000 6,000
+
+Figure 1. Time-series and cross-sectional variation of common ownership concentra-
+tion. The upper figure plots the weighted average of HHI and MHHI across routes from 2001Q1
+to 2014Q4. The lower figure plots the distribution of MHHI delta across markets for 2001Q1 and
+2014Q4. HHI is the Herfindahl-Hirschman Index, calculated as the sum of the squared market
+shares for a given route and year-quarter. We exclude international carriers and charter carriers.
+MHHI is a modified HHI that takes common ownership into account∑, and is defined in the Internet
+Appendix. We calculate the index using MHHI = HHI + ∑ ∑i γijβik
+
+k= j sjsk , where sj is the market
+i γijβij
+
+share of carrier j, γij is proportional to the voting share of shareholder i in carrier j, and βij is the
+share of carrier j owned by shareholder i. MHHI delta, which is a measure of common ownership
+among airlines in a route, is the difference between MHHI and HHI. Averages are calculated
+across routes at a given point in time. We exclude routes with less than 20 passengers per day on
+average. Variable definitions are provided in the Internet Appendix. (Color figure can be viewed at
+wileyonlinelibrary.com)
+
+an MHHI delta of close to zero—that is, have no common ownership. That is
+the case when only one carrier serves the route, or when the route is served
+by multiple carriers that do not share common owners. For example, JetBlue
+was not publicly traded in 2001, went public in 2002, and became owned by
+investors similar to those of the legacy carriers thereafter. Thus, some routes
+
+ 15406261, 2018, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12698 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+1528 The Journal of Finance©R
+
+served by JetBlue may be part of the zero-MHHI delta group in 2001 but part
+of the positive-MHHI delta group after the IPO. In the 2014Q4 distribution,
+the 10th percentile is at 109 HHI points, the 25th at 1,421, the median at 2,684,
+the 75th at 3,642, and the 90th percentile is at 4,184 HHI points. On average,
+common ownership increases concentration by about as much as going from
+four equal-sized carriers to two equal-sized carriers. The correlation between
+MHHI delta and HHI is −0.69. The correlation between MHHI and HHI is
+0.87.
+
+In sum, the incentives for anticompetitive behavior implied by current levels
+of common ownership, as measured by MHHI delta, are an order of magnitude
+larger than those for market power recognized by conventional measures that
+are measured on the same scale. We examine whether firms implement these
+incentives in the following section.
+
+IV. Empirical Methodology and Results
+A. Panel Regressions of Product Prices on Common Ownership
+
+Figure IA.1 plots the average airfare against the average MHHI delta for each
+market in our sample, where the average is taken across all quarters in our
+sample period. A linear fit indicates a positive raw correlation between airfares
+and MHHI delta across markets. Of course, we do not infer a causal effect from
+this raw correlation. Many factors could impact differences in airfares across
+markets that may also be correlated with common ownership in a given market.
+In our baseline analysis, we address various such omitted variable concerns
+with explicit controls and fixed effects.
+
+A.1. Panel Regression Methodology
+In our main specification, we regress the logarithm of the average price for
+
+carrier j in route r at time t on MHHI delta, HHI, additional controls, time
+fixed effects, and market-carrier fixed effects:
+
+log(prjt) = β · MHHI deltart + γ · HHIrt + θ · Xrjt + αt + νrj + εrjt, (2)
+
+where prjt is the average price of carrier j in route r at time t, MHHI deltart
+is the MHHI delta for route r at time t (it is the difference between MHHI
+and HHI—not the time variation in MHHI), Xrjt is a vector of controls, αt are
+time fixed effects (at the quarterly frequency), and νrj are market × carrier
+fixed effects. Following Goolsbee and Syverson (2008), we weight the market-
+carrier-level regressions by the average number of passengers of the market
+and carrier over time. We double-cluster standard errors by market-carrier
+and year-quarter. In addition, we run regressions aggregated at the market
+level:
+
+log(prt) = β · MHHI deltart + γ · HHIrt + θ · Xrt + αt + νr + εrt, (3)
+
+ 15406261, 2018, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12698 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Anticompetitive Effects of Common Ownership 1529
+
+where pit is the average price of route i at time t. We consider alternative
+specifications below. In the market-level regressions, we weight by the average
+number of passengers of the market and double-cluster standard errors by
+market and year-quarter.
+
+As controls, we include the log of distance interacted with year-quarter fixed
+effects to control for the price effect of changes in oil or fuel prices that may
+differentially affect routes of different length in ways that could be correlated
+with common ownership. We also include various market characteristics that
+HHI fails to capture: the number of nonstop carriers operating in a route, an
+indicator for whether Southwest operates nonstop in a route, an indicator for
+whether another LCC operates in a route, the log of the geometric average of
+the population in the two endpoints of a route, the log of the geometric average
+of per-capita income in the two endpoints of a route, the share of passengers in
+the market that travel using connecting flights, and the share of passengers for
+the market carrier that travel using connecting flights (in the market-carrier-
+level regressions).
+
+When interpreting the coefficient on MHHI delta (β), one should keep in
+mind that market shares (which enter both MHHI delta and HHI) are poten-
+tially endogenous in ways that are likely to negatively bias this coefficient.
+An investor with holdings only in one airline should increase her stake if she
+correctly (and before the rest of the market) anticipates an increase in firm
+profitability. Such purchases decrease MHHI delta, which leads to a negative
+relation between MHHI delta and future price-cost margins. If this theory is
+correct, an instrumented version of the above regression should produce higher
+estimates of β. The bias could also go in the other direction. This would be the
+case if passive investors’ portfolios anticipated demand shifts in particular air-
+lines’ routes more so than active investors did, and as a result bought shares
+in multiple airlines flying these routes, which would lead to an endogenously
+positive relation between MHHI delta and ticket prices. This seems implausi-
+ble. However, such variation could be implemented by active investors picking
+industries rather than stocks. To shed light on the direction of the bias, we com-
+pare estimates across panel and instrumented regressions and find support for
+negative bias in the baseline regressions. We also find in several placebo tests
+that variation in MHHI delta driven by changes in ownership by shareholders
+with little effective control does not correlate with price changes. This finding
+is inconsistent with the hypothesis that endogeneity of market shares drives
+our main results.
+
+A.2. Panel Regression Results
+Results from our basic regression in equation (2) are reported in Table III. In
+
+each specification, we find a large and significant positive effect of MHHI delta
+on average fares. The coefficient of 0.194 in the first specification with only
+time and market-carrier fixed effects implies that an increase in MHHI delta
+from zero to 2,000 (approximately the weighted average level of MHHI delta in
+2014Q4) is associated with an increase in average fare of 4%. Similarly, going
+
+ 15406261, 2018, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12698 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+1530 The Journal of Finance©R
+Table III
+
+Effect of Common Ownership on Airline Ticket Prices: Panel Regressions
+This table shows regressions of the logarithm of average ticket prices on common ownership concentration, HHI, as well as various controls and
+fixed effects. MHHI delta measures the part of market concentration that is due to common ownership. Data are for the period 2001Q1 to 2014Q4.
+We exclude routes with less than 20 passengers per day on average. For the market-carrier-level regressions, we weight by average passengers for
+the market carrier over time and double-cluster standard errors at the market-carrier and year-quarter levels. For the market-level regressions, we
+weight by average passengers in the market over time and double-cluster standard errors at the market and year-quarter levels. Other variable
+definitions are provided in the Internet Appendix. While in the paper HHI and MHHI are expressed on a scale from 0 to 10,000, we use a scale of
+0 to 1 in the regressions. ***p < 0.01, **p < 0.05, *p < 0.1.
+
+Dependent Variable: Log (Average Fare)
+Market-Carrier Level Market Level
+
+(1) (2) (3) (4) (5) (6)
+MHHI delta 0.194*** 0.219*** 0.149*** 0.325*** 0.311*** 0.202***
+
+(0.0459) (0.0387) (0.0375) (0.0446) (0.0397) (0.0356)
+HHI 0.221*** 0.230*** 0.165*** 0.365*** 0.357*** 0.255***
+
+(0.0247) (0.0246) (0.0209) (0.0315) (0.0313) (0.0244)
+Number of Nonstop Carriers −0.00979*** −0.00810**
+
+(0.00269) (0.00371)
+Southwest Indicator −0.120*** −0.149***
+
+(0.00928) (0.0135)
+Other LCC Indicator −0.0618*** −0.100***
+
+(0.00717) (0.00989)
+Share of Passengers Traveling Connect, Market Level 0.124*** 0.158***
+
+(0.0167) (0.0189)
+Share of Passengers Traveling Connect 0.0986***
+
+(0.0143)
+Log (Population) 0.306*** 0.343***
+
+(0.106) (0.122)
+Log (Income per Capita) 0.374*** 0.304***
+
+√ (0.10√2) √ (0.11√0)
+Log (Distance) × Year-Quarter FE √ √ √ √ √ √
+Year-Quarter FE √ √ √
+Market-Carrier FE √ √ √
+Market FE
+Observations 1,237,584 1,237,584 1,209,517 262,350 262,350 254,999
+R2 0.820 0.825 0.836 0.852 0.861 0.876
+Number of market-carrier pairs 46,513 46,513 45,248
+Number of markets 7,185 7,185 6,906
+
+ 15406261, 2018, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12698 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Anticompetitive Effects of Common Ownership 1531
+
+from the 25th to 75th percentile increases prices by 4.3%, and going from the
+10th to 90th percentile indicates an increase in fares of 8.2%.
+
+In specification (2), we account for the differential effect that changes in
+jet-fuel prices may have on operating costs in routes of different lengths by
+controlling for the log of distance interacted with year-quarter fixed effects.
+Doing so leads to slightly higher coefficients on both HHI and MHHI delta. In
+specification (3), we add controls for market characteristics. The coefficients on
+HHI and MHHI delta remain positive and both statistically and economically
+significant, albeit slightly attenuated relative to the first specification. The
+coefficients on the control variables have the expected signs: a larger number
+of nonstop competitors, Southwest’s nonstop presence, and other LCCs’ nonstop
+presence are all associated with lower fares.
+
+Specifications (4) to (6) are analogous to specifications (1) to (3) but aggre-
+gated at the market level instead of the market-carrier level. We find qualita-
+tively similar results, but the coefficients on MHHI delta and HHI are higher.
+One possible reason is that specifications (4) to (6) do not control for market-
+carrier-specific factors, which may affect prices in the entire market. For ex-
+ample, whether a route is between two hubs of a given carrier would not be
+controlled for. Another possibility is that, in the market-carrier-level regres-
+sions, the large number of fixed effects exacerbates measurement error and
+therefore leads to more severe attenuation bias.
+
+A.3. Robustness of the Baseline Analysis
+Given that the airline industry experienced significant changes over time, in
+
+a first robustness test we examine whether the effect of MHHI delta has a sim-
+ilar magnitude over time by interacting both MHHI delta and HHI with year
+dummies. Figure IA.2 plots the coefficients for the market-level specification
+with controls. The effect of MHHI delta on fares is positive and statistically
+significant in most years, and similar in magnitude across all years, but the
+effect of MHHI delta is slightly more volatile. The coefficient on MHHI delta
+is insignificant in 2006 and 2007, possibly because both Delta Air Lines and
+Northwest were in bankruptcy during this time. Bankruptcies may confound
+the results because shareholders have no de jure control rights during such
+times, and this feature is not captured in our computation of MHHI delta.
+
+To more directly investigate the impact of bankruptcies on our estimates,
+in Table IV, specification (1), we exclude from the sample quarters in which
+one of the major airlines was in bankruptcy, which leaves us with the periods
+2001Q1 to 2002Q2, 2007Q2 to 2011Q3, and 2014Q1 to 2014Q4. The estimates
+are similar to those in the main specification. Specification (1) in Table IA.1
+further shows that if we sample only market carriers in bankruptcy, there is
+no effect of MHHI delta (but also no effect of HHI, perhaps because of the
+reduced sample size). The subsequent specifications in the table show that
+the effect of MHHI delta is similar to that in the baseline in markets not
+affected by bankruptcies, and is significant in both bankruptcy markets and
+nonbankruptcy markets (though the effects of MHHI delta and HHI are higher
+
+ 15406261, 2018, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12698 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+1532 The Journal of Finance©R
+
+Table IV
+Effect of Common Ownership on Airline Ticket Prices: Robustness
+
+This table shows various robustness tests of the panel regression of ticket prices on common ownership concentration and various controls presented
+in Table III. MHHI delta measures the part of market concentration that is due to common ownership. Data are for the period 2001Q1 to 2014Q4.
+We exclude routes with less than 20 passengers per day on average. For the market-carrier-level regressions, we weight by average passengers for
+the market carrier over time and double-cluster standard errors at the market-carrier and year-quarter levels. For the market-level regressions, we
+weight by average passengers in the market over time and double-cluster standard errors at the market and year-quarter levels. Other variable
+definitions are provided in the Internet Appendix. While in the paper HHI and MHHI are expressed on a scale of 0 to 10,000, we use a scale of 0 to
+1 in the regressions. The Banzhaf control shares are calculated by Monte Carlo simulation using 10,000 random draws for each firm-year-quarter.
+*** p < 0.01, **p < 0.05, *p < 0.1.
+
+Dependent Variable: Log (Average Fare)
+
+Excl. Inst. Carrier-
+Bankruptcy Ownership City-Pairs HHI Banzhaf CRCO Multimarket Time
+
+Periods Controls Polynomial Ctrl Shrs Contact FE
+(1) (2) (3) (4) (5) (6) (7) (8)
+
+MHHI delta 0.265*** 0.235*** 0.287*** 0.183*** 0.181*** 0.192*** 0.0765***
+(0.0535) (0.0354) (0.0398) (0.0363) (0.0352) (0.0352) (0.0270)
+
+Carrier-Route Common 0.0347***
+Ownership (0.0112)
+
+Log (Multimarket Contact) 0.0457***
+(0.00537)
+
+HHI 0.290*** 0.261*** 0.401*** 0.247*** 0.125*** 0.258*** 0.115***
+(0.0293) (0.0232) (0.0381) (0.0243) (0.0174) (0.0233) (0.0167)
+
+Number of Nonstop Carriers −0.0149*** −0.00886** 0.00335 −0.00803** −0.00814** −0.0100*** −0.00718** −0.0113***
+(0.00523) (0.00359) (0.00301) (0.00364) (0.00371) (0.00268) (0.00353) (0.00213)
+
+Southwest Indicator −0.141*** −0.140*** −0.119*** −0.147*** −0.149*** −0.117*** −0.150*** −0.106***
+(0.0160) (0.0132) (0.0122) (0.0136) (0.0135) (0.00927) (0.0135) (0.00862)
+
+Other LCC Indicator −0.0907*** −0.0986*** −0.0443*** −0.0992*** −0.101*** −0.0656*** −0.0907*** −0.0579***
+(0.0117) (0.00992) (0.0101) (0.00996) (0.00993) (0.00731) (0.00956) (0.00631)
+
+Share of Passengers Traveling 0.132*** 0.152*** 0.291*** 0.170*** 0.158*** 0.133*** 0.151*** 0.107***
+Connect, Market Level (0.0227) (0.0193) (0.0210) (0.0187) (0.0189) (0.0162) (0.0195) (0.0151)
+
+(Continued)
+
+ 15406261, 2018, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12698 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Anticompetitive Effects of Common Ownership 1533
+
+Table IV—Continued
+
+Dependent Variable: Log (Average Fare)
+
+Excl. Inst. Carrier-
+Bankruptcy Ownership City-Pairs HHI Banzhaf CRCO Multimarket Time
+
+Periods Controls Polynomial Ctrl Shrs Contact FE
+(1) (2) (3) (4) (5) (6) (7) (8)
+
+Share of Passengers Traveling 0.0940*** 0.133***
+Connect (0.0146) (0.0140)
+
+Log (Population) 0.540*** 0.273** 0.454*** 0.338*** 0.346*** 0.304*** 0.328** 0.137*
+(0.133) (0.122) (0.139) (0.123) (0.123) (0.108) (0.127) (0.0800)
+
+Log (Income per Capita) 0.422*** 0.285** 0.240** 0.303*** 0.306*** 0.374*** 0.302** 0.215***
+(0.145) (0.107) (0.104) (0.109) (0.110) (0.102) (0.117) (0.0757)
+
+Percent Institutional Ownership −0.0762***
+(0.0187)
+
+Institutional Ownership −0.110*
+Concentration (0.0568)
+
+Top 5 Holdings as Pct. of Total 0.154***
+Institutional Holdings (0.0420)
+
+√ √ √ √ √ √ √ √
+Log (Distance) × Year-Quarter
+
+FE
+10th √-Order Polynomial in HHI √ √ √ √ √ √ √
+Year-Quarter FE √ √
+Market-Carrier FE √ √ √ √ √ √
+Market FE √
+Carrier-Year-Quarter FE
+Observations 127,128 254,999 201,983 254,999 254,999 1,209,517 244,257 1,209,496
+R2 0.886 0.878 0.890 0.877 0.876 0.836 0.874 0.855
+Number of markets 6,470 6,906 5,305 6,906 6,906 6,553
+Number of market-carrier pairs 45,248 45,243
+
+ 15406261, 2018, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12698 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+1534 The Journal of Finance©R
+
+in the latter). The bottom line is that the results are generally weaker in
+markets and at times affected by bankruptcies, consistent with shareholders
+not being in control during such times. We conclude that the baseline results
+are not driven by an unusual sample subperiod in general or by bankruptcies
+in particular.
+
+We also check robustness to adding institutional ownership and institutional
+ownership concentration controls. Following Hartzell and Starks (2003), we
+calculate the share of institutional ownership, institutional ownership concen-
+tration (measured as the HHI of the institutional ownership shares), and the
+fraction of total institutional ownership that is held by the top five institu-
+tional owners in the firm. For the market-level regressions, we calculate the
+passenger-weighted average of the institutional ownership variables. The re-
+sults are similar, as shown in Table IV, specification (2). The table also checks
+robustness to various other concerns. For example, city pairs may constitute
+a better basis for defining a market than airport pairs. Table IV, specification
+(3), shows that the results are similar and indeed somewhat stronger. Also,
+the functional form assumed by equation (2) is unlikely to drive the results:
+controlling for a 10th-order polynomial in HHI does not significantly change
+the coefficient on MHHI delta (specification (4)).
+
+A.4. Limitations of the Baseline Analysis
+An attractive feature of the analysis so far is that a large number of poten-
+
+tially omitted variables is differenced out via fixed effects. For example, because
+we employ carrier-route fixed effects, market power on specific routes due to
+frequent-flyer programs (Lederman (2007)) is differenced out. Nevertheless,
+several other significant limitations remain, including potential endogeneity
+of market share and ownership as well as various forms of model misspecifica-
+tion. We first address reverse causality, that is, the possibility that ownership
+changes could be driven by price changes rather than the other way around.
+Next, we consider alternative approaches to computing MHHI delta. Most im-
+portantly, we relax the proportional control assumption. In doing so, we not
+only ensure robustness, but also obtain insights into which shareholders drive
+the results as well as the corporate governance mechanisms that appear to be
+at play. These variations also yield important placebo tests: when MHHI delta
+is computed using ownership stakes of shareholders that are not expected to
+exert control on firm strategy, MHHI delta should have no effect on prices un-
+less endogeneity of market shares or other misspecifications drive the results.
+We also consider alternative specifications that can be more easily interpreted
+in the context of a Bertrand model of competition. We show that controlling
+for multimarket contact does not significantly impact the effect of common
+ownership concentration.
+
+B. Reverse Causality Concerns
+We employ three sets of tests to examine—and reject—the hypothesis that
+
+the baseline results are due to changes in ticket pricing causing changes in
+
+ 15406261, 2018, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12698 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Anticompetitive Effects of Common Ownership 1535
+
+common ownership, market share, or both, rather than the other way around.
+We begin by using distributed-lag regressions. We then use DiD and an instru-
+mental variable (IV) strategy that relies on a large consolidation event in the
+asset management industry as a quasi-exogenous shock to common ownership
+concentration. We close with panel regressions that use passenger volume as
+the outcome variable instead of ticket prices.
+
+B.1. Panel Regressions with Leads and Lags of MHHI Delta and HHI
+If increased common ownership concentration causes higher prices, but
+
+higher prices do not cause increased common ownership concentration, one
+would expect increases in common ownership concentration to precede price
+increases—one would not expect higher common ownership concentration to
+follow price increases. To test these hypotheses against each other, we imple-
+ment dynamic panel regressions that include leads and lags of MHHI delta.
+Table V shows that the coefficients on lags of MHHI delta are correlated with
+prices, whereas the coefficients on leads of MHHI delta are not significantly dif-
+ferent from zero. The former result reduces the likelihood of reverse causality
+and is consistent with the institutional feature that most airlines precommit
+capacity to routes months in advance. The latter (non)result constitutes a first
+successful placebo test. Note also that the coefficient on lagged MHHI delta is
+very similar in magnitude to the baseline estimate.
+
+However, theoretically there remains a possibility that some investors are
+well informed about route-level demand changes several months before the fact
+but cannot determine which airline serving the route will benefit more, and
+therefore buy shares of all airlines with high market shares in those routes,
+thus driving the association between lagged MHHI delta and current prices.
+To test this hypothesis, we would ideally reassign common ownership densities
+across routes in a way that has no obvious link to future changes in demand
+or in airlines’ pricing strategies. An event that took place in the asset manage-
+ment industry in 2009 affords us a setting that comes close to such an ideal
+experiment. We analyze this event next.
+
+B.2. Variation Due to the BlackRock-BGI Acquisition
+Background on BlackRock’s Acquisition of BGI: Following the financial crisis
+that began in 2007, Barclays tried to strengthen its balance sheet. On March
+16, 2009, Barclays received a $4 billion bid from CVC Capital Partners for its
+iShares family of exchange-traded funds, along with an option to solicit com-
+peting offers. BlackRock announced a bid to acquire iShares’ parent division,
+BGI, for $13.5 billion on June 11, 2009 (i.e., in 2009Q2). The bid was successful
+and the acquisition was formally completed in December 2009.
+
+The history of Barclays’ attempt to sell iShares to investors other than Black-
+Rock suggests the divestment decision was not driven primarily by consider-
+ations regarding how the iShares portfolio would combine with BlackRock’s
+portfolio in terms of potential product market effects. Moreover, U.S. airline
+
+ 15406261, 2018, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12698 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+1536 The Journal of Finance©R
+
+Table V
+Effect of Common Ownership on Airline Ticket Prices: Distributed-Lag Regressions
+
+This table shows dynamic panel regressions of ticket prices on leads and lags of common ownership concentration, as well as HHI and various controls.
+Common ownership is measured as MHHI delta. Data are for the period 2001Q1 to 2014Q4. We exclude routes with less than 20 passengers per day
+on average. For the market-carrier-level regressions, we weight by average passengers for the market carrier over time and double-cluster standard
+errors at the market-carrier and year-quarter levels. For the market-level regressions, we weight by average passengers in the market over time and
+double-cluster standard errors at the market and year-quarter levels. MHHI delta is the increase in concentration due solely to common ownership.
+Other variable definitions are provided in the Internet Appendix. While in the paper HHI and MHHI are expressed on a scale of 0 to 10,000, we use
+a scale of 0 to 1 in the regressions. ***p < 0.01, **p < 0.05, *p < 0.1.
+
+Dependent Variable: Log (Average Fare)
+
+Market-Carrier Level Market Level
+
+(1) (2) (3) (4) (5) (6)
+
+MHHI delta: Lead −0.0722 −0.0397 −0.0502 −0.0176 0.000444 −0.0224
+(0.0618) (0.0531) (0.0497) (0.0620) (0.0535) (0.0496)
+
+MHHI delta 0.110 0.104 0.0452 0.181* 0.159** 0.0802
+(0.0918) (0.0710) (0.0669) (0.0917) (0.0726) (0.0666)
+
+MHHI delta: Lag 0.159** 0.170*** 0.161*** 0.178** 0.177*** 0.162***
+(0.0693) (0.0538) (0.0506) (0.0685) (0.0544) (0.0492)
+
+HHI: Lead 0.0252 0.0412* 0.0132 0.0650** 0.0592** 0.0362
+(0.0254) (0.0226) (0.0218) (0.0261) (0.0251) (0.0246)
+
+HHI 0.00598 0.00260 −0.00494 0.0775** 0.0893*** 0.0405
+(0.0353) (0.0282) (0.0261) (0.0384) (0.0326) (0.0297)
+
+HHI: Lag 0.218*** 0.220*** 0.182*** 0.274*** 0.256*** 0.214***
+(0.0290) (0.0254) (0.0237) (0.0298) (0.0269) (0.0248)
+
+Number of Nonstop Carriers −0.00906*** −0.00703*
+(0.00267) (0.00369)
+
+Southwest Indicator −0.119*** −0.149***
+(0.00950) (0.0135)
+
+Other LCC Indicator −0.0616*** −0.0983***
+(0.00713) (0.00984)
+
+(Continued)
+
+ 15406261, 2018, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12698 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Anticompetitive Effects of Common Ownership 1537
+
+Table V—Continued
+
+Dependent Variable: Log (Average Fare)
+
+Market-Carrier Level Market Level
+
+(1) (2) (3) (4) (5) (6)
+
+Share of Passengers Traveling Connect, Market Level 0.137*** 0.158***
+(0.0162) (0.0195)
+
+Share of Passengers Traveling Connect 0.0699***
+(0.0142)
+
+Log (Population) 0.280** 0.323**
+(0.105) (0.122)
+
+Log (Income per Capita) 0.345*** 0.288***
+(0.0975) (0.107)
+
+√ √ √ √
+Log (Distance) × Year-Quarter FE √ √ √ √ √ √
+Year-Quarter FE √ √ √
+Market-Carrier FE √ √ √
+Market FE
+Observations 1,002,802 1,002,802 982,245 221,674 221,674 216,175
+R2 0.836 0.841 0.851 0.857 0.865 0.879
+Number of market-carrier pairs 35,840 35,840 35,038
+Number of markets 5,872 5,872 5,698
+
+ 15406261, 2018, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12698 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+1538 The Journal of Finance©R
+
+stocks constituted only a small share of BGI’s portfolio and thus it is unlikely
+that airlines were pivotal to BlackRock’s decision to acquire BGI, much less
+route-level variation in expected ticket price changes, which alleviates reverse
+causality concerns. More formally, the exclusion restriction is that the cross-
+sectional distribution across U.S. airlines routes in the implied increase in
+common ownership from a hypothetical, premerger combination of BlackRock
+and BGI’s equity portfolios is uncorrelated with errors in the ticket-price re-
+gression, conditional on controls. This assumption could fail, for example, if we
+systematically mismeasured economic conditions at departure and destination
+points in ways that begin to correlate after the acquisition with the increase
+in common ownership concentration implied by a hypothetical combination of
+preannouncement airline stakes of BlackRock and BGI. While we are not aware
+of a particular reason to expect such a correlation, such a possibility remains a
+limitation of our analysis.
+
+Notwithstanding the fact that airlines constituted only a small part
+of the merging parties’ portfolios, both Barclays and BlackRock were among
+the largest owners of some airlines but not others. For example, Barclays was
+the fifth-largest and BlackRock was the 17th-largest shareholder of Airtran Air-
+ways in 2009Q1, but a hypothetically combined BlackRock-BGI entity would
+have been the second-largest shareholder of the firm in 2009Q1, and hence
+much more powerful. By contrast, BGI also held a large stake in American Air-
+lines before the merger but BlackRock did not. As a result, merging BlackRock
+and BGIs’ equity portfolios had no effect on American’s ownership structure.
+The variation across portfolio firms in the degree to which the BlackRock-
+BGI changed their ownership structure translates into variation across airline
+routes because different combinations of airlines compete in different routes.
+
+DiD Design: We exploit the variation in common ownership concentration
+across markets generated by BlackRock’s acquisition of Barclays BGI as fol-
+lows. We start by calculating MHHI delta in the quarter before the acquisition
+was announced, 2009Q1, for each airline market. We then calculate a counter-
+factual MHHI delta for the same period and market with the only difference
+being that we treat the holdings of BlackRock and Barclays as if they were
+already held by a single entity. We call the difference between the latter and
+former MHHI deltas the “implied change in MHHI delta.” The null hypothesis
+is that the acquisition had no effect on portfolio firms’ product market behavior.
+The alternative hypothesis is that markets more affected by the acquisition—
+those with a higher implied change in MHHI delta—experienced price increases
+relative to less affected markets.
+
+Figure IA.3 shows the distribution of the implied change in MHHI delta
+across routes. Markets in the top tercile are the treatment group, and markets
+in the bottom tercile are the control group. The mean and median of the im-
+plied change across routes is 91 HHI points, the implied change is larger than
+100 HHI points in more than 2,000 routes, and the largest implied increase
+is 281 HHI points. These are nontrivial changes in market concentration, and
+thus changes for which we can reasonably expect to find increases in market
+
+ 15406261, 2018, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12698 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Anticompetitive Effects of Common Ownership 1539
+
+prices. The DOJ/FTC Horizontal Merger Guidelines state that “Mergers result-
+ing in highly concentrated markets [HHI over 2,500] that involve an increase
+in the HHI of between 100 points and 200 points potentially raise significant
+competitive concerns and often warrant scrutiny.”
+
+We next estimate the following DiD specification, interacting the treatment
+dummy and controls with year-quarter fixed effects, for all periods between
+2006Q2 (12 quarters before the announcement) and 2014Q4:
+
+∑npost ∑npost
+
+log(prjt) = δk
+DiD · T reatk
+
+r + γ k
+DiD · Xk
+
+rj + αt + νrj + εrjt, (4)
+k=−npre k=−npre
+
+where Treatk
+j is the interaction between the treatment dummy and year-
+
+quarter fixed effects, that is, a dummy equal to one for treated firms in period k
+and zero otherwise. Similarly, Xk
+
+j is the interaction between preperiod control
+variables and year-quarter fixed effects. We drop the interactions with 2008Q4,
+which serves as the base period, and thus the estimated δk
+
+DiD coefficients rep-
+resent the change in the difference between treatment and control markets
+between 2008Q4 and the given period.
+
+Various potentially confounding events occurred around this period, in-
+cluding several mergers, a bankruptcy, and the Great Recession. First, the
+Delta-Northwest merger was announced in April 2008 and became effective in
+September 2008. Similarly, the United-Continental merger was announced in
+May 2010 and became effective in October 2010, the Southwest-Airtran merger
+was announced in September 2010 and became effective in March 2012, and
+the American-U.S. Airways merger was announced in February 2013 and be-
+came effective in November 2013. These mergers may have directly affected
+markets that had a sizable share of both merging partners. If these effects
+were for some reason correlated with the way common ownership concentra-
+tion increased as a result of the BlackRock-BGI acquisition, the DiD coefficients
+could be biased. To determine whether this concern is likely to be empirically
+important, we capture the extent to which a route was affected by each merger
+by computing the implied increase in HHI in each route in the quarter before
+the merger for the Delta-Northwest merger and in 2009Q1 for the others (since
+these happened after the BGI acquisition, we need to use 2009Q1 instead of the
+premerger quarter to avoid using the postperiod in the calculation of the con-
+trol variables). We add these implied HHI deltas interacted with year-quarter
+fixed effects as controls. In addition, American Airlines filed for bankruptcy
+in November 2011. We control for American’s share in a market in 2009Q1
+interacted with year-quarter fixed effects to account for any direct effect of this
+event. Last, the U.S. economy was emerging from recession around the time of
+the BGI acquisition. We capture the exposure of a route to the recession as the
+change in log per-capita income between the start of the Great Recession in
+2007Q3 and 2009Q1, and add this measure interacted with year-quarter fixed
+effects as a control as well.
+
+ 15406261, 2018, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12698 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+1540 The Journal of Finance©R
+
+–0.02
+
+–0.04
+
+–0.06
+
+Figure 2. Estimated coefficients of BlackRock-BGI acquisition treatment indicator in-
+teracted with year-quarter fixed effects. The graph plots the estimated coefficient on interac-
+tions of the treatment indicator variable with year-quarter fixed effects. We drop the interaction
+for 2008Q4, and thus the effect is normalized to zero for that quarter. We control for HHI, the
+number of nonstop carriers operating in the route, a Southwest indicator, another LCC indicator,
+log average population in the route endpoints, log average per-capita income in the route end-
+points, the share of passengers in the market using connecting flights, and the log distance of the
+route, each evaluated in 2009Q1 and interacted with year-quarter fixed effects. We also control
+for potential confounding events using the implied HHI delta in the route from the Delta Airlines
+(DL)-Northwest Airlines (NW), United Airlines (UA)-Continental Airlines (CO), American Airlines
+(AA)-US Airways (US), and AirTran Airways (FL)-Southwest Airlines (WN) mergers, the share in
+the route of AA in 2009Q1, and the change in log per-capita income in the route from the start
+of the Great Recession until 2009Q1, each interacted with year-quarter fixed effects. We weight
+by average passengers for the market carrier over time and double-cluster standard errors at the
+market-carrier and year-quarter levels. (Color figure can be viewed at wileyonlinelibrary.com)
+
+The results are reported in Figure 2. While the difference between the treat-
+ment and control fluctuates around zero somewhat during the preperiod, the
+overall trend before the announcement is flat. The trend changes after the an-
+nouncement of the acquisition, and the coefficients are significantly positive for
+most periods after the completion of the acquisition. Thus, the sign of the effect,
+based on variation in common ownership generated by the BGI acquisition, is
+consistent with our previous results from the panel regressions.
+IV Design: In this subsection, we complement the DiD analysis above with an
+IV strategy to obtain a quantitative estimate of the effect of the MHHI delta on
+prices from the variation generated by the event study. As the preperiod, we use
+the first quarter before the announcement, 2009Q1. We use 2010Q1, 2011Q1,
+2012Q1, 2013Q1, and 2014Q1 as the postperiods (we follow the literature and
+use the same quarter as the preperiod to rule out seasonality effects), as well
+as the average of these five quarters. We run specifications with the change in
+log average fares between the period of interest and 2009Q1 as the dependent
+variable, and the change in MHHI delta between 2009Q1 and the postperiod
+
+ 15406261, 2018, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12698 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Anticompetitive Effects of Common Ownership 1541
+
+as the main explanatory variable, controlling for market and carrier character-
+istics evaluated in 2009Q1. We include all of the control variables used in the
+baseline specification:
+
+	2009Q1-Post log(prj) = δIV · 	2009Q1-PostMHHIdeltar + Xrj,2009Q1 + εrj . (5)
+
+In a continuous-treatment version, we instrument using the raw implied
+change in MHHI delta, which serves as a continuous treatment variable. In a
+discrete-treatment version, we instrument the actual change in MHHI delta
+between the pre- and postperiod with the treatment dummy constructed using
+the top and bottom terciles of the implied change in MHHI delta, as in the DiD
+analysis above. The relative benefits of the discrete-treatment specification are
+that it may mitigate concerns related to measurement error and it is easier
+to understand and depict graphically; the benefit of the continuous-treatment
+version is that it makes use of more variation. We use heteroskedasticity-robust
+standard errors (after taking differences, the above are just cross-sectional
+regressions).
+
+Table IA.II presents the first-stage regressions of MHHI delta on the discrete-
+treatment instrument and several control variables. MHHI delta, either the
+discrete or continuous version, is a strong instrument for the actual change in
+MHHI delta. Specifically, the F-statistics from weak identification tests range
+from 57 to 324. (As one would expect, the largest values obtain for 2010Q1,
+right after the acquisition.) Table VI reports the second-stage results using the
+continuous treatment. We find a positive and economically sizable but statis-
+tically insignificant effect of the change in MHHI delta on the change in log
+average airfares in 2010Q1, 2011Q1, and 2013Q1, and positive and statistically
+significant coefficients for 2012Q1 and 2014Q1. The effect for the average of the
+four periods is positive and highly statistically significant, with a coefficient of
+0.466, which is markedly higher than the effects estimated in panel regressions.
+Table IA.III shows similar results using the discrete-treatment variable as an
+instrument. The estimated effect using the postperiod from 2010 to 2014Q1
+is 0.462. Multiplying the estimates by the average MHHI delta across routes
+would imply that ticket prices are about 10% to 12% higher because of com-
+mon ownership alone, compared to a counterfactual world in which firms are
+separately owned or in which firms ignore the anticompetitive incentives of
+their shareholders. As an alternative gauge of economic significance, note that
+the average implied MHHI delta is about 91 HHI points. Our estimates thus
+indicate that ticket prices on the average U.S. airline route increased by about
+0.5% as a direct result of the BlackRock-BGI acquisition.
+
+B.3. Effect of Common Ownership Concentration on Passenger Volume
+We now provide our fourth—and perhaps simplest—response to the concern
+
+that the baseline results could be driven by reverse causality, that is, that some
+investors correctly anticipate demand changes in specific airline routes and buy
+stakes in various carriers with high exposure to precisely those routes. Under
+
+ 15406261, 2018, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12698 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+1542 The Journal of Finance©R
+Table VI
+
+Effect of Common Ownership on Airline Ticket Prices: IV Regressions Using Continuous Treatment:
+Second Stage
+
+This table shows the second stage of instrumental-variables regressions of tickets prices on the increase in common ownership implied by a hypothetical
+combination of BlackRock and BGI’s premerger portfolios. MHHI delta measures the part of market concentration that is due to common ownership.
+The preperiod is 2009Q1 (the quarter before the BlackRock acquisition of BGI was announced). We divide markets into treatment and control groups
+as follows: (i) we calculate the actual MHHI delta in 2009Q1, (ii) we calculate a counterfactual MHHI delta in 2009Q1 combining the holdings of
+BlackRock and BGI, and (iii) we calculate the difference between the counterfactual and the actual for each market. We use the resulting implied
+change in MHHI delta as a continuous treatment variable. We exclude markets with less than 20 passengers per day on average. We exclude market
+carriers with any missing observations during the period 2006Q2 to 2014Q4. We weight by passengers the market carrier in 2009Q1. Standard errors
+are robust to heteroskedasticity. Variable definitions are provided in the Internet Appendix; airline abbreviations are defined in Figure 2. While in
+the paper HHI and MHHI are expressed on a scale of 0 to 10,000, we use a scale of 0 to 1 in the regressions. ***p < 0.01, **p < 0.05, *p < 0.1.
+
+Dependent Variable: Change in Log (Average Fare) 2009Q1-Post
+
+2010Q1 2011Q1 2012Q1 2013Q1 2014Q1 2010 to 2014Q1
+Postperiod: (1) (2) (3) (4) (5) (6)
+
+Change in MHHI delta 2009Q1-Post 0.117 0.0743 0.812*** 0.315 0.858*** 0.466***
+(0.126) (0.281) (0.177) (0.222) (0.187) (0.157)
+
+HHI 2009Q1 0.0322 0.0272 0.0289 0.0522 0.0812* 0.0444
+(0.0279) (0.0394) (0.0366) (0.0397) (0.0469) (0.0319)
+
+Number of Nonstop Carriers 2009Q1 0.00946** 0.0128** 0.00722 0.0183*** 0.0154*** 0.0123***
+(0.00371) (0.00520) (0.00545) (0.00497) (0.00591) (0.00451)
+
+Southwest Indicator 2009Q1 0.0143 0.0404*** 0.0496*** 0.0697*** 0.0775*** 0.0483***
+(0.00989) (0.0109) (0.0125) (0.0125) (0.0148) (0.0102)
+
+Other LCC Indicator 2009Q1 −0.0111 −0.0288** 0.00277 0.00268 0.0105 −0.00494
+(0.0110) (0.0133) (0.0135) (0.0142) (0.0158) (0.0114)
+
+Share of Passengers Traveling Connect 2009Q1 0.0303*** 0.0538*** 0.0240** 0.0252** 0.0350*** 0.0336***
+(0.00864) (0.00995) (0.0111) (0.0116) (0.0126) (0.00894)
+
+Share of Passengers Traveling Connect, Market Level 2009Q1 −0.0296 0.0144 0.00152 0.145*** 0.0707** 0.0370*
+(0.0200) (0.0261) (0.0275) (0.0268) (0.0313) (0.0222)
+
+Log (Population) 2009Q1 −0.0106 0.00441 −0.0207** 0.000642 0.000805 −0.00383
+(0.00688) (0.00773) (0.00903) (0.00830) (0.00895) (0.00718)
+
+(Continued)
+
+ 15406261, 2018, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12698 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Anticompetitive Effects of Common Ownership 1543
+
+Table VI—Continued
+
+Dependent Variable: Change in Log (Average Fare) 2009Q1-Post
+
+2010Q1 2011Q1 2012Q1 2013Q1 2014Q1 2010 to 2014Q1
+Postperiod: (1) (2) (3) (4) (5) (6)
+
+Log (Income per Capita) 2009Q1 −0.0518* 0.0296 0.0172 0.0739* −0.0473 0.00353
+(0.0311) (0.0344) (0.0424) (0.0420) (0.0452) (0.0318)
+
+Log (Distance) 2009Q1 −0.00381 −0.0225*** −0.0244*** −0.0313*** −0.0543*** −0.0275***
+(0.00588) (0.00692) (0.00752) (0.00727) (0.00816) (0.00599)
+
+Share DL × Share NW in 2008Q4 0.0639 0.100 0.349 0.477* 0.0396 0.251
+(0.223) (0.254) (0.272) (0.283) (0.356) (0.246)
+
+Share UA × Share CO in 2009Q1 0.230 0.939*** 1.129*** 1.574*** 1.573*** 1.063***
+(0.174) (0.315) (0.321) (0.351) (0.317) (0.214)
+
+Share AA × Share US in 2009Q1 0.206 0.0113 0.536** 0.383 0.849*** 0.366*
+(0.143) (0.284) (0.258) (0.235) (0.310) (0.202)
+
+Share FL × Share WN in 2009Q1 0.0119 0.0460 0.744*** 0.348 0.718*** 0.295**
+(0.102) (0.130) (0.173) (0.219) (0.182) (0.128)
+
+Share AA in 2009Q1 −0.0131 0.0187 0.0201 −0.0179 0.0132 0.00187
+(0.0169) (0.0234) (0.0244) (0.0223) (0.0232) (0.0179)
+
+Percent Change in Income during Great Recession −0.0301 0.200 0.162 −0.324* −0.230 −0.0410
+(0.116) (0.134) (0.162) (0.166) (0.171) (0.126)
+
+Constant 0.245** 0.110 0.186 −0.0843 0.510*** 0.201*
+(0.121) (0.128) (0.157) (0.157) (0.176) (0.121)
+
+Observations 7,890 7,890 7,890 7,890 7,890 7,890
+R2 0.030 0.060 0.049 0.072 −0.008 0.068
+
+ 15406261, 2018, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12698 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+1544 The Journal of Finance©R
+
+this “anticipated demand” hypothesis, there should be a positive correlation
+not only between MHHI delta and prices, but also between MHHI delta and
+passenger volume. By contrast, if the previously documented price effects are
+caused by reduced supply due to higher common ownership concentration,
+MHHI delta should correlate negatively with passenger volume.
+
+Table IA.V, specification (1), reports results for regressions of passenger vol-
+ume on common ownership, HHI, year-quarter fixed effects, and market fixed
+effects. Specification (2) adds additional market-structure controls, and speci-
+fication (3) includes all of the controls used in the saturated price regressions.
+In all specifications, both HHI and MHHI delta have a negative and signifi-
+cant effect on market passengers, although the magnitude of the coefficients
+is less stable across specifications than in the price regressions. The coefficient
+on HHI ranges from −0.496 to −0.583, whereas the coefficient on MHHI delta
+ranges from −0.665 to −0.213 in the most saturated specification. Using the
+weighted-average MHHI delta of 2,044 in 2014Q4 to gauge economic signif-
+icance, the coefficient of around −0.2 from the most saturated specification
+indicates that the average route has approximately 4% fewer market passen-
+gers than there would be under separate ownership.
+
+These results enable us to conduct an additional consistency check. Divid-
+ing the coefficient from the quantity regressions’ specification (1), −0.665, by
+the coefficient from the price regressions’ specification (4), 0.325, implies an
+elasticity of demand in the average route of −2.05. Using specifications (2) and
+(5) from the quantity and price regressions, respectively, the implied elasticity
+is −1.95. Specifications (3) and (6) imply an elasticity of −1.05. This range of
+estimates is similar to that reported in the existing literature (−1.37 to −2.01
+in Berry and Jia (2010), and −1.4 in IATA (2008)).
+
+These results indicate that increasing demand and reverse causality are un-
+likely to be driving the price effects. Instead, the results are consistent with
+increased market power. In addition, the findings suggest why the anticompet-
+itive effects of common ownership have welfare implications: the deadweight
+loss to the economy comes from the reduced output that accompanies higher
+consumer prices.
+
+C. Relaxing the Proportional Control Assumption
+C.1. Effect of Common Ownership by Shareholder Rank
+
+We now turn to robustness checks that are also informative about the po-
+tential corporate governance mechanisms that implement the anticompetitive
+shareholder incentives. In the baseline specifications reported previously, we
+calculate MHHI delta using all shareholders larger than 0.5%, assuming that
+smaller shareholders have no significant say in corporate strategy. Consistent
+with this idea, including all shareholders present in the Thomson database has
+a minimal effect on the estimated coefficients. To further explore this idea, we
+now estimate specifications that assume control, for a given carrier and quar-
+ter, by only the largest 10, largest 5, largest 3, and single largest shareholder
+
+ 15406261, 2018, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12698 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Anticompetitive Effects of Common Ownership 1545
+
+in the calculation of MHHI delta. These specifications assign zero control to all
+shareholders outside the top N, but accord ownership rights to all sharehold-
+ers. Table IA.VI presents the results. Generally speaking, disregarding control
+rights by shareholders below the top five only slightly attenuates the point
+estimate, but does not affect statistical significance: the top-five regression
+yields a coefficient on MHHI delta of 0.136 in the market-carrier specification
+and 0.173 in the market-level specification. Accounting for the control rights of
+only the largest shareholder attenuates the point estimate even more with the
+coefficient equal to 0.0717 in the market-carrier specification and 0.0889 in the
+market-level specification; both coefficients are significant at the 1% level.
+
+As a complement to the top-shareholder analysis, we run a placebo test in
+which we do the opposite and calculate MHHI delta as if only shareholders
+ranked below the top 10 controlled the firm. That is, for each carrier and pe-
+riod, we assign zero control to the top 10 shareholders and then recalculate the
+MHHI deltas accordingly. If the previous results were driven by a mechanical
+relationship between MHHI delta and prices, by the increase in institutional
+ownership in general, by nonlinearities in the way MHHI delta is calculated,
+or by the endogeneity of market shares, then one should still find a positive
+and significant effect when using lower-ranked shareholders of each firm in-
+stead of the top shareholders. Instead, as shown in Table IA.VII, we find that
+MHHI deltas calculated in this way have no significant effect on ticket prices.
+
+To get a sense of how quickly the estimated effect declines as we consider
+lower-ranked shareholders, we run specifications using MHHI deltas calculated
+as if complete control of the firm were given to shareholders of a particular rank
+in each firm-year-quarter. That is, we assign control equal to zero if a share-
+holder is not ranked first, calculate the MHHI deltas accordingly, and then
+run a version of the baseline specification. We then repeat the procedure but
+assign control equal to zero if a shareholder is not ranked second, and so on.
+Figure IA.4 plots the estimated coefficients from this exercise for shareholders
+ranked 1 to 10, together with 95% confidence bands. Only common ownership
+by shareholders ranked first and second has a positive and highly statistically
+significant effect on ticket prices. Common ownership and control by share-
+holders ranked 3 to 10 has a small and insignificant effect on ticket prices.
+These results are consistent with standard notions of corporate governance,
+but inconsistent with the hypothesis that various forms of misspecification me-
+chanically drive a spurious correlation between MHHI delta and ticket prices.
+
+C.2. Banzhaf Voting Power Indices as Control Shares
+In our calculation of MHHI deltas, thus far we have assumed that share-
+
+holder control is proportional to the number of shares the respective investor
+beneficially owns. As an alternative, we now calculate MHHI delta using
+Banzhaf indices of voting power, defined as the probability that a shareholder
+is pivotal in an election with two options (perhaps directors) when the other
+shareholders randomize their voting with equal probability for each option.
+Table IV, specification (5), reports regression results with this modification
+
+ 15406261, 2018, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12698 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+1546 The Journal of Finance©R
+
+relative to the benchmark. The results are similar in magnitude to the base-
+line, which suggests that the proportional control assumption is not driving
+the baseline results.
+
+C.3. Effect of Common Ownership by Shareholder Horizon
+The previous tests indicate that the incentives of only the most powerful
+
+shareholders are reflected in airlines’ pricing decisions. One might further sus-
+pect that, in addition to holding large stakes, influence requires holding shares
+for a sufficiently long period of time (Chen, Harford, and Li (2007)). Indeed, an
+effect driven by shareholdings held for only a short amount of time might raise
+concerns about a misspecified empirical model. We measure a shareholder’s
+horizon at a given point in time as the churn ratio, calculated as in Gaspar,
+Massa, and Matos (2005) (using shareholders’ ownership in all industries, not
+just airlines). We then divide shareholders into terciles based on their churn
+ratios for each year-quarter and call shareholders in the top (bottom) tercile
+“high-churn” (“low-churn”). We assign zero control to short-horizon investors
+and run the baseline specification using these modified MHHI deltas. We then
+repeat the exercise but additionally assign zero control to shareholders not
+ranked 1 or 2. The results are reported in Table VII. We find that only com-
+mon ownership by long-horizon shareholders has a significant positive effect
+on prices, while common ownership by short-horizon shareholders yields co-
+efficients of varying sign and weak (if any) significance. The same is true for
+the ranked-1-or-2 specifications. In sum, only economically meaningful ways of
+calculating common ownership concentration are linked to significant product
+market outcomes.
+
+D. Robustness to the Mode of Competition
+The reduced-form measure of common ownership concentration that we use
+
+above reflects the ownership networks’ density. However, it can also be derived
+from and interpreted within a Cournot model. This feature does not imply that
+our empirical tests rely on the assumption that airlines necessarily compete à
+la Cournot, as we now show.14
+
+We propose a measure of common ownership at the carrier-route level, which
+we refer to as carrier-route common ownership (CRCO), that is equal to the
+market-share-weighted average of the weight that the carrier places on the
+profits of other carriers in the route relative to its own profits. Specifically,
+CRCO for carrier j in route r in year-quarter t is given by
+
+14 That said, the strategic, longer-term pricing patterns that we study are implied by capacity
+precommitments, which typically occur about one year before the flight. This feature, as well as
+previous literature (Brander and Zhang (1990)), suggests a Cournot model.
+
+ 15406261, 2018, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12698 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Anticompetitive Effects of Common Ownership 1547
+
+Table VII
+Effect of Common Ownership by High-Churn and Low-Churn Investors on Airline Ticket Prices
+
+This table shows panel regressions similar to those presented in Table III, whereas common ownership concentration is computed assuming control is
+exercised only by high-(low-) churn investors, and investors with Rank 1 or 2 in the ownership structure. Data are for the period 2001Q1 to 2014Q4.
+We exclude routes with less than 20 passengers per day on average. For the market-carrier-level regressions, we weight by average passengers for
+the market carrier over time and double-cluster standard errors at the market-carrier and year-quarter levels. For the market-level regressions, we
+weight by average passengers in the market over time and double-cluster standard errors at the market and year-quarter levels. We calculate MHHI
+delta setting control rights to zero for shareholders outside the bottom tercile of the churn ratio, and then for shareholders outside the top tercile of
+the churn ratio for each market-carrier and date. The churn ratio is calculated as in Gaspar, Massa, and Matos (2005). We then repeat the calculation
+but also shut down shareholders not ranked 1 or 2 in a given carrier-year-quarter. Variable definitions are provided in the Internet Appendix. While
+in the paper HHI and MHHI are expressed on a scale of 0 to 10,000, we use a scale of 0 to 1 in the regressions. ***p < 0.01, **p < 0.05, *p < 0.1.
+
+Dependent Variable: Log (Average Fare)
+
+Shareholders of Any Rank Shareholders Ranked 1 or 2
+
+Market-Carrier Level Market Level Market-Carrier Level Market Level
+
+(1) (2) (3) (4) (5) (6) (7) (8)
+
+MHHI delta (High-Churn Shareholders) 0.0229 0.0397
+(0.0262) (0.0287)
+
+MHHI delta (Low-Churn Shareholders) 0.0562*** 0.0738***
+(0.0141) (0.0161)
+
+MHHI delta (High-Churn Shareholders −0.0451 −0.0234
+Ranked 1 or 2) (0.0347) (0.0372)
+
+MHHI delta (Low-Churn Shareholders 0.0475** 0.0608***
+Ranked 1 or 2) (0.0204) (0.0222)
+
+HHI 0.129*** 0.157*** 0.206*** 0.241*** 0.124*** 0.132*** 0.199*** 0.208***
+(0.0179) (0.0182) (0.0214) (0.0224) (0.0175) (0.0172) (0.0212) (0.0210)
+
+Number of Nonstop Carriers −0.0102*** −0.0102*** −0.00870** −0.00860** −0.0101*** −0.0100*** −0.00862** −0.00848**
+(0.00269) (0.00269) (0.00376) (0.00372) (0.00271) (0.00270) (0.00378) (0.00375)
+
+Southwest Indicator −0.118*** −0.117*** −0.147*** −0.146*** −0.118*** −0.119*** −0.147*** −0.148***
+(0.00938) (0.00926) (0.0138) (0.0136) (0.00941) (0.00936) (0.0138) (0.0137)
+
+(Continued)
+
+ 15406261, 2018, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12698 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+1548 The Journal of Finance©R
+
+Table VII—Continued
+
+Dependent Variable: Log (Average Fare)
+
+Shareholders of Any Rank Shareholders Ranked 1 or 2
+
+Market-Carrier Level Market Level Market-Carrier Level Market Level
+
+(1) (2) (3) (4) (5) (6) (7) (8)
+
+Other LCC Indicator −0.0665*** −0.0641*** −0.107*** −0.104*** −0.0677*** −0.0661*** −0.109*** −0.107***
+(0.00762) (0.00741) (0.0104) (0.0103) (0.00755) (0.00745) (0.0104) (0.0103)
+
+Share of Passengers Traveling Connect, 0.132*** 0.129*** 0.164*** 0.164*** 0.134*** 0.133*** 0.165*** 0.165***
+Market Level (0.0160) (0.0164) (0.0186) (0.0187) (0.0162) (0.0162) (0.0188) (0.0187)
+
+Share of Passengers Traveling Connect 0.0957*** 0.0972*** 0.0952*** 0.0952***
+(0.0144) (0.0144) (0.0144) (0.0144)
+
+Log (Population) 0.298*** 0.286** 0.329** 0.318** 0.302*** 0.297*** 0.334** 0.329**
+(0.109) (0.108) (0.127) (0.125) (0.109) (0.109) (0.127) (0.127)
+
+Log (Income per Capita) 0.373*** 0.369*** 0.301** 0.300*** 0.377*** 0.378*** 0.305*** 0.309***
+(0.105) (0.103) (0.113) (0.110) (0.104) (0.104) (0.113) (0.112)
+
+√ √ √ √ √ √ √ √
+Log (Distance) × Year-Quarter FE √ √ √ √ √ √ √ √
+Year-Quarter FE √ √ √ √
+Market-Carrier FE √ √ √ √
+Market FE
+Observations 1,209,517 1,209,517 254,999 254,999 1,209,517 1,209,517 254,999 254,999
+R2 0.835 0.836 0.875 0.876 0.835 0.835 0.875 0.875
+Number of market-carrier pairs 45,248 45,248 6,906 6,906 45,248 45,248 6,906 6,906
+
+ 15406261, 2018, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12698 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Anticompetitive Effects of Common Ownership 1549
+
+∑ ∑
+C RCO jrt = ∑i γi j,tβik,t sk,rt
+
+. (6)
+γ
+
+k= j i i j,tβi j,t 1 − sj,rt
+
+This measure is proportional to the Gross-Upward Pricing Pressure Index or
+GUPPI (introduced by Hausman, Moresi, and Rainey (2011) in the context
+of differentiated-product Bertrand competition) if diversion is proportional to
+market shares (as in a simple multinomial logit model), prices do not vary
+across carriers within a market, and markups are constant. While it is help-
+ful to have an economic interpretation in the context of a differentiated-goods
+Bertrand model of competition (although under admittedly stringent assump-
+tions), we use this measure, as we did for MHHI delta, as a reduced-form mea-
+sure of common ownership concentration. Interestingly, the measure can also
+be interpreted as a share-weighted average of the objective function weights
+that the various firms place on competitors’ profit. Note further that CRCO
+uses less information about competition in the route than MHHI delta, since
+the latter includes information about the level of common ownership between
+other carriers in the same route, in addition to information about common own-
+ership between the carrier in the observation and its competitors. To the extent
+that common ownership between competitors in the same route is relevant, one
+should expect the measure to have less predictive power than MHHI delta.
+
+Table IV, specification (6), shows that the effect of the carrier-route-level
+common ownership measure is positive and statistically significant at the 1%
+level, but the t-statistics are lower than those in the baseline specification for
+MHHI delta, as expected. (Because the common ownership measure employed
+here is different from MHHI delta, the point estimate is not quantitatively
+comparable to the baseline.) The loss of power is also consistent with the data
+favoring a Cournot model over Bertrand as the relevant model of competition
+in the airline industry, as previously argued by Brander and Zhang (1990) and
+the literature that followed.
+
+To further assure robustness to the mode of competition, we investigate
+whether the estimated effect of common ownership is driven by multimarket
+contact. Table IV, specification (7), shows that there is a positive and highly
+statistically significant effect of multimarket contact on ticket prices, measured
+as average route contact as in Evans and Kessides (1994); see Ciliberto and
+Williams (2014) for a structural version. However, the effect of MHHI delta
+remains significant and the estimated coefficients are little changed.
+
+E. What Else Can We Learn about the Mechanism?
+We now investigate whether there are route-level differences in the effect of
+
+common ownership on ticket prices, and in particular whether there is an in-
+teraction between the degree of concentration measured by HHI and the effect
+of MHHI delta.15 Such an interaction effect could arise if it is more difficult to
+enforce soft competition among a large number of relatively small competitors,
+
+15 We thank Severin Borenstein for this suggestion.
+
+ 15406261, 2018, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12698 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+1550 The Journal of Finance©R
+
+that is, in low-HHI routes, compared to a route in which only two players are
+present and have similar market shares (HHI in an intermediate range). At
+the other end of the spectrum, there might be great scope in increasing mo-
+nopolistic profits by creating common ownership in markets in which a small
+number of players compete with a large player (i.e., markets with an HHI close
+to 10,000). On the other hand, there might be few such opportunities, making
+the effect more difficult to estimate. We investigate these hypotheses by run-
+ning a price regression on MHHI delta interacted with a 10th-order polynomial
+of HHI, as well as all previously considered controls. Figure IA.5 shows the
+results. Consistent with the above hypotheses, we find a significant effect for
+routes within a range of HHI between around 2,500 and 6,500.
+
+If investors spend time communicating their incentives to portfolio firms, and
+portfolio firms exert costly effort to implement these incentives, these efforts
+should be concentrated in markets that matter more for the bottom line, that
+is, in larger markets. We present specifications interacting MHHI delta with
+a polynomial in market-size percentiles in Figure IA.6. The effect of MHHI
+delta is statistically significant for all market-size percentiles except the very
+smallest and the very largest markets, for which the error bands become wide.
+Indeed, the effect of MHHI delta on prices increases with market size. This
+finding not only corroborates the basic narrative above, but also confirms that
+the main results are not driven by a small-markets effect.
+
+Another interesting question is to what extent does time-variation in owner-
+ship at the firm level, rather than time-variation at the firm-market level, drive
+the results. For example, carriers may compete more or less aggressively due
+to changes in common ownership by diversified institutional investors’ gover-
+nance styles (Edmans, Levit, and Reilly (2016)), regardless of the routes they
+compete in. Unfortunately, this effect is difficult to distinguish from a change in
+MHHI delta, much of which is driven by firm-level variation. We can neverthe-
+less provide suggestive evidence by including carrier-year-quarter fixed effects.
+Table IV, specification (8), reports the results. We find that the estimated co-
+efficient MHHI delta is lower than in the baseline but still highly statistically
+significant, suggesting that some but not all of the baseline effects come from
+route-level variation. It is difficult to determine whether the attenuation is
+due to measurement noise and the removal of identifying information, or to
+changes in firm-level governance (or other changes at the firm-time level such
+as financial distress) that coincide with more common ownership.
+
+As an alternative way to determine the level at which incentives are im-
+plemented, we estimate specifications including the average of MHHI delta
+across all of the routes in which the carrier operates (we call this the carrier-
+level MHHI delta), as well as the MHHI delta of the route of the observation.
+Table IA.VIII shows that the coefficient on the route-level MHHI delta is highly
+statistically significant but the point estimate is lower than in the baseline
+estimates. Similarly, the coefficient on the carrier-level MHHI delta is statisti-
+cally significant and large, ranging from 0.91 to 1. As these results illustrate,
+we conduct our analyses at the route level because doing so allows us to con-
+trol for route-level characteristics, not necessarily because we believe that the
+
+ 15406261, 2018, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12698 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Anticompetitive Effects of Common Ownership 1551
+
+majority of the effects are implemented at the route level. The majority of the
+effect of common ownership on competitive strategy may be implemented at
+the firm-pair level, or even at the firm level.
+
+To further investigate this question, Table IA.VIII also includes specifications
+controlling for the average carrier-level MHHI delta across all competitors in a
+route (excluding the carrier of the observation). We refer to this measure as the
+average carrier-level MHHI delta of competitors. We find that the coefficient on
+the route-level MHHI delta continues to be statistically significant, but again
+lower than in the baseline. The coefficient on the average carrier-level MHHI
+delta of other carriers is positive but not statistically significant. Section V
+provides anecdotal evidence that some shareholder initiatives do indeed appear
+to be focused at the route level, though most publicly available evidence on
+shareholder engagement is broader and at the firm level.
+
+F. External Validity
+The limited availability of large-scale data sets on product prices covering
+
+a comprehensive set of producers and a broad cross-section of markets makes
+it difficult to find other econometrically clean settings in which to test the
+common ownership theory. However, since first making our study available
+online, similar results have been found in other industries and using other
+econometric methods, which increases confidence in the external validity of
+our results. In particular, Azar, Raina, and Schmalz (2016) find that the combi-
+nation of common ownership and cross-ownership of U.S. banks leads to higher
+prices on retail deposit products and lower deposit interest rates, using within-
+bank variation across branches over time and variation in county-level com-
+mon ownership resulting from index fund growth as an instrument.16 Lundin
+(2016) shows that joint profit maximization of commonly owned Swedish power
+plants best matches the data on maintenance decisions, and hence output, com-
+pared to unilateral profit maximization. Freeman (2016) finds an effect of com-
+mon ownership on the longevity of customer-supplier relationships. This find-
+ing supports the assumption of the various theoretical models motivating our
+empirical analysis that firms internalize externalities imposed on commonly
+owned firms. Gutiérrez and Philippon (2017) find that, in a broad cross-section
+of U.S. firms, common ownership is negatively related to firms’ propensity to
+invest amid high profitability and Q. It thus appears that evidence for the ex-
+ternal validity of the anticompetitive effects hypothesis is already significant,
+and continuing to grow.
+
+16 Azar, Raina, and Schmalz (2016) also show that omitting common ownership from regressions
+of price on industry concentration (HHI) leads to a negative omitted variable bias on the HHI
+coefficient. Analyses of industry structure should therefore not be dismissed based on a lack of
+evidence that HHIs alone are associated with higher prices. Instead, researchers should recognize
+that ownership structure is part of industry structure.
+
+ 15406261, 2018, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12698 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+1552 The Journal of Finance©R
+
+V. Institutional Background and Potential Mechanisms
+Above we document a robust statistical link between common ownership con-
+
+centration and higher prices. In this section, we discuss potential mechanisms,
+both direct and indirect, that could implement these results.
+
+A. The Indirect Channel: Doing Nothing
+Table I makes clear that a large degree of common ownership is driven
+
+by large institutional investors, specifically, by large mutual fund families.
+It strikes some as surprising that mutual funds, often thought to be “lazy
+investors,”17 would actively engage with portfolio firms with the aim of de-
+creasing the extent of product market competition. However, the claim that
+common ownership leads to higher prices is very different from the claim that
+an individual shareholder actively and consciously pursues an anticompetitive
+agenda, influences managers of portfolio firms to compete less aggressively
+against each other, or even incites collusion. Indeed, any such notion is not
+implied by our empirical results thus far, nor do the results depend on it or the
+motivating theory suggest it.
+
+To see why doing nothing is sufficient for common ownership to lead to higher
+prices, assume that increasing market share requires managerial effort, which
+is privately costly. For instance, entering new markets and attracting new
+customers may require successful R&D, extensive market research, unpleasant
+price wars with incumbents, and effort at a personal cost. If “lazy investors”
+do not insist on the implementation of expansion strategies, managers can
+enjoy the “quiet life” that comes with choosing suboptimal quantities (Hicks
+(1935)).18 If a match between lazy principals and lazy agents becomes pervasive
+in an industry, then in a Cournot model context, industry output declines and
+margins increase (see Antón et al. (2017)). Diversified shareholders have little
+incentive to intervene and change such an equilibrium. One should therefore
+not expect large diversified mutual fund families to actively push for more
+aggressive product market behavior between portfolio firms, given that doing
+so would not only be costly, but also go against incentives to maximize the value
+of the family’s total portfolio. Also, we are not aware of any evidence to that
+effect.
+
+By contrast, it is well documented that campaigns by activist investors, which
+typically concentrate their capital in one target firm per industry, lead to in-
+creases in target market share at the expense of its rivals (e.g., Aslan and Ku-
+mar (2016)). When industry competitors are owned by concentrated activists
+that push their targets to compete aggressively, a more competitive outcome
+obtains.
+
+17 The Economist, February 2015, Capitalism’s unlikely heroe—shareholder activists.
+18 Several initiatives by large asset managers to isolate management from activists in the name
+
+of preventing short-termism (see, e.g., Sorkin, Andrew Ross, February 2, 2016, Some Heresy on
+Wall Street: Look Past the Quarter, New York Times) may have this outcome as a side effect.
+
+ 15406261, 2018, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12698 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Anticompetitive Effects of Common Ownership 1553
+
+The past three decades have witnessed a shift from the low-common-
+ownership equilibrium to the high-common-ownership equilibrium, with di-
+versified institutions increasingly crowding out concentrated owners as firms’
+most powerful shareholders. One should thus expect a decrease in the extent
+of competition, even when diversified owners do nothing to actively reduce the
+competitiveness of their portfolio firms’ product markets. This may be one rea-
+son why antitrust law explicitly recognizes that a “passive” change of incentives
+is sufficient to implement anticompetitive outcomes (Elhauge (2015)).
+
+In sum, large diversified mutual fund families doing nothing, that is, not
+pushing portfolio firms to compete aggressively against each other, can lead
+to the outcomes we document. Active engagement in corporate governance on
+behalf of common owners merely exacerbates the problem.
+
+B. Effects of Investor Influence on Corporate Financial Decisions
+It is well recognized in the literature that ownership by a particular set of
+
+investors can affect corporate financial decisions, whereas corporate financial
+choices can affect firms’ product market strategy (Brander and Lewis (1986),
+Chevalier (1995), Kovenock and Phillips (1995), Phillips (1995), Dasgupta and
+Titman (1998)). Hence, any influence of ownership by a particular set of in-
+vestors on a portfolio firm’s capital structure or payout decisions can affect the
+product market equilibrium. For example, increased payouts imply reduced
+investment (at least in the long run), and reduced investment in production
+capacity implies less competitive product markets. The effects of shareholder
+influence on product market outcomes can therefore be subtle and indirect.
+Nonetheless, in what follows, we provide suggestive evidence that some in-
+teractions between investors and portfolio firms are directly concerned with
+product market considerations.
+
+C. The Direct Channel: Voice, Incentives, and the Vote
+To start, we wish to clarify a common confusion by quoting Vanguard’s CEO
+
+and Chairman William McNabb: “Some have mistakenly assumed that our
+predominantly passive management style suggests a passive attitude with re-
+spect to corporate governance . . . Nothing could be further from the truth.”19
+
+Vanguard further explains, “Because our funds own a significant portion of
+many companies (and in the case of index funds are practically permanent
+holders of companies), we have a vested interest in ensuring that these com-
+panies’ governance . . . practices support the creation of long-term value for
+investors.”20 Recent research confirms that mutual fund families engage much
+
+19 Stein, Charles, March 4, 2015, Vanguard’s McNabb says firm is not passive on governance,
+Bloomberg, https://www.bloomberg.com/news/articles/2015-03-04/vanguard-s-mcnabb-says-firm-
+is-not-passive-on-governance.
+
+20 Booraem, Glenn, Passive investors, not passive owners, http://personal.vanguard.
+com/us/insights/article/proxy-commentary-042013.
+
+ 15406261, 2018, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12698 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+1554 The Journal of Finance©R
+
+like other investors do, albeit more often “behind the scenes” (Mullins (2014),
+Boone and White (2015), Dimson, Karakaş, and Li (2015), Appel, Gormley, and
+Keim (2016), McCahery, Starks, and Sautner (2016), Schmidt and Fahlenbrach
+(2017)), and sometimes coordinate their activities in “secret summits.”21 The
+largely “passive” asset management firms such as BlackRock, Vanguard, and
+State Street thus play an important role in most corporate governance decisions
+of publicly traded firms in America, with their power having been compared to
+that of J.P. Morgan and John D. Rockefeller.22
+
+In this section, we present evidence suggesting that, indeed, some common
+owners (i) use voice to communicate their preferred product market strategies,
+(ii) use management incentive (i.e., pay) structures that implicitly reward ex-
+ecutives for less aggressive competition, and (iii) use the power of their vote to
+thwart efforts of undiversified shareholders that push for more competition.
+
+C.1. Voice
+According to large asset managers, making their voices heard in private en-
+
+gagement meetings is the most important mechanism through which they in-
+fluence corporate governance. According to their websites and letters to CEOs,
+some of the large “passive” asset managers request that firms provide them
+with long-term strategic plans regarding growth and profitability, so that they
+can evaluate based on their implementation of those strategic plans. Asset
+managers also frequently engage in direct discussions with portfolio firms.
+BlackRock, for instance, claims more than 1,000 private meetings in previous
+governance reports. In addition, activists occasionally demand board seats to
+ensure implementation of the desired product market strategy; Reuters reports
+on such an event in the airline industry.23 Bloomberg further reports that, amid
+rising political pressure to reduce drug prices, mutual fund companies Fidelity,
+T. Rowe Price, and Wellington invited several pharma managers to a Boston
+hotel and encouraged them to “defend their pricing.”24 Matt Levine25 similarly
+cites a portfolio manager at Hodges Capital Management Inc. as indicating that
+“I’d like to see [Southwest Airlines] boost their fares but also cut capacity,” and
+notes that Hodges owns shares in airlines including United Continental, Delta,
+American, Alaska and Virgin America, as well as Southwest. In the business
+press, concerns have been raised about the potential for “monopolistic behavior”
+
+21 Foley, S., and B. McLannahan, February 1, 2016, Top U.S. financial groups hold secret summit
+on long-termism, Financial Times.
+
+22 Krouse, Sarah, David Benoit, and Tom McGinty, October 24, 2016, Meet the new corporate
+power brokers: Passive investors, Wall Street Journal.
+
+23 February 20, 2008, Hayman to nominate candidates for ExpressJet board, Reuters, https://
+www.reuters.com/article/hayman-expressjet/update-1-hayman-to-nominate-candidates-for-
+expressjet-board-idUSN2034449720080220?dlbk.
+
+24 Chen, Caroline, May 11, 2016, Mutual fund industry to drugmakers: Stand up
+and defend yourself, Bloomberg, https://www.bloomberg.com/news/articles/2016-05-09/top-funds
+-said-to-tell-pharma-leaders-to-defend-drug-pricing.
+
+25 Levine, Matt, July 29, 2016, Ebay arbitrage and airline competition, BloombergView, http://
+www.bloomberg.com/view/articles/2016-07-29/ebay-arbitrage-and-airline-competition.
+
+ 15406261, 2018, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12698 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Anticompetitive Effects of Common Ownership 1555
+
+by Warren Buffett despite the classification of Berkshire Hathaway’s airline
+holdings as “passive” investments, as referenced in the introduction. Reuters
+further reports that the alleged Hart-Scott-Rodino Antitrust Act violation by
+an activist with common ownership interests in natural competitors26 “could
+call into question routine practices across . . . the mutual fund industry,” noting
+that “some communications the government cites as evidence are similar to dis-
+cussions that . . . traditional, buy-and-hold funds” commonly have with their
+portfolio firms.27 A leading German newspaper reports that a top manager of
+a large mutual fund family—Deutsche Bank’s largest shareholder around that
+time—stated which of the bank’s competitors would (not) be suitable merger
+targets amid a perceived level of excess competition.28 Reuters also reports
+that “activists court passive shareholders before launching such a campaign,
+and passive investors recruit activists to agitate, [ . . . ] blurring boundaries be-
+tween activist and traditional fund managers.”29 The FTC has since clarified
+that “‘Investment-only’ means just that.”30 However, notwithstanding abun-
+dant anecdotal evidence of large asset managers (e.g., BlackRock (2011)) using
+private communications to discuss “nuanced and sensitive” topics, knowledge
+about the level of detail at which product market strategy is discussed remains
+limited.
+
+Given the scarcity of information on the content of private engagement meet-
+ings, we turn to earnings calls of U.S. airlines to assess the level of detail at
+which investors and management publicly discuss product market strategy.
+We find that market-level capacity decisions are a frequent topic of conversa-
+tion. For example, in Delta Air Lines’ 3rd Quarter 2014 earnings call, after
+market-level commentary and outlook by management, JP Morgan’s Jamie
+Baker “pass[es] along the question that I have been asked” to Delta’s top man-
+agers, noting “when you add capacity, particularly into O[ther] A[irlines’] hubs,
+it diminishes shareholder confidence; it suggests a lack of discipline; and in my
+opinion, it jeopardizes [your stock price].” (JP Morgan Asset Management was
+one of the largest investors in multiple U.S. airlines at the time.) Not receiving
+a substantive response, he continues: “I’m going to ask it of others this season.
+So this is not uniquely directed.” The CEO responds “you are in an area that is
+
+26 Flaherty, Michael, and Diane Bartz, April 4, 2016, U.S. regulator sues ValueAct over
+Halliburton-Baker Hughes disclosures, Reuters, http://www.reuters.com/article/us-bakerhughes
+-m-a-halliburton-valueact-idUSKCN0X11UL.
+
+27 Flaherty, Michael, and Ross Kerber, April 12, 2016, U.S. lawsuit against activist Val-
+ueAct puts mutual funds on alert, Reuters, http://www.reuters.com/article/us-valueact-lawsuit
+-funds-idUSKCN0X92E6.
+
+28 Frankfurter Allgemeine Zeitung, October 4, 2016, Fondsriese Blackrock wirbt für
+Fusionen europäischer Großbanken, http://www.faz.net/aktuell/wirtschaft/fondsriese-blackrock-
+wirbt-fuer-fusionen-europaeischer-grossbanken-14466436.html.
+
+29 Flaherty, Michael, and Ross Kerber, April 12, 2016, U.S. lawsuit against activist Val-
+ueAct puts mutual funds on alert, Reuters, http://www.reuters.com/article/us-valueact-lawsuit
+-funds-idUSKCN0X92E6.
+
+30 Feinstein, Debbie, Ken Libby, and Jennifer Lee, 2015, “Investment-only” means just
+that, Federal Trade Commission, https://www.ftc.gov/news-events/blogs/competition-matters/
+2015/08/investment-only-means-just.
+
+ 15406261, 2018, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12698 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+1556 The Journal of Finance©R
+
+in some respects not appropriate for an earnings call. . . . we will continue to
+make the right unilateral decisions.” A different analyst follows up, clarifying
+Baker’s questions reflected “criticisms” regarding “competitive capacity adds”
+and asks the more detailed question “what is funding these growth initiatives
+in certain regions, like the trans-Atlantic, like in Seattle, and perhaps like in
+LA?” Management responds “I think in Los Angeles, you are going to have four
+large carriers. That is just the way it is going to be. In Seattle, you will have
+two large carriers. That is the way it is going to be.” Anecdotal evidence thus
+suggests that investors and management of portfolio firms do indeed discuss
+product market strategy, even in public forums, sometimes even at the market
+level. We next explore whether managers have incentives to act in line with
+common owners’ economic interests.
+
+C.2. Incentives
+Actively managed funds can threaten management with selling the stock if
+
+management does not follow its desired product market strategy, which may
+explicitly feature not entering competitors’ markets. The resulting decline in
+stock price would have obvious direct consequences for managerial incentives.
+However, many firms’ largest shareholders are “passive” institutions that do
+not have the option of selling. Nonetheless, they have sufficient power to shape
+managerial incentives. “Passive” investors claim to address the structure of
+management pay in 45% of engagement meetings; perhaps not surprisingly,
+after such engagement, they almost always vote for the proposed plans, with
+the result that incentives are often much less sensitive to (relative) performance
+than other investors would prefer.31 Less performance-sensitive compensation
+packages can reduce managers’ incentive to compete.
+
+Indeed, a long literature in economics rationalizes flat managerial incentives
+as optimal managerial contracts designed to implement shareholders’ desired
+product market strategy and soften competition, for example, Fershtman and
+Judd (1987), Sklivas (1987), and Aggarwal and Samwick (1999). Antón et al.
+(2017) further show that common owners have reduced incentives to imple-
+ment compensation schemes that make a manager’s wealth sensitive to per-
+formance. Empirically, top managers’ wealth-performance sensitivity is neg-
+atively related to various measures of common ownership concentration.32 A
+caveat is that explicit incentives are in place only as long as the manager is
+
+31 See Melby, Caleb, and Alicia Ritcey, February 17, 2016, Vanguard, BlackRock seen seldom
+challenging CEO pay plans, Bloomberg, https://www.bloomberg.com/news/articles/2016-02-17/
+vanguard-blackrock-seen-seldom-challenging-companies-on-ceo-pay, and Melin, Anders, August
+23, 2016, “Earnings hysteria” pits ISS against Clinton and Fink on CEO pay, Bloomberg,
+https://www.bloomberg.com/news/articles/2016-08-23/-earnings-hysteria-pits-iss-against-clinton-
+and-fink-on-ceo-pay.
+
+32 Whether the prediction of a negative relation between common ownership and relative per-
+formance evaluation is borne out in the data is a subject of recent interest. Liang (2016) indepen-
+dently shows that pay-performance sensitivities decline with common ownership, using firm-level
+variation, alternative functional forms, and a different identification strategy. Kwon (2016) chal-
+lenges existing theory and empirical findings using alternative samples, industry definitions, and
+
+ 15406261, 2018, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12698 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Anticompetitive Effects of Common Ownership 1557
+
+not fired. However, CEO turnover does not feature strong elements of relative
+performance evaluation; rather, it is sensitive to industry performance (Jen-
+ter and Kanaan (2015)). Hence, career concerns give managers incentives to
+maintain a “healthy” level of industry profitability. We conclude that compen-
+sation contracts can be used to align managers’ strategic incentives with those
+of common shareholders.
+
+C.3. Vote
+Voting against management is the ultimate step toward aligning incentives
+
+between shareholders and their agents. BlackRock’s proxy voting guidelines
+indicate “that we typically only vote against management when direct en-
+gagement has failed.” In effect, engagement is the carrot and voting is the
+stick. In line with this view, the head of corporate governance at State Street
+Global Advisors explains, “The option of exercising our substantial voting
+rights in opposition to management provides us with sufficient leverage and
+ensures our views and client interests are given due consideration.”33 We
+do not mean to suggest here that shareholders vote directly on competitive
+strategies. However, they do vote on director candidates. Consistent with the
+large “passive” institutions having a less-than-perfectly passive approach to
+governance, “boards now routinely vet director candidates with major share-
+holders before their names are placed on the proxy.”34 Director candidates
+may be able to credibly signal which type of competitive strategy they stand
+for. For example, Berkshire Hathaway’s Co-CIO would reduce Berkshire’s
+portfolio value if he used his role as a JPMorgan board member to propose a
+particularly aggressive competitive strategy against American Express, Bank
+of America, or Wells Fargo, in all of which Berkshire Hathaway is the largest
+investor.35 Azar (2012, 2017) shows theoretically that shareholder voting on
+directors and managers can lead firms to act as if they maximized an objective
+function similar to the one assumed in the derivation of the common ownership
+concentration index we use in our empirical work. Fos and Tsoutsoura (2014)
+and Aggarwal, Dahiya, and Prabhala (2015) show empirically that director
+elections matter because of career concerns.
+
+D. Summary
+In sum, we find that voice, incentives, and vote—as well as doing nothing,
+
+that is, simply not pushing for more aggressive competition—can plausibly
+
+empirical specifications, claiming qualitatively opposite results on pay-to-relative-performance
+sensitivities, and documents a link between common ownership and the explicit use of relative
+performance evaluation in compensation contracts.
+
+33 Scott, Mike, April 6, 2014, Passive investment, active ownership, Financial Times.
+34 Charan, Ram, Michael Useem, and Dennis Carey, February 9, 2015, Your board should think
+
+like an activist, HBR.org, https://hbr.org/2015/02/your-board-should-be-full-of-activists.
+35 Buhayar, Noah, September 20, 2016, Buffett’s investing deputy Combs named to
+
+JPMorgan’s board, Bloomberg, https://www.bloomberg.com/news/articles/2016-09-20/jpmorgan-
+chase-names-buffett-deputy-combs-to-board-of-directors.
+
+ 15406261, 2018, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12698 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+1558 The Journal of Finance©R
+
+implement the anticompetitive incentives of investors that hold large stakes
+in natural competitors. Schmalz provides a case study that contains all four of
+these elements.36 An activist investor with concentrated holdings in a target
+voiced demand for greater effort in increasing market share vis-à-vis the tar-
+get’s competitors, as well as greater use of relative performance evaluation to
+give management appropriate incentives to maximize the target’s value, among
+other things. Institutional Shareholder Services recommended supporting the
+activist’s campaign, but BlackRock, Vanguard, and StateStreet cast decisive
+votes against. “The most plausible hypothesis is that the large asset managers
+are concerned about the impact of hedge fund activism on their broader portfo-
+lio.”37 Moreover, it is also possible to interpret the vote against as the “passive”
+investors choosing not to actively implement pro-competitive measures them-
+selves or to support a campaign that would have likely led to more aggressive
+competition. The case study thus illustrates the shift of power from concen-
+trated to diversified investors.
+
+Because there are many plausible channels through which shareholder in-
+centives can translate into firm behavior, we find it unlikely that a single
+mechanism is solely responsible. This insight is important, as it suggests that
+the common ownership problem is not likely to be solved by shutting down a
+particular channel. For example, managers are unlikely to be isolated from
+common owners’ anticompetitive incentives if regulators prohibit communica-
+tion about competition but permit conversations about pay structure or voting
+on board members. Moreover, given that “doing nothing” is a possible mecha-
+nism, finding conclusive evidence for a mechanism could prove elusive even if
+a robust causal relation exists.
+
+VI. Conclusion
+This paper presents evidence of large anticompetitive incentives due to com-
+
+mon ownership links at the market level, and of a causal link between com-
+mon ownership concentration and higher product prices. In particular, using
+the U.S. airline industry as our test setting, we find that a modified index of
+market concentration that accounts for the extent to which competitors are
+owned by the same investors points to levels of market concentration that far
+exceed those indicated by the conventional measure of market concentration.
+
+36 Schmalz, Martin, May 18, 2015, How passive funds prevent competition, http://ericposner.
+com/martin-schmalz-how-passive-funds-prevent-competition/.
+
+37 See Coffee, John, June 1, 2015, The lessons of DuPont, Columbia Law School Blue Sky Blog,
+http://clsbluesky.law.columbia.edu/2015/06/01/the-lessons-of-dupont-corporate-governance-for-
+dummies/. While the big “passive” fund families vote against activists more often than not, they
+do so selectively. Empirical study of the types of campaigns they tend to support is challenging
+because of the difficulty involved with classifying campaigns that have multiple objectives, and
+because of a selection effect—researchers do not observe the proxy fights that did not happen
+because of expected opposition by the “passive” funds; see Ackman, William, 2016, Pershing Square
+annual letter, https://assets.pershingsquareholdings.com/2014/09/Pershing-Square-2015-Annual-
+Letter-PSH-January-26-2016.pdf.
+
+ 15406261, 2018, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12698 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Anticompetitive Effects of Common Ownership 1559
+
+Common ownership concentration for the average route is more than 10 times
+larger than the threshold level “likely to enhance market power” in the case
+of a traditional merger, according to the U.S. Antitrust Agencies’ Horizontal
+Merger Guidelines. In theory, the additional concentration that results from
+cumulating many small common ownership interests should be reflected in
+higher prices.
+
+We find that when firms have reduced incentives to compete due to common
+ownership, prices are higher and output is lower. Specifically, using 14 years of
+market-firm-level quarterly panel data, we find that airline ticket prices are 3%
+to 7% higher due to common ownership, compared to a counterfactual world in
+which firms are separately owned or in which firms ignore the anticompetitive
+incentives of their owners due to common ownership. When we exploit variation
+in common ownership concentration generated by the merger of two large asset
+managers that arguably occurred for reasons unrelated to expected route-level
+differences in U.S. airline ticket prices, we find that product prices are 10%
+to 12% higher due to common ownership. These results suggest both a large
+deadweight loss (i.e., decreased efficiency of the economy) and a large wealth
+transfer from consumers to producers due to common ownership.
+
+If robust, our findings raise several questions for academic research in indus-
+trial organization, finance, and legal studies. Specifically, a ubiquitous assump-
+tion in finance research is that firms’ objective is to maximize their own value,
+and that firm policies and investors’ optimization problems are separable. Our
+results can be viewed as challenging this assumption, and thus make an em-
+pirical case for taking seriously the theoretical insight (perhaps most clearly
+stated in Hart (1979)) that shareholders may not agree on profit maximization
+as an objective when firms are not price takers. An open question in that case
+is what the objective of the firm is, and how it might be determined through
+interactions of shareholders with varying interests. The objective assumed in
+the derivation of the MHHI is but one candidate.
+
+As for the fast-growing literature on the implications of our findings for
+antitrust and corporate law, we refer the reader to Elhauge (2015), Baker
+(2016), and various responses to those papers.
+
+Tackling the competitive risks due to common ownership also presents chal-
+lenges for policy makers, not only from a political but also from a conceptual
+perspective. Specifically, this paper emphasizes the empirical importance of
+deciding on the optimal mix between three desirable but not jointly attainable
+goals of a capitalist system. When firms implement shareholders’ incentives,
+and all shareholders (including those with significant control) are fully diversi-
+fied, product market competition will tend toward monopolistic outcomes, with
+an associated deadweight loss for the economy. Therefore, the three goals of (i)
+perfect shareholder diversification, (ii) firm maximization of shareholder inter-
+ests (“good governance”), and (iii) preservation of competitive product markets
+cannot be simultaneously achieved (Azar (2012)). The first two goals bene-
+fit shareholders. By contrast, the decline in product market competition im-
+plied by an improved implementation of the first two goals is a social cost
+that thus far has been largely ignored. However, the implications of decreased
+
+ 15406261, 2018, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12698 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+1560 The Journal of Finance©R
+
+competition such as increased inequality, slow macroeconomic growth, and low
+real interest rates despite sustained and high profit margins are of much in-
+terest to policy makers and the population at large (Elhauge (2015)).38 What
+the optimal trade-off is between the three goals above is thus a hotly debated
+question in the public domain.39
+
+While we do not propose a solution for the trade-off illustrated above, two
+direct policy implications of the present paper arise at a more practical level.
+First, empirical measures of market concentration should take ownership into
+account. Second, regulators should keep in mind that consolidation in the asset
+management industry can adversely affect competition in the product markets
+of their portfolio companies. Therefore, when antitrust authorities evaluate
+such propositions, the potential benefits to shareholders need to be weighed
+against the potential loss of consumer surplus—not just for consumers of as-
+set management products, but also for consumers of the products offered by
+portfolio firms.
+
+This paper and the above discussion emphasize anticompetitive effects
+of common ownership. In theory, of course, common ownership can also
+have efficiency-enhancing effects. Which effect prevails is an open empirical
+question.
+
+Initial submission: March 3, 2015; Accepted: August 28, 2017
+Editors: Bruno Biais, Michael R. Roberts, and Kenneth J. Singleton
+
+REFERENCES
+Admati, Anat R., Paul Pfleiderer, and Josef Zechner, 1994, Large shareholder activism, risk shar-
+
+ing, and financial market equilibrium, Journal of Political Economy 102, 1097–1130.
+Aggarwal, Rajesh K., and Andrew A. Samwick, 1999, Executive compensation, strategic com-
+
+petition, and relative performance evaluation: Theory and evidence, Journal of Finance 54,
+1999–2043.
+
+Aggarwal, Reena, Sandeep Dahiya, and Nagpurnanand Prabhala, 2015, The power of shareholder
+votes: Evidence from director elections, Working paper, Georgetown University.
+
+Antón, Miguel, Florian Ederer, Mireia Giné, and Martin Schmalz, 2017, Common owner-
+ship, competition, and top management incentives, Working paper, IESE/Yale School of
+Management/University of Michigan.
+
+Appel, Ian, Todd Gormley, and Donald Keim, 2016, Passive investors, not passive owners, Journal
+of Financial Economics 121, 111–141.
+
+38 See also public commentary by Summers, Larry, March 30, 2016, Corporate profits are near
+record highs. Here’s why that’s a problem, Washington Post, https://www.washingtonpost.com/
+news/wonk/wp/2016/03/30/larry-summers-corporate-profits-are-near-record-highs-heres-why-tha
+ts-a-problem/ and Stiglitz, Joseph, May 13, 2016, Monopoly’s new era, Project Syndicate,
+https://www.project-syndicate.org/commentary/high-monopoly-profits-persist-in-markets-by-
+joseph-e--stiglitz-2016-05.
+
+39 The first academic policy proposal is by Posner, Scott Morton, and Weyl (2017); see also Posner,
+Eric A., Fiona M. Scott Morton, and E. Glen Weyl, Dec 7, 2016, A Monopoly Donald Trump Can
+Pop, New York Times. Industry representatives have responded in various outlets as well, see, for
+example, Novick, Barbara, January 9, 2017, How Index Funds Democratize Investing, Wall Street
+Journal.
+
+ 15406261, 2018, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12698 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Anticompetitive Effects of Common Ownership 1561
+
+Aslan, Hadiye, and Praveen Kumar, 2016, The product market effects of hedge fund activism,
+Journal of Financial Economics 119, 226–248.
+
+Atalay, Enghin, Ali Hortaçsu, and Chad Syverson, 2014, Vertical integration and input flows,
+American Economic Review 104, 1120–1148.
+
+Azar, José, 2012, A new look at oligopoly: Implicit collusion through portfolio diversification, Ph.D.
+thesis, Princeton University.
+
+Azar, José, 2017, Portfolio diversification, market power, and the theory of the firm, Working paper,
+IESE.
+
+Azar, José, Sahil Raina, and Martin Schmalz, 2016, Ultimate ownership and bank competition,
+Working paper, IESE/University of Alberta/University of Michigan.
+
+Baker, Jonathan B., 2016, Overlapping financial investor ownership, market power, and antitrust
+enforcement: My qualified agreement with Professor Elhauge, Harvard Law Review Forum
+129, 212–232.
+
+Bebchuk, Lucian A., Reinier Kraakman, and George Triantis, 2000, Stock pyramids, cross-
+ownership, and dual class equity: The mechanisms and agency costs of separating control
+from cash-flow rights, in Randall K. Morck, ed.: Concentrated Corporate Ownership (Univer-
+sity of Chicago Press, Chicago).
+
+Ben-David, Itzhak, Francesco A. Franzoni, Rabih Moussawi and John Sedunov, 2015, The granular
+nature of large institutional investors, Working paper, Ohio State University, Swiss Finance
+Institute, and Villanova University.
+
+Benninga, Simon, and Eitan Muller, 1979, Majority choice and the objective function of the firm
+under uncertainty, Bell Journal of Economics 12, 670–682.
+
+Bernheim, B. Douglas, and Michael D. Whinston, 1985, Common marketing agency as a device for
+facilitating collusion, RAND Journal of Economics 16, 269–281.
+
+Berry, Steven, and Panle Jia, 2010, Tracing the woes: An empirical analysis of the airline industry,
+American Economic Journal: Microeconomics 2, 1–43.
+
+Bertrand, Marianne, and Sendhil Mullainathan, 2003, Enjoying the quiet life? Corporate gover-
+nance and managerial preferences, Journal of Political Economy 111, 1043–1075.
+
+BlackRock, 2011, Corporate governance and responsible investment at BlackRock, Annual Review.
+Available at https://www.blackrock.com/corporate/literature/fact-sheet/blk-responsible-invest
+ment-report-2011.pdf.
+
+Bolle, Friedel, and Werner Güth, 1992, Competition among mutually dependent sellers, Journal of
+Institutional and Theoretical Economics (JITE)/Zeitschrift für die gesamte Staatswissenschaft
+148, 209–239.
+
+Boone, Audra L., and Joshua T. White, 2015, The effect of institutional ownership on firm trans-
+parency and information production, Journal of Financial Economics 117, 508–533.
+
+Borenstein, Severin, 1990, Airline mergers, airport dominance, and market power, American Eco-
+nomic Review 80, 400–404.
+
+Borenstein, Severin, and Nancy L. Rose, 1994, Competition and price dispersion in the U.S. airline
+industry, Journal of Political Economy 102, 653–683.
+
+Borenstein, Severin, and Nancy L. Rose, 1995, Bankruptcy and pricing behavior in the U.S. airline
+markets, American Economic Review 85, 397–402.
+
+Brander, James A., and Tracy R. Lewis, 1986, Oligopoly and financial structure: The limited
+liability effect, American Economic Review 76, 956–970.
+
+Brander, James A., and Anming Zhang, 1990, Market conduct in the airline industry: An empirical
+investigation, RAND Journal of Economics 21, 567–583.
+
+Brav, Alon, Wei Jiang, and Hyunseob Kim, 2011, The real effects of hedge fund activism: Produc-
+tivity, risk, and product market competition, Discussion paper, National Bureau of Economic
+Research.
+
+Brav, Alon, Wei Jiang, Frank Partnoy, and Randall Thomas, 2008, Hedge fund activism, corporate
+governance, and firm performance, Journal of Finance 63, 1729–1775.
+
+Bresnahan, Timothy F., and Steven C. Salop, 1986, Quantifying the competitive effects of produc-
+tion joint ventures, International Journal of Industrial Organization 4, 155–175.
+
+Brueckner, Jan K., Darin Lee, and Ethan S. Singer, 2013, Airline competition and domestic U.S.
+airfares: A comprehensive reappraisal, Economics of Transportation 2, 1–17.
+
+ 15406261, 2018, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12698 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+1562 The Journal of Finance©R
+
+Brueckner, Jan K., and W. Tom Whalen, 2000, The price effects of international airline alliances,
+Journal of Law and Economics 43, 503–546.
+
+Casella, Alessandra, Aniol Llorente-Saguer, and Thomas R. Palfrey, 2012, Competitive equilibrium
+in markets for votes, Journal of Political Economy 120, 593–658.
+
+Chen, Xia, Jarrad Harford, and Kai Li, 2007, Monitoring: Which institutions matter? Journal of
+Financial Economics 86, 279–305.
+
+Chevalier, Judith A., 1995, Capital structure and product-market competition: Empirical evidence
+from the supermarket industry, American Economic Review 85, 415–435.
+
+Ciliberto, Federico, and Jonathan W. Williams, 2014, Does multimarket contact facilitate tacit col-
+lusion? Inference on conduct parameters in the airline industry, RAND Journal of Economics
+45, 764–791.
+
+Clayton, Matthew J., and Bjorn N. Jorgensen, 2005, Optimal cross holding with externalities and
+strategic interactions, Journal of Business 78, 1505–1522.
+
+Crès, Hervé, and Mich Tvede, 2005, Portfolio diversification and internalization of production
+externalities through majority voting, Working paper, HEC.
+
+Dasgupta, Sudipto, and Sheridan Titman, 1998, Pricing strategy and financial policy, Review of
+Financial Studies 11, 705–737.
+
+Davis, Gerald F., 2008, A new finance capitalism? Mutual funds and ownership re-concentration
+in the United States, European Management Review 5, 11–21.
+
+Davis, Gerald F., 2013, After the corporation, Politics & Society 41, 283–308.
+Dekel, Eddie, Matthew O. Jackson, and Asher Wolinsky, 2008, Vote buying: General elections,
+
+Journal of Political Economy 116, 351–380.
+Dekel, Eddie, and Asher Wolinsky, 2012, Buying shares and/or votes for corporate control, Review
+
+of Economic Studies 79, 196–226.
+DeMarzo, Peter M., 1993, Majority voting and corporate control: The rule of the dominant share-
+
+holder, Review of Economic Studies 60, 713–734.
+Dimson, Elroy, Oğuzhan Karakaş, and Xi Li, 2015, Active ownership, Review of Financial Studies
+
+28, 3225–3268.
+Edmans, Alex, Doron Levit, and Devin Reilly, 2016, Governing multiple firms, Working paper,
+
+London Business School and Wharton.
+Elhauge, Einer, 2015, Horizontal shareholding, Harvard Law Review 129, 1267–1317.
+Evans, William N., and Ioannis N. Kessides, 1994, Living by the “Golden Rule”: Multimarket
+
+contact in the U.S. airline industry, Quarterly Journal of Economics 109, 341–366.
+Faccio, Mara, and Larry H.P. Lang, 2002, The ultimate ownership of Western European corpora-
+
+tions, Journal of Financial Economics 65, 365–395.
+Farrell, Joseph, 1985, Owner-consumers and efficiency, Economics Letters 19, 303–306.
+Fershtman, Chaim, and Kenneth L. Judd, 1987, Equilibrium incentives in oligopoly, American
+
+Economic Review 77, 927–940.
+Fichtner, Jan, Eelke M. Heemskerk, and Javier Garcia-Bernardo, 2016, Hidden power of the big
+
+three? Passive index funds, re-concentration of corporate ownership, and new financial risk,
+Working paper, University of Amsterdam.
+
+Flath, David, 1991, When is it rational for firms to acquire silent interests in rivals? International
+Journal of Industrial Organization 9, 573–583.
+
+Flath, David, 1992, Horizontal shareholding interlocks, Managerial and Decision Economics 13,
+75–77.
+
+Forbes, Silke Januszewski, and Mara Lederman, 2009, Adaptation and vertical integration in the
+airline industry, American Economic Review 99, 1831–1849.
+
+Forbes, Silke Januszewski, and Mara Lederman, 2010, Does vertical integration affect firm per-
+formance? Evidence from the airline industry, RAND Journal of Economics 41, 765–790.
+
+Foros, Øystein, Hans Jarle Kind, and Greg Shaffer, 2011, Mergers and partial ownership, European
+Economic Review 55, 916–926.
+
+Fos, Vyacheslav, and Margarita Tsoutsoura, 2014, Shareholder democracy in play: Career conse-
+quences of proxy contests, Journal of Financial Economics 114, 316–340.
+
+Freeman, Kayla, 2016, The effects of common ownership on customer-supplier relationships, Work-
+ing paper, Indiana University.
+
+ 15406261, 2018, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12698 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Anticompetitive Effects of Common Ownership 1563
+
+Gaspar, José-Miguel, Massimo Massa, and Pedro Matos, 2005, Shareholder investment horizons
+and the market for corporate control, Journal of Financial Economics 76, 135–165.
+
+Gaspar, José-Miguel, Massimo Massa, and Pedro Matos, 2006, Favoritism in mutual fund families?
+Evidence on strategic cross-fund subsidization, Journal of Finance 61, 73–104.
+
+Gilo, David, Yossi Moshe, and Yossi Spiegel, 2006, Partial cross ownership and tacit collusion,
+RAND Journal of Economics 37, 81–99.
+
+Goolsbee, Austan, and Chad Syverson, 2008, How do incumbents respond to the threat of entry?
+Evidence from the major airlines, Quarterly Journal of Economics 123, 1611–1633.
+
+Gordon, Roger H., 1990, Do publicly traded corporations act in the public interest? Discussion
+paper, National Bureau of Economic Research.
+
+Gordon, Roger H., 2003, Do publicly traded corporations act in the public interest? B.E. Journal of
+Economic Analysis and Policy 3, 1–20.
+
+Gutiérrez, Germán, and Thomas Philippon, 2017, Investment-less growth: An empirical investi-
+gation, Working paper, NYU.
+
+Hansen, Robert G., and John R. Lott, 1996, Externalities and corporate objectives in a world with
+diversified shareholder/consumers, Journal of Financial and Quantitative Analysis 31, 43–68.
+
+Harford, Jarrad, Dirk Jenter, and Kai Li, 2011, Institutional cross-holdings and their effect on
+acquisition decisions, Journal of Financial Economics 99, 27–39.
+
+Hart, Oliver D., 1979, On shareholder unanimity in large stock market economies, Econometrica:
+Journal of the Econometric Society 47, 1057–1083.
+
+Hartzell, Jay C., and Laura T. Starks, 2003, Institutional investors and executive compensation,
+Journal of Finance 58, 2351–2374.
+
+Hausman, Jerry, Serge Moresi, and Mark Rainey, 2011, Unilateral effects of mergers with general
+linear demand, Economics Letters 111, 119–121.
+
+He, Jie Jack, and Jiekun Huang, 2017, Product market competition in a world of cross-ownership:
+Evidence from institutional blockholdings, Review of Financial Studies 30, 2674–2718.
+
+Hicks, John R., 1935, Annual survey of economic theory: The theory of monopoly, Econometrica 3,
+1–20.
+
+International Air Transport Association (IATA), 2008, Air travel demand, IATA Eco-
+nomics Briefing, p. 7. Available at https://www.iata.org/whatwedo/Documents/economics/IATA
+_Economics_Briefing_Impact_of_Recession_Dec08.pdf.
+
+International Air Transport Association (IATA), 2015, Airline profitability strength-
+ens further, IATA Press Release, p. 1. Available at http://www.iata.org/pressroom/pr/
+Pages/2015-06-08-03.aspx.
+
+Jenter, Dirk, and Fadi Kanaan, 2015, CEO turnover and relative performance evaluation, Journal
+of Finance 70, 2155–2184.
+
+Kim, E. Han, and Vijay Singal, 1993, Mergers and market power: Evidence from the airline
+industry, American Economic Review 83, 549–569.
+
+Kovenock, Dan, and Gordon Phillips, 1995, Capital structure and product-market rivalry: How do
+we reconcile theory and evidence? American Economic Review 85, 403–408.
+
+Kwoka, John, Kevin Hearle, and Phillippe Alepin, 2016, From the fringe to the forefront: Low cost
+carriers and airline price determination, Review of Industrial Organization 48, 247–268.
+
+Kwon, Heung Jin, 2016, Executive compensation under common ownership, Working paper, Korea
+Institute of Finance.
+
+Lederman, Mara, 2007, Do enhancements to loyalty programs affect demand? The impact of inter-
+national frequent flyer partnerships on domestic airline demand, RAND Journal of Economics
+38, 1134–1158.
+
+Liang, Lantian, 2016, Common ownership and executive compensation, Working paper, University
+of Texas, Dallas.
+
+Lundin, Erik, 2016, Market power and joint ownership: Evidence from nuclear plants in Sweden,
+Available at SSRN 2743221.
+
+Luo, Dan, 2014, The price effects of the Delta/Northwest airline merger, Review of Industrial
+Organization 44, 27–48.
+
+Malueg, David A., 1992, Collusive behavior and partial ownership of rivals, International Journal
+of Industrial Organization 10, 27–34.
+
+ 15406261, 2018, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12698 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+1564 The Journal of Finance©R
+
+Margotta, Donald, 2010, Adolf Berle and revolution in the modern corporation, Business Review
+15, 62–67.
+
+Matvos, Gregor, and Michael Ostrovsky, 2008, Cross-ownership, returns, and voting in mergers,
+Journal of Financial Economics 89, 391–403.
+
+Matvos, Gregor, and Michael Ostrovsky, 2010, Heterogeneity and peer effects in mutual fund proxy
+voting, Journal of Financial Economics 98, 90–112.
+
+McCahery, Joseph, Laura Starks, and Zacharias Sautner, 2016, Behind the scenes: The corporate
+governance preferences of institutional investors, Journal of Finance 71, 2905–2932.
+
+Mullainathan, Sendhil, and David Scharfstein, 2001, Do firm boundaries matter? American Eco-
+nomic Review 91, 195–199.
+
+Mullins, William, 2014, The governance impact of index funds: Evidence from regression disconti-
+nuity, Working paper, Sloan School of Management, Massachusetts Institute of Technology.
+
+Nain, Amrita, and Yan Wang, 2016, The product market impact of minority stake acquisitions,
+Management Science 64, 825–844.
+
+Nye, William, 1992, Can a joint venture lessen competition more than a merger? Economics Letters
+40, 487–489.
+
+O’Brien, Daniel P., and Steven C. Salop, 2000, Competitive effects of partial ownership: Financial
+interest and corporate control, Antitrust Law Journal 67, 559–614.
+
+Parker, Philip M., and Lars-Hendrik Röller, 1997, Collusive conduct in duopolies: Multimarket
+contact and cross-ownership in the mobile telephone industry, RAND Journal of Economics
+28, 304–322.
+
+Peters, Craig, 2006, Evaluating the performance of merger simulation: Evidence from the U.S.
+airline industry, Journal of Law and Economics 49, 627–649.
+
+Phillips, Gordon M., 1995, Increased debt and industry product markets an empirical analysis,
+Journal of Financial Economics 37, 189–238.
+
+Posner, Eric A., Fiona M. Scott Morton, and E. Glen Weyl, 2017, A proposal to limit the anti-
+competitive power of institutional investors, Antitrust Law Journal 81, 669–728.
+
+Reitman, David, 1994, Partial ownership arrangements and the potential for collusion, Journal of
+Industrial Economics 42, 313–322.
+
+Reynolds, Robert J., and Bruce R. Snapp, 1986, The competitive effects of partial equity interests
+and joint ventures, International Journal of Industrial Organization 4, 141–153.
+
+Roe, Mark J., 1990, Political and legal restraints on ownership and control of public companies,
+Journal of Financial Economics 27, 7–41.
+
+Rotemberg, Julio, 1984, Financial transaction costs and industrial performance, Working paper,
+MIT.
+
+Rubin, Amir, 2006, Diversification and corporate decisions, Corporate Ownership and Control 3,
+209–212.
+
+Schmidt, Cornelius, and Rüdiger Fahlenbrach, 2017, Do exogenous changes in passive institutional
+ownership affect corporate governance and firm value? Journal of Financial Economics 124,
+285–304.
+
+Sklivas, Steven D., 1987, The strategic choice of managerial incentives, RAND Journal of Eco-
+nomics 18, 452–458.
+
+Vitali, Stefania, James B. Glattfelder, and Stefano Battiston, 2011, The network of
+global corporate control, PloS one 6, e25995. Available at http://journals.plos.org/
+plosone/article?id=10.1371/journal.pone.0025995.
+
+Werden, Gregory J., Andrew S. Joskow, and Richard L. Johnson, 1991, The effects of mergers
+on price and output: Two case studies from the airline industry, Managerial and Decision
+Economics 12, 341–352.
+
+Zwiebel, Jeffrey, 1995, Block investment and partial benefits of corporate control, Review of Eco-
+nomic Studies 62, 161–185.
+
+ 15406261, 2018, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12698 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Anticompetitive Effects of Common Ownership 1565
+
+Supporting Information
+Additional Supporting Information may be found in the online version of this
+article at the publisher’s website:
+Appendix S1: Internet Appendix.
+Replication Code.
+
+ 15406261, 2018, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12698 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

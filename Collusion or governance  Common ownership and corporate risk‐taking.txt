@@ -1,0 +1,1956 @@
+﻿Received: 15 August 2022 Revised: 25 August 2023 Accepted: 13 September 2023
+
+DOI: 10.1111/corg.12562
+
+S P E C I A L I S S U E A R T I C L E
+
+Collusion or governance? Common ownership and corporate
+risk-taking
+
+Shouyu Yao1 | Xinyu Guo2 | Ahmet Sensoy3,4 | John W. Goodell5 |
+Feiyang Cheng6
+
+1College of Management and Economics,
+Tianjin University, Tianjin, China Abstract
+2Faculty of Science, The Hong Kong Research Question: Disputes over the corporate governance impacts of common
+Polytechnic University, Hong Kong, China
+
+ownership continue. Differentiating from existing studies, we focus on the Chinese
+3Faculty of Business Administration, Bilkent
+University, Ankara, Turkey stock market, exploiting the Top 10 Shareholding File, which includes various inves-
+4Adnan Kassar School of Business, Lebanese tors besides institutional investors, to study the impact of common ownership built
+American University, Beirut, Lebanon
+
+through blockholders on corporate risk-taking behavior.
+5College of Business, The University of Akron,
+Akron, Ohio, USA Research Findings: We find that firms with higher common ownership are less likely
+6School of Economics and Management, to engage in corporate risk-taking, with concomitant decreases in future growth
+Beijing Jiaotong University, Beijing, China rates. Mechanism analysis shows that blockholders' common ownership exerts its
+
+Correspondence influence through increasing market concentration, with concomitant lessening of
+Feiyang Cheng, School of Economics and market competition. Interestingly, further analyses indicate that, in contrast to bloc-
+Management, Beijing Jiaotong University,
+Beijing, China. kholders, ownership connectedness built by mutual fund families significantly raises
+Email: fycheng@bjtu.edu.cn corporate risk-taking along with growth. However, individual investors' common
+
+Funding information ownership does not show the significant statistical relationship with corporate risk-
+National Natural Science Foundation of China, taking.
+Grant/Award Number: 72073101
+
+Theoretical Implications: We add to the debate on common ownership on corporate
+
+governance. Consistent with the anti-competition stream of literature, the risk-
+
+taking-reduction role we identify for blockholder common ownership supports the
+
+theory of anti-competition. Our results highlight the need to consider the heteroge-
+
+neity of common ownership.
+
+Policy Implications: While blockholder common ownership is evidenced to have a
+
+negative effect on corporate risk-taking, with, by extension, a negative impact on
+
+economic development, our results also suggest that efficient monitoring mitigates
+
+these effects. We also document an interesting heterogeneity in investor types.
+
+Mutual fund common ownership, in contrast to blockholder common ownership, is
+
+associated with higher risk-taking and more robust firm growth. This suggests the
+
+positive role of institutions in corporate governance and the necessity of considering
+
+the heterogeneity of common ownership.
+
+K E YWORD S
+
+corporate governance, blockholders, common ownership, risk-taking
+
+Corp Govern Int Rev. 2024;32:645–669. wileyonlinelibrary.com/journal/corg © 2023 John Wiley & Sons Ltd. 645
+
+
+
+646 YAO ET AL.
+
+1 | INTRODUCTION terms of fund availability, investment horizon, risk preference, and so
+on (Clifford & Lindsey, 2016; Cornett et al., 2007; Hadlock &
+
+Common ownership, which occurs when common blockholders simul- Schwartz-Ziv, 2019; Lin & Fu, 2017) and are more concerned about
+taneously own a large proportion of at least two competing firms in profitability rather than control power because of restraint by perfor-
+the same industry, has gained influence in the market, attracting con- mance appraisals and strict market regulation (Yuan et al., 2008). This
+siderable scholarly interest (Azar et al., 2018; Gilje et al., 2020; Park may partly explain why existing findings diverge. Additionally, as sev-
+et al., 2019). Common blockholdings create linkages between inde- eral studies mention, such as those by Edmans et al. (2019), Hemphill
+pendent competing firms. Such common ownership seems to be the and Kahan (2019), He et al. (2019), Iselin et al. (2021), and Y. Chen
+opposite of the conventional theory of diversifying investment portfo- et al. (2021), in any analysis of anti-competitive effects, it is of great
+lios to minimize specification risks. However, common blockholders significance to distinguish the economic consequences of dedicated
+concentrate their investments by purchasing firms in selected indus- institutional common owners, such as common mutual fund owner-
+tries, based on the belief that this concentration can compensate for ship, from blockholder common ownership, because mutual funds
+the cost of under-diversification (Hemphill & Kahan, 2019). Previous have weaker incentives and the ability to generate anti-competitive
+studies on the US stock market focus on whether the common owner- effects. However, a comparison between common ownership con-
+ship of institutional investors inhibits market competition (Anton nected by mutual funds and other blockholders has not yet been
+et al., 2023; Azar et al., 2018; Cheng et al., 2022; Lu et al., 2022). conducted.
+However, the existing conclusions are controversial (Dennis To address the aforementioned research gaps and different
+et al., 2022; Koch et al., 2021; Lewellen & Lowry, 2021). More impor- from existing studies, we focus on the Chinese stock market,
+tantly, existing studies explored the influence of common ownership exploiting the Top 10 Shareholding File, which includes various
+on corporate governance and the relevant economic consequences investors beyond institutional investors, as the research sample to
+(Brooks et al., 2018; Cheng et al., 2022; Edmans et al., 2019; He & study the impact of common ownership built through blockholders
+Huang, 2017; Kang et al., 2018; Park et al., 2019; Ramalingegowda from the perspective of corporate risk-taking behavior.1 To examine
+et al., 2021). the potential economic channels, we also explore whether common
+
+Our study follows from a general call for more studies investigat- ownership constrains firm competition. Notably, we also compare
+ing the role of ownership types and structures on corporate gover- and distinguish the above impacts and effects of common owner-
+nance and, by extension, to firm and investor characteristics. ship built through individual majority shareholders from those built
+Guedhami et al. (2022) highlight that investigating the impact of own- through mutual funds. This comparison provides additional
+ership structure and ownership type is challenging in corporate gover- contextual insights into the significance and market power impacts
+nance studies. From a corporate governance perspective, studying of common ownership.
+how ownership structure affects firms is currently very important Specifically, corporate risk-taking is a significant driving force of
+(Castañer et al., 2022). This includes considering the conditioning roles financial performance and growth (John et al., 2008; Lewellyn &
+of institutional differences (Tran & Freel, 2023), ownership concentra- Muller-Kahle, 2012). Risk-averse firms may be more conservative in
+tion (Ramírez et al., 2022), foreign institutional ownership (G. Huang making investment decisions and forgoing profit opportunities.
+et al., 2023), managerial ownership (Bian et al., 2023), foreign direct Although risks are omitted, firms may bypass value-enhancing projects
+ownership (W. Huang et al., 2021), nonprofit versus for-profit owner- that are crucial for long-term growth. Based on the findings of existing
+ship structures (Goodell et al., 2020), and state ownership (Tran & literature, we conjecture that two opposing arguments exist regarding
+Freel, 2023). These studies also consider investment decisions the impact of blockholders' common ownership on corporate
+(Ramírez et al., 2022), firm and investor risk-taking (G. Huang risk-taking. One view is that there is a positive relationship between
+et al., 2023), and cross-ownership (Fu et al., 2022). However, by syn- blockholders' common ownership and corporate risk-taking
+thesizing prior studies, we investigate the impacts of a broader variety behavior. Existing research, primarily in the US market, which typically
+of cross-ownership. exhibits highly diversified ownership structures, has demonstrated the
+
+Disputes over the impact of common ownership on corporate beneficial influence of common institutional ownership on firm
+governance continue. Existing studies typically focused on the role of performance. Thus, firms may benefit from improvements in
+institutional investors' common ownership in developed capital mar- monitoring to help them better understand risk–return trade-offs and
+kets, typically in the United States, with few investigations in emerg- be more willing to undertake higher risk to raise firm value
+ing capital markets. Further, as Hemphill and Kahan (2019) note, (E. H. Kim & Lu, 2011).
+previous studies focusing on US markets rely on ownership data that An alternative view is that a negative relationship exists between
+omit the holdings of certain categories of blockholders. These owner- blockholders' common ownership and corporate risk-taking behavior.
+ship data are always drawn from Form 13F and quarterly reports filed Anton et al. (2023) suggest that firms with common ownership tend
+by large institutional investors who are less likely to disclose the hold- to reduce their managerial incentives to avoid competition. In this
+ings of non-institutional corporate holders, such as individuals and vein, investors' utility functions are such that the expected losses from
+firm managers. Institutional investors differ from non-institutions in risk increase with increases in the intra-industry concentration of
+
+ 14678683, 2024, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/corg.12562 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+YAO ET AL. 647
+
+allocations. Therefore, encouraging individual firms to assume less risk Huang, 2017; Kang et al., 2018), we take the Top 10 Shareholding
+is optimal for the common blockholders' intra-industry portfolios. File. This allows us to include various types of investors beyond insti-
+These two competing hypotheses suggest that the influence of com- tutional investors. Therefore, our findings allow a more comprehen-
+mon ownership on corporate risk-taking remains an empirical issue sive and integrated understanding of the market consequences of
+worth investigating. blockholders' common ownership rather than examining the single
+
+Taking China as the research setting, we examine our conjectures impact of institutional common ownership.
+using blockholder common ownership data derived from the Top Furthermore, Azar et al. (2018) and Dennis et al. (2022) dispute
+10 Shareholding File of Chinese nonfinancial firms of listed A shares. the anti-competition role of common ownership in a single industry,
+Our results show a significant negative effect between common bloc- specifically, airlines. By contrast, we contribute to the corporate
+kholder ownership and corporate risk-taking after controlling for two- governance literature by conducting cross-industry analyses. As
+way firm and year fixed effects. A series of robustness tests, including Hemphill and Kahan (2019) indicate, the specific structure of the
+adopting alternative measurements, adding additional control vari- tests performed in single-industry studies limits their ability to
+ables, and controlling for time-varying industry fixed effects, were detect the mechanisms of common ownership. Therefore, Azar
+conducted to confirm reliability. Using propensity score matching and et al.'s (2018) and Dennis et al.'s (2022) conclusions may stem from
+Heckman's corrections, we demonstrate that our findings hold poten- the specific focus on the airline industry and its characteristics. Our
+tial endogeneity concerns. Mechanistic analyses show that common cross-industry study offers new findings that are more broadly
+blockholder ownership exerts its influence by increasing market con- applicable than those from single-industry studies in detecting
+centration with concomitant decreases in market competition. In addi- the economic channel between blockholder ownership and corpo-
+tion, the results show that our identified negative relationship rate behavior.
+between common blockholder ownership and risk-taking can be alle- Additionally, we compare the common ownership effects of dif-
+viated among firms with better corporate governance mechanisms, ferent types of blockholders, including pure institutional share-
+such as firms appointing Big-4 auditors as well as firms with higher holders, individual majority shareholders, and mutual funds. As
+board independence and analyst coverage. Cornett et al. (2007), Clifford and Lindsey (2016), Lin and Fu (2017),
+
+We also extend the investigation of the impact of common own- and Hadlock and Schwartz-Ziv (2019) indicate, there are significant
+ership on risk-taking by comparing cross-held firms with individual differences in fund availability, investment horizons, and risk prefer-
+investors and cross-holding by mutual fund families. We seek to draw ences between institutional shareholders and other types of inves-
+a comparison with common ownership of block shareholders. The tors. In addition, recent studies by Edmans et al. (2019) and
+results show that in contrast to common ownership built by bloc- Hemphill and Kahan (2019) show that it is necessary to distinguish
+kholders, mutual funds are significantly and positively associated with between the different types of common ownership effects. Our
+corporate risk-taking, despite mutual funds typically owning a much findings suggest that the common ownership effect of individual
+smaller proportion of shares than common blockholders. Furthermore, majority shareholders is much weaker than that of institutional
+we find that in contrast to blockholder common ownership, ownership investors and mutual funds. Further, through this distinction, we
+connectedness built by mutual fund families significantly increases identify strikingly opposite impacts of institutional common
+future growth. ownership and mutual funds on common ownership in the Chinese
+
+Additionally, by investigating the impact of individual common stock market. Thus, our study highlights the need to further
+ownership, we find that this form of common ownership has no signif- consider common ownership heterogeneity.
+icant impact on corporate risk-taking behavior. In other words, Finally, the influence of the ownership structure is a mainstay of
+although individual majority shareholders are common in China, few risk-taking studies. Previous studies concentrate on state and foreign
+individual majority shareholders have cross-holdings. Highly decentra- owners (Boubakri et al., 2013), institutional shareholders (Sakawa
+lized individual majority shareholders may not have a significant con- et al., 2021), board size (Y. S. Huang & Wang, 2015; Nakano &
+trol effect on a single industry, which may explain why the common Nguyen, 2012), multiple large shareholders (Mishra, 2011), and large
+ownership of individual majority shareholders has no significant effect shareholder diversification (Faccio et al., 2011). As our study tests
+on risk-taking. how blockholder common ownership influences firm decisions, we
+
+This study contributes to the literature in several ways. First, we contribute to the governance literature by illustrating that risk-taking
+contribute to the debate on the impact of common ownership on cor- is reduced in the presence of blockholders who simultaneously own
+porate governance in emerging markets. Consistent with the anti- shares of competitors in the same industry.
+competition stream of literature, the risk-taking-reduction role we The remainder of this paper is structured as follows. Section 2
+identify for blockholders' common ownership supports the theory of develops the research hypotheses. Section 3 describes our data
+anti-competition (Azar et al., 2018; Cheng et al., 2022). Meanwhile, in sources, variables, and model specifications. Section 4 reports the
+contrast to existing studies analyzing the impacts of institutional bloc- baseline results, robustness testing, and additional analyses to address
+kholding common ownership relying on ownership data that omit endogeneity concerns. Section 5 presents the results of further ana-
+non-institutional corporate holders (Azar et al., 2018; He & lyses. Section 6 concludes.
+
+ 14678683, 2024, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/corg.12562 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+648 YAO ET AL.
+
+2 | INSTITUTIONAL BACKGROUND AND In addition, prior studies explore the influence of common
+HYPOTHESIS DEVELOPMENT ownership on corporate governance and its relevant economic conse-
+
+quences. Some find that firms benefit from improvements in monitor-
+2.1 | Why China? ing, facilitating better control of the risk–return trade-off. Kang et al.
+
+(2018) indicate that the information advantages and governance
+We base our study on the Chinese market for several reasons. First, experience generated from institutions' multiple blockholdings assist
+the Chinese market has a significant influence on the global economy in effective corporate monitoring. Similarly, Brooks et al. (2018),
+and is distinct from the United States in terms of shareholder struc- Ramalingegowda et al. (2021), and Cheng et al. (2022) verify that
+ture, governance style, and monitoring efficiency (Armitage common ownership among institutional investors encourages firms to
+et al., 2017; Yao et al., 2023). Considering this, our findings provide a disclose more transparent financial statement information, leading
+new contribution beyond studies that focus on US data. Particularly to higher quality analyst forecasts. Edmans et al. (2019) further point
+relevant to this study, blockholding in the Chinese market is no longer out that common ownership can strengthen corporate governance
+limited to institutional investors; individual investors and nonfinancial through voice and the threat of exit, even for firms in unrelated indus-
+entities hold considerable stakes in competing firms (Zheng tries. Park et al. (2019) find that anti-competitive incentives created
+et al., 2014). by firms with common ownership incentives reduce proprietary cost
+
+Second, using the Top 10 Shareholding File as a research sample, concerns regarding information disclosure, thereby improving firm
+significant differences can be observed in investor types and share- information disclosure. He and Huang (2017) show that common
+holdings among large shareholders. Specifically, as connectedness ownership can significantly boost firms' market share growth by
+built by nonfinancial investors and mutual fund families is common in improving innovation productivity and operating profitability.3
+
+the Chinese market, our sample selection provides an opportunity to
+make comparisons across blockholder types, beyond simply consider-
+ing common ownership built through institutions. 2.3 | Hypothesis development
+
+Finally, as China is an emerging market with weak formal institu-
+tional development following an economic transition (Cui et al., 2021; Competing streams of literature consider how common ownership
+Zhan, 2012), corporate governance and external monitoring of Chi- shapes firm behavior and how firms may benefit from improvements
+nese firms are less efficient than those in developed markets in monitoring, which helps them have better control over risk–return
+(J. B. Kim et al., 2020). Thus, China provides an interesting opportunity trade-offs. E. H. Kim and Lu (2011) illustrate that strong external gov-
+to study the interaction between common ownership and corporate ernance mitigates agency problems and prevents managers from
+risk-taking in an emerging environment with low institutional monitor- harming shareholder value. Therefore, managers under enhanced
+ing and weak legal enforcement. external monitoring by common blockholders may be pushed to
+
+increase shareholder value by raising profits, which requires higher
+risk-taking.
+
+2.2 | Literature review Specifically, the literature suggests that the management advan-
+tages gained from common ownership are threefold. The first is infor-
+
+Previous studies on the US stock market concentrate on whether mation production (Kacperczyk et al., 2005), in which blockholders
+common ownership among institutional investors inhibits market invest in multiple businesses in a specific industry. Kacperczyk et al.
+competition. For example, as a representative study of the effects of (2005) find that, after controlling for risk and style differences, mutual
+common ownership, Azar et al. (2018) consider the US airline industry funds with a more concentrated investment strategy outperform
+as a research sample and find that common ownership induces others, consistent with superior information regarding specified
+reduced incentives to compete, which brings higher airline prices and industries.
+lower firm outputs. Similarly, Anton et al. (2023), Cheng et al. (2022), Second, common blockholders can obtain management wisdom
+and Lu et al. (2022) document that common institutional ownership from the holding firms and apply it to improve corporate governance
+conditions managerial incentives to be less performance sensitive and and efficiency. Edmans et al. (2019) conclude that common ownership
+has significantly negative impacts on the level of corporate social can have positive effects on governance through voice and exit. Cor-
+responsibility (CSR) and corporate advertising expenditure, consistent porate governance is positively linked with risk-taking. For example,
+with an anti-competitive view. John et al. (2008) report a positive relationship between corporate
+
+As a powerful riposte to Azar et al. (2018), Dennis et al. (2022) governance and risk-taking and future growth rates. The combined
+point out that the common institutional ownership effect documented evidence from these studies suggests that common ownership may
+in Azar et al. (2018) is driven by the merged market share component improve corporate governance, which previous research has linked to
+of the common ownership measure, rather than the ownership and corporate risk-taking.
+control components.2 Lewellen and Lowry (2021) and Koch et al. Given the above literature, the effect of common blockholder
+(2021) affirm an insignificant relationship between common owner- ownership on corporate risk-taking may be positive because of
+ship and market competition (or cooperation). improvements in management information and corporate governance,
+
+ 14678683, 2024, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/corg.12562 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+YAO ET AL. 649
+
+especially in monitoring potential agency problems (Mishra, 2011). industrial responses to the 2008 financial crisis. In addition, we
+Thus, we propose the following hypothesis: exclude financial firms. Firm-level data are derived from the China
+
+Stock Market and Accounting (CSMAR) database. All continuous vari-
+Hypothesis 1a. Common blockholder ownership raises ables are winsorized at 1%.
+corporate risk-taking, ceteris paribus. Our proxy for blockholders' common ownership is built from the
+
+top 10 shareholder information available from the CSMAR database.
+Considering the risk-taking constraint view, common blockholders In our specification, common ownership exists when a blockholder
+
+are experienced and knowledgeable investors with more insight into who owns at least 3% of one firm's share simultaneously holds at least
+portfolio firms, especially their corporate operations and governance. 3% of one or more firms in the same industry. Following Pan et al.
+Common blockholders do not want managers to take risky actions (2020), the classification of China Securities Regulation Commission is
+due to the concentration of their assets. Instead, they are motivated applied to define industries. As manufacturing firms account for a very
+to promote coordination among competing firms in their portfolios to large proportion of the whole sample, industry codes in our setting
+lower risk by reducing market competition. In addition, profits to com- denote classes for manufacturing firms and categories for others.
+mon blockholders come not only from the performance of a single Unlike the usage of 5% as the threshold in the US context, we
+firm but also from the overall profitability of competing firms in their relax the standards and measure common ownership using the 3%
+portfolio. As mentioned, when there are negative externalities of mar- proportion because shareholders with 3% of shares of the company
+ket competition among firms in an industry, common blockholders have the right to submit written proposals to the board of directors
+who jointly own the stocks of competing firms may want managers to for deliberation under the Company Law of the People's Republic of
+take actions that maximize the value of aggregate portfolios instead China (Gao et al., 2019). Whether the shareholder has 3% shares thus
+of individual firms (Azar et al., 2018). Pan et al. (2020) study bloc- can be considered a measurement of control power. Following Gao
+kholders' common ownership using Chinese data and find market col- et al. (2019), we employ three common ownership proxies with 3%
+lusion with underinvestment because of this connectedness. Similarly, proportion of shareholding as a threshold: (1) a dummy variable that
+Cheng et al. (2022) support the anti-competition role of common equals to 1 if the firm has any blockholders who simultaneously own
+ownership by illustrating the negative relationship between at least 3% shares of competing firms in the same industry in any
+common ownership and corporate CSR levels, finding that this effect quarter of the year (Cross); (2) the natural logarithm of 1 plus the
+is more prominent in industries with severe competition. Therefore, annual average of the quarterly number of common blockholders who
+encouraging individual firms to assume less risk is optimal for the simultaneously own at least 3% shares of competing firms (Cross_-
+common blockholders' intra-industry portfolios. Num); and (3) the natural logarithm of 1 plus the average number of
+
+The investments of common blockholders, although consisting of a shares cross-held in each quarter (Cross_Share).
+series of competing firms, are often non-diversified because of their For the dependent variable, we follow John et al. (2008) to mea-
+concentration in specific industries. According to Faccio et al. (2011), sure corporate risk-taking by the variation in industry-adjusted return
+firms with concentrated blockholders have a lower investment risk than on assets (ROA), building two proxies: (1) the 3-year (year t to t + 2)
+firms with diversified blockholders. Poorly diversified shareholders are standard deviation of the adjusted ROA (Risk1) and (2) the difference
+more sensitive to risk and may forgo profitable investment opportuni- between the maximum and minimum of adjusted ROA covering the
+ties. Due to resource limitations, common blockholders lack the ability year t to t+2 (Risk2).
+to further diversify when they already hold a significant proportion of Following Boubakri et al. (2013) and Faccio et al. (2011), we con-
+competing firms in an industry. Consistent with this view, blockholders trol for several firm characteristics that may have a direct impact on
+concentrated in specific industries may manifest risk avoidance. corporate risk-taking, including firm size (Size), leverage ratio (Lev), capi-
+Therefore, common blockholders may be motivated to reduce corpo- tal expenditure (Cap_Ex), revenue growth (Growth), return on equity
+rate risk-taking to reduce the risk of poorly diversified portfolios. (ROE), and the age of the firm (Firm_Age). In addition, some studies
+
+point out that variables related to corporate governance are closely
+Hypothesis 1b. Common blockholder ownership related to corporate risk-taking. In robustness testing, we also control
+reduces corporate risk-taking, ceteris paribus. for a set of board features following Nakano and Nguyen (2012),
+
+including the proportion of shares owned by the largest shareholder
+(Top1), board size (Board), number of independent directors (Indep), and
+
+3 | DATA SELECTION AND RESEARCH CEO–Chair duality (Dual). Appendix A presents variable definitions.
+DESIGN
+
+3.1 | Data and sample 3.2 | Methodology
+
+We restrict our sample to Chinese listed A shares from 2010 to 2019. To test whether and how blockholder common ownership exerts
+Following Hemphill and Kahan (2019) and Lewellen and Lowry (2021), influence on corporate risk-taking, we develop the following fixed-
+we select 2010 as the start year to avoid capturing effects caused by effect model:
+
+ 14678683, 2024, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/corg.12562 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+650 YAO ET AL.
+
+Risk1i,tðRisk2i,tÞ¼ α0þβ1Crossi,tþ γ0Controli,tþFirmFEþYear FEþεi,t, when firms have a larger size, ROE, board size, and proportion of
+ð1Þ shares owned by the largest shareholder. Risk-taking increases with
+
+firm age, leverage, the presence of more independent directors, and
+where i denotes the firm and t denotes the fiscal year. Two-way separation between the CEO and Chair.
+fixed-effect dummies control for unobservable firm-specific and time- Panel B of Table 1 provides the descriptive statistics with the
+varying factors. Following Petersen (2009), we cluster standard errors industry and trend features of common ownership reported to aid in
+at the firm level to account for possible correlation in the error term understanding the distribution. This table contains information from
+within a given firm. The proxy of blockholder common ownership, 17 industries that combine all manufacturing industry classes. The
+Cross, is measured, in turn, as the three variables described in the pre- highest levels of common ownership are in the electric power, heat,
+vious section. Blockholder common ownership is identified as raising gas, water production, and supply industries. We find that 41.08% of
+(reducing) corporate risk-taking if the coefficient β1 is significantly the observations are connected. The lowest mean value of 4.38% is
+positive (negative). The problem of the standard R2 under fixed effect recorded for the cultural, sports, and entertainment industries. There
+model is that its value will mostly be driven by the fixed effects and are considerable differences in common ownership across industries.
+not by the regressors of interest. As a solution, the within-R2 com- The mean values of CrossM, which refers to the common ownership
+putes the R2 of the regression where every variable has already been dummy of mutual fund blockholders, are reported after the column
+demeaned with respect to all the fixed effects. Therefore, following for Cross. Unlike the industrial distribution of common blockholder
+Hatton (2016), and Huber (2018), we use the within-R2 in the report ownership, the highest mean of CrossM is 71.93% in the education
+of the regression. industry.
+
+Panel C reports the trends in common ownership in China from
+2010 to 2019. The common ownership level measured by Cross at the
+
+4 | RESULTS beginning of the observation period, 2010, is approximately 16%. It
+dropped below 14% in 2012 and then increased.4 We did not find
+
+4.1 | Descriptive statistics any obvious trends in the number of common blockholders. The aver-
+age share held by each common blockholder shows a significant
+
+Panel A of Table 1 presents the summary statistics of the variables downward trend, decreasing from 22% in 2010 to 17% in 2019. In
+within the observation period, including the number of observations, contrast to common blockholder ownership, common mutual fund
+mean values, standard deviations, and quantiles. For common owner- ownership shows a decreasing trend over time, decreasing from
+ship variables, a mean value of Cross of 0.164 indicates that 16.4% of 55.93% in 2010 to 22.26% in 2019.
+the sample relates to same-industry competitors through multiple
+blockholdings. The means of the other two common ownership prox-
+ies, Cross_Num and Cross_Share, are 0.105 and 0.031, respectively. 4.2 | Baseline results
+The 3-year standard deviation of industry-adjusted ROA, Risk1, has a
+smaller mean of 3.420 compared with 6.453 for Risk2, which captures Table 2 presents the baseline regression results. We focus on the
+the range of ROA fluctuation. The natural logarithm of firm age is coefficients of the common ownership variables. Individual and
+2.825 on average, indicating that the average age of firms in the sam- time-period two-way fixed-effect models were employed. We con-
+ple is approximately 16 years. The sample firms have a history of at trol for a vector of corporate finance variables in columns 1–3 and
+least 4 years. The mean Board size is 2.133, which implies 8.440 direc- regress risk-taking (proxied by Risk1) on common ownership. The
+tors for each firm. The average proportion of independent directors is coefficients of the common ownership variables are negative and
+37.5%. Approximately 27.6% of the observations appointed the same significant at the 1% level. The common ownership variable, mea-
+person as the CEO and board chair. sured by the average number of common blockholders (Cross_Num),
+
+The right-hand side of Panel A reports the summary statistics has the largest t-value (4.228). The results support Hypothesis 1b,
+regarding whether the firm is commonly held. We find that firms with indicating that common blockholder ownership decreases corporate
+blockholders are generally larger and older and have higher leverage risk-taking behavior, consistent with the anti-competitive hypothesis
+ratios and returns on equity. The risk-taking variables, Risk1 and Risk2, and with Azar et al. (2018), Anton et al. (2023), Cheng et al. (2022),
+are both approximately 22% lower in the commonly held group than and Lu et al. (2022).
+in firms without common ownership, significant at the 1% level. Regarding the control variables, we find that firm size, leverage,
+
+The Spearman (Pearson) correlation coefficients (not reported for and firm age significantly increase risk-taking, while ROE and capital
+brevity) indicate strong, significant correlations between common expenditure lower it. Inspired by studies on corporate governance and
+ownership variables and risk-taking variables, supporting our selection risk-taking (Nakano & Nguyen, 2012), we include a set of additional
+of proxies. Consistent with the anti-competition hypothesis, we find governance features, including the proportion of shares owned by the
+negative correlation coefficients between common ownership and largest shareholder, number of directors, proportion of independent
+risk-taking, preliminarily supporting Hypothesis 1b. We find that risk- directors, and CEO–Chair duality, into our baseline modeling. Columns
+taking, measured by the variance or range of adjusted ROA, decreases 4–6 report the results of the two-way fixed-effect estimation. After
+
+ 14678683, 2024, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/corg.12562 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+YAO ET AL. 651
+
+TABLE 1 Summary statistics and correlation coefficient matrix.
+
+Panel A. Summary statistics
+
+Observations without common Observations with common
+Whole sample (N = 26,818) ownership (N = 22,413) ownership (N = 4405)
+
+Difference in p-value of
+Mean SD Min P25 Median P75 Max Mean Mean mean difference
+
+Cross 0.164 0.370 0.000 0.000 0.000 0.000 1.000 0.000 1.000
+
+Cross_Num 0.105 0.258 0.000 0.000 0.000 0.000 1.609 0.000 0.641 0.641*** .000
+Cross_Share 0.031 0.102 0.000 0.000 0.000 0.000 0.650 0.000 0.190 0.190*** .000
+Risk1 3.420 4.592 0.113 1.021 1.913 3.762 33.671 3.547 2.761 0.787*** .000
+
+Risk2 6.453 8.573 0.218 1.949 3.642 7.144 63.172 6.691 5.221 1.470*** .000
+
+Size 22.063 1.296 19.310 21.120 21.889 22.804 26.369 21.907 22.863 0.956*** .000
+Lev 0.423 0.213 0.026 0.249 0.413 0.583 0.933 0.412 0.477 0.065*** .000
+ROE 0.066 0.141 1.183 0.031 0.075 0.124 0.417 0.064 0.079 0.015*** .000
+Cap_Ex 5.017 4.768 0.014 1.521 3.595 7.034 27.895 5.008 5.066 0.058 .465
+Growth 0.201 0.518 0.643 0.011 0.116 0.281 5.422 0.204 0.188 0.017* .053
+Age 2.825 0.359 1.099 2.639 2.890 3.091 3.555 2.813 2.882 0.070*** .000
+Top1 0.347 0.149 0.083 0.231 0.327 0.449 0.759 0.346 0.353 0.007*** .002
+Board 2.133 0.197 1.609 1.946 2.197 2.197 2.708 2.123 2.184 0.060*** .000
+Indep 0.375 0.053 0.286 0.333 0.333 0.429 0.600 0.375 0.374 0.001 .295
+
+Dual 0.276 0.447 0.000 0.000 0.000 1.000 1.000 0.291 0.202 0.089*** .000
+
+Panel B. Common ownership distribution over industry
+
+Industry Number of firms Number of obs. Mean of Cross Mean of CrossM
+
+Agriculture, forestry, animal husbandry, and fishery 50 397 0.0479 0.4181
+
+Mining industry 90 654 0.2339 0.2859
+
+Manufacturing industry 2527 17,421 0.1451 0.4109
+
+Industry of electric power, heat, gas, and water production and supply 121 869 0.4108 0.2892
+
+Construction industry 115 709 0.1128 0.3103
+
+Wholesale and retail industry 203 1409 0.2505 0.4474
+
+Transport, storage, and postal service industry 112 807 0.3903 0.2020
+
+Accommodation and catering industry 12 97 0.1959 0.1546
+
+Industry of information transmission, software, and information technology services 326 1683 0.1777 0.5446
+
+Real estate industry 169 1208 0.1349 0.3564
+
+Leasing and commercial service industry 80 326 0.0859 0.4110
+
+Scientific research and technical service industry 64 257 0.0973 0.2879
+
+Water conservancy, environment, and public facility management industry 66 295 0.0475 0.4305
+
+(Continues)
+
+ 14678683, 2024, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/corg.12562 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+652 YAO ET AL.
+
+TABLE 1 (Continued)
+
+Panel B. Common ownership distribution over industry
+
+Industry Number of firms Number of obs. Mean of Cross Mean of CrossM
+
+Industry of resident service, repair, and other services 8 21 0.0476 0.2857
+
+Education 12 57 0.1228 0.7193
+
+Health and social work 64 349 0.0946 0.3897
+
+Industry of culture, sports, and entertainment 69 251 0.0438 0.2311
+
+Panel C. Common ownership distribution over year
+
+Year Number of firms Mean of Cross Mean of CrossM
+
+2010 1851 0.1594 0.5593
+
+2011 2131 0.1492 0.5075
+
+2012 2289 0.1398 0.4202
+
+2013 2308 0.1508 0.3962
+
+2014 2439 0.1595 0.4850
+
+2015 2652 0.1731 0.5498
+
+2016 2878 0.1616 0.5139
+
+2017 3306 0.1636 0.3026
+
+2018 3403 0.1754 0.2374
+
+2019 3571 0.1885 0.2226
+
+Note: Panel A presents the summary statistics of the whole sample and subsamples grouped by common ownership. Mean value, standard deviation, and the sample distribution of the whole sample are
+reported. The differences in mean between subsamples and the statistical significance are reported on the right-hand side. In Panels B and C, we report the common ownership distribution over industry and
+year, respectively.
+***Statistically significant at the 1% level.
+*Statistically significant at the 10% level.
+
+ 14678683, 2024, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/corg.12562 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+YAO ET AL. 653
+
+TABLE 2 Baseline regression.
+
+Risk1
+
+Dependent variable (1) (2) (3) (4) (5) (6)
+
+Cross 0.382*** 0.427***
+
+(3.798) (4.232)
+
+Cross_Num 0.724*** 0.786***
+
+(4.228) (4.550)
+
+Cross_Share 1.840*** 1.626**
+
+(2.598) (2.346)
+
+Size 0.392*** 0.390*** 0.390*** 0.398*** 0.395*** 0.394***
+
+(2.868) (2.855) (2.856) (2.959) (2.940) (2.930)
+
+Lev 1.153** 1.143** 1.144** 1.230** 1.219** 1.222**
+
+(2.115) (2.095) (2.097) (2.303) (2.283) (2.288)
+
+ROE 8.599*** 8.599*** 8.607*** 8.411*** 8.412*** 8.426***
+
+(20.448) (20.452) (20.442) (20.293) (20.298) (20.295)
+
+Cap_Ex 0.037*** 0.037*** 0.037*** 0.032*** 0.032*** 0.033***
+
+(4.076) (4.069) (4.131) (3.670) (3.665) (3.743)
+
+Growth 0.026 0.026 0.025 0.000 0.001 0.000
+
+(0.360) (0.369) (0.352) (0.002) (0.009) (0.005)
+
+Age 1.382** 1.356** 1.379** 0.686 0.660 0.703
+
+(2.186) (2.141) (2.180) (1.112) (1.068) (1.138)
+
+Top1 5.947*** 5.940*** 5.846***
+
+(7.156) (7.147) (7.051)
+
+Board 0.585 0.597 0.593
+
+(1.254) (1.279) (1.270)
+
+Indep 2.327** 2.338** 2.337**
+
+(1.970) (1.980) (1.976)
+
+Dual 0.007 0.006 0.011
+
+(0.051) (0.042) (0.076)
+
+Constant 8.809*** 8.672** 8.754*** 7.085** 6.966** 7.106**
+
+(2.602) (2.562) (2.587) (2.026) (1.992) (2.032)
+
+Firm FE Yes Yes Yes Yes Yes Yes
+
+Year FE Yes Yes Yes Yes Yes Yes
+
+Observations 26,627 26,627 26,627 26,627 26,627 26,627
+
+Within-R2 .097 .097 .096 .105 .106 .105
+
+Note: This table presents the results of baseline regressions. The dependent variable is Risk1. The two-way fixed-effect model is applied in each regression.
+Standard errors are clustered at the firm level.
+***Statistically significant at the 1% level.
+**Statistically significant at the 5% level.
+
+adding the governance variables, the magnitudes and statistical signifi- sample mean of the dependent variable. These results are economi-
+cance for Cross and Cross_Num increase, whereas they decrease for cally significant. A 1-standard-deviation increase in Cross, Cross_Num,
+Cross_Share. Firm age is no longer significant after controlling for gov- and Cross_Share decreases Risk1 by 4.62%, 5.46%, and 4.85% of its
+ernance. Interestingly, the proportion of shares owned by the largest mean, respectively. Notably, the economic significance of our com-
+shareholder significantly reduces risk-taking, consistent with the con- mon ownership measures is significantly greater than that of other
+centration of assets that reduces risk-taking. common ownership effects. For instance, a 1-standard-deviation
+
+We also note the economic effect sizes in terms of a 1-standard- increase in common ownership decreases voluntary disclosure by
+deviation increase in the main explanatory variable relative to the 4.15% of its mean (Park & Oh, 2022).
+
+ 14678683, 2024, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/corg.12562 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+654 YAO ET AL.
+
+To further confirm the role of large shareholders in common own- We see a decrease in the common ownership coefficients and corre-
+ership, we exclude the top 1, 3, and 5 largest shareholders in the con- sponding t-values compared with the previous results, although the
+struction of the common ownership variable for a robustness check. signs remain negative.
+The results, which are not tabulated here, show that when excluding In Panel D, we present an alternative type of common ownership.
+these shareholders, the negative impact of common ownership on We conduct this as a placebo test to mitigate concerns about bloc-
+corporate risk-taking exhibits a measured decrease. Moreover, com- kholders' self-selection. Specifically, unlike the mean proxies used in
+pared with the other two exclusion methods, after excluding only the the baseline regression, we view two firms as commonly held only if
+largest shareholder, the negative effect of common ownership on they do not come from the same industry. Consistent with expecta-
+risk-taking decreased the most from the baseline results versus other tions, the coefficients of the common ownership variables were not
+exclusions. statistically significant.
+
+The above results not only further validate the role of large share- Additionally, we include industry and time-varying industry fixed
+holders in common ownership but also indicate that shareholders with effects to control for the time-invariant industrial characteristics and
+more ownership have a greater impact on corresponding corporate trends of industries. Table 5 presents the results. The coefficients of
+decisions. As mentioned, it is reasonable to consider that the negative the common ownership variables decrease in magnitude compared
+effect of common ownership on risk-taking comes from anti- with those in the firm–year fixed-effect models because they control
+competitive conditions. In such cases, the larger the ownership, the for unobservable time trends. The results indicate that industry-
+stronger the anti-competition effect of common ownership by large common factors affect common ownership and corporate risk-taking
+shareholders. This view is consistent with our empirical result that the behaviors. However, the significant negative correlation between
+negative effect lessens the most when excluding only the largest common ownership and corporate risk-taking does not change.
+shareholder. This indirectly supports the need to test the role of the
+anti-competition effect in future analyses.
+
+4.4 | Endogeneity assessment
+
+4.3 | Robustness tests We employ propensity score matching to mitigate self-selection con-
+cerns that common ownership is determined by nonrandom assign-
+
+These findings may be driven by the measurement of our key vari- ment. In Panel A of Table 6, we report the results showing that
+ables. In this section, we address this concern by adopting alternative possible confounding variables are significant in predicting whether
+measures for the dependent and independent variables. Table 3 pre- firms are selected for the treatment group. The results are consistent
+sents the estimation results regressing the alternative risk-taking with common blockholders preferring large firms with good profitabil-
+proxy Risk2 on the common ownership variables. We repeat the same ity and having less preference for firms with greater control by the
+regression model and controls used in the baseline analysis, except for largest shareholder and CEO–Chair duality. To address concerns
+the changes in the dependent variable. All the other settings remain about self-selection bias, we match every cross-held observation with
+unchanged. The t-values of the independent variables do not change two control firms in the same industry in the same year. The right side
+after the substitution. A 1-standard-deviation increase in Cross, of Panel A in Table 6 reports the post-matching summary statistics.
+Cross_Num, and Cross_Share increases Risk2 by 4.51%, 5.81%, and We select 3725 treated firms and 7164 control firms for the matched
+4.79% of its mean, respectively, close to the effect on Risk1. sample, and the differences in most of the control variables between
+
+We further test the robustness of our findings using alternative the two groups after matching are not statistically significant.
+common ownership variables and report the results in Table 4. In Following Yuan et al. (2016), we conduct regressions using the
+Panels A–C, we change the common ownership threshold to 2%, 4%, matched samples. Comparability can be ensured between the treated
+and 5%, respectively. The coefficients on the new common ownership and control groups in terms of the selected attributes. Although the
+variables should remain significant if previous findings are robust to control firms are from the same industry–year combination as
+the measurement. We include the control variables used in the previ- the treated firms, we control for firm and year fixed effects in these
+ous modeling in the regressions for both Risk1 and Risk2. regressions. The results of regressions using matched data are
+
+As reported in Panel A, the coefficients of the common ownership reported in Panel B and are consistent with the baseline modeling.
+variables are all negative and significant at the 1% level. These results However, there is an additional concern regarding self-selection
+show that the effect of common ownership, even when established caused by unobserved factors. We apply the Heckman selection
+through lower levels of common blockholding, is meaningful for cor- model to address this issue. Following the literature (Fu & Qin, 2021;
+porate risk-taking behavior. Panel B uses 4% common shareholdings Gao et al., 2019; Xu et al., 2023), we use the external shocks of having
+as the threshold, with all other settings unchanged. The coefficients a firm newly added to or removed from the Shanghai Shenzhen
+of the common ownership measurements, Cross4 and Cross4_Num, 300 Stock Market Index (CSI 300 index) to construct the exogenous
+increase in magnitude and are significant at the 1% level, whereas the variables.5 Then, we use probit modeling to estimate the inverse Mills
+coefficient of Cross4_Share decreases and is significant at the 5% ratios in the first stage, with CSI300in and CSI300out as exogenous
+level. Panel C reports the regression results using 5% as the threshold. variables to predict the probability of firms having a common
+
+ 14678683, 2024, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/corg.12562 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+YAO ET AL. 655
+
+TABLE 3 Robustness testing: adopting alternative dependent variables.
+
+Risk2
+
+Dependent variable (1) (2) (3) (4) (5) (6)
+
+Cross 0.705*** 0.787***
+
+(3.770) (4.201)
+
+Cross_Num 1.339*** 1.452***
+
+(4.203) (4.524)
+
+Cross_Share 3.426** 3.032**
+
+(2.568) (2.320)
+
+Size 0.708*** 0.705*** 0.705*** 0.719*** 0.714*** 0.712***
+
+(2.784) (2.771) (2.772) (2.871) (2.853) (2.842)
+
+Lev 2.228** 2.208** 2.209** 2.367** 2.346** 2.352**
+
+(2.196) (2.177) (2.178) (2.383) (2.362) (2.368)
+
+ROE 16.347*** 16.346*** 16.362*** 16.001*** 16.002*** 16.028***
+
+(20.698) (20.703) (20.692) (20.562) (20.568) (20.563)
+
+Cap_Ex 0.065*** 0.065*** 0.066*** 0.057*** 0.057*** 0.058***
+
+(3.878) (3.871) (3.932) (3.472) (3.468) (3.544)
+
+Growth 0.055 0.056 0.054 0.007 0.009 0.007
+
+(0.412) (0.421) (0.404) (0.055) (0.065) (0.052)
+
+Age 2.563** 2.513** 2.557** 1.281 1.232 1.311
+
+(2.163) (2.119) (2.157) (1.107) (1.064) (1.132)
+
+Top1 10.927*** 10.914*** 10.740***
+
+(7.006) (6.997) (6.902)
+
+Board 1.081 1.102 1.094
+
+(1.238) (1.263) (1.254)
+
+Indep 4.436** 4.456** 4.454**
+
+(2.001) (2.012) (2.008)
+
+Dual 0.027 0.024 0.033
+
+(0.101) (0.091) (0.125)
+
+Constant 15.843** 15.591** 15.742** 12.743* 12.524* 12.782*
+
+(2.508) (2.469) (2.493) (1.953) (1.919) (1.959)
+
+Firm FE Yes Yes Yes Yes Yes Yes
+
+Year FE Yes Yes Yes Yes Yes Yes
+
+Observations 26,627 26,627 26,627 26,627 26,627 26,627
+
+Within-R2 .100 .100 .100 .109 .109 .108
+
+Note: This table presents the results of baseline regressions. The dependent variable is substituted by Risk2. The two-way fixed-effect model is applied in
+each regression. Standard errors are clustered at the firm level.
+***Statistically significant at the 1% level.
+**Statistically significant at the 5% level.
+*Statistically significant at the 10% level.
+
+blockholder. Panel A of Table 7 affirms this selection, as the statistical 4.5 | Economic mechanism analysis
+significance of CSI300in and CSI300out exceeds the 5% threshold.
+The second-stage estimation uses two-way fixed-effect modeling, The mechanism underlying the anti-competition hypothesis is that the
+identical to the baseline specifications. Panel B of Table 7 presents connectedness of market rivals reduces market competition. Laks-
+the results of the estimations of corporate risk-taking after controlling mana and Yang (2015) demonstrate the risk-taking improvement role
+for unobserved factors. The coefficients of the inverse Mills ratio are of product market competition. Chhaochharia et al. (2012) find that
+statistically significant and negative. Controlling for the unobserved firms in more competitive environments are more efficient. If man-
+factors did not affect our findings. agers waste valuable resources or investment opportunities, firms in
+
+ 14678683, 2024, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/corg.12562 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+656 YAO ET AL.
+
+TABLE 4 Robustness testing using alternative independent variables.
+
+Panel A. Measure cross-ownership using 2% proportion of shareholding as the threshold
+
+Risk1 Risk1 Risk1 Risk2 Risk2 Risk2
+Dependent variable (1) (2) (3) (4) (5) (6)
+
+Cross2 0.288*** 0.541***
+
+(3.551) (3.586)
+
+Cross2_Num 0.530*** 0.989***
+
+(4.148) (4.160)
+
+Cross2_Share 1.820*** 3.400***
+
+(2.780) (2.753)
+
+Controls Yes Yes Yes Yes Yes Yes
+
+Firm FE Yes Yes Yes Yes Yes Yes
+
+Year FE Yes Yes Yes Yes Yes Yes
+
+Observations 26,627 26,627 26,627 26,627 26,627 26,627
+
+Within-R2 .105 .106 .105 .109 .109 .108
+
+Panel B. Measure cross-ownership using 4% proportion of shareholding as the threshold
+
+Risk1 Risk1 Risk1 Risk2 Risk2 Risk2
+Dependent variable (1) (2) (3) (4) (5) (6)
+
+Cross4 0.520*** 0.970***
+
+(3.815) (3.826)
+
+Cross4_Num 0.864*** 1.610***
+
+(3.793) (3.807)
+
+Cross4_Share 1.438** 2.703**
+
+(1.980) (1.976)
+
+Controls Yes Yes Yes Yes Yes Yes
+
+Firm FE Yes Yes Yes Yes Yes Yes
+
+Year FE Yes Yes Yes Yes Yes Yes
+
+Observations 26,614 26,614 26,614 26,614 26,614 26,614
+
+Within-R2 .105 .105 .105 .109 .109 .108
+
+Panel C. Measure cross-ownership using 5% proportion of shareholding as the threshold
+
+Risk1 Risk1 Risk1 Risk2 Risk2 Risk2
+Dependent variable (1) (2) (3) (4) (5) (6)
+
+Cross5 0.409** 0.767**
+
+(2.464) (2.498)
+
+Cross5_Num 0.672** 1.278**
+
+(2.486) (2.559)
+
+Cross5_Share 1.168* 2.228*
+
+(1.690) (1.718)
+
+Controls Yes Yes Yes Yes Yes Yes
+
+Firm FE Yes Yes Yes Yes Yes Yes
+
+Year FE Yes Yes Yes Yes Yes Yes
+
+Observations 26,627 26,627 26,627 26,627 26,627 26,627
+
+Within-R2 .105 .105 .105 .108 .108 .108
+
+ 14678683, 2024, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/corg.12562 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+YAO ET AL. 657
+
+TABLE 4 (Continued)
+
+Panel D. Measure cross-ownership among different industries using 3% proportion of shareholding as the threshold
+
+Risk1 Risk1 Risk1 Risk2 Risk2 Risk2
+Dependent variable (1) (2) (3) (4) (5) (6)
+
+CrossN 0.088 0.169
+
+(1.017) (1.049)
+
+CrossN_Num 0.167 0.308
+
+(1.254) (1.237)
+
+CrossN_Share 0.626 1.217
+
+(1.508) (1.564)
+
+Controls Yes Yes Yes Yes Yes Yes
+
+Firm FE Yes Yes Yes Yes Yes Yes
+
+Year FE Yes Yes Yes Yes Yes Yes
+
+Observations 26,623 26,623 26,623 26,623 26,623 26,623
+
+Within-R2 .105 .105 .105 .108 .108 .108
+
+Note: This table presents the results using the alternative independent variables to support robustness. Common ownership variables in panel A are
+defined to exist when common blockholders simultaneously own at least 2% shares of firms in the same industry. Panels B and C further change this
+threshold to 4% and 5%, respectively. In panel D, common ownership is defined as the connection of firms that are in different industries using the 3%
+threshold. The two-way fixed-effect model is applied in each regression. The rich set of control variables used in prior tests are controlled for. Standard
+errors are clustered at the firm level.
+***Statistically significant at the 1% level.
+**Statistically significant at the 5% level.
+*Statistically significant at the 10% level.
+
+competitive environments lose market share and become less com- at the 1% level), whereas the indirect effect of anti-competition
+petitive (Aghion & Griffith, 2008). through the HHI is 0.014 (statistically significant at the 10% level).
+
+As common ownership creates linkages among firms in the same Specifically, the coefficient of Cross on HHI is 0.004
+industry through common blockholders, we expect a decrease in mar- (t-statistics = 2.112), while the coefficient of HHI for Risk1 is 3.565
+ket competition in industries with more common ownership, which, in (t-statistics = 2.449). Both coefficients are statistically significant,
+turn, reduces firm incentives to take risks. We use the Herfindahl with an indirect coefficient of Cross on Risk1 that is 0.014 with a
+competition index (Herfindahl–Hirschman index [HHI]) to measure t-statistic of 1.686 (SE = 0.020).
+competition. We find similar results in columns 4–6 of Table 8. We note that
+
+The HHI measures the extent to which industrial output is con- the magnitude and significance of the indirect effect are small relative
+centrated among firms. To calculate this, we take the market share of to the direct effect. One reason for the relatively low indirect effect
+each firm in the industry, square it, and add them. The higher the Her- could be that our proxy for the mediating variable is measured with
+findahl index, the more concentrated is the market power (less com- noise and imperfectly captures anti-competition.6 Overall, however,
+petition). Following Pevzner et al. (2015) and Demerjian et al. (2020), the evidence is consistent with common ownership decreasing corpo-
+we use the HHI as a mediating variable to conduct a path analysis. rate risk-taking because common ownership decreases market compe-
+We adopt a three-step approach in this study. The first step is to esti- tition within industries.
+mate the direct effect of common ownership on corporate risk-taking;
+in the second step, we estimate the indirect effect of common owner-
+ship on the mediating variables (HHI); and in the third step, we incor- 5 | FURTHER ANALYSIS
+porate common ownership into the regression model and estimate
+the indirect effect of the mediating variable (HHI) on corporate risk- 5.1 | Mutual fund common ownership versus
+taking. We estimate the significance of the indirect effect using common individual investors
+Sobel's (1982) test statistics (H0: The indirect effect of Steps 2 and
+3 does not exist). The literature on shareholder heterogeneity documents that different
+
+Table 8 presents the results, which show both the direct and indi- types of shareholders have different influences on firms (Clifford &
+rect effects. In columns 1–3 of Table 8, the direct effect of common Lindsey, 2016; Cornett et al., 2007; Lin & Fu, 2017). Institutional bloc-
+ownership on corporate risk-taking is 0.414 (statistically significant kholders can be categorized into two subtypes based on their
+
+ 14678683, 2024, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/corg.12562 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+658 YAO ET AL.
+
+TABLE 5 Robustness test controlling for industrial and time-varying industrial features.
+
+Panel A. Industry fixed effect
+
+Risk1 Risk1 Risk1 Risk2 Risk2 Risk2
+Dependent variable (1) (2) (3) (4) (5) (6)
+
+Cross 0.283*** 0.308***
+
+(3.211) (3.507)
+
+Cross_Num 0.408*** 0.425***
+
+(3.108) (3.238)
+
+Cross_Share 0.815** 0.464**
+
+(2.498) (2.039)
+
+Controls Yes Yes Yes Yes Yes Yes
+
+Industry FE Yes Yes Yes Yes Yes Yes
+
+Year FE Yes Yes Yes Yes Yes Yes
+
+Observations 26,818 26,818 26,818 26,818 26,818 26,818
+
+Within-R2 .173 .173 .173 .181 .181 .180
+
+Panel B. Time-varying industry fixed effect
+
+Risk1 Risk1 Risk1 Risk2 Risk2 Risk2
+Dependent variable (1) (2) (3) (4) (5) (6)
+
+Cross 0.324*** 0.367***
+
+(3.271) (3.685)
+
+Cross_Num 0.578*** 0.644***
+
+(3.424) (3.773)
+
+Cross_Share 1.318** 1.190**
+
+(2.041) (2.073)
+
+Controls Yes Yes Yes Yes Yes Yes
+
+Firm FE Yes Yes Yes Yes Yes Yes
+
+Industry  year FE Yes Yes Yes Yes Yes Yes
+
+Observations 26,623 26,623 26,623 26,623 26,623 26,623
+
+Within-R2 .090 .090 .089 .097 .097 .096
+
+Note: This table presents the results controlling for industrial and time-varying industrial features to support robustness. Fixed effects of regressions in
+Panel A are industry and year, where the industry code is defined as class for manufacturing firms and category for others. Panel B controls for firm and
+time-varying industrial fixed effects. The rich set of control variables used in prior tests are controlled. Standard errors are clustered at the firm level.
+***Statistically significant at the 1% level.
+**Statistically significant at the 5% level.
+
+business relationships with portfolio firms (Cornett et al., 2007; Lin & effective monitoring. Lin and Fu (2017) show that the positive effect
+Fu, 2017). The first subcategory is “pressure sensitive.” Companies in of pressure-insensitive institutional investors on firm performance is
+this category (e.g., banks and insurance companies) have business greater than that of pressure-sensitive institutions. Inspired by these
+relations with firms and, accordingly, may be less willing to challenge studies, we compare the effect of common ownership established
+management decisions to maintain harmonious relationships. In con- through common blockholders consisting of various investor types
+trast, “pressure-insensitive” blockholders have no business relation- with that by common ownership established through mutual fund
+ship with the portfolio firms and are therefore motivated to monitor investors. We consider the latter group to be pressure insensitive
+management. This type includes both mutual funds and hedge funds. because they have no business relations with portfolio firms and are
+
+Using this classification, we hypothesize that common ownership less subject to them (Cornett et al., 2007). Previous studies demon-
+by pressure-insensitive institutional investors may have a prominent strate that ownership by pressure-insensitive institutions is conducive
+positive effect on corporate governance and improve risk-taking. Spe- to corporate governance, as it improves the discipline of executive
+cifically, Clifford and Lindsey (2016) report that mutual fund and compensation (Almazan et al., 2005) and leads to better acquisition
+hedge fund blockholders are more likely to be associated with decisions (Chen et al., 2007).
+
+ 14678683, 2024, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/corg.12562 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+YAO ET AL. 659
+
+TABLE 6 Results from the propensity score matching approach.
+
+Panel A. Results of first-stage regression and summary statistics
+
+Results of the first-
+stage regression Control group Treatment group
+
+(Cross = 0, N = 7164) (Cross = 1, N = 3725)
+Cross t-value Mean Mean Difference in mean p-value of difference
+
+Size 0.546*** (33.153) 22.372 22.492 0.120 .000
+
+Lev 0.459*** (4.535) 0.436 0.459 0.022 .000
+
+ROE 0.458*** (3.111) 0.077 0.074 0.003 .255
+
+Cap_Ex 0.011*** (3.024) 5.239 4.987 0.252 .009
+
+Growth 0.117*** (3.169) 0.200 0.195 0.005 .585
+
+Age 0.252*** (4.743) 2.840 2.875 0.035 .000
+
+Top1 0.807*** (6.743) 0.344 0.344 0.001 .908
+
+Board 0.737*** (7.027) 2.158 2.161 0.003 .480
+
+Indep 0.886** (2.376) 0.372 0.373 0.001 .365
+
+Dual 0.195*** (4.528) 0.232 0.225 0.007 .456
+
+Panel B. Results of regression using matched sample
+
+Risk1 Risk1 Risk1 Risk2 Risk2 Risk2
+Dependent variable (1) (2) (3) (4) (5) (6)
+
+Cross 0.380*** 0.699***
+
+(3.127) (3.081)
+
+Cross_Num 0.689*** 1.272***
+
+(3.013) (2.979)
+
+Cross_Share 2.008* 3.750*
+
+(1.846) (1.817)
+
+Controls Yes Yes Yes Yes Yes Yes
+
+Firm FE Yes Yes Yes Yes Yes Yes
+
+Year FE Yes Yes Yes Yes Yes Yes
+
+Observations 10,889 10,889 10,889 10,889 10,889 10,889
+
+Within-R2 .072 .072 .072 .074 .074 .075
+
+Note: Panel A of this table presents the first-stage results of propensity score matching and the corresponding summary statistics of the control and
+treatment groups. The coefficients and t-values of the first-stage logit regression are reported on the left-hand side. The difference in mean between
+subsamples and the statistical significance are reported on the right-hand side. Panel B reports results from regressing risk-taking on common ownership
+and the set of additional control variables using matched data. The two-way fixed-effect model is applied in each regression. Standard errors are clustered
+at the firm level.
+***Statistically significant at the 1% level.
+**Statistically significant at the 5% level.
+*Statistically significant at the 10% level.
+
+To begin this analysis, we first build mutual fund common owner- all funds managed by the same manager shall hold a stock in common
+ship proxies using the same methodology we used to investigate bloc- across all funds, not in excess of 10% of the market value of the
+kholders. However, we change the threshold from 3% to 1% because respective stock. If the fund size is not sufficiently large, liquidity
+mutual fund families in China typically own a smaller proportion of requirements will require low shareholdings of each portfolio firm.
+portfolio firms. Our reasoning is twofold. First, for compliance pur- Furthermore, because the results are possibly driven by the share of
+poses, the concentration in any given firm is restricted for mutual mutual fund ownership (Dennis et al., 2022), we also control for
+companies, and the 4% shareholding of a firm is a common alert level. mutual fund ownership (M_Inst) in the model.
+Second, the “double 10” principle introduced by the China Securities We estimate risk-taking using mutual fund data to test whether
+Regulatory Commission (CSRC) requires that a fund holding a stock mutual fund common ownership has the same or opposite impact on
+shall not have that same stock exceeding 10% of fund assets and that risk-taking as our findings for blockholding. Panel A of Table 9
+
+ 14678683, 2024, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/corg.12562 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+660 YAO ET AL.
+
+TABLE 7 Results from Heckman's correction test.
+
+Panel A. Results of first-stage Heckman's correction
+
+Cross t-value
+
+CSI300in 0.025*** (3.462)
+
+CSI300out 0.013** (2.013)
+
+Size 0.328*** (5.343)
+
+Lev 0.216*** (3.453)
+
+ROE 0.359*** (3.909)
+
+Cap_Ex 0.002*** (2.713)
+
+Growth 0.101*** (3.223)
+
+Age 0.183*** (3.662)
+
+Top1 0.234** (2.123)
+
+Board 0.241*** (3.823)
+
+Indep 0.352** (2.091)
+
+Dual 0.113*** (4.2139)
+
+Observations 22,519
+
+Pseudo-R2 .103
+
+Panel B. Results of Heckman's correction
+
+Risk1 Risk1 Risk1 Risk2 Risk2 Risk2
+Dependent variable (1) (2) (3) (4) (5) (6)
+
+Cross 0.411*** 0.761***
+
+(3.756) (3.750)
+
+Cross_Num 0.795*** 1.482***
+
+(4.239) (4.260)
+
+Cross_Share 1.789** 3.374**
+
+(2.328) (2.327)
+
+IMR 6.191*** 6.190*** 6.095*** 9.363*** 9.362*** 9.185***
+
+(4.603) (4.601) (4.545) (4.633) (4.631) (4.575)
+
+Controls Yes Yes Yes Yes Yes Yes
+
+Firm FE Yes Yes Yes Yes Yes Yes
+
+Year FE Yes Yes Yes Yes Yes Yes
+
+Observations 22,046 22,046 22,046 22,046 22,046 22,046
+
+Within-R2 .104 .105 .103 .107 .107 .107
+
+Note: Panel A of this table presents the first-stage results of the Heckman method with an exogenous variable CAR, which refers to the 3-year ahead
+abnormal return. The coefficients and t-values of the first-stage logit regression are reported on the left-hand side. Panel B reports results of regression
+with control of the inverse Mills ratio (IMR). The two-way fixed-effect model is applied in each regression. The rich set of control variables used in prior
+tests are controlled. Standard errors are clustered at the firm level.
+***Statistically significant at the 1% level.
+**Statistically significant at the 5% level.
+
+presents the results. Consistent with expectations, the coefficients of shareholdings is an important driver for mutual fund shareholders to
+common ownership built by mutual fund families and the proxies play their role.
+of mutual fund common ownership are all significantly positive. The Heterogeneity at the level of institutions versus non-institutions,
+results show that a 1-standard-deviation increase in CrossM, Cross- as well as within non-institutional investors, provides another angle to
+M_Num, and CrossM_Share increases mean risk-taking by 1.68%, better understand common ownership. Common blockholder owner-
+3.70%, and 4.91%, respectively, as measured by Risk1, and ship may differ in its impact on corporate governance. For instance,
+1.68%, 3.76%, and 4.94%, respectively, as measured by Risk2. This individual blockholders (i.e., persons) are common in the Chinese
+imbalance in the magnitude of influence suggests that the number of market.
+
+ 14678683, 2024, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/corg.12562 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+YAO ET AL. 661
+
+TABLE 8 Mediation analysis.
+
+Risk1 HHI Risk1 Risk2 HHI Risk2
+Dependent variable (1) (2) (3) (4) (5) (6)
+
+Cross 0.427*** 0.004** 0.414*** 0.787*** 0.004** 0.564***
+
+(4.232) (2.112) (4.106) (4.201) (2.112) (4.189)
+
+HHI 3.565** 3.513**
+
+(2.449) (2.437)
+
+Controls Yes Yes Yes Yes Yes Yes
+
+Firm FE Yes Yes Yes Yes Yes Yes
+
+Year FE Yes Yes Yes Yes Yes Yes
+
+Observations 26,627 26,627 26,627 26,627 26,627 26,627
+
+Within-R2 .105 .014 .107 .109 .014 .121
+
+Indirect effect (path effect) 0.014* (t-statistics = 1.686) 0.014* (t-statistics = 1.683)
+
+Note: This table presents the results of the three-stage mediation effect of market competition using both Risk1 and Risk2 as outcome variables. Indirect
+effects of the Sobel test are reported. The two-way fixed-effect model is applied in each regression. Standard errors are clustered at the firm level.
+***Statistically significant at the 1% level.
+**Statistically significant at the 5% level.
+*Statistically significant at the 10% level.
+
+Thus, this study can explicitly acknowledge how common indi- on the nonfinancial institution blockholders and mutual fund proxies
+vidual investors who are likely to be less efficient monitor and have the same signs and significance.
+shape corporate risk-taking. We then measure individual investors'
+common ownership using a method similar to that for blockholder
+common ownership. Our proxy for individual investors' common 5.2 | Moderating effects
+ownership is built from the top 10 shareholders available in the
+CSMAR database. In our specification, individual investors' common Given China's weak external monitoring environment, blockholders
+ownership occurs when an individual investor who owns at least can indirectly profit through related transactions and resource occu-
+3% of a firm's shares simultaneously holds at least 1% of one or pation. Therefore, powerful blockholders may avoid protecting firm
+more firms in the same industry. We change the threshold from 3% value by appeasing their blockholding portfolios (Edmans, 2014). Con-
+to 1% because individual investors in China typically own a small sidering these distinctions, we are interested in the factors that condi-
+proportion compared with institutions. As the results are possibly tion the negative effect of common ownership on risk-taking. As
+driven by the mere share of individual investor ownership (Dennis poorly governed firms are more vulnerable to expropriation by large
+et al., 2022), we also consider investor ownership in the model. As shareholders, we expect that firms with stronger external monitoring
+shown in Panel B, although negative, the statistical significance for mechanisms, as measured by appointing a Big-4 auditor (Big4), hiring
+the first two variables, CrossI and CrossI_Num, is below the 10% crit- more independent directors (Indep), and receiving more analyst cover-
+ical value. The coefficients after regressing risk-taking on the total age (Analyst), will suffer fewer consequences of common ownership.
+shares held by the common individual blockholder CrossI_Share in Table 10 presents the empirical results of these models. The interac-
+both models are significant at the 10% level. These results do not tion terms with common ownership of the monitoring variables Big4
+support the risk-taking reduction role of individuals. We note that and Indep are significant at the 5% level, consistent with external
+compared with the 16% mean value of blockholder common owner- monitoring disincentivizing the enhanced risk-taking stemming from
+ship, the mean of individual common ownership CrossI is only common ownership. The results show that analysts' external attention
+approximately 3%. Hence, the existence of individual blockholders is has a conditioning role similar to that of Big-4 auditors and indepen-
+highly diversified, and they may lack the necessary controlling dent directors.
+power to influence firm behavior.
+
+Panel C reports the results of tests that include individual inves-
+tors' common ownership, CrossI_Share; mutual fund common owner- 5.3 | Long-term effect on market share growth
+ship, CrossM_Share; and nonfinancial institution blockholders'
+common ownership, CrossC_Share, simultaneously in the same model. Profits to common blockholders come not only from the performance
+We also control for the shares of mutual funds and individual inves- of a single firm but also from the overall profitability of competing
+tors. Considering other types of common ownership, the coefficients firms in their portfolio. As mentioned previously, when there are
+
+ 14678683, 2024, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/corg.12562 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+662 YAO ET AL.
+
+TABLE 9 Regressing risk-taking on various types of common ownership.
+
+Panel A. Regressing risk-taking on mutual fund common ownership
+
+Risk1 Risk1 Risk1 Risk2 Risk2 Risk2
+Dependent variable (1) (2) (3) (4) (5) (6)
+
+CrossM 0.117* 0.221*
+
+(1.650) (1.677)
+
+CrossM_Num 0.301*** 0.577***
+
+(3.133) (3.223)
+
+CrossM_Share 5.886*** 11.186***
+
+(4.378) (4.441)
+
+M_Inst 0.644*** 0.744*** 0.839*** 1.223*** 1.419*** 1.596***
+
+(3.009) (3.421) (3.816) (3.065) (3.502) (3.894)
+
+Other controls Yes Yes Yes Yes Yes Yes
+
+Firm FE Yes Yes Yes Yes Yes Yes
+
+Year FE Yes Yes Yes Yes Yes Yes
+
+Observations 26,601 26,601 26,601 26,601 26,601 26,601
+
+Within-R2 .106 .105 .106 .110 .109 .109
+
+Panel B. Regressing risk-taking on individual common ownership
+
+Risk1 Risk1 Risk1 Risk2 Risk2 Risk2
+Dependent variable (1) (2) (3) (4) (5) (6)
+
+CrossI 0.128 0.238
+
+(0.590) (0.592)
+
+CrossI_Num 0.308 0.557
+
+(1.209) (1.393)
+
+CrossI_Share 0.282* 0.248*
+
+(1.679) (1.739)
+
+I_Ownership 0.537*** 0.538*** 0.540*** 1.025*** 1.026*** 1.029***
+
+(2.580) (2.582) (2.591) (2.636) (2.638) (2.646)
+
+Other controls Yes Yes Yes Yes Yes Yes
+
+Firm FE Yes Yes Yes Yes Yes Yes
+
+Year FE Yes Yes Yes Yes Yes Yes
+
+Observations 26,627 26,627 26,627 26,627 26,627 26,627
+
+Within-R2 .086 .086 .086 .088 .088 .088
+
+Panel C. Regressing risk-taking on various types of common ownership
+
+Risk1 Risk1 Risk2 Risk2
+Dependent variable (1) (2) (3) (4)
+
+CrossC_Share 2.503*** 1.512** 4.696*** 2.822**
+
+(3.073) (2.195) (3.062) (2.172)
+
+CrossI_Share 1.162 1.401 1.468 1.786
+
+(1.075) (1.082) (1.067) (1.058)
+
+CrossM_Share 1.546** 4.387*** 2.943** 8.389***
+
+(1.977) (2.853) (2.032) (2.907)
+
+Mere share control Yes Yes Yes Yes
+
+Other controls No Yes No Yes
+
+Firm FE Yes Yes Yes Yes
+
+Year FE Yes Yes Yes Yes
+
+ 14678683, 2024, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/corg.12562 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+YAO ET AL. 663
+
+TABLE 9 (Continued)
+
+Panel C. Regressing risk-taking on various types of common ownership
+
+Risk1 Risk1 Risk2 Risk2
+Dependent variable (1) (2) (3) (4)
+
+Observations 26,601 26,601 26,601 26,601
+
+Within-R2 .001 .106 .001 .109
+
+Note: This table presents the results of regressing risk-taking variables on mutual fund common ownership, individual common ownership, and common
+ownership built by nonfinancial institution blockholders. The two-way fixed-effect model is applied in each regression. The rich set of control variables
+used in prior tests are controlled in panels A and B. Standard errors are clustered at the firm level.
+***Statistically significant at the 1% level.
+**Statistically significant at the 5% level.
+*Statistically significant at the 10% level.
+
+TABLE 10 Moderation effect.
+
+Risk1 Risk1 Risk1 Risk2 Risk2 Risk2
+Dependent variable (1) (2) (3) (4) (5) (6)
+
+Cross_Share 1.837** 1.387** 3.068*** 3.448** 3.826*** 3.650***
+
+(2.356) (2.064) (2.839) (2.347) (3.186) (2.750)
+
+Big4_Cross 1.125** 2.226**
+
+(2.134) (2.291)
+
+Big4 0.370* 0.687*
+
+(1.762) (1.709)
+
+Indep_Cross 0.475** 1.489**
+
+(2.036) (2.152)
+
+Indep 2.538** 1.838**
+
+(2.048) (2.083)
+
+Analyst_Cross 1.543* 1.067*
+
+(1.847) (1.803)
+
+Analyst 1.760** 1.350**
+
+(2.098) (2.138)
+
+Controls Yes Yes Yes Yes Yes Yes
+
+Firm FE Yes Yes Yes Yes Yes Yes
+
+Year FE Yes Yes Yes Yes Yes Yes
+
+Observations 26,627 26,627 26,627 26,627 26,627 26,627
+
+Within-R2 .105 .105 .106 .108 .108 .109
+
+Note: This table presents the results of regressing risk-taking variables on a series of interaction terms between monitoring and common ownership. The
+two-way fixed-effect model is applied in each regression. The rich set of control variables used in prior tests is controlled. Standard errors are clustered at
+the firm level.
+***Statistically significant at the 1% level.
+**Statistically significant at the 5% level.
+*Statistically significant at the 10% level.
+
+negative externalities of market competition among firms in an indus- et al. (2020) find that market collusion induces underinvestment
+try, common blockholders may want managers to take actions that because of this connectedness. Further, risk-averse firms make more
+maximize the value of aggregate portfolios instead of individual firms conservative investment decisions. They forgo projects with a more
+(Azar et al., 2018). Therefore, common ownership may lead firms to positive net present value (NPV) (John et al., 2008) and consequently
+be relatively conservative and to take lower investment risks. Pan have lower growth rates in future market shares.
+
+ 14678683, 2024, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/corg.12562 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+664 YAO ET AL.
+
+TABLE 11 Future market share
+MS_Growth
+
+growth on blockholder common
+Dependent variable (1) (2) (3) (4) (5) (6) ownership.
+
+Risk1_Hat1 0.001*
+
+(1.701)
+
+Risk1_Hat2 0.001*
+
+(2.053)
+
+Risk1_Hat3 0.002**
+
+(2.184)
+
+Risk2_Hat1 0.001*
+
+(1.943)
+
+Risk2_Hat2 0.001**
+
+(2.101)
+
+Risk2_Hat3 0.001**
+
+(2.063)
+
+Controls Yes Yes Yes Yes Yes Yes
+
+Firm FE Yes Yes Yes Yes Yes Yes
+
+Year FE Yes Yes Yes Yes Yes Yes
+
+Observations 26,625 26,625 26,625 26,599 26,599 26,599
+
+Within-R2 .113 .109 .112 .095 .107 .112
+
+Note: This table presents the results of regressing market share growth on the predicted value of risk-
+taking. Blockholder common ownership variables Cross (corresponding to Hat1), Cross_Num
+(corresponding to Hat2), and Cross_Share (corresponding to Hat3) are used to predict the level of risk-
+taking along with the rich set of control variables. The two-way fixed-effect models are applied in each
+regression. Standard errors are clustered at the firm level.
+**Statistically significant at the 5% level.
+*Statistically significant at the 10% level.
+
+We develop a two-step model to disentangle the effects of com- corporate governance and, by extension, the market impact of com-
+mon ownership on future growth rates. In the first stage, we predict mon ownership continue. How common ownership influences corpo-
+risk-taking levels using common ownership variables and a rich set of rate governance and the ensuing firm decisions remains unclear, as is
+control variables. In the second stage, we regress the future market the specific role of common ownership.
+share growth rate on the predicted value of risk-taking to capture the We study the impact of common ownership built through bloc-
+pure effect of the variation in common ownership. Cross, Cross_Num, kholders on corporate risk-taking behavior. In contrast to prior stud-
+and Cross_Share were used to predict Risk_Hat1, Risk_Hat2, and Ris- ies, we focus on the Chinese stock market by exploiting the Top
+k_Hat3, respectively. Columns 1–3 of Table 11 report the results of 10 Shareholding File, which include various investors in addition to
+our estimations regressing contemporaneous market share growth on institutional investors. The evidence shows that cross-held firms with
+the 1-year lagged values of the predicted value of Risk1. The slopes of common blockholders are associated with lower risk-taking, support-
+the explanatory variables are negative and significant. Columns 4–6 ing the anti-competition hypothesis of common ownership. A series
+report similar results when estimating the predicted value of Risk2. of alternative tests and methods to mitigate endogeneity robustly
+These tests support the hypothesis that common blockholder owner- confirmed our findings. The mechanistic analyses show that common
+ship reduces firms' risk-taking levels and can even harm long-term ownership reduces risk-taking by lowering market competition. Fur-
+performance. thermore, the analysis shows that this effect harms firms' future mar-
+
+ket share growth, particularly in poorly governed firms.
+Importantly, we find an interesting heterogeneity in the common
+
+6 | CONCLUSIONS ownership type identified, wherein the influences of connectedness
+by blockholders versus mutual fund families have the opposite effect
+
+The widespread occurrence of common ownership or investors own- on risk-taking. While blockholders reduce risk-taking and impede
+ing block cross-holdings within an industry is of increasing interest to growth, mutual fund family common ownership engenders risk-taking
+accounting and finance scholars (Azar et al., 2018; Koch et al., 2021; and encourages growth. These results highlight the positive role of
+Lewellen & Lowry, 2021). However, disputes over the impact of institutions in corporate governance and the need to consider the
+
+ 14678683, 2024, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/corg.12562 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+YAO ET AL. 665
+
+heterogeneity of common ownership. Additionally, while blockholder owners. The CSI 300 index is reconstituted semi-annually, in June and
+
+common ownership has a negative effect on corporate risk-taking December. China Securities Index Co. Ltd uses the average daily market
+capitalization and trading volumes in the most recent year of all stocks in
+
+and, by extension, a negative impact on economic development, our
+the Shanghai and Shenzhen stock exchanges to identify the index con-
+
+results suggest that efficient monitoring mitigates these effects. These stituents (Li & Selvam, 2021). Therefore, the decisions of stock
+results have important policy implications. Our findings suggest that exchanges to add or remove a stock in the CSI 300 index are not driven
+
+common ownership may negatively impact corporate governance. by the level of corporate risk-taking. Thus, CSI300in and CSI300out are
+unlikely to affect the risk-taking of listed firms directly.
+
+Therefore, market regulators, especially in markets with weak
+6 The HHI combines the advantages of both the absolute and relative con-
+
+institutions, such as emerging markets, should pay special attention to
+centration indexes while avoiding their drawbacks. Also, the HHI can cal-
+
+preventing the negative effects of common ownership and its anti- culate the level of competition within the industry through simple and
+competitive effects. The relevant markets can mitigate these negative effective logic. However, the HHI may not reflect market complexity or
+effects by strengthening their external governance mechanisms. accurately evaluate competitive or monopolistic market conditions. In
+
+Importantly, our findings show corresponding heterogeneity in the addition, the HHI is more sensitive to the market share of larger upper-
+tier firms, while it is less sensitive to small changes in the market share
+
+different types of common ownership. Common ownership by mutual of many small firms. If more detailed transaction data are available or
+fund families (financial institutional investors) positively affects corpo- more detailed dimensions such as the firm's mastery of upstream and
+rate governance. Therefore, developing institutional investors to downstream resources in the supply chain can be used to evaluate
+
+enhance market governance and efficiency is of special importance. and capture the true competition situation in the industry, the measure-
+ment may be better. Future research can attempt to develop more accu-
+rate indicators to measure the degree of competition within an industry.
+
+ACKNOWLEDGMENTS
+The authors thank Wolfgang Bessler, Douglas Cumming, Wolfgang
+Drobetz, Sadok El Ghoul, Omrane Guedhami, Shushu Liao, and the REFERENCES
+
+participants in The Role of Institutional Investors in International Cor- Aghion, P., & Griffith, R. (2008). Competition and growth: Reconciling theory
+and evidence. MIT Press.
+
+porate Governance: Contemporary Paradigms and Perspectives, held
+Almazan, A., Hartzell, J. C., & Starks, L. T. (2005). Active institutional share-
+
+in June 2022 at the Warburg Haus, Hamburg. We also acknowledge holders and costs of monitoring: Evidence from executive compensa-
+financial support from the National Natural Science Foundation of tion. Financial Management, 34(4), 5–34. https://doi.org/10.1111/j.
+
+China (Grant Number 72073101). 1755-053X.2005.tb00116.x
+Anton, M., Ederer, F., Giné, M., & Schmalz, M. (2023). Common
+
+Ownership, Competition, and Top Management Incentives. Journal of
+CONFLICT OF INTEREST STATEMENT Political Economy, 131(5), 1294–1355. https://doi.org/10.1086/
+There are no conflicts of interest. 722414
+
+Armitage, S., Hou, W., Sarkar, S., & Talaulicar, T. (2017). Corporate gover-
+
+DATA AVAILABILITY STATEMENT nance challenges in emerging economies. Corporate Governance: An
+International Review, 25(3), 148–154. https://doi.org/10.1111/corg.
+
+The data are not publicly available because of privacy or ethical 12209
+restrictions. Azar, J., Schmalz, M. C., & Tecu, I. (2018). Anticompetitive effects of com-
+
+mon ownership. Journal of Finance, 73(4), 1513–1565. https://doi.org/
+
+ORCID 10.1111/jofi.12698
+Bian, H., Kuo, J.-M., Pan, H., & Zhang, Z. (2023). The role of managerial
+
+Shouyu Yao https://orcid.org/0000-0003-1763-0175 ownership in dividend tunneling: Evidence from China. Corporate Gov-
+John W. Goodell https://orcid.org/0000-0003-4126-9244 ernance: An International Review, 31(2), 307–333. https://doi.org/10.
+Feiyang Cheng https://orcid.org/0000-0001-9344-1582 1111/corg.12478
+
+Boubakri, N., Cosset, J. C., & Saffar, W. (2013). The role of state and for-
+eign owners in corporate risk-taking: Evidence from privatization. Jour-
+
+NOTES
+nal of Financial Economics, 108(3), 641–658. https://doi.org/10.1016/
+
+1 We explain our choice of the Chinese stock market in Section 2.1. j.jfineco.2012.12.007
+2 Interestingly, these papers were both published by The Journal of Brooks, C., Chen, Z., & Zeng, Y. (2018). Institutional cross-ownership and
+
+Finance. This validates the urgency of exploring the effect of common corporate strategy: The case of mergers and acquisitions. Journal of
+
+ownership in the capital markets. Corporate Finance, 48, 187–216. https://doi.org/10.1016/j.jcorpfin.
+3 2017.11.003
+Several studies investigate the market impacts of common ownership in
+
+Castañer, X., Goranova, M., Hermes, N., Kavadis, N., & Zattoni, A. (2022).
+US markets. For example, Jang et al. (2022) argue that common owner-
+
+Ownership and corporate governance across institutional contexts.
+ship has a positive effect on information production and firms' price
+
+Corporate Governance: An International Review, 30(6), 638–655.
+informativeness.
+
+https://doi.org/10.1111/corg.12491
+4 In untabulated data consisting of all available observations, the mean Chen, X., Harford, J., & Li, K. (2007). Monitoring: Which institutions mat-
+value of Cross rises to around 21.51% in 2020 and 23.28% in 2021. ter? Journal of Financial Economics, 86(2), 279–305. https://doi.org/10.
+
+5 The CSI 300 index consists of the 300 largest and most liquid Chinese 1016/j.jfineco.2006.09.005
+A-share stocks and is the most representative Chinese stock index. We Chen, Y., Li, Q., Ng, J., & Wang, C. (2021). Corporate financing of invest-
+expect that new additions to the CSI 300 index attract more investor ment opportunities in a world of institutional cross-ownership. Journal
+attention and thus are more likely to have common state ownership, of Corporate Finance, 69, 102041. https://doi.org/10.1016/j.jcorpfin.
+while firms removed from this index are less likely to have common state 2021.102041
+
+ 14678683, 2024, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/corg.12562 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+666 YAO ET AL.
+
+Cheng, X., Wang, H., & Wang, X. (2022). Common institutional ownership of Financial Studies, 30(8), 2674–2718. https://doi.org/10.1093/rfs/
+and corporate social responsibility. Journal of Banking & Finance, 136, hhx028
+106218. https://doi.org/10.1016/j.jbankfin.2021.106218 He, J. J., Huang, J., & Zhao, S. (2019). Internalizing governance externali-
+
+Chhaochharia, V., Grullon, G., Grinstein, Y., & Michaely, R. (2012). Product ties: The role of institutional cross-ownership. Journal of Financial Eco-
+market competition and agency conflicts: Evidence from the Sarbanes nomics, 134(2), 400–418. https://doi.org/10.1016/j.jfineco.2018.
+Oxley act (Johnson School Research Paper Series 18-2012). Johnson 07.019
+School. https://dx.doi.org/10.2139/ssrn.1109225 Hemphill, C. S., & Kahan, M. (2019). The strategies of anticompetitive
+
+Clifford, C. P., & Lindsey, L. (2016). Blockholder heterogeneity, CEO com- common ownership. The Yale Law Journal, 129, 1392. https://www.
+pensation, and firm performance. Journal of Financial and Quantitative ecgi.global/sites/default/files/working_papers/documents/
+Analysis, 51(5), 1491–1520. https://doi.org/10.1017/ hemphillkahanfinal.pdf
+S0022109016000624 Huang, G., An, Z., & Li, D. (2023). Foreign institutional ownership and cor-
+
+Cornett, M. M., Marcus, A. J., Saunders, A., & Tehranian, H. (2007). The porate risk-taking: International evidence. Corporate Governance: An
+impact of institutional ownership on corporate operating performance. International Review, 31(2), 260–284. https://doi.org/10.1111/corg.
+Journal of Banking & Finance, 31(6), 1771–1794. https://doi.org/10. 12456
+1016/j.jbankfin.2006.08.006 Huang, W., Goodell, J. W., & Goyal, A. (2021). In times of crisis does own-
+
+Cui, X., Yao, S., Fang, Z., & Wang, H. (2021). Economic policy uncertainty ership matter? Liquidity extraction through dividends during the
+exposure and earnings management: Evidence from China. Accounting 2007–2009 financial crisis. Journal of International Financial Markets
+and Finance, 61(3), 3937–3976. https://doi.org/10.1111/acfi.12722 Institutions and Money, 73, 101380. https://doi.org/10.1016/j.intfin.
+
+Demerjian, P., Donovan, J., & Lewis-Western, M. F. (2020). Income 2021.101380
+smoothing and the usefulness of earnings for monitoring in debt con- Huang, Y. S., & Wang, C. J. (2015). Corporate governance and risk-taking
+tracting. Contemporary Accounting Research, 37(2), 857–884. https:// of Chinese firms: The role of board size. International Review of Eco-
+doi.org/10.1111/1911-3846.12544 nomics and Finance, 37, 96–113. https://doi.org/10.1016/j.iref.2014.
+
+Dennis, P., Gerardi, K., & Schenone, C. (2022). Common ownership does 11.016
+not have anticompetitive effects in the airline industry. Journal of Huber, K. (2018). Disentangling the effects of a banking crisis: Evidence
+Finance, 77(5), 2765–2798. https://doi.org/10.1111/jofi.13176 from German firms and counties. American Economic Review, 108(3),
+
+Edmans, A. (2014). Blockholders and corporate governance. Annual Review 868–898. https://doi.org/10.1257/aer.20161534
+of Financial Economics, 6(1), 23–50. https://doi.org/10.1146/annurev- Iselin, M., Liao, S., & Zhang, H. (2021). Common mutual fund ownership
+financial-110613-034455 and systemic risk. Contemporary Accounting Research, 38(3), 2157–
+
+Edmans, A., Levit, D., & Reilly, D. (2019). Governance under common own- 2191. https://doi.org/10.1111/1911-3846.12678
+ership. Review of Financial Studies, 32(7), 2673–2719. https://doi.org/ Jang, I. J., Kang, N., & Yezegel, A. (2022). Common ownership, price infor-
+10.1093/rfs/hhy108 mativeness, and corporate investment. Journal of Banking & Finance,
+
+Faccio, M., Marchica, M. T., & Mura, R. (2011). Large shareholder diversifi- 135, 106373. https://doi.org/10.1016/j.jbankfin.2021.106373
+cation and corporate risk-taking. Review of Financial Studies, 24(11), John, K., Litov, L., & Yeung, B. (2008). Corporate governance and risk-tak-
+3601–3641. https://doi.org/10.1093/rfs/hhr065 ing. Journal of Finance, 63(4), 1679–1728. https://doi.org/10.1111/j.
+
+Fu, Y., Liu, C., Qin, Z., & Zhao, D. (2022). Institutional cross-ownership and 1540-6261.2008.01372.x
+firm social performance. Corporate Governance: An International Kacperczyk, M., Sialm, C., & Zheng, L. (2005). On the industry concentra-
+Review, 30(6), 738–764. https://doi.org/10.1111/corg.12447 tion of actively managed equity mutual funds. The Journal of Finance,
+
+Fu, Y., & Qin, Z. (2021). Institutional cross-ownership and corporate phi- 60(4), 1983–2011. https://doi.org/10.1111/j.1540-6261.2005.
+lanthropy. Finance Research Letters, 43, 101996. https://doi.org/10. 00785.x
+1016/j.frl.2021.101996 Kang, J. K., Luo, J., & Na, H. S. (2018). Are institutional investors with mul-
+
+Gao, K., Shen, H., Gao, X., & Chan, K. C. (2019). The power of sharing: Evi- tiple blockholdings effective monitors? Journal of Financial Economics,
+dence from institutional investor cross-ownership and corporate inno- 128(3), 576–602. https://doi.org/10.1016/j.jfineco.2018.03.005
+vation. International Review of Economics and Finance, 63, 284–296. Kim, E. H., & Lu, Y. (2011). CEO ownership, external governance, and risk-
+https://doi.org/10.1016/j.iref.2019.01.008 taking. Journal of Financial Economics, 102(2), 272–829. https://doi.
+
+Gilje, E. P., Gormley, T. A., & Levit, D. (2020). Who's paying attention? org/10.1016/j.jfineco.2011.07.002
+Measuring common ownership and its impact on managerial incen- Kim, J. B., Li, X., Luo, Y., & Wang, K. (2020). Foreign investors, external
+tives. Journal of Financial Economics, 137(1), 152–178. https://doi.org/ monitoring, and stock price crash risk. Journal of Accounting, Auditing
+10.1016/j.jfineco.2019.12.006 and Finance, 35(4), 829–853. https://doi.org/10.1177/
+
+Goodell, J. W., Goyal, A., & Hasan, I. (2020). Comparing financial 0148558X19843358
+transparency between for-profit and nonprofit suppliers of public Koch, A., Panayides, M., & Thomas, S. (2021). Common ownership and
+goods: Evidence from microfinance. Journal of International Financial competition in product markets. Journal of Financial Economics, 139(1),
+Markets Institutions and Money, 64, 101146. https://doi.org/10.1016/ 109–137. https://doi.org/10.1016/j.jfineco.2020.07.007
+j.intfin.2019.101146 Laksmana, I., & Yang, Y. W. (2015). Product market competition and corpo-
+
+Guedhami, O., Johan, S., Florencio Lopez-de-Silanes, F., & Terjesen, S. rate investment decisions. Review of Accounting and Finance, 14(2),
+(2022). Challenges for corporate governance at the national and firm 128–148. https://doi.org/10.1108/RAF-11-2013-0123
+levels. Corporate Governance: An International Review, 30, 2–9. https:// Lewellen, K., & Lowry, M. (2021). Does common ownership really increase
+doi.org/10.1111/corg.12420 firm coordination? Journal of Financial Economics, 141(1), 322–344.
+
+Hadlock, C. J., & Schwartz-Ziv, M. (2019). Blockholder heterogeneity, mul- https://doi.org/10.1016/j.jfineco.2021.03.008
+tiple blocks, and the dance between blockholders. The Review of Finan- Lewellyn, K. B., & Muller-Kahle, M. I. (2012). CEO power and risk taking:
+cial Studies, 32(11), 4196–4227. https://doi.org/10.1093/rfs/hhz022 Evidence from the subprime lending industry. Corporate Governance:
+
+Hatton, T. J. (2016). Refugees, Asylum Seekers, and Policy in OECD Coun- An International Review, 20(3), 289–307. https://doi.org/10.1111/j.
+tries. American Economic Review, 106(5), 441–445. https://doi.org/10. 1467-8683.2011.00903.x
+1257/aer.p20161062 Li, H., & Selvam, S. (2021). CSI index reconstitutions: A quasi-natural
+
+He, J. J., & Huang, J. (2017). Product market competition in a world of experiment in China. Asia-Pacific Journal of Financial Studies, 50(2),
+cross-ownership: Evidence from institutional blockholdings. Review 119–146. https://doi.org/10.1111/ajfs.12332
+
+ 14678683, 2024, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/corg.12562 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+YAO ET AL. 667
+
+Lin, Y. R., & Fu, X. M. (2017). Does institutional ownership influence firm Yuan, R., Xiao, J. Z., & Zou, H. (2008). Mutual funds' ownership and firm
+performance? Evidence from China. International Review of Economics performance: Evidence from China. Journal of Banking & Finance, 32(8),
+and Finance, 49, 17–57. https://doi.org/10.1016/j.iref.2017.01.021 1552–1565. https://doi.org/10.1016/j.jbankfin.2007.08.001
+
+Lu, R., Shen, Q., Wang, T., & Zhang, X. (2022). Frenemies: Corporate adver- Zhan, J. V. (2012). Filling the gap of formal institutions: The effects of
+tising under common ownership. Management Science, 68(6), 4645– Guanxi network on corruption in reform-era China. Crime, Law and
+4669. https://doi.org/10.1287/mnsc.2021.4098 Social Change, 58(2), 93–109. https://doi.org/10.1007/s10611-012-
+
+Mishra, D. R. (2011). Multiple large shareholders and corporate risk-taking: 9379-9
+Evidence from East Asia. Corporate Governance: An International Zheng, L., Balsara, N., & Huang, H. (2014). Regulatory pressure, bloc-
+Review, 19(6), 507–528. https://doi.org/10.1111/j.1467-8683.2011. kholders and corporate social responsibility (CSR) disclosures in China.
+00862.x Social Responsibility Journal, 10(2), 226–245. https://doi.org/10.1108/
+
+Nakano, M., & Nguyen, P. (2012). Board size and corporate risk-taking: SRJ-08-2012-0102
+Further evidence from Japan. Corporate Governance: An International
+Review, 20(4), 369–387. https://doi.org/10.1111/j.1467-8683.2012.
+00924.x AUTHOR BIOGRAPHIES
+
+Pan, Y., Tang, X., Ning, B., & Yang, L. (2020). Cross-ownership and corpo-
+rate investment efficiency: Coordination in governance or collusion in
+market. China's Industrial Economics, 2, 136–164.https://doi.org/10. Shouyu Yao currently works as an assistant professor in Tianjin
+19581/j.cnki.ciejournal.2020.02.008 University. He does research mainly in financial markets. His most
+
+Park, H., & Oh, B. (2022). Common ownership and bank stability: Evidence
+recent publications are in the Journal of Business Ethics, Journal of
+
+from the U.S. banking industry. Journal of Financial Stability, 58,
+100832. https://doi.org/10.1016/j.jfs.2020.100832 Economic Behavior and Organization, International Review of Finan-
+
+Park, J., Sani, J., Shroff, N., & White, H. (2019). Disclosure incentives when cial Analysis, Pacific-Basin Finance Journal, and Accounting &
+competing firms have common ownership. Journal of Accounting and Finance. He also serves as the reviewer for notable journals, such
+Economics, 67(2–3), 387–415. https://doi.org/10.1016/j.jacceco.2019.
+
+as the British Journal of Management, Corporate Governance: An
+02.001
+
+Petersen, M. A. (2009). Estimating standard errors in finance panel data International Review, Annals of Operations Research, and Research
+
+sets: Comparing approaches. Review of Financial Studies, 22(1), 435– in International Business and Finance.
+480. https://doi.org/10.1093/rfs/hhn053
+
+Pevzner, M., Xie, F., & Xin, X. (2015). When firms talk, do investors listen? Xinyu Guo received his master's degree in operational research
+
+The role of trust in stock market reactions to corporate earnings and risk analysis from The Hong Kong Polytechnic University in
+announcements. Journal of Financial Economics, 117(1), 190–223. 2023. His area of interest is empirical corporate finance.
+https://doi.org/10.1016/j.jfineco.2013.08.004
+
+Ramalingegowda, S., Utke, S., & Yu, Y. (2021). Common institutional own- Ahmet Sensoy received his PhD degree in Mathematics from Bilk-
+ership and earnings management. Contemporary Accounting Research, ent University in 2013. He is the recipient of the TÜB_ITAK Incen-
+38(1), 208–241. https://doi.org/10.1111/1911-3846.12628 tive Award in 2018 and the TÜBA Young Scientist Award in
+
+Ramírez, C., Tarziján, J., & Lagos, G. (2022). The effect of ownership struc-
+2020. He serves as an associate editor for the International Review
+
+ture on investment decisions under exogenous shocks. The effect of
+ownership structure on investment decisions under exogenous shocks. of Financial Analysis and Research in International Business and
+Corporate Governance and International Review, 30, 783–805. https:// Finance and as a guest editor for the Annals of Operations
+doi.org/10.1111/corg.12432 Research. His work appeared in outlets such as the Journal of Cor-
+
+Sakawa, H., Watanabel, N., Duppati, G., & Faff, R. (2021). Institutional
+porate Finance, Journal of Business Ethics, Journal of Financial Stabil-
+
+ownership and corporate risk-taking in Japanese listed firms. Applied
+Economics, 53(16), 1899–1914. https://doi.org/10.1080/00036846. ity, and Annals of Operations Research.
+
+2020.1854450
+John W. Goodell is a professor in the College of Business of The
+
+Sobel, M. E. (1982). Asymptotic confidence intervals for indirect effects in
+structural equation models. Sociological Methodology, 13, 290–312. University of Akron, USA. His research interests focus on the
+
+https://doi.org/10.2307/270723 impact on financial systems of national culture and institutions. In
+Tran, H. T., & Freel, M. (2023). Ownership, innovation, and variable institu- 2011, he received the Stockholm School of Economics/Women in
+
+tional quality. Corporate Governance: An International Review, 31(2), the Academy of International Business Award for Increased Gen-
+285–306. https://doi.org/10.1111/corg.12477
+
+der Awareness in International Business Research. His research
+Xu, T., Xu, L., & Zhu, S. (2023). Common ownership and executive pay-
+
+for-performance sensitivity: Evidence from China. Research in Interna- has been highlighted in numerous media outlets including the
+tional Business and Finance, 65, 101947. https://doi.org/10.1016/j. Washington Post, PBS NewsHour, and Bloomberg Businessweek, as
+ribaf.2023.101947 well as the blogs of the Columbia University and Duke University
+
+Yao, S., Pan, Y., Wang, L., Sensoy, A., & Cheng, F. (2023). Building eco-
+law schools. Since completing his PhD from Kent State University
+
+friendly corporations: The role of minority shareholders. Journal of
+Business Ethics, 182(4), 933–966. https://doi.org/10.1007/s10551- in 2008, he has co-authored over 165 articles and book chapters,
+022-05291-y including recent articles in the Journal of Banking and Finance,
+
+Yuan, R., Sun, J., & Cao, F. (2016). Directors' and officers' liability insurance International Business Review, Energy Economics, British Journal of
+and stock price crash risk. Journal of Corporate Finance, 37, 173–192.
+
+Management, and Journal of Business Ethics. He is currently Editor-
+https://doi.org/10.1016/j.jcorpfin.2015.12.015
+
+ 14678683, 2024, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/corg.12562 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+668 YAO ET AL.
+
+in-Chief of Elsevier's Research in International Business and the reviewer for notable journals, such as European Accounting
+Finance, as well as an associate editor for several leading finance Review and Research in International Business and Finance.
+journals. He is frequently invited to speak at international confer-
+ences and events.
+
+Feiyang Cheng currently works as an associate professor in How to cite this article: Yao, S., Guo, X., Sensoy, A., Goodell,
+Beijing Jiaotong University. He does research in corporate J. W., & Cheng, F. (2024). Collusion or governance? Common
+finance, behavioral finance, and business ethics. His most recent ownership and corporate risk-taking. Corporate Governance: An
+publications are in the Journal of Business Ethics, British Journal of International Review, 32(4), 645–669. https://doi.org/10.1111/
+Management, European Financial Management, International Review corg.12562
+of Financial Analysis, and Accounting & Finance. He also serves as
+
+APPENDIX A: VARIABLE DEFINITIONS
+
+Variable name Definition Source
+
+Proxy variables of common ownership
+
+Cross Whether the firm has common blockholders who simultaneously own at least 3% shares in the firm and any firms in the CSMAR
+same industry in any quarter of the fiscal year; 0 for no and 1 for yes
+
+Cross_Num Natural logarithm of 1 plus the annual average of the quarterly number of common blockholders who simultaneously CSMAR
+own at least 3% shares in the firm and any firms in the same industry
+
+Cross_Share Natural logarithm of 1 plus the annual average of the quarterly proportion of shares owned by common blockholders CSMAR
+who simultaneously own at least 3% shares in the firm and any firms in the same industry
+
+Cross2 Whether the firm has common blockholders who simultaneously own at least 2% shares in the firm and any firms in the CSMAR
+same industry in any quarter of the fiscal year; 0 for no and 1 for yes
+
+Cross2_Num Natural logarithm of 1 plus the annual average of the quarterly number of common blockholders who simultaneously CSMAR
+own at least 2% shares in the firm and any firms in the same industry
+
+Cross2_Share Natural logarithm of 1 plus the annual average of the quarterly proportion of shares owned by common blockholders CSMAR
+who simultaneously own at least 2% shares in the firm and any firms in the same industry
+
+Cross4 Whether the firm has common blockholders who simultaneously own at least 4% shares in the firm and any firms in the CSMAR
+same industry in any quarter of the fiscal year; 0 for no and 1 for yes
+
+Cross4_Num Natural logarithm of 1 plus the annual average of the quarterly number of common blockholders who simultaneously CSMAR
+own at least 4% shares in the firm and any firms in the same industry
+
+Cross4_Share Natural logarithm of 1 plus the annual average of the quarterly proportion of shares owned by common blockholders CSMAR
+who simultaneously own at least 4% shares in the firm and any firms in the same industry
+
+Cross5 Whether the firm has common blockholders who simultaneously own at least 5% shares in the firm and any firms in the CSMAR
+same industry in any quarter of the fiscal year; 0 for no and 1 for yes
+
+Cross5_Num Natural logarithm of 1 plus the annual average of the quarterly number of common blockholders who simultaneously CSMAR
+own at least 5% shares in the firm and any firms in the same industry
+
+Cross5_Share Natural logarithm of 1 plus the annual average of the quarterly proportion of shares owned by common blockholders CSMAR
+who simultaneously own at least 5% shares in the firm and any firms in the same industry
+
+CrossN Whether the firm has common blockholders who simultaneously own at least 3% shares in the firm and any firms in CSMAR
+different industries in any quarter of the fiscal year; 0 for no and 1 for yes
+
+CrossN_Num Natural logarithm of 1 plus the annual average of the quarterly number of common blockholders who simultaneously CSMAR
+own at least 3% shares in the firm and any firms in different industries
+
+CrossN_Share Natural logarithm of 1 plus the annual average of the quarterly proportion of shares owned by common blockholders CSMAR
+who simultaneously own at least 3% shares in the firm and any firms in different industries
+
+CrossM Whether the firm has mutual fund family shareholders who simultaneously own at least 1% shares in the firm and any CSMAR
+firms in the same industry in any quarter of the fiscal year; 0 for no and 1 for yes
+
+CrossM_Num Natural logarithm of 1 plus the annual average of the quarterly number of mutual fund families who simultaneously CSMAR
+own at least 1% shares in the firm and any firms in the same industry
+
+ 14678683, 2024, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/corg.12562 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+YAO ET AL. 669
+
+Variable name Definition Source
+
+CrossM_Share Natural logarithm of 1 plus the annual average of quarterly proportion of shares owned by mutual fund families who CSMAR
+simultaneously own at least 1% shares in the firm and any firms in the same industry
+
+CrossI Whether the firm has individual shareholders who simultaneously own at least 1% shares in the firm and any firms in CSMAR
+the same industry in any quarter of the fiscal year; 0 for no and 1 for yes
+
+CrossI_Num Natural logarithm of 1 plus the annual average of quarterly number of individuals who simultaneously own at least 1% CSMAR
+shares in the firm and any firms in the same industry
+
+CrossI_Share Natural logarithm of 1 plus the annual average of the quarterly proportion of shares owned by individuals who CSMAR
+simultaneously own at least 1% shares in the firm and any firms in the same industry
+
+CrossC_Share Natural logarithm of 1 plus the annual average of the quarterly proportion of shares owned by nonfinancial institution CSMAR
+blockholders who simultaneously own at least 3% shares in the firm and any firms in the same industry
+
+Proxy variables of risk-taking
+
+Risk1 The standard deviation of adjusted ROA during the period of t to t + 2, where adjusted ROA is the difference between CSMAR
+firm-specific ROA and industrial average ROA
+
+Risk2 The range of adjusted ROA during the period of t to t + 2, where adjusted ROA is the difference between firm-specific CSMAR
+ROA and industrial average ROA
+
+Control variables
+
+Size Natural logarithm of total assets CSMAR
+
+Lev Total assets/total liability CSMAR
+
+ROE EBIT/shareholders' equity CSMAR
+
+Cap_Ex Capital expenditure/total assets CSMAR
+
+Growth Revenue growth rate CSMAR
+
+Age Natural logarithm of firm age CSMAR
+
+Top1 Proportion of shares owned by the largest shareholder CSMAR
+
+Board Natural logarithm of number of directors CSMAR
+
+Indep Proportion of independent directors CSMAR
+
+Dual Whether CEO and Chairman are the same person; 0 for no and 1 for yes CSMAR
+
+Other variables
+
+MS_Growth Market share growth rate, where market share is the firm-specific revenue divided by industrial average revenue CSMAR
+
+M_Inst Proportion of shares held by mutual fund CSMAR
+
+I_Ownership Proportion of shares held by individual investors
+
+Big4 Whether the firm appoints a Big-4 auditor; 0 for no and 1 for yes CSMAR
+
+HHI Herfindahl–Hirschman index calculated by total assets CSMAR
+
+Analyst Natural logarithm of the number of analysts who publish reports on the firm CSMAR
+
+CAR Two-year prior abnormal return calculated by the three-factor model CSMAR
+
+Abbreviations: CSMAR, China Stock Market and Accounting; ROA, return on assets.
+
+ 14678683, 2024, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/corg.12562 by Northwestern Polytechnic, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

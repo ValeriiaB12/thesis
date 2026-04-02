@@ -1,0 +1,645 @@
+                                                           Computers & Industrial Engineering 103 (2017) 262–270
+
+
+
+                                                               Contents lists available at ScienceDirect
+
+
+                                                Computers & Industrial Engineering
+                                                 journal homepage: www.elsevier.com/locate/caie
+
+
+
+
+Using risk sharing contracts for supply chain risk mitigation: A
+buyer-supplier power and dependence perspective
+Abhijeet Ghadge a,⇑, Samir Dani b, Ritesh Ojha c, Nigel Caldwell a
+a
+  Logistics Research Centre, School of Social Sciences, Heriot Watt University, Edinburgh, UK
+b
+  University of Huddersfield Business School, University of Huddersfield, UK
+c
+  Department of Industrial and Systems Engineering, Indian Institute of Technology, Kharagpur, India
+
+
+
+a r t i c l e         i n f o                           a b s t r a c t
+
+Article history:                                        The paper aims to understand buyer-supplier power and dependence scenarios following a risk sharing
+Received 3 December 2015                                contract. The study develops a supply chain risk sharing contract to mitigate demand uncertainty and
+Received in revised form 27 October 2016                price volatility related risks in a globalised business environment. An integer programming model is
+Accepted 28 November 2016
+                                                        developed and analysed following an automotive case study to generate insights into buyer-supplier rela-
+Available online 30 November 2016
+                                                        tionships. Multiple buyer-supplier power and dependence scenarios are considered to reflect the possible
+                                                        leverages involved in the decision-making. The situational strength evaluated through buyer-supplier
+Keywords:
+                                                        power and dependence illuminates the inherent complexity in contract negotiation. Thus there is an evi-
+Buyer-supplier relationships
+Risk sharing contracts
+                                                        dent need to develop risk sharing contracts for mitigating global risks. The developed relationship frame-
+Power and dependence                                    work and risk sharing contract model are expected to help SC managers in better understanding
+Supply chain risk management                            behavioural aspects during contract negotiations. The risk sharing contract model proposed here also
+                                                        contributes to a potentially novel perspective on existing theory in buyer-supplier power and depen-
+                                                        dence by providing a relational perspective on the dynamics of supply chain design and collaboration.
+                                                                                                                          Ó 2016 Elsevier Ltd. All rights reserved.
+
+
+
+
+1. Introduction                                                                            kets with global competition magnify the risks of demand fluctua-
+                                                                                           tion and price volatility; such uncertainty means supply chains
+    The rise of global markets and therefore global competition has                        demand additional risk mitigation assurances through the use of
+forced today’s supply chains to change their risk management                               different control mechanisms such as contracts or legal agree-
+strategies. Risk mitigation is becoming a primary motive behind                            ments (Laeequddin, Waheed, & Sahay, 2009).
+all contractual agreements and is believed to be beneficial for the                            Contractual negotiations with supply chain partners are vital to
+complete supply chain network (Xiao & Yang, 2009). Flexibility                             establish visibility and risk control through agreed contractual pro-
+in accommodating demand fluctuation and responsiveness to price                            cesses to manage fluctuations in demand and price volatility
+volatility are two key requirements of current supply chain man-                           (Gunasekaran & Ngai, 2005). Supply chain contractual processes
+agement practices. In order to manage uncertainties in demand                              that address demand uncertainty like buyback, quantity flexibility,
+and pricing, supply chains need to develop robust contractual                              revenue sharing, profit sharing and full return have been discussed
+mechanisms especially for highly configured products in automo-                            in the literature (e.g. Cachon & Lariviere, 2005; Emmons & Gilbert,
+tive, aerospace, electronics and other heavy industries. Typically,                        1998; Jeong, 2012; Tsay & Lovejoy, 1999). However, the area of
+Build-To-Order (BTO) or Make-To-Order (MTO) products are char-                             supply chain contracts under price uncertainty (e.g. Li & Kouvelis,
+acterised by uncertain demand, long lead times and fluctuating                             1999) has attracted less academic attention. The Supply Chain
+purchase costs (Wang & Tsao, 2006). BTO or MTO approaches have                             (SC) contractual processes listed earlier all address improving the
+been actively pursued by companies like Dell Computers, BMW,                               efficiency of a SC network, but do not usually actively address
+IBM, HP, and Compaq to manage varying patterns of demand                                   the risk mitigation. Supply chain contracts could offer robust
+(Ghiassi & Spera, 2003; Gunasekaran & Ngai, 2005; Hsu & Wang,                              strategies to increase SC resilience through mitigating uncertain-
+2004). Demand uncertainty incurs a risk cost to the supplier                               ties or risks in addition to making a SC more efficient (Tang, 2006).
+whereas price volatility incurs a risk cost to the buyer. Global mar-                          Researchers often utilise the classic newsvendor problem when
+                                                                                           modelling supply chain contracts (e.g. Cheng, 2011; Lariviere &
+    ⇑ Corresponding author.                                                                Porteus, 2001; Lau, Lau, & Wang, 2008), but in this study the
+      E-mail address: A.Ghadge@hw.ac.uk (A. Ghadge).                                       researchers’ take a pragmatic approach, testing the SC risk sharing
+
+http://dx.doi.org/10.1016/j.cie.2016.11.034
+0360-8352/Ó 2016 Elsevier Ltd. All rights reserved.
+                                          A. Ghadge et al. / Computers & Industrial Engineering 103 (2017) 262–270                               263
+
+
+contract model in an industry setting. Supply chain contracts                   (Christopher and Towill, 2002) and general vulnerability to risks
+developed through the newsvendor problem are most commonly                      (e.g. globalisation related activities such as on-shoring, off-
+based on a risk neutrality assumption (Wang & Webster, 2009).                   shoring, complex outsourcing, and increased mergers) (Bakshi &
+However, in a stochastic market environment risks such as lost                  Kleindorfer, 2009). Yu and Goh (2014) investigate the twin effects
+sales, delivery unreliability and obsolesce significantly affect all            of SC visibility and risk on SC performance. Tang (2006) highlights
+SC stakeholders. Relationship and situational strength (power)                  the necessity of new approaches to mitigate vulnerable risks and
+are key issues within any SC as stakeholders use power and dom-                 minimise potential losses.
+inance to define the rules of the collaborative partnership (Kehoe,                 Risk and uncertainty are two different terms that are often used
+Dani, Sharifi, Burns, & Backhouse, 2007). Opportunistic behaviour,              interchangeably in the academic literature. However, risk can be
+while making decisions, has a severe effect on SC and is receiving              measured unlike uncertainty (Knight, 1921). Several academic def-
+increasing attention in supply chain design (Craighead,                         initions of risk and uncertainty co-exist. Most theorists have
+Blackhurst, Rungtusanatham, & Handfield, 2007; Ellis, Henry, &                  defined risk as a negative outcome. Lowrance (1980) notes that,
+Shockley, 2010; Sodhi, Son, & Tang, 2012). In the next section the              the term risk means the probability and impact of uncertain fac-
+literature is utilized to identify satisfaction level and dominance             tors. Rowe (1980) defines risk as the probability of realizing nega-
+level as two parameters used to capture negotiating SC dynamics                 tive consequences from uncertainties. Risk has been defined as a
+under conditions of buyer-supplier power and dependence.                        measure of the probability and severity of adverse effects
+    In summary, through a risk sharing contract, this study                     (Claypool, Norman, & Needy, 2014). From a supply chain perspec-
+attempts to illuminate the behavioural aspects of supplier and                  tive, risk is associated with the negative consequences of uncer-
+buyer that stem from the inevitability of issues of power and                   tainty within the SC or network (Christopher & Lee, 2004;
+dependence in supply chain contract negotiations. Studies on flex-              Wagner & Bode, 2006). Supply chain risk has been defined as
+ibility contracts focusing on buyer’s ordering behaviour, when                  purely negative consequence within information, financial and
+faced with a static market demand are evident (e.g. Bassok &                    material flows (Wagner & Bode, 2008). Supply chain risk sources
+Anupindi, 2008; Lian & Deshmukh, 2009). Nonetheless, there exists               are unpredictable variables within an organization, network or
+a research gap in studying risk sharing contracts under dynamic                 environment. These risks exist because of uncertainty about future
+market requirements that include a buyer-supplier relational per-               risk events, which can appear at any point in time in the supply
+spective. Furthermore, there is limited literature on supply chain              chain (Aqlan & Lam, 2016).
+contracts under the combined effects of demand uncertainly and                      Risk mitigation and control strategies are classified into two
+price volatility.                                                               approaches: proactive and reactive (Ghadge, Dani, Chester, &
+    Following this introduction, Section 2 reviews extant literature            Kalawsky, 2013). Adopting an effective risk management strategy
+in two parts, firstly introducing work on supply chain risk and                 based on global supply chain environment is becoming increas-
+uncertainty, then narrowing down to assemble the arguments                      ingly challenging (Christopher & Towill, 2001; Manuj & Mentzer,
+made in the literature for risk sharing contracts. A second section             2008). Fahimnia, Tang, Davarzani, and Sarkis (2015) presents a sys-
+of literature review captures the views on power and dependence                 tematic review of the quantitative and analytical models for
+issues inherent in buyer-supplier relationships. Section 3 intro-               managing SC risks. SC strategies like dual/multiple sourcing, post-
+duces a conceptual framework to define the objective and to limit               ponement, Vendor-Managed Inventory, long-term contracts, sup-
+the scope of the research to the area of buyer-supplier indepen-                plier collaboration and development are being used not only to
+dence. Section 4 presents a risk sharing contract model, developed              improve overall SC performance, but also as risk mitigation strate-
+by formulating a mathematical problem in order to obtain the opti-              gies as evidenced through the literature. Chen, Sohal, and Prajogo
+mum contract quantity for mitigating the combined risk of                       (2013) presented a collaborative approach for the mitigation of
+demand fluctuation and price volatility in a SC. Section 5 analyses             SC operational risks by focusing on supply and demand risks. In a
+the risk sharing contract model, the results are compared with two              complex SC network there is an imperative to examine the flexibil-
+different solution approaches to studying the situational strength              ity and uncertainty to mitigate risks. Flexibility provides virtual
+of SC stakeholders. Finally, in Section 6, conclusions, the impor-              capacity and is one of the most effective measures to mitigate sup-
+tance of a risk sharing contract as a tool to mitigate supply chain             ply chain risks (Aqlan & Lam, 2016). The benefits of flexibility to
+disruption risk and the need for further research in this area is reit-         the buyer increase as uncertainty increases (Karakaya & Bakal,
+erated and additional managerial implications offered for those                 2013). SC risk mitigation strategies should be amalgamated with
+responsible for managing risks in a globalised economy.                         the top managerial decision making processes to alleviate supply
+                                                                                chain risks and improve the robustness of supply chains (Rajesh
+                                                                                & Ravi, 2015). Borodin, Bourtembourg, Hnaien, and Labadie
+2. Literature review                                                            (2016) provides an overview of the latest advances in the applica-
+                                                                                tion of OR methodologies to handling uncertainty occurring in Sup-
+2.1. Supply chain risk and uncertainty                                          ply chains.
+
+   Due to increasing globalisation, practitioners and researchers               2.1.1. Risk sharing contracts
+are paying more attention to Supply Chain Risk Management                          A SC contract is a coordination mechanism to integrate SC part-
+(SCRM) (Ghadge, Dani, & Kalawsky, 2012; Manuj & Mentzer,                        ners and therefore benefit from improved operational perfor-
+2008). This heightened level of attention is evident from several lit-          mance. Supply chain contracts have been studied extensively in
+erature reviews on supply chain risks and uncertainty (e.g.                     the context of traditional supply chains (Knoblich, Heavey, &
+Natarajarathinam, Capar, & Narayanan, 2009; Rao & Goldsby,                      Williams, 2015). Research suggests that SC contract analysis can
+2009; Tang & Musa, 2011; Simangunsong, Hendry, & Stevenson,                     improve both operational efficiency and SC coordination (Tang,
+2012; Sawik, 2016). It is a broad topic that encompasses various                2006). Demand and pricing uncertainties are associated with many
+forms of supply chain risk, including financial and operational risks           causes; For example, exchange rate movements, uncertainty of
+(Snyder et al., 2016). SCRM has become a modern challenge                       supply and demand, political turmoil, environmental influences
+because of shorter product life cycles, increased uncertainties,                and the changing risk preferences of consumers (Fotopoulos, Hu,
+etc. (Christopher & Lee, 2004). Furthermore, globalisation increases            & Munson, 2008). Given such lack of visibility over future SC dis-
+supply chain complexity and increases the impact of disruptions                 ruptions, risk-sharing contracts are one of the means of risk mitiga-
+264                                      A. Ghadge et al. / Computers & Industrial Engineering 103 (2017) 262–270
+
+
+tion (Wakolbinger & Cruz, 2011). Uncertainties in demand and
+pricing, in particular, result in a situation where both buyer and
+supplier face the risk of shortages, delays and financial losses.
+Fang and Shou (2015) examine how levels of competitive intensity
+and supply uncertainty, affect the equilibrium decisions of order
+quantity and contract sharing. Risk sharing partnerships can lead
+to substantial benefits for the SC network (Buzacott & Peng,
+2012). Given the difficulties of demand forecasting environments
+along with the problems of fluctuating prices of products in global
+markets, risk sharing contracts are increasingly expected to pro-
+vide one form of trade-off solution for these demand and pricing
+uncertainties.
+
+
+2.2. Buyer-supplier power and dependence
+
+    Supply chain strategies must examine the role and contribution
+of long term partnerships among buyers and suppliers
+                                                                               Fig. 1. Buyer-supplier relationship framework (Adapted from Kraljic (1983) and
+(Kirytopoulos, Leopoulos, Mavrotas, & Voulgaridou, 2010). Buyer-               Cox et al. (2002)).
+supplier power and interdependence is central to any contractual
+agreement (Cox, Ireland, Lonsdale, Sanderson, and Watson
+(2002)). There is an emerging agenda in the SCM literature that
+                                                                               essary to select a sample case organization with recurrent global
+is focusing on power and dependence from a SC stakeholder’s per-
+                                                                               exposure. A leading automotive manufacturer with component
+spective (e.g. Caniels & Gelderman, 2007; Doran, Thomas, &
+                                                                               suppliers distributed around the globe was identified as fulfilling
+Caldwell, 2005; Karabati & Sayin, 2008; Kheljani, Ghodsypour, &
+                                                                               the research design requirements. As the focal (hierarchical) firm
+O’Brien, 2009; Liu, Huang, Luo, & Zhao, 2012; Sanders, 2008;
+                                                                               in its automotive SC this organization also met the second objec-
+Tomas, Hult, Ketchen, & Chabowski, 2007). Strategic partnering is
+                                                                               tive of this research in terms of demonstrating and offering access
+an increasingly widespread approach for buyers and suppliers
+                                                                               to issues of power and dependency (a relational perspective on the
+(Blancero & Ellram, 1997). Porter’s classic model (1985) supports
+                                                                               dynamics of SC collaboration) stemming from its tiers of compliant
+the view that the buyers and suppliers will always try to gain as
+                                                                               suppliers. Thus the proposed analytical model for supply contract
+much advantage through their relationship. Kraljic’s Portfolio
+                                                                               risk sharing includes a buyer-supplier relationship framework
+Purchasing Model (1983) classified a firm’s purchased intermedi-
+                                                                               adapted from the literature and situational strength between
+ate products into four categories on the basis of the ‘profit impact’
+                                                                               stakeholders of the SC network (i.e. the focal firm and its globally
+(based on purchased quantity, percentage of total cost, impact on
+                                                                               distributed suppliers).
+product quality and expected business growth) and supply risk
+                                                                                   Cox et al. (2002) developed a framework for examining poten-
+(based on supplier availability, make-or-buy options and mitigat-
+                                                                               tial buyer supplier relationships based on relative utility of scarcity
+ing possibilities). In recent times, many adaptations and refine-
+                                                                               of resources. A buyer-supplier relationship is influenced by the
+ments to Kraljic’s model have led to alternative portfolio models
+                                                                               importance of business relationships and the satisfaction of each
+using other classifications/dimensions (Bensaou, 1999; Olsen &
+                                                                               party (Sinclair, Hunter, & Beumont, 1996). Fig. 1 shows a buyer-
+Ellram, 1997). However, there is a fundamental assumption under-
+                                                                               supplier relationship framework adapted from Kraljic’s model
+pinning all such portfolio models; the occurrence of differences in
+                                                                               combined with Cox’s model on buyer-supplier business relation-
+the power and dependency between a buyer and a supplier (Cox
+                                                                               ship and satisfaction level. In the first quadrant, non-critical prod-
+et al., 2002; Dubois & Pedersen, 2002).
+                                                                               ucts demand efficient processing, product standardization, order
+    Whilst such supply portfolio models suggest several SC strate-
+                                                                               variety and volume (Gelderman & Van Weele, 2003). They have
+gies for every product category, the conditions determining the
+                                                                               relatively low financial value and purchasing risk. The buyer as
+choice for a specific buying strategy has remained a research issue
+                                                                               well as supplier will independently satisfy their supply and
+(Gelderman & Van Weele, 2003). Successive researchers have
+                                                                               demand requirements for such products. Due to the non-critical
+adapted Kraljic’s purchasing portfolio model; for situational diffi-
+                                                                               nature of the products, the buyer does not have to depend on
+culty in purchasing (Olsen & Ellram, 1997), balancing power
+                                                                               one particular supplier. Similarly, a supplier satisfies the orders
+(Kumar, 1996) and supply risk (Doran et al., 2005). Dani, Burns,
+                                                                               by market hedging on available volume and variety for his product.
+and Backhouse (2005) studied buyer-supplier behaviour in power
+                                                                               Leverage products can be outsourced from multiple suppliers.
+and dependence scenarios to predict what will promote the high-
+                                                                               These products account for a large share of the end product’s cost
+est level of dependency. Therefore, there is abundant evidence in
+                                                                               price with a relatively low supply risk (Caniels & Gelderman, 2007).
+extant literature on how purchasing strategies can be used to char-
+                                                                               For leverage products, the buyer has the edge over the supplier due
+acterize the relationship between the various quadrants of com-
+                                                                               to the easy availability of the product. A buyer in this quadrant
+bined Kraljic and Cox model (see Fig. 1) and the power-
+                                                                               meets quantity requirements by exploiting wide-spread availabil-
+dependence balance in buyer-supplier coordination (Caniels &
+                                                                               ity through for instance tendering, target pricing and product sub-
+Gelderman, 2007; Saccani & Perona, 2007; Van Weele, 2000).
+                                                                               stitution. Leverage products have low value (low supply risk) and
+                                                                               are ordered frequently under a situation of buyer dominance. For
+3. Conceptual development                                                      bottleneck products, suppliers have the dominant power position
+                                                                               due to the product having relatively low financial impact, but high
+   In order to meet the objective of developing a model capable of             supply risk. A buyer usually tries to ensure a constant supply by
+representing a contract for mitigating the risks associated with               maintaining high stocks rather than providing quantity flexibility
+demand fluctuation and price uncertainty. In order to build on                 to the supplier. Due to supplier dominance in this quadrant, the
+how the literature review identified the way that the interconnect-            buyer manages its inventory exposure through safety stock and
+edness of globalised economic activity magnifies risks, it was nec-            product differentiation strategies. For the buyer, strategic compo-
+                                                 A. Ghadge et al. / Computers & Industrial Engineering 103 (2017) 262–270                                  265
+
+
+nents suggest the need for enhanced collaboration with the sup-                        includes a price flexibility option (to mitigate price volatility); by
+plier due to high product value and high supply risk. It seems this                    negotiating the costs for the committed quantity through contract
+interest in a long term relationship is reciprocal, as whilst a buyer                  negotiation.
+needs quantity flexibility the supplier expects order commitment                           A risk sharing contract incorporates the price flexibility factor in
+for the product, hence, both seek a long term relationship through                     terms of wholesale and penalty costs for ordering under or over the
+contractual agreements. Risk sharing contracts play an important                       committed quantity. In this type of contract, two scenarios are
+role in this quadrant of satisfaction and dominance level. As this                     expected where the buyer may increase or decrease the order
+forth quadrant is driven by interdependence it meets the objective                     quantity after observing expected or realized demand fluctuations.
+of offering a context where mutuality is a prime objective and                         If only upward adjustment is allowed, then the buyer will place a
+hence risk sharing contracts are relevant. Hence in this study a                       conservative initial order by trying to ‘transfer the risk’ to the sup-
+boundary is placed (limited to forth quadrant) by restricting the                      plier by forcing him to maintain high inventory. This opportunistic
+scope of this research to conditions where mutual buyer supplier                       behaviour of the buyer unwittingly tends to increase price volatil-
+dependency inform contracting for a new risk sharing supply chain                      ity. On the other hand, if only downward adjustment is allowed,
+contract to mitigate demand and price flexibility.                                     the buyer will make a generous initial order or make an aggressive
+    The focal automotive manufacturing firm producing variety of                       commitment and try to ‘averse the risk’ of a demand shortage, lead-
+truck models including Fork-lift trucks was selected to meet the                       ing to a bullwhip effect in the SC. Bidirectional adjustment con-
+study’s research design requirements. The firm employed a Quan-                        tracts should be considered for supply chain performance (Wang
+tity Flexibility (QF) contract to mitigate high demand uncertainty,                    & Tsao, 2006). Under the above two scenario’s, the risk sharing
+but were faced with high procurement costs due to global eco-                          contract is expected to provide the leverage to both the stakehold-
+nomic fluctuations. In the QF contract, the supplier charges the                       ers by providing the most accurate demand without much fluctu-
+buyer a fixed unit wholesale cost with a limited flexibility for                       ation in procurement costs. This negotiated coordination can
+adjusting his initial order quantity without any penalty (Shi &                        provide appropriate incentives to the buyer as well as the supplier
+Chen, 2007). The QF contract is a coordination tool that provides                      by sharing the risk of demand uncertainty and price volatility.
+an opportunity to the buyer to revise its initial order or forecast
+and specifies upper and lower bounds (usually as percentages of
+the initial order) on the final order quantity (Karakaya & Bakal,
+                                                                                        4. Risk sharing contractual model
+2013). Knoblich et al. (2015) focussed on the concept of quantity
+flexibility in the context of different customer forecast demand
+                                                                                        4.1. Model development
+behaviour. In this study, this fundamental concept of a QF contract
+is utilized to develop the risk sharing contract by incorporating a
+                                                                                           Consider a buyer facing varying procurement costs over a finite
+high price uncertainty parameter to the problem. As seen in
+                                                                                       horizon for strategic components required in product assembly.
+Fig. 2, buyback and/or revenue sharing contracts are suitable for
+                                                                                       The global supplier at the same time is facing demand uncertainty
+low price uncertainty to accommodate demand volatility. This
+                                                                                       due to the typical nature of industries where demand is variable
+becomes complex when price volatility is high for strategic compo-
+                                                                                       and unpredictable. The objective of the risk sharing contract in
+nents; then the supplier and buyer have to negotiate for the whole-
+                                                                                       such a case would be to provide a stable procurement cost for
+sale cost based on the ordering quantity with an option to adjust
+                                                                                       the buyer and a committed order quantity for the supplier. This
+the demand. Price volatility driven by political instability, global
+                                                                                       can only be achieved by identifying an appropriate contract quan-
+sourcing and government sanctions has been found to significantly
+                                                                                       tity for the SC profit maximization. The contract model hence
+impact both stakeholders in the SC (Davarzani, Zanjirani Farahani,
+                                                                                       negotiates for a contractual ‘optimal quantity’ based on three dis-
+& Rahmandad, 2015). The risk sharing contract will mitigate sup-
+                                                                                       tinct costs of the component namely quoted price, wholesale cost
+ply chain risks related to the combined effect of demand uncer-
+                                                                                       and penalty cost. The sensitivity of the model is dependent on
+tainty and price volatility. In a QF, buyback or revenue sharing
+                                                                                       two financial inputs, the wholesale cost for a minimum committed
+contract, the partners share some of the inventory and stock-out
+                                                                                       quantity and the penalty cost for not ordering the minimum com-
+burden (Arshinder & Deshmukh, 2007); the buyer is expected to
+                                                                                       mitted quantity. Both these costs are based on the quoted price
+make a commitment to reserve the order quantity based on the
+                                                                                       provided by the supplier. The model identifies the expected order-
+forecasted demand. In return, the supplier provides the buyer the
+                                                                                       ing quantity for the period by forecasting demand based on past
+flexibility to vary the ordered quantity within certain agreed limits
+                                                                                       orders. The negotiated contract costs i.e., wholesale cost and pen-
+(Wang & Tsao, 2006). A risk sharing contract is different to the QF
+                                                                                       alty cost are flexible and are determined based on the power and
+contract as it incorporates not just quantity flexibility but also
+                                                                                       dependence relationship between buyer and supplier. Thus, the
+                                                                                       model is negotiated based on the quoted price provided by the
+                                                                                       supplier as a primary input parameter which later determines opti-
+                                                                                       mal quantity, wholesale cost and penalty cost for the contract.
+                                                                                       Demand predictability, physical efficiency and market responsive-
+                                                                                       ness are important factors for supply chain management (Fisher,
+                                                                                       1997). Assuming these conditions in a supply chain, the research
+                                                                                       examines decision making for the optimum contract quantity to
+                                                                                       balance risk between buyer and supplier. In the later part of this
+                                                                                       paper, we also study the implications of power and dependence
+                                                                                       on negotiated optimum quantity for the risk sharing contract.
+
+
+
+                                                                                        4.2. Model formulation
+
+                                                                                          The following assumptions are made before formulating the
+   Fig. 2. Demand and price flexibility in supply chain: Contract perspective.         Integer Programming (IP) model for the risk sharing contract.
+266                                                 A. Ghadge et al. / Computers & Industrial Engineering 103 (2017) 262–270
+
+
+  The ordering cost and holding cost are assumed to be constant                          for ith period where the under ordered quantity is still purchased
+   during contract negotiation.                                                           at wholesale cost with an additional penalty for the unordered
+  The contract quantity always lies between the minimum and                              quantity. For every ith period, either of the two will be possible
+   maximum demand quantity anticipated by the buyer over the                              and binary function (Eqs. (4.7), (4.8), (4.9)) caters to this require-
+   contract horizon.                                                                      ment along with other supporting constraints for non-negativity
+                                                                                          requirements (Eq. (4.10)). Summation of purchase cost for i peri-
+    Considering the above assumptions, the objective of the model                         ods provides the minimum total purchase cost for the contract
+is formulated to minimise the total purchase cost for the buyer and                       horizon by solving IP problem for optimal contract quantity Q⁄.
+maximise the commitment quantity for the supplier. The decision                           The contract horizon is considered to be a 12-month period for
+variables used in the model are as follows:                                               modelling purpose but can be varied on the basis of the nature
+                                                                                          and dependability of the industry. The above mathematical
+  Qi = Forecasted demand quantity for ith period in the contract                          formulation provides an optimal solution for both the stakehold-
+     horizon                                                                              ers through contract negotiation influenced by power and
+  Qmin = Minimum expected demand in a contract horizon                                    dependence.
+  Qmax = Maximum expected demand in contract horizon
+  Ce = Quoted price provided by the supplier                                               5. Analysis and findings
+  Cq = Negotiated wholesale cost for contract quantity
+  Cn = Negotiated penalty cost for under-ordered quantity                                     The focal automotive manufacturing company producing Fork-
+  a = Ratio of negotiated wholesale cost to quoted price                                  lift trucks, with a global supply base selected for testing the devel-
+  b = Ratio of negotiated penalty cost to quoted price                                    oped model was aware of the problems they had faced during
+  Q = Negotiated initial order quantity                                                   implementation of an earlier QF contract. Sourcing from global
+                                                                                          suppliers for vital components led to exposure to risks primarily
+                                                                                          associated with heavy price fluctuations and supply (as well as
+                                                                                          demand) uncertainty. Case company SC managers were
+The range for quantity variation is decided by the buyer and sup-                         approached to study their strategic outsourcing activity; data
+plier based on Qmin and Qmax predicted from the forecasted demand                         was then collected from primary sources of information like pur-
+for the contract horizon. The flexibility option is utilized by the                       chase orders, archival documents, internal presentations and other
+buyer by signing a contract for Q units with the flexibility to change                    official purchase documents. After collecting relevant data, the
+the initial order Q to actual order of q units by a factor l, such that                   analysis was conducted by testing the proposed contract model
+(1  l) Q < q < (1 + l) Q. The objective function for minimizing total                    in two parts. Initially, forecasting techniques were used to predict
+purchase cost, Z for optimal commitment quantity Q⁄ is formulated                         the expected demand quantity for future contract horizons and
+as IP model is given below:                                                               secondly, this forecasted data was utilized for identifying the opti-
+                                                                                          mal quantity for a risk sharing contract.
+      X
+      12
+                                                                               
+Z¼        xi ½Q  C q þ ðQ i  Q Þ  C e  þ yi ½Q i  C q þ ðQ  Q i Þ  C n 
+       i¼1                                                                                 5.1. Demand forecasting
+                                                                                ð4:1Þ
+                                                                                              Demand forecasting plays an important role in managing sup-
+                                                                                          ply chains due to uncertainty in the demand (Gunasekaran &
+Q min 6 Q i 6 Q max                                                             ð4:2Þ
+                                                                                          Ngai, 2009). Different forecasting methods are discussed in the lit-
+                                                                                          erature to predict the demand quantity (Chen, Ryan, & Simchi-Levi,
+Cq ¼ a  Ce                                                                     ð4:3Þ
+                                                                                          2000; Miyaoka & Kopczak, 2000). The most commonly used
+                                                                                          approach for periodic forecasting is the Holt–Winters exponential
+Cn ¼ b  Ce                                                                     ð4:4Þ
+                                                                                          smoothing approach. The demand for the next rolling horizon is
+                                                                                          forecast based on demand observed in the previous horizon. The
+a ¼ f ðQÞ                                                                       ð4:5Þ
+                                                                                          Holt-Winters model used in this section of the study is based on
+                                                                                          three smoothing factors-level, trend and seasonality (Winters,
+b ¼ f ðQÞ                                                                       ð4:6Þ
+                                                                                          1960).
+                                                                                             Past 3-year demand data provided by the company was fed into
+           1; if Q i > Q
+xi ¼                                                                            ð4:7Þ     the forecasting model. Fig. 3 shows the overlapping of actual
+           0; otherwise                                                                   demand data with the forecasted data in the central region of the
+                                                                                         graph. This is to check the validity of the forecasted data. Accuracy
+             1; if Q i < Q                                                                of the forecast is checked using ‘tracking signal’ value and it is
+yi ¼                                                                            ð4:8Þ
+             0; otherwise                                                                 found to be 0.147, which is comparatively very small and within
+                                                                                          the acceptable limits for an accurate forecast, since the maximum
+xi þ yi ¼ 1;       xi ; yi 2 ð0; 1Þ                                             ð4:9Þ     limit for acceptability of forecasted value is 4 (Jacobs, William,
+                                                                                          Whybark, & Vollmann, 2010). The forecasted vs. actual demand
+Q ; Cq; Cn P 0                                                                 ð4:10Þ     overlaps providing confidence in the anticipated demand quantity
+    In the objective function (Eq. (4.1)) we consider a yearly con-                       for the contract horizon. The forecasted demand data is now ready
+tract. There will be either over ordering or under ordering by the                        for being utilized in the contract model to find the optimum quan-
+buyer with respect to the committed ‘contract quantity’ for every                         tity in a contract horizon.
+ith period (month). The first section in Eq. (4.1) considers the pur-
+chase cost for the over ordered quantity for ith period where the                          5.2. Solution and comparison
+equation applies appropriate wholesale cost for contract quantity
+and a quoted price for units more than contract quantity. Simi-                             The IP problem was formulated and solved in a widely used
+larly, the second part considers the under ordered purchase cost                          commercial optimization solver–LINGO as shown in Fig. 4. Two dif-
+                                         A. Ghadge et al. / Computers & Industrial Engineering 103 (2017) 262–270                               267
+
+
+
+
+                                         Fig. 3. Time series demand forecasting for periods in contract horizon.
+
+
+
+
+                                                Fig. 4. Snapshot: IP formulation in optimization solver.
+
+
+
+ferent dimensions were considered to capture the intricacies                       Case 1: a and b independent of quantity ordered {a and
+related to buyer-supplier power and dependence on the proposed                     b – f(Q)}
+risk sharing contract model. Two cases are typically observed dur-
+ing any contract negotiations and would provide us with insights                  Here, wholesale cost and penalty cost are assumed to be inde-
+into the associated situational strength. While negotiating the con-           pendent of the quantity ordered and analysed for the results. Since
+tract, buyer and supplier may consider the cost of the component               the ordering quantity is calculated by varying a (0.75 6 a 6 1) and
+to be independent of the contract quantity commitment. Hence                   b (0 6 b 6 0.25) independently, 25 different combinations of a and
+in case 1, we analyse the model with an assumption that the buyer              b provide several optimal quantity solutions as seen in Fig. 5. It is
+and supplier are negotiating the wholesale and penalty costs inde-             observed that the lower wholesale cost (a) is expected to provide
+pendent of the quantity commitment (a and b – f Q). In case 2, the             the supplier with highest committed contract (optimal) quantity.
+wholesale and penalty costs are negotiated based on the commit-                Similarly, when we compare the total purchase cost with respect
+ted quantity ordered (a and b = fQ).                                           to these different combinations of a and b; it is observed that,
+268                                                   A. Ghadge et al. / Computers & Industrial Engineering 103 (2017) 262–270
+
+
+               140                                                                          Table 1
+                                                                                            Local optimal solutions when a and b = f(Q).
+               120
+                                                                                               Wholesale price          Penalty cost       Purchase   Order quantity,
+               100                                                     Beta=0.05               factor, a                factor, b          cost, Z    Q⁄
+ Optimal        80                                                     Beta=0.10
+                                                                       Beta=0.15               0.91                     0.112              128552.8   112
+ Quantity       60                                                                             0.87                     0.07               123315.2   121
+                                                                       Beta=0.20
+                                                                                               0.85                     0.05               119664.8   127
+                40                                                     Beta=0.25
+                                                                                               0.8                      0                  111360.0   140
+                20
+                 0
+                       0.75     0.8    0.85     0.9      0.95
+                                                                                               Table 1 shows four different local optimal solutions obtained for
+                                         α
+                                                                                            the contract quantity. The values presented above are specific to
+           Fig. 5. Optimal quantity for various combinations of a and b.
+                                                                                            the test model and could vary from contract to contract. Neverthe-
+                                                                                            less, the results give a transparent view of optimum quantity with
+                                                                                            total purchase cost for best combinations of a and b. For a buyer
+the buyer can actually minimise total purchase cost by committing                           this helps in understanding the best possible wholesale price and
+for a higher contract quantity as seen in Fig. 6. In such a case, the                       penalty cost combination within a specific demand range. Here
+buyer may over-order the quantity leading to a bullwhip effect,                             the global optimum solution is not obtained as this can be achieved
+but this essentially shares the risk of the price volatility. On the                        by paying the lowest possible wholesale cost without any penalty
+other side, higher commitment of quantity shares the risk of                                cost for the contract quantity. But, this is possible only in the third
+demand fluctuation for the supplier. The overall effect of change                           quadrant where the buyer is dominant during contract negotia-
+in total purchase cost for lower values of a and for all values of b                        tions. The supplier would ask for the maximum commitment
+is significantly less and is beneficial for the buyer as well as the                        quantity at the quoted price, if the supplier were dominant in this
+supplier. The quoted price paid for ordering more than the contract                         quadrant. The impact of quantity ordered on negotiated costs is an
+quantity is not influenced by the penalty cost paid for ordering less                       important consideration for the contract negotiation as it provides
+than the contract quantity, which is yet another significant finding.                       both stakeholders with best combination of a and b, unlike two
+This also infers that the wholesale cost plays a major role in any                          distinctive operability zones as in case I.
+contract negotiation, even if the penalty cost is associated in the
+contract.                                                                                    6. Conclusion
+    The dividing line shown in Fig. 6 shows the dominating scenar-
+ios for two prominent stakeholders in purchasing commonly                                       The research proposes a risk sharing contract to distribute the
+observed in forth quadrant (Fig. 1). This also provides buyer and                           risk of demand uncertainty and price volatility among different
+supplier with their optimal contract zones for executing risk shar-                         SC stakeholders. The situational strength evaluated under buyer-
+ing supply chain contracts. The left half (in Fig. 6) is dominated by                       supplier power and dependence following two cases illuminates
+supplier power as it tries to bring down the wholesale cost to min-                         the inherent complexity in contracting. The research develops a
+imise their purchase cost, whereas the right half is dominated by                           risk sharing contract in a SC environment ideal for studying strate-
+buyer power trying to maximise their own profit by achieving a                              gic/vital components exposed to the combined risk of demand
+higher commitment quantity. This is a commonly observed phe-                                uncertainty and price volatility. The proposed contract provides
+nomenon in SCM when demand is certain and independent of cost.                              directions for building long term supply chain contracts for miti-
+                                                                                            gating known as well as unknown risks. The model would be suited
+      Case 2: When a and b are dependent on quantity ordered {a and                         to industries such as automobile, aerospace, electronics and com-
+      b = f(Q)}.                                                                            puter manufacturing where product costs are high, components
+                                                                                            are sourced globally and there is highly uncertain demand due to
+    In this case a and b are considered to be dependent on the com-                         increased completion. Although the scope of research was limited
+mitted quantity. This is a typical scenario where the negotiations                          to the forth quadrant of the buyer-supplier relationship frame-
+are purely based on average order quantity (i.e. higher the average                         work, the contract is believed to be beneficial for any satisfaction
+quantity order higher the wholesale price). The quantity ordered Q                          and dependence level in the matrix. The risk sharing contract
+is evaluated by varying a (1 P a P 0.75) and b (0 6 b 6 0.25) val-                          model proposed here contributes to a potentially novel perspective
+ues to suit best combinations for the optimal quantity. The model                           on existing theory in buyer-supplier power and dependence by
+predicts local optimal solutions for different combinations of a and                        providing a relational perspective on the dynamics of supply chain
+b. The local optimal solutions obtained for the case studied are pre-                       design and collaboration. The developed relationship framework
+sented in Table 1.                                                                          and risk sharing contract model are expected to help SC managers
+                                                                                            in better understanding behavioural aspects during contract nego-
+                                                                                            tiations. This study may also encourage the SCRM community to
+                                                                                            consider similar strategic contracts as a possible long term risk
+                                                                                            mitigation strategy. Increasing inter-dependence through the
+                                                                                            development of strategic alliances with SC partners is necessary
+                                                                                            due to the increased uncertainties and risks of a globalised busi-
+                                                                                            ness world. A risk sharing contract is one such robust risk mitiga-
+                                                                                            tion strategy for long-term profitability in SCM.
+                                                                                                The SC contract model is validated through a single case com-
+                                                                                            pany. Hence, further research is necessary to check the robustness
+                                                                                            of the model by testing it across different industry setting. Buyer-
+                                                                                            supplier relationships captured in the paper is limited and further
+                                                                                            research into the bounded rationality in SC risk sharing contracts is
+                     Fig. 6. Purchase cost versus a for varying b.                          needed. The future supply chains are expected to be driven by the
+                                                     A. Ghadge et al. / Computers & Industrial Engineering 103 (2017) 262–270                                                    269
+
+
+sustainability concerns (Montabon, Pagell, & Wu, 2016; Wilhelm,                             Fotopoulos, S. B., Hu, X., & Munson, C. L. (2008). Flexible supply contracts under
+                                                                                                 price uncertainty. European Journal of Operational Research, 191(1), 253–263.
+Blome, Bhakoo, & Paulraj, 2016). The research should address the
+                                                                                            Gelderman, C. J., & Van Weele, A. J. (2003). Handling measurement issues and
+role risk sharing contracts can play specifically in meeting sustain-                            strategic directions in Kraljic’s purchasing portfolio model. Journal of Purchasing
+ability concerns, e.g. with social (co-ordination), economic (net-                               and Supply Management, 9(5), 207–216.
+work profitability) and environmental (inventory obsolesce)                                 Ghadge, A., Dani, S., Chester, M., & Kalawsky, R. (2013). A systems approach for
+                                                                                                 modelling supply chain risks. Supply Chain Management: An International
+parameters.                                                                                      Journal, 18(5), 523–538.
+                                                                                            Ghadge, A., Dani, S., & Kalawsky, R. (2012). Supply chain risk management: Present
+                                                                                                 and future scope. International Journal of Logistics Management, 23(3), 313–339.
+References                                                                                  Ghiassi, M., & Spera, C. (2003). Defining the Internet-based supply chain system for
+                                                                                                 mass customized markets. Computers & Industrial Engineering, 45(1), 17–41.
+Aqlan, F., & Lam, S. S. (2016). Supply chain optimization under risk and uncertainty:       Gunasekaran, A., & Ngai, E. W. T. (2005). Build-to-order supply chain management:
+     A case study for high-end server manufacturing. Computers & Industrial                      A literature review and framework for development. Journal of Operations
+     Engineering, 93, 78–87.                                                                     Management, 23(5), 423–451.
+Arshinder, K. A., & Deshmukh, S. G. (2007). Coordination in supply chains: an               Gunasekaran, A., & Ngai, E. W. T. (2009). Modelling and analysis of build-to-order
+     evaluation using fuzzy logic. Production Planning and Control, 18(5), 420–435.              supply chains. European Journal of Operational Research, 195(2), 319–334.
+Bakshi, N., & Kleindorfer, P. (2009). Co-opetition and investment for supply-chain          Hsu, H. M., & Wang, W. P. (2004). Dynamic programming for delayed product
+     resilience. Production and Operations Management, 18(6), 583–603.                           differentiation. European Journal of Operational Research, 1569X, 183–193.
+Bassok, Y., & Anupindi, R. (2008). Analysis of supply contracts with forecasts and          Jacobs William Whybark & Vollmann (2010). Manufacturing planning and control for
+     flexibility. Naval Research Logistics, 55, 459–477.                                         supply chain management. McGraw Hill Publication.
+Bensaou, B. M. (1999). Portfolios of buyer-supplier relationships. Sloan Management         Jeong, I. J. (2012). A centralized/decentralized design of a full return contract for a
+     Review, 40(4), 35–44.                                                                       risk-free manufacturer and a risk-neutral retailer under partial information
+Blancero, D., & Ellram, L. (1997). Strategic supplier partnering: A psychological                sharing. International Journal of Production Economics, 136(1), 110–115.
+     contract perspective. International Journal of Physical Distribution & Logistics       Karabati, S., & Sayin, S. (2008). Single-supplier/multiple-buyer supply chain
+     Management, 27(9/10), 616–629.                                                              coordination: Incorporating buyers’ expectations under vertical information
+Borodin, V., Bourtembourg, J., Hnaien, F., & Labadie, N. (2016). Handling uncertainty            sharing. European Journal of Operational Research, 187(3), 746–764.
+     in agricultural supply chain management: A state of the art. European Journal of       Karakaya, S., & Bakal, I. S. (2013). Joint quantity flexibility for multiple products in a
+     Operational Research, 254(2), 348–359.                                                      decentralized supply chain. Computers & Industrial Engineering, 64(2), 696–707.
+Buzacott, J. A., & Peng, H. S. (2012). Contract design for risk sharing partnerships in     Kehoe, D. F., Dani, S., Sharifi, H., Burns, N. D., & Backhouse, C. J. (2007). Demand
+     manufacturing. European Journal of Operational Research, 218(3), 656–666.                   network alignment: Aligning the physical, informational and relationship issues
+Cachon, G. P., & Lariviere, M. A. (2005). Supply chain coordination with revenue-                in supply chains. International Journal of Production Research, 45(5), 1141–1160.
+     sharing contracts: Strengths and limitations. Management Science, 51(1), 30–44.        Kheljani, J. Gheidar, Ghodsypour, S. H., & O’Brien, C. (2009). Optimizing whole
+Caniels, M. C. J., & Gelderman, C. J. (2007). Power and interdependence in buyer                 supply chain benefit versus buyer’s benefit through supplier selection.
+     supplier relationships: A purchasing portfolio approach. Industrial Marketing               International Journal of Production Economics, 121(2), 482–493.
+     Management, 36, 219–229.                                                               Kirytopoulos, K., Leopoulos, V., Mavrotas, G., & Voulgaridou, D. (2010). Multiple
+Chen, Y. F., Ryan, J. K., & Simchi-Levi, D. (2000). The impact of exponential                    sourcing strategies and order allocation: An ANP-Augmecon meta-model.
+     smoothing forecasts on the bullwhip effect. Naval Research Logistics, 47(4),                Supply Chain Management: An International Journal, 15(4), 263–276.
+     269–286.                                                                               Knight, H. (1921). Risk, uncertainty and profit. New York: Harper and Row.
+Chen, J., Sohal, A., & Prajogo, D. (2013). Supply chain operational risk mitigation: A      Knoblich, K., Heavey, C., & Williams, P. (2015). Quantitative analysis of
+     collaborative approach. International Journal of Production Research, 51(7),                semiconductor supply chain contracts with order flexibility under demand
+     2186–2199.                                                                                  uncertainty: A case study. Computers & Industrial Engineering, 87, 394–406.
+Cheng, J. H. (2011). Inter-organizational relationships and information sharing in          Kraljic, P. (1983). Purchasing must become supply management. Harvard Business
+     supply chains. International Journal of Information Management, 31(4), 374–384.             Review, 61(5), 109–117.
+Christopher, M., & Lee, H. (2004). Mitigating supply chain risk through improved            Kumar, N. (1996). The power of trust in manufacturer-retailer relationships.
+     confidence. International Journal of Physical Distribution & Logistics Management,          Harvard Business Review, 74(6), 92–106.
+     34(5), 388–396.                                                                        Laeequddin, M., Waheed, K. A., & Sahay, V. (2009). Supply chain partners’ trust
+Christopher, M., & Towill, D. (2001). An integrated model for the design of agile                building process through risk evaluation: the perspectives of UAE packaged
+     supply chains. International Journal of Physical Distribution & Logistics                   food industry. Supply Chain Management: An International Journal, 14(4),
+     Management, 31(4), 235–246.                                                                 280–290.
+Christopher, M., & Towill, D. R. (2002). Developing market specific supply chain            Lariviere, M. A., & Porteus, E. L. (2001). Selling to the newsvendor: An analysis of
+     strategies. International Journal of Logistics Management, 13(1), 1–14.                     price-only contracts. Manufacturing & Service Operations Management, 3(4),
+Claypool, E., Norman, B. A., & Needy, K. L. (2014). Modeling risk in a design for                293–305.
+     supply chain problem. Computers & Industrial Engineering, 78, 44–54.                   Lau, A. H. L., Lau, H. S., & Wang, J. C. (2008). How a dominant retailer might design a
+Cox, A., Ireland, P., Lonsdale, C., Sanderson, J., & Watson, G. (2002). Supply chains,           purchase contract for a newsvendor-type product with price-sensitive demand.
+     markets and power: Mapping buyer and supplier power regimes. London, UK:                    European Journal of Operational Research, 190(2), 443–458.
+     Routledge.                                                                             Li, C. L., & Kouvelis, P. (1999). Flexible and risk-sharing supply contracts under price
+Craighead, C. W., Blackhurst, J., Rungtusanatham, M. J., & Handfield, R. B. (2007). The          uncertainty. Management Science, 45(2), 1378–1398.
+     severity of supply chain disruptions: Design characteristics and mitigation            Lian, Z., & Deshmukh, A. (2009). Analysis of supply contracts with quantity
+     capabilities. Decision Sciences, 38(1), 131–156.                                            flexibility. European Journal of Operational Research, 196(2), 526–533.
+Dani, S., Burns, N. D., & Backhouse, C. J. (2005). Buyer-supplier behaviour in              Liu, Y., Huang, Y., Luo, Y., & Zhao, Y. (2012). How does justice matter in achieving
+     electronic reverse auctions: A relationships perspective. International Journal of          buyer–supplier relationship performance? Journal of Operations Management, 30
+     Services and Operations Management, 1(1), 22–34.                                            (5), 355–367.
+Davarzani, H., Zanjirani Farahani, R., & Rahmandad, H. (2015). Understanding                Lowrance, W. W. (1980). The nature of risk. In Societal risk assessment. USA:
+     econo-political risks: Impact of sanctions on an automotive supply chain.                   Springer.
+     International Journal of Operations & Production Management, 35(11),                   Manuj, I., & Mentzer, J. T. (2008). Global supply chain risk management strategies.
+     1567–1591.                                                                                  International Journal of Physical Distribution & Logistics Management, 38(3),
+Doran, D., Thomas, P., & Caldwell, N. (2005). Examining buyer-supplier relationships             192–223.
+     within a service sector context. Supply Chain Management: An International             Miyaoka, J. & Kopczak, L. R. (2000). Using forecast synchronization to reduce the
+     Journal, 10(4), 272–277.                                                                    bullwhip effect of the forecast error. Working paper, Department of Management
+Dubois, A., & Pedersen, A. C. (2002). Why relationships do not fit into purchasing               Science and Engineering, Stanford University, Stanford, CA.
+     portfolio models - A comparison between the portfolio and industrial network           Montabon, F., Pagell, M. & Wu, Z. (2016). Making sustainability sustainable. Journal
+     approaches. European Journal of Purchasing and Supply Management, 8(1), 35–42.              of Supply Chain Management, online.
+Ellis, S. C., Henry, R. M., & Shockley, J. (2010). Buyer perceptions of supply disruption   Natarajarathinam, M., Capar, I., & Narayanan, A. (2009). Managing supply chains in
+     risk: A behavioural view and empirical assessment. Journal of Operations                    times of crisis: A review of literature and insights. International Journal of
+     Management, 28(1), 34–46.                                                                   Physical Distribution & Logistics Management, 39(7), 535–573.
+Emmons, H., & Gilbert, S. (1998). Returns policies in pricing and inventory decisions       Olsen, R. F., & Ellram, L. M. (1997). A portfolio approach to supplier relationships.
+     for catalogue goods. Management Science, 44(2), 276–283.                                    Industrial Marketing Management, 26(2), 101–113.
+Fahimnia, B., Tang, C. S., Davarzani, H., & Sarkis, J. (2015). Quantitative models for      Porter, M. E., & Millar, V. E. (1985). How information gives you competitive
+     managing supply chain risks: A review. European Journal of Operational Research,            advantage. Harvard Business Review. July–August.
+     247(1), 1–15.                                                                          Rajesh, R., & Ravi, V. (2015). Modeling enablers of supply chain risk mitigation in
+Fang, Y., & Shou, B. (2015). Managing supply uncertainty under supply chain                      electronic supply chains: A Grey–DEMATEL approach. Computers & Industrial
+     Cournot competition. European Journal of Operational Research, 243(1), 156–176.             Engineering, 87, 126–139.
+Fisher, M. L. (1997). What is the right supply chain for your product? Harvard              Rao, S., & Goldsby, T. J. (2009). Supply chain risks: A review and typology.
+     Business Review, 75(2), 105–116.                                                            International Journal of Logistics Management, 20(1), 97–123.
+270                                                   A. Ghadge et al. / Computers & Industrial Engineering 103 (2017) 262–270
+
+
+Rowe, W. D. (1980). Risk assessment approaches and methods. Society, technology              Tomas, G., Hult, M., Ketchen, D. J., Jr., & Chabowski, B. R. (2007). Leadership, the
+    and risk assessment, 343.                                                                    buying center, and supply chain performance: A study of linked users, buyers,
+Saccani, N., & Perona, M. (2007). Shaping buyer-supplier relationships in                        and suppliers. Industrial Marketing Management, 36(3), 393–403.
+    manufacturing contexts: Design and test of a contingency model. Journal of               Tsay, A. A., & Lovejoy, W. S. (1999). Quantity flexibility contracts and supply chain
+    Purchasing and Supply Management, 13, 26–40.                                                 performance. Manufacturing and Service Operations Management, 1(2), 89–111.
+Sanders, N. R. (2008). Pattern of information technology use: The impact on buyer-           Van Weele, A. J. (2000). Purchasing management: Analysis, planning and practice.
+    suppler coordination and performance. Journal of Operations Management, 26(3),               London: Chapman and Hall.
+    349–367.                                                                                 Wagner, S. M., & Bode, C. (2006). An empirical investigation into supply chain
+Sawik, T. (2016). On the risk-averse optimization of service level in a supply chain             vulnerability. Journal of Purchasing and Supply Management, 12(6), 301–312.
+    under disruption risks. International Journal of Production Research, 54(1),             Wagner, S. M., & Bode, C. (2008). An empirical examination of supply chain
+    98–113.                                                                                      performance along several dimensions of risk. Journal of Business Logistics, 29(1),
+Shi, C., & Chen, B. (2007). Pareto quantity flexibility contracts for a supply chain             307–325.
+    under multiple objectives. Journal of Operations Research Society, 59(5),                Wakolbinger, T., & Cruz, J. M. (2011). Supply chain disruption risk management
+    685–692.                                                                                     through strategic information acquisition and sharing and risk-sharing
+Simangunsong, E., Hendry, L. C., & Stevenson, M. (2012). Supply-chain uncertainty:               contracts. International Journal of Production Research, 49(3), 1–22.
+    A review and theoretical foundation for future research. International Journal of        Wang, B., & Tsao, B. (2006). Supply contract with bidirectional options: The buyer’s
+    Production Research, 50(16), 4493–4523.                                                      perspective. International Journal of Production Economics, 101, 30–52.
+Sinclair, D., Hunter, L., & Beumont, P. (1996). Models of customer-supplier relations.       Wang, C. X., & Webster, S. (2009). The loss-averse newsvendor problem. Omega, 37
+    Journal of General management, 22(2), 56–75.                                                 (1), 93–105.
+Snyder, L. V., Atan, Z., Peng, P., Rong, Y., Schmitt, A. J., & Sinsoysal, B. (2016). OR/MS   Wilhelm, M. M., Blome, C., Bhakoo, V., & Paulraj, A. (2016). Sustainability in multi-
+    models for supply chain disruptions: A review. IIE Transactions, 48(2), 89–109.              tier supply chains: Understanding the double agency role of the first-tier
+Sodhi, M. S., Son, B.-G., & Tang, C. S. (2012). Researchers perspectives on supply               supplier. Journal of Operations Management, 41, 42–60.
+    chain risk management. Production and Operations Management, 21(1), 1–13.                Winters, P. R. (1960). Forecasting sales by exponentially weighted moving averages.
+Tang, C. S. (2006). Perspectives in supply chain risk management. International                  Management Science, 6(3), 324–342.
+    Journal of Production Economics, 103(1), 451–488.                                        Xiao, T., & Yang, D. (2009). Risk sharing and information revelation mechanism of a
+Tang, O., & Musa, S. N. (2011). Identifying risk issues and research advancements in             one-manufacturer and one-retailer supply chain facing an integrated
+    supply chain risk management. International Journal of Production Economics,                 competitor. European Journal of Operational Research, 196(3), 1076–1085.
+    133(1), 25–34.                                                                           Yu, M. C., & Goh, M. (2014). A multi-objective approach to supply chain visibility
+                                                                                                 and risk. European Journal of Operational Research, 233(1), 125–130.
+

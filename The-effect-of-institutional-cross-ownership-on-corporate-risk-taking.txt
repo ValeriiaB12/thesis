@@ -1,0 +1,1062 @@
+                                                            Pacific-Basin Finance Journal 83 (2024) 102239
+
+
+                                                               Contents lists available at ScienceDirect
+
+
+                                                       Pacific-Basin Finance Journal
+                                                     journal homepage: www.elsevier.com/locate/pacfin
+
+
+
+
+The effect of institutional cross-ownership on corporate risk-taking
+in a transitional economy
+Wenjing Yin a, Weiping Li b, Yumiao Yu a, *
+a
+    Department of Accounting, School of Economics and Management, Wuhan University, China
+b
+    International School of Business & Finance, Advanced Institute of Finance, Institute of Enterprise, Sun Yat-sen University, China
+
+
+
+
+A R T I C L E I N F O                                        A B S T R A C T
+
+JEL codes:                                                   This study documents the unintended effect of institutional cross-ownership on corporate risk-
+G32                                                          taking in a transitional economy. Theoretically, cross-owners can increase their influence in
+G34                                                          corporate governance through voice and exit. However, such an insight may not align with the
+Keywords:                                                    reality of the Chinese market, where institutional activism is limited. We predict and document
+Institutional cross-ownership                                that the amplified exit threat of institutional cross-ownership increases its contribution to
+Threat of exit
+                                                             managerial myopia and reduces risk-taking activities. This effect is more pronounced for firms
+Stock market pressure
+                                                             when the exit threat is more credible or when managers are more concerned about market per­
+Corporate risk-taking
+                                                             formance. As expected, the association is driven primarily by active short-term investors, whose
+                                                             exit threat is much stronger. Our findings suggest that institutional cross-ownership may inad­
+                                                             vertently exacerbate agency problems because, in some cases, it may discourage managers from
+                                                             taking value-maximizing actions.
+
+
+
+
+1. Introduction
+
+    Previous research suggests that cross-ownership can increase the influence of investors over investee firms. A significant body of
+research emphasizes the active participation of cross-owners in decision-making. For example, Kang et al. (2018) find that multiple
+blockholdings provide institutions with the necessary knowledge and experience to conduct effective monitoring. Similarly, He et al.
+(2019) highlight the role of institutional cross-owners in internalizing governance externalities by exercising voting rights. By contrast,
+Edmans et al. (2019) theorize that the alternative mechanism, the threat of exit, may also be reinforced under cross-ownership because
+being sold by cross-owners reveals the losers in the portfolio. In effect, the threat of exit is not generally accepted as a form of
+shareholder activism. According to Admati and Pfleiderer (2009), the impact of exit threats on corporate governance can vary greatly
+depending on the specific agency concerns of the firm. In the case of managerial shirking, the threat of exit may deter managers from
+maximizing firm value. Despite extensive research on the disciplinary effects of cross-ownership (Kang et al., 2018; He et al., 2019;
+Ramalingegowda et al., 2021), there are reasons to doubt that it aligns with managers’ and shareholders’ interests in all cases.
+Therefore, we investigate the effect of institutional cross-ownership on firm risk-taking in a transitional market.
+    We focus our attention on the particular context of institutional cross-ownership in China. Jiang and Kim (2015) suggest that
+compared with their US counterparts, institutional investors in China may face challenges in monitoring firms, mainly owing to their
+relatively low shareholding and lack of long-term perspective. However, these investors can still influence the market by selling shares,
+
+
+
+    * Corresponding author at: No. 299, Bayi Road, Wuchang District, Wuhan City, Hubei Province, China.
+      E-mail addresses: wenjing4658@whu.edu.cn (W. Yin), liwp27@mail.sysu.edu.cn (W. Li), yymiao@whu.edu.cn (Y. Yu).
+
+https://doi.org/10.1016/j.pacfin.2023.102239
+Received 12 February 2023; Received in revised form 6 November 2023; Accepted 20 December 2023
+Available online 29 December 2023
+0927-538X/© 2024 Elsevier B.V. All rights reserved.
+W. Yin et al.                                                                                        Pacific-Basin Finance Journal 83 (2024) 102239
+
+
+especially after the implementation of the split-share reform. Although it is difficult to be actively involved, institutional ownership is
+essential for a firm to improve its reputation among minority shareholders (Claessens and Fan, 2002). In China’s A-share markets,
+which are primarily influenced by individual investors, the lack of transparency can lead to a situation where other traders imitate
+institutional behavior, thereby exerting pressure on prices (Tan et al., 2008). In short, findings from previous literature on the US may
+not be applicable to China.
+    In addition, a key differentiator of Chinese corporate governance is the weak legal system. Despite various protective measures
+enacted through legislation, China has been criticized for its poor legal environment. In the case of law enforcement, China received
+relatively lower scores than other countries. In the 2022 annual Rule of Law Index published by the World Justice Project, China
+ranked 95th out of 140 countries worldwide. When legal protections for investors are weak, managers may have greater latitude to act
+in their own interests. Therefore, special attention should be paid to corporate governance in transitional economies with weak legal
+enforcement.
+    Collectively, we have articulated two divergent views of how institutional cross-ownership may affect corporate risk-taking. The
+“communication” view suggests that institutional cross-ownership induces firms to pursue riskier but more valuable investments. It has
+been suggested that diversified owners tend to be less concerned about firm-specific risks because these risks can be easily spread out
+(Faccio et al., 2011; DesJardine et al., 2023). Getting involved in riskier projects is crucial not only for the value of the focal firm
+(Wright et al., 1996; Faccio et al., 2011; Koirala et al., 2020), but also for cross-owners to gain greater marginal benefits from peer firms
+(He et al., 2019). Thus, we estimate that institutional cross-owners are incentivized to guide managers toward higher levels of risk-
+taking. Moreover, institutional cross-owners can reduce monitoring costs by exploiting informational advantages through econo­
+mies of scale (Ramalingegowda et al., 2021). Considering the potential benefits outweigh the costs of governance, it is expected that
+institutional cross-ownership will play an active monitoring role and engage firms in high-risk ventures.
+    On the contrary, the “signal” view contends that institutional cross-ownership strengthens the threat of exit and inadvertently
+reduces the level of corporate risk-taking. Under cross-ownership, being sold sends a stronger signal to the market about a company’s
+poor performance. In the event of a liquidity shock, institutional cross-owners will sell the worst assets in their portfolios while
+retaining the good ones (Edmans et al., 2019). Since they have an information advantage over the public, other investors may mimic
+their trading decisions and exit the same securities (Bikhchandani et al., 1992; Xu et al., 2022). Given the potential negative conse­
+quences, managers may be unwilling to take any risk at first. Even if managers take productive actions, institutional investors will sell
+their shares if they observe that the increase in value does not meet their expectations (Admati and Pfleiderer, 2009). Then, a sale by an
+institutional cross-owner leads to a magnified decline in the share price and elicits ex-ante managerial reactions. When managers are
+party-contracted to market performance, they worry that their personal wealth and career success will be affected by the downward
+pressure (Dou et al., 2018; Döring et al., 2021). Therefore, managers tend to choose less risky actions in order to protect their own self-
+interest, as high-risk actions could potentially send negative signals to the market in the short-term. For the above reasons, institutional
+ownership may unintentionally reduce the degree of corporate risk-taking owing to the presence of exit threats.
+    To address this debate, we seek to examine the relationship between institutional cross-ownership and corporate risk-taking using a
+sample of Chinese listed firms over the period 2007–2019. Consistent with the “signal” view, our empirical tests suggest that insti­
+tutional cross-ownership is negatively associated with corporate risk-taking. These findings withstand a series of robustness checks and
+continue to hold after addressing endogeneity concerns. We also conduct several additional analyses to strengthen our main point. We
+show that the effect of cross-ownership on corporate risk-taking is more pronounced when the exit threat is more credible or when
+managers are more concerned about market performance. The cross-sectional analysis is consistent with the view that capital market
+pressure serves as the channel through which institutional cross-ownership influences corporate governance. Furthermore, we find
+that the predictive power of institutional cross-ownership is attributable to active institutions that trade on short-term value. This is
+because active short-term institutional owners are more likely to exit when the valuation created in the short run is small. Finally, since
+previous studies have documented the positive sides of institutional cross-ownership, we expect that its threat of exit would produce
+positive and negative outcomes depending on agency problems. From a beneficial effect perspective, the results show that the pos­
+sibility and degree of financial statement irregularities would be lower in response to the disciplining effect of the exit threat.
+    This study contributes to the literature in several ways. First, we add to the growing literature on the impact of institutional cross-
+ownership on corporate decision-making. A major strand of research has been devoted to explaining advances in corporate governance
+by highlighting the increased importance of cross-ownership in monitoring (e.g. Kang et al., 2018; Ramalingegowda et al., 2021).
+These studies argue that institutional cross-holders possess the ability to engage in efficient monitoring as a result of heightened
+capacity and incentives to participate. In contrast to these studies, we ask whether the effects of institutional cross-holders hold true for
+Chinese firms. Our results differ from those of previous studies, in that we find that the exit threat of institutional cross-ownership
+actually reduces managers’ motivation to take additional risks to counteract downward price pressure. According to Xu et al.
+(2022), Chinese institutions prioritize short-term interests and often lack the patience to trade based on the long-term fundamental
+value of firms. We confirm that the exit threat is largely the result of active short-term investors.
+    Second, we shed light on the mechanism by which institutional investors profoundly influence corporate governance. Although
+cross-ownership has received extensive research attention, the significance of the institutional cross-ownership exit threat in corporate
+governance has been largely neglected. In particular, the theoretical model of Edmans et al. (2019) outlines that the threat of exit by
+cross-ownership will be reinforced as it signals to the market whether the assets are winners or losers in the portfolio. It has long been
+questioned whether institutions actively engage in management activities, especially in a transitional economy such as China (Jiang
+and Kim, 2020). According to McCahery et al. (2016), institutions ideally favor the use of the exit threat as an alternative mechanism in
+corporate governance. Based on our findings, it appears that institutional cross-ownership continues to rely primarily on the threat of
+exit as the main approach, rather than actively seeking engagement.
+
+                                                                     2
+W. Yin et al.                                                                                           Pacific-Basin Finance Journal 83 (2024) 102239
+
+
+   Third, this study contributes to existing knowledge about the factors that influence corporate risk-taking. Previous research has
+mainly examined how ownership structure influences the development of strategies for risky and uncertain projects (e.g. Boubaker
+et al., 2016). While institutional cross-ownership has been extensively studied in a variety of fields, the risk-taking behavior of
+managers has received less attention. We contend that within a Chinese setting, the existence of institutional cross-ownership has the
+potential to worsen conflicts of interest in corporate risk management, resulting in unfavorable consequences. Our study supports the
+theoretical analysis of Admati and Pfleiderer (2009), which suggests that the possibility of exit can discourage managers from taking
+value-maximizing actions and lead to dysfunctional investor behavior.
+
+2. Related literature and hypothesis development
+
+2.1. Determinants of corporate risk-taking
+
+    Given the importance of firms’ risk-taking behavior, current research efforts are exploring aspects that may influence managers’
+attitudes toward risk. Based on the principles of agency theory, it can be argued that managers exhibit risk-averse behavior owing to
+their dependence on a single source of wealth and their concerns about career advancement (Wright et al., 1996; Kempf et al., 2009).
+As a result, prior research has placed considerable emphasis on mitigating managerial myopia and deterring agent shirking. Re­
+searchers initially focus on examining the incentive system that motivates managers to take more risks. For instance, Sanders and
+Hambrick (2007) demonstrate that when managers are provided with stock options, they are more likely to take high-variance
+gambles. Another area of academic research is the study of ownership structure as an important variable influencing corporate risk
+attitudes. Considering the monitoring activities of equity stakeholders, Faccio et al. (2011) claim that firms owned by diversified large
+shareholders are more likely to engage in risky investment activities than firms owned by non-diversified large shareholders. In
+contrast, the largest controlling shareholders tend to exhibit a preference for risk aversion owing to the limited availability of
+diversification options (Zhang, 1998). With the exception of the largest controlling shareholder, the monitoring function of other
+shareholders effectively limits expropriation actions and thus encourages a higher level of risk-taking (Boubaker et al., 2016). In sum, a
+firm’s internal governance structure is likely to affect managers’ interests and influence their risk-taking behavior.
+    In light of the above, we argue that few studies have connected corporate risk-taking with governance by introducing institutional
+cross-ownership, especially in the context of transitional economies. Thus, our study contributes to the literature by examining the
+consequences of cross-ownership structures in Chinese firms.
+
+2.2. Governance through voice or exit
+
+    Large shareholders can exercise governance over firms through voice or exit (Shleifer and Vishny, 1986). The mechanism that has
+received the most academic attention is active monitoring through voice, which involves exercising voting rights and submitting
+proposals at shareholder meetings. Another mechanism that has received relatively little attention is the threat of exit, which can
+induce managers to react ex-ante even in the absence of actual action.
+    Despite the fact that institutional investors hold relatively large fractions of shares in their portfolio companies, their participation
+in corporate governance based on overt forms of monitoring or activism efforts is limited (Edmans et al., 2019). This might be
+explained as follows. First, large investors are reluctant to monitor management because of the free-rider problem. They have to bear
+the costs of monitoring and controlling management, while the benefits of their activism are shared by all shareholders (Shleifer and
+Vishny, 1986). Institutional investors may not capture all the benefits, because they typically hold relatively small stakes in firms. In
+contrast, other investors can capture the substantial value simply by selling their shares. Second, the legal and regulatory environment
+may discourage institutional active participation. For example, the diversification rule1 directly affects the size of an institution’s
+ownership stake, which is not large enough for effective control. The acting in concert rule2 may discourage institutions from exer­
+cising power over corporate strategy because of the legal risk of misreporting. These rules place hurdles on how many shares in­
+stitutions can own and what they can do with those shares. Third, without proper oversight and sufficient incentives, institutions may
+not actively use shareholder proxy rights (Bebchuk et al., 2017). Their exercise of voting rights is closely related to existing business
+relationships rather than concerns about the future of the company (CvijanoviĆ et al., 2016).
+    Meanwhile, the exit mechanism seems to be a viable alternative strategy for institutional investors. Large investors can exert in­
+fluence through trading, which appears to be more feasible and less costly than voting. The results of a survey conducted by McCahery
+et al. (2016) show that institutional investors rely heavily on exits across all governance channels. This is consistent with the findings of
+Parrino et al. (2003), who present an empirical study that directly supports this view. However, in China, Jiang and Kim (2015) report
+that some institutional shareholders are considered small blockholders, despite their rapid growth rate. A natural question at this point
+is whether their exit threat is credible if they cannot engage. Researchers argue that blockholders are able to govern through the exit,
+regardless of the availability of voice. In the influential theoretical study by Edmans (2009), blockholes can depress the stock price by
+selling their shares, thereby incorporating private information into prices. This ex-post punishment scrutinizes managerial behavior
+
+
+  1
+    The 2004 Fund Management Company Measures issued by the China Securities Regulatory Commission (“CSRC”) published the diversification
+rule: any fund cannot hold more than 10% of its net assets in the shares of one listed company.
+  2
+    According to the 2002 Shareholding Change Report Guideline issued by CSRC, shareholders shall disclose their purpose, formation date and plan
+once they form a concerted party through either a formal or informal agreement.
+
+                                                                       3
+W. Yin et al.                                                                                        Pacific-Basin Finance Journal 83 (2024) 102239
+
+
+even when investors face disincentives to engage. In contrast, Admati and Pfleiderer (2009) support the notion that the threat of exit as
+an alternative voice mechanism generally mitigates agency problems based on private information. However, they question the
+effectiveness of exit threats in addressing any type of agency problem. Their theory predicts that the threat of exit reduces agency costs
+when the action induces managers to secure private benefits that are undesirable for shareholders (“bad action”). Meanwhile, when the
+action is costly for managers but desirable for shareholders (“good action”), the threat of exit can even exacerbate agency costs. More
+recently, Döring et al. (2021) provide empirical evidence that institutional shareholders regulate “bad action” agency problems more
+effectively through voice. Together, these studies highlight the importance of market pressure in corporate governance.
+
+2.3. Institutional cross-ownership and corporate risk-taking
+
+    The “communication” view contends that institutional cross-ownership has a positive effect on corporate risk-taking by actively
+participating in corporate governance and reducing managers’ risk aversion. This view contends that institutional cross-owners have
+stronger incentives to engage firms to take on more risk. In general, a well-diversified owner can diversify firm-specific risk and bear
+more risk than individuals (Faccio et al., 2011; DesJardine et al., 2023). In contrast to cross-owners, managers tend to be risk-averse
+because their compensation relies solely on the performance of the focal firm (Wright et al., 1996). Since theoretical and empirical
+studies have shown that varying uncertainty boosts the future value of a firm (e.g. Wright et al., 1996; Faccio et al., 2011; Koirala et al.,
+2020), cross-owners are more likely to require managers to undertake riskier projects. In particular, risk shifting by one firm can have
+similar effects on its peer firms. Bloom et al. (2013) strengthen the positive effect of R&D on gross social returns through spillovers.
+Further, Anton et al. (2021) theoretically demonstrate that firm innovation is sensitive to the internalization of knowledge externalities
+by cross-holders. Relative to holding a single firm, cross-holders may earn higher marginal returns for the same amount of monitoring
+inputs because they also receive benefits from all other peer firms (He et al., 2019). Thus, to maximize portfolio value, institutional
+investors should engage more actively with portfolio firms to pursue riskier investments.
+    Moreover, by holding more than one company in an industry, diversified owners have an informational advantage that can reduce
+monitoring costs. Through the communication channel, institutional overlap may even unintentionally grasp quantitative knowledge
+(Jung, 2013). For instance, firm managers may seek advice from institutional investors about how their peers respond to a newly
+accepted disclosure policy. In this case, cross-holders can gradually discover private information about a firm’s behavior. Furthermore,
+cross-holding fund managers may share information during the coordination activities (Azar et al., 2018). Those industry-level
+commodities (e.g., similar strategy canvas, business environment, and disclosure policies) constitute the same considerable fixed
+costs involved in the costs of monitoring in the same industry (Ramalingegowda et al., 2021). The governance-relevant knowledge
+obtained from holding the portfolio ameliorates the process of obtaining and processing industry-specific information. Based on mixed
+integrated information, institutional investors can obtain a better understanding of the companies and identify more sources of
+investment.
+    According to these arguments, institutional cross-ownership has a positive effect on firms’ risk-taking through increased incentives
+and monitoring capacity. Thus, we postulate our hypothesis as follows:
+Hypothesis H1a. Institutional cross-ownership enhances corporate risk-taking.
+    On the contrary, the “signal” view suggests that institutional cross-ownership inadvertently lowers the level of corporate risk-taking
+through the threat of exit. The main effect of a diversified portfolio is that an institution’s selling choices transmit more information
+into the stock price (Edmans et al., 2019). If an institution holds multiple stakes, a sale sends a stronger negative signal to the market,
+implying that the company being sold is the only bad one in the portfolio. As shown by Huang et al. (2023), mutual funds always sell
+losers to satisfy creditor demands, resulting in a persistent effect on security prices in an asymmetric information environment. Once
+cross-holders transmit signals to the market, the information cascade theory suggests that the observing investors are likely to follow
+the actions of their predecessors instead of relying on their private information (Bikhchandani et al., 1992). Such herding behavior
+leads to a low price ex-post and induces market performance concerns ex-ante, as in Edmans (2009) and Admati and Pfleiderer (2009).
+Therefore, multiple holders may have a stronger consequential influence on managerial actions through the threat of exit.
+    To avoid possible downward pressure, managers may be unwilling to take any risks at the beginning. Theoretical research predicts
+that if the public can observe what actions management takes, but only blockholders can observe the realized value of the company,
+then they will be inclined to sell their shares if they perceive that the value added is small (Admati and Pfleiderer, 2009). This is
+particularly true in China, where the investment logic of some large institutional shareholders is to seek immediate short-term gains
+rather than fundamental value (Xu et al., 2022). Downward pressure on prices reduces managers’ efforts because their productive
+activities can easily send bad signals to the market in the short run. After all, short-term stock prices can directly affect managers’
+succession plans, professional reputation, and personal wealth. For instance, some stakeholders (e.g. credit-rating agencies) are less
+informed and can only learn from the information contained in the market (Bond et al., 2012). Since credit ratings are heavily
+influenced by price movements, a downward trend in prices may increase managers’ concerns about a firm’s ability to raise capital.
+Regarding short-term price effects, managers may reduce their risk-taking behavior because the riskier the actions they take, the more
+negative signals they may send to the market in the short term. According to this line of reasoning, the threat of exit may inadvertently
+exacerbate the agency problem and lead to lower levels of corporate risk-taking.
+    The key assumption underlying the above literature is the essential agency problem that the interests of managers and shareholders
+are not well aligned. As a developing country on the path to a market-oriented economy, China is characterized by a weak albeit
+improving legal environment (Jiang and Kim, 2015). In the absence of strong legal protections, managers have a certain latitude in
+making strategic choices that advance their own interests. Therefore, given the possible shock from cross-owners, managers are more
+
+                                                                     4
+W. Yin et al.                                                                                       Pacific-Basin Finance Journal 83 (2024) 102239
+
+
+inclined to choose risk-averse strategies.
+    Based on the previous discussion, we argue that the exit threat is primarily used by institutional cross-ownership, which unin­
+tentionally induces insufficient risk-taking. Hence, we conjecture our hypothesis as follows:
+Hypothesis H1b. Institutional cross-ownership suppresses corporate risk-taking.
+
+3. Data and research design
+
+3.1. Sample and data sources
+
+   This paper starts with a large sample of A-share companies listed on the Shanghai and Shenzhen stock exchanges from 2007 to
+2019. Our sample starts in 2007 because China’s split-share reform to eliminate non-tradable shares was completed by the end of 2007.
+Since the proxies for corporate risk-taking are based on a three-year rolling window, we obtain financial data from 2007 to 2021, and
+our sample period ends in 2019. We derive the detailed quarterly institutional ownership data from the CSMAR database. State
+ownership information is obtained from the CNRDS database. Other financial information is obtained from the CSMAR database.
+Following convention, we exclude financial listed firms, special treatment listed firms, and firms with missing variables. To reduce the
+impact of outliers, we winsorize all the continuous variables at 1% in each tail. The final sample consists of 25,888 firm-year ob­
+servations associated with 3380 firms.
+
+
+3.2. Major variable measures
+
+3.2.1. Dependent variables
+    Following the literature (Boubakri et al., 2013; Langenmayr and Lester, 2018), we construct two measures of risk-taking based on
+the volatility of return on assets because riskier firms exhibit more income uncertainty. The first proxy variable (Risk1) is calculated as
+the standard deviation of ROA over three-year periods where ROA is defined as the ratio of earnings before interest and taxes (EBIT) to
+total assets. For instance, the level of corporate risk-taking in 2019 is measured by the volatility of ROA from 2019 to 2021. We use
+three-year windows as the basis for the calculation because the tenure of chief executive officers (CEOs) in China is generally three
+years. The second alternative proxy variable (Risk2) is the difference between the maximum and minimum ROA over a three-year
+interval. We multiply both measures by 100 for display in all the regressions.
+
+3.2.2. Independent variables
+   For institutional cross-ownership, we follow He and Huang (2017)’s approach to construct the proxies for institutional cross-
+ownership at the firm-year level. We focus on institutional investors that own at least 5% of a firm’s outstanding shares, since
+these blockholders exert significant influence on corporate governance. We define our primary measure, CrossDum, as a dummy
+variable that equals one if a firm is ever cross-owned by institutional investors in any quarter of a fiscal year, and zero otherwise. Thus,
+CrossDum captures the effect of institutional cross-ownership of a given firm. Our results are consistent with the following continuous
+proxies for institutional cross-ownership (untabulated). The second measure, CrossNum, is the number of unique institutions that cross-
+own the firm, averaged over the four quarters. The third one, CrossShare, is the aggregate share of all institutional cross-owners,
+averaged over the four quarters.
+
+
+3.3. Methods
+
+   We use the following regression model to investigate the relationship between institutional cross-ownership and corporate risk-
+taking:
+                                                   ∑              ∑
+       Riski,t = β0 + β1 CrossDumi,t + β2 CVsi,t +  j
+                                                      Industryj +  t
+                                                                     Yeart + εi,t ,                                            (1)
+
+where Risk is one of the two measures of corporate risk-taking. CrossDum is an indicator variable that equals one if a firm has insti­
+tutional cross-ownership, and zero otherwise. CVs denote the control variables that may be significant for corporate risk-taking. In
+particular, we include firm size (Size) to account for the ability and willingness to make aggregate investments (Langenmayr and
+Lester, 2018; Koirala et al., 2020). Next, we control for firm investment opportunities by including sales growth (Growth) and market-
+to-book share (MTB) (Langenmayr and Lester, 2018). Later, we use firm age (FirmAge) to account for systematic variation in the level of
+risk-taking associated with a firm’s life cycle. We also consider leverage (Lev) to account for firms’ access to financing (Tran, 2019) and
+capital expenditure (Cap) to control for firms’ contribution to investment (Boubakri et al., 2013). Similarly, as suggested by Lan­
+genmayr and Lester (2018), we then control for a firm’s ability to sponsor risky projects by accounting for return on assets (ROA). To
+capture the effect of managerial entrenchment, we include CEO duality (Dual) and CEO share (CEOShare) (Ferris et al., 2017). Given
+that improved corporate governance may reduce managerial myopia, we control for board monitoring by including board indepen­
+dence (Indep) (Gopalan et al., 2021). Also, we consider the governance structure, which may affect the relationship between corporate
+risk-taking and institutional cross-ownership (Faccio et al., 2011; Boubaker et al., 2016). Therefore, we use equity balance (Balance),
+state ownership (StateShare), and institutional investor ownership (InstShare) as additional variables. Finally, we include Chinese
+regional GDP per capita (GDP) to capture the influence of country-level growth on managerial decisions (Boubakri et al., 2013). We
+
+                                                                     5
+W. Yin et al.                                                                                        Pacific-Basin Finance Journal 83 (2024) 102239
+
+
+apply industry and year fixed effects and cluster standard errors at the firm level.
+
+4. Main results
+
+4.1. Summary statistics
+
+    Table 1, Panel A, reports the descriptive statistics of the main variables. The mean of Risk1 (Risk2) is 3.204 (6.021), while the
+minimum and maximum values are 0.112 (0.217) and 21.150 (38.440), indicating large differences in the level of corporate risk-
+taking in our sample. The next three rows summarize the proxies for institutional cross-ownership. The mean of CrossDum is 0.136,
+indicating that 13.6% of the listed firms in our sample have institutional cross-ownership. This value is much lower than that of US
+firms (He and Huang, 2017), and one possible explanation is that mutual funds are prohibited by regulation from owning more than
+10% of a listed firm’s common stock. The summary statistics of the key variables are generally consistent with those in prior literature
+(Gao et al., 2019). Table 1, Panel B, presents the univariate comparisons. We divide our sample into groups based on whether they have
+institutional cross-ownership. Preliminary results show that, on average, firms without institutional cross-ownership are more willing
+to take risks than firms with institutional cross-ownership, supporting the “signal” view (Hypothesis H1b).
+
+4.2. Baseline results
+
+    In this section, we examine the relationship between institutional cross-ownership and corporate risk-taking in the full sample.
+Table 2 reports the results of the baseline regression. The coefficients of independent variables are negative and significant at the 1%
+level, indicating that institutional cross-ownership is negatively associated with corporate risk-taking. Next, we examine the economic
+significance of CrossDum on Risk1 and Risk2. In columns (1) and (2), the coefficients of CrossDum indicate that when a firm moves from
+no institutional cross-owner to at least one institutional cross-owner, then it shows a decrease of 0.30 (0.55) in Risk1 (Risk2). Given that
+the mean of Risk1 (Risk2) in cross-owned firms is 2.70 (5.08), the magnitude of this effect is economically significant. We also note that
+the correlations between institutional ownership (InstShare) and firm risk-taking are negative and significant at the 1% level. This
+result is consistent with the work of Fan and Fu (2020), who find that, contrary to mature market expectations, institutions have little
+monitoring ability and instead exert more selling pressure. Since we have already included the proxy for institutions (InstShare), the
+coefficients of CrossDum can be interpreted as the incremental effect of institutional cross-ownership. This result supports H1b that
+institutional cross-ownership leads to lower levels of corporate risk-taking.
+
+4.3. Robustness checks
+
+4.3.1. Alternative measures of corporate risk-taking
+    To test the robustness of our results, we begin by re-estimating the baseline model with alternative measures of corporate risk-
+taking. First, we use idiosyncratic risk (Risk3) as a market-based measure of firm risk. Idiosyncratic risk captures unexplained firm-
+specific risk that is independent of market movements. Following Langenmayr and Lester (2018), we calculate the standard devia­
+tion of the Fama-French three-factor regression residuals. Second, we consider financial distress, since higher risk-taking is associated
+with the probability of financial crisis. Following Ohlson (1980), we use the O-score (Risk4) to reflect the probability of bankruptcy.
+Third, we use total investment activity (Risk5) because firms will allocate more capital to long-term investments if they exhibit higher
+levels of risk-taking behavior. We define a firm’s total investment as non-cash assets scaled by total assets (Chen and Wang, 2019).
+Consistent with our expectations, all tests show consistent results as we observe negative statistical coefficients for CrossDum in the first
+three columns of Table 3.
+
+4.3.2. Alternative threshold for defining institutional cross-ownership
+   In the previous tests, we keep observations for which institutions’ ownership exceeds 5%. It can be argued that the threshold may
+seem arbitrary because if institutions own more shares, they will have more incentives to engage, rather than to trade. In turn, we use
+an 8% threshold to include more institutions that own a larger fraction of shares. The results in columns (4) and (5) in Table 3 show
+that our results hold after using the alternative threshold.
+
+4.3.3. Subsample period analysis
+    We use an alternative sample to confirm our conjecture. In 2011, the CSRC’s revision of the fair-trading system prevented in­
+vestment committees and directors from interfering with portfolio managers’ investment activities within their mandates. With greater
+autonomy, the exit threat of institutional cross-ownership is greater, leading to less corporate risk-taking. As shown in the last two
+columns of Table 3, we repeat our baseline regression only for the subsample of firms after the revision. The absolute coefficient
+estimates are much higher than those for the full sample, indicating that groups with higher exit threats have lower risk-taking. Again,
+the results are consistent with our hypothesis that the predominant exit threat from institutional cross-ownership reduces firms’ risk-
+taking.
+
+4.3.4. Alternative explanation exclusion
+    We also consider an important alternative channel that explains how institutional cross-ownership can potentially decrease firm
+risk-taking from an anti-competitive perspective. According to Azar et al. (2018), cross-ownership can limit firms’ motivation to
+
+                                                                     6
+W. Yin et al.                                                                                               Pacific-Basin Finance Journal 83 (2024) 102239
+
+
+compete and sustain high-profit margins, as the benefits of excessive competitive aggressiveness by one firm may offset the escalating
+costs of other firms in the portfolio. Therefore, we predict that the reduction in firm risk-taking is due to weakened managerial in­
+centives affected by controlled competition. Theory predicts that market product competition acts as a complement to managerial
+incentives, so firms in less competitive industries have weaker managerial incentives (Karuna, 2007). According to this argument, the
+effect of institutional cross-ownership shall be more pronounced in industries with high market share concentration because the small
+number of dominant shareholders can easily coordinate their strategies by reducing intense competition. Empirically, we construct
+Herfindahl-Hirschman Indices (HHI) of market concentration. We include HHI along with its interaction term with CrossDum. We find
+that the estimated coefficients of the interaction terms are positive and statistically insignificant. This suggests that our results are not
+driven by an anti-competitive explanation. For brevity, the results are not shown, but they are available from the authors upon request.
+
+
+4.4. Endogeneity mitigation
+
+4.4.1. Accounting for omitted variable bias
+    Admittedly, we cannot completely rule out the omitted variable bias even though we have included relevant confounders in our
+baseline model. In particular, this problem is attributed to unobservable critical covariates. For example, managerial ability is related
+to both institutional preference and corporate risk-taking. Then, a possible relationship between corporate risk-taking and institutional
+cross-ownership may be due to the lack of measurement of managerial ability.
+    To mitigate the potential threat of not including all possible confounders, we perform a bounding test to assess whether our es­
+timate is robust to omitted variable bias (Oster, 2019). The bounding approach identifies omitted variable bias after accounting for not
+only movements in the coefficients of the relevant variables, but also changes in the coefficient of determination in the models. As
+suggested, we follow the procedure to compute the bounding value.
+    We obtain a bound estimate from the changes in the treatment effect after including the observable covariates. The analysis relies
+on two pieces of information. First, we set R2max to 1.3 times the value of R2 derived from the specification with all observable variables.
+The R2max limit is implied by Oster (2019) using empirical research from top journals. Second, we define the degree of selection on
+observables and unobservables (δ) as one. Following the suggestion of Oster (2019), one can expect that the most important controls
+have been selected in the models, so it seems reasonable to assume that the observables are at least as important as the unobservables.
+Given the degree of selection from observables to unobservables, we estimate the treatment effect as [̃      β, β* (Rmax , δ )] when there is a
+downward bias.3
+    Specifically, we use the user-written Stata command PSACALC to execute the bound analysis. Accordingly, we obtain (− 0.2993,
+− 0.1963)/(− 0.5527, − 0.3603) as the bounded interval for the dependent variable Risk1/Risk2. Obviously, the corresponding iden­
+tified set excludes zero. This may indicate that the effect of institutional cross-ownership has some causal effect on firms’ risk-taking.
+Overall, the results suggest that our main conclusion is unlikely to be driven by omitted variables.
+
+4.4.2. Excluding the selection effect of institutional cross-ownership
+    The change in corporate risk-taking observed in our study can be attributed to a selection effect. This occurs when institutional
+cross-holders, who have their own risk preferences, choose to invest in firms with lower levels of risk-taking. We first examine whether
+institutions change their portfolio selection in response to firms’ risk-taking in the previous year. Consistent with Wu et al. (2023), we
+create a portfolio selection dummy (Cross) that takes the value of one for firms that are held by institutional cross-owners for the first
+time in the current year, and zero otherwise. We then regress Cross on lagged firm risk-taking, expecting a negative relationship if self-
+selection is present. In the first two columns of Table 4, the coefficients of lagged firm risk-taking are not statistically significant,
+indicating that institutional cross-owners do not hold stocks in response to firm risk-taking. Next, we examine whether institutional
+cross-ownership plays a role in identifying firms with the potential for consistent future performance. Specifically, following Dickinson
+(2011), we create a maturity dummy (Maturity) that equals one if the firm is considered mature, and zero otherwise. Since mature firms
+have already manifested stable performance, we expect the lagged maturity dummy (L.Maturity) to be positively related to Cross if
+institutional cross-ownership prefers a lower level of corporate risk-taking. As shown in column (3) of Table 4, the coefficient on
+L. Maturity is not statistically significant, suggesting that manifestly stable performance is not one of the selection criteria for insti­
+tutional cross-ownership. Overall, our results are inconsistent with the self-selection effect.
+
+4.4.3. Instrumental variable method
+    Further, we use an instrumental variable (IV) method to address the endogeneity issues related to reverse causality and omitted
+variables. Similar to previous studies (e.g. Appel et al., 2016; Kang et al., 2018), we exploit the nature of the China securities index
+(CSI) composition as an instrumental variable. Since CSI indexes are value-weighted, institutions can select firms by tracking these
+indexes. Adjustments to index inclusion create notable exogenous changes in the ownership structure of firms. Although index allo­
+cations are rebalanced based on firms’ market capitalization, the selection criteria are determined by an arbitrary rule. Thus, changes
+in ownership structure should be exogenous after conditioning on market capitalization (Appel et al., 2016). In this setting, the CSI
+
+
+                                                                     [      ] 2 ̃2
+ 3
+   Specifically, β* can be approximated by the expression: β* ≈ ̃
+                                                                β − δ β̇ − ̃
+                                                                             R − R
+                                                                           β max      2
+                                                                                        , where ̃     ̃ 2 (β̇ and Ṙ2 ) are estimated using conditional
+                                                                                                β and R
+                                                                              ̃
+                                                                              R2 − Ṙ
+(unconditional) regression of Eq. (1).
+
+                                                                          7
+W. Yin et al.                                                                                        Pacific-Basin Finance Journal 83 (2024) 102239
+
+
+entrance satisfies the exclusion restriction because the index adjustment is relatively random. In addition, the index adjustment sat­
+isfies the relevance condition because index changes are associated with changes in an institution’s portfolio. For example, when a firm
+enters the CSI, the probability of having passive owners decreases, while the probability of having active owners increases (Kang et al.,
+2018). Even if the target firms are not affected by the index adjustment, a change in the ownership structure is likely to occur when the
+co-owned peer firms are on the index list. Therefore, we use an IV approach based on the index listings. For investors, the CSI 300 and
+CSI 500 are popular benchmarks for tracking strategies. We create a CSI entrance dummy (DCSI) that takes the value of one if a stock
+switches from no index to either the CSI 300 or CSI 500, and zero otherwise.
+    We report the regression results from columns (4) to (6) in Table 4. In the first-stage regression estimation, the coefficient estimate
+of DCSI is negative and significant at the 1% level, indicating that the relevance condition holds. In the second-stage estimation, the
+coefficients of CrossDum are generally negative and significant. When we use an instrument for institutional cross-ownership, an in­
+crease in institutional cross-ownership leads to a decrease in corporate risk-taking. The IV estimation confirms the results of our
+baseline results.
+
+5. Cross-sectional evidence
+
+    This section discusses the underlying mechanism in more detail. As discussed above, the mechanism underlying H1b is that the exit
+threat from institutional cross-ownership triggers managerial behavior. Therefore, we expect the negative effect of institutional cross-
+ownership to be more pronounced when the exit threat is more credible or when managers are more concerned about market per­
+formance. Specifically, we examine the role of three factors: stock liquidity, blockholder competition, and state ownership. Our cross-
+sectional evidence is consistent with the capital market pressure channel through which institutional investors influence corporate
+risk-taking.
+
+5.1. Role of stock liquidity
+
+    By reducing the cost of exit upon weak earnings, liquidity allows dissatisfied institutional cross-owners to exit rather than intervene
+(McCahery et al., 2016). With increased liquidity, an institution can trade more aggressively to avoid disappointing firm performance
+(Dou et al., 2018). Conversely, market illiquidity prevents institutions from selling in the short term. Low liquidity forces institutions to
+bear the costs of intervening in firms and actively participating in corporate governance (Edmans et al., 2013). Thus, liquidity en­
+courages investors to trade in large volumes and incorporate more information into stock prices. Because managers are sensitive to
+changes in stock prices, they are more likely to preserve private utility and therefore take less risk. Since liquidity increases the threat
+of exit, we expect the negative effect of institutional cross-ownership on corporate risk-taking to be more pronounced as liquidity
+increases.
+    We include the negative of Amihud’s (2002) illiquidity ratio (Liquidity) and its interaction with CrossDum in our regressions. Table 5
+reports the effect of liquidity on the relationship between institutional cross-ownership and corporate risk-taking. Consistent with the
+above augments, we find in columns (1) and (2) that the negative impact of institutional cross-ownership on corporate risk-taking is
+more pronounced as liquidity increases. The evidence suggests that with higher liquidity, institutional cross-ownership is more
+effective in exacerbating managerial short-termism and inducing lower levels of corporate risk-taking.
+
+5.2. Role of blockholder competition
+
+    As suggested by Dou et al. (2018), competition among multiple blockholders increases the threat of exit through their aggressive
+trading. Large stakes may be necessary for investors to exercise governance, but not desirable if they want to exit troubled firms
+(Edmans, 2009). On the contrary, the cost of coordination among multiple blockholders hinders intervention and motivates them to
+compete for trading profits (Dou et al., 2018). Then, competition among blockholders will intensify the informativeness of the stock
+price, and thus block sales will lead to a less attractive price (Edmans and Manso, 2011). Overall, we expect blockholder competition to
+facilitate the threat of exit from institutional cross-ownership on managers’ risk-taking behavior.
+    Accordingly, we measure blockholder competition(BhComp) using the Herfindahl index of blockholder ownership multiplied by − 1
+(Dou et al., 2018). To measure the impact of blockholder competition on the relationship between institutional cross-ownership and
+corporate risk-taking, we include the interaction term between BhComp and CrossDum in our model. As shown in columns (3) and (4) of
+Table 5, the coefficients of the interaction terms are negative and statistically significant, suggesting that the negative effect of
+institutional cross-ownership on managers’ risk-taking behavior is stronger when blockholder competition is higher. The evidence is
+consistent with our prediction and strengthens our exit threat argument.
+
+5.3. Role of state ownership
+
+    Finally, we examine the moderating effect of state ownership. Despite the transitional process of share privatization, state
+ownership is still prevalent in Chinese listed companies. Unlike private owners, the state is more likely to achieve socio-political goals
+to secure the political interests of bureaucrats. Apparently, wealth maximization is not the only objective for the state; rather, political
+self-interest may encourage politicians to engage in decision-making activities to realize a broader set of goals (Prabowo et al., 2018).
+Because the state is less concerned about short-term performance, its intervention provides managers with better protection against
+price declines to some extent. In particular, the state can reduce the tempting power of incentive-based compensation. Chinese SOE
+
+                                                                     8
+W. Yin et al.                                                                                      Pacific-Basin Finance Journal 83 (2024) 102239
+
+
+managers are not incentivized by Western-style compensation, because they are not paid much more for better performance (Jiang and
+Kim, 2020). Since some managers are willing to return to government posts at the end of their tenure, they may be promoted and
+rewarded with non-monetary benefits later (Jiang and Kim, 2015). According to this view, we expect the effect of institutional cross-
+ownership to be more pronounced for firms with less state ownership if the exit threat is the underlying channel.
+   We measure state ownership as the proportion of shares owned by the government (StateShare). The indicator objectively denotes
+the degree of state ownership as the ownership structure rarely changes. The higher the proportion of state-owned shares, the lower the
+pressure from the capital market. We include both StateShare and StateShare×CrossDum in our main equation. Columns (5) and (6) in
+Table 5 show the positive association of the interaction term, which supports our conjecture. Overall, this evidence suggests that firms
+with fewer state shares respond more strongly to the exit threat of institutional cross-ownership by reducing corporate risk-taking.
+
+6. Further analyses
+
+6.1. Types of institutions: who is responsible for the predictive power?
+
+6.1.1. Short- versus long-term institutions
+    We further investigate the extent to which the predictive power of institutional cross-ownership can be attributed to institutions
+with varying horizons. According to Yan and Zhang (2009), short-term opportunists trade frequently and prioritize short-term value
+for speculative purposes. They regularly evaluate the performance and industry ranking of portfolio companies and sell shares when
+the performance of portfolio companies declines. In contrast, long-term institutional investors who follow a value investing strategy
+take a more active interest in a company’s operations and closely monitor management’s investment decisions (Chen et al., 2007).
+Consequently, firms with a higher proportion of short-term institutional investors are more likely to face a significant exit threat. One
+might expect that short-term investors are primarily responsible for the negative effects of institutional cross-ownership.
+    To test this hypothesis, we follow the approach of Yan and Zhang (2009) and distinguish between short-term and long-term in­
+stitutions based on their average turnover rate rankings over the past two years. After sorting institutional investors into three tertile
+portfolios, we classify an institution as a short-term/long-term institution if its average turnover rate ranks in the top/bottom tertile.
+Then, STCrossShare/LTCrossShare measures the ratio of outstanding shares held by short-term/long-term institutional cross-owners.
+We include STCrossShare and LTCrossShare separately to our baseline equation separately in Table 6.
+    We find strong evidence that the negative impact of institutional cross-ownership is mainly driven by short-term institutions. For
+example, in columns (1) and (2), when controlling for STCrossShare, the absolute value of the coefficient of CrossShare declines (from
+− 0.783 to − 0.321) and is no longer significant, while the coefficient of STCrossShare is − 1.680 and significant at the 1% level. In
+contrast, when both LTCrossShare and CrossShare are included in the regression equation, the untabulated results show that the co­
+efficient of CrossShare remains significantly negative, while the coefficient of LTCrossShare is positive and significant at the 1% level.
+These results suggest that the predictive ability of CrossShare is completely subsumed by STCrossShare. Interestingly, we find that
+LTCrossShare increases the level of corporate risk-taking, suggesting that long-term cross-owners effectively monitor the management
+and suppress managerial myopia.
+
+6.1.2. Active versus passive institutions
+    Next, we split short-term institutions into active cross-owners and passive cross-owners. According to our logic, the primary un­
+derlying mechanism of institutional cross-ownership in managerial decision-making is the threat of exit. However, since passive in­
+vestments typically track indexes, they are unlikely to exit owing to changes in corporate decision-making (McCahery et al., 2016;
+Helling et al., 2020). Therefore, we expect the negative impact of institutional cross-ownership to be driven mainly by active short-
+term institutions.
+    Following Kim et al. (2019), we categorize institutional owners into passive and active owners according to institution type. In
+particular, we classify banks, trusts, and insurance companies as passive owners and investment companies and investment advisors as
+active owners. We denote STCrossShare(Passive)/STCrossShare(Active) as the aggregate shares held by passive/active institutional
+cross-owners, respectively. In Table 6, columns (3) and (6) show the results with active and passive short-term institutions. When
+controlling for STCrossShare(Passive) and STCrossShare(Active), the coefficients of overall institutional cross-ownership are no longer
+significant. In contrast, the coefficients of STCrossShare(Passive) are positive and insignificant, while the coefficients of STCrossShare
+(Active) are negative and significant at the 1% level. Consistent with our belief, passive investors have fewer incentives to use the exit
+threat. In all, we empirically show that the prohibiting effect of cross-ownership on risk-taking is primarily driven by active short-term
+institutions.
+
+6.2. Do risk-taking behaviors affect future firm performance?
+
+    We also examine whether a firm’s long-term growth is affected by its willingness to take greater risks. In particular, if managers are
+risk-averse, they will forgo risky but valuable investment projects and hold excessive cash (Tran, 2019). Given the key role of tangible
+or intangible assets in achieving competitive advantage, the future performance of the firm may be negatively affected. Therefore, it is
+essential to understand the economic consequences of institutional cross-ownership.
+    This paper uses TobinQ, a measure of firm value, and includes it as the dependent variable in model (1), while adding the cross
+product of cross-ownership and firm risk-taking (CrossDum×Risk) to investigate the impact of firm risk-taking on future firm value
+driven by cross-ownership. Since the impact of institutional cross-ownership on firm value may be lagged, the response variables are
+
+                                                                      9
+W. Yin et al.                                                                                        Pacific-Basin Finance Journal 83 (2024) 102239
+
+
+tested using periods t + 1 to t + 2. Consistent with our conjecture, the future firm value is less responsive to corporate risk-taking in
+firms held by institutional cross-ownership. For example, in column (1) of Table 7, the estimated coefficient of the interaction term
+(CrossDum×Risk1) is negative and significant at the 5% level. This result is robust to regressions over the next associated columns,
+suggesting that cross-owners weaken the positive relationship between risk-taking behavior and future firm performance. This can be
+explained by the tendency of managers to “leave money on the table” rather than embark on riskier but value-creating projects under
+market pressure from cross-owners.
+
+
+6.3. Disciplining effect of institutional cross-ownership
+
+   More broadly, the threat of exit due to institutional cross-ownership may discipline managers and reduce undesirable behavior
+from the blockholders’ perspective (Admati and Pfleiderer, 2009). The existence of “bad action” agency problems, such as corporate
+wrongdoing, can be effectively mitigated by the credible threat of exit. As informed blockholders, institutional investors can observe
+the true value of managers’ actions and exit in response to the potential unexpected outcomes. Therefore, managers will reduce the
+extraction of private actions and align their interests with blockholders (Dou et al., 2018). As a result, the amplified exit threat will
+reduce the need for managers to engage in undesirable activities. In this case, the governance power stemming from institutional cross-
+ownership reduces the incidence of corporate misconduct.
+   We use the firm’s probability and level of financial irregularities as proxies for corporate misconduct. First, we define VIO as
+whether the firm commits financial reporting irregularities. VIO takes the value of one as if the firm violates the law, and zero
+otherwise. Second, we define Degree as the severity of penalties, which is divided into four levels based on severity (Li and Li, 2020).
+Higher values of Degree indicate more penalties. For each measure of firm misconduct, the coefficient of CrossDum in Table 7 is negative
+and significant, suggesting that firm misconduct decreases in response to the exit threat of institutional cross-ownership.
+             (         )                                    ∑              ∑
+       VIOi,t Degreei,t = β0 + β1 CrossDumi,t + β2 CVsi,t +  j
+                                                               Industryj +  t
+                                                                              Yeart + εi,t ,                                         (2)
+
+    However, a reduction in corporate misconduct may also be due to the monitoring effects of institutional cross-ownership. Thus, it is
+difficult to disentangle the true effects. We then conduct an additional test to examine whether the exit threat is the dominant channel
+through which institutional investors act. As suggested by Admati and Pfleiderer (2009), “bad action” agency problems are more likely
+to occur in cash-rich firms. Consistent with this argument, we predict that the disciplining effect of exit threats is more effective in
+situations prone to free cash flow abuse. We use Cash to denote the free cash flows standardized by total assets at the beginning of the
+year. We then modify model (3) to include Cash and the interaction between Cash and CrossDum. The results reported in Table 7 show
+that the coefficients of the interaction between Cash and CrossDum are negative and significant, suggesting that the reduction in
+corporate misconduct following the presence of institutional cross-ownership is more pronounced for cash-rich firms. These results
+confirm that the threat of exit is the dominant corporate governance practice of institutions.
+
+7. Conclusion
+
+    We examine the relationship between institutional cross-ownership and corporate risk-taking. Theoretically, institutional cross-
+owners can influence firm behavior through either voting or trading (Edmans et al., 2019). However, institutional investors are
+less inclined to actively participate in China. Since the threat of exit can have a detrimental effect on firm-specific risks, we examine the
+effects of institutional cross-ownership in the specific context of China.
+    Our results differ from those of previous studies of the US capital market, in that we shed light on the negative effects of institutional
+cross-ownership in China. In particular, we show that this practice can significantly exacerbate managerial myopia and lead to reduced
+corporate risk-taking. By holding multiple companies, institutional investors will sell the losers, sending a strong signal to the market,
+and the resulting downward pressure exacerbates managers’ risk-taking myopia. Our cross-sectional tests support our hypothesis that
+institutional cross-owners influence corporate risk-taking primarily through capital market pressure. Our findings provide a unique
+perspective on the governance of institutional cross-ownership, suggesting that in a transitional market, institutional cross-ownership
+may not always align with the interests of managers and shareholders. Rather, under the amplified exit threat, managers undertake
+fewer risks in response to the downward price pressure. However, since previous studies have documented the positive aspects of
+institutional cross-ownership, we do not classify its exit threat as a negative attribute. In addition, we emphasize the positive impact of
+disciplinary channels in reducing corporate misconduct. Thus, we contribute to the current literature that the exit threat of institu­
+tional ownership may have different outcomes depending on the agency problem.
+
+Financial support
+
+   This research is partially supported by the National Natural Science Foundation of China (Grant No.72072133) and Fundamental
+Research Funds for the Central Universities, Sun Yat-Sen University (Grant No. 2023qntd47).
+
+CRediT authorship contribution statement
+
+   Wenjing Yin: Conceptualization, Methodology, Software, Validation, Formal analysis, Writing – original draft, Writing – review &
+editing. Weiping Li: Methodology, Software, Writing – review & editing, Supervision, Project administration. Yumiao Yu: Writing –
+
+                                                                     10
+W. Yin et al.                                                                                                Pacific-Basin Finance Journal 83 (2024) 102239
+
+
+review & editing, Supervision, Project administration, Funding acquisition.
+
+Declaration of Competing Interest
+
+    No potential conflict of interest was reported by the authors.
+
+Acknowledgments
+
+   We appreciate valuable comments from anonymous reviewers. We also thank LetPub (www.letpub.com) for its linguistic assistance
+during the preparation of this manuscript.
+
+Appendices
+
+
+
+
+Table 1
+Summary statistics and univariate comparison.
+
+  Panel A: Summary statistics
+
+  VarName                       Obs                     Mean                   SD                  Min                    Median                 Max
+
+  Risk1                         25,888                  3.204                  4.090               0.112                  1.711                  21.150
+  Risk2                         25,888                  6.021                  7.565               0.217                  3.262                  38.440
+  CrossDum                      25,888                  0.136                  0.343               0.000                  0.000                  1.000
+  CrossNum                      25,888                  0.092                  0.243               0.000                  0.000                  1.609
+  CrossShare                    25,888                  0.038                  0.114               0.000                  0.000                  0.585
+  Size                          25,888                  15.567                 0.947               13.742                 15.460                 18.417
+  Growth                        25,888                  0.189                  0.428               − 0.535                0.116                  2.792
+  MTB                           25,888                  2.092                  1.835               0.182                  1.561                  10.413
+  FirmAge                       25,888                  2.789                  0.375               0.693                  2.833                  4.127
+  Lev                           25,888                  0.435                  0.206               0.054                  0.431                  0.892
+  Cap                           25,888                  0.052                  0.049               0.000                  0.038                  0.235
+  ROA                           25,888                  0.054                  0.067               − 0.323                0.052                  0.331
+  Dual                          25,888                  0.253                  0.435               0.000                  0.000                  1.000
+  CEOShare                      25,888                  0.045                  0.106               0.000                  0.000                  0.502
+  Indep                         25,888                  0.373                  0.055               0.091                  0.333                  0.800
+  Balance                       25,888                  0.697                  0.601               0.024                  0.526                  2.770
+  StateShare                    25,888                  0.055                  0.142               0.000                  0.000                  0.660
+  InstShare                     25,888                  0.449                  0.241               0.004                  0.472                  0.907
+  GDP                           25,888                  10.996                 0.530               8.972                  11.058                 12.009
+  Panel B: Comparison between firms with and without institutional cross-ownership
+
+                           Non-cross-held                                Cross-held                                Difference
+
+                           Mean                   Median                 Mean                Median                Mean                      Median
+
+                           (1)                    (2)                    (3)                 (4)                   (1)–(3)                   (2)–(4)
+
+  Risk1                    3.283                  1.747                  2.699               1.506                 0.584***                  0.241***
+  Risk2                    6.169                  3.329                  5.084               2.853                 1.085***                  0.476***
+  Size                     15.500                 15.410                 16.020              15.840                − 0.520***                − 0.430***
+  Growth                   0.192                  0.119                  0.167               0.102                 0.025***                  0.017***
+  MTB                      2.168                  1.635                  1.609               1.112                 0.559***                  0.523***
+  FirmAge                  2.780                  2.833                  2.839               2.890                 − 0.059***                − 0.057***
+  Lev                      0.425                  0.419                  0.497               0.508                 − 0.072***                − 0.089***
+  Cap                      0.052                  0.037                  0.053               0.040                 − 0.001                   − 0.002**
+  ROA                      0.054                  0.052                  0.054               0.050                 0.000                     0.003***
+  Dual                     0.268                  0.000                  0.155               0.000                 0.113***                  0.000***
+  CEOShare                 0.050                  0.000                  0.015               0.000                 0.034***                  0.000***
+  Indep                    0.373                  0.333                  0.368               0.333                 0.005***                  0.000
+  Balance                  0.691                  0.515                  0.732               0.593                 − 0.041***                − 0.078***
+  StateShare               0.048                  0.000                  0.098               0.000                 − 0.050***                0.000***
+  InstShare                0.427                  0.446                  0.590               0.602                 − 0.163***                − 0.156***
+This table reports the descriptive statistics for the variables in our regressions. Panel A shows the number of observations, mean, standard deviation,
+minimum, median, and maximum values. The sample consists of 25,888 firm-year observations over the sample period 2007–2019. Panel B presents
+the differences in characteristics of firms with and without institutional cross-ownership. ***, **, and * denote statistical significance at the 1%, 5%,
+and 10% levels, respectively.
+
+
+
+
+                                                                               11
+W. Yin et al.                                                                                                       Pacific-Basin Finance Journal 83 (2024) 102239
+
+                                   Table 2
+                                   Institutional cross-ownership and corporate risk-taking.
+
+                                                                          Risk1                             Risk2
+
+                                                                          (1)                               (2)
+
+                                     CrossDum                             − 0.2993***                       − 0.5527***
+                                                                          (− 2.7958)                        (− 2.7639)
+                                     Size                                 0.1967***                         0.3584***
+                                                                          (3.8290)                          (3.7494)
+                                     Growth                               0.1545**                          0.2582*
+                                                                          (2.0332)                          (1.8491)
+                                     MTB                                  0.4159***                         0.7773***
+                                                                          (14.5693)                         (14.7358)
+                                     FirmAge                              0.1323                            0.2557
+                                                                          (1.0668)                          (1.1049)
+                                     Lev                                  1.1535***                         2.1988***
+                                                                          (4.4512)                          (4.5735)
+                                     Cap                                  − 2.9611***                       − 5.2703***
+                                                                          (− 4.2629)                        (− 4.0629)
+                                     ROA                                  − 19.3689***                      − 35.5484***
+                                                                          (− 23.1461)                       (− 23.0245)
+                                     Dual                                 0.2803***                         0.5192***
+                                                                          (2.8439)                          (2.8437)
+                                     CEOShare                             − 1.3901***                       − 2.5592***
+                                                                          (− 3.0896)                        (− 3.0614)
+                                     Indep                                − 0.7120                          − 1.3124
+                                                                          (− 1.0377)                        (− 1.0304)
+                                     Balance                              0.2603***                         0.4727***
+                                                                          (3.6276)                          (3.5463)
+                                     StateShare                           − 0.8451***                       − 1.5731***
+                                                                          (− 3.9555)                        (− 3.9450)
+                                     InstShare                            − 1.2302***                       − 2.2855***
+                                                                          (− 5.8586)                        (− 5.8616)
+                                     GDP                                  − 0.1678*                         − 0.3182*
+                                                                          (− 1.7149)                        (− 1.7466)
+                                     Industry & Year FE                   Yes                               Yes
+                                     Observations                         25,888                            25,888
+                                     Adjusted R2                          0.1624                            0.1615
+                                   This table presents the impact of institutional cross-ownership on corporate risk-
+                                   taking. Risk1 is the standard deviation of ROA over three-year overlapping pe­
+                                   riods, while Risk2 is the difference between the maximum and minimum ROA over
+                                   a three-year interval. CrossDum is an indicator variable that equals one if an en­
+                                   terprise is ever cross-held by institutional investors in any quarter in a fiscal year,
+                                   and zero otherwise. All regressions control for industry and year fixed effects. The
+                                   t-statistics in parentheses are based on robust standard errors clustered at the firm
+                                   level. ***, **, and * denote statistical significance at the 1%, 5%, and 10% levels,
+                                   respectively.
+Table 3
+Robustness checks.
+
+                          Alternative measures of risks                           Alternative ownership proportions             Sub-sample period analysis
+
+                          Risk3                Risk4           Risk5              Risk1             Risk2                       Risk1              Risk2
+
+                          (1)                  (2)             (3)                (4)               (5)                         (6)                (7)
+
+  CrossDum                − 0.0005***          − 0.3112***     − 0.0215***        − 0.4046***       − 0.7561***                 − 0.3539***        − 0.6555***
+                          (− 3.3411)           (− 2.8339)      (− 5.4102)         (− 3.4675)        (− 3.4777)                  (− 2.8657)         (− 2.8507)
+  Controls                Yes                  Yes             Yes                Yes               Yes                         Yes                Yes
+  Industry & Year FE      Yes                  Yes             Yes                Yes               Yes                         Yes                Yes
+  Observations            25,549               25,888          11,881             25,888            25,888                      19,805             19,805
+  Adjusted R2             0.4207               0.6283          0.3275             0.1627            0.1618                      0.1775             0.1773
+This table presents the results of robustness checks. The first three columns present the results of regressions of alternative measures for corporate risk-
+taking. Risk3 is an idiosyncratic risk, measured as the standard deviation of the Fama-French three-factor regression residuals. Risk4 is the O-score,
+which is the probability of bankruptcy. Risk5 is a firm’s total investment as firms will devote more capital to long-term investments if they exhibit
+higher levels of risk-seeking behaviors. The next two columns present the results of regressions employing CrossDum with an alternative threshold.
+The last two columns re-estimate the baseline regression for the year after the fair-trading system revision by the CSRC. All regressions control for
+industry and year fixed effects. The t-statistics in parentheses are based on robust standard errors clustered at the firm level. ***, **, and * denote
+statistical significance at the 1%, 5%, and 10% levels, respectively.
+
+
+
+
+                                                                             12
+W. Yin et al.                                                                                                                 Pacific-Basin Finance Journal 83 (2024) 102239
+
+Table 4
+Endogeneity mitigation.
+
+                            Exclude the selection effect of institutional cross-ownership                            An instrumental variable method
+
+                            Cross                   Cross                  Cross                                     CrossDum            Risk1               Risk2
+
+                            (1)                     (2)                    (3)                                       (4)                 (5)                 (6)
+
+  L.Risk1                   − 0.0003
+                            (− 1.2890)
+  L.Risk2                                           − 0.0002
+                                                    (− 1.3849)
+  L.Maturity                                                               − 0.0004
+                                                                           (− 0.2387)
+  DCSI                                                                                                               − 0.0352***
+                                                                                                                     (− 3.4141)
+  CrossDum                                                                                                                               − 9.2143**          − 17.2433**
+                                                                                                                                         (− 2.3772)          (− 2.3799)
+  Controls                  Yes                     Yes                    Yes                                       Yes                 Yes                 Yes
+  Industry & Year FE        Yes                     Yes                    Yes                                       Yes                 Yes                 Yes
+  Observations              21,648                  21,648                 21,648                                    25,888              25,888              25,888
+  Adjusted R2               0.0119                  0.0119                 0.0119                                    0.0883              –                   –
+This table presents the results of endogeneity mitigation. The first three columns show regression results that exclude the selection effect of insti­
+tutional cross-ownership. Cross takes the value of one for firms held by institutional cross-owners for the first time in the current year, and zero
+otherwise. Maturity equals one if the firm is considered mature, and zero otherwise. The next three columns employ an instrumental variable esti­
+mation. DCSI takes the value of one if a stock switches from no index to either CSI300 or 500 indexes, and zero otherwise. Column (4) presents the
+result of the first-stage regression while columns (5) and (6) present the results of the second-stage regression. All regressions control for industry and
+year fixed effects. The t-statistics in parentheses are based on robust standard errors clustered at the firm level. ***, **, and * denote statistical
+significance at the 1%, 5%, and 10% levels, respectively.
+Table 5
+Cross-sectional evidence.
+
+                                  Stock liquidity                                       Blockholder competition                       State ownership
+
+                                  Risk1                      Risk2                      Risk1                Risk2                    Risk1                  Risk2
+
+                                  (1)                        (2)                        (3)                  (4)                      (5)                    (6)
+
+  CrossDum                        − 0.3903***                − 0.7272***                − 0.8512***          − 1.5730***              − 0.3870***            − 0.7173***
+                                  (− 3.2996)                 (− 3.2949)                 (− 3.0764)           (− 3.0484)               (− 3.2769)             (− 3.2584)
+  CrossDum×Liquidity              − 0.1703**                 − 0.3253**
+                                  (− 2.4091)                 (− 2.4393)
+  CrossDum×BhComp                                                                       − 0.8096**           − 1.4968**
+                                                                                        (− 2.0664)           (− 2.0497)
+  CrossDum×StateShare                                                                                                                 1.0071**               1.8887**
+                                                                                                                                      (2.4022)               (2.4101)
+  Liquidity                       0.1478***                  0.2698***
+                                  (4.5063)                   (4.4562)
+  BhComp                                                                                0.7022***            1.2959***
+                                                                                        (2.8137)             (2.7969)
+  StateShare                      − 0.8568***                − 1.5956***                − 0.8459***          − 1.5745***              − 1.0823***            − 2.0179***
+                                  (− 4.0064)                 (− 3.9978)                 (− 3.9736)           (− 3.9623)               (− 4.6321)             (− 4.6273)
+  Controls                        Yes                        Yes                        Yes                  Yes                      Yes                    Yes
+  Industry & Year FE              Yes                        Yes                        Yes                  Yes                      Yes                    Yes
+  Observations                    25,888                     25,888                     25,888               25,888                   25,888                 25,888
+  Adjusted R2                     0.1631                     0.1622                     0.1631               0.1622                   0.1626                 0.1617
+This table presents the results of cross-sectional evidence. Liquidity is measured as the negative of Amihud’s (2002) illiquidity ratio. BhComp is
+measured for blockholder competition by using blockholder concentration. StateShare is the fraction of stakes owned by the government. All re­
+gressions control for industry and year fixed effects. The t-statistics in parentheses are based on robust standard errors clustered at the firm level. ***,
+**, and * denote statistical significance at the 1%, 5%, and 10% levels, respectively.
+Table 6
+Types of institutions: Who is responsible for the predictive power?
+
+                                    Risk1                                                                     Risk2
+
+                                    (1)                        (2)                       (3)                  (4)                      (5)                   (6)
+
+  CrossShare                        − 0.7830***                − 0.3210                  − 0.3206             − 1.4522**               − 0.5926              − 0.5919
+                                    (− 2.5844)                 (− 0.9724)                (− 0.9711)           (− 2.5683)               (− 0.9654)            (− 0.9641)
+  STCrossShare                                                 − 1.6795***                                                             − 3.1252***
+                                                               (− 2.9324)                                                              (− 2.9414)
+  STCrossShare(Active)                                                                   − 1.6917***                                                         − 3.1476***
+                                                                                                                                                  (continued on next page)
+
+
+
+                                                                                        13
+W. Yin et al.                                                                                                               Pacific-Basin Finance Journal 83 (2024) 102239
+
+Table 6 (continued )
+                                     Risk1                                                                  Risk2
+
+                                     (1)                      (2)                   (3)                     (4)                      (5)                   (6)
+
+                                                                                    (− 2.9545)                                                             (− 2.9631)
+  STCrossShare(Passive)                                                             1.9573                                                                 3.5662
+                                                                                    (0.2051)                                                               (0.2027)
+  Controls                           Yes                      Yes                   Yes                     Yes                      Yes                   Yes
+  Industry & Year FE                 Yes                      Yes                   Yes                     Yes                      Yes                   Yes
+  Observations                       25,888                   25,888                25,888                  25,888                   25,888                25,888
+  Adjusted R2                        0.1623                   0.1626                0.1626                  0.1614                   0.1617                0.1617
+This table presents the analysis of different types of institutions. CrossShare is the aggregate shares held by all institutional cross-holders, averaged
+over the four quarters. STCrossShare measures the ratio of outstanding shares held by short-term institutional cross-owners. STCrossShare(Active) and
+STCrossShare(Passive) are denoted for the ratio of outstanding shares held by active and passive short-term institutional cross-owners, respectively.
+All regressions control for industry and year fixed effects. The t-statistics in parentheses are based on robust standard errors clustered at the firm level.
+***, **, and * denote statistical significance at the 1%, 5%, and 10% levels, respectively.
+Table 7
+Economic consequence analysis.
+
+                               Future firm value                                                   The disciplining impact
+
+                               F.TobinQ                             F2.TobinQ                      VIO                DEGREE               VIO             DEGREE
+
+                               (1)               (2)                (3)            (4)             (5)                (6)                  (7)             (8)
+
+  CrossDum                     0.0864***         0.0875***          0.0826**       0.0850**        − 0.4468***        − 0.4419***          − 0.6306***     − 0.6266***
+                               (2.6852)          (2.7048)           (2.1040)       (2.1559)        (− 2.8045)         (− 2.7514)           (− 3.4086)      (− 3.4023)
+  CrossDum×Risk1               − 0.0149**                           − 0.0157*
+                               (− 2.3015)                           (− 1.6749)
+  CrossDum×Risk2                                 − 0.0081**                        − 0.0088*
+                                                 (− 2.3198)                        (− 1.7527)
+  CrossDum×Cash                                                                                                                            − 0.6382**      − 0.6427**
+                                                                                                                                           (− 2.1971)      (− 2.1934)
+  Risk1                        0.0220***                            0.0287***
+                               (8.3771)                             (7.5966)
+  Risk2                                          0.0119***                         0.0157***
+                                                 (8.4776)                          (7.6937)
+  Cash                                                                                                                                     − 0.1182        − 0.1272
+                                                                                                                                           (− 0.9785)      (− 1.0443)
+  Controls                     Yes               Yes                Yes            Yes             Yes                Yes                  Yes             Yes
+  Industry & Year FE           Yes               Yes                Yes            Yes             Yes                Yes                  Yes             Yes
+  Observations                 24,865            24,865             21,835         21,835          25,888             25,888               25,888          25,888
+  Adjusted R2/Pseudo R2        0.5530            0.5531             0.4430         0.4431          0.0554             0.0486               0.0561          0.0492
+This table presents the analysis of economic consequences. TobinQ denotes firm value. VIO takes the value of one as if the firm violates legislation, and
+zero otherwise. Degree is the penalty severity divided into four levels based on severity. We use Cash to denote the free cash flows standardized by total
+assets at the beginning year. All regressions control for industry and year fixed effects. The t-statistics in parentheses are based on robust standard
+errors clustered at the firm level. ***, **, and * denote statistical significance at the 1%, 5%, and 10% levels, respectively.
+
+
+
+
+References
+
+Admati, A.R., Pfleiderer, P., 2009. The “wall street walk” and shareholder activism: exit as a form of voice. Rev. Financ. Stud. 22, 2645–2685.
+Amihud, Y., 2002. Illiquidity and stock returns: cross-section and time-series effects. J. Financ. Mark. 5, 31–56.
+Anton, M., Ederer, F., Gine, M., Schmalz, M.C.. Innovation: the bright side of common ownership? Working paper. Available here: https://ssrn.com/
+    abstract=3099578.
+Appel, I.R., Gormley, T.A., Keim, D.B., 2016. Passive investors, not passive owners. J. Financ. Econ. 121, 111–141.
+Azar, J., Schmalz, M.C., Tecu, I., 2018. Anticompetitive effects of common ownership. J. Financ. 73, 1513–1565.
+Bebchuk, L.A., Cohen, A., Hirst, S., 2017. The agency problems of institutional investors. J. Econ. Perspect. 31, 89–102.
+Bikhchandani, S., Hirshleifer, D., Welch, I., 1992. A theory of fads, fashion, custom, and cultural change as informational cascades. J. Polit. Econ. 100, 992–1026.
+Bloom, N., Schankerman, M., Van Reenen, J., 2013. Identifying technology spillovers and product market rivalry. Econometrica. 81, 1347–1393.
+Bond, P., Edmans, A., Goldstein, I., 2012. The real effects of financial markets. Annu. Rev. Financ. Econ. 4, 339–360.
+Boubaker, S., Nguyen, P., Rouatbi, W., 2016. Multiple large shareholders and corporate risk-taking: evidence from French family firms. Eur. Financ. Manag. 22,
+    697–745.
+Boubakri, N., Cosset, J.-C., Saffar, W., 2013. The role of state and foreign owners in corporate risk-taking: evidence from privatization. J. Financ. Econ. 108, 641–658.
+Chen, I.J., Wang, D.K., 2019. Real option, idiosyncratic risk, and corporate investment: evidence from Taiwan family firms. Pac. Basin Financ. J. 57, 101029.
+Chen, X., Harford, J., Li, K., 2007. Monitoring: which institutions matter? J. Financ. Econ. 86, 279–305.
+Claessens, S., Fan, J.P.H., 2002. Corporate governance in Asia: a survey. Int. Rev. Financ. 3, 71–103.
+CvijanoviĆ, D., Dasgupta, A., Zachariadis, K.E., 2016. Ties that bind: how business connections affect mutual fund activism. J. Financ. 71, 2933–2966.
+DesJardine, M.R., Grewal, J., Viswanathan, K., 2023. A rising tide lifts all boats: the effects of common ownership on corporate social responsibility. Organ. Sci. 34,
+    1716–1735.
+Dickinson, V., 2011. Cash flow patterns as a proxy for firm life cycle. Account. Rev. 86, 1969–1994.
+
+
+                                                                                   14
+W. Yin et al.                                                                                                              Pacific-Basin Finance Journal 83 (2024) 102239
+
+Döring, S., Drobetz, W., El Ghoul, S., Guedhami, O., Schröder, H., 2021. Institutional investment horizons and firm valuation around the world. J. Int. Bus. Stud. 52,
+     212–244.
+Dou, Y., Hope, O.-K., Thomas, W.B., Zou, Y., 2018. Blockholder exit threats and financial reporting quality. Contemp. Account. Res. 35, 1004–1028.
+Edmans, A., 2009. Blockholder trading, market efficiency, and managerial myopia. J. Financ. 64, 2481–2513.
+Edmans, A., Manso, G., 2011. Governance through trading and intervention: a theory of multiple blockholders. Rev. Financ. Stud. 24, 2395–2428.
+Edmans, A., Fang, V.W., Zur, E., 2013. The effect of liquidity on governance. Rev. Financ. Stud. 26, 1443–1482.
+Edmans, A., Levit, D., Reilly, D., 2019. Governance under common ownership. Rev. Financ. Stud. 32, 2673–2719.
+Faccio, M., Marchica, M.-T., Mura, R., 2011. Large shareholder diversification and corporate risk-taking. Rev. Financ. Stud. 24, 3601–3641.
+Fan, Y., Fu, H., 2020. Institutional investors, selling pressure and crash risk: evidence from China. Emerg. Mark. Rev. 42, 100670.
+Ferris, S.P., Javakhadze, D., Rajkovic, T., 2017. CEO social capital, risk-taking and corporate policies. Finance 47, 46–71.
+Gao, K., Shen, H., Gao, X., Chan, K.C., 2019. The power of sharing: evidence from institutional investor cross-ownership and corporate innovation. Int. Rev. Econ.
+     Financ. 63, 284–296.
+Gopalan, R., Gormley, T.A., Kalda, A., 2021. It’s not so bad: director bankruptcy experience and corporate risk-taking. J. Financ. Econ. 142, 261–292.
+He, J., Huang, J., 2017. Product market competition in a world of cross-ownership: evidence from institutional blockholdings. Rev. Financ. Stud. 30, 2674–2718.
+He, J., Huang, J., Zhao, S., 2019. Internalizing governance externalities: the role of institutional cross-ownership. J. Financ. Econ. 134, 400–418.
+Helling, A.R., Maury, B., Liljeblom, E., 2020. Exit as governance: do blockholders affect corporate innovation in large US firms? Account. Finance 60, 1703–1725.
+Huang, S., Ringgenberg, M.C., Zhang, Z., 2023. The information in asset fire sales. Manag. Sci. 69, 5066–5086.
+Jiang, F., Kim, K.A., 2015. Corporate governance in China: a modern perspective. Finance 32, 190–216.
+Jiang, F., Kim, K.A., 2020. Corporate governance in China: a survey. Rev. Finan. 24, 733–772.
+Jung, M.J., 2013. Investor overlap and diffusion of disclosure practices. Rev. Account. Stud. 18, 167–206.
+Kang, J.-K., Luo, J., Na, H.S., 2018. Are institutional investors with multiple blockholdings effective monitors? J. Financ. Econ. 128, 576–602.
+Karuna, C., 2007. Industry product market competition and managerial incentives. J. Account. Econ. 43, 275–297.
+Kempf, A., Ruenzi, S., Thiele, T., 2009. Employment risk, compensation incentives, and managerial risk taking: evidence from the mutual fund industry. J. Financ.
+     Econ. 92, 92–108.
+Kim, H.-D., Kim, T., Kim, Y., Park, K., 2019. Do long-term institutional investors promote corporate social responsibility activities? J. Bank. Financ. 101, 256–269.
+Koirala, S., Marshall, A., Neupane, S., Thapa, C., 2020. Corporate governance reform and risk-taking: evidence from a quasi-natural experiment in an emerging
+     market. Finance 61, 101396.
+Langenmayr, D., Lester, R., 2018. Taxation and corporate risk-taking. Account. Rev. 93, 237–266.
+Li, X., Li, Y., 2020. Female independent directors and financial irregularities in Chinese listed firms: from the perspective of audit committee chairpersons. Financ. Res.
+     Lett. 32, 101320.
+McCahery, J.A., Sautner, Z., Starks, L.T., 2016. Behind the scenes: the corporate governance preferences of institutional investors. J. Financ. 71, 2905–2932.
+Ohlson, J.A., 1980. Financial ratios and the probabilistic prediction of bankruptcy. J. Account. Res. 18, 109–131.
+Oster, E., 2019. Unobservable selection and coefficient stability: theory and evidence. J. Bus. Econ. Stat. 37, 187–204.
+Parrino, R., Sias, R.W., Starks, L.T., 2003. Voting with their feet: institutional ownership changes around forced CEO turnover. J. Financ. Econ. 68, 3–46.
+Prabowo, R., Hooghiemstra, R., Van Veen-Dirks, P., 2018. State ownership, socio-political factors, and labor cost stickiness. Eur. Account. Rev. 27, 771–796.
+Ramalingegowda, S., Utke, S., Yu, Y., 2021. Common institutional ownership and earnings management. Contemp. Account. Res. 38, 208–241.
+Sanders, W.M.G., Hambrick, D.C., 2007. Swinging for the fences: the effects of CEO stock options on company risk taking and performance. Acad. Manag. J. 50,
+     1055–1078.
+Shleifer, A., Vishny, R.W., 1986. Large shareholders and corporate control. J. Polit. Econ. 94, 461–488.
+Tan, L., Chiang, T.C., Mason, J.R., Nelling, E., 2008. Herding behavior in Chinese stock markets: an examination of A and B shares. Pac. Basin Financ. J. 16, 61–77.
+Tran, Q.T., 2019. Economic policy uncertainty and corporate risk-taking: international evidence. J. Multinatl. Financ. Manag. 52-53, 100605.
+Wright, P., Ferris, S.P., Sarin, A., Awasthi, V., 1996. Impact of corporate insider, blockholder, and institutional equity ownership on firm risk taking. Acad. Manag. J.
+     39, 441–458.
+Wu, X., Li, Y., Feng, C., 2023. Green innovation peer effects in common institutional ownership networks. Corp. Soc. Responsib. Environ. Manag. 30, 641–660.
+Xu, C., Xu, Y., Fe, Li, 2022. Can the exit threat of non-controlling major shareholders promote corporate innovation? Tech. Anal. Strat. Manag. 34, 876–890.
+Yan, X., Zhang, Z., 2009. Institutional investors and equity returns: are short-term institutions better informed? Rev. Financ. Stud. 22, 893–924.
+Zhang, G., 1998. Ownership concentration, risk aversion and the effect of financial structure on investment decisions. Eur. Econ. Rev. 42, 1751–1778.
+
+
+Wenjing Yin is a Doctoral Candidate at Wuhan University in China. Her current research interests include accounting, corporate governance, and corporate social
+responsibility.
+
+
+Weiping Li currently serves as an Assistant Professor at Sun Yat-sen University in China. He received his Ph.D. at the College of Business, City University of Hong Kong.
+His research interests include corporate finance, corporate governance, corporate social responsibility, and innovation. His work has been published in a variety of
+journals including Pacific-Basin Finance Journal, Finance Research Letters, International Review of Economics and Finance, Energy Economics, European Journal of Finance,
+Economic System, Economic Research-Ekonomska Istraživanja, Asia-Pacific Journal of Accounting & Economics, etc.
+
+
+Yumiao Yu presently serves as a Professor at Wuhan University in China. His research interests include auditing, financial accounting, capital markets, and corporate
+governance. He has published many articles in Journal of International Accounting Research, Review of Quantitative Finance and Accounting, Journal of Management World,
+Accounting Research, Auditing Research, Management Review, Chinese Journal of Management, Journal of Management Sciences in China, etc.
+
+
+
+
+                                                                                    15
+

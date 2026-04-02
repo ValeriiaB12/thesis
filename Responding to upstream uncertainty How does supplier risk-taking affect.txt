@@ -1,0 +1,1565 @@
+﻿Int. J. Production Economics 291 (2026) 109856 
+
+Contents lists available at ScienceDirect
+
+International Journal of Production Economics
+journal homepage: www.elsevier.com/locate/ijpe
+
+Responding to upstream uncertainty: How does supplier risk-taking affect 
+client ESG performance?
+Jing Zhou a , Tingwei Wu b , Kaiwen Wu a,*
+
+a School of International Business, Southwestern University of Finance and Economics, 555 Liutai Avenue, Chengdu, Sichuan, 611130, China
+b Research Institute of Economics and Management, Southwestern University of Finance and Economics, 555 Liutai Avenue, Chengdu, Sichuan, 611130, China
+
+A R T I C L E  I N F O A B S T R A C T
+
+Keywords: With environmental, social, and corporate governance (ESG) issues gaining global prominence, it is increasingly 
+Corporate risk-taking recognized that sustainable practices must extend beyond individual organizations to encompass their entire 
+ESG performance supply chains. This study investigates the impact of supplier risk-taking on the ESG performance of client firms, 
+Supply chain highlighting how supply chain transmission influences corporate sustainability initiatives. Using data from 
+Sustainability
+
+Chinese listed firms from 2009 to 2023, our results reveal that supplier risk-taking positively influences the ESG 
+performance of client firms. This positive effect is found to be progressively strengthened as corporate reputation 
+and supplier dependence increase but gradually weakened with rising investor confidence. These findings not 
+only deepen the understanding of the supply chain’s role in shaping corporate ESG performance but also 
+highlight ESG as a proactive strategy for client firms to anticipate and mitigate risks transmitted from suppliers. 
+This offers valuable insights for managers and policymakers seeking to enhance sustainable practices through 
+effective supply chain risk management.
+
+1. Introduction 2023), green credit policies (Cui et al., 2024), and monetary policies 
+(Abakah et al., 2024). However, in the era of globalization and digita
+
+With the growing prominence of environmental, social, and corpo lization, the supplier-client relations become increasingly complex and 
+rate governance (ESG) issues globally, corporate stakeholders are interconnected, risks arising from any node in the supply chain can have 
+placing greater emphasis on its ESG performance, which is directly far-reaching consequences for the entire network (Kim et al., 2015). As 
+linked to sustainable development and long-term value. For example, such, the stability, transparency, and sustainability of supply chains play 
+investors integrate corporate ESG performance into their investment a crucial role in shaping corporate social responsibility performance (Liu 
+evaluation criteria (Chen and Xie, 2022), while consumers who prefer et al., 2023; Lin, 2023).
+green products actively seek environmentally friendly goods to mini Recent research shows that downstream digitalization can enhance 
+mize environmental pollution (Yang et al., 2019). In response to stake suppliers’ green productivity and performance, providing valuable 
+holder expectations, many firms have integrated ESG into their strategic insight into how firm behaviors transmit along the supply chain (Jin 
+objectives to tackle environmental and social challenges (Ameer and et al., 2025; Zhang et al., 2024). More relatedly, a few studies have 
+Othman, 2012; Schrettle et al., 2014). Meanwhile, scholars are examined the impact of supplier misconduct on client ESG performance 
+increasingly exploring how firms balance profit goals with social re (Li and Cuervo-Cazurra, 2024; Hu et al., 2024), in which “misconduct” 
+sponsibility in complex market environments, establishing ESG as a represents a deviation from legal or ethical norms—such as accounting 
+prominent research focus (Liu et al., 2023). fraud or environmental violations—whose expected consequences are 
+
+Existing literature has extensively examined the determinants of predominantly negative (Greve et al., 2010; Karpoff et al., 2005). These 
+corporate ESG performance from internal and external perspectives, unethical behaviors are typically revealed ex post through regulatory 
+such as shareholder structure (Barko et al., 2022; Wang et al., 2023a,b), enforcement and event records (e.g., accounting and auditing enforce
+corporate governance (Lagasio and Cucari, 2019; Wu et al., 2023), board ment releases; environmental penalties), as well as publicly available 
+structure (Shu et al., 2024), carbon emission policies (Shu and Tan, sources such as media reports or litigation (Karpoff et al., 2008; Dyck 
+
+* Corresponding author.
+E-mail addresses: jing.zhou@swufe.edu.cn (J. Zhou), fewutingwei@smail.swufe.edu.cn (T. Wu), kaiwen913179244@163.com (K. Wu). 
+
+https://doi.org/10.1016/j.ijpe.2025.109856
+Received 27 June 2025; Received in revised form 27 August 2025; Accepted 9 November 2025  
+Available online 13 November 2025 
+0925-5273/© 2025 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies. 
+
+
+
+J. Zhou et al.                                                                                                                                                                   I n  t e r n  a  t i o  n  a l  J  o  u r  n a  l   o  f   P  r o  d  u c  t i o  n  E  c  o  n o  m   i c s 291 (2026) 109856 
+
+et al., 2010). In this regard, when upstream suppliers are identified with transmission of upstream risks to downstream firms. Moreover, the 
+misconduct behaviors, client firms tend to passively take reactive and rapid evolution of China’s ESG disclosure regulations and the unique 
+remedial responses (e.g., enhanced disclosure, event-driven CSR initia governance environment—characterized by strong regulatory oversight 
+tives) aimed at short-term reputational repair and regulatory compli and a mix of state and market pressures—further enhance the relevance 
+ance (Hu et al., 2024; Karpoff et al., 2008; Dyck et al., 2010; Li et al., of the Chinese context for examining the link between supplier 
+2023). risk-taking and client ESG performance.
+
+By contrast, “strategic risk-taking” refers to value-seeking strategic Our results reveal that an increase in supplier risk-taking positively 
+choices made under uncertainty, aimed at achieving long-term objec influences the ESG performance of client firms. We further investigate 
+tives like market share growth, technological advancement, or profit the underlying mechanisms from multiple stakeholder perspectives and 
+ability (John et al., 2008; Hoskisson et al., 2017), often resulting in an find that the positive relationship between supplier risk-taking on client 
+increase in the variance of operational or financial outcomes. Unlike ESG performance is strengthened by higher client corporate reputation 
+corporate misconduct, which is normally found ex post, risk-taking can and greater supplier dependence but is weakened by its stronger 
+be anticipated ex ante through policy/structural indicators observable investor confidence. Moreover, extended analyses show that the positive 
+to stakeholders—such as the volatility of return on assets, leverage and impact is mainly concentrated in the social (S) and governance (G) di
+debt maturity structure, investment intensity (e.g., R&D), or the extent mensions. In addition, specific supplier risk-taking behaviors—such as 
+of foreign expansion (John et al., 2008; Hoskisson et al., 2017). Obvi outward foreign direct investment, R&D investment, and asset finan
+ously, such increased uncertainty of upstream suppliers’ risk-taking does cialization—also exert positive effects on client firms’ ESG performance. 
+not necessarily jeopardize client reputational capital and thus lead to the Finally, this relationship is further reinforced by client firms’ digitali
+negative financial outcomes of clients. zation and the application of artificial intelligence technologies.
+
+However, in highly coupled supply chain networks, suppliers’ Our study adds to the existing literature in the following ways. First, 
+aggressive strategies increase the likelihood of adverse events such as prior research has proved that corporate engagement in social re
+logistics delays or ramp-up variability arising from overseas expansion, sponsibility activities can be considered as a reactive strategy to respond 
+higher defect rates and yield losses during intensive R&D transitions, to supplier misconduct aimed primarily at repairing reputational dam
+and tightened working capital and delayed deliveries due to excessive age under external stakeholder pressure (Li and Cuervo-Cazurra, 2024; 
+asset financialization (Hoskisson et al., 2017; Costello, 2020; Psar Hu et al., 2024). In the present study, we distinguish corporate 
+ommatis et al., 2024). These factors collectively increase lead-time risk-taking from misconduct, arguing that risk-taking denotes strategic 
+variability, quality inconsistency, and the risk of production stoppages decisions made by firms under uncertainty, which reflects their will
+at the client’s facilities, thereby creating a clear link between financial ingness to pursue profit opportunities despite potential instability or 
+risks and factory-level operational disruptions. Beyond potential oper volatility. This initiative can in fact be assessed in advance through a 
+ational disruptions, these uncertainties can also spill over into reputa firm’s financial reports and operational conditions (Tian et al., 2022), 
+tional risks, which may be transmitted along the supply chain from and thus ESG is served as a proactive risk prevention and absorption 
+upstream suppliers to their clients (Hendricks and Singhal, 2005a). For strategy for client firms to cope with uncertainties arising from upstream 
+instance, in 2020, to diversify geopolitical risk and serve its North supply chain partners. By broadening the drivers of corporate ESG 
+American clients, Taiwan Semiconductor Manufacturing Company behavior to encompass upstream supply chain risk factors, this study 
+(TSMC) announced its plan to build a 5-nm wafer fabrication plant in enriches the understanding of ESG’s functional roles and thereby pro
+Arizona, United States. The early “ramp-up” challenges of vides a novel perspective for future research in this domain.
+TSMC—including skilled labor shortages, process delays, and con Second, research on the consequences of corporate risk-taking has 
+struction slippages—have significantly raised supply chain concerns. traditionally concentrated on the firm itself—for example, its effects on 
+Several media outlets noted that with advanced capacity still concen innovation, performance, and corporate policies (García-Granero et al., 
+trated in Taiwan, its major clients face greater uncertainty in delivery 2015; Cain and McKeon, 2016; Díez-Esteban et al., 2017). In this paper, 
+schedules and capacity allocation.1,2 As such, to safeguard performance we adopt a stakeholder perspective to integrate corporate risk-taking 
+in multi-risk environments and ensure the supply chain resilience, client with supply chain dynamics, examining how upstream suppliers’ 
+firms are motivated to proactively take sustained risk management risk-taking is transmitted through the supply chain to affect downstream 
+mechanism rather than the event-driven responses to buffer potential client firms’ ESG performance, thereby broadening the theoretical 
+disruptions and reassure stakeholders (Lins et al., 2017). The ESG ini boundaries of risk-taking and its external effects.
+tiatives are considered as one of the most functional governance Third, to investigate how supplier risk influences client firms’ ESG 
+mechanisms (Ha et al., 2023; Wang et al., 2025), which often include performance under varying stakeholder conditions, this study employs a 
+establishing supplier codes of conduct, enhancing audit transparency, partially linear functional-coefficient model. The results indicate that 
+and improving safety and environmental standards—measures that help higher supplier dependence, stronger public reputation, and lower 
+mitigate disruption and reputational spillover risks in advance. investor confidence amplify the positive impact of supplier risk-taking 
+
+Drawing on stakeholder theory and signaling theory, this study aims on client ESG engagement. Notably, under extreme conditions—such 
+to investigate how client firms enhance ESG performance in response to as low supplier dependence coupled with high investor con
+suppliers’ risk-taking using data from Chinese listed firms between 2009 fidence—firms may reduce their ESG engagement. This finding uncovers 
+and 2023. China offers an ideal set to address our research question. In a critical threshold in the ESG transmission mechanism within supply 
+recent years, ESG performance of Chinese firms has garnered significant chains, offering more nuanced insights for managers and policymakers 
+attention from numerous research (Wang et al., 2023a,b; He et al., 2023; seeking to enhance corporate sustainability.
+Long et al., 2024). In addition, China has one of the world’s most 
+complex and comprehensive supply chain systems and is among the few 2. Theory and hypothesis development
+countries with a fully integrated industrial chain, which facilitates the 
+
+2.1. Supplier risk-taking and client ESG performance
+
+1 Source:https://www.reuters.com/technology/tsmcs-us-plant-unlikely-get- As one of the most important components of corporate risk, the risk- 
+latest-chip-tech-before-taiwan-ceo-says-2025-01-17/. taking of firms has received a lot of attention from both scholars and 
+
+2 To streamline our focus on supplier’s risk-taking behavior instead of practitioners. The risk-taking of firms originates from a company’s 
+misconduct, we have deleted the deforestation case of Unilever company and inclination to engage in adventurous activities such as outward foreign 
+provided the expanding case of TSMC in the revised manuscript. direct investment (OFDI), research and development (R&D) activity, 
+
+2 
+
+
+
+J. Zhou et al.                                                                                                                                                                   I n  t e r n  a  t i o  n  a l  J  o  u r  n a  l   o  f   P  r o  d  u c  t i o  n  E  c  o  n o  m   i c s 291 (2026) 109856 
+
+and asset financialization. These risk-taking behaviors can lead to which may postpone their investment and suppress the client firm’s 
+breakthrough growth by driving innovation, enabling market expan market valuation (Barakat et al., 2014). In this context, corporate ESG 
+sion, and strengthening competitive advantages (Zhou et al., 2021; Gao performance, as an increasingly important factor in investment 
+et al., 2025), while increasing exposure to downside risks, including decision-making, has the potential to attract investor attention and 
+earnings volatility, resource misallocation, and strategic failure, thereby shape perceptions of firm quality (Long et al., 2024). To mitigate the risk 
+heightening operational uncertainty (Vural-Yavaş, 2020). of market undervaluation, client firms can use positive ESG signals to 
+
+Although supplier risk-taking is not always directly observable, cli demonstrate robust risk control mechanisms (Ding et al., 2024). Such 
+ents often monitor it indirectly via financial disclosures, delivery per signaling helps reassure investors of the firm’s financial stability, miti
+formance, and third-party risk ratings—particularly in high-dependence gate market concerns, and strengthen investment confidence, thereby 
+or long-term relationships (Ho et al., 2010; Kalkanci and Plambeck, contributing to an enhanced market value (Nekhili et al., 2021; Cojoianu 
+2020a). In tightly coupled supply chains, supplier instability can prop et al., 2021) and market competitiveness (Zhang et al., 2020; Cheng 
+agate to clients through production stoppages, lead-time variability, and et al., 2014).
+quality degradation, posing tangible operational and reputational Based on the analysis presented above, we propose Hypothesis 1. 
+threats (Soares et al., 2017; Ivanov, 2020).
+
+According to stakeholder theory, when suppliers’ operational sta Hypothesis 1. The higher the risk-taking by suppliers, the better the 
+bility decreases due to heightened risk-taking, client firms face intensi ESG performance of downstream clients.
+fied pressures from multiple stakeholders and thus may strengthen ESG 
+engagement as a preventive measure. First, in modern supply chain 2.2. The moderating role of supplier dependence
+systems, client firms maintain close relationships with their suppliers 
+(Sambasivan et al., 2011), and this reliance extends beyond product Prior research indicates that the structure of a supply chain signifi
+delivery to shaping stakeholders’ perceptions of corporate governance cantly influences how supplier risks propagate downstream firms (Bode 
+and social responsibility. High supplier risk-taking—such as aggressive and Wagner, 2015; Craighead et al., 2007). High supplier dependence 
+foreign expansion, intensive R&D, or excessive asset financializa amplifies the impact of supplier risk-taking on client firms by limiting 
+tion—can primarily lead to ramp-up variability and delivery instability, their ability to diversify procurement sources and reducing operational 
+increased defect rates and quality volatility, and tightened working flexibility in responding to upstream disruptions (Kamalahmadi and 
+capital and supply disruptions, respectively. While these consequences Parast, 2017). This concentrated reliance not only increases the 
+differ in their main channels, they may overlap and jointly heighten vulnerability of client firms to supplier instability but also heightens 
+uncertainty for client firms, creating uncertainty in supply quality, stakeholders’ sensitivity to risks associated with key suppliers. Stake
+quantity, and timeliness (Gao et al., 2025; Ivanov and Dolgui, 2020; holders are more likely to attribute adverse supplier behaviors to de
+Brusset and Teller, 2017; Hummels and Schaur, 2013). These disrup ficiencies in the client firm’s governance and operational capacity, 
+tions may misalign client performance with stakeholder expectations intensifying reputational and trust-related consequences (Chai and Ngai, 
+(Hasan et al., 2022). 2015; Hendricks and Singhal, 2005b). Consequently, client firms with 
+
+To preempt such risks, client firms may strengthen ESG practices as a high supplier dependence exhibit stronger preventive motivations to 
+preventive measure, signaling robust management and a commitment to upstream risk signals.
+social welfare. By improving internal controls, transparency, and Moreover, high supplier dependence exacerbates overall supply 
+governance standards (Singh, 2021), they can enhance supply chain risk chain risk and diminishes resilience, as client firms have fewer alter
+management and resilience (Wu et al., 2024), thereby mitigating oper natives to quickly address unexpected supplier failures such as delayed 
+ational instability and potential financial losses (Brusset and Teller, deliveries or substandard products, which can disrupt production and 
+2017; Germain et al., 2008). degrade output quality (Leung and Sun, 2021; Chopra and Sodhi, 2014). 
+
+Second, from the perspective of corporate reputation, firms rely on In this context, the heightened operational risks further motivate client 
+reputational capital to sustain stakeholder trust and shape strategic re firms to adopt proactive strategies to mitigate potential disruptions and 
+sponses to external uncertainties (Gangi et al., 2020; Neville et al., 2005; safeguard supply chain stability.
+Soleimani et al., 2014). When suppliers engage in risk-taking behaviors, For these reasons, client firms with high supplier dependence tend to 
+client firms face operational uncertainty—such as unstable quality, both demonstrate proactive ESG performance to signal operational 
+availability, and delivery—which stakeholders may interpret as evi stability, financial soundness, and social responsibility, and intensify 
+dence of weak supply chain governance (Hartmann and Moeller, 2014; risk resilience by adopting enhanced ESG practices (Wang et al., 2024), 
+Sreedevi and Saranga, 2017). To avert potential reputational damage, such as establishing independent risk management committees and 
+client firms often preemptively strengthen ESG practices, for example by ensuring oversight of supplier relations (Zhang et al., 2017). This in
+enhancing supplier audits or tightening environmental and social re dicates that supplier dependence strengthens the motivation for client 
+quirements (Lins et al., 2017). Such proactive engagement both miti firms to respond to upstream risks through more robust ESG strategies.
+gates reputational spillovers and signals the firm’s commitment to In summary, high supplier dependence amplifies the impact of sup
+responsible supply chain management and sound governance, even plier risk-taking and weakens supply chain resilience. Therefore, clients 
+under heightened risk (Bitektine, 2011; Love and Kraatz, 2017). tend to adopt more proactive ESG strategies to mitigate the risks arising 
+
+Third, from the perspective of corporate investors, heightened sup from supplier risk-taking. Based on this analysis, we propose Hypothesis 
+plier risk-taking may also adversely affect the market valuation of client 2. 
+firms and, in extreme cases, pose a risk of stock price collapse (Yang and Hypothesis 2. The higher the supplier dependence, the greater the 
+Jiang, 2024; Hertzel et al., 2008; Chen et al., 2021). This can lead client positive effect of supplier risk-taking on client ESG performance.
+firms to use positive ESG practices as a signal to external investors to 
+demonstrate that they are well-stabilized and worthy of investment. 2.3. The moderating role of client corporate reputation
+Specifically, before making investment decisions, investors usually need 
+to form a comprehensive picture of a firm’s operations, which makes The reputation of client firms plays a crucial moderating role in the 
+them highly sensitive to vulnerabilities in the supply chain. As such, relationship between supplier risk and their ESG performance. On the 
+once information about a supplier’s risk-related behavior is perceived by one hand, firms with superior reputational capital exhibit stronger 
+external investors, and due to uncertainty about the future growth and proactive motivations. As a valuable intangible asset accumulated over 
+profitability of the client’s business, rational investors may reassess a time, reputational capital enhances firms’ sensitivity to stakeholder 
+client firm’s risk profile based on its dependence on high-risk suppliers, perceptions and strengthens their commitment to preserving brand 
+
+3 
+
+
+
+J. Zhou et al.                                                                                                                                                                   I n  t e r n  a  t i o  n  a l  J  o  u r  n a  l   o  f   P  r o  d  u c  t i o  n  E  c  o  n o  m   i c s 291 (2026) 109856 
+
+equity (Bitektine, 2011; Love and Kraatz, 2017). The higher the repu 3. Research design
+tation, the more vigilant firms become toward potential risks that could 
+undermine their credibility. This forward-looking concern renders them 3.1. Sample and data
+particularly sensitive to risk-taking behaviors by upstream suppliers. 
+Accordingly, such firms are more inclined to adopt ESG practices as a Since our research question correlates supply chain data with ESG 
+preventive governance strategy to contain potential spillovers and data, we first take the ESG-disclosing Chinese A-share listed firms from 
+reinforce long-term stakeholder trust (Bansal and Shaliastovich, 2010). 2009 to 2023 as the base sample and then crossmatch them with the 
+
+On the other hand, high-reputation firms are also subject to height supply chain pairs. Under the disclosure rules of the China Securities 
+ened external pressure (Zavyalova et al., 2016). Their elevated public Regulatory Commission (CSRC), listed firms are required to report the 
+visibility makes them more susceptible to media scrutiny and stake transaction values and names of their top five suppliers. In practice, 
+holder criticism when supply chain disruptions occur, intensifying ex supplier names and stock codes are fully disclosed only when the sup
+pectations for transparency and responsible oversight (Yu et al., 2017). plier itself is also a listed firm. Consequently, a valid supply chain link 
+Consequently, the exposure of supplier risk-taking entails amplified can be established only when the supplier appears in the client’s dis
+reputational risks for these firms, given their greater stakeholder closed top five list and both the supplier and the client are listed firms. 
+salience and governance accountability (Hartmann, 2021). Under such Thus, we retain only firm-year observations where an identifiable supply 
+scrutiny, reputable firms are further incentivized to adopt ESG as a chain relationship exists in the observation year.
+forward-looking strategy to safeguard their reputation before potential Afterward, following common practice in the literature, we rule out 
+adverse events materialize. In contrast, firms with lower reputational the financial institutions (i.e., banks, insurance companies, securities 
+visibility face weaker stakeholder pressure and thus have fewer in firms, and trust companies), as well as firms labeled as Special Treat
+centives to engage in proactive ESG adjustments in response to ment (ST) or Particular Special Treatment (*ST) from our data (Geng 
+supplier-related risks. Based on the above analysis, we propose hy et al., 2024; Wang et al., 2023a,b; Sun et al., 2023). Additionally, to 
+pothesis 3. mitigate the potential impact of outliers, observations with substantial 
+Hypothesis 3. The higher the corporate reputation, the greater the missing values or those falling outside the 1st to 99th percentile range 
+positive effect of supplier risk-taking on client ESG performance. were excluded from the regression analysis. As a result, the final 
+
+non-balanced panel comprises 2800 firm-year observations, which is 
+larger than or consistent with prior studies (Geng et al., 2024; Wang 
+
+2.4. The moderating role of client investor confidence et al., 2023a,b; Sun et al., 2023).
+The supply chain data are obtained from the China Stock Market and 
+
+As key stakeholders, investors significantly influence a firm’s stra Accounting Research (CSMAR) database. The risk-taking indicator is 
+tegic responses (Shahid and Abbas, 2019). According to stakeholder constructed based on firms’ financial data extracted from the CSMAR 
+theory, firms adopt ESG practices in part to address investor expecta database, while ESG index data (Hua Zheng ESG Ratings) are provided 
+tions and maintain external legitimacy (Long et al., 2024). Investor by Sino-Securities Index Information Service (Shanghai) Co., Ltd. 
+confidence plays a moderating role in this process. Additional firm-level characteristics are obtained from the CSMAR, 
+
+When investor confidence is high, client firms may exhibit a weaker Wind, and Chinese Research Data Services (CNRDS) databases.
+ESG response to supplier risk-taking due to two mechanisms. First, from 
+a stakeholder pressure perspective, optimistic investors tend to exhibit 
+higher risk tolerance (Habib and Hasan, 2017). As a result, they may not 3.2. Variables
+exert strong pressure on the firm to take responsive actions but rather 
+maintain moderate expectations regarding its behavior. Second, from a 3.2.1. Dependent variable
+strategic perspective, high investor confidence signals that the firm has ESG performance (C_ESG) is considered as the dependent variable in 
+already earned stakeholder trust and reputational legitimacy (Firth this study, which is evaluated by the Sino-Securities Index ESG Ratings 
+et al., 2015). When the market has formed a favorable perception of a (Hua Zheng ESG index). In the case of China, the Sino-Securities Index 
+firm, the marginal benefit of additional signaling efforts declines ESG Ratings, which covers most of Chinese A-share listed companies, 
+(Connelly et al., 2011). As a result, firms with abundant reputational have been extensively applied in prior studies (H. Chen et al., 2025; Li 
+capital may be less inclined to invest further in reputation-enhancing et al., 2023; Ying et al., 2025; Sun et al., 2024). Moreover, recent sys
+activities, such as additional ESG initiatives (Masulis and Reza, 2015). tematic evidence indicates that domestic ESG ratings—particularly 
+Instead, they may prioritize resource allocation toward financial goals or Sino-Securities ESG—offer greater contextual relevance and explanatory 
+operational efficiency. Third, from an operational resilience perspective, power than international ratings when assessing Chinese firms (J. Z. 
+high investor confidence often reflects strong resource endowments and Chen et al., 2025). This is because domestic agencies place greater 
+robust internal capabilities, such as maintaining higher safety stock, weight on dimensions aligned with China’s institutional environment, 
+diversifying supplier bases, and implementing comprehensive internal including policy orientation, environmental compliance, social stability 
+control systems (Ivanov and Dolgui, 2020; Tomlin, 2006; Katsaliaki responsibilities, and governance structures. They also leverage local 
+et al., 2022). Such operational buffers enhance firms’ ability to absorb information sources—such as Chinese-language disclosures, local media 
+and manage potential disruptions from supplier risk-taking, thereby reports, and regulatory documents—allowing for a more accurate and 
+diminishing the need to employ ESG initiatives primarily as symbolic or interpretable assessment of ESG performance in the Chinese context.
+risk-mitigating signals. This dataset provides ratings across three dimensions: Environ
+
+In contrast, when their confidence is low, investors tend to adopt a mental (E), Social (S), and Corporate Governance (G), along with an 
+more risk-averse mindset and become increasingly sensitive to the un overall ESG rating. Each indicator is classified into nine levels (1–9), 
+certain consequences of various risk behaviors (Lee et al., 2015), with higher levels signifying better ESG performance. We calculate the 
+resulting in increased pressure on the client firm to take proactive ESG annual ESG performance by averaging its monthly values over the year.
+actions. Consequently, in the context of supplier risk-taking, clients with 
+high investor confidence are less motivated to invest in ESG initiatives to 3.2.2. Independent variable
+respond to suppliers’ risk-taking. As such, we propose Hypothesis 4. Following prior research, we use earnings volatility to assess a sup
+
+plier firm’s risk-taking level (John et al., 2008; Li et al., 2013). The in
+Hypothesis 4. The higher the investor confidence in clients, the dependent variable (S_Risk-taking) is defined as the standard deviation of 
+weaker the positive effect of supplier risk-taking on client ESG the industry-adjusted return on assets (ROA). This measure reflects the 
+performance. stability and sustainability of corporate profits, capturing the firm’s 
+
+4 
+
+
+
+J. Zhou et al.                                                                                                                                                                   I n  t e r n  a  t i o  n  a l  J  o  u r  n a  l   o  f   P  r o  d  u c  t i o  n  E  c  o  n o  m   i c s 291 (2026) 109856 
+
+risk-taking from both internal and external perspectives. Higher earn Consequently, any measure of market value can be expressed using the 
+ings volatility signifies a greater level of corporate risk-taking. We following algebraic identity to decompose the market-to-book ratio: 
+calculate the industry-adjusted ROA as follows: 
+
+m − b = (m − v) + (v − b) (4) 
+EBIT X
+
+Adj ROA i,t 1 ∑ EBITi,t
+i,t = − (1) 
+
+ASSETi,t X k=1 ASSET Where m represents the market value, b denotes the book value, and v 
+i,t
+
+signifies a measure of the fundamental or "true" value, with all values 
+where Adj ROAi,t represents the industry-adjusted Return on Assets for expressed in logarithmic form.4 If markets are prone to errors in esti
+
+mating a firm’s fundamental value, the difference between price and 
+firm i in year t. EBITi,t
+
+ASSET represents ROA of firm i in year t, where EBIT 
+i,t true value, (m− v), captures the degree of misvaluation, which reflects 
+
+denotes earnings before interest and tax, and ASSET denotes total assets. investor confidence or sentiment towards the firm. Specifically, when 
+∑X EBITi,t
+
+k=1 ASSET represents the total ROA of all firms in the industry. Then, the market price deviates from the true value, the value of (m− v) will be 
+i,t 
+
+we adopt a five-year rolling time window to calculate the standard de positive, signifying overvaluation heightened investor confidence.
+viation of the adjusted ROA. A higher value of S_Risk-taking suggests We construct our investor confidence indicator (C_Invest
+greater financial risk for the firm. or_confidence) following the method developed by Rhodes–Kropf et al. 
+
+(2005) and Huang et al. (2015). We build a regression model to 
+3.2.3. Moderator decompose the firm’s market value: 
+
+Supplier Dependence Qi,t = α0 + α1sizei,t + α2levi,t + α3roai,t + εi,t (5) 
+Following Hui et al. (2019) and Dhaliwal et al. (2016), the client 
+
+supplier dependence (C_SD) is measured by the proportion of its total In this model, Qi,t represents the average market value of equity (market 
+annual procurement expenditure attributable to its primary supplier. capitalization) for firm i in year t, calculated by multiplying the average 
+Where the primary supplier is defined as the one from which the client share price by the number of outstanding shares. Following common 
+firm makes the largest purchases. A higher C_SD value indicates that a practice, we use three key measures of firm performance to estimate the 
+client firm relies more on its largest supplier. The calculation formula is intrinsic book value(Qf
+
+i,t)
+5: size, leverage, and return on assets, denoted 
+
+as follows: as sizei,t, levi,t and roai,t. We use εi,t as the investor confidence indicator 
+Procurement amount from largest supplier
+
+C SD= × 100% (2) (C_investor confidence), reflecting the difference between the market 
+Total procurement amount value Qi,t and the estimated true intrinsic book value Qf
+
+i,t. The larger the 
+Corporate Reputation value, the more optimistic investors become about the enterprise’s 
+Following prior studies that conceptualize corporate reputation as a development prospects and the stronger their subjective confidence 
+
+multi-dimensional construct shaped by stakeholders’ evaluations of firm grows.
+performance (Roberts and Dowling, 2002), we select twelve indicators 
+reflecting stakeholder perspectives and use principal component factor 3.2.4. Control variables
+analysis (PCFA) to reduce the dimensionality of the data and construct To account for other factors that may influence firms’ ESG perfor
+the client reputation indicator (C_Reputation).3 mance, we include a set of control variables covering financial perfor
+
+Specifically, the twelve original metrics that influence shareholders’ mance, corporate governance, operational efficiency, and investor 
+evaluation of corporate reputation include: (1) total asset ranking, (2) structure. Specifically, the financial performance variables include firm 
+revenue ranking, (3) net profit ranking, (4) market value ranking, (5) size, leverage, return on assets, growth, cash flow, and Tobin’s Q. 
+debt-to-asset ratio, (6) long-term debt ratio, (7) earnings per share, (8) Corporate governance variables include CEO duality, board indepen
+proportion of independent directors, (9) earnings before tax per share, dence, ownership occupation, and whether the firm is audited by a Big 4 
+(10) sustainable asset growth rate, (11) current ratio, and (12) audit by a accounting firm. Operational efficiency controls include total asset 
+big four accounting firm dummy. We first adopt the PCFA methodology turnover, inventory ratio, fixed asset ratio, and a management efficiency 
+to select factors. As shown in Panel A of Table 1, there are four factors’ index. Investor structure variables include institutional ownership, top 
+eigenvalues are greater than 1, effectively explaining 61.72 % of the ten shareholders’ concentration, and equity balance. Table 2 provides 
+normalized variance of the twelve original metrics. We therefore retain detailed definitions of all variables.
+these four factors and compute the client reputation indicator (C_Repu
+tation) as a weighted average, where the weights are given by each 3.3. Model design
+factor’s proportion of explanatory power relative to the total variance 
+explained. The calculation is formulated as follows: We examine the impact of supplier risk-taking on client ESG per
+
+( ) ( ) ( )
+0.303 0.143 0.088 formance using the following model: 
+
+C Reputation= × Factor1+ ×Factor2+
+0.617 0.617 0.617
+
+( ) C ESG
+0 it = α + β⋅S Risk-takingit + ω⋅Othersit + Yearst + Industryit + firmi
+.084
+
+×Factor3+ × Factor4.
+0.617 + εit
+
+(3) (6) 
+
+Investor Confidence where C_ESGit represents the ESG performance of client firm i in year t; 
+As proposed by the theory of Shleifer and Vishny (SV) and Rhodes- S_Risk-takingit is the core independent variable capturing the suppliers’ 
+
+Kropf and Viswanathan (RKV), the market-to-book ratio of a firm can risk-taking behavior; Othersit denotes a vector of control variables. 
+be decomposed into two distinct components: the ratio of market value Yearst, Industryit, and firmi represent year, industry, and firm fixed ef
+to true value (M/V), and the ratio of true value to book value (V/B). fects, respectively. εit is the error term capturing unobserved firm-year 
+
+3 4
+We replace the current-period reputation measure with the average value During our discussion, we adopt lower-case letters to represent values 
+
+over the previous two periods (t− 1 and t− 2). This approach helps mitigate the expressed in logarithmic form, while upper-case letters are used to denote the 
+impact of reverse causality and, to some extent, alleviates the endogeneity same values expressed in their standard units.
+concern regarding reputation. 5 Qf
+
+i,t = α̂0 + α̂1 sizei,t + α̂2 levi,t + α̂3 roai,t
+
+5 
+
+
+
+J. Zhou et al.                                                                                                                                                                   I n  t e r n  a  t i o  n  a l  J  o  u r  n a  l   o  f   P  r o  d  u c  t i o  n  E  c  o  n o  m   i c s 291 (2026) 109856 
+
+Table 1 
+Factor selection.
+
+Panel A: Factor analysis Panel B Factor loadings
+
+Factor Eigenvalue Proportion Cumulative Variable Facto1 Facto2 Facto3 Facto4
+Factor1 3.630 0.303 0.303 Variable1 0.942 0.074 − 0.056 0.001
+Factor2 1.720 0.143 0.446 Variable2 0.909 0.089 − 0.091 − 0.016
+Factor3 1.051 0.088 0.533 Variable3 0.671 0.502 − 0.078 − 0.033
+Factor4 1.005 0.084 0.617 Variable4 0.923 0.105 − 0.051 − 0.003
+Factor5 0.998 0.083 0.700 Variable5 0.456 − 0.722 0.072 − 0.071
+Factor6 0.888 0.074 0.774 Variable6 0.384 − 0.487 0.222 0.134
+Factor7 0.836 0.070 0.844 Variable7 0.003 0.004 − 0.294 − 0.405
+Factor8 0.810 0.068 0.912 Variable8 0.012 0.045 0.822 0.027
+Factor9 0.496 0.041 0.953 Variable9 0.152 0.548 0.161 − 0.192
+Factor10 0.330 0.028 0.980 Variable10 0.008 0.194 − 0.170 0.878
+Factor11 0.174 0.015 0.995 Variable11 − 0.344 0.574 0.134 − 0.070
+Factor12 0.062 0.005 1.000 Variable12 0.343 0.129 0.378 0.052
+
+factors. Standard errors are clustered at the firm level. 6.00 (99 %), indicating substantial variation across firms. The mean of 
+Then, following prior research (Du et al., 2020), we adopt a partially supplier risk-taking (S_Risk-taking) is 0.025, with a low standard devia
+
+linear functional-coefficient panel-data model (also known as a partially tion of 0.020, suggesting that most suppliers engage in relatively stable 
+linear varying coefficient model) to test the moderating role of corporate operational activities, although some exhibit significantly higher risk 
+reputation, investor confidence, and supplier dependence. The specifi levels. The sample firms exhibit substantial heterogeneity across finan
+cation is outlined below: cial, governance, and structural dimensions, and there are no extreme 
+
+values between the 1 % and 99 % quantiles of all variables.
+C ESGit =c+β(Zit) ⋅S Risk-takingit +ω ⋅Othersit +Yearst + Industryit + firmi
+
++ εit 4.2. Baseline regression
+(7) 
+
+Table 4 reports the baseline regression results. columns (1) to (5) 
+where Zit represents a specific feature of the client firms that we are progressively include control variables from four dimensions: financial 
+interested in (i.e. indicators of corporate reputation, investor confidence performance, corporate governance, operational efficiency, and investor 
+and supplier dependence), and the effect of supplier risk-taking on client structure. Across all model specifications, the coefficient of the key 
+ESG performance is modeled as an unknown function β (⋅) of Zit. This explanatory variable, S_Risk-taking, remains significantly positive (P <
+model accommodates nonlinear relationships in supplier risk-taking, 0.01), suggesting that higher levels of supplier risk-taking are consis
+enabling the effects of its covariate on the dependent variable to vary tently associated with enhanced ESG performance in client firms. Using 
+as a function of a specific variable (Z) through a nonparametric the results from column (5) in Table 4 as an example, one standard 
+approach, while preserving linear relationships for other regressors. This deviation increases in supplier risk-taking (0.020) is associated with an 
+approach provides substantial advantages in capturing nonlinear dy improvement of approximately 0.075 in the ESG performance of client 
+namics (Cai et al., 2019; Feng et al., 2017).6 While the results from this firms (3.742 × 0.020 ≈ 0.075), suggesting a potential increase of 
+model should be interpreted with caution and seen as indicative rather approximately 1.87 % (0.075/4.010 × 100 % ≈ 1.87 %) in the average 
+than definitive, they offer more valuable insights into key issues than ESG rating of client firms.
+conventional linear models when examining moderating effects.
+
+Moreover, following Cai et al. (2000), Cai (2007), Kreiss et al. 
+(2008), we test the appropriateness of the functional form assumptions 4.3. Moderating effects
+by calculating a test statistic and using the wild bootstrap method to 
+obtain its sample distribution. This procedure is conducted separately To systematically examine how supplier risk affects client firms’ ESG 
+for each moderating variable to assess the robustness of model (7). The performance under varying stakeholder conditions, this study adopts a 
+results show that all partially linear functional-coefficient moderating partially linear functional-coefficient panel-data model. We identify 
+effect models in this study significantly outperform the conventional moderating mechanisms from three key stakeholder perspectives: in
+linear interaction-term model. Related details and results are provided vestors (measured by client firms’ investor confidence), the public (re
+in Appendix Table 1. flected in corporate reputation), and suppliers (captured by client firms’ 
+
+dependence on suppliers).
+4. Results Fig. 1 and Table 5 present the moderating effect of supplier depen
+
+dence.7 The results show that as client firms’ supplier dependence in
+4.1. Descriptive statistics creases, the coefficient on supplier risk-taking in explaining client ESG 
+
+performance rises incrementally, exhibiting a monotonically increasing 
+Table 3 reports the descriptive statistics for main variables used in trend. At low dependence quantiles, this effect is negative and insig
+
+the study. The average ESG performance of client firms (C_ESG) are nificant, indicating that when firms have ample alternative suppliers, 
+4.010, with a standard deviation of 1.005, and ranges from 1.25 (1 %) to they are less sensitive to risk-taking by their primary supplier and 
+
+7 Due to the continuity of the sample data, accurately estimating coefficients 
+at individual quantile points is challenging. We therefore average the estima
+tion results around each target quantile to obtain the coefficients and t-statistics 
+reported in Table 5. For example, for the 0.1 quantile, we average the results 
+
+6 Following Libois and Verardi (2013), we use the series method, specifically from the 0.09 to 0.11 quantiles to generate the smoothed values shown in 
+the B-splines technique to fit model (7). More technical details on B-splines can Column (1) of Table 5. All tables in this section are constructed using this 
+be found in Newson (2001). approach.
+
+6 
+
+
+
+J. Zhou et al.                                                                                                                                                                   I n  t e r n  a  t i o  n  a l  J  o  u r  n a  l   o  f   P  r o  d  u c  t i o  n  E  c  o  n o  m   i c s 291 (2026) 109856 
+
+Table 2 
+Variable definitions.
+
+Variable Definition Sources
+
+Client’s ESG
+C_ESG The ESG performance of clients. Including three dimensions: Environmental (E), Social (S), and Corporate Governance (G). It Sino-Securities Index ESG 
+
+captures how well a company manages environmental impact, social responsibilities, and governance practices to support long- Ratings
+term sustainability.
+
+Supplier’s risk-taking
+S_Risk-taking The risk-taking of suppliers. Measured by the standard deviation of industry-adjusted return on assets (ROA). The higher its CSMAR and calculated by 
+
+value, the more volatile the supplier’s earnings are, implying a higher level of risk-taking. authors
+Moderators
+Supplier The proportion of annual procurement sourced from its largest supplier (%). CSMAR and calculated by 
+
+dependence authors
+Corporate A composite indicator reflecting stakeholders’ evaluations of firm performance, constructed using principal component analysis. CSMAR and calculated by 
+
+reputation A higher value indicates a better reputation. authors
+Investor confidence A composite indicator developed by Rhodes–Kropf et al. (2005) and Huang et al. (2015) to measure investor confidence. The CSMAR and calculated by 
+
+higher the value, the higher the investor confidence. authors
+Financial performance
+Size The logarithm of total assets. CSMAR and calculated by 
+
+authors
+Leverage The ratio of total liability to total assets. CSMAR and calculated by 
+
+authors
+ROA The return to assets ratio. CSMAR and calculated by 
+
+authors
+Growth The ratio of (current period’s operating income - previous operating income) to previous period’s operating income. CSMAR and calculated by 
+
+authors
+Cashflow The ratio of net cash flows from operating activities to current liabilities. CSMAR and calculated by 
+
+authors
+TobinQ The ratio of (market value of total assets + book value of total liabilities)/to book value of total assets. CSMAR and calculated by 
+
+authors
+Corporate governance
+Dual A dummy variable that takes the value of 1 means that the CEO and Chairman are the same person, while a value of 0 means that CSMAR and calculated by 
+
+they are not. authors
+Independent Percentage of independent directors. It is measured as the ratio of the number of independent directors to the total number of CSMAR and calculated by 
+
+board members. authors
+Occupy Occupation of funds by major shareholders. Measured by the ratio of major shareholder loan balances to total assets. CSMAR and calculated by 
+
+authors
+Big4 A dummy variable with a value of 1 indicates that the company is audited by a Big 4 accounting firm, and a value of 0 indicates CSMAR and calculated by 
+
+otherwise. authors
+Operational efficiency
+ATO Total asset turnover. Measured by the ratio of net sales to average total assets. The larger the value, the more efficiently the firm CSMAR and calculated by 
+
+uses its total assets to generate revenue. authors
+Inventory The ratio of inventory balance to total assets. Higher values of it imply that the company is investing a large amount of capital in CSMAR and calculated by 
+
+inventory, which may lead to lower liquidity. authors
+Fixed The ratio of net fixed assets to total assets. A higher value of it reflects a company’s investment in long-term assets. CSMAR and calculated by 
+
+authors
+Management An index that measures the degree of cost-effectiveness. It is measured as the ratio of administrative expenses to operating CSMAR and calculated by 
+
+efficiency income. The higher the value, the less efficient it is. authors
+Investor Structure
+INST Institutional investor holdings. Measured by institutional shareholding to total outstanding shares. CSMAR and calculated by 
+
+authors
+Top10 Top ten shareholders’ shareholdings. Measured by Top ten shareholders’ shareholdings to total outstanding shares. CSMAR and calculated by 
+
+authors
+Balance Degree of Equity Balance. It is measured using the percentage of shares held by the top five shareholders minus the percentage of CSMAR and calculated by 
+
+shares held by the first largest shareholder. authors
+
+supplier risk does not effectively trigger an ESG response. By contrast, uncertainties. These findings support Hypothesis 3 .8
+once dependence reaches 0.3 quantile to high quantiles, the coefficient Fig. 3 and Table 7 illustrate the moderating effect of investor confi
+becomes significantly positive, suggesting that high dependence dence on the relationship between supplier risk-taking and client firms’ 
+heightens clients’ concern for supply chain stability and prompts them ESG performance. The results reveal a monotonic decreasing trend: 
+to manage risk more proactively through ESG practices. These findings when investor confidence is low, supplier risk has a significantly positive 
+support Hypothesis 2. effect on ESG performance, suggesting that firms strengthen ESG efforts 
+
+Fig. 2 and Table 6 illustrate the moderating effect of corporate to signal stability and reliability amid market skepticism. However, as 
+reputation. As shown in column (1) of Table 6, at low quantiles, supplier shown in column (5) of Table 7, as investor confidence increases, the 
+risk has a significant negative effect on ESG performance, indicating that positive effect diminishes and eventually approaches zero. This pattern 
+low-reputation firms—often with limited media exposure—face weaker implies that firms enjoying high investor confidence face less external 
+stakeholder pressure and may lack the capacity for proactive ESG re pressure and are less compelled to use ESG as a signaling mechanism, 
+sponses. These firms may even reduce ESG efforts due to risk shifting or thereby weakening their ESG response to supplier-related risks. These 
+resource constraints. As reputation increases, the effect turns positive 
+and rises sharply in the upper quantiles, suggesting that high-reputation 
+firms, driven by stronger image-preservation motives, are more sensitive 8
+and responsive to upstream risks. This reflects a cost–benefit trade-off: We also assign this indicator into ten levels based on decile rankings to 
+
+construct the reputation ranking indicator, a common practice in existing 
+while low-reputation firms prioritize short-term operational efficiency, literature, and use it as a moderating variable. The estimation results remain 
+high-reputation firms invest in ESG as a strategic buffer against external robust.
+
+7 
+
+
+
+J. Zhou et al.                                                                                                                                                                   I n  t e r n  a  t i o  n  a l  J  o  u r  n a  l   o  f   P  r o  d  u c  t i o  n  E  c  o  n o  m   i c s 291 (2026) 109856 
+
+Table 3 
+Descriptive statistics.
+
+Variable Mean Std. dev. 1 % Median 99 % Observations
+
+Client’s ESG
+C_ESG 4.010 1.005 1.250 4.000 6.000 2800
+Supplier’s risk-taking
+S_Risk-taking 0.025 0.020 0.004 0.018 0.106 2800
+Moderator
+Supplier dependence 17.430 15.608 1.780 12.510 77.440 2647
+Corporate reputation 0.071 0.546 − 0.885 0.020 1.514 2399
+Investor confidence − 0.106 0.862 − 1.610 − 0.243 3.316 2761
+Financial performance
+Size 22.471 1.422 20.059 22.238 26.738 2800
+Leverage 0.463 0.203 0.069 0.462 0.888 2800
+ROA 0.037 0.060 − 0.187 0.037 0.172 2800
+Growth 0.161 0.393 − 0.505 0.104 1.902 2800
+Cashflow 0.045 0.066 − 0.133 0.045 0.215 2800
+TobinQ 1.823 1.087 0.849 1.456 6.598 2800
+Corporate governance
+Dual 0.221 0.415 0.000 0.000 1.000 2800
+Independent 0.369 0.050 0.300 0.333 0.556 2800
+Occupy 0.017 0.028 0.000 0.007 0.130 2800
+Big4 0.063 0.243 0.000 0.000 1.000 2800
+Operational efficiency
+ATO 0.640 0.400 0.104 0.558 2.000 2800
+Inventory 0.132 0.132 0.000 0.102 0.717 2800
+Fixed 0.230 0.174 0.004 0.188 0.703 2800
+Management efficiency 0.084 0.067 0.011 0.068 0.359 2800
+Investor Structure
+INST 0.466 0.243 0.005 0.492 0.935 2800
+Top10 0.584 0.153 0.237 0.590 0.924 2800
+Balance 0.750 0.659 0.024 0.574 2.912 2800
+
+findings support Hypothesis 4. tailored to the country, accurately reflecting its realities (Wu et al., 
+2024). To further increase the generalizability and credibility of the 
+
+4.4. Robustness and endogeneity tests result, we also incorporate additional international ESG data sources, 
+including Bloomberg, Refinitiv and Morgan Stanley Capital Interna
+
+4.4.1. Robustness tests tional (MSCI) for robustness checks in columns (6)–(8), the results are all 
+Table 8 reports robustness checks on the baseline estimates. In col qualitatively unchanged.11
+
+umn (1), to rule out the possibility that the positive link between sup Next, the baseline model is re-estimated using unconditional quan
+plier risk-taking and client ESG performance is driven by supplier tile regression at the median of the dependent variable, a panel logit 
+financial violations (Hu et al., 2024),9 we construct a panel vector model and the System GMM approach in columns (9)–(11). All other 
+autoregressive (Panel VAR) model to isolate the portion of ROA vola control variables from the baseline model are included in each 
+tility unrelated to financial violations and use it to generate a revised specification.
+risk-taking measure, denoted as σ (ROA) excluding financial violations. Then, to exclude the impact of the global COVID-19 pandemic- 
+The results show a significant positive relationship, indicating that even induced recession on both supply chains and corporate decision-making, 
+after removing the effects of supplier violations on financial volatility, we reconduct the baseline regression using sample from 2009 to 2019. 
+client firms’ ESG performance still improves. This supports our argu As shown in Column (12), the coefficient of S_Risk-taking also remains 
+ment that, unlike passive, post-event ESG adjustments triggered by positive and significant. In summary, all the results remain consistent 
+supplier violations, clients treat ESG as a proactive strategy for risk with our baseline findings, confirming the robustness of H1.
+prevention and absorption in response to uncertainties arising from 
+upstream suppliers’ risk-taking. In columns (2) and (3) of Table 8, we 4.4.2. Instrumental variable (IV) approach
+replace the original supplier risk-taking indicator with the Z-score and While high-ESG-performing firms generally emphasize sustainability 
+the standard deviation of ROE, respectively.10 and risk mitigation (Albuquerque et al., 2019), their strong ESG profile 
+
+In column (4), following Priem and Gabellone (2024), we change our may also increase their tolerance for upstream operational risk, raising 
+ESG rating indicator into ESG score from the Sino-Securities Index ESG concerns of potential reverse causality. To address this, we employ 
+Ratings dataset. Column (5) employs Wind ESG rating as the dependent suppliers’ inventory turnover (Turnover_G) as an instrumental variable. 
+variable to replicate the baseline regressions. Wind ESG evaluates Inventory turnover is widely regarded as an important indicator of a 
+multiple aspects of ESG investment, practices, disclosure, and regula firm’s operational efficiency and risk exposure. A lower inventory 
+tions, providing 27 subjects and over 300 individual elements related to turnover typically indicates excessive inventory holdings, leading to 
+three specific ESG areas. Like the Sino-Securities ESG data, the Wind capital tie-up and increased liquidity risk (Aktas et al., 2015), and may 
+ESG dataset covers almost all listed companies in China and is highly 
+
+11 Due to the limited coverage of international ESG databases for Chinese 
+9 As a representative of supplier misconduct, financial violations are believed listed firms, the matched sample size is substantially reduced. This coverage gap 
+
+to be transmitted through the supply chain, prompting client firms to passively may arise from differences in firm participation, disclosure transparency, data 
+improve their ESG performance (Hu et al., 2024). availability, and calculation methodologies. Under such conditions, including 
+10 Although not reported here, we also calculate the standard deviation of firm fixed effects would excessively consume degrees of freedom, weaken sta
+
+ROA using a three-year rolling window and use it as our supplier risk-taking tistical power, and risk unstable estimates. Therefore, we control only for in
+indicator to check robustness. The results remain consistent. dustry and year fixed effects in these regressions.
+
+8 
+
+
+
+J. Zhou et al.                                                                                                                                                                   I n  t e r n  a  t i o  n  a l  J  o  u r  n a  l   o  f   P  r o  d  u c  t i o  n  E  c  o  n o  m   i c s 291 (2026) 109856 
+
+Table 4 
+The impact of supplier risk-taking on client ESG performance.
+
+Dependent variable
+
+​ (1) (2) (3) (4) (5)
+C_ESG C_ESG C_ESG C_ESG C_ESG
+
+S_Risk-taking 3.800** (2.501) 3.755*** (2.587) 3.614** (2.517) 3.937*** (2.827) 3.742*** (2.650)
+Financial performance
+Size ​ 0.363*** 0.375*** 0.446*** 0.478***
+
+​ (2.972) (3.225) (3.840) (3.856)
+Leverage ​ − 1.180*** − 1.164*** − 1.528*** − 1.640***
+
+​ (-3.859) (-4.034) (-5.352) (-5.551)
+ROA ​ 0.011 − 0.108 − 0.401 − 0.497
+
+​ (0.019) (-0.191) (-0.603) (-0.728)
+Growth ​ − 0.099* − 0.095* − 0.219*** − 0.221***
+
+​ (-1.764) (-1.736) (-3.783) (-3.788)
+Cashflow ​ 0.315 0.257 0.424 0.437
+
+​ (0.908) (0.748) (1.247) (1.256)
+TobinQ ​ − 0.013 − 0.012 − 0.010 − 0.005
+
+​ (-0.392) (-0.364) (-0.341) (-0.145)
+Corporate governance
+Dual ​ ​ − 0.023 0.028 0.017
+
+​ ​ (-0.225) (0.271) (0.164)
+Independent ​ ​ 0.755 0.697 0.765
+
+​ ​ (1.151) (1.003) (1.099)
+Occupy ​ ​ − 1.373 − 1.006 − 0.996
+
+​ ​ (-1.001) (-0.789) (-0.787)
+Big4 ​ ​ − 0.756** − 0.943** − 0.914**
+
+​ ​ (-1.975) (-2.350) (-2.281)
+Operational efficiency
+ATO ​ ​ ​ 0.378* 0.407*
+
+​ ​ ​ (1.701) (1.812)
+Inventory ​ ​ ​ 2.057*** 2.059***
+
+​ ​ ​ (2.795) (2.802)
+Fixed ​ ​ ​ − 0.474 − 0.486
+
+​ ​ ​ (-1.215) (-1.237)
+Management efficiency ​ ​ ​ − 2.495*** − 2.495***
+
+​ ​ ​ (-3.649) (-3.607)
+Investor Structure
+INST ​ ​ ​ ​ − 0.453
+
+​ ​ ​ ​ (-0.915)
+Top10 ​ ​ ​ ​ 0.420
+
+​ ​ ​ ​ (0.716)
+Balance ​ ​ ​ ​ − 0.138
+
+​ ​ ​ ​ (-1.176)
+Industry FE Yes Yes Yes Yes Yes
+Year FE Yes Yes Yes Yes Yes
+Firm FE Yes Yes Yes Yes Yes
+Observations 2934 2879 2867 2801 2800
+R2 0.873 0.873 0.874 0.876 0.877
+
+Notes: * < 0.1, ** < 0.05, *** < 0.01. T-values are shown in brackets and are calculated using firm-level clustered standard errors.
+
+Table 5 
+The moderating role of supplier dependence.
+
+Dependent variable: C_ESG
+
+​ (1) (2) (3) (4) (5)
+Quantile of 0.1 0.3 0.5 0.7 0.9
+
+moderator
+S_Risk-taking − 0.069 1.028** 2.000*** 2.974*** 3.868***
+
+(-0.122) (2.056) (3.523) (4.443) (4.079)
+Control variables Yes Yes Yes Yes Yes
+Industry FE Yes Yes Yes Yes Yes
+Year FE Yes Yes Yes Yes Yes
+Firm FE Yes Yes Yes Yes Yes
+Observations 2647 2647 2647 2647 2647
+
+Notes: * < 0.1, ** < 0.05, *** < 0.01. T-values are shown in brackets.
+
+also reflect inaccurate demand forecasting, thereby reducing the sta
+bility of profitability (Eroglu and Hofer, 2011). This factor can influence 
+a firm’s willingness and capacity for strategic risk-taking (e.g., through 
+
+Fig. 1. The moderating role of supplier dependence. financing constraints or adjustments to business strategy), thus satis
+fying the relevance condition. On the other hand, the exclusion re
+striction assumes that inventory turnover affects client ESG performance 
+only through its influence on supplier risk-taking. This assumption is 
+
+9 
+
+
+
+J. Zhou et al.                                                                                                                                                                   I n  t e r n  a  t i o  n  a l  J  o  u r  n a  l   o  f   P  r o  d  u c  t i o  n  E  c  o  n o  m   i c s 291 (2026) 109856 
+
+Table 7 
+The moderating role of client investor confidence.
+
+Dependent variable: C_ESG
+
+​ (1) (2) (3) (4) (5)
+Quantile of 0.1 0.3 0.5 0.7 0.9
+
+moderator
+S_Risk-taking 3.205*** 2.722*** 2.231*** 1.612*** 0.303
+
+(6.128) (5.841) (5.160) (3.875) (0.564)
+Control variables Yes Yes Yes Yes Yes
+Industry FE Yes Yes Yes Yes Yes
+Year FE Yes Yes Yes Yes Yes
+Firm FE Yes Yes Yes Yes Yes
+Observations 2761 2761 2761 2761 2761
+
+Notes: * < 0.1, ** < 0.05, *** < 0.01. T-values are shown in brackets.
+
+risk-taking, while Column (2) indicates that, after correcting for endo
+geneity, supplier risk-taking remains significantly and positively asso
+ciated with client ESG performance (β = 24.8926, p < 0.05).
+
+Fig. 2. The moderating role of client corporate reputation.
+4.4.3. PSM method
+
+To address potential selection bias from the non-random matching 
+Table 6 between clients and high-risk suppliers, we use propensity score 
+The moderating role of client corporate reputation. matching (PSM) with kernel matching. Clients whose primary suppliers 
+
+Dependent variable: C_ESG fall above the 90th percentile in risk-taking form the treatment group. 
+The kernel method assigns weights to all control units based on their 
+
+​ (1) (2) (3) (4) (5)
+Quantile of 0.1 0.3 0.5 0.7 0.9 proximity in propensity scores, resulting in smoother and more efficient 
+
+moderator estimates.12 Table 10 reports the regression results based on the 
+S_Risk-taking − 4.480*** − 0.281 2.017*** 5.246*** 13.300*** matched sample. columns (1) to (5) show that after PSM method, all the 
+
+(-5.262) (-0.395) (2.964) (6.870) (11.635) coefficients of supplier risk-taking remain consistent with the baseline 
+Control variables Yes Yes Yes Yes Yes findings, supporting the robustness of the main results.
+Industry FE Yes Yes Yes Yes Yes
+Year FE Yes Yes Yes Yes Yes
+Firm FE Yes Yes Yes Yes Yes 5. Extended analyses
+Observations 2069 2069 2069 2069 2069
+
+Notes: * < 0.1, ** < 0.05, *** < 0.01. T-values are shown in brackets. 5.1. Different types of supplier risk-taking behaviors
+
+Prior research suggests that outward foreign direct investment 
+(OFDI), R&D expenditure, and asset financialization are often regarded 
+as indicators of a firm’s propensity to undertake higher levels of risk in 
+pursuit of long-term strategic returns (Li, 2011; Nielsen and Nielsen, 
+2011; Bargeron et al., 2010). Although these "high-risk, high-return" 
+behaviors may not necessarily lead to operational or financial distress 
+for the supplier, they introduce supply chain uncertainty for client firms.
+
+First, OFDI often requires suppliers not only to allocate part of the 
+funds and products needed for domestic operations to overseas markets, 
+but also to adjust their product structure and business strategies ac
+cording to the characteristics of the target regions, while seeking new 
+client firms based on local demand. These actions lead to adjustments in 
+domestic production and the restructuring of the supply chain, thereby 
+increasing the uncertainty faced by local client firms. Second, increased 
+R&D investment may divert funds away from the supplier’s production 
+of existing products, thereby altering the supply of raw materials and 
+intermediate goods, which disrupts the client firm’s production plans. 
+Additionally, changes in the quality of raw materials and intermediate 
+
+Fig. 3. The moderating role of client investor confidence. goods resulting from supplier product innovation may require adjust
+ments in the client firm’s existing production technologies and pro
+cesses, thereby increasing uncertainty in production processes and costs 
+
+reasonable because inventory turnover primarily reflects suppliers’ in (Wu et al., 2022). As last, although higher financialization, i.e. the in
+ternal operational efficiency, which is not institutionally linked to client crease of financial asset holdings (such as securities), may increase 
+ESG activities. Moreover, the main drivers of client ESG perform
+ance—such as governance policies and stakeholder relations 
+(Albuquerque et al., 2019; Grewal et al., 2016)—are largely unrelated to 12 Balance tests confirm that the matching procedure substantially improved 
+the short-term inventory management practices of upstream suppliers. covariate balance: mean bias decreased from 7.2 % to 1.0 %, and pseudo-R2 
+
+Table 9 shows that the instrument passes the under-identification (p dropped from 0.015 to near zero. Most standardized biases fall below the 5 % 
+< 0.05), weak identification (57.707 > 16.38), and weak-instrument (p threshold, and post-matching t-tests show no significant differences between 
+< 0.01) tests, confirming its strength and validity. Column (1) of Table 9 treated and control groups. The ATT estimate indicates that firms with high-risk 
+shows that Turnover_G is significantly and negatively related to supplier suppliers have slightly higher ESG scores compared to those with lower-risk 
+
+suppliers.
+
+10 
+
+
+
+J. Zhou et al.                                                                                                                                                                   I n  t e r n  a  t i o  n  a l  J  o  u r  n a  l   o  f   P  r o  d  u c  t i o  n  E  c  o  n o  m   i c s 291 (2026) 109856 
+
+Table 8 
+Robustness tests.
+
+Dependent Different indicator of supplier’s risk-taking Different indicator of client ESG
+variable: 
+C_ESG
+
+​ (1) (2) (3) (4) (5) (6) (7) (8)
+σ(ROA) excluding financial violation Z-score σ(ROE) Sino-Securities ESG Wind ESG Bloomberg ESG Refinitiv ESG MSCI ESG
+
+Score
+S_Risk-taking 2.197*** − 0.092** 0.917** 19.539** 2.933* 23.791* 1.506*** 9.102*
+​ (2.914) (-2.276) (2.131) (2.223) (1.867) (1.892) (3.459) (1.739)
+Control variables Yes Yes Yes ​ Yes Yes Yes Yes
+Industry FE Yes Yes Yes Yes Yes Yes Yes Yes
+Year FE Yes Yes Yes Yes Yes Yes Yes Yes
+Firm FE Yes Yes Yes Yes Yes ​ ​ ​
+Observations 2292 2765 2657 Yes 2800 1036 367 176
+R2 0.876 0.879 0.878 2772 0.750 0.750 0.752 0.860
+​ Different econometric methodologies Different sample period
+
+(9) (10) (11) (12)
+Dependent Unconditional quantile regression Panel logit System Exclude the epidemic period
+
+variable: 50th GMM
+C_ESG
+
+S_Risk-taking 6.180*** 13.122*** 4.513** 3.236**
+​ (3.106) (2.840) (2.063) (1.979)
+Control variables Yes Yes Yes Yes
+Industry FE Yes Yes Yes Yes
+Year FE Yes Yes Yes Yes
+Firm FE Yes Yes Yes Yes
+Observations 2800 2778 2459 2137
+R2 0.817 ​ ​ 0.893
+AR (1)/AR (2) ​ ​ 0.000/ ​
+
+0.119
+Hansen J ​ ​ 0.102 ​
+
+Notes: * < 0.1, ** < 0.05, *** < 0.01. T-values are shown in brackets and are calculated using firm-level clustered standard errors.
+
+assets to total assets, captures the shift toward liquid financial in
+Table 9 vestments. The results of Table 11 show that typical risk-taking behav
+The regression results using instrumental variable (IV) approach. iors of supplier firms significantly enhance the ESG performance of 
+
+Dependent variable: IV client firms. This finding reinforces the argument that, when exposed to 
+C_ESG upstream risk activities, client firms strategically strengthen their ESG 
+​ (1) (2) practices to signal responsible governance and thus provide empirical 
+
+S_Risk-taking C_ESG support for H1.
+S_Risk-taking ​ 24.8926**
+
+​ (2.1586)
+Turnover_G − 0.0085*** ​ 5.2. The impact of supplier risk-taking on components of client ESG 
+
+(-2.9911) ​ performance
+Control variables Yes Yes
+Industry FE Yes Yes
+Year FE Yes Yes Further, we decompose the ESG composite score into three compo
+Firm FE Yes Yes nents, E (environmental), S (social), and G (governance). Table 12 il
+Observations 2798 2798 lustrates the impact of supplier risk-taking on three components of client 
+Under-identification test Chi-square statistics [p values] ESG score.
+Kleibergen-Paap rk LM statistic 4.668 ** [0.0307] Column (1) shows that supplier risk-taking has no significant effect 
+Weak identification test ​
+Cragg-Donald Wald F statistic 57.707 on the environmental (E) score of client firms, suggesting that firms do 
+Stock-Yogo weak ID test critical values 16.38 (10 %) not substantially increase environmental investment in response to up
+Weak-instrument test Chi-square statistics [p values] stream potential risks. This may be due to the high capital intensity and 
+Anderson-Rubin Wald test 8.89 *** [0.0029] technical complexity of environmental initiatives, which limit their 
+
+Notes: * < 0.1, ** < 0.05, *** < 0.01. T-values are shown in brackets and are feasibility as short-term responses.
+calculated using firm-level clustered standard errors. In contrast, columns (2) and (3) indicate that supplier risk-taking 
+
+significantly improves client firms’ social (S) and governance (G) per
+revenue diversification and reduce the negative impact of core business formance. One possible explanation is that compared to environmental 
+disruptions on profitability, the increased funds required to purchase efforts, social and governance responses are less resource-intensive and 
+financial assets may crowd out the supplier’s capital for actual pro more adaptable in the short term (Distelhorst et al., 2017; Kalkanci and 
+duction, weakening the stability of product supply and, in turn, Plambeck, 2020b), making them preferred strategic adjustments under 
+increasing the production uncertainty for client firms (Ma et al., 2022). rising supply chain uncertainty.
+
+Therefore, we further conduct an analysis to investigate the impact 
+of these three specific upstream risk-taking behaviors on client ESG 5.3. The moderating role of corporate digitalization
+performance. Specifically, (1) the OFDI indicator is a dummy variable 
+equal to 1 if the company has OFDI and 0 otherwise; (2) the R&D in In recent years, corporate digitalization has become a defining trend 
+dicator, measured as the ratio of R&D expenditure to profits, reflects the in global supply chain management, fundamentally reshaping opera
+share of profits devoted to innovation; and (3) the financialization in tional models and enhancing firms’ capacity to address external uncer
+dicator, defined as the change in the ratio of available-for-sale financial tainty and multifaceted risks (Ivanov, 2024). From a stakeholder 
+
+perspective, digitalization enables faster alignment of ESG initiatives 
+
+11 
+
+
+
+J. Zhou et al.                                                                                                                                                                   I n  t e r n  a  t i o  n  a l  J  o  u r  n a  l   o  f   P  r o  d  u c  t i o  n  E  c  o  n o  m   i c s 291 (2026) 109856 
+
+Table 10 
+PSM estimates of supplier risk-taking impact on client ESG performance.
+
+Dependent variable
+
+​ (1) (2) (3) (4) (5)
+​ C_ESG C_ESG C_ESG C_ESG C_ESG
+S_Risk-taking 3.4177* 3.3608** 3.1118* 3.4425** 3.3392**
+
+(1.9558) (2.0416) (1.9455) (2.2045) (2.1227)
+Financial performance
+Size ​ 0.4056*** 0.4170*** 0.4659*** 0.5107***
+
+​ (2.9262) (2.9614) (3.2955) (3.4530)
+Leverage ​ − 1.0311*** − 0.9448*** − 1.2871*** − 1.4121***
+
+​ (-3.1897) (-2.9506) (-3.9822) (-4.2251)
+ROA ​ 0.6655 0.5586 − 0.3481 − 0.4551
+
+​ (1.1271) (0.9663) (-0.5405) (-0.6768)
+Growth ​ − 0.1282 − 0.1189 − 0.1842** − 0.1891**
+
+​ (-1.6122) (-1.5758) (-2.4377) (-2.5318)
+Cashflow ​ 0.2033 0.1274 0.2591 0.2597
+
+​ (0.4838) (0.3146) (0.6698) (0.6650)
+TobinQ ​ − 0.0092 − 0.0039 − 0.0021 0.0021
+
+​ (-0.2710) (-0.1184) (-0.0663) (0.0634)
+Corporate governance
+Dual ​ ​ − 0.0188 0.0167 0.0132
+
+​ ​ (-0.1705) (0.1540) (0.1204)
+Independent ​ ​ 1.3202** 1.2619* 1.3088*
+
+​ ​ (2.0478) (1.8681) (1.9210)
+Occupy ​ ​ − 1.8278 − 1.6471 − 1.5031
+
+​ ​ (-1.0738) (-0.8626) (-0.7817)
+Big4 ​ ​ − 1.0656** − 1.0341** − 1.0053**
+
+​ ​ (-2.5302) (-2.3161) (-2.2625)
+Operational efficiency
+ATO ​ ​ ​ 0.4133 0.4515
+
+​ ​ ​ (1.4310) (1.5569)
+Inventory ​ ​ ​ 2.4139*** 2.4411***
+
+​ ​ ​ (2.8160) (2.8467)
+Fixed ​ ​ ​ − 0.5383 − 0.5335
+
+​ ​ ​ (-1.3534) (-1.3231)
+Management efficiency ​ ​ ​ − 2.1463*** − 2.1021***
+
+​ ​ ​ (-2.9159) (-2.8316)
+Investor Structure
+INST ​ ​ ​ ​ − 0.3607
+
+​ ​ ​ ​ (-0.7017)
+Top10 ​ ​ ​ ​ 0.4634
+
+​ ​ ​ ​ (0.6715)
+Balance ​ ​ ​ ​ − 0.1646
+
+​ ​ ​ ​ (-1.2442)
+Industry FE Yes Yes Yes Yes Yes
+Year FE Yes Yes Yes Yes Yes
+Firm FE Yes Yes Yes Yes Yes
+Observations 2660 2660 2660 2660 2660
+R2 0.8641 0.8641 0.8713 0.8766 0.8772
+
+Notes: * < 0.1, ** < 0.05, *** < 0.01. T-values are shown in brackets and are calculated using firm-level clustered standard errors.
+
+Table 12 
+Table 11 The impact of supplier risk-taking on components of client ESG performance.
+The impact of different supplier risk-taking behaviors on client ESG 
+performance. Dependent variable (1) (2) (3)
+
+Dependent variable ​ Environmental Social Governance
+S_Risk-taking 0.378 2.785* 4.587**
+
+​ (1) (2) (3) (4) (0.233) (1.723) (1.975)
+C_ESG C_ESG C_ESG C_ESG Control variables Yes Yes Yes
+
+OFDI 0.141** ​ ​ 0.152** Industry FE Yes Yes Yes
+(2.204) ​ ​ (2.088) Year FE Yes Yes Yes
+
+R&D ​ 0.001** ​ 0.001** Firm FE Yes Yes Yes
+​ (2.490) ​ (2.422) Observations 2800 2800 2800
+
+Financialization ​ ​ 1.411* 1.606** R2 0.900 0.866 0.858
+​ ​ (1.907) (1.983)
+
+Control variables Yes Yes Yes Yes Notes: * < 0.1, ** < 0.05, *** < 0.01. T-values are shown in brackets and are 
+Industry FE Yes Yes Yes Yes calculated using firm-level clustered standard errors.
+Year FE Yes Yes Yes Yes
+Firm FE Yes Yes Yes Yes
+Observations 2800 2745 2437 2434 with stakeholder expectations by leveraging real-time, reliable data for 
+R2 0.877 0.876 0.880 0.881 timely and targeted responses, thereby facilitating preventive gover
+
+Notes: * < 0.1, ** < 0.05, *** < 0.01. T-values are shown in brackets and are nance and value preservation before risks materialize. It strengthens 
+calculated using firm-level clustered standard errors. internal and cross-organizational coordination, allowing ESG measures 
+
+to be efficiently implemented across the supply chain—for example, 
+generative AI fosters inter-firm collaboration, knowledge co-creation, 
+
+12 
+
+
+
+J. Zhou et al.                                                                                                                                                                   I n  t e r n  a  t i o  n  a l  J  o  u r  n a  l   o  f   P  r o  d  u c  t i o  n  E  c  o  n o  m   i c s 291 (2026) 109856 
+
+Fig. 5. The moderating role of other digital technologies.
+Fig. 4. The moderating role of corporate digitalization.
+
+and green innovation (Wang and Zhang, 2025), while supply chain 
+systems and shared data platforms break down information silos, 
+enabling real-time risk sharing and synchronized decision-making 
+(Dubey et al., 2019). It also enhances early risk detection by inte
+grating suppliers’ operational data (e.g., production, quality, logistics, 
+cash flow) with advanced analytics and early warning systems, enabling 
+earlier and more accurate identification of issues from upstream 
+risk-taking (Ivanov, 2024; Queiroz et al., 2022). Finally, through risk 
+modeling and scenario simulation, firms can design cost-effective, tar
+geted ESG interventions—such as enhanced audits, contractual re
+visions, or transparency measures—tailored to specific risk types and 
+severities.
+
+Building on this theoretical logic, we adopt model (7) to examine 
+how digitalization influences the relationship between supplier risk- 
+taking and client firms’ ESG performance, where digitalization indica
+tor (DT) is measured as the ratio of the frequency of digitalization- 
+related terms to the total length of the annual reports. The digitaliza
+tion indicator is sourced from Chen & Cao (2025). The results are pre Fig. 6. The moderating role of AI.
+sented in Fig. 4 and Table 13, respectively. We find that before the 
+approximately 90th percentile, as the level of corporate digitalization 
+increases, the positive impact of supplier risk-taking on client ESG decompose the aggregated corporate digitalization into two compo
+continues to rise. However, it is worth noting that when corporate nents: artificial intelligence (AI) and other digital technologies (ODT), to 
+digitalization reaches an extreme high level, a turning point occurs, compare whether different digital technologies have heterogeneous 
+leading to a decline. A possible explanation for this phenomenon is that impacts. As shown in Figs. 5 and 6, although the patterns in these two 
+client firms with a high level of corporate digitalization have the capa figures are identical, in the ascending phase, the curve in Fig. 6 is 
+bility to accurately predict the potential impact of suppliers on their steeper, indicating that, compared to other digital tools, advancements 
+supply chains using abundant information and advanced data analytics in AI technology significantly enhance a firm’s ability to manage ESG 
+technologies. This reduces the uncertainty perceived by client firms due performance and respond to supply chain uncertainties. Second, a ver
+to supplier risk-taking, thereby decreasing their proactive response tical comparison of the data from columns 1 to 5 in Panel A and columns 
+behaviors. 1 to 5 in Panel B of Table 14 shows that, at the same quantile, the co
+
+Next, based on feature words in different categories, we further efficients in Panel A are significantly larger than those in Panel B.13 This 
+indicates that AI, as the most complex and advanced digital technology 
+currently available, plays a significantly more prominent role than other 
+
+Table 13 digital technologies in promoting supplier risk identification, optimizing 
+The moderating role of corporate digitalization. supply chain management, and enhancing corporate governance and 
+
+operational efficiency.
+Dependent variable:C_ESG
+
+​ (1) (2) (3) (4) (5)
+Quantile of DT 0.1 0.3 0.5 0.7 0.9
+S_Risk-taking 1.575** 2.130*** 3.137*** 4.999*** 7.481***
+
+(1.959) (2.783) (4.323) (6.569) (5.889) 13 It is worth noting that, in contrast to the significantly positive coefficient in 
+Control variables Yes Yes Yes Yes Yes column (1) of Table 13, the coefficients in column (1) of Panel A and Panel B of 
+Industry FE Yes Yes Yes Yes Yes Table 14 are not significant. This suggests that, at the early stages of digital 
+Year FE Yes Yes Yes Yes Yes transformation, focusing on the development of a single digital technology 
+Firm FE Yes Yes Yes Yes Yes yields minimal results. Only by simultaneously investing in and applying 
+Observations 1877 1877 1877 1877 1877 multiple digital technologies can a firm quickly enhance its supply chain 
+
+Notes: * < 0.1, ** < 0.05, *** < 0.01. T-values are shown in brackets. management capabilities and governance level.
+
+13 
+
+
+
+J. Zhou et al.                                                                                                                                                                   I n  t e r n  a  t i o  n  a l  J  o  u r  n a  l   o  f   P  r o  d  u c  t i o  n  E  c  o  n o  m   i c s 291 (2026) 109856 
+
+Table 14 economies that often face similar challenges with China, such as less 
+The moderating role of AI and other technologies. mature ESG disclosure systems (Agyemang et al., 2025), weaker 
+
+Dependent variable: corporate governance, and faster-paced digital adoption. As such, the 
+C_ESG mechanisms we identify can provide actionable insights for enhancing 
+Panel A: Artificial intelligence ESG effectiveness and resilience in comparable contexts.
+​ (1) (2) (3) (4) (5) In practical terms, several targeted managerial implications emerge. 
+Quantile of AI 0.1 0.3 0.5 0.7 0.9 First, client firms should treat ESG as a proactive risk management in
+S_Risk-taking 0.953 2.374** 4.564*** 9.291*** 10.987*** strument, particularly when supplier dependence is high or when 
+
+(0.646) (1.671) (3.292) (6.176) (6.219)
+Control variables Yes Yes Yes Yes Yes reputation concerns are prominent. Managers are advised to strengthen 
+Industry FE Yes Yes Yes Yes Yes ESG practices not only to satisfy regulatory or social expectations, but 
+Year FE Yes Yes Yes Yes Yes also to buffer against upstream uncertainties that could threaten oper
+Firm FE Yes Yes Yes Yes Yes ational continuity and market value. Second, firms with strong reputa
+Observations 644 644 644 644 644 tional capital or those facing lower investor confidence should be 
+Panel B: Other digital technologies
+​ (1) (2) (3) (4) (5) especially vigilant in aligning ESG initiatives with supply chain risk 
+Quantile of ODT 0.1 0.3 0.5 0.7 0.9 monitoring, as stakeholder sensitivity in these contexts magnifies the 
+S_Risk-taking 0.595 1.113** 2.054*** 3.854*** 6.573*** consequences of supplier behaviors. Third, recognizing the threshold 
+
+(0.914) (1.778) (3.365) (5.595) (4.597) effects, firms should avoid over-reliance on a single supplier and 
+Control variables Yes Yes Yes Yes Yes
+Industry FE Yes Yes Yes Yes Yes diversify their supply base to prevent scenarios in which ESG alone 
+Year FE Yes Yes Yes Yes Yes cannot offset risks. Finally, policymakers should design ESG governance 
+Firm FE Yes Yes Yes Yes Yes frameworks that integrate supply chain transparency, ensuring that 
+Observations 1852 1852 1852 1852 1852 firms are incentivized to account for upstream risks when shaping their 
+
+Notes: * < 0.1, ** < 0.05, *** < 0.01. T-values are shown in brackets. ESG strategies.
+Beyond these primary implications, our extended analysis highlights 
+
+6. Conclusion and discussion the supplementary role of corporate digitalization—particularly artifi
+cial intelligence (AI)—in strengthening clients’ capacity to detect sup
+
+This study explores the impact of supplier risk-taking on client ESG plier risks earlier and implement targeted ESG interventions. By 
+performance, revealing significant insights into the dynamics within leveraging real-time data, advanced analytics, and collaborative plat
+supply chains. Analyzing data from Chinese listed firms between 2009 forms, firms can enhance operational resilience and supply chain 
+and 2023, we find that supplier risk-taking has a significantly positive transparency, thereby supporting more sustainable ESG outcomes 
+effect on client firms’ ESG performance, indicating that firms regard ESG (Ivanov, 2020; Dubey et al., 2019). In particular, AI-driven tools for 
+not merely as an internal governance mechanism, but also as a forward- knowledge management and supplier profiling provide valuable op
+looking strategic tool for managing uncertainties transmitted from up portunities for continuous evaluation of upstream partners (Wang and 
+stream firms. Moreover, the study identifies key boundary conditions Zhang, 2025), suggesting that digitalization should be integrated into 
+that shape this relationship. Specifically, higher supplier dependence, ESG and risk management strategies as a complement to, rather than a 
+stronger corporate reputation, and lower investor confidence signifi substitute for, traditional practices. Moreover, at the policy level, 
+cantly amplify the positive impact of supplier risk-taking on ESG per well-designed regulatory frameworks for emerging technologies and 
+formance. These moderating effects suggest that as external stakeholder environmental standards can further strengthen the positive role of 
+pressure intensifies, firms become more responsive in adjusting their digitalization and AI in supply chain performance and ESG governance, 
+ESG strategies to mitigate supplier-related risks. Notably, under certain ensuring that technological adoption translates into more sustainable 
+extreme conditions—such as low supplier dependence or high client outcomes.
+investor confidence—the positive association may weaken or even We acknowledge several limitations in this study, thus providing a 
+reverse, highlighting the presence of threshold effects in the ESG foundation for further research. First, although our sample size is com
+transmission mechanism within supply chains. parable to that in related supply chain studies (Geng et al., 2024; Wang 
+
+Our study contributes to both theory and practice. Theoretically, in et al., 2023a,b; Sun et al., 2023), the constrained institutional disclosure 
+comparison with prior research that largely interprets ESG engagement rules in Chinese listed firms, especially regarding the supplier informa
+as a reactive strategy triggered by supplier misconduct or crisis events tion, inherently limits the number of observable supply chain relation
+(Li and Cuervo-Cazurra, 2024; Hu et al., 2024), our study distinguishes ships, and thus largely reduces the comprehensiveness of our data. 
+supplier risk-taking from misconduct behavior and demonstrates that Future research could benefit from incorporating broader supply chain 
+strategic risk decisions—detectable in advance through operational databases to enlarge the sample coverage.
+indicators—can proactively shape downstream ESG strategies. By doing Second, corporate reputation—used here as a moderating varia
+so, our study extends stakeholder theory and signaling theory by ble—may be endogenous to client firms’ long-term ESG performance. 
+showing that upstream suppliers’ strategic risk-taking can function as a Firms with sustained high ESG performance are more likely to build 
+forward-looking signal that prompts downstream ESG engagement, strong reputations, while certain unobserved factors may simulta
+thereby expanding the traditional view of ESG as merely a reactive neously influence both variables. While this study focuses on the asso
+response to corporate misconduct. This shifts the academic conversation ciation rather than strict causal identification, future research could 
+toward the proactive role of ESG in risk absorption and prevention address this issue by employing dynamic panel models, instrumental 
+within supply chains. variable approaches, or natural experiments to more robustly identify 
+
+Moreover, while existing literature on corporate risk-taking has the causal moderating role of corporate reputation.
+primarily examined intra-firm outcomes such as innovation, perfor Third, while our theoretical framework emphasizes the proactive 
+mance, and financial policy (García-Granero et al., 2015; Cain and nature of ESG responses, our empirical design of using the annual fre
+McKeon, 2016; Díez-Esteban et al., 2017), our study goes beyond this quency data makes it difficult to definitively distinguish proactive 
+scope to inter-firm effects within supply chains, uncovering a novel strategies from rapid reactions occurring within the same year. We 
+transmission channel from supplier risk-taking to client ESG therefore leave this as a promising avenue for future research, which 
+performance. could combine high-frequency (e.g., quarterly or event-level) data with 
+
+Finally, our results hold relevance for other emerging market event-study methods to provide deeper insights into the temporal dy
+namics of ESG adjustments.
+
+14 
+
+
+
+J. Zhou et al.                                                                                                                                                                   I n t e r n a t i o n a l  J o u r n a l   o f   P r o d u c t i o n  E c o n o m i c s 291 (2026) 109856 
+
+CRediT authorship contribution statement Conceptualization.
+
+Jing Zhou: Writing – review & editing, Validation, Supervision, Funding
+Resources, Project administration, Funding acquisition, Conceptualiza
+tion. Tingwei Wu: Writing – review & editing, Supervision, Project This research is supported by the Graduate Representative 
+administration, Methodology, Data curation. Kaiwen Wu: Writing – Achievement Cultivation Project of Southwest University of Finance and 
+review & editing, Writing – original draft, Validation, Supervision, Economics (Grant No. JGS2024095 & JGS2024053).
+Software, Methodology, Formal analysis, Data curation, 
+
+Appendix 
+
+Appendix 1 Functional form test of partially linear functional-coefficient model.
+In this appendix, we introduce the method for testing the stability of our moderating model. To examine whether the functional form assumptions 
+
+we adopt for the moderating effects are more appropriate than those of the conventional linear interaction term model, we construct a statistic and use 
+the wild bootstrap method to obtain the sample distribution of this statistic. Specifically, we first present the two models as follows: 
+C ESGit =α + β1⋅S Risk-takingit + β2⋅S Risk-takingit × Zit + ω⋅Othersit + Yearst + Industryit + firmi + ε1,it (1a) 
+
+C ESGit = c+ β(Zit) ⋅ S Risk-takingit +ω ⋅ Othersit +Yearst + Industryit + firmi + ε2,it (2a) 
+Model 1 is a linear interaction term panel data model, while Model 2 is a partially linear functional-coefficient panel data model.
+Second, we propose two hypotheses:
+H0: Model (1) is the correct model.
+H1: Model (2) is the correct model.
+Under the null hypothesis, all model coefficients are fixed, including S Risk-takingit, which does not change with Zit . In other words, the moderating 
+
+effect variable Zit is linear. The alternative hypothesis (H1) is that Model (2) is the correct model, suggesting that the relationship between S Risk- 
+takingit and C ESGit is nonlinear and varies with Zit.
+
+To test these hypotheses, we develop the T-statistic, defined as follows: 
+∑ ∑
+
+ε̂
+T 1,it − ε̂2,it
+= ∑
+
+ε̂ (3a) 
+2,it
+
+∑ ∑
+where ε̂1,it is the residual sum of squares of Model (1), ε̂2,it is the residual sum of squares of Model (2).
+
+Following prior studies (Kreiss et al. (2008), Cai (2007) and Cai et al. (2000)), we use the non-parametric wild bootstrap method to directly obtain 
+the sample distribution of T. We compute 1000 bootstrap statistics to determine the 1 %, 5 %, and 10 % critical values of the empirical distribution of 
+the bootstrapped statistic. If the p-value is less than 10 %, we reject the null hypothesis and conclude that Model 2 (the partially linear 
+functional-coefficient panel data model) is the correct model.
+
+The testing method employed in this study has the following three key features: First, the statistic constructed uses the partially linear functional- 
+coefficient model and the linear interaction term panel data model effectively tests whether the impact of the core explanatory variable on the 
+dependent variable is influenced by the non-linear effect of the moderating variable. Second, during the wild bootstrap process, the residuals from the 
+model estimation are used. Regardless of whether the null hypothesis holds, the residuals we use are asymptotically consistent, which improves the 
+power of our test statistic. Third, by calculating the p-value through wild bootstrap, we ensure that the test maintains favorable large-sample 
+properties when using non-parametric estimation in panel data. As shown in Appendix Table 1, all the T-statistics are statistically significant at 
+the 1 % (or 5 %) level across all estimations, suggesting that the partially linear functional-coefficient panel data model is statistically superior to the 
+linear interaction term panel data model at the 1 % (or 5 %) significance level.
+
+Appendix Table 1 
+Functional form test of partially linear functional-coefficient model
+
+Dependent variable: C_ESG
+​ (1) (2) (3)
+Moderator Supplier dependence Corporate reputation Investor confidence
+T statistic − 0.127*** − 0.196*** − 0.130***
+​ (0.000) (0.000) (0.000)
+​ ​ ​ ​
+​ (4) (5) (6)
+Moderator Corporate Digitalization Artificial intelligence Other digital technology
+T statistic − 0.131*** − 0.290** − 0.129***
+​ (0.000) (0.035) (0.000)
+​ ​ ​ ​
+
+Notes: * < 0.1, ** < 0.05, *** < 0.01.P-values are shown in brackets.
+
+Data availability References
+
+Data will be made available on request. Abakah, E.J.A., Tiwari, A.K., Abdullah, M., Ji, Q., Sulong, Z., 2024. Monetary policy 
+uncertainty and ESG performance across energy firms. Energy Econ., 107699
+
+15 
+
+
+
+J. Zhou et al.                                                                                                                                                                   I n  t e r n  a  t i o  n  a l  J  o  u r  n a  l   o  f   P  r o  d  u c  t i o  n  E  c  o  n o  m   i c s 291 (2026) 109856 
+
+Agyemang, A.O., Osei, A., Kongkuah, M., 2025. Exploring the ESG-circular economy Firth, M., Wang, K., Wong, S.M., 2015. Corporate transparency and the impact of 
+nexus in emerging markets: a systems perspective on governance, innovation, and investor sentiment on stock prices. Manag. Sci. 61 (7), 1630–1647.
+sustainable business models. Bus. Strategy Environ. 34 (5), 5901–5924. Gangi, F., Daniele, L.M., Varrone, N., 2020. How do corporate environmental policy and 
+
+Aktas, N., Croci, E., Petmezas, D., 2015. Is working capital management value- corporate reputation affect risk-adjusted financial performance? Bus. Strat. Environ. 
+enhancing? Evidence from firm performance and investments. J. Corp. Finance 30, 29 (5), 1975–1991.
+98–113. Gao, R., Zhang, C.M., He, X., Li, Z., 2025. Attention to market expansion: aspirational 
+
+Albuquerque, R., Koskinen, Y., Zhang, C., 2019. Corporate social responsibility and firm antecedent and risk-taking consequence. J. Bus. Res. 192, 115322.
+risk: theory and empirical evidence. Manag. Sci. 65 (10), 4451–4469. García-Granero, A., Llopis, Ó., Fernández-Mesa, A., Alegre, J., 2015. Unraveling the link 
+
+Ameer, R., Othman, R., 2012. Sustainability practices and corporate financial between managerial risk-taking and innovation: the mediating role of a risk-taking 
+performance: a study based on the top global corporations. J. Bus. Ethics 108, 61–79. climate. J. Bus. Res. 68 (5), 1094–1104.
+
+Bansal, R., Shaliastovich, I., 2010. Confidence risk and asset prices. Am. Econ. Rev. 100 Geng, Y., Xiang, X., Zhang, G., Li, X., 2024. Digital transformation along the supply 
+(2), 537–541. chain: spillover effects from vertical partnerships. J. Bus. Res. 183, 114842.
+
+Barakat, A., Chernobai, A., Wahrenburg, M., 2014. Information asymmetry around Germain, R., Claycomb, C., Dröge, C., 2008. Supply chain variability, organizational 
+operational risk announcements. J. Bank. Finance 48, 152–179. structure, and performance: the moderating effect of demand unpredictability. 
+
+Bargeron, L.L., Lehn, K.M., Zutter, C.J., 2010. Sarbanes-oxley and corporate risk-taking. J. Oper. Manag. 26 (5), 557–570.
+J. Account. Econ. 49 (1–2), 34–52. Greve, H.R., Palmer, D., Pozner, J.E., 2010. Organizations gone wild: the causes, 
+
+Barko, T., Cremers, M., Renneboog, L., 2022. Shareholder engagement on processes, and consequences of organizational misconduct. Acad. Manag. Ann. 4 (1), 
+environmental, social, and governance performance. J. Bus. Ethics 180 (2), 777–812. 53–107.
+
+Bitektine, A., 2011. Toward a theory of social judgments of organizations: the case of Grewal, J., Serafeim, G., Yoon, A., 2016. Shareholder Activism on Sustainability Issues. 
+legitimacy, reputation, and status. Acad. Manag. Rev. 36 (1), 151–179. Available at SSRN 2805512. 
+
+Bode, C., Wagner, S.M., 2015. Structural drivers of upstream supply chain complexity Ha, A.Y., Shang, W., Wang, Y., 2023. Supplier audit information sharing and responsible 
+and the frequency of supply chain disruptions. J. Oper. Manag. 36, 215–228. sourcing. Manag. Sci. 69 (1), 308–324.
+
+Brusset, X., Teller, C., 2017. Supply chain capabilities, risks, and resilience. Int. J. Prod. Habib, A., Hasan, M.M., 2017. Firm life cycle, corporate risk-taking and investor 
+Econ. 184, 59–68. sentiment. Account. Finance 57 (2), 465–497.
+
+Cai, Z., 2007. Trending time-varying coefficient time series models with serially Hartmann, J., 2021. Toward a more complete theory of sustainable supply chain 
+correlated errors. J. Econom. 136 (1), 163–188. management: the role of media attention. Supply Chain Manag.: Int. J. 26 (4), 
+
+Cai, Z., Fan, J., Yao, Q., 2000. Functional-coefficient regression models for nonlinear 532–547.
+time series. J. Am. Stat. Assoc. 95 (451), 941–956. Hartmann, J., Moeller, S., 2014. Chain liability in multitier supply chains? Responsibility 
+
+Cai, Z., Fang, Y., Lin, M., Su, J., 2019. Inferences for a partially varying coefficient model attributions for unsustainable supplier behavior. J. Oper. Manag. 32 (5), 281–294.
+with endogenous regressors. J. Bus. Econ. Stat. 37 (1), 158–170. Hasan, M.M., Habib, A., Zhao, R., 2022. Corporate reputation risk and cash holdings. 
+
+Cain, M.D., McKeon, S.B., 2016. CEO personal risk-taking and corporate policies. Account. Finance 62 (1), 667–707.
+J. Financ. Quant. Anal. 51 (1), 139–164. He, Y., Zhao, X., Zheng, H., 2023. How does the environmental protection tax law affect 
+
+Chai, J., Ngai, E.W., 2015. Multi-perspective strategic supplier selection in uncertain firm ESG? Evidence from the Chinese stock markets. Energy Econ. 127, 107067.
+environments. Int. J. Prod. Econ. 166, 215–225. Hendricks, K.B., Singhal, V.R., 2005a. Association between supply chain glitches and 
+
+Chen, H.A., Karim, K., Tao, A., 2021. The effect of suppliers’ corporate social operating performance. Manag. Sci. 51 (5), 695–711.
+responsibility concerns on customers’ stock price crash risk. Adv. Account. 52, Hendricks, K.B., Singhal, V.R., 2005b. An empirical analysis of the effect of supply chain 
+100516. disruptions on long-run stock price performance and equity risk of the firm. Prod. 
+
+Chen, H., Liu, S., Zhang, D., Zhang, L., 2025. Corporate ESG washing and ESG rating Oper. Manag. 14 (1), 35–52.
+divergence: evidence from China. Bus. Strat. Environ. 34 (7), 8390–8428. Hertzel, M.G., Li, Z., Officer, M.S., Rodgers, K.J., 2008. Inter-firm linkages and the wealth 
+
+Chen, J.Z., Li, Z., Mao, T., Yoon, A., 2025. Global versus local ESG ratings: evidence from effects of financial distress along the supply chain. J. Financ. Econ. 87 (2), 374–387.
+China. Account. Rev. 100 (4), 161–192. Ho, W., Xu, X., Dey, P.K., 2010. Multi-criteria decision making approaches for supplier 
+
+Chen, Y., Cao, S., 2025. How customer digital orientation drives supplier green and low- evaluation and selection: a literature review. Eur. J. Oper. Res. 202 (1), 16–24.
+carbon efforts: the roles of supplier dependence and common ownership. Int. J. Prod. Hoskisson, R.E., Chirico, F., Zyung, J., Gambeta, E., 2017. Managerial risk taking: a 
+Econ., 109680 multitheoretical review and future research agenda. J. Manag. 43 (1), 137–169.
+
+Chen, Z., Xie, G., 2022. ESG disclosure and financial performance: moderating role of Hu, J., Zheng, C., Xu, J., Wu, X., 2024. The influence of supplier financial violations on 
+ESG investors. Int. Rev. Financ. Anal. 83, 102291. clients’ environmental, social, and governance performance: evidence from China’s 
+
+Cheng, B., Ioannou, I., Serafeim, G., 2014. Corporate social responsibility and access to manufacturing industry. Corp. Soc. Responsib. Environ. Manag. 31 (6), 6217–6233.
+finance. Strateg. Manag. J. 35 (1), 1–23. Huang, D., Jiang, F., Tu, J., Zhou, G., 2015. Investor sentiment aligned: a powerful 
+
+Chopra, S., Sodhi, M., 2014. Reducing the risk of supply chain disruptions. MIT Sloan predictor of stock returns. Rev. Financ. Stud. 28 (3), 791–837.
+Manag. Rev. 55 (3), 73–80. Hui, K.W., Liang, C., Yeung, P.E., 2019. The effect of major customer concentration on 
+
+Cojoianu, T.F., Ascui, F., Clark, G.L., Hoepner, A.G., Wójcik, D., 2021. Does the fossil fuel firm profitability: competitive or collaborative? Rev. Account. Stud. 24, 189–229.
+divestment movement impact new oil and gas fundraising? J. Econ. Geogr. 21 (1), Hummels, D.L., Schaur, G., 2013. Time as a trade barrier. Am. Econ. Rev. 103 (7), 
+141–164. 2935–2959.
+
+Connelly, B.L., Certo, S.T., Ireland, R.D., Reutzel, C.R., 2011. Signaling theory: a review Ivanov, D., 2020. Predicting the impacts of epidemic outbreaks on global supply chains: a 
+and assessment. J. Manag. 37 (1), 39–67. simulation-based analysis on the coronavirus outbreak (COVID-19/SARS-CoV-2) 
+
+Costello, A.M., 2020. Credit market disruptions and liquidity spillover effects in the case. Transport. Res. E Logist. Transport. Rev. 136, 101922.
+supply chain. J. Polit. Econ. 128 (9), 3434–3468. Ivanov, D., 2024. Supply chain resilience: conceptual and formal models drawing from 
+
+Craighead, C.W., Blackhurst, J., Rungtusanatham, M.J., Handfield, R.B., 2007. The immune system analogy. Omega 127, 103081.
+severity of supply chain disruptions: design characteristics and mitigation Ivanov, D., Dolgui, A., 2020. Viability of intertwined supply networks: extending the 
+capabilities. Decis. Sci. J. 38 (1), 131–156. supply chain resilience angles towards survivability. A position paper motivated by 
+
+Cui, X., Said, R.M., Rahim, N.A., Ni, M., 2024. Can green finance lead to green COVID-19 outbreak. Int. J. Prod. Res. 58 (10), 2904–2915.
+investment? Evidence from heavily polluting industries. Int. Rev. Financ. Anal., Jin, H., Jiang, N., Su, W., Dalia, S., 2025. How does customer enterprise digitalization 
+103445 improve the green total factor productivity of state-owned suppliers: from the supply 
+
+Dhaliwal, D., Judd, J.S., Serfling, M., Shaikh, S., 2016. Customer concentration risk and chain perspective. Omega 133, 103248.
+the cost of equity capital. J. Account. Econ. 61 (1), 23–48. John, K., Litov, L., Yeung, B., 2008. Corporate governance and risk-taking. J. Finance 63 
+
+Díez-Esteban, J.M., García-Gómez, C.D., López-Iturriaga, F.J., Santamaría-Mariscal, M., (4), 1679–1728.
+2017. Corporate risk-taking, returns and the nature of major shareholders: evidence Kalkanci, B., Plambeck, E.L., 2020a. Reveal the supplier list? A trade-off in capacity vs. 
+from prospect theory. Res. Int. Bus. Finance 42, 900–911. responsibility. Manuf. Serv. Oper. Manag. 22 (6), 1251–1267.
+
+Ding, L., Cui, Z., Li, J., 2024. Risk management and corporate ESG performance: the Kalkanci, B., Plambeck, E.L., 2020b. Managing supplier social and environmental 
+mediating effect of financial performance. Finance Res. Lett. 69, 106274. impacts with voluntary versus mandatory disclosure to investors. Manag. Sci. 66 (8), 
+
+Distelhorst, G., Hainmueller, J., Locke, R.M., 2017. Does lean improve labor standards? 3311–3328.
+Management and social performance in the Nike supply chain. Manag. Sci. 63 (3), Kamalahmadi, M., Parast, M.M., 2017. An assessment of supply chain disruption 
+707–728. mitigation strategies. Int. J. Prod. Econ. 184, 210–230.
+
+Du, K., Zhang, Y., Zhou, Q., 2020. Fitting partially linear functional-coefficient panel- Karpoff, J.M., Lee, D.S., Martin, G.S., 2008. The cost to firms of cooking the books. 
+data models with Stata. STATA J. 20 (4), 976–998. J. Financ. Quant. Anal. 43 (3), 581–611.
+
+Dubey, R., Gunasekaran, A., Childe, S.J., 2019. Big data analytics capability in supply Karpoff, J.M., Lott, J., John, R., Wehrly, E.W., 2005. The reputational penalties for 
+chain agility: the moderating effect of organizational flexibility. Manag. Decis. 57 environmental violations: empirical evidence. J. Law Econ. 48 (2), 653–675.
+(8), 2092–2112. Katsaliaki, K., Galetsi, P., Kumar, S., 2022. Supply chain disruptions and resilience: a 
+
+Dyck, A., Morse, A., Zingales, L., 2010. Who blows the whistle on corporate fraud? major review and future research agenda. Ann. Oper. Res. 319 (1), 965–1002.
+J. Finance 65 (6), 2213–2253. Kim, Y., Chen, Y.-S., Linderman, K., 2015. Supply network disruption and resilience: a 
+
+Eroglu, C., Hofer, C., 2011. Lean, leaner, too lean? The inventory-performance link network structural perspective. J. Oper. Manag. 33, 43–59.
+revisited. J. Oper. Manag. 29 (4), 356–369. Kreiss, J.-P., Neumann, M.H., Yao, Q., 2008. Bootstrap tests for simple structures in 
+
+Feng, G., Gao, J., Peng, B., Zhang, X., 2017. A varying-coefficient panel data model with nonparametric time series regression. Stat. Interface 1 (2), 367–380.
+fixed effects: theory and an application to US commercial banks. J. Econom. 196 (1), Lagasio, V., Cucari, N., 2019. Corporate governance and environmental social 
+68–82. governance disclosure: a meta-analytical review. Corp. Soc. Responsib. Environ. 
+
+Manag. 26 (4), 701–711.
+
+16 
+
+
+
+J. Zhou et al.                                                                                                                                                                   I n  t e r n  a  t i o  n  a l  J  o  u r  n a  l   o  f   P  r o  d  u c  t i o  n  E  c  o  n o  m   i c s 291 (2026) 109856 
+
+Lee, B., Rosenthal, L., Veld, C., Veld-Merkoulova, Y., 2015. Stock market expectations Shu, P.G., Chiang, S.J., Wu, T.Y., 2024. Board network and ESG performance: evidence 
+and risk aversion of individual investors. Int. Rev. Financ. Anal. 40, 122–131. from China. Corp. Soc. Responsib. Environ. Manag. 31 (6), 5709–5729.
+
+Leung, W.S., Sun, J., 2021. Policy uncertainty and customer concentration. Prod. Oper. Singh, N.P., 2021. Managing the adverse effect of supply chain risk on corporate 
+Manag. 30 (5), 1517–1542. reputation: the mediating role of corporate social responsibility practices. J. Gen. 
+
+Li, C., Cuervo-Cazurra, A., 2024. How subsidiary and supplier misbehavior lead to Manag. 46 (4), 251–261.
+corporate social responsibility performance improvements in multinationals. J. Int. Soares, A., Soltani, E., Liao, Y.-Y., 2017. The influence of supply chain quality 
+Bus. Stud. 55 (4), 470–491. management practices on quality performance: an empirical investigation. Supply 
+
+Li, D., 2011. Financial constraints, R&D investment, and stock returns. Rev. Financ. Stud. Chain Manag.: Int. J. 22 (2), 122–144.
+24 (9), 2974–3007. Soleimani, A., Schneper, W.D., Newburry, W., 2014. The impact of stakeholder power on 
+
+Li, J., Lian, G., Xu, A., 2023. How do ESG affect the spillover of green innovation among corporate reputation: a cross-country corporate governance perspective. Organ. Sci. 
+peer firms? Mechanism discussion and performance study. J. Bus. Res. 158, 113648. 25 (4), 991–1008.
+
+Li, K., Griffin, D., Yue, H., Zhao, L., 2013. How does culture influence corporate risk- Sreedevi, R., Saranga, H., 2017. Uncertainty and supply chain risk: the moderating role 
+taking? J. Corp. Finance 23, 1–22. of supply chain flexibility in risk mitigation. Int. J. Prod. Econ. 193, 332–342.
+
+Libois, F., Verardi, V., 2013. Semiparametric fixed-effects estimator. STATA J. 13 (2), Sun, L., Ong, T.S., Teh, B.H., Di Vaio, A., 2024. Sustainable performance measurement 
+329–336. through digital transformation within the sustainable development framework: the 
+
+Lin, W.L., 2023. Corporate social responsibility and irresponsibility: effects on supply mediating effect of supply chain concentration. Sustain. Dev. 32 (6), 5895–5912.
+chain performance in the automotive industry under environmental turbulence. Sun, Z., Yang, G., Bai, H., 2023. The spillover effect of customers’ financial risk on 
+J. Clean. Prod. 428, 139033. suppliers’ conservative reporting: evidence from China. Int. Rev. Financ. Anal. 87, 
+
+Lins, K.V., Servaes, H., Tamayo, A., 2017. Social capital, trust, and firm performance: the 102576.
+value of corporate social responsibility during the financial crisis. J. Finance 72 (4), Tian, G., Li, B., Cheng, Y., 2022. Does digital transformation matter for corporate risk- 
+1785–1824. taking? Finance Res. Lett. 49, 103107.
+
+Liu, H., He, G., Ma, R., Fu, S., 2023. The impact of social capital on socially responsible Tomlin, B., 2006. On the value of mitigation and contingency strategies for managing 
+supply chain performance: the moderating role of supply chain transparency. Foods supply chain disruption risks. Manag. Sci. 52 (5), 639–657.
+12 (19), 3624. Vural-Yavaş, Ç., 2020. Corporate risk-taking in developed countries: the influence of 
+
+Long, L., Wang, C., Zhang, M., 2024. Does social media pressure induce corporate economic policy uncertainty and macroeconomic conditions. J. Multinatl. Financ. 
+hypocrite? Evidence of ESG greenwashing from China. J. Bus. Ethics 1–28. Manag. 54, 100616.
+
+Love, E.G., Kraatz, M.S., 2017. Failed stakeholder exchanges and corporate reputation: Wang, H., Jiao, S., Ma, C., 2024. The impact of ESG responsibility performance on 
+the case of earnings misses. Acad. Manag. J. 60 (3), 880–903. corporate resilience. Int. Rev. Econ. Finance 93, 1115–1129.
+
+Ma, S., Shen, J., Wang, F., Wu, W., 2022. A tale of two Us: corporate leverage and Wang, L., Li, M., Wang, W., Gong, Y., Xiong, Y., 2023a. Green innovation output in the 
+financial asset allocation in China. Int. Rev. Financ. Anal. 83, 102260. supply chain network with environmental information disclosure: an empirical 
+
+Masulis, R.W., Reza, S.W., 2015. Agency problems of corporate philanthropy. Rev. analysis of Chinese listed firms. Int. J. Prod. Econ. 256, 108745.
+Financ. Stud. 28 (2), 592–636. Wang, L., Qi, J., Zhuang, H., 2023b. Monitoring or collusion? Multiple large shareholders 
+
+Nekhili, M., Boukadhaba, A., Nagati, H., Chtioui, T., 2021. ESG performance and market and corporate ESG performance: evidence from China. Finance Res. Lett. 53, 
+value: the moderating role of employee board representation. Int. J. Hum. Resour. 103673.
+Manag. 32 (14), 3061–3087. Wang, L., Ye, Y., Huo, B., 2025. Spillover of bad publicity: effect of negative ESG 
+
+Neville, B.A., Bell, S.J., Mengüç, B., 2005. Corporate reputation, stakeholders and the coverage in supply chains on firm performance. Int. J. Prod. Econ., 109654
+social performance-financial performance relationship. Eur. J. Market. 39 (9/10), Wang, S., Zhang, H., 2025. Generative artificial intelligence and internationalization 
+1184–1198. green innovation: roles of supply chain innovations and AI regulation for SMEs. 
+
+Newson, R., 2001. B-splines and splines parameterized by their values at reference points Technol. Soc. 82, 102898.
+on the x-axis. Stata Technical Bulletin 10 (57). Wu, L., Wang, M., Kumar, A., Choi, T.-M., 2024. Mitigating the bullwhip effect through 
+
+Nielsen, B.B., Nielsen, S., 2011. The role of top management team international supply chain ESG transparency: roles of digitalization and signal strength. Int. J. 
+orientation in international strategic decision-making: the choice of foreign entry Oper. Prod. Manag. 44 (9), 1707–1731.
+mode. J. World Bus. 46 (2), 185–193. Wu, Z., Fan, X., Zhu, B., Xia, J., Zhang, L., Wang, P., 2022. Do government subsidies 
+
+Priem, R., Gabellone, A., 2024. The impact of a firm’s ESG score on its cost of capital: can improve innovation investment for new energy firms: a quasi-natural experiment of 
+a high ESG score serve as a substitute for a weaker legal environment. Sustain. China’s listed companies. Technol. Forecast. Soc. Change 175, 121418.
+Account. Manag. Policy J. 15 (3), 676–703. Wu, Z., Lin, S., Chen, T., Luo, C., Xu, H., 2023. Does effective corporate governance 
+
+Psarommatis, F., May, G., Azamfirei, V., 2024. Zero defect manufacturing in 2024: a mitigate the negative effect of ESG controversies on firm value? Econ. Anal. Pol. 80, 
+holistic literature review for bridging the gaps and forward outlook. Int. J. Prod. Res. 1772–1793.
+1–37. Yang, J., Su, J., Song, L., 2019. Selection of manufacturing enterprise innovation design 
+
+Queiroz, M.M., Ivanov, D., Dolgui, A., Fosso Wamba, S., 2022. Impacts of epidemic project based on consumer’s green preferences. Sustainability 11 (5), 1375.
+outbreaks on supply chains: mapping a research agenda amid the COVID-19 Yang, Y., Jiang, Y., 2024. The impact of suppliers’ CSR controversies on buyers’ market 
+pandemic through a structured literature review. Ann. Oper. Res. 319 (1), value: the moderating role of social capital. J. Purch. Supply Manag. 30 (1), 100904.
+1159–1196. Yu, J., Lo, C.W.H., Li, P.H.Y., 2017. Organizational visibility, stakeholder environmental 
+
+Rhodes–Kropf, M., Robinson, D.T., Viswanathan, S., 2005. Valuation waves and merger pressure and corporate environmental responsiveness in China. Bus. Strat. Environ. 
+activity: the empirical evidence. J. Financ. Econ. 77 (3), 561–603. 26 (3), 371–384.
+
+Roberts, P.W., Dowling, G.R., 2002. Corporate reputation and sustained superior Zavyalova, A., Pfarrer, M.D., Reger, R.K., Hubbard, T.D., 2016. Reputation as a benefit 
+financial performance. Strateg. Manag. J. 23 (12), 1077–1093. and a burden? How stakeholders’ organizational identification affects the role of 
+
+Sambasivan, M., Siew-Phaik, L., Abidin Mohamed, Z., Choy Leong, Y., 2011. Impact of reputation following a negative event. Acad. Manag. J. 59 (1), 253–276.
+interdependence between supply chain partners on strategic alliance outcomes: role Zhang, C., Chai, B., Mirza, S.S., Jin, Y., 2024. Customer-driven value creation in the 
+of relational capital as a mediating construct. Manag. Decis. 49 (4), 548–569. digital economy: determining the role of customer firms’ digital transformation on 
+
+Schrettle, S., Hinz, A., Scherrer-Rathje, M., Friedli, T., 2014. Turning sustainability into supplier performance in China. Omega 128, 103132.
+action: explaining firms’ sustainability efforts and their impact on firm performance. Zhang, M., Pawar, K.S., Bhardwaj, S., 2017. Improving supply chain social responsibility 
+Int. J. Prod. Econ. 147, 73–84. through supplier development. Prod. Plann. Control 28 (6–8), 500–511.
+
+Shahid, M.S., Abbas, M., 2019. Does corporate governance play any role in investor Zhang, Y., Wei, J., Zhu, Y., George-Ufot, G., 2020. Untangling the relationship between 
+confidence, corporate investment decisions relationship? Evidence from Pakistan Corporate Environmental Performance and Corporate Financial Performance: the 
+and India. J. Econ. Bus. 105, 105839. double-edged moderating effects of environmental uncertainty. J. Clean. Prod. 263, 
+
+Shu, H., Tan, W., 2023. Does carbon control policy risk affect corporate ESG 121584.
+performance? Econ. Modell. 120, 106148. Zhou, B., Li, Y.-m., Sun, F.-c., Zhou, Z.-g., 2021. Executive compensation incentives, risk 
+
+level and corporate innovation. Emerg. Mark. Rev. 47, 100798.
+
+17

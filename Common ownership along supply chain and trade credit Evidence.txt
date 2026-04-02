@@ -1,0 +1,592 @@
+﻿Finance Research Letters 56 (2023) 104111
+
+Contents lists available at ScienceDirect 
+
+Finance Research Letters 
+journal homepage: www.elsevier.com/locate/frl 
+
+Common ownership along supply chain and trade credit: Evidence 
+from China 
+Yanhui Xu * 
+
+School of Economics, Zhejiang University, Zhejiang, China   
+
+A R T I C L E  I N F O   A B S T R A C T   
+
+JEL classification: This paper explores the impact of common ownership along supply chain on trade credit based on 
+D22 customer-supplier relationships of Chinese listed firms. The results show that common ownership 
+G34 along supply chain can increase the trade credit. This effect is achieved through two channels: 
+D81 alleviating information asymmetry between customers and suppliers and participating in firm 
+Keywords: decision making. The effect of common ownership along supply chain on improving trade credit 
+Supply chain is more significant for non-state owned firms in China. This study provides a reference for equity 
+Common ownership 
+Trade credit linkages and financial governance in the supply chain.   
+Information asymmetry 
+
+1. Introduction 
+
+Trade credit plays an important role in making payments when customers purchase goods or services from their suppliers and is 
+often considered as an important source of informal financing for customers (Fisman and Love, 2003; Levine et al., 2018). Earlier 
+literature examined the impact of factors such as financial development (Fisman and Love, 2003), ownership structure (Ge and Qiu, 
+2007), supplier competition (Chod et al., 2019), and executive-supplier ties (Kong et al., 2020) on trade credit. However, there is less 
+literature examining trade credit from the perspective of equity ties in customer-supplier relationships. This paper extends the line of 
+research in this area by examining the impact of common ownership between customers and suppliers on the aspects of firms’ access to 
+trade credit. 
+
+Since suppliers provide trade credit without collateral from the customer and without guarantees from third parties or financial 
+intermediaries (Costello, 2013; García-Teruel et al., 2014), then firms are exposed to information asymmetry and moral hazard 
+problems. Research on firm common ownership that has emerged in recent years has found that when firms are linked by common 
+ownership, it can mitigate information asymmetries (Kang et al., 2018) and also improve supervisory efficiency and enhance firms’ 
+willingness to disclose (Park et al., 2019). Therefore, I hypothesize that there will be an impact on trade credit when common 
+ownership occurs between suppliers and customers, and verify this empirically. 
+
+I study the impact of common ownership along supply chain on trade credit using a sample of listed firms in China, and my main 
+contributions are as follows. First, I provide a new perspective for studying trade credit. Second, existing literature on common 
+ownership mainly studies common ownership of firms in the same industry (Azar et al., 2018; He and Huang, 2017; Lewellen and 
+Lower, 2021; Li and Liu, 2023), and I expand the research related to vertical common ownership from a supply chain perspective. 
+Third, I enrich the literature on supplier-customer linkages; previous literature emphasizes social ties between suppliers and customers 
+
+* Corresponding author. 
+E-mail address: xuyh0818@zju.edu.cn.  
+
+https://doi.org/10.1016/j.frl.2023.104111 
+Received 28 April 2023; Received in revised form 29 May 2023; Accepted 14 June 2023   
+Available online 15 June 2023
+1544-6123/© 2023 Elsevier Inc. All rights reserved.
+
+
+
+Y. Xu                                                                                                                                                                                   F i n a n c e  R e s e a r c h  L e t t e r s 56 (2023) 104111
+
+(Kong et al., 2020), while my study documents the impact of equity ties on supply chain relationships. 
+
+2. Data and research design 
+
+2.1. Data sources 
+
+My sample consists of firms listed on the Shanghai and Shenzhen stock exchanges during the sample period from 2009 to 2020. My 
+data sources are two. First, I obtain firms’ financial data and data on firms’ top five suppliers and customers from the CSMAR database 
+(a database widely used when studying Chinese firms). Second, I obtain information on the top ten shareholders of a firm from the 
+firm’s shareholder database. I identified suppliers and customers with the same shareholders by comparing their shareholder infor
+mation, and defined them as customer-supplier relationships with common ownership in the supply chain. 
+
+2.2. Measurement of common ownership along supply chain 
+
+Conceptually, common ownership along supply chain indicates the extent to which suppliers and customers are held by the same 
+shareholder, and I use three methods to measure common ownership along supply chain. First, a dummy variable cos1, indicating 
+whether customer i has a common shareholder with its suppliers, takes the value 1 if it does, and 0 if customer i does not have a 
+common shareholder with any of its suppliers. 
+
+Second, the product of the equity of the common shareholders of the supplier and the customer firm is calculated (Lewellen and 
+Lower, 2021) and the product of all common shareholders is aggregated as follows: 
+
+∑N
+pair − cos2i,j = commoni,k × commonj,k (1)  
+
+k=1
+
+where commoni,k and commonj,k are equal to the percentage ownership of common shareholder k in customer i and supplier j. The use of 
+the product of ownership stakes rather than the arithmetic mean lies in the fact that the product incorporates the symmetry between 
+commoni,k and commonj,k, the higher the degree of similarity between supplier and customer equity, the higher the value of cos2. This 
+customer-supplier level measure is then aggregated at the customer level to form a customer level measure of: 
+
+∑N
+cos2i = weighti,j × cosi,j (2)  
+
+j=1
+
+weighti,j denotes the share of customer i’s purchasing share from supplier j. 
+Third, referring to the approach of Kostovetsky and Manconi (2020), the common ownership along supply chain is defined as 
+
+}
+pair − cos3i,j= min{commoni,k, commonj,k (3) 
+
+That is, the minimum value between the proportion of common shareholders holding i customer shares and the proportion holding j 
+supplier shares, also contains symmetry. After that, the same is weighted and aggregated to the client firm level according to Eq. (2). 
+
+Table 1 
+Variable definitions.  
+
+Variable type Variables Variable Definitions 
+symbol 
+
+Dependent Trade credit TC Ratio of accounts payable to total assets 
+variables 
+
+Independent Common ownership along cos1 Whether the customer and the supplier have common shareholders   
+variables supply chain 
+
+cos2 The product of the shareholding of common shareholders, summed by the share of customer 
+purchases   
+
+cos3 The minimum value of the common shareholder equity share of customers and suppliers, 
+summed by the share of customer purchases 
+
+Control Firm size size Logarithm of total firm assets  
+variables 
+
+Firm age lnage Logarithm of firm establishment years plus one  
+Percentage of fixed assets ppr Total fixed assets over total assets  
+Return on Assets roa Total net earnings over total assets  
+Total earnings before interest ebit Total earnings before tax and interest over total assets  
+and taxes 
+Firm cash cash Total operating cash flows over total assets  
+Leverage lev Total liabilities over total assets  
+R&D Expenditure rd R&D expenditure as a percentage of total assets 
+
+Notes: This table presents the definition of key variables and firm-level controls. 
+
+2
+
+
+
+Y. Xu                                                                                                                                                                                   F i n a n c e  R e s e a r c h  L e t t e r s 56 (2023) 104111
+
+2.3. Model design 
+
+I construct model (4) to test the effect of common ownership along supply chain on firms’ trade credit, 
+∑ ∑ ∑
+
+TCi,t = α + β1(cos1 / cos2 / cos3) + βjcontrolsi,t + firmi + yeart + μit (4) 
+
+Measurement of trade credit(TCi,t). Referring to existing studies, trade credit is defined as total accounts payable divided by total 
+assets. In addition, for robustness testing, I measure trade credit in four other ways. First, the variable L TC is created, which is total 
+accounts payable divided by total liabilities (Fisman and Love, 2003). Second, use (NET TC) equal to net accounts payable-accounts 
+receivable divided by total assets (Liu et al,2016). Third, only the financed portion of accounts payable (F TC) (accounts payable with 
+maturity > 1 year) is used, measured as a percentage of total assets (Ge and Qiu,2007). 
+
+To be consistent with the literature, we follow Ge and Qiu (2007), Wu et al. (2014) and Liu et al. (2016) in introducing control 
+variables to capture additional determinants of trade credit. Detailed definitions of all variables used in this study are presented in 
+Table 1. Fourth, to exclude the effect of industry characteristics, the excess of trade credit relative to the industry average is used as the 
+dependent variable. 
+
+3. Empirical results and analysis 
+
+3.1. Descriptive statistics analysis 
+
+The descriptive statistics values of the variables are shown in Table 2. I find, first, that common ownership along supply chain is 
+prevalent in my sample with a mean value of 0.144 for cos1, indicating that 14.4% of the customer sample has common ownership with 
+at least one supplier. Second, there is a significant difference in the standard deviation and extreme values of common ownership along 
+supply chain among the sample firms. The minimum value of cos3 is 0, while the maximum value is 0.143, which indicates that 
+common ownership along supply chain is sufficient to have an impact on firms’ behavior. Third, the firms’ trade credit differs 
+significantly with a minimum value of 0 at a mean of 0.0893, while the highest customer trade credit reaches 0.493. 
+
+3.2. Baseline regression analysis 
+
+Table 3 shows the baseline results of the regression using model (4). In column (1), the coefficient of the dummy variable cos1 is 
+0.0172 and is statistically significant at the 1% level, indicating that customers who have common shareholders with at least one 
+supplier will receive an additional 1.72% of total assets in trade credit. The coefficients of cos2 and cos3 in columns (2) and (3) are both 
+significantly positive, indicating that common ownership along supply chain increases the level of trade credit of the firm and enables 
+customers to obtain more trade credit from their suppliers. 
+
+In addition, the coefficients of the control variables are in line with my expectation. The coefficient of size is negative and sig
+nificant, indicating that larger firms receive less trade credit (Ge and Qiu, 2007). The estimated coefficients of cash held by firms (cash) 
+and financial leverage (lev) are both positive, which is consistent with the results of Liu et al. (2016). 
+
+3.3. Robust tests 
+
+Table 4 shows the regression results of the robustness tests, using the other three different measures of trade credit. When using 
+other measurements for the dependent variable, all coefficients of cos1 and cos3 in Table 4 are statistically significant positive and the 
+coefficient of cos2 on NET TC is positive and significant, which confirms the robustness of my findings. 
+
+Table 2 
+Summary statistics.  
+
+Variable N Mean SD Min p25 p50 p75 Max 
+
+TC 2739 0.0893 0.0735 0 0.0360 0.0722 0.129 0.493 
+cos1 2739 0.144 0.351 0 0 0 0 1 
+cos2 2739 0.000345 0.00356 0 0 0 0 0.122 
+cos3 2739 0.000766 0.00583 0 0 0 0 0.143 
+size 2739 22.95 2.266 16.76 21.40 22.46 24.05 31.14 
+lnage 2739 2.116 0.879 0 1.609 2.303 2.833 3.401 
+ppr 2739 0.226 0.181 4.60e-05 0.0819 0.184 0.334 0.937 
+roa 2739 0.0372 0.0923 -2.746 0.0129 0.0363 0.0670 0.464 
+ebit 2739 0.0526 0.0943 -2.682 0.0296 0.0521 0.0808 0.568 
+cash 2739 0.189 0.147 0 0.0855 0.149 0.249 0.993 
+lev 2739 0.386 0.260 0 0.156 0.384 0.597 0.970 
+rd 2739 0.00765 0.0777 0 0 0 0 4.554  
+
+3
+
+
+
+Y. Xu                                                                                                                                                                                   F i n a n c e  R e s e a r c h  L e t t e r s 56 (2023) 104111
+
+Table 3 
+Baseline regression results for common ownership along supply chain and trade credit.   
+
+(1) (2) (3) 
+Variables TC TC TC 
+
+cos1 0.0172***    
+(0.00248)   
+
+cos2  0.568*    
+(0.328)  
+
+cos3   0.579***    
+(0.167) 
+
+size -0.00884** -0.00958** -0.00984**  
+(0.00388) (0.00386) (0.00385) 
+
+lnage -0.00775** -0.00633* -0.00674*  
+(0.00353) (0.00353) (0.00351) 
+
+ppr -0.00603 -0.00338 -0.00256  
+(0.0223) (0.0218) (0.0221) 
+
+roa -0.0837 -0.0934 -0.0928  
+(0.0914) (0.0899) (0.0897) 
+
+ebit 0.0459 0.0569 0.0562  
+(0.0867) (0.0854) (0.0851) 
+
+cash 0.101*** 0.0978*** 0.0984***  
+(0.0120) (0.0120) (0.0120) 
+
+lev 0.0721*** 0.0719*** 0.0717***  
+(0.00845) (0.00844) (0.00845) 
+
+rd -0.0718 -0.0735 -0.0669  
+(0.0663) (0.0633) (0.0590) 
+
+Constant -0.0419 -0.0604 -0.0660  
+(0.0836) (0.0833) (0.0830) 
+
+Firm FE Yes Yes Yes 
+Year FE Yes Yes Yes 
+N 2739 2739 2739 
+R-squared 0.185 0.150 0.155 
+
+Notes: The dependent variable is trade credit, and cos1, cos2, and cos3 denote common ownership along supply chain 
+variables. Each regression includes a firm fixed effect for the year fixed effect. Also, we clustered the standard errors by firm. 
+The clustering robust standard errors are shown in parentheses. ***, **, and *, denote statistical significance at the 1%, 5%, 
+and 10% levels, respectively (same below). 
+
+3.4. Endogeneity 
+
+Considering that the existence of common ownership ties between customers and suppliers may not be exogenous, my results may 
+be influenced by potential endogeneity, especially reverse causality. For example, supply chain relationships where the same share
+holder has a greater probability of holding a higher level of trade credit because the supplier-customer relationship is more stable. In 
+this subsection, I use two approaches to address the issue of potential endogeneity. First, the dependent variable is used for period t+1. 
+Second, the 2SLS model with instrumental variables is used to test the model. 
+
+Table 5 shows the regression results using the dependent variable in period t+1. After replacing the dependent variable with the 
+trade credit fTCin period t+1, the coefficients of the three variables of common ownership along supply chain remain positive and 
+significant, indicating that common ownership along supply chain increases trade credit in period t+1, further demonstrating the 
+robustness of my results. 
+
+For the selection of instrumental variables, I am inspired by Schmidt and Fahlenbrach (2017), Gao et al. (2019) and Chen et al. 
+(2023) to use the entry or exit of a firm’s suppliers into or out of the constituent stocks of the CSI 300 index, which contains 300 stocks 
+that are " blue-chip" firms, which are more likely to attract investor interest. Belonging to the CSI 300 index may change the indicator 
+that suppliers and customers have a common ownership link, but it does not have a direct impact on a firm’s trade credit. Based on the 
+performance and stock price performance of the firms each year, the CSI 300 index adjusts its constituents. Based on this background, I 
+define two dummy variables and, which indicate whether a firm’s suppliers entered and exited the constituents of the CSI 300 index in 
+the previous period, respectively. And use these two dummy variables to predict common owernership along supply chain. 
+
+The results are shown in Table 6. In the first step of the regression, the coefficient of in300 is significantly positive, while out300 is 
+not significant, indicating that the entry of suppliers into the CSI 300 index increases the level of common ownership along supply 
+chain. In the second step of the regression, the coefficients of both cos2 and cos3 are significantly positive, indicating that my results are 
+not altered by the endogeneity problem. 
+
+3.5. The mechanism analysis 
+
+In trade in supply chains, contractual incompleteness, information asymmetry, and low levels of trust between firms lead to a 
+tendency for suppliers to be cautious in extending limited trade credit to customers. Common shareholders can effectively mitigate 
+information asymmetries, thus facilitating firms to maintain more stable supply chain relationships (Freeman, 2018). As a hub for 
+
+4
+
+
+
+Y. Xu                                                                                                                                                                                   F i n a n c e  R e s e a r c h  L e t t e r s 56 (2023) 104111
+
+5
+
+Table 4 
+Common ownership along supply chain and trade credit: roubusting check.   
+
+(1) (2) (3) (4) (5) (6) (7) (8) (9) (10) (11) (12) 
+Variables L_TC L_TC L_TC NET_TC NET_TC NET_TC F_TC F_TC F_TC lnbTC lnbTC lnbTC 
+
+cos1 0.0357***   0.0206***   0.00372**   0.0316***    
+(0.00425)   (0.00331)   (0.00189)   (0.00705)   
+
+cos2  0.907   0.962***   0.0697   0.7965***    
+(0.776)   (0.306)   (0.0516)   (0.238)  
+
+cos3   1.017***   0.904***   0.0785*   0.751***    
+(0.381)   (0.183)   (0.0454)   (0.0843) 
+
+Constant 0.214 0.178 0.167 -0.147 -0.171 -0.180 -0.0894* -0.0931** -0.0939** -7.159* -7.912* -7.902*  
+(0.145) (0.146) (0.146) (0.139) (0.141) (0.140) (0.0467) (0.0467) (0.0468) (3.934) (4.039) (4.043) 
+
+Controls Yes Yes Yes Yes Yes Yes Yes Yes Yes Yes Yes Yes 
+Firm FE Yes Yes Yes Yes Yes Yes Yes Yes Yes Yes Yes Yes 
+Year FE Yes Yes Yes Yes Yes Yes Yes Yes Yes Yes Yes Yes 
+N 2739 2739 2739 2733 2733 2733 2739 2739 2739 2739 2739 2739 
+R-squared 0.306 0.273 0.277 0.070 0.049 0.053 0.036 0.031 0.031 0.408 0.386 0.384 
+
+Note: Due to space limitations, the coefficients of the control variables are omitted from the regression results in this table (same below). 
+
+
+
+Y. Xu                                                                                                                                                                                   F i n a n c e  R e s e a r c h  L e t t e r s 56 (2023) 104111
+
+Table 5 
+Common ownership along supply chain and trade credit: t+1 period dependent variable.   
+
+(1) (2) (3) 
+Variables fTC fTC fTC 
+
+cos1 0.0168***    
+(0.00275)   
+
+cos2  0.518**    
+(0.214)  
+
+cos3   0.499**    
+(0.218) 
+
+Constant 0.0605 0.0430 0.0383  
+(0.0822) (0.0822) (0.0820) 
+
+Controls Yes Yes Yes 
+Firm FE Yes Yes Yes 
+Year FE Yes Yes Yes 
+N 2713 2713 2713 
+R-squared 0.074 0.044 0.047  
+
+Table 6 
+Common ownership along supply chain and trade credit: 2SLS.   
+
+(1) (2) (3) (4) (5) (6) 
+Variables cos1 TC cos2 TC cos3 TC 
+
+in300 0.557***  0.00171***  0.00505***   
+(0.0423)  (0.000386)  (0.000775)  
+
+out300 0.0776  1.59e-05  -0.000104   
+(0.0583)  (0.000123)  (0.000351)  
+
+cos1  0.0104**       
+(0.00406)     
+
+cos2    4.148**       
+(1.645)   
+
+cos3      1.414***       
+(0.516) 
+
+Constant -1.270* -0.0113 0.00473* -0.0815* 0.0121 -0.0789*  
+(0.710) (0.0390) (0.00259) (0.0481) (0.00795) (0.0444) 
+
+Controls Yes Yes Yes Yes Yes Yes 
+Firm FE Yes Yes Yes Yes Yes Yes 
+Year FE Yes Yes Yes Yes Yes Yes 
+N 2739 2739 2739 2739 2739 2739 
+R-squared 0.190  0.029  0.092  
+Sargan statistic 2.657  1.737  1.848  
+P-val 0.1031  0.1875  0.1740  
+Cragg-Donald Wald F statistic 180.549  16.094  72.069   
+
+information and resource flow between firms, common shareholders also accumulate rich management experience and can provide 
+information support for firms’ business decisions (Brooks et al., 2018). Common shareholders also enhance firms’ willingness to 
+disclose (Park et al., 2019), which can alleviate information asymmetry between suppliers and firms. At the same time, common 
+
+Table 7 
+Common ownership along supply chain and trade credit: The test of Intermediary mechanism.   
+
+(1) (2) (3) (4) 
+Variables TC TC TC TC 
+
+cos2_dist 0.124**     
+(0.0593)    
+
+cos3_dist  0.000716     
+(0.0484)   
+
+cos2_dir   0.187     
+(0.376)  
+
+cos3_dir    0.561**     
+(0.237) 
+
+Constant -0.0586 -0.0640 -0.0404 -0.0435  
+(0.0824) (0.0823) (0.0820) (0.0817) 
+
+Controls Yes Yes Yes Yes 
+Firm FE Yes Yes Yes Yes 
+Year FE Yes Yes Yes Yes 
+N 2739 2739 2739 2739 
+R-squared 0.153 0.156 0.236 0.239  
+
+6
+
+
+
+Y. Xu                                                                                                                                                                                   F i n a n c e  R e s e a r c h  L e t t e r s 56 (2023) 104111
+
+shareholders can form a positive influence on corporate governance during their participation in the business process and supervise the 
+business decisions of the firm (Kang et al., 2018). 
+
+Based on this, I examines two potential channels for common ownership along supply chain to improve trade credit, alleviating 
+information asymmetry and participating in firm decision making. 
+
+First, drawing on the existing literature (Li et al., 2015; Ding et al., 2023), we use the geographical distance from the supplier firm to 
+capture the degree of information asymmetry between customers and suppliers. Adding the cross product term cos2 × dist,of common 
+ownership and geographic distance to Eq. (4), if the coefficient of this term is positive, indicates that the impact of common ownership 
+along supply chain on trade credit is greater when information asymmetry is higher, and there exists a channel to mitigate information 
+asymmetry. 
+
+Second, appointing directors may be an effective way for common shareholders to participate in firm governance, which in turn 
+helps them to participate directly in making firm investment decisions. Consider that common shareholders have an incentive to 
+induce suppliers to provide larger trade credits to their customers. To test this channel, I define shareholder-appointed directors as 
+"directors who also work for a common shareholder" and manually collect data on directors appointed by common shareholders to 
+suppliers during the sample period. A dummy variable dir is constructed to indicate whether the common shareholder appoints a 
+director to the firm’s supplier, and the cross product term cos2 × dir is tested. If the coefficient is positive, it indicates that after the 
+common shareholder appoints a director, the customer receives more trade credit from the supplier, proving that the channel of 
+participation in the firm’s decision making holds. 
+
+Table 7 shows the regression results of the channel test. The coefficient of the cross product term cos2 × dist is positive and sig
+nificant, indicating that the channel of information asymmetry holds. The coefficient of the cross product cos3 × dir is also positive and 
+significant, indicating that the channel of participation in firm decision making is valid. 
+
+3.6. Heterogeneity of firm property rights 
+
+In the context of low level of financial development, non-state firms in China have less access to finance compared to state-owned 
+firms. As a result, non-state firms in China receive more trade credit (Ge and Qiu, 2007). Whether supply chain common ownership 
+linkages help non-state firms to obtain more trade credit when suppliers and customers have common shareholders. I divide the sample 
+into state-owned and non-state-owned firms for regressions to test for heterogeneity. The results, shown in Table 8, are positive and 
+significant for the non-SOE group, while the results for SOEs are not significant, indicating that common ownership along supply chain 
+mainly helps non-SOEs to obtain more trade credit. 
+
+4. Discussions and conclusion 
+
+I studied the impact of customer and supplier common ownership on trade credit from the perspective of supply chain equity 
+linkages and obtained the following conclusions. Common ownership along supply chain significantly increases the size of trade credit. 
+After applying a series of robustness tests such as the replacement trade credit measure and dealing with endogeneity issues, my 
+conclusions remain robust. Further channel tests suggest that common ownership along supply chain enhances firms’ trade credit by 
+mitigating information asymmetry between customers and suppliers and dispatching directors to participate in the channel of firm 
+decision making. Heterogeneity tests that distinguish between firm ownership indicate that common ownership along supply chain 
+improves trade credit of non-state firms more significantly. 
+
+Based on this, I make two suggestions. First, encourage suppliers and customers to overcome the information asymmetry and inter- 
+firm trust problems in supply chains, such as through common ownership. Secondly, common shareholders should actively explore 
+effective mechanisms to enhance the market value of upstream and downstream firms in the supply chain by virtue of their governance 
+advantages, so as to alleviate the information friction and financing constraints between suppliers and customers. Especially Chinese 
+firms have been integrated into the global supply chain system, and for supply chain common shareholders, their main advantages are 
+information resources and management experience, which should promote the improvement of supply chain governance model of 
+Chinese firms. 
+
+For suppliers, the risk of customers’ failure to repay all debts should be considered in the case of providing trade credit to cus
+tomers, especially when market demand is unstable and the credit status of downstream firms is poor (Zhang et al., 2014). In addition, 
+the structure of supply chains is divided into vertical and horizontal, and different structures of supply chains may be affected by 
+common ownership differently, but this paper is limited by data and does not support the distinction between horizontal and vertical 
+supply chains, and expects that subsequent studies can answer this question. 
+
+Funding 
+
+This paper is funded byNational Nature Science Foundation of China (No. 71433002) (Dr. Ying Ge). 
+
+Declaration of Competing Interest 
+
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to 
+influence the work reported in this paper. 
+
+7
+
+
+
+Y. Xu                                                                                                                                                                                   F i n a n c e  R e s e a r c h  L e t t e r s 56 (2023) 104111
+
+Table 8 
+Common ownership along supply chain and trade credit: Heterogeneity of ownership.   
+
+(1) (2)  
+State-owned firms Non-state owned firms 
+
+Variables TC TC 
+
+cos3 0.929 0.442**  
+(0.686) (0.223) 
+
+Constant -0.0598 0.0128  
+(0.0963) (0.117) 
+
+Controls Yes Yes 
+Firm FE Yes Yes 
+Year FE Yes Yes 
+N 1349 1390 
+R-squared 0.150 0.199  
+
+Data availability 
+
+The data that has been used is confidential. 
+
+References 
+
+Azar, J., Schmalz, M.C., Tecu, I., 2018. Anticompetitive effects of common ownership[J]. J. Finance 73 (4), 1513–1565. https://doi.org/10.1111/jofi.12698. 
+Brooks, C., Chen, Z., Zeng, Y., 2018. Institutional cross-ownership and corporate strategy: The case of mergers and acquisitions[J]. J. Corp. Finance 48, 187–216. 
+
+https://doi.org/10.1016/j.jcorpfin.2017.11.003. 
+Chen, S., Ma, H., Wu, Q., et al., 2023. Does common ownership constrain managerial rent extraction? Evidence from insider trading profitability[J]. J. Corp. Finance 
+
+80, 102389. https://doi.org/10.1016/j.jcorpfin.2023.102389. 
+Chod, J., Lyandres, E., Yang, S.A., 2019. Trade credit and supplier competition[J]. J. Financ. Econ. 131 (2), 484–505. https://doi.org/10.1016/j.jfineco.2018.08.008. 
+Costello, A.M., 2013. Mitigating incentive conflicts in inter-firm relationships: evidence from long-term supply contracts[J]. J. Account. Econ. 56 (1), 19–39. 
+Ding, F., Liu, Q., Shi, H., et al., 2023. Firms’ access to informal financing: the role of shared managers in trade credit access[J]. J. Corp. Finance 79, 102388. https:// 
+
+doi.org/10.1016/j.jcorpfin.2023.102388. 
+Fisman, R., Love, I., 2003. Trade credit, financial intermediary development, and industry growth[J]. J. Finance 58 (1), 353–374. https://doi.org/10.1016/j. 
+
+jacceco.2013.02.001. 
+Freeman, K., 2018. The Effects of Common Ownership On Customer -Supplier Relationships [R]. Kelley School of Business Research Paper. 
+Gao, K., Shen, H., Gao, X., et al., 2019. The power of sharing: Evidence from institutional investor cross-ownership and corporate innovation[J]. Int. Rev. Econ. 
+
+Finance 63, 284–296. https://doi.org/10.1016/j.iref.2019.01.008. 
+García-Teruel, P.J., Martínez-Solano, P., Sánchez-Ballesta, J.P., 2014. Supplier financing and earnings quality[J]. J. Bus. Finance Account. 41 (9-10), 1193–1211. 
+
+https://doi.org/10.1111/jbfa.12090. 
+Ge, Y., Qiu, J., 2007. Financial development, bank discrimination and trade credit[J]. J. Bank. Finance 31 (2), 513–530. https://doi.org/10.1016/j. 
+
+jbankfin.2006.07.009. 
+He, J., Huang, J., 2017. Product market competition in a world of cross-ownership: evidence from institutional blockholdings[J]. Rev. Financ. Stud. 30 (8), 
+
+2674–2718. https://doi.org/10.1093/rfs/hhx028. 
+Kang, J.K., Luo, J., Na, H.S., 2018. Are institutional investors with multiple blockholdings effective monitors?[J]. J. Financ. Econ. 128 (3), 576–602. https://doi.org/ 
+
+10.1016/j.jfineco.2018.03.005. 
+Kong, D., Pan, Y., Tian, G.G., et al., 2020. CEOs’ hometown connections and access to trade credit: evidence from China[J]. J. Corp. Finance 62, 101574. https://doi. 
+
+org/10.1016/j.jcorpfin.2020.101574. 
+Kostovetsky L., Manconi A. Common institutional ownership and diffusion of innovation[J]. Available at SSRN 2896372, 2020. 
+Levine, R., Lin, C., Xie, W., 2018. Corporate resilience to banking crises: the roles of trust and trade credit[J]. J. Financ. Quant. Anal. 53 (4), 1441–1477. https://doi. 
+
+org/10.1017/S0022109018000224. 
+Lewellen, K., Lowry, M., 2021. Does common ownership really increase firm coordination?[J]. J. Financ. Econ. 141 (1), 322–344. https://doi.org/10.1016/j. 
+
+jfineco.2021.03.008. 
+Li, J., Liu, L., 2023. Common institutional ownership and corporate innovation: synergy of interests or grabs of interests[J]. Finance Res. Lett. 52, 103512 https://doi. 
+
+org/10.1016/j.frl.2022.103512. 
+Li, S., Brockman, P., Zurbruegg, R., 2015. Cross-listing, firm-specific information, and corporate governance: evidence from Chinese A-shares and H-shares[J]. J. Corp. 
+
+Finance 32, 347–362. https://doi.org/10.1016/j.jcorpfin.2014.10.008. 
+Liu, Q., Luo, J., Tian, G.G., 2016. Managerial professional connections versus political connections: evidence from firms’ access to informal financing resources[J]. 
+
+J. Corp. Finance 41, 179–200. https://doi.org/10.1016/j.jcorpfin.2016.09.003. 
+Park, J., Sani, J., Shroff, N., et al., 2019. Disclosure incentives when competing firms have common ownership[J]. J. Account. Econ. 67 (2-3), 387–415. https://doi. 
+
+org/10.1016/j.jacceco.2019.02.001. 
+Schmidt, C., Fahlenbrach, R., 2017. Do exogenous changes in passive institutional ownership affect corporate governance and firm value?[J]. J. Financ. Econ. 124 (2), 
+
+285–306. https://doi.org/10.1016/j.jfineco.2017.01.005. 
+Wu, W., Firth, M., Rui, O.M., 2014. Trust and the provision of trade credit[J]. J. Bank. Finance 39, 146–159. https://doi.org/10.1016/j.jbankfin.2013.11.019. 
+Zhang, Q., Dong, M., Luo, J., et al., 2014. Supply chain coordination with trade credit and quantity discount incorporating default risk[J]. Int. J. Prod. Econ. 153, 
+
+352–360. https://doi.org/10.1016/j.ijpe.2014.03.019. 
+
+8

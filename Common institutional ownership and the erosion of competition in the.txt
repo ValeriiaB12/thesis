@@ -1,0 +1,741 @@
+﻿Health policy 156 (2025) 105316 
+
+Contents lists available at ScienceDirect
+
+Health policy
+journal homepage: www.elsevier.com/locate/healthpol
+
+Common institutional ownership and the erosion of competition in the 
+American health insurance market: A quantitative analysis
+Kevin Smith *
+
+Assistant Professor of Economics and Business at Beloit College, USA
+
+A R T I C L E  I N F O A B S T R A C T
+
+Keywords: Background: Empirical studies have shown that when large institutional investors and private equity funds own a 
+Common institutional ownership significant stake in multiple publicly traded firms within an industry, this common ownership may lead to anti- 
+Affordable care act competitive behavior. In 2010, the Affordable Care Act (ACA) was passed. This law created health insurance 
+Health insurance markets exchanges that allowed for Americans to purchase health insurance plans directly on a marketplace. The insurers 
+Private equity
+
+on this marketplace have common institutional owners, that could influence the level of competition in these 
+markets.
+Objective: To assess the causal effects of common ownership on competition in the US health insurance market.
+Methods: To identify the causal impact of common ownership, I use two empirical strategies: the Arellano-Bond 
+Dynamic Panel Model and Bartik-style Instruments. Data on firm ownership came the paper, “Common 
+Ownership Data: Scraped SEC form 13F filings for 1999-2017” by Matthew Backus, Christopher Conlon, and 
+Michael Sinkinson.
+Results: The results show that a one standard deviation increase in common ownership leads to a 7.7 % increase 
+in monthly premiums charged for certain health insurance plans. This finding is robust to different model 
+specifications and suggests that common ownership reduces competition in the health insurance exchanges.
+Conclusions: The results from this paper indicate that policymakers and regulators need to formulate policies that 
+limit the amount that institutional investors and private equity funds can own of companies in the health in
+surance industry in the US. Additionally, policymakers need to make more data on firm ownership available, as 
+the data that is available has quality issues.
+
+before in the literature on common ownership.
+Research in Context Box What are the policy implications? Policymakers and regulators 
+
+need to formulate policies that limit the amount that large insti
+What is already known about the topic: The literature on the tutional investors and private equity funds can own of companies 
+effect that common institutional ownership has on competition in in the health insurance industry in the US. Additionally, policy
+product markets is unsettled. There have been several studies that makers need to make more data on firm ownership available, as 
+have found positive effects while other studies have found null the data that is available has significant data quality issues.
+effects. The reason that this study is needed is because the health 
+insurance marketplace offers a unique setting to study how insti
+tutional ownership affects the prices that insurers charge policy 1. Background
+holders, a relationship that has not be thoroughly examined prior 
+to this paper.
+
+Health care is one of the most expensive commodities consumed in 
+What does this study add to the literature? This paper adds to the United States [1]. Americans have the highest per-capita health care 
+this literature by showing that a one standard deviation increases spending in the world, and policy makers have debated for decades why 
+in my common ownership measure results in an increase in health the U.S. health care system is so expensive [2]. Some economists have 
+insurance premiums by 7.7 %. This result has not been found pointed to the multi-payer structure of the health care system as one 
+
+* Corresponding author at: 700 College St, Beloit, WI 53511, USA.
+E-mail address: smithks@beloit.edu. 
+
+https://doi.org/10.1016/j.healthpol.2025.105316
+Received 22 January 2025; Received in revised form 3 April 2025; Accepted 6 April 2025  
+Available online 13 April 2025 
+0168-8510/© 2025 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies. 
+
+
+
+K. Smith                                                                                                                                                                                                                         H   e a  l t h   p o  l i c  y 156 (2025) 105316 
+
+reason for the higher costs while others have focused on lack of ownership structure of a firm or multiple firms in an industry should not 
+competition in the health care industry, especially among health in affect prices. This is because prices in these markets should be primarily 
+surance companies [3,4]. Six companies make up a substantial share of driven by changes in the micro and macro-economic conditions in which 
+the U.S. health insurance industry, with United Health Care, Centene, they operate. So, changes in health insurance premiums can be used as a 
+Aetna (CVS Health), Humana, Cigna, and Anthem Blue Cross Blue proxy for the overall competitiveness of the market because in 
+Shield, accounting for more than 40 % of the market in 2020 [5]. The competitive markets, common owners should not be able to affect 
+highly concentrated nature of the health insurance market could result product prices. In order to measure CO, this paper uses a Modified 
+in higher prices for policyholders. Herfindahl-Hirschman Index (MHHI). MHHI was developed to measure 
+
+To measure market concentration in an industry, economists typi the effects of cross-stock ownership by competitors in the same industry 
+cally use the Herfindahl- Hirschman Index (HHI). HHI is calculated from [7]. The benefit of using MHHI is that it can be deconstructed into two 
+0 to 10,000, with 0 representing perfect competition and 10,000 rep components, namely HHI, which measures the relative competitiveness 
+resenting a monopoly. Since HHI measures the concentration in markets of the industry and MHHI delta (MHHID) which measures the density of 
+only when there is one owner of each firm, recent research suggests HHI share ownership of competitors by a common owner. MHHID can 
+levels might not fully reflect con- centration in some markets ([6]a). This therefore be used to measure the share of network ownership that is held 
+is because HHI does not capture common institutional ownership (CO) by common owners within an industry.
+and industries with higher levels of CO are less competitive. The theory A major empirical challenge is that MHHID is potentially endoge
+of CO posits that when an institutional investor owns a partial stake in nous to product prices. Institutional investors do not invest in firms at 
+most publicly traded firms within an industry, it could lead to a reduc random, so changes in CO could be directly related to expected changes 
+tion in market competition [7]. For example, if a diversified owner holds in profitability of the industry or certain market segments. To address 
+a portfolio of investment in all six of the major health insurance com the endogeneity of MHHID I use the Arellano-Bond (ARB) dynamic 
+panies, this common owner may be negatively impacted by aggressive panel model and Bartik-style instruments. The ARB model uses lags of 
+com- petition among the firms in their portfolio, where gains by some the dependent and endogenous variables to correct for endogeneity in a 
+firms could be offset by losses by other firms. The primary goal of a first difference regression. In contrast, Bartik-style instruments are based 
+common owner is to maximize risk-adjusted portfolio returns, not the on the interaction of local industry shares and national industry growth 
+returns of any individual company ([6]a). rates.
+
+[Insert Table 1 Here] This paper adds to the existing literature in several important ways. 
+Table 1 shows private equity funds and institutional owners of the six It is the first paper, to the best of my knowledge, that analyzes the effect 
+
+largest publicly traded health insurance companies in the US as of the of CO on health insurance premiums. In addition, I use two very distinct 
+third quarter of 2024 [8]. A key observation from Table 1 is that the identification strategies to account for the endogeneity of MHHID, 
+Vanguard Group owns at least a 5 % share in all of the major health allowing for a more robust test of the theory of CO relative to the prior 
+insurance providers, while Blackrock, T.Rowe Price, and FMR Corp also literature. Furthermore, I utilize a higher quality data set, than those 
+have significant investments in almost all the insurers. These institu used in previous CO papers. This data was collected in Backus et al. [9], 
+tional investors and private equity firms are clearly common owners as and fixes issues with firm ownership data that has been criticized 
+they have invested in most of the largest companies in the health in extensively in the literature [10].
+surance industry.
+
+A key area of investigation in the CO literature is the mechanisms 1.1. Health insurance exchanges
+that a common owner might use to directly or indirectly influence 
+managers of the companies in their portfolio. Azar et al. [6] found that in One of the primary provisions of the Patient Protection and Afford
+the airline industry there was a direct channel that common owners used able Care Act (ACA) was the creation of health insurance exchanges 
+to influence managers, through changes in corporate governance pol (HIE) that allow most Americans to purchase private health insurance 
+icies. They also identified indirect channels where common owners plans directly from insurance companies and get subsidies for those 
+could give managers a "quiet life" by not pressing them to compete more plans based on their income [11]. HIE plans are not available to 
+aggressively with rival firms, thereby reducing competition. Anton et al. Medicaid enrollees. In 2014, these marketplaces opened across the 
+(2018) also found alternative channels through which CO directly af country, with some organized by the federal government and others by 
+fects firms. One such channel is through the incentives from common state governments. Initially, plans offered on the exchanges were less 
+owners for managers to invest more in Research and Development expensive than what many analysts had expected, and there was fierce 
+(R&D). This is due to the fact that common owners see spending on R&D competition between insurance companies [12]. However, by 2016, 
+as a predictor of future profitability, and that R&D investments usually many insurance companies reported major losses, because new cus
+do not cause greater competition between rival firms (Anton et al., tomers on the exchanges were sicker than initially estimated [13]. With 
+2018). their losses mounting, many insurance companies threatened to pull out 
+
+The goal of this paper is to test whether increases in CO could lead to of marketplaces that were unprofitable, and in 2017 many did, resulting 
+increases in health insurance premiums. In competitive markets, the in several markets with only one insurance provider [12]. As a result, 
+
+Table 1 
+Top Institutional Investors in the Six Largest US Health Insurers.
+
+Institutional Investor United Health Care Humana Centene Cigna CVS Health Anthem
+
+Vanguard Group Inc 10.33 % 9.69 % 10.6 % 7.88 % 8.15 % 7.34 %
+Blackrock Inc 8.94 % 9.90 % 6.24 % 8.45 % 7.31 % 4.65 %
+FMR Corp 3.95 % 4.24 % 5.59 % 5.17 % – 2.38 %
+State Street Corp 5.53 % 4.69 % 4.03 % – 4.13 % –
+T. Rowe Price Associates 3.72 % 4.57 % – 7.09 % – 5.1 %
+Capital World Investors – – 7.68 % 4.42 % 3.49 % –
+Wellington Management Co – 5.35 % – – – 4.39 %
+Capital International Investors – – – – 2.30 % –
+
+Note: This table shows the percentage ownership share of the six largest American health insurances companies by institutional investors, in the third quarter of 2024.
+Source: [8].
+
+2 
+
+
+
+K. Smith                                                                                                                                                                                                                         H   e a  l t h   p o  l i c  y 156 (2025) 105316 
+
+many customers saw their premiums for marketplace plans rise by as weaken competition among commonly owned firms. This is because 
+much as 15 % nationally as insurance companies scrambled to regain privately held information has strategic value and revealing this infor
+lost revenue [13]. In addition, insurance companies started to offer mation allows competitors to better coordinate their responses to ac
+high-deductible plans in the exchanges, which allowed the insurance tions taken by the revealing firm. Such coordination reduces 
+companies to regain profitability [14]. competition in the industry, benefiting common owners.
+
+The restructuring of the health insurance plans offered on the mar Additionally, papers such as He and Huang [25] find that having 
+ketplaces did not lead to a return to the high levels of competition common owners across firms can lead to stronger coordination among 
+evident during the first year of the exchanges [15]. This is in part firms. Firms that are cross owned experience an increase in their market 
+because the number of plans offered on the exchanges dropped from shares when there is an increase in CO. He and Huang [25] use bank 
+2015 to 2018, and some markets became monopolies [12]. Over time, mergers to identify the effect of CO, because mergers result in an 
+the ACA exchanges stabilized. A 2021 Kaiser Family Foundation (KFF) exogenous change in ownership shares. Irani et al. [26], also illustrates 
+study found that insurer participation levels steadily climbed, after that if two firms have common owners, it leads to a 45 % decrease in the 
+2018, to levels seen in the early years of ACA roll out, see Fig. 1 (refer to likelihood of a competing bid in the acquisitions market. Irani et al. [26] 
+supplementary material) [16]. uses a similar empirical approach as He and Huang [25], but the authors 
+
+An important question is why competition on the exchanges took so also create instrumental variables for CO using lagged values of their 
+long to recover. One explanation is, that between 2017 and 2018 the ownership variable.
+federal government defunded the cost-sharing reduction subsidies in the A major factor limiting CO research is access to high quality stock 
+ACA. In response, insurers in more than 40 states were forced to increase ownership and product- market data. Backus et al. [9] attempts to 
+premiums for their silver plans to keep their plans actuarially fair (this is overcome the deficits in share ownership data. The data used in most 
+referred to as silver loading) [17]. The implication of this policy change papers comes from the SEC’s 13F holdings accessed through the 
+destabilized the ACA markets resulting in significant premium increases Thomson- Reuters Spectrum database, which has been known to have 
+seen during this time period. some deficiencies, including missing and incorrect data [10]. Instead, 
+
+Another possible explanation is that the health insurance industry is Backus et al. [9] scraped information directly from 13F forms. By doing 
+already highly concentrated with there being only a handful of large so, they created a data set that is more reliable than the Spectrum 
+health insurance providers in the industry [13]. In 2015, the industry database.
+almost consolidated further as Anthem announced it intended to pur Finally, there is a growing strand of the CO literature that has found 
+chase Cigna, and in the same year Aetna attempted to purchase Humana positive effects of CO. Antón et al. [27] found that firms often face many 
+[18]. The Federal Trade Commission (FTC) and Department of Justice disincentives to innovate. This is because they may not fully capture the 
+(DOJ) citing antitrust concerns, moved to block these acquisitions. After benefits of their inventions before other firms can leverage these in
+Aetna’s failed merger with Humana, Aetna chose to leave the ACA ex novations to their advantage. However, Antón et al. [27] demonstrate 
+changes altogether in 2017, even leaving markets such as Nebraska and that CO can mitigate this problem and foster greater corporate innova
+Delaware that were profitable ([19]; Luhby, 2016). tion, by aligning incentives across firms. The authors found that CO can 
+
+promote innovation in firms with shared technological interests while 
+1.2. Prior research having nuanced effects depending on the firms’ relative use of tech
+
+nology in their production process. This result highlights that the effect 
+Concerns over CO have existed in one form or another going back to of CO on a host of market outcomes could be ambiguous and emphasizes 
+
+the 1980s. Rotemberg [20] posited that if investors owned a slice of why a paper examining the effect of CO on health insurance premiums is 
+every firm in an industry, they would maximize risk- adjusted portfolio so important and timely.
+value if firms competed less and collectively raised prices. However, due 
+to the lack of empirical evidence, CO was viewed as only a theoretical 1.3. Data overview
+construct. Azar et al. [6] renewed interest in CO by demonstrating a 
+causal link between CO and product market competition, specifically My data comes from the ACA public use files provided by the Center 
+airline tickets. Azar et al. [6] used the acquisition of Barclays Global for Medicare and Medicaid Services (CMS). These data include infor
+Investors (BGI) by the institutional investor Blackrock in 2009 to iden mation on monthly insurance rates (premiums), cost sharing, plan types, 
+tify their estimates. Azar et al. [6] treats this shock as exogenous, as plan quality, and services offered in certain plans, such as wellness pro- 
+Blackrock overnight significantly increased its cross holdings in the grams. The CMS’s ACA marketplace database contains data on only the 
+airline industry as a by-product of the acquisition of BGI. Azar et al. [6] 35 states that use the federal government’s health insurance exchange, 
+found that an increase in CO due to the merger led to an increase in the healthcare.gov, from 2014 to 2019. This is due to the fragmented nature 
+average ticket price paid by airline travelers. of the ACA exchanges, with some states managing their own exchanges 
+
+Subsequent studies disputed the findings in Azar et al. [6]. In while others choosing to allow the federal government to manage their 
+particular, Dennis et al. [21] showed that the results found in Azar et al. exchange.
+[6] are sensitive to variations in their econometric model. Also, Kennedy CMS reports on health insurance premiums as individual rates. The 
+et al. [22] using the same data as Azar et al. [6] found no effect of CO on individual rate is defined as the dollar value for monthly insurance 
+airline ticket prices when using a structural model with a nested logit premiums paid by a non-tobacco user. Individual rates on the insurance 
+demand function. However, a subsequent paper by Azar et al. [23] exchanges are determined by the policyholder’s age, tobacco use, and 
+pointed out that the papers that tried to replicate their work were either geographic location. I use the individual rate for non-tobacco users as 
+not looking at the same data or used models that were very dissimilar the primary outcome variable in this paper. CMS also provides infor
+from the ones they used in the original study. mation on a plan’s quality within a tier system, where they assign metals 
+
+Schmalz [24] conducts a broad review of the literature surrounding to insurance plans based on the generosity of the plan (platinum, gold, 
+CO and finds that researchers have been able to confirm that increases in silver, bronze). I subset to silver plans for the empirical analysis in order 
+CO have broad anti-competitive effects using different structural and to reduce heterogeneity in plan generosity. Silver plans are purchased 
+reduce-form models across various settings. Schmalz [24] also finds that the most frequently by consumers on the exchanges and are the most 
+the effects of CO are heterogeneous and can vary greatly across in likely to be offered by insurers across the sample period. Using the silver 
+dustries and countries. There are various channels through which CO plan as a benchmark is also common practice in the literature [28].
+can incentivize anti-competitive behavior. For instance, Schmalz [24] I also obtained data for several control variables. These include the 
+shows that stricter disclosure requirements for publicly traded firms may unemployment rate from the Federal Reserve Bank of St. Louis (FRED), 
+
+3 
+
+
+
+K. Smith                                                                                                                                                                                                                         H   e a  l t h   p o  l i c  y 156 (2025) 105316 
+
+Gross Domestic Product (GDP) per capita from the Bureau of Economic from smaller insurers. Smaller insurers are often state- specific and in 
+Analysis, the state obesity rate from the Robert Wood Johnson Foun many cases offered plans for only one year. Also, common owners are 
+dation, enrollment in all private insurance plans from the Kaiser Family less likely to be blockholders in these smaller insurers.
+Foundation, and the level of education attained, the poverty rate, me
+dian household income, Medicare and Medicaid enrollment from the 1.5. Summary statistics
+Census Bureau.
+
+[Insert Table 2 Here]
+1.4. Common institutional ownership measures Table 2 presents the summary statistics of the variables used in the 
+
+analysis. The HHI measure is relatively small, with a mean of 1225, and 
+I use quarterly data on share ownership by institutional investors a median of 1031. This is expected given HHI’s limitations in capturing 
+
+from 2014 to 2019, collected by Backus et al. [9] from the SEC 13F CO. In contrast, the MHHID, which accounts for these effects, reflects a 
+holdings. 13Fs are filed by all institutional investors quarterly who hold higher relative level of concentration, with a mean of 0.135, and a 
+over a $100 million in securities under their management [26]. Previous median of 0.107. This underscores the importance of using MHHID to 
+studies have mostly used the Thomson-Reuters Spectrum database to measure market concentration as opposed to just using HHI.
+analyze share ownership data and to create their measure of CO. How Table 2 also shows that the average monthly individual rate for silver 
+ever, there have been significant documented problems with the Spec plans is $500, which is consistent with Diaz et al. [30] finding that the 
+trum data, including missing and incorrect data found throughout the average monthly premiums paid by most Americans was $468 in 2019. 
+database. Health Maintenance Organizations (HMO) make up 51 % of the plans in 
+
+Additionally, I use this data to create MHHI. Unlike the standard HHI the sample while Preferred Provider Organizations (PPO) made up 26 %. 
+which measures changes in industry concentration from differentiated Average out of pocket spending is $190 during the sample period.
+market share owners, the MHHI includes a measure that considers the All the variables listed on Table 2 were standardized when included 
+ownership structure of firms. O’Brien and Salop [7] first showed that in the regression models. Standardizing all the variables was done to 
+MHHI can be deconstructed to include both HHI and a measure for make the interpretation of the variables of interest more precise. When 
+commonly owned shares as shown in Eqs. 1 and 2. standardized, each variable is interpreted as a one standard deviation 
+
+( change in the explanatory variable. Standardization also puts the vari
+∑ )
+
+∑ ∑∑ γ ables into the same unit of measurement.
+MHHI S 2 jβ
+
+= j + SkS i i ik
+j ∑
+
+j j k γ β (1) 
+∕=j i ij ij In Fig. A2, Panel A, I present a histogram showing the distribution of 
+
+individual rates over the sample period. Fig. A2 shows that the indi
+(∑ )
+
+∑∑ vidual rate is right-skewed. This skewness is the result of several factors. 
+MHHI = HHI + SkS iγijβik
+
+j ∑ 2  One factor could be that states, after the messy roll out of the ACA ex
+j k∕=j iγ
+
+( )
+ijβij changes in 2014, allowed insurers to drastically raise rates in the 
+
+j and k index the firms and their competitors in the health insurance following years in order to recoup losses that they had suffered on the 
+industry, i indexes’ the institutional owners, S represents the insurers’ exchanges. Another factor could be the inclusion of different plan types 
+market share, γ is the fraction of ordinary shares owned by the institu with premiums that their generosity. 51 % of plans in our sample are 
+tional investor and β is the fraction of control shares owned by institu HMOs, which are relatively inexpensive compared to PPO plans, which 
+tional investors. make up 26 % of the sample.
+
+This measure of commonly owned shares is called MHHI delta If not corrected, the right skewedness could affect my results, so I 
+(MHHID) and measures the extent to which firms within an industry are transformed the individual rate variable using the logarithmic trans
+interconnected by a network of common owners. At higher levels of formation and present the transformed variable in Fig. A2, Panel B.
+MHHID there is more CO in the industry. The MHHID can be written as 
+shown in Eq. 3 ([6,7,29]a). 2. Methods
+
+(∑ )
+∑∑ One of the biggest challenges in the analysis of CO is the issue of 
+
+MHHID = SkS iγijβik
+j ∑ (3) endogeneity or simultaneity bias in Eq. 4. Large institutional investors 
+
+j k β
+∕=j iγ
+
+ 
+ij ij
+
+do not invest in companies or industries at random. In practical terms 
+The key difference between γ and β is that control shares give holders what may seem like CO affecting insurance premiums could instead 
+
+more voting rights than common shares. Control shareholders have sole simply be institutional investors buying shares of companies or in
+or shared voting power, as these shares give them the power to vote or dustries that they view as already performing well. To correct this 
+direct the exercise of voting for a security ([6]a). identification issue, the CO literature has used a variety of identification 
+
+There are several considerations in the construction of the MHHID. strategies. One popular strategy is the use of mergers and acquisitions of 
+First, not all common owners are observed because some owners have a institutional investors in a difference-in-differences (DID) framework. 
+level of ownership that is too small to be influential. The owners that are Azar et al. [6] and He and Huang [25] both use the DID strategy to 
+observed are those referred to as beneficial owners or blockholders. identify their estimates. Unfortunately, during my sample period there 
+Blockholders are shareholders that own at least 5 % of the control shares were no significant mergers or acquisitions of institutional investors.
+of the company. He and Huang [25], Azar et al. [6], and Irani et al. [26] Alternatively, Kwon [31] uses the addition of firms to the Standard 
+all found that 5 % is the minimal level of ownership that common and Poor (SP) Composite 1500 as an instrumental variable, under the 
+owners need to be able to exert significant influence over firms in their assumption that institutional investors frequently make investments 
+portfolios. that reflect this index. Participation in the index is therefore correlated 
+
+Most institutional investors that are observed in the data had at least with CO, but it is unlikely to be correlated with the unobserved de
+5 % ownership in the health insurance companies that provided plans on terminants of the outcome variable. Alternatively, Semov [29] exploits 
+the ACA exchanges. Secondly, I restrict the CO measure to plans from the an exogenous shock to CO due to sudden capital outflows related to the 
+six largest health insurance companies, namely United Health Care, 2003 mutual fund scandal. He creates a MHHID measure that only 
+Centene, Aetna (CVS Health), Humana, Cigna, and Anthem Blue Cross contains holdings by mutual funds that were involved in the scandal and 
+Blue Shield, which composed more than 40 % of the private health in then uses the sudden increase in capital outflows from the scandal to 
+surance market in 2020 [5]. The vast majority of the plans listed on the predict future changes in MHHID.
+exchanges came from these six companies and those that did not, were Irani et al. [26] and Connelly et al. [32] both use lagged values of 
+
+4 
+
+
+
+K. Smith                                                                                                                                                                                                                         H   e a  l t h   p o  l i c  y 156 (2025) 105316 
+
+Table 2 
+Summary Statistics.
+
+Variable Mean Median Std. Dev. Min. Max. N
+
+Business Year 2017 2016 2 2014 2019 7789
+State Code 23 25 12 1 35 7789
+Individual Rate ($) 499 473 139 200 1196 7789
+MHHIdelta 0.135 0.107 0.032 0.103 0.187 7789
+HHI 1225 1031 894 283 7532 6107
+Ever Enrolled 5108 1014 16,186 0 373,872 5859
+Dis Enrolled 936 211 2619 0 45,964 5306
+Mean Out-of-pocket Spending 191 192 38 83 332 7721
+GDP Per capita 45,944 45,845 6240 31,522 73,478 6166
+Obesity rate 0.311 0.313 0.027 0.221 0.395 6166
+Poverty Rate ( %) 14 14 2.4 8 22 6651
+Poverty Rate for Children Under 5 ( %) 22 22 4.3 8.7 34.6 6651
+Median Household Income ($) 55,633 55,433 6777 39,738 90,395 6651
+Total Educational Attainment 18 to 24 945,943 768,272 728,321 51,505 2,826,700 6585
+Less than High School 115,312 78,214 116,765 8.5 445,677 6585
+High School Graduate 266,335 203,312 249,416 23.3 977,096 6585
+Some College 364,458 271,584 332,445 40.1 1,224,498 6585
+Bachelors or Higher 82,720 64,616 71,519 5 267,539 6585
+Enrollment in Original Medicare 1,131,317 1,048,189 734,287 66,058 2,570,712 6585
+Enrollment in Medicare Advantage 561,517 425,454 466,114 22 2,063,774 6585
+Exclusive Provider Organization (EPO) 0.133 0 0.34 0 1 7789
+Health Maintenance Organizations (HMO) 0.515 1 0.5 0 1 7789
+Point of Service (POS) 0.089 0 0.285 0 1 7789
+Preferred Provider Organizations (PPO) 0.262 0 0.44 0 1 7789
+
+Note: This table shows the summary statistics for the variables used. Displayed are the mean, the median, the standard deviation, the minimum value, the maximum 
+value, and the number of observations. The sample presented is comprised of data from the 35 states that were run by the federal government between the period 2014- 
+2019. All variables are standardized in the empirical analysis.
+
+their CO measure to identify their empirical model based on the 
+assumption that the level of CO in the past does not affect the pricing Table 3 
+
+decisions made by managers in the current period [33]. This is partic First-Stage Instrument Power and Over Identification Tests.
+
+ularly true with the plans offered on the ACA exchanges. Plans are First-Stage Regression Summary Statistics
+bought yearly during a specific window of time and plans can vary from Variable R-sq Adjusted R- Partial R- Cluster Robust F Prob 
+year to year. The prior ownership structure of insurers should not affect sq sq (2,5979) >F
+their current pricing decisions. This strategy has several shortcomings. If MHHIdelta 0.9757 0.9755 0.085 25.6243 0
+
+Hansen’s J Over Identification Test
+the outcome is serially correlated then the estimates will be biased [32]. Hansen’s J chi2(1) = 0.438032 (p = 0.5081)
+
+In this paper, I used several different strategies to address the 
+endogeneity of the CO measure. The paper uses the Fixed Effects Note: This table shows the first-stage of of the two-stage least square estimation 
+Approach (FE), Instrumental Variable Approach (IV), Arellano-Bond procedure used to implement the Instrumental Variable approach. Standard 
+
+Errors are clustered at the state level.
+Dynamic Panel model (ARB), and Bartik Instruments (Bartik).
+
+2.1. Fixed effects approach level. Furthermore, the Hanson’s J test for over identification indicates 
+that I do not reject the null hypothesis that the IVs are valid.
+
+In the fixed effect model, I specify the log of individual rate as a [Insert Table 3 Here]
+function of MHHID, HHI, a set of state and plan level controls and year 
+and state fixed effects. I present the model in equation 4; 2.3. Arellano-bond dynamic panel model
+( )
+
+log Ratepjt = β0 + β1MHHIDjt + β2HHIjt + β3Xjt + αt + γj + ϵpjt Arellano and Bond [35] provides a model to address endogeneity in 
+(4) dynamic panel models, using a General Methods of Moments (GMM) 
+
+Ratejpt represents the insurance premium charged monthly for a estimator. The ARB estimator is useful in situations where there are few 
+benchmark silver plan p, in state j, at time period t. MHHID time periods but many individual observations. The model is specified in 
+
+jt measures 
+CO, HHIij measures market concentration, Xjt includes the control vari equation 5; 
+ables, αt is a year fixed effect, and γj is a state fixed effect. ( ) ( )
+
+Δlog Ratepjt = β1Δlog Ratepjt− 1 + β2ΔMHHIDjt + β3ΔHHIjt 
+This model follows the work done in Lewellen and Lowry [10], Azar + β
+
+et al. [6], and He and Huang [25]. The key benefit of this model is that it 4ΔXjt + Δϵpjt (5) 
+
+uses variation in rates and MHHID overtime, within states for identifi Eq. 5 shows the ARB model. ARP model takes the logged dependent 
+cation. Thereby removing time invariant state specific unobservables. variable and uses lagged values of this variable as an instrument in the 
+
+first stage to identify the endogenous regressors. Then the first difference 
+2.2. Instrument variable approach is taken of that model to remove unobserved time invariant heteroge
+
+neity. Additionally, lagged values of MHHID are also added to the 
+To instrument for the possibly endogenous measure of CO, MHHID, I model’s first stage as instruments to increase the explanatory power of 
+
+use two lagged values of MHHID, which are strong instruments. Table 3 the identified variable.
+shows the first-stage of the two-stage least squares estimator used to 
+implement the instrumental variable approach. The F-statistic is 25.6, 2.4. Bartik (shift-share) instruments
+which is significantly above the standard used in the literature of 10 
+[34]. The standard errors in the first stage were clustered at the state Bartik instruments, also referred to as shift share instruments, were 
+
+5 
+
+
+
+K. Smith                                                                                                                                                                                                                         H   e a  l t h   p o  l i c  y 156 (2025) 105316 
+
+first proposed by Bartik [36] and have been refined over time in papers Table 4 
+such as Jean and Katz [37], Adao et al. [38], and Goldsmith-Pinkham The Effect of Common Ownership on Health Insurance Premiums Panel 
+et al. [39]. Bartik instruments are usually used in economic papers Regression.
+that examine the effects of immigration on the economies of destination (1) (2) 
+countries. These instruments are constructed by interacting the growth (OLS) (FE)
+rate of migration inflows by country of origin with immigrants past Variables log(Rate) log(Rate)
+
+migration inflows, taking into account geographic distribution [40]. MHHI Delta HHI 0.190*** 0.118*** (0.023) 0.017* 
+I use the interaction of state level enrollment shares in ACA plans and (0.019) (0.009)
+
+national growth rates in enrollment. The Bartik instrument approach 0.028*** 
+(0.008)
+
+takes a measure at the aggregate level (the growth rate of national Enrollment in Original -0.031 0.129
+enrollment) and considers how variations in the degree to which Medicare
+different local shares (state level ACA plan enrollment) are exposed to ​ (0.042) (0.323)
+this change given their relevant characteristics. The instrument is Enrollment in Medicare 0.010 0.168
+
+defined in equation 6; Advantage
+​ (0.043) (0.137)
+
+Bjt = Zj0Gt (6) Bachelors or Higher 0.050 0.022
+​ (0.046) (0.046)
+
+Bjt is the Bartik instrument at time t and across states j and Zj0Gt Some College -0.208** -0.112
+represents the base year’s local shares multiplied by the growth rate of ​ (0.092) (0.111)
+
+High School Graduate 0.194** 0.077
+national shares in year t. The Bartik instrument is then used in the first Median Household Income (0.083) 0.004* (0.118) 0.180* 
+stage of the regression equation shown in equation 7; (0.029) (0.093)
+
+Poverty Rate for Children 0.061 0.011
+MHHIDjt = α0Xjt + α1Bjt + ηjt # (7) Under 5
+
+​ (0.044) (0.048)
+The ACA health insurance exchanges were opened in 2014. I use Poverty Rate -0.093* -0.057
+
+2014 as the initial period, because insurance companies did not properly ​ (0.054) (0.087)
+price their plans in 2014 due to the lack of market experience. I then GDP per-capita -0.005 0.038
+shift the initial period by the growth rate of enrollments from 2015 to ​ (0.018) (0.109)
+
+Mean Out of Pocket Spending -0.004 -0.009
+2019. As a result, the Bartik instrument Bjt has an analogous structure to Wellness Program Offered (0.007) (0.016) 0.013** 
+the difference-in-differences (DID) approach, where a base group is -0.017** (0.007) (0.006)
+selected before an exogenous shock and that base group is compared Obesity Rate -0.009 0.008
+against the groups post the shock occurring. EPO HMO (0.015) (0.021) 
+
+-0.135*** -0.172*** (0.022) 
+(0.034) -0.096* 
+
+Results -0.105*** (0.0542)
+(21.10)
+
+Table 4 illustrates the results of the panel regression analysis, where I POS -0.034 -0.078
+cluster corrected the standard errors at the state level. A one standard Constant (0.030) (0.054) 
+
+6.257*** 6.223*** (0.035)
+deviation increase in MHHI delta (MHHID) results in, on average, a 19 % (0.021)
+increase in the monthly premiums paid for silver plans on the ACA ex Observations 6,039 6,039
+changes. This is the result reported when using the Ordinary Least R-squared 0.704 0.738
+Squares (OLS) regression model. When using the FE approach, I find that State FE No Yes
+
+the effect size of MHHI delta falls to 11 % after adding state and year Year FE No Yes
+
+fixed effects. Cluster corrected standard errors at the state level are in parentheses
+To give some context on the effect size of the OLS and FE estimators, *** p<0.01, ** p<0.05, * p<0.1
+
+the average monthly insurance premium paid for a silver plan is $500. 
+So, a one standard deviation increase in MHHID leads to a $95 increase fewer subsidies for health insurance and might choose more expensive 
+in the OLS model and a $55 increase in the FE model in the monthly plans. Variables for the type of insurance are also statistically significant. 
+premium. The effect size is in line with the results from other papers As expected, relative to the PPO plans, all other plans have lower 
+examining different industries. For example, Semov [29] finds that a one premiums.
+standard deviation increase in MHHID leads to an 8 % decrease in the 
+cash holdings of commonly owned firms. In this study increases in CO 
+caused a less competitive environment between commonly owned firms 
+as these firms chose to hold fewer cash reserves because they were less 
+concerned about a sudden negative liquidity event due to a decision by 
+one of their competitors. Additionally, Azar et al. [6] finds that an in
+crease in CO resulted in a 20 % increase in the price of airline tickets at Table 5 
+
+the industry level, and a 4 % increase in prices at the route level. OLS, FE, IV, and ARB: Panel Estimation Results.
+
+[Insert Table 4 Here] VARIABLES (OLS) (FE) (IV) (ARB) 
+I also find that a one standard deviation increase in HHI increases log(Rate) log(Rate) log(Rate) log(Rate)
+
+premiums by 3 % in the OLS model and 2 % in the FE model. This result MHHI Delta 0.190*** 0.118*** 0.107** 0.077**
+is in line with economic theory, where increases in the HHI lead to an HHI (0.019) (0.023) 0.017* (0.054) (0.037) 
+
+increase in market concentration which decreases competition. De 0.028*** (0.009) 0.036*** 0.030*** 
+(0.008) (0.004) (0.009)
+
+creases in competition and increases in market power led to higher Observations 6,039 6,039 6,037 5,741
+prices for consumers. Most of the other control variables are statistically R-squared 0.6999 0.7381 0.5927 0.5970
+insignificant. However, a one standard deviation increase in median State FE No Yes Yes N/A
+household income is associated with a 0.4 % (OLS) and 18 % (FE) in Year FE No Yes Yes N/A
+
+crease in insurance rates respectively. Higher income individuals receive Cluster corrected standard errors at the state level are in parentheses
+*** p<0.01, ** p<0.05, * p<0.1
+
+6 
+
+
+
+K. Smith                                                                                                                                                                                                                         H   e a  l t h   p o  l i c  y 156 (2025) 105316 
+
+3.1. Instrumental variable approach, and Arellano-bond dynamic panel Table A1 shows estimates using the two alternatives’ measures of 
+model estimation CO. The magnitude of PCF estimates is similar to MHHID. However, 
+
+estimates from Density are lower in magnitude and less precise, owing in 
+[Insert Table 5 Here] part to more limited variation over time. There is only a hand full of 
+Table 5 shows the comparison between the OLS, FE, IV, and ARB institutional blockholders that exist in any industry.
+
+models. For the IV model, I use lags of MHHID as instruments. In the Table A2 shows another alternative measure of CO using a firm level 
+ARB panel regression model, which is in first differences I use a lag of the CO measure taken from He and Huang [25]. Cross Ownership is a binary 
+dependent variable and two lags of the CO variable as instruments. The variable that equals one if the firm is cross held in any of the four 
+results from the IV model show that increasing MHHID by one standard quarters in a sample year and zero otherwise. The results show that 
+deviation leads to an increase in premium rate of 10.7 % on average. Cross Ownership has a statistically insignificant effect on insurance rates 
+This estimate is similar to the estimate from the FE model but is slightly in all models. In most quarters, firms in the sample were cross held, so 
+smaller. I also find that the impact of HHI is larger in the IV model. this measure had limited variation over the sample period.
+Finally, the estimate from the ARB model indicates that a one standard 
+deviation increase in MHHID leads to a 7.7 % increase in monthly in Discussion
+surance rates, on average.
+
+The effect of Modified Herfindahl-Hirschman Index Delta (MHHID) 
+3.2. Bartik instrument estimation on insurance premiums from my models is both statistically and 
+
+economically significant. An increase in MHHID leads to an increase in 
+[Insert Table 6 Here] insurance premiums. Combining all the results from Tables 5 and 6
+Table 6 contains estimates from the Bartik instrument model. A one brings the range of point estimates from 7.7 % to 19 %. The estimates 
+
+standard deviation increase in MHHID results in a 16.7 % increase in from the Bartik, FE, IV, and ARB models indicate that the OLS coefficient 
+insurance premiums. This estimate is closer in magnitude to the OLS of MHHID is overestimated. This is likely because investors are more 
+estimates than the FE, IV, and ARB models. There appears to be an up likely to buy shares of companies with greater pricing power ([6]a).
+ward bias in the OLS and Bartik instrument estimates. The OLS estimates The results from the estimation strategies used in this paper are in 
+upward bias could be due to many potentially omitted variables and the line with other identified results from the CO literature. For instance, 
+endogeneity of the CO measure. The Bartik instrument approach could Azar et al. [6] found using a DID framework that created a treatment 
+have upwardly biased estimates due to selection in local shares, as some group containing airlines that were jointly owned by Blackrock and BGI 
+states may provide more support for enrolling in ACA plans, making plan before the acquisition and a control group containing all commonly 
+enrollment endogenous. Irrespective of the individual model, estimates owned airlines. The DID model showed that airline ticket prices were 10 
+from the OLS, FE, IV, ARB, and Bartik instrument models all indicate % to 12 % higher, compared against a world in which firms were not 
+that increases in MHHID lead to an increase in insurance premiums. This commonly owned or one in which managers ignore the anti-competitive 
+result provides evidence that increases in CO lead to anti-competitive incentives of common owners.
+behavior. What is clear from the empirical results is that policymakers like the 
+
+SEC should take the anti-competitive effects of CO more seriously. It is 
+possible that the increase in product prices and decreases in competition 
+
+3.3. Alternative measures of Co could incentivize other institutional investors to enter more industries 
+and establish themselves as common owners. For instance, a recent Wall 
+
+To test the robustness of the results, I use two alternative measures of Street Journal article showed that institutional investors were pur
+CO. The first alternative measure uses the density of CO (Density) chasing large stakes in life insurance companies in order to have a sig
+created by taking the ratio of the number of firm-pairs that are con nificant number of shares in the biggest firms in that industry.
+nected in an industry over the maximum possible number of firm-pairs With respect to what policymakers and regulators should do, it seems 
+in that industry [41]. Firm-pairs are connected when there is an insti clear that more data needs to be made available to researchers. As stated 
+tutional investor that owns at least 5 % of each of the two firms. The previously, most of the data that has been used in the literature comes 
+density measure captures the intensity of CO between firms in the from the SECs 13F filings, which are known to have significant quality 
+industry. issues, and only contain firms with at least $100 million dollars in assets 
+
+The second alternative measure of CO I examine is the Percentage of under management and are only collected quarterly. The SEC should 
+Common Funds (PCF), defined as the number of common owners who change its rules on filing share ownership data so that it is more 
+own at least 5 % of two or more firms in an industry divided by the total frequent, comprehensive, and covers firms that have fewer assets. This 
+number of common owners in the industry [41]. If no institutional regulatory change would go a long way to increasing the quantity and 
+investor owns two or more companies with at least 5 % ownership, then quality of CO research.
+PCF will be zero. PCF captures the behavior of institutional investors Finally, what is left unexplored until now are the mechanisms that 
+that have significant stakes in multiple firms in the same industry. common owners use to encourage this anti-competitive behavior. Even 
+
+though many common owners specialize in passive investments, they 
+Table 6 are not truly “passive” in key areas [42]. For example, they are not 
+Estimation results: Bartik Instrument. passive in corporate governance, which is the is most common direct 
+
+Variable Coefficient channel that has been found in the literature [43]. Large institutional 
+(Std. Err.) ​ investors vote in shareholder meetings on key issues like executive 
+MHHI Delta 0.167** compensation and corporate strategies (Becht, Franks and Wagner, 
+(0.032) ​ 2023). This is the case in the health insurance industry, where institu
+HHI 0.017 tional investors like Vanguard and Blackrock vote on behalf of their 
+(0.011) ​
+Observations 5,140 funds shareholders. Additionally, institutional investors have dedicated 
+R-squared 0.78 teams that develop proxy voting guidelines, which can shape how firms 
+State FE Yes and their managers respond to governance and competitive strategy 
+Year FE Yes issues [44]. Fichtner, Heemskerk, and Garcia [45] found that because of 
+Cluster corrected standard errors are in parentheses ​ these voting guidelines, executives at these firms are prone to internalize 
+
+*** p<0.01, ** p<0.05, * p<0.1 the objectives of the largest investors like Blackrock, Vanguard, and 
+
+7 
+
+
+
+K. Smith                                                                                                                                                                                                                         H   e a  l t h   p o  l i c  y 156 (2025) 105316 
+
+State Street. [13] Gruber, Jonathan and Benjamin D Sommers, “The Affordable Care Act’s Effects on 
+Another channel that common owners use is that because they have a Patients, Providers and the Economy: What We’ve Learned So Far,” Technical 
+
+Report, National Bureau of Economic Research 2019.
+collective interest in the firms in their diversified portfolios, they will [14] Levitt Larry, Claxton Gary, Damico Anthony, Cox Cynthia. Assessing ACA mar- 
+pursue portfolio value maximization strategies instead of firm value ketplace enrollment. Kaiser Family Foundation 2016.
+maximization strategies [43]. For instance, common owners will advo [15] Dafny Leemore, Gruber Jonathan, Ody Christopher. More insurers lower 
+
+premiums: evidence from initial pricing in the health insurance marketplaces. Am J 
+cate for greater disclosure for firms in their portfolios [24]. With more Health Econ 2015;1(1):53–81.
+information competitors can better coordinate their responses to actions [16] Mcdermott Daniel, Cox Cynthia. Insurer participation on the ACA Marketplaces, 
+taken by the revealing firm. This would increase industry coordination 2014- 2021. Kaiser Family Foundation 2021.
+
+and could reduce competition, benefiting common owners. A further [17] Jacobs Paul D, Hill Steven C. ACA marketplaces became less affordable over time 
+for many middle-class families, especially the near-elderly: study examines ACA 
+
+analysis of the mechanisms used by common owners in health insurance marketplaces affordability. Health Aff 2021;40(11):1713–21.
+is an important area of my future research. [18] Scheffler Richard M, Arnold Daniel R, Fulton Brent D, Glied Sherry A. Differing 
+
+impacts of market concentration on Affordable Care Act Marketplace premiums. 
+Health Aff 2016;35(5):880–8.
+
+Conclusion [19] Hiltzik Michael. U.S. judge finds that Aetna deceived the public about its reasons 
+for quitting Obamacare. Los Angeles Times 2017. Jan.
+
+To conclude, I find using the Arellano-Bond Dynamic panel model [20] Rotemberg, Julio, “Financial transaction costs and industrial performance,” 1984.
+[21] Dennis Patrick J, Gerardi Kristopher, Schenone Carola. Common ownership does 
+
+and Bartik instruments that an increase in common institutional not have anti-competitive effects in the airline industry. Available at SSRN 2019; 
+ownership leads to higher premiums paid by policyholders for their 3063465.
+silver plans on the ACA exchanges. This result is robust to the use of [22] Kennedy, Pauline, Daniel P O’Brien, Minjae Song, and Keith Waehrer, “The 
+
+competitive effects of common ownership: economic foundations and empirical 
+alternative measures of common ownership. The results are consistent evidence,” 2017.
+with theory suggesting that common owners influence the decisions that [23] Azar, José, Martin C Schmalz, and Isabel Tecu,“Reply to: ‘common ownership does 
+managers in commonly owned firms make, incentivizing anti- not have anti-competitive effects in the airline industry’,” Available at SSRN 
+
+3168095, 2018.
+competitive behavior. [24] Schmalz Martin C. Recent studies on common ownership, firm behavior, and 
+
+More research needs to be conducted to examine the mechanisms market outcomes. Antitrust Bullet 2021;66(1):12–38.
+and channels through which common owners promote anti-competitive [25] He Jie Jack, Huang Jiekun. Product market competition in a world of cross- 
+
+behavior. Policymakers should address the ability of institutional in ownership: evidence from institutional blockholdings. Rev Financ Stud 2017;30(8): 
+2674–718.
+
+vestors to become common owners or enact polices that mitigate the [26] Irani, Mohammad, Vahid, Yang, Wenhao, Zhang, and Feng, “Common ownership 
+anti-competitive effects of common institutional ownership. and competition in mergers and acquisitions,” Oct 2019.
+
+[27] Antón Miguel, Ederer Florian, Giné Mireia, Schmalz Martin. Innovation: the bright 
+side of common ownership? Manage Sci 2024.
+
+CRediT authorship contribution statement [28] Abraham Jean, Drake Coleman, WSacks Daniel, Kosali Simon. Demand for health 
+insurance marketplace plans was highly elastic in 2014–2015. Econ Lett 2017;159: 
+
+Kevin Smith: Writing – review & editing, Writing – original draft, 69–73.
+[29] Semov Svetoslav. Common ownership, competition and firm financial policy. 
+
+Validation, Methodology, Data curation. Competit Firm Financial Policy 2017. April 20, 2017.
+[30] Diaz, Maria, Jennifer Tolbert, and Cornelia Hall, “State actions to improve the 
+
+Supplementary materials affordability of health insurance in the individual market,” KFF, Jul 2019.
+[31] Kwon, Heung Jin, “Executive compensation under common ownership.,” 2017.
+[32] Connelly Brian L, Lee Kang Bok, Tihanyi Laszlo, Certo S Trevis, Johnson Jonathan 
+
+Supplementary material associated with this article can be found, in L. Something in common: competitive dissimilarity and performance of rivals with 
+the online version, at doi:10.1016/j.healthpol.2025.105316. common shareholders. Acad Manage J 2019;62(1):1–21.
+
+[33] Tihanyi Laszlo, AJohnson Richard, Hoskisson Robert E, Hitt Michael A. Insti- 
+tutional ownership differences and international diversification: the effects of 
+
+References boards of directors and technological opportunity. Acad Manage J 2003;46(2): 
+195–211.
+
+[1] Wager Emma, Ortaliza Jared, Cox Cynthia. How does health spending in the U.S. [34] Stock, James H and Motohiro Yogo, “Testing for weak instruments in linear IV 
+compare to other countries? Peterson-KFF Health System Tracker 2022. Feb. regression,” 2002.
+
+[2] Woolf Steven H, Schoomaker Heidi. Life expectancy and mortality rates in the [35] Arellano Manuel, Bond Stephen. Some tests of specification for panel data: Monte 
+United States, 1959-2017. JAMA 2019;322(20):1996–2016. Carlo evidence and an application to employment equations. Rev Econ Stud 1991; 
+
+[3] Cutler David M, Ly Dan P. The (paper) work of medicine: understanding 58(2):277–97.
+international medical costs. J Econ Perspect 2011;25(2):3–25. [36] Bartik, Timothy J, “Who benefits from state and local economic development 
+
+[4] Glied Sherry A, Altman Stuart H. Beyond antitrust: health care and health policies?” 1991.
+insurance market trends and the future of competition. Health Aff 2017;36(9): [37] Jean Blanchard Olivier, Katz Lawrence F. “Regional evolutions,”. Brookings Papers 
+1572–7. Econom Activity, Econom Studies Program, Brookings Institut 1992;23(1).
+
+[5] Newitt Patsy. 5 largest health insurance companies by membership. Becker’s ASC [38] Adao Rodrigo, Kolesár Michal, Morales Eduardo. Shift-share designs: theory and 
+Rev 2021. Mar. inference. Q J Econ 2019;134(4):1949–2010.
+
+[6] Azar José, Schmalz Martin C, Tecu Isabel. Anticompetitive effects of common [39] Goldsmith-Pinkham Paul, Sorkin Isaac, Swift Henry. Bartik instruments: what, 
+ownership. J Finance 2018;73(4):1513–65. when, why, and how. Am Econom Rev 2020;110(8):2586–624.
+
+[7] O’Brien Daniel P, Salop Steven C. Competitive effects of partial ownership: [40] Jaeger, David A, Joakim Ruist, and Jan Stuhler, “Shift-share instruments and the 
+financial interest and corporate control. Antitrust LJ 1999;67:559. impact of immigration,” Technical Report, National Bureau of Economic Research 
+
+[8] Nasdaq. Nasdaq; Institutional Stock Holdings. Nasdaq 2024. 2018.
+[9] Backus, Matthew, Christopher T Conlon, and Michael Sinkinson, “Common [41] Koch Andrew, Panayides Marios, Thomas Shawn. Common ownership and 
+
+Ownership data: scraped SEC form 13F filings for 1999-2017,” 2020. competition in product markets. J financ econ 2021;139(1):109–37.
+[10] Lewellen Katharina, Lowry Michelle. Does common ownership really increase firm [42] Partnoy Frank. Are Index funds evil? Atlantic 2017.
+
+coordination? SSRN 2019:3336343. [43] Tzanaki Anna. Varieties and mechanisms of common ownership: A calibration 
+[11] Frean Molly, Gruber Jonathan, Sommers Benjamin D. Premium subsidies, the exercise for competition policy. J Compet Law Econ 2022;18(1):168–254.
+
+mandate, and Medicaid expansion: coverage effects of the Affordable Care Act. [44] Kerber Ross. Vanguard to double investor ‘voting choice’ Program for 2025. 
+J Health Econ 2017;53:72–86. Reuters 2024.
+
+[12] Parys Jessica Van. ACA marketplace premiums grew more rapidly in areas with [45] Fichtner Jan, Heemskerk Eelke M, Garcia-Bernardo Javier. Hidden power of the 
+monopoly insurers than in areas with more competition. Health Aff 2018;37(8): Big three? Passive index funds, re-concentration of corporate ownership, and new 
+1243–51. financial risk. Bus Polit 2017;19:298–326.
+
+8

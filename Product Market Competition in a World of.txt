@@ -1,0 +1,2857 @@
+﻿Product Market Competition in a World of
+Cross-Ownership: Evidence from
+Institutional Blockholdings
+Jie (Jack) He
+Terry College of Business, University of Georgia
+
+Jiekun Huang
+College of Business, University of Illinois at Urbana-Champaign
+
+We analyze the effects of institutional cross-ownership of same-industry firms on product
+market performance and behavior. Our results show that cross-held firms experience
+significantly higher market share growth than do non-cross-held firms. We establish
+causality by relying on a difference-in-differences approach based on the quasi-natural
+experiment of financial institution mergers. We also find evidence suggesting that
+institutional cross-ownership facilitates explicit forms of product market collaboration (such
+as within-industry joint ventures, strategic alliances, or within-industry acquisitions) and
+improves innovation productivity and operating profitability. Overall, our evidence indicates
+that cross-ownership by institutional blockholders offers strategic benefits by fostering
+product market coordination. (JEL G23, G32, G34, L11, L22)
+
+Received November 12, 2015; editorial decision December 31, 2016 by Editor Itay Goldstein.
+
+Over the past few decades, publicly traded firms have become increasingly
+interconnected through common stock ownership. As Figure 1 shows,
+the fraction of U.S. public firms held by institutional blockholders that
+
+We are grateful for helpful comments from Itay Goldstein (the editor), two anonymous referees, Kenneth Ahern,
+Heitor Almeida, Bernard Black, Jeffrey Brown, Mark Chen, Hsiu-lang Chen, Diane Del Guercio, Nathan Dong,
+John Easterwood, Vyacheslav Fos, Laurent Fresard, Nickolay Gantchev, Mariassunta Giannetti, Stuart Gillan,
+Charles Hadlock, Lixin Huang, Dirk Jenter, Tim Johnson, Greg Kadlec, Dana Kiku, Omesh Kini, Mathias
+Kronlund, Chang Lee, Ugur Lel, Gregor Matvos, Roni Michaely, Randall Morck, Harold Mulherin, Lalitha
+Naveen, Quoc Nguyen, Bradley Paye, Neil Pearson, George Pennacchi, Gordon Phillips, Josh Pollet, Jeff Pontiff,
+Edward Rice, Martin Schmalz, Tao Shu, Clemens Sialm, Elena Simintzi, Vijay Singal, Shawn Thomas, Yuhai
+Xuan, Scott Weisbenner, Andrew Winton, Julie Wu, Fei Xie, Jin Xu, and Dong Yan; conference participants
+at the 2016 China International Conference in Finance, the 2017 American Finance Association Meetings, the
+2014 Conference on Financial Economics and Accounting, the 2014 Financial Intermediation Research Society
+Conference, the 2014 Annual Conference on Corporate Finance at Washington University in St. Louis, the 2014
+Financial Research Association Annual Meeting, the 2014 Financial Management Association Meetings, the
+2014 Rothschild Caesarea Center 11th Annual Conference; and seminar participants at Georgia State University,
+University of Georgia, University of Illinois at Chicago, University of Illinois at Urbana-Champaign, and Virginia
+Tech. Jie He greatly appreciates the financial support of the Terry-Sanford Award at the University of Georgia.
+We thank Ruidi Huang and Qianqian Jin for research assistance. We are solely responsible for any remaining
+errors. Send correspondence to Jie He, Department of Finance, Terry College of Business, University of Georgia,
+Athens, GA 30602. E-mail: jiehe@uga.edu.
+
+© The Author 2017. Published by Oxford University Press on behalf of The Society for Financial Studies.
+All rights reserved. For Permissions, please e-mail: journals.permissions@oup.com.
+doi:10.1093/rfs/hhx028 Advance Access publication April 3, 2017
+
+[11:39 1/7/2017 RFS-hhx028.tex] Page: 2674 2674–2718
+
+Downloaded from https://academic.oup.com/rfs/article/30/8/2674/3098499 by Northwestern Polytechnical University user on 02 January 2026
+
+
+
+Product Market Competition in a World of Cross-Ownership
+
+Figure 1
+Patterns of institutional cross-ownership over time
+This figure plots the trend in cross-ownership by institutional investors from 1980 through 2014. Institutional
+blockholders of a firm are those that hold at least 5% of the outstanding shares of the firm. A firm is defined to
+be cross-held by an institution in a given quarter when the institution simultaneously block-holds the firm and at
+least one other firm in the same four-digit SIC industry. The blue line with diamonds shows the fraction of U.S.
+public firms that are cross-held by institutional investors in any quarter of the fiscal year. The purple line with
+squares shows the fraction of U.S. public firms that are cross-held by institutional investors in the last quarter
+of the fiscal year. The green dotted line represents the fraction of all U.S institutional investors that cross-hold
+same-industry firms in a given year. The red dashed line shows the fraction of institutional blockholders that
+cross-hold same-industry firms in a given year. The unit of observation for the green dotted line and the red
+dashed line is an institution-year.
+
+simultaneously hold at least 5% of the common equity of other same-
+industry firms has increased from below 10% in 1980 to about 60% in
+2014. This increasing trend of institutional cross-ownership of same-industry
+firms suggests that treating firms as independent decision-makers in the
+product market may no longer adequately capture real strategic interactions
+among them. In fact, ample anecdotal evidence suggests that large common
+blockholders can exert influence on the corporate decisions and product market
+strategies taken by their cross-held firms.1 While existing literature focuses
+almost exclusively on direct cross-ownership by same-industry firms (i.e.,
+corporate equity holdings of each other), little attention has been paid to
+the role of indirect cross-ownership by large common shareholders, such as
+
+1 For example, U.S. Airways Group and AMR Corporation (the parent company of American Airlines) became
+cross-held by Tiger Management LLC in 1996. The two companies formed a broad marketing alliance in 1998.
+As another example, activist investor Carl Icahn was the largest shareholder in two truck makers, Oshkosh
+Corp. and Navistar International Corp., in 2011. He reportedly urged the two companies to merge (Wall Street
+Journal, December 20, 2011, “Icahn’s Candidates for Oshkosh Board Would Support Navistar Merger”). Yet
+another example is the role played by TIAA-CREF, a cross-holder of two oil companies, Texaco and Pennzil, in
+resolving the litigation issues between the two firms in 1987 (Hansen and Lott 1996).
+
+2675
+
+[11:39 1/7/2017 RFS-hhx028.tex] Page: 2675 2674–2718
+
+Downloaded from https://academic.oup.com/rfs/article/30/8/2674/3098499 by Northwestern Polytechnical University user on 02 January 2026
+
+
+
+The Review of Financial Studies / v 30 n 8 2017
+
+institutional investors in product market relationships.2 Given the tremendous
+growth in same-industry institutional cross-ownership and the fact that such
+ownership is still largely unregulated (as opposed to the heavy regulations
+on direct same-industry ownership such as horizontal mergers), understanding
+the economic consequences of same-industry institutional cross-ownership,
+especially its implications for product market dynamics, is important for both
+academics and policy makers.
+
+In this paper, we aim to address the above research question by empirically
+examining the effect of institutional cross-ownership of same-industry firms
+on product market performance and behavior. We hypothesize that cross-
+ownership can offer product market benefits by fostering coordination among
+firms that are cross-held by the same blockholder. Obviously, one major
+cost to institutional blockholders that hold multiple blocks in the same
+industry is under-diversification. Thus, the benefits derived from same-industry
+blockholdings must be large enough to offset such costs to explain the observed
+pattern of institutional cross-holdings. One important benefit of institutional
+cross-holdings is economies of scale in information production (Kacperczyk,
+Sialm, and Zheng 2005). We argue that another important benefit is that
+institutional cross-holders can influence the product market strategies of these
+same-industry firms to enhance the combined value of their holdings.
+
+A cross-holder’s objective is to maximize risk-adjusted portfolio returns.
+However, intense competition among its portfolio firms, especially those
+operating in the same industry and thus offering similar products and services,
+can impose negative externalities (e.g., interfirm lawsuits, advertising wars, and
+research and development [R&D] races) on one another and reduce combined
+portfolio returns for the cross-holder. Consequently, the cross-holder has an
+incentive to make portfolio firms reduce rivalry against each other (Hansen and
+Lott 1996) and foster implicit or explicit coordination (such as joint ventures,
+strategic alliances, or acquisitions) among the firms in the product market.3 This
+hypothesis predicts that firms cross-held by the same institutional blockholder
+should gain a competitive advantage in the product market relative to otherwise
+similar non-cross-held firms.
+
+There are at least two fundamental reasons for why cross-ownership may
+improve the level and efficiency of collaboration between same-industry firms
+beyond what these firms can achieve on their own. First, due to incomplete
+contracting, firms considering collaboration with rivals in the same industry
+may be concerned about the risk of being expropriated by their counterparties.
+Because cross-holders’ objectives are to maximize the combined value of their
+
+2 Several studies investigate the product market implications of direct cross-ownership between firms. See, for
+example, Parker and Röller (1997), Allen and Phillips (2000), and Fee, Hadlock, and Thomas (2006).
+
+3 Hansen and Lott (1996) provide a theory whereby cross-holders maximize their portfolio values by inducing
+their portfolio firms to internalize negative externalities. Similar arguments also have been made in the industrial
+organization literature on coalition formation among firms (see, e.g., Bloch 1995; Yi 1997).
+
+2676
+
+[11:39 1/7/2017 RFS-hhx028.tex] Page: 2676 2674–2718
+
+Downloaded from https://academic.oup.com/rfs/article/30/8/2674/3098499 by Northwestern Polytechnical University user on 02 January 2026
+
+
+
+Product Market Competition in a World of Cross-Ownership
+
+portfolio holdings, they may help align the incentives of the contracting parties
+and mitigate frictions associated with incomplete contracting. Second, cross-
+holders can reduce information asymmetry among same-industry firms and
+facilitate the exploration of profitable collaboration opportunities. Firms in the
+same industry have a natural tendency to conceal proprietary information from
+competitors, which may lead to suboptimal levels of collaborations. Cross-
+holders can facilitate coordination by enhancing information sharing among
+competing firms, thereby improving their product market performance.
+
+Using a comprehensive sample of U.S. public firms from 1980 through 2014,
+we examine the impact of institutional cross-holdings of same-industry firms
+on product market performance. Our multivariate ordinary least-squares (OLS)
+analysis shows that cross-held firms experience significantly higher market
+share growth than non-cross-held firms. This result is robust to alternative
+empirical specifications and is driven primarily by activist institutions. We also
+find that the gains in market share associated with cross-ownership translate
+into higher stock valuation and improved operating profits.
+
+Nevertheless, institutional blockholders do not invest randomly. A potential
+endogeneity concern is that institutions may choose to invest in firms
+with certain product market prospects. In the meantime, unobservable firm
+characteristics, such as corporate culture or managerial traits, may also correlate
+with both cross-ownership and future product market performance, making
+our OLS results spurious. To address these endogeneity concerns, we exploit a
+quasi-natural experiment of financial institution mergers using a difference-in-
+differences (DiD) approach. When two institutions merge, a firm block-held by
+one merging institution is likely to experience an increase in cross-ownership
+when one of its same-industry rivals is block-held by the other merging
+institution before the merger. Thus, the treatment sample consists of firms whose
+ownership linkages with same-industry firms are likely to increase just because
+of the merger. The control sample, on the other hand, consists of other block-
+held firms in the same institution’s portfolio that are unlikely to experience
+such changes. We find evidence that treatment firms, relative to control firms,
+experience an approximately 0.8 percentage points larger increase in annual
+market share growth (about 16% of its standard deviation) surrounding the
+institution mergers, which suggests a causal impact of cross-ownership on
+product market performance.
+
+Using the same DiD framework, we then explore possible sources of
+product market gains induced by institutional cross-ownership. We find that
+treatment firms affected by the same institution merger are significantly more
+likely to engage in explicit coordination (joint ventures, strategic alliances, or
+within-industry acquisitions) with each other than control firms do, indicating
+a bridge-building role played by cross-holding institutions. We also find
+that treatment firms experience an increase in their innovation productivity
+and operating profit margin relative to control firms, suggesting that cross-
+held firms may collaborate on their innovation activities (e.g., by sharing
+
+2677
+
+[11:39 1/7/2017 RFS-hhx028.tex] Page: 2677 2674–2718
+
+Downloaded from https://academic.oup.com/rfs/article/30/8/2674/3098499 by Northwestern Polytechnical University user on 02 January 2026
+
+
+
+The Review of Financial Studies / v 30 n 8 2017
+
+technological know-how and other R&D resources) and may coordinate their
+product market strategies implicitly by cutting production and distribution
+costs (e.g., via collective bargaining against major suppliers and/or reducing
+marketing campaigns directly against each other). Overall, these results suggest
+that cross-ownership by institutional blockholders facilitates product market
+coordination.
+
+Finally, we conduct two event studies to explore the stock price implications
+of cross-ownership. First, we examine the impact of a newly acquired block
+by an institution on the prices of stocks already block-held by the same
+institution. We find that stocks already block-held by the institution that are
+in the same industry as the newly acquired block experience an average
+cumulative abnormal return (CAR) of about two percentage points higher
+than those not in the same industry as the new block. Second, we analyze the
+announcement returns of treatment and control stocks in our institution merger
+sample surrounding the merger announcements, and find that the average CAR
+for treatment firms is approximately 1.5-1.7 percentage points higher than
+that for control firms. These results indicate that the positive effect of cross-
+ownership on product market performance is reflected in stock prices and the
+gains are likely to be captured by the cross-holders.
+
+Our paper makes four main contributions to the literature. First, to the
+best of our knowledge, this is the first firm-level study that examines the
+implications of institutional cross-ownership for firms’product market behavior
+and performance. Second, our paper is also the first to use financial institution
+mergers as an exogenous shock to firms’ cross-holding status and to establish
+a causal link between institutional cross-ownership and firms’ product market
+performance. Third, by analyzing the various coordination activities among
+cross-held firms, our paper sheds light on the possible channels through
+which interfirm relationships induced by modern ownership structure affect
+firms’ strategic behavior and the competitive landscape of an industry. Fourth,
+and most importantly, our study illustrates that the traditional practice of
+treating firms as independent decision-makers in the product market (along
+with conventional measures of industry competitiveness) may not adequately
+capture real strategic interactions among firms or characterize the actual level
+of competition within an industry. Given the substantial growth of large cross-
+holdings, future studies on product market competition should take into account
+these indirect ownership linkages between firms operating in the same industry.
+
+1. Hypothesis Development and Related Literature
+
+1.1 Hypothesis development
+Our main hypothesis is that cross-ownership by institutional blockholders
+facilitates product market coordination and improves product market
+performance. When same-industry firms become cross-held by the same
+institutional blockholder, the blockholder may play a bridge-building role
+
+2678
+
+[11:39 1/7/2017 RFS-hhx028.tex] Page: 2678 2674–2718
+
+Downloaded from https://academic.oup.com/rfs/article/30/8/2674/3098499 by Northwestern Polytechnical University user on 02 January 2026
+
+
+
+Product Market Competition in a World of Cross-Ownership
+
+by facilitating coordination among them. For instance, cross-held firms may
+enhance their product market competitiveness by forming strategic alliances
+among themselves, which would enable them to share resources (e.g.,
+patent licensing agreements among technology firms), lower production and
+distribution costs, and reduce duplication of R&D efforts. In the extreme, these
+firms may merge together to realize the full potential of synergies. Moreover,
+the cross-holding institution, because of its access to the management of the
+firms in which it holds large equity stakes, may facilitate information sharing
+among these cross-held firms and advise them to collaborate strategically by, for
+example, sharing technological know-how, coordinating resource allocation to
+avoid competing against each other in the same product space, or collectively
+bargaining against major suppliers to achieve purchasing efficiencies.
+
+It is worth pointing out that we do not claim that cross-ownership is the
+only reason for coordination among firms in the same industry. Managers of
+same-industry firms may negotiate directly with each other and try to agree on
+different ways that can help both of them increase their operating efficiency
+without the help of cross-holders. We thus emphasize that, cross-owners, while
+by no means the only reason for interfirm collaborations, may play an important
+role in increasing the likelihood and efficiency of coordination among cross-
+held same-industry firms beyond what these firms can achieve on their own.
+
+There are at least two fundamental reasons why cross-ownership may
+improve the level and efficiency of collaboration between same-industry firms.
+First, due to incomplete contracting (i.e., the inability of firms to write a
+contract that can address every possible contingency that may arise and every
+action that may be feasible in the future), firms considering collaboration
+with rivals in the same industry may be concerned about the risk of being
+expropriated or held-up by their counterparties (e.g., Klein, Crawford, and
+Alchian 1978; Williamson 1985)4 Because of this concern, firms may avoid
+entering into potentially beneficial collaborative agreements with other same-
+industry firms in the first place. The presence of cross-holders whose objectives
+are to maximize the value of their combined portfolio holdings can help align
+the incentives of the firms considering collaboration and mitigate frictions
+associated with incomplete contracting. For example, cross-holders can serve
+as an enforcement mechanism for collaboration agreements. Firms in a
+collaborative agreement with same-industry rivals may have an incentive to
+deviate from a cooperative equilibrium to achieve higher short-term gains at the
+expense of their counterparties. Cross-owners can monitor/punish the deviating
+party and potentially change the payoff structure of the game by making it too
+costly for firms to deviate from the cooperative equilibrium.
+
+4 A case in point is the collaborative R&D agreements among same-industry firms: it is very difficult, if not
+impossible, to consider every possible contingency in the long and uncertain innovation process and to formally
+write contracts that define who owns what of the newly created knowledge (except for some easily patentable
+outcomes and milestones). Yet losing highly valuable knowledge to competitors through collaborations can pose
+a direct threat to a firm’s product market position.
+
+2679
+
+[11:39 1/7/2017 RFS-hhx028.tex] Page: 2679 2674–2718
+
+Downloaded from https://academic.oup.com/rfs/article/30/8/2674/3098499 by Northwestern Polytechnical University user on 02 January 2026
+
+
+
+The Review of Financial Studies / v 30 n 8 2017
+
+Second, cross-holders can reduce information asymmetry among same-
+industry firms and facilitate the exploration of profitable collaboration
+opportunities. Firms in the same industry have a natural tendency to conceal
+proprietary information from their rivals because of competitive considerations.
+For example, Asker and Ljungqvist (2010) show that firms in the same industry
+avoid sharing investment banks out of concerns about leaking confidential
+information to rivals. Such fear of losing business secrets may discourage
+firms from developing business ties with same-industry firms that are mutually
+beneficial. Cross-holders can facilitate the sharing of information among
+competing firms to help them identify and explore possible cooperative
+opportunities, thereby facilitating coordination and improving their product
+market performance.
+
+The null hypothesis of our study is that institutional investors that hold
+multiple blocks in an industry do not influence these firms’ product market
+strategies or performance. This may arise because institutions have limited
+incentives and ability to push for changes in firms’ product market strategies
+or because multiple blockholdings make institutions spread their effort too thin
+(i.e., become too busy to focus on each of their portfolio companies) and thus
+reduce their monitoring/advising effectiveness. Therefore, it is an empirical
+question whether cross-ownership affects firms’ product market performance.
+
+1.2 Relation to the existing literature
+Our paper is related to several strands of finance and economics literature.
+The first is the literature on the implications of direct cross-ownership among
+same-industry firms for their product market behavior. Existing industrial
+organization theories suggest that cross-ownership among rival firms via mutual
+corporate equity holdings can reduce competition and lead to higher prices
+(e.g., Reynolds and Snapp 1986; Farrell and Shapiro 1990; Gilo, Moshe,
+and Spiegel 2006). Empirical studies find evidence that such cross-ownership
+arrangements offer strategic benefits in product market relationships (Allen and
+Phillips 2000; Fee, Hadlock, and Thomas 2006) and lead to collusive outcomes
+(e.g., Parker and Röller 1997). However, this line of research examines
+only cross-ownership by the same-industry firms themselves, but not that by
+common shareholders, such as institutional investors. Our paper complements
+this literature by showing that institutional cross-ownership provides strategic
+benefits by facilitating product market collaboration.5
+
+Second, our study also fits in the literature on the influence of institutional
+investors on corporate decisions and performance. A number of studies find
+evidence that institutional investors play the role of large shareholders and
+discipline corporate managers in various settings (e.g., Bushee 1998; Hartzell
+
+5 Moreover, there is a sizable literature in the 1970s and early 1980s on corporate objectives when shareholders
+are heterogeneous, for example, because they have different holdings in other firms (see, among others, Ekern
+and Wilson 1974; Radner 1974; Hart 1979; Grossman and Stiglitz 1980).
+
+2680
+
+[11:39 1/7/2017 RFS-hhx028.tex] Page: 2680 2674–2718
+
+Downloaded from https://academic.oup.com/rfs/article/30/8/2674/3098499 by Northwestern Polytechnical University user on 02 January 2026
+
+
+
+Product Market Competition in a World of Cross-Ownership
+
+and Starks 2003; Parrino, Sias, and Starks 2003; Gaspar, Massa, and Matos
+2005; Del Guercio, Seery, and Woidtke 2008; Aghion, Van Reenen, and
+Zingales 2013). Much of the literature, however, treats institutional investors’
+portfolio holdings as independent positions and does not take externalities
+among portfolio companies into account. Three notable exceptions are Matvos
+and Ostrovsky (2008), Harford, Jenter, and Li (2011), and Becht, Polo, and
+Rossi (2016), all of which examine the effects of cross-ownership on mergers.
+Matvos and Ostrovsky (2008) find that cross-holders, that is, institutions that
+hold shares in both the acquirer and the target in an acquisition, are more
+likely to approve acquisitions, especially those in which the acquirer has
+negative announcement returns. Harford, Jenter, and Li (2011) show that cross-
+ownership is positively correlated with the probability of a firm being targeted
+in a takeover, but they do not find that cross-ownership significantly affects
+bidder returns or the bidders’ share of synergies. Using a sample of takeovers
+in the United Kingdom, Becht, Polo, and Rossi (2016) find that cross-holdings
+are too small to affect voting outcomes.
+
+Third, our paper is also related to a growing body of literature on the
+interconnectedness of firms and its implications. Firms can be linked to one
+another through various types of ties, such as customer-supplier relationships
+(Fee and Thomas 2004; Fee, Hadlock, and Thomas 2006; Cohen and Frazzini
+2008), sharing of common financial intermediaries (Asker and Ljungqvist
+2010), and interfirm alliances (Chan et al. 1997; Gomes-Casseres, Hagedoorn,
+and Jaffe 2006).
+
+In a contemporaneous working paper, Azar, Schmalz, and Tecu (2015) find
+evidence of anticompetitive effects associated with cross-ownership in the
+airline industry. Since the airline industry is characterized by high entry barriers
+and high concentration of market share among a small number of dominant
+players (there are only about ten publicly traded airlines in the United States),
+the anticompetitive effects they document may not be readily generalizable to
+other industries with dissimilar competitive landscapes. Unlike the focus of
+their paper, we focus on product market strategies by each individual firm (as
+opposed to each airline route in their study which is part of an airline company’s
+portfolio of products), and analyze all industries, the majority of which can be
+very different in nature from the airline industry.6 While they only use one
+institution merger during the financial crisis (i.e., in 2009) as an exogenous
+shock to cross-ownership, we examine multiple institution mergers spanning
+from 1983 to 2011, which mitigates the concern for potential omitted variables
+coinciding with a single shock that directly affect firm behavior. Moreover,
+
+6 Given the prevalence of cross-ownership in many industries with different structures and characteristics (as
+Table 1 shows), a thorough understanding of the effect of cross-ownership across a wide spectrum of industries
+carries important policy implications. While regulators are rightly concerned about potential anticompetitive
+effects in some industries, the regulatory framework should be designed so as not to discourage efficiency-
+improving collaborations in other industries.
+
+2681
+
+[11:39 1/7/2017 RFS-hhx028.tex] Page: 2681 2674–2718
+
+Downloaded from https://academic.oup.com/rfs/article/30/8/2674/3098499 by Northwestern Polytechnical University user on 02 January 2026
+
+
+
+The Review of Financial Studies / v 30 n 8 2017
+
+we consider institutional blockholdings of 5% or more when defining cross-
+ownership, whereas Azar, Schmalz, and Tecu (2015) consider equity holdings
+exceeding 0.5%.
+
+2. Sample Selection and Summary Statistics
+
+2.1 Sample selection
+The sample examined in this paper includes U.S.-listed firms with common
+stocks traded on the NYSE, NASDAQ, and AMEX during the period 1980–
+2014. To be included in our sample, a firm-year must have positive values for
+sales and total assets and nonmissing industry classification information (four-
+digit SIC codes), and belong to an industry with at least two firms.7 We retrieved
+quarterly institutional holdings data from Thomson’s CDA/Spectrum database
+(form 13F). Market share data and other financial statement items come from
+Compustat. Financial institution merger data are constructed following the
+same methodology as in Huang (2016). The above sample selection process
+results in 103,512 firm-year observations.
+
+2.2 Variable measurement
+2.2.1 Measuring cross-ownership. For each quarter in the 1980–2014
+sample period, we extract institutional holdings information from Thomson
+Financial’s 13F database and define a holding as a block if it exceeds 5% of the
+outstanding shares. We choose 1980 as the starting year of our sample period
+because the 13F data set starts its coverage in that year. Cross-holdings arise
+when an institution simultaneously holds more than one blocks in the same
+four-digit SIC industry at a given point in time.
+
+To gauge a firm’s cross-ownership status in a given fiscal year, we construct
+five measures. The first, CrossDummy, is a dummy variable that equals one
+if the firm is cross-held in any of the four quarters in a fiscal year and zero
+otherwise. The second one, NumConnected, is the number of same-industry
+peers that share any common institutional blockholder with the firm. The third
+measure, NumCross, is the number of unique institutions that cross-hold the
+firm. The second and third measures capture the extent to which a firm is
+connected to other same-industry peers through cross-ownership. The fourth
+measure, AvgNum, is the number of same-industry peers block-held by the
+average cross-holding institution. Specifically, we first calculate the number
+of same-industry firms (other than the one under consideration) block-held by
+each cross-holding institution during a quarter and then average across all such
+institutions. This measure captures the intensity of cross-holding activities for
+
+7 Following recent studies on the interaction between corporate finance and product market behavior, such as
+Campello (2006), Fresard (2010), and Hadlock and Sonti (2012), we use four-digit SIC codes to define product
+markets (industries) throughout the paper, although our results are robust to alternative industry definitions, such
+as Fama-French 48 industry classification or the 10-K text-based industry definitions developed by Hoberg and
+Phillips (2010, 2016).
+
+2682
+
+[11:39 1/7/2017 RFS-hhx028.tex] Page: 2682 2674–2718
+
+Downloaded from https://academic.oup.com/rfs/article/30/8/2674/3098499 by Northwestern Polytechnical University user on 02 January 2026
+
+
+
+Product Market Competition in a World of Cross-Ownership
+
+the average institution and thus its incentive to influence the corporate policies
+of the cross-held companies. The last measure, TotalCrossOwn, is the sum of all
+cross-holding institutions’ percentage holdings in the firm itself. This measure
+captures the potential aggregate influence of all cross-holding institutions on
+firm management. For all the cross-ownership measures except the first one, we
+first calculate the measures in a quarter and then average across four quarters
+in a given fiscal year to obtain the annual measures.
+
+2.2.2 Measuring market share growth and control variables. We use the
+change in market share as our main measure for product market performance.
+Following standard practice in the literature on product market competition,
+we define a firm’s market share as its sales in a year divided by the same four-
+digit SIC industry’s total sales in that year. We then calculate a firm’s market
+share growth as the difference in market share between the current year and the
+previous year. For example, if a firm’s market share in year t is 10% and it is
+12% in year t+1, the market share growth is two percentage points (or 0.02 in
+our regressions).
+
+In this paper, we use sales-based market share growth as our primary measure
+for product market performance because of four reasons. First, it is well
+motivated by theoretical models linking corporate policies to product market
+performance (e.g., Maksimovic 1986; Bolton and Scharfstein 1990; Chevalier
+and Scharfstein 1996; Campello and Fluck 2006), and thus has become
+a standard measure of product market strength in recent empirical finance
+literature analyzing the interactions between financial/ownership structures
+and product markets (e.g., Campello 2006; Fresard 2010; Chemmanur and
+He 2011). Second, as Opler and Titman (1994) point out, sales-based market
+share growth is the most direct measure of customer-driven gains/losses in
+sales. Since the ability of a firm to generate cash flows depends in large part on
+attracting and retaining customers, market share growth captures an important
+dimension of a firm’s product market performance. In fact, the very first step
+of many valuation models used by practitioners (such as discounted cash flow
+techniques) is to estimate a firm’s future sales growth rate because it reflects a
+firm’s expected market power and earnings potential that directly contribute to
+its value. Third, because market share growth of firms in the same industry sums
+up to one, the measure enables us to gauge the gain in sales by cross-held firms at
+the expense of other firms in the same industry. Fourth, sales are less subject to
+accounting discretion/manipulation than reported earnings. Thus, sales growth
+may provide a more reliable measure of corporate performance than earnings-
+based performance measures. Nevertheless, since we are interested in the extent
+to which product market share growth translates into profitability and firm
+value, we also use operating profitability and stock returns as our alternative
+performance measures.
+
+We control for a vector of firm characteristics that may affect a firm’s future
+market share growth. Firms at the growing stage of their life cycle, that is,
+
+2683
+
+[11:39 1/7/2017 RFS-hhx028.tex] Page: 2683 2674–2718
+
+Downloaded from https://academic.oup.com/rfs/article/30/8/2674/3098499 by Northwestern Polytechnical University user on 02 January 2026
+
+
+
+The Review of Financial Studies / v 30 n 8 2017
+
+those with smaller size (proxied by total assets), more growth opportunities
+(Tobin’s q), and larger growth in fixed assets (percentage changes in property,
+plant, and equipment), are more likely to experience faster market share growth.
+In addition, firms with more aggressive investment strategies, that is, those
+with higher capital expenditures, higher acquisition expenditures, and more
+R&Ds, should increase their market share at a faster rate.8 We also control
+for a firm’s cash holdings, leverage ratio (long-term debt divided by total
+assets), and operating profitability (return on assets), because recent studies
+(e.g., Campello 2006; Fresard 2010) find that these characteristics are closely
+related to the firm’s future product market performance. Further, to separate the
+effect of cross-ownership from that of block ownership or institutional holdings
+in general, we control for the average fractional ownership by institutional
+blockholders, total institutional ownership, as well as a dummy variable for
+whether a firm is block-held by institutional investors in any fiscal quarter of the
+year. Finally, to control for investor activism, we retrieve Schedule 13D filings
+from the SEC EDGAR database and count the number of initial 13Ds (i.e.,
+excluding amendments) targeting the firm during the year.9 Since electronic
+filings became available on EDGAR starting from 1994, we retrieve all 13Ds
+during the 1994–2014 period and focus on the subsample of firm-years between
+1995 and 2014 in tests involving this variable.
+
+2.3 Summary statistics
+To minimize the effects of outliers, we winsorize all continuous variables at the
+1st and 99th percentiles. Table 1, panel A, provides summary statistics. The top
+five rows summarize our main measures for the extent of cross-ownership.
+About 40% of the firm-years in our sample are cross-held by at least one
+institution. The next row summarizes the one-year-ahead market share growth
+(MktShareGrowt+1) for our sample firm-years. Since market share changes
+are essentially a zero-sum game (when there is no entry or exit), the mean
+and median market share growth rates are close to zero. There is, however,
+considerable variation in the variable, as indicated by an interquartile range
+of 0.005 and a standard deviation of 0.066. The rest of the panel summarizes
+our control variables. For example, the average firm in our sample has a book
+value of assets of $1.0 billion in real 1982–1984 dollars, a Tobin’s q of 1.93,
+and a leverage ratio of 17.3%. The average fractional ownership by institutional
+
+8 Following Chan, Lakonishok, and Sougiannis (2001) and Hirshleifer, Hsu, and Li (2013), we define a firm’s R&D
+capital as its five-year cumulative R&D expenses assuming an annual depreciation rate of 20%. We then scale
+R&D capital by the sum of the firm’s book equity value and itself. Replacing this variable with R&D-to-assets
+ratio in the regressions does not qualitatively change our results.
+
+9 Depending on whether they have activist intentions, investors can choose to file a 13-D or a 13-G form when
+their holdings exceed 5% of a company’s outstanding shares. A 13-D is required only when the blockholder
+intends to engage in active intervention, whereas a 13-G form would suffice if the blockholder does not intend to
+change or influence the control over a company. Since we are interested in the heterogeneity across institutions
+in terms of activism, we use 13-D filings as an indicator.
+
+2684
+
+[11:39 1/7/2017 RFS-hhx028.tex] Page: 2684 2674–2718
+
+Downloaded from https://academic.oup.com/rfs/article/30/8/2674/3098499 by Northwestern Polytechnical University user on 02 January 2026
+
+
+
+Product Market Competition in a World of Cross-Ownership
+
+Table 1
+Summary statistics and sample characteristics
+
+A. Summary statistics
+
+Variable Mean P25 Median P75 SD N
+
+CrossDummy 0.415 0.000 0.000 1.000 0.493 103,512
+NumConnected 2.285 0.000 0.000 2.000 5.521 103,512
+NumCross 0.604 0.000 0.000 1.000 0.852 103,512
+AvgNum 1.043 0.000 0.000 1.000 2.218 103,512
+TotalCrossOwn 0.064 0.000 0.000 0.096 0.100 103,512
+MktShareGrowt+1 0.002 – 0.002 0.000 0.003 0.066 103,512
+Assets (in $ billions) 1.038 0.022 0.090 0.429 3.566 103,512
+Tobin q 1.932 1.032 1.361 2.106 1.670 103,512
+CashAssets 0.179 0.025 0.089 0.256 0.213 103,512
+Leverage 0.173 0.006 0.120 0.282 0.186 103,512
+ROA 0.057 0.030 0.106 0.165 0.219 103,512
+R&DCapital 0.125 0.000 0.000 0.195 0.203 103,512
+CapexAssets 0.062 0.019 0.041 0.079 0.068 103,512
+AcqAssets 0.020 0.000 0.000 0.005 0.056 103,512
+PPEGrowth 0.192 0.022 0.088 0.223 0.446 103,512
+BlockOwn 0.114 0.000 0.073 0.181 0.131 103,512
+InstOwn 0.368 0.107 0.315 0.595 0.288 100,280
+BlockDummy 0.691 0.000 1.000 1.000 0.462 103,512
+Num13D 0.144 0.000 0.000 0.000 0.506 59,863
+
+B. Characteristics of cross-held and non-cross-held firms
+
+Cross-held Non-cross-held
+
+Mean Median Mean Median Difference Difference
+Variable (1) (2) (3) (4) (1)-(3) (2)-(4)
+
+MktShareGrowt+1 0.003 0.000 0.000 0.000 0.003*** 0.000***
+Assets (in $ billions) 1.257 0.163 0.883 0.051 0.374*** 0.112***
+Tobin q 1.915 1.396 1.944 1.337 – 0.029*** 0.059***
+CashAssets 0.207 0.114 0.159 0.076 0.048*** 0.038***
+Leverage 0.169 0.112 0.175 0.126 – 0.006*** – 0.014***
+ROA 0.071 0.108 0.048 0.104 0.023*** 0.004***
+R&DCapital 0.148 0.020 0.109 0.000 0.039*** 0.020***
+CapexAssets 0.060 0.039 0.064 0.043 – 0.004*** – 0.004***
+AcqAssets 0.024 0.000 0.018 0.000 0.006*** 0.000***
+PPEGrowth 0.181 0.090 0.200 0.087 – 0.019*** 0.003***
+BlockOwn 0.188 0.163 0.061 0.000 0.127*** 0.163***
+InstOwn 0.528 0.531 0.247 0.160 0.281*** 0.371***
+BlockDummy 1.000 1.000 0.472 0.000 0.528*** 1.000***
+Num13D 0.127 0.000 0.165 0.000 – 0.038*** 0.000***
+
+(continued )
+
+blockholders is 11.4% and the average total institutional ownership is 36.8%
+of the outstanding shares. About 69.1% of the firm-years in our sample have at
+least one institutional blockholder. Finally, the average number of initial 13D
+filings targeting a firm during a year is about 0.14.
+
+Table 1, panel B, summarizes the characteristics of cross-held and non-cross-
+held firm-years. These univariate comparisons indicate that, on average, cross-
+held firms have higher market share growth, larger total assets, smaller Tobin’s
+q, higher cash-to-assets ratio, lower leverage, better operating performance
+(in terms of ROA), more R&D capital, fewer capital expenditures, more
+acquisition expenses, greater institutional ownership, fewer initial 13D filings,
+and higher fractional ownership by institutional blockholders. In untabulated
+analysis, we find that the average holding period for an institutional block
+
+2685
+
+[11:39 1/7/2017 RFS-hhx028.tex] Page: 2685 2674–2718
+
+Downloaded from https://academic.oup.com/rfs/article/30/8/2674/3098499 by Northwestern Polytechnical University user on 02 January 2026
+
+
+
+The Review of Financial Studies / v 30 n 8 2017
+
+Table 1
+Continued
+C. Distribution of cross-held and non-cross-held firms in industries
+
+Fraction of firm-years across industries
+
+Non-cross-held
+
+Fama-French 12 industry Cross-held Block-held Non-block-held
+
+Consumer nondurables 23.97% 45.45% 30.58%
+Consumer durables 33.76% 39.85% 26.39%
+Manufacturing 35.47% 40.58% 23.95%
+Energy 44.16% 19.40% 36.44%
+Chemicals and allied products 26.90% 43.56% 29.54%
+Business Equipment 55.98% 17.13% 26.89%
+Telephone and television transmission 47.17% 25.22% 27.62%
+Utilities 39.35% 21.06% 39.59%
+Shops 39.42% 34.21% 26.37%
+Health care, medical equipment, and drugs 48.50% 19.61% 31.88%
+Finance 42.98% 25.12% 31.90%
+Other 41.16% 31.03% 27.81%
+
+This table reports summary statistics based on the sample of U.S. public firms from 1980 to 2014. PanelAprovides
+summary statistics. CrossDummy is a dummy variable that equals one if a firm is cross-held in any of the four
+quarters prior to the fiscal year-end, and zero otherwise. NumConnected is the average number of same-industry
+rivals that share any common institutional blockholder with the firm in the four quarters prior to the fiscal year-
+end. NumCross is the average number of unique institutions that cross-hold a firm in the four quarters prior to the
+fiscal year-end. AvgNum is the average number of rivals block-held by the cross-holding institutions during the
+fiscal year. TotalCrossOwn is the sum of all cross-holding institutions’average percentage holdings in a firm itself.
+MktShareGrowt+1 is the difference between a firm’s market share in the next year and that in the current year.
+Other variables include inflation-adjusted total assets in real 1982-1984 dollars (Assets), Tobin’s q (Tobin q), cash
+and equivalents over assets (CashAssets), leverage (Leverage), return on assets (ROA), R&D capital scaled by
+book equity (R&DCapital), capital expenditures over assets (CapexAssets), acquisition expenditures over assets
+(AcqAssets), growth in property, plant, and equipment (PPEGrowth), the average percentage ownership by
+institutional blockholders (BlockOwn), the percentage ownership by institutional investors (InstOwn), a dummy
+to indicate whether a firm is block-held in any of the four quarters prior to the fiscal year-end (BlockDummy),
+and the number of initial 13D filings targeting the firm during the fiscal year (Num13D). Panel B summarizes
+the characteristics of cross-held and non-cross-held firm-years. Panel C presents the distribution of cross-held
+firms, non-cross-held but block-held firms, and non-block-held firms across the Fama-French 12 industries. ***,
+**, and * indicate that a two-sample t-test or a nonparametric median test is significant at the 1%, 5%, and 10%
+levels, respectively.
+
+is about seven quarters and that approximately 80% of cross-held blocks are
+owned by nontransient institutions (Bushee 1998). These findings suggest that
+cross-holders are long-term shareholders who are likely to exert influence on
+corporate management to reap strategic benefits.
+
+Table 1, panel C, presents the distribution of cross-held and non-cross-held
+firm-years across the Fama-French 12 industries. We further categorize non-
+cross-held firms into those are block-held and those that are not. As we can
+see, a reasonable fraction of firms in each industry is cross-held, with a higher
+concentration in Business Equipment, Health care, and Telecommunications.
+Industries in which firms are the least likely to be cross-held are Consumer
+nondurables and Chemicals.
+
+Figure 1 shows the pattern of institutional cross-ownership over time. The
+blue line with diamonds shows the fraction of U.S. public firms that are cross-
+held by institutional investors in any quarter of the fiscal year, and the purple
+line with squares shows the fraction of U.S. public firms that are cross-held by
+institutional investors in the last quarter of the fiscal year. Both lines show that
+
+2686
+
+[11:39 1/7/2017 RFS-hhx028.tex] Page: 2686 2674–2718
+
+Downloaded from https://academic.oup.com/rfs/article/30/8/2674/3098499 by Northwestern Polytechnical University user on 02 January 2026
+
+
+
+Product Market Competition in a World of Cross-Ownership
+
+the fraction of U.S. public firms that are cross-held has increased tremendously
+from below 10% in 1980 to about 60% in 2014, indicating that cross-ownership
+has now become so widespread that it is likely to have a profound impact on
+modern firm organization and market structure. The red dashed line shows that
+the fraction of institutional blockholders that hold more than one block in an
+industry is relatively stable over time, fluctuating mostly between 20% and
+30%, which indicates that a cross-holding strategy has its own benefits (e.g.,
+the economy of scale in information production and the potential benefits of
+fostering coordination among its portfolio companies) and costs (e.g., under-
+diversification and the exposure to industry-specific shocks), and thus has not
+become an industry norm. The green dotted line, which plots the fraction of all
+U.S institutional investors that cross-hold, reveals a somewhat similar pattern
+over time.
+
+Overall, Figure 1 indicates that cross-ownership has gained considerable
+momentum over the past three decades, making it an important phenomenon
+to understand and explore.10
+
+3. Relation between Cross-Ownership and Firm Performance
+
+3.1 OLS analysis
+To assess how a firm’s cross-ownership relates to its future product market
+performance, we estimate various forms of the following model using the OLS
+method:
+
+MktShareGrowi,t+1 =α+βCrossMeasurei,t +γZi,t +Yeart +Firmi +εi,t , (1)
+where i indexes firm and t indexes time. The dependent variable is a firm’s one-
+year-ahead market share growth as defined in the previous section. The cross-
+ownership measure, CrossMeasure, is one of the five cross-holding proxies for
+firm i over fiscal year t . To reduce the influence of large values of NumCross,
+NumConnected, and AvgNum, we use the natural logarithm of one plus these
+measures in the regressions. Z is a vector of firm characteristics that may affect
+a firm’s future market share growth. Year captures year fixed effects and Firm
+captures firm fixed effects. We include firm fixed effects to mitigate the concern
+for time-invariant omitted variables that are correlated with both market share
+growth and cross-ownership. We cluster standard errors at the firm level.
+
+Table 2, panel A, reports the OLS regression results estimating Equation
+(1) using CrossDummy as the measure for cross-ownership.11 The coefficient
+
+10 Since the main purpose of this study is to analyze the causal impact of cross-ownership on firms’ product market
+performance rather than the motivations for cross-holdings from the perspective of an institution, we leave further
+investigations of these time trends to future studies. It is worth noting that our identification strategy (i.e., the
+institution merger setting) helps isolate the effect of cross-ownership from confounding factors that motivate
+cross-ownership.
+
+11 To mitigate the concern about multicollinearity, we include the control variables set by set (especially the variables
+measuring institutional ownership, block ownership, and investor activism) in the regressions and find similar
+results to those reported here.
+
+2687
+
+[11:39 1/7/2017 RFS-hhx028.tex] Page: 2687 2674–2718
+
+Downloaded from https://academic.oup.com/rfs/article/30/8/2674/3098499 by Northwestern Polytechnical University user on 02 January 2026
+
+
+
+The Review of Financial Studies / v 30 n 8 2017
+
+estimates of CrossDummy in all four specifications are positive and significant
+at the 1% level, suggesting that cross-ownership is associated with a higher
+market share growth rate in the following year. In terms of economic
+significance, Column (4) implies that a firm’s one-year-ahead market share
+growth when it is cross-held is 0.005 higher than when it is not cross-held.
+Considering that market share growth in our sample has a standard deviation
+of 0.066 and an interquartile range of 0.005, the magnitude of this effect is
+economically meaningful.
+
+As for the control variables, we find that firms with smaller total assets,
+higher Tobin’s q, higher acquisition expenditures, and higher PPE growth
+exhibit higher future market share growth, which is broadly consistent with
+our intuition. Interestingly, Column (3) shows that the presence of institutional
+blockholders is negatively associated with future market share growth, possibly
+because blockholders may have a preference for more mature firms. Since
+blockholders may differ in their incentives and abilities to influence corporate
+strategies, we include the natural logarithm of one plus the number of initial
+13D filings targeting the firm during the current year as an additional control
+in Column (4). The results suggest that the presence of activist investors
+is associated with greater future market share growth, which is consistent
+with these investors exerting active influence on corporate strategies and
+performance (Brav et al. 2008).
+
+Table 2, panel B, reports the OLS results using the other four measures of
+cross-ownership as well as two variations of the cross-holding dummy, with
+the first variation being a dummy for whether the firm is cross-held in the
+last fiscal quarter of the year, and the second being a dummy for whether the
+firm is cross-held in all four quarters over the fiscal year. We use the same
+set of control variables as in Column (4) of panel A. To save space, we only
+show the coefficients on the cross-ownership measures and omit those on the
+control variables. The coefficient estimates of all six measures are positive
+and significant at either the 1% or the 5% level. The economic magnitude
+is nontrivial as well. For example, Column (1) shows that a one-standard-
+deviation increase from the median of the number of same-industry peers that
+share common block-holders with a firm (i.e., from 0 to 5.521) is associated with
+an increase in a firm’s market share growth of 0.004 (=(ln(6.521)-ln(1))*0.002).
+
+Our OLS estimate of the relation between cross-ownership and future market
+share growth could be biased upward or downward due to time-varying omitted
+firm characteristics. For example, if the omitted variable is unobserved firm
+quality (which makes firms more likely to gain market share in the future)
+that cross-holding institutions can privately know and select on, then the OLS
+estimates could be biased upward because this omitted variable is positively
+correlated with both cross-ownership and future market share growth. On the
+other hand, a second selection bias is that institutions might choose to cross-
+own firms based on other characteristics that tend to be negatively related to
+future market share growth, which could bias the OLS estimates downward.
+
+2688
+
+[11:39 1/7/2017 RFS-hhx028.tex] Page: 2688 2674–2718
+
+Downloaded from https://academic.oup.com/rfs/article/30/8/2674/3098499 by Northwestern Polytechnical University user on 02 January 2026
+
+
+
+Product Market Competition in a World of Cross-Ownership
+
+Table 2
+OLS regression of future market share growth on cross-ownership
+
+A. CrossDummy as a measure of cross-ownership
+
+MktShareGrowt+1
+
+Dep. variable (1) (2) (3) (4)
+
+CrossDummy 0.004∗∗∗ 0.004∗∗∗ 0.005∗∗∗ 0.005∗∗∗
+(5.641) (5.588) (5.784) (4.172)
+
+LnAssets −0.002∗∗∗ −0.001∗∗ −0.002∗∗
+(−3.909) (−2.518) (−2.073)
+
+Tobin q 0.001∗∗∗ 0.001∗∗∗ 0.001∗∗∗
+(3.815) (4.002) (3.513)
+
+CashAssets 0.002 0.002 0.002
+(1.051) (1.144) (0.715)
+
+Leverage 0.002 0.002 0.006∗
+(1.105) (1.024) (1.698)
+
+ROA −0.002 −0.001 −0.002
+(−1.095) (−0.924) (−1.179)
+
+R&DCapital 0.001 0.001 −0.001
+(0.461) (0.461) (−0.359)
+
+CapexAssets −0.006 −0.003 −0.015∗∗
+(−1.157) (−0.657) (−2.084)
+
+AcqAssets 0.028∗∗∗ 0.030∗∗∗ 0.027∗∗∗
+(5.286) (5.589) (4.130)
+
+PPEGrowth 0.002∗∗∗ 0.002∗∗∗ 0.002∗∗∗
+(3.678) (3.295) (2.828)
+
+BlockOwn 0.001 0.006 0.005
+(0.250) (1.341) (1.031)
+
+InstOwn −0.004 −0.006
+(−1.214) (−1.408)
+
+BlockDummy −0.002∗∗ −0.002
+(−2.154) (−1.337)
+
+LnNum13D 0.003∗∗
+(2.285)
+
+Firm FEs Yes Yes Yes Yes
+Year FEs Yes Yes Yes Yes
+Observations 103,512 103,512 100,280 59,353
+R-squared 0.099 0.100 0.100 0.119
+
+B. Alternative measures of cross-ownership
+
+MktShareGrowt+1
+
+Dep. variable (1) (2) (3) (4) (5) (6)
+
+LnNumConnected 0.002***
+(4.399)
+
+LnNumCross 0.006***
+(4.317)
+
+LnAvgNum 0.002***
+(3.828)
+
+TotalCrossOwn 0.021***
+(3.979)
+
+LastCrossDummy 0.002**
+(2.414)
+
+AllCrossDummy 0.002**
+(1.961)
+
+Controls Yes Yes Yes Yes Yes Yes
+Firm FEs Yes Yes Yes Yes Yes Yes
+Year FEs Yes Yes Yes Yes Yes Yes
+Observations 59,353 59,353 59,353 59,353 59,353 59,353
+R-squared 0.118 0.119 0.118 0.118 0.118 0.118
+
+(continued )
+
+2689
+
+[11:39 1/7/2017 RFS-hhx028.tex] Page: 2689 2674–2718
+
+Downloaded from https://academic.oup.com/rfs/article/30/8/2674/3098499 by Northwestern Polytechnical University user on 02 January 2026
+
+
+
+The Review of Financial Studies / v 30 n 8 2017
+
+Table 2
+Continued
+C. Robustness tests
+
+MktShareGrowt,t+1(or MktShareGrowt,t+3 in Model (8))
+
+FIC500 Manu Refine Drop5 Block SP500 Alter 3-year
+Dep. var. (1) (2) (3) (4) (5) (6) (7) (8)
+
+CrossDummy 0.011*** 0.006*** 0.004** 0.003*** 0.006*** 0.008** 0.036*** 0.012***
+(8.274) (3.474) (2.236) (2.901) (4.396) (2.125) (3.588) (3.825)
+
+Controls Yes Yes Yes Yes Yes Yes Yes Yes
+Firm FEs Yes Yes Yes Yes Yes Yes Yes Yes
+Year FEs Yes Yes Yes Yes Yes Yes Yes Yes
+Observations 52,041 27,284 31,004 48,739 47,845 9,037 58,579 43,962
+R-squared 0.070 0.125 0.127 0.206 0.133 0.080 0.182 0.251
+
+D. Activist versus nonactivist institutions
+
+MktShareGrowt+1
+
+Dep. variable (1) (2) (3) (4) (5)
+
+CrossDummy_13D 0.005***
+(3.156)
+
+CrossDummy_Non13D 0.001
+(0.506)
+
+LnNumConnected_13D 0.003***
+(3.140)
+
+LnNumConnected_Non13D 0.001
+(1.223)
+
+LnNumCross_13D 0.005***
+(2.851)
+
+LnNumCross_Non13D 0.002
+(1.058)
+
+LnAvgNum_13D 0.003***
+(2.912)
+
+LnAvgNum_Non13D 0.000
+(0.177)
+
+TotalCrossOwn_13D 0.034***
+(2.925)
+
+TotalCrossOwn_Non13D 0.012
+(1.327)
+
+Controls Yes Yes Yes Yes Yes
+Firm FEs Yes Yes Yes Yes Yes
+Year FEs Yes Yes Yes Yes Yes
+Observations 47,349 47,349 47,349 47,349 47,349
+R-squared 0.122 0.122 0.122 0.122 0.122
+Wald-test F-stat 4.231 3.249 3.260 4.227 3.869
+p-value 0.040 0.072 0.071 0.040 0.049
+
+This table reports the OLS regression results of future market share growth on cross-ownership measures and
+controls. LnAssets is the natural logarithm of total assets. LnNum13D is the natural logarithm of one plus the
+number of initial 13D filings targeting the firm during the fiscal year. LnNumConnected is the natural logarithm
+of one plus the average number of same-industry rivals that share any common institutional blockholder with
+the firm in the four quarters prior to the fiscal year-end. LnNumCross is the natural logarithm of one plus the
+average number of unique institutions that cross-hold a firm in the four quarters prior to the fiscal year-end.
+LnAvgNum is the natural logarithm of one plus the average number of rivals block-held by the cross-holding
+institutions during the fiscal year. LastCrossDummy is a dummy that equals one if a firm is cross-held in the last
+fiscal quarter. AllCrossDummy is a dummy that equals one if a firm is cross-held in all four quarters over the
+fiscal year. Definitions of other variables are given in Table 1. Panel A reports OLS results using CrossDummy
+as the measure for cross-ownership. Panel B analyzes alternative measures for cross-ownership. Panel C reports
+robustness test results. Panel D decomposes cross-ownership into that held by activist institutions (i.e., those
+that filed at least one 13D during the past three years) and that by nonactivist institutions and compares their
+coefficients by using a Wald test. Each regression includes a separate intercept. The estimations correct for error
+heteroscedasticity and within-firm error clustering. We report t-statistics in parentheses. ***, **, and * indicate
+significance at the 1%, 5%, and 10% levels, respectively.
+
+2690
+
+[11:39 1/7/2017 RFS-hhx028.tex] Page: 2690 2674–2718
+
+Downloaded from https://academic.oup.com/rfs/article/30/8/2674/3098499 by Northwestern Polytechnical University user on 02 January 2026
+
+
+
+Product Market Competition in a World of Cross-Ownership
+
+For example, cross-holders, because of portfolio diversification considerations
+(Faccio, Marchica, and Mura 2011), may choose to invest in mature firms
+or firms with more conservative product market strategies. In this case, the
+omitted variable in the OLS regression is a conservative corporate culture (or
+greater managerial risk aversion) that is positively related to cross holding but
+negatively related to future market share growth. Because of these potential
+selection biases, one should be careful when interpreting the magnitude of
+these OLS estimates. In Section 4, we adopt a cleaner identification strategy to
+tackle the endogeneity problem and provide more insight into the direction of
+the biases.
+
+3.2 Robustness checks of the OLS results
+We conduct a rich set of robustness tests for our OLS results and present them
+in Table 2, panel C. We use the same set of controls as in Model (4) of panel
+A and only show the results obtained using CrossDummy as the measure for
+cross-ownership. Robustness tests using other cross-ownership measures yield
+qualitatively similar results. Column (1) uses the 10-K text-based fixed industry
+definitions (FIC 500) developed by Hoberg and Phillips (2010, 2016) to define
+product markets.12 Column (2) examines only manufacturing industries (with
+SIC codes between 2000 and 3999). Column (3) uses a refined definition of
+industries by dropping those whose fourth digit of their SIC codes is 0 or 9,
+as some studies, such as Clarke (1989) and Kahle and Walking (1996), argue
+that these SIC codes might not accurately define economic markets. To address
+the concern that our OLS results might be driven by industries with a small
+number of firms, Column (4) drops industry-years with fewer than five firms.
+In untabulated analysis, we also try dropping industry-years with fewer than
+20 firms, or directly controlling for industry size (the number of firms in an
+industry-year), and find qualitatively similar results. Column (5) considers only
+firm-years that are block-held (i.e., having at least one institution holding more
+than 5% of the firms’ equity). Column (6) examines only S&P 500 firms, and
+Column (7) uses an alternative definition of market share growth: the difference
+between a firm’s log market share in the next year and its log market share in
+the current year. Column (8) examines long-run product market performance
+in terms of the change in market share from year t to year t+3. In all of the
+above regressions, the coefficient estimates of CrossDummy are significantly
+positive.13
+
+12 We thank Gerard Hoberg and Gordon Phillips for making their industry definitions publicly available on their
+Web sites. Although we report results using only FIC 500, our results are similar when using alternative industry
+definitions, such as FIC 300 or FIC 400.
+
+13 To rule out the possibility that our results are mechanically driven by firms making acquisitions, we also drop
+firms that make same-industry acquisitions during either the current or the next year (at t or t+1) or those making
+same-industry acquisitions in any year of our sample period. We find qualitatively similar results.
+
+2691
+
+[11:39 1/7/2017 RFS-hhx028.tex] Page: 2691 2674–2718
+
+Downloaded from https://academic.oup.com/rfs/article/30/8/2674/3098499 by Northwestern Polytechnical University user on 02 January 2026
+
+
+
+The Review of Financial Studies / v 30 n 8 2017
+
+3.3 Cross-ownership by different types of institutions
+Since activist institutions have strong incentives and abilities to influence
+corporate decision-making, we examine whether the cross-holdings of activist
+institutions have a stronger association with firms’product market performance
+than cross-holdings of nonactivist institutions.14 We define activists using
+Schedule 13D filings. We match the 13D filers with the 13F institutions in
+our sample and classify institutional blockholders into activist institutions (i.e.,
+those that filed at least one 13D in the past three years) and nonactivist ones
+(i.e., those that did not file any 13D in the past three years). About 54% of the
+firm-years with cross-ownership have at least one activist cross-holder.
+
+We construct the cross-ownership measures for activist and nonactivist
+institutions separately and regress future market share growth on these cross-
+ownership measures. Table 2, panel D, presents the results. All specifications
+include the full set of control variables in panel A, as well as firm and year
+fixed effects. As we can see, the coefficients on all five cross-ownership
+measures based on activist institutions are positive and significant at the
+1% level, whereas the coefficients on cross-ownership measures based on
+nonactivist institutions are generally insignificant. Moreover, the differences
+in the coefficients between the two types of institutions are significant in
+all five specifications. These results suggest that cross-ownership by activist
+institutions has a stronger association with future market share growth than
+that by nonactivist institutions.
+
+We also conduct several additional robustness tests (the results of which are
+untabulated) to show that our OLS results are not driven by the growth of large
+index funds or quasi-indexers over time. First, we decompose cross-ownership
+into three types (dedicated, quasi-indexers, and transient institutions) based
+on Bushee’s classification scheme and include the three cross-ownership
+types in our OLS tests. We find that the correlation between cross-ownership
+by dedicated investors and future market share growth is stronger (with a
+coefficient of 0.006) than that between cross-ownership by quasi-indexers and
+future market share growth (with a coefficient of 0.004). Second, we repeat
+the OLS tests by excluding firms in the S&P 500 index and find qualitatively
+similar results. Since S&P 500 index funds are the dominant player in the
+market, representing about 50% of the overall assets under management by
+U.S. index funds (Adams, Mansi, and Nishikawa 2009), this finding mitigates
+
+14 However, we do not claim that nonactivist institutions have no influence on corporations. Recent studies show
+that, because of their large ownership stakes, seemingly passive institutions can exert significant influences
+on corporate governance and corporate decision-making (see, e.g., Appel, Gormley, and Keim 2016; Crane,
+Michenaud, and Weston 2016). Thus, cross-holdings by passive institutions may also play a role in facilitating
+coordination. It is useful to note that, if index funds and quasi-indexers are the main cross-holders and they indeed
+play a passive role in corporate decision-making, it should be more difficult for us to reject the null hypothesis
+that institutional cross-holders do not affect the product market performance of their cross-held firms.
+
+2692
+
+[11:39 1/7/2017 RFS-hhx028.tex] Page: 2692 2674–2718
+
+Downloaded from https://academic.oup.com/rfs/article/30/8/2674/3098499 by Northwestern Polytechnical University user on 02 January 2026
+
+
+
+Product Market Competition in a World of Cross-Ownership
+
+the concern that our results are driven by index funds. Third, we exclude firm-
+years after 2000 when ETFs and other index funds experienced rapid growth
+and find that our results still hold.
+
+Overall, our OLS results suggest that cross-ownership is positively related to
+a firm’s future market share growth, supporting the hypothesis that institutional
+cross-holders enhance a firm’s product market performance by influencing its
+strategic decision making.
+
+3.4 Other performance measures
+The above analysis follows the literature on the implication of a firm’s financial
+and ownership structure for its product market performance (e.g., Campello,
+2006; Fresard, 2010; Chemmanur and He, 2011) by examining a firm’s market
+share growth. However, one may wonder whether the gains in market share
+translate into improvement in other performance measures, such as stock returns
+or operating profitability. To test this, we run OLS regressions of one-year-ahead
+abnormal stock performance and industry-adjusted operating performance
+(profit margins and return on assets) on cross-ownership measures and controls.
+To measure long-run abnormal stock performance, we calculate one-year-
+ahead buy-and-hold abnormal returns (BHAR) and cumulative abnormal returns
+(CAR) using the Fama-French-Carhart four-factor model over the twelve
+months immediately following a fiscal year-end using monthly returns. We use
+monthly stock returns over the prior 36 months to estimate factor loadings. We
+also construct three measures of operating performance. NOP is the industry-
+adjusted net operating profitability (net income before extraordinary items and
+discontinued operations, plus tax expense and interest expense net of interest
+income, divided by sales); NPM is the industry-adjusted net profit margin
+(net income before extraordinary items and discontinued operations divided
+by sales); and ROA is the industry-adjusted return on assets (operating income
+divided by total assets).
+
+Table 3 reports the regression results. All specifications include the full set
+of control variables in panel A of Table 2 as well as firm and year fixed effects.
+We find evidence that a firm’s cross-holding status is positively related to its
+future stock and operating performance, suggesting that the gains in product
+market share induced by cross-ownership indeed translate into higher stock
+valuation and improved operating profits. The economic magnitudes of the
+results are nontrivial. For example, Column (1) implies that a firm’s buy-and-
+hold abnormal returns over the next twelve months is 3.6 percentage points
+higher when it is cross-held than when it is not, which is about 6% of the
+interquartile range of the variable. Similarly, Column (4) implies that a firm’s
+one-year-ahead industry-adjusted net profit margin is 0.009 higher when it
+is cross-held than when it is not, which is about 10% of the interquartile
+range of the variable. We note, however, that these results are just correlations
+and are subject to potential endogeneity concerns. Therefore, these economic
+magnitudes should be interpreted with caution.
+
+2693
+
+[11:39 1/7/2017 RFS-hhx028.tex] Page: 2693 2674–2718
+
+Downloaded from https://academic.oup.com/rfs/article/30/8/2674/3098499 by Northwestern Polytechnical University user on 02 January 2026
+
+
+
+The Review of Financial Studies / v 30 n 8 2017
+
+Table 3
+Regression of other performance measures on cross-ownership
+
+BHARt+1 CARt+1 NOPt+1 NPM t+1 ROAt+1
+
+Dep. variable (1) (2) (3) (4) (5)
+CrossDummy 0.036** 0.021** 0.009** 0.009** 0.003*
+
+(2.555) (2.289) (2.131) (2.111) (1.679)
+Controls Yes Yes Yes Yes Yes
+Firm FEs Yes Yes Yes Yes Yes
+Year FEs Yes Yes Yes Yes Yes
+Observations 58,752 59,204 58,756 58,756 59,351
+R-squared 0.222 0.202 0.657 0.662 0.684
+
+This table reports the results of OLS regressions of one-year-ahead abnormal stock performance and industry-
+adjusted operating performance on cross-ownership measures and controls. To measure abnormal stock
+performance, we calculate one-year-ahead buy-and-hold abnormal returns (BHAR) and cumulative abnormal
+returns (CAR) using the Fama-French-Carhart four-factor model over the twelve months immediately following
+a fiscal year-end using monthly returns. We use monthly stock returns over the prior 36 months to estimate factor
+loadings. NOP is the industry-adjusted net operating profitability (net income before extraordinary items and
+discontinued operations, plus tax expense and interest expense net of interest income, divided by sales). NPM
+is the industry-adjusted net profit margin (net income before extraordinary items and discontinued operations
+divided by sales). ROA is the industry-adjusted return on assets (operating income after depreciation divided by
+assets). Each regression includes a separate intercept and the same set of control variables as in Column (4) of
+Table 2, panel A. The estimations correct for error heteroscedasticity and within-firm error clustering. We report
+t-statistics in parentheses. ***, **, and * indicate significance at the 1%, 5%, and 10% levels, respectively.
+
+4. Identification
+
+As discussed earlier, an endogeneity concern is that omitted variables
+correlated with both a firm’s cross-holding status and its future product market
+performance could bias the results. Another concern is that firms with better
+prospects for future product market growth may attract more institutional cross-
+holders, resulting in reverse causality. In this section, we address potential
+endogeneity problems by using a relatively new identification strategy in the
+literature: a DiD approach based on the quasi-natural experiment of financial
+institution mergers that generates plausibly exogenous variation in a firm’s
+cross-ownership.
+
+4.1 The experiment
+The experiment of institution mergers, first adopted in Huang (2014), relies
+on the fact that financial institutions (e.g., bank holding companies, security
+brokers, asset management firms) often merge for reasons unrelated to the
+fundamentals of their portfolio holdings. When two financial institutions
+merge, the acquirer usually takes over the existing portfolios (including the
+blockholdings) of the target and would generally maintain these acquired
+holdings (especially blocks) for an extended period of time due to liquidity
+and transaction cost concerns (see, e.g., Holthausen, Leftwich, and Mayers
+1990; Keim and Madhavan 1996). Therefore, if a firm is block-held by one
+of the merging institutions before the merger and in the meantime one of its
+same-industry peers is block-held by the other party to the merger, then both
+firms would become cross-held by the same (merged) institution right after
+
+2694
+
+[11:39 1/7/2017 RFS-hhx028.tex] Page: 2694 2674–2718
+
+Downloaded from https://academic.oup.com/rfs/article/30/8/2674/3098499 by Northwestern Polytechnical University user on 02 January 2026
+
+
+
+Product Market Competition in a World of Cross-Ownership
+
+the merger.15 This event provides us with a nice quasi-natural experiment
+to test how firms’ cross-ownership affects their subsequent product market
+performance. Institution mergers in our setting provide a source of plausibly
+exogenous variation in firms’ ownership structure, which should affect a firm’s
+subsequent product market performance only through their effect on the firm’s
+cross-holding status.
+
+Our experiment requires that financial institutions merge for reasons
+unrelated to the subsequent product market performance of individual firms.
+This is likely to be true, because interfirm mergers between financial institutions
+are often a result of consolidation in the financial sector in response to
+deregulations. For instance, commercial banks were allowed to directly
+acquire existing investment banks as Section-20 subsidiaries in 1997. Further,
+following the Gramm-Leach-BlileyAct of 1999, commercial banks, investment
+banks, securities firms, and insurance companies were allowed to consolidate.
+These fundamental changes in regulations led to a wave of mergers of financial
+institutions and, as a result, the combination of the asset management arms
+of the merging financial firms. Two examples are the merger between Chase
+Manhattan Corp. and J.P. Morgan & Co. in 2000 and that between Fleet Boston
+Corp. and Bank of America in 2003. The size and scope of these banks indicate
+that the mergers are plausibly exogenous to the performance of individual
+firms in their asset management arms’ portfolios.16 Over 60% of the institution
+mergers in our sample result from consolidation in the banking sector, while
+the rest are mergers between a bank and a nonbank financial institution and
+those between nonbank financial institutions. Previous literature also suggests
+that mergers between two pure-play asset management firms are motivated
+largely by business strategy considerations of the institutions themselves, such
+as to achieve economies of scale in fund operations and to build market share by
+expanding financial product offerings (Jayaraman, Khorana, and Nelling 2002).
+Therefore, these nonbank mergers in the financial sector may also constitute
+plausibly exogenous shocks to a firm’s cross-ownership.
+
+Akey advantage of our identification strategy is that there are multiple shocks
+that affect different firms at exogenously different times. Identification with
+multiple shocks can mitigate a common difficulty faced by studies with a single
+shock, namely, the existence of potential omitted variables coinciding with the
+shock that directly affect the outcome of interest.
+
+15 Of course, these newly acquired cross-holdings by the merged institution may be sold after the merger due
+to other reasons, such as portfolio diversification considerations, turnover of portfolio managers, and firm-
+and industry-specific information. However, as long as there are no systematic economic forces to completely
+“undo” the formation of these new cross-holdings, we would, on average, still expect an increase in the extent
+of cross-ownership for these affected firms around the merger.
+
+16 See, for example, Houston, James, and Ryngaert (2001) for a discussion of the motivations for bank mergers.
+
+2695
+
+[11:39 1/7/2017 RFS-hhx028.tex] Page: 2695 2674–2718
+
+Downloaded from https://academic.oup.com/rfs/article/30/8/2674/3098499 by Northwestern Polytechnical University user on 02 January 2026
+
+
+
+The Review of Financial Studies / v 30 n 8 2017
+
+4.2 Identifying treatment and control firms
+We construct our financial institution merger sample using SDC’s Mergers
+and Acquisitions database. We require that (1) the merger is between two 13F
+institutions (or their parent firms) in the financial sector (with primary SIC
+codes in the 6000 to 6999 range) and announced during the period between
+1983 and 2011; (2) the merger is completed within one year after the initial
+announcement; and (3) the target institution stops filing 13F forms within one
+year after the completion of the deal.17
+
+We identify treatment firms as those that are likely to experience an increase
+in the number of ownership linkages with rival firms in the same industry
+due to the institution mergers. Specifically, we require that (1) the firm be
+block-held by one of the merging institutions during the quarter immediately
+before the merger announcement date and (2) the other merging institution do
+not block-hold the firm but block-hold at least one of its same-industry rival
+firms during the same quarter before the merger.18 We classify firms satisfying
+the above conditions as our treatment firms because these firms are likely to
+experience an increase in the extent of cross-ownership (i.e., the number of
+same-industry firms with which they share a common institutional blockholder)
+after the merger. Note that some treatment firms may be cross-held by one of
+the merging institutions before the merger. These firms are considered “treated”
+because they will form new ownership linkages with same-industry firms block-
+held by the other merging institution and thus receive the treatment.19 The
+procedure described above does not use any ex post information, such as the
+actual cross-holding status of the firms post-merger. A crucial advantage of
+relying only on ex ante information to define treatments (and controls) is that
+it largely mitigates the concern that the actual holding/trading decision of the
+merged institution may be driven by private information about the firms.
+
+When conducting the difference-in-differences analysis, we want to control
+for the managerial skills and investment styles of the merging institutions,
+which could be related to firm characteristics, such as future product market
+performance. Therefore, we require that control firms be block-held by the same
+merging institution that block-holds the treatments during the same quarter
+before the merger. The only difference between treatments and controls is that
+for the latter, we require that the other party to the merger do not simultaneously
+block-hold same-industry rivals of these firms so that the control firms’ cross-
+ownership would not change simply because of the merger. However, this
+procedure necessarily implies that treatment and control firms involved in the
+
+17 As will be discussed below, since we require three years of data before the merger and three years after, our
+merger sample is restricted to the period from 1983 through 2011.
+
+18 Using the merger announcement date ensures that we only rely on ex ante information to define our treatment
+and control firms. Our baseline DiD results are nevertheless robust to using the closing date of the institution
+mergers to define treatments and controls.
+
+19 We thank an anonymous referee for the suggestion to include such firms in our treatment group.
+
+2696
+
+[11:39 1/7/2017 RFS-hhx028.tex] Page: 2696 2674–2718
+
+Downloaded from https://academic.oup.com/rfs/article/30/8/2674/3098499 by Northwestern Polytechnical University user on 02 January 2026
+
+
+
+Product Market Competition in a World of Cross-Ownership
+
+Figure 2
+Frequency of financial institution mergers in the DiD analysis
+This figure plots the number of financial institution mergers in our DiD sample that were announced in each year
+between 1983 and 2011.
+
+same merger come from different industries (otherwise they would have both
+been classified as treatments).Although the inclusion of firm fixed effects in our
+DiD estimation framework largely mitigates the concern about time-invariant
+industry-specific effects (to the extent that firms do not switch industries), we
+fully address this concern by adopting an alternative procedure for defining
+controls, which we discuss in detail below in Section 4.4.
+
+Our final DiD sample consists of 2,910 firms from 49 institution mergers
+between 1983 and 2011. Figure 2 shows the frequency of these institution
+mergers in our sample over time and Table A1 (see the appendix) provides a
+complete list of the mergers. As can be seen, there is very little clustering of
+the deals in particular years, which mitigates the concern that unobservable
+macroeconomic trends correlated with cross-ownership drive our DiD
+results.
+
+We choose to study a symmetric seven-year window around the event year
+(i.e., three years before and three years after the institution merger plus the year
+of the merger) because of the trade-off between relevance and accuracy. On the
+one hand, choosing a window that is too long may incorporate too much noise
+that is irrelevant to the events. On the other hand, choosing a window that is too
+short may fail to capture meaningful changes in product market strategies and
+performance in response to the exogenous changes in cross-ownership, because
+it may take some time for cross-holders’ influence to take effect. Given these
+considerations, we focus on a seven-year window, although results based on a
+five-year window are broadly similar.
+
+2697
+
+[11:39 1/7/2017 RFS-hhx028.tex] Page: 2697 2674–2718
+
+Downloaded from https://academic.oup.com/rfs/article/30/8/2674/3098499 by Northwestern Polytechnical University user on 02 January 2026
+
+
+
+The Review of Financial Studies / v 30 n 8 2017
+
+4.3 DiD estimation
+We employ a multivariate DiD approach to compare the change in market share
+growth for treatment firms with that for control firms. Specifically, we run the
+following regression:
+
+AvgMktShareGrowi,j,t =α+β1Treat∗Post +β2Post +β3Treat
+
++γ ′Controli,t−1 +δFixed i,j +εi,j,t , (2)
+
+where i indexes firm, j indexes the institution merger, and t indexes time (the
+period either before or after the merger). AvgMktShareGrow is the three-year
+average annual market share growth for firm i either in the pre-merger or the
+post-merger period.20 Treat is a dummy that equals one for treatment firms and
+zero for control firms. Post is a dummy that equals one for the post-merger
+period and zero for the pre-merger period. Control is a vector of the control
+variables used in our OLS regression in Equation (1). To mitigate concerns
+for simultaneity, we measure control variables at year -4 for the pre-merger
+period and at year 0 for the post-merger period. In our most stringent regression
+specification, we include firm-merger fixed effects to absorb time-invariant
+characteristics across firms within the same merger as well as time-varying
+common time trends across mergers.21 Under this regression framework, Treat
+itself is unidentified (and thus dropped from the regressions) because its effect
+is fully absorbed by the firm-merger fixed effects. In other specifications, we
+include firm fixed effects and merger fixed effects (and/or industry fixed effects)
+separately. In these cases, Treat is still identified because a given firm can act
+both as a treatment in one merger and as a control in another (occurring at a
+different time). To address the concern that residual market share growth for
+firms in the same institution merger might be correlated, we cluster standard
+errors by institution merger.
+
+Panel A of Table 4 reports the results from the baseline DiD analysis as
+described in Equation (2).22 In all specifications, the coefficient estimate before
+
+20 To ensure that our sample is not affected by survivorship bias, we do not require that firms have seven years of
+nonmissing financial data around financial institution mergers. Thus, the three-year average market share growth
+is calculated based on available data. Our results are robust to requiring firms to have nonmissing financial data
+for all seven years.
+
+21 Note that a firm can appear in multiple mergers as a treatment or as a control. Thus, the inclusion of firm-merger
+fixed effects forces identification through variation in product market performance over time for the same firm
+in a given merger.
+
+22 To address the concern that LnNum13D is missing for a substantial fraction of the sample, which significantly
+reduces our sample size and test power, we add a new control variable, that is, Missing13D (which equals one if
+LnNum13D is missing and zero otherwise), in the DiD setting. At the same time, we replace missing values of
+LnNum13D with zeros to create a new variable, LnNum13D_new. Using both Missing13D and LnNum13D_new
+in our regressions (rather than LnNum13D) enables us to fully control for the effect of activist ownership without
+losing statistical power for the DiD tests. This approach to deal with control variables with significant missing
+information has been used by previous literature, such as He, Qian, and Strahan (2012, 2016). Nevertheless, the
+last specification (Column 5) in panel A of Table 4 shows that our baseline DiD results are robust to controlling
+for LnNum13D itself.
+
+2698
+
+[11:39 1/7/2017 RFS-hhx028.tex] Page: 2698 2674–2718
+
+Downloaded from https://academic.oup.com/rfs/article/30/8/2674/3098499 by Northwestern Polytechnical University user on 02 January 2026
+
+
+
+Product Market Competition in a World of Cross-Ownership
+
+Treat*Post is positive and significant, suggesting that treatment firms, that is,
+those whose cross-ownership increases due to financial institution mergers,
+exhibit a greater increase in market share growth than control firms. In terms
+of economic significance, the coefficient estimates of Treat*Post across the
+five columns indicate that treatment firms, relative to control firms, experience
+around 0.7 to 0.9 percentage points larger increase in average annual market
+share growth during the three years after the institution merger than during
+the three years before the merger. This difference is economically significant,
+considering that market share growth in the DiD sample has a standard deviation
+of 4.9 percentage points.
+
+Note that the DiD estimate of the causal effect of cross-ownership on market
+share is larger than the OLS estimate. At least two reasons could explain
+this difference. First, as discussed earlier, this result suggests that the OLS
+estimate is downward biased, which is consistent with the notion that cross-
+holders, because of portfolio diversification considerations (Faccio, Marchica,
+and Mura, 2011), may choose to invest in mature firms or firms with more
+conservative product market strategies (that are expected to have relatively
+low market share growth). Second, the sample of firms/industries covered in
+our institution merger setting is different from that covered in our OLS analysis,
+which may also help to partially explain the difference in the magnitude of the
+estimates.
+
+We then verify the premise of the quasi-natural experiment: institution
+mergers should on average lead to an increase in cross-ownership for the
+treatment group relative to the controls. Since the shock to cross-ownership
+is induced specifically by the institutions involved in the mergers, we define
+cross-ownership measures (including CrossDummy and LnNumConnected )
+with respect to the merging institutions.23 Specifically, CrossDummy equals
+one if the merging institutions block-hold at least one other same-industry
+rival at the quarter-end immediately before the merger announcement date (for
+the pre-event period) or at the first quarter-end after the merger closing date
+(for the post-event period) and zero otherwise. Similarly, LnNumConnected is
+defined as the natural logarithm of one plus the number of same-industry rivals
+that are blockheld by the merging institutions (i.e., the number of ownership
+linkages between the firm and its same-industry rivals that share the merging
+institutions as common blockholders) at the quarter-end immediately before
+the merger announcement date (for the pre-event period) or at the first quarter-
+end after the deal closing date (for the post-event period). We then carry out
+a multivariate DiD analysis on CrossDummy and LnNumConnected following
+the same specifications as in the first two columns of panel A of Table 4
+
+23 We conduct a robustness test using the same aggregate cross-ownership measures as in our OLS analysis as the
+dependent variables and find qualitatively similar results. This finding suggests that nonmerging institutions do
+not systematically reduce their cross-holdings in the treatment firms. The magnitude of the effects is smaller than
+that obtained using cross-ownership measures with respect to merging institutions, which is expected because
+of an attenuation bias due to substantial noise in the aggregate measures for cross-ownership.
+
+2699
+
+[11:39 1/7/2017 RFS-hhx028.tex] Page: 2699 2674–2718
+
+Downloaded from https://academic.oup.com/rfs/article/30/8/2674/3098499 by Northwestern Polytechnical University user on 02 January 2026
+
+
+
+The Review of Financial Studies / v 30 n 8 2017
+
+Table 4
+Quasi-natural experiment of institution mergers
+
+A. Baseline DiD test of the effect of institution mergers on market share growth
+
+AvgMktShareGrow
+
+Dep. variable (1) (2) (3) (4) (5)
+
+Treat * Post 0.008∗∗∗ 0.007∗∗ 0.008∗∗ 0.007∗∗ 0.009∗∗
+(3.190) (2.409) (2.429) (2.046) (2.245)
+
+Post −0.004∗∗∗ −0.003∗∗ −0.003∗∗ −0.003∗∗ −0.004∗∗∗
+(−5.477) (−2.301) (−2.414) (−2.439) (−3.514)
+
+Treat −0.003∗ −0.003
+(−1.719) (−1.344)
+
+LnAssets −0.002 −0.001 −0.000 0.001
+(−0.789) (−0.441) (−0.159) (0.448)
+
+Tobin q 0.001 0.001 0.001 0.001
+(0.949) (0.795) (1.202) (1.186)
+
+CashAssets 0.022∗∗∗ 0.016∗∗ 0.017∗∗∗ 0.026∗∗∗
+(2.923) (2.495) (2.920) (3.216)
+
+Leverage −0.007 −0.005 −0.004 −0.000
+(−1.092) (−0.746) (−0.624) (−0.044)
+
+ROA 0.000 0.003 0.002 −0.006
+(0.071) (0.578) (0.409) (−1.237)
+
+R&DCapital 0.005 0.008 0.007 0.000
+(0.491) (0.836) (0.705) (0.052)
+
+CapexAssets 0.033∗ 0.039∗∗ 0.043∗∗ −0.012
+(1.891) (2.214) (2.255) (−0.592)
+
+AcqAssets 0.013 −0.001 0.005 0.024∗∗
+(0.568) (−0.067) (0.243) (2.067)
+
+PPEGrowth −0.001 −0.001 −0.002 0.005
+(−0.379) (−0.283) (−1.004) (1.690)
+
+BlockOwn 0.010 0.009 0.010 0.013
+(0.834) (0.815) (0.856) (1.432)
+
+InstOwn −0.005 −0.006 −0.006 −0.005
+(−0.628) (−0.656) (−0.787) (−0.645)
+
+BlockDummy 0.000 −0.001 −0.001 −0.007
+(0.016) (−0.265) (−0.138) (−1.201)
+
+LnNum13D_New 0.000 −0.000 −0.001
+(0.063) (−0.012) (−0.215)
+
+Missing13D 0.002 0.003 0.002
+(0.572) (0.678) (0.484)
+
+LnNum13D −0.001
+(−0.249)
+
+Firm-merger FEs Yes Yes No No Yes
+Firm FEs No No Yes Yes No
+Merger FEs No No Yes Yes No
+Industry FEs No No No Yes No
+Observations 9,230 8,326 8,326 8,326 5,125
+R-squared 0.520 0.521 0.407 0.442 0.499
+
+(continued )
+
+(i.e., controlling for firm-merger fixed effects, but not other fixed effects).
+Panel B of Table 4 reports the results. Treatment firms experience significantly
+larger increases in cross-ownership around the mergers than control firms. The
+magnitude of the DiD estimates is economically sizable as well. For example,
+the DiD estimate for the effect of institution mergers on CrossDummy is around
+0.24 to 0.27, which is economically large given that the mean of CrossDummy
+for the treatment group before the event is 0.48.
+
+The success of the DiD approach hinges on a key identifying assumption, that
+is, the parallel trends assumption, which states that in the absence of treatment,
+
+2700
+
+[11:39 1/7/2017 RFS-hhx028.tex] Page: 2700 2674–2718
+
+Downloaded from https://academic.oup.com/rfs/article/30/8/2674/3098499 by Northwestern Polytechnical University user on 02 January 2026
+
+
+
+Product Market Competition in a World of Cross-Ownership
+
+Table 4
+Continued
+B. DiD test of the effect of institution mergers on cross-ownership
+
+CrossDummy LnNumConnected
+
+Dep. variable (1) (2) (3) (4)
+
+Treat * Post 0.244*** 0.271*** 0.258*** 0.303***
+(5.825) (5.743) (4.014) (4.779)
+
+Post 0.045 0.046 0.069 0.067
+(1.101) (1.066) (1.276) (1.151)
+
+Controls No Yes No Yes
+Firm-merger FEs Yes Yes Yes Yes
+Firm FEs No No No No
+Merger FEs No No No No
+Industry FEs No No No No
+Observations 9,230 8,326 9,230 8,326
+R-squared 0.874 0.873 0.915 0.912
+
+This table reports the multivariate difference-in-differences (DiD) test results on the effect of institution mergers
+on product market performance and cross-ownership. We define a firm as a treatment if it is block-held by one
+of the merging institutions during the quarter immediately before the merger announcement date and at least one
+of its same-industry rivals are block-held by the other party to the merger during the same pre-merger quarter.
+We classify a firm as a control if it is block-held by the same institution (that holds the treatment) and none of its
+same-industry rivals are block-held by the other party to the merger during the same pre-merger quarter. Treat is a
+dummy variable that equals one if a firm is a treatment stock and zero if it is a control. Post is a dummy that equals
+one for the post-event period and zero for the pre-event period. Panel A reports results using market share growth
+as the dependent variable. We drop the event (merger) year in our analysis and calculate the average annual
+market share growth (AvgMktShareGrow) for treatments and controls during the three years before and the three
+years after the merger separately. We measure control variables at year −4 for the pre-merger period and at year
+0 for the post-merger period. Panel B reports results using CrossDummy and LnNumConnected as the dependent
+variables. CrossDummy is defined as a dummy variable that equals one if the merging institutions hold at least
+one same-industry rival block at the quarter-end immediately before the merger announcement date (for the pre-
+event period) or at the first quarter-end after the deal closing date (for the post-event period). LnNumConnected is
+defined as the natural logarithm of one plus the number of same-industry rivals that are blockheld by the merging
+institutions at the quarter-end immediately before the merger announcement date (for the pre-event period) or
+at the first quarter-end after the deal closing date (for the post-event period). LnNum13D_New is the same as
+LnNum13D except that missing values are replaced with zeros. Missing13D is a dummy variable that equals
+one if the 13D information is missing. Table 1 provides the variable definitions. Each regression has a separate
+intercept. Standard errors are clustered by institution merger. t-statistics are reported in parentheses. ***, **, and
+* indicate significance at the 1%, 5%, and 10% levels, respectively.
+
+the DiD estimate should be zero. We verify this assumption in two ways and
+report the results in Table A2 (see the appendix). First, we directly compare
+trends of market share growth between treatment and control firms during
+windows of different lengths up to six years before the event (similar toAlmeida
+et al. 2012) and find no significant difference. Next, we perform a placebo test
+using year -4 as the “pseudo-event” year. Specifically, we use the same set of
+treatment and control firms identified in Section 4.2, and analyze their average
+market share growth during a seven-year window symmetrically around the
+hypothetical “event” year. In all four specifications similar to those reported in
+panel A of Table 4, the coefficient estimates before Treat*Post are statistically
+insignificant. The above two sets of results show that there are no observable
+divergent trends in market share growth between treatment and control firms
+before the exogenous shocks, suggesting that the parallel trends assumption is
+likely to hold in our setting.
+
+2701
+
+[11:39 1/7/2017 RFS-hhx028.tex] Page: 2701 2674–2718
+
+Downloaded from https://academic.oup.com/rfs/article/30/8/2674/3098499 by Northwestern Polytechnical University user on 02 January 2026
+
+
+
+The Review of Financial Studies / v 30 n 8 2017
+
+4.4 Robustness checks of the DiD analysis
+We conduct various robustness checks of the DiD findings and report the
+results in Table 5. First, as stated earlier, the treatment and control firms in our
+main DiD analysis necessarily belong to different industries. To the extent that
+different industries may experience differential structural changes around the
+merger dates, our DiD results could merely reflect structural breaks in different
+industries rather than differences in firms’ cross-ownership. Although there is
+no specific reason to expect a systematic change in the industries involved in
+our DiD sample that both coincides with the institution mergers and generates
+the empirical pattern we observe in Table 4, we still address this concern
+explicitly by using an alternative procedure to define control firms. Specifically,
+for each treatment firm, we first find its same-industry peers not block-held by
+the merging institutions but are block-held by some nonmerging institutions
+during the quarter before the merger. We then retain all such unique control
+firms for a particular merger, run our DiD analysis (following the first four
+specifications of Table 4, panel A), and report the results in Table 5, panel A.
+As we can see, our main DiD results continue to hold under this alternative
+definition of controls.
+
+Second, we adopt a propensity-score-matching method to control for
+differences in observable characteristics between the treatment and control
+firms prior to the event. Specifically, we rely on a nearest-neighbor matching
+of propensity scores, originally developed by Rosenbaum and Rubin (1983)
+and adopted in recent studies, such as Lemmon and Roberts (2010). We first
+run a probit regression to predict whether a firm becomes treated. We use a
+comprehensive list of pre-merger observable characteristics, including the full
+set of control variables in our main DiD regression as well as the level and
+trend of market share growth and cross-ownership status, as the explanatory
+variables. We then use the predicted probabilities, or propensity scores, from
+this probit estimation and perform a nearest-neighbor match with replacement.
+We impose the common support condition in the matching algorithm by
+excluding treatment observations whose predicted propensity scores are higher
+than the maximum or lower than the minimum score of the controls. Since the
+number of potential control firms is considerably larger than the number of
+treatment firms, we choose three controls for each treatment. This allows us to
+avoid relying on too little information or including vastly different observations.
+However, our results are robust to any number of matches between one and
+five.24 We repeat the main DiD tests (by following the first four specifications
+of Table 4, panel A) on the propensity-score-matched sample, and report the
+results in Table 5, panel B. As we can see, the increase in cross-ownership due
+
+24 In untabulated analysis, we find that none of the matching variables are significantly different between the
+treatment and control firms post-matching. Further, the majority of differences in the estimated propensity scores
+between the treatment firms and their corresponding matches from the control group are trivial. Hence, the
+matching process seems effective in removing any meaningful observable differences between the two groups
+of firms prior to the DiD analysis.
+
+2702
+
+[11:39 1/7/2017 RFS-hhx028.tex] Page: 2702 2674–2718
+
+Downloaded from https://academic.oup.com/rfs/article/30/8/2674/3098499 by Northwestern Polytechnical University user on 02 January 2026
+
+
+
+Product Market Competition in a World of Cross-Ownership
+
+Table 5
+Robustness tests for the difference-in-differences analysis of institution mergers
+
+A. Defining control firms as same-industry rivals block-held by nonmerging institutions
+
+Dep. variable AvgMktShareGrow
+
+(1) (2) (3) (4)
+
+Treat * Post 0.006∗∗ 0.007∗∗ 0.007∗ 0.007∗
+(2.173) (2.179) (1.963) (1.858)
+
+Post 0.002∗∗ 0.003∗∗∗ 0.003∗∗∗ 0.003∗∗∗
+(2.183) (2.790) (3.591) (3.775)
+
+Treat −0.001 −0.001
+(−0.511) (−0.362)
+
+Controls No Yes Yes Yes
+Firm-merger FEs Yes Yes No No
+Firm FEs No No Yes Yes
+Merger FEs No No Yes Yes
+Industry FEs No No No Yes
+Observations 11,880 8,817 8,817 8,817
+R-squared 0.470 0.503 0.328 0.354
+
+B. DiD tests on the propensity-score-matched sample
+
+Treat * Post 0.011∗∗∗ 0.012∗∗∗ 0.012∗∗ 0.012∗∗
+(3.672) (3.383) (2.624) (2.632)
+
+Post −0.007∗∗∗ −0.008∗∗ −0.008∗∗ −0.008∗∗
+(−2.864) (−2.285) (−2.087) (−2.094)
+
+Treat −0.004 −0.005
+(−0.388) (−0.512)
+
+Controls No Yes Yes Yes
+Firm-merger FEs Yes Yes No No
+Firm FEs No No Yes Yes
+Merger FEs No No Yes Yes
+Industry FEs No No No Yes
+Observations 1,404 1,303 1,303 1,303
+R-squared 0.497 0.513 0.500 0.503
+
+This table reports the results of robustness tests for the difference-in-differences (DiD) analysis of institution
+mergers, following the first four model specifications of Table 4, panel A. Panel A reports the results of robustness
+DiD tests that define control firms as the same-industry rivals to the treatments not block-held by the merging
+institutions but block-held by some nonmerging institutions during the quarter before the merger. Panel B uses a
+propensity-score-matched sample of treatment and control firms.All variables are defined in previous tables. Each
+regression has a separate intercept. Standard errors are clustered by institution merger. t-statistics are reported in
+parentheses. ***, **, and * indicate significance at the 1%, 5%, and 10% levels, respectively.
+
+to an exogenous shock continues to cause an increase in market share growth
+in this propensity-score-matched sample.
+
+In untabulated analysis, we perform several additional robustness tests.
+First, to address the concern that our results could be driven by the growth
+in passive investors (i.e., large index funds or ETFs) over time, we repeat the
+DiD tests by restricting the mergers to those involving activist institutions
+or those involving dedicated institutions or non-quasi-indexing institutions
+(per Bushee’s definition). The DiD estimates are significantly positive and
+slightly larger in magnitude relative to those obtained in our baseline DiD tests,
+suggesting that institutions that are more active in influencing corporations
+appear to be the main drivers of our results. Further, we conduct our DiD tests
+by excluding financial institution mergers announced after 2000, when ETFs
+and other index funds experienced rapid growth and find that our results still
+
+2703
+
+[11:39 1/7/2017 RFS-hhx028.tex] Page: 2703 2674–2718
+
+Downloaded from https://academic.oup.com/rfs/article/30/8/2674/3098499 by Northwestern Polytechnical University user on 02 January 2026
+
+
+
+The Review of Financial Studies / v 30 n 8 2017
+
+hold. Collectively, these findings mitigate the concern that our DiD results
+are driven entirely by passive institutions. Second, to make our DiD setting as
+clean as possible, we limit our sample of financial institution mergers to those in
+response to the banking-industry deregulations in late 1990s (i.e., the Gramm-
+Leach-Bliley Act). Although this strict sample-screening procedure greatly
+reduces the number of observations, the DiD estimates remain qualitatively
+similar to those reported in panel A of Table 4. Last, we include the number of
+firms and the sales-based Herfindahl index for an industry-year as additional
+controls in our baseline DiD analysis to mitigate the concern for industry
+dynamics and find that our DiD results continue to hold.
+
+Overall, the DiD analysis suggests that an exogenous increase in a firm’s
+cross-ownership results in higher future market share growth, which is
+consistent with a positive causal effect of cross-ownership on product market
+performance.
+
+5. Possible sources of product market gains
+
+Our evidence so far is consistent with the hypothesis that cross-ownership helps
+firms on their product markets. In this section, we explore possible sources of
+product market gains induced by cross-ownership.
+
+5.1 Explicit product market collaborations
+In this subsection, we examine whether cross-owners facilitate explicit product
+market collaborations. If two firms in a given industry are owned (cross-held)
+by the same institution that exerts influence on firm management, they are likely
+to coordinate on product market strategies and better integrate their resources
+by entering into some form of product market agreements (joint ventures
+and strategic alliances), or, in the extreme case, merging with each other.
+Through these collaborative activities, cross-held firms may tap into larger
+new markets, grab more business opportunities, enjoy greater economies of
+scale in production and sales, and ultimately compete more effectively against
+other non-cross-held rivals.25
+
+To test the above conjecture, we perform a DiD analysis on firms’ product
+market collaboration activities in the setting of institution mergers. Specifically,
+we compare the total number of explicit collaborative activities (including
+same-industry joint ventures, strategic alliances, and acquisitions) between two
+firms in a treatment pair with that between two firms in a matched control
+pair (matched by size and growth opportunities before the event) during the
+three years before and the three years after the institution merger. Since we
+
+25 A number of studies find evidence that strategic alliances, joint ventures, and within-industry mergers and
+acquisitions are associated with improved corporate performance (e.g., Chan et al. 1997; Johnson and Houston
+2000; Rindfleisch and Moorman 2001, 2003; Fee and Thomas 2004; Gomes-Casseres, Hagedoorn, and Jaffe
+2006; Slovin, Sushka, and Mantecon 2007; Hoberg and Philips 2010; Sheen 2014).
+
+2704
+
+[11:39 1/7/2017 RFS-hhx028.tex] Page: 2704 2674–2718
+
+Downloaded from https://academic.oup.com/rfs/article/30/8/2674/3098499 by Northwestern Polytechnical University user on 02 January 2026
+
+
+
+Product Market Competition in a World of Cross-Ownership
+
+look at the total number of collaboration activities within a pair during the
+pre- and post-period, we require that the two firms in a treatment or control
+pair have nonmissing records in the seven-year window around the institution
+merger years. The data on joint ventures, strategic alliances, and acquisitions
+during the 1980–2014 period were taken from the Security Data Company’s
+(SDC’s) Mergers and Acquisitions database. For acquisitions, we require that
+the acquirer own less than 50% of the target shares prior to the transaction. We
+consider mergers and full tender offers in which the target ceases to exist as
+a separate entity as well as partial acquisitions in which the acquirer seeks to
+own part of the target.
+
+We define treatment pairs as pairwise combinations of any two treatment
+firms involved in the same institution merger as defined in our baseline DiD
+sample. We then match each treatment pair to three control pairs with the closest
+size and Tobin’s q in the event (merger) year and retain all unique control pairs
+in the regressions.26 We use two sets of control pairs. The first set is composed
+of pairwise combinations of control firms in our baseline DiD analysis (as
+defined in panel A of Table 4) that are involved in the same merger. We require
+that the two firms in each control pair to operate in the same industry.27 The
+second set is composed of pairwise combinations of same-industry rivals to the
+firms in the treatment pair that are not block-held by the merging institutions
+but are block-held by some nonmerging institutions during the quarter before
+the merger (as defined in panel A of Table 5).
+
+Table 6 presents the results. Each column includes pair and/or merger fixed
+effects. The dependent variable, LnNumSame, is the natural logarithm of one
+plus the total number of instances of explicit collaborations in the form of joint
+ventures, strategic alliances, or acquisitions between two firms in a pair during
+the three years before or the three years after the institution mergers. Panel A
+uses the first set of control pairs, and panel B uses the second set of control pairs.
+We conduct both a univariate and a multivariate DiD analysis. The multivariate
+DiD analysis includes the same set of control variables (averaged across the
+two firms in a pair) as in the baseline DiD analysis. Note that we control for pair
+fixed effects in the first two specifications, which uniquely identify pairs in the
+sample (i.e., none of the pairs appear in multiple mergers) and thus perfectly
+absorb merger fixed effects and industry fixed effects.
+
+As we can see, the coefficient estimates before Treat*Post are all positive
+and significant (at the 5% level for panel A and at the 10% level for panel
+B), suggesting that firms in treatment pairs (i.e., those that are likely to
+experience an increase in cross-ownership due to financial institution mergers)
+
+26 Specifically, we first compute the average firm size and Tobin’s q for the two firms in each treatment and control
+pair, and then choose, for each treatment pair, three control pairs that have the smallest sum of the squared
+percentage differences in the average firm size and the average Tobin’s q.
+
+27 An alternative way to construct a control pair is to take one control firm as in our baseline DiD analysis and find
+another firm that operates in the same industry as the first control firm but is not in our baseline set of control
+firms. We find qualitatively similar results using this alternative way of constructing control pairs.
+
+2705
+
+[11:39 1/7/2017 RFS-hhx028.tex] Page: 2705 2674–2718
+
+Downloaded from https://academic.oup.com/rfs/article/30/8/2674/3098499 by Northwestern Polytechnical University user on 02 January 2026
+
+
+
+The Review of Financial Studies / v 30 n 8 2017
+
+Table 6
+Possible sources of product market gains: Explicit collaborative activities
+
+A. Pairs of control firms as defined in the baseline DiD analysis
+
+Dep. variable LnNumSame
+
+(1) (2) (3)
+
+Treat * Post 0.011∗∗ 0.014∗∗ 0.017∗∗
+(1.986) (1.976) (2.020)
+
+Post −0.005 −0.011 −0.006
+(−1.416) (−1.408) (−0.869)
+
+Treat −0.010
+(−1.566)
+
+Controls No Yes Yes
+Pair FEs Yes Yes No
+Merger FEs No No Yes
+Industry FEs No No Yes
+Observations 1,016 956 956
+R-squared 0.667 0.680 0.110
+
+B. Pairs of control firms as defined in panel A of Table 5
+
+Treat * Post 0.013∗ 0.017∗ 0.015∗
+(1.865) (1.923) (1.815)
+
+Post −0.001 0.001 0.000
+(−1.000) (0.091) (0.063)
+
+Treat 0.001
+(0.324)
+
+Controls No Yes Yes
+Pair FEs Yes Yes No
+Merger FEs No No Yes
+Industry FEs No No Yes
+Observations 1,432 1,313 1,313
+R-squared 0.636 0.645 0.139
+
+This table reports test results on sources of product market gains in the form of same-industry joint ventures,
+strategic alliances, or acquisitions between pairs of treatment or control firms. We define treatment pairs as
+pairwise combinations of any two treatment firms involved in the same institution merger as defined in our
+baseline DiD sample. We then match each treatment pair to three control pairs with the closest average size (book
+assets) and average Tobin’s q in the event (merger) year and retain all unique control pairs in the regressions.
+In panel A, we define control pairs as pairwise combinations of control firms in our baseline DiD analysis (as
+defined in panel A of Table 4) that are involved in the same merger and operate in the same industry. In panel
+B, we define control pairs as pairwise combinations of same-industry rivals to the firms in the treatment pair
+not block-held by the merging institutions but block-held by some nonmerging institutions during the quarter
+before the merger (as defined in panel A of Table 5). We then treat each pair of firms as one unit of observation
+and analyze the natural logarithm of one plus the number of same-industry joint ventures, strategic alliances, or
+acquisitions between two firms in a treatment or control pair (LnNumSame) in the three years before and three
+years after the institution merger. We use the same set of control variables (which are averaged at the pair level)
+as in previous tables, which are measured at year −4 for the pre-merger period and at year 0 for the post-merger
+period. Definitions of other variables are given in previous tables. Each regression has a separate intercept and
+different layers of fixed effects depending on model specifications. Standard errors are clustered by firm pair.
+t-statistics are reported in parentheses. ***, **, and * indicate significance at the 1%, 5%, and 10% levels,
+respectively.
+
+increase their explicit product market collaboration between themselves via
+joint ventures, strategic alliances, or acquisitions compared with firms in control
+pairs after the institution mergers. Moreover, the multivariate DiD estimates
+of 0.014 to 0.017 are economically sizable, given that LnNumSame in the DiD
+sample has a mean of 0.003 and a standard deviation of 0.048.28
+
+28 We note that these explicit collaborative activities are likely to only partially capture the extent of coordination
+between cross-held firms. There are many other types of collaboration among firms that our measure does not
+
+2706
+
+[11:39 1/7/2017 RFS-hhx028.tex] Page: 2706 2674–2718
+
+Downloaded from https://academic.oup.com/rfs/article/30/8/2674/3098499 by Northwestern Polytechnical University user on 02 January 2026
+
+
+
+Product Market Competition in a World of Cross-Ownership
+
+The above DiD analysis suggests that explicit product market collaboration
+in the form of same-industry joint ventures, strategic alliances, or acquisitions
+might be one possible economic channel through which cross-ownership
+increases product market performance.29
+
+5.2 Innovation productivity
+Cross-held firms may also be able to achieve greater market share growth
+because they can share technological know-how and coordinate R&D efforts
+to lower production costs, enhance product quality, and improve innovative
+efficiency (Grossman and Shapiro 1986). To explore this possible economic
+gain due to cross-ownership, we analyze how treatment firms’ innovation
+productivity changes relative to the control group in the institution merger
+setting.
+
+Following the innovation literature (e.g., Hirshleifer, Hsu, and Li 2012), we
+measure a firm’s innovation productivity by the number of patents it generates
+per dollar of its lagged R&D expenditures. We gathered patenting data from the
+database of Kogan et al. (forthcoming) (available at https://iu.box.com/patents),
+who covers patents granted by the United States Patent and Trademark Office
+(USPTO) up to 2010.30 We average a firm’s innovation productivity over
+the three-year period before and the three-year period after the institution
+mergers and adopt the same model specifications as in the baseline DiD
+test (i.e., the first four columns of panel A of Table 4). Table 7, panel A
+reports the DiD estimates. In all columns, the coefficient estimates before
+Treat*Post are significantly positive at the 5% level, suggesting that firms
+exhibit higher growth in innovation productivity following an exogenous shock
+to their cross-ownership. The DiD estimates of 0.012 to 0.013 across the four
+columns are economically nontrivial, given that innovation productivity has a
+standard deviation of 0.131 in the DiD sample. This finding is consistent with
+the innovation efficiency benefits offered by cross-ownership due to resource
+sharing and coordinated R&D efforts among cross-held firms. Therefore, the
+gains in innovation productivity due to collaboration on R&D projects might be
+another contributor to the improvement in product market performance induced
+by cross-ownership.
+
+capture due to limited data availability. For example, firms may collaborate to set industry standards, conduct
+joint research, and enter into cross-licensing agreements or outsourcing agreements. Therefore, the estimates
+presented here should be viewed as a lower bound of the effect of cross-ownership on interfirm collaboration.
+
+29 In untabulated analysis, we find a significantly positive correlation between the intensity of explicit coordination
+activities (i.e., joint ventures, alliances, and acquisitions) and product market performance (e.g., market share
+growth, profit margins, or innovation efficiency) using our DiD sample. However, this result is only suggestive,
+because we do not have a clean identification for the effects of these collaboration activities.
+
+30 Following the recent literature (e.g., He and Tian 2013), we use the application year instead of the grant year
+to determine a firm’s innovation output (i.e., patents) in a given year. To address the truncation concern for
+innovation activities that take place toward the end of our sample period, we adjust the patent data by following
+a standard practice in the innovation literature (first developed by Hall, Jaffe, and Trajtenberg 2001).
+
+2707
+
+[11:39 1/7/2017 RFS-hhx028.tex] Page: 2707 2674–2718
+
+Downloaded from https://academic.oup.com/rfs/article/30/8/2674/3098499 by Northwestern Polytechnical University user on 02 January 2026
+
+
+
+The Review of Financial Studies / v 30 n 8 2017
+
+5.3 Operating profitability
+To examine whether the gains in market share growth caused by cross-
+ownership translate into increases in operating profitability, we compare the
+change in operating profit margins and ROA between the treatment and control
+firms in the DiD framework. We use the same set of measures of operating
+profitability as in Table 3, that is, NOP, NPM, and ROA. We calculate the
+average of these industry-adjusted operating profitability measures over the
+three-year period before and the three-year period after the institution mergers
+and run multivariate DiD regressions as in panel A of Table 4. To make the
+panel fit on the page properly, we only keep the first two model specifications
+from panel A of Table 4 that we believe are the most stringent, which control
+for firm-merger fixed effects, but not other fixed effects.
+
+The multivariate DiD results are presented in Table 7, panel B. As we can
+see, the coefficient estimates before Treat*Post are positive and significant at
+the 5% level in five of the six specifications, suggesting that cross-ownership
+enhances the profitability of firms. The results are economically significant as
+well. For example, the DiD estimates for NOP in the first two columns range
+from 2.5 to 2.8 percentage points, which are economically large relative to its
+standard deviation in our DiD sample (13.5 percentage points). Similarly, the
+DiD estimates for ROAin the last two columns range from 0.8 to 0.9 percentage
+points, which are economically nontrivial, considering that this variable has a
+standard deviation of 7.1 percentage points in our DiD sample.
+
+It is worth noting that operating profitability (especially operating profit
+margins) likely reflects the outcome of both explicit and implicit product market
+coordination. The mechanisms discussed above suggest that cross-ownership
+by institutional blockholders fosters explicit product market coordination
+(e.g., joint ventures and R&D alliances). However, cross-holding institutions
+could use their information about the companies they block-hold and their
+influence over the companies’ management to facilitate bridge-building and
+the development of implicit business ties. Although these “behind-the-scenes”
+activities are generally not observable, the outcome of such collaborative
+behavior can be partly captured by profit margins.Ahigh profit margin could be
+a manifestation of reduced costs because of efficiency improvements induced
+by cross-ownership. For instance, cross-held firms can coordinate R&D efforts
+to lower production costs and improve innovative efficiency (Grossman and
+Shapiro 1986) and increase purchasing efficiencies (see, e.g., Fee and Thomas
+2004). A high profit margin could also indicate a firm’s ability to increase
+price without losing much demand for its products, which reflects its pricing
+power that may arise from its cooperation with same-industry firms held by
+a common blockholder. Such product market coordination activities include,
+but are not limited to, joint “predation” strategies via financial collaboration to
+drive out local competitors (see, e.g., Bolton and Scharfstein 1990) and reducing
+aggressive marketing campaigns that attack each other, which could potentially
+raise the local entry barrier and enhance the market power of cross-held firms
+
+2708
+
+[11:39 1/7/2017 RFS-hhx028.tex] Page: 2708 2674–2718
+
+Downloaded from https://academic.oup.com/rfs/article/30/8/2674/3098499 by Northwestern Polytechnical University user on 02 January 2026
+
+
+
+Product Market Competition in a World of Cross-Ownership
+
+Table 7
+Possible sources of product market gains: Innovation productivity and operating profitability
+
+A. Innovation productivity
+
+Dep. variable PatentLagRD
+
+(1) (2) (3) (4)
+
+Treat * Post 0.013∗∗ 0.013∗∗ 0.012∗∗ 0.012∗∗
+(2.086) (2.250) (2.125) (2.110)
+
+Post −0.015∗∗∗ −0.023∗∗∗ −0.023∗∗∗ −0.022∗∗∗
+(−2.840) (−3.520) (−8.427) (−8.300)
+
+Treat −0.000 0.002
+(−0.007) (0.274)
+
+Controls No Yes Yes Yes
+Firm-merger FEs Yes Yes No No
+Firm FEs No No Yes Yes
+Merger FEs No No Yes Yes
+Industry FEs No No No Yes
+Observations 4,974 4,325 4,325 4,325
+R-squared 0.854 0.863 0.838 0.844
+
+B. Profit margin and ROA
+
+Dep. variable NOP NPM ROA
+
+(1) (2) (3) (4) (5) (6)
+
+Treat * Post 0.025∗∗ 0.028∗∗ 0.031∗∗ 0.031∗∗ 0.009∗∗ 0.008∗
+(2.370) (2.368) (2.292) (2.028) (2.260) (1.996)
+
+Post −0.018∗∗∗ −0.011∗∗∗ −0.019∗∗∗ −0.011∗∗ −0.011∗∗∗ −0.004∗∗∗
+(−9.258) (−2.822) (−8.053) (−2.347) (−11.187) (−2.822)
+
+Controls No Yes No Yes No Yes
+Firm-merger FEs Yes Yes Yes Yes Yes Yes
+Observations 9,210 8,264 9,210 8,264 9,230 8,284
+R-squared 0.797 0.814 0.794 0.810 0.825 0.836
+
+This table reports DiD results on innovation productivity and operating profitability for treatment and control
+firms as defined in our baseline DiD sample (in Table 4). Panel A presents the results on innovation productivity.
+Panel B presents the results on industry-adjusted operating profit margin and ROA. All dependent variables are
+measured during a three-year period before or after the merger year. We use the same set of control variables
+as in previous tables, which are measured at year -4 for the pre-merger period and at year 0 for the post-merger
+period. PatentLagRD is the number of patents generated in a year over the total amount of R&D expenditures
+in the previous year. NOP is the industry-adjusted net operating profitability (net income before extraordinary
+items and discontinued operations, plus tax expense and interest expense net of interest income, divided by
+sales). NPM is the industry-adjusted net profit margin (net income before extraordinary items and discontinued
+operations divided by sales). ROA is the industry-adjusted return on assets (operating income after depreciation
+divided by assets). Definitions of other variables are given in previous tables. Each regression has a separate
+intercept and different layers of fixed effects depending on model specifications. Standard errors are clustered
+by institution merger. t-statistics are reported in parentheses. ***, **, and * indicate significance at the 1%, 5%,
+and 10% levels, respectively.
+
+against other same-industry rivals. Therefore, the evidence of a relative increase
+in operating profit margin for treatment firms following institution mergers can
+be interpreted as consistent with cross-ownership facilitating both explicit and
+implicit coordination.
+
+5.4 Efficiency gains or collusion?
+As in the case of horizontal mergers (e.g., Fee and Thomas 2004), improved
+productive efficiency may be the primary driver of gains in product market
+share for cross-held firms. Cross-ownership, by fostering various forms of
+product market collaboration, can reduce cross-held firms’ production and
+
+2709
+
+[11:39 1/7/2017 RFS-hhx028.tex] Page: 2709 2674–2718
+
+Downloaded from https://academic.oup.com/rfs/article/30/8/2674/3098499 by Northwestern Polytechnical University user on 02 January 2026
+
+
+
+The Review of Financial Studies / v 30 n 8 2017
+
+operational costs and help them realize greater economies of scale, which in
+turn allow the firms to charge a lower price to attract more customers and grab
+market share. If the increase in demand (and the corresponding quantities of
+goods sold) dominates the decrease in price (due to cost efficiency), then the
+firms’ sales revenue (and thus their sales-based market share) will increase
+relative to that of their same-industry rivals that are not cross-held. Our results
+in Section 5.2 regarding innovation productivity in the DiD setting support
+the above production efficiency explanation, implying that institutional cross-
+ownership can lead to the sharing of technological know-how and coordinated
+R&D efforts among cross-held firms.
+
+On the other hand, the gains in market share can also be driven by increased
+price collusion facilitated by cross-ownership. By reducing the number of
+independent decision-making firms in an industry, cross-ownership can induce
+the firms in the industry to coordinate better on price and move toward a
+more monopolistic equilibrium. While our data do not allow us to explore this
+possibility in detail, our 13D-filing event-study result (reported in Section 6.1)
+that corporate customers of cross-held firms do not experience negative stock
+price reactions indicates that price collusion induced by institutional cross-
+ownership seems unlikely to be the primary driver of our main results. Future
+research, equipped with detailed data on unit output price, unit marginal cost,
+and the quantities of goods sold, is needed to provide a definitive answer to this
+question.
+
+6. Event Studies
+
+If cross-owners facilitate coordination among their portfolio companies and
+improve these firms’ product market performance, the stock prices of these
+companies should reflect the gains in market share. In this section, we conduct
+two tests to examine the effect of cross-ownership on stock returns using an
+event-study approach.
+
+6.1 Announcement returns of existing blocks around schedule 13D filings
+Schedule 13D filings provide an ideal setting to examine the stock price effect of
+cross-ownership for three reasons. First, 13D filings provide a clear indication
+of activism pursued by the filing institution. Second, 13D filings are generally
+unanticipated, because they are associated with significant abnormal returns
+for the firms being targeted around the time of the filings (Brav et al. 2008).
+Third, but not least of all, the acquisition of a new block and the corresponding
+filing of a 13D form would change the cross-holding status of stocks already
+block-held by the institution. Our hypothesis predicts that stocks already block-
+held by the institution that are in the same industry as the newly acquired block
+should experience significantly positive abnormal returns following the 13D
+filing on the new block. In contrast, stocks already block-held by the institution
+that are not in the same industry as the newly acquired block should experience
+insignificant returns due to the lack of coordination benefits.
+
+2710
+
+[11:39 1/7/2017 RFS-hhx028.tex] Page: 2710 2674–2718
+
+Downloaded from https://academic.oup.com/rfs/article/30/8/2674/3098499 by Northwestern Polytechnical University user on 02 January 2026
+
+
+
+Product Market Competition in a World of Cross-Ownership
+
+For each 13D filing by a 13F institution, we retrieve the institution’s 13F
+holdings in the quarter immediately before the filing and classify blocks in
+the institution’s portfolio into cross-held blocks and non-cross-held blocks.
+Specifically, cross-held blocks are stocks already block-held by the institution
+that are in the same four-digit SIC industry as the newly acquired block, and non-
+cross-held blocks are stocks already block-held by the institution that are not in
+the same industry as the newly acquired block. We focus on initial 13D filings by
+institutions and identify 510 cross-held blocks and 8,081 non-cross-held blocks
+for the 1994–2014 period. We calculate the average CARs of cross-held and
+non-cross-held blocks around the filing of a 13D on a newly acquired block by
+the same institution. The abnormal returns are obtained using the CAPM and the
+Fama-French-Carhart four-factor model. We use a 12-day event window, from
+day −1 to +10, with day 0 as the filing date.31 The results, reported in Table 8,
+panel A, show that cross-held blocks deliver a CAR of 2.1% to 2.2%, whereas
+non-cross-held blocks have a much smaller CAR (close to 0%). The difference
+between the CARs of the two groups of blocks is significant at conventional
+levels. These results are consistent with our prediction that the stock prices of
+cross-held firms reflect the potential gains induced by cross-ownership.32
+
+To test whether cross-ownership enables firms to raise prices at the expense
+of their customers, we examine the stock price reaction of corporate customers
+of cross-held firms in the 13D filing setting. If cross-held firms collude by
+increasing their prices and restricting output, the corporate customers of these
+cross-held firms should experience significant negative announcement returns
+around the 13D filing. We identify corporate customers of cross-held firms using
+Compustat industry segment files (following Fee and Thomas 2004). The result,
+reported also in Table 8, panel A, shows that corporate customers of cross-
+held firms have positive but insignificant CARs during the event window. This
+finding seems inconsistent with the hypothesis that cross-ownership engenders
+anticompetitive effects in our sample.
+
+6.2 Announcement returns of treatment and control firms around
+institution mergers
+
+To gauge the causal impact of cross-ownership on a firm’s stock price, we
+analyze the average CARs of treatment and control stocks in our DiD sample
+surrounding the announcement of the institution mergers. Again, we obtain the
+abnormal returns using the CAPM and the Fama-French-Carhart four-factor
+
+31 It appears that it takes time for the market to fully incorporate the information in 13D filings. For example, Brav
+et al. (2008) use a 40-day window around the filings to examine the market reaction. In unreported analysis, we
+obtain qualitatively similar results using alternative window lengths.
+
+32 In untabulated analysis, we find that rival stocks in the same industry as the newly acquired stock that are
+not blockheld by the 13D filer but are blockheld by other institutional investors also experience positive
+abnormal returns around 13D filings. However, the magnitude of the CAR for these rival stocks (around 0.2%) is
+significantly smaller than that for our cross-held blocks (around 2%), suggesting that the CAR results we observe
+are not driven entirely by industry-wide misvaluation.
+
+2711
+
+[11:39 1/7/2017 RFS-hhx028.tex] Page: 2711 2674–2718
+
+Downloaded from https://academic.oup.com/rfs/article/30/8/2674/3098499 by Northwestern Polytechnical University user on 02 January 2026
+
+
+
+The Review of Financial Studies / v 30 n 8 2017
+
+Table 8
+Stock returns tests
+A. Average CARs around initial Schedule 13D filings
+
+Fama-French-Carhart
+CAPM alpha four-factor alpha
+
+(1) (2)
+
+CARs of cross-held blocks (1) 0.022∗∗ 0.021∗∗
+(2.592) (2.212)
+
+CARs of non-cross-held blocks (2) −0.002 0.003
+(0.918) (1.544)
+
+CARs of corporate customers of cross-held firms (3) 0.008 0.009
+(1.645) (1.486)
+
+Difference (1 – 2) 0.024∗∗∗ 0.018∗∗∗
+(3.861) (2.669)
+
+Difference (1 – 3) 0.014 0.012
+(0.864) (0.689)
+
+B. Average CARs around institution mergers
+
+CARs of treatment stocks (1) 0.017∗∗ 0.016∗
+(2.091) (1.876)
+
+CARs of control stocks (2) 0.000 0.002
+(0.274) (1.199)
+
+Difference (1 – 2) 0.017∗∗∗ 0.014∗∗
+(2.620) (2.103)
+
+This table reports the results of two event studies. Panel A reports the average cumulative abnormal returns
+(CARs) of various groups of stocks surrounding the filing of an initial 13D form on a newly acquired block by
+an institution. Cross-held Blocks are stocks already block-held by the 13D-filing institution that are in the same
+industry as the newly acquired block. Non-cross-held blocks are stocks already block-held by the 13D-filing
+institution that are not in the same industry as the newly acquired block. Corporate Customers of Cross-held
+Firms are stocks of the corporate customers of the cross-held firms, identified using the Compustat industry
+segment file. Panel B reports the average CARs of treatment and control stocks in our baseline DiD sample
+surrounding the announcement of the institution mergers. For both panels, we use a 12-day event window, from
+day −1 to +10, with day 0 as the filing/announcement date. We adjust the returns using the CAPM and the Fama-
+French-Carhart four-factor model. t-statistics are reported in parentheses. ***, **, and * indicate significance at
+the 1%, 5%, and 10% levels, respectively.
+
+model, respectively, and examine the CARs from day −1 to +10, with day 0 as
+the announcement date of the institution merger. Since CARs reflect changes
+of stock prices for treatment and control firms, this test can be viewed as a DiD
+analysis on the effect of cross-ownership on stock performance.
+
+Table 8, panel B, presents the results for this event study. The CARs for
+treatment firms are around 1.6%-1.7% and statistically significant, whereas
+those for control firms are small and insignificant. Moreover, the difference
+between the CARs for treatment firms and for control firms is significant at
+the 1% or 5% level. The economic magnitude is also large: treatment firms
+outperform control firms by approximately 1.4-1.7 percentage points during the
+12-day announcement period. This finding is consistent with the conjecture that
+gains in market share growth due to an exogenous increase in cross-ownership
+are partly reflected in stock prices.33
+
+33 For robustness, we repeat our CAR tests in the DiD setting using two alternative definitions for control stocks.
+First, we define control stocks as same-industry rivals block-held by nonmerging institutions (as in panel A of
+Table 5). Second, we define control stocks using a propensity-score matching approach as in panel B of Table 5.
+In both cases we find results similar to those reported here.
+
+2712
+
+[11:39 1/7/2017 RFS-hhx028.tex] Page: 2712 2674–2718
+
+Downloaded from https://academic.oup.com/rfs/article/30/8/2674/3098499 by Northwestern Polytechnical University user on 02 January 2026
+
+
+
+Product Market Competition in a World of Cross-Ownership
+
+7. Conclusion
+
+In this paper, we have analyzed the impact of institutional cross-ownership
+on product market behavior and performance. We find that cross-held firms
+experience significantly higher market share growth than non-cross-held firms.
+We have established causality using a difference-in-differences approach based
+on the quasi-natural experiment of financial institution mergers. Further, we
+have explored and discussed several forms of product market coordination
+facilitated by cross-ownership: explicit coordination (in the form of within-
+industry joint ventures, strategic alliances, or within-industry acquisitions) and
+improvements in innovation productivity and operating profit margins that
+may reflect implicit coordination activities. Overall, our evidence suggests
+that cross-ownership by institutional blockholders offers strategic benefits by
+fostering product market coordination. By establishing a causal relationship
+between cross-ownership and product market performance and exploring
+possible economic channels, our study has important implications for studies
+on the interaction of ownership/organizational structure and product market
+behavior and suggests that future research on product market competition
+should carefully examine firms’ interconnectedness through common equity
+ownership.
+
+2713
+
+[11:39 1/7/2017 RFS-hhx028.tex] Page: 2713 2674–2718
+
+Downloaded from https://academic.oup.com/rfs/article/30/8/2674/3098499 by Northwestern Polytechnical University user on 02 January 2026
+
+
+
+The Review of Financial Studies / v 30 n 8 2017
+
+Appendix
+
+Table A1
+List of financial institution mergers
+
+Acquirer Target Announcement Effective Bank
+institution institution date date merger
+Chase Manhattan Corp. Lincoln First Banks Inc. 21 Dec 1983 1 Jul 1984 1
+Citizens & Southern GA Corp Citizens & Southern Corp., SC 17 Sep 1985 31 Mar 1986 1
+PNC Financial Corp. Citizens Fidelty Bk & Tr 30 Jun 1986 27 Feb 1987 1
+Fleet Finl Group Norstar Trust Co. 18 Mar 1987 1 Jan 1988 1
+Sovran Financial Corp. Commerce Union Bank 27 Apr 1987 1 Nov 1987 1
+PNC Financial Corp. Central Bancorp 31 Jul 1987 29 Feb 1988 1
+Boatmen’s Bancshares Inc. Centerre Bancorp 4 May 1988 26 Dec 1988 1
+Chemical Banking Corp. Manufacturers Hanover Co. 15 Jul 1991 31 Dec 1991 1
+PNC Financial Corp. First Natl Bank/Penn 16 Sep 1991 23 Jul 1992 1
+Banc One Corp. Affiliated Bksh/Colorado 30 Dec 1991 2 Nov 1992 1
+NBD Bancorp Inc. INB Financial Corp. 18 Mar 1992 15 Oct 1992 1
+Bank of Boston Corp. Multibank Financial Corp. 9 Sep 1992 13 Jul 1993 1
+Mellon Bank Corp. Boston Company Inc. 14 Sep 1992 21 May 1993 1
+Equitable Companies Inc. Alliance Capital Mgmt. 23 Nov 1992 22 Jul 1993 0
+Marshall & Ilsley Corp. Valley Trust Co/Wisc 20 Sep 1993 31 May 1994 1
+First Union Corp. Lieber & Co. 18 Oct 1993 1 Jul 1994 0
+Banc One Corp. Liberty Natl B&T/Louisvl 3 Nov 1993 15 Aug 1994 1
+First Union Corp. Evergreen Asset Mgmt. 6 Mar 1994 30 Jun 1994 0
+KeyCorp Spears Benzak Salomon 28 Nov 1994 12 Apr 1995 0
+Fleet Financial Group Inc. Shawmut Natl Corp. 21 Feb 1995 30 Nov 1995 1
+Barclays Bank Plc Wells Fargo Nikko Investment 13 Apr 1995 30 Aug 1995 1
+TCW Group Inc Continental Asset Mgmt. 16 Jun 1995 16 Jun 1995 0
+First Union Corp. First Fidelity Bancorp 19 Jun 1995 2 Jan 1996 1
+First Bank System Inc. FirsTier Financial Inc. 7 Aug 1995 16 Feb 1996 1
+Franklin Resources Inc. Heine Securities Corp. 25 Jun 1996 1 Nov 1996 0
+LGT Asset Mgmt Inc. Chancellor Capital Mgmt. 10 Jul 1996 31 Oct 1996 0
+First Union Corp. Keystone Invt Mgmt Co. 6 Sep 1996 12 Dec 1996 0
+Banc One Corp. Liberty Bancorp Inc. 30 Dec 1996 2 Jun 1997 1
+Mellon Bank Corp. Ganz Capital Mgmt. Inc. 20 Jan 1997 20 May 1997 0
+First Bank System Inc. U.S. Bancorp 20 Mar 1997 1 Aug 1997 1
+Travelers Group Inc. Citicorp 6 Apr 1998 8 Oct 1998 0
+NationsBank Corp. BankAmerica Corp. 13 Apr 1998 30 Sep 1998 1
+SunTrust Banks Inc. Crestar Financial Corp. 20 Jul 1998 31 Dec 1998 1
+Credit Suisse Asset Mgmt Warburg Pincus Asset Mgmt. 15 Feb 1999 6 Jul 1999 0
+Fleet Boston Corp. BankBoston Corp. 14 Mar 1999 1 Oct 1999 1
+AXA Financial Inc. Sanford C Bernstein & Co Inc. 20 Jun 2000 2 Oct 2000 0
+JP Morgan Chase & Co. Chase Manhattan Corp. 13 Sep 2000 31 Dec 2000 1
+Franklin Resources Inc. Fiduciary Trust Company Intl. 25 Oct 2000 10 Apr 2001 0
+Wells Fargo & Co. Benson Associates LLC 26 Aug 2003 26 Aug 2003 0
+Bank of America Corp. Fleet Boston Corporation 27 Oct 2003 1 Apr 2004 1
+Wells Fargo & Co. Strong Financial Corp. 26 Jun 2004 3 Jan 2005 0
+Transamerica Invt Mgmt. WestCap Investors LLC 19 Jun 2005 4 Aug 2005 0
+J.P Morgan Chase & Co. BNY-Consumer Business 31 Mar 2006 2 Oct 2006 1
+Morgan Stanley Group Inc FrontPoint Partners LLC 31 Oct 2006 4 Dec 2006 0
+Bank of NY Trust Co. Mellon Bank 3 Dec 2006 2 Jul 2007 1
+RiverSource Investments J. & W. Seligman & Co. Inc. 7 Jul 2008 7 Nov 2008 0
+Bank of America Corp. Merrill Lynch & Co. Inc. 14 Sep 2008 1 Jan 2009 1
+Barclays Bank Plc Lehman Brothers Inc. 16 Sep 2008 22 Sep 2008 1
+BlackRock Inc. Barclays Bank Plc 16 Sep 2009 1 Dec 2009 0
+
+This table provides the list of financial institution mergers used in the paper. For each merger, we report the
+name of the acquiring and target institutions, the announcement date, the effective date, and whether the merger
+is between two banks.
+
+2714
+
+[11:39 1/7/2017 RFS-hhx028.tex] Page: 2714 2674–2718
+
+Downloaded from https://academic.oup.com/rfs/article/30/8/2674/3098499 by Northwestern Polytechnical University user on 02 January 2026
+
+
+
+Product Market Competition in a World of Cross-Ownership
+
+Table A2
+Tests to verify the parallel trend assumption
+
+A. Trends in market share growth for treatment and control firms
+
+Chg_MktShareGrow Treatment Control p-value of difference
+
+Mean Median Mean Median t-test Pearson χ2
+
+(1) (2) (3) (4) (1)-(3) (2)-(4)
+Year−2 to year−1 – 0.002 0.000 0.000 0.000 0.395 0.854
+year−3 to year−1 0.001 0.000 0.001 0.000 0.871 0.140
+year−4 to year−1 – 0.001 0.000 0.001 0.000 0.366 0.528
+year−5 to year−1 – 0.001 – 0.000 0.002 0.000 0.372 0.194
+year−6 to year−1 – 0.001 0.000 0.002 0.000 0.430 0.767
+
+B. Placebo tests using year −4 as the “event” year
+
+Dep. variable AvgMktShareGrow
+
+(1) (2) (3) (4)
+
+Treat * Post – 0.005 – 0.006 – 0.006 – 0.006
+(– 0.741) (– 0.885) (– 0.975) (– 1.015)
+
+Post 0.002 0.002 0.001 0.001
+(1.148) (0.779) (0.566) (0.784)
+
+Treat 0.003 0.003
+(0.810) (0.754)
+
+Controls No Yes Yes Yes
+Firm-merger FEs Yes Yes No No
+Firm FEs No No Yes Yes
+Merger FEs No No Yes Yes
+Industry FEs No No No Yes
+Observations 8,519 7,702 7,702 7,702
+R-squared 0.517 0.521 0.405 0.432
+
+This table presents tests for parallel trends. Panel A reports the mean and median change in market share growth
+for firms in the treatment and control groups going back up to six years prior to the event year. The first row
+in the table reports statistics for changes in market share growth going back two years prior to the event year
+(changes in market share growth from year t-2 to t-1). Similarly, the subsequent rows of the table report statistics
+for changes in market share growth going back farther in time. The table also reports p-values associated with
+test statistics for differences in means (standard t-test) and in medians (Pearson’s χ2) across groups. Panel B
+performs a placebo test using year -4 as the “pseudo-event” year. We use the same set of treatment and control
+firms identified in our main baseline DiD analysis and analyze their average market share growth during a
+seven-year window symmetrically around the hypothetical “event” year (year −4). Table 4 provides the variable
+definitions. Panel B follows the same model specifications as in the first four columns of panel A of Table 4. Each
+regression has a separate intercept. Standard errors are clustered by institution merger. t-statistics are reported in
+parentheses. ***, **, and * indicate significance at the 1%, 5%, and 10% levels, respectively.
+
+References
+
+Adams, J., S. Mansi, and T. Nishikawa. 2010. Internal governance mechanisms and operational performance:
+Evidence from index mutual funds. Review of Financial Studies 23:1261–86.
+
+Aghion, P., J. Van Reenen, and L. Zingales. 2013. Innovation and institutional ownership. American Economic
+Review 103:277–304.
+
+Allen, J., and G. Phillips. 2000. Corporate equity ownership, strategic alliances, and product market relationships.
+Journal of Finance 55:2791–815.
+
+Almeida, H., M. Campello, B. Laranjeira, and S. Weisbenner. 2012. Corporate debt maturity and the real effects
+of the 2007 credit crisis. Critical Finance Review 1:3–58.
+
+Appel, I. R., T. A. Gormley, and D. B. Keim. 2016. Passive investors, not passive owners. Journal of Financial
+Economics 121:111–41.
+
+Asker, J., and A. Ljungqvist. 2010. Competition and the structure of vertical relationships in capital markets.
+Journal of Political Economy 118:599–647.
+
+2715
+
+[11:39 1/7/2017 RFS-hhx028.tex] Page: 2715 2674–2718
+
+Downloaded from https://academic.oup.com/rfs/article/30/8/2674/3098499 by Northwestern Polytechnical University user on 02 January 2026
+
+
+
+The Review of Financial Studies / v 30 n 8 2017
+
+Azar, J., M. Schmalz, and I. Tecu. 2015. Anti-competitive effects of common ownership: Evidence from the
+airline industry. Working Paper.
+
+Becht, M., A. Polo, and S. Rossi. 2016. Does mandatory shareholder voting prevent bad acquisitions? Review of
+Financial Studies 29:3035–67.
+
+Bloch, F. 1995. Endogenous structures of association in oligopolies. Rand Journal of Economics 26:537–56.
+
+Bolton, P., and D. Scharfstein. 1990. A theory of predation based on agency problems in financial contracting.
+American Economic Review 80:93–106.
+
+Brav, A., W. Jiang, F. Partnoy, and R. Thomas. 2008. Hedge fund activism, corporate governance, and firm
+performance. Journal of Finance 63:1729–75.
+
+Bushee, B. 1998. The influence of institutional investors on myopic R&D investment behavior. The Accounting
+Review 73:305–33.
+
+———. 2001. Do institutional investors prefer near-term earnings over long-run value? Contemporary
+Accounting Research 18:207–46.
+
+Campello, M. 2006. Debt financing: Does it boost or hurt firm performance in product markets? Journal of
+Financial Economics 82:135–72.
+
+Campello, M., and Z. Fluck. 2006. Product market performance, switching costs, and liquidation values: The
+real effects of financial leverage. Working Paper.
+
+Chan, L., J. Lakonishok, and T. Sougiannis. 2001. The stock market valuation of research and development
+expenditures. Journal of Finance 56:2431–56.
+
+Chan, S., J. Kensinger, A. Keown, and J. Martin. 1997. Do strategic alliances create value? Journal of Financial
+Economics 46:199–221.
+
+Chemmanur, T., and J. He. 2011. IPO waves, product market competition, and the going public decision: Theory
+and evidence. Journal of Financial Economics 101:382–412.
+
+Chevalier, J., and D. Scharfstein. 1996. Capital market imperfections and countercyclical markups: Theory and
+evidence. American Economic Review 86:703–25.
+
+Clarke, R. 1989. SICs as delineators of economic markets. Journal of Business 62:17–31.
+
+Cohen, L., and A. Frazzini. 2008. Economic links and predictable returns. Journal of Finance 63:1977–2011.
+
+Crane, A. D., S. Michenaud, and J. P. Weston. 2016. The effect of institutional ownership on payout policy: A
+regression discontinuity design approach. Review of Financial Studies 29:1377–408.
+
+Del Guercio, D., L. Seery, and T. Woidtke. 2008. Do boards pay attention when institutional investor activists
+“just vote no”? Journal of Financial Economics 90:84–103.
+
+Ekern, S., and R. Wilson. 1974. On the theory of the firm in an economy with incomplete markets. Bell Journal
+of Economics and Management Science 5:171–80.
+
+Faccio, M., M. Marchica, and R. Mura. 2011. Large shareholder diversification and corporate risk-taking. Review
+of Financial Studies 24:3601–41.
+
+Farrell, J., and C. Shapiro. 1990. Asset ownership and market structure in oligopoly. Rand Journal of Economics
+21:275–92.
+
+Fee, C. E., and S. Thomas. 2004. Sources of gains in horizontal mergers: Evidence from customer, supplier, and
+rival firms. Journal of Financial Economics 74:423–60.
+
+Fee, C. E., C. J. Hadlock, and S. Thomas. 2006. Corporate equity ownership and the governance of product
+market relationships. Journal of Finance 61:1217–51.
+
+Fresard, L. 2010. Financial strength and product market behavior: The real effects of corporate cash holdings.
+Journal of Finance 65:1097–122.
+
+2716
+
+[11:39 1/7/2017 RFS-hhx028.tex] Page: 2716 2674–2718
+
+Downloaded from https://academic.oup.com/rfs/article/30/8/2674/3098499 by Northwestern Polytechnical University user on 02 January 2026
+
+
+
+Product Market Competition in a World of Cross-Ownership
+
+Gaspar, J., M. Massa, and P. Matos. 2005. Shareholder investment horizons and the market for corporate control.
+Journal of Financial Economics 76:153–65.
+
+Gilo, D., Y. Moshe, and Y. Spiegel. 2006. Partial cross ownership and tacit collusion. Rand Journal of Economics
+37:81–99.
+
+Gomes-Casseres, B., J. Hagedoorn, and A. B. Jaffe. 2006. Do alliances promote knowledge flows? Journal of
+Financial Economics 80:5–33.
+
+Grossman, G. M., and C. Shapiro. 1986. Research joint ventures:An antitrust analysis. Journal of Law, Economics,
+& Organization 2:315–37.
+
+Grossman, S. J., and J. E. Stiglitz. 1980. Stockholder unanimity in making production and financial decisions.
+Quarterly Journal of Economics 94:543–66.
+
+Hadlock, C., and R. Sonti. 2012. Financial strength and product market competition: Evidence from asbestos
+litigation. Journal of Financial and Quantitative Analysis 47:179–211.
+
+Hall, B. H., A. Jaffe, and M. Trajtenberg. 2001. The NBER patent citation data file: Lessons, insights and
+methodological tools. Working Paper.
+
+Hansen, R. G., and J. R. Lott, Jr. 1996. Externalities and corporate objectives in a world with diversified
+shareholder/consumers. Journal of Financial and Quantitative Analysis 31:43–68.
+
+Harford, J., D. Jenter, and K. Li. 2011. Institutional cross-holdings and their effect on acquisition decisions.
+Journal of Financial Economics 99:27–39.
+
+Hart, O. D. 1979. Monopolistic competition in a large economy with differentiated commodities. Review of
+Economic Studies 46:1–30.
+
+Hartzell, J. C., and L. T. Starks. 2003. Institutional investors and executive compensation. Journal of Finance
+58:2351–74.
+
+He, J., and X. Tian. 2013. The dark side of analyst coverage: The case of innovation. Journal of Financial
+Economics 109:856–78.
+
+He, J., J. Qian, and P. Strahan. 2012. Are all ratings created equal? The impact of issuer size on the pricing of
+mortgage-backed securities. Journal of Finance 67:2097–137.
+
+———. 2016. Does the market understand rating shopping? Predicting MBS losses with initial yields. Review
+of Financial Studies 29:457–85.
+
+Hirshleifer, D.A., P. Hsu, and D. Li. 2012. Innovative efficiency and stock returns. Journal of Financial Economics
+107:632–54.
+
+Hoberg, G., and G. Phillips. 2010. Product market synergies and competition in mergers and acquisitions: A
+text-based analysis. Review of Financial Studies 23:3773–811.
+
+———. 2016. Text-based network industries and endogenous product differentiation. Journal of Political
+Economy 124:1423–65.
+
+Holthausen, R. W., R. W. Leftwich, and D. Mayers. 1990. Large-block transactions, the speed of response, and
+temporary and permanent stock-price effects. Journal of Financial Economics 26:71–95.
+
+Houston, J., F., C. M. James, and M. D. Ryngaert. 2001. Where do merger gains come from? Bank mergers from
+the perspective of insiders and outsiders. Journal of Financial Economics 60:285–331.
+
+Huang, J. 2016. Shareholder coordination, corporate governance, and firm value. Working Paper.
+
+Jayaraman, N., A. Khorana, and E. F. Nelling. 2002. An analysis of the determinants and shareholder wealth
+effects of mutual fund mergers. Journal of Finance 57:1521–51.
+
+Johnson, S. A., and M. B. Houston. 2000. A reexamination of the motives and gains in joint ventures. Journal of
+Financial and Quantitative Analysis 35:67–85.
+
+2717
+
+[11:39 1/7/2017 RFS-hhx028.tex] Page: 2717 2674–2718
+
+Downloaded from https://academic.oup.com/rfs/article/30/8/2674/3098499 by Northwestern Polytechnical University user on 02 January 2026
+
+
+
+The Review of Financial Studies / v 30 n 8 2017
+
+Kacperczyk, M., C. Sialm, and L. Zheng. 2005. On the industry concentration of actively managed mutual funds.
+Journal of Finance 60:1983–2012.
+
+Kahle, K., and R. A. Walking. 1996. The impact of industry classifications on financial research. Journal of
+Financial and Quantitative Analysis 31:309–35.
+
+Keim, D. B., andA. Madhavan. 1996. The upstairs market for large-block transactions: analysis and measurement
+of price effects. Review of Financial Studies 9:1–36.
+
+Klein, B., R. Crawford, and A. Alchian. 1978. Vertical integration, appropriable rents, and the competitive
+contracting process. Journal of Law and Economics 21:297–326.
+
+Kogan, L., D. Papanikolaou, A. Seru, and N. Stoffman. Forthcoming. Technological innovation, resource
+allocation, and growth. Quarterly Journal of Economics.
+
+Lemmon, M., and M. Roberts. 2010. The response of corporate financing and investment to changes in the supply
+of credit. Journal of Financial and Quantitative Analysis 45:555–87.
+
+Matvos, G., and M. Ostrovsky. 2008. Cross-ownership, returns, and voting in mergers. Journal of Financial
+Economics 89:391–403.
+
+Maksimovic, V. 1986. Optimal capital structure in oligopolies. PhD Dissertation, Harvard University.
+
+Opler, T., and S. Titman. 1993. The determinants of leveraged buyout activity: Free cash flow vs. financial distress
+costs. Journal of Finance 48:1985–99.
+
+Parker, P. M., and L. Röller. 1997. Collusive conduct in duopolies: Multimarket contact and cross-ownership in
+the mobile telephone industry. Rand Journal of Economics 28:304–22.
+
+Parrino, R., R. W. Sias, and L. T. Starks. 2003. Voting with their feet: Institutional ownership changes around
+forced CEO turnover. Journal of Financial Economics 68:3–46.
+
+Radner, R. 1974. A note on unanimity of stockholders’ preferences among alternative production plans: A
+reformulation of the Ekern-Wilson model. Bell Journal of Economics and Management Science 5:181–84.
+
+Reynolds, R. J., and B. R. Snapp. 1986. The competitive effects of partial equity interests and joint ventures.
+International Journal of Industrial Organization 4:141–53.
+
+Rindfleisch, A., and C. Moorman. 2001. The acquisition and utilization of information in new product alliances:
+A strength-of-ties perspective. Journal of Marketing 65:1–18.
+
+———. 2003. Interfirm cooperation and customer orientation. Journal of Marketing Research 40:421–36.
+
+Rosenbaum, P. R., and D. B. Rubin. 1983. The central role of the propensity score in observational studies for
+causal effects. Biometrika 70:41–55.
+
+Sheen, A. 2014. The real product market impact of mergers. Journal of Finance 69:2651–88.
+
+Slovin, M., M. E. Sushka, and T. P. Mantecon. 2007. Analyzing joint ventures as corporate control activity.
+Journal of Banking and Finance 31:2365–82.
+
+Williamson, O. 1985. The economic institutions of capitalism: Firms, markets, relational contracting. New York:
+The Free Press.
+
+Yi, S. 1997. Stable coalition structures with externalities. Games and Economic Behavior 20:201–37.
+
+2718
+
+[11:39 1/7/2017 RFS-hhx028.tex] Page: 2718 2674–2718
+
+Downloaded from https://academic.oup.com/rfs/article/30/8/2674/3098499 by Northwestern Polytechnical University user on 02 January 2026

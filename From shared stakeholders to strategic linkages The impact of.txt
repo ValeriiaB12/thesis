@@ -1,0 +1,3118 @@
+﻿Research in International Business and Finance 80 (2025) 103066 
+
+A
+0
+
+Contents lists available at ScienceDirect
+
+Research in International Business and Finance
+ journal homepage: www.elsevier.com/locate/ribaf  
+
+Full length article
+
+From shared stakeholders to strategic linkages: The impact of 
+common ownership on supply chain diversification
+Ying Li, Chen Zhao ∗
+
+School of Statistics and Mathematics, Central University of Finance and Economics, Beijing, 102206, China
+
+A R T I C L E  I N F O  A B S T R A C T
+JEL classification: Firms are interconnected through two large networks: the supply chain and common ownership 
+D22 networks, yet the interaction between them is underexplored. This paper investigates how 
+D23 common ownership shapes the supply chain structure. Using the supplier information of Chinese 
+G22 listed firms and institutional shareholding data during 2006–2023, we find that a 1% increase 
+G23 in a firm’s aggregate ownership overlap with others is associated with a 0.47 percentage 
+Keywords: point reduction in its purchase share from the top 5 suppliers and a 0.034% reduction in 
+Common ownership purchase concentration among them. Further, common ownership contributes to supply chain 
+Supply chain diversification
+Transaction costs diversification as the ownership overlap between firms encourages them to form new supply-
+Information transparency chain linkages and helps strengthen these linkages. Two important mechanisms behind this are 
+
+reduced transaction costs and improved information transparency.
+
+1. Introduction
+
+The modern economy is characterized by two critical features. First, the production organization is increasingly reliant on 
+complex and interlocking supply chains (Carvalho et al., 2021). Second, the ownership of corporate equity has been dominated 
+by large institutional investors, leading to the rise of common ownership—where shares of multiple firms are held by the same 
+investor (Azar, 2020; Ben-David et al., 2021; Galeotti and Ghiglino, 2021). Together, firms are not only linked through physical 
+flows of goods and services in supply chains but also through shared ownership structures that potentially align their incentives 
+and strategies (Xu et al., 2023). However, existing literature primarily focuses on each network in isolation, leaving the interaction 
+between supply chains and common ownership networks as an important but underexplored area of study.
+
+To bridge this gap, we investigate how common ownership shapes a firm’s supply chain diversification and conduct an in-
+depth analysis of its effects on both the intensive and extensive margins of supply-chain linkages. Our results indicate that a firm’s 
+ownership overlap with others reduces its reliance on a few key suppliers and diversifies the firm’s supply chain. Furthermore, we 
+perform higher-dimensional regressions at the supplier–buyer–year level, finding that the ownership overlap of two firms encourages 
+them to form new supply-chain linkages and strengthen the linkages between them, especially for those newly formed. Additionally, 
+we explore the mechanisms behind this. Firms with shared ownership prefer to construct tight supply-chain linkages due to lower 
+transaction costs and higher information transparency.
+
+China offers an ideal setting to examine the role of common ownership in supply chain diversification. First, China’s underdevel-
+oped legal and financial systems lead to weak contract enforcement and heavy reliance on relational governance (Allen et al., 2005; 
+Gu et al., 2008), bringing additional costs and barriers for Chinese firms to diversify their supply chains (Du et al., 2012; Fan et al., 
+
+∗ Correspondence to: School of Statistics and Mathematics, Central University of Finance and Economics, No. 1, Shahe Section, Shunsha Road, Changping 
+District, Beijing, 102206, China.
+
+E-mail addresses: yingliallen@163.com (Y. Li), sdufezhaochen@163.com (C. Zhao).
+
+https://doi.org/10.1016/j.ribaf.2025.103066
+Received 13 February 2025; Received in revised form 7 July 2025; Accepted 29 July 2025
+vailable online 22 August 2025 
+275-5319/© 2025 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies. 
+
+
+
+Y. Li and C. Zhao Research in International Business and Finance 80 (2025) 103066 
+2017; Li et al., 2024). Second, China suffers from serious information asymmetry compared to developed markets, partially due to 
+the imperfect information disclosure (Cheung et al., 2010; Tourani-Rad et al., 2016; Ye et al., 2023). The information frictions make 
+it difficult for firms to identify and assess potential partners (Zhao et al., 2025). Third, many firms are state-owned or controlled by 
+governments, resulting in concentrated ownership and limited internal governance (Jiang et al., 2010; Wang et al., 2008). In such 
+environments, external institutional investors can play a disproportionately important role in shaping firm behavior (Chen et al., 
+2007; Edmans et al., 2019), and their overlapping ownership may be especially influential in coordinating supply chain restructuring. 
+Additionally, the supply chain and common ownership networks across Chinese listed firms have become increasingly integrated and 
+interconnected during the period 2006–2023 (see Figs. A1 and A2), providing us sufficient variation to identify their relationship. 
+
+Using institutional shareholdings from the China Stock Market & Accounting Research (CSMAR) database, we follow Ederer and 
+Pellegrino (2022) to measure each two firms’ ownership overlap in tradable A-shares and calculate each firm’s aggregate ownership 
+overlap with others. Combining it with top 5 supplier information of listed firms, we begin our analysis by investigating the effects of 
+common ownership on supply chain diversification. After accounting for control variables, firm fixed effects, year fixed effects, and 
+industry- and province-specific linear time trends, we find that a 1% increase in the degree of ownership overlap is associated with 
+a 0.47 percentage point reduction in the purchase share from the top 5 suppliers and a 0.034% reduction in purchase concentration 
+across them. This indicates that common ownership reduces a firm’s reliance on key suppliers and helps diversify its supply chain.
+
+Furthermore, we carefully address potential endogeneity concerns that may bias our baseline results. One standout issue is 
+self-disclosure bias: supplier information is typically limited to a firm’s top 5 suppliers and is not mandatorily reported. This may 
+lead to incomplete or selective observations of supply chain structures. To address the limited disclosure, we predict undisclosed 
+supply-chain linkages through various graph neural networks to enrich the observed networks. Predicted linkages are combined with 
+observed ones to construct a more complete measure for supply chain concentration. To correct for selection bias from voluntary 
+disclosure, we additionally implement Heckman two-stage regressions, machine learning imputation, and inverse probability 
+weighting.
+
+Our results also suffer from concerns about reverse causality and omitted variable bias. To mitigate these, we exploit the launch 
+of the Shanghai-Hong Kong (2014) and Shenzhen-Hong Kong (2016) Stock Connect programs as plausibly exogenous instrumental 
+variables (IVs) for institutional ownership. Firms initially included in these programs saw significant increases in common ownership, 
+which in turn led to more diversified supply chains. We also perform an event study and find no pre-treatment differences, supporting 
+the causal interpretation of our IV estimates. Additionally, we construct an input-weighted peer CSI 300 index to capture exogenous 
+variation in upstream institutional ownership. This measure averages the CSI 300 index weights of upstream industries based on 
+input shares from the 2002 Input–Output Table, explicitly excluding the focal firm to mitigate endogeneity concerns related to firm 
+characteristics. 
+
+Beyond the IV strategies, we further address concerns about reverse causality—for example, firms with diversified supply chains 
+are more attractive for institutional investors—through three complementary approaches: (i) lagging the explanatory variables, (ii) 
+excluding common institutional investors that appear at or after the formation of supply-chain linkages, and (iii) directly controlling 
+for the institutional ownership within firms. We also perform an additional set of robustness checks: (i) correcting the common 
+ownership index to account for unobserved investors, (ii) using broader shareholding data (total shares rather than tradable A-
+shares), (iii) applying alternative transformations, and (iv) excluding observations during three Black Swan events, namely the 
+global financial crisis (2008–2009), the Chinese stock market crash (2015), and the COVID-19 pandemic (2020–2022).
+
+For an in-depth analysis of how common ownership shapes a firm’s supply chain structure, we conduct regressions at the 
+supplier–buyer–year level to examine the changes in the intensive and extensive margins of supply-chain linkages. Our findings 
+reveal that ownership overlap strengthens supply-chain relationships, particularly by increasing purchase value and share in newly 
+formed linkages, while its effect on incumbent relationships is negligible. Additionally, it increases the probability that two firms 
+are connected through the supply chain, which is driven by the formation of new linkages rather than preventing the breakdown 
+of existing linkages. These findings highlight the role of ownership overlap in fostering supply chain diversification by establishing 
+and reinforcing new relationships.
+
+We hypothesize two important mechanisms through which common ownership facilitates supply-chain linkages—reduced 
+transaction costs and increased information transparency. First, common ownership aligns the incentives of firms, eases negotiation, 
+and lowers coordination and enforcement costs (Liu and He, 2024; Tian et al., 2024), making it more economical for firms to establish 
+new supply-chain relationships. Consistent with this, we find common ownership plays a more pronounced role in establishing 
+and reinforcing new supply-chain linkages when the supplier or buyer has high transaction costs.1 Second, common ownership 
+provides a better information environment by reducing asymmetries and improving the readability and comparability of financial 
+statements (Park et al., 2019, 2024; Dai et al., 2024). This mechanism is also corroborated with our data. Specifically, the role of 
+common ownership in encouraging and strengthening supply-chain linkages is more pronounced in less transparent environments, 
+where the supplier or buyer hires non-Big 4 auditors.
+
+This paper builds on two main strands of literature. First, this paper builds on the literature on the influence of common owner-
+ship on firm decisions and performance, including technological innovation (Antón et al., 2024; Liu et al., 2024), competition (Koch 
+et al., 2021; Lewellen and Lowry, 2021; Hou and Liu, 2023), productivity, prices, output, markups, market shares (Antón et al., 
+2023), entry (Newham et al., 2018), and social responsibility (Dai and Qiu, 2020; Yin et al., 2024). Although some studies have 
+explored common ownership along the supply chain (Cheung et al., 2020; Aviv and Shamir, 2021; Dai et al., 2021), they focus on 
+
+1 Transaction costs in this paper are broadly defined and include the selling, administrative, and financial expenses.
+2 
+
+
+
+Y. Li and C. Zhao Research in International Business and Finance 80 (2025) 103066 
+its impacts on the behaviors of suppliers or buyers rather than investigating its impacts on the evolution of the supply chain. The 
+closest study to ours is Freeman (2023), who focus on the effect of firms’ ownership overlap on the duration of their supply-chain 
+relationships. We extend this body of work by providing additional evidence on supply chain diversification and offer an in-depth 
+analysis of how common ownership influences supply chain structures along both intensive and extensive margins.
+
+Second, this paper adds to a large body of economic network literature, of which the supply chain or input–output network is a 
+hot spot of interest (e.g., Acemoglu et al., 2016; Boehm et al., 2019; Carvalho et al., 2021). Whereas these studies primarily focus on 
+the macroeconomic input–output network, we investigate the supply-chain linkages between micro firms. Thus, we somewhat add 
+to the burgeoning literature on firm-to-firm linkages (Macchiavello and Morjaria, 2015; Alviarez et al., 2021; Miyauchi, 2024). We 
+complement this literature by exploring the interaction between the common ownership network and the supply chain rather than 
+focusing on the latter only. There are also a few studies exploring the interaction between different networks, for example, Ederer and 
+Pellegrino (2022) account for the product market rivalry between firms when estimating the welfare loss of the growing ownership 
+overlap in the US. Their product similarity network highlights the horizontal competition between firms, while our supply chain 
+shifts focus to vertical relationships.
+
+The remainder of this paper is organized as follows. Section 2 presents a literature review. Section 3 describes our data, variables, 
+and empirical specification. Section 4 reports our main results and robustness checks. Section 5 analyzes the underlying mechanisms. 
+Section 6 concludes.
+
+2. Literature review
+
+The past several decades have witnessed a growing concentration of corporate equity ownership in the hands of large institutional 
+investors (Davis, 2008; Fichtner et al., 2017; Azar et al., 2018), such as mutual funds, pension funds, and sovereign wealth funds. This 
+growing concentration has given rise to common ownership, with studies highlighting its rapid expansion in both developed and 
+emerging markets (Backus et al., 2021; Ederer and Pellegrino, 2022; Dai et al., 2024). This ownership structure can be broadly 
+categorized into horizontal and vertical shareholdings. The former refers to a group of investors owning substantial stakes in 
+competing corporations within the same product market (Elhauge, 2016). The latter is that common investors hold equity stakes of 
+vertically related firms, i.e., firms engaged at different levels of the supply chain (Güth et al., 2007).
+
+Prior studies have extensively examined the anti-competitive implications of horizontal shareholdings, particularly in con-
+centrated markets (Elhauge, 2016; Azar et al., 2018; Koch et al., 2021; Lewellen and Lowry, 2021; Antón et al., 2023). Many 
+theoretical models and empirical studies suggest that horizontal shareholdings can drive up prices, increase markups, and decrease 
+market output. The rationale is very intuitive. Rather than solely striving for firm profit maximization, managers seek to maximize 
+shareholder payoffs, which are determined by both the firm’s own profits and those of its competitors (Gramlich and Grundl, 2017; 
+Ederer and Pellegrino, 2022). This creates incentives for firms under common ownership to internalize the profits of their horizontal 
+competitors rather than engage in aggressive competition. Due to its anti-competitive effect, the rise of common ownership can lead 
+to considerable welfare loss (Ederer and Pellegrino, 2022).
+
+Beyond its direct role in shaping product market competition, common ownership has broader economic implications. Co-
+owned firms seeking to maximize shareholder payoffs are expected to internalize any externalities they impose on other firms, 
+regardless of whether these firms are horizontal competitors, vertically integrated partners, or connected in other ways (Schmalz, 
+2018). For example, Edmans et al. (2019) find common investors can strengthen the governance for their portfolio firms through 
+actively intervening and strategically selling securities, even when the co-owned firms operate in unrelated industries. According 
+to Antón et al. (2024), common ownership can foster innovation through spillover internalization but may also hinder innovation 
+by weakening competitive incentives. Moreover, Cheng et al. (2023) find that the degree of ownership overlap negatively affects a 
+firm’s social responsibility.
+
+Among these various externalities, some studies have demonstrated that ownership overlap motivates firms to internalize the 
+impact of their information disclosure on other firms that share common investors (Park et al., 2019). According to Pawliczek 
+and Nicole Skinner (2018), common ownership positively affects disclosure through two mechanisms. First, common ownership 
+lessens competition and lowers proprietary costs of disclosure (Verrecchia, 1990, 2001). Second, common ownership may lead 
+firms to seek anti-competitive outcomes (i.e., tacit collusion), and public disclosure can play a key communication role in facilitating 
+tacit collusion (Levenstein and Suslow, 2006; Pawliczek et al., 2022). Consistent with these theories, existing studies find common 
+ownership is positively related to information disclosure (Park et al., 2019; Pawliczek and Nicole Skinner, 2018; Mou et al., 2024). 
+Besides this, common ownership has also been found to improve the disclosure quality. Park et al. (2024) emphasize common 
+ownership among banks improves transparency, manifested as higher financial statement readability and comparability. Schiehll 
+and Kolahgar (2025) find common ownership encourages firms to improve the comparability and financial materiality of their ESG 
+information.
+
+There is also a growing literature focusing on the ownership overlap along the supply chain and its impacts on the performance 
+of firms within the supply chain (Cheung et al., 2020; Aviv and Shamir, 2021; Dai et al., 2021). However, these studies provide 
+no direct evidence about how common ownership shapes supply chain structures. Previous studies have shown other ownership 
+linkages, such as merger and corporate equity stakes, can mitigate vertical conflicts, align the goals of suppliers and buyers, and 
+strengthen the supply-chain relationships (Fan and Wong., 2005; Fee et al., 2006; Lafontaine and Slade, 2007; Garfinkel and 
+Hankins., 2011). Compared to these direct equity connections, there has been comparatively less research on how the indirect 
+connection through shared stakeholders affects supply chain relationships. To our knowledge, the only exception is Freeman (2023), 
+who finds that the ownership overlap between suppliers and buyers boosts their trust and extends the duration of their supply chain 
+3 
+
+
+
+Y. Li and C. Zhao Research in International Business and Finance 80 (2025) 103066 
+relationships. Transaction costs and information are two critical determinants of firm trade linkages (Williamson, 1979; Akerlof, 
+1984). Summarizing the above literature, we propose our hypothesis that can be corroborated with data:
+Hypothesis: Common ownership can foster and strengthen the supply-chain linkages between firms by reducing vertical friction and 
+improving information transparency, diversifying firms’ supply chains.
+
+3. Data, variables, and empirical specification
+
+In this section, we describe our data sources and detail how to measure supply chain diversification and common ownership. 
+Then, we present the empirical specification used to explore the relationship between common ownership and supply chain 
+diversification.
+
+3.1. Data
+
+We rely on three firm-level datasets during the period 2006–2023 sourced from the CSMAR database to conduct our analysis. 
+The first one records the top 5 suppliers of listed firms, including the purchase value and share attributable to each supplier. This 
+information facilitates the measurement of supply chain diversification and allows us to conduct a detailed analysis of the changes 
+in supply chain structures. The second one provides detailed records about institutional shareholdings, which are used to assess the 
+degree of overlap in institutional ownership between listed firms. The third one is the basic information and financial performance 
+of each firm, serving as the primary source for control variables. In the empirical analysis, we exclude firms from the financial 
+industry, with abnormal listing status, and with missing values in key variables and obtain 24,299 firm-year observations.
+
+Our sample period spans from 2006 to 2023, primarily determined by the availability of key data required for our analysis. 
+Specifically, one of our IVs relies on the constituent stock information of the CSI 300 index, which was officially launched in April 
+2005. To ensure consistency and reliability, we begin our analysis in 2006.
+
+3.2. Supply chain diversification
+
+We utilize two indicators to measure the degree of a firm’s supply chain diversification. The first one is firm 𝑖’s total purchase 
+share from its top 5 suppliers at year 𝑡, denoted by 𝑆ℎ𝑎𝑟𝑒𝑆𝑖𝑡 . A higher 𝑆ℎ𝑎𝑟𝑒𝑆𝑖𝑡  value indicates a more concentrated supply chain, as a 
+larger proportion of the firm’s purchases are sourced from a small group of suppliers. The second one is the Herfindahl–Hirschman 
+Index (HHI) of purchases across the top 5 suppliers, that is 
+
+5
+∑
+
+𝐻𝐻𝐼𝑆𝑖𝑡 = 𝑆ℎ𝑎𝑟𝑒2𝑗𝑖𝑡, (1)
+𝑗=1
+
+where 𝑆ℎ𝑎𝑟𝑒𝑗𝑖𝑡 is firm 𝑖’s purchase share from supplier 𝑗 at year 𝑡. The HHI captures the concentration of a firm’s purchases across 
+its key suppliers, with higher values signifying greater reliance on a few dominant suppliers. Together, these two metrics provide a 
+comprehensive view of supply chain diversification, with 𝑆ℎ𝑎𝑟𝑒𝑆𝑖𝑡  reflecting the overall reliance on top suppliers and 𝐻𝐻𝐼𝑆𝑖𝑡  further 
+detailing the distribution of purchases within that group.
+
+3.3. Common ownership
+
+Building on the framework of Ederer and Pellegrino (2022), we construct a firm-level measure to quantify each firm’s ownership 
+overlapping with other firms in two steps. First, we calculate the common ownership index (COI) between each pair of firms 𝑖 and 
+𝑗 based on their institutional investor shareholding structures, as follows: 
+
+𝐬𝐓
+𝐶𝑂𝐼 𝐣𝐭𝐬𝐢𝐭
+
+𝑗𝑖𝑡 = , (2)
+‖𝐬𝐣𝐭‖ ⋅ ‖𝐬𝐢𝐭‖
+
+[
+
+where vector ]
+
+𝐬 𝑇
+𝐢𝐭 ≡ 𝑠𝑖1𝑡, 𝑠𝑖2𝑡,… , 𝑠𝑖𝑍𝑡  captures firm 𝑖’s ownership distribution across 𝑍 institutional investors at year 𝑡 and 𝑠𝑖𝑧𝑡 is 
+
+the proposition of tradable A-shares of firm 𝑖 owned by investor 𝑧. We use 𝐬𝐓𝐣𝐭𝐬𝐢𝐭 to capture the similarity between the ownership 
+vectors of two firms and normalize this similarity measure by the product of the Euclidean norms of the two vectors ‖𝐬𝐣𝐭‖ ⋅ ‖𝐬𝐢𝐭‖. 
+𝐶𝑂𝐼𝑗𝑖𝑡 measures the degree to which two firms’ investors overlap. Fig. A3 presents the common ownership networks among listed 
+firms in 2006 and 2023, with 𝐶𝑂𝐼𝑗𝑖𝑡 as the edge weight.
+
+Second, we calculate the firm’s aggregate ownership overlap with other firms: 
+∑
+
+𝐶𝑂𝐼𝑖𝑡 = 𝐶𝑂𝐼𝑗𝑖𝑡. (3)
+𝑗≠𝑖
+
+This aggregate 𝐶𝑂𝐼𝑖𝑡 serves as a firm-level indicator of common ownership, with higher values indicating greater overlap in 
+institutional ownership between the firm and its peers. As we can only observe the shareholdings of institutional investors, we focus 
+on the common institutional ownership in our main analysis. To account for unobserved investors, we also construct a corrected 
+COI (𝐶𝐶𝑂𝐼 ) for robustness, and the detalied construction method can be found in Appendix A.1.2.
+𝑖𝑡
+
+4 
+
+
+
+Y. Li and C. Zhao Research in International Business and Finance 80 (2025) 103066 
+Table 1
+Summary statistics of key variables.
+ Observations Mean SD Min P25 Median P75 Max  
+ 𝑆ℎ𝑎𝑟𝑒𝑆𝑖𝑡 24,299 36.368 21.140 3.730 20.510 31.870 47.890 98.490 
+ ln𝐻𝐻𝐼𝑆
+
+𝑖𝑡 24,299 −3.061 1.448 −7.276 −4.014 −3.007 −2.008 −0.208 
+ ln𝐶𝑂𝐼𝑖𝑡 24,299 1.017 1.146 0.000 0.095 0.597 1.593 4.697  
+ ln𝐴𝑔𝑒𝑖𝑡 24,299 1.867 1.108 0.000 1.099 1.946 2.944 3.401  
+ ln𝐸𝑚𝑝𝑙𝑜𝑦𝑚𝑒𝑛𝑡𝑖𝑡 24,299 7.316 1.853 0.000 6.510 7.391 8.372 11.116 
+ 𝐿𝑒𝑣𝑒𝑟𝑎𝑔𝑒𝑖𝑡 24,299 0.421 0.212 0.054 0.250 0.410 0.576 0.963  
+ 𝐶𝑎𝑝𝑖𝑡𝑎𝑙𝑖𝑡 24,299 0.380 0.641 0.000 0.115 0.202 0.368 4.672  
+ 𝑅𝑂𝐴𝑖𝑡 24,299 0.040 0.068 −0.277 0.015 0.041 0.073 0.216  
+ 𝐶𝑎𝑠ℎ𝑖𝑡 24,299 0.050 0.073 −0.179 0.010 0.049 0.091 0.263  
+ 𝑅&𝐷𝑖𝑡 24,299 3.631 5.165 0.000 0.000 2.250 4.860 28.690 
+ 𝑆𝑂𝐸𝑖𝑡 24,299 0.343 0.475 0.000 0.000 0.000 1.000 1.000  
+ 𝑀𝑎𝑛𝑎𝑔𝑒𝑖𝑡 24,299 0.050 0.121 0.000 0.000 0.000 0.009 0.570  
+ ln𝐵𝑜𝑎𝑟𝑑𝑖𝑡 24,299 1.527 1.051 0.000 0.000 2.079 2.303 2.708  
+Notes: This table reports the summary statistics of key variables. The dependent variables include the purchase share of firm 𝑖 from its top 5 suppliers at year 𝑡
+(𝑆ℎ𝑎𝑟𝑒𝑆𝑖𝑡 ) and its log HHI of purchases (ln𝐻𝐻𝐼𝑆
+
+𝑖𝑡 ). The key explanatory variable is the log COI (ln𝐶𝑂𝐼𝑖𝑡), where 𝐶𝑂𝐼𝑖𝑡 is added 1 before taking the logarithm 
+transformation. Control variables include the log firm age (ln𝐴𝑔𝑒𝑖𝑡), the log employment (ln𝐸𝑚𝑝𝑙𝑜𝑦𝑚𝑒𝑛𝑡𝑖𝑡), financial leverage (𝐿𝑒𝑣𝑒𝑟𝑎𝑔𝑒𝑖𝑡), capital intensity 
+(𝐶𝑎𝑝𝑖𝑡𝑎𝑙𝑖𝑡), returns of assets (𝑅𝑂𝐴𝑖𝑡), cash asset ratio (𝐶𝑎𝑠ℎ𝑖𝑡), R&D investment intensity (𝑅&𝐷𝑖𝑡), an indicator of state-owned enterprise (𝑆𝑂𝐸𝑖𝑡), management’s 
+shareholding (𝑀𝑎𝑛𝑎𝑔𝑒𝑖𝑡), and the log board size (ln𝐵𝑜𝑎𝑟𝑑𝑖𝑡).
+
+3.4. Empirical specification
+
+We quantify how common ownership influences a firm’s supply chain diversification (SCD) with the following specification: 
+𝑆𝐶𝐷𝑖𝑡 = 𝛼1 + 𝛽1 ln𝐶𝑂𝐼𝑖𝑡 + 𝛾1𝑋𝑖𝑡 +𝐷𝑖 +𝐷𝑡 +𝐷ℎ × 𝑡 +𝐷𝑝 × 𝑡 + 𝜀𝑖𝑡, (4)
+
+where 𝑆𝐶𝐷𝑖𝑡 is the degree of firm 𝑖’s supply chain diversification at year 𝑡, including the total purchase share from its top 5 suppliers 
+(𝑆ℎ𝑎𝑟𝑒𝑆𝑖𝑡 ) and the log HHI of purchases across them (ln𝐻𝐻𝐼𝑆𝑖𝑡 ), and ln𝐶𝑂𝐼𝑖𝑡 is the log COI of firm 𝑖.2 𝑋𝑖,𝑡 represents a set of 
+control variables, including the log firm age (ln𝐴𝑔𝑒𝑖𝑡), firm scale represented by its log employment (ln𝐸𝑚𝑝𝑙𝑜𝑦𝑚𝑒𝑛𝑡𝑖𝑡), financial 
+leverage (𝐿𝑒𝑣𝑒𝑟𝑎𝑔𝑒𝑖𝑡), capital intensity (𝐶𝑎𝑝𝑖𝑡𝑎𝑙𝑖𝑡), returns of assets (𝑅𝑂𝐴𝑖𝑡), cash asset ratio (𝐶𝑎𝑠ℎ𝑖𝑡), R&D investment intensity 
+(𝑅&𝐷𝑖𝑡), an indicator of state-owned enterprise (𝑆𝑂𝐸𝑖𝑡), percentage of management’s shareholding (𝑀𝑎𝑛𝑎𝑔𝑒𝑖𝑡), and the log board 
+size (ln𝐵𝑜𝑎𝑟𝑑𝑖𝑡). All continuous variables are winsorized at the 1st and 99th percentiles to remove outliers. Apart from the control 
+variables, we also include firm fixed effects (𝐷𝑖) to control for time-invariant heterogeneity and year fixed effects (𝐷𝑡) to control for 
+all macroeconomic shocks common to all firms. Industry-specific time trends (𝐷ℎ × 𝑡) and province-specific time trends (𝐷𝑝 × 𝑡) are 
+included to control for systematic temporal development patterns at the industry and province levels. Standard errors are clustered 
+by the firm to account for temporal correlation. As our theoretical analysis predicts that common ownership helps diversify firms’ 
+supply chains, we expect the coefficient 𝛽1 to be significantly negative.
+
+Table 1 reports the summary statistics of key variables. On average, 36.4% of each firm’s purchases are from its top 5 suppliers. 
+A few firms exhibit a highly concentrated supply chain, with up to 98.5% of their purchases sourced from their top 5 suppliers. On 
+the contrary, some firms have a particularly diversified supply chain, with only 3.7% of their purchases coming from their top 5 
+suppliers. Therefore, there is a large variation in the supply chain diversification of Chinese listed firms. Additionally, the summary 
+statistics of the COI indicate that more than three quarters of firms have overlapping ownership with others.
+
+4. Main results
+
+In this section, we first present our main empirical findings and then apply a variety of strategies to address the potential endo-
+geneity concerns, including the self-disclosure bias, reverse causality, and omitted variable bias. Furthermore, we provide additional 
+evidence for robustness by correcting the COI to account for unobserved investors, utilizing a broader scope of shareholdings to 
+identify ownership overlap, excluding observations during major emergencies, and applying alternative transformations.
+
+4.1. Common ownership and supply chain diversification
+
+Using the regression specified in Eq. (4), we investigate how common ownership influences firms’ supply chain diversification 
+and report baseline results in Table 2. Column (1) reports the result of regressing each firm’s purchase share from its top 5 suppliers 
+on its log COI without any control variables and fixed effects, yielding a statistically significant and negative coefficient of −2.38. 
+When introducing control variables in Column (2), the coefficient changes to −0.73 and continues to be significantly negative. We 
+further introduce firm fixed effects and year fixed effects in Column (3), finding that the coefficient further changes to −0.48, still 
+statistically significant at the 1%. We also include industry-specific and province-specific linear time trends in Column (4), finding 
+
+2 Since there are 0 values in 𝐶𝑂𝐼 , we add 1 to it before applying the logarithmic transformation to maintain all observations.
+𝑖𝑡
+
+5 
+
+
+
+Y. Li and C. Zhao Research in International Business and Finance 80 (2025) 103066 
+Table 2
+Common ownership and supply chain diversification.
+ (1) (2) (3) (4) (5) (6) (7) (8)  
+ Dep. Var.: 𝑆ℎ𝑎𝑟𝑒𝑆𝑖𝑡 𝑆ℎ𝑎𝑟𝑒𝑆𝑖𝑡 𝑆ℎ𝑎𝑟𝑒𝑆𝑖𝑡 𝑆ℎ𝑎𝑟𝑒𝑆𝑖𝑡 ln𝐻𝐻𝐼𝑆
+
+𝑖𝑡 ln𝐻𝐻𝐼𝑆
+𝑖𝑡 ln𝐻𝐻𝐼𝑆
+
+𝑖𝑡 ln𝐻𝐻𝐼𝑆
+𝑖𝑡  
+
+ ln𝐶𝑂𝐼𝑖𝑡 −2.384*** −0.726*** −0.477*** −0.473*** −0.140*** −0.093*** −0.033*** −0.034*** 
+ (0.220) (0.209) (0.147) (0.145) (0.016) (0.016) (0.011) (0.011)  
+ ln𝐴𝑔𝑒𝑖𝑡 0.716** −1.933*** −1.970*** 0.155*** −0.099*** −0.106*** 
+ (0.339) (0.384) (0.376) (0.023) (0.029) (0.028)  
+ ln𝐸𝑚𝑝𝑙𝑜𝑦𝑚𝑒𝑛𝑡𝑖𝑡 −3.190*** −2.148*** −2.049*** −0.143*** −0.133*** −0.127*** 
+ (0.214) (0.240) (0.221) (0.013) (0.015) (0.014)  
+ 𝐿𝑒𝑣𝑒𝑟𝑎𝑔𝑒𝑖𝑡 −12.195*** −6.699*** −7.528*** −0.866*** −0.424*** −0.469*** 
+ (1.668) (1.628) (1.562) (0.114) (0.106) (0.105)  
+ 𝐶𝑎𝑝𝑖𝑡𝑎𝑙𝑖𝑡 4.775*** 2.495*** 1.906*** 0.293*** 0.096** 0.065  
+ (0.541) (0.681) (0.629) (0.030) (0.042) (0.041)  
+ 𝑅𝑂𝐴𝑖𝑡 −16.950*** −1.816 −1.207 −1.030*** −0.099 −0.070  
+ (3.509) (2.584) (2.528) (0.236) (0.168) (0.167)  
+ 𝐶𝑎𝑠ℎ𝑖𝑡 1.158 −5.050*** −5.268*** 0.660*** −0.282** −0.284**  
+ (2.921) (1.915) (1.913) (0.198) (0.130) (0.130)  
+ 𝑅&𝐷𝑖𝑡 −0.072 −0.174*** −0.167*** −0.015*** −0.007*** −0.007*** 
+ (0.049) (0.035) (0.034) (0.003) (0.002) (0.002)  
+ 𝑆𝑂𝐸𝑖𝑡 −0.117 −0.054 0.161 0.079 −0.018 −0.011  
+ (0.734) (0.885) (0.766) (0.053) (0.061) (0.055)  
+ 𝑀𝑎𝑛𝑎𝑔𝑒𝑖𝑡 0.719 −2.368 −2.321 0.167 0.245 0.237  
+ (2.185) (2.229) (2.197) (0.154) (0.164) (0.160)  
+ ln𝐵𝑜𝑎𝑟𝑑𝑖𝑡 −0.537 2.484*** 2.245*** −0.033 0.134** 0.125**  
+ (0.359) (0.852) (0.808) (0.023) (0.056) (0.055)  
+  
+ Firm FE No No Yes Yes No No Yes Yes  
+ Year FE No No Yes Yes No No Yes Yes  
+ Industry-Specific Time Trends No No No Yes No No No Yes  
+ City-Specific Time Trends No No No Yes No No No Yes  
+ Observations 24,299 24,299 24,299 24,299 24,299 24,299 24,299 24,299  
+ Adjusted R2 0.017 0.137 0.698 0.705 0.012 0.083 0.662 0.667  
+Notes: Columns (1)–(4) report the results of regressing the share of firm 𝑖’s total purchases from its top 5 suppliers at year 𝑡 (𝑆ℎ𝑎𝑟𝑒𝑆𝑖𝑡 ) on its log COI (ln𝐶𝑂𝐼𝑖𝑡). 
+Columns (5)–(8) report similar regressions with the log Herfindahl–Hirschman Index of purchases across its top 5 suppliers (ln𝐻𝐻𝐼𝑆
+
+𝑖𝑡 ) as the dependent variable. 
+Standard errors in parentheses are clustered by the firm. Significance: *, 0.10, **, 0.05, ***, 0.01.
+
+that a 1% increase in the degree of ownership overlap is associated with a 0.47 percentage point reduction in the purchase share 
+from the top 5 suppliers. These results indicate that common ownership helps reduce a firm’s reliance on its top 5 suppliers and 
+promotes greater diversification within the firm’s supply chain.
+
+Columns (5)–(8) report similar regressions with the log HHI of purchases among the top 5 suppliers as the dependent variable 
+and yield consistent results. In all four regressions, we find statistically significant and negative impacts of common ownership on 
+purchase concentration. Specifically, with the most rigorous specification in Column (8), we find that a 1% increase in the degree of 
+ownership overlap is associated with a 0.034% reduction in purchase concentration. The above results provide supportive evidence 
+that common ownership reduces the purchase concentration and helps diversify a firm’s supply chain.
+4.2. Endogeneity concerns
+
+Our baseline regressions show that common ownership leads to a more diversified supply chain. However, this result may suffer 
+from some endogeneity concerns. In this section, we discuss potential sources of endogeneity, such as sample selection bias, reverse 
+causality, and omitted variables, and outline several strategies to address them.
+4.2.1. Self-disclosure bias
+
+The use of supplier information may give rise to two important concerns about self-disclosure bias. First, since firms typically 
+report only their top 5 suppliers, this limited disclosure may cannot fully capture the extent of supply chain concentration. Second, 
+supplier information is not mandatorily disclosed; firms can choose whether to disclose this information. As a result, the sample may 
+be subject to self-selection, where firms that disclose their supplier data differ systematically from those that do not. This could bias 
+our estimates if the disclosure decision is correlated with the degree of ownership overlap or other unobserved firm characteristics.
+Limited disclosure of the top suppliers. To address the limitation that firm disclosures are restricted to top 5 suppliers, we apply graph 
+neural networks (GNNs) to predict undisclosed supply-chain linkages and enrich the observed networks. For robustness, we use a 
+variety of GNN models—including Graph Convolutional Networks (GCN) (Kipf and Welling, 2016), GraphSAGE (Hamilton et al., 
+2017), Graph Attention Networks (GAT) (Veliǩović et al., 2017), Graph Isomorphism Networks (GIN) (Xu et al., 2018), and Graph 
+Autoencoders (GAE) (Kipf and Welling, 2016b). See detailed introduction of these models and training process in Appendix A.1.1.
+
+As shown in Table A.1 and Fig. A4, the enriched network substantially expands coverage beyond directly reported relationships, 
+enabling a more complete assessment of purchase concentration. For instance, in 2006, while only 644 relationships between 594 
+6 
+
+
+
+Y. Li and C. Zhao Research in International Business and Finance 80 (2025) 103066 
+Table 3
+Supply chain concentration based on predicted networks.
+ (1) (2) (3) (4)  
+ Dep. Var.: ln𝐻𝐻𝐼𝐺𝐶𝑁
+
+𝑖𝑡 ln𝐻𝐻𝐼𝐺𝐴𝐸
+𝑖𝑡 ln𝐻𝐻𝐼𝐺𝐶𝑁+𝐺𝐴𝐸
+
+𝑖𝑡 ln𝐻𝐻𝐼𝐺𝐼𝑁
+𝑖𝑡  
+
+ ln𝐶𝑂𝐼𝑖𝑡 −0.035*** −0.034*** −0.034*** −0.028***  
+ (0.008) (0.008) (0.008) (0.009)  
+ ln𝐴𝑔𝑒𝑖𝑡 −0.116*** −0.110*** −0.110*** −0.140***  
+ (0.020) (0.020) (0.020) (0.021)  
+ ln𝐸𝑚𝑝𝑙𝑜𝑦𝑚𝑒𝑛𝑡𝑖𝑡 −0.128*** −0.129*** −0.129*** −0.124***  
+ (0.008) (0.008) (0.008) (0.009)  
+ 𝐿𝑒𝑣𝑒𝑟𝑎𝑔𝑒𝑖𝑡 −0.481*** −0.469*** −0.470*** −0.481***  
+ (0.061) (0.059) (0.059) (0.063)  
+ 𝐶𝑎𝑝𝑖𝑡𝑎𝑙𝑖𝑡 0.066*** 0.072*** 0.072*** 0.066***  
+ (0.022) (0.021) (0.021) (0.023)  
+ 𝑅𝑂𝐴𝑖𝑡 −0.143 −0.081 −0.081 −0.145  
+ (0.121) (0.118) (0.118) (0.125)  
+ 𝐶𝑎𝑠ℎ𝑖𝑡 −0.262** −0.288*** −0.288*** −0.305***  
+ (0.104) (0.101) (0.101) (0.107)  
+ 𝑅&𝐷𝑖𝑡 −0.008*** −0.008*** −0.008*** −0.006**  
+ (0.002) (0.002) (0.002) (0.002)  
+ 𝑆𝑂𝐸𝑖𝑡 0.019 −0.009 −0.009 −0.011  
+ (0.035) (0.034) (0.034) (0.036)  
+ 𝑀𝑎𝑛𝑎𝑔𝑒𝑖𝑡 0.247* 0.233* 0.233* 0.274**  
+ (0.127) (0.124) (0.124) (0.131)  
+ ln𝐵𝑜𝑎𝑟𝑑𝑖𝑡 0.114*** 0.127*** 0.128*** 0.111**  
+ (0.044) (0.043) (0.043) (0.045)  
+  
+ Firm FE Yes Yes Yes Yes  
+ Year FE Yes Yes Yes Yes  
+ Industry-Specific Time Trends Yes Yes Yes Yes  
+ City-Specific Time Trends Yes Yes Yes Yes  
+ Observations 24,299 24,299 24,299 24,299  
+ Adjusted R2 0.656 0.667 0.667 0.635  
+Notes: This table reports the results of regressing the log HHI of firm 𝑖’s all suppliers (constructed using predicted networks) on 
+the log COI (lnCOI𝑖𝑡). The dependent variable incorporates both observed and predicted supply chain relationships based on GNN 
+models. Column (1) uses the GCN model, Column (2) uses the GAE model, Column (3) combines them (GCN for 2011–2023, and 
+GAE for 2006–2010), and Column (4) uses the GIN model. Standard errors in parentheses are clustered by firm. Significance: *, 
+0.10, **, 0.05, ***, 0.01.
+
+listed firms and 644 suppliers are observed in the raw data, the GCN model alone predicts over 186,000 additional links.3 Table A.2 
+shows the mean squared error (MSE) of these models in estimating purchase values, indicating that GCN and GAE models generally 
+outperform others. Specifically, GAE achieves the lowest MSE in the early years (2006–2010), while GCN performs best in many 
+later years (2011 onward). GIN also shows strong performance in some years, notably in 2018–2020. Predicted purchase values are 
+combined with observed ones to compute the HHI.
+
+With these reconstructed HHIs through GNN models, Table 3 replicates the baseline regression. Column (1) uses the GCN model, 
+Column (2) uses the GAE model, Column (3) combines them (GCN for 2011–2023, and GAE for 2006–2010), and Column (4) uses 
+the GIN model. Consistent with our main findings, we find statistically significant and negative impacts of common ownership on 
+supply chain concentration in all columns, suggesting that our main findings are not driven by the limited disclosure of only the 
+top suppliers.
+Sample selection bias of non-disclosure. To address the sample selection bias due to non-disclosure, we take four approaches: the 
+Heckman two-stage regression, Full Information Maximum Likelihood (FIML), machine learning imputation, and inverse probability 
+weighting (IPW).
+
+First, we apply the Heckman two-stage regressions and report the results in Table 4. In the first stage, we model the probability of 
+disclosing supplier information (i.e., the probability of being included in our sample) as a function of observable firm characteristics, 
+which is given by: 
+
+𝐷𝑖𝑠𝑐𝑙𝑜𝑠𝑢𝑟𝑒𝑖𝑡 = 𝛼2 + 𝛽2𝐷𝑖𝑠𝑐𝑙𝑜𝑠𝑢𝑟𝑒ℎ𝑡 + 𝛾2𝑋𝑖𝑡 + 𝜀𝑖𝑡, (5)
+
+where 𝐷𝑖𝑠𝑐𝑙𝑜𝑠𝑢𝑟𝑒𝑖𝑡 is a binary variable that equals 1 if firm 𝑖 in year 𝑡 discloses its supplier information and 0 otherwise. 𝐷𝑖𝑠𝑐𝑙𝑜𝑠𝑢𝑟𝑒ℎ𝑡
+is the share of firms in industry ℎ at year 𝑡 that disclose their supplier information, serving as the IV in the first stage. Using a probit 
+model, we estimate the inverse Mills ratio (𝐼𝑀𝑅𝑖𝑡), which captures the likelihood of a firm selecting into the sample based on 
+
+3 In 2006, most firms reported only the aggregate purchase amount from their top 5 suppliers without identifying them individually. Due to this data 
+limitation, we treat the top-5 group as a single supplier entity in our analysis.
+7 
+
+
+
+Y. Li and C. Zhao Research in International Business and Finance 80 (2025) 103066 
+its observable characteristics. In the second stage, 𝐼𝑀𝑅𝑖𝑡 is incorporated as an additional regressor in the baseline regressions to 
+control for the sample selection bias: 
+
+𝑆𝐶𝐷𝑖𝑡 = 𝛼3 + 𝛽3 ln𝐶𝑂𝐼𝑖𝑡 + 𝜆𝐼𝑀𝑅𝑖𝑡 + 𝛾3𝑋𝑖𝑡 +𝐷𝑖 +𝐷𝑡 +𝐷ℎ × 𝑡 +𝐷𝑝 × 𝑡 + 𝜀𝑖𝑡. (6)
+Table 4 reports the results of the Heckman two-stage regressions specified in Eqs. (5) and (6). The first stage in Column (1) utilizes 
+
+a larger sample of 52,493 firm-year observations and yields a statistically positive relationship between the proportion of firms within 
+the same industry that disclose supplier information and the likelihood of an individual firm disclosing its own supplier information. 
+This suggests that industry norms and peer behavior play a critical role in shaping firms’ disclosure practices (Seo, 2021). Columns 
+(2)–(5) report the second-stage regressions, where 24,299 out of 52,493 observations disclose their supplier information and are 
+selected as our sample. Columns (2) and (3) report the effect of common ownership on the purchase share from the reported top 5 
+suppliers and the purchase HHI among these suppliers. Columns (4) and (5) turn to HHIs incorporating predicted linkages generated 
+by GCN and GAE models, correcting for biases due to both non-disclosure and limited top-supplier reporting. The coefficients on 
+the inverse Mills ratio are significantly positive in all columns, suggesting that selection bias is present and needs to be corrected. 
+After correcting for disclosure-related biases, the coefficient on common ownership remains significantly negative, confirming its 
+role in helping diversify supply chains.
+
+Second, we employ a FIML approach that jointly estimates selection and outcome equations specified in Eqs. (5) and (6). As 
+shown in Table A.3, the coefficients on the log COI remain significantly negative across all specifications, including those using 
+enriched supply chain networks predicted by GNN models.
+
+Third, we impute supply chain concentration for non-disclosing firms with commonly used machine learning algorithms, 
+including Lasso regression (Tibshirani, 1996), Random Forests (Breiman, 2001), Gradient Boosting (XGBoost) (Chen and Guestrin, 
+2016), and Light Gradient Boosting Machine (LightGBM) (Ke et al., 2017).4 As Table A.4 shows, the Random Forest consistently 
+outperforms the other models in both training and validation sets. Therefore, we adopt it as our preferred model. Using imputed 
+measures, Table 5 uses a larger sample of 52,119 firm-year observations and yields a significantly negative effect of common 
+ownership on supply chain concentration. This finding holds both when using observed supplier data (Columns (1) and (2)) and 
+when first enriching supply links via GNNs (Columns (3) and (4)). 
+
+Finally, we also use an IPW specification to adjust for potential selection bias in supplier disclosure. Specifically, we first estimate 
+the disclosure probability with two alternative models: the probit model in Eq. (5) and a Random Forest classifier. Then, we use 
+the inverse of the predicted probability as a weight in the regression analysis. Intuitively, this approach gives more weight to firms 
+that are less likely to disclose but still appear in the sample, thereby correcting for the over-representation of more disclosure-prone 
+firms. As shown in Table 6, the coefficient on the log COI is negative and statistically significant across all columns, including those 
+using directly observed and GNN-enriched supply chain networks. 
+
+4.2.2. Reverse causality and omitted variable bias
+Another main concern is the reverse causality. While we argue that common ownership influences supply chain diversification, it 
+
+is also possible that firms with more diversified supply chains are more attractive to institutional investors, leading to higher levels of 
+common ownership. In addition, unobserved factors—such as firm-level management strategies, industry policies, or macroeconomic 
+conditions—may simultaneously affect both ownership structure and supply chain choices. If these factors are not fully accounted 
+for, our estimates may suffer from omitted variable bias.
+Instrument strategies. Following Dai et al. (2024), we first leverage the initial implementation of the Shanghai-Hong Kong (SH-HK) 
+and Shenzhen-Hong Kong (SZ-HK) Stock Connect programs as plausibly exogenous shocks to institutional ownership. The SH-HK 
+Connect, launched in November 2014, allows investors in Shanghai and Hong Kong to trade eligible stocks listed on each other’s 
+exchanges through local securities firms or brokers. The SZ-HK Connect, launched in December 2016, extends this cross-boundary 
+investment mechanism to include stocks listed on the Shenzhen Stock Exchange. Both programs generated exogenous variation in 
+institutional ownership by enabling foreign investors to directly trade eligible mainland stocks through the Hong Kong exchange. 
+Specifically, we identify firms included in the initial eligibility lists of SH-HK and SZ-HK Connects and use them as our treatment 
+group. These initial inclusion lists were determined by regulatory authorities based on pre-specified criteria, plausibly exogenous to 
+firms’ unobservable supply chain strategies.
+
+Table 7 presents the 2SLS estimates using the shocks of SH-HK and SZ-HK Connect launches as IVs. In Column (1), we find 
+that firms included in the initial eligibility lists for these Connect programs experience a significant increase in ownership overlap 
+following their implementation. In Columns (2) and (3), an exogenous increase in common ownership, instrumented by the Connect 
+launch shocks, leads to a statistically significant reduction in the purchase share from the top 5 suppliers and the purchase 
+concentration among them, consistent with our baseline results.
+
+To test whether treated and control firms followed similar trends prior to the Connect programs, we conduct an event-study 
+analysis around the launch of the SH-HK and SZ-HK Connect programs, which is specified as follows:
+
+5 5
+∑ ∑
+
+ln𝐶𝑂𝐼𝑖𝑡 = 𝜃𝐻𝑙 𝑆𝐻𝐻𝐾𝑖 ×𝐷𝐻
+𝑡𝑙 + 𝜃𝑍𝑙 𝑆𝑍𝐻𝐾𝑖 ×𝐷𝑍
+
+𝑡𝑙 + 𝛾4𝑋𝑖𝑡 +𝐷𝑖 +𝐷𝑡 +𝐷ℎ × 𝑡 +𝐷𝑝 × 𝑡 + 𝜀𝑖𝑡, (7)
+𝑙=−5,𝑙≠−1 𝑙=−5,𝑙≠−1
+
+4 These non-disclosing firms are completely disconnected from the observed supply chain networks. Moreover, a large proportion of suppliers are unlisted 
+firms, whose detailed characteristics are not available. Thus, GNN models that rely on network structure and node attributes, cannot be applied in this context.
+8 
+
+
+
+Y. Li and C. Zhao Research in International Business and Finance 80 (2025) 103066 
+Table 4
+Heckman two-stage regressions.
+ First stage Second stage
+ (1) (2) (3) (4) (5)  
+ Dep. Var.: 𝐷𝑖𝑠𝑐𝑙𝑜𝑠𝑢𝑟𝑒𝑖𝑡 𝑆ℎ𝑎𝑟𝑒𝑆𝑖𝑡 ln𝐻𝐻𝐼𝑆
+
+𝑖𝑡 ln𝐻𝐻𝐼𝐺𝐶𝑁
+𝑖𝑡 ln𝐻𝐻𝐼𝐺𝐴𝐸
+
+𝑖𝑡  
+ 𝐷𝑖𝑠𝑐𝑙𝑜𝑠𝑢𝑟𝑒ℎ𝑡 3.242***  
+ (0.055)  
+ ln𝐶𝑂𝐼𝑖𝑡 −0.468*** −0.034*** −0.035*** −0.034***  
+ (0.113) (0.008) (0.008) (0.008)  
+ 𝐼𝑀𝑅𝑖𝑡 2.826*** 0.175*** 0.144** 0.181***  
+ (0.922) (0.067) (0.069) (0.067)  
+ ln𝐴𝑔𝑒𝑖𝑡 −0.257*** −2.340*** −0.128*** −0.134*** −0.132***  
+ (0.018) (0.293) (0.021) (0.022) (0.021)  
+ ln𝐸𝑚𝑝𝑙𝑜𝑦𝑚𝑒𝑛𝑡𝑖𝑡 −0.015 −2.060*** −0.128*** −0.129*** −0.130***  
+ (0.010) (0.112) (0.008) (0.008) (0.008)  
+ 𝐿𝑒𝑣𝑒𝑟𝑎𝑔𝑒𝑖𝑡 0.361*** −6.815*** −0.425*** −0.451*** −0.431***  
+ (0.082) (0.834) (0.061) (0.063) (0.061)  
+ 𝐶𝑎𝑝𝑖𝑡𝑎𝑙𝑖𝑡 0.020 2.130*** 0.074*** 0.068*** 0.075***  
+ (0.026) (0.293) (0.021) (0.022) (0.021)  
+ 𝑅𝑂𝐴𝑖𝑡 1.368*** 0.836 0.051 −0.029 0.062  
+ (0.148) (1.763) (0.128) (0.133) (0.129)  
+ 𝐶𝑎𝑠ℎ𝑖𝑡 −0.245* −5.666*** −0.306*** −0.285*** −0.316***  
+ (0.131) (1.389) (0.101) (0.105) (0.102)  
+ 𝑅&𝐷𝑖𝑡 0.001 −0.181*** −0.008*** −0.008*** −0.008***  
+ (0.003) (0.031) (0.002) (0.002) (0.002)  
+ 𝑆𝑂𝐸𝑖𝑡 0.365*** 0.779 0.027 0.050 0.031  
+ (0.042) (0.503) (0.037) (0.038) (0.037)  
+ 𝑀𝑎𝑛𝑎𝑔𝑒𝑖𝑡 −0.375*** −2.968* 0.198 0.213* 0.190  
+ (0.131) (1.702) (0.124) (0.128) (0.125)  
+ ln𝐵𝑜𝑎𝑟𝑑𝑖𝑡 −0.026 2.221*** 0.125*** 0.114*** 0.127***  
+ (0.020) (0.583) (0.042) (0.044) (0.043)  
+  
+ Firm FE No Yes Yes Yes Yes  
+ Year FE No Yes Yes Yes Yes  
+ Industry-Specific Time Trends No Yes Yes Yes Yes  
+ Province-Specific Time Trends No Yes Yes Yes Yes  
+ Observations 52,493 24,299 24,299 24,299 24,299  
+ Adjusted R2 0.705 0.667 0.656 0.667  
+ Pseudo R2 0.196  
+Notes: Column (1) reports the first-stage regression specified in Eq. (5), using a probit model. The dependent variable 𝐷𝑖𝑠𝑐𝑙𝑜𝑠𝑢𝑟𝑒𝑖𝑡 is a binary 
+indicator that equals 1 if firm 𝑖 at year 𝑡 discloses its supplier information and 0 otherwise. The share of firms in the same industry that disclose 
+their supplier information (𝐷𝑖𝑠𝑐𝑙𝑜𝑠𝑢𝑟𝑒ℎ𝑡) is used as the IV. Columns (2)–(5) report the second-stage regressions specified in Eq. (6), where the 
+outcome variable is regressed on the log COI (ln𝐶𝑂𝐼𝑖𝑡), with the inverse Mills ratio (𝐼𝑀𝑅𝑖𝑡) included to account for sample selection bias. 
+The dependent variable in Columns (2) and (3) is firm 𝑖’s purchase share from its top 5 suppliers and the log HHI of purchase among these 
+top suppliers, respectively—both calculated with the observed data. The dependent variable in Columns (4) and (5) is the log HHI of purchase 
+among all suppliers, incorporating both observed and predicted ones generated by the GCN and GAE models, respectively. Standard errors in 
+parentheses are clustered by the firm. Significance: *, 0.10, **, 0.05, ***, 0.01.
+
+where the outcome variable is the log COI of firm 𝑖 in year 𝑡, 𝑆𝐻𝐻𝐾𝑖 (𝑆𝑍𝐻𝐾𝑖) is an indicator of whether firm 𝑖 was in the initial 
+list of eligible stocks for SH-HK (SZ-HK) Connect, 𝐷𝐻
+
+𝑡𝑙 ≡ 𝐈{𝑡−2014 = 𝑙} is an indicator for year 𝑡 being 𝑙 years away from the launch 
+year of SH-HK Connect, and 𝐷𝑍
+
+𝑡𝑙 ≡ 𝐈{𝑡 − 2016 = 𝑙} is defined similarly. We exclude 𝑙 = −1 as the baseline period. Relative periods 
+earlier than 5 leads (𝑙 < −5) are grouped into 𝑙 = −5, and those later than 5 lags (𝑙 > 5) are grouped into 𝑙 = 5. Control variables 
+(𝑋𝑖𝑡), firm fixed effects (𝐷𝑖), year fixed effects (𝐷𝑡), industry-specific time trends (𝐷ℎ × 𝑡), and province-specific time trends (𝐷𝑝 × 𝑡) 
+are included. Standard errors in parentheses are clustered by the firm.
+
+Fig. 1 illustrates the estimation results of Eq. (7), showing the time-varying coefficients and their 95% confidence intervals. 
+The coefficients in all pre-treatment periods (𝑙 < 0) are statistically indistinguishable from 0, indicating no evidence of differential 
+trends in common ownership between the treated and control firms prior to the implementation of the SH-HK and SZ-HK Connect 
+programs. In post-treatment periods, we observe a sharp and persistent increase in the degree of common ownership for the treated 
+firms relative to the control group. These results support the validity of our quasi-experimental setting. Therefore, we can believe 
+that the IV results using the SH-HK and SZ-HK Connects provide strong quasi-experimental evidence that common ownership helps 
+diversify supply chains. 
+
+Additionally, we follow a common practice of using the CSI 300 index inclusion to address potential endogeneity concerns (e.g., 
+Crane et al., 2016; Boller and Morton, 2020).5 As shown by existing literature such as Boller and Morton (2020), index inclusions 
+
+5 The CSI 300 index is a key stock market index in China, jointly developed by the Shanghai Stock Exchange (SSE) and the Shenzhen Stock Exchange (SZSE). 
+This index comprises 300 large-cap and liquid stocks traded on the SSE and SZSE.
+9 
+
+
+
+Y. Li and C. Zhao Research in International Business and Finance 80 (2025) 103066 
+Table 5
+Supply chain concentration imputed by Random Forest.
+ (1) (2) (3) (4)  
+ Dep. Var.: 𝑆ℎ𝑎𝑟𝑒𝑆𝑖𝑡 ln𝐻𝐻𝐼𝑆
+
+𝑖𝑡 ln𝐻𝐻𝐼𝐺𝐶𝑁
+𝑖𝑡 ln𝐻𝐻𝐼𝐺𝐴𝐸
+
+𝑖𝑡  
+ ln𝐶𝑂𝐼𝑖𝑡 −0.274*** −0.013** −0.013** −0.013**  
+ (0.077) (0.006) (0.006) (0.006)  
+ ln𝐴𝑔𝑒𝑖𝑡 −1.719*** −0.058*** −0.053*** −0.059***  
+ (0.220) (0.016) (0.016) (0.016)  
+ ln𝐸𝑚𝑝𝑙𝑜𝑦𝑚𝑒𝑛𝑡𝑖𝑡 −3.686*** −0.202*** −0.202*** −0.205***  
+ (0.178) (0.011) (0.011) (0.011)  
+ 𝐿𝑒𝑣𝑒𝑟𝑎𝑔𝑒𝑖𝑡 −5.766*** −0.388*** −0.367*** −0.385***  
+ (0.797) (0.052) (0.052) (0.053)  
+ 𝐶𝑎𝑝𝑖𝑡𝑎𝑙𝑖𝑡 2.584*** 0.093*** 0.088*** 0.093***  
+ (0.406) (0.023) (0.024) (0.023)  
+ 𝑅𝑂𝐴𝑖𝑡 −4.112*** −0.117 −0.170** −0.100  
+ (1.126) (0.072) (0.073) (0.073)  
+ 𝐶𝑎𝑠ℎ𝑖𝑡 −5.222*** −0.181*** −0.113* −0.197***  
+ (0.966) (0.063) (0.063) (0.063)  
+ 𝑅&𝐷𝑖𝑡 −0.086*** −0.012*** −0.013*** −0.012***  
+ (0.025) (0.002) (0.002) (0.002)  
+ 𝑆𝑂𝐸𝑖𝑡 −0.492 −0.022 0.001 −0.022  
+ (0.454) (0.031) (0.031) (0.031)  
+ 𝑀𝑎𝑛𝑎𝑔𝑒𝑖𝑡 −0.593 0.046 0.041 0.051  
+ (0.997) (0.070) (0.071) (0.071)  
+ ln𝐵𝑜𝑎𝑟𝑑𝑖𝑡 3.551*** 0.166*** 0.163*** 0.168***  
+ (0.644) (0.042) (0.042) (0.043)  
+  
+ Firm FE Yes Yes Yes Yes  
+ Year FE Yes Yes Yes Yes  
+ Industry-Specific Time Trends Yes Yes Yes Yes  
+ Province-Specific Time Trends Yes Yes Yes Yes  
+ Observations 52,119 52,119 52,119 52,119  
+ Adjusted R2 0.717 0.670 0.663 0.670  
+Notes: This table uses the supply chain concentration measures that are imputed for non-disclosing firms with Random Forest 
+and reports the regressions on the full sample. The Random Forest model takes the control variables, firm fixed effects, year 
+fixed effects, industry-specific time trends, and province-specific time trends as input features and learns to predict the supply 
+chain concentration, including the purchase share from the top 5 suppliers (𝑆ℎ𝑎𝑟𝑒𝑆𝑖𝑡 , Column (1)), the log HHI of purchase among 
+these top suppliers (ln𝐻𝐻𝐼𝑆
+
+𝑖𝑡 , Column (2)), and the log HHI incorporating both observed and predicted suppliers based on the 
+GCN model (ln𝐻𝐻𝐼𝐺𝐶𝑁
+
+𝑖𝑡 , Column (3)) and GAE (ln𝐻𝐻𝐼𝐺𝐴𝐸
+𝑖𝑡 , Column (4)). Standard errors in parentheses are clustered by the 
+
+firm. Significance: *, 0.10, **, 0.05, ***, 0.01.
+
+Fig. 1. Dynamic effects of launching SH-HK and SZ-HK Connects.
+Notes: This figure illustrates the dynamic effects of the launches of the SH-HK and SZ-HK Connect programs in Panels A and B, respectively, 
+estimated with Eq. (7). The year right before the treatment (𝑙 = −1) is excluded. Periods before 5 leads (𝑙 < −5) are grouped into 𝑙 = −5, and 
+periods after 5 lags (𝑙 > 5) are grouped into 𝑙 = 5. Control variables, firm fixed effects, year fixed effects, industry-specific time trends, and 
+province-specific time trends are included. 95% confidence bands are shown, using standard errors clustered by firm.
+
+lead to significant increases in institutional holdings, thus satisfying the relevance condition for valid instruments. However, 
+the exogeneity of this instrument may still be questioned as the CSI 300 index typically includes large firms, which can differ 
+systematically from others in bargaining power and purchase behavior.  While a firm’s own index inclusion may be endogenous to its 
+characteristics, the index inclusion of its economically connected peers is plausibly more exogenous to the firm’s decisions. Following 
+10 
+
+
+
+Y. Li and C. Zhao Research in International Business and Finance 80 (2025) 103066 
+Table 6
+Regressions weighted by the inverse probability of disclosure.
+ Probability from the probit model Probability from the Random Forest
+ (1) (2) (3) (4) (5) (6) (7) (8)  
+ Dep. Var.: 𝑆ℎ𝑎𝑟𝑒𝑆𝑖𝑡 ln𝐻𝐻𝐼𝑆
+
+𝑖𝑡 ln𝐻𝐻𝐼𝐺𝐶𝑁
+𝑖𝑡 ln𝐻𝐻𝐼𝐺𝐴𝐸
+
+𝑖𝑡 𝑆ℎ𝑎𝑟𝑒𝑆𝑖𝑡 ln𝐻𝐻𝐼𝑆
+𝑖𝑡 ln𝐻𝐻𝐼𝐺𝐶𝑁
+
+𝑖𝑡 ln𝐻𝐻𝐼𝐺𝐴𝐸
+𝑖𝑡  
+
+ ln𝐶𝑂𝐼𝑖𝑡 −0.525*** −0.027* −0.027* −0.028* −0.485*** −0.032** −0.033*** −0.033***  
+  (0.190) (0.016) (0.016) (0.016) (0.158) (0.013) (0.013) (0.013)  
+ ln𝐴𝑔𝑒𝑖𝑡 −2.101*** −0.107*** −0.122*** −0.112*** −2.007*** −0.101*** −0.113*** −0.107***  
+ (0.462) (0.036) (0.037) (0.037) (0.411) (0.031) (0.031) (0.031)  
+ ln𝐸𝑚𝑝𝑙𝑜𝑦𝑚𝑒𝑛𝑡𝑖𝑡 −2.636*** −0.168*** −0.173*** −0.172*** −2.289*** −0.142*** −0.144*** −0.145***  
+ (0.399) (0.022) (0.022) (0.023) (0.258) (0.016) (0.016) (0.016)  
+ 𝐿𝑒𝑣𝑒𝑟𝑎𝑔𝑒𝑖𝑡 −6.368*** −0.405*** −0.421*** −0.412*** −7.000*** −0.447*** −0.481*** −0.455***  
+ (2.015) (0.139) (0.139) (0.141) (1.663) (0.114) (0.114) (0.115)  
+ 𝐶𝑎𝑝𝑖𝑡𝑎𝑙𝑖𝑡 1.274* 0.025 0.018 0.025 2.235*** 0.070 0.063 0.072  
+ (0.705) (0.047) (0.049) (0.048) (0.667) (0.044) (0.046) (0.044)  
+ 𝑅𝑂𝐴𝑖𝑡 −1.835 −0.158 −0.226 −0.165 −0.581 −0.068 −0.138 −0.066  
+ (3.365) (0.213) (0.220) (0.216) (2.710) (0.172) (0.175) (0.174)  
+ 𝐶𝑎𝑠ℎ𝑖𝑡 −6.906** −0.327 −0.350* −0.332 −6.577*** −0.355** −0.331** −0.366**  
+ (2.830) (0.203) (0.208) (0.205) (2.104) (0.144) (0.148) (0.144)  
+ 𝑅&𝐷𝑖𝑡 −0.254*** −0.012*** −0.012*** −0.012*** −0.195*** −0.009*** −0.009*** −0.009***  
+ (0.055) (0.004) (0.004) (0.004) (0.040) (0.003) (0.003) (0.003)  
+ 𝑆𝑂𝐸𝑖𝑡 0.739 0.005 0.036 0.009 0.314 −0.002 0.024 0.002  
+ (1.026) (0.074) (0.074) (0.074) (0.852) (0.063) (0.063) (0.063)  
+ 𝑀𝑎𝑛𝑎𝑔𝑒𝑖𝑡 −0.427 0.508** 0.506** 0.502** −1.051 0.387** 0.393** 0.380**  
+ (2.623) (0.215) (0.216) (0.216) (2.398) (0.183) (0.183) (0.183)  
+ ln𝐵𝑜𝑎𝑟𝑑𝑖𝑡 1.905* 0.110 0.095 0.111 2.190** 0.119** 0.110* 0.121**  
+ (1.065) (0.075) (0.076) (0.075) (0.881) (0.060) (0.061) (0.061)  
+  
+ Firm FE Yes Yes Yes Yes Yes Yes Yes Yes  
+ Year FE Yes Yes Yes Yes Yes Yes Yes Yes  
+ Industry-Specific Time Trends Yes Yes Yes Yes Yes Yes Yes Yes  
+ Province-Specific Time Trends Yes Yes Yes Yes Yes Yes Yes Yes  
+ Observations 24,299 24,299 24,299 24,299 24,299 24,299 24,299 24,299  
+ Adjusted R2 0.673 0.626 0.610 0.626 0.688 0.650 0.638 0.650  
+Notes: This table uses the disclosing firms and reports regression results weighted by the inverse probability of supplier disclosure. The disclosure probability in 
+Columns (1)–(4) is predicted using the probit model in Eq. (5), and that in Columns (5)–(8) is from a Random Forest classifier that takes control variables, firm 
+fixed effects, year fixed effects, industry-specific time trends, and province-specific time trends as inputs. Dependent variables include the purchase share from 
+the top 5 suppliers (𝑆ℎ𝑎𝑟𝑒𝑆 𝑖𝑡), the log HHI of purchase concentration among these top suppliers (ln𝐻𝐻𝐼𝑆 𝑖𝑡), and the log HHI incorporating both observed and 
+predicted suppliers from the GCN model (ln𝐻𝐻𝐼𝐺𝐶𝑁 𝑖𝑡) and GAE model (ln𝐻𝐻𝐼𝐺𝐴𝐸 𝑖𝑡). Standard errors in parentheses are clustered by firm. Significance: *, 
+0.10, **, 0.05, ***, 0.01.
+
+the studies using the addition of industry competitors into the index as an instrument for horizontal ownership overlap (e.g., Antón 
+et al., 2023), we also construct an input-weighted peer CSI 300 index to capture exogenous variation in upstream institutional 
+ownership. Formally, for firm 𝑖 in year 𝑡, the instrument is constructed as 
+
+∑
+
+𝐶𝑆𝐼300𝑖𝑡 = 𝑎ℎ(𝑖),ℎ(𝑖)𝐿𝑂𝑂_𝐶𝑆𝐼300𝑖𝑡 + 𝑎ℎ,ℎ(𝑖)𝐶𝑆𝐼300ℎ𝑡, (8)
+ℎ≠ℎ(𝑖)
+
+where ℎ(𝑖) is the industry that firm 𝑖 belongs to, 𝑎ℎ,ℎ(𝑖) the input share that industry ℎ(𝑖) sources from industry ℎ, 𝐶𝑆𝐼300ℎ𝑡 is the 
+average CSI 300 index weight of all firms in industry ℎ in year 𝑡, and 𝐿𝑂𝑂_𝐶𝑆𝐼300𝑖𝑡 is the leave-one-out average index weight 
+of industry ℎ(𝑖) after excluding firm 𝑖. The input shares are from the 2002 Input–Output Table, which largely predates the sample 
+period and helps ensure the exogeneity. 
+
+Columns (1)–(3) of Table 8 present the corresponding 2SLS results using this IV. In Column (1), we find a statistically significant 
+and positive effect of the instrument on common ownership. Columns (2) and (3) indicate that the instrumented common ownership 
+significantly reduces the purchase share from a firm’s top 5 suppliers and the purchase concentration among them. Columns (4)–(6) 
+repeat the analysis using a one-year lag of the peer index weight, yielding consistent results. Meanwhile, the Kleibergen–Paap rk 
+Wald F and LM statistics suggest that this IV is valid and effective for our 2SLS estimation.
+Lagged explanatory variables. To further mitigate reverse causality, we lag the explanatory variables, ensuring that the common 
+ownership predates firms’ purchase decisions. As shown in Table 9, the lagged log COI remains negatively and significantly associated 
+with supply chain concentration across all specifications. These results provide additional support for the view that common 
+ownership promotes subsequent supply chain diversification, rather than reflecting firms’ existing supply chain structures. 
+Excluding common institutional investors following the formation of supply links. Following Cheung et al. (2020), we reconstruct the COI 
+by excluding all cases where common institutional investors appear only at or after the formation of a positive supply-chain link. 
+This adjustment removes over 225,000 firm-investor-year records in our original data, helping isolate the influence of pre-existing 
+ownership ties from investor responses to supply-chain linkages. Table 10 reports the results based on this revised measure. The 
+11 
+
+
+
+Y. Li and C. Zhao Research in International Business and Finance 80 (2025) 103066 
+Table 7
+2SLS estimates with the launches of SH-HK and SZ-HK Connects as IVs.
+ First stage Second stage
+ (1) (2) (3)  
+ Dep. Var.: ln𝐶𝑂𝐼𝑖𝑡 𝑆ℎ𝑎𝑟𝑒𝑆𝑖𝑡 ln𝐻𝐻𝐼𝑆
+
+𝑖𝑡  
+ 𝑆𝐻𝐻𝐾𝑖 × 𝑃𝑜𝑠𝑡𝐻𝑡 0.539***  
+ (0.047)  
+ 𝑆𝑍𝐻𝐾𝑖 × 𝑃𝑜𝑠𝑡𝑍𝑡 0.394***  
+ (0.075)  
+ ln𝐶𝑂𝐼𝑖𝑡 −5.710*** −0.469*** 
+ (1.706) (0.137)  
+ ln𝐴𝑔𝑒𝑖𝑡 0.398*** 0.130 0.070  
+ (0.025) (0.793) (0.062)  
+ ln𝐸𝑚𝑝𝑙𝑜𝑦𝑚𝑒𝑛𝑡𝑖𝑡 0.048*** −1.737*** −0.102*** 
+ (0.010) (0.236) (0.016)  
+ 𝐿𝑒𝑣𝑒𝑟𝑎𝑔𝑒𝑖𝑡 −0.149** −8.101*** −0.520*** 
+ (0.073) (1.611) (0.112)  
+ 𝐶𝑎𝑝𝑖𝑡𝑎𝑙𝑖𝑡 0.033 2.351*** 0.093**  
+ (0.023) (0.685) (0.045)  
+ 𝑅𝑂𝐴𝑖𝑡 0.746*** 2.426 0.231  
+ (0.115) (2.881) (0.196)  
+ 𝐶𝑎𝑠ℎ𝑖𝑡 0.155* −4.418** −0.212  
+ (0.091) (1.964) (0.137)  
+ 𝑅&𝐷𝑖𝑡 −0.008*** −0.220*** −0.011*** 
+ (0.002) (0.042) (0.003)  
+ 𝑆𝑂𝐸𝑖𝑡 −0.022 0.096 −0.016  
+ (0.039) (0.812) (0.057)  
+ 𝑀𝑎𝑛𝑎𝑔𝑒𝑖𝑡 −0.303 −4.017 0.096  
+ (0.202) (2.595) (0.195)  
+ ln𝐵𝑜𝑎𝑟𝑑𝑖𝑡 −0.207*** 1.063 0.028  
+ (0.045) (0.901) (0.064)  
+  
+ Firm FE Yes Yes Yes  
+ Year FE Yes Yes Yes  
+ Industry-Specific Time Trends Yes Yes Yes  
+ Province-Specific Time Trends Yes Yes Yes  
+ Observations 24,299 24,299 24,299  
+ Adjusted R2 0.627  
+ First-Stage F Statistic 47.063
+ Kleibergen–Paap rk Wald F Statistic 80.330
+ Kleibergen–Paap rk LM Statistic 150.255
+Notes: This table reports the 2SLS estimates using the launches of SH-HK Connect in 2014 and SZ-HK Connect 
+in 2016 as IVs. Specifically, 𝑆𝐻𝐻𝐾𝑖 (𝑆𝑍𝐻𝐾𝑖) equals 1 if firm 𝑖 is included in the initial list of eligible stocks 
+for SH-HK (SZ-HK) Connect and 0 otherwise. 𝑃𝑜𝑠𝑡𝐻𝑡  (𝑃𝑜𝑠𝑡𝑍𝑡 ) equals 1 if year 𝑡 is post-2014 (post-2016) and 0 
+otherwise. In the first stage, the log COI (ln𝐶𝑂𝐼𝑖𝑡) is regressed on the IVs and exogenous control variables. In 
+the second stage, the outcome variable is regressed on the fitted values of ln𝐶𝑂𝐼𝑖𝑡 from the first stage. Standard 
+errors in parentheses are clustered by the firm. Significance: *, 0.10, **, 0.05, ***, 0.01.
+
+estimated coefficients on the revised log COI remain negative and statistically significant, mitigating concerns that our findings are 
+driven by investors responding to already-formed supply-chain links.
+Adding institutional ownership controls. Inspired by Azar et al. (2018), another strategy for mitigating reverse causality is to directly 
+control for the extent and concentration of institutional ownership within firms. Specifically, we control for the overall share of 
+institutional ownership (𝐼𝑛𝑠𝑂𝑤𝑛𝑃𝑒𝑟𝑖𝑡), the log HHI of institutional ownership (ln𝐻𝐻𝐼𝐼𝑖𝑡), and the share of institutional ownership 
+held by the top 5 institutional investors (𝑇 𝑜𝑝5_𝐼𝑛𝑠𝑂𝑤𝑛𝑃𝑒𝑟𝑖𝑡). By doing this, we are able to better isolate the effect of the institutional 
+ownership overlap between firms. As shown in Table 11, the coefficient on the log COI remains negative and statistically significant 
+across all columns, reducing concerns that the findings simply reflect institutional investors’ tendency to favor firms with diversified 
+supply chains.
+
+4.3. Robustness
+
+We provide additional evidence for robustness using alternation variable constructions, transformations, and samples. First, while 
+the COI in our baseline regressions is derived from the shareholdings of observable institutional investors, it does not account for the 
+potential influence of unobserved investors. To address this limitation, we correct it by incorporating these unobserved investors, 
+ensuring a more comprehensive measure of ownership overlap. The detailed correction procedure can be found in Appendix A.1.2. 
+Columns (1) and (2) of Table A.5 report the regression results when replacing the log COI (ln𝐶𝑂𝐼𝑖𝑡) in the baseline regressions with 
+its corrected counterpart (ln𝐶𝐶𝑂𝐼 ). After accounting for unobserved investors, a 1% increase in the degree of ownership overlap 
+𝑖𝑡
+
+12 
+
+
+
+Y. Li and C. Zhao Research in International Business and Finance 80 (2025) 103066 
+Table 8
+2SLS estimates with input-weighted peer CSI 300 index weights as IVs.
+ IV: Input-weighted peer CSI weight IV: Lagged input-weighted peer CSI weight
+ First stage Second stage First stage Second stage
+ (1) (2) (3) (4) (5) (6)  
+ Dep. Var.: ln𝐶𝑂𝐼𝑖𝑡 𝑆ℎ𝑎𝑟𝑒𝑆𝑖𝑡 ln𝐻𝐻𝐼𝑆
+
+𝑖𝑡 ln𝐶𝑂𝐼𝑖𝑡 𝑆ℎ𝑎𝑟𝑒𝑆𝑖𝑡 ln𝐻𝐻𝐼𝑆
+𝑖𝑡  
+
+ ln𝐶𝑆𝐼300𝑖𝑡 0.388***  
+ (0.093)  
+ ln𝐶𝑆𝐼300𝑖,𝑡−1 0.415***  
+ (0.090)  
+ ln𝐶𝑂𝐼𝑖𝑡 −8.964* −0.924** −7.693* −0.724**  
+ (4.875) (0.363) (4.187) (0.304)  
+ ln𝐴𝑔𝑒𝑖𝑡 0.400*** 1.447 0.254* 0.404*** 0.956 0.167  
+ (0.025) (2.024) (0.151) (0.026) (1.765) (0.129)  
+ ln𝐸𝑚𝑝𝑙𝑜𝑦𝑚𝑒𝑛𝑡𝑖𝑡 0.058*** −1.547*** −0.075*** 0.053*** −1.531*** −0.085***  
+ (0.010) (0.336) (0.025) (0.010) (0.290) (0.021)  
+ 𝐿𝑒𝑣𝑒𝑟𝑎𝑔𝑒𝑖𝑡 −0.137* −8.533*** −0.580*** −0.160** −8.656*** −0.593***  
+ (0.073) (1.802) (0.133) (0.076) (1.791) (0.127)  
+ 𝐶𝑎𝑝𝑖𝑡𝑎𝑙𝑖𝑡 0.055** 2.518*** 0.117** 0.044* 2.396*** 0.100**  
+ (0.025) (0.728) (0.051) (0.026) (0.702) (0.047)  
+ 𝑅𝑂𝐴𝑖𝑡 0.704*** 4.796 0.562* 0.707*** 3.195 0.339  
+ (0.115) (4.344) (0.328) (0.118) (3.908) (0.286)  
+ 𝐶𝑎𝑠ℎ𝑖𝑡 0.146 −3.919* −0.142 0.134 −3.297 −0.101  
+ (0.092) (2.103) (0.159) (0.095) (2.046) (0.150)  
+ 𝑅&𝐷𝑖𝑡 −0.008*** −0.245*** −0.015*** −0.010*** −0.219*** −0.012***  
+ (0.002) (0.061) (0.005) (0.002) (0.057) (0.004)  
+ 𝑆𝑂𝐸𝑖𝑡 −0.021 0.057 −0.022 −0.026 0.309 −0.017  
+ (0.040) (0.869) (0.065) (0.040) (0.854) (0.062)  
+ 𝑀𝑎𝑛𝑎𝑔𝑒𝑖𝑡 −0.313 −5.081 −0.052 −0.293 −4.753 0.010  
+ (0.203) (3.232) (0.274) (0.203) (2.930) (0.236)  
+ ln𝐵𝑜𝑎𝑟𝑑𝑖𝑡 −0.227*** 0.336 −0.073 −0.231*** 0.341 −0.044  
+ (0.046) (1.410) (0.106) (0.046) (1.282) (0.093)  
+ Observations 24,299 24,299 24,299 23,729 23,729 23,729  
+ Adjusted 𝑅2 0.622 0.623  
+ First-stage F Statistic 33.165 33.019
+ Kleibergen–Paap rk Wald F Statistic 17.607 21.111
+ Kleibergen–Paap rk LM Statistic 16.650 20.193
+
+Notes: This table reports the 2SLS estimates with the average index weight of other firms as IVs. Specifically, the IV in Columns (1)–(3), i.e., 𝐶𝑆𝐼300𝑖𝑡 specified 
+in Eq. (8), is the input-share weighted average of industry-level average CSI 300 weights, where the input shares are from the 2002 Input–Output Table, and the 
+average index weight for firm 𝑖’s own industry is computed using a leave-one-out method. Columns (4)–(6) use its one-year lag as the IV. In the first stage, the 
+log COI (ln𝐶𝑂𝐼𝑖𝑡) is regressed on the IV and exogenous control variables. In the second stage, the outcome variable is regressed on the fitted values of ln𝐶𝑂𝐼𝑖𝑡
+from the first stage. Standard errors in parentheses are clustered by the firm. Significance: *, 0.10, **, 0.05, ***, 0.01.
+
+is associated with a 0.72 percentage point reduction in the purchase share from the top 5 suppliers and a 0.044% reduction in the 
+purchase concentration, further supporting the diversification effect of common ownership.
+
+Second, in the baseline regressions, the ownership overlap is quantified using only tradable A-shares. We expand the scope by 
+incorporating the total shares of Chinese listed firms and capture the ownership overlap based on a broader measure of shareholdings. 
+Specifically, 𝑠𝑖𝑧𝑡 in Eq. (2) is the proposition of firm 𝑖’s total shares owned by investor 𝑧 at year 𝑡 now. Based on it, we develop 
+another firm-level COI (𝐶𝑂𝐼𝑇𝑖𝑡 ) and report the corresponding results in Columns (3) and (4) of Table A.5. The signs, magnitudes, 
+and significance levels of the coefficients are all consistent with our baseline results. Furthermore, we also correct it to account 
+for unobserved investors in Columns (5) and (6), where the effects of common ownership on the purchase share from the top 5 
+suppliers and the purchase concentration among them continue to be negative.
+
+Third, there are 3 Black Swan events during our sample period, namely the 2008 global financial crisis, the 2015 Chinese 
+stock market crash, and the COVID-19 pandemic. If firms differ in exposure to these events, relying solely on year fixed effects 
+is insufficient to fully account for their impacts. Therefore, we exclude observations during these events and report the regression 
+results in Table A.6. Specifically, we exclude observations during the global financial crisis (2008–2009) and replicate the baseline 
+regressions in Columns (1) and (2), continuing to find negative impacts of common ownership on purchase concentration. In 
+Columns (3)–(4) and (5)–(6), we exclude observations during the Chinese stock market crash (2015) and the COVID-19 pandemic 
+(2020–2022), respectively. The main finding that common ownership helps diversify the supply chain still holds.
+
+Fourth, as there are 0 values in the COI, we add 1 to it and take the logarithmic transformation in the baseline regressions. 
+To prove that our finding is robust to the choice of transformation, we also apply other transformations in Table A.7. The key 
+explanatory variable in Columns (1) and (2) is the COI without any transformation (𝐶𝑂𝐼𝑖𝑡), while that in Columns (3) and (4) is 
+the index after the inverse hyperbolic sine transformation (arcsinh 𝐶𝑂𝐼𝑖𝑡). Regardless of the transformation applied, we consistently 
+find that common ownership significantly reduces a firm’s reliance on a few key suppliers and fosters a more diversified supply 
+chain network.
+13 
+
+
+
+Y. Li and C. Zhao Research in International Business and Finance 80 (2025) 103066 
+Table 9
+Lagged explanatory variables.
+ 𝑙 = 1 𝑙 = 2
+ (1) (2) (3) (4)  
+ Dep. Var.: 𝑆ℎ𝑎𝑟𝑒𝑆𝑖𝑡 ln𝐻𝐻𝐼𝑆
+
+𝑖𝑡 𝑆ℎ𝑎𝑟𝑒𝑆𝑖𝑡 ln𝐻𝐻𝐼𝑆
+𝑖𝑡  
+
+ ln𝐶𝑂𝐼𝑖,𝑡−𝑙 −0.477*** −0.034*** −0.399*** −0.032*** 
+ (0.131) (0.010) (0.149) (0.011)  
+ ln𝐴𝑔𝑒𝑖,𝑡−𝑙 −1.347*** −0.072*** −0.881*** −0.038  
+ (0.295) (0.021) (0.323) (0.023)  
+ ln𝐸𝑚𝑝𝑙𝑜𝑦𝑚𝑒𝑛𝑡𝑖,𝑡−𝑙 −2.078*** −0.126*** −2.188*** −0.127*** 
+ (0.124) (0.009) (0.150) (0.011)  
+ 𝐿𝑒𝑣𝑒𝑟𝑎𝑔𝑒𝑖,𝑡−𝑙 −6.298*** −0.369*** −2.661*** −0.169**  
+ (0.869) (0.063) (0.934) (0.068)  
+ 𝐶𝑎𝑝𝑖𝑡𝑎𝑙𝑖,𝑡−𝑙 1.389*** 0.036 0.252 0.003  
+ (0.309) (0.022) (0.327) (0.024)  
+ 𝑅𝑂𝐴𝑖,𝑡−𝑙 −3.841** −0.201 −3.777** −0.112  
+ (1.752) (0.127) (1.919) (0.140)  
+ 𝐶𝑎𝑠ℎ𝑖,𝑡−𝑙 −2.468* −0.160 −1.466 −0.143  
+ (1.467) (0.107) (1.584) (0.115)  
+ 𝑅&𝐷𝑖,𝑡−𝑙 −0.335*** −0.018*** −0.265*** −0.014*** 
+ (0.044) (0.003) (0.049) (0.004)  
+ 𝑆𝑂𝐸𝑖,𝑡−𝑙 0.258 −0.026 −0.663 −0.023  
+ (0.592) (0.043) (0.617) (0.045)  
+ 𝑀𝑎𝑛𝑎𝑔𝑒𝑖,𝑡−𝑙 0.764 0.346** 2.407 0.408**  
+ (1.909) (0.139) (2.302) (0.167)  
+ ln𝐵𝑜𝑎𝑟𝑑𝑖,𝑡−𝑙 1.481** 0.069 0.125 −0.042  
+ (0.667) (0.049) (0.855) (0.062)  
+  
+ Firm FE Yes Yes Yes Yes  
+ Year FE Yes Yes Yes Yes  
+ Industry-Specific Time Trends Yes Yes Yes Yes  
+ Province-Specific Time Trends Yes Yes Yes Yes  
+ Observations 21,840 21,840 19,401 19,401  
+ Adjusted R2 0.693 0.662 0.677 0.652  
+Notes: This table reports the results of regressing the supply chain concentration on the lagged log COI (ln𝐶𝑂𝐼𝑖,𝑡−𝑙) and firm-level 
+controls. The dependent variable in Columns (1) and (2) is firm 𝑖’s purchase share from its top 5 suppliers and the log HHI 
+of purchase among these top suppliers, respectively. The log COI in Columns (1) and (2) is lagged by one year. Columns (3) 
+and (4) report similar regressions with its two-year lag. Standard errors in parentheses are clustered by the firm. Significance: 
+*, 0.10, **, 0.05, ***, 0.01.
+
+5. Mechanism analysis
+
+In this section, we first conduct a further analysis on why common ownership contributes to supply chain diversification. 
+Specifically, we investigate how common ownership shapes supply chain structure along the intensive and extensive margins.
+
+5.1. A closer look at the changes in supply chain structure
+
+For an in-depth analysis of how common ownership shapes a firm’s supply chain structure, we employ a supplier-firm-level 
+regression, which is specified as follows: 
+
+𝑌𝑗𝑖𝑡 = 𝛼5 + 𝛽5 ln𝐶𝑂𝐼𝑗𝑖𝑡 + 𝜃 ln𝐷𝑖𝑠𝑡𝑎𝑛𝑐𝑒𝑗𝑖𝑡 + 𝛾𝑆5 𝑋𝑗𝑡 + 𝛾𝐹5 𝑋𝑖𝑡 +𝐷𝑗 +𝐷𝑖 +𝐷𝑡 + 𝜀𝑗𝑖𝑡, (9)
+where the outcome variable 𝑌𝑗𝑖𝑡 includes the log purchase value (ln𝑉 𝑎𝑙𝑢𝑒𝑗𝑖𝑡) and purchase share in percentage (𝑆ℎ𝑎𝑟𝑒𝑗𝑖𝑡) of firm 𝑖
+from supplier 𝑗, as well as indicators of linkages (𝐿𝑖𝑛𝑘𝐷𝑢𝑚𝑗𝑖𝑡), formation of new linkages (𝐹𝑜𝑟𝑚𝐷𝑢𝑚𝑗𝑖𝑡), and breakdown of existing 
+linkages (𝐵𝑟𝑒𝑎𝑘𝐷𝑢𝑚𝑗𝑖𝑡).6 Specifically, 𝐿𝑖𝑛𝑘𝐷𝑢𝑚𝑗𝑖𝑡 equals 1 if there is a supply-chain linkage between supplier 𝑗 and firm 𝑖 at year 
+𝑡 and 0 otherwise. 𝐹𝑜𝑟𝑚𝐷𝑢𝑚𝑗𝑖𝑡 equals 1 if firm 𝑖 did not purchase from supplier 𝑗 at year 𝑡 − 1 but purchases from it at year 𝑡 and 
+0 otherwise, and 𝐵𝑟𝑒𝑎𝑘𝐷𝑢𝑚𝑗𝑖𝑡 is exactly the opposite. The main explanatory variable (ln𝐶𝑂𝐼𝑗𝑖𝑡) is the log COI between firm 𝑖 and 
+its supplier 𝑗, which is defined in Eq. (2). Many studies highlight that distance is a critical determinant for trade (e.g., McCallum, 
+1995; Redding and Venables, 2004), and thus we add the log distance between the office locations of firms 𝑗 and 𝑖 (ln𝐷𝑖𝑠𝑡𝑎𝑛𝑐𝑒𝑗𝑖𝑡) 
+to the regression. We also include supplier 𝑗’s control variables (𝑋𝑗𝑡), buyer firm 𝑖’s control variables (𝑋𝑖𝑡), supplier fixed effects 
+(𝐷𝑗), buyer fixed effects (𝐷𝑖), and year fixed effects (𝐷𝑡). When focusing on binary outcome variables, we adopt the logit and probit 
+models. Standard errors are clustered by the buyer firm to account for correlation over time and between suppliers belonging to 
+the same firm.
+
+6 There are many 0 values in the purchase value of firm 𝑖 from supplier 𝑗 (𝑉 𝑎𝑙𝑢𝑒 ). Thus, we add 1 to it before taking the logarithmic transformation.
+𝑗𝑖𝑡
+
+14 
+
+
+
+Y. Li and C. Zhao Research in International Business and Finance 80 (2025) 103066 
+Table 10
+Common institutional investors prior to supply link formation.
+ (1) (2)  
+ Dep. Var.: 𝑆ℎ𝑎𝑟𝑒𝑆𝑖𝑡 ln𝐻𝐻𝐼𝑆
+
+𝑖𝑡  
+ ln𝐶𝑂𝐼𝑃
+
+𝑖𝑡 −0.506*** −0.034*** 
+ (0.119) (0.009)  
+ ln𝐴𝑔𝑒𝑖𝑡 −1.930*** −0.103*** 
+ (0.273) (0.020)  
+ ln𝐸𝑚𝑝𝑙𝑜𝑦𝑚𝑒𝑛𝑡𝑖𝑡 −2.044*** −0.127*** 
+ (0.112) (0.008)  
+ 𝐿𝑒𝑣𝑒𝑟𝑎𝑔𝑒𝑖𝑡 −7.431*** −0.463*** 
+ (0.812) (0.059)  
+ 𝐶𝑎𝑝𝑖𝑡𝑎𝑙𝑖𝑡 2.085*** 0.071***  
+ (0.293) (0.021)  
+ 𝑅𝑂𝐴𝑖𝑡 −1.393 −0.088  
+ (1.607) (0.117)  
+ 𝐶𝑎𝑠ℎ𝑖𝑡 −5.295*** −0.284*** 
+ (1.381) (0.101)  
+ 𝑅&𝐷𝑖𝑡 −0.179*** −0.008*** 
+ (0.031) (0.002)  
+ 𝑆𝑂𝐸𝑖𝑡 0.158 −0.011  
+ (0.460) (0.034)  
+ 𝑀𝑎𝑛𝑎𝑔𝑒𝑖𝑡 −2.272 0.241**  
+ (1.689) (0.123)  
+ ln𝐵𝑜𝑎𝑟𝑑𝑖𝑡 2.224*** 0.125***  
+ (0.583) (0.042)  
+  
+ Firm FE Yes Yes  
+ Year FE Yes Yes  
+ Industry-Specific Time Trends Yes Yes  
+ Province-Specific Time Trends Yes Yes  
+ Observations 24,299 24,299  
+ Adjusted R2 0.705 0.666  
+Notes: This table replicates the baseline regressions using the log COI constructed by excluding 
+any institutional investor relationships that appear at or after the establishment of positive supply-
+chain links between firm 𝑖 and its suppliers (ln𝐶𝑂𝐼𝑃
+
+𝑖𝑡 ). The dependent variable in Columns (1) and 
+(2) is firm 𝑖’s purchase share from its top 5 suppliers and the log HHI of purchase among these 
+top suppliers, respectively. Standard errors in parentheses are clustered by the firm. Significance: 
+*, 0.10, **, 0.05, ***, 0.01.
+
+Using the specification in Eq. (9), we first explore the influence of ownership overlap between two firms on the intensive margin 
+of their supply-chain linkages (i.e., the intensity of their relationships) and report the results in Table 12. Columns (1) and (2) 
+focus on the purchase value and percentage share of firm 𝑖 from supplier 𝑗, respectively. A 1% increase in the degree of their 
+ownership overlap leads to a 6.15% increase in the purchase value, statistically significant at the 1% level, and a 0.025 percentage 
+point increase in supplier 𝑗’s share in firm 𝑖’s total purchases, statistically significant at the 5% level. These results indicate that 
+ownership overlap strengthens the supply-chain linkages between firms.
+
+Furthermore, we differentiate all linkages into new and incumbent ones to better understand the changes in the supply chain. 
+Specifically, Columns (3) and (4) focus on newly formed linkages, where firm 𝑖 did not purchase from supplier 𝑗 at year 𝑡 − 1. For 
+these linkages, a 1% increase in the degree of the ownership overlap leads to a 3.21% increase in firm 𝑖’s purchase value from 
+supplier 𝑗 and a 0.010 percentage point increase in supplier 𝑗’s share in firm 𝑖’s total purchases, both statistically significant at 
+the 5% level. Columns (5) and (6) focus on incumbent linkages, where firm 𝑖 already purchased from supplier 𝑗 at year 𝑡 − 1. For 
+incumbent linkages, the impact of common ownership on purchase share is statistically indistinguishable from 0 (Column (6)). We 
+can conclude that ownership overlap reinforces the intensity of supply-chain linkages, with its impact being more pronounced on 
+newly established relationships than on existing ones.
+
+Next, we turn to the extensive margin of supply-chain linkages and further investigate the role of common ownership, with the 
+results reported in Table 13. With a logit model, Column (1) shows that shared institutional investors increase the probability 
+that two firms are connected through the supply chain, statistically significant at the 1% level. Furthermore, the presence of 
+common ownership fosters the creation of new supply-chain linkages between previously unconnected firms (Column (2)), while this 
+ownership overlap has no significant effect on the disruption of existing relationships (Column (3)). Columns (4)–(6) utilize probit 
+models to explore the changes in the extensive margin of supply-chain linkages and yield consistent findings. In summary, common 
+ownership positively affects the extensive margin of supply-chain linkages, and this effect is driven by fostering the formation of 
+new relationships, rather than preventing the breakdown of existing ones.
+
+To address potential endogeneity concerns, we rely on the shock of launching SH-HK Connect to develop a supplier-firm-specific 
+IV, 𝑆𝐻𝐻𝐾 × 𝑃𝑜𝑠𝑡𝐻 . Specifically, 𝑆𝐻𝐻𝐾  equals 1 if firms 𝑖 or its supplier 𝑗 is included in the initial list of SH-HK Connect and 
+𝑗𝑖 𝑡 𝑗𝑖
+
+15 
+
+
+
+Y. Li and C. Zhao Research in International Business and Finance 80 (2025) 103066 
+Table 11
+Adding institutional ownership and concentration as controls.
+ (1) (2) (3) (4) (5) (6)  
+ Dep. Var.: 𝑆ℎ𝑎𝑟𝑒𝑆𝑖𝑡 𝑆ℎ𝑎𝑟𝑒𝑆𝑖𝑡 𝑆ℎ𝑎𝑟𝑒𝑆𝑖𝑡 ln𝐻𝐻𝐼𝑆
+
+𝑖𝑡 ln𝐻𝐻𝐼𝑆
+𝑖𝑡 ln𝐻𝐻𝐼𝑆
+
+𝑖𝑡  
+ ln𝐶𝑂𝐼𝑖𝑡 −0.411*** −0.465*** −0.302*** −0.029*** −0.033*** −0.023*** 
+ (0.113) (0.114) (0.115) (0.008) (0.008) (0.008)  
+ 𝐼𝑛𝑠𝑂𝑤𝑛𝑃𝑒𝑟𝑖𝑡 4.422*** 0.321***  
+ (0.615) (0.045)  
+ ln𝐻𝐻𝐼𝐼
+
+𝑖𝑡 0.040 0.007  
+ (0.093) (0.007)  
+ 𝑇 𝑜𝑝5_𝐼𝑛𝑠𝑂𝑤𝑛𝑃𝑒𝑟𝑖𝑡 3.965*** 0.259***  
+ (0.547) (0.040)  
+ ln𝐴𝑔𝑒𝑖𝑡 −1.792*** −1.955*** −1.682*** −0.092*** −0.100*** −0.086*** 
+ (0.271) (0.282) (0.273) (0.020) (0.021) (0.020)  
+ ln𝐸𝑚𝑝𝑙𝑜𝑦𝑚𝑒𝑛𝑡𝑖𝑡 −2.413*** −2.043*** −2.323*** −0.154*** −0.127*** −0.145*** 
+ (0.123) (0.112) (0.119) (0.009) (0.008) (0.009)  
+ 𝐿𝑒𝑣𝑒𝑟𝑎𝑔𝑒𝑖𝑡 −6.712*** −7.404*** −7.261*** −0.412*** −0.462*** −0.452*** 
+ (0.817) (0.812) (0.811) (0.059) (0.059) (0.059)  
+ 𝐶𝑎𝑝𝑖𝑡𝑎𝑙𝑖𝑡 1.818*** 2.080*** 1.937*** 0.052** 0.071*** 0.062***  
+ (0.295) (0.293) (0.293) (0.021) (0.021) (0.021)  
+ 𝑅𝑂𝐴𝑖𝑡 −1.527 −1.439 −0.520 −0.096 −0.095 −0.029  
+ (1.605) (1.611) (1.609) (0.117) (0.117) (0.117)  
+ 𝐶𝑎𝑠ℎ𝑖𝑡 −4.930*** −5.211*** −5.422*** −0.258** −0.277*** −0.292*** 
+ (1.381) (1.382) (1.380) (0.100) (0.101) (0.100)  
+ 𝑅&𝐷𝑖𝑡 −0.181*** −0.179*** −0.176*** −0.008*** −0.008*** −0.007*** 
+ (0.031) (0.031) (0.031) (0.002) (0.002) (0.002)  
+ 𝑆𝑂𝐸𝑖𝑡 0.086 0.155 0.031 −0.016 −0.012 −0.020  
+ (0.460) (0.460) (0.460) (0.033) (0.034) (0.034)  
+ 𝑀𝑎𝑛𝑎𝑔𝑒𝑖𝑡 −2.643 −2.281 −2.447 0.214* 0.243** 0.229*  
+ (1.687) (1.690) (1.687) (0.123) (0.123) (0.123)  
+ ln𝐵𝑜𝑎𝑟𝑑𝑖𝑡 1.778*** 2.227*** 2.084*** 0.093** 0.125*** 0.116***  
+ (0.586) (0.583) (0.583) (0.043) (0.042) (0.042)  
+ Observations 24,299 24,299 24,299 24,299 24,299 24,299  
+ Adjusted R2 0.705 0.705 0.705 0.667 0.667 0.667  
+Notes: This table reports the results of regressing the supply chain concentration on the log COI (ln𝐶𝑂𝐼𝑖𝑡) after introducing the share of institutional ownership 
+and institutional ownership concentration as controls. 𝐼𝑛𝑠𝑂𝑤𝑛𝑃𝑒𝑟𝑖𝑡 is firm 𝑖’s institutional ownership percentage, ln𝐻𝐻𝐼𝐼
+
+𝑖𝑡 is the log HHI of ownership among 
+firm 𝑖’s all institutional investors, and 𝑇 𝑜𝑝5_𝐼𝑛𝑠𝑂𝑤𝑛𝑃𝑒𝑟𝑖𝑡 is firm 𝑖’s share of total institutional ownership that is held by its top 5 institutional owners. The 
+dependent variable in Columns (1)–(3) is firm 𝑖’s purchase share from its top 5 suppliers, and that in Columns (4)–(6) is the log HHI of purchase among these 
+top suppliers. Standard errors in parentheses are clustered by the firm. Significance: *, 0.10, **, 0.05, ***, 0.01.
+
+0 otherwise, and 𝑃𝑜𝑠𝑡𝐻𝑡  is an indicator of post-2014 years.7 Table A.8 reports the corresponding 2SLS estimates for Table 12. In the 
+first stage, Columns (1) and (4) indicate that inclusion in the initial list of SH-HK Connect increases ownership overlap between 
+firms, statistically significant at the 1% level. In the second stage, we continue to find the strengthening effect of common ownership 
+for all supply-chain linkages (Columns (2) and (3)) and newly formed linkages (Columns (5) and (6)). We also utilize this shock 
+to address the potential endogeneity concerns in the extensive margin results. Analogously to 2SLS estimation, we first regress the 
+log COI (ln𝐶𝑂𝐼𝑗𝑖𝑡) on the IV and exogenous control variables and then replace the ln𝐶𝑂𝐼𝑗𝑖𝑡 in logit and probit models with its 
+predicted values. Table A.9 reports the two-step estimates, indicating that the ownership overlap of two firms encourages them to 
+build a supply-chain linkage.8
+
+To mitigate concerns about reverse causality, we adopt another three strategies. First, we lag the explanatory variables in 
+Eq. (9) by one year and replicate the intensive and extensive margin regressions in Tables A.10 and A.11, respectively.9 Second, 
+we reconstruct the COI by excluding any common investors that appear only at or after the formation of a positive supply-chain 
+linkage between a given firm pair, with results reported in Tables A.12 and A.13, prior common ownership remains positively 
+associated with both the intensive and extensive margins. Third, we add controls for institutional ownership within firms in Tables 
+A.14 and A.15, accounting for institutional preferences for firms with diversified supply chains and isolating the effect of ownership 
+overlap between firms. Across all specifications, common ownership continues to be positively associated with both the intensive 
+and extensive margins. Specifically, it significantly increases purchase value and share, especially for newly established linkages, 
+and encourages the formation of new linkages, while showing no significant effect on linkage breakdown. 
+
+Additionally, we utilize the corrected COI that accounts for unobserved investors to conduct robustness checks. Table A.16 
+reports the corresponding changes in the intensive margin of supply-chain linkages. After accounting for unobserved investors, the 
+
+7 We do not simultaneously include the launch of SZ-HK Connect as an additional instrument because its effect on common ownership is statistically 
+insignificant at the supplier-firm-year level. Including it would introduce a weak instrument problem, potentially weakening inference.
+
+8 We do not perform the IV analysis for certain regressions, such as those with the binary indicator of new linkage formation (𝐹𝑜𝑟𝑚𝐷𝑢𝑚𝑗𝑖𝑡) and existing 
+linkage breakdown (𝐵𝑟𝑒𝑎𝑘𝐷𝑢𝑚𝑗𝑖𝑡) as the dependent variable, as the instrument is weak in their smaller samples.
+
+9 We do not perform this analysis for the breakdown indicator (𝐵𝑟𝑒𝑎𝑘𝐷𝑢𝑚𝑗𝑖𝑡) because lagging the explanatory variables results in insufficient observations to 
+reliably estimate the effect.
+16 
+
+
+
+Y. Li and C. Zhao Research in International Business and Finance 80 (2025) 103066 
+Table 12
+Intensive margin of supply-chain linkages.
+ All links New links Incumbent links
+ (1) (2) (3) (4) (5) (6)  
+ Dep. Var.: ln𝑉 𝑎𝑙𝑢𝑒𝑗𝑖𝑡 𝑆ℎ𝑎𝑟𝑒𝑗𝑖𝑡 ln𝑉 𝑎𝑙𝑢𝑒𝑗𝑖𝑡 𝑆ℎ𝑎𝑟𝑒𝑗𝑖𝑡 ln𝑉 𝑎𝑙𝑢𝑒𝑗𝑖𝑡 𝑆ℎ𝑎𝑟𝑒𝑗𝑖𝑡  
+ ln𝐶𝑂𝐼𝑗𝑖𝑡 6.148*** 2.484** 3.206*** 1.029** 25.807** 1.132  
+ (2.226) (1.217) (1.033) (0.436) (11.972) (14.622) 
+ ln𝐷𝑖𝑠𝑡𝑎𝑛𝑐𝑒𝑗𝑖𝑡 −0.057*** −0.024*** −0.034*** −0.012*** −0.769 −0.799  
+ (0.009) (0.005) (0.005) (0.002) (0.754) (0.749)  
+ ln𝐴𝑔𝑒𝑗𝑡 −0.020 −0.002 −0.062** −0.024** −2.472 0.547  
+ (0.030) (0.015) (0.024) (0.012) (3.072) (3.655)  
+ ln𝐸𝑚𝑝𝑙𝑜𝑦𝑚𝑒𝑛𝑡𝑗𝑡 0.014 −0.011 −0.008 −0.015* −0.818 −3.483  
+ (0.022) (0.011) (0.020) (0.009) (2.668) (2.316)  
+ 𝐿𝑒𝑣𝑒𝑟𝑎𝑔𝑒𝑗𝑡 0.044 0.007 0.148* 0.051 −1.125 −1.300  
+ (0.101) (0.045) (0.080) (0.033) (10.261) (7.785)  
+ 𝐶𝑎𝑝𝑖𝑡𝑎𝑙𝑗𝑡 −0.012 0.000 0.009 0.004 −4.229 −4.494  
+ (0.034) (0.019) (0.036) (0.018) (3.790) (3.019)  
+ 𝑅𝑂𝐴𝑗𝑡 0.172 0.065 0.165 0.087 12.334 −2.109  
+ (0.111) (0.058) (0.102) (0.059) (14.944) (11.752)  
+ 𝐶𝑎𝑠ℎ𝑗𝑡 0.041 −0.002 0.015 0.009 9.259 −0.056  
+ (0.078) (0.039) (0.073) (0.038) (9.162) (5.289)  
+ 𝑅&𝐷𝑗𝑡 0.000 −0.000 0.001 −0.000 −0.018 −0.143  
+ (0.002) (0.001) (0.002) (0.001) (0.298) (0.230)  
+ 𝑆𝑂𝐸𝑗𝑡 −0.007 0.002 0.009 0.010 2.374 1.763  
+ (0.020) (0.009) (0.018) (0.008) (2.317) (1.591)  
+ 𝑀𝑎𝑛𝑎𝑔𝑒𝑗𝑡 −0.012 −0.020 −0.036 −0.024 −1.773 −8.278  
+ (0.145) (0.052) (0.147) (0.048) (22.797) (14.155)  
+ ln𝐵𝑜𝑎𝑟𝑑𝑗𝑡 0.058 0.029 −0.009 0.004 3.510 −0.121  
+ (0.058) (0.031) (0.050) (0.023) (6.640) (6.671)  
+ ln𝐴𝑔𝑒𝑖𝑡 −0.030*** −0.025*** −0.050*** −0.029*** 2.232 −1.247  
+ (0.011) (0.007) (0.012) (0.007) (2.488) (2.079)  
+ ln𝐸𝑚𝑝𝑙𝑜𝑦𝑚𝑒𝑛𝑡𝑖𝑡 0.003 −0.001 0.001 −0.001 0.035 −0.096  
+ (0.002) (0.001) (0.002) (0.001) (0.292) (0.215)  
+ 𝐿𝑒𝑣𝑒𝑟𝑎𝑔𝑒𝑖𝑡 0.052 0.006 0.044 0.007 3.929 2.175  
+ (0.032) (0.020) (0.037) (0.020) (5.913) (3.889)  
+ 𝐶𝑎𝑝𝑖𝑡𝑎𝑙𝑖𝑡 −0.011 0.002 0.011 0.004 −2.243 −0.015  
+ (0.010) (0.008) (0.014) (0.005) (1.977) (1.379)  
+ 𝑅𝑂𝐴𝑖𝑡 0.023 0.015 −0.058 −0.039 6.296 0.718  
+ (0.079) (0.047) (0.076) (0.039) (13.301) (9.116)  
+ 𝐶𝑎𝑠ℎ𝑖𝑡 −0.020 0.022 −0.015 0.005 −3.143 1.481  
+ (0.043) (0.027) (0.047) (0.026) (7.063) (5.222)  
+ 𝑅&𝐷𝑖𝑡 −0.000 −0.000 −0.000 −0.000 −0.013 0.016  
+ (0.000) (0.000) (0.001) (0.000) (0.093) (0.070)  
+ 𝑆𝑂𝐸𝑖𝑡 0.021 0.016*** −0.004 0.007 −0.300 −1.777  
+ (0.020) (0.006) (0.019) (0.006) (2.243) (1.448)  
+ 𝑀𝑎𝑛𝑎𝑔𝑒𝑖𝑡 −0.044 0.004 −0.045 0.002 6.375 1.872  
+ (0.069) (0.041) (0.047) (0.023) (4.752) (4.599)  
+ ln𝐵𝑜𝑎𝑟𝑑𝑖𝑡 0.003 −0.000 −0.001 −0.003 −0.623 −0.760  
+ (0.010) (0.006) (0.007) (0.005) (1.184) (1.572)  
+  
+ Supplier FE Yes Yes Yes Yes Yes Yes  
+ Buyer FE Yes Yes Yes Yes Yes Yes  
+ Year FE Yes Yes Yes Yes Yes Yes  
+ Observations 226,831 226,831 226,258 226,258 573 573  
+ Adjusted R2 0.004 0.004 0.003 0.002 −0.018 0.353  
+Notes: This table reports the supplier-firm-year-level regression specified in Eq. (9) with the log purchase value (ln𝑉 𝑎𝑙𝑢𝑒𝑗𝑖𝑡) and purchase share in percentage 
+(𝑆ℎ𝑎𝑟𝑒𝑗𝑖𝑡) of firm 𝑖 from supplier 𝑗 as the dependent variables. The key explanatory variable ln𝐶𝑂𝐼𝑗𝑖𝑡 is the COI between firm 𝑖 and its supplier 𝑗, defined in 
+Eq. (2). Columns (1) and (2) focus on all linkages between firms, Columns (3) and (4) focus on newly formed linkages, where firm 𝑖 did not purchase from 
+supplier 𝑗 at year 𝑡 − 1, and Columns (5) and (6) focus on incumbent linkages, where firm 𝑖 already purchased from supplier 𝑗 at year 𝑡 − 1. Standard errors in 
+parentheses are clustered by the buyer firm 𝑖. Significance: *, 0.10, **, 0.05, ***, 0.01.
+
+ownership overlap between firms has a positive relationship with the intensity of their supply-chain linkages, in terms of purchase 
+value (significant at the 1% level) and share (significant at the 5% level). This effect is dominant in new linkages but not significant 
+in incumbent linkages. Table A.17 reports the relationship between the extensive margin of supply-chain linkages and the corrected 
+COI. We find consistent results that ownership overlap fosters the formation of new linkages but cannot prevent the breakdown of 
+existing relationships.
+
+These above findings contribute to a deeper analysis of the interplay between ownership overlap and supply chain configuration, 
+helping us to understand why common ownership leads to a more diversified supply chain. Common ownership promotes the 
+17 
+
+
+
+Y. Li and C. Zhao Research in International Business and Finance 80 (2025) 103066 
+Table 13
+Extensive margin of supply-chain linkages.
+ Logit models Probit models
+ (1) (2) (3) (4) (5) (6)  
+ Dep. Var.: 𝐿𝑖𝑛𝑘𝐷𝑢𝑚𝑗𝑖𝑡 𝐹𝑜𝑟𝑚𝐷𝑢𝑚𝑗𝑖𝑡 𝐵𝑟𝑒𝑎𝑘𝐷𝑢𝑚𝑗𝑖𝑡 𝐿𝑖𝑛𝑘𝐷𝑢𝑚𝑗𝑖𝑡 𝐹𝑜𝑟𝑚𝐷𝑢𝑚𝑗𝑖𝑡 𝐵𝑟𝑒𝑎𝑘𝐷𝑢𝑚𝑗𝑖𝑡 
+ ln𝐶𝑂𝐼𝑗𝑖𝑡 13.820*** 13.496*** 0.080 5.717*** 5.829*** 0.649  
+ (2.300) (3.751) (13.266) (1.026) (1.601) (6.003)  
+ ln𝐷𝑖𝑠𝑡𝑎𝑛𝑐𝑒𝑗𝑖𝑡 −0.324*** −0.270*** −1.069 −0.125*** −0.112*** −0.621  
+ (0.037) (0.083) (0.885) (0.014) (0.030) (0.434)  
+ ln𝐴𝑔𝑒𝑗𝑡 −0.200 1.411 −2.397 −0.071 0.420 −1.422  
+ (0.184) (1.376) (2.762) (0.069) (0.412) (1.524)  
+ ln𝐸𝑚𝑝𝑙𝑜𝑦𝑚𝑒𝑛𝑡𝑗𝑡 0.140 −0.694 −2.152 0.041 −0.233 −1.423  
+ (0.136) (0.650) (1.927) (0.051) (0.224) (0.948)  
+ 𝐿𝑒𝑣𝑒𝑟𝑎𝑔𝑒𝑗𝑡 0.295 2.739 10.705 0.143 1.377 6.051  
+ (0.633) (2.979) (11.150) (0.235) (0.915) (5.281)  
+ 𝐶𝑎𝑝𝑖𝑡𝑎𝑙𝑗𝑡 0.057 −0.901 22.487** 0.002 −0.346 13.338***  
+ (0.211) (0.942) (9.608) (0.079) (0.311) (5.086)  
+ 𝑅𝑂𝐴𝑗𝑡 1.563* 11.627*** 5.930 0.582* 4.523*** 4.139  
+ (0.909) (4.265) (23.280) (0.327) (1.452) (10.190)  
+ 𝐶𝑎𝑠ℎ𝑗𝑡 0.100 −3.813 −17.702* 0.058 −1.488* −10.577**  
+ (0.553) (2.538) (10.744) (0.203) (0.893) (5.240)  
+ 𝑅&𝐷𝑗𝑡 0.017 −0.087 −0.150 0.006 −0.037 −0.073  
+ (0.022) (0.095) (0.566) (0.008) (0.032) (0.268)  
+ 𝑆𝑂𝐸𝑗𝑡 −0.007 0.871 9.732 −0.004 0.328 4.664  
+ (0.180) (0.644) (15.732) (0.066) (0.224) (7.559)  
+ 𝑀𝑎𝑛𝑎𝑔𝑒𝑗𝑡 0.339 −4.140 67.892* 0.185 −1.931 37.438*  
+ (1.429) (6.748) (41.045) (0.527) (2.512) (19.971)  
+ ln𝐵𝑜𝑎𝑟𝑑𝑗𝑡 0.318 −2.661 −34.542*** 0.127 −1.182** −20.329***  
+ (0.379) (1.679) (6.882) (0.144) (0.571) (3.742)  
+ ln𝐴𝑔𝑒𝑖𝑡 −0.202** 0.688 −4.204 −0.077** 0.216 −2.381*  
+ (0.089) (0.653) (2.729) (0.032) (0.216) (1.320)  
+ ln𝐸𝑚𝑝𝑙𝑜𝑦𝑚𝑒𝑛𝑡𝑖𝑡 0.013 0.068 0.077 0.006 0.029 0.070  
+ (0.017) (0.136) (0.527) (0.006) (0.042) (0.250)  
+ 𝐿𝑒𝑣𝑒𝑟𝑎𝑔𝑒𝑖𝑡 0.414 0.261 −19.961*** 0.148 0.018 −11.363***  
+ (0.275) (1.429) (7.458) (0.096) (0.489) (3.910)  
+ 𝐶𝑎𝑝𝑖𝑡𝑎𝑙𝑖𝑡 −0.037 0.476 6.215 −0.021 0.159 3.849  
+ (0.062) (0.728) (5.371) (0.021) (0.242) (2.575)  
+ 𝑅𝑂𝐴𝑖𝑡 0.320 2.666 −43.103** 0.130 1.027 −24.282**  
+ (0.719) (2.811) (21.543) (0.254) (0.925) (10.224)  
+ 𝐶𝑎𝑠ℎ𝑖𝑡 −0.169 2.425 11.715* −0.044 0.964 7.087**  
+ (0.344) (2.130) (6.394) (0.127) (0.701) (3.286)  
+ 𝑅&𝐷𝑖𝑡 −0.001 0.051** 0.070 −0.001 0.021*** 0.041  
+ (0.004) (0.023) (0.381) (0.002) (0.008) (0.186)  
+ 𝑆𝑂𝐸𝑖𝑡 0.119 −0.081 −17.168*** 0.040 −0.080 −6.144***  
+ (0.177) (0.586) (3.103) (0.061) (0.195) (1.425)  
+ 𝑀𝑎𝑛𝑎𝑔𝑒𝑖𝑡 0.000 0.404 1.779 0.004 0.226 1.024  
+ (0.685) (2.329) (10.311) (0.233) (0.784) (5.185)  
+ ln𝐵𝑜𝑎𝑟𝑑𝑖𝑡 −0.012 1.490* 17.843 −0.015 0.540* 9.922  
+ (0.096) (0.833) (16.915) (0.033) (0.296) (8.349)  
+  
+ Supplier FE Yes Yes Yes Yes Yes Yes  
+ Buyer FE Yes Yes Yes Yes Yes Yes  
+ Year FE Yes Yes Yes Yes Yes Yes  
+ Observations 196,980 15,631 193 196,980 15,631 193  
+ Pseudo R2 0.068 0.128 0.467 0.067 0.128 0.470  
+Notes: This table reports the supplier-firm-year-level regression specified in Eq. (9) with three binary variables as the dependent variables. 𝐿𝑖𝑛𝑘𝐷𝑢𝑚𝑗𝑖𝑡 equals 1 if 
+there is a supply-chain linkage between supplier 𝑗 and firm 𝑖 at year 𝑡 and 0 otherwise. 𝐹𝑜𝑟𝑚𝐷𝑢𝑚𝑗𝑖𝑡 equals 1 if firm 𝑖 did not purchase from supplier 𝑗 at year 
+𝑡−1 but purchases from it at year 𝑡 and 0 otherwise, and 𝐵𝑟𝑒𝑎𝑘𝐷𝑢𝑚𝑗𝑖𝑡 is exactly the opposite. The key explanatory variable ln𝐶𝑂𝐼𝑗𝑖𝑡 is the log COI between firm 
+𝑖 and its supplier 𝑗, defined in Eq. (2). Columns (1)–(3) use the logit model, while Columns (4)–(6) use the probit model. These models drop perfect predictor 
+variables, leaving fewer observations than Table 12. Standard errors in parentheses are clustered by the buyer firm 𝑖. Significance: *, 0.10, **, 0.05, ***, 0.01.
+
+formation of new supply-chain relationships between unconnected firms and strengthens newly established linkages as the degree 
+of ownership overlap increases.
+
+5.2. Common ownership and transaction costs
+
+We hypothesize that the first mechanism through which common ownership facilitates the formation of new supply-chain 
+linkages is reduced transaction costs. Common ownership aligns the incentives of firms (Liu and He, 2024), reducing the likelihood 
+of conflicting objectives and easing the negotiation process (Tian et al., 2024). This alignment lowers coordination and enforcement 
+18 
+
+
+
+Y. Li and C. Zhao Research in International Business and Finance 80 (2025) 103066 
+Table 14
+Common ownership, transaction costs, and supply-chain linkages.
+ Intensive margin Extensive margin
+ Transaction costs of supplier 𝑗 Transaction costs of firm 𝑖 Transaction costs of supplier 𝑗 Transaction costs of firm 𝑖
+ High Low High Low High Low High Low  
+ (1) (2) (3) (4) (5) (6) (7) (8)  
+ Dep. Var.: ln𝑉 𝑎𝑙𝑢𝑒𝑗𝑖𝑡 ln𝑉 𝑎𝑙𝑢𝑒𝑗𝑖𝑡 ln𝑉 𝑎𝑙𝑢𝑒𝑗𝑖𝑡 ln𝑉 𝑎𝑙𝑢𝑒𝑗𝑖𝑡 𝐿𝑖𝑛𝑘𝐷𝑢𝑚𝑗𝑖𝑡 𝐿𝑖𝑛𝑘𝐷𝑢𝑚𝑗𝑖𝑡 𝐿𝑖𝑛𝑘𝐷𝑢𝑚𝑗𝑖𝑡 𝐿𝑖𝑛𝑘𝐷𝑢𝑚𝑗𝑖𝑡  
+ ln𝐶𝑂𝐼𝑗𝑖𝑡 7.966*** 4.031* 8.759*** 3.224 16.966*** 11.900*** 16.677*** 10.713**  
+ (3.040) (2.077) (3.119) (2.387) (2.352) (2.639) (2.152) (4.624)  
+ ln𝐷𝑖𝑠𝑡𝑎𝑛𝑐𝑒𝑗𝑖𝑡 −0.058*** −0.056*** −0.046*** −0.069*** −0.339*** −0.311*** −0.291*** −0.379***  
+ (0.012) (0.010) (0.009) (0.013) (0.050) (0.044) (0.046) (0.051)  
+ ln𝐴𝑔𝑒𝑗𝑡 −0.022 −0.035 −0.014 −0.026 −0.188 −0.191 −0.145 −0.217  
+ (0.041) (0.044) (0.045) (0.047) (0.278) (0.242) (0.306) (0.248)  
+ ln𝐸𝑚𝑝𝑙𝑜𝑦𝑚𝑒𝑛𝑡𝑗𝑡 −0.001 0.017 −0.023 0.069** 0.098 0.096 −0.006 0.207  
+ (0.029) (0.038) (0.030) (0.032) (0.209) (0.235) (0.174) (0.246)  
+ 𝐿𝑒𝑣𝑒𝑟𝑎𝑔𝑒𝑗𝑡 0.022 0.145 −0.010 0.143 0.266 0.454 0.158 1.523  
+ (0.130) (0.155) (0.143) (0.147) (0.840) (0.996) (0.851) (1.157)  
+ 𝐶𝑎𝑝𝑖𝑡𝑎𝑙𝑗𝑡 0.055 −0.018 0.007 −0.036 0.122 −0.063 0.043 −0.105  
+ (0.088) (0.047) (0.053) (0.060) (0.308) (0.333) (0.278) (0.408)  
+ 𝑅𝑂𝐴𝑗𝑡 0.059 0.317* −0.011 0.354** 0.723 2.439* −0.283 4.782***  
+ (0.149) (0.166) (0.173) (0.144) (1.272) (1.398) (1.276) (1.492)  
+ 𝐶𝑎𝑠ℎ𝑗𝑡 0.072 −0.002 0.096 0.019 0.211 −0.061 0.797 −0.392  
+ (0.112) (0.109) (0.114) (0.126) (0.927) (0.720) (1.003) (0.862)  
+ 𝑅&𝐷𝑗𝑡 0.001 −0.002 0.004 −0.002 0.030 −0.023 0.050 −0.017  
+ (0.003) (0.004) (0.003) (0.003) (0.034) (0.039) (0.034) (0.042)  
+ 𝑆𝑂𝐸𝑗𝑡 −0.003 −0.001 0.015 −0.029 0.005 0.060 0.189 0.002  
+ (0.025) (0.029) (0.025) (0.031) (0.343) (0.215) (0.258) (0.258)  
+ 𝑀𝑎𝑛𝑎𝑔𝑒𝑗𝑡 −0.004 −0.106 −0.014 −0.167 −0.438 −0.775 −0.027 0.169  
+ (0.188) (0.368) (0.247) (0.128) (2.442) (2.390) (2.143) (1.856)  
+ ln𝐵𝑜𝑎𝑟𝑑𝑗𝑡 0.092 0.021 0.051 0.059 0.548 0.131 0.391 0.163  
+ (0.089) (0.093) (0.082) (0.094) (0.587) (0.442) (0.533) (0.487)  
+ ln𝐴𝑔𝑒𝑖𝑡 −0.018 −0.022 −0.033** −0.036** −0.001 −0.120 −0.232* −0.357**  
+ (0.018) (0.024) (0.016) (0.016) (0.165) (0.185) (0.132) (0.155)  
+ ln𝐸𝑚𝑝𝑙𝑜𝑦𝑚𝑒𝑛𝑡𝑖𝑡 0.006* 0.000 0.006* 0.003 0.054 −0.016 0.031 0.013  
+ (0.003) (0.004) (0.004) (0.003) (0.038) (0.033) (0.030) (0.024)  
+ 𝐿𝑒𝑣𝑒𝑟𝑎𝑔𝑒𝑖𝑡 −0.043 0.145** 0.073 0.060 −0.473 0.965** 0.666 0.130  
+ (0.060) (0.070) (0.046) (0.054) (0.535) (0.486) (0.416) (0.462)  
+ 𝐶𝑎𝑝𝑖𝑡𝑎𝑙𝑖𝑡 −0.002 −0.028 −0.036 −0.014 0.008 −0.126 −0.050 −0.167  
+ (0.013) (0.026) (0.051) (0.019) (0.103) (0.147) (0.425) (0.142)  
+ 𝑅𝑂𝐴𝑖𝑡 −0.022 0.021 0.081 0.006 −0.114 0.245 0.818 0.346  
+ (0.132) (0.131) (0.127) (0.126) (1.284) (0.998) (1.114) (1.233)  
+ 𝐶𝑎𝑠ℎ𝑗𝑡 0.030 −0.088 −0.050 0.009 −0.095 −0.506 −0.363 0.112  
+ (0.060) (0.084) (0.074) (0.063) (0.620) (0.537) (0.583) (0.492)  
+ 𝑅&𝐷𝑖𝑡 0.002* −0.001 −0.000 −0.002 0.010 −0.013 −0.001 −0.041  
+ (0.001) (0.001) (0.001) (0.002) (0.007) (0.009) (0.005) (0.031)  
+ 𝑆𝑂𝐸𝑖𝑡 0.031 0.014 −0.001 0.046 0.181 0.112 −0.027 0.505  
+ (0.024) (0.032) (0.018) (0.040) (0.283) (0.248) (0.135) (0.472)  
+ 𝑀𝑎𝑛𝑎𝑔𝑒𝑖𝑡 −0.151 0.064 −0.128 −0.012 −0.806 0.691 −0.142 −0.127  
+ (0.145) (0.110) (0.103) (0.105) (0.949) (0.963) (0.858) (1.095)  
+ ln𝐵𝑜𝑎𝑟𝑑𝑖𝑡 0.008 −0.003 0.012 0.003 −0.018 −0.021 0.007 0.025  
+ (0.024) (0.019) (0.021) (0.013) (0.246) (0.146) (0.204) (0.109)  
+  
+ Supplier FE Yes Yes Yes Yes Yes Yes Yes Yes  
+ Buyer FE Yes Yes Yes Yes Yes Yes Yes Yes  
+ Year FE Yes Yes Yes Yes Yes Yes Yes Yes  
+ Observations 113,390 113,440 113,387 113,444 64,380 80,699 70,574 64,870  
+ Adjusted R2 0.008 0.009 0.007 0.007  
+ Pseudo R2 0.087 0.047 0.082 0.075  
+Notes: Each firm’s transaction costs are defined as the ratio of the total selling, administrative, and financial expenses to its operating revenue. Suppliers (or 
+buyers) are divided into two groups based on the median of their transaction costs. The dependent variable in Columns (1)–(4) is the log purchase value of 
+firm 𝑖 from supplier 𝑗 (ln𝑉 𝑎𝑙𝑢𝑒𝑗𝑖𝑡), while that in Columns (5)–(8) is the linkage indicator (𝐿𝑖𝑛𝑘𝐷𝑢𝑚𝑗𝑖𝑡). Columns (5)–(8) use the logit model and drop perfect 
+predictor variables, leaving fewer observations than Columns (1)–(4). Standard errors in parentheses are clustered by the buyer firm 𝑖. Significance: *, 0.10, **, 
+0.05, ***, 0.01.
+19 
+
+
+
+Y. Li and C. Zhao Research in International Business and Finance 80 (2025) 103066 
+costs, making it more economical for firms to establish new supply-chain relationships. To corroborate this hypothesis with data, we 
+provide empirical evidence that when transaction costs are higher, ownership overlap plays a more prominent role in encouraging 
+the construction of tight supply-chain linkages.
+
+First, we investigate the heterogeneous effects of common ownership on the intensive margin of supply-chain linkages of firms 
+with high and low trade costs, with results reported in Columns (1)–(4) of Table 14. Specifically, the ratio of the total selling, 
+administrative, and financial expenses to a firm’s operating revenue is utilized as a proxy for its transaction costs. We divide 
+suppliers (or buyers) into two groups based on the median of their transaction costs. Column (1) indicates that ownership overlap 
+significantly strengthens the supply-chain linkages when the supplier has high transaction costs, while Column (2) exhibits no 
+statistically significant effect in the supplier group with low transaction costs at the 5% level. Then, we turn to the transaction 
+costs of the buyer in Columns (3) and (4), finding analogous conclusions. When the firm has high transaction costs, its shared 
+ownership with its supplier increases its purchases from the supplier; while its transaction costs are low, the effect of common 
+ownership is statistically indistinguishable from 0. These findings suggest that common ownership plays a more prominent role in 
+mitigating trade friction when transaction costs are high.
+
+Second, we turn to the different changes in the extensive margin of supply-chain linkages in the scenarios of high and low 
+transaction costs and report the results in Columns (5)–(8) of Table 14. Columns (5) and (6) show that ownership overlap increases 
+the probability of a supply-chain linkage between firms, no matter whether the supplier has high or low transaction costs, with a 
+larger magnitude in the former group. Columns (7) and (8) report similar positive effects in the groups of buyer firms with high or 
+low transaction costs, while showing a larger magnitude and a higher statistical significance in the former group. Table A.18 uses 
+the corrected COI that accounts for unobserved investors and yields consistent results with Table 14. We can conclude that common 
+ownership encourages the establishment of new supply-chain linkages and strengthens these linkages, particularly when transaction 
+costs are substantial.
+
+5.3. Common ownership and information transparency
+
+Another important mechanism is that common ownership increases information transparency. Specifically, ownership overlap 
+motivates firms to internalize the positive externalities of their information disclosure for co-owned firms (Park et al., 2019), improve 
+the readability and comparability of their financial statements (Park et al., 2024), and inhibit opportunistic insider behaviors (Dai 
+et al., 2024). Therefore, common ownership fosters an environment of trust and cooperation by reducing information asymmetries 
+between firms, encouraging firms to construct supply-chain linkages. To test this mechanism, we demonstrate that ownership overlap 
+plays a more prominent role in encouraging the construction and strengthening supply-chain linkages in an environment with more 
+asymmetric information.
+
+We use the engagement of Big 4 auditors (PwC, Deloitte, EY, and KPMG) as a proxy for information transparency. This practice 
+is supported by a long-established literature. DeAngelo (1981) emphasizes that audit quality is positively associated with auditor 
+size and reputation, with larger firms providing superior audit services. Consistently, there is a general consensus that compared 
+to non-Big 4 auditors, Big 4 auditors are more credible and offer a more accurate reflection of firms’ financial conditions (Fan and 
+Wong., 2005; Francis and Wang, 2008). Hiring Big 4 auditors serves as a strong signal of a firm’s commitment to high transparency.
+
+First, we investigate the heterogeneous effects of common ownership on the intensive margin of supply-chain linkages in low 
+and high information transparency environments, with the results reported in Columns (1)–(4) of Table 15. Column (1) yields a 
+significant positive relationship between two firms’ ownership overlap and the intensity of their supply-chain linkages in terms of 
+purchase value if the supplier hires non-Big 4 auditors, while Column (2) indicates this effect is statistically indistinguishable from 0 
+if the supplier is audited by Big 4 auditors. Moving to the buyer’s information transparency in Columns (3) and (4), we continue to 
+find evidence supporting our mechanism. For buyer firms that hire non-Big 4 auditors, their ownership overlap with their suppliers 
+significantly increases their purchases from the suppliers, while this effect is statistically insignificant in the buyer group with Big 4 
+auditors. These findings suggest that common ownership plays a more pronounced role in strengthening the supply-chain linkages 
+in a less transparent environment.
+
+Second, we turn to the different changes in the extensive margin of supply-chain linkages in low and high information 
+transparency environments in Columns (5)–(8) of Table 15. Columns (5) and (7) show that ownership overlap increases the 
+probability of a supply-chain linkage between two firms in a less transparent environment where the supplier or buyer hires non-Big 
+4 auditors. However, this effect is insignificant in a more transparent environment, as the coefficients of the log COI in Columns (6) 
+and (8) are statistically indistinguishable from 0 at the 5% level. Table A.19 corrects the index to account for unobserved investors 
+and reports consistent results with Table 15.
+
+In summary, common ownership plays a more pronounced role in encouraging the establishment of new supply-chain linkages 
+and strengthening these linkages when information is more opaque. Improving information transparency is another important 
+mechanism through which common ownership facilitates the diversification of supply chains.
+
+6. Conclusion
+
+Modern firms are increasingly integrated within two large networks: the supply chain and the common ownership network. 
+However, the interaction between these two networks remains an underexplored area in the literature. Using the supplier information 
+and institutional shareholdings of Chinese listed firms during the period 2006–2023, this paper sheds light on how common 
+ownership influences supply chain diversification, showing that common ownership can reduce firms’ reliance on a few key suppliers 
+20 
+
+
+
+Y. Li and C. Zhao Research in International Business and Finance 80 (2025) 103066 
+Table 15
+Common ownership, information transparency, and supply-chain linkages.
+ Intensive margin Extensive margin
+ Are supplier 𝑗’s auditors Are firm 𝑖’s auditors from Are supplier 𝑗’s auditors Are firm 𝑖’s auditors from 
+
+from the Big 4? the Big 4? from the Big 4? the Big 4?
+ No Yes No Yes No Yes No Yes  
+ (1) (2) (3) (4) (5) (6) (7) (8)  
+ Dep. Var.: ln𝑉 𝑎𝑙𝑢𝑒𝑗𝑖𝑡 ln𝑉 𝑎𝑙𝑢𝑒𝑗𝑖𝑡 ln𝑉 𝑎𝑙𝑢𝑒𝑗𝑖𝑡 ln𝑉 𝑎𝑙𝑢𝑒𝑗𝑖𝑡 𝐿𝑖𝑛𝑘𝐷𝑢𝑚𝑗𝑖𝑡 𝐿𝑖𝑛𝑘𝐷𝑢𝑚𝑗𝑖𝑡 𝐿𝑖𝑛𝑘𝐷𝑢𝑚𝑗𝑖𝑡 𝐿𝑖𝑛𝑘𝐷𝑢𝑚𝑗𝑖𝑡  
+ ln𝐶𝑂𝐼𝑗𝑖𝑡 7.084** 4.262 6.054** 5.300 15.564*** 8.166 14.471*** 7.007*  
+ (2.860) (3.065) (2.486) (3.968) (2.319) (5.686) (2.557) (3.927)  
+ ln𝐷𝑖𝑠𝑡𝑎𝑛𝑐𝑒𝑗𝑖𝑡 −0.053*** −0.076*** −0.058*** −0.042** −0.340*** −0.319*** −0.332*** −0.242*  
+ (0.008) (0.027) (0.009) (0.020) (0.037) (0.095) (0.039) (0.126)  
+ ln𝐴𝑔𝑒𝑗𝑡 −0.028 0.003 −0.034 0.216** −0.231 −0.502 −0.271 2.930**  
+ (0.028) (0.164) (0.032) (0.088) (0.183) (0.619) (0.188) (1.165)  
+ ln𝐸𝑚𝑝𝑙𝑜𝑦𝑚𝑒𝑛𝑡𝑗𝑡 0.026 0.022 0.016 −0.033 0.180 −0.005 0.157 −2.436**  
+ (0.024) (0.103) (0.023) (0.081) (0.155) (0.503) (0.138) (1.199)  
+ 𝐿𝑒𝑣𝑒𝑟𝑎𝑔𝑒𝑗𝑡 0.056 −0.087 0.046 0.018 0.329 0.227 0.250 4.433  
+ (0.099) (0.518) (0.104) (0.429) (0.651) (2.478) (0.652) (5.175)  
+ 𝐶𝑎𝑝𝑖𝑡𝑎𝑙𝑗𝑡 −0.025 0.017 −0.003 −0.170 −0.047 −0.117 0.123 −4.086**  
+ (0.048) (0.136) (0.035) (0.135) (0.332) (0.689) (0.210) (2.045)  
+ 𝑅𝑂𝐴𝑗𝑡 0.095 1.623* 0.161 0.457 1.323 7.830* 1.366 22.845  
+ (0.110) (0.922) (0.115) (0.506) (0.931) (4.619) (0.918) (14.138)  
+ 𝐶𝑎𝑠ℎ𝑗𝑡 0.030 −0.250 0.025 0.383 0.101 −0.510 0.020 1.342  
+ (0.079) (0.458) (0.079) (0.391) (0.581) (2.566) (0.550) (6.922)  
+ 𝑅&𝐷𝑗𝑡 −0.000 −0.011 0.001 −0.011 0.011 −0.023 0.020 −0.019  
+ (0.002) (0.014) (0.002) (0.009) (0.025) (0.064) (0.023) (0.201)  
+ 𝑆𝑂𝐸𝑗𝑡 −0.009 0.115 −0.000 −0.134 −0.015 0.500 0.038 −1.874  
+ (0.020) (0.134) (0.020) (0.123) (0.200) (0.538) (0.176) (1.802)  
+ 𝑀𝑎𝑛𝑎𝑔𝑒𝑗𝑡 0.024 1.115 −0.019 0.129 0.633 −7.854 0.267 106.669  
+ (0.151) (1.246) (0.152) (0.170) (1.479) (8.568) (1.448) (79.817)  
+ ln𝐵𝑜𝑎𝑟𝑑𝑗𝑡 0.009 0.268 0.033 0.506* 0.056 0.912 0.163 3.023  
+ (0.057) (0.181) (0.058) (0.284) (0.436) (0.924) (0.380) (2.769)  
+ ln𝐴𝑔𝑒𝑖𝑡 −0.033** −0.012 −0.033*** −0.072** −0.247** −0.046 −0.221** −2.395***  
+ (0.014) (0.048) (0.011) (0.034) (0.110) (0.276) (0.090) (0.760)  
+ ln𝐸𝑚𝑝𝑙𝑜𝑦𝑚𝑒𝑛𝑡𝑖𝑡 0.003 0.003 0.003 −0.071 0.008 0.026 0.015 −0.881  
+ (0.002) (0.008) (0.002) (0.047) (0.022) (0.052) (0.017) (0.746)  
+ 𝐿𝑒𝑣𝑒𝑟𝑎𝑔𝑒𝑖𝑡 0.029 0.212 0.055 0.064 0.236 1.654* 0.458 0.279  
+ (0.038) (0.155) (0.034) (0.120) (0.328) (0.941) (0.287) (2.248)  
+ 𝐶𝑎𝑝𝑖𝑡𝑎𝑙𝑖𝑡 0.002 −0.070 −0.013 −0.049 0.055 −0.353** −0.049 −0.769  
+ (0.013) (0.062) (0.011) (0.036) (0.078) (0.161) (0.079) (0.496)  
+ 𝑅𝑂𝐴𝑖𝑡 0.020 −0.056 0.024 −0.301 0.351 0.311 0.307 −2.953  
+ (0.084) (0.252) (0.081) (0.404) (0.769) (2.082) (0.734) (6.785)  
+ 𝐶𝑎𝑠ℎ𝑖𝑡 −0.030 0.078 −0.017 0.007 −0.203 0.060 −0.133 −0.721  
+ (0.050) (0.140) (0.045) (0.166) (0.459) (0.745) (0.352) (2.230)  
+ 𝑅&𝐷𝑖𝑡 −0.001 0.002 0.000 −0.001 −0.006 0.031** −0.002 −0.022*  
+ (0.001) (0.002) (0.001) (0.001) (0.007) (0.015) (0.006) (0.012)  
+ 𝑆𝑂𝐸𝑖𝑡 0.039** −0.095 0.018 0.231*** 0.303* −0.562 0.085 17.986***  
+ (0.018) (0.077) (0.020) (0.071) (0.179) (0.415) (0.173) (1.217)  
+ 𝑀𝑎𝑛𝑎𝑔𝑒𝑖𝑡 −0.028 −0.070 −0.044 35.496*** 0.026 −2.253 0.016 789.836***  
+ (0.075) (0.138) (0.069) (5.391) (0.685) (2.682) (0.671) (171.672)  
+ ln𝐵𝑜𝑎𝑟𝑑𝑖𝑡 −0.004 0.038 0.003 −0.565** −0.047 0.606* −0.016 −19.369***  
+ (0.011) (0.029) (0.010) (0.264) (0.100) (0.332) (0.095) (5.128)  
+  
+ Supplier FE Yes Yes Yes Yes Yes Yes Yes Yes  
+ Buyer FE Yes Yes Yes Yes Yes Yes Yes Yes  
+ Year FE Yes Yes Yes Yes Yes Yes Yes Yes  
+ Observations 195,978 30,853 215,609 11,222 157,079 9,698 183,746 1,190  
+ Adjusted R2 0.005 0.018 0.004 0.037  
+ Pseudo R2 0.072 0.100 0.069 0.182  
+Notes: The dependent variable in Columns (1)–(4) is the log purchase value of firm 𝑖 from supplier 𝑗 (ln𝑉 𝑎𝑙𝑢𝑒𝑗𝑖𝑡), while that in Columns (5)–(8) is the linkage 
+indicator (𝐿𝑖𝑛𝑘𝐷𝑢𝑚𝑗𝑖𝑡). Columns (5)–(8) use the logit model and drop perfect predictor variables, leaving fewer observations than Columns (1)–(4). Standard 
+errors in parentheses are clustered by the buyer firm 𝑖. Significance: *, 0.10, **, 0.05, ***, 0.01.
+
+and diversify their supply chains. Specifically, a 1% increase in a firm’s aggregate ownership overlap with others is associated with 
+a 0.47 percentage point reduction in its purchase share from the top 5 suppliers and a 0.034% reduction in purchase concentration 
+among them. We also perform regressions at the supplier-firm-year level for an in-depth analysis of why common ownership 
+contributes to supply chain diversification, finding that ownership overlap between firms encourages them to form new supply-chain 
+21 
+
+
+
+Y. Li and C. Zhao Research in International Business and Finance 80 (2025) 103066 
+linkages and helps strengthen these linkages. The underlying force behind this is that common ownership can reduce transaction 
+costs and improve information transparency.
+
+This paper offers several implications. First, as diversified supply chains can effectively mitigate disruptions from specific 
+suppliers, our findings suggest that fostering common ownership could be a potential strategy for policymakers seeking to 
+enhance supply chain resilience. Second, this paper highlights the role of information transparency and reduced transaction costs 
+in facilitating supply chain cooperation. Policymakers could consider initiatives aimed at improving firms’ disclosure practices, 
+particularly in markets where information asymmetry is a challenge. Finally, this paper underscores the growing significance of 
+institutional investors in shaping corporate strategies.
+
+There are several caveats to this paper, of which two points are emphasized here. First, due to data constraints, we can only access 
+information about the top 5 suppliers of listed firms, and not all firms disclose their supplier information. As a result, our analysis 
+captures only a partial view of the supply chain relationships between firms. Although we employ the Heckman two-stage regressions 
+to address the sample selection bias, a better choice is to utilize more comprehensive datasets. Such databases would allow for a 
+fuller and more accurate depiction of the evolution of the supply chain network. Second, while this study provides evidence of 
+common ownership’s effect on supply chain diversification, it does not directly assess the long-term performance implications of 
+these diversified supply chains, such as operational efficiency, profitability, or firm growth. Further research could investigate how 
+these changes in supply chain structure influence firm performance over time.
+
+CRediT authorship contribution statement
+
+Ying Li: Writing – original draft, Methodology, Data curation, Conceptualization. Chen Zhao: Writing – review & editing, Data 
+curation.
+
+Declaration of competing interest
+
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared 
+to influence the work reported in this paper.
+
+Appendix. Appendix
+
+A.1. Appendix data
+
+A.1.1. Link prediction through GNN models
+We implement several GNN models, including GCN, GraphSAGE, GAT, GIN, and GAE, to estimate both the existence and intensity 
+
+of inter-firm connections. These models differ mainly in how they aggregate and process neighborhood information. GCN aggregates 
+information from all neighboring nodes simultaneously using a normalized adjacency matrix, applying a shared transformation 
+across the entire neighborhood. It is simple yet effective in capturing local graph structure, serving as a baseline for link prediction. 
+GraphSAGE samples a fixed-size subset of neighbors and aggregates their features through learnable functions, enabling better 
+scalability and inductive learning on large or evolving graphs. GAT introduces attention mechanisms to assign varying importance 
+to neighbors, allowing the model to focus on more relevant connections. GIN employs multilayer perceptrons to achieve stronger 
+representational power and is theoretically capable of maximum discriminative performance among graph structures. In contrast, 
+GAE is unsupervised and aims to reconstruct the adjacency matrix based on learned embeddings, making it particularly suitable 
+when edge attributes are sparse. 
+
+Taking the GCN model as an example, we reconstruct the measure of supply chain concentration in the following steps:
+• For each year, we construct a bipartite directed graph where the two sets of nodes represent suppliers and listed customer 
+firms. For suppliers without institutional identifiers, we use their customers’ stock codes and their purchase ranking to generate 
+unique identifiers. All observed supplier–customer pairs in the dataset constitute the positive edges, whose weights represent 
+the log purchase value.
+
+• We train a three-layer GCN model. To train the model, we generate negative samples by randomly selecting unobserved 
+supplier–customer pairs not present in the disclosure data. For each positive edge, two negative edges are sampled to balance 
+the training data. When training the model, we optimize a combined loss function: binary cross-entropy for link existence 
+and mean squared error for link weight, measured by the log purchase value. In this step, we adopt early stopping based on 
+validation loss to prevent overfitting.
+
+• After training, we apply the model to all firm pairs to estimate link probabilities and predicted weights. A link is assumed to 
+exist if its probability exceeds 50%, yielding a dense, imputed supply chain network for each year.
+
+• Finally, we compute the HHI across all supply chain relationships, combining both observed and predicted ones. For disclosed 
+relationships, we use the reported purchase values; for predicted ones, we use GCN-estimated values. Note that each firm’s 
+total purchase can be inferred from the reported values and shares purchased from its top 5 suppliers. If the combined value 
+of observed and predicted purchases exceeds this total, the predicted values are proportionally scaled to ensure consistency.
+22 
+
+
+
+Y. Li and C. Zhao Research in International Business and Finance 80 (2025) 103066 
+Table A.1
+The number of observed and predicted relationships.
+ Year Observed Predicted relationships
+ relationships
+
+GCN GAE GIN GAT GraphSAGE 
+ 2006 644 186,721 190,768 212,992 185,087 104,095  
+ 2007 580 143,267 157,013 174,773 151,135 81,038  
+ 2008 479 100,803 103,635 116,433 103,091 54,703  
+ 2009 232 16,744 16,476 22,467 16,733 8,401  
+ 2010 204 12,156 11,829 12,715 12,102 6,025  
+ 2011 430 32,553 24,338 25,427 32,594 13,891  
+ 2012 1,647 315,532 92,089 221,238 317,225 136,190  
+ 2013 1,766 342,324 118,632 167,871 360,188 155,492  
+ 2014 2,481 1,124,065 788,445 944,893 1,147,345 502,391  
+ 2015 2,629 826,323 290,306 384,030 886,429 446,237  
+ 2016 4,097 3,008,911 1,869,218 1,251,885 3,077,908 1,458,823  
+ 2017 5,820 5,477,765 3,161,498 2,221,720 5,675,118 2,624,305  
+ 2018 5,918 5,692,010 3,418,831 4,979,707 6,107,597 2,969,274  
+ 2019 6,698 7,170,729 3,653,462 6,859,096 7,575,020 3,279,373  
+ 2020 8,382 10,540,939 4,783,538 10,535,760 11,056,796 5,114,045  
+ 2021 10,331 15,105,296 6,294,840 6,429,250 15,378,582 7,632,267  
+ 2022 11,638 18,268,861 7,451,912 7,926,399 19,365,146 8,472,792  
+ 2023 12,636 20,092,899 8,047,053 8,713,628 21,123,464 10,029,425 
+Notes: This table summarizes the annual number of observed supply chain relationships, along with the number of relationships 
+predicted by different GNN models, including GCN, GAE, GIN, GAT, and GraphSAGE.
+
+A.1.2. Accounting for unobserved investors
+Additionally, we also apply a statistical correction to account for the unobserved investors and construct an alternative measure 
+
+for robustness checks. Specifically, we illustrate how to correct the numerator and denominator of Eq. (2). Let  denote the limited 
+set of observed investors and   denote the unobserved investors. Following Ederer and Pellegrino (2022), we assume that there is 
+no overlap in ownership between firms 𝑗 and 𝑖 among unobserved investors in   (i.e., ∑𝑧∈ 𝑠𝑖𝑧𝑡𝑠𝑗𝑧𝑡 = 0). Under this assumption, we 
+can simply ignore the unobserved investors when calculating the numerator. If we calculate the Euclidean norm of the shareholding 
+vector with observed investors only, we obtain a downward-biased estimate, as the ‘‘true’’ value can be written as 
+
+∑ ∑
+
+2
+‖𝐬𝐢𝐭‖ = 𝑠2 + 𝑠2𝑖𝑧𝑡 𝑖𝑧𝑡, (A.1)
+
+𝑧∈ 𝑧∈
+
+Let ∑
+
+𝑆𝑖𝑡() ≡ 𝑧∈ 𝑠𝑖𝑧𝑡 and 
+∑
+
+𝑆𝑖𝑡( ) ≡ 𝑧∈ 𝑠𝑖𝑧𝑡 denote the total shares owned by observed and unobserved investors, respectively. Let 
+𝑠𝑖𝑧𝑡 ≡ 𝑠𝑖𝑧𝑡∕𝑆𝑖𝑡() and 𝑠𝑖𝑧𝑡 ≡ 𝑠𝑖𝑧𝑡∕𝑆𝑖𝑡( ) denote the shares owned by investor 𝑧 divided by the aggregate shares owned by all observed 
+and unobserved investors, respectively. Thus, we have
+
+∑ 2 ∑ ∑ ∑ ∑
+
+2 ( ) ( ) 2 (  )2
+‖𝐬𝐢𝐭‖ = 𝑠𝑖𝑧𝑡𝑆𝑖𝑡() + 𝑠 2
+
+𝑖𝑧𝑡𝑆𝑖𝑡( ) = 𝑆𝑖𝑡() 𝑠 + 𝑆2 ( )
+
+𝑠 2 ∑
+
+2 ( ) ( ) ( )2
+𝑖𝑧𝑡 𝑖𝑡( ) 𝑖𝑧𝑡 = 𝑆  2
+
+𝑖𝑡() 𝑠𝑖𝑧𝑡 + 1 − 𝑆 2 
+𝑖𝑡() 𝑠𝑖𝑧𝑡
+
+𝑧∈ 𝑧∈ 𝑧∈ 𝑧∈ 𝑧∈ 𝑧∈
+(A.2)
+
+( )
+
+Clearly, ∑  2
+𝑧∈ 𝑠𝑖𝑧𝑡   ( )
+
+and ∑ 
+𝑧∈ 𝑠 2
+
+𝑖𝑧𝑡  are the Herfindahl–Hirschman Index of ownership among observed and unobserved in-
+vestors, respectively. Further, we assume the ownership concentrations among observed and unobserved investors are identical, 
+
+( )
+
+i.e., ∑ 2 (
+∑  )2
+
+𝑧∈ 𝑠𝑖𝑧𝑡 = 𝑧∈ 𝑠𝑖𝑧𝑡 . Eq. (A.2) can be rewritten as
+[ ]
+
+( )2
+[ ] ]
+
+∑ ∑
+
+2 ( ) ( ) )2 ( )
+
+‖𝐬𝐢𝐭‖ = 𝑆2
+𝑖𝑡() + 1 − 𝑆 2
+
+𝑖𝑡() 𝑠 2 [
+
+2 (
+
+𝑖𝑧𝑡 = 𝑆𝑖𝑡() + 1 − 𝑆𝑖𝑡() 𝑠 2 1 − 𝑆 ) ∑
+
+𝑖𝑧𝑡∕𝑆𝑖𝑡() = 1 + 𝑖𝑡( 𝑠2
+𝑧∈ 𝑧∈ 𝑆 𝑖𝑧𝑡 (A.3)
+
+𝑖𝑡() 𝑧∈
+As we can see, the correction term in the square bracket is applied to the Euclidean norm in the denominator of Eq. (2).
+
+A.2. Appendix tables
+
+See Tables A.1–A.19.
+23 
+
+
+
+Y. Li and C. Zhao Research in International Business and Finance 80 (2025) 103066 
+Fig. A1. Supply chain networks.
+Notes: The edge width represents the purchase share of the firm from a supplier. Only A-share listed firms that disclose their supplier information 
+and their top 5 listed suppliers are kept.
+24 
+
+
+
+Y. Li and C. Zhao Research in International Business and Finance 80 (2025) 103066 
+Fig. A2. Bipartite networks between Chinese listed firms and institutional investors.
+Notes: The blue nodes represent Chinese listed firms, while the red ones represent institutional investors. The edge width represents the tradable 
+A-shares of a firm owned by an institutional investor.
+25 
+
+
+
+Y. Li and C. Zhao Research in International Business and Finance 80 (2025) 103066 
+Fig. A3. Common ownership networks.
+Notes: The edge width represents the COI in Eq. (2) between two listed firms, and those edges whose weights are less than 0.001 are omitted.
+26 
+
+
+
+Y. Li and C. Zhao Research in International Business and Finance 80 (2025) 103066 
+Table A.2
+Training set MSE for link weight prediction.
+ Year GCN GAE GIN GAT GraphSAGE 
+ 2006 16.44 0.27 8.59 50.42 65.84  
+ 2007 20.49 0.21 7.39 60.29 100.81  
+ 2008 19.95 0.31 7.96 52.78 70.20  
+ 2009 21.41 3.51 6.39 57.02 126.33  
+ 2010 21.97 4.37 9.77 76.14 77.69  
+ 2011 7.52 14.47 9.73 74.72 160.48  
+ 2012 6.50 18.87 6.97 35.70 98.31  
+ 2013 8.06 18.54 23.42 16.96 131.39  
+ 2014 12.28 11.38 12.97 71.63 90.99  
+ 2015 9.15 16.89 26.05 24.68 88.36  
+ 2016 6.08 9.29 31.38 52.54 93.70  
+ 2017 8.65 10.55 28.35 50.22 90.40  
+ 2018 15.53 11.92 10.87 39.29 74.48  
+ 2019 7.39 10.35 5.30 39.42 98.06  
+ 2020 9.81 10.94 8.41 59.78 114.04  
+ 2021 8.78 12.85 24.69 60.06 61.08  
+ 2022 6.62 13.81 30.96 46.54 138.37  
+ 2023 8.26 14.94 19.35 31.38 118.07  
+Notes: This table reports the mean squared error (MSE) of link weight predictions on the training set for each GNN model, 
+including GCN, GAE, GIN, GAT and GraphSAGE. The target variable is the log purchase value between firm pairs. Lower MSE 
+values indicate better in-sample fit. For each year, the model with the lowest MSE is highlighted in bold.
+
+Table A.3
+FIML estimates.
+ Selection equation Outcome equation
+ (1) (2) (3) (4) (5)  
+ Dep. Var.: 𝐷𝑖𝑠𝑐𝑙𝑜𝑠𝑢𝑟𝑒𝑖𝑡 𝑆ℎ𝑎𝑟𝑒𝑆𝑖𝑡 ln𝐻𝐻𝐼𝑆
+
+𝑖𝑡 ln𝐻𝐻𝐼𝐺𝐶𝑁
+𝑖𝑡 ln𝐻𝐻𝐼𝐺𝐴𝐸
+
+𝑖𝑡  
+ 𝐷𝑖𝑠𝑐𝑙𝑜𝑠𝑢𝑟𝑒ℎ𝑡 3.232***  
+ (0.056)  
+ ln𝐶𝑂𝐼𝑖𝑡 −0.472*** −0.034*** −0.035*** −0.034***  
+ (0.145) (0.011) (0.011) (0.011)  
+ 𝐼𝑀𝑅𝑖𝑡 0.030 0.020 0.015 0.020  
+ (0.018) (0.013) (0.012) (0.013)  
+ ln𝐴𝑔𝑒𝑖𝑡 −0.254*** −2.030*** −0.108*** −0.117*** −0.112***  
+ (0.019) (0.376) (0.028) (0.028) (0.028)  
+ ln𝐸𝑚𝑝𝑙𝑜𝑦𝑚𝑒𝑛𝑡𝑖𝑡 −0.015 −2.046*** −0.127*** −0.128*** −0.129***  
+ (0.010) (0.221) (0.014) (0.014) (0.014)  
+ 𝐿𝑒𝑣𝑒𝑟𝑎𝑔𝑒𝑖𝑡 0.364*** −7.338*** −0.459*** −0.479*** −0.466***  
+ (0.082) (1.556) (0.104) (0.103) (0.105)  
+ 𝐶𝑎𝑝𝑖𝑡𝑎𝑙𝑖𝑡 0.019 2.086*** 0.071 0.066 0.073*  
+ (0.026) (0.664) (0.044) (0.044) (0.044)  
+ 𝑅𝑂𝐴𝑖𝑡 1.376*** −1.142 −0.074 −0.133 −0.069  
+ (0.148) (2.421) (0.158) (0.161) (0.160)  
+ 𝐶𝑎𝑠ℎ𝑖𝑡 −0.242* −5.267*** −0.281** −0.264** −0.290**  
+ (0.131) (1.903) (0.130) (0.132) (0.131)  
+ 𝑅&𝐷𝑖𝑡 0.001 −0.179*** −0.008*** −0.008*** −0.008***  
+ (0.003) (0.037) (0.003) (0.003) (0.003)  
+ 𝑆𝑂𝐸𝑖𝑡 0.365*** 0.225 −0.008 0.021 −0.006  
+ (0.042) (0.766) (0.055) (0.054) (0.055)  
+ 𝑀𝑎𝑛𝑎𝑔𝑒𝑖𝑡 −0.367*** −2.381 0.235 0.244 0.229  
+ (0.131) (2.185) (0.160) (0.160) (0.160)  
+ ln𝐵𝑜𝑎𝑟𝑑𝑖𝑡 −0.026 2.234*** 0.126** 0.114** 0.127**  
+ (0.020) (0.805) (0.054) (0.055) (0.055)  
+  
+ (continued on next page)
+
+A.3. Appendix figures
+
+See Figs. A1–A4.
+27 
+
+
+
+Y. Li and C. Zhao Research in International Business and Finance 80 (2025) 103066 
+Table A.3 (continued).
+ Selection equation Outcome equation
+ (1) (2) (3) (4) (5)  
+ Dep. Var.: 𝐷𝑖𝑠𝑐𝑙𝑜𝑠𝑢𝑟𝑒𝑖𝑡 𝑆ℎ𝑎𝑟𝑒𝑆𝑖𝑡 ln𝐻𝐻𝐼𝑆
+
+𝑖𝑡 ln𝐻𝐻𝐼𝐺𝐶𝑁
+𝑖𝑡 ln𝐻𝐻𝐼𝐺𝐴𝐸
+
+𝑖𝑡  
+ athrho 0.030 0.020 0.015 0.020  
+ (0.018) (0.013) (0.012) (0.013)  
+  
+ Firm FE No Yes Yes Yes Yes  
+ Year FE No Yes Yes Yes Yes  
+ Industry-Specific Time Trends No Yes Yes Yes Yes  
+ Province-Specific Time Trends No Yes Yes Yes Yes  
+ Observations 52,222 52,222 52,222 52,222 52,222  
+Notes: This table reports the FIML estimates of the effect of common ownership on supply chain concentration, jointly estimating the selection and outcome 
+equations specified in Eqs. (5) and (6).  Column (1) reports the estimation results of the selection equation, where 𝐷𝑖𝑠𝑐𝑙𝑜𝑠𝑢𝑟𝑒𝑖𝑡 is a dummy indicating whether 
+firm 𝑖 discloses its supplier information at year 𝑡, and the IV (𝐷𝑖𝑠𝑐𝑙𝑜𝑠𝑢𝑟𝑒ℎ𝑡) is the share of firms in the same industry that disclose their supplier information. 
+Since the selection equation is jointly estimated with different outcome equations but yields qualitatively identical results, it is reported only once. The outcome 
+variable in Columns (2) and (3) is firm 𝑖’s purchase share from its top 5 suppliers and the log HHI of purchase among these top suppliers, respectively—both 
+calculated with the observed data. The dependent variable in Columns (4) and (5) is the log HHI of purchase among all suppliers, incorporating both observed 
+and predicted ones generated by the GCN and GAE models, respectively. athrho is the hyperbolic arctangent of the correlation between the error terms in 
+Eqs. (5) and (6). Standard errors in parentheses are clustered by the firm. Significance: *, 0.10, **, 0.05, ***, 0.01.
+
+Table A.4
+MSE for predicting firm-level supply chain concentration.
+ Training set Validation set
+ (1) (2) (3) (4) (5) (6) (7) (8)  
+ Lasso Random Forest XGBoost LightGBM Lasso Random Forest XGBoost LightGBM 
+ 𝑆ℎ𝑎𝑟𝑒𝑆𝑖𝑡 340.98 25.73 163.98 182.61 355.92 191.40 228.23 265.98  
+ ln𝐻𝐻𝐼𝑆
+
+𝑖𝑡 1.75 0.14 0.85 0.93 1.75 1.00 1.14 1.31  
+ ln𝐻𝐻𝐼𝐺𝐶𝑁
+
+𝑖𝑡 1.83 0.15 0.88 0.96 1.82 1.07 1.19 1.34  
+ ln𝐻𝐻𝐼𝐺𝐴𝐸
+
+𝑖𝑡 1.77 0.14 0.87 0.93 1.77 1.01 1.15 1.32  
+Notes: This table reports the MSE of machine learning algorithms, including Lasso regression, Random Forest, XGBoost, and LightGBM, used to predict firm-level 
+supply chain concentration. The target variables include the purchase share from the top 5 suppliers (𝑆ℎ𝑎𝑟𝑒𝑆𝑖𝑡 ), the log HHI of purchase among these top 
+suppliers (ln𝐻𝐻𝐼𝑆
+
+𝑖𝑡 ), and the log HHI incorporating both observed and predicted suppliers based on the GCN model (ln𝐻𝐻𝐼𝐺𝐶𝑁
+𝑖𝑡 ) and GAE (ln𝐻𝐻𝐼𝐺𝐴𝐸
+
+𝑖𝑡 ) model. 
+Observations that report supplier information are randomly split into training and validation sets with an 8:2 ratio. Columns (1)–(4) show the in-sample (training 
+set) MSEs, while Columns (5)–(8) report out-of-sample (validation set) MSEs.
+
+Table A.5
+Robustness: alternative common ownership indexes.
+ (1) (2) (3) (4) (5) (6)  
+ Dep. Var.: 𝑆ℎ𝑎𝑟𝑒𝑆𝑖𝑡 ln𝐻𝐻𝐼𝑆
+
+𝑖𝑡 𝑆ℎ𝑎𝑟𝑒𝑆𝑖𝑡 ln𝐻𝐻𝐼𝑆
+𝑖𝑡 𝑆ℎ𝑎𝑟𝑒𝑆𝑖𝑡 ln𝐻𝐻𝐼𝑆
+
+𝑖𝑡  
+ ln𝐶𝐶𝑂𝐼𝑖𝑡 −0.720*** −0.044**  
+ (0.232) (0.018)  
+ ln𝐶𝑂𝐼𝑇
+
+𝑖𝑡 −0.473*** −0.034***  
+ (0.145) (0.011)  
+ ln𝐶𝐶𝑂𝐼𝑇
+
+𝑖𝑡 −0.875*** −0.054**  
+ (0.264) (0.021)  
+ ln𝐴𝑔𝑒𝑖𝑡 −2.054*** −0.113*** −1.970*** −0.106*** −2.031*** −0.111*** 
+ (0.373) (0.028) (0.376) (0.028) (0.373) (0.028)  
+ ln𝐸𝑚𝑝𝑙𝑜𝑦𝑚𝑒𝑛𝑡𝑖𝑡 −2.041*** −0.127*** −2.049*** −0.127*** −2.038*** −0.127*** 
+ (0.221) (0.014) (0.221) (0.014) (0.221) (0.014)  
+ 𝐿𝑒𝑣𝑒𝑟𝑎𝑔𝑒𝑖𝑡 −7.510*** −0.467*** −7.528*** −0.469*** −7.488*** −0.466*** 
+ (1.562) (0.105) (1.562) (0.105) (1.561) (0.105)  
+ 𝐶𝑎𝑝𝑖𝑡𝑎𝑙𝑖𝑡 1.917*** 0.065 1.906*** 0.065 1.918*** 0.065  
+ (0.629) (0.041) (0.629) (0.041) (0.629) (0.041)  
+ 𝑅𝑂𝐴𝑖𝑡 −0.965 −0.059 −1.208 −0.070 −0.917 −0.056  
+ (2.532) (0.167) (2.528) (0.167) (2.531) (0.167)  
+ 𝐶𝑎𝑠ℎ𝑖𝑡 −5.282*** −0.285** −5.268*** −0.284** −5.250*** −0.283**  
+ (1.913) (0.130) (1.913) (0.130) (1.912) (0.130)  
+ 𝑅&𝐷𝑖𝑡 −0.167*** −0.007*** −0.167*** −0.007*** −0.167*** −0.007*** 
+ (0.034) (0.002) (0.034) (0.002) (0.034) (0.002)  
+ (continued on next page)
+28 
+
+
+
+Y. Li and C. Zhao Research in International Business and Finance 80 (2025) 103066 
+Table A.5 (continued).
+ (1) (2) (3) (4) (5) (6)  
+ Dep. Var.: 𝑆ℎ𝑎𝑟𝑒𝑆𝑖𝑡 ln𝐻𝐻𝐼𝑆
+
+𝑖𝑡 𝑆ℎ𝑎𝑟𝑒𝑆𝑖𝑡 ln𝐻𝐻𝐼𝑆
+𝑖𝑡 𝑆ℎ𝑎𝑟𝑒𝑆𝑖𝑡 ln𝐻𝐻𝐼𝑆
+
+𝑖𝑡  
+ 𝑆𝑂𝐸𝑖𝑡 0.139 −0.012 0.161 −0.011 0.141 −0.012  
+ (0.766) (0.055) (0.766) (0.055) (0.766) (0.055)  
+ 𝑀𝑎𝑛𝑎𝑔𝑒𝑖𝑡 −2.189 0.247 −2.321 0.237 −2.292 0.240  
+ (2.202) (0.161) (2.197) (0.160) (2.198) (0.160)  
+ ln𝐵𝑜𝑎𝑟𝑑𝑖𝑡 2.253*** 0.127** 2.245*** 0.125** 2.240*** 0.126**  
+ (0.807) (0.055) (0.808) (0.055) (0.807) (0.055)  
+  
+ Firm FE Yes Yes Yes Yes Yes Yes  
+ Year FE Yes Yes Yes Yes Yes Yes  
+ Industry-Specific Time Trends Yes Yes Yes Yes Yes Yes  
+ City-Specific Time Trends Yes Yes Yes Yes Yes Yes  
+ Observations 24,299 24,299 24,299 24,299 24,299 24,299  
+ Adjusted R2 0.705 0.667 0.705 0.667 0.705 0.667  
+Notes: This table uses alternative measures of common ownership and replicates the baseline regressions. Columns (1) and (2) use the corrected COI that accounts 
+for unobserved investors. Columns (3)–(4) use the COI calculated with the shareholding proportion vector of each institutional investor in total shares rather 
+than in tradable A-shares. Furthermore, Columns (5) and (6) correct this index to account for unobserved investors. Standard errors in parentheses are clustered 
+by the firm. Significance: *, 0.10, **, 0.05, ***, 0.01.
+
+Table A.6
+Robustness: excluding impacts of Black Swan events.
+ Global financial crisis Chinese stock market crash COVID-19 pandemic
+ (1) (2) (3) (4) (5) (6)  
+ Dep. Var.: 𝑆ℎ𝑎𝑟𝑒𝑆𝑖𝑡 ln𝐻𝐻𝐼𝑆
+
+𝑖𝑡 𝑆ℎ𝑎𝑟𝑒𝑆𝑖𝑡 ln𝐻𝐻𝐼𝑆
+𝑖𝑡 𝑆ℎ𝑎𝑟𝑒𝑆𝑖𝑡 ln𝐻𝐻𝐼𝑆
+
+𝑖𝑡  
+ ln𝐶𝑂𝐼𝑖𝑡 −0.444*** −0.032*** −0.501*** −0.036*** −0.724*** −0.049*** 
+ (0.141) (0.011) (0.146) (0.011) (0.215) (0.017)  
+ ln𝐴𝑔𝑒𝑖𝑡 −2.031*** −0.113*** −2.019*** −0.099*** −1.856*** −0.093**  
+ (0.372) (0.028) (0.384) (0.029) (0.458) (0.036)  
+ ln𝐸𝑚𝑝𝑙𝑜𝑦𝑚𝑒𝑛𝑡𝑖𝑡 −1.990*** −0.125*** −2.000*** −0.123*** −2.464*** −0.154*** 
+ (0.210) (0.013) (0.219) (0.014) (0.298) (0.019)  
+ 𝐿𝑒𝑣𝑒𝑟𝑎𝑔𝑒𝑖𝑡 −7.635*** −0.473*** −7.641*** −0.467*** −7.101*** −0.449*** 
+ (1.538) (0.103) (1.602) (0.107) (1.787) (0.124)  
+ 𝐶𝑎𝑝𝑖𝑡𝑎𝑙𝑖𝑡 1.976*** 0.061 1.972*** 0.065 0.827 0.006  
+ (0.632) (0.039) (0.640) (0.042) (0.660) (0.047)  
+ 𝑅𝑂𝐴𝑖𝑡 −1.449 −0.058 0.302 0.017 −1.961 −0.142  
+ (2.526) (0.170) (2.532) (0.167) (3.336) (0.224)  
+ 𝐶𝑎𝑠ℎ𝑖𝑡 −4.963*** −0.262** −5.859*** −0.306** −7.117*** −0.346*  
+ (1.906) (0.128) (1.920) (0.132) (2.499) (0.182)  
+ 𝑅&𝐷𝑖𝑡 −0.152*** −0.006*** −0.155*** −0.006*** −0.133** −0.004  
+ (0.033) (0.002) (0.035) (0.002) (0.060) (0.004)  
+ 𝑆𝑂𝐸𝑖𝑡 0.158 0.000 0.190 −0.015 0.754 0.023  
+ (0.754) (0.054) (0.766) (0.055) (0.936) (0.068)  
+ 𝑀𝑎𝑛𝑎𝑔𝑒𝑖𝑡 −2.689 0.216 −3.149 0.184 −0.116 0.517**  
+ (2.165) (0.159) (2.193) (0.157) (2.909) (0.212)  
+ ln𝐵𝑜𝑎𝑟𝑑𝑖𝑡 2.292*** 0.131** 2.249*** 0.124** 2.458** 0.109  
+ (0.793) (0.053) (0.808) (0.055) (0.993) (0.068)  
+  
+ Firm FE Yes Yes Yes Yes Yes Yes  
+ Year FE Yes Yes Yes Yes Yes Yes  
+ Industry-Specific Time Trends Yes Yes Yes Yes Yes Yes  
+ City-Specific Time Trends Yes Yes Yes Yes Yes Yes  
+ Observations 23,744 23,744 23,629 23,629 14,223 14,223  
+ Adjusted R2 0.713 0.674 0.706 0.670 0.660 0.615  
+Notes: This table excludes observations during three Black Swan events and replicates the baseline regressions. Observations during the global financial crisis 
+(2008–2009), the Chinese stock market crash (2015), and the COVID-19 pandemic (2020–2022) are excluded in Columns (1)–(2), (3)–(4), and (5)–(6), respectively. 
+Standard errors in parentheses are clustered by the firm. Significance: *, 0.10, **, 0.05, ***, 0.01.
+29 
+
+
+
+Y. Li and C. Zhao Research in International Business and Finance 80 (2025) 103066 
+Table A.7
+Robustness: alternative transformations.
+ (1) (2) (3) (4)  
+ Dep. Var.: 𝑆ℎ𝑎𝑟𝑒𝑆𝑖𝑡 ln𝐻𝐻𝐼𝑆
+
+𝑖𝑡 𝑆ℎ𝑎𝑟𝑒𝑆𝑖𝑡 ln𝐻𝐻𝐼𝑆
+𝑖𝑡  
+
+ 𝐶𝑂𝐼𝑖𝑡 −0.018** −0.002**  
+ (0.008) (0.001)  
+ arcsinh 𝐶𝑂𝐼𝑖𝑡 −0.389*** −0.028*** 
+ (0.121) (0.009)  
+ ln𝐴𝑔𝑒𝑖𝑡 −2.090*** −0.113*** −1.967*** −0.106*** 
+ (0.371) (0.028) (0.377) (0.028)  
+ ln𝐸𝑚𝑝𝑙𝑜𝑦𝑚𝑒𝑛𝑡𝑖𝑡 −2.067*** −0.128*** −2.049*** −0.127*** 
+ (0.222) (0.014) (0.221) (0.014)  
+ 𝐿𝑒𝑣𝑒𝑟𝑎𝑔𝑒𝑖𝑡 −7.487*** −0.466*** −7.528*** −0.469*** 
+ (1.561) (0.105) (1.562) (0.105)  
+ 𝐶𝑎𝑝𝑖𝑡𝑎𝑙𝑖𝑡 1.890*** 0.064 1.906*** 0.065  
+ (0.629) (0.041) (0.629) (0.041)  
+ 𝑅𝑂𝐴𝑖𝑡 −1.424 −0.082 −1.209 −0.070  
+ (2.525) (0.166) (2.528) (0.167)  
+ 𝐶𝑎𝑠ℎ𝑖𝑡 −5.277*** −0.283** −5.277*** −0.284**  
+ (1.916) (0.130) (1.913) (0.130)  
+ 𝑅&𝐷𝑖𝑡 −0.167*** −0.007*** −0.167*** −0.007*** 
+ (0.034) (0.002) (0.034) (0.002)  
+ 𝑆𝑂𝐸𝑖𝑡 0.175 −0.010 0.159 −0.011  
+ (0.764) (0.055) (0.766) (0.055)  
+ 𝑀𝑎𝑛𝑎𝑔𝑒𝑖𝑡 −2.414 0.226 −2.294 0.239  
+ (2.186) (0.159) (2.197) (0.160)  
+ ln𝐵𝑜𝑎𝑟𝑑𝑖𝑡 2.288*** 0.127** 2.248*** 0.126**  
+ (0.809) (0.055) (0.808) (0.055)  
+  
+ Firm FE Yes Yes Yes Yes  
+ Year FE Yes Yes Yes Yes  
+ Industry-Specific Time Trends Yes Yes Yes Yes  
+ Province-Specific Time Trends Yes Yes Yes Yes  
+ Observations 24,299 24,299 24,299 24,299  
+ Adjusted R2 0.704 0.667 0.705 0.667  
+Notes: This table applies alternative transformations to the COI and replicates the baseline regressions. Columns (1) and (2) use the 
+COI without any transformation (𝐶𝑂𝐼𝑖𝑡), and Columns (3) and (4) use the index after the inverse hyperbolic sine transformation 
+(arcsinh 𝐶𝑂𝐼𝑖𝑡). Standard errors in parentheses are clustered by the firm. Significance: *, 0.10, **, 0.05, ***, 0.01.
+
+Table A.8
+2SLS estimates: intensive margin of supply-chain linkages.
+ All links New links
+ First stage Second stage First stage Second stage
+ (1) (2) (3) (4) (5) (6)  
+ Dep. Var.: ln𝐶𝑂𝐼𝑗𝑖𝑡 ln𝑉 𝑎𝑙𝑢𝑒𝑗𝑖𝑡 𝑆ℎ𝑎𝑟𝑒𝑗𝑖𝑡 ln𝐶𝑂𝐼𝑗𝑖𝑡 ln𝑉 𝑎𝑙𝑢𝑒𝑗𝑖𝑡 𝑆ℎ𝑎𝑟𝑒𝑗𝑖𝑡  
+ 𝑆𝐻𝐻𝐾𝑗𝑖 × 𝑃𝑜𝑠𝑡𝐻𝑡 0.002*** 0.002***  
+ (0.001) (0.001)  
+ ln𝐶𝑂𝐼𝑗𝑖𝑡 33.473** 0.149** 17.737** 0.060**  
+ (13.334) (0.064) (7.013) (0.026)  
+ ln𝐷𝑖𝑠𝑡𝑎𝑛𝑐𝑒𝑗𝑖𝑡 −0.000*** −0.050*** −0.000*** −0.000*** −0.031*** −0.000*** 
+ (0.000) (0.009) (0.000) (0.000) (0.005) (0.000)  
+ ln𝐴𝑔𝑒𝑗𝑡 −0.000 −0.017 −0.000 −0.000 −0.060** −0.000*  
+ (0.000) (0.031) (0.000) (0.000) (0.025) (0.000)  
+ ln𝐸𝑚𝑝𝑙𝑜𝑦𝑚𝑒𝑛𝑡𝑗𝑡 0.001*** −0.009 −0.000* 0.001*** −0.019 −0.000**  
+ (0.000) (0.023) (0.000) (0.000) (0.020) (0.000)  
+ 𝐿𝑒𝑣𝑒𝑟𝑎𝑔𝑒𝑗𝑡 −0.000 0.055 0.000 0.000 0.147* 0.001  
+ (0.001) (0.098) (0.000) (0.001) (0.080) (0.000)  
+ 𝐶𝑎𝑝𝑖𝑡𝑎𝑙𝑗𝑡 0.001** −0.031 −0.000 0.001** −0.002 0.000  
+ (0.000) (0.036) (0.000) (0.000) (0.037) (0.000)  
+ 𝑅𝑂𝐴𝑗𝑡 0.002** 0.121 0.000 0.002** 0.133 0.001  
+ (0.001) (0.113) (0.001) (0.001) (0.103) (0.001)  
+ 𝐶𝑎𝑠ℎ𝑗𝑡 −0.001 0.069 0.000 −0.001 0.029 0.000  
+ (0.001) (0.079) (0.000) (0.001) (0.073) (0.000)  
+ 𝑅&𝐷𝑗𝑡 −0.000 0.001 −0.000 −0.000 0.001 −0.000  
+ (0.000) (0.002) (0.000) (0.000) (0.002) (0.000)  
+ (continued on next page)
+30 
+
+
+
+Y. Li and C. Zhao Research in International Business and Finance 80 (2025) 103066 
+Table A.8 (continued).
+ All links New links
+ First stage Second stage First stage Second stage
+ (1) (2) (3) (4) (5) (6)  
+ Dep. Var.: ln𝐶𝑂𝐼𝑗𝑖𝑡 ln𝑉 𝑎𝑙𝑢𝑒𝑗𝑖𝑡 𝑆ℎ𝑎𝑟𝑒𝑗𝑖𝑡 ln𝐶𝑂𝐼𝑗𝑖𝑡 ln𝑉 𝑎𝑙𝑢𝑒𝑗𝑖𝑡 𝑆ℎ𝑎𝑟𝑒𝑗𝑖𝑡  
+ 𝑆𝑂𝐸𝑗𝑡 0.000 −0.013 −0.000 0.000 0.006 0.000  
+ (0.000) (0.021) (0.000) (0.000) (0.018) (0.000)  
+ 𝑀𝑎𝑛𝑎𝑔𝑒𝑗𝑡 −0.002 0.054 0.000 −0.002 −0.001 −0.000  
+ (0.002) (0.157) (0.001) (0.002) (0.151) (0.000)  
+ ln𝐵𝑜𝑎𝑟𝑑𝑗𝑡 0.000 0.049 0.000 0.000 −0.011 0.000  
+ (0.000) (0.058) (0.000) (0.000) (0.050) (0.000)  
+ ln𝐴𝑔𝑒𝑖𝑡 0.000 −0.041** −0.000*** 0.000 −0.056*** −0.000*** 
+ (0.000) (0.018) (0.000) (0.000) (0.015) (0.000)  
+ ln𝐸𝑚𝑝𝑙𝑜𝑦𝑚𝑒𝑛𝑡𝑖𝑡 −0.000 0.004 0.000 −0.000 0.002 −0.000  
+ (0.000) (0.003) (0.000) (0.000) (0.003) (0.000)  
+ 𝐿𝑒𝑣𝑒𝑟𝑎𝑔𝑒𝑖𝑡 0.000 0.041 0.000 0.000 0.040 0.000  
+ (0.002) (0.059) (0.000) (0.002) (0.051) (0.000)  
+ 𝐶𝑎𝑝𝑖𝑡𝑎𝑙𝑖𝑡 −0.001** 0.009 0.000 −0.001** 0.020 0.000  
+ (0.000) (0.017) (0.000) (0.000) (0.016) (0.000)  
+ 𝑅𝑂𝐴𝑖𝑡 0.001 −0.012 −0.000 0.002 −0.083 −0.000  
+ (0.003) (0.142) (0.001) (0.003) (0.097) (0.000)  
+ 𝐶𝑎𝑠ℎ𝑖𝑡 0.001 −0.036 0.000 0.001 −0.025 0.000  
+ (0.001) (0.062) (0.000) (0.001) (0.054) (0.000)  
+ 𝑅&𝐷𝑖𝑡 −0.000 0.000 0.000 −0.000 −0.000 −0.000  
+ (0.000) (0.001) (0.000) (0.000) (0.001) (0.000)  
+ 𝑆𝑂𝐸𝑖𝑡 0.000 0.010 0.000 0.000 −0.009 0.000  
+ (0.000) (0.024) (0.000) (0.000) (0.020) (0.000)  
+ 𝑀𝑎𝑛𝑎𝑔𝑒𝑖𝑡 0.007 −0.228 −0.001 0.007 −0.142 −0.000  
+ (0.005) (0.214) (0.001) (0.005) (0.113) (0.000)  
+ ln𝐵𝑜𝑎𝑟𝑑𝑖𝑡 −0.001 0.023 0.000 −0.001 0.009 0.000  
+ (0.001) (0.025) (0.000) (0.001) (0.014) (0.000)  
+  
+ Supplier FE Yes Yes Yes Yes Yes Yes  
+ Buyer FE Yes Yes Yes Yes Yes Yes  
+ Year FE Yes Yes Yes Yes Yes Yes  
+ Observations 226,831 226,831 226,831 226,258 226,258 226,258  
+ First-Stage F Statistic 2.872 2.774
+ Kleibergen–Paap rk Wald F Statistic 19.207 18.277
+ Kleibergen–Paap rk LM statistic 16.723 16.014
+Notes: This table reports the 2SLS estimates for Table 12 using the launch of SH-HK Connect as the IV. Specifically, 𝑆𝐻𝐻𝐾𝑗𝑖 equals 1 if firm 𝑖 or its supplier 𝑗 is 
+included in the initial list of eligible stocks for SH-HK Connect and 0 otherwise. 𝑃𝑜𝑠𝑡𝐻𝑡  equals 1 if year 𝑡 is post-2014 and 0 otherwise. The IV is the interaction 
+between 𝑆𝐻𝐻𝐾𝑗𝑖 and 𝑃𝑜𝑠𝑡𝐻𝑡 . In the first stage, the log COI (ln𝐶𝑂𝐼𝑗𝑖𝑡) is regressed on the IV and exogenous control variables. In the second stage, the outcome 
+variable is regressed on the fitted values of ln𝐶𝑂𝐼𝑗𝑖𝑡 from the first stage. Columns (1)–(3) focus on all supply-chain linkages. Columns (4)–(6) focus on newly 
+formed linkages, where firm 𝑖 did not purchase from supplier 𝑗 at year 𝑡 − 1. Standard errors in parentheses are clustered by the buyer firm 𝑖. Significance: *, 
+0.10, **, 0.05, ***, 0.01.
+
+Table A.9
+Two-step estimates: extensive margin of supply-chain linkages.
+ First step Second step
+ Logit model Probit model 
+ (1) (2) (3)  
+ Dep. Var.: ln𝐶𝑂𝐼𝑗𝑖𝑡 𝐿𝑖𝑛𝑘𝐷𝑢𝑚𝑗𝑖𝑡 𝐿𝑖𝑛𝑘𝐷𝑢𝑚𝑗𝑖𝑡  
+ 𝑆𝐻𝐻𝐾𝑗𝑖 × 𝑃𝑜𝑠𝑡𝐻𝑡 0.002***  
+ (0.001)  
+ ln𝐶𝑂𝐼𝑗𝑖𝑡 462.236*** 186.306***  
+ (162.828) (56.390)  
+ ln𝐷𝑖𝑠𝑡𝑎𝑛𝑐𝑒𝑗𝑖𝑡 −0.000*** −0.214*** −0.080***  
+ (0.000) (0.057) (0.020)  
+ ln𝐴𝑔𝑒𝑗𝑡 −0.000 −0.127 −0.039  
+ (0.000) (0.188) (0.070)  
+ ln𝐸𝑚𝑝𝑙𝑜𝑦𝑚𝑒𝑛𝑡𝑗𝑡 0.001*** −0.237 −0.109  
+ (0.000) (0.204) (0.073)  
+ 𝐿𝑒𝑣𝑒𝑟𝑎𝑔𝑒𝑗𝑡 −0.000 0.415 0.169  
+ (0.001) (0.649) (0.239)  
+ 𝐶𝑎𝑝𝑖𝑡𝑎𝑙𝑗𝑡 0.001** −0.238 −0.116  
+ (0.000) (0.244) (0.090)  
+ (continued on next page)
+31 
+
+
+
+Y. Li and C. Zhao Research in International Business and Finance 80 (2025) 103066 
+Table A.9 (continued).
+ First step Second step
+ Logit model Probit model 
+ (1) (2) (3)  
+ Dep. Var.: ln𝐶𝑂𝐼𝑗𝑖𝑡 𝐿𝑖𝑛𝑘𝐷𝑢𝑚𝑗𝑖𝑡 𝐿𝑖𝑛𝑘𝐷𝑢𝑚𝑗𝑖𝑡  
+ 𝑅𝑂𝐴𝑗𝑡 0.002** 0.579 0.202  
+ (0.001) (1.014) (0.354)  
+ 𝐶𝑎𝑠ℎ𝑗𝑡 −0.001 0.540 0.222  
+ (0.001) (0.537) (0.198)  
+ 𝑅&𝐷𝑗𝑡 −0.000 0.038* 0.013  
+ (0.000) (0.023) (0.008)  
+ 𝑆𝑂𝐸𝑗𝑡 0.000 −0.081 −0.035  
+ (0.000) (0.180) (0.065)  
+ 𝑀𝑎𝑛𝑎𝑔𝑒𝑗𝑡 −0.004 2.041 0.860  
+ (0.002) (1.612) (0.580)  
+ ln𝐵𝑜𝑎𝑟𝑑𝑗𝑡 0.000 0.144 0.050  
+ (0.000) (0.380) (0.144)  
+ ln𝐴𝑔𝑒𝑖𝑡 0.000 −0.378*** −0.148***  
+ (0.000) (0.111) (0.039)  
+ ln𝐸𝑚𝑝𝑙𝑜𝑦𝑚𝑒𝑛𝑡𝑖𝑡 −0.000 0.045** 0.019***  
+ (0.000) (0.020) (0.007)  
+ 𝐿𝑒𝑣𝑒𝑟𝑎𝑔𝑒𝑖𝑡 0.001 0.162 0.049  
+ (0.002) (0.286) (0.101)  
+ 𝐶𝑎𝑝𝑖𝑡𝑎𝑙𝑖𝑡 −0.001*** 0.303** 0.118**  
+ (0.000) (0.149) (0.052)  
+ 𝑅𝑂𝐴𝑖𝑡 0.002 −0.288 −0.123  
+ (0.003) (0.715) (0.257)  
+ 𝐶𝑎𝑠ℎ𝑖𝑡 0.001 −0.532 −0.177  
+ (0.001) (0.368) (0.135)  
+ 𝑅&𝐷𝑖𝑡 −0.000 0.008 0.003  
+ (0.000) (0.006) (0.002)  
+ 𝑆𝑂𝐸𝑖𝑡 0.000 −0.031 −0.018  
+ (0.000) (0.180) (0.062)  
+ 𝑀𝑎𝑛𝑎𝑔𝑒𝑖𝑡 0.007 −3.164** −1.274***  
+ (0.005) (1.381) (0.478)  
+ ln𝐵𝑜𝑎𝑟𝑑𝑖𝑡 −0.001 0.325** 0.123**  
+ (0.001) (0.163) (0.057)  
+  
+ Supplier FE Yes Yes Yes  
+ Buyer FE Yes Yes Yes  
+ Year FE Yes Yes Yes  
+ Observations 196,980 196,980 196,980  
+ Adjusted R2 0.140  
+ Pseudo R2 0.064 0.063  
+Notes: This table reports the two-step estimates for Table 13 using the launch of SH-HK Connect as the IV. Specifically, 𝑆𝐻𝐻𝐾𝑗𝑖
+equals 1 if firm 𝑖 or its supplier 𝑗 is included in the initial list of eligible stocks for SH-HK Connect and 0 otherwise. 𝑃𝑜𝑠𝑡𝐻𝑡
+equals 1 if year 𝑡 is post-2014 and 0 otherwise. The IV is the interaction between 𝑆𝐻𝐻𝐾𝑗𝑖 and 𝑃𝑜𝑠𝑡𝐻𝑡 . In the first step, the 
+log COI (ln𝐶𝑂𝐼𝑗𝑖𝑡) is regressed on the IV and exogenous control variables. In the second step, the binary outcome variable is 
+regressed on the fitted values of ln𝐶𝑂𝐼𝑗𝑖𝑡 from the first stage with logit and probit models. 𝐿𝑖𝑛𝑘𝐷𝑢𝑚𝑗𝑖𝑡 equals 1 if there is a 
+supply-chain linkage between supplier 𝑗 and firm 𝑖 at year 𝑡 and 0 otherwise. Standard errors in parentheses are clustered by 
+the buyer firm 𝑖. Significance: *, 0.10, **, 0.05, ***, 0.01.
+
+Table A.10
+Intensive margin of supply-chain linkages: lagged explanatory variables.
+ All links New links Incumbent links
+ (1) (2) (3) (4) (5) (6)  
+ Dep. Var.: ln𝑉 𝑎𝑙𝑢𝑒𝑗𝑖𝑡 𝑆ℎ𝑎𝑟𝑒𝑗𝑖𝑡 ln𝑉 𝑎𝑙𝑢𝑒𝑗𝑖𝑡 𝑆ℎ𝑎𝑟𝑒𝑗𝑖𝑡 ln𝑉 𝑎𝑙𝑢𝑒𝑗𝑖𝑡 𝑆ℎ𝑎𝑟𝑒𝑗𝑖𝑡  
+ ln𝐶𝑂𝐼𝑗,𝑖,𝑡−1 6.412** 2.722* 3.152*** 1.057** 47.593* 13.741  
+ (2.698) (1.520) (1.216) (0.511) (26.627) (19.589) 
+ ln𝐷𝑖𝑠𝑡𝑎𝑛𝑐𝑒𝑗,𝑖,𝑡−1 −0.065*** −0.029*** −0.036*** −0.013*** −0.465 −0.587  
+ (0.011) (0.006) (0.006) (0.002) (0.887) (0.523)  
+ ln𝐴𝑔𝑒𝑗,𝑡−1 0.012 0.013 −0.012 0.004 −3.671 −0.406  
+ (continued on next page)
+32 
+
+
+
+Y. Li and C. Zhao Research in International Business and Finance 80 (2025) 103066 
+Table A.10 (continued).
+ All links New links Incumbent links
+ (1) (2) (3) (4) (5) (6)  
+ Dep. Var.: ln𝑉 𝑎𝑙𝑢𝑒𝑗𝑖𝑡 𝑆ℎ𝑎𝑟𝑒𝑗𝑖𝑡 ln𝑉 𝑎𝑙𝑢𝑒𝑗𝑖𝑡 𝑆ℎ𝑎𝑟𝑒𝑗𝑖𝑡 ln𝑉 𝑎𝑙𝑢𝑒𝑗𝑖𝑡 𝑆ℎ𝑎𝑟𝑒𝑗𝑖𝑡  
+ (0.035) (0.017) (0.024) (0.010) (3.246) (3.930)  
+ ln𝐸𝑚𝑝𝑙𝑜𝑦𝑚𝑒𝑛𝑡𝑗,𝑡−1 0.016 0.001 −0.007 −0.006 −1.058 −2.492  
+ (0.024) (0.012) (0.020) (0.008) (2.513) (2.165)  
+ 𝐿𝑒𝑣𝑒𝑟𝑎𝑔𝑒𝑗,𝑡−1 0.032 0.016 0.099 0.034 0.242 −0.408  
+ (0.097) (0.044) (0.078) (0.030) (9.624) (10.900)  
+ 𝐶𝑎𝑝𝑖𝑡𝑎𝑙𝑗,𝑡−1 0.082* 0.052** 0.053 0.023 −1.715 −1.894  
+ (0.044) (0.025) (0.039) (0.016) (3.446) (2.907)  
+ 𝑅𝑂𝐴𝑗,𝑡−1 0.276 0.108 0.061 0.016 28.198* 7.879  
+ (0.173) (0.082) (0.143) (0.060) (15.555) (17.275)  
+ 𝐶𝑎𝑠ℎ𝑗,𝑡−1 −0.079 −0.001 −0.115 0.015 7.166 −6.212  
+ (0.108) (0.047) (0.094) (0.040) (10.322) (7.224)  
+ 𝑅&𝐷𝑗,𝑡−1 0.007 0.005* 0.006 0.003 0.735 1.131*  
+ (0.006) (0.003) (0.006) (0.003) (0.904) (0.642)  
+ 𝑆𝑂𝐸𝑗,𝑡−1 −0.051 −0.037 −0.039 −0.022 −0.860 −2.855*  
+ (0.044) (0.026) (0.037) (0.024) (1.795) (1.593)  
+ 𝑀𝑎𝑛𝑎𝑔𝑒𝑗,𝑡−1 −0.079 −0.027 −0.131 −0.057 99.151*** 56.031*** 
+ (0.192) (0.090) (0.182) (0.058) (28.203) (14.395)  
+ ln𝐵𝑜𝑎𝑟𝑑𝑗,𝑡−1 0.077 0.045 −0.000 0.011 3.163 0.563  
+ (0.072) (0.040) (0.053) (0.027) (7.964) (5.335)  
+ ln𝐴𝑔𝑒𝑖,𝑡−1 −0.022 −0.014* −0.030** −0.013* 1.947 0.597  
+ (0.013) (0.008) (0.013) (0.007) (2.607) (2.145)  
+ ln𝐸𝑚𝑝𝑙𝑜𝑦𝑚𝑒𝑛𝑡𝑖,𝑡−1 −0.001 −0.003 0.003 0.001 −0.573 −0.906**  
+ (0.003) (0.002) (0.004) (0.002) (0.499) (0.421)  
+ 𝐿𝑒𝑣𝑒𝑟𝑎𝑔𝑒𝑖,𝑡−1 −0.073 −0.043* −0.077* −0.041* −6.436 −5.268  
+ (0.054) (0.025) (0.047) (0.023) (9.360) (7.193)  
+ 𝐶𝑎𝑝𝑖𝑡𝑎𝑙𝑖,𝑡−1 −0.018 0.000 −0.016 −0.008 1.109 0.371  
+ (0.014) (0.009) (0.016) (0.007) (1.747) (1.174)  
+ 𝑅𝑂𝐴𝑖,𝑡−1 −0.003 0.058 −0.164** −0.041 27.736 11.771  
+ (0.090) (0.048) (0.076) (0.035) (18.335) (10.747)  
+ 𝐶𝑎𝑠ℎ𝑖,𝑡−1 0.024 0.018 0.076 0.039* −19.362** −9.778  
+ (0.053) (0.031) (0.049) (0.024) (9.670) (6.206)  
+ 𝑅&𝐷𝑖,𝑡−1 0.001 0.001 0.000 0.001 0.270 0.128  
+ (0.002) (0.001) (0.001) (0.001) (0.268) (0.230)  
+ 𝑆𝑂𝐸𝑖,𝑡−1 −0.009 −0.003 −0.021 −0.008 −5.132*** −0.732  
+ (0.019) (0.009) (0.018) (0.008) (1.801) (1.297)  
+ 𝑀𝑎𝑛𝑎𝑔𝑒𝑖,𝑡−1 0.049 0.076 −0.041 −0.014 14.411 7.461  
+ (0.109) (0.054) (0.077) (0.044) (13.793) (9.982)  
+ ln𝐵𝑜𝑎𝑟𝑑𝑖,𝑡−1 0.025 0.015* 0.016 0.009 0.421 1.553  
+ (0.016) (0.009) (0.016) (0.009) (1.891) (1.627)  
+  
+ Supplier FE Yes Yes Yes Yes Yes Yes  
+ Buyer FE Yes Yes Yes Yes Yes Yes  
+ Year FE Yes Yes Yes Yes Yes Yes  
+ Observations 153,528 153,528 153,079 153,079 430 430  
+ Adjusted R2 0.006 0.007 0.003 0.003 0.062 0.360  
+Notes: This table replicates the intensive margin regressions in Table 12 using the one-year lag of all explanatory variables. ln𝑉 𝑎𝑙𝑢𝑒𝑗𝑖𝑡 is the log purchase value 
+of firm 𝑖 from supplier 𝑗, and 𝑆ℎ𝑎𝑟𝑒𝑗𝑖𝑡 is the corresponding share in firm 𝑖’s total purchase. Columns (1) and (2) focus on all linkages between firms, Columns 
+(3) and (4) focus on newly formed linkages, where firm 𝑖 did not purchase from supplier 𝑗 at year 𝑡− 1, and Columns (5) and (6) focus on incumbent linkages, 
+where firm 𝑖 already purchased from supplier 𝑗 at year 𝑡 − 1. Standard errors in parentheses are clustered by the buyer firm 𝑖. Significance: *, 0.10, **, 0.05, 
+***, 0.01.
+
+Table A.11
+Extensive margin of supply chain linkages: lagged explanatory variables.
+ Logit models Probit models
+ (1) (2) (3) (4)  
+ Dep. Var.: 𝐿𝑖𝑛𝑘𝐷𝑢𝑚𝑖𝑗𝑡 𝐹𝑜𝑟𝑚𝐷𝑢𝑚𝑖𝑗𝑡 𝐿𝑖𝑛𝑘𝐷𝑢𝑚𝑖𝑗𝑡 𝐹𝑜𝑟𝑚𝐷𝑢𝑚𝑖𝑗𝑡 
+ ln𝐶𝑂𝐼𝑗,𝑖,𝑡−1 13.938*** 14.679*** 5.804*** 5.977***  
+ (3.131) (4.216) (1.363) (1.846)  
+ ln𝐷𝑖𝑠𝑡𝑎𝑛𝑐𝑒𝑗,𝑖,𝑡−1 −0.343*** −0.282*** −0.136*** −0.114***  
+ (0.041) (0.084) (0.016) (0.030)  
+ (continued on next page)
+33 
+
+
+
+Y. Li and C. Zhao Research in International Business and Finance 80 (2025) 103066 
+Table A.11 (continued).
+ Logit models Probit models
+ (1) (2) (3) (4)  
+ Dep. Var.: 𝐿𝑖𝑛𝑘𝐷𝑢𝑚𝑖𝑗𝑡 𝐹𝑜𝑟𝑚𝐷𝑢𝑚𝑖𝑗𝑡 𝐿𝑖𝑛𝑘𝐷𝑢𝑚𝑖𝑗𝑡 𝐹𝑜𝑟𝑚𝐷𝑢𝑚𝑖𝑗𝑡 
+ ln𝐴𝑔𝑒𝑗,𝑡−1 0.056 2.329 0.038 0.851**  
+ (0.203) (1.475) (0.076) (0.407)  
+ ln𝐸𝑚𝑝𝑙𝑜𝑦𝑚𝑒𝑛𝑡𝑗,𝑡−1 0.166 −0.409 0.047 −0.123  
+ (0.162) (0.515) (0.059) (0.194)  
+ 𝐿𝑒𝑣𝑒𝑟𝑎𝑔𝑒𝑗,𝑡−1 0.130 −2.750 0.078 −0.882  
+ (0.741) (2.433) (0.278) (0.819)  
+ 𝐶𝑎𝑝𝑖𝑡𝑎𝑙𝑗,𝑡−1 0.364 −0.143 0.131 −0.047  
+ (0.248) (0.799) (0.091) (0.286)  
+ 𝑅𝑂𝐴𝑗,𝑡−1 2.413 8.678 0.902* 3.509*  
+ (1.481) (5.439) (0.547) (1.929)  
+ 𝐶𝑎𝑠ℎ𝑗,𝑡−1 −0.734 −3.841 −0.293 −1.740*  
+ (0.789) (2.645) (0.299) (0.981)  
+ 𝑅&𝐷𝑗,𝑡−1 0.040 0.002 0.015 0.009  
+ (0.043) (0.166) (0.016) (0.059)  
+ 𝑆𝑂𝐸𝑗,𝑡−1 −0.410 −14.866*** −0.125 −4.100***  
+ (0.551) (1.752) (0.196) (0.614)  
+ 𝑀𝑎𝑛𝑎𝑔𝑒𝑗,𝑡−1 −0.782 −4.600 −0.243 −1.863  
+ (2.151) (6.494) (0.799) (2.206)  
+ ln𝐵𝑜𝑎𝑟𝑑𝑗,𝑡−1 0.350 −1.534 0.142 −0.579  
+ (0.481) (1.090) (0.180) (0.397)  
+ ln𝐴𝑔𝑒𝑖,𝑡−1 −0.157 0.957 −0.070* 0.290  
+ (0.112) (0.626) (0.041) (0.214)  
+ ln𝐸𝑚𝑝𝑙𝑜𝑦𝑚𝑒𝑛𝑡𝑖,𝑡−1 −0.032 0.485 −0.010 0.185  
+ (0.026) (0.389) (0.009) (0.122)  
+ 𝐿𝑒𝑣𝑒𝑟𝑎𝑔𝑒𝑖,𝑡−1 −0.419 −2.081 −0.175 −0.759  
+ (0.458) (2.041) (0.164) (0.665)  
+ 𝐶𝑎𝑝𝑖𝑡𝑎𝑙𝑖,𝑡−1 −0.060 0.379 −0.035 0.176  
+ (0.074) (1.139) (0.027) (0.408)  
+ 𝑅𝑂𝐴𝑖,𝑡−1 −0.032 −5.143 −0.056 −2.107*  
+ (0.777) (3.998) (0.277) (1.240)  
+ 𝐶𝑎𝑠ℎ𝑖,𝑡−1 0.239 3.712* 0.078 1.672**  
+ (0.376) (1.950) (0.141) (0.657)  
+ 𝑅&𝐷𝑖,𝑡−1 0.006 0.051 0.003 0.022  
+ (0.020) (0.096) (0.007) (0.031)  
+ 𝑆𝑂𝐸𝑖,𝑡−1 −0.246 13.218*** −0.101 3.201***  
+ (0.256) (1.182) (0.089) (0.298)  
+ 𝑀𝑎𝑛𝑎𝑔𝑒𝑖,𝑡−1 0.682 −4.966 0.203 −1.824  
+ (0.637) (4.646) (0.231) (1.427)  
+ ln𝐵𝑜𝑎𝑟𝑑𝑖,𝑡−1 0.199 −1.722 0.079 −0.617  
+ (0.157) (1.264) (0.060) (0.401)  
+  
+ Supplier FE Yes Yes Yes Yes  
+ Buyer FE Yes Yes Yes Yes  
+ Year FE Yes Yes Yes Yes  
+ Observations 114,934 9,757 114,934 9,757  
+ Pseudo R2 0.082 0.137 0.081 0.136  
+Notes: This table replicates the extensive margin regressions in Table 13 using the one-year lag of all explanatory variables. 
+𝐿𝑖𝑛𝑘𝐷𝑢𝑚𝑗𝑖𝑡 equals 1 if there is a supply-chain linkage between supplier 𝑗 and firm 𝑖 at year 𝑡 and 0 otherwise. 𝐹𝑜𝑟𝑚𝐷𝑢𝑚𝑗𝑖𝑡 equals 
+1 if firm 𝑖 did not purchase from supplier 𝑗 at year 𝑡 − 1 but purchases from it at year 𝑡 and 0 otherwise. Columns (1)–(2) use 
+the logit model, while Columns (3)–(4) use the probit model. These models drop perfect predictor variables. Standard errors in 
+parentheses are clustered by buyer firm 𝑖. Significance: *, 0.10, **, 0.05, ***, 0.01.
+
+Data availability
+
+Data will be made available on request.
+34 
+
+
+
+Y. Li and C. Zhao Research in International Business and Finance 80 (2025) 103066 
+Table A.12
+Prior common ownership and the intensive margin of supply chain linkages.
+ All links New links Incumbent links
+ (1) (2) (3) (4) (5) (6)  
+ Dep. Var.: ln𝑉 𝑎𝑙𝑢𝑒𝑗𝑖𝑡 𝑆ℎ𝑎𝑟𝑒𝑗𝑖𝑡 ln𝑉 𝑎𝑙𝑢𝑒𝑗𝑖𝑡 𝑆ℎ𝑎𝑟𝑒𝑗𝑖𝑡 ln𝑉 𝑎𝑙𝑢𝑒𝑗𝑖𝑡 𝑆ℎ𝑎𝑟𝑒𝑗𝑖𝑡 
+ ln𝐶𝑂𝐼𝑃
+
+𝑗𝑖𝑡 5.564** 0.023* 2.674*** 0.008** 26.655** 0.020  
+ (2.170) (0.012) (0.951) (0.004) (13.107) (0.160) 
+ ln𝐷𝑖𝑠𝑡𝑎𝑛𝑐𝑒𝑗𝑖𝑡 −0.057*** −0.000*** −0.034*** −0.000*** −0.778 −0.008  
+ (0.009) (0.000) (0.005) (0.000) (0.753) (0.007)  
+ ln𝐴𝑔𝑒𝑗𝑡 −0.020 −0.000 −0.062** −0.000** −2.457 0.005  
+ (0.030) (0.000) (0.024) (0.000) (3.068) (0.037)  
+ ln𝐸𝑚𝑝𝑙𝑜𝑦𝑚𝑒𝑛𝑡𝑗𝑡 0.013 −0.000 −0.008 −0.000* −0.823 −0.035  
+ (0.022) (0.000) (0.020) (0.000) (2.691) (0.023)  
+ 𝐿𝑒𝑣𝑒𝑟𝑎𝑔𝑒𝑗𝑡 0.045 0.000 0.149* 0.001 −1.171 −0.013  
+ (0.101) (0.000) (0.080) (0.000) (10.290) (0.078)  
+ 𝐶𝑎𝑝𝑖𝑡𝑎𝑙𝑗𝑡 −0.012 0.000 0.009 0.000 −4.228 −0.045  
+ (0.034) (0.000) (0.036) (0.000) (3.813) (0.030)  
+ 𝑅𝑂𝐴𝑗𝑡 0.173 0.001 0.166 0.001 12.452 −0.020  
+ (0.111) (0.001) (0.102) (0.001) (14.945) (0.117)  
+ 𝐶𝑎𝑠ℎ𝑗𝑡 0.040 −0.000 0.014 0.000 9.211 −0.000  
+ (0.078) (0.000) (0.073) (0.000) (9.130) (0.053)  
+ 𝑅&𝐷𝑗𝑡 0.000 −0.000 0.001 −0.000 −0.023 −0.001  
+ (0.002) (0.000) (0.002) (0.000) (0.298) (0.002)  
+ 𝑆𝑂𝐸𝑗𝑡 −0.007 0.000 0.009 0.000 2.375 0.018  
+ (0.020) (0.000) (0.018) (0.000) (2.316) (0.016)  
+ 𝑀𝑎𝑛𝑎𝑔𝑒𝑗𝑡 −0.007 −0.000 −0.034 −0.000 −1.755 −0.082  
+ (0.145) (0.001) (0.147) (0.000) (22.786) (0.141)  
+ ln𝐵𝑜𝑎𝑟𝑑𝑗𝑡 0.057 0.000 −0.009 0.000 3.507 −0.001  
+ (0.058) (0.000) (0.050) (0.000) (6.643) (0.067)  
+ ln𝐴𝑔𝑒𝑖𝑡 −0.030*** −0.000*** −0.050*** −0.000*** 2.244 −0.012  
+ (0.011) (0.000) (0.012) (0.000) (2.488) (0.021)  
+ ln𝐸𝑚𝑝𝑙𝑜𝑦𝑚𝑒𝑛𝑡𝑖𝑡 0.003 −0.000 0.001 −0.000 0.033 −0.001  
+ (0.002) (0.000) (0.002) (0.000) (0.293) (0.002)  
+ 𝐿𝑒𝑣𝑒𝑟𝑎𝑔𝑒𝑖𝑡 0.048 0.000 0.042 0.000 3.918 0.022  
+ (0.032) (0.000) (0.036) (0.000) (5.914) (0.039)  
+ 𝐶𝑎𝑝𝑖𝑡𝑎𝑙𝑖𝑡 −0.011 0.000 0.011 0.000 −2.250 −0.000  
+ (0.010) (0.000) (0.014) (0.000) (1.980) (0.014)  
+ 𝑅𝑂𝐴𝑖𝑡 0.026 0.000 −0.056 −0.000 6.273 0.007  
+ (0.077) (0.000) (0.075) (0.000) (13.304) (0.091)  
+ 𝐶𝑎𝑠ℎ𝑖𝑡 −0.015 0.000 −0.013 0.000 −3.134 0.015  
+ (0.043) (0.000) (0.047) (0.000) (7.064) (0.052)  
+ 𝑅&𝐷𝑖𝑡 −0.000 −0.000 −0.000 −0.000 −0.013 0.000  
+ (0.000) (0.000) (0.001) (0.000) (0.093) (0.001)  
+ 𝑆𝑂𝐸𝑖𝑡 0.023 0.000*** −0.003 0.000 −0.285 −0.018  
+ (0.020) (0.000) (0.019) (0.000) (2.239) (0.014)  
+ 𝑀𝑎𝑛𝑎𝑔𝑒𝑖𝑡 −0.036 0.000 −0.039 0.000 6.410 0.019  
+ (0.065) (0.000) (0.045) (0.000) (4.766) (0.046)  
+ ln𝐵𝑜𝑎𝑟𝑑𝑖𝑡 0.002 −0.000 −0.002 −0.000 −0.628 −0.008  
+ (0.009) (0.000) (0.007) (0.000) (1.183) (0.016)  
+  
+ Supplier FE Yes Yes Yes Yes Yes Yes  
+ Buyer FE Yes Yes Yes Yes Yes Yes  
+ Year FE Yes Yes Yes Yes Yes Yes  
+ Observations 226,831 226,831 226,258 226,258 573 573  
+ Adjusted R2 0.004 0.004 0.003 0.002 −0.018 0.353  
+Notes: This table replicates the intensive margin regressions in Table 12 using the log COI constructed by excluding any institutional investor relationships that 
+appear at or after the establishment of positive supply-chain links between supplier 𝑗 and firm 𝑖 (ln𝐶𝑂𝐼𝑃
+
+𝑗𝑖𝑡). ln𝑉 𝑎𝑙𝑢𝑒𝑗𝑖𝑡 is the log purchase value of firm 𝑖 from 
+supplier 𝑗, and 𝑆ℎ𝑎𝑟𝑒𝑗𝑖𝑡 is the corresponding share in firm 𝑖’s total purchase. Columns (1) and (2) focus on all linkages between firms, Columns (3) and (4) 
+focus on newly formed linkages, where firm 𝑖 did not purchase from supplier 𝑗 at year 𝑡− 1, and Columns (5) and (6) focus on incumbent linkages, where firm 
+𝑖 already purchased from supplier 𝑗 at year 𝑡 − 1. Standard errors in parentheses are clustered by the buyer firm 𝑖. Significance: *, 0.10, **, 0.05, ***, 0.01.
+35 
+
+
+
+Y. Li and C. Zhao Research in International Business and Finance 80 (2025) 103066 
+Table A.13
+Prior common ownership and the extensive margin of supply chain linkages.
+ Logit models Probit models
+ (1) (2) (3) (4) (5) (6)  
+ Dep. Var.: 𝐿𝑖𝑛𝑘𝐷𝑢𝑚𝑗𝑖𝑡 𝐹𝑜𝑟𝑚𝐷𝑢𝑚𝑗𝑖𝑡 𝐵𝑟𝑒𝑎𝑘𝐷𝑢𝑚𝑗𝑖𝑡 𝐿𝑖𝑛𝑘𝐷𝑢𝑚𝑗𝑖𝑡 𝐹𝑜𝑟𝑚𝐷𝑢𝑚𝑗𝑖𝑡 𝐵𝑟𝑒𝑎𝑘𝐷𝑢𝑚𝑗𝑖𝑡 
+ ln𝐶𝑂𝐼𝑃
+
+𝑗𝑖𝑡 13.023*** 13.759*** −2.744 5.318*** 5.920*** −0.931  
+ (2.568) (3.979) (14.071) (1.123) (1.712) (6.484)  
+ ln𝐷𝑖𝑠𝑡𝑎𝑛𝑐𝑒𝑗𝑖𝑡 −0.325*** −0.264*** −0.961 −0.125*** −0.109*** −0.561  
+ (0.037) (0.084) (0.900) (0.014) (0.029) (0.444)  
+ ln𝐴𝑔𝑒𝑗𝑡 −0.187 1.380 −2.473 −0.067 0.396 −1.462  
+ (0.185) (1.415) (2.763) (0.069) (0.415) (1.533)  
+ ln𝐸𝑚𝑝𝑙𝑜𝑦𝑚𝑒𝑛𝑡𝑗𝑡 0.144 −0.536 −2.023 0.043 −0.175 −1.359  
+ (0.137) (0.633) (1.943) (0.051) (0.217) (0.962)  
+ 𝐿𝑒𝑣𝑒𝑟𝑎𝑔𝑒𝑗𝑡 0.243 2.073 10.436 0.126 1.146 5.925  
+ (0.635) (2.981) (11.080) (0.236) (0.907) (5.270)  
+ 𝐶𝑎𝑝𝑖𝑡𝑎𝑙𝑗𝑡 0.030 −1.110 22.411** −0.005 −0.431 13.323***  
+ (0.215) (0.973) (9.484) (0.080) (0.332) (5.051)  
+ 𝑅𝑂𝐴𝑗𝑡 1.568* 10.981** 5.170 0.580* 4.302*** 3.787  
+ (0.906) (4.377) (23.256) (0.327) (1.439) (10.176)  
+ 𝐶𝑎𝑠ℎ𝑗𝑡 0.145 −3.478 −18.080* 0.064 −1.397 −10.788**  
+ (0.547) (2.504) (10.631) (0.202) (0.883) (5.209)  
+ 𝑅&𝐷𝑗𝑡 0.018 −0.089 −0.167 0.006 −0.037 −0.081  
+ (0.022) (0.094) (0.566) (0.008) (0.032) (0.268)  
+ 𝑆𝑂𝐸𝑗𝑡 −0.012 0.886 9.553 −0.005 0.329 4.555  
+ (0.181) (0.638) (15.697) (0.066) (0.223) (7.554)  
+ 𝑀𝑎𝑛𝑎𝑔𝑒𝑗𝑡 0.361 −3.800 67.134 0.191 −1.717 37.033*  
+ (1.434) (6.694) (40.838) (0.527) (2.483) (19.909)  
+ ln𝐵𝑜𝑎𝑟𝑑𝑗𝑡 0.338 −2.579 −34.571*** 0.121 −1.141* −20.353***  
+ (0.391) (1.877) (6.824) (0.146) (0.606) (3.741)  
+ ln𝐴𝑔𝑒𝑖𝑡 −0.203** 0.678 −4.250 −0.078** 0.215 −2.404*  
+ (0.089) (0.652) (2.734) (0.032) (0.217) (1.321)  
+ ln𝐸𝑚𝑝𝑙𝑜𝑦𝑚𝑒𝑛𝑡𝑖𝑡 0.012 0.066 0.074 0.006 0.029 0.070  
+ (0.017) (0.136) (0.527) (0.006) (0.042) (0.250)  
+ 𝐿𝑒𝑣𝑒𝑟𝑎𝑔𝑒𝑖𝑡 0.393 0.278 −19.763*** 0.144 0.021 −11.262***  
+ (0.273) (1.418) (7.407) (0.096) (0.486) (3.887)  
+ 𝐶𝑎𝑝𝑖𝑡𝑎𝑙𝑖𝑡 −0.036 0.474 6.104 −0.020 0.154 3.795  
+ (0.060) (0.728) (5.385) (0.021) (0.243) (2.580)  
+ 𝑅𝑂𝐴𝑖𝑡 0.364 2.659 −43.123** 0.143 1.020 −24.187**  
+ (0.713) (2.802) (21.845) (0.252) (0.921) (10.256)  
+ 𝐶𝑎𝑠ℎ𝑖𝑡 −0.143 2.344 11.850* −0.034 0.933 7.140**  
+ (0.342) (2.120) (6.461) (0.127) (0.703) (3.317)  
+ 𝑅&𝐷𝑖𝑡 −0.001 0.051** 0.064 −0.000 0.021*** 0.040  
+ (0.004) (0.023) (0.382) (0.002) (0.008) (0.187)  
+ 𝑆𝑂𝐸𝑖𝑡 0.131 −0.070 −17.215*** 0.045 −0.076 −6.170***  
+ (0.177) (0.581) (3.108) (0.060) (0.195) (1.425)  
+ 𝑀𝑎𝑛𝑎𝑔𝑒𝑖𝑡 0.048 0.415 1.819 0.019 0.221 1.047  
+ (0.681) (2.322) (10.322) (0.229) (0.788) (5.188)  
+ ln𝐵𝑜𝑎𝑟𝑑𝑖𝑡 −0.018 1.476* 17.367 −0.017 0.528* 9.692  
+ (0.095) (0.830) (16.730) (0.033) (0.286) (8.300)  
+  
+ Supplier FE Yes Yes Yes Yes Yes Yes  
+ Buyer FE Yes Yes Yes Yes Yes Yes  
+ Year FE Yes Yes Yes Yes Yes Yes  
+ Observations 196,961 15,614 193 196,961 15,614 193  
+ Pseudo R2 0.066 0.123 0.467 0.065 0.123 0.470  
+Notes: This table replicates the extensive margin regressions in Table 13 using the log COI constructed by excluding any institutional investor relationships that 
+appear at or after the establishment of supply-chain links between supplier 𝑗 and firm 𝑖 (ln𝐶𝑂𝐼𝑃
+
+𝑗𝑖𝑡). 𝐿𝑖𝑛𝑘𝐷𝑢𝑚𝑗𝑖𝑡 equals 1 if there is a supply-chain linkage between 
+supplier 𝑗 and firm 𝑖 at year 𝑡 and 0 otherwise. 𝐹𝑜𝑟𝑚𝐷𝑢𝑚𝑗𝑖𝑡 equals 1 if firm 𝑖 did not purchase from supplier 𝑗 at year 𝑡 − 1 but purchases from it at year 𝑡
+and 0 otherwise, and 𝐵𝑟𝑒𝑎𝑘𝐷𝑢𝑚𝑗𝑖𝑡 is exactly the opposite. Columns (1)–(3) use the logit model, while Columns (4)–(6) use the probit model. These models drop 
+perfect predictor variables. Standard errors in parentheses are clustered by buyer firm 𝑖. Significance: *, 0.10, **, 0.05, ***, 0.01.
+36 
+
+
+
+Y. Li and C. Zhao Research in International Business and Finance 80 (2025) 103066 
+Table A.14
+Intensive margin regressions with institutional ownership controls.
+ All links New links Incumbent links
+ (1) (2) (3) (4) (5) (6)  
+ Dep. Var.: ln𝑉 𝑎𝑙𝑢𝑒𝑗𝑖𝑡 𝑆ℎ𝑎𝑟𝑒𝑗𝑖𝑡 ln𝑉 𝑎𝑙𝑢𝑒𝑗𝑖𝑡 𝑆ℎ𝑎𝑟𝑒𝑗𝑖𝑡 ln𝑉 𝑎𝑙𝑢𝑒𝑗𝑖𝑡 𝑆ℎ𝑎𝑟𝑒𝑗𝑖𝑡 
+ ln𝐶𝑂𝐼𝑗𝑖𝑡 6.151*** 0.025** 3.211*** 0.010** 27.823** 0.030  
+ (2.230) (0.012) (1.034) (0.004) (13.402) (0.153) 
+ ln𝐷𝑖𝑠𝑡𝑎𝑛𝑐𝑒𝑗𝑖𝑡 −0.057*** −0.000*** −0.034*** −0.000*** −0.717 −0.007  
+ (0.009) (0.000) (0.005) (0.000) (0.774) (0.008)  
+ 𝐼𝑛𝑠𝑂𝑤𝑛𝑃𝑒𝑟𝑗𝑡 −0.024 −0.000 0.031 0.000 0.706 −0.006  
+ (0.047) (0.000) (0.047) (0.000) (5.433) (0.048)  
+ ln𝐻𝐻𝐼𝐼
+
+𝑗𝑡 0.001 0.000 −0.005 −0.000 −0.083 0.001  
+ (0.009) (0.000) (0.009) (0.000) (1.206) (0.007)  
+ 𝑇 𝑜𝑝5_𝐼𝑛𝑠𝑂𝑤𝑛𝑃𝑒𝑟𝑗𝑡 0.063 0.000 0.066* 0.000* −3.021 −0.035  
+ (0.041) (0.000) (0.038) (0.000) (5.446) (0.043)  
+ ln𝐴𝑔𝑒𝑗𝑡 −0.015 0.000 −0.061** −0.000* −2.992 0.004  
+ (0.031) (0.000) (0.027) (0.000) (3.614) (0.038)  
+ ln𝐸𝑚𝑝𝑙𝑜𝑦𝑚𝑒𝑛𝑡𝑗𝑡 0.020 −0.000 −0.004 −0.000 −1.120 −0.038  
+ (0.022) (0.000) (0.020) (0.000) (2.859) (0.025)  
+ 𝐿𝑒𝑣𝑒𝑟𝑎𝑔𝑒𝑗𝑡 0.035 0.000 0.137* 0.000 −0.804 −0.010  
+ (0.101) (0.000) (0.080) (0.000) (10.631) (0.082)  
+ 𝐶𝑎𝑝𝑖𝑡𝑎𝑙𝑗𝑡 −0.004 0.000 0.015 0.000 −4.565 −0.049  
+ (0.034) (0.000) (0.036) (0.000) (3.954) (0.033)  
+ 𝑅𝑂𝐴𝑗𝑡 0.182* 0.001 0.172* 0.001 11.211 −0.028  
+ (0.110) (0.001) (0.103) (0.001) (15.369) (0.117)  
+ 𝐶𝑎𝑠ℎ𝑗𝑡 0.039 −0.000 0.011 0.000 10.073 0.008  
+ (0.078) (0.000) (0.073) (0.000) (9.270) (0.052)  
+ 𝑅&𝐷𝑗𝑡 0.000 −0.000 0.001 −0.000 −0.015 −0.001  
+ (0.002) (0.000) (0.002) (0.000) (0.303) (0.002)  
+ 𝑆𝑂𝐸𝑗𝑡 −0.006 0.000 0.011 0.000 2.398 0.018  
+ (0.020) (0.000) (0.018) (0.000) (2.474) (0.017)  
+ 𝑀𝑎𝑛𝑎𝑔𝑒𝑗𝑡 0.013 −0.000 −0.010 −0.000 −3.746 −0.112  
+ (0.154) (0.001) (0.151) (0.001) (27.177) (0.161)  
+ ln𝐵𝑜𝑎𝑟𝑑𝑗𝑡 0.067 0.000 −0.003 0.000 3.356 −0.001  
+ (0.059) (0.000) (0.050) (0.000) (6.921) (0.069)  
+ 𝐼𝑛𝑠𝑂𝑤𝑛𝑃𝑒𝑟𝑖𝑡 0.011 0.000 −0.006 −0.000 −0.791 −0.009  
+ (0.020) (0.000) (0.018) (0.000) (3.682) (0.031)  
+ ln𝐻𝐻𝐼𝐼
+
+𝑖𝑡 −0.001 −0.000 0.001 0.000 −0.102 0.001  
+ (0.003) (0.000) (0.003) (0.000) (0.476) (0.004)  
+ 𝑇 𝑜𝑝5_𝐼𝑛𝑠𝑂𝑤𝑛𝑃𝑒𝑟𝑖𝑡 −0.002 −0.000 0.011 0.000 −0.483 0.001  
+ (0.020) (0.000) (0.018) (0.000) (2.877) (0.033)  
+ ln𝐴𝑔𝑒𝑖𝑡 −0.030** −0.000*** −0.048*** −0.000*** 1.964 −0.015  
+ (0.012) (0.000) (0.013) (0.000) (2.553) (0.022)  
+ ln𝐸𝑚𝑝𝑙𝑜𝑦𝑚𝑒𝑛𝑡𝑖𝑡 0.002 −0.000 0.000 −0.000 0.137 −0.000  
+ (0.004) (0.000) (0.004) (0.000) (0.502) (0.005)  
+ 𝐿𝑒𝑣𝑒𝑟𝑎𝑔𝑒𝑖𝑡 0.055* 0.000 0.043 0.000 3.956 0.020  
+ (0.032) (0.000) (0.035) (0.000) (5.894) (0.040)  
+ 𝐶𝑎𝑝𝑖𝑡𝑎𝑙𝑖𝑡 −0.012 0.000 0.011 0.000 −2.142 0.001  
+ (0.010) (0.000) (0.014) (0.000) (1.948) (0.014)  
+ 𝑅𝑂𝐴𝑖𝑡 0.024 0.000 −0.056 −0.000 5.793 0.003  
+ (0.079) (0.000) (0.076) (0.000) (13.377) (0.090)  
+ 𝐶𝑎𝑠ℎ𝑖𝑡 −0.019 0.000 −0.016 0.000 −3.219 0.013  
+ (0.043) (0.000) (0.047) (0.000) (7.215) (0.053)  
+ 𝑅&𝐷𝑖𝑡 −0.000 −0.000 −0.000 −0.000 −0.005 0.000  
+ (0.000) (0.000) (0.001) (0.000) (0.094) (0.001)  
+ 𝑆𝑂𝐸𝑖𝑡 0.020 0.000** −0.003 0.000 −0.332 −0.017  
+ (0.020) (0.000) (0.019) (0.000) (2.266) (0.015)  
+ 𝑀𝑎𝑛𝑎𝑔𝑒𝑖𝑡 −0.044 0.000 −0.042 0.000 7.105 0.025  
+ (0.068) (0.000) (0.047) (0.000) (4.892) (0.049)  
+ ln𝐵𝑜𝑎𝑟𝑑𝑖𝑡 0.004 −0.000 −0.001 −0.000 −0.566 −0.007  
+ (0.010) (0.000) (0.007) (0.000) (1.288) (0.016)  
+  
+ Supplier FE Yes Yes Yes Yes Yes Yes  
+ Buyer FE Yes Yes Yes Yes Yes Yes  
+ Year FE Yes Yes Yes Yes Yes Yes  
+ Observations 226,831 226,831 226,258 226,258 573 573  
+ Adjusted R2 0.004 0.004 0.003 0.002 −0.038 0.341  
+Notes: This table replicates the intensive margin regressions in Table 12 with additional institutional ownership controls, including the institutional ownership percentage (𝐼𝑛𝑠𝑂𝑤𝑛𝑃𝑒𝑟), 
+the log HHI of ownership among a firm’s all institutional investors (ln𝐻𝐻𝐼𝐼 ), and its share of total institutional ownership held by its top 5 institutional owners (𝑇 𝑜𝑝5_𝐼𝑛𝑠𝑂𝑤𝑛𝑃𝑒𝑟). 
+Columns (1) and (2) focus on all linkages between firms, Columns (3) and (4) focus on newly formed linkages, where firm 𝑖 did not purchase from supplier 𝑗 at year 𝑡 − 1, and 
+Columns (5) and (6) focus on incumbent linkages, where firm 𝑖 already purchased from supplier 𝑗 at year 𝑡 − 1. Standard errors in parentheses are clustered by the buyer firm 𝑖. 
+Significance: *, 0.10, **, 0.05, ***, 0.01.
+37 
+
+
+
+Y. Li and C. Zhao Research in International Business and Finance 80 (2025) 103066 
+Table A.15
+Extensive margin regressions with institutional ownership controls.
+ Logit models Probit models
+ (1) (2) (3) (4) (5) (6)  
+ Dep. Var.: 𝐿𝑖𝑛𝑘𝐷𝑢𝑚𝑗𝑖𝑡 𝐹𝑜𝑟𝑚𝐷𝑢𝑚𝑗𝑖𝑡 𝐵𝑟𝑒𝑎𝑘𝐷𝑢𝑚𝑗𝑖𝑡 𝐿𝑖𝑛𝑘𝐷𝑢𝑚𝑗𝑖𝑡 𝐹𝑜𝑟𝑚𝐷𝑢𝑚𝑗𝑖𝑡 𝐵𝑟𝑒𝑎𝑘𝐷𝑢𝑚𝑗𝑖𝑡  
+ ln𝐶𝑂𝐼𝑗𝑖𝑡 13.818*** 13.744*** 14.376 5.718*** 5.888*** 7.465  
+ (2.303) (3.853) (21.765) (1.027) (1.617) (10.141)  
+ 𝐼𝑛𝑠𝑂𝑤𝑛𝑃𝑒𝑟𝑗𝑡 −0.270 −2.068 −15544.23*** −0.081 −0.876 −9144.65*** 
+ (0.446) (3.065) (248.626) (0.159) (1.097) (108.411)  
+ ln𝐻𝐻𝐼𝐼
+
+𝑗𝑡 0.005 −0.161 5.600* −0.002 −0.058 3.252**  
+ (0.073) (0.515) (3.158) (0.026) (0.163) (1.626)  
+ 𝑇 𝑜𝑝5_𝐼𝑛𝑠𝑂𝑤𝑛𝑃𝑒𝑟𝑗𝑡 0.366 3.279* 24.021*** 0.115 1.278** 14.119***  
+ (0.302) (1.793) (9.242) (0.111) (0.584) (4.608)  
+ ln𝐷𝑖𝑠𝑡𝑎𝑛𝑐𝑒𝑗𝑖𝑡 −0.324*** −0.270*** −32.692 −0.125*** −0.112*** −19.729  
+ (0.037) (0.083) (34.483) (0.014) (0.029) (15.512)  
+ ln𝐴𝑔𝑒𝑗𝑡 −0.172 1.184 7.477 −0.066 0.331 4.011  
+ (0.191) (1.528) (6.817) (0.072) (0.463) (3.287)  
+ ln𝐸𝑚𝑝𝑙𝑜𝑦𝑚𝑒𝑛𝑡𝑗𝑡 0.178 −0.460 −5.479 0.053 −0.146 −3.385*  
+ (0.140) (0.574) (3.522) (0.052) (0.212) (1.911)  
+ 𝐿𝑒𝑣𝑒𝑟𝑎𝑔𝑒𝑗𝑡 0.236 1.502 24.942 0.121 0.911 14.152  
+ (0.640) (2.835) (19.857) (0.237) (0.876) (9.342)  
+ 𝐶𝑎𝑝𝑖𝑡𝑎𝑙𝑗𝑡 0.107 −0.581 80.252*** 0.018 −0.229 47.120***  
+ (0.214) (0.855) (25.691) (0.080) (0.296) (11.980)  
+ 𝑅𝑂𝐴𝑗𝑡 1.655* 12.700*** −46.851 0.606* 4.981*** −29.447*  
+ (0.911) (3.887) (39.917) (0.327) (1.349) (17.470)  
+ 𝐶𝑎𝑠ℎ𝑗𝑡 0.087 −4.544* −19.292 0.052 −1.803** −11.401  
+ (0.556) (2.456) (15.604) (0.204) (0.867) (7.387)  
+ 𝑅&𝐷𝑗𝑡 0.016 −0.106 −0.828 0.006 −0.042 −0.485  
+ (0.022) (0.100) (0.989) (0.008) (0.033) (0.439)  
+ 𝑆𝑂𝐸𝑗𝑡 −0.006 0.980 63.442* −0.004 0.372* 36.745**  
+ (0.179) (0.645) (35.303) (0.065) (0.223) (16.668)  
+ 𝑀𝑎𝑛𝑎𝑔𝑒𝑗𝑡 0.282 −3.400 61.654 0.151 −1.709 35.800  
+ (1.523) (6.889) (48.517) (0.561) (2.622) (27.416)  
+ ln𝐵𝑜𝑎𝑟𝑑𝑗𝑡 0.373 −2.441 −34.034* 0.147 −1.093* −21.166**  
+ (0.382) (1.651) (19.771) (0.145) (0.574) (9.509)  
+ 𝐼𝑛𝑠𝑂𝑤𝑛𝑃𝑒𝑟𝑖𝑡 0.170 1.842 48.000** 0.060 0.582 28.739**  
+ (0.197) (1.596) (22.171) (0.069) (0.541) (11.337)  
+ ln𝐻𝐻𝐼𝐼
+
+𝑖𝑡 −0.024 −0.199 −7.347*** −0.007 −0.063 −4.421***  
+ (0.026) (0.214) (2.711) (0.009) (0.071) (1.348)  
+ 𝑇 𝑜𝑝5_𝐼𝑛𝑠𝑂𝑤𝑛𝑃𝑒𝑟𝑖𝑡 −0.026 −0.032 −65.238*** −0.000 −0.001 −39.177***  
+ (0.157) (1.173) (20.896) (0.055) (0.384) (10.821)  
+ ln𝐴𝑔𝑒𝑖𝑡 −0.209** 0.519 −12.049** −0.079** 0.162 −7.038***  
+ (0.093) (0.684) (5.768) (0.033) (0.231) (2.647)  
+ ln𝐸𝑚𝑝𝑙𝑜𝑦𝑚𝑒𝑛𝑡𝑖𝑡 −0.007 −0.168 −1.420 −0.002 −0.046 −0.841  
+ (0.032) (0.228) (1.836) (0.012) (0.074) (0.936)  
+ 𝐿𝑒𝑣𝑒𝑟𝑎𝑔𝑒𝑖𝑡 0.462 0.803 −44.424** 0.165* 0.207 −25.925***  
+ (0.282) (1.516) (22.534) (0.098) (0.516) (10.001)  
+ 𝐶𝑎𝑝𝑖𝑡𝑎𝑙𝑖𝑡 −0.058 0.351 30.811** −0.028 0.115 18.667***  
+ (0.064) (0.759) (13.857) (0.022) (0.260) (6.731)  
+ 𝑅𝑂𝐴𝑖𝑡 0.304 3.389 −48.680* 0.130 1.265 −28.350**  
+ (0.715) (2.859) (25.620) (0.252) (0.936) (14.232)  
+ 𝐶𝑎𝑠ℎ𝑖𝑡 −0.155 2.380 22.849* −0.041 1.004 13.672**  
+ (0.345) (2.154) (12.558) (0.128) (0.704) (5.590)  
+ 𝑅&𝐷𝑖𝑡 −0.001 0.058** −0.837 −0.001 0.023*** −0.530  
+ (0.004) (0.023) (1.067) (0.002) (0.008) (0.485)  
+ 𝑆𝑂𝐸𝑖𝑡 0.109 −0.105 −12.378 0.037 −0.093 −1.915  
+ (0.180) (0.594) (74.475) (0.062) (0.198) (3.304)  
+ 𝑀𝑎𝑛𝑎𝑔𝑒𝑖𝑡 −0.007 1.493 2810.906*** 0.001 0.520 1663.582*** 
+ (0.692) (3.122) (744.388) (0.235) (1.053) (355.657)  
+ ln𝐵𝑜𝑎𝑟𝑑𝑖𝑡 −0.013 1.686** 47.061* −0.014 0.604** 26.474**  
+ (0.094) (0.847) (27.416) (0.033) (0.285) (11.468)  
+  
+ Supplier FE Yes Yes Yes Yes Yes Yes  
+ Buyer FE Yes Yes Yes Yes Yes Yes  
+ Year FE Yes Yes Yes Yes Yes Yes  
+ Observations 196,980 15,631 193 196,980 15,631 193  
+ Pseudo R2 0.068 0.132 0.674 0.067 0.132 0.679  
+Notes: This table replicates the extensive margin regressions in Table 13 with additional institutional ownership controls, including the institutional 
+ownership percentage (𝐼𝑛𝑠𝑂𝑤𝑛𝑃𝑒𝑟), the log HHI of ownership among a firm’s all institutional investors (ln𝐻𝐻𝐼𝐼 ), and its share of total institutional 
+ownership held by its top 5 institutional owners (𝑇 𝑜𝑝5_𝐼𝑛𝑠𝑂𝑤𝑛𝑃𝑒𝑟). 𝐿𝑖𝑛𝑘𝐷𝑢𝑚𝑗𝑖𝑡 equals 1 if there is a supply-chain linkage between supplier 𝑗 and 
+firm 𝑖 at year 𝑡 and 0 otherwise. 𝐹𝑜𝑟𝑚𝐷𝑢𝑚𝑗𝑖𝑡 equals 1 if firm 𝑖 did not purchase from supplier 𝑗 at year 𝑡− 1 but purchases from it at year 𝑡 and 
+0 otherwise, and 𝐵𝑟𝑒𝑎𝑘𝐷𝑢𝑚𝑗𝑖𝑡 is exactly the opposite. Columns (1)–(3) use the logit model, while Columns (4)–(6) use the probit model. These 
+models drop perfect predictor variables. Standard errors in parentheses are clustered by buyer firm 𝑖. Significance: *, 0.10, **, 0.05, ***, 0.01.
+38 
+
+
+
+Y. Li and C. Zhao Research in International Business and Finance 80 (2025) 103066 
+Table A.16
+Robustness for Table 12: corrected common ownership index.
+ All links New links Incumbent links
+ (1) (2) (3) (4) (5) (6)  
+ Dep. Var.: ln𝑉 𝑎𝑙𝑢𝑒𝑗𝑖𝑡 𝑆ℎ𝑎𝑟𝑒𝑗𝑖𝑡 ln𝑉 𝑎𝑙𝑢𝑒𝑗𝑖𝑡 𝑆ℎ𝑎𝑟𝑒𝑗𝑖𝑡 ln𝑉 𝑎𝑙𝑢𝑒𝑗𝑖𝑡 𝑆ℎ𝑎𝑟𝑒𝑗𝑖𝑡  
+ ln𝐶𝐶𝑂𝐼𝑗𝑖𝑡 17.031*** 6.966** 8.989*** 2.994** 54.812** 2.908  
+ (5.981) (3.288) (2.859) (1.204) (24.236) (29.560) 
+ ln𝐷𝑖𝑠𝑡𝑎𝑛𝑐𝑒𝑗𝑖𝑡 −0.056*** −0.024*** −0.034*** −0.012*** −0.766 −0.801  
+ (0.009) (0.005) (0.005) (0.002) (0.750) (0.747)  
+ ln𝐴𝑔𝑒𝑗𝑡 −0.020 −0.002 −0.061** −0.023* −2.475 0.547  
+ (0.030) (0.015) (0.024) (0.012) (3.074) (3.656)  
+ ln𝐸𝑚𝑝𝑙𝑜𝑦𝑚𝑒𝑛𝑡𝑗𝑡 0.010 −0.012 −0.010 −0.016* −0.865 −3.492  
+ (0.022) (0.011) (0.020) (0.009) (2.666) (2.316)  
+ 𝐿𝑒𝑣𝑒𝑟𝑎𝑔𝑒𝑗𝑡 0.059 0.013 0.155* 0.053 −0.896 −1.277  
+ (0.100) (0.044) (0.080) (0.033) (10.280) (7.829)  
+ 𝐶𝑎𝑝𝑖𝑡𝑎𝑙𝑗𝑡 −0.016 −0.001 0.006 0.003 −4.287 −4.505  
+ (0.034) (0.019) (0.036) (0.018) (3.790) (3.018)  
+ 𝑅𝑂𝐴𝑗𝑡 0.174 0.066 0.165 0.087 12.492 −2.081  
+ (0.111) (0.058) (0.102) (0.059) (14.996) (11.757)  
+ 𝐶𝑎𝑠ℎ𝑗𝑡 0.042 −0.001 0.015 0.009 9.195 −0.056  
+ (0.078) (0.039) (0.073) (0.038) (9.164) (5.290)  
+ 𝑅&𝐷𝑗𝑡 −0.000 −0.001 0.000 −0.000 −0.024 −0.143  
+ (0.002) (0.001) (0.002) (0.001) (0.298) (0.229)  
+ 𝑆𝑂𝐸𝑗𝑡 −0.006 0.003 0.010 0.011 2.390 1.764  
+ (0.020) (0.009) (0.018) (0.008) (2.318) (1.590)  
+ 𝑀𝑎𝑛𝑎𝑔𝑒𝑗𝑡 −0.003 −0.016 −0.031 −0.022 −1.769 −8.269  
+ (0.145) (0.052) (0.147) (0.048) (22.768) (14.152)  
+ ln𝐵𝑜𝑎𝑟𝑑𝑗𝑡 0.051 0.026 −0.012 0.003 3.507 −0.121  
+ (0.058) (0.031) (0.050) (0.023) (6.634) (6.670)  
+ ln𝐴𝑔𝑒𝑖𝑡 −0.033*** −0.026*** −0.052*** −0.030*** 2.208 −1.248  
+ (0.011) (0.007) (0.012) (0.007) (2.487) (2.081)  
+ ln𝐸𝑚𝑝𝑙𝑜𝑦𝑚𝑒𝑛𝑡𝑖𝑡 0.003 −0.001 0.001 −0.000 0.038 −0.096  
+ (0.002) (0.001) (0.002) (0.001) (0.293) (0.215)  
+ 𝐿𝑒𝑣𝑒𝑟𝑎𝑔𝑒𝑖𝑡 0.053* 0.006 0.045 0.008 3.927 2.172  
+ (0.032) (0.020) (0.035) (0.020) (5.907) (3.888)  
+ 𝐶𝑎𝑝𝑖𝑡𝑎𝑙𝑖𝑡 −0.010 0.002 0.011 0.004 −2.217 −0.013  
+ (0.010) (0.008) (0.014) (0.005) (1.979) (1.379)  
+ 𝑅𝑂𝐴𝑖𝑡 0.020 0.014 −0.061 −0.040 6.238 0.707  
+ (0.073) (0.044) (0.074) (0.038) (13.296) (9.113)  
+ 𝐶𝑎𝑠ℎ𝑖𝑡 −0.017 0.023 −0.014 0.006 −3.189 1.475  
+ (0.043) (0.027) (0.047) (0.026) (7.063) (5.225)  
+ 𝑅&𝐷𝑖𝑡 −0.000 −0.000 −0.000 −0.000 −0.013 0.016  
+ (0.000) (0.000) (0.001) (0.000) (0.093) (0.070)  
+ 𝑆𝑂𝐸𝑖𝑡 0.022 0.016*** −0.003 0.007 −0.288 −1.775  
+ (0.020) (0.006) (0.019) (0.006) (2.244) (1.447)  
+ 𝑀𝑎𝑛𝑎𝑔𝑒𝑖𝑡 −0.017 0.015 −0.031 0.007 6.343 1.869  
+ (0.059) (0.037) (0.044) (0.022) (4.744) (4.596)  
+ ln𝐵𝑜𝑎𝑟𝑑𝑖𝑡 0.001 −0.001 −0.003 −0.003 −0.629 −0.760  
+ (0.009) (0.006) (0.007) (0.005) (1.184) (1.572)  
+  
+ Supplier FE Yes Yes Yes Yes Yes Yes  
+ Buyer FE Yes Yes Yes Yes Yes Yes  
+ Year FE Yes Yes Yes Yes Yes Yes  
+ Observations 226,831 226,831 226,258 226,258 573 573  
+ Adjusted R2 0.005 0.005 0.003 0.002 −0.018 0.353  
+Notes: This table corrects the COI to account for unobserved investors and replicates the regressions in Table 12. Standard errors in parentheses 
+are clustered by the buyer firm 𝑖. Significance: *, 0.10, **, 0.05, ***, 0.01.
+39 
+
+
+
+Y. Li and C. Zhao Research in International Business and Finance 80 (2025) 103066 
+Table A.17
+Robustness for Table 13: corrected common ownership index.
+ Logit models Probit models
+ (1) (2) (3) (4) (5) (6)  
+ Dep. Var.: 𝐿𝑖𝑛𝑘𝐷𝑢𝑚𝑗𝑖𝑡 𝐹𝑜𝑟𝑚𝐷𝑢𝑚𝑗𝑖𝑡 𝐵𝑟𝑒𝑎𝑘𝐷𝑢𝑚𝑗𝑖𝑡 𝐿𝑖𝑛𝑘𝐷𝑢𝑚𝑗𝑖𝑡 𝐹𝑜𝑟𝑚𝐷𝑢𝑚𝑗𝑖𝑡 𝐵𝑟𝑒𝑎𝑘𝐷𝑢𝑚𝑗𝑖𝑡 
+ ln𝐶𝐶𝑂𝐼𝑗𝑖𝑡 29.314*** 30.020*** −0.812 12.553*** 13.134*** 0.659  
+ (4.956) (8.337) (26.069) (2.226) (3.370) (11.829)  
+ ln𝐷𝑖𝑠𝑡𝑎𝑛𝑐𝑒𝑗𝑖𝑡 −0.323*** −0.264*** −1.051 −0.125*** −0.110*** −0.608  
+ (0.037) (0.084) (0.872) (0.014) (0.030) (0.428)  
+ ln𝐴𝑔𝑒𝑗𝑡 −0.201 1.391 −2.409 −0.071 0.416 −1.430  
+ (0.185) (1.373) (2.762) (0.069) (0.411) (1.524)  
+ ln𝐸𝑚𝑝𝑙𝑜𝑦𝑚𝑒𝑛𝑡𝑗𝑡 0.135 −0.681 −2.130 0.037 −0.233 −1.410  
+ (0.137) (0.663) (1.910) (0.051) (0.226) (0.943)  
+ 𝐿𝑒𝑣𝑒𝑟𝑎𝑔𝑒𝑗𝑡 0.322 2.689 10.651 0.159 1.363 6.027  
+ (0.634) (3.003) (11.180) (0.235) (0.918) (5.284)  
+ 𝐶𝑎𝑝𝑖𝑡𝑎𝑙𝑗𝑡 0.053 −0.864 22.471** −0.002 −0.339 13.332***  
+ (0.211) (0.958) (9.569) (0.079) (0.312) (5.075)  
+ 𝑅𝑂𝐴𝑗𝑡 1.527* 11.488*** 5.798 0.578* 4.510*** 4.067  
+ (0.907) (4.250) (23.239) (0.327) (1.448) (10.188)  
+ 𝐶𝑎𝑠ℎ𝑗𝑡 0.122 −3.709 −17.765* 0.062 −1.470* −10.618**  
+ (0.554) (2.503) (10.764) (0.203) (0.892) (5.253)  
+ 𝑅&𝐷𝑗𝑡 0.016 −0.091 −0.153 0.005 −0.038 −0.074  
+ (0.022) (0.095) (0.565) (0.008) (0.032) (0.268)  
+ 𝑆𝑂𝐸𝑗𝑡 −0.004 0.892 9.698 −0.003 0.336 4.643  
+ (0.180) (0.646) (15.732) (0.066) (0.224) (7.556)  
+ 𝑀𝑎𝑛𝑎𝑔𝑒𝑗𝑡 0.361 −3.918 67.751* 0.192 −1.867 37.350*  
+ (1.437) (6.698) (41.038) (0.527) (2.499) (19.956)  
+ ln𝐵𝑜𝑎𝑟𝑑𝑗𝑡 0.295 −2.663 −34.540*** 0.117 −1.190** −20.333***  
+ (0.380) (1.685) (6.882) (0.144) (0.576) (3.742)  
+ ln𝐴𝑔𝑒𝑖𝑡 −0.201** 0.682 −4.211 −0.078** 0.214 −2.386*  
+ (0.088) (0.654) (2.725) (0.031) (0.217) (1.319)  
+ ln𝐸𝑚𝑝𝑙𝑜𝑦𝑚𝑒𝑛𝑡𝑖𝑡 0.013 0.069 0.076 0.006 0.029 0.070  
+ (0.017) (0.136) (0.527) (0.006) (0.042) (0.250)  
+ 𝐿𝑒𝑣𝑒𝑟𝑎𝑔𝑒𝑖𝑡 0.426 0.241 −19.923*** 0.151 0.014 −11.341***  
+ (0.271) (1.420) (7.452) (0.095) (0.487) (3.905)  
+ 𝐶𝑎𝑝𝑖𝑡𝑎𝑙𝑖𝑡 −0.037 0.469 6.196 −0.020 0.160 3.838  
+ (0.062) (0.739) (5.374) (0.021) (0.243) (2.576)  
+ 𝑅𝑂𝐴𝑖𝑡 0.336 2.641 −43.090** 0.132 1.010 −24.262**  
+ (0.694) (2.804) (21.546) (0.244) (0.924) (10.258)  
+ 𝐶𝑎𝑠ℎ𝑖𝑡 −0.166 2.457 11.736* −0.041 0.969 7.097**  
+ (0.342) (2.137) (6.395) (0.126) (0.702) (3.287)  
+ 𝑅&𝐷𝑖𝑡 −0.002 0.051** 0.069 −0.001 0.021*** 0.041  
+ (0.004) (0.023) (0.378) (0.002) (0.008) (0.185)  
+ 𝑆𝑂𝐸𝑖𝑡 0.123 −0.074 −17.176*** 0.042 −0.076 −6.149***  
+ (0.177) (0.590) (3.096) (0.061) (0.196) (1.422)  
+ 𝑀𝑎𝑛𝑎𝑔𝑒𝑖𝑡 0.094 0.776 1.783 0.033 0.400 1.028  
+ (0.660) (2.314) (10.319) (0.221) (0.766) (5.187)  
+ ln𝐵𝑜𝑎𝑟𝑑𝑖𝑡 −0.021 1.485* 17.756 −0.017 0.545* 9.878  
+ (0.093) (0.864) (16.841) (0.032) (0.320) (8.332)  
+  
+ Supplier FE Yes Yes Yes Yes Yes Yes  
+ Buyer FE Yes Yes Yes Yes Yes Yes  
+ Year FE Yes Yes Yes Yes Yes Yes  
+ Observations 196,980 15,631 193 196,980 15,631 193  
+ Pseudo R2 0.068 0.129 0.467 0.067 0.129 0.470  
+Notes: This table corrects the COI to account for unobserved investors and replicates the regressions in Table 13. Standard errors 
+in parentheses are clustered by the buyer firm 𝑖. Significance: *, 0.10, **, 0.05, ***, 0.01.
+40 
+
+
+
+Y. Li and C. Zhao Research in International Business and Finance 80 (2025) 103066 
+Table A.18
+Robustness for Table 14: corrected common ownership index.
+ Intensive margin Extensive margin
+ Transaction costs of supplier 𝑗 Transaction costs of firm 𝑖 Transaction costs of supplier 𝑗 Transaction costs of firm 𝑖
+ High Low High Low High Low High Low  
+ (1) (2) (3) (4) (5) (6) (7) (8)  
+ Dep. Var.: ln𝑉 𝑎𝑙𝑢𝑒𝑗𝑖𝑡 ln𝑉 𝑎𝑙𝑢𝑒𝑗𝑖𝑡 ln𝑉 𝑎𝑙𝑢𝑒𝑗𝑖𝑡 ln𝑉 𝑎𝑙𝑢𝑒𝑗𝑖𝑡 𝐿𝑖𝑛𝑘𝐷𝑢𝑚𝑗𝑖𝑡 𝐿𝑖𝑛𝑘𝐷𝑢𝑚𝑗𝑖𝑡 𝐿𝑖𝑛𝑘𝐷𝑢𝑚𝑗𝑖𝑡 𝐿𝑖𝑛𝑘𝐷𝑢𝑚𝑗𝑖𝑡  
+ ln𝐶𝐶𝑂𝐼𝑗𝑖𝑡 24.282*** 9.901* 23.206*** 9.396 36.661*** 26.660*** 35.338*** 24.675**  
+ (8.802) (5.125) (8.375) (6.732) (5.285) (5.099) (4.909) (9.885)  
+ ln𝐷𝑖𝑠𝑡𝑎𝑛𝑐𝑒𝑗𝑖𝑡 −0.057*** −0.056*** −0.046*** −0.069*** −0.338*** −0.306*** −0.288*** −0.379***  
+ (0.012) (0.010) (0.009) (0.013) (0.050) (0.044) (0.046) (0.052)  
+ ln𝐴𝑔𝑒𝑗𝑡 −0.020 −0.034 −0.013 −0.025 −0.196 −0.183 −0.152 −0.213  
+ (0.041) (0.044) (0.045) (0.047) (0.279) (0.242) (0.306) (0.248)  
+ ln𝐸𝑚𝑝𝑙𝑜𝑦𝑚𝑒𝑛𝑡𝑗𝑡 −0.004 0.016 −0.029 0.067** 0.100 0.095 −0.016 0.203  
+ (0.028) (0.038) (0.030) (0.033) (0.210) (0.233) (0.174) (0.247)  
+ 𝐿𝑒𝑣𝑒𝑟𝑎𝑔𝑒𝑗𝑡 0.041 0.152 0.009 0.151 0.293 0.452 0.155 1.568  
+ (0.126) (0.155) (0.141) (0.147) (0.835) (0.996) (0.853) (1.160)  
+ 𝐶𝑎𝑝𝑖𝑡𝑎𝑗𝑡 0.052 −0.019 0.002 −0.038 0.137 −0.062 0.038 −0.113  
+ (0.087) (0.047) (0.053) (0.060) (0.307) (0.330) (0.277) (0.411)  
+ 𝑅𝑂𝐴𝑗𝑡 0.060 0.317* −0.008 0.354** 0.612 2.395* −0.344 4.746***  
+ (0.148) (0.166) (0.172) (0.144) (1.270) (1.393) (1.274) (1.488)  
+ 𝐶𝑎𝑠ℎ𝑗𝑡 0.064 0.002 0.092 0.021 0.287 −0.076 0.823 −0.365  
+ (0.111) (0.109) (0.113) (0.126) (0.941) (0.720) (1.005) (0.860)  
+ 𝑅&𝐷𝑗𝑡 0.001 −0.002 0.004 −0.003 0.029 −0.024 0.047 −0.018  
+ (0.003) (0.004) (0.003) (0.003) (0.034) (0.039) (0.034) (0.042)  
+ 𝑆𝑂𝐸𝑗𝑡 −0.001 −0.001 0.017 −0.028 −0.000 0.057 0.201 0.002  
+ (0.025) (0.029) (0.025) (0.031) (0.345) (0.215) (0.258) (0.259)  
+ 𝑀𝑎𝑛𝑎𝑔𝑒𝑗𝑡 −0.050 −0.106 0.024 −0.173 −0.795 −0.879 0.131 0.136  
+ (0.186) (0.368) (0.246) (0.127) (2.432) (2.357) (2.098) (1.849)  
+ ln𝐵𝑜𝑎𝑟𝑑𝑗𝑡 0.082 0.018 0.043 0.055 0.517 0.113 0.381 0.147  
+ (0.089) (0.093) (0.082) (0.094) (0.590) (0.444) (0.535) (0.491)  
+ ln𝐴𝑔𝑒𝑖𝑡 −0.023 −0.024 −0.035** −0.038** −0.008 −0.114 −0.229* −0.361**  
+ (0.018) (0.024) (0.016) (0.016) (0.164) (0.184) (0.129) (0.155)  
+ ln𝐸𝑚𝑝𝑙𝑜𝑦𝑚𝑒𝑛𝑡𝑖𝑡 0.006* 0.000 0.007** 0.003 0.051 −0.016 0.032 0.012  
+ (0.003) (0.004) (0.003) (0.003) (0.038) (0.032) (0.029) (0.024)  
+ 𝐿𝑒𝑣𝑒𝑟𝑎𝑔𝑒𝑖𝑡 −0.043 0.145** 0.089** 0.058 −0.489 0.963** 0.708* 0.127  
+ (0.057) (0.071) (0.043) (0.055) (0.532) (0.487) (0.393) (0.461)  
+ 𝐶𝑎𝑝𝑖𝑡𝑎𝑙𝑖𝑡 0.000 −0.028 −0.040 −0.015 0.008 −0.130 −0.059 −0.169  
+ (0.014) (0.026) (0.052) (0.019) (0.104) (0.146) (0.423) (0.143)  
+ 𝑅𝑂𝐴𝑖𝑡 −0.023 0.014 0.098 −0.005 −0.126 0.273 0.908 0.268  
+ (0.126) (0.131) (0.111) (0.129) (1.259) (0.986) (1.053) (1.250)  
+ 𝐶𝑎𝑠ℎ𝑖𝑡 0.036 −0.086 −0.041 0.011 −0.082 −0.512 −0.319 0.115  
+ (0.060) (0.084) (0.071) (0.063) (0.617) (0.538) (0.573) (0.491)  
+ 𝑅&𝐷𝑖𝑡 0.001* −0.001 −0.000 −0.002 0.010 −0.014 0.000 −0.044  
+ (0.001) (0.001) (0.001) (0.002) (0.007) (0.009) (0.005) (0.031)  
+ 𝑆𝑂𝐸𝑖𝑡 0.031 0.015 0.004 0.047 0.192 0.115 0.000 0.507  
+ (0.024) (0.032) (0.017) (0.040) (0.277) (0.248) (0.131) (0.472)  
+ 𝑀𝑎𝑛𝑎𝑔𝑒𝑖𝑡 −0.117 0.080 −0.048 −0.021 −0.841 0.804 0.052 −0.153  
+ (0.118) (0.114) (0.075) (0.107) (0.904) (0.992) (0.806) (1.095)  
+ ln𝐵𝑜𝑎𝑟𝑑𝑖𝑡 0.004 −0.006 −0.005 0.004 −0.016 −0.038 −0.070 0.043  
+ (0.022) (0.019) (0.021) (0.013) (0.244) (0.155) (0.220) (0.111)  
+  
+ Supplier FE Yes Yes Yes Yes Yes Yes Yes Yes  
+ Buyer FE Yes Yes Yes Yes Yes Yes Yes Yes  
+ Year FE Yes Yes Yes Yes Yes Yes Yes Yes  
+ Observations 113,390 113,440 113,387 113,444 64,380 80,699 70,574 64,870  
+ Adjusted R2 0.009 0.009 0.008 0.008  
+ Pseudo R2 0.088 0.048 0.082 0.076  
+Notes: This table corrects the COI to account for unobserved investors and replicates the regressions in Table 14. The dependent variable in Columns (1)–(4) is 
+the log purchase value of firm 𝑖 from supplier 𝑗 (ln𝑉 𝑎𝑙𝑢𝑒𝑗𝑖𝑡), while that in Columns (5)–(8) is the linkage indicator (𝐿𝑖𝑛𝑘𝐷𝑢𝑚𝑗𝑖𝑡). Columns (5)–(8) use the logit 
+model and drop perfect predictor variables, leaving fewer observations than Columns (1)–(4). Standard errors in parentheses are clustered by the buyer firm 𝑖. 
+Significance: *, 0.10, **, 0.05, ***, 0.01.
+41 
+
+
+
+Y. Li and C. Zhao Research in International Business and Finance 80 (2025) 103066 
+Table A.19
+Robustness for Table 15: corrected common ownership index.
+ Intensive margin Extensive margin
+ Are supplier 𝑗’s auditors Are firm 𝑖’s auditors from Are supplier 𝑗’s auditors Are firm 𝑖’s auditors from 
+
+from the Big 4? the Big 4? from the Big 4? the Big 4?
+ No Yes No Yes No Yes No Yes  
+ (1) (2) (3) (4) (5) (6) (7) (8)  
+ Dep. Var.: ln𝑉 𝑎𝑙𝑢𝑒𝑗𝑖𝑡 ln𝑉 𝑎𝑙𝑢𝑒𝑗𝑖𝑡 ln𝑉 𝑎𝑙𝑢𝑒𝑗𝑖𝑡 ln𝑉 𝑎𝑙𝑢𝑒𝑗𝑖𝑡 𝐿𝑖𝑛𝑘𝐷𝑢𝑚𝑗𝑖𝑡 𝐿𝑖𝑛𝑘𝐷𝑢𝑚𝑗𝑖𝑡 𝐿𝑖𝑛𝑘𝐷𝑢𝑚𝑗𝑖𝑡 𝐿𝑖𝑛𝑘𝐷𝑢𝑚𝑗𝑖𝑡  
+ ln𝐶𝐶𝑂𝐼𝑗𝑖𝑡 31.289*** 7.984 25.845** 7.974 48.659*** 13.868 45.504*** 7.460  
+ (11.451) (8.830) (10.400) (9.440) (6.953) (16.707) (8.143) (11.904)  
+ ln𝐷𝑖𝑠𝑡𝑎𝑛𝑐𝑒𝑗𝑖𝑡 −0.053*** −0.076*** −0.058*** −0.043** −0.342*** −0.326*** −0.334*** −0.266**  
+ (0.008) (0.027) (0.009) (0.020) (0.037) (0.094) (0.039) (0.125)  
+ ln𝐴𝑔𝑒𝑗𝑡 −0.028 0.004 −0.035 0.206** −0.234 −0.486 −0.280 3.009***  
+ (0.027) (0.164) (0.032) (0.088) (0.183) (0.622) (0.189) (1.123)  
+ ln𝐸𝑚𝑝𝑙𝑜𝑦𝑚𝑒𝑛𝑡𝑗𝑡 0.017 0.023 0.010 −0.020 0.142 −0.013 0.120 −2.394*  
+ (0.016) (0.103) (0.017) (0.061) (0.149) (0.507) (0.134) (1.266)  
+ 𝐿𝑒𝑣𝑒𝑟𝑎𝑔𝑒𝑗𝑡 0.079 −0.104 0.063 −0.000 0.381 0.219 0.281 3.955  
+ (0.095) (0.519) (0.101) (0.423) (0.647) (2.481) (0.646) (5.243)  
+ 𝐶𝑎𝑝𝑖𝑡𝑎𝑙𝑗𝑡 −0.032 0.018 −0.008 −0.150 −0.097 −0.130 0.089 −4.018*  
+ (0.046) (0.136) (0.032) (0.120) (0.327) (0.692) (0.204) (2.135)  
+ 𝑅𝑂𝐴𝑗𝑡 0.117 1.609* 0.170 0.444 1.338 7.850* 1.359 22.703*  
+ (0.105) (0.922) (0.110) (0.496) (0.935) (4.633) (0.921) (13.699)  
+ 𝐶𝑎𝑠ℎ𝑗𝑡 0.026 −0.270 0.025 0.381 0.107 −0.567 0.048 1.146  
+ (0.078) (0.455) (0.078) (0.389) (0.585) (2.555) (0.555) (6.703)  
+ 𝑅&𝐷𝑗𝑡 −0.001 −0.011 0.001 −0.011 0.003 −0.021 0.016 −0.028  
+ (0.002) (0.014) (0.002) (0.009) (0.025) (0.063) (0.023) (0.196)  
+ 𝑆𝑂𝐸𝑗𝑡 −0.005 0.121 0.005 −0.129 −0.003 0.501 0.057 −1.902  
+ (0.020) (0.134) (0.019) (0.122) (0.203) (0.537) (0.178) (1.807)  
+ 𝑀𝑎𝑛𝑎𝑔𝑒𝑗𝑡 −0.004 1.088 −0.050 −0.198 0.057 −7.357 −0.336 103.301  
+ (0.140) (1.246) (0.143) (0.265) (1.430) (8.448) (1.421) (84.863)  
+ ln𝐵𝑜𝑎𝑟𝑑𝑗𝑡 −0.021 0.274 0.004 0.388* −0.207 0.920 −0.056 2.941  
+ (0.042) (0.182) (0.045) (0.208) (0.389) (0.925) (0.350) (2.874)  
+ ln𝐴𝑔𝑒𝑖𝑡 −0.032** −0.012 −0.032*** −0.081** −0.205* −0.037 −0.184** −2.537***  
+ (0.014) (0.048) (0.011) (0.030) (0.108) (0.275) (0.089) (0.717)  
+ ln𝐸𝑚𝑝𝑙𝑜𝑦𝑚𝑒𝑛𝑡𝑖𝑡 0.003 0.004 0.003* −0.074 0.008 0.027 0.014 −0.883  
+ (0.002) (0.008) (0.002) (0.045) (0.022) (0.052) (0.017) (0.724)  
+ 𝐿𝑒𝑣𝑒𝑟𝑎𝑔𝑒𝑖𝑡 0.022 0.214 0.049 0.078 0.199 1.670* 0.424 0.520  
+ (0.038) (0.155) (0.033) (0.120) (0.327) (0.943) (0.283) (2.224)  
+ 𝐶𝑎𝑝𝑖𝑡𝑎𝑙𝑖𝑡 0.002 −0.072 −0.012 −0.054 0.052 −0.354** −0.051 −0.774  
+ (0.013) (0.062) (0.011) (0.034) (0.078) (0.157) (0.079) (0.489)  
+ 𝑅𝑂𝐴𝑖𝑡 0.029 −0.051 0.028 −0.236 0.496 0.275 0.380 −1.785  
+ (0.078) (0.253) (0.076) (0.466) (0.747) (2.089) (0.720) (6.640)  
+ 𝐶𝑎𝑠ℎ𝑖𝑡 −0.034 0.080 −0.021 0.041 −0.318 0.032 −0.235 −0.667  
+ (0.049) (0.141) (0.045) (0.172) (0.454) (0.750) (0.354) (2.203)  
+ 𝑅&𝐷𝑖𝑡 −0.001 0.003 −0.000 −0.000 −0.006 0.032** −0.002 −0.021*  
+ (0.001) (0.002) (0.001) (0.001) (0.007) (0.015) (0.006) (0.011)  
+ 𝑆𝑂𝐸𝑖𝑡 0.039** −0.097 0.016 0.241*** 0.298 −0.552 0.081 19.111***  
+ (0.018) (0.077) (0.021) (0.066) (0.183) (0.410) (0.177) (1.240)  
+ 𝑀𝑎𝑛𝑎𝑔𝑒𝑖𝑡 −0.009 −0.042 −0.024 35.914*** 0.094 −2.515 0.039 797.794***  
+ (0.064) (0.128) (0.058) (5.435) (0.656) (2.731) (0.633) (172.995)  
+ ln𝐵𝑜𝑎𝑟𝑑𝑖𝑡 −0.008 0.035 −0.001 −0.574** −0.069 0.636* −0.027 −20.379***  
+ (0.010) (0.028) (0.009) (0.247) (0.103) (0.333) (0.096) (5.120)  
+  
+ Supplier FE Yes Yes Yes Yes Yes Yes Yes Yes  
+ Buyer FE Yes Yes Yes Yes Yes Yes Yes Yes  
+ Year FE Yes Yes Yes Yes Yes Yes Yes Yes  
+ Observations 198043 30853 217580 11316 158129 9698 184833 1190  
+ Adjusted R2 0.006 0.017 0.005 0.034  
+ Pseudo R2 0.073 0.098 0.070 0.176  
+Notes: This table corrects the COI to account for unobserved investors and replicates the regressions in Table 15. The dependent variable in Columns (1)–(4) is 
+the log purchase value of firm 𝑖 from supplier 𝑗 (ln𝑉 𝑎𝑙𝑢𝑒𝑗𝑖𝑡), while that in Columns (5)–(8) is the linkage indicator (𝐿𝑖𝑛𝑘𝐷𝑢𝑚𝑗𝑖𝑡). Columns (5)–(8) use the logit 
+model and drop perfect predictor variables, leaving fewer observations than Columns (1)–(4). Standard errors in parentheses are clustered by the buyer firm 𝑖. 
+Significance: *, 0.10, **, 0.05, ***, 0.01.
+42 
+
+
+
+Y. Li and C. Zhao Research in International Business and Finance 80 (2025) 103066 
+Fig. A4. Predicted supply chains with different graph neural networks.
+Notes: This figure illustrates the 2006 supply chain predictions using five graph neural network models: GCN (Panel B), GAE (Panel C), GIN 
+(Panel D), GAT (Panel E), and GraphSAGE (Panel F). It covers all reported suppliers of listed firms, including both listed and unlisted ones. 
+For any supplier lacking institutional identifiers, we use its customer’s stock code and its purchase ranking as a unique proxy. The visualization 
+includes all real links and the top 1% of predicted links ranked by estimated purchase value.
+
+References
+
+Acemoglu, Daron, Akcigit, Ufuk, Kerr, William, 2016. Networks and the macroeconomy: An empirical exploration. NBER Macroecon. Annu. 30 (1), 273–335.
+Akerlof, George A., 1984. The Market for Lemons: Quality Uncertainty and the Market Mechanism. Cambridge University Press, pp. 7–22.
+Allen, Franklin, Qian, Jun, Qian, Meijun, 2005. Law, finance, and economic growth in China. J. Financ. Econ. 77 (1), 57–116.
+Alviarez, Vanessa, Fioretti, Michele, Kikkawa, Ken, Morlacco, Monica, 2021. Two-sided market power in firm-to-firm trade. SSRN Electron. J..
+Antón, Miguel, Ederer, Florian, Giné, Mireia, Schmalz, Martin, 2023. Common ownership, competition, and top management incentives. J. Political Econ. 131 
+
+(5), 1294–1355.
+Antón, Miguel, Ederer, Florian, Giné, Mireia, Schmalz, Martin, 2024. Innovation: The bright side of common ownership? Manag. Sci..
+Aviv, Yossi, Shamir, Noam, 2021. Financial cross-ownership and information dissemination in a supply chain. Manuf. Serv. Oper. Manag. 23 (6), 1524–1538.
+Azar, José, 2020. The common ownership trilemma. Univ. Chic. Law Rev. 87 (2), 263–296.
+43 
+
+
+
+Y. Li and C. Zhao Research in International Business and Finance 80 (2025) 103066 
+Azar, Jose, Schmalz, Martin C., Tecu, Isabel, 2018. Anticompetitive effects of common ownership. J. Financ. 73 (4), 1513–1565.
+Backus, Matthew, Conlon, Christopher, Sinkinson, Michael, 2021. Common ownership in america: 1980–2017. Am. Econ. J.: Microecon. 13 (3), 273–308.
+Ben-David, Itzhak, Franzoni, Francesco, Moussawi, Rabih, Sedunov, John, 2021. The granular nature of large institutional investors. Manag. Sci. 67 (11), 
+
+6629–6659.
+Boehm, Christoph E., Flaaen, Aaron, Pandalai-Nayar, Nitya, 2019. Rev. Econ. Stat. 101 (1), 60–75.
+Boller, Lysle, Morton, Fiona Scott, 2020. Morton Testing the Theory of Common Stock Ownership. Working Paper 27515, National Bureau of Economic Research.
+Breiman, Leo, 2001. Random forests. Mach. Learn. 45, 5–32.
+Carvalho, Vasco M., Nirei, Makoto, Saito, Yukiko U., Tahbaz-Salehi, Alireza, 2021. Supply chain disruptions: Evidence from the great east Japan earthquake. Q. 
+
+J. Econ. 136 (2), 1255–1321.
+Chen, Tianqi, Guestrin, Carlos, 2016. Xgboost: A scalable tree boosting system. In: Proceedings of the 22nd Acm Sigkdd International Conference on Knowledge 
+
+Discovery and Data Mining. pp. 785–794.
+Chen, Xia, Harford, Jarrad, Li, Kai, 2007. Monitoring: Which institutions matter? J. Financ. Econ. 86 (2), 279–305.
+Cheng, Sirui, Hua, Xiuping, Wang, Qingfeng, 2023. Corporate culture and firm resilience in China: Evidence from the sino-US trade war. Pacific-Basin Financ. 
+
+J. 79, 102039.
+Cheung, Yan-Leung, Haw, In-Mu, Hu, Bingbing, Swink, Morgan, Zhang, Wenlan, 2020. Common institutional investors and supplier performance in supply chains. 
+
+J. Oper. Manage. 66 (6), 670–696.
+Cheung, Yan-Leung, Jiang, Ping, Tan, Weiqiang, 2010. A transparency disclosure index measuring disclosures: Chinese listed companies. J. Account. Public Policy 
+
+29 (3), 259–280.
+Crane, Alan D., Michenaud, Sébastien, Weston, James P., 2016. The effect of institutional ownership on payout policy: Evidence from index thresholds. Rev. 
+
+Financ. Stud. 29 (6), 1377–1408.
+Dai, Rui, Liang, Hao, Ng, Lilian, 2021. Socially responsible corporate customers. J. Financ. Econ. 142 (2), 598–626.
+Dai, Xin, Qiu, Yue, 2020. Common ownership and corporate social responsibility. Rev. Corp. Financ. Stud. 10 (3), 551–577.
+Dai, Jingwen, Xu, Rong, Zhu, Tianqi, Lu, Chao, 2024. Common institutional ownership and opportunistic insider selling: Evidence from China. Pacific-Basin 
+
+Financ. J. 88, 102580.
+Davis, Gerald F., 2008. A new finance capitalism? Mutual funds and ownership re-concentration in the United States. Eur. Manag. Rev. 5 (1), 11–21.
+DeAngelo, Linda Elizabeth, 1981. Auditor size and audit quality. J. Account. Econ. 3 (3), 183–199.
+Du, Julan, Lu, Yi, Tao, Zhigang, 2012. Contracting institutions and vertical integration: Evidence from China’s manufacturing firms. J. Comp. Econ. 40 (1), 
+
+89–107.
+Ederer, Florian, Pellegrino, Bruno, 2022. A tale of two networks: Common ownership and product market rivalry. SSRN Electron. J..
+Edmans, Alex, Levit, Doron, Reilly, Devin, 2019. Governance under common ownership. Rev. Financ. Stud. 32 (7), 2673–2719.
+Elhauge, Einer R., 2016. Horizontal shareholding. IO: Firm Struct..
+Fan, Joseph P.H., Huang, Jun, Morck, Randall, Yeung, Bernard, 2017. Institutional determinants of vertical integration in China. J. Corp. Financ. 44, 524–539.
+Fan, P.H., Wong., T.J., 2005. Do external auditors perform a corporate governance role in emerging markets? Evidence from east Asia. J. Account. Res. 43 (1), 
+
+35–72.
+Fee, C. Edward, Hadlock, Charles J., Thomas, Shawn, 2006. Corporate equity ownership and the governance of product market relationships. J. Financ. 61 (3), 
+
+1217–1251.
+Fichtner, Jan, Heemskerk, Eelke M., Garcia-Bernardo, Javier, 2017. Hidden power of the big three? Passive index funds, re-concentration of corporate ownership, 
+
+and new financial risk. Bus. Politics 19 (2), 298–326.
+Francis, Jere R., Wang, Dechun, 2008. The joint effect of investor protection and big 4 audits on earnings quality around the world. Contemp. Account. Res. 25 
+
+(1), 157–191.
+Freeman, Kayla M., 2023. Overlapping ownership along the supply chain. J. Financ. Quant. Anal. 1–30.
+Galeotti, Andrea, Ghiglino, Christian, 2021. Cross-ownership and portfolio choice. J. Econom. Theory 192, 105194.
+Garfinkel, Jon A., Hankins., Kristine Watson, 2011. The role of risk management in mergers and merger waves. J. Financ. Econ. 101 (3), 515–532.
+Gramlich, Jacob P., Grundl, Serafin, 2017. Estimating the Competitive Effects of Common Ownership. Board of Governors of the Federal Reserve System Research 
+
+Series.
+Gu, Flora F., Hung, Kineta, Tse, David K., 2008. When does guanxi matter? Issues of capitalization and its dark sides. J. Mark. 72 (4), 12–28.
+Güth, Werner, Nikiforakis, Nikos, Normann, Hans-Theo, 2007. Vertical cross-shareholding: Theory and experimental evidence. Int. J. Ind. Organ. 25 (1), 69–89.
+Hamilton, Will, Ying, Zhitao, Leskovec, Jure, 2017. Inductive representation learning on large graphs. In: Advances in neural information processing systems, 
+
+vol. 30.
+Hou, Canran, Liu, Huan, 2023. Institutional cross-ownership and stock price crash risk. Res. Int. Bus. Financ. 65, 101906.
+Jiang, Guohua, Lee, Charles M.C., Yue, Heng, 2010. Tunneling through intercorporate loans: The China experience. J. Financ. Econ. 98 (1), 1–20.
+Ke, Guolin, Meng, Qi, Finley, Thomas, Wang, Taifeng, Chen, Wei, Ma, Weidong, wei Ye, Qi, Liu, Tie-Yan, 2017. Lightgbm: A highly efficient gradient boosting 
+
+decision tree. In: Advances in neural information processing systems, vol. 30.
+Kipf, Thomas N., Welling, Max, 2016. Semi-supervised classification with graph convolutional networks. arXiv preprint arXiv:1609.02907.
+Kipf, Thomas N., Welling, Max, 2016b. Welling variational graph auto-encoders. arXiv preprint arXiv:1611.07308.
+Koch, Andrew, Panayides, Marios, Thomas, Shawn, 2021. Common ownership and competition in product markets. J. Financ. Econ. 139 (1), 109–137.
+Lafontaine, Francine, Slade, Margaret, 2007. Vertical integration and firm boundaries: The evidence. J. Econ. Lit. 45 (3), 629–685.
+Levenstein, Margaret C., Suslow, Valerie Y., 2006. What determines cartel success? J. Econ. Lit. 44 (1), 43–95.
+Lewellen, Katharina, Lowry, Michelle, 2021. Does common ownership really increase firm coordination? J. Financ. Econ. 141 (1), 322–344.
+Li, Chaoying, Geng, Chunxiao, Sun, Jian, Yuan, Chun, 2024. Contract enforcement efficiency and corporate vertical specialization: Evidence from a quasi-natural 
+
+experiment of announcement of dishonest persons in China. China Econ. Rev. 87, 102241.
+Liu, Changyang, He, Jincai, 2024. Does common institutional ownership improve the similarity of behavior between firms? Evidence from China. Pacific-Basin 
+
+Financ. J. 83, 102225.
+Liu, Minghao, Xu, Kun, Zhai, Lihong, 2024. Green credit and enterprise green technology innovation: Evidence from Chinese credit markets. Energy Econ. 140, 
+
+108014.
+Macchiavello, Rocco, Morjaria, Ameet, 2015. The value of relationships: Evidence from a supply shock to Kenyan rose exports. Am. Econ. Rev. 105 (9), 2911–2945.
+McCallum, John, 1995. National borders matter: Canada-U.S. regional trade patterns. Am. Econ. Rev. 85 (3), 615–623.
+Miyauchi, Yuhei, 2024. Matching and agglomeration: Theory and evidence from Japanese firm-to-firm trade. Econometrica 92 (6), 1869–1905.
+Mou, Shaobo, Yi, Sijia, Zhang, Qiufeng, Liu, Danping, 2024. Common institutional ownership and executive pay-performance sensitivity: Mediating role of 
+
+information transparency and fund occupation. Res. Int. Bus. Financ. 74, 102695.
+Newham, Melissa, Seldeslachts, Jo, Banal-Estañol., Albert, 2018. Common ownership and market entry: Evidence from pharmaceutical industry. Law Soc.: Public 
+
+Law - Antitrust EJ..
+Park, Haerang, Pathan, Shams, Stathopoulos, Konstantinos, Marwick, Alex, 2024. The bright side of common ownership: Evidence from bank transparency. Br. 
+
+Account. Rev. 56 (6), 101445.
+44 
+
+
+
+Y. Li and C. Zhao Research in International Business and Finance 80 (2025) 103066 
+Park, Jihwon, Sani, Jalal, Shroff, Nemit, White, Hal, 2019. Disclosure incentives when competing firms have common ownership. J. Account. Econ. 67 (2), 
+387–415.
+
+Pawliczek, Andrea, Nicole Skinner, A., 2018. Pawliczek andrea a. Nicole skinner. Common ownership and voluntary disclosure. Corp. Gov.: Discl..
+Pawliczek, Andrea, Skinner, A. Nicole, Zechman, Sarah L.C., 2022. Facilitating tacit collusion through voluntary disclosure: Evidence from common ownership. 
+
+J. Account. Res. 60 (5), 1651–1693.
+Redding, Stephen, Venables, Anthony J., 2004. Economic geography and international inequality. J. Int. Econ. 62 (1), 53–82.
+Schiehll, Eduardo, Kolahgar, Sam, 2025. Common ownership and investor-focused disclosure: Evidence from ESG financial materiality. Bus. Strat. Environ. 34 
+
+(1), 497–515.
+Schmalz, Martin C., 2018. Common-ownership concentration and corporate conduct. Annu. Rev. Financ. Econ. 10, 413–448.
+Seo, Hojun, 2021. Peer effects in corporate disclosure decisions. J. Account. Econ. 71 (1), 101364.
+Tian, Haowen, Wang, Junkai, Wu, Sirui, 2024. Supply chain vertical common ownership and cost of loans. J. Corp. Financ. 89, 102677.
+Tibshirani, Robert, 1996. Regression shrinkage and selection via the lasso. J. R. Stat. Soc. Ser. B Stat. Methodol. 58 (1), 267–288.
+Tourani-Rad, Alireza, Gilbert, Aaron, Chen, Jun, 2016. Are foreign IPOs really foreign? Price efficiency and information asymmetry of Chinese foreign IPOs. J. 
+
+Bank. Financ. 63, 95–106.
+Veliǩović, Petar, Cucurull, Guillem, Casanova, Arantxa, Romero, Adriana, Lio, Pietro, Bengio, Yoshua, 2017. Graph attention networks. arXiv preprint arXiv:
+
+1710.10903.
+Verrecchia, Robert E., 1990. Information quality and discretionary disclosure. J. Account. Econ. 12 (4), 365–380.
+Verrecchia, Robert E., 2001. Essays on disclosure. J. Account. Econ. 32 (1), 97–180.
+Wang, Qian, Wong, T.J., Xia, Lijun, 2008. State ownership, the institutional environment, and auditor choice: Evidence from China. J. Account. Econ. 46 (1), 
+
+112–134.
+Williamson, Oliver E., 1979. Transaction-cost economics: The governance of contractual relations , the. J. Law Econ. 22, 233–261.
+Xu, Keyulu, Hu, Weihua, Leskovec, Jure, Jegelka, Stefanie, 2018. How powerful are graph neural networks?. arXiv preprint arXiv:1810.00826.
+Xu, Longbing, Xu, Tianli, Zhu, Siyuan, 2023. Common ownership and executive pay-for-performance sensitivity: Evidence from China. Res. Int. Bus. Financ. 65, 
+
+101947.
+Ye, Yongwei, Zeng, Lin, Tao, Yunqing, Yun, Feng, 2023. Tax authority monitoring and corporate information disclosure quality in China. Int. Rev. Financ. Anal. 
+
+90, 102872.
+Yin, Yikun, Qian, Yijia, Wang, Liang, Lu, Yichun, 2024. Common institutional ownership and corporate ESG performance in China. Financ. Res. Lett. 65, 105517.
+Zhao, Yiran, Wu, Wei, Shen, Zhongqi, Ji, Zheng, 2025. Supply chain transparency and firm performance: The role of customer trust. Financ. Res. Lett. 85, 
+
+107880.
+
+Ying Li Ph.D. Candidate, School of Statistics and Mathematics, Central University of Finance and Economics.
+ Research Focus: Corporate governance and firm diversification.
+ Publications: China Economic Review, Finance Research Letters.
+
+Chen Zhao Ph.D. Candidate, School of Statistics and Mathematics, Central University of Finance and Economics.
+ Research Focus: Supply chain management and firm diversification.
+ Publications: Energy Economics, Applied Economics Letters.
+45

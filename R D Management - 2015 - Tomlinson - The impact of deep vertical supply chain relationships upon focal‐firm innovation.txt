@@ -1,0 +1,1186 @@
+﻿The impact of deep vertical
+supply chain relationships upon
+focal-firm innovation
+performance
+
+Philip R. Tomlinson and Felicia M. Fai
+
+School of Management, University of Bath, BA2 7AY, United Kingdom.
+P.R.Tomlinson@bath.ac.uk; F.M.Fai@bath.ac.uk
+
+Managers increasingly invest in relationships with suppliers and customers to stimulate
+innovation. Existing literature has demonstrated the potential for diminishing returns to
+the breadth of relationships but less attention has been paid to the depth of relationships.
+We combine resource based theory with social capital perspectives to consider the depth
+of vertical inter-firm relationships and their impact on innovation for a focal firm. Using
+multivariate analysis to examine supplier-led and user-led innovation across firms in UK
+manufacturing, we find that embedded relationships in either direction correlate with
+both product and/or process innovation. However, with further depth of embeddedness,
+simultaneous and varied effects on product and process innovations occur. Our findings
+suggest that managers need to understand the unique dynamics of relationship depth (in
+addition to breadth) upon product and process innovation otherwise the focal firm may
+waste managerial effort and resources in relationship building.
+
+1. Introduction and Singh, 1998; Gulati, 1999) although others found
+diminishing returns may exist (Laursen and Salter,
+
+The concept of ‘openness’ has become an impor- 2006; Leiponen and Helfat, 2010; Love et al., 2014).
+tant aspect of innovation management strategy. With respect to relationship depth, rich established ties
+
+A company’s established vertical chain, is a long rec- within a firm [e.g. Aalbers et al. (2014)] can become
+ognized source of open innovation (see Dahlander ‘over-embedded’, fraught with tensions, and burdened
+and Gann (2010)) and policymakers across the with mutual obligations or closed to new ideas (Grano-
+OECD, actively encourage such practices (Bougrain vetter, 1973, 1985; Christensen and Bower, 1996;
+and Haudeville, 2002; DIUS, 2008). Uzzi, 1997; McFayden and Cannella, 2004). A similar
+
+Two dimensions of openness have been identified gloomy side to embeddedness in dyadic relationships
+by Laursen and Salter (2006): (1) breadth, (the number in the inter-firm setting also exists (Gulati, 1995;
+of partners and the scope of their combined activities) Mowery et al., 1996; Uzzi, 1996; Saxton, 1997;
+and (2) depth, [the level of engagement with each part- Rosetti and Choi, 2005; Molina-Morales and
+ner or quality of the individual inter-firm relationship Martinez-Fernandez, 2006, 2009; Molina-Morales
+(Cuevas-Rodrıguez et al., 2014)]. Many prior studies et al., 2011; Hagedoorn and Frankort, 2008).
+focus upon breadth and found a positive correlation In this article, we explore the concept of relation-
+between inter-firm co-operation and innovation (Dyer ship depth and potential over-embeddedness in the
+
+VC 2015 RADMA and John Wiley & Sons Ltd 277
+
+
+
+Philip R. Tomlinson and Felicia M. Fai
+
+context of product and process innovation. We use because the resource/capability differential needs to be
+survey data on supply chain dyads that captures both large enough to generate a knowledge gap which
+the depth of inter-firm collaboration and the range of might present an opportunity for innovation. However,
+innovative activities in five established UK industries this gap must be bridgeable by the respective firms’
+(aerospace, ceramics, information technology, medi- absorptive capacities for them to engage in meaningful
+cal equipment and textiles). Uniquely our data cap- knowledge exchanges (Cohen and Levinthal, 1989,
+tures high levels of refinement by identifying 1990; Cepeda-Carrion et al., 2012). If the gap is too
+separately both the upstream and downstream dyadic large, the firms are unable to understand each other
+relationship for our focal firms with their (1) main and identify the potential for innovation between them
+buyer and (2) main supplier and their association (Phene et al., 2006). Thus increasingly differentiated
+with product and process innovations separately. resources could potentially lead to improved, more
+Since such dyadic relations involve significant invest- rapid and more frequent innovation initially, but past
+ment in building and sustaining business relations, some point, the growing distance could have a nega-
+part of our objective is to understand when, and within tive impact; an inverse-U shape emerges suggesting an
+which relationship (upstream or downstream), further optimal level of differentiation exists. Additionally,
+investment into an existing relationship is likely to be the complementarity between resources by ‘locking
+significantly correlated with further innovation, in’ downstream clients into relationship-specific
+thereby assisting resource allocation decisions. investments enables suppliers to safeguard and appro-
+
+We adopt the following structure: first, we present priate value from the relationship [see Katz (1986) and
+our theoretical foundations, exploring the link Subramani (2004)] and such actions may harm innova-
+between cooperation, relationship depth and innova- tive endeavour further downstream (Zsidisin et al.,
+tion. We then describe our research design, data and 2005; Torugsa and Arundel, 2013).
+specify our model. This is followed by analysis of the On the downstream side specifically, innovative
+results, a discussion of our research contribution and opportunities often arise in knowledge transfer and the
+implications for managers (and policy-makers). exchange of technical information between focal-firm
+Finally, we briefly consider limitations and further and users (von Hippel, 1988; Tether, 2002). The RBV
+avenues for investigation. might suggest that user interaction would allow the
+
+focal-firm to exploit its existing resources by making
+incremental innovations to existing products in
+
+2. Theoretical foundations response to users’ demands. Franke and Piller (2004)
+and Franke et al. (2006) have investigated how cus-
+
+2.1. The resource/capabilities based tomer knowledge and capabilities can impact new
+view (RBV) product designs. Customers are now sources of new
+
+product and service ideas and innovations in several
+Viewing firms as bundles of differentiated resources industries (Greer and Lei, 2012). Thus the deepening
+and specialized capabilities (Teece et al., 1990; of relationships with existing customers may have pos-
+Langlois and Robertson, 1995), allows focal firms itive impacts upon innovation, particularly if lead-
+to develop supply chains for strategic outsourcing users are among the existing customer base. However,
+with partners who have similar, but differentiated Christensen (1997) and Christensen and Bower (1996)
+resources/capabilities which may lead to innovation have argued that in focusing too much upon existing
+(Richardson, 1972; Von Hippel, 1976, 1988; Hakans- users, the focal-firm may risk missing out on new
+son, 1987). The firm’s absorptive capacity enables it to opportunities in more radical innovations. Countering
+combine and exchange knowledge resources through this view, Zander and Zander (2005) have suggested
+the supply chain and this is strongly associated with a that on-going deep relationships with existing custom-
+firm’s innovative capability (Kogut and Zander, 1992). ers might in fact also lead to the exploration and gener-
+
+On the upstream supply side, Lakshman and Parente ation of new resources by the focal firm, not just
+(2008) found that ‘supplier-focused knowledge man- exploitation of existing ones. The impact of deep rela-
+agement’ had a significant, positive impact in deliver- tionships with existing customers is therefore unclear.
+ing higher levels of product performance in the focal
+firm, while Cousins et al. (2011) have shown that pro-
+
+2.2. Innovation within conditions of
+active engagement in ‘supplier technical exchange’
+
+relational embeddedness
+enhances firms’ capabilities and improves product
+development. However, this is mitigated by the degree 2.2.2. Support for a positive relationship
+of similarity in the resources/capabilities of the firms. While access to external resources and capabilities
+Firms who are too similar will be less innovative may lead to greater innovation by a focal firm,
+
+278 R&D Management 46, S1, 2016 VC 2015 RADMA and John Wiley & Sons Ltd
+
+ 14679310, 2016, S1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/radm.12181 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Impact of deep vertical supply chain relationships
+
+market-based transactions can be riddled with oppor- enhance product and process innovation to different
+tunism and appropriability (Williamson, 1985). Co- degrees.
+operative ties may act as an alternative governance
+mechanism through the promotion of social norms
+
+2.2.3. Support for a curvilinear relationship
+and informal codes of conduct among partner firms
+
+Within studies of social embeddedness, while a posi-
+(Granovetter, 1992; Parkhe, 1993; Aldrich and Fiol,
+
+tive relationship between actors may initially ensue,
+1994; Bozdogan et al., 1998; Dyer and Singh, 1998;
+
+further co-operation is not necessarily matched by
+Jessop, 1998; Uzzi, 1997). Social capital and trust
+
+increases in performance; it may exhibit diminishing
+may strengthen resource-based relationships as part-
+
+and even negative returns (Granovetter, 1973). For
+ner firms are more likely to engage in resource pool-
+
+instance, Uzzi (1997) found several negative effects
+ing, joint technological development and collectively
+
+of over-embeddedness: over-socialisation, ‘feelings
+improving the appropriability of innovations along
+
+of obligation’ and managers exhibiting ‘negative
+the value chain (Harabi, 1998; Negassi, 2004). Criti-
+
+emotions of spite and revenge’ (ibid, p. 59). Similarly
+cal sourcing supply-based relationships are of vital
+
+Edelman et al. (2004) found strong ties that bind sub-
+strategic importance for manufacturing firms and
+
+organisational level groups can also act as barriers to
+require investments of time, effort and resources
+
+new knowledge and ideas at the organisational level,
+[Cousins and Lawson (2007)]. Also, long term orien-
+
+while Boschma (2005) identified five types of proxim-
+tation (which is reflected partly by relationship depth) ity and in each, suggested too little or too much prox-
+has also been found to forestall opportunism between imity could be problematic for innovation. In fact,
+suppliers and buyers (Lui and Ngo, 2012). many studies report a ‘dark’ side to both upstream and
+
+In upstream relationships, Kotabe et al. (2003) found downstream embedded relationships (Hagedoorn and
+the duration of United States and Japanese auto supply Frankort, 2008; Villena et al., 2011). Among these,
+chain relations to be positively associated with high Molina-Morales and Martinez-Fernandez’s recent
+level technology transfers, while Henke and Zhang papers on Valencian industrial districts (ibid 2009,
+(2010) claim collaboration with suppliers can build 2011) are particularly insightful. Using survey data,
+trust, reduce relational stress and increase innovative they found ever higher levels of trust had a negative
+activities. Tomlinson (2010) reports a significant posi- impact upon innovation among district firms. They
+tive association between the degree of co-operation suggested this reflected a high reliance upon existing
+and innovation over a range of supply chain activities partners which generates complacency, inhibits
+within UK manufacturing. In downstream relation- opportunities for new talent to emerge/participate
+ships, (Squire et al., 2009) found higher levels of within operations and reduces experimentation (and
+buyer-supplier co-operation were positively correlated consequently, innovation).
+with levels of knowledge transfer between firms. Tsai
+et al. (2013) demonstrate that buyer–seller social capi-
+tal indirectly affects innovation performance via the 2.3. Combining the RBV and the
+mediation of commitment to innovation and customer relational-embeddedness perspective
+knowledge development. Finally, K€uhne and Gellynck Cantner and Graf (2011a, p. 388) summarise the
+(2013) found that trust and social satisfaction enhanced required combination of differentiated resource bases
+relationship quality along the entire supplier- (RBV) and relational embeddedness (depth) between
+manufacturer-customer chain in the food industry and partners:
+that relationship quality in turn, enhanced innovation
+
+“In order to draw on creative potential
+capacity and innovative activities.
+
+[between cooperating actors]. . .it is a combi-
+Indeed, the source of the external stimuli may
+
+nation of homophily with respect to trust and
+affect product and process innovation to differing
+
+mutual understanding on the one hand with
+degrees (Pavitt, 1984, 1990). Freel and Harrison
+
+some heterogeneity in terms of the respective
+(2006)’s study found that in UK manufacturing,
+
+knowledge stocks and knowledge pieces to be
+‘novel’ product innovators were more likely to engage
+
+exchanged on the other [that is required].”
+in co-operation with buyer firms than ‘non-
+innovators’, while in process innovation, supplier co- However Cantner and Graf (2011b) note a trade-off
+operation was significantly associated with ‘novel’ must be made between creative potential and trust. As
+process innovations. From a strategic management a relationship becomes more embedded, its innovative
+perspective, it matters (for the allocation of resources) potential declines because there is less to share which
+whether innovation is stimulated predominantly from is novel (Cowan et al., 2006). While familiarity and
+suppliers or buyers and whether these relationships prior accumulated experience teaches a pair of firms
+
+VC 2015 RADMA and John Wiley & Sons Ltd R&D Management 46, S1, 2016 279
+
+ 14679310, 2016, S1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/radm.12181 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Philip R. Tomlinson and Felicia M. Fai
+
+how to innovate together, simultaneously it can reduce manufacture of medical equipment and instruments).
+previously complementary knowledge to duplicative The sample was drawn using a random stratified sam-
+knowledge and to less innovation in the future (Simard pling process from the membership directories of the
+and West, 2006). Bonner and Walker’s (2004) nuanced respective main industry trade associations. Back-
+study on customer involvement with innovation par- ground information on member firms operating at the
+tially supports this proposition; for incrementally inno- four digit Standard Industrial Classification (SIC)
+vative projects which build upon an existing level enabled the identification of the Managing
+knowledge base, they found a strong positive relation- Director of each firm to whom a postal questionnaire
+ship between relational embeddedness with existing was issued in September 2008. Reminder letters were
+lead customers and new product advantage, but there sent out three and five weeks later.
+was no such relationship for highly innovative projects 455 responses were received (17.9% response
+with existing lead customers. However, contrary to the rate), with 445 (17.5%) providing complete informa-
+suggestions of Bower and Christensen (1995), Bonner tion for this study.1 The sampling error was 4.6% –
+and Walker (2004) also found no support for a negative acceptable at the 95% confidence interval,
+relationship between embeddedness and new product (Oerlemans et al., 2006). Tests for non-response bias
+advantage for highly innovative projects either. Finally, comparing the mean responses of the early and late
+Johnsen et al. (2006) suggest that buyer feedback and respondents, with ANOVA analysis revealed no sig-
+interaction seemed to be critical at the beginning fluid, nificant differences (Armstrong and Overton, 1977).
+stages of new product development and important The sample’s representativeness of UK manufactur-
+(although not critical) throughout the remainder of the ing was analysed by comparing the distribution of the
+lifecycle, whereas supplier input was only sought when employment sized bands of the 445 respondent firms
+it was time to bring the product to market especially if with the UK Office of National Statistics (UKONS,
+supplying tangible components. But if suppliers were 2008) data on the proportion of UK VAT registered
+supplying intangible knowledge, they may be more units by employment size. There is a slight (but
+important in earlier, more fluid stages of the lifecycle. unproblematic – see Freel and Harrison (2006, p.
+Thus, the RBV when considered within the context of 293)) skew in the sample away from capturing the
+relational embeddedness within vertical chains may smallest firms (1–49 employees) (Appendix A).
+also suggest a potentially curvilinear relationship
+between the degree of cooperation between firms and 3.2. Questionnaire and variable
+innovation. construction
+
+In summary, we expect that a focal firm’s product
+and process innovation to be positively associated We asked about firms’ business background, size,
+with the depth of co-operative relations with (1) R&D and innovation activities. Crucially, we asked
+buyers and (2) suppliers. However, these relationships about the strength of the firms’ co-operative ties with
+maybe tempered by ‘over-embeddedness’ and beyond their main buyers and suppliers, i.e. with well-
+a certain point, may become associated with diminish- established partners. Following the practice of previ-
+ing and even negative returns to innovation. More- ous studies, questions related to the previous three
+over, the outcomes may differ depending upon years of business trading (i.e. 2005/06–2007/08). The
+whether we are considering upstream or downstream questions on innovation and co-operation covered a
+relations in product or process innovations. We stress range of activities and, where applicable, utilised 5
+that we are not necessarily implying direct causality point Likert scales ensuring the data was both multi-
+
+between the depth of supplier-buyer relationships and dimensional and multi-scalar. This is a methodologi-
+
+innovative performance, but merely that the shape of cal contribution compared to similar studies where
+
+the association between the two variables changes as categorical variables were employed e.g. De Propris
+
+the relationship depth between the firms increases. (2002) and Freel and Harrison (2006). The primary
+variables of interest are described below (see details
+of the survey questions in Appendix B).
+
+3. Research methodology
+
+3.1. Sample 3.2.1. Product and process innovation
+Following Molina-Morales and Martinez-Fernandez
+
+To obtain a diversified sample of traditional and more (2006, 2009), Tsai and Ghoshal (1998) and Tom-
+modern UK industries, the data was collated from linson (2010), respondents were asked to report the
+2,537 firms across aerospace, ceramics, information number of new product and process innovations2 the
+technology and software, textiles and healthcare (the firm had introduced over various activities during
+
+280 R&D Management 46, S1, 2016 VC 2015 RADMA and John Wiley & Sons Ltd
+
+ 14679310, 2016, S1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/radm.12181 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Impact of deep vertical supply chain relationships
+
+the previous three years. It seeks to capture the widest
+sphere of innovative activity within firms, which may/
+may not be directly observed through other recog-
+nized measures of innovation such as patents.
+
+3.2.2. Buyer co-operation (over product and
+process innovation)
+
+Firms were asked questions relating to the strength of
+their co-operative ties with their main clients over a
+range of activities, based upon Likert scale based
+items following Schmitz (1999, 2000), Knorringa
+(1999) and Nadvi (1999). Buyer co-operation was
+constructed in relation to first product and then pro-
+cess innovation using the mean score across the items
+listed in Appendix B.
+
+3.2.3. Supplier co-operation (over product and
+process innovation)
+
+The strength of upstream co-operative ties, was also
+based upon Schmitz (1999), Knorringa (1999) and
+Nadvi (1999). Supplier co-operation was constructed
+in relation to first product and then process innovation
+using the mean score across the items listed in
+Appendix B.
+
+3.2.4. Control variables
+To account for the differential impact of firms’ inter-
+nal resources upon the innovation process (Symeoni-
+das, 1996) we included Sales Revenue Growth, Firm
+Size and Research and Development (R&D) expendi-
+ture, which were expected to have a positive impact
+upon innovation (Cohen and Levinthal, 1990). Their
+operationalization follows De Propris (2002). Finally,
+we control for industry differences using dummy vari-
+ables, with the medical equipment sector being desig-
+nated as the base.
+
+3.3. Operationalization of variables and
+data validation
+
+Table 1 provides details of descriptive statistics and
+Pearson’s correlation between the variables. There is
+some significant bivariate correlation between the co-
+operation variables. However, given that where firms
+are embedded in more co-operative relations, they
+tend to be so in both their upstream and downstream
+operations, this was expected. The co-operation varia-
+bles are also significantly correlated with both product
+and process innovation. Cronbach’s alpha (a) for con-
+vergent validity is reported in Table 1 (col 4). In all
+cases, it exceeded the accepted minimum of 0.7 satis-
+fying the criteria for internal consistency and reliabil-
+ity (Hair et al., 2007). To test for discriminant
+
+VC 2015 RADMA and John Wiley & Sons Ltd R&D Management 46, S1, 2016 281
+
+Table 1. Descriptive statistics and bivariate correlations (to two decimal places)
+
+N 5 445 Mean SD a VIF 1 2 3 4 5 6 7 8 9
+
+1. Product innovation 3.47 1.60 0.79 N/A 1
+
+2. Process innovation 2.59 1.15 0.78 N/A 0.52*** 1
+
+3. Firm size 2.6 1.71 N/A N/A 0.28*** 0.37*** 1
+
+4. R&D expenditure 2.03 1.25 N/A 1.52 20.05 0.03 20.10** 1
+
+5. Sales growth 0.59 0.49 N/A 1.19 0.11** 0.21*** 0.20*** 0.06 1
+
+6. Co-operation with buyers (product innovation) 3.32 0.86 0.76 1.27 0.17*** 0.26*** 0.19*** 0.09 0.04 1
+
+7. Co-operation with buyer (process innovation) 2.54 0.75 0.72 1.36 0.11** 0.22*** 0.12** 0.13*** 20.01 0.65*** 1
+
+8. Co-operation with suppliers (product innovation) 2.94 0.99 0.75 1.28 0.19*** 0.31*** 0.24*** 0.01 0.01 0.42*** 0.46*** 1
+
+9. Co-operation with suppliers (process innovation) 2.39 0.85 0.87 0.85 0.18*** 0.32*** 0.26*** 20.01 0.03 0.48*** 0.53*** 0.83*** 1
+
+a – Cronbach’s alpha.
+VIF, variance inflation factor.
+*Pearson’s correlation is significant at the 0.10 level (two-tailed test).
+**Pearson’s correlation is significant at the 0.05 level (two-tailed test).
+***Pearson’s correlation is significant at the 0.01 level (two-tailed test).
+
+ 14679310, 2016, S1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/radm.12181 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Philip R. Tomlinson and Felicia M. Fai
+
+validity, the variance-extracted estimates for pairs of Finally and relatedly, to reduce the possibility of
+constructs were compared with the square of their common methods bias, we also reversed several items
+respective correlation coefficient (Hair et al., 2007). in the survey, while also placing questions on innova-
+These confirmed that each construct was distinct tion and co-operation in separate sections of the sur-
+(Campbell and Fiske, 1959). Face validity was satis- vey to negate the possibility of respondents linking
+fied by utilising previously used multi-scale items, as the two categories (see Podsakoff et al., 2003). Ano-
+discussed above. nymity of respondents was also assured to respond-
+
+Despite following well-established methodological ents to elicit truthful responses. Finally, a Harman
+precedents in this type of work, survey data may suf- single-factor test was conducted in which all measures
+fer from a reliance upon managerial retrospective were loaded into an exploratory factor analysis where
+recall (March and Sutton, 1997; Rong and Wilkinson, the largest factor accounted for 26.20% of the var-
+2011) and sense-making (Weick, 2000). In our study, iance. In short, it is unlikely that common methods
+
+this may mean reported innovative outcomes are bias is a problem in our data (Podsakoff et al., 2003;
+
+potentially related to the strength of the key relation- Sharma et al., 2009).
+
+ship via ex-post managerial sense-making as opposed
+to necessarily being truly reflective of the depth of a
+relationship on innovative activity. To militate against 4. Model specification, results and
+this, Rong and Wilkinson (2011) suggest testing for discussion
+the validity of subjective assessments of single
+responses to the survey questions (and thus ensure 4.1. Model specification
+inter-rater reliability). This was verified by gathering Our model follows previous approaches (e.g. Geroski,
+similar independent data on the key variables from a 1990; Molina-Morales and Martinez-Fernandez,
+random selected sample of 50 second participants 2006, 2009; Tomlinson, 2010; Molina-Morales et al.,
+(senior managers) from the surveyed firms (Marsden, 2011; Tomlinson and Jackson, 2013), and is based
+1993; Krackhardt, 1996). These responses were gath- upon a standard knowledge production function
+ered by telephone and this additional control was run (namely internal variables), supplemented with inde-
+for the innovation and co-operation variables, with pendent predictors i.e. the buyer and supplier co-
+possible second response bias being tested by a com- operation variables. To capture the effects of greater
+parison of means; there were no significant differen- depth in co-operative ties upon innovation, we also
+ces and the validity of subjective assessments was included quadratic transformations of both buyer and
+acceptable. Nevertheless, given the possibility of supplier co-operation (Laursen and Salter, 2006;
+managerial sense-making, we should interpret our Molina-Morales and Martinez-Fernandez, 2009;
+findings cautiously. Love et al., 2014). The estimating equations are:
+
+Product Innovation5b01b1 Firm Size 1b2 R&D 1b3 Sales Revenue Growth 1b4
+
+Industry Dummy1b5 Buyer Co-operation ðover product innovationÞ1b6
+(1)
+
+ð 2
+Buyer Co-operationÞ 1b7 Supplier Co-operation ðover product innovationÞ1b8
+
+ð 2
+Supplier Co-operationÞ 1ei
+
+Process Innovation5b01b1 Firm Size 1b2 R&D 1 b3 Sales Revenue Growth 1b4
+
+Industry Dummy1b5 Buyer Co-operation ðover process innovationÞ1b6
+(2)
+
+ð 2
+Buyer Co-operationÞ 1b7 Supplier Co-operation ðover process innovationÞ1b8
+
+ð 2
+Supplier Co-operationÞ 1ei
+
+Estimation of Eqs. (1) and (2) took the form of a non- At this point we add the caveat that our estimated
+linear, inverted U-shaped, (quadratic) regression with models imply causation running from co-operation to
+the dependent variable being first regressed on the innovation. It is also probable highly innovative focal
+control variables and then the model being supple- firms actively develop their relationships with estab-
+
+mented with the predictor (co-operation) variables. lished partners further because they have additional
+
+282 R&D Management 46, S1, 2016 VC 2015 RADMA and John Wiley & Sons Ltd
+
+ 14679310, 2016, S1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/radm.12181 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Impact of deep vertical supply chain relationships
+
+Table 2. Multivariate regression analysis (dependent variable: product innovation)
+
+Variable (1) (2) (3) (6)
+
+Constant 21.371*** (0.201) 21.267*** (0.203) 21.260*** (0.203) 21.273*** (0.204)
+
+Firm size 0.204*** (0.028) 0.192*** (0.028) 0.182*** (0.028) 0.181*** (0.028)
+
+R&D expenditure 0.046 (0.038) 0.033 (0.038) 0.030 (0.038) 0.021 (0.039)
+
+Sales growth 0.226** (0.093) 0.231** (0.092) 0.238** (0.092) 0.225*** (0.093)
+
+Textiles 0.920*** (0.170) 0.843*** (0.171) 0.839*** (0.171) 0.814*** (0.171)
+
+Ceramics 0.915*** (0.167) 0.895*** (0.166) 0.921*** (0.166) 0.903*** (0.166)
+
+Aerospace 0.422** (0.163) 0.365** (0.164) 0.379** (0.164) 0.372** (0.164)
+
+Information technology and software 0.403** (0.171) 0.331* (0.173) 0.401** (0.176) 0.393** (0.176)
+
+Co-operation with buyers 0.118** (0.046) 0.080* (0.048) 0.102** (0.052)
+
+Co-operation with buyers2 0.044* (0.026)
+
+Co-operation with suppliers 0.095** (0.05) 0.102** (0.051)
+
+Co-operation with suppliers2 20.011* (0.006)
+
+Adjusted R2 0.157 0.168 0.173 0.194
+
+F statistic 12.843*** 12.216*** 11.323*** 9.494***
+
+N 5 445
+
+***P< 0.01; **P< 0.05; *P< 0.10, Non-standardized regression coefficients (errors in brackets).
+
+resources do so (via increased returns from innova- 4.2. Results
+tion). In fact, Roper et al. (2008) emphasise a recur-
+
+Both models for product and process innovation are
+sive process, with positive complementarities existing
+
+well specified (see Tables 2 and 3). The R-squared sta-
+between (collaborative) external sources and both
+
+tistics are reasonable and in line with the aforemen-
+product and process innovations. While we argue our
+
+tioned multivariate studies of open innovation. In
+models are theoretically well grounded, and in the
+
+each model, they also improve with the addition of
+absence of longitudinal survey data to explore
+
+the predictor variables. The estimated Beta values
+dynamic feedback loops, we acknowledge the possi-
+
+indicate the magnitude and relative importance of the
+bility of alternative causation-correlations within our
+
+explanatory variables with the results allowing a
+data (see Henley et al., 2006). In interpreting our
+results, we thus proceed with a degree of caution.3
+
+degree of comparison with previous research
+
+Table 3. Multivariate regression analysis (dependent variable: process innovation)
+
+Variable (1) (2) (3) (4)
+
+Constant 21.398*** (0.196) 21.289*** (0.196) 21.277*** (0.192) 21.305*** (0.193)
+
+Firm size 0.231*** (0.027) 0.218*** (0.027) 0.197*** (0.027) 0.199*** (0.027)
+
+R&D expenditure 0.114*** (0.037) 0.092** (0.037) 0.100** (0.037) 0.093** (0.037)
+
+Sales growth 0.321*** (0.091) 0.331*** (0.090) 0.339*** (0.09) 0.328*** (0.088)
+
+Textiles 0.674*** (0.166) 0.604*** (0.165) 0.605*** (0.162) 0.593*** (0.162)
+
+Ceramics 0.516*** (0.163) 0.490*** (0.161) 0.551*** (0.159) 0.531*** (0.159)
+
+Aerospace 0.342** (0.160) 0.310** (0.158) 0.317** (0.155) 0.307** (0.155)
+
+Information technology and software 0.034 (0.167) 0.007 (0.166) 0.037 (0.163) 0.042 (0.162)
+
+Co-operation with buyers 0.162*** (0.048) 0.039 (0.054) 0.024 (0.057)
+
+Co-operation with buyers2 0.047 (0.034)
+
+Co-operation with suppliers 0.220*** (0.050) 0.216*** (0.053)
+
+Co-operation with suppliers2 0.016 (0.032)
+
+Adjusted R2 0.197 0.216 0.247 0.248
+
+F statistic 16.566*** 16.294*** 17.207*** 14.370***
+
+N 5 445
+
+***P< 0.01; **P< 0.05; *P< 0.10, Non-standardized regression coefficients (errors in brackets).
+
+VC 2015 RADMA and John Wiley & Sons Ltd R&D Management 46, S1, 2016 283
+
+ 14679310, 2016, S1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/radm.12181 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Philip R. Tomlinson and Felicia M. Fai
+
+Table 4. Summary results been critical explaining the positive relationship
+
+Relationship Evidence of Evidence of found.
+(positive) curvilinear Our results might also reflect hidden characteristics
+linear relationship relationship in the data itself. Given our inclusion of ceramics and
+
+textile industries (which constitute 47% of respondent
+Buyer cooperation Yes No
+
+on product focal firms) there may be a predominance of whole-
+
+innovation salers among the respondents’ self-identified ‘main
+
+Buyer cooperation Yes No buyers’. Wholesalers may draw feedback from a wide
+on process range of their own downstream markets and act as a
+innovation conduit, assimilator and filter for that knowledge,
+
+Supplier cooperation Yes Yes which is then fed to the manufacturer to enhance inno-
+on product vation upstream. Effectively, a relationship with a
+innovation wholesaler as the main buyer may actually reflect the
+
+Supplier cooperation Yes No focal firm’s indirect relationship with many customers
+on process
+
+as the original sources of external knowledge, whereas
+innovation
+
+in aerospace and healthcare, one might expect a more
+direct and singular relationship between the focal firm
+
+particularly those studies which use categorical meas- and its main buyer. Prior studies have suggested a pos-
+ures of co-operation and innovation (see Section 2).4 itive relation existing between the number of indirect
+Across both models, the internal resource variables ties and innovation (e.g. Ahuja, 2000; Salman and
+perform well and as expected, the exception being a Saives, 2005) but unfortunately our data does not
+counter-intuitive insignificant Beta coefficient on allow us to confirm this.
+R&D in the product innovation model (Table 3). This In contrast, supplier co-operation is positively asso-
+may be due to the use of a frequency based measure ciated with product innovation but only to a certain
+of product innovation, which does not differentiate point. The negative (albeit marginal) coefficient on
+between radical and incremental product innovation the quadratic term (for supplier co-operation) suggests
+and thus R&D may be unable to explain variation in there maybe optimal depth in tie strength with suppli-
+firms’ innovation strategies (Griliches, 1990). The ers (Table 2, Column 4). This supports Lakshman and
+measure of process innovation, however, contains an Parente (2008) and Cousins et al. (2011), and adds
+inherent element of value added in process and organ- detail to Hagedoorn and Frankort (2008), Rossetti and
+
+isational changes, especially if they enhance firm effi- Choi (2005), Villena et al. (2011) in that a ‘gloomy
+
+ciency; hence the highly positive and significant Beta side’ to deep relationships with suppliers for generat-
+
+co-efficient for R&D expenditure in Table 4. The sig- ing product innovations may exist. Our sample sug-
+
+nificance of the industry dummy variables reflects the gests established suppliers may be involved in
+
+differences in recorded industry innovation levels rel- product innovation very early on in the design and
+
+ative to the medical equipment sector. prototype stages (Cusumano and Takeishi, 1991)
+
+A summary of the outcomes is presented in Table 4. which could be a major source of competitive advant-
+age, particularly if supplying intangible knowledge
+(Johnsen et al., 2006). It may also reflect upstream
+
+5. Discussion suppliers ‘locking in’ downstream clients to existing
+technologies, which can lead to problems associated
+
+5.1. Product innovation with over-embeddedness. In short, the managerial
+implication of our analysis of the supplier – focal-firm
+
+Unlike Christensen and Bower (1996) product inno- – buyer chain, is focal firms should devote greater
+vation through closer relations with existing custom- resources to developing their relationships with
+ers do not necessarily lead to ‘closed ideas’. Instead buyers relative to those with suppliers, if they wish to
+the positive (and significant) coefficients on both the continue to develop new products.
+linear and quadratic buyer co-operation variables
+(Table 2, Col 4) support the findings of Franke and
+
+5.2. Process innovation
+Piller (2004), Greer and Lei (2012) and Zander and
+Zander (2005). Greer and Lei (2012) suggest collabo- With regards to buyer co-operation, a positive linear
+rative innovation with customers can speed up the association exists in a focal firm’s relationship with
+process of New Product Development (NPD). Indeed main buyers and its’ rate of process innovation (Table
+in the buoyant economic period our data covers 3, Col 2). It is possible that collaboration with buyers
+(2005–2008), time based competition would have on product innovation extends to process innovation.
+
+284 R&D Management 46, S1, 2016 VC 2015 RADMA and John Wiley & Sons Ltd
+
+ 14679310, 2016, S1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/radm.12181 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Impact of deep vertical supply chain relationships
+
+For instance, collaboration with buyers over new further shortcoming of our data is that we are unable
+product designs and specifications might also lead to to match a specific supplier relationship to specific
+greater collaboration in processes such as marketing/ buyer relationship within a firm on a 1-2-1 basis to
+distribution (Athaide et al., 1996) or production tech- provide a sense of the ‘true’ supply chain for a partic-
+niques (Kraft, 1990) to improve the overall desirabil- ular product/project. We also do not know what
+ity and efficiency of the final product. There is also a occurs within the focal firm to co-ordinate the pres-
+positive (albeit linear) relationship existing between sures from both the up- and down-stream directions
+the focal firm and its main suppliers over process and combine them usefully into new products/
+innovation. Again, the preceding arguments generally processes i.e. we do not investigate the role of the
+apply, and in addition it appears that the focal firms, focal firm as a structural bridge (Burt, 1992). In-depth
+in our sample at least, are not inhibited by concerns qualitative studies or case studies (e.g. Coviello and
+about opportunism upstream (Noordhoff et al., 2011; Joseph, 2012), or more processual based approaches
+Torugsa and Arundel, 2013). We should note the (e.g. Garud et al., 2013) or analytical sociology (see
+introduction of supplier co-operation appears to Hedstr€om and Bearman, 2009) might usefully be
+render the buyer co-operation variables insignificant employed to examine such issues in detail.
+in the later regressions indicating a potential collinear- Our study only focussed on established relation-
+ity issue (Table 3, Columns 3 and 4).5 ships with suppliers and buyers over a three year
+
+In answer to our second research question, firms period. There is a possibility that the absence of
+which are weaker product innovators may be over inverse-U relationships in three of our four hypothe-
+investing in relationships with their main suppliers. ses, is due to this period being too short to pick up the
+The managerial implication is that given investment turning point. Given the period 2005–2008 was gener-
+into deep relationships with main buyers is positively ally buoyant for the UK economy, it may also be the
+correlated with both greater product innovation and case that our data window captures a stage where the
+also process innovation then – in the face of limited relationship with customers is moving from one of ini-
+resources – a greater proportion of these should be tial exploration (implying slow innovation) to one of
+devoted to deepening key buyer relationships over exploitation (implying accelerating innovation).
+key supplier relationships. Future work extending the period of study may lead to
+
+different insights. Indeed Love et al. (2014) have
+called for longer timeframes in open innovation
+
+6 Research contribution studies. This might also address some of the
+issues relating to capturing the feedback loops
+
+Our paper makes several contributions. First, by exclu- mentioned in Section 4. We also recognize the
+sively studying the depth of supply chain relationships range of industries in our dataset is diverse and
+and their impact upon innovation we add balance to that an industry level analysis of the issues might
+the literature which has predominantly concentrated yield different results across these. However,
+on the breadth of external relationships. Second, our attempts to generate industry specific analyses
+use of Likert scales provides a detailed, variable mea- proved problematic due to issues of multi-
+sure of the strength of co-operation in innovation. collinearity arising in analysing quadratic functions
+Finally, our focus on upon both buyer and supplier with the smaller (industry) sub-samples.
+dyads demonstrates the influence of up- and down- To conclude, the simultaneous but contrasting pat-
+stream relationships in terms of their differential terns of supplier relationships and customer relation-
+impact on the focal-firm’s innovation in products and ships on product innovation and process innovation
+processes, whereas previous studies have focussed pre- suggests that the focal firm has some very complex
+dominantly on innovation in a more general sense, or strategic decision making to do with respect to the
+exclusively upon new product development. All this allocation of resources to develop these relationships.
+deepens our understanding of this phenomenon and Without adequate capability development in this
+demonstrates its multifaceted nature which leads to domain, the focal firm could potentially over- or
+complicated decision making requirements by manag- under-invest in relationship-deepening in the wrong
+ers and the policymakers and intermediaries who seeks direction.
+to encourage and establish inter-firm relationships.
+
+6.1. Limitations and further thoughts Acknowledgments
+
+In additional to the aforementioned methodological The authors are grateful for comments and sugges-
+limitation in terms of reliance on managerial recall, a tions on an earlier version of this article from
+
+VC 2015 RADMA and John Wiley & Sons Ltd R&D Management 46, S1, 2016 285
+
+ 14679310, 2016, S1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/radm.12181 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Philip R. Tomlinson and Felicia M. Fai
+
+participants at the R&D Management Annual Confer- Christensen, C.M. (1997) The Innovator’s Dilemma. When
+ence held in Manchester, June 27th 2013 and the com- New Technologies Cause Great Firms to Fail. Boston,
+
+ments from the reviewers and editor on our earlier MA: Harvard Business School Press.
+
+submission. We are also grateful to Max Lewis for Christensen, C.M. and Bower, J.L. (1996) Customer power,
+
+help in the data collection process. strategic investment and the failure of leading firms.
+Strategic Management Journal, 17, 197–218.
+
+Cohen, W.M. and Levinthal, D. (1989) Innovation and
+learning: the two faces of R&D. Economic Journal, 99,
+
+References
+569–596.
+
+Cohen, W.M. and Levinthal, D.A. (1990) Absorptive
+Aalbers, R., Dolfsma, W., and Koppius, O. (2014) Rich ties capacity: a new perspective on learning and innovation.
+
+and innovative knowledge transfer within a firm. British Administrative Science Quarterly, 35, 128–152.
+Journal of Management, 25, 4, 833–848. Cousins, P. and Lawson, B. (2007) Sourcing strategy, sup-
+
+Ahuja, G. (2000) Collaboration networks, structural holes plier relationships and firm performance: an empirical
+and innovation: a longitudinal study. Administrative Sci-
+
+investigation of UK organizations. British Journal of
+ence Quarterly, 45, 425–455.
+
+Management, 18, 123–137.
+Aldrich, H.E. and Fiol, C.M. (1994) Fools rush in? The
+
+Cousins, P., Lawson, B., Peterson, K., and Handfield, R.
+institutional context of industry creation. The Academy
+
+(2011) Breakthrough scanning, supplier knowledge
+of Management Review, 19, 645–670.
+
+exchange and new product development performance.
+Armstrong, S.J. and Overton, T.S. (1977) Estimating non-
+
+Journal of Product Innovation Management, 28, 930–942.
+response bias in mail surveys. Journal of Marketing
+
+Coviello, N.E. and Joseph, R.M. (2012) Creating major
+Research, XIV, 396–402.
+
+innovations with customers: insights from small and
+Athaide, G.A., Meyers, P.W., and Wilemon, D.L. (1996)
+
+young technology firms. Journal of Marketing, 76
+Seller-Buyer interactions during the commercialisation
+
+(November), 87–104.
+of technological process innovations. Journal of Product
+
+Cowan, R., Jonard, N., and Zimmermann, J.-B. (2006)
+Innovation Management, 13, 406–421.
+
+Evolving networks of inventors. Journal of Evolutionary
+Bonner, J.M. and Walker, O.C.J. (2004) Selecting influen-
+
+Economics, 16, 155–174.
+tial business-to-business customers in new product
+
+Cuevas-Rodrıguez, G., Cabello-Medina, C., and Carmona-
+development: relational embeddedness and knowledge
+
+Lavado, A. (2014) Internal and external social capital for
+heterogeneity considerations. Journal of Product Innova-
+tion Management radical product innovation: do they always work well
+
+, 21, 155–169.
+Boschma, R. (2005) Proximity and innovation: a critical together? British Journal of Management, 25, 2, 266–
+
+assessment. Regional Studies, 39, 61–74. 284.
+
+Bougrain, F. and Haudeville, B. (2002) Innovation, collab- Cusumano, M.A. and Takeishi, A. (1991) Supplier relations
+
+oration and SMEs internal research capacities. Research and management; a survey of Japanese, Japanese-
+
+Policy, 31, 735–747. transplant and U.S. auto plants. Strategic Management
+
+Bower, J.L. and Christensen, C.M. (1995) Disruptive tech- Journal, 12, 563–588.
+
+nologies: catching the wave. Harvard Business Review, Dahlander, L. and Gann, D.M. (2010) How open is innova-
+
+73, 43–53. tion? Research Policy, 39, 699–709.
+
+Bozdogan, K., Deyst, J., Hoult, D., and Lucas, M. (1998) De Propris, L. (2002) Types of innovation and inter-firm
+
+Architectural innovation in product development through co-operation. Entrepreneurship and Regional Develop-
+
+early supplier integration. R&D Management, 28, 163– ment, 14, 337–353.
+
+173. DIUS. (2008) Annual Innovation Report 2008: UK Depart-
+
+Burt, R.S. (1992) Structural Holes: The Social Structure of ment of Innovation Universities and Skills. London.
+
+Competition. Boston, MA: Harvard University Press. Dyer, J.H. and Singh, J.H. (1998) The relational view: co-
+
+Campbell, D.T. and Fiske, D.W. (1959) Convergent and operative strategy and sources of inter-organisational
+
+discriminant validation by multitrait multimethod competitive advantage. Academy of Management
+matrix. Psychological Bulletin, 56, 81–105. Review, 23, 660–679.
+
+Cantner, U. and Graf, H. (2011a) Innovation networks: for- Edelman, L.F., Bresnen, M., Newell, S., Scarbrough, H., and
+
+mation, performance and dynamics. In: Antonelli, C. Swan, J. (2004) The benefits and pitfalls of social capital:
+
+(ed.), Handbook on the System Dynamics of Technological empirical evidence from two organizations in the United
+Change. Cheltenham, UK: Edward Elgar. pp. 366–394. Kingdom. British Journal of Management, 15, S59–S69.
+
+Cantner, U. and Graf, H. (2011b) Innovation networks: for- Franke, N. and Piller, F. (2004) Value creation by toolkits
+mation, performance and dynamics’ Presentation to for user innovation and design: the case of the watch mar-
+ARS. Naples. 23rd June, 2011 http://www.ars2011. ket. Journal of Product Innovation Management, 21, 401–
+unisa.it/index2. 415.
+
+Cepeda-Carrion, G., Cegarra-Navarro, J.G., and Jimenez- Franke, N., von Hippel, E., and Schreier, M. (2006) Finding
+Jimenez, D. (2012) The effect of absorptive capacity on commercially attractive user innovations: a test of lead
+innovativeness: context and information systems capabil- user theory. Journal of Product Innovation Management,
+ity as catalysts. British Journal of Management, 23, 129. 23, 301–315.
+
+286 R&D Management 46, S1, 2016 VC 2015 RADMA and John Wiley & Sons Ltd
+
+ 14679310, 2016, S1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/radm.12181 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Impact of deep vertical supply chain relationships
+
+Freel, M.S. and Harrison, R.T. (2006) Innovation and coop- Katz, M.L. (1986) An analysis of co-operative research and
+eration in the small firm sector: evidence from Northern development. Rand Journal of Economics, 17, 527–543.
+Britain. Regional Studies, 40, 289–305. Knorringa, P. (1999) Agra: an old cluster facing the new
+
+Garud, R., Tuertscher, P., and Van de Ven, A.H. (2013) competition. World Development, 27, 1587–1604.
+Perspectives on innovation processes. The Academy of Kogut, B. and Zander, U. (1992) Knowledge of the firm,
+Management Annals, 7, 775–819. combinative capabilities, and the replication of technol-
+
+Geroski, P. (1990) Innovation, technological opportunity, ogy. Organization Science, 3, 383–397.
+and market structure. Oxford Economic Papers, 42, Kotabe, M., Martin, X., and Domoto, H. (2003) Gaining
+586–602. from vertical partnerships: knowledge transfer, relation-
+
+Granovetter, M. (1973) The strength of weak ties. Ameri- ship duration and supplier performance improvement in
+can Journal of Sociology, 78, 1360–1380. the US and Japanese automotive industries. Strategic
+
+Granovetter, M. (1985) Economic action and social struc- Management Journal, 24, 293–316.
+ture: the problem of embeddedness. American Journal of Krackhardt, D. (1996) Comment on Burt and Knez’s third
+Sociology, 91, 481–510. party effects on trust. Rationality and Society, 8, 111–120.
+
+Granovetter, M. (1992) Economic institutions as social Kraft, K. (1990) Are product and process innovations inde-
+constructions: a framework for analysis. Acta Sociolog- pendent of each other? Applied Economics, 22, 1029–
+ica, 35, 3–11. 1038.
+
+Greer, C.R. and Lei, D. (2012) Collaborative innovation K€uhne, B. and Gellynck, X. (2013) The influence of rela-
+with customers: a review of the literature and sugges- tionship quality on the innovation capacity in traditional
+tions for future research. International Journal of Man- food chains. Supply Chain Management: An Interna-
+agement Reviews, 14, 63–84. tional Journal, 12, 52–65.
+
+Griliches, Z. (1990) Patent statistics as economic indicators: Lakshman, C. and Parente, R.C. (2008) Supplier focused
+a survey. Journal of Economic Literature, 27, 1667–1707. knowledge management in the automobile industry and
+
+Gulati, R. (1995) Does familiarity breed trust? The implica- its implication for product performance. Journal of Man-
+tions of repeated ties for contractual choice in alliances. agement Studies, 45, 317–342.
+Academy of Management Journal, 38, 85–112. Langlois, R.N. and Robertson, P.L. (1995) Firms, Markets
+
+Gulati, R.J. (1999) Network location and learning: the and Economic Change. London and New York:
+influence of network resources and firm capabilities on Routledge.
+alliance formation. Strategic Management Journal, 20, Laursen, K. and Salter, A. (2006) Open for innovation: the
+397–420. role of openness in explaining innovation performance
+
+Hagedoorn, J. and Frankort, H.T.W. (2008) The gloomy among UK manufacturing firms. Strategic Management
+side of embeddedness: the effects of overembeddedness Journal, 27, 131–150.
+on inter-firm partnership formation. Advances in Strate- Leiponen, A. and Helfat, C.E. (2010) Innovation objec-
+gic Management, 25, 503–530. tives, knowledge sources and the benefits of breadth.
+
+Hair, J.F., Black, W.C., Babin, B.J., Anderson, R.E., and Strategic Management Journal, 31, 224–236.
+Tatham, R.L. (2007) Multivariate Data Analysis. New Love, J.H., Roper, S., and Vahter, P. (2014) Learning from
+Jersey: Prentice Hall. openness: the dynamics of breadth in external innovation
+
+Hakansson, H. (1987) Industrial Technological Develop- linkages. Strategic Management Journal, 35, 1703–
+ment. A Network Approach. London: Croon Helm. 1716.
+
+Harabi, N. (1998) Innovation through vertical relations Lui, S.S. and Ngo, H.-y. (2012) Drivers and outcomes of
+between firms, suppliers and customers: a study of Ger- long-term orientation in cooperative relationships. Brit-
+man firms. Industry and Innovation, 5, 157–179. ish Journal of Management, 23, 80–95.
+
+Hedstr€om, P. and Bearman, P. (eds). (2009). The Oxford March, J.G. and Sutton, R.I. (1997) Crossroads-organiza-
+Handbook of Analytical Sociology. Oxford, UK: Oxford tional performance as a dependent variable. Organiza-
+University Press. tion Science, 8, 698–706.
+
+Henke, J.W.J. and Zhang, C. (2010) Increasing supplier- Marsden, P.V. (1993) The reliability of network density
+driven innovation. MIT Sloan Management Review, 51, and composition measures. Social Networks, 15, 145–
+41–46. 161.
+
+Henley, A.B., Shook, C.L., and Peterson, M. (2006) The McFayden, M.A. and Cannella, A.A. (2004) Social capital
+presence of equivalent models in strategic management and knowledge creations: diminishing returns of the
+research using structural equation modeling: assessing number and strength of exchange relationships. Academy
+and addressing the problem. Organizational Research of Management Journal, 47, 735–746.
+Methods, 9, 516–535. Molina-Morales, F.X. and Martinez-Fernandez, T.M.
+
+Jessop, B. (1998) The rise of governance and the risks of (2006) Industrial districts: something more than a neigh-
+failure: the case of economic development. International bourhood. Entrepreneurship and Regional Development,
+Social Science Journal, 155, 29–45. 18, 503–524.
+
+Johnsen, T., Phillips, W., Caldwell, N., and Lewis, M. Molina-Morales, F.X. and Martinez-Fernandez, T.M.
+(2006) Centrality of customer and supplier interaction in (2009) Too much love in the neighbourhood can hurt:
+innovation. Journal of Business Research, 59, 671–678. how an excess of intensity and trust in relationships may
+
+VC 2015 RADMA and John Wiley & Sons Ltd R&D Management 46, S1, 2016 287
+
+ 14679310, 2016, S1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/radm.12181 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Philip R. Tomlinson and Felicia M. Fai
+
+product negative effects on firms. Strategic Management Salman, N. and Saives, A.-L. (2005) Indirect networks: an
+Journal, 30, 1013–1023. intangible resource for biotechnology innovation. R&D
+
+Molina-Morales, X.F., Martınez-Fernandez, T.M., and Management, 35, 203–215.
+Torlo, V.J. (2011) The dark side of trust: the benefits, Saxton, T. (1997) The effects of partner and relationship
+costs and optimal levels of trust for innovation perform- characteristics on alliance outcomes. Academy of Man-
+ance. Long Range Planning, 44, 118–133. agement Journal, 40, 443–461.
+
+Mowery, D.C., Oxley, J.A., and Silverman, B.S. (1996) Schmitz, H. (1999) Global competition and local co-opera-
+Strategic alliances and interfirm knowledge transfer. tion: success and failure in the Sinos Valley, Brazil.
+Strategic Management Journal, 17, 77–91. World Development, 27, 1627–1650.
+
+Nadvi, K. (1999) Collective efficiency and collective fail- Schmitz, H. (2000) Does local co-operation matter?
+ure: the response of the sailkot surgical instrument clus- Evidence from industrial clusters in South Asia and
+ter to global quality pressures. World Development, 27, Latin America. Oxford Development Studies, 28,
+1605–1626. 323–336.
+
+Negassi, S. (2004) R&D co-operation and innovation: a Sharma, R., Crawford, J., and Yetton, P. (2009) Estimating
+micro-econometric study on French firms. Research Pol- the effect of common method variance: the method-
+icy, 33, 365–384. method pair technique with an illustration from TAM
+
+Noordhoff, C.S., Kyriakopoulos, K., Moorman, C., research. Mis Quarterly, 33, A1–A13.
+Pauwels, P., and Dellaert, B.G.C. (2011) The bright side Simard, C. and West, J. (2006) Knowledge networks and
+and dark side of embedded ties in business-to- business the geographic locus of innovation. In: Chesbrough, H.,
+innovation. Journal of Marketing Research, 75, 5, 34– Vanhaverbeke, W., and West, J. (eds) Open Innovation:
+52. Researching a New Paradigm. Oxford: Oxford Univer-
+
+OECD. (2005) Oslo Manual: Guidelines for Collecting and sity Press. pp. 220–240.
+Interpreting Innovation Data. Paris: Organisation for Squire, B., Cousins, P., and Brown, S. (2009) Cooperation
+Economic Co-operation and Development. and knowledge transfer within buyer-supplier relation-
+
+Oerlemans, L.A.G., Buys, A.J., and Pretorius, T. (2006) ships: the moderating properties of trust, relationship
+Research design for the South African Innovation Survey duration and supplier performance. British Journal of
+2001. In: Blankley, W., Scerri, M., Molotja, N., and Sal- Management, 20, 461–477.
+oojee, I. (eds) Measuring Innovation in OECD and Non- Subramani, M. (2004) How do suppliers benefit from infor-
+OECD Countries. Cape Town: Human Sciences mation technology use in supply chain relationships?
+Research Council Press. pp. 227–250. Mis Quarterly, 28, 45–73.
+
+Parkhe, A. (1993) Strategic alliance structuring: a game theo- Symeonidas, G. (1996) Innovation, firm size and market
+retic and transaction cost examination of inter-firm coop- structure. OECD Economic Studies, 27, 36–70.
+eration. Academy of Management Journal, 36, 794–829. Teece, D.J., Pisano, G.P., and Shuen, A. (1990) Firm capa-
+
+Pavitt, K.L.R. (1984) Sectoral patterns of technical change: bilities, resources and the concept of strategy. California:
+towards a taxonomy and a theory. Research Policy, 13, University of California at Berkley.
+343–374. Tether, B.S. (2002) Who cooperates for innovation and
+
+Pavitt, K.L.R. (1990) What we know about the strategic why. An empirical analysis. Research Policy, 31, 947–
+management of technology. Californian Management 967.
+Review, 32, 3, 17–26. Tomlinson, P.R. (2010) Co-operative ties and innovation:
+
+Phene, A., Fladmoe-Lindquist, K., and Marsh, L. (2006) some new evidence for UK manufacturing. Research
+Breakthrough innovations in the U.S. biotechnology Policy, 39, 762–775.
+industry: the effects of technological space and geographic Tomlinson, P.R. and Jackson, I. (2013) Co-operative ties
+origin. Strategic Management Journal, 27, 369–388. and the impact of external factors upon innovation in an
+
+Podsakoff, P.M., MacKenzie, S.B., Lee, J.-Y., and industrial district: some insights from the North Stafford-
+Podsakoff, N.P. (2003) Common method biases in shire Table and Giftware sector. Regional Studies, 47, 4,
+behavioral research: a critical review of the literature 580–596.
+and recommended remedies. Journal of Applied Psy- Torugsa, N. and Arundel, A. (2013) Inter-firm collabora-
+chology, 88, 879–903. tion and innovation performance: an empirical analysis
+
+Richardson, G.B. (1972) The organisation of industry. Eco- of the role of technological and skilled knowledge in an
+nomic Journal, 82, 883–893. Australian economy. Australian Innovation Research
+
+Rong, B. and Wilkinson, I.F. (2011) What do managers’ Centre. Tasmanian School of Business and Economics,
+survey responses mean and what affects them? The case University of Tasmania, Australia.
+of market orientation and firm performance. Australa- Tsai, W. and Ghoshal, S. (1998) Social capital and value
+sian Marketing Journal (AMJ), 19, 137–147. creation: the role of intra-firm networks. Academy of
+
+Roper, S., Du, J., and Love, J.H. (2008) Modelling the Management Journal, 41, 464–478.
+innovation value chain. Research Policy, 37, 961–977. Tsai, Y., Joe, S., Ding, C., and Lin, C. (2013) Modeling
+
+Rossetti, C. and Choi, T.Y. (2005) On the dark side of stra- technological innovation performance and its determi-
+tegic sourcing: experiences from the aerospace industry. nants: an aspect of buyer-seller social capital. Techno-
+Academy of Management Executive, 19, 46–60. logical Forecasting and Social Change, 80, 1211–1221.
+
+288 R&D Management 46, S1, 2016 VC 2015 RADMA and John Wiley & Sons Ltd
+
+ 14679310, 2016, S1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/radm.12181 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Impact of deep vertical supply chain relationships
+
+UKONS. (2008) UK Business: activity, size and location— statistic to compare which model is the most appropri-
+2008. Newport, UK: UK Office National Statistics. ate as this statistic provide insufficient evidence of
+
+Uzzi, B. (1996) The sources and consequences of embedd- causal direction since much depends on the relative
+edness for the economic performance of organizations: variance in dependent and independent variables.
+the network effect. American Sociological Review, 61, 4, While our checks on causality are not completely con-
+674–698. clusive, we feel confident our own models can justified
+
+Uzzi, B. (1997) The sources and consequences of embedd- on a-priori theoretical grounds.
+edness for the economic performance of organizations. 4. The use of perceptional scale-based measures does raise
+The network effect. American Sociological Review, 61, some methodological issues, particularly in relation to
+674–698. the interpretation of the Beta co-efficients in regression
+
+Villena, V.H., Revilla, E., and Choi, T. (2011) The dark- models. However, such data is commonly used in
+side of buyer-supplier relationships: a social capital per- research of this kind and has precedent in the innova-
+spective. Journal of Operations Management, 29, 561– tion literature (e.g. Molina-Morales and Martinez-
+576. Fernandez, 2006, 2009; Molina-Morales et al. 2011;
+
+Von Hippel, E. (1976) The dominant role of the user in the Tomlinson, 2010). This suggests the use of such meas-
+
+scientific instruments innovation process. Research Pol- ures is valid and the results in the paper are thus robust
+
+icy, 5, 212–239. (Hair et al., 2007).
+
+von Hippel, E. (1988) The Sources of Innovation. New 5. Collinearity between buyer and supplier co-operation
+
+York and Oxford: Oxford University Press. (over process innovation) is partly a consequence of
+
+Weick, K.E. (2000) Emergent change as a universal in the survey data trying to capture both the depth and
+
+organizations. In: Beer, M. (ed.), Breaking the Code of breadth of co-operation along the supply chain. Poten-
+
+Change. pp. 223–241, Harvard Business Review Press, tial solutions (in estimation) would be reduce the num-
+
+University of Harvard, Boston, MA. ber of items included in each construct, or to combine
+both constructs into one to capture overall vertical col-
+
+Williamson, O.E. (1985) The Economic Institutions of Cap-
+laboration. However, both methods involve the loss of
+
+italism. New York: Free Press.
+information and are not followed here.
+
+Zander, I. and Zander, U. (2005) The inside track: on the
+important (but neglected) role of customers in the Philip R. Tomlinson is Associate Professor in Busi-
+resource-based view of strategy and firm growth. Jour- ness Economics at the University of Bath School of
+nal of Management Studies, 42, 1519–1548.
+
+Management, where he is also a convenor for the
+Zsidisin, G.A., Ragatz, G.L., and Melnyk, S.A. (2005) The
+
+Institute for Policy Research (IPR). His research
+dark side of supply chain management. Supply Chain
+Management Review, 9, 46–52. interests predominantly focus upon economic gover-
+
+nance, innovation, regional development and indus-
+trial policy, where he has published extensively in
+
+Notes some of the world’s leading academic journals
+including Research Policy, Economic Journal, Indus-
+
+1. This response rate might be considered low, but trial and Corporate Change, Cambridge Journal of
+because we do not seek some inference of the results to Economics and Regional Studies. He recently co-
+the performance of UK firms in general, but instead edited New Perspectives on Industrial Policy for a
+seek to capture the variation in key constructs under Modern Britain (2015, Oxford University Press with
+investigation, the response rate is sufficient for our David Bailey and Keith Cowling) and has contrib-
+purposes. uted to several edited volumes. He has also addressed
+
+2. Our measure of innovation closely adheres to the Oslo the UK All Party Parliamentary Manufacturing
+Manual OECD. (2005) Oslo Manual: Guidelines for Group on industrial and innovation policy.
+Collecting and Interpreting Innovation Data. Paris:
+Organisation for Economic Co-operation and Develop- Felicia M. Fai is an Associate Professor in Interna-
+ment. p. 46. tional Business at the University of Bath School of
+
+3. In fact, Henley et al. (2006) note alternative models are Management. Her research interests lie in innovation
+rarely acknowledged in cross-sectional, survey based and technology as drivers of economic growth (at
+studies. Following Henley et al. (2006, pp. 527–529)’s firm, industry and national levels) and the issues sur-
+suggestions, we ran several supplementary regressions
+
+rounding them in a globalizing world. She has pub-
+in which both buyer and supplier co-operation acted as
+
+lished widely in leading academic journals including
+dependent variables and both product and process
+innovation acted as independent regressors. In just 2 Technovation, International Journal of Production
+
+cases, product innovation and then process innovation Economics, Management International Review and
+
+had a marginally significant impact upon supplier co- Industrial and Corporate Change. She also authored
+operation (at the 10% level of significance). Neither ‘Corporate Technological Competence and the Evo-
+regressor had a significant impact upon buyer co- lution of Technological Diversification’ (2003,
+operation. Similarly, we could not use the R-squared Edward Elgar).
+
+VC 2015 RADMA and John Wiley & Sons Ltd R&D Management 46, S1, 2016 289
+
+ 14679310, 2016, S1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/radm.12181 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Philip R. Tomlinson and Felicia M. Fai
+
+Appendix A in the production processes (based upon Tsai and
+Ghoshal, 1998; Molina-Morales and Martinez-
+
+Proportion of firms by firm size Fernandez, 2006, 2009; Molina-Morales et al.,
+2011)
+
+Firm Size: Number of employees on farm
+All firms (manufacturing) (Scale 1–5; where 1 5 less than 10, 2 5 10–49,
+
+Number of employees Sample Population 3 5 50–99, 4 5 100–250, 5 5 250–499) (based
+upon De Propris, 2002; Freel and Harrison, 2006).
+
+1–49 74.6% 93% R&D expenditure % of turnover spent on R&D
+50–249 19.4% 5% (Scale 1–5; where 1 5 1–5%, 2 5 6–10%, 3 5 11–
+>250 6% 3% 20%, 4 5 21–30%, 5 5 Greater than 30%) (based
+
+upon De Propris, 2002; Freel and Harrison, 2006).
+
+Sources: UK Office for National Statistics (2008). Sales Revenue Growth 1/0; 1 if firm has
+Note: The UK Office for National Statistics (2008) data attained sales revenue growth over the three year
+measures the proportion of VAT registered units (based period 2005/06–2007/08; 0 otherwise (based upon
+upon 2003 SIC codes). As such, it does not specifically De Propris, 2002).
+account for the ownership of such units. Since firms may Co-operation with Buyers (Product Innova-
+own multiple units, the National Statistics data may over- tion): (1) Improving product quality, (2) new
+state the proportion of smaller firms in each strata of the product designs, (3) exchange of information/
+actual population. experiences.
+
+Co-operation with Buyers (Process Innovation):
+(1) Marketing and distribution of products, (2) produc-
+
+Appendix B tion organisation, (3) technological upgrading, (4)
+exchange of information/experiences.
+
+Variable construction (survey items Co-operation with Suppliers (Product Innova-
+used) tion): (1) Improving quality of inputs, (2)
+
+exchange of information/experiences.
+Product Innovation: (1) The number of new Co-operation with Suppliers (Process Innova-
+product lines introduced, (2) the number of tion): (1) Improving delivery times, (2) labour
+changes/improvements to existing product lines. training, (3) production organisation, (4) techno-
+
+Process Innovation: (1) The Number of new logical upgrading, (5) exchange of information/
+equipment/technology introduced in the production experiences.
+process, (2) the number of new input materials (Co-operation Scales, where 15 no co-operation and
+introduced in the production process, (3) the num- 55 Very high level of co-operation). Based upon Schmitz
+ber of organisational changes/improvements made (1999, 2000), Knorringa (1999) and Nadvi (1999).
+
+290 R&D Management 46, S1, 2016 VC 2015 RADMA and John Wiley & Sons Ltd
+
+ 14679310, 2016, S1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/radm.12181 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

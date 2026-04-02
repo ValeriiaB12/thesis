@@ -1,0 +1,3165 @@
+﻿Spillover effects within supply chains: Evidence from Chinese-listed firms 
+
+ 
+
+Xunxiao Wang 
+
+School of Statistics and Management 
+
+Shanghai University of Finance and Economics, Shanghai 200433, China 
+
+Email: wang.xunxiao@sufe.edu.cn 
+
+ 
+
+ 
+
+Shibo Bian (Corresponding author) 
+
+School of Statistics and Management 
+
+Shanghai University of Finance and Economics, Shanghai 200433, China 
+
+Email: bian.shibo@sufe.edu.cn 
+
+ 
+
+ 
+
+Chongfeng Wu 
+
+Antai College of Economics and Management 
+
+Shanghai Jiao Tong University, Shanghai 200030, China 
+
+Email: cfwu@sjtu.edu.cn 
+
+  
+
+1 
+ 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+Spillover effects within supply chains: Evidence from Chinese-listed firms 
+
+Abstract: There is increasing attention on information transfers along supply chain 
+
+partners for firm (extreme) events. This growing literature finds spillover effects 
+
+following certain types of firm events. Using data from credit rating actions of Chinese-
+
+listed firms over the period between March 2007 and May 2020, we examine the 
+
+spillover effects of supply chains by focusing on the market reactions of event firms to 
+
+the action announcements. We find strong evidence of spillover effects driven by the 
+
+market reactions of event firms, which are enhanced through information diffusion 
+
+channels as supply chain partners receive more investor attention. Moreover, the effects 
+
+are stronger when event firms’ market reactions are negative, event firms are non-
+
+stated-owned, the industry concentration of event firms is higher, or the supplier-
+
+customer business relationship is closer. Overall, these findings highlight the role of 
+
+investor attention in addition to network characteristics in supply chain spillovers. 
+
+Keywords: Spillover effects; Supply chains; Market reactions; Credit rating; 
+
+Information diffusion 
+
+  
+
+2 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+1. Introduction 
+
+This study investigates the spillover effects of supply chains in China by focusing 
+
+on the market reactions of firms to announcements of credit rating actions such as rating 
+
+changes, credit watches and outlooks. While previous research has extensively explored 
+
+the wealth effects of adverse extreme events such as bankruptcy filings and natural 
+
+disasters (e.g., Hertzel et al. 2008; Houston et al. 2016; Kolay et al. 2016; Jacobson and 
+
+von Schedvin 2015; Hendricks et al. 2020), there may be little exploration into whether 
+
+spillover effects driven by stock market reactions of credit rating actions exist and, if 
+
+so, what affects them. This study focuses on the idea that firms in the supply chain will 
+
+experience comovements during credit rating events. We are concerned about the credit 
+
+rating actions because they are more common, cover more firms and hence would have 
+
+more comprehensive effects along the supply chain. 
+
+Indeed, Chang et al. (2015) recently explore the information effects of bond rating 
+
+downgrades along the supply chains. They find that suppliers experience significant 
+
+credit spread increases during customers’ bond rating downgrades. This indicates that 
+
+the announcement of credit rating downgrades has credit contagion effects on 
+
+downgraded firms’ suppliers. However, we focus on spillover effects in stock markets 
+
+driven by market reactions of all credit rating actions. In addition to rating changes, 
+
+credit rating agencies issue other rating actions, such as credit watches and rating 
+
+outlooks, which also contain valuable information (Cantor and Mann 2007; Chung et 
+
+al. 2012). Given the importance of credit watches and rating outlooks actions, it is 
+
+reasonable to believe that these actions may have spillover effects in the supply chain. 
+
+Moreover, there is scarce empirical evidence on spillover effects of credit rating actions 
+
+in the supply chain of emerging economies, particularly in China, where the market for 
+
+firm crediting ratings is large and growing. Credit ratings have become more important 
+
+3 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+for Chinese firms since 2005 when the People’s Bank of China issued the measures for 
+
+the administration of short-term financing bonds. Credit rating is a reliable passport for 
+
+firms to obtain government support and external financing, which is widely concerned 
+
+by suppliers, customers and investors of firms. Thus, these facts emphasize the 
+
+importance of our investigation. 
+
+Our focus on China’s supply chain is driven by the unique characteristics of its firms, 
+
+which differ from those in developed countries. One particular feature is that state-
+
+owned firms account for a large proportion in China’s economic market.1 Compared 
+
+with non-state-owned firms, the state-owned firms with closer ties to the government 
+
+are more likely to obtain scarce resources such as preferential loans and tax exemptions, 
+
+which makes state-owned firms usually in a strong position in the market (Shleifer and 
+
+Vishny 1994; Allen et al. 2005), and have relatively soft budget constraints (Cunat 
+
+2007). With these arguments in mind, it is important to explore the spillover effects of 
+
+credit rating actions in the Chinese supply chains. Another important feature is the 
+
+relatively lower level of industrial concentration among firms in China compared to 
+
+developed countries. The industrial concentration affects the implications of spillover 
+
+effects in the supply chain (Gosman et al. 2004; Hertzel et al. 2008). Furthermore, 
+
+Chinese firms are involved in a wide range of industries, which is an important feature 
+
+of the development of emerging economies. Credit rating events cover almost all 
+
+industries, which may make our results of supply chain spillovers more representative. 
+
+To explore the existence of spillover effects among the firms in the supply chain, 
+
+we examine the relationship between the abnormal returns of an event firm and the 
+
+abnormal returns of the portfolio of suppliers and customers. We focus on the market 
+
+                                                     
+1 By May 2020, the number of state-owned enterprises in the listed companies’ accounts for about 
+28%, and their outstanding market value accounts for about 46%. 
+
+4 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+reaction of an event firm rather than the event itself. The basic intuition behind these 
+
+analyses is as follows: provided that supplier firm and customer firm are each other’s 
+
+stakeholders, the change of a firm’s credit rating, especially the unexpected component 
+
+of the change, often predicts the change of the performance and financial health of its 
+
+suppliers and customers, thus generating spillover effects in the supply chain. More 
+
+specifically, information about rating changes is exchanged not only between supply 
+
+chain partners, but also among their investors. Rating changes, especially those are 
+
+unanticipated, will cause market reactions under the market expectation theory (Smith 
+
+1986), and further lead to stock price reactions of other stakeholders under the 
+
+hypothesis of investor attention (Hou et al. 2009). Thus, the abnormal market reaction 
+
+to an event is more important than the event’s characteristics with regard to spillovers 
+
+in the supply chain. Above all, the market reaction conditions the market’s expectations 
+
+about the credit rating change (credit watch or outlook) event; therefore, the market 
+
+reaction better captures the surprise component associated with rating changes (credit 
+
+watches or outlooks) compared to the changes themselves. In other words, whether the 
+
+market participants view the rating change (credit watch or outlook) of an event firm 
+
+favorably or unfavorably is more meaningful than whether the rating change (credit 
+
+watch or outlook) of the firm is upgraded or downgraded (positive or negative). Indeed, 
+
+we find that the market evaluation of a firm by an event plays an important role in 
+
+determining the characteristics of spillover effects in the supply chain. 
+
+The central finding of our study is that suppliers and customers as a whole 
+
+experience significant spillover effects driven by the market reactions of event firms to 
+
+credit rating actions such as rating changes, credit watches, and outlooks. This finding 
+
+is robust to endogeneity, estimation approaches for abnormal returns, and event 
+
+windows. This novel finding provides direct evidence that credit rating actions have a 
+
+5 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+greater economy-wide impact, in addition to the previously documented effects only on 
+
+the event firms. The spillover effects are economically significant. On average, a one 
+
+standard deviation increase in the market reaction of an event firm is associated with a 
+
+1.65% increase in the CAR(0,4) of nonevent firms in the supply chain. 
+
+To explore the information channel of our documented spillover effects, we 
+
+augment our specification with indicator variables for investor attention and find that 
+
+this factor has a substantial effect. The spillover effects are 3.4 times larger if both 
+
+supply chain partners are being followed by more of the same analysts. Meanwhile, the 
+
+spillover effects are 1.4 times larger if both supply chain partners are being covered by 
+
+more of the same media. Thus, the spillover effect becomes more pronounced when 
+
+information about supply chains improves. 
+
+To drill further down, we conduct several cross-sectional analyses. Firstly, we 
+
+extend our analyses by comparing negative spillovers with positive spillovers. We refer 
+
+to negative (positive) spillovers as the spillover effects caused by negative (positive) 
+
+market reactions of event firms. Our results show that negative spillovers are more 
+
+dominant than positive spillovers, which are consistent with the argument that negative 
+
+events generally have a larger impact on market participants (Tversky 1979; Soroka 
+
+2006). Secondly, we find that the spillover effects are larger when the event firms are 
+
+non-state-owned. This result suggests that market participants are largely more 
+
+concerned about the credit rating actions of private firms, because they are more 
+
+dependent on private investments and banks loans for growth, while state-owned firms 
+
+are more likely to have access to scarce resources (Cong et al. 2019). Thirdly, we 
+
+examine the relationship between spillover effects and industry concentration. To that 
+
+end, we use the Herfindahl ratio to measure the industry concentration of event firms, 
+
+which is constructed from the sales of event firms for the whole industry. We find that 
+
+6 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+the spillover effects are stronger when the industry concentration of event firms is 
+
+higher. 
+
+Finally, we consider several alternative specifications based on the portfolio of 
+
+suppliers or customers separately. We find that the spillover effects due to credit rating 
+
+actions can spread not only upstream, but downstream as well. This result bolsters our 
+
+evidence on individual suppliers and customers and constitutes new evidence on the 
+
+extent of spillover effects of credit rating events. In addition, the spillover effects to 
+
+suppliers appear to be greater than those to customers. Specifically, we observe that the 
+
+spillover effects to suppliers rather than to customers are amplified when the rating 
+
+change of even firms is across two grades (investment grades and speculative grades) 
+
+or rating agencies have global partners. These results imply that rating changes can 
+
+affect the bargaining powers between suppliers and customers in different ways. 
+
+Moreover, we find that when the level of business relationship between event firms and 
+
+their suppliers and customers is higher, the spillover effects to suppliers and customers 
+
+are both stronger. 
+
+This paper makes several contributions to the existing literature. Firstly, to the best 
+
+of our knowledge, this paper is the first to uncover the spillover effects driven by the 
+
+stock market reaction of an event firm (to credit rating actions) in the supply chain. We 
+
+focus on the abnormal market reaction of event firms rather than whether the events are 
+
+favorable or unfavorable, which captures the surprise component of events better than 
+
+the events themselves. We provide direct evidence that both suppliers and customers 
+
+experience the spillover effects driven by the market reactions of event firms, which 
+
+suggests that the market evaluation of a firm with regard to an event is crucial in order 
+
+to determine the characteristics of spillover effects. Secondly, this paper examines the 
+
+spillover effects of all credit rating actions including credit watches and outlooks in 
+
+7 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+addition to rating changes. Many studies have focused on the impacts of credit rating 
+
+changes, particularly downgrades (e.g., Weinstein 1977; Jorion et al. 2005; Jorion and 
+
+Zhang 2010; Chang et al. 2015; Alldredge et al. 2019), but relatively few have looked 
+
+at the impacts of credit watches and outlooks. Therefore, in a broader sense, our results 
+
+show that credit rating action events have supply chain spillover effects. Thirdly, this 
+
+study contributes to the literature on the role of attention by highlighting that the 
+
+documented spillover effects are stronger if supply chain partners are being followed 
+
+by more of the same analysts or covered by more of the same media. This finding 
+
+improves our understanding of the propagation of firm level shocks through 
+
+information flows along supply chains. Overall, this paper provides valuable insights 
+
+into the spillover effects driven by market reactions of event firms to credit rating 
+
+actions in the supply chain, considers a comprehensive range of credit rating actions, 
+
+and sheds light on the role of attention in shaping spillover effects. 
+
+The rest of the paper is organized as follows. Section 2 presents a review of the 
+
+related literature and develops the hypotheses. Section 3 describes our data and 
+
+empirical approach. Section 4 presents the main empirical results. Section 5 conducts 
+
+further analysis. Section 6 conducts robustness checks. Section 7 concludes the paper. 
+
+2. Related literature and hypothesis development 
+
+2.1. Related literature 
+
+Our paper is closely related to a number of papers on supply chains as channels for 
+
+information in financial markets. This literature has focused on adverse events, such as 
+
+bankruptcies, defaults, credit rating downgrades, and nature disasters (e.g., Hertzel et 
+
+al. 2008; Houston et al. 2016; Jacobson and von Schedvin 2015; Kolay et al. 2016; 
+
+Chang et al. 2015; Hendricks et al. 2020). In contrast,, our paper contributes to this 
+
+8 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+literature by investigating both favorable and adverse shocks, and focusing on the 
+
+market reactions of event firms rather than the events themselves. We find that the 
+
+spillover effect driven by the market reactions of event firms is significantly positive, 
+
+especially the negative spillover driven by negative market reactions is stronger. This 
+
+contributes to the existing literature by highlighting the distinct dynamics of spillover 
+
+effects resulting from market reactions. 
+
+Our paper is also relevant to the literature on information transfer effect of credit 
+
+events on partners along the supply chain. A typical recent work by Chang et al. (2015) 
+
+uses credit default swap (CDS) spread data from Markit and an event-study method to 
+
+estimate credit risk effects of credit rating downgrades on downgraded firms’ suppliers 
+
+and customers. Chang et al. (2015) find that suppliers experience significant credit 
+
+spread increases during rating downgrades. In parallel, Agca et al. (2022) define CDS 
+
+jump events and analyze credit shocks propagate driven by these events through supply 
+
+chains in the CDS market. They find that the CDS jump events result in substantial 
+
+abnormal CDS spread changes for the supply chain partners of the event firm, in the 
+
+same direction as the jumps. Besides rating changes, credit rating agencies also issue 
+
+other rating actions such as credit watches and rating outlooks that contain important 
+
+information, but are overlooked by the prior literature (e.g., Cohen and Frazzini 2008; 
+
+Menzly and Ozbas 2010; Chang et al. 2015; Alldredge et al. 2019; Agca et al. 2022). 
+
+Our paper contributes to this literature by examining the stock market spillover effects 
+
+of credit rating actions through supply chains, including rating changes, credit watches, 
+
+and outlooks. Specifically, we focus on the spillover effects driven by the stock market 
+
+reaction of rating changes, credit watches and outlooks events’ firms. We find that both 
+
+suppliers and customers experience positive spillover effects, which remain robust 
+
+across different types of rating actions. 
+
+9 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+Moreover, our paper is connected to the literature that explores how network 
+
+characteristics, such as network centrality (Wu and Birge 2014; Yang and Zhang 2019), 
+
+customer concentration (Cen et al. 2017; Campello and Gao 2017), customer and 
+
+supplier state ownerships (Allen et al. 2005; Cunat 2007), and customer relationships 
+
+(Cen et al. 2016) affect the revenues and valuation of firms. The current paper 
+
+contributes to the prior literature by focusing on the association between spillover 
+
+effects in the supply chain driven by the market reaction of event firms (to credit rating 
+
+actions) and network characteristics. We present evidence that the spillover effects in 
+
+the supply chain are considerably stronger when event firms are non-state-owned. 
+
+Besides, we find that the spillover effects in the supply chain are much greater when 
+
+the supplier-customer relationship is closer, or when the industry concentration of event 
+
+firms is higher. Furthermore, the documented spillover effects for suppliers are 
+
+amplified when the rating change is across two grades (speculative grade ratings and 
+
+investment grade ratings) or rating agencies have global partners.  
+
+Finally, our paper is related to the literature on the importance of investor attention 
+
+for information diffusion. Investors are more selective in information processing due to 
+
+limited attention, which can have an impact on the information diffusion across 
+
+economically linked assets (Peng and Xiong 2006). Hong et al. (2007) show that the 
+
+slow information diffusion of industry news may open up opportunities for stock return 
+
+prediction. By contrast, if investor attention is high, information diffusion is likely to 
+
+be faster. A number of studies have shown that rapid information diffusion in the same 
+
+investment habitats leads to returns comovement for stocks associated with the habitat. 
+
+These include habitats such as the S&P 500 (Vijh 1994; Barberis et al. 2005), 
+
+geography (Pirinsky and Wang 2006; Kumar et al. 2013), and volatility (Dorn and 
+
+Huberman 2010). More recently, Leung et al. (2017) show that stocks within the same 
+
+10 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+cosearch habitats receive high attention from investors and such habitats exhibit high 
+
+similarity in stock returns or comovement. Similar behavior applies to supply chain 
+
+stocks. If investors pay attention to the partner firms, then the information diffusion is 
+
+likely to be high, and, as a result, the stocks are more likely to comove. Our paper 
+
+contributes to this literature by highlighting that customer-supplier networks with 
+
+investor attention have valuable asset pricing implications for the spillover effects 
+
+across debt and equity holders. Our evidence shows that the spillover effects of credit 
+
+shocks in the supply chain are more pronounced as investor attention increases, 
+
+suggesting that information about customer (supplier) credit risk should be incorporated 
+
+into supplier (customer) stock prices when supply chain information improves. 
+
+Methodologically, several studies investigate the spillover effects of new 
+
+information within an industry, across industries, and through supply chains using 
+
+event-study methodology (e.g., Lang and Stulz 1992; Slovin et al. 1999; Hertzel et al. 
+
+2008; Chang et al. 2015; Agca et al. 2022). Our paper contributes to this literature by 
+
+focusing on the market reaction of an event firm rather than the event itself. The market 
+
+reaction captures the surprise component of the rating actions better than the rating 
+
+actions themselves (Joe and Oh 2018). To the best of our knowledge, no existing study 
+
+has used this method to estimate the spillover effects of generic credit rating actions as 
+
+we have done, in the supply chain.  
+
+2.2. Hypotheses 
+
+Capital market efficiency theory suggests that information regarding a firm’s 
+
+financial prospects should flow freely between the stock and the bond markets. Studies 
+
+have found that new information revealed in the bond market has significant impacts 
+
+on firms’ stock prices (Holthausen and Leftwich 1986; Dichev and Piotroski 2001), 
+
+which is especially confirmed by some literatures that find abnormal stock returns 
+
+11 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+around credit rating events (e.g., Dichev and Piotroski 2001; Jorion and Zhang 2007). 
+
+On the other hand, supply chains are a likely channel through which financial shocks 
+
+spread. Supply chains enable flows of physical products and services downstream 
+
+toward customers and financial flows upstream toward manufacturers and the 
+
+producers of raw materials. Alongside these physical and financial flows, there exist 
+
+informational flows that encompass demand forecasts, production capabilities, and the 
+
+financial strength of companies. 
+
+Information is exchanged not only between supply chain partners, but also among 
+
+their investors. Stock returns of economically linked supply chain partners are 
+
+correlated because of related fundamental (Hong et al. 2007) and profits (Menzly and 
+
+Ozbas 2010). It is then expected that investors should pay attention to all stocks in the 
+
+supply chain and information diffuses quickly in the market. However, the hypothesis 
+
+of limited investor attention implies that the information diffuses slowly in the market 
+
+(Hong et al. 2007) and across economically linked assets (Cohen and Frazzini 2008) 
+
+due to limited attention and investor specialization. The literature on attention provides 
+
+consistent evidence that investor attention (or conversely, inattention) to firm-specific 
+
+information and events is associated with positive (negative) capital market effects 
+
+(Hirshleifer and Teoh 2003; Corwin and Coughenour 2008; Hirshleifer et al. 2009; 
+
+Chakrabarty and Moulton 2012). High investor attention across supply chain partners 
+
+represents a higher level of information diffusion that would lead to return 
+
+comovement—i.e., returns tend to move together in the same direction—for such stocks 
+
+in the same time period (Barberis et al. 2005). 
+
+Market anticipation theory advises that markets tend to react more strongly to 
+
+unanticipated firm events than to anticipated firm events because unanticipated firm 
+
+events contain more original information (Smith 1986). Together with that the market 
+
+12 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+reaction captures the surprise component of the rating actions more effectively than the 
+
+rating actions themselves (Joe and Oh 2018), we expect the market response to the 
+
+event of a firm to be transferred from an event firm to other firms in the supply chain. 
+
+In other words, the market evaluation of a firm with regard to an event should be crucial 
+
+in order to determine the characteristics of spillover effects in the supply chain. 
+
+Furthermore, if investors pay attention to the partner firms, then the information 
+
+diffusion is likely to be high and as a result, the stocks are more likely to comove 
+
+(Agarwal et al. 2017). Collectively, these lead to our main hypothesis: 
+
+Hypothesis 1a. Supply chain partners experience spillover effects driven by the 
+
+market reactions of event firms (to credit rating actions). 
+
+Hypothesis 1b. The spillover effects are enhanced through information diffusion 
+
+channels as supply chain partners receive more investor attention. 
+
+3. Data and Methodology 
+
+3.1. Data 
+
+Our data are collected from two sources: WIND database provided by the Wind 
+
+Information Co., Ltd. for Chinese firms’ credit rating action data and scattered 
+
+customer-supplier relationship data, and China Stock Market & Accounting Research 
+
+(CSMAR) database for financial and accounting data. In what follows we describe in 
+
+detail our sample selection procedure. 
+
+The primary dataset we examine is the announcement of credit rating actions. 
+
+Initially, we download 6,555 rating action events from the WIND database between 
+
+March 2007 and May 2020. Subsequently, we exclude 4,827 events of firms that do not 
+
+have stock returns. Additionally, we eliminate 120 events that are sequentially close. 
+
+To focus on the contagion of credit rating actions, we further exclude other firm-
+
+13 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+specific information such as earning announcements, mergers and acquisitions, and 
+
+seasoned equity offerings within nineteen business days (-9,9) of the event date of the 
+
+credit rating actions.2 This rigorous screening process generates our preliminary sample 
+
+that consists of 1,596 credit rating action events with 315 events for credit watches 
+
+actions only and 326 events for outlook actions only. 
+
+Our other major data set is the lists of customer-supplier relationships. The data for 
+
+supplier-customer relationships is scattered but available from firm-specific public 
+
+files.3 To gather information regarding the major suppliers and customers of Chinese 
+
+public firms that have undergone credit rating actions between 2007 and 2020, we 
+
+follow a series of steps. Firstly, we employ a text-matching program to match the event 
+
+firm’s name to the one of WIND segment ’network’ file.4 The files, collected by WIND 
+
+Data Services, are sourced from the firm’s periodic reports (i.e., quarterly reports and 
+
+annual reports). They contain valuable information about the firm’s upstream and 
+
+downstream business names, stock tickers (if listed), accounts receivable, accounts 
+
+payable, sales and reporting dates over time period 2006-2020. It is important to note 
+
+that the WIND network file of a firm is named after the firm itself, and the list of 
+
+suppliers and customers of the firm may vary across different years. A practical 
+
+difficulty is that a small number of WIND network files are named after the abbreviated 
+
+forms of the firms’ names. To address this problem, similar to practice in Fee and 
+
+Thomas (2004), the program requires all of the Chinese Hanzi characters in the reported 
+
+network file name to be sequentially presented in the potential match. Subsequently, 
+
+we visually inspect each match generated by the text-matching program to ensure 
+
+                                                     
+2 We apply these screening criteria to event firms and other partner firms in supply chains. Similar 
+practice can be seen in Joe and Oh (2018). 
+3 Since 2005, more companies in China have voluntarily disclosed the sales and names of their top 
+five customers and suppliers in their quarterly reports or annual reports. 
+4 The text-matching program code is available upon request. 
+
+14 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+accuracy. This visual inspection involves some discretion, but it is conducted in a 
+
+conservative manner that ensures all matches are certain. This matching process 
+
+produces accurate matches approximately accounting for 94% of total potential 
+
+matches, excluding all of the possible event–network pairs if there are multiple potential 
+
+matches and we cannot choose the unique match by screening the available public 
+
+information (firm web sites, annual reports, and Baidu). 
+
+Similarly to Hertzel et al. (2008) who document a negative valuation effect of a 
+
+customer’s bankruptcy filings on its suppliers, all matches are restricted to the two years 
+
+prior to (and including) the rating action event year. If the matching process produces 
+
+multiple matches between firm-pairs over the two-year pre-event period, we choose the 
+
+match-year closest to the event year. Then, we eliminate the cases where the supplier 
+
+or customer’s name is not matched to a unique firm. Subsequently, we exclude the firm-
+
+pairs without daily financial data available for the supplier or customer. Finally, to focus 
+
+on the spillover effects stemming from credit rating action announcements within the 
+
+supply chain, each event firm must have at least one supplier or customer. 
+
+Our sample selection procedure produces a total of 769 events, and the distribution 
+
+of these events over time is shown in Table 1. The sample contains 276 events of firms 
+
+that have at least one customer, 624 events firms that have at least one supplier, and 
+
+131 events of firms that have at least one customer and one supplier. In addition, our 
+
+final sample consists of 1,477 event-customer or -supplier observations, spanning 
+
+across 150 industries. The sample events are concentrated in the time period 2010 to 
+
+2020, which contains 711 of the 769 events (92%) of the total sample. The time 
+
+distribution of our sample of events is representative of total events over this period (as 
+
+reported in the second column of the table), which breaks down over the same time 
+
+15 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+period as 94%. The time-clustering of our sample could reflect variation in firms 
+
+voluntarily reporting the identity of major customers or suppliers. 
+
+For the full sample of 769 events of firms with at least one supplier or customer, 
+
+we identify a total of 345 suppliers and 139 customers. However, our analysis of 
+
+supply-chain spillover effects is mainly based on the portfolios of suppliers and 
+
+customers for each event. The majority of the customer and supplier portfolios have 
+
+only one firm. As reported in the table, the average numbers of suppliers and customers 
+
+per event are 1.1 and 1.2. 
+
+Motivated by the evidence in prior literature that being a state-owned firm might 
+
+differentiate a non-state-owned firm in terms of creditworthiness, and its credit rating 
+
+actions have different influences on financial markets (see, for example, Allen et al. 
+
+2005; Cull and Xu 2005; Lu et al. 2012), we divide our event sample into two 
+
+subsamples: the announcements of state-owned firms and non-state-owned firms. There 
+
+are 380 (389) events of (non-) state-owned firms that have at least one supplier or one 
+
+customer in our final sample. For brevity, the distribution of these two subsamples is 
+
+not tabulated. 
+
+Table 2 summarizes the variables for our sample of 769 event firms.5 The mean 
+
+(median) book value of total assets is ¥135.1 (15.5) billion. The return on assets (ROA), 
+
+which is calculated by the ratio of net income to total assets, is on average 1.4%. 
+
+However, the distribution of ROA is highly skewed, with a median of 0.9%. The mean 
+
+(median) leverage is 63.2% (62.0%), and the book to market ratio is 0.81 (0.85). The 
+
+mean (median) of cash holdings to total assets is 8.5% (6.4%). 
+
+                                                     
+5 Table A1 in Appendix A provides the descriptive statistics of variables for event firms in more 
+details, including the minimum, first quartile, median, mean, third quartile, maximum, and standard 
+deviation. 
+
+16 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+Table 2 also shows the descriptive statistics of our event firms in the two 
+
+subsamples: state-owned firms and non-state-owned firms. The mean Size of state-
+
+owned firms is ¥22.6 billion, which is larger than that of non-state-owned firms (¥15.7 
+
+billion). Particularly, the mean book to market ratio of state-owned firms is significantly 
+
+higher than that of non-state-owned firms. This is consistent with the idea that state-
+
+owned firms tend to be more profitable and mature than non-state-owned firms. 
+
+3.2. Methodology 
+
+This paper investigates the spillover effects within the supply chain by focusing on 
+
+the market reactions of event firms to credit rating actions in the supply chain. For each 
+
+event, we construct a portfolio of suppliers and customers if exist, resulting in a total of 
+
+769 portfolios. 
+
+Next, we employ the standard event study methodology (Brown and Warner 1985) 
+
+that calculates the abnormal returns (ARs) and the cumulative abnormal returns (CARs) 
+
+for event firms by using the market model that follows the event dates of credit rating 
+
+actions. The model also estimates the ARs and CARs for the supplier and customer 
+
+portfolios for each event by using the portfolio approach.6 The AR for the stock of firm 
+
+i at time t is computed as follows: 
+
+ AR  R  ˆ ˆ
+it it  i  i Rmt  , (1) 
+
+where Rit and Rmt are the daily returns for the stock of firm i at time t and the daily 
+
+market index (Shanghai Composite Stock Price Index) return at time t, respectively. 
+
+The parameters ˆ  and ˆ  are the ordinary least squares estimates of the intercept and 
+i i
+
+slope, respectively, of the market model regression estimated using 180 daily returns 
+
+                                                     
+6  The portfolio approach allows us to diversify away the cross-sectional dependence of 
+individual returns (see, for example, Hertzel et al. 2008; Bae et al. 2008; Joe and Oh 2018). 
+
+17 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+beginning with day t =−200 and ending with t =−21 relative to the credit rating action 
+
+date. We construct the CARi between any two dates t1 and t2 by cumulating daily 
+
+abnormal returns from day t1 to t2. We follow a similar approach to Hertzel et al. (2008) 
+
+to estimate the CARs of supplier and customer portfolios by using equal weighting in 
+
+order to understand effectively the spillover effects within supply chains. 
+
+4. Main results 
+
+4.1. Baseline results 
+
+Table 3 shows the spillover effects that are driven by the market reactions of event 
+
+firms. For each event, we form an equal-weighted portfolio of nonevent firms (suppliers 
+
+and customers) in the supply chain, and calculate the portfolio return. The average 
+
+return of nonevent firms is the average of these portfolio returns over all events. To 
+
+unambiguously investigate the relation between the returns of event and nonevent firms, 
+
+we report the average portfolio returns of nonevent firms separately for two subsamples. 
+
+These subsamples are formed based on the sign of the CARs of event firms. 
+
+The results show that the average two-day and five-day CARs of event firms with 
+
+negative market reactions to credit rating actions are −4.02% and −4.55%, respectively, 
+
+both of which are significant at the 1% level. The average two-day and five-day CARs 
+
+for the corresponding nonevent firms show significant average excess returns of −1.64% 
+
+and −1.58%, respectively. Meanwhile, we also find that the average two-day and five-
+
+day CARs of event firms with positive market reactions to credit rating actions are 3.10% 
+
+and 3.75%, respectively. Both of those are statistically significant at the 1% level. The 
+
+average two-day and five-day CARs for the corresponding nonevent firms are 1.25% 
+
+and 1.64%, respectively, both of which are significant at the 1% level. These findings 
+
+18 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+suggest that the credit rating actions of one firm have spillover effects on the other 
+
+members in its supply chain. 
+
+As a further test for spillover effects along supply chains, we conduct regression 
+
+analyses. In Table 4, we show the market reaction of an event firm to be an important 
+
+factor in explaining spillover effects within supply chains. We use the five-day 
+
+CARs(0,4) of nonevent firms (suppliers or customers) in supply chains as the dependent 
+
+variables. Our key explanatory variable of interest is Market Reaction, which is the 
+
+five-day CAR(0,4) of an event firm. In Panel A, we use Market Reaction as the 
+
+explanatory variable in regression (1). In regression (2), we add firm-level explanatory 
+
+variables that are listed in Table 2 together with Credit Rating, which represents the 
+
+credit rating of an event firm.7 In regression (3), we further add year dummies and 
+
+industry dummies to consider the year and industry fixed effects. Unreported results 
+
+show that the variance inflation factor (VIF) test has a maximum variance inflation 
+
+factor of 4.2 and a mean variance inflation factor of 1.2 (omitted for brevity), suggesting 
+
+that multicollinearity is not a concern. 
+
+We focus on the five-day CAR(0,4) rather than the CARs of the short event periods 
+
+such as the two-day CAR(0,1) in our regression analyses because the latter may take 
+
+time to be reflected in the market by an event. This is consistent with the conventional 
+
+wisdom that emerging markets, including the Chinese market, are less efficient than the 
+
+developed markets. For example, the daily price upper and lower limits for all stocks 
+
+in the Chinese stock market are 10% and −10%, respectively. This is one example of a 
+
+hindrance to market efficiency. The price limit rules suggest that market participants 
+
+may continue to react even after the announcements of credit rating actions. In addition, 
+
+                                                     
+7 Table A1 in Appendix A provides the correlation matrix between all the variables in our main 
+analysis. Table B1 in Appendix B describes categories for credit ratings and the numerical scale 
+used in our analyses. 
+
+19 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+we use an ex post event window such as the five-day CAR(0,4), rather than an ex ante 
+
+event window such as the nine-day CAR(-4,4), to facilitate the analysis of spillover 
+
+effects driven by the market reactions of event firms. Similarly to Joe and Oh (2018) 
+
+who report the stock-price effects of Korean business groups by using the 
+
+announcement of credit rating changes, we focus on the market reactions of event firms 
+
+to the announcements of credit rating actions rather than the events themselves. 
+
+Generally, ex ante periods are used on the assumption that information about an event 
+
+can be leaked before the announcement. Therefore, using the five-day CAR(0,4) is the 
+
+adaptive way to examine the spillover effects that are driven by market reactions.8 
+
+The results documented in Panel A in Table 4 show that the initial coefficient on 
+
+Market Reaction in regression (1) is 0.224 and significant at the 1% level. After 
+
+controlling other firm characteristics in regression (2), and year and industry effects in 
+
+regression (3), the coefficients on Market Reaction remain significantly positive. 
+
+Evaluating the estimated coefficient in regression (3) at the mean indicates that all else 
+
+being constant, a 10% increase in the market reaction of an event firm results in about 
+
+a 1.97% increase in the CARs of other firms in the supply chain. To put it in a different 
+
+perspective, the abnormal return for nonevent firms increases by 1.65% as the market 
+
+reaction of an event firm increases by one standard deviation (8.40%). Therefore, the 
+
+effect of credit rating action events on the market value of nonevent firms seems to be 
+
+both statistically and economically significant. 
+
+The results of Panel B in Table 4 continue to show that spillover effects are 
+
+pervasive in the subsamples of credit rating changes, credit watches and outlook events. 
+
+In particular, for rating outlook, the coefficient on Market Reaction is significant at the 
+
+                                                     
+8 We also use event windows (0,2), (0,6), (-1,1) and (-2,0) for analysis later to check the robustness 
+of our results. We find that our main conclusions remain intact. 
+
+20 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+1% level, with an estimate of 0.876 larger than the estimate for the rating watch (0.543) 
+
+and rating changes (0.166) scenarios. These results are important because they provide 
+
+direct evidence that just like the credit rating changes mentioned in the previous 
+
+literature, credit watch and outlooks events of one firm will also have spillover effects 
+
+on other firms in the supply chain. It is worth noting that not only credit rating change 
+
+events, but also credit watch and outlook events often occur. Therefore, in a broader 
+
+sense, our results clearly show that credit rating action events have supply chain 
+
+spillover effects. More importantly, our results are consistent with the view that the 
+
+market evaluation of an event firm plays an important role in determining the 
+
+characteristics of spillover effects in supply chains. 
+
+4.2. Endogeneity tests 
+
+Although we report a significant spillover effects in the supply chain, it is possible 
+
+that our main results are influenced by endogeneity. For example, endogeneity could 
+
+arise if the market reactions of both event firms and nonevent firms are influenced by 
+
+unobservable or omitted factors. Another concern is reverse causality. In fact, we 
+
+investigate the lead and lag relationship between event firms and nonevent firms in 
+
+supply chains to understand the spillover effects more accurately. Specifically, we 
+
+regress the lead terms of CARs for nonevent firms on the lag terms of CARs for event 
+
+firms in supply chains and vice versa. We find that causality dose not run from nonevent 
+
+firms to event firms (not tabulated for brevity). This practice partly mitigates the issue 
+
+of reverse causality. Importantly, given that credit rating events are largely exogenous, 
+
+it is implausible that nonevent firms could accurately predict them, and cause the 
+
+market reaction of event firms. Nevertheless, we address potential endogeneity 
+
+concerns in our study in several additional ways, such as using Heckman two-stage 
+
+regression analysis, using instrumental variable (IV) regression analysis, and 
+
+21 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+conducting placebo analysis. 
+
+4.2.1. Heckman selection 
+
+Companies in China voluntarily disclosed the sales and names of their top five 
+
+customers and suppliers in their quarterly reports or annual reports since 2005. Because 
+
+customer and supplier information sometimes is proprietary for a firm, the firm may 
+
+not willing to disclose it. This may open up the possibility of sample bias. To control 
+
+for the unobservable omitted variables related to the selection issue, we adopt a 
+
+Heckman two-stage model. 
+
+In the first stage, we model the probability that a firm will disclose information on 
+
+its top five customers and suppliers using probit regression. The dependent variable is 
+
+a dummy variable (Disclosure) set equal to one if a firm discloses the identities of its 
+
+major customers and suppliers, and zero otherwise. To satisfy the exclusion restriction, 
+
+we include the fraction of other companies in the same industry that disclose 
+
+information on their top five customers and suppliers in the same year (denoted as 
+
+Otherratio) as an independent variable. In an increasingly high-quality disclosure 
+
+market environment, when the number of other companies in the same industry 
+
+disclosing the customer and supplier information increases, we expect a company to 
+
+tend to actively disclose information about its major customers and suppliers, but we 
+
+have no reason to expect that Otherratio will impact its market reactions. Therefore, 
+
+Otherratio can serve as an exogenous determinant of the likelihood that a company 
+
+might disclose its top five customers and suppliers. 
+
+Additionally, we include controls for firm characteristics that may affect the 
+
+company’s disclosure of customer and supplier information, which include return on 
+
+assets (ROA), growth rate (Growth), the ratio of total debt to the book value of total 
+
+assets (Leverage), total assets (Size), and the number of years elapse since the year of 
+
+22 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+the company’s IPO (Firmage) (Ellis et al. 2012). From the first stage model, we 
+
+estimate the inverse Mills ratio, which we include in the second stage model to control 
+
+for potential selection bias. 
+
+Panel A of Table 5 reports the results from the first stage probit regression in our 
+
+Heckman two-stage selection model. Consistent with our expectations that the more 
+
+other firms in the industry that already disclose customer and supplier information, the 
+
+more likely a firm is to voluntarily disclose customer and supplier information, we find 
+
+that the coefficient on the exclusion restriction variable, Otherratio, is positive and 
+
+significant. We also find that Disclosure is positively associated with ROA, Growth, 
+
+Size and Firmage, and is negatively correlated with Leverage. 
+
+Panel B of Table 5 reports the results of controlling for the potential sample 
+
+selection bias. For brevity, we report only the parameter estimate of Market Reaction. 
+
+We find that the coefficient on Market Reaction is significantly positive. This result 
+
+shows the robustness of our main findings to this selection bias adjustment. 
+
+4.2.2. IV regression estimation using heteroskedasticity-based instruments 
+
+To further address causality, we employ an IV approach with heteroskedasticity-
+
+based instruments following Lewbel (2012). This technique does not rely on an external 
+
+instrument and instead uses heteroskedasticity in the data to generate internal 
+
+instruments for the two-stage least squares (2SLS) regression. Lewbel (2012) suggests 
+
+that this identification technique is especially helpful when external instruments are 
+
+weak or not available. Furthermore, as discussed in Lewbel (2012), this approach is 
+
+suitable for many models with error correlation due to unobserved common shocks. 
+
+Recent studies apply this identification approach to address endogeneity problems 
+
+(Caliendo et al. 2017; Chen et al. 2021; Hasan et al. 2021). 
+
+ 
+
+23 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+In our setting, instruments can be formed from the auxiliary equation’s residuals 
+
+multiplied by each of the included exogenous variables in mean-centered form. 
+
+Specifically, we follow Lewbel (2012) to generate IVs based on the following equation: 
+
+ IV   , (
+j  X )
+
+j  X   2  
+
+where X is each of the exogenous variables in our main model, i.e., Size, ROA, 
+
+Leverage, B/M, Cash, and Credit Rating; X  is the mean of the exogenous variable; 
+
+and   is the residual from the auxiliary regression of Market Reaction (i.e., the event 
+
+firm’s five-day CAR) on all exogenous variables (Size, ROA, etc.). Thus, we generate 
+
+as many IVs as the number of exogenous variables in our main model. Next, we use 
+
+these generated IVs to run the 2SLS regressions based on our main models with Market 
+
+Reaction as the endogenous variable. 
+
+The results of Lewbel’s analysis are reported in Table 6. The Kleibergen-Paap F 
+
+statistics indicate that our instruments are sufficiently strong (with p-value less than 
+
+0.1). Based on the Hansen J statistics, the overidentification restrictions are satisfied 
+
+(with p-value above 0.1). Moreover, the results with regard to Shea’s partial R2, F-test 
+
+of excluded instruments, and Kleibergen-Paap rank LM statistic also show that our 
+
+choice of the instruments is reasonable. We observe that our main findings remain 
+
+robust. The coefficient for Market Reaction is positive and significant at the 1% level. 
+
+Thus, Lewbel’s method estimation supports our argument that our documented 
+
+spillover effects propagate through the supply chain and that our results are not an 
+
+artifact of unobserved common shocks. 
+
+4.2.3. Placebo tests 
+
+Finally, we conduct three placebo tests to mitigate the potential endogenous 
+
+concern about omitted variables. The first test is cross-sectional randomization, where 
+
+the market reactions for event firms are randomized within a given year. The second 
+
+24 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+test implements a randomization procedure within a given industry, in which the market 
+
+reactions for event firms are randomized within a given industry. The third test 
+
+implements a randomization procedure within a given supplier/customer industry, in 
+
+which on each event day we randomly select one other firm in the same industry as 
+
+supplier/customer and calculate its market reaction. 
+
+For the first two procedures, we obtain a fictitious market reaction of event firms, 
+
+defined as Pseudo Market Reaction. For the third procedure, we get a fictitious market 
+
+reaction of other firms in the same industry as supplier/customer, defined as Pseudo 
+
+Market Reactionother. These random procedures are all conducted one thousand times 
+
+to produce one thousand random samples. We then reestimate our main results with the 
+
+Pseudo Market Reaction or Pseudo Market Reactionother from these random samples. 
+
+Specifically, for the first two types of random samples, the market reaction of nonevent 
+
+firms is regressed on Pseudo Market Reaction; while for the last type of random sample, 
+
+Pseudo Market Reactionother is regressed on the market reaction of event firms (i.e., 
+
+Market Reaction). Table 7 summarizes the coefficient estimates. The mean values of 
+
+estimated coefficients are close to zero in both case with and without control variables. 
+
+The t-tests for the mean show that the average coefficient estimates are not significantly 
+
+different from zero. The evidence suggests that our main findings are unlikely to be 
+
+driven by chance. 
+
+4.3. Channel analysis 
+
+The preceding analysis shows a robust supply chain spillover effect driven by 
+
+event firm’s market reactions. A remaining question is how the spillover effects 
+
+propagate along the supply chain. To answer this question, we examine a plausible 
+
+channel through which the market reactions of event firms influence the market 
+
+reactions of nonevent firms in the supply chain. 
+
+25 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+Due to related fundamentals and profits, stock returns of economically linked 
+
+firms such as supply chain partners are correlated (Hong et al. 2007; Menzly and Ozbas 
+
+2010). Investors thus should pay attention to all stocks in the supply chain and 
+
+information diffuses quickly in the market. However, because of limited attention and 
+
+investor specialization, the information may diffuse slowly in the market (Hong et al. 
+
+2007) and across economically linked assets (Cohen and Frazzini 2008; Menzly and 
+
+Ozbas 2010). High investor attention across supply chain partners can represent a 
+
+higher level of information diffusion that would lead to return comovement in the same 
+
+time period (Barberis et al. 2005). Motivated by these facts, we study whether investor 
+
+attention to supply chain partners affects the propagation of the supply chain spillovers 
+
+we document. 
+
+We use the number of analysts and the number of media coverage as proxies for 
+
+investor attention (Hirshleifer and Teoh 2003; Barber and Odean 2008). For analysts, 
+
+we use information about equity analysts as reported in CSMAR data set, and obtain 
+
+the total number of analysts following the supplier firm, the customer firm, or both 
+
+simultaneously in the six months prior to the date of the rating change, respectively. 
+
+We then define three indicator variables for this analysis: Supplier Analyst, Customer 
+
+Analyst, and Common Analyst, which equal one if the number of analysts following the 
+
+supplier firm, the customer firm, or both is higher than its sample median, respectively. 
+
+For media coverage, we use raw media coverage data from Datago,9 based on which 
+
+we obtain the total number of media coverage for supplier firm, customer firm or both 
+
+in the six months prior to the date of the rating change, respectively. We then define 
+
+three indicator variables: Supplier Media, Customer Media, and Common Media, which 
+
+equal one if the number of media coverage for supplier firm, customer firm or both is 
+
+                                                     
+9 See https://www.datago.com.hk. 
+
+26 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+higher than its sample median, respectively. We have these variables interact with 
+
+Market Reaction. The results are in Table 8. 
+
+Table 8 shows that the propagation of documented spillover effects through supply 
+
+chains is stronger when supply chain partners are followed by more of the same analysts 
+
+or reported by more of the same media. For example, in column (4) of Panel A in Table 
+
+8, although a 10% increase in the market reaction of an event firm results in about a 
+
+1.86% increase in the CARs of other firms in the supply chain, the increase is 4.45% 
+
+larger (making the overall response 3.4 times larger) if the same analysts are following 
+
+both supply chain partners. Similarly, as shown in column (4) of Panel B in Table 8, 
+
+although a 10% increase in the market reaction of an event firm results in about a 2.84% 
+
+increase in the CARs of other firms in the supply chain, the increase is 1.24% larger 
+
+(making the overall response 1.4 times larger) if the same media reports both supply 
+
+chain partners. 
+
+To summarize, the amplified reaction when supply chain partners are followed by 
+
+more of the same analysts or reported by more of the same media points toward the 
+
+informational channel of shock propagation in the stock market through supply chains. 
+
+This indicates that our results reflect the propagation of firm level shocks through the 
+
+information diffusion as investor pay more attention across supply chain partners. 
+
+4.4. Cross-sectional tests 
+
+4.4.1. Negative spillovers vs. positive spillovers 
+
+Our evidence thus far suggests the spillover effects of credit rating actions of one 
+
+firm on other firms in the supply chain. However, our results are suggestive that the 
+
+sign of CARs of event firms may leave behind valuable credit-relevant information. 
+
+Therefore, we ask whether the negative spillovers caused by negative market reactions 
+
+are stronger than positive spillovers caused by positive market reactions. 
+
+27 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+To test this issue, in regression (1) in Table 9 we include the dummy variable 
+
+Positive Reaction, which takes a value of one if the market reaction of an event firm is 
+
+positive and zero otherwise. We also add the interaction term between Market Reaction 
+
+and Positive Reaction, in which Market Reaction is the market reaction of an event firm. 
+
+We find that the coefficients on both Market Reaction and its interaction with Positive 
+
+Reaction are negative and significant. This finding suggests that the negative spillovers 
+
+driven by negative market reactions are stronger than the positive spillovers driven by 
+
+positive market reactions. Our evidence is consistent with the idea that bad news tends 
+
+to spread more widely and strongly than good news (Gande and Parsley 2005; Soroka 
+
+2006; Ferreira and Gama 2007). 
+
+4.4.2. State-owned firms vs. non-state-owned firms 
+
+This section investigates whether the spillover effects are different between event 
+
+firms with state ownership and those without state ownership. To conduct this analysis, 
+
+we augment the base model by incorporating the dummy variable State-owned that 
+
+takes a value of one if the event firm is state-owned and zero otherwise, and an 
+
+interaction term between State-owned and Market Reaction. 
+
+In regression (2) in Table 9, the coefficient for the interaction term is negative and 
+
+significant negative at the 10% level. This result suggests that the positive relationship 
+
+between the excess returns of event firms and the excess returns of nonevent firms in 
+
+supply chains is stronger when the event firms are non-state-owned. One potential 
+
+explanation for these results is that being a non-state-owned firm might differentiate a 
+
+state-owned firm in terms of creditworthiness (Cull and Xu 2005; Allen et al. 2005), 
+
+and non-state-owned firms have less availability of credit when monetary policy is tight 
+
+(Lu et al. 2012). Thus, the state ownership for event firms is relevant information 
+
+beyond the credit rating level for the market’s assessment of its credit-risk, and these 
+
+28 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+differences mentioned above lead to greater spillover effects when event firms are non-
+
+state-owned. 
+
+It is worth noting that the coefficient on Market Reaction can be purely interpreted 
+
+as spillover effects associated with the credit rating actions of non-state-owned event 
+
+firms. The coefficients estimated on Market Reaction in regressions (2) retains the 
+
+statistical significance at the 1% level. Taken together with the significant coefficient 
+
+on the interaction term, our evidence shows that the spillover effects are more 
+
+economically significant when the event firms are non-state-owned. Moreover, the 
+
+substantially increased adjusted R2 in regression (2) in Table 9 compared with those in 
+
+Panel A in Table 4 also reflects that the state ownership status of event firms is a 
+
+potentially important factor in spillover effects driven by market reactions. 
+
+4.4.3. Spillover effects and industry concentration 
+
+When the number of suppliers in the market is small or the number of alternative 
+
+customers is large, suppliers are less likely to be influenced by their major customers 
+
+(Porter 1979; Cunat 2007). Conversely, when the number of suppliers in the market is 
+
+small or the number of alternative customers is large, customers are more likely to be 
+
+influenced by their major suppliers. These arguments suggest that the nonevent firms 
+
+tend to experience a stronger spillover effect when the industry concentration degree of 
+
+event firms is higher. 
+
+To test this prediction, we use the Herfindahl ratio constructed from the sales of 
+
+event firms for the whole industry. Using the Herfindahl ratio, we define a dummy 
+
+variable (High Concentration), which takes a value of one if the Herfindahl ratio is 
+
+above its cross-sectional median for the same year and zero otherwise. The traditional 
+
+view mention above predicts that the coefficient on the interaction term between Market 
+
+Reaction and High Concentration is positive and significant. 
+
+29 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+The result is shown in regression (3) in Table 9. The coefficients on Market 
+
+Reaction and the interaction term are both significantly positive. This confirms that the 
+
+positive relationship between the excess returns for the event firms and the excess 
+
+returns for the other firms in the supply chain is stronger when the industry 
+
+concentration degree of event firms is higher. 
+
+5. Further analysis 
+
+5.1. Suppliers’ reactions vs. customers’ reactions 
+
+The aforementioned analysis has focused mostly on the spillover effects from 
+
+event firms to the whole nonevent firms. However, the reactions of suppliers and 
+
+customers can be different since rating changes can affect the bargaining powers 
+
+between suppliers and customers in different ways. Moreover, the direction of 
+
+spillovers to nonevent firms along the supply chain can be different when industry peers 
+
+of event firms react negatively or positively in their stock markets. With these issues in 
+
+mind, we further look into the average five-day CARs for the event firms, suppliers and 
+
+customers in supply chains when the industry peers of event firms react negatively or 
+
+positively in their stock markets. We classify our event samples into two subsamples 
+
+according to the sign of the CARs of event firms. We then further divide the subsamples 
+
+according to the sign of the CARs of event firm’s industry peers.10 
+
+Table 10 shows that when peers’ reactions are negative and positive, the average 
+
+five-day CARs of event firms with negative market reactions to credit rating actions 
+
+are −5.39% and −1.31%, respectively, both of which are significant at the 1% level. 
+
+When the peers’ reactions are negative (positive), the average five-day CARs for the 
+
+                                                     
+10 To see more clearly the difference between the impact of the stock market reaction of event firms 
+and the impact of the event itself, we have shown the market reactions of event firms, suppliers, 
+customers and peers to rating downgrades and upgrades in Table C1 in Appendix C. For brevity, the 
+impact of watches and outlooks is not reported, but is available upon request. 
+
+30 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+suppliers and customers show significant average excess returns of −3.07% (−3.08%) 
+
+and −1.04% (−1.66%), respectively. In parallel, when peers’ reactions are negative and 
+
+positive, the average five-day CARs of event firms with positive market reactions to 
+
+credit rating actions are 4.42% and 3.84%, respectively. Both of those are statistically 
+
+significant at the 1% level. When the peers’ reactions are negative (positive), the 
+
+average five-day CARs for the suppliers and customers show significant average excess 
+
+returns of 2.20% (1.74%) and 0.90% (0.52%), respectively. Overall, these findings 
+
+show that the credit rating actions of one firm have spillover effects on both suppliers 
+
+and customers regardless of the reactions of event firm’s industry peers. In fact, 
+
+unreported results (omitted for brevity) indicate that the average negative and positive 
+
+reactions of event firm’s industry peers are not significant in Panels A and B. This 
+
+suggests that credit events do not belong to industry problems. 
+
+It’s worth noting that, based on the magnitude of the reactions, the spillover effects 
+
+to suppliers appear to be greater than those to customers. One possible explanation is 
+
+that customers largely have stronger bargaining power and thus are less responsive to 
+
+shocks from suppliers’ credit events. Another possibility is that compared to suppliers, 
+
+customers may have superior understanding and access to recent information about 
+
+suppliers’ credit changes and make more accurate predictions about upcoming changes 
+
+in demand (Lee et al. 1997). 
+
+Further, we conduct regressions using event firm’s peer market reaction (Peer 
+
+Reaction) and its interaction with Market Reaction as additional control variables. In 
+
+Panel A of Table 11, the coefficients on Market Reaction for both suppliers and 
+
+customers are significantly positive. This result reconfirms that the spillover effects due 
+
+to credit rating actions can spread not only upstream, but downstream as well. This 
+
+finding bolsters our evidence on individual suppliers and customers and constitutes new 
+
+31 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+evidence on the extent of spillover effects of credit rating events. Our finding 
+
+complements that of Alldredge et al. (2019) who find that supplier firms experience 
+
+negative abnormal returns during the announcement of customer firms’ rating 
+
+downgrades. 
+
+On the other hand, in terms of the magnitude of the coefficients, the spillover 
+
+effects to suppliers seem to be higher than those to customers, which is consistent with 
+
+the results in Table 10. It should be noted that the coefficients on Peer Reaction and 
+
+Peer Reaction × Market Reaction are positive, but not significant. This again confirms 
+
+that the market reactions of event firm’s peers have no impact on the spillover effects 
+
+we documented. Therefore, credit events are largely a matter for individual firms rather 
+
+than industries. 
+
+5.2. Effects of investment grade change 
+
+Prior studies find that the impact of rating changes is most significant for those 
+
+downgrades from investment grades to speculative grades (Goh and Ederington 1999; 
+
+Creighton et al. 2007; Kisgen 2009; May 2010). Our documented spillover effects may 
+
+have been more pronounced when the rating change for event firms is across those two 
+
+grades and, therefore, may be driving our baseline findings. Thinking about this issue 
+
+prompts us to wonder if stronger spillovers should be observed when the rating change 
+
+is across two grades. 
+
+To this end, we create a dummy variable Across that is equal to one if the rating 
+
+change is across two grades and zero otherwise. Then we interact this dummy variable 
+
+with Market Reaction. Additionally, we replace credit rating Credit Rating (an ordered 
+
+categorical variable) with IG, which is an indicator of one if the rating is investment 
+
+grade and zero otherwise. This helps separate the firm characteristics into two distinct 
+
+groups. 
+
+32 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+We incorporate these variables into our base model, and report the regression 
+
+results in Panel B of Table 11. For suppliers, the coefficient on Across × Market 
+
+Reaction is significantly positive. Our evidence is in line with the existing literature that 
+
+financial markets react more strongly to downgrade and upgrade announcements for 
+
+firms with rating change across two grades (speculative grade ratings and investment 
+
+grade ratings) (Li et al. 2006; Kisgen 2009; May 2010). For customers, the coefficient 
+
+is positive, but not significant. This suggests that the investment grade change is not a 
+
+potentially important influencing factor in our documented spillovers to customers. 
+
+5.3. Effects of global rating partners 
+
+Our credit rating data are from several rating agencies and some of them have 
+
+global partners such as S&P, Moody’s and Fitch. One may feel that those rating 
+
+agencies with global famous partners maybe more independent even though they may 
+
+not have active role in rating assignments but have reputation concerns especially for 
+
+issuing rating on state-owned firms. Thus, we investigate whether stronger spillovers 
+
+are observed when rating agencies have global partners.11 
+
+To test our intuition above, we define a dummy variable Global, which takes a 
+
+value of one if the rating agency has global partners and zero otherwise. Then we 
+
+interact Global with Market Reaction. We extend our base model by including these 
+
+variables, and report the regression results in Panel C of Table 11. For suppliers, the 
+
+coefficient on Global × Market Reaction is significantly positive. This suggests that our 
+
+documented spillover effects for suppliers are amplified when rating agencies have 
+
+global partners. This finding is consistent with the idea that stock markets react more 
+
+strongly to announcements of global ratings agencies than to those of local counterparts 
+
+                                                     
+11 Table D1 in Appendix D provides a brief overview of Chinese credit rating agencies. 
+
+33 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+(Li et al. 2006). For customers, the coefficient is not significant, suggesting that global 
+
+rating partners are not an important factor in the spillovers to customers. 
+
+5.4. Effects of business relationships in the supply chain 
+
+Spillover effects should be more dominant when the business relationship between 
+
+an event firm and other members (i.e., suppliers and customers) in the supply chain is 
+
+closer. In what follows we provide additional evidence on this condition. Following 
+
+common practices in the literature, we measure the extent of a business relationship by 
+
+Sales (i.e., the average sales to supplier firms or customer firms divided by the total 
+
+sales of an event firm). Using this variable, we construct a dummy variable. It takes a 
+
+value of one if the variable is above its cross-sectional median and zero otherwise, and 
+
+is denoted as Closer. 
+
+The result is shown in Panel C of Table 11. For suppliers, the coefficient on Market 
+
+Reaction is positive and significant at the 1% level. We are particularly interested in 
+
+the coefficient on the interaction term between Market Reaction and Closer, which is 
+
+significantly positive. Meanwhile, for customers these coefficients are positive and 
+
+significant at the 5% level. These findings suggest that the spillover effects to suppliers 
+
+and customers are both stronger when the level of business relationship is higher. Our 
+
+results complement the evidence in Houston et al. (2016) who find that the impact of a 
+
+firm’s bankruptcy on suppliers is greater when there is a stronger supplier-customer 
+
+relationship. 
+
+6. Robustness test 
+
+6.1. Impact of overlapping estimation and event periods 
+
+A potential concern is the impact of estimation periods on the independence of the 
+
+computed returns when we estimate the abnormal returns. Since we use the market-
+
+34 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+model approach to estimate abnormal returns for the events and since the estimation 
+
+periods (day −200 to day −20) of different events overlap in many cases, it is likely that 
+
+the t-statistics in the analyses of the abnormal returns are biased upward. To see whether 
+
+the overlapping estimation period affects our results in a significant way, we repeat all 
+
+the analyses described above using the market-adjusted-return model (MA). As 
+
+displayed in Panel A in Table 12, our main results are qualitatively similar to those 
+
+reported above. In addition, we experiment with the constant-mean-return model (CM) 
+
+for which the benchmark return is estimated by averaging the returns from day −244 to 
+
+day −6, and find that our main conclusions remain intact. Therefore, our results do not 
+
+seem to be affected by overlapping estimation periods. 
+
+6.2. Different event windows 
+
+So far we have focused on the event window from day 0 to day +4 to account for 
+
+the potential effect of the daily price limits in the Chinese stock markets on market 
+
+reactions. To check the robustness of our results, we use the same explanatory variables 
+
+as those in Tables mentioned above, but change the definition of the event window from 
+
+(0,4) to (0,2) and (0,6). In addition, we use the event windows such as (-1,1) and (-2,0) 
+
+to consider the likelihood that stock markets can react to the credit change of event 
+
+firms before the rating announcements (Norden and Weber 2004). As displayed in 
+
+Panel B in Table 12, we obtain qualitatively identical results, suggesting that the event 
+
+window of (0, 4) used in the previous analyses is robust enough to illustrate the spillover 
+
+effects. 
+
+7. Conclusions 
+
+In this paper, we explore the spillover effects of supply chains in China. To 
+
+examine the existence of spillover effects between suppliers and customers in the 
+
+35 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+supply chain, we focus on the market reactions of event firms to announcements of 
+
+credit rating actions such as rating changes, credit watches, and outlooks. We provide 
+
+evidence of a positive association between the abnormal returns of event firms and the 
+
+abnormal returns of supply chain partners (suppliers and customers) around the 
+
+announcements of event firms’ credit rating actions. The spillover effects are 
+
+substantially stronger for supply chain partners that receive more investor attention. 
+
+This points to information diffusion as an important channel driving shock propagation. 
+
+Moreover, we find that negative spillovers caused by negative market reactions are 
+
+more dominant than positive spillovers caused by positive market reactions. This 
+
+finding supports the idea that public responses to negative news in general are much 
+
+larger than those to positive news. 
+
+Finally, we find that several supply chain and firm attributes affect the documented 
+
+spillover effects. In particular, the spillover effects are stronger when event firms are 
+
+non-state-owned. This is consistent with the fact that market participants are largely 
+
+more concerned about the credit rating actions of private firms, because they are more 
+
+dependent on private investments and banks loans for growth. We also find that both 
+
+closer supplier-customer business relationship and higher industry concentration of 
+
+event firms amplify the spillover effects. On the other hand, the spillover effects to 
+
+suppliers rather than to customers are amplified when the rating change of even firms 
+
+is across two grades (investment grades and speculative grades) or rating agencies have 
+
+global partners. 
+
+To summarize, we show an important channel—supply chains—for credit shock 
+
+propagation in the stock market for both adverse and favorable credit shocks. Our 
+
+findings suggest that credit rating actions convey new price-relevant information to 
+
+stock investors across the supply chain and that investor attention improves information 
+
+36 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+diffusion. Our results also provide insights into how the customer-supplier economic 
+
+linkage plays a role in stock asset pricing during firm credit rating events. 
+
+We caveat that our study is not without limitations. In this study, we conclude that 
+
+supply chain partners experience spillover effects driven by the market reactions of 
+
+event firms to credit rating actions. We only identify the information diffusion channel 
+
+that drives our documented spillover effects. In the future, we can extend the research 
+
+to investigate more thoroughly the underlying economic channels of spillover effects. 
+
+In addition, with the accumulation of finer data, we can also examine more potential 
+
+factors that determine the degree of spillover effects, such as loan or tax policy. We 
+
+believe that our study focusing on the market reaction of event firms to explore the 
+
+spillover effects along supply chain partners will provide a new perspective and 
+
+approach to aid future pursuits along these lines by researchers. 
+
+  
+
+37 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+References 
+
+Agarwal, A., Leung, A.C.M., Konana, P., Kumar, A., 2017. Cosearch attention 
+and stock return predictability in supply chains. Information Systems Research 28, 
+265–288. 
+
+Agca, S., Babich, V., Birge, J.R., Wu, J., 2022. Credit shock propagation along 
+supply chains: Evidence from the CDS market. Management Science 68, 6506–6538. 
+
+Alldredge, D., Chen, Y., Liu, S., Luo, V.L., 2019. The effect of credit rating 
+downgrades and customer-supplier relationships. Available at SSRN 3452275. 
+
+Allen, F., Qian, J., Qian, M., 2005. Law, finance, and economic growth in China. 
+Journal of Financial Economics 77, 57–116. 
+
+Bae, G.S., Cheon, Y.S., Kang, J.K., 2008. Intragroup propping: Evidence from the 
+stock-price effects of earnings announcements by Korean business groups. Review of 
+Financial Studies 21, 2015–2060. 
+
+Barber B.M., Odean T., 2008. All that glitters: The effect of attention and news on 
+the buying behavior of individual and institutional investors. Review of Financial 
+Studies 21, 785-818. 
+
+Barberis, N., Shleifer, A., Wurgler, J., 2005. Comovement. Journal of Financial 
+Economics 75, 283–317. 
+
+Brown, S.J., Warner, J.B., 1985. Using daily stock returns: The case of event 
+studies. Journal of Financial Economics 14, 3–31.  
+
+Caliendo, M., Lee, W.S., Mahlstedt, R., 2017. The gender wage gap and the role 
+of reservation wages: New evidence for unemployed workers. Journal of Economic 
+Behavior & Organization 136, 161–173. 
+
+Campello, M., Gao, J., 2017. Customer concentration and loan contract terms. 
+Journal of Financial Economics 123, 108–136. 
+
+Cantor, R., Mann, C., 2007. Analyzing the tradeoff between ratings accuracy and 
+stability. Journal of Fixed Income 16, 60–68. 
+
+Cen, L., Dasgupta, S., Elkamhi, R., Pungaliya, R.S., 2016. Reputation and loan 
+contract terms: The role of principal customers. Review of Finance 20, 501–533. 
+
+Cen, L., Maydew, E.L., Zhang, L., Zuo, L., 2017. Customer-supplier relationships 
+and corporate tax avoidance. Journal of Financial Economics 123, 377–394. 
+
+Chakrabarty, B., Moulton, P.C., 2012. Earnings announcements and attention 
+constraints: The role of market design. Journal of Accounting and Economics 53, 612–
+634. 
+
+Chang, J.H., Hung, M.W., Tsai, F.T., 2015. Credit contagion and competitive 
+effects of bond rating downgrades along the supply chain. Finance Research Letters 15, 
+232–238. 
+
+Chen, Y., Fan, Q., Yang, X., Zolotoy, L., 2021. CEO early-life disaster experience 
+and stock price crash risk. Journal of Corporate Finance 68, 101928. 
+
+Chung, K.H., Ann Frost, C., Kim, M., 2012. Characteristics and information value 
+of credit watches. Financial Management 41, 119–158. 
+
+Cohen, L., Frazzini, A., 2008. Economic links and predictable returns. Journal of 
+Finance 63, 1977–2011. 
+
+Cong, L.W., Gao, H., Ponticelli, J., Yang, X., 2019. Credit allocation under 
+
+38 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+economic stimulus: Evidence from China. Review of Financial Studies 32, 3412–3460. 
+
+Corwin, S.A., Coughenour, J.F., 2008. Limited attention and the allocation of 
+effort in securities trading. Journal of Finance 63, 3031–3067. 
+
+Creighton, A., Gower, L., Richards, A.J., 2007. The impact of rating changes in 
+Australian financial markets. Pacific-Basin Finance Journal 15, 1–17. 
+
+Cull, R., Xu, L.C., 2005. Institutions, ownership, and finance: The determinants 
+of profit reinvestment among Chinese firms. Journal of Financial Economics 77, 117–
+146. 
+
+Cunat, V., 2007. Trade credit: Suppliers as debt collectors and insurance providers. 
+Review of Financial Studies 20, 491–527. 
+
+Dichev, I.D., Piotroski, J.D., 2001. The long-run stock returns following bond 
+ratings changes. Journal of Finance 56, 173–203. 
+
+Dorn, D., Huberman, G., 2010. Preferred risk habitat of individual investors. 
+Journal of Financial Economics 97, 155–173. 
+
+Ellis, J.A., Fee, C.E., Thomas, S.E., 2012. Proprietary costs and the disclosure of 
+information about customers. Journal of Accounting Research 50, 685–727. 
+
+Fee, C., Thomas, S., 2004. Sources of gains in horizontal mergers: Evidence from 
+customer, supplier, and rival firms. Journal of Financial Economics 74, 423–460. 
+
+Ferreira, M.A., Gama, P.M., 2007. Does sovereign debt ratings news spill over to 
+international stock markets? Journal of Banking & Finance 31, 3162–3182. 
+
+Gande, A., Parsley, D.C., 2005. News spillovers in the sovereign debt market. 
+Journal of Financial Economics 75, 691–734. 
+
+Goh, J.C., Ederington, L.H., 1999. Cross-sectional variation in the stock market 
+reaction to bond rating changes. Quarterly Review of Economics and Finance 39, 101–
+112. 
+
+Gosman, M., Kelly, T., Olsson, P., Warfield, T., 2004. The profitability and 
+pricing of major customers. Review of Accounting Studies 9, 117–139. 
+
+Hasan, M.M., Taylor, G., Richardson, G., 2022. Brand capital and stock price 
+crash risk. Management Science 68, 7065–7791. 
+
+Hendricks, K.B., Jacobs, B.W., Singhal, V.R., 2020. Stock market reaction to 
+supply chain disruptions from the 2011 great east Japan earthquake. Manufacturing & 
+Service Operations Management 22, 683–699. 
+
+Hertzel, M.G., Li, Z., Officer, M.S., Rodgers, K.J., 2008. Inter-firm linkages and 
+the wealth effects of financial distress along the supply chain. Journal of Financial 
+Economics 87, 374–387. 
+
+Hirshleifer, D., Lim, S.S., Teoh, S.H., 2009. Driven to distraction: Extraneous 
+events and underreaction to earnings news. Journal of Finance 64, 2289–2325. 
+
+Hirshleifer, D., Teoh, S.H., 2003. Limited attention, information disclosure, and 
+financial reporting. Journal of Accounting and Economics 36, 337–386. 
+
+Holthausen, R.W., Leftwich, R.W., 1986. The effect of bond rating changes on 
+common stock prices. Journal of Financial Economics 17, 57–89. 
+
+Hong, H., Torous, W., Valkanov, R., 2007. Do industries lead stock markets? 
+Journal of Financial Economics 83, 367–396. 
+
+Hou, K., Xiong, W., Peng, L., 2009. A tale of two anomalies: The implications of 
+investor attention for price and earnings momentum. Available at SSRN 976394. 
+
+Houston, J.F., Lin, C., Zhu, Z., 2016. The financial implications of supply chain 
+
+39 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+changes. Management Science 62, 2520–2542. 
+
+Jacobson, T., von Schedvin, E., 2015. Trade credit and the propagation of 
+corporate failure: An empirical analysis. Econometrica 83, 1315–1371. 
+
+Jiang, X., Packer, F., 2019. Credit ratings of Chinese firms by domestic and global 
+agencies: Assessing the determinants and impact. Journal of Banking & Finance 105, 
+178–193. 
+
+Joe, D.Y., Oh, F.D., 2018. Spillover effects within business groups: The case of 
+Korean chaebols. Management Science 64, 1396–1412. 
+
+Jorion, P., Liu, Z., Shi, C., 2005. Informational effects of regulation FD: Evidence 
+from rating agencies. Journal of Financial Economics 76, 309–330. 
+
+Jorion, P., Zhang, G., 2007. Good and bad credit contagion: Evidence from credit 
+default swaps. Journal of Financial Economics 84, 860–883. 
+
+Jorion, P., Zhang, G., 2010. Information transfer effects of bond rating 
+downgrades. Financial Review 45, 683–706. 
+
+Kisgen, D.J., 2009. Do firms target credit ratings or leverage levels? Journal of 
+Financial and Quantitative Analysis 44, 1323–1344. 
+
+Kolay, M., Lemmon, M., Tashjian, E., 2016. Spreading the misery? Sources of 
+bankruptcy spillover in the supply chain. Journal of Financial and Quantitative Analysis 
+51, 1955–1990. 
+
+Kumar, A., Page, J.K., Spalt, O.G., 2013. Investor sentiment and return 
+comovements: Evidence from stock splits and headquarters changes. Review of 
+Finance 17, 921–953. 
+
+Lang, L.H., Stulz, R., 1992. Contagion and competitive intra-industry effects of 
+bankruptcy announcements: An empirical analysis. Journal of Financial Economics 32, 
+45–60. 
+
+Lee, H.L., Padmanabhan, V., Whang, S., 1997. Information distortion in a supply 
+chain: The bullwhip effect. Management Science 43, 546–558. 
+
+Leung, A.C.M., Agarwal, A., Konana, P., Kumar, A., 2017. Network analysis of 
+search dynamics: The case of stock habitats. Management Science 63, 2667–2687. 
+
+Lewbel, A., 2012. Using heteroscedasticity to identify and estimate mismeasured 
+and endogenous regressor models. Journal of Business & Economic Statistics 30, 67–
+80. 
+
+Li, J., Shin, Y.S., Moore, W.T., 2006. Reactions of Japanese markets to changes 
+in credit ratings by global and local agencies. Journal of Banking & Finance 30, 1007–
+1021. 
+
+Lu, Z., Zhu, J., Zhang, W., 2012. Bank discrimination, holding bank ownership, 
+and economic consequences: Evidence from China. Journal of Banking & Finance 36, 
+341–354. 
+
+May, A.D., 2010. The impact of bond rating changes on corporate bond prices: 
+New evidence from the over-the-counter market. Journal of Banking & Finance 34, 
+2822–2836. 
+
+Menzly, L., Ozbas, O., 2010. Market segmentation and cross-predictability of 
+returns. Journal of Finance 65, 1555–1580. 
+
+Norden, L., Weber, M., 2004. Informational efficiency of credit default swap and 
+stock markets: The impact of credit rating announcements. Journal of Banking & 
+Finance 28, 2813–2843. 
+
+40 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+Peng, L., Xiong, W., 2006. Investor attention, overconfidence and category 
+learning. Journal of Financial Economics 80, 563–602. 
+
+Pirinsky, C., Wang, Q., 2006. Does corporate headquarters location matter for 
+stock returns? Journal of Finance 61, 1991–2015. 
+
+Porter, M.E., 1979. How competitive forces shape strategy. Harvard Business 
+Review 57, 78–93. 
+
+Shleifer, A., Vishny, R.W., 1994. Politicians and firms. Quarterly Journal of 
+Economics 109, 995–1025. 
+
+Slovin, M.B., Sushka, M.E., Polonchek, J.A., 1999. An analysis of contagion and 
+competitive effects at commercial banks. Journal of Financial Economics 54, 197–225. 
+
+Smith, C.W., 1986. Investment banking and the capital acquisition process. 
+Journal of Financial Economics 15, 3–29. 
+
+Soroka, S.N., 2006. Good news and bad news: Asymmetric responses to economic 
+information. Journal of Politics 68, 372–385. 
+
+Tversky, K.A., 1979. Prospect theory: An analysis of decision under risk. 
+Econometrica 47, 263–291. 
+
+Vijh, A.M., 1994. S&P 500 trading strategies and stock betas. Review of Financial 
+Studies 7, 215–251. 
+
+Weinstein, M.I., 1977. The effect of a rating change announcement on bond price. 
+Journal of Financial Economics 5, 329–350. 
+
+Wu, J., Birge, J.R., 2014. Supply chain network structure and firm returns. 
+Available at SSRN 2385217. 
+
+Yang, J., Zhang, R., 2019. Network centrality of customers and suppliers. 
+Georgetown McDonough School of Business Research Paper. 
+
+  
+
+41 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+Table 1: Sample description 
+
+No. of No. with customer No. of supplier No. of customer No. of event- No. of 
+Year 
+
+events or supplier match portfolio portfolio customer or supplier industry 
+
+2007 13 9 8 (1.1) 6 (1.2) 24 3 
+
+2008 33 21 17 (1.1) 8 (1.1) 39 6 
+
+2009 48 28 22 (1.1) 11 (1.0) 66 7 
+
+2010 65 40 33 (1.1) 16 (1.0) 80 7 
+
+2011 61 35 26 (1.0) 18 (1.2) 80 8 
+
+2012 90 52 43 (1.1) 17 (1.1) 98 9 
+
+2013 117 60 53 (1.1) 18 (1.1) 124 12 
+
+2014 137 72 58 (1.1) 28 (1.1) 130 9 
+
+2015 182 93 75 (1.1) 33 (1.1) 185 14 
+
+2016 213 103 83 (1.1) 36 (1.1) 188 13 
+
+2017 186 75 62 (1.2) 25 (1.3) 134 12 
+
+2018 162 59 51 (1.3) 19 (1.2) 111 16 
+
+2019 167 75 55 (1.3) 28 (1.5) 139 17 
+
+2020 122 47 38 (1.1) 13 (1.2) 79 17 
+
+Total 1,596 769 624 (1.1) 276 (1.2) 1,477 150 
+
+Notes: This table describes the distribution of credit rating change events by year from March 2007 
+to May 2020. It reports separately the number of all events, the number of events of firms that have 
+at least one supplier or customer around the event day, the number of events of firms with supplier 
+portfolio, the number of events of firms with customer portfolio, the number of event-supplier or -
+customer observations, and the number of industry coverage in terms of WIND secondary industry 
+classification standard. The numbers in parentheses are average number of suppliers or customers 
+in the portfolio. 
+  
+
+42 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+Table 2: Summary statistics of event firms’ characteristics 
+
+ Full sample  State-owned  Non-state-owned  
+
+Variables Mean (median)  Mean (median)  Mean (median) t-test 
+
+Total Asset 135.1 (15.5)  156.6 (21.1)  108.7 (11.5) 0.382 
+
+Size 19.4 (7.9)  22.6 (9.6)  15.7 (6.0) 0.918 
+
+ROA 0.014 (0.009)  0.012 (0.010)  0.016 (0.007) -0.130 
+
+Leverage 0.632 (0.620)  0.641 (0.636)  0.620 (0.594) 1.141 
+
+B/M 0.808 (0.851)  0.841 (0.869)  0.768 (0.812) 3.655*** 
+
+Cash 0.085 (0.064)  0.089 (0.074)  0.081 (0.053) 0.879 
+
+Notes: This table shows the summary statistics of event firms in our sample. Total Asset is the book 
+value of total assets (billion ¥). Size, ROA, Leverage, B/M, and Cash are calculated by the market 
+value of equity, the ratio of net income to total assets, the ratio of total debt to total assets, the ratio 
+of the book value of equity to the market value of equity, and the ratio of cash to total assets, 
+respectively. *** indicates significance at the 1% level. 
+  
+
+43 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+Table 3: Spillover effects along supply chains 
+ 
+
+ Event firms Nonevent firms 
+ 
+
+Event windows N CAR t-stat N CAR t-stat 
+
+Panel A: Negative reactions of event firms (negative spillovers) 
+ 
+
+Two-day CAR(0,1) 396 -4.02 -6.95*** 396 -1.64 -4.32*** 
+ 
+
+Five-day CAR(0,4) 398 -4.55 -7.41*** 398 -1.58 -3.51*** 
+
+Panel B: Positive reactions of event firms (positive spillovers) 
+ 
+
+Two-day CAR(0,1) 373 3.10 14.87*** 373 1.25 3.38*** 
+ 
+
+Five-day CAR(0,4) 371 3.75 14.53*** 371 1.64 4.12*** 
+
+Notes: This table presents the spillover effects that are driven by the market reactions of event firms. 
+The average two-day and five-day CARs are reported for the event firms and other firms in supply 
+chains. We classify our event samples into two subsamples according to the sign of the CARs of 
+event firms. The subsample in Panel A includes event firms with negative CARs (negative 
+spillovers), and the subsample in Panel B includes event firms with positive CARs (positive 
+spillovers). *** indicates significance at the 1% level. 
+
+44 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+Table 4: The role of market reactions in spillovers 
+
+Panel A: Full sample 
+
+ (1) (2) (3) 
+
+Market Reaction 0.224*** 0.228*** 0.197*** 
+ [0.035] [0.036] [0.039] 
+Size  0.002 0.005 
+  [0.003] [0.004] 
+ROA  -0.025 -0.029 
+  [0.044] [0.050] 
+Leverage  0.024 0.022 
+  [0.016] [0.019] 
+B/M  0.027** 0.031* 
+  [0.014] [0.016] 
+Cash  0.008 0.006 
+  [0.033] [0.040] 
+Credit Rating  0.001 0.001 
+  [0.001] [0.001] 
+Constant -0.001 -0.069 -0.121* 
+ [0.003] [0.044] [0.070] 
+Year fixed effects No No Yes 
+Industry fixed effects No No Yes 
+Adjusted R2 0.087 0.107 0.167 
+F-value 41.400 7.067 5.851 
+Observations 769 758 758 
+
+Panel B: Different rating actions 
+
+Sample Rating changes Watch only Outlook only 
+
+Market Reaction 0.166*** 0.543*** 0.876*** 
+ [0.043] [0.162] [0.184] 
+Control variables Yes Yes Yes 
+Year fixed effects Yes Yes Yes 
+Industry fixed effects Yes Yes Yes 
+Adjusted R2 0.214 0.362 0.352 
+F-value 1.695 3.877 5.411 
+Observations 455 148 155 
+Notes: This table presents the estimates of OLS regressions for the whole sample and different credit 
+rating actions’ subsamples in Panels A and B, respectively. The dependent variable is the five-day 
+CAR for nonevent firms in supply chains. The explanatory variable of interest is Market Reaction 
+(i.e., the event firm’s five-day CAR). Control variables with regard to an event firm include Size 
+(i.e., the market value of equity), ROA (i.e., the ratio of net income to total assets), Leverage (i.e., 
+the ratio of total debt to total assets), B/M (i.e., the ratio of the book value of equity to the market 
+value of equity), Cash (i.e., the ratio of cash to total assets), and Credit Rating (i.e., the credit rating 
+level). The standard errors reported in parentheses are robust and clustered at the event-firm level. 
+*, **, and *** indicate significance at the 10%, 5%, and 1% levels, respectively. 
+  
+
+45 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+Table 5: Sample-selection bias 
+
+Panel A: First-stage estimation to get inverse Mills ratio  
+
+ Disclosure 
+
+Otherratio 7.712*** 
+ [0.159] 
+ROA 0.242** 
+ [0.098] 
+Growth 0.160 
+ [0.190] 
+Leverage -0.256*** 
+ [-0.101] 
+Size 0.032** 
+ [0.013] 
+Firmage 0.053** 
+ [0.022] 
+Constant 1.471*** 
+ [0.555] 
+Year fixed effects Yes 
+Industry fixed effects Yes 
+Max-rescaled R2 0.350 
+Observations 23017 
+
+Panel B: Regression controlling for selection bias  
+
+ Nonevent firms’ CAR(0,4) 
+
+Market Reaction 0.183** 
+ [0.094] 
+Constant 1.408 
+ [0.922] 
+Control variables Yes 
+Inverse Mills ratio Yes 
+Year fixed effects Yes 
+Industry fixed effects Yes 
+Adjusted R2 0.173 
+Observations 754 
+Notes: This table reports the test results for potential selection bias using Heckman two-stage 
+method. In Panel A, we obtain the inverse Mills ratio from the first-stage probit model of whether 
+a firm discloses customer and supplier information. Disclosure is a dummy variable with a value of 
+one if a firm discloses customer/supplier information, and zero otherwise. Otherratio is the fraction 
+of industry peers that disclose their customer/supplier information. ROA, Growth, Leverage, Size, 
+Firmage, Market Reaction are respectively the ratio of net income to total assets, the growth rate, 
+the ratio of total debt to total assets, the market value of equity, the firm age, and the five-day CAR. 
+In Panel B, we add the estimated inverse Mills ratio to control for self-selection bias. The 
+explanatory variable of interest is Market Reaction (i.e., the event firm’s five-day CAR). Control 
+variables with regard to an event firm include Size (i.e., the market value of equity), ROA (i.e., the 
+ratio of net income to total assets), Leverage (i.e., the ratio of total debt to total assets), B/M (i.e., 
+the ratio of the book value of equity to the market value of equity), Cash (i.e., the ratio of cash to 
+total assets), and Credit Rating (i.e., the credit rating level). Robust standard errors clustered at the 
+event-firm level are in parentheses. *, **, and *** indicate significance at the 10%, 5%, and 1% 
+levels, respectively. 
+  
+
+46 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+Table 6: IV regression using heteroskedasticity-based instruments 
+
+ First stage  Second stage 
+
+ Market Reaction  Nonevent firms’ CAR(0,4) 
+
+Market Reaction   0.690*** 
+   [0.263] 
+Size -0.003  0.001 
+ [0.003]  [0.003] 
+ROA 0.019  0.008 
+ [0.049]  [0.037] 
+Leverage -0.022  0.030 
+ [0.020]  [0.026] 
+B/M 0.023  0.023** 
+ [0.016]  [0.012] 
+Cash 0.034  0.008 
+ [0.039]  [0.037] 
+Credit Rating -0.001  0.001 
+ [0.013]  [0.002] 
+IVSize -0.231***   
+ [0.073]   
+IVROA 3.214**   
+ [1.256]   
+IVLeverage -0.345   
+ [0.362]   
+IVB/M -1.409***   
+ [0.223]   
+IVCash -5.376***   
+ [0.786]   
+IVCredit Rating 0.006   
+ [0.022]   
+Constant 0.052  -0.034 
+ [0.050]  [0.064] 
+Year fixed effects Yes  Yes 
+Industry fixed effects Yes  Yes 
+Observations 758  758 
+Shea’s partial R2 0.462   
+F-test of excluded instruments 5.378   
+p-value 0.01   
+Kleibergen-Paap rank LM-statistic 13.249   
+p-value 0.03   
+Kleibergen-Paap F-statistic 17.3   
+p-value 0.01   
+Hansen J statistic 8.88   
+p value 0.11   
+Notes: This table reports the result of two-stage least squares (2SLS) instrumental variable 
+regressions. We follow Lewbel (2012) in generating heteroskedasticity-based instruments, which 
+
+uses X  X   as instruments, where X is each of the exogenous variables in our main model. 
+
+The explanatory variable of interest is Market Reaction. Control variables with regard to an event 
+firm include Size (i.e., the market value of equity), ROA (i.e., the ratio of net income to total assets), 
+Leverage (i.e., the ratio of total debt to total assets), B/M (i.e., the ratio of the book value of equity 
+
+47 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+to the market value of equity), Cash (i.e., the ratio of cash to total assets), and Credit Rating (i.e., 
+the credit rating level). Robust standard errors clustered at the event-firm level are in parentheses. 
+*, **, and *** indicate significance at the 10%, 5%, and 1% levels, respectively. 
+  
+
+48 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+ 
+
+Table 7: Placebo tests 
+
+Panel A: Random market reaction within year 
+
+ Mean t-stat p-value 
+
+Pseudo Market Reaction 0.001 1.040 0.297 
+
+Pseudo Market Reaction with controls 0.001 0.980 0.328 
+
+Panel B: Random market reaction within industry 
+
+ Mean t-stat p-value 
+
+Pseudo Market Reaction -0.000 -0.410 0.682 
+
+Pseudo Market Reaction with controls -0.001 -0.540 0.592 
+
+Panel C: Random market reaction of other firms within a given supplier/customer-industry 
+
+ Mean t-stat p-value 
+
+Pseudo Market Reactionother 0.001 0.390 0.694 
+
+Pseudo Market Reactionother with controls 0.000 0.142 0.886 
+
+Notes: This table reports the results from placebo tests. In Panels A and B, Pseudo Market Reaction 
+is generated by randomizing the market reactions of event firms within a given year and industry, 
+respectively. In Panel C, Pseudo Market Reactionother is generated by implementing a 
+randomization procedure within a given supplier/customer industry, in which on each event day 
+we randomly select one other firm in the same industry as supplier/customer and calculate its 
+market reaction. The average value of coefficient estimates on the Pseudo Market Reaction (in 
+Panels A and B) or Market Reaction (in Panel C) from 1000 trials, together with t-statistics and p-
+values from the t-test for the mean are presented. *, **, and *** indicate significance at the 10%, 
+5%, and 1% levels, respectively. 
+
+  
+
+49 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+Table 8: The information diffusion channel 
+
+Panel A: Analyst 
+ (1) (2) (3) (4) 
+Market Reaction 0.194*** 0.194*** 0.176*** 0.186*** 
+ [0.041] [0.040] [0.039] [0.042] 
+Supplier Analyst -0.010   -0.009 
+ [0.012]   [0.006] 
+Market Reaction × Supplier Analyst 0.087   0.007 
+ [0.120]   [0.125] 
+Customer Analyst  0.010  0.013 
+  [0.009]  [0.009] 
+Market Reaction × Customer Analyst  0.004  -0.004 
+  [0.010]  [0.010] 
+Common Analyst   -0.001 -0.001 
+   [0.008] [0.009] 
+Market Reaction × Common Analyst   0.461*** 0.445*** 
+   [0.160] [0.169] 
+Constant -0.149** -0.095 -0.136* -0.134* 
+ [0.071] [0.071] [0.071] [0.073] 
+Control variables Yes Yes Yes Yes 
+Year fixed effects Yes Yes Yes Yes 
+Industry fixed effects Yes Yes Yes Yes 
+Adjusted R2 0.274 0.280 0.328 0.365 
+Observations 758 758 758 758 
+Panel B: Media 
+ (1) (2) (3) (4) 
+Market Reaction 0.316*** 0.309*** 0.280*** 0.284*** 
+ [0.060] [0.064] [0.061] [0.065] 
+Supplier Media 0.002   0.001 
+ [0.005]   [0.006] 
+Market Reaction × Supplier Media -0.044   -0.107 
+ [0.140]   [0.143] 
+Customer Media  0.003  0.004 
+  [0.009]  [0.009] 
+Market Reaction × Customer Media  0.015  -0.051 
+  [0.152]  [0.154] 
+Common Media   0.001 0.001 
+   [0.002] [0.002] 
+Market Reaction × Common Media   0.106*** 0.124** 
+   [0.005] [0.059] 
+Constant 0.197** 0.194** 0.176* 0.185* 
+ [0.097] [0.098] [0.097] [0.100] 
+Control variables Yes Yes Yes Yes 
+Year fixed effects Yes Yes Yes Yes 
+Industry fixed effects Yes Yes Yes Yes 
+Adjusted R2 0.293 0.298 0.324 0.358 
+Observations 758 758 758 758 
+Notes: This table reports the estimates of OLS regressions for the effect of investor attention on the 
+spillover effects that are driven by the market reactions of event firms. The dependent variable is 
+the CAR(0,4) for nonevent firms in supply chains. Market Reaction is the CAR(0,4) for event firms. 
+Supplier △, Customer △ and Common △ are three dummy variables (△=Analyst/Media) with a 
+value of 1 if a target channel proxy variable is higher than median value, and 0 otherwise. Control 
+variables with regard to an event firm include Size (i.e., the market value of equity), ROA (i.e., the 
+ratio of net income to total assets), Leverage (i.e., the ratio of total debt to total assets), B/M (i.e., 
+the ratio of the book value of equity to the market value of equity), Cash (i.e., the ratio of cash to 
+total assets), and Credit Rating (i.e., the credit rating level). Robust standard errors clustered at the 
+
+50 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+event-firm level are in parentheses. *, **, and *** indicate significance at the 10%, 5%, and 1% 
+levels, respectively. 
+  
+
+51 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+Table 9: Cross-sectional tests 
+
+(1) (2) (3) 
+ 
+
+Asymmetric spillovers State ownership Industry concentration 
+
+Market Reaction : a 0.405*** 0.222*** 0.408*** 
+ [0.121] [0.053] [0.094] 
+b -0.013** -0.006 0.001 
+ [0.006] [0.007] [0.006] 
+a × b -0.306** -0.125* 0.242** 
+ [0.133] [0.064] [0.101] 
+Control variables Yes Yes Yes 
+Year fixed effects Yes Yes Yes 
+Industry fixed effects Yes Yes Yes 
+Adjusted R2
+
+ 0.258 0.249 0.154 
+Observations 758 758 758 
+Notes: This table reports the estimates of OLS regressions for cross-sectional tests. The dependent 
+variable is the CAR(0,4) for nonevent firms in supply chains. a × b is the explanatory variable of 
+interest, defined as the interaction between Market Reaction (a) and cross-sectional variable (b), 
+where b represents the following dummy variables: Positive Reaction, State-owned, or High 
+Concentration. Positive Reaction is a dummy variable with a value of one if the market reaction of 
+an event firm is positive and zero otherwise. State-owned is an indicator variable with a value of 
+one if the event firm is state-owned and zero otherwise. High Concentration takes a value of one if 
+the Herfindahl ratio is above its cross-sectional median for the same year and zero otherwise. Market 
+Reaction is the CAR(0,4) for event firms. Control variables with regard to an event firm include 
+Size (i.e., the market value of equity), ROA (i.e., the ratio of net income to total assets), Leverage 
+(i.e., the ratio of total debt to total assets), B/M (i.e., the ratio of the book value of equity to the 
+market value of equity), Cash (i.e., the ratio of cash to total assets), and Credit Rating (i.e., the credit 
+rating level). Robust standard errors clustered at the event-firm level are in parentheses. *, **, and 
+*** indicate significance at the 10%, 5%, and 1% levels, respectively. 
+  
+
+52 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+Table 10: Spillover effects along supply chains: supplier vs. customer 
+
+ Event firms  Suppliers  Customers 
+
+Peers’ 
+N CAR t-stat  N CAR t-stat  N CAR t-stat 
+
+reactions 
+
+Panel A: Negative reactions of event firms (negative spillovers) 
+
+Negative 224 -5.39 -9.72***  224 -3.07 -2.01**  224 -1.04 -1.98** 
+
+Positive 174 -1.31 -2.79***  174 -3.08 -2.93***  174 -1.66 -2.23*** 
+
+Panel B: Positive reactions of event firms (positive spillovers) 
+
+Negative 192 4.42 2.44***  192 2.20 2.86***  192 0.90 2.42*** 
+
+Positive 179 3.84 8.69***  179 1.74 2.47***  179 0.52 2.18** 
+
+Notes: This table presents the spillovers to suppliers and customers. The average five-day CARs are 
+reported for the event firms, suppliers and customers in supply chains when event firm’s peers react 
+negatively or positively in their stock markets. We classify our event samples into two subsamples 
+according to the sign of the CARs of event firms. We then further divide the subsamples according 
+to the sign of the CARs of event firm’s industry peers. The subsample in Panel A includes event 
+firms with negative CARs (negative spillovers), and the subsample in Panel B includes event firms 
+with positive CARs (positive spillovers). *, **, and *** indicate significance at the 10%, 5%, and 
+1% levels, respectively. 
+  
+
+53 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+Table 11: Further analysis: the regression results of spillover effects in the supply chain 
+
+Panel A: The impact of event firms’ peer market reactions 
+
+ Supplier CAR(0,4) Customer CAR(0,4) 
+
+Market Reaction 0.304*** 0.270** 
+ [0.075] [0.132] 
+Peer Reaction 0.101 0.068 
+ [0.162] [0.084] 
+Peer Reaction × Market Reaction 0.109 0.132 
+ [0.146] [0.338] 
+Control variables Yes Yes 
+Year fixed effects Yes Yes 
+Industry fixed effects Yes Yes 
+Adjusted R2 0.283 0.343 
+Observations 620 271 
+
+Panel B: The impact of investment grade change 
+
+ Supplier CAR(0,4) Customer CAR(0,4) 
+
+Market Reaction 0.388*** 0.305* 
+ [0.067] [0.166] 
+Across -0.023 0.011 
+ [0.024] [0.019] 
+Across × Market Reaction 1.104** 0.246 
+ [0.460] [0.256] 
+Control variables Yes Yes 
+Year fixed effects Yes Yes 
+Industry fixed effects Yes Yes 
+Adjusted R2 0.209 0.317 
+Observations 620 271 
+
+Panel C: The impact of global rating partners 
+
+ Supplier CAR(0,4) Customer CAR(0,4) 
+
+Market Reaction 0.302*** 0.254** 
+ [0.071] [0.145] 
+Global 0.003 -0.007 
+ [0.011] [0.012] 
+Global × Market Reaction 0.465** 0.145 
+ [0.187] [0.215] 
+Control variables Yes Yes 
+Year fixed effects Yes Yes 
+Industry fixed effects Yes Yes 
+Adjusted R2 0.209 0.305 
+Observations 620 271 
+
+Panel D: The impact of business relationships in the supply chain 
+
+ Supplier CAR(0,4) Customer CAR(0,4) 
+
+Market Reaction 0.147*** 0.135** 
+ [0.046] [0.058] 
+Closer -0.006 0.009 
+ [0.009] [0.018] 
+Closer × Market Reaction 0.582*** 0.373** 
+ [0.114] [0.165] 
+
+54 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+Control variables Yes Yes 
+Year fixed effects Yes Yes 
+Industry fixed effects Yes Yes 
+Adjusted R2 0.355 0.362 
+Observations 620 271 
+Notes: This table reports the estimates of OLS regressions for the further analysis of spillover 
+effects. We consider the impact of event firm’s peer market reactions in panel A, investment grade 
+change in Panel B, global rating partners in Panel C, and business relationships in Panel D. Market 
+Reaction is the CAR(0,4) for event firms. Peer Reaction is the CAR(0,4) for event firm’s industry 
+peers. Across, Global and Closer are three dummy variables: the first takes a value of one if the 
+rating change is across two grades and zero otherwise; the second takes a value of one if the rating 
+agency has global partners and zero otherwise; and the last takes a value of one if the event firm’s 
+sales to suppliers or customers is above their sample median and zero otherwise. Control variables 
+with regard to an event firm include Size (i.e., the market value of equity), ROA (i.e., the ratio of net 
+income to total assets), Leverage (i.e., the ratio of total debt to total assets), B/M (i.e., the ratio of 
+the book value of equity to the market value of equity), Cash (i.e., the ratio of cash to total assets), 
+and Credit Rating (i.e., the credit rating level). The standard errors reported in parentheses are robust 
+and clustered at the event-firm level. *, **, and *** indicate significance at the 10%, 5%, and 1% 
+levels, respectively. 
+  
+
+55 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+Table 12: Robustness tests on the role of market reactions in spillovers 
+
+Panel A: Results based on different benchmark models   
+
+ MA CM 
+
+Market Reaction 0.088** 0.070** 
+
+ [0.044] [0.032] 
+
+Control variables Yes Yes 
+
+Year fixed effects Yes Yes 
+
+Industry fixed effects Yes Yes 
+
+Adjusted R2 0.115 0.103 
+
+Observations 758 758 
+
+Panel B: Results based on different event windows   
+
+ CAR(0,2) CAR(0,6) CAR(-1,1) CAR(-2,0) 
+
+Market Reaction 0.179*** 0.210*** 0.314*** 0.574*** 
+
+ [0.044] [0.040] [0.059] [0.071] 
+
+Control variables Yes Yes Yes Yes 
+
+Year fixed effects Yes Yes Yes Yes 
+
+Industry fixed effects Yes Yes Yes Yes 
+
+Adjusted R2 0.159 0.182 0.281 0.379 
+
+Observations 758 758 758 758 
+
+Notes: In Panel A, the OLS regressions are repeated using the CAR(0,4) from the market-adjusted-
+return model (MA) and constant-mean-return model (CM). In Panel B, the OLS regressions are 
+repeated using CAR(0,2), CAR(0,6), CAR(-1,1) and CAR(-2,0). The explanatory variable of 
+interest is Market Reaction (i.e., the event firm’s five-day CAR). Control variables with regard to 
+an event firm include Size (i.e., the market value of equity), ROA (i.e., the ratio of net income to 
+total assets), Leverage (i.e., the ratio of total debt to total assets), B/M (i.e., the ratio of the book 
+value of equity to the market value of equity), Cash (i.e., the ratio of cash to total assets), and Credit 
+Rating (i.e., the credit rating level). Robust standard errors clustered at the event-firm level are in 
+parentheses. *, **, and *** indicate significance at the 10%, 5%, and 1% levels, respectively. 
+  
+
+56 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+Appendix A: Descriptive statistics and correlation coefficients 
+
+Table A1: Descriptive statistics and correlation matrix 
+
+Panel A: The descriptive statistics of the variables in the main analysis 
+First Third Standard 
+
+Variable Observations Mean Minimum Median Maximum 
+quartile quartile deviation 
+
+CAR(0, 4) 769 -0.003 -0.512 -0.020 0.001 0.022 0.194 0.060 
+Market Reaction 769 -0.006 -0.518 -0.021 -0.001 0.020 0.145 0.076 
+Size 769 19.429 0.313 3.885 7.925 17.349 137.718 74.554 
+ROA 769 0.014 -0.926 -0.004 0.009 0.011 0.121 0.066 
+Leverage 769 0.632 0.195 0.521 0.620 0.755 1.380 0.178 
+B/M 769 0.808 0.236 0.681 0.851 0.952 1.316 0.199 
+Cash 758 0.085 0.000 0.034 0.064 0.112 0.589 0.081 
+Credit Rating 769 10.385 1.000 10.000 11.000 12.000 14.000 2.958 
+
+Panel B: The Pearson correlation coefficients between all the variables in the main analysis 
+Market Credit 
+
+ CAR(0, 4) Size ROA Leverage B/M Cash 
+Reaction Rating 
+
+CAR(0, 4) 1        
+
+Market Reaction 0.306*** 1       
+
+Size -0.001 -0.021 1      
+
+ROA -0.045 -0.034 0.034 1     
+
+Leverage 0.088* -0.033 0.100** -0.159*** 1    
+
+B/M 0.129** 0.052 0.057 0.062 0.104** 1   
+
+Cash -0.004 0.063 -0.035 -0.121** -0.208*** -0.073   
+
+Credit Rating -0.018 -0.069 0.301*** 0.187*** -0.241*** 0.139*** 0.102** 1 
+
+Notes: This table reports the descriptive statistics and Pearson correlation coefficients of the 
+variables used in the main analysis in Panel A and Panel B, respectively. CAR(0, 4) is the five-day 
+cumulative abnormal returns for nonevent firms. The variables with regard to an event firm include 
+Market Reaction (i.e., the five-day CAR), Size (i.e., the market value of equity), ROA (i.e., the ratio 
+of net income to total assets), Leverage (i.e., the ratio of total debt to total assets), B/M (i.e., the ratio 
+of the book value of equity to the market value of equity), Cash (i.e., the ratio of cash to total assets), 
+and Credit Rating (i.e., the credit rating level). *, **, and *** indicate significance at the 10%, 5%, 
+and 1% levels, respectively. 
+  
+
+57 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+Appendix B: The scale of the rating levels for the Chinese main rating agencies 
+
+Table B1: Credit rating scale 
+
+Rating Numeric value assigned 
+
+AAA 14 
+
+AAA- 13 
+
+AA+ 12 
+
+AA 11 
+
+AA- 10 
+
+A+ 9 
+
+A 8 
+
+A- 7 
+
+BBB+ 6 
+
+BBB 5 
+
+BBB- 4 
+
+BB+, BB, BB- 3 
+
+B+, B, B- 2 
+
+CCC, CC, C 1 
+
+Notes: This table describes the categories that are used for credit ratings. It also presents the 
+numerical scale used in the paper. 
+  
+
+58 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+Appendix C: The market reactions of event firms, suppliers, customers, and peers to rating 
+events 
+
+Table C1: The market reactions of event firms, suppliers, customers and peers to credit rating 
+events 
+
+ Event firms  Suppliers  Customers  Peers 
+
+ N CAR t-stat  N CAR t-stat  N CAR t-stat  N CAR t-stat 
+
+Panel A: Rating downgrades 
+
+CAR(0,1)                
+
+Negative 77 -7.60 -2.72***  104 -5.00 -3.69***  43 -3.81 -3.56***  95 -0.40 -0.69 
+
+Positive 96 3.38 5.83***  122 3.81 3.98***  62 4.69 3.78***  78 0.28 0.91 
+
+CAR(0,4)                
+
+Negative 71 -6.80 -3.88***  81 -5.19 -2.97***  50 -5.79 -3.19***  92 -0.48 -0.53 
+
+Positive 102 3.69 5.10***  145 3.43 2.80***  55 4.96 2.95***  81 0.28 1.04 
+
+CAR(-1,1)                
+
+Negative 86 -4.78 -4.01***  110 -3.40 -3.19***  55 -4.13 -2.53***  90 -0.41 -0.59 
+
+Positive 87 2.83 4.91***  116 2.93 2.88***  50 3.980 2.62***  83 0.21 0.86 
+
+Panel B: Rating upgrades 
+
+CAR(0,1)                
+
+Negative 162 -3.21 -7.58***  168 -5.17 -3.71***  93 -3.51 -3.55***  144 -0.40 -0.80 
+
+Positive 120 2.42 7.24***  226 3.06 6.50***  73 2.27 4.44***  138 0.24 1.26 
+
+CAR(0,4)                
+
+Negative 153 -4.23 -5.71***  150 -7.20 -3.44***  86 -4.07 -4.03***  132 -0.60 -0.66 
+
+Positive 129 2.91 6.63***  244 3.18 5.48***  80 2.53 3.91***  150 0.33 1.15 
+
+CAR(-1,1)                
+
+Negative 170 -6.80 -3.88***  181 -5.19 -2.97***  90 -5.79 -3.19***  143 -0.51 -0.69 
+
+Positive 112 3.69 5.10***  213 3.43 2.80***  76 4.96 2.95***  139 0.30 1.09 
+
+Notes: This table shows the market reactions of event firms, suppliers, customers and peers to rating 
+downgrades and upgrades in Panel A and Panel B, respectively. *, **, and *** indicate significance 
+at the 10%, 5%, and 1% levels, respectively. 
+  
+
+59 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016
+
+
+
+Appendix D: A brief overview of Chinese credit rating agencies 
+
+Table D1 provides the nine major domestic credit rating agencies (CARs). They include three 
+
+independent agencies with full accreditation in both the interbank market and the exchange-based 
+
+market: Dagong, Brilliance and Jincheng. Brilliance has a technical partnership with Standard & 
+
+Poor’s that it formed in 2008 for the purpose of sharing knowledge and experience. The two 
+
+domestic independent agencies of FarEast and Pengyuan have full accreditation in the exchange-
+
+based market, and restricted accreditation in the interbank market. In addition, there are two 
+
+domestically owned and capitalized multi-agency groups, Chengxin and Lianhe, which each 
+
+effectively comprise two entities: a domestically-funded entity having accreditation in the 
+
+exchange-based market, and a joint-venture entity with minority foreign participation limited to 
+
+rating in the inter-bank market. Chengxin’s joint venture is with Moody’s and Lianhe’s with Fitch. 
+
+Ratings from all the above domestic agencies are issuer-paid. 
+
+The last five columns of Table D1 list the approvals from the five government regulatory 
+
+bodies for each CAR.12 The Securities and Exchange Commission (SEC) is the sole regulator of the 
+
+CRAs in the US, but multiple Chinese government regulators have their own approved CRAs. Two 
+
+CARs (Brilliance and Dagong) have approvals from all five regulators. On the other hand, 
+
+ChengxinI has approvals from only two regulators. As pointed out in Jiang and Packer (2019), 
+
+though the three main global agencies have either minority shareholder stakes in the joint venture 
+
+entities or technical partnerships with domestic agencies as mentioned above, the global agencies’ 
+
+themselves do not play an active role in those entities’ assignment of ratings during the period under 
+
+investigation. 
+
+ 
+
+Table D1: List of major Chinese credit rating agencies 
+
+Global Regulatory approval 
+Name Website Head-quarter 
+
+partner PBoC CIRC CSRC NDRC NAFMII 
+
+Brilliance S&P* www.shxsj.com Shanghai Yes Yes Yes Yes Yes 
+ChengxinS Moody’s* www.ccxi.com.cn Beijing Yes No Yes Yes Yes 
+Lianhe Fitch Fitch* www.lhratings.com Beijing Yes No Yes Yes Yes 
+Dagong None www.dagongcredit.com Beijing Yes Yes Yes Yes Yes 
+ChengxinI None www.ccxr.com.cn Shanghai Yes Yes No No No 
+Jincheng None www.dfratings.com Beijing Yes Yes Yes Yes Yes 
+Lianhe None www.lianhecreditrating.com.cn Beijing Yes Yes Yes No No 
+Pengyuan None www.pyrating.cn Shenzhen No Yes Yes No No 
+FarEast None www.sfecr.com Shanghai Yes Yes Yes Yes Yes 
+
+Notes: This Table describes the nine major Chinese CRAs in this study. The last five column reports 
+the regulatory recognition of each CRA by various regulatory bodies in China. 
+NAFMII: National Association of Financial Markets Institutional Investors (regulator of the 
+interbank market). 
+CIRC: China Insurance Regulatory Commission (Chinese insurance industry regulator). 
+ 
+ 
+
+                                                     
+12 We obtain the regulatory approval information from the websites of the CRAs and cross-check 
+with the approved CRAs lists from the regulatory agencies whenever available. 
+
+60 
+
+Electronic copy available at: https://ssrn.com/abstract=4504016

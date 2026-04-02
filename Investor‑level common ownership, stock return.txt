@@ -1,0 +1,2389 @@
+﻿Financial Markets and Portfolio Management
+https://doi.org/10.1007/s11408-025-00484-7
+
+Investor‑level common ownership, stock return 
+comovement, and competition
+
+Markus Münster1 · Martin Walther2
+
+Accepted: 6 July 2025 
+© The Author(s) under exclusive licence to Swiss Society for Financial Market Research 2025
+
+Abstract
+This study examines the relationship between common ownership and the correla-
+tion of stock returns. Using S&P 500 data, we find that higher levels of common 
+ownership at the individual investor level are associated with stronger pairwise cor-
+relations of stock returns in subsequent periods. This relationship holds across mul-
+tiple industries and remains robust after controlling for factors such as market risks, 
+stock prices, liquidity, financial leverage, index additions, geographic proximity, 
+correlated trading, and the level of competition in the industry. Our findings indi-
+cate that these effects are not solely driven by large institutional investors. Another 
+contribution of our study is distinguishing between the effects driven by the level 
+and the similarity of these control variables. Moreover, since reduced competition 
+is associated with higher stock return correlation, our results are consistent with the 
+existence of anticompetitive effects of common ownership across several industries. 
+We provide further support for this competition channel by demonstrating that this 
+effect is mainly driven by longer-term investors. Our findings have important policy 
+implications, suggesting that antitrust regulations should consider indirect competi-
+tive effects from common ownership, even without explicit coordination between 
+companies.
+
+Keywords  Anticompetitive effects · Common ownership · Pairwise correlations · 
+Stock return comovement · Stock price synchronicity
+
+JEL classification  G23 · G28 · G32 · G38 · L41
+
+* 	 Markus Münster 
+	 markusmuenster@posteo.de
+* 	 Martin Walther 
+	 martin.walther@giu-berlin.de
+
+1	 Technical University of Berlin, Berlin, Germany
+2	 German International University (Berlin), Berlin, Germany
+
+Vol.:(0123456789)
+
+
+
+	 M. Münster, M. Walther 
+
+1  Introduction
+
+Understanding the determinants of the correlation between stocks is crucial for port-
+folio allocation, as it is the decisive factor for diversification effects. In this study, 
+we investigate the relationship between common ownership at the individual inves-
+tor level and the comovement of stock returns. Using S&P 500 data from Refinitiv 
+Eikon’s Ownership Summary for the period 1998–2022, we show that increases in 
+common ownership are followed by increases in the pairwise correlation of stock 
+returns. This result is robust to various control variables, including Fama–French 
+factors, stock prices, and index inclusions. Figure 1 illustrates a strong positive rela-
+tionship between changes in common ownership and subsequent changes in pair-
+wise correlation. This pattern, based on observations grouped into 100 clusters, 
+highlights the potential relevance of ownership structure for stock return comove-
+ments and motivates our study.
+
+Furthermore, building on the findings of Abdoh and Varela (2017), who show 
+decreased competition is associated with higher pairwise correlations of stock 
+returns, we link our results to the ongoing discussion on anticompetitive effects of 
+common ownership. Specifically, our observation that increases in common own-
+ership is followed by increases in pairwise correlation which aligns with the idea 
+that shareholders with stakes in multiple companies use their influence on corpo-
+rate policy to reduce competition between these companies to maximize the overall 
+value of their holdings. This, in turn, leads to higher pairwise correlations of stock 
+returns, i.e., stronger stock return comovement. In an extension to our analysis, we 
+differentiate between short-term (holding periods up to 2 years) and non-short-term 
+
+Fig. 1   Changes in pairwise correlation over changes in common ownership. This figure illustrates the 
+positive relationship between changes in common ownership (horizontal axis) and changes in pairwise 
+stock return correlations (vertical axis). To improve readability, observations are grouped into 100 clus-
+ters by changes in common ownership. Each point represents the mean value of both variables within a 
+cluster
+
+
+
+Investor‑level common ownership, stock return comovement,…
+
+common ownership (holding periods of more than 2 years).1 We find a significant 
+positive effect of long-term common ownership on pairwise correlations, while the 
+effect of short-term common ownership, depending on the specification, is negative 
+or statistically insignificant. This result strengthens our proposed channel, as inves-
+tors with longer investment horizons are more likely to exert influence on corporate 
+policies to reduce competition.
+
+Our key contributions are as follows. First, our analysis is not limited to specific 
+investor types or sizes, such as actively managed or ETF funds. Instead, we provide 
+novel analyses at the individual investor level. Notably, our results indicate that the 
+effect of common ownership on pairwise correlations is driven by more than just a 
+few large investors. Second, we extend the analyses of studies such as Antón and 
+Polk (2014) by additionally considering recently developed vector-based measures 
+for common ownership from Boller and Morton (2020) in the analysis of stock pair 
+return correlations. Third, we use a current dataset that provides data from 1998 
+to 2022. This is particularly relevant given the increased relevance and influence 
+of institutional investors in recent years. For instance, according to Lewellen and 
+Lewellen (2022), institutional ownership of publicly traded US firms has more than 
+doubled from 1980 to 2017. Fourth, we account for the possibility of reverse causal-
+ity by considering the effect of a change in common ownership on the correlation in 
+subsequent periods. Fifth, we include control variables that represent the pairwise 
+similarity and the absolute level, respectively. In this way, we can show whether 
+corporate similarity drives pairwise correlations (i.e., the similarity of stock return 
+movements) or whether the absolute level of a particular factor is decisive. Sixth, 
+our paper closes the gap between the analysis of stock return correlation and the 
+discussion of anticompetitive effects of common ownership (e.g., Azar et al. 2022, 
+2018). Seventh, we differentiate between short-term and non-short-term common 
+ownership, which further strengthens the proposed competition channel.
+
+Our study is related to several streams of literature, which we present in the fol-
+lowing paragraphs. First, we contribute to the research on stock comovement. 
+In their seminal study, Barberis et al. (2005) present evidence on friction- or sen-
+timent-based comovement by examining inclusions and removals of stocks in the 
+S&P 500 index. Using data from 1979 to 2000, they show that stock returns have 
+a higher correlation with the returns of other members of the index after the stock 
+has been added to the S&P 500. Conversely, the correlation with the stocks that are 
+not included in the index decreases. Green and Hwang (2009) provide evidence of 
+price-based comovement. Specifically, they find that the stock’s correlation to low-
+priced stocks increases after a stock split, while its correlation to stocks with higher 
+prices decreases. This indicates that stocks within the same price category are more 
+correlated. However, with a modified methodology, Chen et al. (2016) find limited 
+empirical evidence for the results of Barberis et al. (2005) and Green and Hwang 
+(2009).
+
+Regarding the determinants of comovement, Bekaert et al. (2009) find that risk-
+based factor models fit stock comovements reasonably well, while studies by Chan 
+et  al. (2013) and Broman (2016) emphasize the role of liquidity. Information and 
+
+1  We thank an anonymous reviewer and the editor, Tim Kröncke, for suggesting such an analysis.
+
+
+
+	 M. Münster, M. Walther 
+
+networks also play a critical role in stock return comovement. For example, stocks 
+affiliated with the same underwriter or with shared analyst coverage exhibit stronger 
+comovement (Grullon et al. 2014; Muslu et al. 2014). Hameed et al. (2015) further 
+demonstrate that firms with high analyst coverage tend to have stronger comove-
+ment with other stocks, as investors use the well-covered firms’ information to value 
+lesser-followed stocks. Other factors, such as geographical proximity (Li and Zhao 
+2016), commonalities in newswire text (Box 2018), and political networks (Piotroski 
+et al. 2022), also contribute to stock return comovement.
+
+Regarding the impact of shared ownership, Antón and Polk (2014) establish a 
+positive relationship between shared ownership of mutual funds and the correlation 
+of stock returns in the US stock market. In a later study, Box (2018) also finds a pos-
+itive relationship between shared mutual fund and institutional ownership and stock 
+price comovement. Ben‐David et al. (2018) find that ETF membership significantly 
+increases the volatility of the underlying securities. Analyzing data from the banking 
+sector, Iselin et al. (2021) find that common ownership mainly via passive mutual 
+funds increases a bank’s contribution to systemic risk. Coles et al. (2022) show that 
+index investing causes a higher correlation of returns between stocks contained in 
+the index and with the index itself. Based on a data set of ETF holdings in the US 
+market, Da and Shive (2018) find a positive relationship between the ETF owner-
+ship of a stock and its synchronicity with the market. They show that the comove-
+ment depends on the ETF’s activity: The higher the ETF’s turnover, the stronger the 
+comovement of the shares in its portfolio. Boller and Morton (2020) create owner-
+ship vectors and use similarity measures to capture common ownership. They find 
+that entering the S&P 500 is associated with an increase in common ownership and 
+stock returns. Furthermore, they show that their measures of common ownership 
+predict cumulative abnormal returns.
+
+The aforementioned studies each focus on a specific type of common ownership, 
+such as through mutual funds or ETFs. In contrast, we are among the first to con-
+sider the overall stock holdings of investors, regardless of the investment type. This 
+approach provides novel evidence on the effects of common ownership at the indi-
+vidual investor level. Considering common ownership at the investor level is crucial 
+because it enables us to link it to anticompetitive effects through investors’ influence 
+on corporate policies. Another distinction from previous studies is that, due to this 
+mechanism, we do not weight common ownership by the market values of the two 
+companies. Weighting by market values causes common ownership to be driven by 
+the share in the larger company, which fails to account for the fact that influencing 
+the policy of the smaller company can significantly impact the competition and, con-
+sequently, the correlation between both companies. Our approach captures the pos-
+sibility of such anticompetitive effects more effectively.
+
+Second, our study is related to the several articles that study stock price synchro-
+nicity at the market level. Based on the approach of Roll (1988), Morck et al. (2000) 
+and Jin and Myers (2006) empirically investigate stock price synchronicity using the 
+R-squared from cross-sectional regressions. Jin and Myers (2006) argue that the less 
+transparent the company is, the more of its operating cash flow can be captured by 
+internal managers. Thus, less firm-specific risk is absorbed by external investors. 
+This leads to the opacity of companies being linked to stock price synchronicity. An 
+
+
+
+Investor‑level common ownership, stock return comovement,…
+
+and Zhang (2013) extend this work and establish a connection to institutional inves-
+tors by using the classification of Bushee (1998) for dedicated and transient insti-
+tutional investor as well as quasi-indexers. While dedicated institutional investors 
+monitor the extraction of cash flows, transient institutional investors trade frequently 
+and have less incentive to monitor the companies they have invested in. Analyzing 
+data from 1987 to 2010, An and Zhang (2013) find a negative relationship between 
+dedicated institutional investors and stock price synchronicity. However, the pres-
+ence of transient institutional investors is accompanied by an increase in stock price 
+synchronicity. In contrast with the presented research, our study does not analyze 
+correlations at the market level but instead focuses on pairwise correlations, i.e., 
+correlations at the company level.
+
+Third, our study also contributes to the literature on anticompetitive effects of 
+common ownership. Azar et al. (2022) and Azar et al. (2018) analyze the impact of 
+common ownership on competition in the banks and airline industry. In both indus-
+tries, an increase in common ownership results in higher prices, likely via lower 
+product market competition. In contrast, other studies, such as Dennis et al. (2022), 
+Gramlich and Grundl (2018), and Backus et  al. (2021) provide limited empirical 
+support for anticompetitive effects of common ownership in the airline, banking, 
+and ready-to-eat industry, respectively.
+
+Regarding the link between pairwise correlation and competition, Abdoh and 
+Varela (2017) analyze data from 2005 to 2014. They show that increasing product 
+market competition measured with the Herfindahl–Hirschman index (HHI) is asso-
+ciated with an increase in idiosyncratic volatility relative to systematic volatility, i.e., 
+a decrease in pairwise correlation. A possible explanation is that when market power 
+and concentration are high, firm-specific cost shocks can be more easily passed on 
+to customers because fewer substitutes are available to them. When competition and 
+pairwise correlations have a negative relationship, and common ownership leads to 
+a lower level of competition, pairwise correlations should be positively related to 
+common ownership. Therefore, our analysis can be interpreted as evidence on anti-
+competitive effects of common ownership. Note that our analysis includes changes 
+in industry HHIs as control variables, meaning that our results do not merely reflect 
+effects of industry-level competition.
+
+The remainder of this study is organized as follows. Section 2 describes the data 
+set. Section 3 presents the empirical method. In Sect. 4, the results are described. 
+Section 5 contains a discussion, and Sect. 6 concludes.
+
+2  Data set
+
+We use data from the US stock market. Specifically, we consider stocks listed in the 
+S&P 500 index. In addition to reducing the high effort required for data collection 
+and processing, focusing on the S&P 500 has the following advantages. First, the 
+index contains stocks from multiple industries, and covers the industries of airlines 
+and banks examined by Azar et al. (2018) and Azar et al. (2022). Second, the index 
+is a good single indicator of large capitalization equities, covering approximately 
+
+
+
+	 M. Münster, M. Walther 
+
+80% of the available market capitalization in the USA.2 Therefore, our results are 
+likely to reflect the behavior of large investors and institutional investors, which 
+means that they are likely to apply to other indices, stock markets, and countries. 
+Third, the data regarding shareholder reports on the investor level for stocks con-
+tained in the S&P index are reliably available. Specifically, for each stock, quarterly 
+ownership reports can be collected from Refinitiv Eikon’s3 Ownership Summary 
+(“Shareholder History Report”). Each report contains all individual shareholders of 
+a company with their name and the percentage of outstanding shares held. In con-
+trast with the Thomson Reuters Spectrum data set, which has been used in several 
+related studies (e.g., Antón and Polk 2014; Azar et al. 2018), the Ownership Sum-
+mary is not limited to 13F filings on institutional investors, but also includes insider 
+trading, mutual funds, and private investors. This provides a more holistic view of 
+changes in shareholder composition and allows us to investigate common ownership 
+at the individual investor level.
+
+In order to account for different notations, all investor names are converted to 
+lower case, and special characters are removed. However, for complex investor net-
+works, e.g., due to globally operating companies with national subsidiaries, the cor-
+responding investor names vary. Thus, the investor names are manually harmonized 
+by replacing different tightly connected investor names with the corresponding 
+umbrella organization. For example, various Blackrock subsidiaries such as “Black-
+Rock Investment Management (UK) Ltd.” and “BlackRock Investment Management 
+(Australia) Ltd.” are replaced with “blackrock” as the investor name. However, our 
+results are robust to using the raw investor names. The corresponding results are 
+presented in Appendix A. After the adjustments, the ownership share is calculated 
+as the sum over each unified investor name.
+
+To calculate stock return comovement, the time series of daily closing prices “P,” 
+which are adjusted for capital measures, are retrieved and used to calculate stock 
+returns. The return Ri,t for stock i at time t is calculated according to the following 
+equation4:
+
+Pi,t − Pi,t−1
+Ri,t = . (1)
+
+Pi,t−1
+
+The analysis focuses on competing companies with similar business areas, i.e., 
+companies with similar products and services. Thus, industry classifications are 
+retrieved. In particular, the 4-digit ICB super-sector codes are collected for all 
+relevant stocks. This choice addresses the following trade-off: On the one hand, 
+the more granular the ICB code, the more similar are the business areas of two 
+companies, and thus, the greater is the probability that the two companies are 
+competitors. On the other hand, the more specific the ICB code, the smaller is the 
+number of stocks that are grouped in this ICB classification. Due to the limited 
+
+2  See https://​www.​spglo​bal.​com/​spdji/​en/​indic​es/​equity/​sp-​500/#​overv​iew, last accessed August 6, 2024.
+3  Note that Refinitiv Eikon was previously known as Thomson Reuters Eikon.
+4  Note that, in order to avoid biased results because of outliers, a stock’s calculated return time series is 
+truncated at its 1%- and 99%-percentile.
+
+
+
+Investor‑level common ownership, stock return comovement,…
+
+Table 1   Industry split of Industry super-sector Number of 
+companies for HHI calculation companies
+
+1010—Technology 769
+1510—Telecommunications 201
+2010—Health Care 1273
+3010—Banks 620
+3020—Financial services 1429
+3030—Insurance 122
+3510—Real Estate 331
+4010—Automobiles and parts 77
+4020—Consumer products and services 398
+4030—Media 149
+4040—Retail 195
+4050—Travel and leisure 232
+4510—Food, beverage and tobacco 244
+4520—Personal care, drug and grocery stores 85
+5010—Construction and materials 154
+5020—Industrial goods and services 854
+5510—Basic resources 226
+5520—Chemicals 91
+6010—Energy 537
+6510—Utilities 168
+
+amount of available data, this may result in an insufficient number of observa-
+tions per classification code to perform an empirical analysis.
+
+We collect the daily market value “ MV , ” price to book value “PTBV,” operat-
+ing profitability margin “OPM,” total assets “TA,” leverage ratio “LR,” the num-
+ber of shares traded “VO,” the history of additions “Add” to the S&P 500 index, 
+and the US state of a firm’s corporate office “LOC(State)” for each stock as con-
+trol variables. The time series are truncated at the 0.5%- and 99.5%-quantile.
+
+The period under consideration extends from 1998 to 2022. We use Refini-
+tiv Eikon’s Datastream to retrieve data on the presented variables of all stocks 
+included in the S&P 500. Descriptive statistics for the data set will be presented 
+after we introduce all computed variables in the next section. Furthermore, to cal-
+culate the Herfindahl–Hirschman Index (HHI) for each industry as a control for 
+competition, we collect quarterly market values of all companies with headquar-
+ters in the USA in the respective ICB super-sectors that are available on Eikon’s 
+Datastream. Overall, we consider more than 8,000 companies. The split of these 
+companies across the super-sectors is presented in Table 1.
+
+
+
+	 M. Münster, M. Walther 
+
+3  Methodology
+
+This section presents our methodology to analyze the hypothesized relationship 
+between common ownership at the investor level and stock return comovement. 
+Instead of focusing on specific events, such as the addition to an index, we consider 
+changes in common ownership and correlation over a period of 24 years. Our meth-
+odology consists of three parts. First, all relevant variables are computed for each 
+time point. Second, the change of these variables over a specified period is calcu-
+lated. Third, the relationship between the change of common ownership of a stock 
+pair and the subsequent change of pairwise return correlations is estimated by means 
+of linear regression.
+
+We create a subsample for each industry classification. Within each industry clas-
+sification, all possible combinations of stocks are pooled to create stock pairs. We 
+then calculate all variables for these stock pairs. We measure common ownership in 
+three ways. First, we consider ownership overlap by adopting the formula of Mün-
+ster and Walther (2021)5:
+
+∑( )
+t St + St
+k,i j
+
+SHOt ,j i,k ,k
+= 1 − = min(St , St⋅ )∀i, j, t.
+
+i,j St + St 2 i,k j,k (2)
+k i,k j,k
+
+St  represents the percentage of stocks of company i held by investor k at time t . 
+i,k
+
+We assume that investors’ influence on a pair of companies can be exerted mainly 
+when they hold a significant stake in both stocks. Since an investor’s average hold-
+
+St +St
+
+ings i,k j,k can be biased when only one of the stakes is large, the measure above 
+2
+
+also takes the difference between the stakes t |
+( )  = |St − St
+
+|
+k,i,j | |
+
+i,k j, | into account. By res-
+k
+
+t
+
+
+caling with the factor 1 k,i,j
+−  , the measure counteracts the potential bias 
+
+St +St
+i,k j,k
+
+because the value of the factor increases (decreases) when the difference between 
+the two stakes is small (large). SHO corresponds to the sum across all investors of an 
+investor’s minimum percentages of stocks in both companies. It therefore intuitively 
+reflects the overlap between the owners of both companies. However, the minimum 
+does not take asymmetric holdings into account. These might be relevant for anti-
+competitive effects as holding a large stake in one company might already enable an 
+investor to influence the competitive strategy of the company and thus the correla-
+tion between both stocks. Therefore, in Appendix B, we provide two robustness 
+checks. First, we measure common ownership as the sum across all investors of the 
+average percentages of stocks in both companies. This means that we drop the pen-
+(alty term. Seco)nd, we consider a measure that uses half the penalty term, i.e., 
+
+t
+1 
+
+1 k,i,j
+− ⋅  . It corresponds to the average of the two former measures and rep-
+
+2 St +St
+i,k j,k
+
+5  See also Antón and Polk (2014) for a related definition. However, the authors make use of a weighting 
+of shares with market values.
+
+
+
+Investor‑level common ownership, stock return comovement,…
+
+resents a compromise between both approaches.6 All three variants yield similar 
+results.
+
+In contrast with Antón and Polk (2014), SHO does not assign a larger weight to 
+larger companies, which means that SHO is not mainly driven by the stake in the 
+larger company. Moreover, SHO ensures that investors hold a sufficient stake in both 
+companies so that there may be an interest in collusive behavior in the first place. 
+This is not the case with the measure of Antón and Polk (2014) as the distribution of 
+ownership across both companies is irrelevant (Gilje et al. 2018).
+
+The second and third measures are based on ownership similarity. We employ 
+these vector-based measures of common ownership, following the methodology of 
+Boller and Morton (2020), for two reasons. First, these measures compare the entire 
+ownership structures of companies rather than focusing solely on investor overlap. 
+Second, as shown by Boller and Morton (2020), only vector similarity measures 
+exhibit a significant correlation with abnormal returns, emphasizing their relevance 
+for analyzing potential anticompetitive effects.
+
+The measures are calculated as follows. For both, all investors are encoded in an 
+ownership vector. For computational reasons, only the most frequent 5000 inves-
+tors from the entire data set are considered, resulting in an ownership vector with 
+K = 5,000 dimensions. Note that the results are robust to choosing different vec-
+tor sizes. The corresponding results for K = 1,500 and K = 15,000 are presented in 
+Appendix C. Each dimension of the vector is assigned an investor and the share of 
+outstanding shares. Thus, the ownership vector of stock i at time point t can be writ-
+ten as:
+
+⎛ Sti,k=1 ⎞
+OSi =
+
+⎜⎜ … ⎟
+⎝ ⎟∀i, t. (3)
+St
+i,k=K ⎠
+
+Using the ownership vectors defined above, we calculate the second and third 
+common ownership measures following Boller and Morton (2020). Both are simi-
+larity-based but capture similarity through different methods. The second measure is 
+derived from the comparison of the vectors based on cosine similarity:
+
+∑
+t t
+
+OSi,t ⋅ OSj,t � k S ⋅ S
+i,k j,k
+
+SHCt = = ∀i, j, t.
+i,j ‖OS � �
+
+2 2 (4)
+i,t‖‖OSj,t‖ ∑ � ∑ � �
+
+t
+k S
+
+i,k k St
+j,k
+
+Cosine similarity is more affected by deviations of large investors than of small 
+investors. In contrast, the Bray–Curtis distance, first described by Bray and Cur-
+tis (1957), weights all deviations equally, regardless of the investment amount. 
+Thus, the last variable is derived from a comparison of the vectors by means of the 
+Bray–Curtis similarity:
+
+6  For a discussion of pros and cons of a common ownership measure based on the minimum ownership 
+in both companies see Gilje et al. (2018).
+
+
+
+	 M. Münster, M. Walther 
+
+∑ �
+k ��St − St
+
+��
+i,k j,k
+
+∑ �
+SHBt = 1 −
+
+i,j � �∀i, j, t.
+k �
+
+(5)
+�St + St �
+
+i,k j,k�
+Both cosine and Bray–Curtis similarity can range from zero to one. A similarity 
+
+of zero indicates that the companies have no common owners, implying no common 
+ownership, while a similarity of one implies identical shareholder structures. There-
+fore, a high similarity score suggests that a large proportion of investors may have an 
+incentive to avoid competition between the companies. Conversely, a low similarity 
+score indicates that no such incentives are likely to exist.
+
+All three measures of common ownership are computed for all stock pairs 
+grouped according to their industry classification. Furthermore, we compute Pear-
+son correlation coefficients based on daily returns as the dependent variable:
+
+� �
+Cov Ri,Rj
+
+CORRi,j = √ � ∀i, j. (6)
+Var(Ri) ⋅ Var(Rj)
+
+In the following, we present and explain the used control variables. Common fac-
+tors (Fama and French 1993) are likely to have an effect on pairwise correlations. To 
+ensure that these effects are not the drivers of our results on common ownership, we 
+include control variables for factor similarity into our regressions.7 Specifically, we 
+control for the common factors presented in Fama and French (2015). As Antón and 
+Polk (2014), we compute percentiles for each control variable and period to elimi-
+nate the impact of outliers. Furthermore, for each factor, we consider the similarity 
+between both companies (the absolute difference in the respective factor), and the 
+absolute level, respectively. In this way, we can test whether similarity in fundamen-
+tals drives correlations (i.e., the similarity of stock return movements), or whether 
+particular levels of the respective factor increase comovement. We expect a positive 
+relationship between correlation and the similarity of factors, while the effect of the 
+factor level depends on the specific variable.
+
+The first considered factor represents a company’s market value, MVi,t.We define 
+the corresponding regression variable as the absolute value of the distance between 
+the market value percentiles ( MVPERCENTILEi,t ) for each stock pair
+
+t | |
+MVDIS = |
+
+i,j |MVPERCENTILEi,t −MVPERCENTILEj,t||∀i, j, t. (7)
+
+Following Green and Hwang (2009), we additionally control for absolute market 
+values by computing the average market value percentile MV t
+
+AVG  for each stock 
+i,j
+
+pair
+( )
+
+t 1
+MVAVG = ⋅ MV
+
+i,j PERCENTILE (8
+2 i,t +MVPERCENTILEj ∀i, j, t.
+
+,t )
+
+7  See also Antón and Polk (2014) for a similar approach.
+
+
+
+Investor‑level common ownership, stock return comovement,…
+
+The intuition behind using the average rather than the minimum is that even if only 
+one of the two companies is large and thus likely to operate in several different lines of 
+business, the likelihood of overlapping businesses with the other company increases.
+
+Similarly, we control for the price to book value PTBVt  by including the following 
+i,j
+
+control variables
+t | |
+
+PTBVDIS = |
+i,j |PTBVPERCENTILEi ∀
+
+,t − PTBVPERCENTILEj,t|| i, j, t (9)
+
+( )
+t 1
+
+PTBVAVG = ⋅ PTBV
+i,j PERCENTILEi,t + PTBVPERCENTILE (10)
+
+2 j,t ∀i, j, t.
+
+The control variables on the operating profitability margin OPMt  (profitability) are 
+i,j
+
+defined as
+t | |
+
+PTBVDIS = |PTBV
+i,j | PERCENTILEi,t − PTBVPERCENTILEj,t||∀i, j, t, (11)
+
+( )
+1
+
+PTBV t
+AVG = ⋅ PTBV
+
+i,j PERCENTILEi,t + PTBV (12)
+2 PERCENTILEj,t ∀i, j, t,
+
+while investment is proxied by the change of total assets TAt
+i,j
+
+t | |
+TADIS = |TA
+
+i,j | PERCENTILEi − T
+,t APERCENTILEj , ,
+
+,t||∀i, j t (13)
+
+( )
+t 1
+
+TAAVG = ⋅ TA
+i,j PERCENTILE A
+
+2 i T
+,t + PERCENTILEj i j, t
+
+,t ∀ , . (14)
+
+In addition to common factors, we control for different price levels since Green and 
+Hwang (2009) find a connection between stock price similarity and comovement. For 
+this purpose, we calculate the absolute stock price difference PD_DISti,j between stock 
+prices ( P_PERCENTILEi,t ) for each firm pair. Analogous to the other control varia-
+bles, we also calculate the mean price difference:
+
+Pt | |
+= |P
+
+DISi,j | PERCENTILEi −
+,t PPERCENTILEj ,
+
+,t||∀i, j t (15)
+
+( )
+1
+
+Pt = ⋅ P
+AVGi,j (16
+
+2 PERCENTILEi,t + PPERCENTILEj,t ∀i, j, t. )
+
+As control variables for liquidity, we add trading volume ( VO ) to the regressions. 
+This helps mitigate potential confounding effects on common ownership, such as com-
+mon investors preferring stocks with similar liquidity levels due to trading constraints 
+or investment strategies:
+
+| |
+VODISi =
+
+,j ||VOPERCENTILEi − VO
+,t PERCENTILEj , ,
+
+,t||∀i j t (17)
+
+
+
+	 M. Münster, M. Walther 
+
+( )
+1
+
+VOt = ⋅ VO
+AVGi,j PERCENTILEi,t + VO (18)
+
+2 PERCENTILEj,t ∀i, j, t.
+
+To address the possibility that correlated trading is the cause of changes in 
+stock return comovement, we additionally control for the correlation of the traded 
+volume ( VO ) of a stock pair:
+
+� �
+Cov VO , O
+
+CORR_VOt i V j
+i,j = √ � ∀i, j, t. (19)
+
+Var(VOi) ⋅ Var(VOj)
+
+The leverage ratio of a company ( LRi ) measures the proportion of debt capital 
+to total capital and allows us to control for companies’ financial risks. Including 
+leverage helps mitigate potential confounding effects on common ownership, such 
+as common investors favoring firms with similar leverage levels due to risk pref-
+erences. We include both the distance and the mean value of the leverage ratios of 
+a stock pair in our regressions:
+
+t | |
+LR = |
+
+DISi,j |LRPERCENTILEi,t − LRPERCENTILEj,t||∀i, j, t, (20)
+
+( )
+1
+
+LRt = ⋅ LR
+AVGi (21
+
+,j PERCENTILEi,t + LRPERCENTILE )
+2 j,t ∀i, j, t.
+
+To control for the level of competition per industry, we calculate the Herfind-
+ahl–Hirschman index (HHI) per industry:
+
+∑
+HHIt = W2 ∀Ind, t,
+
+Ind i,t (22)
+i∈Ind
+
+where Wi,t denotes the market share percentage, based on market values, of company 
+i in period t , and Ind represents the set of companies in the respective industry. To 
+avoid skewness in the dependent variables, the HHI values are normalized by divid-
+ing by the maximum value observed in each period.
+
+In the second step of our procedure, the variables defined in the previous step 
+are compared over time. For this purpose, we compare ownership structure and 
+stock return comovement over a moving time window of one year. The intuition 
+behind this is as follows: We assume that a potential change in corporate strat-
+egy and behavior, e.g., a change in pricing or product strategy due to a change 
+in common ownership, requires a longer period of time to be implemented in a 
+company’s operations and to show an observable effect in the market. Note that 
+the results remain robust across different timeframes. For instance, using a time 
+window of two years yields qualitatively comparable results, although the coef-
+ficients are slightly smaller. Detailed tables are provided in Appendix D.
+
+Eikon provides ownership data with quarterly granularity. Our last complete 
+quarter ends in June 30 2022. Therefore, we use this date as boundary date, as 
+this maximizes the number of useable time frames. Consequently, the first time-
+frame compares 1998-06-30 and 1999-06-30, and the second timeframe compares 
+
+
+
+Investor‑level common ownership, stock return comovement,…
+
+1999-06-30 with 2000-06-30, up to the last timeframe comparing 2021-06-30 and 
+2022-06-30.
+
+In contrast with Antón and Polk (2014), our analysis focuses on the change of vari-
+ables instead of their absolute values. First, the change in common ownership between 
+two points in time is calculated. Second, the subsequent change of the pairwise stock 
+return correlation is computed. In the last step, we analyze whether a change in com-
+mon ownership is followed by a variation in the pairwise stock return correlation in 
+future periods. Our approach addresses the possibility of reverse causality, without hav-
+ing to rely on external events, such as the addition to an index. The intuition behind it is 
+as follows. If we observe that a change in common ownership is followed by a change 
+in pairwise correlations, it is more likely that the change in common ownership led to 
+the subsequent change in correlation than that investors deliberately chose to invest in 
+stocks with a higher correlation in future periods. Another argument against reverse 
+causality is that risk-averse investors have an incentive to invest in stocks with low cor-
+relation in order to minimize the variance of portfolio returns, which means that from 
+a portfolio theory perspective, one would expect a negative relationship between com-
+mon ownership and correlation (see, e.g., Münster and Walther 2021).
+
+To capture the change in common ownership between the two time points t and 
+t − 1, the difference is computed as follows:
+
+t t t 1
+ΔSHO b = SHO b −
+
+− SHC b ∀i, j, t ∈ T
+i,j i,j i,j b b,
+
+t t t −1
+ΔSHC b = SHC b − SHC b ∀i, j, t ∈ T
+
+i,j i,j i,j b b,
+
+t t t
+ΔSHB b = SHB b − SHB b−1∀i, j, t
+
+i,j i,j i,j b ∈ Tb. (23)
+
+Analogously, the changes of the control variables for the market value (Δ  t
+MV b
+
+DIS  , 
+i,j
+
+t
+ΔMV b
+
+AVG  ) are computed for each stock pair and timeframe as the difference between 
+i,j
+
+the respective values at the boundary dates:
+t t t
+
+ΔMV b = MV b b−1
+DIS DIS −MV IS ∀i, j, t ∈ T
+
+i,j i,j D i,j b b,
+
+t t t
+ΔMV b = MV b
+
+AVG AVG −MV b−1
+AVG ∀i, j, tb ∈ Tb, (24)
+
+i,j i,j i,j
+
+Note that due to days without trading, such as bank holidays, data for the market 
+value may be missing on some boundary dates. Therefore, the percentile ranking for 
+the market value t
+
+MV_PERCENTILE b is calculated as the average value considering a 
+i
+
+timeframe including the surrounding six days:
+T=∑tb+3
+
+t 1 t
+MV b = MV b ,
+
+PERCENTILEi PERCENTILEi (25)
+7
+
+t=tb−3
+
+
+
+	 M. Münster, M. Walther 
+
+Analogously, all other control factors, with the exception of the correlation of 
+trading volumes, are preprocessed and converted into delta variables as described 
+above.
+
+Barberis et al. (2005) show that the addition to an index affects the comovement 
+of the underlying stocks. Furthermore, Boller and Morton (2020) demonstrate that 
+the addition to the S&P 500 is accompanied by an increase in common ownership. 
+Thus, we control for the addition to the S&P 500. The dummy variable t
+
+Ad b−1,td b has 
+i
+
+a value of one when the stock i has been added to the S&P 500 between tb − 1 and 
+tb ; otherwise, it is zero. To account for the pair of stocks, the control variable consid-
+ers whether any of the two stocks has been added to the index:
+
+{ t −1,t t
+t 1, if Add b b b−1,t+ Add b
+
+ADD b−1,t ≥ 1
+b = i j . (26)
+
+i,j 0, else
+
+Li and Zhao (2016) demonstrate the relevance of geographic proximity of com-
+panies for stock price correlations. We account for this by adding a dummy variable 
+that captures if the corporate offices of the two companies in a pair are located in the 
+same state in the USA:
+
+{
+t 1, if LOC(State
+
+SAME_LOC b = i) = LOC(Statej) .
+i,j (27)
+
+0, else
+
+The dependent variable of the analysis is the pairwise stock return correlation, 
+which cannot be calculated exactly for a specific time point but instead needs to be 
+estimated with a time series. Therefore, the pairwise stock return correlation for a 
+boundary date is estimated with the subsequent year of daily returns. Thus, for each 
+boundary date, a new timeframe Tb is created by adding one year to the boundary 
+date8:
+
+[ ]
+Tb = tb … tb + 1year . (28)
+
+The pairwise correlation for a boundary date and stock pair CORR tb
+i.j  is estimated 
+
+according to Eq. (6) based on the return time series including the subsequent year 
+of daily returns of the two stocks Ri,t,Rj,t∀t ∈ Tb . The idea of considering subse-
+quent return data is that our analysis focuses on changes in correlations following 
+changes in common ownership. However, as a robustness check, we also estimate 
+the correlation using a time window surrounding the boundary date. The qualitative 
+results remain unchanged and are provided in Appendix E. When using a surround-
+ing time window, the timeframe Tb is created by adding or subtracting half a year to 
+the boundary date, respectively:
+
+[ ]
+Tb = tb − 0.5year… tb + 0.5year . (29)
+
+8  The only exception is the last boundary date 2022–30-06. Here, all returns available future returns until 
+2022–10-31 are used.
+
+
+
+Investor‑level common ownership, stock return comovement,…
+
+Analogously to the independent variables, the change in the pairwise stock return 
+correlation, our dependent variable, is computed as
+
+t t
+ΔCORR b = CORR b t −1
+
+− CORR b .
+i.j i.j i.j (30)
+
+Using the same logic, we introduce an additional control variable that captures 
+correlated trading volume as a possible determinant of correlated stock returns. It 
+is constructed by first computing the pairwise correlation between trading volumes. 
+To have consistent control variables, we convert these correlations to percentiles and 
+then calculate the change in these percentiles:
+
+( )
+t t
+
+ΔCORR b = PERCENTILE CORR b
+
+VO PERCENTILEVOi,j
+
+( )
+tb−1−PERCENTILE CORR .
+PERCENTILE (31)
+
+VOi,j
+
+Finally, a data point of the data set is described by its date boundaries 
+(( tb, tb − 1year) , three me)asures for the variation in common ownership 
+
+t t
+ΔSHO b ,ΔSHC b t
+
+,ΔSHB b  , the delta variables computed analogously to Eq. (24) 
+i,j i,j i,j
+
+for the control factors defined in Eqs. (7) to (21), the indicators for index additions 
+t
+
+AD b−1,tD b and geographic proximity t
+SAME_LOC b  , the change in the correlation of 
+
+i,j i,j
+
+traded volume t
+ΔCORR b  , and the change in the pairwise stock return correlation 
+
+VO
+ΔCORR tb
+
+i.j  . A data point is created for each industry classification, timeframe, and 
+stock pair. Tables 2 and 3 present descriptive statistics and the correlation matrix.
+
+In the third step of the methodology, regressions are performed to investigate the 
+relationship between common ownership and stock return comovement. Initially, we 
+use separate univariate regressions with each measure of common ownership, i.e., 
+ΔSHM = ΔSHO,ΔSHCorΔSCB , respectively. In Eq.  (32), aOS denotes the inter-
+cept and bOS denotes the slope of the common ownership measure. Error terms are 
+denoted by .
+
+t t t
+ΔCORR b = a b b
+
+i,j OS + OS ⋅ ΔSHM + b
+ .
+
+i,j i,j (32)
+
+We control for period-dependent variations in comovement, such as those aris-
+ing from macroeconomic shocks (e.g., higher market volatility during crises, as dis-
+cussed by Forbes and Rigobon 2002) or shifts in investor sentiment by including 
+time fixed effects, i.e., dummies for each time period, t  . Note that we remove the 
+
+b
+
+intercept to avoid multicollinearity:
+t t t
+
+ΔCORR b = b ΔSHM b + b
+ + 
+
+i,j OS ⋅ i,j t . (33
+b i,j )
+
+As an additional time-related robustness check, we use the approach of Antón 
+and Polk (2014), which was originally developed by Fama and MacBeth (1973). In 
+particular, we run the regressions for each period separately and report the average 
+
+
+
+	 M. Münster, M. Walther 
+
+Table 2   Descriptive statistics
+No Parameter Mean Standard Min Max 10th Quantile 90th Quantile
+
+Deviation
+
+SHO 0.355 0.121 0.000 0.931 0.200 0.494
+SHC 0.581 0.210 0.000 1.000 0.278 0.842
+SHB 0.453 0.129 0.000 0.897 0.284 0.609
+PDIS 0.295 0.219 0.000 0.990 0.042 0.620
+PAVG 0.570 0.212 0.010 1.000 0.275 0.849
+MVDIS 0.313 0.231 0.000 0.990 0.044 0.656
+MVAVG 0.571 0.206 0.010 1.000 0.288 0.847
+PTBVDIS 0.278 0.218 0.000 0.990 0.038 0.602
+PTBVAVG 0.564 0.210 0.010 1.000 0.265 0.832
+PTBVDIS 0.290 0.222 0.000 0.990 0.040 0.622
+PTBVAVG 0.536 0.201 0.010 1.000 0.270 0.810
+LRDIS 0.285 0.228 0.000 0.990 0.035 0.622
+LRAVG 0.479 0.225 0.010 1.000 0.180 0.791
+TADIS 0.305 0.236 0.000 0.990 0.040 0.670
+TAAVG 0.515 0.221 0.010 1.000 0.210 0.820
+VODIS 0.305 0.225 0.000 0.984 0.044 0.638
+VOAVG 0.497 0.215 0.012 1.000 0.211 0.797
+HHI 0.227 0.154 0.040 1.000 0.077 0.373
+CORRVO 0.545 0.287 0.000 1.000 0.131 0.929
+CORR 0.459 0.187 − 0.432 0.995 0.219 0.709
+
+1 ΔSHO 0.016 0.044 − 0.375 0.553 − 0.029 0.063
+2 ΔSHC 0.024 0.102 − 0.971 0.800 − 0.089 0.137
+3 ΔSHB 0.016 0.051 − 0.411 0.663 − 0.038 0.072
+4 ΔPDIS − 0.004 0.119 − 0.846 0.788 − 0.140 0.134
+5 ΔPAVG 0.010 0.076 − 0.649 0.617 − 0.076 0.098
+6 ΔMVDIS − 0.005 0.093 − 0.872 0.716 − 0.112 0.100
+7 ΔMVAVG 0.009 0.056 − 0.527 0.553 − 0.054 0.074
+8 ΔPTBVDIS − 0.000 0.155 − 0.990 0.990 − 0.158 0.156
+9 ΔPTBVAVG 0.002 0.110 − 0.990 0.980 − 0.098 0.102
+10 ΔPTBVDIS − 0.001 0.144 − 0.930 0.900 − 0.150 0.146
+11 ΔPTBVAVG 0.002 0.094 − 0.875 0.768 − 0.090 0.095
+12 ΔLRDIS 0.000 0.155 − 0.989 0.990 − 0.146 0.149
+13 ΔLRAVG 0.002 0.106 − 0.980 0.949 − 0.082 0.097
+14 ΔTADIS − 0.001 0.057 − 0.752 0.772 − 0.050 0.044
+15 ΔTAAVG 0.003 0.031 − 0.187 0.441 − 0.024 0.030
+16 ΔVODIS − 0.001 0.132 − 0.822 0.874 − 0.162 0.158
+17 ΔVOAVG − 0.001 0.078 − 0.437 0.616 − 0.094 0.093
+18 ΔHHI − 0.008 0.101 − 0.499 0.677 − 0.082 0.054
+19 ΔCORRVO 0.005 0.314 − 1.000 1.000 − 0.404 0.424
+20 SAME_LOC 0.100 0.301 0.000 1.000 0.000 1.000
+21 ADD 0.056 0.229 0.000 1.000 0.000 0.000
+
+
+
+Investor‑level common ownership, stock return comovement,…
+
+Table 2   (continued)
+No Parameter Mean Standard Min Max 10th Quantile 90th Quantile
+
+Deviation
+22 ΔCORR 0.015 0.160 − 0.804 0.634 − 0.205 0.208
+
+The descriptive statistics for each variable are computed with all n = 146, 052 data points in our sample. 
+The measures of common ownership SHO , SHC, and SHB are defined according to Eqs. (2), (4), and (5), 
+respectively. The corresponding changes in common ownership ΔSHO , ΔSHC, and ΔSHB are calculated 
+according to Eq. (23). All other control variables are calculated according to Eqs. (7) to (21), (26), (27), 
+and (30). The pairwise changes of the control variables are computed according to Eqs. (24) and (32). 
+Analogously, the Pearson correlation coefficient for pairwise stock returns ( Corr ) and its variation ΔCorr 
+are computed as described in Eqs. (6) and (30). The first column assigns variables to numbers that are 
+used in the correlation matrix
+
+of the estimated coefficients. To evaluate the statistical significance of the resulting 
+coefficients, a two-sided t test is performed using the time series of estimates. As 
+Antón and Polk (2014), we calculate standard errors according to Newey and West 
+(1987).
+
+In addition to the time fixed effects, we include the presented control variables, 
+i.e., the common risk factors of Fama and French (2015), stock prices (Green and 
+Hwang 2009), financial leverage, liquidity, additions to the S&P 500 index, geo-
+graphic proximity, and correlated trading:
+
+t
+ΔCORR b t
+
+= b ⋅ ΔSHM b
+
+i,j OS + 
+i,j tb
+
+t t
++bMV ⋅ ΔMV b + b b
+
+D S DISi,j MV ⋅ ΔMV
+I AVG AVGi,j
+
+t t
++bP ⋅ ΔP b
+
+⋅ ΔP
+DIS DIS + b b
+
+i,j PAVG AVGi,j
+
+t t
++b b
+
+PTBV ⋅ ΔPTBV + b
+,j PTBV ⋅ ΔPTBV b
+
+DIS DISi AVG AVGi,j
+
+t t
++bPTBV ⋅ ΔPTBV b b
+
+DIS DIS + ΔPTBV b
+
+i,j PTBV ⋅
+AVG AVGi,j
+
+t t
++bLR ⋅ ΔLR b
+
+DIS DIS + b
+i,j LR ⋅ ΔLR b
+
+AVG AVGi,j
+
+t t
++bTA ⋅ ΔTA b
+
+DI DIS + b A b
+
+S i,j TA ⋅ ΔT
+AVG AVGi,j
+
+t t
++bVO ⋅ ΔVO b
+
+⋅
+DIS DIS + b ΔVO b
+
+i,j VOAVG AVGi,j
+
+t
++bLOC ⋅ SAME b
+
+LOCi,j
+
+
+
+	 M. Münster, M. Walther 
+
+Table 3   Correlation matrix
+1 2 3 4 5 6 7 8 9 10 11
+
+1 1.00 0.65 0.87 − 0.02 0.24 − 0.11 0.23 − 0.04 0.14 − 0.01 0.07
+2 0.65 1.00 0.75 − 0.01 0.15 − 0.05 0.15 − 0.03 0.10 − 0.00 0.05
+3 0.87 0.75 1.00 − 0.02 0.21 − 0.11 0.21 − 0.04 0.12 − 0.01 0.05
+4 − 0.02 − 0.01 − 0.02 1.00 − 0.02 0.22 − 0.04 0.08 − 0.02 0.04 − 0.02
+5 0.24 0.15 0.21 − 0.02 1.00 − 0.14 0.78 − 0.05 0.46 − 0.02 0.25
+6 − 0.11 − 0.05 − 0.11 0.22 − 0.14 1.00 − 0.22 0.05 − 0.07 0.04 − 0.05
+7 0.23 0.15 0.21 − 0.04 0.78 − 0.22 1.00 − 0.05 0.39 − 0.01 0.25
+8 − 0.04 − 0.03 − 0.04 0.08 − 0.05 0.05 − 0.05 1.00 − 0.22 0.04 − 0.03
+9 0.14 0.10 0.12 − 0.02 0.46 − 0.07 0.39 − 0.22 1.00 − 0.01 0.12
+10 − 0.01 − 0.00 − 0.01 0.04 − 0.02 0.04 − 0.01 0.04 − 0.01 1.00 − 0.19
+11 0.07 0.05 0.05 − 0.02 0.25 − 0.05 0.25 − 0.03 0.12 − 0.19 1.00
+12 − 0.01 − 0.01 − 0.00 0.01 − 0.02 − 0.00 − 0.02 0.06 0.07 0.01 − 0.03
+13 − 0.02 − 0.00 − 0.01 − 0.01 − 0.02 − 0.00 − 0.04 − 0.13 0.55 0.01 − 0.09
+14 − 0.03 − 0.02 − 0.03 0.02 − 0.01 0.16 − 0.02 0.03 − 0.01 − 0.01 − 0.01
+15 0.08 0.04 0.07 − 0.02 0.16 − 0.04 0.26 0.01 − 0.14 0.01 − 0.01
+16 − 0.03 − 0.01 − 0.03 0.04 − 0.04 0.01 − 0.02 0.02 − 0.03 0.01 − 0.02
+17 0.10 0.08 0.09 0.01 − 0.10 − 0.01 − 0.04 0.01 − 0.07 0.01 − 0.04
+18 − 0.02 − 0.03 − 0.03 0.01 − 0.08 0.03 − 0.08 0.02 − 0.07 0.01 − 0.03
+19 0.04 0.03 0.04 − 0.00 0.04 − 0.02 0.05 0.00 0.01 − 0.01 0.02
+20 0.00 0.00 0.01 0.00 0.01 − 0.01 0.02 − 0.00 − 0.00 − 0.00 0.01
+21 0.21 0.11 0.21 0.00 0.05 − 0.05 0.12 0.00 − 0.01 − 0.00 0.00
+
+12 13 14 15 16 17 18 19 20 21
+
+1 − 0.01 − 0.02 − 0.03 0.08 − 0.03 0.10 − 0.02 0.04 0.00 0.21
+2 − 0.01 − 0.00 − 0.02 0.04 − 0.01 0.08 − 0.03 0.03 0.00 0.11
+3 − 0.00 − 0.01 − 0.03 0.07 − 0.03 0.09 − 0.03 0.04 0.01 0.21
+4 0.01 − 0.01 0.02 − 0.02 0.04 0.01 0.01 − 0.00 0.00 0.00
+5 − 0.02 − 0.02 − 0.01 0.16 − 0.04 − 0.10 − 0.08 0.04 0.01 0.05
+6 − 0.00 − 0.00 0.16 − 0.04 0.01 − 0.01 0.03 − 0.02 − 0.01 − 0.05
+7 − 0.02 − 0.04 − 0.02 0.26 − 0.02 − 0.04 − 0.08 0.05 0.02 0.12
+8 0.06 − 0.13 0.03 0.01 0.02 0.01 0.02 0.00 − 0.00 0.00
+9 0.07 0.55 − 0.01 − 0.14 − 0.03 − 0.07 − 0.07 0.01 − 0.00 − 0.01
+10 0.01 0.01 − 0.01 0.01 0.01 0.01 0.01 − 0.01 − 0.00 − 0.00
+11 − 0.03 − 0.09 − 0.01 − 0.01 − 0.02 − 0.04 − 0.03 0.02 0.01 0.00
+12 1.00 0.13 0.02 − 0.00 − 0.01 − 0.00 − 0.00 − 0.00 0.01 0.00
+13 0.13 1.00 − 0.03 0.10 − 0.01 0.00 − 0.02 − 0.02 0.01 − 0.01
+14 0.02 − 0.03 1.00 − 0.06 0.06 − 0.01 − 0.00 − 0.01 − 0.00 − 0.02
+15 − 0.00 0.10 − 0.06 1.00 − 0.01 0.11 − 0.02 0.03 0.03 0.09
+16 − 0.01 − 0.01 0.06 − 0.01 1.00 − 0.04 0.01 − 0.01 0.00 − 0.02
+17 − 0.00 0.00 − 0.01 0.11 − 0.04 1.00 − 0.00 − 0.03 0.00 0.04
+18 − 0.00 − 0.02 − 0.00 − 0.02 0.01 − 0.00 1.00 0.01 − 0.00 − 0.01
+19 − 0.00 − 0.02 − 0.01 0.03 − 0.01 − 0.03 0.01 1.00 0.00 0.05
+20 0.01 0.01 − 0.00 0.03 0.00 0.00 − 0.00 0.00 1.00 0.01
+21 0.00 − 0.01 − 0.02 0.09 − 0.02 0.04 − 0.01 0.05 0.01 1.00
+
+
+
+Investor‑level common ownership, stock return comovement,…
+
+Table 3   (continued)
+This table presents the Pearson correlation coefficients all relevant independent variables. Variables are 
+represented by the numbers that are assigned to them in Table 1
+
+t −1,t
++b b b
+
+add ⋅ ADDi,j
+
++bCORR ⋅ ΔCORR tb
+VO VOi,j
+
+t
++bΔHHI ⋅ ΔHHI
+
+b
+
+Ind (34)
+i,j
+
+These control variables mitigate potential confounding factors by ensuring that 
+our coefficient for changes in common ownership is not influenced by other underly-
+ing factors. Specifically, by including common risk factors from Fama and French 
+(2015), we control for market-wide risks that could also be driving changes in com-
+mon ownership. Additionally, by including variables related to stock prices, finan-
+cial leverage, and liquidity, we account for financial dynamics that could influence 
+both common ownership and the correlations we observe.
+
+Furthermore, we incorporate variables for S&P 500 index additions and corre-
+lated trading to rule out the possibility that external events, such as the inclusion of 
+companies to the index, are driving our results rather than common ownership itself. 
+Finally, by controlling for changes in industry competition with the HHI, we ensure 
+that the effects we observe are not simply due to shifts in market concentration 
+within industries. Overall, our approach can be summarized as follows (see Fig. 2):
+
+1.	 Create company pairs within each industry super-sector.
+2.	 Compute pairwise correlations and three measures of common ownership for each 
+
+quarter.
+3.	 Compute the average level and the similarity, i.e., difference in quantiles, of 
+
+control variables, respectively.
+4.	 Compute changes over one year in pairwise correlation, common ownership, and 
+
+the control variables.
+
+Create Compute 
+Compute Apply OLS 
+
+Company Correlation Compute 
+Average Regression 
+
+Pairs and Changes 
+Level and with Time-
+
+within Common over one 
+Similarity fixed 
+
+Super- Ownership Year
+of Controls Effects
+
+sector Measures
+
+Fig. 2   Flowchart of methodology. This chart illustrates the key steps of our approach. First, we create 
+company pairs within each super-sector. Second, pairwise correlations and common ownership measures 
+are calculated. Third, we compute the average level and the similarity, i.e., the difference in quantiles, of 
+control variables for each company pair. Fourth, we compute changes over one year that are used in OLS 
+regressions with time fixed effects. In the final step, we regress changes in pairwise correlation on the 
+previous year’s changes in common ownership and control variables
+
+
+
+	 M. Münster, M. Walther 
+
+5.	 Regress changes in pairwise correlation over previous year’s changes in common 
+ownership and control variables, with the inclusion of time fixed effects.
+
+Because the data set covers companies from various industry classifications, 
+it is likely that the data contains heterogeneous patterns across the different busi-
+ness sectors. To account for these, in additional regressions, we divide the dataset 
+into subsamples for each super-sector and estimate the slopes from Eq.  (34) for 
+each subset of data, i.e., for each super-sector. To avoid multicollinearity, changes 
+in industry, HHIs are excluded from these regressions.
+
+As an extension of our analysis, we distinguish between short-term and non-
+short-term common ownership. The underlying idea is that investors with longer 
+investment horizons have stronger incentives and greater ability to influence 
+competition strategically, while short-term investors lack both the incentive and 
+capacity to do so. Based on the proposed competition channel, we expect the 
+positive relationship between common ownership and pairwise correlation to be 
+primarily driven by non-short-term investors. To implement this, we classify each 
+investor as either short-term or non-short-term for every stock and boundary date 
+in our sample, using a symmetric two-year window around that date.9 An investor 
+is classified as non-short-term for a stock and boundary date if their ownership 
+share for that stock is greater than zero throughout the entire window. Based on 
+this classification, we create two subsamples: one including only holdings of non-
+short-term investors and the other including only holdings of short-term investors 
+for each stock and boundary date. We then compute the ownership measures for 
+each subsample according to Eqs. (2), (4), and (5) and include them separately in 
+the regressions.
+
+All regression coefficients are estimated using the ordinary least squares (OLS) 
+method.
+
+4  Results
+
+This section presents the empirical results. Table 4 shows the estimations obtained 
+from the univariate regressions based on the pooled data according to Eq. (32). For 
+comparison, Table  4 also depicts the results based on period-wise estimation and 
+subsequent averaging of the estimated coefficients as suggested by Fama and Mac-
+Beth (1973). For the period-wise regression, standard errors are calculated accord-
+ing to Newey and West (1987).10 In both cases, all three measures of common own-
+ership yield positive coefficients with t-values considerably larger than the proposed 
+value of 3.0 by Harvey et al. (2016). This confirms the hypothesized positive rela-
+tionship between common ownership and pairwise stock return correlation. Note 
+that the threshold of 3.0 is specific to the asset pricing literature due to the unique 
+characteristics of financial data. We chose to adhere to this stricter threshold because 
+
+9  Note that our results for non-short-term common ownership remain positive and statistically significant 
+even when varying the length of the time window used for classification.
+10  For the calculation of Newey and West (1987) standard errors, a lag of L = 2 is used.
+
+
+
+Investor‑level common ownership, stock return comovement,…
+
+Table 4   Results of univariate Measure Intercept Common ownership
+regressions. Dependent 
+variable: Change in the pairwise Cross-period ΔSHO 012*** (26.731) 0.157*** (16.261)
+correlation of stock returns
+
+ΔSHC 0.01*** (32.884) 0.015*** (3.544)
+ΔSHB 0.013*** (30.329) 0.072*** (8.844)
+
+Period-wise ΔSHO 0.014 (0.944) 0.152*** (3.234)
+ΔSHC 0.015 (1.043) 0.055*** (4.093)
+ΔSHB 0.014 (0.977) 0.134*** (3.594)
+
+The presented values are the estimates; t-values are depicted in 
+parenthesis. ΔSHO , ΔSHC, and ΔSHB are the three measures of 
+the change of common ownership. The period under consideration 
+ranges from 1998 to 2022. Coefficients in the “Cross-Period” section 
+are estimated using the full sample and OLS. In the “Period-Wise” 
+section, coefficients are estimated for each period separately using 
+OLS and Newey–West standard errors. The reported coefficients 
+are the averages from all regression results. T-values and p-val-
+ues are computed using a two-sided t test. *p < 0.05; **p < 0.01; 
+***p < 0.001
+
+our study deals with financial data, and our analysis of pairwise correlation of stock 
+returns is related to the field of asset pricing.
+
+Table  5 presents the results when incorporating control variables. The coef-
+ficients for all three measures of common ownership remain unchanged regarding 
+their direction and statistically significant at the 1%-level. ΔSHO yields a regression 
+slope of 0.08 with a t-value of 10.808.
+
+According to this, an increase in the change in common ownership of one stand-
+ard deviation (0.044) increases pairwise correlations by 0.08 ⋅ 0.044 = 0.352 per-
+centage points. The coefficients of the vector-based measurements ΔSHC and 
+ΔSHB imply that a one standard deviation increase in these measures leads to an 
+increase in pairwise correlations of 0.032 ⋅ 0.102 = 0.3264 percentage points or 
+0.090 ⋅ 0.051 = 0.4590 percentage points, respectively. This is in line with our 
+hypothesis that common ownership leads to anticompetitive effects that drive pair-
+wise correlations.
+
+Regarding the slopes of the control variables, the following can be observed. 
+ΔMVAVG yields a statistically significant, positive coefficient. Thus, higher market 
+values are associated with an increase in pairwise correlations. This is consistent 
+with the results of Green and Hwang (2009), and the intuition that larger firms oper-
+ate in several business areas and are therefore more likely to have overlapping activi-
+ties with other companies. However, the similarity of company size does not appear 
+to have a substantial influence (Δ  MVDIS ), suggesting that more similar companies in 
+terms of size do not have a stronger return correlation.
+
+The price difference ΔPDIS has a significant and negative coefficient for all three 
+measures of common ownership. This provides support for the findings of Green 
+and Hwang (2009), as a decrease in the price difference (ΔPD < 0) , i.e., more simi-
+lar prices, is accompanied by a subsequent increase in correlation. Additionally, we 
+
+
+
+	 M. Münster, M. Walther 
+
+Table 5   Regression results with time fixed effects and control variables
+ΔSHO ΔSHC ΔSHB 
+
+Common ownership 0.080*** (10.891) 0.032*** (10.511) 0.090*** (14.664)
+ΔMVDIS − 0.000 (− 0.124) − 0.002 (− 0.628) 0.001 (0.148)
+ΔMVAVG 0.056*** (6.197) 0.055*** (6.029) 0.054*** (5.879)
+ΔPDIS − 0.008*** (− 2.963) − 0.008*** (− 3.015) − 0.008*** (− 2.977)
+ΔPAVG 0.076*** (11.194) 0.080*** (11.953) 0.076*** (11.325)
+ΔPTBVDIS − 0.010*** (− 4.862) − 0.010*** (− 4.928) − 0.009*** (− 4.756)
+ΔPTBVAVG − 0.015*** (− 3.282) − 0.014*** (− 3.142) − 0.015*** (− 3.333)
+ΔPTBVDIS − 0.009*** (− 4.417) − 0.009*** (− 4.423) − 0.009*** (− 4.372)
+ΔPTBVAVG − 0.024*** (− 7.048) − 0.024*** (− 7.026) − 0.023*** (− 6.883)
+ΔLRDIS 0.003 (1.317) 0.003 (1.304) 0.002 (1.217)
+ΔLRAVG 0.020*** (5.096) 0.020*** (4.916) 0.020*** (5.092)
+ΔTADIS − 0.005 (− 0.944) − 0.005 (− 0.987) − 0.005 (− 0.854)
+ΔTAAVG − 0.066*** (− 5.875) − 0.064*** (− 5.720) − 0.066*** (− 5.835)
+ΔVODIS 0.002 (1.016) 0.002 (0.801) 0.002 (1.052)
+ΔVOAVG 0.026*** (6.571) 0.027*** (6.974) 0.025*** (6.394)
+SAME_LOC 0.004*** (4.242) 0.004*** (4.227) 0.004*** (4.125)
+ADD 0.011*** (8.049) 0.013*** (9.445) 0.010*** (7.520)
+ΔCORRVO 0.043*** (45.541) 0.043*** (45.624) 0.043*** (45.561)
+ΔHHIInd 0.039*** (11.676) 0.040*** (11.807) 0.040*** (11.899)
+
+Dependent variable: Change in the pairwise correlation of stock returns. The presented values are the 
+estimates using Eq. (34). ΔSHO , ΔSHC and ΔSHB represent the three measures of the change of com-
+mon ownership. The row “Common Ownership” refers to the coefficients of the respective measure of 
+common ownership. Control variables are explained in Sect.  2. T-values are presented in parenthesis. 
+*p < 0.05; **p < 0.01; ***p < 0.001
+
+find that stocks with higher prices (Δ  PAVG) correlate more, which is statistically sig-
+nificant at the 1%-level.
+
+Relatedly, the coefficients for the differences in common factors (Δ  PTBVDIS , 
+ΔPTBVDIS , ΔTADIS ) are all negative, and statistically significant for market-to-book 
+value and profitability. This suggests that a higher similarity (i.e., a smaller distance) 
+in common factors is associated with a higher correlation.
+
+Changes in the absolute level of common factors also tend to have a negative 
+fact on comovement, as evidenced by the significant and negative coefficients of 
+ΔPTBVDIS , ΔPTBVDIS , ΔTADIS . In particular, the negative coefficient of ΔPTBVAVG 
+indicates that decreases in profit margins are followed by increases in pairwise cor-
+relations, which, in turn, is linked to increased competition. This finding is in line 
+with the idea that undercutting profit margins (decreases in ΔPTBVAVG ) to gain rev-
+enue and market share increases industry competition (Dou et al. 2021) and there-
+fore pairwise correlations. Relatedly, the similarity in profit margin also has a sig-
+nificant and negative effect.
+
+
+
+Investor‑level common ownership, stock return comovement,…
+
+( )
+The similarity in terms of leverage ΔLR( DIS  does) not have a significant effect in 
+
+our sample. However, the level of leverage ΔLRAVG  is positively related to the cor-
+relation in the subsequent period. ( )
+
+While the proxy for liquidity similarity ΔVODIS  does not have a significant 
+impact on pairwise stock correlations in our sample, we find a st(atistically) signifi-
+cant, positive relationship for the proxy of the average liquidity ΔVOAVG  . Thus, 
+we find that an increase in the liquidity level is linked to subsequently higher pair-
+wise stock return correlations, indicating that higher liquidity increases stock return 
+correlations.
+
+Consistent with Li and Zhao (2016), we find that the correlation between stocks 
+from companies with headquarters in the same state is higher, indicating that geo-
+graphical proximity is linked to comovement.
+
+The variable capturing index additions (Add) is significant and positive. This 
+is in line with the results of Barberis et al. (2005) who show that additions to the 
+S&P 500 index are associated with an increase in correlations.
+
+Increases in the correlation of trading volumes are associated with a higher 
+subsequent correlation of stock returns, suggesting that correlated trading activi-
+ties may be a driver of comovement. This finding is compatible with Lee and Rui 
+(2002) who show that there is a positive relationship between trading volume and 
+return volatility.
+
+The statistically significant and positive coefficient of ΔHHIInd reflects that an 
+intensifying competition within an industry is accompanied with a subsequent 
+increase in pairwise correlations. This finding is in line with the results of Abdoh 
+and Varela (2017) and demonstrates that our coefficients for common ownership 
+do not merely reflect the effects of industry-level competition.
+
+Table  6 presents the results of the industry-wise analysis.11 Of the 20 ICB 
+super-sectors, a positive relationship can be observed in 13 super-sectors, of 
+which seven are statistically significant. These are “Technology,” “Health Care,” 
+“Banks,” “Insurance,” “Real Estate”, “Media,” and “Industrial Goods and Ser-
+vices.” The “Media” and “Banks” super-sectors have the largest coefficients with 
+values of 0.426 and 0.279, respectively. Only the two super-sectors “Automobiles 
+and Parts” and “Personal Care, Drug and Grocery Stores” have a significantly 
+negative coefficient.
+
+Table 7 presents the average concentration measures and their absolute changes 
+across super-sectors, allowing us to link the coefficients to the level of competition 
+in each industry. It is evident that the two significant negative coefficients are associ-
+ated with industries having the fewest companies and, consequently, higher levels 
+of concentration. With the exception of Media, significant positive coefficients are 
+found in super-sectors with a larger number of companies and lower to moderate 
+HHIs. Additionally, super-sectors with both the highest and lowest changes in HHIs 
+tend to show negative coefficients, while most super-sectors with positive coeffi-
+cients exhibit moderate variability in HHIs. However, concentration measures alone 
+
+11  For reasons of presentation, the coefficients of the control variables are not reported. Detailed tables 
+on the individual industries can be requested from the corresponding author.
+
+
+
+	 M. Münster, M. Walther 
+
+Table 6   Regression results by ICB super-sectors
+ICB super-sector Number of data Common ownership
+
+points
+
+1010—Technology 23,351 0.142*** (9.058)
+1510—Telecommunications 892 0.004 (0.038)
+2010—Health Care 26,495 0.155*** (8.768)
+3010—Banks 2682 0.279*** (6.526)
+3020—Financial Services 4096 − 0.036 (− 0.781)
+3030—Insurance 3327 0.154*** (3.136)
+3510—Real Estate 8828 0.098*** (3.873)
+4010—Automobiles and Parts 226 − 0.417** (− 2.056)
+4020—Consumer Products and Services 3831 0.045 (− 1.104)
+4030—Media 382 0.426*** (3.369)
+4040—Retail 3235 0.005 (0.087)
+4050—Travel and Leisure 3670 0.009 (0.206)
+4510—Food, Beverage and Tobacco 3398 0.054 (1.040)
+4520—Personal Care, Drug and Grocery Stores 1195 − 0.215* (− 1.901)
+5010—Construction and Materials 357 − 0.119 (− 0.710)
+5020—Industrial Goods and Services 45,626 0.095*** (7.362)
+5510—Basic Resources 345 − 0.018 (− 0.088)
+5520—Chemicals 583 0.161 (1.390)
+6010—Energy 4092 0.015 (0.480)
+6510—Utilities 9441 − 0.029 (− 0.913)
+
+Dependent variable: Pairwise correlation of stock returns. For the sake of clarity only the regression esti-
+mates for ΔSHO as measure for the change of common ownership are depicted. The column “number 
+of data points” contains the number of data points obtained for the corresponding ICB super-sector and 
+used for the estimation according to Eq. (34)
+T-values are presented in parenthesis. *p < 0.05; **p < 0.01; *** p < 0.001
+
+cannot fully explain the observed differences in coefficients, suggesting that further 
+research is needed.
+
+It is worth noting that the super-sectors with the highest numbers of data points 
+all exhibit significant and positive coefficients, while the two significant negative 
+coefficients come from super-sectors with smaller sample sizes. Specifically, “Auto-
+mobiles and Parts” and “Personal Care, Drug and Grocery Stores” have only 226 
+and 1195 data points, respectively, whereas the significant positive coefficients for 
+“Industrial Goods and Services,” “Health Care,” and “Technology” are supported 
+by more than 20,000 data points each. Overall, these results suggest a positive rela-
+tionship between common ownership and the pairwise correlation of stock returns. 
+This supports our hypothesis that anticompetitive effects of common ownership are 
+present across several industries.
+
+Table 8 presents the regression results when considering different investor hold-
+ing horizons, distinguishing between short-term and non-short-term common own-
+ership. We find that common ownership by non-short-term investors is associated 
+
+
+
+Investor‑level common ownership, stock return comovement,…
+
+Table 7   Concentration measures per industry
+ICB Super-Sector Mean HHI Mean ΔHHI Number of 
+
+companies
+
+1010–Technology 997.43 274.46 69.71
+1510–Telecommunications 1979.35 394.14 79.57
+2010–Health care 779.84 410.72 80.26
+3010–Banks 1228.63 211.47 54.86
+3020–Financial services 573.50 195.81 35.81
+3030–Insurance 1113.84 765.46 69.73
+3510–Real estate 288.41 58.03 14.91
+4010–Automobiles and parts 3147.50 1530.95 322.92
+4020–Consumer products and services 534.29 109.79 55.95
+4030–Media 2576.83 422.18 143.36
+4040–Retail 1742.86 559.93 133.81
+4050–Travel and leisure 994.40 464.98 77.69
+4510–Food, beverage and tobacco 1385.34 517.95 53.40
+4520–Personal care, drug and grocery stores 2084.46 338.95 110.25
+5010–Construction and materials 662.04 335.55 44.24
+5020–Industrial goods and services 672.96 546.36 57.57
+5510–Basic resources 1060.83 508.58 146.51
+5520–Chemicals 1032.61 240.79 72.13
+6010–Energy 1645.72 875.10 113.02
+6510–Utilities 405.83 40.61 10.29
+
+This table shows the averages over the period of consideration of the HHI, the absolute change in the 
+HHI, and the number of companies per super-sector
+
+with a statistically significant and positive coefficient on the change in pairwise 
+correlation, while short-term common ownership has either insignificant or nega-
+tive effects. Given that longer-horizon investors have greater incentives and ability 
+to influence competition strategically, these results provide additional support for the 
+proposed competition channel.
+
+5  Discussion
+
+In this section, we discuss the implications and limitations of our results.
+
+5.1  Implications
+
+Using a current data set and three different measures of common ownership, we find 
+that higher common ownership is associated with higher pairwise correlations. The 
+
+
+
+	 M. Münster, M. Walther 
+
+Table 8   Regression results Investment horizon Common ownership
+when differentiation between 
+short-term and non-short-term Cross-Period with Short-Term  − 0.047*
+investors controls (− 1.649)
+
+Non-Short-Term 0.050*** (6.688)
+Period-Wise Short-Term 0.109
+
+(0.819)
+Non-Short-Term 0.100*** (2.677)
+
+Dependent variable: Pairwise correlation of stock returns. For the 
+sake of clarity, only the regression estimates for ΔSHO as measure 
+for the change of common ownership are depicted. Coefficients in 
+the “Cross-Period with controls” section are estimated using the full 
+sample, Eq. (34) and OLS. In the “Period-Wise” section, coefficients 
+are estimated according to Eq. (32) for each period separately using 
+OLS and Newey–West standard errors. The reported coefficients are 
+the averages from all regression results. T-values and p-values are 
+computed using a two-sided t test
+*p < 0.05; **p < 0.01; ***p < 0.001.
+
+magnitudes of the effects are comparable, although they are smaller when cosine 
+similarity is used. As cosine similarity puts more weight on large investors, this 
+implies that our results are likely to be driven by more than just a few large inves-
+tors, such as BlackRock or Vanguard. Therefore, our study provides robust evidence 
+for a positive relationship between common ownership at the individual investor 
+level and stock comovement and synchronicity. Furthermore, as competition and 
+pairwise correlation are negatively related according to Abdoh and Varela (2017), 
+our result can be interpreted as support for anticompetitive effects of common own-
+ership. We provide additional support for this competition channel in two ways: first, 
+by including changes in industry-level HHIs as control variables to account for the 
+effects of market concentration, and second, by distinguishing between short-term 
+and non-short-term common ownership. We find that only non-short-term com-
+mon ownership yields significantly positive regression coefficients, consistent with 
+the idea that longer-horizon investors have stronger incentives and greater ability to 
+influence competition strategically.
+
+When examining effects by industry, we estimate positive coefficients for the 
+majority of super-sectors. Seven of these are statistically significant, including the 
+coefficient in the banking sector. This provides support for the recent results of Ise-
+lin et al. (2021) that common ownership increases the comovement of bank stock 
+returns, and the findings of Azar et al. (2022) regarding anticompetitive effects of 
+common ownership in the US banking industry. The positive effect in the “Travel 
+and Leisure” super-sector is not significant. Therefore, we cannot provide addi-
+tional support for the results regarding the US airline industry reported in Azar et al. 
+(2018). However, our insignificant coefficient is consistent with the reevaluation of 
+Dennis et al. (2022), which concludes that common ownership is likely to not have 
+anticompetitive effects in the airline industry.
+
+The coefficients of our control variables provide current evidence on effects pro-
+vided in previous research. Furthermore, they allow us to separate the effects of 
+
+
+
+Investor‑level common ownership, stock return comovement,…
+
+factor similarity and the absolute level of the respective factor. Inter alia, we can 
+confirm that stocks of larger companies and stocks with similar price levels have 
+higher correlations (Green and Hwang 2009), and the finding of Barberis et  al. 
+(2005) that the addition to an index is accompanied by stronger comovement. Fur-
+thermore, we find that decreases in profit margins are accompanied by an increase in 
+correlations, supporting the notion that undercutting profit margins increases com-
+petition and thus leads to a higher fraction of idiosyncratic risks (Dou et al. 2021).
+
+Overall, our study contributes to the literature on stock return synchronicity and 
+comovement by using current data to demonstrate a robust relationship between 
+common ownership of any investor and investment type, and the pairwise correla-
+tion of stock returns. This extends the analysis of Antón and Polk (2014) who focus 
+on actively managed funds. Furthermore, for a large selection of variables dis-
+cussed in the literature, we show and clarify whether their level or similarity drives 
+comovement. Finally, we link our results to the controversy regarding anticompeti-
+tive effects and show that the pairwise correlations of stock returns are consistent 
+with anticompetitive effects of common ownership across a wide range of industries.
+
+5.2  Limitations
+
+Although our data set includes a selection of companies from different sectors and 
+with different market capitalizations, our sample only consists of companies from 
+the USA, and focuses on larger capitalizations. Therefore, the generalizability of our 
+findings to other countries or smaller firms is uncertain. However, given that the 
+institutional investors of our sample are likely to invest in companies across various 
+market sizes and regions (e.g., Döring et al. 2021), we expect the effects observed in 
+our study may also apply to other markets and smaller companies, though this war-
+rants further investigation.
+
+In some super-sectors, the number of companies is small. Therefore, our insignif-
+icant coefficients should not be taken as a strong indication of the absence of a posi-
+tive relationship between common ownership and pairwise correlations. However, 
+most of our significant positive coefficients are in industries with a high number of 
+observations, such as “Technology,” “Health Care,” and “Industrial Goods and Ser-
+vices,” and can therefore be considered a strong indication of the proposed relation-
+ship between common ownership and correlation.
+
+Extending the sample to more companies is problematic as the effort of collecting 
+and processing data is substantial, and reports on companies not listed in the S&P 
+500 are often not available in the data base. However, focusing on the S&P 500 has 
+the advantage of comparable companies, especially regarding the index affiliation, 
+which means that we can rule out that index affiliation drives our results.
+
+Another concern is the possibility of reverse causality, meaning that investors 
+could deliberately choose to invest in companies with higher correlation. Existing 
+research, e.g., Boller and Morton (2020), Barberis et al. (2005) or Antón and Polk 
+(2014), addresses this problem by analyzing external events, such as index addi-
+tions. In our study, we make use of the time series data and consider how a change 
+in common ownership affects the pairwise correlation in subsequent periods. Our 
+
+
+
+	 M. Münster, M. Walther 
+
+finding that an increase in common ownership is accompanied by an increase in cor-
+relation in later periods indicates that reverse causality is unlikely. Another argu-
+ment against reverse causality is that portfolio theory suggests that investors with 
+preferences according to the mean–variance framework prefer to invest in stocks 
+with a low correlation, in order to minimize the variance of portfolio returns, and 
+as shown for strategic investors by Münster and Walther (2021). From a portfolio 
+theory perspective, one would therefore expect investors to select stocks that have a 
+low correlation, i.e., common ownership to be associated with a significantly lower 
+correlation. It is therefore unlikely that investors deliberately select highly correlated 
+stocks, which means that reverse causality is unlikely.
+
+Finally, we do not show a direct link between common ownership and competi-
+tion but rely on the results of Abdoh and Varela (2017) to relate our results on pair-
+wise correlations to competition. While this means our findings do not constitute 
+definitive evidence of anticompetitive effects, they are consistent with such effects 
+across a wide range of industries. Moreover, the inclusion of changes in industry 
+HHIs as control variables and the distinction between short-term and non-short-term 
+common ownership provide additional support to the proposed competition channel. 
+Our study thus contributes both to the literature on stock return comovement and 
+synchronicity, and to the ongoing discussion on the anticompetitive implications of 
+common ownership.
+
+6  Conclusion
+
+Using S&P 500 data from 1998 to 2022, we show that pairwise correlations of stock 
+returns within an industry are positively related with common ownership. Given the 
+negative relationship between competition and correlation, our findings suggest that 
+common ownership may have anticompetitive effects in multiple industries.
+
+Our findings have several policy implications. Antitrust regulations may need to 
+consider indirect competitive effects arising from common ownership from active 
+and passive investors, even if companies do not explicitly coordinate. Our analy-
+sis per industry highlights the sectors Technology, Health Care, Banks, Insurance, 
+Real Estate, Media, and Industrial Goods and Services, for which the effects are 
+statistically significant. Enhancing disclosure requirements on ownership structures 
+and improving the availability of data on ownership could help policymakers better 
+monitor common ownership. This would enable researchers to identify anticompeti-
+tive effects and investigate potential countermeasures. These include limits on cross-
+holdings in competing companies within the same industry, implementing policies 
+that reduce voting rights of common owners in competing companies, and enforcing 
+a stricter oversight of board appointments to prevent a disproportionate influence 
+on multiple companies’ boards within the same industry. However, when consider-
+ing limitations on common ownership, policymakers need to consider that this may 
+reduce diversification opportunities, and consequently reduce market stability.
+
+
+
+Investor‑level common ownership, stock return comovement,…
+
+In terms of future research, several important avenues remain. First, while we have 
+addressed reverse causality, additional evidence is needed to confirm whether our pro-
+posed mechanism is indeed causal. Second, understanding the heterogeneous effects 
+observed across industries and uncovering the underlying mechanisms present an 
+intriguing research avenue. Third, assessing the generalizability of our findings to dif-
+ferent market capitalizations and other countries with different regulatory environments 
+would provide valuable insights. Moreover, examining the long-term implications of 
+common ownership, such as its influence on innovation, is essential for a deeper under-
+standing of its overall welfare impact. Across all these areas, improving the availability 
+and quality of ownership data will be vital to advancing research.
+
+Appendix
+
+Appendix A: results for unadjusted investor names
+
+Appendix A presents the results without adjusting investor names. Table 9 shows 
+the estimated regression coefficients. We can confirm our main results and verify 
+the positive relationship between all three measures of common ownership and the 
+pairwise correlation of stock returns.
+All coefficients and t values remain almost unchanged when control variables are 
+included in the regression. This means that our results are robust to not preprocess-
+ing investor names (Table 10).
+
+Table 9   Results of univariate Measure Intercept Common
+regressions based on unadjusted ownership
+investor names
+
+Cross-period ΔSHO 0.012*** (26.989) 0.149*** (15.003)
+ΔSHC 0.014*** (33.141) 0.008**
+
+(2.049)
+ΔSHB 0.013*** (30.285) 0.070*** (8.364)
+
+Period-wise ΔSHO 0.014 0.157*** (3.175)
+(0.939)
+
+ΔSHC 0.015 0.051*** (3.933)
+(1.050)
+
+ΔSHB 0.014 0.138*** (3.767)
+(0.968)
+
+Dependent variable: Pairwise correlation of stock returns. The pre-
+sented values are the estimates; t-values are depicted in parenthesis
+*p < 0.05; **p < 0.01; ***p < 0.001
+
+
+
+	 M. Münster, M. Walther 
+
+Table 10   Regression results with time fixed effects and control variables based on unadjusted investor 
+names
+
+ΔSHO ΔSHC ΔSHB
+
+Common Ownership 0.081*** (10.587) 0.029*** (9.721) 0.093*** (14.593)
+ΔMVDIS − 0.000 (− 0.043) − 0.002 (− 0.581) 0.001 (0.299)
+ΔMVAVG 0.056*** (6.157) 0.055*** (6.016) 0.053*** (5.775)
+ΔPDIS − 0.008*** (− 2.964) − 0.008*** (− 3.031) − 0.008*** (− 3.005)
+ΔPAVG 0.076*** (11.254) 0.081*** (12.017) 0.077*** (11.394)
+ΔPTBVDIS − 0.010*** (− 4.852) − 0.010*** (− 4.914) − 0.009*** (− 4.740)
+ΔPTBVAVG − 0.015*** (− 3.248) − 0.014*** (− 3.036) − 0.015*** (− 3.256)
+ΔPTBVDIS − 0.009*** (− 4.406) − 0.009*** (− 4.424) − 0.009*** (− 4.349)
+ΔPTBVAVG − 0.024*** (− 7.005) − 0.023*** (− 6.964) − 0.023*** (− 6.822)
+ΔLRDIS 0.003 (1.336) 0.002 (1.272) 0.002 (1.240)
+ΔLRAVG 0.020*** (5.094) 0.020*** (4.872) 0.020*** (5.055)
+ΔTADIS − 0.005 (− 0.933) − 0.005 (− 1.012) − 0.004 (− 0.830)
+ΔTAAVG − 0.066*** (− 5.883) − 0.064*** (− 5.658) − 0.065*** (− 5.818)
+ΔVODIS 0.002 (1.019) 0.002 (0.834) 0.002 (1.093)
+ΔVOAVG 0.026*** (6.723) 0.028*** (7.108) 0.025*** (6.522)
+SAME_LOC 0.004*** (4.238) 0.004*** (4.228) 0.004*** (4.120)
+ADD 0.011*** (7.879) 0.013*** (9.471) 0.010*** (7.226)
+ΔCORRVO 0.043*** (45.546) 0.043*** (45.649) 0.043*** (45.568)
+ΔHHIInd 0.039*** (11.689) 0.040*** (11.769) 0.040*** (11.868)
+
+Dependent variable: Pairwise correlation of stock returns. For reasons of presentation, only particularly 
+relevant control variables are reported. The presented values are the estimates; t-values are depicted in 
+parenthesis
+*p < 0.05; **p < 0.01; ***p < 0.001
+
+Appendix B: Results for different measures of ownership overlap
+
+Appendix B compares the results for differe(nt measures of o)wnership overlap.
+The first measure of ownership overlap SHO = SHOmin  is defined according to 
+
+Eq. (2). The second measure, SHOAVG , drops the penalty term. It is defined as the 
+sum of the average percentage of stocks held by common investors:
+
+∑ St + St
+
+SHOt i,k j,k
+= ∀i, j, t.
+
+avg,i,j (35)
+2
+
+k
+
+In contrast with Antón and Polk (2014), SHOAVG does not take into account the 
+market capitalizations but uses percentages of stocks held.
+
+The third measure SHOhalf uses half the penalty term and is defined as:
+
+∑( )
+t St + St1 
+k,i,
+
+SHOt j i,k j,k
+= 1 − ⋅ ⋅ ∀i, j, t.
+
+half ,i,j (36)
+2 St + St 2
+
+k i,k j,k
+
+
+
+Investor‑level common ownership, stock return comovement,…
+
+SHOhalf corresponds to the average of SHOmin and SHOAVG , and therefore repre-
+sents a compromise between both approaches.
+
+Table 11 provides descriptive statistics for the three measures.
+The correlation matrix for the three measurements is depicted in Table 12.
+This table presents the Pearson correlation coefficients between the three meas-
+
+ures of ownership overlap.
+Table 13 presents the results of the plain regression. The direction and signifi-
+
+cance are the same for all measures considered. Furthermore, the t-values are on 
+a similar level, which indicates that the results are robust to the way of measuring 
+ownership overlap.
+Table 11   Descriptive statistics of three alternative measures of ownership overlap
+Parameter Mean Standard Min Max 10th quantile 90th Quantile
+
+deviation
+
+SHOmin 0.355 0.121 0.000 0.931 0.200 0.494
+SHOAVG 0.601 0.165 0.000 2.734 0.413 0.757
+SHOhalf 0.478 0.136 0.000 1.579 0.310 0.621
+ΔSHOmin 0.016 0.044 − 0.375 0.553 − 0.029 0.063
+ΔSHOAVG 0.018 0.069 − 2.215 0.868 − 0.041 0.083
+ΔSHOhalf 0.017 0.051 − 1.118 0.627 − 0.030 0.068
+
+The descriptive statistics for each measure of the ownership overlap are computed with all n = 167, 479 
+data points in our sample. The measures of ownership overlap SHOmin , SHOAVG , and SHOhalf are defined 
+according to Eqs. (2), (35) and (36), respectively. Following the procedure described in Eq. (23), the cor-
+responding changes of the variables are computed as the difference between two boundary dates.
+
+Table 12   Correlation matrix for Parameter ΔSHOmin ΔSHOAVG ΔSHO
+the three alternative measures of half
+
+ownership overlap
+ΔSHOmin 1.00 0.62 0.85
+ΔSHOAVG 0.62 1.00 0.94
+ΔSHOhalf 0.85 0.94 1.00
+
+Table 13   Results of univariate Measure Intercept Common ownership
+regressions considering the 
+three different measures of Cross-period ΔSHOmin 0.012*** (26.731) 0.157*** (16.261)
+ownership overlap
+
+ΔSHOAVG 0.012*** (27.473) 0.141*** (23.289)
+ΔSHOhalf 0.011*** (25.481) 0.186*** (22.720)
+
+Period-wise ΔSHOmin 0.014 0.152*** (3.234)
+(0.944)
+
+ΔSHOAVG 0.014 0.084*** (3.431)
+(0.989)
+
+ΔSHOhalf 0.014 0.125*** (3.442)
+(0.945)
+
+Dependent variable: Pairwise correlation of stock returns. The pre-
+sented values are the estimates; t-values are depicted in parenthesis
+*p < 0.05; **p < 0.01; ***p < 0.001
+
+
+
+	 M. Münster, M. Walther 
+
+Table 14   Regression results Measure Common ownership
+with time fixed effects and 
+control variables considering 
+
+ΔSHOmin 0.080*** (10.891)
+the three different measures of 
+ownership overlap ΔSHOAVG 0.037*** (8.110)
+
+ΔSHOhalf 0.064*** (10.213)
+
+Dependent variable: Pairwise correlation of stock returns. For rea-
+sons of presentation, only particularly relevant control variables 
+are reported. The presented values are the estimates; t-values are 
+depicted in parenthesis
+*p < 0.05; **p < 0.01; ***p < 0.001
+
+Table 14 presents the results when including control variables. The signs and sig-
+nificance of all coefficients remain qualitatively unchanged. This indicates that our 
+main results are not driven by our choice of measuring ownership overlap.12
+
+Appendix C: results for  ownership vectors with  an  alternative size of  15,000 
+and 1500 dimensions
+
+In Appendix C, the results for different dimensions of the ownership vectors are pre-
+sented. As depicted in Table 15, the results of the univariate regression remain qual-
+itatively unchanged when an ownership vector with dimension K = 15,000 (instead 
+of K = 5000 ) is used in the analysis. All three measures of common ownership yield 
+positive and statistically significant coefficients.
+The result is robust to the inclusion of control variables and time fixed effects. 
+Table 16 presents the corresponding regression coefficients.
+
+Table 15   Results of univariate Measure Intercept Common ownership
+regressions for an ownership 
+vector with dimension Cross-period ΔSHO 0.012*** (26.731) 0.157*** (16.261)
+K = 15,000
+
+ΔSHC 0.014*** (32.735) 0.017*** (4.085)
+ΔSHB 0.013*** (30.179) 0.078*** (9.269)
+
+Period-wise ΔSHO 0.014 0.152*** (3.234)
+(0.944)
+
+ΔSHC 0.015 0.051*** (4.114)
+(1.052)
+
+ΔSHB 0.014 0.131*** (3.348)
+(0.986)
+
+Dependent variable: Pairwise correlation of stock returns. The pre-
+sented values are the estimates; t-values are depicted in parenthesis
+*p < 0.05; **p < 0.01; ***p < 0.001
+
+12  For reasons of presentation, the coefficients of the control variables are not reported. Detailed tables 
+on the individual industries can be provided by the corresponding author.
+
+
+
+Investor‑level common ownership, stock return comovement,…
+
+Table 16   Regression results with time fixed effects and control variables for an ownership vector with 
+dimension K = 15,000
+
+ΔSHO ΔSHC ΔSHB
+
+Common Ownership 0.080*** (10.891) 0.028*** (9.192) 0.083*** (12.910)
+ΔMVDIS − 0.000 (− 0.124) − 0.002 (− 0.587) 0.000 (0.096)
+ΔMVAVG 0.056*** (6.197) 0.055*** (6.034) 0.054*** (5.896)
+ΔPDIS − 0.008*** (− 2.963) − 0.008*** (− 3.038) − 0.008*** (− 2.979)
+ΔPAVG 0.076*** (11.194) 0.081*** (12.012) 0.076*** (11.342)
+ΔPTBVDIS − 0.010*** (− 4.862) − 0.010*** (− 4.965) − 0.010*** (− 4.808)
+ΔPTBVAVG − 0.015*** (− 3.282) − 0.014*** (− 3.116) − 0.015*** (− 3.346)
+ΔPTBVDIS − 0.009*** (− 4.417) − 0.009*** (− 4.452) − 0.009*** (− 4.393)
+ΔPTBVAVG − 0.024*** (− 7.048) − 0.023*** (− 6.961) − 0.023*** (− 6.890)
+ΔLRDIS 0.003 (1.317) 0.002 (1.271) 0.002 (1.208)
+ΔLRAVG 0.020*** (5.096) 0.020*** (4.876) 0.020*** (5.101)
+ΔTADIS − 0.005 (− 0.944) − 0.005 (− 1.011) − 0.005 (− 0.883)
+ΔTAAVG − 0.066*** (− 5.875) − 0.065*** (− 5.784) − 0.066*** (− 5.870)
+ΔVODIS 0.002 (1.016) 0.002 (0.784) 0.002 (0.996)
+ΔVOAVG 0.026*** (6.571) 0.028*** (7.180) 0.026*** (6.687)
+SAME_LOC 0.004*** (4.242) 0.004*** (4.215) 0.004*** (4.135)
+ADD 0.011*** (8.049) 0.013*** (9.567) 0.011*** (7.831)
+ΔCORRVO 0.043*** (45.541) 0.043*** (45.617) 0.043*** (45.572)
+ΔHHIInd 0.039*** (11.676) 0.040*** (11.726) 0.040*** (11.798)
+
+Dependent variable: Pairwise correlation of stock returns. For reasons of presentation, only particularly 
+relevant control variables are reported. The presented values are the estimates; t-values are depicted in 
+parenthesis.
+*p < 0.05; **p < 0.01; ***p < 0.001
+
+In addition to the previous results, Tables 17 and 18 show the empirical results 
+when a vector size of K = 1500 is used for the ownership vectors. Again, all coef-
+ficients yield statically significant and positive coefficients in all constellations.
+
+Table 17   Regression results Measure Intercept Common ownership
+with time fixed effects 
+and control variables for Cross-period ΔSHO 0.012*** (26.731) 0.157*** (16.261)
+an ownership vector with 
+dimension K = 1500 ΔSHC 0.014*** (32.735) 0.020*** (5.047)
+
+ΔSHB 0.013*** (30.717) 0.064*** (8.544)
+Period-wise ΔSHO 0.014 0.152*** (3.234)
+
+(0.944)
+ΔSHC 0.015 0.054*** (3.936)
+
+(1.046)
+ΔSHB 0.014 0.129*** (3.517)
+
+(0.976)
+
+Dependent variable: Pairwise correlation of stock returns. The pre-
+sented values are the estimates; t-values are depicted in parenthesis
+*p < 0.05; **p < 0.01; ***p < 0.001
+
+
+
+	 M. Münster, M. Walther 
+
+Table 18   Regression results with time fixed effects and control variables for an ownership vector with 
+dimension K = 1,500
+
+ΔSHO ΔSHC ΔSHB
+
+Common ownership 0.080*** (10.891) 0.034*** (12.070) 0.094*** (16.918)
+ΔMVDIS − 0.000 (− 0.124) − 0.002 (− 0.631) 0.001 (0.202)
+ΔMVAVG 0.056*** (6.197) 0.056*** (6.127) 0.055*** (6.024)
+ΔPDIS − 0.008*** (− 2.963) − 0.008*** (− 3.026) − 0.008*** (− 2.952)
+ΔPAVG 0.076*** (11.194) 0.081*** (11.992) 0.076*** (11.272)
+ΔPTBVDIS − 0.010*** (− 4.862) − 0.010*** (− 4.950) − 0.009*** (− 4.747)
+ΔPTBVAVG − 0.015*** (− 3.282) − 0.015*** (− 3.272) − 0.016*** (− 3.444)
+ΔPTBVDIS − 0.009*** (− 4.417) − 0.009*** (− 4.417) − 0.009*** (− 4.372)
+ΔPTBVAVG − 0.024*** (− 7.048) − 0.024*** (− 6.976) − 0.023*** (− 6.893)
+ΔLRDIS 0.003 (1.317) 0.002 (1.206) 0.002 (1.161)
+ΔLRAVG 0.020*** (5.096) 0.020*** (4.965) 0.021*** (5.149)
+ΔTADIS − 0.005 (− 0.944) − 0.005 (− 1.002) − 0.005 (− 0.855)
+ΔTAAVG − 0.066*** (− 5.875) − 0.064*** (− 5.720) − 0.067*** (− 5.938)
+ΔVODIS 0.002 (1.016) 0.002 (0.808) 0.003 (1.122)
+ΔVOAVG 0.026*** (6.571) 0.027*** (6.868) 0.024*** (6.080)
+SAME_LOC 0.004*** (4.242) 0.004*** (4.218) 0.004*** (4.115)
+ADD 0.011*** (8.049) 0.012*** (9.369) 0.010*** (7.237)
+ΔCORRVO 0.043*** (45.541) 0.043*** (45.600) 0.043*** (45.492)
+ΔHHIInd 0.039*** (11.676) 0.040*** (11.761) 0.040*** (11.920)
+
+Dependent variable: Pairwise correlation of stock returns. The presented values are the estimates; t-val-
+ues are depicted in parenthesis
+*p < 0.05; **p < 0.01; ***p < 0.001
+
+Appendix D: results when using an alternative time window of two years length
+
+Appendix D summarizes the empirical analysis when a subsequent time window 
+of two years length (instead of one year) is used for the comparison and estima-
+tion of the correlation coefficient. As illustrated in Table 19, all three measures of 
+
+Table 19   Results of univariate Measure Intercept Common ownership
+regressions considering a 
+subsequent time window of two Cross-period ΔSHO 0.018*** (25.981) 0.134*** (12.261)
+years length for the correlation 
+estimation ΔSHC 0.021*** (31.667) 0.036*** (7.480)
+
+ΔSHB 0.019*** (27.648) 0.119*** (12.388)
+Period-wise ΔSHO 0.022 0.092*
+
+(0.990) (1.953)
+ΔSHC 0.025 0.025**
+
+(1.078) (1.987)
+ΔSHB 0.023 0.102*** (3.647)
+
+(0.989)
+
+Dependent variable: Pairwise correlation of stock returns. The pre-
+sented values are the estimates; t-values are depicted in parenthesis
+*p < 0.05; **p < 0.01; ***p < 0.001
+
+
+
+Investor‑level common ownership, stock return comovement,…
+
+common ownership have a positive impact on pairwise stock return correlations. 
+Additionally, all coefficients when following the procedure described by Fama 
+and MacBeth (1973) are positive and statistically significant.
+Table 20 presents the results when controlling for time fixed effects and all the con-
+trol variables. In line with the results presented in Table  6, all three coefficients 
+for common ownership have the expected sign. The values of the coefficients are 
+
+Table 20   Regression results with time fixed effects and control variables considering a subsequent time 
+window of two years length for the correlation estimation
+
+ΔSHO ΔSHC ΔSHB
+
+Common ownership 0.053*** (6.632) 0.019*** (5.682) 0.086*** (12.437)
+ΔMVDIS 0.000 (0.139) − 0.001 (− 0.230) 0.002 (0.590)
+ΔMVAVG − 0.024** (− 2.555) − 0.022** (− 2.404) − 0.026*** (− 2.785)
+ΔPDIS − 0.013*** (− 4.762) − 0.013*** (− 4.877) − 0.013*** (− 4.815)
+ΔPAVG 0.047*** (6.959) 0.050*** (7.348) 0.046*** (6.742)
+ΔPTBVDIS − 0.014*** (− 6.333) − 0.014*** (− 6.399) − 0.014*** (− 6.176)
+ΔPTBVAVG 0.004 (0.876) 0.005 (0.998) 0.003 (0.560)
+ΔPTBVDIS − 0.014*** (− 6.166) − 0.014*** (− 6.156) − 0.014*** (− 6.167)
+ΔPTBVAVG − 0.013*** (− 3.762) − 0.013*** (− 3.800) − 0.013*** (− 3.732)
+ΔLRDIS 0.005** (2.530) 0.005** (2.474) 0.005** (2.430)
+ΔLRAVG − 0.004 (− 1.007) − 0.005 (− 1.153) − 0.003 (− 0.763)
+ΔTADIS − 0.008 (− 1.483) − 0.009 (− 1.595) − 0.007 (− 1.387)
+ΔTAAVG − 0.044*** (− 3.835) − 0.044*** (− 3.800) − 0.048*** (− 4.145)
+ΔVODIS − 0.013*** (− 4.534) − 0.014*** (− 4.679) − 0.013*** (− 4.329)
+ΔVOAVG − 0.036*** (− 7.277) − 0.034*** (− 6.862) − 0.038*** (− 7.640)
+SAME_LOC 0.008*** (5.983) 0.008*** (5.968) 0.008*** (5.824)
+ADD 0.011*** (8.309) 0.013*** (9.365) 0.010*** (7.391)
+ΔCORRVO 0.059*** (42.702) 0.060*** (42.817) 0.059*** (42.698)
+ΔHHIInd 0.042*** (13.997) 0.043*** (14.160) 0.043*** (14.245)
+
+Dependent variable: Pairwise correlation of stock returns. For reasons of presentation, only particularly 
+relevant control variables are reported. The presented values are the estimates; t-values are depicted in 
+parenthesis
+*p < 0.05; **p < 0.01; ***p < 0.001
+
+Table 21   Results of univariate Measure Intercept Common ownership
+regressions considering a 
+surrounding time window for Cross-period ΔSHO 0.014*** (29.974) 0.219*** (21.047)
+the correlation estimation
+
+ΔSHC 0.016*** (37.423) 0.027*** (6.236)
+ΔSHB 0.015*** (33.271) 0.143*** (15.995)
+
+Period-wise ΔSHO 0.016 (0.934) 0.208*** (3.705)
+ΔSHC 0.018 (1.062) 0.064*** (4.057)
+ΔSHB 0.016 (0.974) 0.201*** (4.794)
+
+Dependent variable: Pairwise correlation of stock returns. The pre-
+sented values are the estimates; t-values are depicted in parenthesis
+*p < 0.05; **p < 0.01; ***p < 0.001
+
+
+
+	 M. Münster, M. Walther 
+
+Table 22   Regression results with time fixed effects and control variables considering a surrounding time 
+window for the correlation estimation
+
+ΔSHO ΔSHC ΔSHB
+
+Common Ownership 0.159*** (20.735) 0.050*** (16.487) 0.168*** (25.988)
+ΔMVDIS 0.017*** (4.920) 0.013*** (3.906) 0.018*** (5.364)
+ΔMVAVG − 0.048*** (− 5.348) − 0.049*** (− 5.464) − 0.054*** (− 5.951)
+ΔPDIS − 0.005* (− 1.912) − 0.005** (− 2.048) − 0.005* (− 1.916)
+ΔPAVG 0.056*** (8.362) 0.066*** (9.980) 0.058*** (8.779)
+ΔPTBVDIS − 0.022*** (− 11.297) − 0.022*** (− 11.461) − 0.022*** (− 11.141)
+ΔPTBVAVG 0.016*** (3.581) 0.018*** (4.035) 0.016*** (3.510)
+ΔPTBVDIS − 0.008*** (− 4.094) − 0.008*** (− 4.091) − 0.008*** (− 4.040)
+ΔPTBVAVG 0.017*** (4.986) 0.017*** (5.064) 0.018*** (5.405)
+ΔLRDIS 0.003* (1.672) 0.003 (1.595) 0.003 (1.483)
+ΔLRAVG 0.019*** (4.760) 0.017*** (4.283) 0.019*** (4.725)
+ΔTADIS 0.005 (0.885) 0.004 (0.770) 0.005 (1.024)
+ΔTAAVG − 0.015 (− 1.335) − 0.011 (− 0.957) − 0.013 (− 1.200)
+ΔVODIS − 0.004* (− 1.789) − 0.005** (− 2.098) − 0.004* (− 1.818)
+ΔVOAVG − 0.030*** (− 7.767) − 0.026*** (− 6.854) − 0.030*** (− 7.817)
+SAME_LOC 0.004*** (4.408) 0.004*** (4.401) 0.004*** (4.214)
+ADD 0.007*** (5.219) 0.010*** (7.923) 0.006*** (4.616)
+ΔCORRVO 0.051*** (55.130) 0.051*** (55.423) 0.051*** (55.036)
+ΔHHIInd 0.026*** (7.779) 0.026*** (8.010) 0.027*** (8.138)
+
+Dependent variable: Pairwise correlation of stock returns. For reasons of presentation, only particularly 
+relevant control variables are reported. The presented values are the estimates; t-values are depicted in 
+parenthesis
+*p < 0.05; **p < 0.01; ***p < 0.001
+
+smaller in the case of a time window with a length of two years. However, the coef-
+ficients of all three measures of common ownership are positive and statistically sig-
+nificant at the 1%-level.
+Appendix E: results when using surrounding time windows
+
+Appendix E presents the empirical results when considering a surrounding time 
+window of one year, instead of the subsequent year, for the estimation of the correla-
+tion coefficients as described by Eq. (29). Table 21 shows the results for the univari-
+ate regressions that confirm the positive relationship between common ownership 
+and pairwise stock return correlations. The coefficients for all three measurements 
+of common ownership are higher than their counterparts in the main article.
+Table 22 summarizes the results when considering all control variables. In this con-
+stellation, all three measures of common ownership have a positive and statistically 
+significant coefficient that is higher than in the case of a subsequent time window 
+(see Table 5).
+
+
+
+Investor‑level common ownership, stock return comovement,…
+
+Acknowledgements  We thank the editor and reviewers for their valuable comments, and several teaching 
+assistants from TU Berlin and a teaching assistant from German University in Cairo for their assistance 
+in collecting data.
+
+Author contribution  Both authors contributed significantly to conceptualization, methodology, data col-
+lection, and the discussion. M.M. implemented the analysis and prepared the tables. M.W. wrote the ini-
+tial draft of the manuscript. Both authors reviewed and edited the manuscript.
+
+Data availability  No datasets were generated or analyzed during the current study.
+
+Declarations 
+
+Conflict of interest  The authors declare no competing interests.
+
+References
+
+Abdoh, H., Varela, O.: Product market competition, idiosyncratic and systematic volatility. J. Corp. 
+Financ. 43, 500–513 (2017). https://​doi.​org/​10.​1016/j.​jcorp​fin.​2017.​02.​009
+
+An, H., Zhang, T.: Stock price synchronicity, crash risk, and institutional investors. J. Corp. Finan. 21, 
+1–15 (2013). https://​doi.​org/​10.​1016/j.​jcorp​fin.​2013.​01.​001
+
+Antón, M., Polk, C.: Connected stocks. J. Finance 69, 1099–1127 (2014). https://​doi.​org/​10.​1111/​jofi.​
+12149
+
+Azar, J., Raina, S., Schmalz, M.: Ultimate ownership and bank competition. Financ. Manage. 51, 227–
+269 (2022). https://​doi.​org/​10.​1111/​fima.​12368
+
+Azar, J., Schmalz, M.C., Tecu, I.: Anticompetitive effects of common ownership. J. Finance 73, 1513–
+1565 (2018). https://​doi.​org/​10.​1111/​jofi.​12698
+
+Backus, M., Conlon, C., Sinkinson, M., 2021. Common ownership and competition in the ready-to-eat 
+cereal industry. Working Paper Series. https://​doi.​org/​10.​3386/​w28350
+
+Barberis, N., Shleifer, A., Wurgler, J.: Comovement. J. Financ. Econ. 75, 283–317 (2005). https://​doi.​org/​
+10.​1016/j.​jfine​co.​2004.​04.​003
+
+Bekaert, G., Hodrick, R.J., Zhang, X.: International stock return comovements. J. Finance 64, 2591–2626 
+(2009). https://​doi.​org/​10.​1111/j.​1540-​6261.​2009.​01512.x
+
+Ben-David, I., Franzoni, F., Moussawi, R.: Do ETFs increase volatility? J. Financ. 73, 2471–2535 (2018). 
+https://​doi.​org/​10.​1111/​jofi.​12727
+
+Boller, L., Scott Morton, F., 2020. Testing the theory of common stock ownership. Working Paper Series. 
+https://​doi.​org/​10.​3386/​w27515
+
+Box, T.: Qualitative similarity and stock price comovement. J. Bank. Finance 91, 49–69 (2018). https://​
+doi.​org/​10.​1016/j.​jbank​fin.​2018.​04.​010
+
+Bray, J.R., Curtis, J.T.: An ordination of the upland forest communities of Southern Wisconsin. Ecol. 
+Monogr. 27, 326–349 (1957). https://​doi.​org/​10.​2307/​19422​68
+
+Broman, M.S.: Liquidity, style investing and excess comovement of exchange-traded fund returns. J. 
+Financ. Mark. 30, 27–53 (2016). https://​doi.​org/​10.​1016/j.​finmar.​2016.​05.​002
+
+Bushee, B.J.: The influence of institutional investors on myopic R&D investment behavior. Account. Rev. 
+73, 305–333 (1998)
+
+Chan, K., Hameed, A., Kang, W.: Stock price synchronicity and liquidity. J. Financ. Mark. 16, 414–438 
+(2013). https://​doi.​org/​10.​1016/j.​finmar.​2012.​09.​007
+
+Chen, H., Singal, V., Whitelaw, R.F.: Comovement revisited. J. Financ. Econ. 121, 624–644 (2016). 
+https://​doi.​org/​10.​1016/j.​jfine​co.​2016.​05.​007
+
+Coles, J.L., Heath, D., Ringgenberg, M.C.: On index investing. J. Financ. Econ. 145, 665–683 (2022). 
+https://​doi.​org/​10.​1016/j.​jfine​co.​2022.​05.​007
+
+Da, Z., Shive, S.: Exchange traded funds and asset return correlations. Eur. Financ. Manag. 24, 136–168 
+(2018). https://​doi.​org/​10.​1111/​eufm.​12137
+
+Dennis, P., Gerardi, K., Schenone, C.: Common ownership does not have anticompetitive effects in the 
+airline industry. J. Finance 77, 2765–2798 (2022). https://​doi.​org/​10.​1111/​jofi.​13176
+
+
+
+	 M. Münster, M. Walther 
+
+Döring, S., Drobetz, W., El Ghoul, S., Guedhami, O., Schröder, H.: Institutional investment horizons 
+and firm valuation around the world. J. Int. Bus. Stud. 52, 212–244 (2021). https://​doi.​org/​10.​1057/​
+s41267-​020-​00351-9
+
+Dou, W.W., Ji, Y., Wu, W.: Competition, profitability, and discount rates. J. Financ. Econ. 140, 582–620 
+(2021). https://​doi.​org/​10.​1016/j.​jfine​co.​2020.​12.​013
+
+Fama, E.F., French, K.R.: A five-factor asset pricing model. J. Financ. Econ. 116, 1–22 (2015). https://​
+doi.​org/​10.​1016/j.​jfine​co.​2014.​10.​010
+
+Fama, E.F., French, K.R.: Common risk factors in the returns on stocks and bonds. J. Financ. Econ. 33, 
+3–56 (1993). https://​doi.​org/​10.​1016/​0304-​405X(93)​90023-5
+
+Fama, E.F., MacBeth, J.D.: Risk, return, and equilibrium: empirical tests. J. Polit. Econ. 81, 607–636 
+(1973)
+
+Forbes, K.J., Rigobon, R.: No contagion, only interdependence: measuring stock market comovements. J. 
+Finance 57, 2223–2261 (2002). https://​doi.​org/​10.​1111/​0022-​1082.​00494
+
+Gilje, E.P., Gormley, T.A., Levit, D., 2018. The rise of common ownership.
+Gramlich, J., Grundl, S., 2018. The Effect of Common Ownership on Profits: Evidence from the U.S. 
+
+Banking Industry. https://​doi.​org/​10.​17016/​FEDS.​2018.​069
+Green, T.C., Hwang, B.-H.: Price-based return comovement. J. Financ. Econ. 93, 37–50 (2009). https://​
+
+doi.​org/​10.​1016/j.​jfine​co.​2008.​09.​002
+Grullon, G., Underwood, S., Weston, J.P.: Comovement and investment banking networks. J. Financ. 
+
+Econ. 113, 73–89 (2014). https://​doi.​org/​10.​1016/j.​jfine​co.​2014.​02.​010
+Hameed, A., Morck, R., Shen, J., Yeung, B.: Information, analysts, and stock return comovement. Rev. 
+
+Financ. Stud. 28, 3153–3187 (2015). https://​doi.​org/​10.​1093/​rfs/​hhv042
+Harvey, C.R., Liu, Y., Zhu, H.: … and the cross-section of expected returns. Rev. Financ. Stud. 29, 5–68 
+
+(2016). https://​doi.​org/​10.​1093/​rfs/​hhv059
+Iselin, M., Liao, S., Zhang, H.(: Common mutual fund ownership and systemic risk. Contemp. Account. 
+
+Res. 38, 2157–2191 (2021). https://​doi.​org/​10.​1111/​1911-​3846.​12678
+Jin, L., Myers, S.C.: R2 around the world: new theory and new tests. J. Financ. Econ. 79, 257–292 (2006). 
+
+https://​doi.​org/​10.​1016/j.​jfine​co.​2004.​11.​003
+Lee, B.-S., Rui, O.M.: The dynamic relationship between stock returns and trading volume: domestic and 
+
+cross-country evidence. J. Bank. Finance 26, 51–78 (2002). https://​doi.​org/​10.​1016/​S0378-​4266(00)​
+00173-4
+
+Lewellen, J., Lewellen, K.: Institutional investors and corporate governance: the incentive to be engaged. 
+J. Finance 77, 213–264 (2022). https://​doi.​org/​10.​1111/​jofi.​13085
+
+Li, M., Zhao, X.: Neighborhood effect on stock price comovement. N. Am. J. Econ. Finance 35, 1–22 
+(2016). https://​doi.​org/​10.​1016/j.​najef.​2015.​10.​002
+
+Morck, R., Yeung, B., Yu, W.: The information content of stock markets: why do emerging markets have 
+synchronous stock price movements? J. Financ. Econ. 58, 215–260 (2000). https://​doi.​org/​10.​1016/​
+S0304-​405X(00)​00071-4
+
+Münster, M., Walther, M.: Pairwise correlations of stock returns and ownership structure. Financ. Res. 
+Lett. 43, 102017 (2021). https://​doi.​org/​10.​1016/j.​frl.​2021.​102017
+
+Muslu, V., Rebello, M., Xu, Y.: Sell-side analyst research and stock comovement. J. Account. Res. 52, 
+911–954 (2014). https://​doi.​org/​10.​1111/​1475-​679X.​12057
+
+Newey, W.K., West, K.D.: A simple, positive semi-definite, heteroskedasticity and autocorrelation con-
+sistent covariance matrix. Econometrica 55, 703–708 (1987). https://​doi.​org/​10.​2307/​19136​10
+
+Piotroski, J.D., Wong, T.J., Zhang, T.: Political networks and stock price comovement: evidence from 
+network-connected firms in China*. Rev. Financ. 26, 521–559 (2022). https://​doi.​org/​10.​1093/​rof/​
+rfac0​24
+
+Roll, R.: R2. J. Finance 43, 541–566 (1988). https://​doi.​org/​10.​1111/j.​1540-​6261.​1988.​tb045​91.x
+
+Publisher’s Note  Springer Nature remains neutral with regard to jurisdictional claims in published maps 
+and institutional affiliations.
+
+Springer Nature or its licensor (e.g. a society or other partner) holds exclusive rights to this article under 
+a publishing agreement with the author(s) or other rightsholder(s); author self-archiving of the accepted 
+manuscript version of this article is solely governed by the terms of such publishing agreement and 
+applicable law.

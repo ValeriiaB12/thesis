@@ -1,0 +1,2038 @@
+﻿Journal of Accounting and Economics 61 (2016) 23–48
+
+Contents lists available at ScienceDirect
+
+Journal of Accounting and Economics
+☆ We
+from Do
+particip
+
+n Corr
+E-m
+
+shaikh.s
+1 Te
+2 Te
+3 Te
+4 Fo
+
+custome
+over a l
+
+http://d
+0165-41
+journal homepage: www.elsevier.com/locate/jae
+Customer concentration risk and the cost of equity capital$
+
+Dan Dhaliwal a,b,1, J. Scott Judd c,2, Matthew Serfling d,3, Sarah Shaikh e,n
+
+a Department of Accounting, University of Arizona, USA
+b Department of Accounting, Korea University Business School, South Korea
+c Department of Accounting, University of Illinois at Chicago, USA
+d Department of Finance, University of Tennessee, USA
+e Department of Accounting, University of Washington
+a r t i c l e i n f o
+
+Article history:
+Received 11 February 2014
+Received in revised form
+24 March 2015
+Accepted 26 March 2015
+Available online 4 April 2015
+
+JEL classifications:
+G12
+M41
+
+Keywords:
+Cost of equity
+Customer concentration
+Business risk
+Cost of debt
+thank Jerry Zimmerman (editor) and Micha
+uglas Fairhurst, Andrew Finley, Jennifer Itzk
+ants at the 2014 American Accounting Assoc
+esponding author. Tel.: þ1 515 778 1367.
+ail addresses: dhaliwal@eller.arizona.edu (D.
+araha@gmail.com (S. Shaikh).
+l.: þ1 520 621 2366.
+l.: þ1 520 488 0412.
+l.: þ1 520 621 7554.
+r example, Tenneco Inc. in its 2011 annual
+rs could have a material adverse effect on o
+arger revenue base.”
+
+x.doi.org/10.1016/j.jacceco.2015.03.005
+01/& 2015 Elsevier B.V. All rights reserved.
+a b s t r a c t
+
+This study investigates the relation between customer concentration and a supplier's cost
+of equity capital. We hypothesize that a more concentrated customer base increases a
+supplier's risk, which results in a higher cost of equity. Our results show a positive
+association between customer concentration and a supplier's cost of equity, and this
+relation is more pronounced for suppliers that are more likely to lose major customers or
+that are more prone to larger losses if they lose such customers. Further, results from a
+propensity score matched sample analysis and instrumental variables regressions imply
+that our findings are robust to accounting for endogeneity. We also provide evidence that
+a supplier with a concentrated base of safer government customers has a lower cost of
+equity. Finally, we document a positive relation between corporate customer concentra-
+tion and a supplier’s cost of debt. Overall, our findings suggest that the composition and
+concentration of a supplier’s customer base significantly impact its financing costs.
+
+& 2015 Elsevier B.V. All rights reserved.
+1. Introduction
+
+Business risks stemming from a firm's business model and operating environment are important determinants of its cost of
+equity capital (Modigliani and Miller, 1958). One characteristic that regulators, researchers, and practitioners view as important in
+assessing the risks inherent in a firm's current and future cash flows is the concentration of the firm's customer base. For instance,
+Statement of Financial Accounting Standards (SFAS) No. 131 (previously SFAS No. 14) requires firms to disclose information about
+major customers because these customers represent “a significant concentration of risk.” The SEC under Regulation S-K Item 101
+also has similar disclosure requirements. Further, anecdotal evidence suggests that firms explicitly recognize this risk.4 While
+el Hertzel (referee) for their helpful comments and guidance. We also appreciate helpful comments
+owitz, Kartik Raman, Stephen Lusch, Monica Neamtiu, Panos Patatoukas (discussant), and conference
+iation (AAA) annual meeting.
+
+Dhaliwal), jscottjudd@gmail.com (J.S. Judd), serfling@email.arizona.edu (M. Serfling),
+
+report states that “the loss of all or a substantial portion of our sales to any of our large-volume
+ur financial condition and results of operations by reducing cash flows and our ability to spread costs
+
+
+
+24 D. Dhaliwal et al. / Journal of Accounting and Economics 61 (2016) 23–48
+approximately 45% of public firms report relying on at least one customer for a sizeable portion of revenues (Ellis et al., 2012),
+there is surprisingly little empirical evidence on whether customer concentration risk affects firms’ financing costs. In this study,
+we aim to fill this gap by investigating the relation between the concentration of a supplier’s customer base and its cost of equity.
+
+Depending on a major customer for a large portion of sales can be risky for a supplier for two primary reasons.5 First, a
+supplier faces the risk of losing substantial future sales if a major customer becomes financially distressed or declares bankruptcy,
+switches to a different supplier, or decides to develop products internally. Consistent with this notion, Hertzel et al. (2008) and
+Kolay et al. (2015) document negative supplier abnormal stock returns to the announcement that a major customer declares
+bankruptcy.6,7 Further, a customer's weak financial condition or actions could signal inherent problems about the supplier’s
+viability to its remaining customers and lead to compounding losses in sales. Second, a supplier faces the risk of losing
+anticipated cash flows from being unable to collect outstanding receivables if the customer goes bankrupt.8 This assertion is
+consistent with the finding that suppliers offering customers more trade credit experience larger negative abnormal stock
+returns around the announcement of a customer filing for Chapter 11 bankruptcy (Jorion and Zhang, 2009; Kolay et al., 2015).
+
+While the above evidence suggests that a concentrated customer base can increase a supplier’s risk, whether this risk is
+priced into a supplier’s cost of equity is unclear and thus an empirical question. To test the relation between customer
+concentration and a supplier’s cost of equity, we first create three measures that capture various dimensions of customer
+concentration over the years 1981–2011. Next, we follow prior research and measure a supplier’s cost of equity as the
+average of several implied cost of equity estimates derived from analysts’ earnings forecasts (e.g., Hail and Leuz, 2006; Li,
+2010). In our empirical tests, we control for omitted variables that can affect all suppliers in the same industry during any
+given year and several characteristics known to impact a supplier’s cost of equity.
+
+Across all three measures of customer concentration, we find evidence that greater risk associated with a concentrated
+customer base results in a higher cost of equity. Our findings suggest that a supplier that depends on one or more major customers
+for at least 10% of its annual revenues has a cost of equity that is 21.2 basis points higher, which represents an additional annual cost
+of $7.99 million for the average supplier to finance with equity. This effect is economically significant relative to our other control
+variables, such as measures of information asymmetry. For instance, the effect of depending on sales from a major customer on a
+supplier’s cost of equity is equivalent to the effect of a 1.5 standard deviation increase in analyst forecast dispersion.
+
+We also document a positive relation between customer concentration and a supplier’s systematic risk, as measured by
+the supplier’s equity beta. This finding is consistent with traditional asset pricing theories that suggest that customer
+concentration risk would have to be related to systematic risk in order to be non-diversifiable and therefore priced into a
+supplier’s cost of equity (e.g., Lambert et al., 2007; Lintner, 1965; Sharpe, 1964). Further, this result supports the conclusion
+that the risk associated with having a concentrated customer base is in part non-diversifiable.9
+
+We also conduct several cross-sectional tests that exploit settings where the risk associated with having a concentrated
+customer base is predictably larger. If greater customer concentration increases a supplier's risk, then the positive relation
+between customer concentration and a supplier’s cost of equity should be especially strong when these relationships are
+predictably riskier. Specifically, this relation should be stronger when a supplier has a major customer that is more likely to
+default or declare bankruptcy or a major customer that has fewer barriers to switching to a different supplier. This relation
+should also be more pronounced for a supplier that is more likely to have unpaid invoices if a major customer defaults and
+for a supplier that lacks a diverse stream of revenues that can coinsure against the loss of a major customer. We use several
+measures to proxy for these situations and find evidence that is consistent with all four predictions.
+
+Our estimates of the effect of customer concentration on a supplier's cost of equity could suffer from an omitted variable
+bias. In particular, our control variables may insufficiently account for differences between suppliers that do and do not have
+concentrated customer bases. Thus, the estimated effect of customer concentration on a supplier's cost of equity could
+be picking up nonlinear effects of our control variables. We are also unable to observe the extent to which different
+5 Dhaliwal et al. (2014) similarly outline the sources of risks associated with a concentrated customer base.
+6 Anecdotal evidence also supports this notion. For example, Lovable Garments, a large producer of women’s lingerie in the 1990s, lost Wal-Mart as a
+
+major customer when Wal-Mart switched to various suppliers outside the U.S. This loss caused a significant reduction in annual income for Lovable
+Garments and led to the company filing for Chapter 11 bankruptcy.
+
+7 To an extent, a supplier can reduce the risk that a major customer will switch to a different supplier or develop products internally by writing explicit
+sales contracts that lock in sales to the customer. However, studies have found that few firms have supply contracts (Costello, 2013), which is consistent
+with the conventional view that implicit contracts typically govern customer–supplier relationships because it is very costly to write explicit contracts
+covering all possible contingencies (Bowen et al., 1995; Shleifer and Summers, 1988).
+
+8 For example, 68% of auto industry supplier executives reported that their companies would have to downsize if General Motors declared bankruptcy
+and 12% said their businesses would likely or definitely close. In light of this risk and after more than 40 auto-part suppliers filed for Chapter 11 bankruptcy,
+the U.S. Treasury Department allocated $5 billion in Troubled Asset Relief Program (TARP) funds to compensate suppliers for unpaid merchandise and help
+them avoid financial collapse. See Steven Gray, “The Ripple Effect of a Potential GM Bankruptcy,” TIME Magazine, November 28, 2008 and Carl Gutierrez,
+“Auto Parts Supplier Tap TARP,” Forbes, March 19, 2009.
+
+9 Recent work suggests that a possible alternative reason for why customer concentration risk is priced into a supplier’s cost of equity could be due to a
+relation between customer concentration and firm-specific risk. For example, if there are greater market frictions or local investor biases associated with
+the stocks of suppliers that depend on at least one major customer for a large portion of revenues, this risk may be priced because investors are unable to
+fully diversify their portfolios (e.g., Fu, 2009; Malkiel and Xu, 2004; Spiegel and Wang, 2005). In Section 3.2, we document that customer concentration is
+not only positively related to systematic risk but also positively related to idiosyncratic risk, which is consistent with Albuquerque et al. (2014). Because
+customer concentration increases both types of risk, we are unable to conclude whether the positive relation between customer concentration and a
+supplier’s cost of equity is driven by systematic risk or idiosyncratic risk. Although we are unable to determine exactly why customer concentration risk is
+non-diversifiable, this does not affect our main conclusion that a supplier with a more concentrated customer base has a higher cost of equity.
+
+
+
+D. Dhaliwal et al. / Journal of Accounting and Economics 61 (2016) 23–48 25
+customer–supplier relationships are governed by implicit versus explicit contracts as well as the extent to which
+managerial-specific relationships between customers and suppliers affect the risk of losing a major customer. To help
+alleviate these endogeneity concerns, we perform a propensity score matched sample analysis and implement an
+instrumental variables approach. The results from both analyses continue to show that a supplier with a more concentrated
+customer base has a higher cost of equity, suggesting a causal link from customer concentration to a supplier's cost of equity.
+
+The focus of our paper is on the relation between a concentrated base of corporate customers and a supplier's cost of
+equity. Yet, a supplier can also be highly dependent on revenues from the U.S. federal government. Unlike corporate
+customers, however, federal government customers are much less likely to default or declare bankruptcy, and government
+purchases are typically regulated by longer-term procurement contracts (Goldman et al., 2013), which reduce the risk that
+government customers will switch suppliers. As such, a supplier that depends on the federal government for a large portion
+of revenues gains operational efficiencies from selling to a major customer but does not bear many of the risks associated
+with relying on a major corporate customer. Consequently, we expect a negative relation between federal government
+customer concentration and a supplier’s cost of equity. We find that the cost of equity is 19.1 basis points lower for a supplier
+that depends on the federal government for at least 10% of its annual revenues.
+
+In our last set of analyses, we examine the relation between customer concentration and a supplier’s cost of debt. If a
+supplier with a concentrated base of corporate customers loses a major customer, the financial losses the supplier incurs
+could limit its ability to service debt payments. As such, we expect that creditors demand a higher rate of return on loans
+made to a supplier with a more concentrated customer base. We measure a supplier’s cost of debt using loan spreads on
+new issues of both bank loans and public bonds. Our results show that a supplier that depends on at least one major
+corporate customer has 5.0–6.0% higher borrowing costs on bank debt and 7.0–9.9% higher borrowing costs on public bonds.
+Thus, a concentrated customer base increases a supplier’s cost of accessing not only external equity but also debt capital.
+
+We provide new empirical evidence that the concentration of a supplier’s customer base impacts its cost of equity.
+Broadly, this finding contributes to the literature investigating the determinants of a firm's cost of equity. Prior work
+predominantly focuses on how various forms of information risk affect firms' cost of equity, including voluntary financial
+and nonfinancial disclosure (Botosan, 1997; Dhaliwal et al., 2011; Francis et al., 2008), earnings transparency (Barth et al.,
+2013), and internal control quality (Ashbaugh-Skaife et al., 2009). While studies find that business risks stemming from a
+firm’s operating environment and business model tend to have a larger impact than managerial discretion on a firm’s cost of
+equity (Bhattacharya et al., 2012; Francis et al., 2005), they do not identify the sources of such business risks. Our work
+extends this literature by documenting how a prevalent source of business risk—a concentrated customer base—impacts a
+firm’s financing costs. Our findings also validate the inclusion of a “customer concentration risk premium” as an input in
+practitioner models of a firm’s cost of equity (e.g., Duff & Phelps).10,11
+
+Our findings also extend the literature that examines how the concentration of a supplier’s customer base affects its characteristics
+and financial policies. While prior work shows that suppliers with a concentrated base of customers tend to bemore profitable because
+they realize operational efficiencies (Cen et al., 2013; Kalwani and Narayandas, 1995; Patatoukas, 2012), our findings imply that a
+concentrated customer base raises suppliers’ risk and financing costs. Thus, our paper relates to work documenting that a concentrated
+customer base is associated with higher idiosyncratic risk and a greater likelihood of receiving a going-concern opinion (Albuquerque
+et al., 2014; Dhaliwal et al., 2014). Last, several other studies find that suppliers with greater customer concentration tend to maintain
+lower financial leverage ratios (Banerjee et al., 2008; Kale and Shahrur, 2007), recognize bad news sooner (Hui et al., 2012), have more
+discretionary accruals (Raman and Shahrur, 2008), hold more cash (Itzkowitz, 2013), and pay fewer dividends (Wang, 2012).
+
+Finally, our study contributes to literature showing that nonfinancial stakeholders have a significant impact on a firm’s financing
+costs. For instance, Chen et al. (2011) show that labor unions increase labor adjustment costs and make wages stickier, resulting in
+higher operating leverage and a higher cost of equity. Yet, Chen et al. (2012) find that unionization lowers a firm’s cost of debt. In
+addition to showing that major customers impact a firm’s financing costs, we show that the type of customer exposes suppliers to
+differential business risks. Specifically, we show that a supplier with a major corporate customer has a higher cost of equity and
+debt, while a supplier with a major federal government customer has a lower cost of equity but not a lower cost of debt.
+
+The remainder of this paper is organized as follows. Section 2 describes our data and empirical methodology. Section 3
+reports our empirical findings. Section 4 documents the results of additional robustness tests. Section 5 concludes.
+2. Data and empirical methodology
+
+2.1. Sample selection
+
+We obtain data to estimate the implied cost of equity capital from the Institutional Brokers’ Estimate System (IBES),
+customer–supplier data from Compustat’s segment customer files, financial statement data from Compustat, and stock
+return data from the Center for Research in Security Prices (CRSP) files. The intersection of these databases creates our main
+10 For example, Metropolitan Health Networks in its 8-K filing provided information about its merger with Continucare Corporation in 2011. This
+disclosure included a weighted average cost of capital calculation obtained from Continucare Corporation’s financial advisor, Barrington Research
+Associates, Inc., that included a 2% customer concentration risk premium.
+
+11 See “Risk Premium Report 2013,” Duff & Phelps, LLC., 2013.
+
+
+
+26 D. Dhaliwal et al. / Journal of Accounting and Economics 61 (2016) 23–48
+
+Table 1
+Summary statistics.
+
+This table reports summary statistics for variables of interest for Compustat industrial firms (utilities and financials are excluded) from 1981 to 2011 and
+includes 44,218 supplier-year observations. Panels A and B present summary statistics and the correlation matrix for implied cost of equity estimates,
+respectively. Panel B reports the Pearson (below the diagonal) and the Spearman (above the diagonal) correlations between the estimates of the implied
+cost of equity, and p-values are reported in parentheses. Panel C reports summary statistics for customer concentration measures and all other variables.
+Continuous variables are winsorized at their 1st and 99th percentiles, and dollar values are expressed in 2009 dollars. Variable definitions in parentheses
+refer to Compustat designations where appropriate. Cost of Equity OJN, Cost of Equity MPEG, Cost of Equity CT, and Cost of Equity GLS are the implied cost of
+equity estimates calculated following the methodologies outlined in Ohlson and Juettner-Nauroth (2005), Easton (2004), Claus and Thomas (2001), and
+Gebhardt et al. (2001), respectively. Cost of Equity Mean is the estimated implied cost of equity calculated by taking the mean of Cost of Equity OJN, Cost of
+Equity MPEG, Cost of Equity CT, and Cost of Equity GLS. Risk-Free Rate is the yield on 10-year Treasury bonds. Major Customer is an indicator variable set to one
+if a supplier discloses at least one corporate customer that accounts for at least 10% of its total sales. Customer HHI is the customer sales-based Herfindahl-
+Hirschman Index calculated by summing the squares of the ratios of significant customer sales to the supplier’s total sales. Total Major Customer Sales is the
+fraction of a supplier’s total sales to all customers that account for at least 10% of total sales. Beta Value-Weighted is estimated by regressing daily individual
+stock returns over the fiscal year on the contemporaneous CRSP value-weighted market returns, correcting for nonsynchronous trading following Scholes
+and Williams (1977). Idiosyncratic Risk is the annualized standard deviation of the residuals from regressing daily individual stock returns over the fiscal
+year on the contemporaneous CRSP value-weighted market returns, correcting for nonsynchronous trading following Scholes and Williams (1977). Market
+Value of Equity is the market value of equity at the end of the fiscal year (prcc_f*csho, in $ millions). Book-to-Market is book value of equity (ceq) divided by
+market value of equity. Book Leverage is the book value of long-term debt (dltt) plus book value of debt in current liabilities (dlc) divided by book value of
+assets (at). Momentum is the stock return over the fiscal year. Analyst Forecast Dispersion is the natural logarithm of the standard deviation of the analysts’
+estimates for the next period’s earnings divided by the consensus forecast for next period’s earnings. Long-Term Growth Rate is the median analyst forecast
+of the long-term earnings growth rate for the supplier. Return on Assets is income before extraordinary items (ib) divided by beginning of year book value of
+assets (at).
+
+Panel A: Summary statistics for implied cost of equity estimates
+
+Mean Std. dev. P25 P50 P75
+
+Cost of Equity OJN 12.94 3.84 10.26 12.12 14.77
+Cost of Equity MPEG 12.43 4.74 9.19 11.19 14.43
+Cost of Equity CT 11.58 3.82 8.95 11.05 13.65
+Cost of Equity GLS 7.33 3.03 5.15 7.05 9.15
+Cost of Equity Mean 11.08 3.35 8.71 10.46 12.81
+Risk-Free Rate 6.64 2.65 4.93 6.10 8.28
+
+Panel B: Correlation matrix for implied cost of equity estimates
+
+Cost of Equity OJN Cost of Equity MPEG Cost of Equity CT Cost of Equity GLS Cost of Equity Mean
+
+Cost of Equity OJN 0.863 0.725 0.627 0.947
+(0.000) (0.000) (0.000) (0.000)
+
+Cost of Equity MPEG 0.885 0.532 0.459 0.844
+(0.000) (0.000) (0.000) (0.000)
+
+Cost of Equity CT 0.702 0.526 0.682 0.833
+(0.000) (0.000) (0.000) (0.000)
+
+Cost of Equity GLS 0.655 0.473 0.683 0.778
+(0.000) (0.000) (0.000) (0.000)
+
+Cost of Equity Mean 0.952 0.866 0.828 0.782
+(0.000) (0.000) (0.000) (0.000)
+
+Panel C: Summary statistics for customer concentration measures and control variables
+
+Obs. Mean Std. dev. P25 P50 P75
+
+Customer concentration measures
+Major Customer 44,218 0.26 0.44 0.00 0.00 1.00
+Customer HHI 44,218 0.02 0.07 0.00 0.00 0.10
+Total Major Customer Sales 44,218 0.08 0.18 0.00 0.00 0.11
+
+Customer concentration measures for suppliers with a major customer
+Customer HHI 11,652 0.09 0.12 0.02 0.04 0.10
+Total Major Customer Sales 11,652 0.31 0.21 0.14 0.25 0.42
+
+Control variables
+Beta Value-Weighted 44,218 1.11 0.61 0.68 1.03 1.45
+Idiosyncratic Risk 44,218 0.41 0.18 0.27 0.37 0.51
+Market Value of Equity 44,218 3,771 10,064 284.8 779.6 2,433
+Book-to-Market 44,218 0.51 0.33 0.27 0.43 0.66
+Book Leverage 44,218 0.21 0.17 0.05 0.19 0.32
+Momentum 44,218 0.23 0.58 0.12 0.13 0.44
+Analyst Forecast Dispersion 44,218 0.07 0.15 0.01 0.03 0.06
+Long-Term Growth Rate 44,218 0.18 0.10 0.12 0.15 0.20
+Return on Assets 44,218 0.08 0.09 0.03 0.07 0.11
+
+
+
+D. Dhaliwal et al. / Journal of Accounting and Economics 61 (2016) 23–48 27
+sample that consists of 44,218 supplier-year observations. This sample includes industrial firms that have publicly-traded
+stock over the 1981–2011 period, are incorporated in the U.S., and have non-missing data for the main variables of interest.
+We exclude utilities (SIC 4900–4999) and financial firms (SIC 6000–6999). We winsorize continuous variables at their 1st
+and 99th percentiles to reduce the influence of outliers and express all dollar values in 2009 dollars.
+
+2.2. Implied cost of equity capital estimates
+
+We empirically estimate the cost of equity that is implied in current stock prices and analysts’ earnings forecasts using
+IBES data as of June in the following year and four cost of equity models introduced by Claus and Thomas (2001), Gebhardt
+et al. (2001), Easton (2004), and Ohlson and Juettner-Nauroth (2005). The first two models are based on Ohlson's (1995)
+residual income valuation model, and the latter two models are based on Ohlson and Juettner-Nauroth’s abnormal earnings
+growth valuation model. Appendix A provides a detailed description of the cost of equity estimates. There is little consensus
+in the literature on which models perform best or how the models should be evaluated (Botosan and Plumlee, 2005; Gode
+and Mohanram, 2003; Guay et al., 2011). Therefore, we follow prior literature and use the mean of the estimates from the
+four models as our measure of the cost of equity to mitigate the effect of measurement errors associated with one particular
+model (Hail and Leuz, 2006; Li, 2010).
+
+Table 1 presents the descriptive statistics and the correlation matrix for the cost of equity estimates. As seen in Panel A, the
+Ohlson and Juettner-Nauroth (OJN) method generates the highest average estimated cost of equity with a mean of 12.94% and a
+median of 12.12%. The Gebhardt et al. (GLS) method produces the lowest average estimated cost of equity with a mean of 7.33%
+and a median of 7.05%. Panel B of Table 1 presents the pairwise Pearson (below the diagonal) and the Spearman (above the
+diagonal) correlations between the four estimates, which are all positive. The lowest observed Pearson (Spearman) correlation is
+between the GLS method and the Easton (MPEG) method with a value of 0.473 (0.459). The highest observed Pearson
+(Spearman) correlation is between the OJN method and the MPEG method with a value of 0.885 (0.863). Overall, our ex ante cost
+of equity estimates are comparable to those in prior studies (Botosan and Plumlee, 2005; Chen, Chen, and Wei, 2011).
+
+2.3. Measures of customer concentration
+
+We use Compustat’s segment customer files to identify suppliers that disclose sales to major corporate customers. Since
+1976, the Statement of Financial Accounting Standards No. 14 (SFAS 14) of the Financial Accounting Standard Board (FASB) has
+required a supplier to disclose external customers that individually account for 10% or more of its revenues. FAS 131
+superseded SFAS 14 in 1997, and the requirement to report such customers remains intact for public companies under SEC
+Regulation S-K Item 101. Although regulations require suppliers to identify customers accounting for at least 10% of revenues,
+suppliers often voluntarily report customers that account for less than 10% of sales. Because these disclosures are voluntary, we
+do not include these customers in our concentration calculations to reduce concerns of a potential selection bias.12
+
+We create three measures to capture the extent to which a supplier’s customer base is concentrated. Panel C of Table 1
+presents summary statistics for these three concentration measures. For our first measure of customer concentration, we
+create an indicator variable that is set to one if a supplier discloses at least one corporate customer that accounts for 10% or
+more of its annual revenues and zero otherwise (Major Customer). In 26% of our observations, a supplier reports that at least
+one major customer accounts for 10% or more of revenues.
+
+For our second measure, we follow Patatoukas (2012) and use an application of the Herfindahl-Hirschman Index to
+capture customer concentration (Customer HHI). This measure accounts for both the number of major customers identified
+by the supplier and the importance of those major customers to the supplier’s annual revenues. Thus, we measure supplier
+i’s customer concentration in year t across the supplier’s J major customers as:
+
+XJ  
+Customer HHIit ¼
+
+Sales 2
+ijt
+
+; ð1Þ
+Sa es
+
+j ¼ l
+1 it
+
+where Salesijt represents supplier i’s sales to major customer j in year t, and Salesit represents supplier i’s total sales in year t.
+This variable ranges between zero and one, with higher values corresponding to a more concentrated customer base.
+In particular, this measure takes a value of zero for a supplier that does not disclose sales to any major customers and takes a
+value of one for a supplier that depends on a single major customer for all annual revenues.
+
+Our last measure follows Banerjee et al. (2008) and Dhaliwal et al. (2014) who define Total Major Customer Sales as the
+fraction of a supplier’s annual total sales captured by all customers that account for at least 10% of the supplier’s annual
+revenues. For the subset of suppliers that disclose at least one major customer, mean sales to all major customers account for
+31% of these suppliers’ total revenues.13
+12 In robustness tests, we also include customers accounting for less than 10% of a supplier’s sales in all of our customer concentration measures. Our
+results are robust to using these alternative definitions.
+
+13 All three of our customer concentration measures are positively correlated. The highest observed Pearson correlation is between Customer HHI and
+Total Major Customer Sales with a value of 0.84. The lowest correlation is between Major Customer and Customer HHI with a value of 0.51. The correlation
+between Major Customer and Total Major Customer Sales is 0.77.
+
+
+
+28 D. Dhaliwal et al. / Journal of Accounting and Economics 61 (2016) 23–48
+2.4. General empirical methodology
+
+To examine the relation between customer concentration and the implied cost of equity at the supplier-year level, we
+estimate the following panel regression model:
+
+Cost of Equityit ¼ α1ðCustomer ConcentrationÞitþXitβþβr  βtþεit ; ð2Þ
+where Cost of Equityit is our measure of the estimated implied cost of equity in excess of the risk-free rate, as measured by
+the yield on 10-year Treasury bonds, for supplier i in year t. Customer Concentration is one of our three measures of customer
+concentration. Xit is a set of control variables, and βrβt are interactions of industry and year fixed effects.14 Our controls
+include financial variables commonly found in implied cost of equity regressions (Campbell et al., 2012; Chen et al., 2011).
+These variables include stock return beta and idiosyncratic risk, log market value of equity, the book-to-market ratio, book
+leverage, return momentum, log analyst forecast dispersion, the forecasted long-term growth rate, and return on assets.
+Panel C of Table 1 presents summary statistics and detailed definitions for these variables. To ease the interpretation and
+comparability of coefficient estimates across variables, we standardize all independent variables (except customer
+concentration measures) to have a mean of zero and a standard deviation of one in multivariate regressions.
+
+We define industries at the 2-digit SIC level. The interaction of industry and year fixed effects (industry year fixed
+effects) controls for omitted industry characteristics within a 2-digit SIC industry in a given year. Thus, these fixed effects
+account for transitory industry-wide factors, such as industry demand shocks, which could affect a supplier’s cost of equity
+and customer concentration risk in any particular year.15 The estimated standard errors in all regressions are corrected for
+heteroskedasticity and are clustered at the supplier level to correct for serial correlation within supplier groupings.
+3. Empirical results
+
+3.1. Customer concentration and the cost of equity capital
+
+We begin our analysis by examining whether a concentrated customer base impacts a supplier’s cost of equity. Table 2
+presents the results of this analysis. The dependent variable in columns 1–6 is the average implied cost of equity in excess of
+the risk-free rate (in the remainder of the paper, all models use the implied cost of equity in excess of the risk-free rate, and
+we refer to it as simply the implied cost of equity).
+
+Columns 1–3 report the results from regression models that include all control variables, except equity beta and idiosyncratic
+risk. The results show a positive and statistically significant relation between a concentrated customer base and a supplier’s cost
+of equity across all three measures of customer concentration. In terms of economic significance, the coefficient estimate on
+Major Customer in column 1 implies that a supplier with at least one major customer has a cost of equity that is 21.2 basis points
+higher. Given that the sample mean of the implied cost of equity in excess of the risk-free rate is 4.44%, this 21.2 basis point
+increase translates into a 4.8% (¼0.212/4.44) rise in a supplier’s cost of equity relative to the sample mean. In addition, the mean
+(median) supplier has outstanding equity of $3,771 ($779.6) million. Thus, a 21.2 basis point increase in a supplier’s cost of equity
+implies an additional annual cost of $7.99 ($1.65) million for the mean (median) supplier to finance with equity.
+
+To compute the economic significance of having a concentrated customer base using the other two measures of customer
+concentration in columns 2 and 3, we compare the difference in concentration for suppliers that do not depend on any
+major customers to the average supplier that depends on at least one major customer. The average supplier with at least one
+major customer has a customer concentration HHI of 0.09 and a total percentage of sales to all major customers of 31%. Since
+both measures take the value of zero for suppliers that do not depend on any major customers, the coefficient estimates in
+columns 2 and 3 imply that the difference in cost of equity between these two types of suppliers is 8.4 (¼0.932 n 0.09) basis
+points and 16.9 (¼0.546 n 0.31) basis points, respectively. For the remainder of the paper, we only calculate the economic
+significance for the variable identifying whether a supplier has at least one major customer.
+
+Columns 4–6 present the results from the same regression models as those in columns 1–3, but we follow prior literature
+and include equity beta and idiosyncratic risk as control variables (e.g., Ashbaugh-Skaife et al., 2009; Chen et al., 2011). We
+use this model specification throughout the rest of our paper. We estimate Beta Value-Weighted by regressing daily
+individual stock returns over the fiscal year on the contemporaneous CRSP value-weighted market returns and correct the
+measure for nonsynchronous trading following Scholes and Williams (1977). Similarly, we define idiosyncratic risk as the
+14 We use the equity-risk premium as our dependent variable to be consistent with the estimation of the implied cost of equity in Claus and Thomas
+(2001), Gebhardt et al. (2001), and Gode and Mohanram (2003). Because we include industry year fixed effects in our models, subtracting the risk-free
+rate from each firm’s cost of equity is redundant, as the risk-free rate is a yearly constant. We have rerun all of our tests using the cost of equity not in excess
+of the risk-free rate, and all of the results are robust.
+
+15 For a full discussion of how fixed effects can remove an omitted variable bias, see Gormley and Matsa (2014). The inclusion of industry year fixed
+effects in our regression models is equivalent to demeaning cost of equity estimates, customer concentration measures, and all the other independent
+variables with respect to their averages by industry each year. Therefore, this step removes all heterogeneity within industries each year and is more
+general than including industry and year fixed effects separately. Given that our sample is over a 31 year window from 1981 to 2011, it is likely that omitted
+industry effects will vary over this long time horizon (e.g., industry-level regulatory changes or technological breakthroughs). Thus, it is important to
+control for industry effects that vary over time.
+
+
+
+D. Dhaliwal et al. / Journal of Accounting and Economics 61 (2016) 23–48 29
+
+Table 2
+Customer concentration and the implied cost of equity.
+
+This table reports results from OLS regressions relating the implied cost of equity to customer concentration measures and control variables for Compustat
+industrial firms from 1981 to 2011. The dependent variable in columns 1–6 is the implied cost of equity calculated by taking the mean of the four individual
+estimates and is in excess of the yield on 10-year Treasury bonds. Major Customer is an indicator variable set to one if a supplier discloses at least one corporate
+customer that accounts for at least 10% of its total sales. Customer HHI is the customer sales-based Herfindahl-Hirschman Index. Total Major Customer Sales is the
+fraction of a supplier’s total sales to all customers that account for at least 10% of total sales. All control variables are standardized to have a mean of zero and a
+standard deviation of one. All other variables are defined in Table 1. All specifications include interacted year and industry fixed effects. Industries are defined at the
+2-digit SIC level. Continuous variables are winsorized at their 1st and 99th percentiles, and dollar values are expressed in 2009 dollars. Standard errors are corrected
+for heteroskedasticity and clustering at the supplier level (t-statistics are in parentheses). *, **, and *** denote significance at the 10%, 5%, and 1% level, respectively.
+
+Dependent Variable¼Cost of Equity Mean
+
+Pred. sign (1) (2) (3) (4) (5) (6)
+
+Major Customer þ 0.212nnn 0.121nnn
+(4.94) (2.95)
+
+Customer HHI þ 0.932nnn 0.571nn
+(3.84) (2.42)
+
+Total Major Customer Sales þ 0.546nnn 0.311nnn
+(4.80) (2.81)
+
+Beta Value-Weighted þ 0.103nnn 0.104nnn 0.104nnn
+(5.57) (5.62) (5.60)
+
+Idiosyncratic Risk þ 0.498nnn 0.501nnn 0.498nnn
+(18.91) (19.02) (18.91)
+
+Log(Market Value of Equity)  0.685nnn 0.692nnn 0.684nnn 0.481nnn 0.483nnn 0.480nnn
+(26.68) (26.88) (26.50) (16.79) (16.86) (16.74)
+
+Book-to-Market þ 0.549nnn 0.549nnn 0.550nnn 0.564nnn 0.564nnn 0.564nnn
+(21.44) (21.41) (21.47) (22.61) (22.60) (22.63)
+
+Book Leverage þ 0.549nnn 0.546nnn 0.549nnn 0.573nnn 0.571nnn 0.573nnn
+(26.03) (25.87) (26.01) (28.23) (28.16) (28.22)
+
+Momentum  0.154nnn 0.152nnn 0.154nnn 0.191nnn 0.190nnn 0.191nnn
+(10.17) (10.06) (10.15) (12.97) (12.93) (12.96)
+
+Analyst Forecast Dispersion þ 0.145nnn 0.146nnn 0.145nnn 0.091nnn 0.091nnn 0.091nnn
+(8.12) (8.13) (8.08) (5.13) (5.12) (5.11)
+
+Long-Term Growth Rate þ 0.448nnn 0.448nnn 0.446nnn 0.339nnn 0.338nnn 0.338nnn
+(19.40) (19.39) (19.32) (15.10) (15.08) (15.06)
+
+Return on Assets 7 0.028 0.027 0.029 0.005 0.005 0.006
+(1.43) (1.40) (1.48) (0.26) (0.25) (0.29)
+
+IndustryYear Fixed Effects Yes Yes Yes Yes Yes Yes
+Observations 44,218 44,218 44,218 44,218 44,218 44,218
+Adjusted R2 0.437 0.437 0.437 0.452 0.452 0.452
+annualized standard deviation of the residuals from the aforementioned regression that is corrected for nonsynchronous
+trading following Scholes and Williams (1977).16
+
+As expected, the results in columns 4–6 show that the inclusion of equity beta and idiosyncratic risk significantly
+attenuates the positive relation between customer concentration and a supplier’s cost of equity. Specifically, the coefficient
+estimate in column 4 on the indicator variable for whether a supplier has at least one major customer declines from 0.212 to
+0.121. In comparison to the coefficient estimates on the control variables in column 4, we note that this 12.1 basis point
+increase in the cost of equity for suppliers with at least one major customer remains economically significant. For example,
+because we standardize all other independent variables to have a mean of zero and a standard deviation of one, a one
+standard deviation increase in equity beta and analyst forecast dispersion are associated with a 10.3 and 9.1 basis point
+higher cost of equity, respectively. Moreover, the economic effect of customer concentration on a supplier’s cost of equity is
+about a quarter of the effects of a one standard deviation change in size, the book-to-market ratio, and book leverage.
+
+Table 2 also shows that the signs on the estimated coefficients on the control variables are consistent with previous findings in
+the literature. The implied cost of equity is positively related to equity beta, idiosyncratic risk, the book-to-market ratio, book
+leverage, and analyst forecast dispersion. Similar to Dhaliwal et al. (2006), we also find that the cost of equity is positively related to
+analysts’ forecasted long-term growth rate. Further, the cost of equity is negatively correlated with firm size, price momentum, and
+profitability. It is worth noting that the economic effects of customer concentration in Table 2 are likely understated, as these results
+capture the average effect across all suppliers. In Section 3.3, we find that the economic effect of customer concentration is larger for
+sub-samples of suppliers with a riskier concentrated customer base. Overall, the results in Table 2 are consistent with our
+hypothesis that a supplier with a more concentrated customer base has a higher cost of equity.
+
+In untabulated analyses, we rerun the regressions in column 4–6 of Table 2 using the implied cost of equity calculated by
+taking the median of the four individual estimates as the dependent variable. The results are quantitatively and qualitatively
+16 As a robustness test, we rerun our tests and correct equity beta and idiosyncratic risk for nonsynchronous trading following Dimson (1979), using
+contemporaneous market returns as well as five leads and lags. We find very similar results.
+
+
+
+30 D. Dhaliwal et al. / Journal of Accounting and Economics 61 (2016) 23–48
+similar to those when the mean of the four individual cost of equity estimates is the dependent variable. We also rerun the
+same regressions for each of the four individual cost of equity estimates separately. The results show a positive relation
+between all three customer concentration measures and each of the cost of equity estimates. Yet, while we find a positive
+and statistically significant relation in all models using the cost of equity estimates following Easton (2004) and Ohlson and
+Juettner-Nauroth (2005), the positive relation is statistically insignificant in four out of six regression models using the cost
+of equity estimates following Claus and Thomas (2001) and Gebhardt et al. (2001).17
+3.2. Customer concentration and supplier risk
+
+The finding of a positive relation between customer concentration and a supplier’s cost of equity suggests that this risk is
+non-diversifiable. According to traditional asset pricing theories, customer concentration risk would have to be related to a
+supplier’s systematic risk to be non-diversifiable and therefore priced into the supplier’s cost of equity because investors can
+and should diversify away firm-specific risk (e.g., Lambert et al., 2007; Lintner, 1965; Sharpe, 1964). Thus, to provide further
+evidence on whether customer concentration risk is non-diversifiable, we next examine the relation between our three
+measures of customer concentration and measures of a supplier’s systematic risk. Specifically, we regress yearly measures of a
+supplier’s equity beta on our customer concentration measures. We calculate supplier equity betas using both value-weighted
+and equally-weighted daily market returns over the supplier’s fiscal year, correcting both measures for nonsynchronous
+trading following Scholes and Williams (1977).18
+
+The results in columns 1–3 of Table 3 show a positive relation between customer concentration and a supplier’s value-
+weighted beta across all three measures of customer concentration. The coefficient estimate on Major Customer in column 1
+implies that a supplier with at least one major customer has a value-weighted beta that is 0.069 higher. Given that the
+sample mean of the value-weighted beta is 1.11, this finding translates into a beta that is 6.2% (¼0.069/1.11) higher relative
+to the sample mean. Columns 4–6 show a statistically and economically similar positive relation between customer
+concentration and a supplier’s equally-weighted beta. For instance, the coefficient estimates in column 4 imply that a
+supplier with at least one major customer has an equally-weighted equity beta that is 0.096 higher. This finding translates
+into an equally-weighted beta that is 7.6% (¼0.096/1.27) higher relative to its sample mean of 1.27. Overall, the results in
+Table 3 are consistent with a concentrated customer base increasing a supplier’s systematic risk.19
+
+The findings in Table 3 suggest that the positive relation between customer concentration and a supplier’s cost of equity
+is in part due to a positive relation between customer concentration and a supplier’s systematic risk. However, there is a
+growing strand of literature recognizing that market imperfections and investor holding biases often prevent investors from
+diversifying their portfolios, resulting in the pricing of firm-specific risk (e.g., Fu, 2009; Malkiel and Xu, 2004; Spiegel and
+Wang, 2005).20 Further, Taylor and Verrecchia (2014) show that both idiosyncratic and systematic risk factors can be priced
+in a rational expectations model that allows individual investors to delegate their trades to a privately informed financial
+intermediary, such as an institutional investor. To provide insight on whether the pricing effect of customer concentration
+could stem from firm-specific risk, we next examine the relation between our measures of customer concentration and a
+supplier’s idiosyncratic risk. We define Idiosyncratic Risk the same as in Table 2, which is corrected for nonsynchronous
+trading following Scholes and Williams (1977).
+
+Columns 1–3 of Table 4 show that, across all three measures of customer concentration, there is a positive and statistically
+significant relation between customer concentration and a supplier’s idiosyncratic risk.21 This finding is consistent with
+17 As an additional robustness check to examine the sensitivity of our findings to using alternative methods of approximating a supplier’s cost of equity,
+we follow Barth et al. (2013) and estimate each supplier’s cost of equity from firm-specific monthly time-series regressions using the three-factor model
+described by Fama and French (1993), as well as adding both a fourth momentum factor described by Jegadeesh and Titman (1993) and Carhart (1997) and
+a fifth liquidity factor described by Pástor and Stambaugh (2003). A benefit of this approach is that we can estimate the cost of equity for suppliers with and
+without analyst coverage. For each cost of equity estimate, we require the estimate to be positive to enter the sample, resulting in sample sizes ranging
+from 76,981 to 82,424 supplier-year observations. Using the same model specifications from columns 4–6 of Table 2 (excluding analyst forecast dispersion
+and analyst forecasted long-term growth rates as control variables), we find a positive and statistically significant relation between all three measures of
+customer concentration and all three estimates of a supplier’s cost of equity. In terms of economic significance, a supplier that depends on at least one
+major customer for at least 10% of annual revenues has a cost of equity that is 21.6–44.2 basis points higher.
+
+18 We also rerun the analyses in Tables 3 and 4 and correct equity beta and idiosyncratic risk for nonsynchronous trading following Dimson (1979),
+using contemporaneous market returns as well as five leads and lags. Our results hold using these alternative specifications.
+
+19 The positive relation between customer concentration and a supplier’s systematic risk can be thought of in terms of the relation between firm
+diversification and systematic risk. Hann et al. (2013) argue that during periods of low cash flows, a firm incurs deadweight costs, which include forgone
+business opportunities due to defections by stakeholders, financial distress costs, external financing costs, etc. The expected value of these deadweight
+costs tends to be larger during worse economic times, resulting in losses that are partly countercyclical and increase a firm’s systematic risk. To the extent
+that business segment diversification coinsures against low cash flows in any individual segment, diversification lowers these expected deadweight costs.
+Similarly, to the degree that a diversified customer base coinsures against losses from individual customers, a more diversified customer base should lower
+expected countercyclical deadweight costs and therefore lower systematic risk.
+
+20 For example, market imperfections and investor holding biases that prevent investors from diversifying their portfolios include transaction costs,
+institutional constraints, incomplete information, and preferences for local stocks (e.g., Coval and Moskowitz, 1999; Ivković and Weisbenner, 2005).
+
+21 We note that, inconsistent with our prediction, the results in Tables 3 and 4 show a negative correlation between book leverage and both systematic
+and idiosyncratic risk. However, the negative relation is sensitive to the set of control variables included in the models but does not appear to have a
+material effect on our findings and conclusions. In particular, the positive relation between customer concentration and both systematic and idiosyncratic
+risk is robust to making the following modifications to our regressions: (1) excluding all control variables, (2) excluding book leverage, (3) replacing book
+
+
+
+D. Dhaliwal et al. / Journal of Accounting and Economics 61 (2016) 23–48 31
+
+Table 3
+Customer concentration and systematic risk.
+
+This table reports results from OLS regressions relating equity beta estimates to customer concentration measures and control variables for Compustat
+industrial firms from 1981 to 2011. The dependent variable in columns 1–3 is Beta Value-Weighted, which is estimated by regressing daily individual stock
+returns over the fiscal year on the contemporaneous CRSP value-weighted market returns. The dependent variable in columns 4–6 is Beta Equally-Weighted,
+which is estimated by regressing daily individual stock returns over the fiscal year on the contemporaneous CRSP equally-weighted market returns. Both
+beta measures are corrected for nonsynchronous trading following Scholes and Williams (1977). Major Customer is an indicator variable set to one if a
+supplier discloses at least one corporate customer that accounts for at least 10% of its total sales. Customer HHI is the customer sales-based Herfindahl-
+Hirschman Index. Total Major Customer Sales is the fraction of a supplier’s total sales to all customers that account for at least 10% of total sales. All control
+variables are standardized to have a mean of zero and a standard deviation of one. All other variables are defined in Table 1. All specifications include
+interacted year and industry fixed effects. Industries are defined at the 2-digit SIC level. Continuous variables are winsorized at their 1st and 99th
+percentiles, and dollar values are expressed in 2009 dollars. Standard errors are corrected for heteroskedasticity and clustering at the supplier level (t-
+statistics are in parentheses). *, **, and *** denote significance at the 10%, 5%, and 1% level, respectively.
+
+Beta value-weighted Beta equally-weighted
+
+Pred. sign (1) (2) (3) (4) (5) (6)
+
+Major Customer þ 0.069nnn 0.096nnn
+(6.76) (8.32)
+
+Customer HHI þ 0.211nnn 0.275nnn
+(4.11) (4.83)
+
+Total Major Customer Sales þ 0.155nnn 0.205nnn
+(5.98) (7.15)
+
+Log(Market Value of Equity)  0.074nnn 0.071nnn 0.073nnn 0.019nnn 0.023nnn 0.019nnn
+(13.24) (12.81) (13.19) (3.01) (3.76) (3.13)
+
+Book-to-Market  0.015nnn 0.015nnn 0.014nnn 0.020nnn 0.020nnn 0.020nnn
+(3.02) (3.11) (3.00) (3.55) (3.67) (3.54)
+
+Book Leverage þ 0.022nnn 0.023nnn 0.022nnn 0.020nnn 0.022nnn 0.021nnn
+(4.80) (5.05) (4.83) (4.00) (4.31) (4.06)
+
+Momentum 7 0.034nnn 0.034nnn 0.034nnn 0.048nnn 0.049nnn 0.048nnn
+
+(9.35) (9.51) (9.39) (11.95) (12.13) (12.01)
+Analyst Forecast Dispersion þ 0.016nnn 0.016nnn 0.016nnn 0.028nnn 0.029nnn 0.028nnn
+
+(5.03) (5.11) (5.01) (7.69) (7.78) (7.68)
+Long-Term Growth Rate 7 0.124nnn 0.125nnn 0.124nnn 0.144nnn 0.145nnn 0.144nnn
+
+(18.62) (18.56) (18.55) (17.99) (17.93) (17.91)
+Return on Assets 7 0.004 0.005 0.004 0.005 0.004 0.005
+
+(0.95) (1.07) (0.93) (0.98) (0.81) (0.98)
+IndustryYear Fixed Effects Yes Yes Yes Yes Yes Yes
+Observations 44,218 44,218 44,218 44,218 44,218 44,218
+Adjusted R2 0.288 0.287 0.288 0.283 0.281 0.283
+empirical evidence documented in Albuquerque et al. (2014). In terms of economic significance, the coefficient estimates in
+column 1 imply that a supplier with at least one major customer has annualized idiosyncratic risk that is 0.029 higher. Given
+that the sample mean of idiosyncratic risk is 41.1%, this finding translates into idiosyncratic risk that is 7.1% (¼0.029/0.411)
+higher relative to the sample mean.22
+
+In sum, the results in Tables 3 and 4 show that suppliers with a more concentrated customer base have higher systematic
+and idiosyncratic risk. These findings suggest that the positive relation between customer concentration and a supplier’s
+cost of equity could be driven by systematic or idiosyncratic risk. However, similar to other studies (e.g., Ashbaugh-Skaife
+et al., 2009; Chen et al., 2011), we control for both types of risk in our cost of equity regressions. Thus, the customer
+concentration risk pricing that we document is over and above our measures of systematic and idiosyncratic risk, which
+could be attributed to measurement error in these variables. In particular, this measurement error arises because investors
+should price forward-looking risk and it is implausible if not impossible to perfectly measure these types of risks using
+historical return data (Lambert et al., 2007).
+(footnote continued)
+leverage with market leverage, (4) replacing book leverage with market leverage and excluding the book-to-market ratio, and (5) controlling for size with
+the book value of assets instead of the market value of equity.
+
+22 We also examine the sensitivity of our findings in Tables 3 and 4 to not restricting the sample to supplier-years with analyst coverage. Specifically,
+we re-estimate the models in Tables 3 and 4 for all Compustat industrial firms over the 1981–2011 period, resulting in a sample size of 113,524 supplier-
+year observations. Using the same model specifications from Tables 3 and 4 (excluding analyst forecast dispersion and forecasted long-term growth rates as
+control variables), we find a positive and statistically significant relation between all three measures of customer concentration and all measures of
+systematic and idiosyncratic risk. Further, the economic effect of customer concentration on a supplier’s risk from this analysis is similar to that reported in
+Tables 3 and 4.
+
+
+
+32 D. Dhaliwal et al. / Journal of Accounting and Economics 61 (2016) 23–48
+
+Table 4
+Customer concentration and idiosyncratic risk.
+
+This table reports results from OLS regressions relating idiosyncratic risk estimates to customer concentration measures and control variables for
+Compustat industrial firms from 1981 to 2011. The dependent variable in columns 1–3 is Idiosyncratic Risk, which is the annualized standard deviation of
+the residuals from regressing daily individual stock returns over the fiscal year on the contemporaneous CRSP value-weighted market returns, corrected for
+nonsynchronous trading following Scholes and Williams (1977). Major Customer is an indicator variable set to one if a supplier discloses at least one
+corporate customer that accounts for at least 10% of its total sales. Customer HHI is the customer sales-based Herfindahl-Hirschman Index. Total Major
+Customer Sales is the fraction of a supplier’s total sales to all customers that account for at least 10% of total sales. All control variables are standardized to
+have a mean of zero and a standard deviation of one. All other variables are defined in Table 1. All specifications include interacted year and industry fixed
+effects. Industries are defined at the 2-digit SIC level. Continuous variables are winsorized at their 1st and 99th percentiles, and dollar values are expressed
+in 2009 dollars. Standard errors are corrected for heteroskedasticity and clustering at the supplier level (t-statistics are in parentheses). *, **, and *** denote
+significance at the 10%, 5%, and 1% level, respectively.
+
+Dependent Variable¼ Idiosyncratic Risk
+
+Pred. sign (1) (2) (3
+
+Major Customer þ 0.029nnn
+(11.43)
+
+Customer HHI þ 0.119nnn
+(8.23)
+
+Total Major Customer Sales þ 0.077nnn
+(11.46)
+
+Log(Market Value of Equity)  0.080nnn 0.081nnn 0.080nnn
+(58.77) (59.37) (58.50)
+
+Book-to-Market 7 0.004nnn 0.005nnn 0.004nnn
+
+(3.36) (3.43) (3.28)
+Book Leverage þ 0.007nnn 0.008nnn 0.007nnn
+
+(6.47) (6.76) (6.41)
+Momentum 7 0.011nnn 0.012nnn 0.012nnn
+
+(13.23) (13.42) (13.27)
+Analyst Forecast Dispersion þ 0.019nnn 0.019nnn 0.019nnn
+
+(22.11) (22.12) (22.03)
+Long-Term Growth Rate þ 0.032nnn 0.032nnn 0.032nnn
+
+(18.16) (18.02) (18.01)
+Return on Assets 7 0.009nnn 0.009nnn 0.009nnn
+
+(8.05) (7.88) (8.17)
+IndustryYear Fixed Effects Yes Yes Yes
+Observations 44,218 44,218 44,218
+Adjusted R2 0.590 0.588 0.590
+3.3. Cross-sectional tests of customer concentration and the cost of equity capital
+
+We next conduct cross-sectional tests that exploit settings that provide variation in the magnitude of risk in customer–supplier
+relationships. Specifically, we examine whether the effect of customer concentration on a supplier’s cost of equity varies
+predictability with: (1) the probability that a customer will default or declare bankruptcy, (2) the likelihood that a customer will
+switch to a different supplier, (3) the extent of a supplier’s losses if a major customer goes bankrupt, and (4) the extent to which a
+supplier can diversify away customer concentration risk. In addition to shedding light on the economic mechanisms behind our
+main results, these tests further alleviate endogeneity concerns and in particular, the concern of an omitted correlated variable. For
+an omitted variable to explain our results, it would also have to explain and be consistent with all of our cross-sectional findings.
+
+3.3.1. The effect of customer default probability
+One of the primary concerns with depending on sales to major customers is the greater risk of significant cash flow losses
+
+in the event that any of these customers default or declare bankruptcy. Consistent with this notion, suppliers experience
+negative abnormal stock returns to the announcement that a major customer declares bankruptcy (Hertzel et al., 2008;
+Kolay et al., 2015). Thus, the positive relation between customer concentration and a supplier’s cost of equity should be more
+pronounced if one of its major customers has a higher likelihood of defaulting or declaring bankruptcy.
+
+To test this prediction, we use three measures of default probability to capture the likelihood that a major customer will
+default or declare bankruptcy. Our first measure follows Bharath and Shumway (2008) and is an expected default probability
+based on the Merton (1974) bond pricing model. Our second measure is based on Shumway’s (2001) probability of bankruptcy
+that uses both accounting ratios and market-driven variables to predict this probability.23 Following Kim et al. (2011), our last
+23 Shumway’s (2001) probability of bankruptcy¼ew/(1þew), where w¼13.3031.982n(net income/total assets)þ3.593n(total liabilities/total
+assets)0.467 n log(firm’s market value of equity/total market value of equity)1.809n(excess stock return over the CRSP value-weighted index return
+in the past 12 months)þ5.791 n (idiosyncratic stock return volatility in the past 12 months). Idiosyncratic stock return volatility is the standard deviation of
+the residuals from regressing monthly individual stock returns over the past 12 months on the contemporaneous CRSP value-weighted market returns. We
+require the customer have 12 months of return data to enter the calculation.
+
+
+
+D. Dhaliwal et al. / Journal of Accounting and Economics 61 (2016) 23–48 33
+measure uses the first principal component from Altman’s (1968) Z-score, Ohlson’s (1980) O-score, and Shumway’s (2001)
+probability of bankruptcy instead of using these default measures individually.24
+
+To calculate the default measures for each customer, we first use a matching algorithm similar to Fee and Thomas (2004)
+to match reported customer names in the Compustat segment file to their identifiers on CRSP. To link customer names with
+full company data, we use the following procedure. First, we use an algorithm that determines the likelihood that the
+reported customer name matches the historical company name listed on CRSP by comparing the number and order of the
+letters of the two names (SAS SPEDIS function). We then identify the four company names from CRSP that are most likely to
+match the reported customer name. In cases when visual inspection determines an almost certain, distinct match, we link
+the name with the CRSP name and permanent identification number.
+
+For those reported customer names that still lack matches using the above method, we use LexisNexis (mainly the
+Directory of Corporate Affiliations database in LexisNexis) to determine if the customer name corresponds to a subsidiary of
+a publicly-traded firm. If it is determined that the reported customer is a subsidiary of a parent company on CRSP, we match
+the subsidiary to the parent’s permanent identification number. Lastly, we keep only suppliers that report an identifiable
+customer that accounts for at least 10% of the supplier’s annual revenues and for which we are able to obtain Compustat
+data. This step reduces the sample size from 44,218 to between 5,023 and 5,685 unique supplier-years depending on which
+default measure is used in the regression.
+
+A loss of any major customer can result in material financial losses, and hence, a supplier’s risk of such losses due to a
+major customer defaulting or declaring bankruptcy is best measured by the customer with the highest likelihood of
+defaulting. Therefore, we use our three measures of default probability for the customer with the highest likelihood of
+defaulting to proxy for a supplier’s risk of having a major customer default or declare bankruptcy.25 For each of our three
+measures of default probability, we create an indicator variable that is set to one if the particular measure is above the
+sample median in a given year and zero otherwise. We then interact these indicator variables with our customer
+concentration measures. Note that both Customer HHI and Total Major Customer Sales are centered by subtracting their
+respective sample means before interacting.
+
+The results in all six columns of Table 5 show that there is no relation between customer concentration and the cost of
+equity for suppliers with financially healthy customers. However, suppliers with a more concentrated customer base and a
+major customer with a higher default probability have a significantly higher cost of equity across both measures of customer
+concentration. Further, the joint significance of the customer concentration measures and the interaction terms are
+statistically significant in all six models. Columns 1 and 2 show the results using Bharath and Shumway’s (2008) measure of
+customer default probability. Since this sample is restricted to only suppliers with at least one major customer, we base the
+calculations of the economic significance on a one standard deviation increase in Customer HHI of 0.120 and Total Major
+Customer Sales of 0.213. The coefficient estimates in columns 1 and 2 imply that, compared to suppliers with financially
+healthy customers, a one standard deviation increase in Customer HHI and Total Major Customer Sales for suppliers with a
+financially distressed customer results in a 20.7 (¼1.721n0.120) and 21.6 (¼1.015n0.213) basis point higher cost of equity,
+respectively.
+
+Columns 3–4 and 5–6 show the results using Shumway’s (2001) probability of default and the first principal component,
+respectively. The economic and statistical significance of the coefficient estimates on the interaction terms using Customer
+HHI in columns 3 and 5 are comparable to those in column 1. Specifically, a one standard deviation increase in Customer HHI
+for suppliers with a financially distressed customer results in a 20.5 (column 3) and 23.9 (column 5) basis point higher cost
+of equity. While still economically and statistically significant, the coefficient estimates on the interaction terms using Total
+Major Customer Sales in columns 4 and 6 are lower compared to the estimates in column 2. A one standard deviation
+increase in Total Major Customer Sales for suppliers with a financially distressed customer results in a 16.0 (column 4) and
+19.5 (column 6) basis point higher cost of equity. Overall, the results in Table 5 are consistent with a concentrated customer
+base having a larger effect on the cost of equity for suppliers that have a major customer that is more likely to default or
+declare bankruptcy.
+
+3.3.2. The effect of customer switching costs
+Another risk of having a concentrated customer base is that a major customer can switch suppliers, which can result in
+
+material financial losses. Therefore, we next consider whether the positive relation between customer concentration and a
+supplier’s cost of equity varies when a major customer faces lower barriers to switching suppliers. Prior work shows that
+24 Altman’s (1968) Z-score¼1.2n(working capital/total assets)þ1.4n(retained earnings/total assets)þ3.3n(EBIT/total assets)þ0.6n(market value of
+equity/total liabilities)þ0.999n(sales/total assets). Ohlson’s (1980) O-score ¼1.32-0.407nlog(total assets)þ6.03n(total liabilities/total assets)-1.43n(work-
+ing capital/total assets)þ0.076n(current liabilities/current assets)1.72n(1 if total liabilities4total assets, 0 otherwise)2.37n(net income/total assets)-
+1.83n(operating income before depreciation/total liabilities)þ0.285n(1 if net income is negative for the last two years, 0 otherwise)-0.521n((net
+incometnet incomet1)/(|net incomet|þ |net incomet1|)).
+
+25 Since we use a single customer’s default rate for each supplier, a potential concern is that a single customer, such as Wal-Mart or Ford Motor, is
+overrepresented in our sample, which could limit the generalizability of our results. However, there are 1,498–1,613 unique suppliers and 467–506 unique
+customers in the sample depending on which default measure is used in the regression. Thus, it is unlikely that our results suffer from the
+overrepresentation of an individual customer. It is also important to point out that, although major customers tend to be financially healthy in the
+Compustat segments database, the customers in the above median probability of default group have a relatively high default probability. The average
+customer in this group has a default probability between the 49th and 65th percentile of all firms in Compustat.
+
+
+
+34 D. Dhaliwal et al. / Journal of Accounting and Economics 61 (2016) 23–48
+
+Table 5
+Effect of customer default probability.
+
+This table reports results from OLS regressions relating the implied cost of equity to customer concentration measures and control variables for
+Compustat industrial firms from 1981 to 2011. Variable definitions refer to Compustat designations where appropriate. The sample is restricted to supplier-
+years when a supplier discloses a customer with available Compustat data. The dependent variable in columns 1–6 is the implied cost of equity calculated
+by taking the mean of the four individual estimates and is in excess of the yield on 10-year Treasury bonds. Customer HHI is the customer sales-based
+Herfindahl-Hirschman Index. Total Major Customer Sales is the fraction of a supplier’s total sales to all customers that account for at least 10% of total sales.
+In columns 1 and 2, a customer’s probability of default is calculated following the methodology in Bharath and Shumway (2008). In columns 3 and 4, a
+customer’s probability of default is calculated following the methodology in Shumway (2001). In columns 5 and 6, a customer’s likelihood of default is
+captured by the first principal component of Altman’s (1968) Z-score, Ohlson’s (1980) O-score, and Shumway’s (2001) probability of bankruptcy. For each
+supplier and each default measure, we determine which of the supplier’s identifiable customers has the highest probability of default and use this value to
+proxy for the supplier’s risk of having a major customer default. High Bankruptcy is an indicator variable that is set to one if the particular default measure is
+above the sample median in a given year and zero otherwise. Both Customer HHI and Total Major Customer Sales are centered by subtracting their respective
+sample means before interacting them with High Bankruptcy. Control variables include Beta Value-Weighted, Idiosyncratic Risk, Log(Market Value of Equity),
+Book-to-Market, Book Leverage, Momentum, Analyst Forecast Dispersion, Long-Term Growth Rate, and Return on Assets. Control variables are defined in Table 1.
+All specifications include interacted year and industry fixed effects. Industries are defined at the 2-digit SIC level. Continuous variables are winsorized at
+their 1st and 99th percentiles, and dollar values are expressed in 2009 dollars. Standard errors are corrected for heteroskedasticity and clustering at the
+supplier level (t-statistics are in parentheses). *, **, and *** denote significance at the 10%, 5%, and 1% level, respectively.
+
+Customer default probability measure
+
+Pred. sign Bharath and Shumway (2008) Shumway (2001) First Principal Component
+
+(1) (2) (3) (4) (5) (6)
+
+Customer HHI þ 0.208 0.312 0.744
+(0.39) (0.57) (1.32)
+
+Customer HHIHigh Bankruptcy þ 1.721nn 1.710nn 1.989nnn
+(2.33) (2.49) (2.59)
+
+Total Major Customer Sales þ 0.133 0.064 0.251
+(0.39) (0.19) (0.68)
+
+Total Major Customer SalesHigh Bankruptcy þ 1.015nn 0.751n 0.914nn
+(2.49) (1.86) (2.03)
+
+High Bankruptcy þ 0.047 0.033 0.025 0.045 0.016 0.029
+(0.57) (0.39) (0.30) (0.55) (0.17) (0.31)
+
+Control Variables Yes Yes Yes Yes Yes Yes
+IndustryYear Fixed Effects Yes Yes Yes Yes Yes Yes
+Observations 5,138 5,138 5,685 5,685 5,023 5,023
+Adjusted R2 0.409 0.409 0.410 0.410 0.407 0.406
+F-statistic (concentration measure 7.37nnn 8.85nnn 8.92nnn 9.13nnn 5.02nn 4.60nn
+
+þconcentration measure interaction term)
+when a supplier has a lower share of industry sales, there are more alternative suppliers that customers can purchase from,
+which lowers switching costs and increases the likelihood that customers switch suppliers (Hui et al., 2012; Inderst and
+Wey, 2007; Schumacher, 1991; Snyder, 1996). Also, a customer is less reliant on a supplier and faces lower switching costs if
+the supplier provides the customer with a smaller portion of its total inputs. Thus, the positive relation between customer
+concentration and a supplier’s cost of equity should be more pronounced when the supplier has a smaller industry market
+share and when a customer’s purchases from the supplier are low relative to its total purchases.26
+
+To test our prediction, we first create two measures of supplier sales-based industry market share. The first measure of
+supplier market share is the fraction of the supplier’s total 2-digit SIC industry sales captured by the supplier. Since 2-digit
+SIC industries can be coarse industry classifications, suppliers in the same 2-digit industry may not be competing for the
+same customers. Hence, we compute our second measure of supplier market share using the fraction of the supplier’s total
+3-digit SIC industry sales captured by the supplier. To capture a customer’s dependence on a supplier for inputs, we divide
+supplier sales to the customer by the customer’s cost of goods sold (e.g., Banerjee et al., 2008; Fee and Thomas, 2004; Hui
+et al., 2012). For each of the three measures, we create an indicator variable that is set to one if a specific measure is below
+the sample median in a given year and zero otherwise. These indicator variables capture situations when customers have
+lower switching costs. We then interact the three variables with our customer concentration measures.
+26 A third potential measure of customer switching costs is the length of time that the customer has been purchasing from a particular supplier (e.g.,
+Brown et al., 2009). We use several measures to capture the length of each customer–supplier relationship, but we do not find that relationship length has
+an effect on the positive relation between customer concentration and a supplier’s cost of equity. This insignificant finding, while surprising, may be due to
+a few reasons. First, while a longer relationship length may imply that the customer has greater switching costs due to the supplier and customer making
+relationship-specific investments (RSIs), a supplier that has made RSIs may face greater risk because there are fewer alternative outlets for its products (e.g.,
+Brown et al., 2009). We elaborate on the effect of RSIs on the positive relation between customer concentration and a supplier’s cost of equity in Section 3.4.
+A second concern is related to potential truncation biases associated with our measures. In particular, because firms did not have to disclose sales to a major
+customer before 1976, customer–supplier relationship lengths are mechanically shorter in the earlier years in our sample. Similarly, suppliers that have
+recently become publicly traded will have mechanically shorter relationship lengths because they have only a few years of public filings.
+
+
+
+D. Dhaliwal et al. / Journal of Accounting and Economics 61 (2016) 23–48 35
+
+Table 6
+Effect of customer switching costs.
+
+This table reports results from OLS regressions relating the implied cost of equity to customer concentration measures and control variables for
+Compustat industrial firms from 1981 to 2011. The dependent variable in columns 1–8 is the implied cost of equity calculated by taking the mean of the
+four individual estimates and is in excess of the yield on 10-year Treasury bonds. The sample in columns 7 and 8 is restricted to supplier-years when a
+supplier discloses a customer with available Compustat data. Major Customer is an indicator variable set to one if a supplier discloses at least one corporate
+customer that accounts for at least 10% of its total sales. Customer HHI is the customer sales-based Herfindahl-Hirschman Index. Total Major Customer Sales
+is the fraction of a supplier’s total sales to all customers that account for at least 10% of total sales. In columns 1-3 (4–6), supplier market share is the
+supplier’s total sales divided the total sales of the supplier’s 2-digit (3-digit) SIC industry. In columns 7 and 8, Customer Cost of Goods Sold is the ratio of a
+supplier’s sales to a customer as a percentage of that customer’s cost of goods sold (cogs). Low Switching Costs is an indicator variable set to one if the
+particular measure is below the sample median in a given year and zero otherwise. Control variables include Beta Value-Weighted, Idiosyncratic Risk, Log
+(Market Value of Equity), Book-to-Market, Book Leverage, Momentum, Analyst Forecast Dispersion, Long-Term Growth Rate, and Return on Assets. Control
+variables are defined in Table 1. All specifications include interacted year and industry fixed effects. Industries are defined at the 2-digit SIC level.
+Continuous variables are winsorized at their 1st and 99th percentiles, and dollar values are expressed in 2009 dollars. Standard errors are corrected for
+heteroskedasticity and clustering at the supplier level (t-statistics are in parentheses). *, **, and *** denote significance at the 10%, 5%, and 1% level,
+respectively.
+
+Measure of customer switching costs
+
+Pred. Supplier market share based on Supplier market share based on Customer cost of
+sign 2-digit SIC industries 3-digit SIC industries goods sold
+
+(1) (2) (3) (4) (5) (6) (7) (8)
+
+Major Customer þ 0.063 0.034
+(1.02) (0.54)
+
+Major Customer Low Switching Costs þ 0.310nnn 0.290nnn
+(4.02) (3.76)
+
+Customer HHI þ 0.215 0.260 0.217
+(0.47) (0.50) (0.47)
+
+Customer HHI Low Switching Costs þ 1.054nn 1.149nn 1.075n
+(2.05) (2.00) (1.72)
+
+Total Major Customer Sales þ 0.152 0.155 0.095
+(0.79) (0.77) (0.32)
+
+Total Major Customer Sales 0.661nnn 0.711nnn 0.700n
+ Low Switching Costs
+
+(3.01) (3.14) (1.87)
+Low Switching Costs 7 0.741nnn 0.687nnn 0.714nnn 0.595nnn 0.543nnn 0.574nnn 0.177nn 0.175nn
+
+(13.41) (12.71) (12.99) (11.99) (11.45) (11.80) (2.04) (2.01)
+Control Variables Yes Yes Yes Yes Yes Yes Yes Yes
+IndustryYear Fixed Effects Yes Yes Yes Yes Yes Yes Yes Yes
+Observations 44,218 44,218 44,218 44,218 44,218 44,218 6,309 6,309
+Adjusted R2 0.457 0.457 0.457 0.456 0.456 0.456 0.394 0.395
+F-statistic (concentration 24.68nnn 10.12nnn 16.77nnn 26.37nnn 11.78nnn 20.19nnn 3.61n 5.16n
+
+measureþconcentration
+measure interaction term)
+The results in all eight columns of Table 6 show that customer concentration is not statistically related to a supplier’s cost of
+equity when major customers face above median switching costs. However, suppliers with a more concentrated customer base
+and a major customer that faces belowmedian switching costs have a significantly higher cost of equity across all three measures
+of customer concentration. In addition, the joint significance of the customer concentration measures and the interaction terms
+are statistically significant in all eight models. Columns 1–3 and 4–6 show the results using supplier market share based on 2-
+digit and 3-digit SIC industries, respectively. The coefficient estimates in columns 1 and 4 suggest that, relative to suppliers with
+major customers that face higher switching costs, suppliers with at least one major customer that faces lower switching costs
+have a 29.031.0 basis point higher cost of equity. Finally, columns 7 and 8 document that a supplier’s cost of equity is greater
+when the supplier provides a smaller percentage of a customer’s total inputs. Overall, the findings in Table 6 suggest that a
+concentrated customer base is a riskier business strategy when customers can switch suppliers at a relatively low cost.
+3.3.3. The effect of trade credit and diversification
+A supplier also faces the risk that if a customer goes bankrupt, the supplier will have financial losses not only from the loss of
+
+future sales but also from unpaid customer invoices. Consistent with this assertion, Jorion and Zhang (2009) find that suppliers
+offering customers trade credit experience larger negative abnormal stock returns around the announcement of a customer
+filing for Chapter 11 bankruptcy. Thus, the positive relation between customer concentration and a supplier’s cost of equity
+should be more pronounced for suppliers that offer more trade credit to their customers. To test this prediction, we create an
+indicator variable that is set to one if a supplier’s ratio of accounts receivable to book assets is greater than the sample median in
+a given year and zero otherwise. We then interact this variable with our customer concentration measures.
+
+Columns 1–3 of Table 7 show that there is not a significant relation between customer concentration and the cost of equity
+for suppliers that extend little trade credit to customers. However, across all three measures of customer concentration,
+
+
+
+36 D. Dhaliwal et al. / Journal of Accounting and Economics 61 (2016) 23–48
+
+Table 7
+Effect of trade credit and diversification.
+
+This table reports results from OLS regressions relating the implied cost of equity to customer concentration measures and control variables for
+Compustat industrial firms from 1981 to 2011. Variable definitions refer to Compustat designations where appropriate. The dependent variable in columns
+1–6 is the implied cost of equity calculated by taking the mean of the four individual estimates and is in excess of the yield on 10-year Treasury bonds.
+Major Customer is an indicator variable set to one if a supplier discloses at least one corporate customer that accounts for at least 10% of its total sales.
+Customer HHI is the customer sales-based Herfindahl-Hirschman Index. Total Major Customer Sales is the fraction of a supplier’s total sales to all customers
+that account for at least 10% of total sales. Accounts Receivable is total accounts receivable (rect) divided by book assets (at). Single-Segment Supplier is an
+indicator variable set to one if a supplier operates in only one business segment and zero otherwise. The interaction term in columns 1–3 is High Accounts
+Receivable, which is an indicator variable set to one if the measure is above the sample median in a given year and zero otherwise. The interaction term in
+columns 4-6 is Single-Segment Supplier. Control variables include Beta Value-Weighted, Idiosyncratic Risk, Log(Market Value of Equity), Book-to-Market, Book
+Leverage, Momentum, Analyst Forecast Dispersion, Long-Term Growth Rate, and Return on Assets. Control variables are defined in Table 1. All specifications
+include interacted year and industry fixed effects. Industries are defined at the 2-digit SIC level. Continuous variables are winsorized at their 1st and 99th
+percentiles, and dollar values are expressed in 2009 dollars. Standard errors are corrected for heteroskedasticity and clustering at the supplier level (t-
+statistics are in parentheses). *, **, and *** denote significance at the 10%, 5%, and 1% level, respectively.
+
+Interaction terms
+
+Pred. High Accounts Receivable Single-Segment Supplier
+Sign
+
+(1) (2) (3) (4) (5) (6)
+
+Major Customer þ 0.086 0.036
+(1.50) (0.61)
+
+Major Customer Interaction Term þ 0.424nnn 0.286nnn
+(5.94) (4.03)
+
+Customer HHI þ 0.065 0.119
+(0.22) (0.27)
+
+Customer HHI Interaction Term þ 1.850nnn 1.010nn
+(3.95) (2.05)
+
+Total Major Customer Sales þ 0.132 0.123
+(0.90) (0.69)
+
+Total Major Customer Sales Interaction Term þ 1.204nnn 0.682nnn
+(6.15) (3.33)
+
+Interaction Term 7 0.250nnn 0.328nnn 0.271nnn 0.264nnn 0.209nnn 0.246nnn
+(5.94) (8.44) (6.64) (6.30) (5.34) (6.03)
+
+Control Variables Yes Yes Yes Yes Yes Yes
+IndustryYear Fixed Effects Yes Yes Yes Yes Yes Yes
+Observations 44,218 44,218 44,218 44,218 44,218 44,218
+Adjusted R2 0.456 0.455 0.456 0.453 0.453 0.453
+F-statistic (concentration measureþconcentration 43.49nnn 24.78nnn 53.02nnn 25.01nnn 11.13nnn 19.27nnn
+
+measure interaction term)
+suppliers with a more concentrated customer base and more uncollected invoices have a significantly higher cost of equity. The
+coefficient estimates in column 1 imply that suppliers with a major customer and above median accounts receivable balances
+have a 42.4 basis point higher cost of equity compared to suppliers with a major customer and below median accounts
+receivable balances. Further, the joint significance of the customer concentration measures and the interaction terms are
+statistically significant in all three models. Overall, these findings are consistent with a concentrated customer base having a
+larger effect on the cost of equity for suppliers that also face the risk of being unable to collect outstanding invoices from
+bankrupt customers.
+
+A supplier that loses a major customer and operates in only one business segment is also less able to offset a loss in sales.
+This prediction follows from literature suggesting that revenues from multiple business segments can coinsure against the
+loss of sales in another segment (Hann et al., 2013). In addition, to the extent that the loss of a major customer can signal
+inherent problems about the supplier’s products to its remaining customers, suppliers with only one product line face a
+higher risk of compounded losses. Thus, the positive relation between customer concentration and a supplier’s cost of equity
+should be more pronounced when suppliers operate in a single business segment. To test this prediction, we create an
+indicator variable that is set to one if a supplier operates in only one business segment and zero otherwise. We then interact
+this variable with our customer concentration measures.
+
+Columns 4–6 of Table 7 show that there is not a significant relation between customer concentration and the cost of equity for
+suppliers that operate in more than one business segment. However, across all three measures of customer concentration,
+suppliers with a more concentrated customer base that operate in a single business segment have a significantly higher cost of
+equity. The coefficient estimates in column 4 imply that suppliers with a major customer and only one business segment have a
+28.6 basis point higher cost of equity relative to suppliers with a major customer and multiple business segments. Further, the
+joint significance of the customer concentration measures and the interaction terms are statistically significant in all three models.
+In sum, these findings suggest that the risks associated with having a concentrated customer base and its effect on a supplier’s cost
+of equity is larger for suppliers with a non-diversified revenue stream.
+
+
+
+D. Dhaliwal et al. / Journal of Accounting and Economics 61 (2016) 23–48 37
+3.4. The role of relationship-specific investments
+
+When a supplier sells a large portion of its annual revenues to an individual customer, these relationships often involve unique
+or specialized products that offer little value outside of these relationships (Titman and Wessels, 1988). In this section, we
+therefore examine how the positive relation between customer concentration and a supplier’s cost of equity varies with
+relationship-specific investments (RSIs) made by customers and suppliers. In our context, it is unclear how these RSIs impact the
+risk of having a concentrated customer base. On one hand, a supplier that has made RSIs faces a larger risk of material financial
+losses if it is unable to redeploy assets after the loss of a major customer. In addition, suppliers that invest in relationship-specific
+assets are more likely subject to ex-post opportunistic renegotiations by customers, which can also increase risk (Williamson,
+1979). Thus, this reasoning leads to the prediction that the positive relation between customer concentration and a supplier’s cost
+of equity should be more pronounced when customer–supplier relationships involve more RSIs.
+
+On the other hand, relationships between suppliers and their major customers are often bilateral (Banerjee et al., 2008).
+When suppliers make RSIs, major customers may also invest in these relationships, such as investing in training suppliers or
+modifying production processes (Cen et al., 2013). These investments made by the customer can increase its cost of
+switching suppliers, which would reduce the risk of a concentrated customer base. Thus, this notion leads to the prediction
+that the positive relation between customer concentration and a supplier’s cost of equity should be less pronounced when
+customer–supplier relationships involve more RSIs.
+
+To test these two competing predictions, we use several measures of RSIs. First, Titman and Wessels (1988) and Hui et al.
+(2012) capture investment in unique assets with a supplier’s SG&A expenses and its advertising expenses. Thus, we capture
+the extent to which a supplier makes RSIs using the sum of supplier SG&A and advertising expenses all scaled by book assets
+(Selling Expenses). For our second measure, we follow Kale and Shahrur (2007) and Raman and Shahrur (2008) and capture
+RSIs by a supplier’s R&D expenditures scaled by book assets (R&D Expenditures). As an alternative to R&D expenditures, we
+use NBER patent data to calculate each supplier’s number of patents scaled by book assets (Patents), which is an output from
+R&D expenditures. For each of these measures of RSIs, we create an indicator variable that is set to one if the particular
+measure is above the sample median in a given year and zero otherwise. Lastly, following Banerjee et al. (2008), we limit the
+sample to only manufacturing firms (SIC 2000–3999) and proxy for RSIs with an indicator variable (Durable Goods) that is
+set to one for firms in durable goods industries (SIC 3400–3999). We then interact these indicator variables with our
+customer concentration measures.
+
+In untabulated results, we find evidence consistent with RSIs simultaneously increasing and decreasing the risks
+associated with having a concentrated customer base. Specifically, in five out of six regressions, we find a positive and
+statistically significant relation between our measures of customer concentration and the cost of equity for suppliers when
+RSIs are captured with Selling Expenses and Durable Goods. However, in four out of six regressions, we find a negative and
+statistically significant relation between our measures of customer concentration and the cost of equity for suppliers that
+make larger RSIs, as measured by R&D Expenditures and Patents. Overall, the results are highly sensitive to the measure used
+to capture RSIs and therefore provide inconclusive evidence on how RSIs impact the risk associated with having a
+concentrated customer base.
+
+3.5. Government customers and the cost of equity capital
+
+Our analysis so far has focused on the risk of having a concentrated base of corporate customers. However, U.S. federal
+government spending is also significant, accounting for 23.2% of GDP in 2011.27 Importantly, the federal government is
+unlikely to declare bankruptcy, and federal procurement contracts are typically longer-term and explicit, which lowers the
+likelihood that the government will switch to a different supplier. Also, a non-trivial fraction of these contracts use cost-plus
+pricing, which assigns more operational risk to the government than the supplier (e.g., Berrios, 2006; Reichelstein, 1992).28
+Consequently, we expect that a supplier that depends on the federal government for a large portion of annual revenues will
+be less risky and therefore have a lower cost of equity.29
+
+To test this prediction, we use the Compustat segment files to identify suppliers that report a federal government
+customer as accounting for at least 10% of total annual revenues. Examples of such government customers include branches
+of the military, Medicare, and Medicaid. We then create three measures to capture federal government customer
+concentration that are defined similarly to our corporate customer concentration measures. Specifically, Gov’t Major
+Customer is an indicator variable set to one if a supplier discloses at least one federal government customer that accounts for
+10% or more of its total sales, Gov’t Customer HHI is the federal government customer sales-based Herfindahl-Hirschman
+Index, and Gov’t Total Major Customer Sales is the fraction of a supplier’s total sales to all federal government customers that
+account for at least 10% of total sales. In our sample, 7.6% of suppliers have at least one major federal government customer
+27 We obtain U.S. government spending statistics from http://www.usgovernmentspending.com. The database is created by collecting spending totals
+from federal, state, and local agencies. Most data are collected from the Office of Management and Budget or the United States Census Bureau.
+
+28 We obtain U.S. government spending data for years 2003-2014 and find that approximately 31% of all federal contract award dollars have cost-plus
+pricing terms.
+
+29 In this test, we focus on sales to the federal government because the federal government is unlikely to default. In contrast, there is a higher
+likelihood that state and local governments will default, as evidenced by bankruptcy filings in cities such as Detroit.
+
+
+
+38 D. Dhaliwal et al. / Journal of Accounting and Economics 61 (2016) 23–48
+that accounts for 10% or more of their annual revenues. For these suppliers, sales to all federal government customers
+account for 47.8% of annual revenues on average.30
+
+The results in Table 8 show a negative relation between all three measures of government customer concentration and a
+supplier’s cost of equity.31 The coefficient estimate on Gov’t Major Customer in column 1 implies that a supplier with a
+federal government customer accounting for at least 10% of annual revenues has a 19.1 basis point lower cost of equity. In
+sum, the results in Table 8 are consistent with the prediction that suppliers with a more concentrated base of safer
+government customers realize benefits in the form of a lower cost of equity.
+
+3.6. Customer concentration and the cost of debt capital
+
+Our arguments for whether a concentrated customer base increases a supplier’s business risk also generate the empirical
+prediction of a positive relation between customer concentration and a supplier’s cost of debt. To test this prediction, we investigate
+the effect of a concentrated base of corporate customers on two measures of a supplier’s borrowing costs: (1) the cost of bank debt
+and (2) the cost of public debt. Since bank debt is the principal source of debt financing used bymost firms (Faulkender and Petersen,
+2006), we first focus our analysis on the cost of bank debt. This measure has the advantage of data availability for a larger sample
+compared to our second measure. We obtain U.S.-originated and U.S. dollar-denominated loan data from Dealscan for our sample of
+suppliers. Since Dealscan begins tracking loans for most firms starting in 1987, we use the sample period from 1987 to 2011.
+
+Panel A of Table 9 presents the results relating customer concentration to a supplier’s bank loan spreads. The dependent variable
+in columns 1–6 is the natural logarithm of a supplier’s credit spreads, defined as the spread between its interest rate on a bank loan
+and LIBOR. The credit spread is measured as the all-in-spread drawn in Dealscan, defined as the amount the borrower pays in basis
+points over LIBOR for each dollar drawn down (including annual fees paid to the bank group). In columns 1–3, we use a set of control
+variables similar to Valta (2012). Specifically, we control for the natural logarithm of book assets, the market-to-book ratio, return on
+assets, the proportion of assets that are fixed, book leverage, and Altman’s Z-score. In columns 4–6, we also control for the natural
+logarithm of the loan maturity (in months), the natural logarithm of the loan amount (in millions), and loan type fixed effects. In all
+six columns, we continue to include industry year fixed effects.
+
+In all model specifications, the results show a positive relation between customer concentration and a supplier’s cost of
+bank debt. In terms of economic significance, the coefficient estimates on Major Customer in columns 1 and 4 imply that a
+supplier that depends on at least one major corporate customer for 10% or more of its annual revenues has borrowing costs
+that are approximately 6.0% and 5.0% higher, respectively.32
+
+Next, we examine the relation between customer concentration and the cost of public debt. We obtain U.S.-originated,
+U.S. dollar-denominated, and non-convertible public bond issuance data from Thomson-Reuters SDC Spectrum Global New
+Issues database for our sample of suppliers over the 1981–2011 period. To create a cleaner sample of public corporate bonds,
+we delete floating rate, private placement, asset backed, and perpetual bonds. We also remove unit issues that are a
+combination of securities, such as common stock and warrants, from our sample.
+
+Panel B of Table 9 presents the results relating customer concentration to a supplier’s public debt spreads. The dependent
+variable in columns 1–6 of Panel B is the natural logarithm of the amount the borrower pays over the comparable maturity
+treasury security in basis points. The regressions are analogous to those in Panel A. In all model specifications, the results show
+a positive relation between customer concentration and a supplier’s cost of public debt. For instance, the coefficient estimates
+on Major Customer in columns 1 and 4 imply that a supplier that depends on at least one major corporate customer for 10% or
+more of its annual revenues has borrowing costs that are approximately 9.9% and 7.0% higher, respectively.
+
+Overall, the findings in Table 9 provide evidence that suppliers with a concentrated customer base have not only a higher
+cost of equity but also a higher cost of debt.33,34 These findings are also consistent with those documented in Campello and
+30 In our sample, 0.56% of suppliers also disclose a state or local government agency as accounting for at least 10% of sales. For these suppliers, sales to
+all state and local government customers account for 30.6% of annual revenues on average. As a robustness check, we redefine our government customer
+concentration measures to include sales to state and local governments. Our results remain quantitatively and qualitatively similar.
+
+31 In untabulated analyses, we also examine the relation between government customer concentration and a supplier’s systematic and idiosyncratic
+risk. We rerun the same regressions in Tables 3 and 4 and include our measures of government customer concentration as additional regressors. We find a
+negative and statistically significant relation between all three measures of government customer concentration and a supplier’s systematic and
+idiosyncratic risk. Overall, the results from these additional analyses support the notion that dependence on a major government customer for a large
+portion of revenues lowers a supplier’s risk.
+
+32 The following example illustrates how we compute the economic significance of coefficient estimates in Table 9. The increase in Log Loan Spread of
+0.058 log points corresponds to an increase in loan spreads of e(0.058)-1¼6.0 percentage points.
+
+33 In untabulated analyses, we also examine the cross-sectional effects described in Tables 5–7 on the positive relation between customer
+concentration and a supplier’s cost of debt. Overall, we do not find cross-sectional variation in this relation for the majority of our model specifications.
+While the exact reasonwhy we do not find the same cross-sectional effects for our cost of debt tests is unclear, data limitations such as smaller sample sizes
+is one possible explanation.
+
+34 In untabulated analyses, we also investigate whether a supplier that depends on the federal government for a large portion of its annual revenues
+has a lower cost of debt. Consistent with a concentrated base of federal government customers lowering a supplier’s risk and using the full model
+specifications in columns 46 of Table 9, we find a negative and statistically significant relation between all three of measures of government customer
+concentration (from Table 8) and the spread on a supplier’s public bonds. However, we document a positive and statistically significant relation between all
+three measures of government customer concentration and the spread on a supplier’s bank loans. We conjecture that, due to the nature of banking
+relationships, banks are able to charge a supplier a higher interest rate and the supplier is willing to pay a higher interest expense if it can pass on the cost
+to the government. To test this proposition, we assume that suppliers are more likely to pass on costs to the government if the federal contracts have
+
+
+
+D. Dhaliwal et al. / Journal of Accounting and Economics 61 (2016) 23–48 39
+
+Table 8
+Government customer concentration and the implied cost of equity.
+
+This table reports results from OLS regressions relating the implied cost of equity to government customer concentration measures and control variables
+for Compustat industrial firms from 1981 to 2011. The dependent variable in columns 1–3 is the implied cost of equity calculated by taking the mean of the
+four individual estimates and is in excess of the yield on 10-year Treasury bonds. Gov’t. Major Customer is an indicator variable set to one if a supplier
+discloses at least one federal government customer that accounts for at least 10% of its total sales. Major Customer is an indicator variable set to one if a
+supplier discloses at least one corporate customer that accounts for at least 10% of its total sales. Gov’t. Customer HHI is the federal government customer
+sales-based Herfindahl-Hirschman Index. Customer HHI is the corporate customer sales-based Herfindahl-Hirschman Index. Gov’t. Total Major Customer
+Sales is the fraction of a supplier’s total sales to all federal government customers that account for at least 10% of total sales. Total Major Customer Sales is the
+fraction of a supplier’s total sales to all corporate customers that account for at least 10% of total sales. All control variables are standardized to have a mean
+of zero and a standard deviation of one. Control variables are defined in Table 1. All specifications include interacted year and industry fixed effects.
+Industries are defined at the 2-digit SIC level. Continuous variables are winsorized at their 1st and 99th percentiles, and dollar values are expressed in 2009
+dollars. Standard errors are corrected for heteroskedasticity and clustering at the supplier level (t-statistics are in parentheses). *, **, and *** denote
+significance at the 10%, 5%, and 1% level, respectively.
+
+Pred. sign Dependent Variable¼Cost of Equity Mean
+
+(1) (2) (3)
+
+Gov’t. Major Customer  0.191nnn
+(2.74)
+
+Major Customer þ 0.118nnn
+(2.87)
+
+Gov’t. Customer HHI  0.380nn
+(2.42)
+
+Customer HHI þ 0.562nn
+(2.38)
+
+Gov’t. Total Major Customer Sales  0.304nnn
+(2.85)
+
+Total Major Customer Sales þ 0.298nnn
+(2.69)
+
+Beta ValueWeighted þ 0.102nnn 0.102nnn 0.102nnn
+(5.48) (5.53) (5.48)
+
+Idiosyncratic Risk þ 0.496nnn 0.500nnn 0.496nnn
+(18.86) (19.01) (18.88)
+
+Log(Market Value of Equity)  0.480nnn 0.484nnn 0.481nnn
+(16.79) (16.89) (16.76)
+
+BooktoMarket þ 0.565nnn 0.564nnn 0.565nnn
+(22.66) (22.63) (22.69)
+
+Book Leverage þ 0.573nnn 0.572nnn 0.573nnn
+(28.25) (28.18) (28.24)
+
+Momentum  0.191nnn 0.190nnn 0.190nnn
+(12.96) (12.93) (12.95)
+
+Analyst Forecast Dispersion þ 0.090nnn 0.090nnn 0.090nnn
+(5.06) (5.06) (5.04)
+
+Long-Term Growth Rate þ 0.339nnn 0.338nnn 0.338nnn
+(15.12) (15.07) (15.06)
+
+Return on Assets 7 0.006 0.005 0.006
+(0.34) (0.25) (0.31)
+
+IndustryYear Fixed Effects Yes Yes Yes
+Observations 44,218 44,218 44,218
+Adjusted R2 0.452 0.452 0.452
+Gao (2014) who test the effect of the exposure to large customers on a supplier’s creditworthiness. The authors show that
+suppliers with a concentrated customer base have loans with higher interest rate spreads, more restrictive covenants, and
+shorter maturities.
+4. Addressing potential endogeneity
+
+4.1. Propensity score matched sample analysis
+
+A potential endogeneity concern is that our models suffer from an omitted variable that is correlated with both customer
+concentration and a supplier’s cost of equity (Kennedy, 2008). In particular, our measures of customer concentration could
+be picking up nonlinear effects if the linear controls used throughout our models do not adequately account for differences
+(footnote continued)
+cost-plus pricing terms, which allow the supplier to be paid for all of its allowed expenses up to a set limit plus an additional payment to allow for a profit.
+Using detailed data on federal contracts from the website usaspending.gov, we find evidence consistent with our conjecture. Specifically, suppliers with
+more federal contracts under cost-plus pricing terms pay the highest interest rates.
+
+
+
+40 D. Dhaliwal et al. / Journal of Accounting and Economics 61 (2016) 23–48
+
+Table 9
+Customer concentration and the cost of debt.
+
+This table reports results from OLS regressions relating the cost of debt to customer concentration measures and control variables for Compustat
+industrial firms. In Panel A, the sample consists of bank loans from Dealscan over the 1987–2011 period. In Panel B, the sample consists of public bond
+issues over the 1981–2011 period. Variable definitions refer to Compustat designations where appropriate. The dependent variable in columns 1–6 of Panel
+A is the natural logarithm of the amount the borrower pays over LIBOR for each dollar drawn down in basis points (Log Loan Spread). The dependent
+variable in columns 1–6 of Panel B is the natural logarithm of the amount the borrower pays over the comparable maturity treasury security in basis points
+(Log Public Debt Spread). Major Customer is an indicator variable set to one if a supplier discloses at least one corporate customer that accounts for at least
+10% of its total sales. Customer HHI is the customer sales-based Herfindahl-Hirschman Index. Total Major Customer Sales is the fraction of a supplier’s total
+sales to all customers that account for at least 10% of total sales. Log(Book Assets) is the natural logarithm of book assets (at). Market-to-Book is market value
+of assets (book assets (at) plus market value of equity (prcc_f*csho) minus book value of equity (ceq)) divided by book value of assets (at). Return on Assets is
+income before extraordinary items (ib) divided by beginning of year book value of assets (at). Fixed Assets is the ratio of the book value of property, plant,
+and equipment (ppent) to book value of assets (at). Book Leverage is the book value of long-term debt (dltt) plus book value of debt in current liabilities (dlc)
+divided by book value of assets (at). Altman’s Z-Score is calculated as 1.2*(wcap/at)þ1.4*(re/at)þ3.3*(ebit/at)þ(sale/at)þ0.6*((prcc_f*cshoþpstkrv)/lt). Log
+(Loan Maturity) is the natural logarithm of the number of months until the loan matures. Log(Loan Size) is the natural logarithm of the loan amount (in $
+millions). All control variables are standardized to have a mean of zero and a standard deviation of one. All specifications include interacted year and
+industry fixed effects. Industries are defined at the 2-digit SIC level. Continuous variables are winsorized at their 1st and 99th percentiles, and dollar values
+are expressed in 2009 dollars. Standard errors are corrected for heteroskedasticity and clustering at the supplier level (t-statistics are in parentheses). *, **,
+and *** denote significance at the 10%, 5%, and 1% level, respectively.
+
+Panel A: Customer concentration and the cost of bank debt
+
+Pred. Sign Dependent Variable¼Log Loan Spread
+
+(1) (2) (3) (4) (5) (6)
+
+Major Customer þ 0.058nnn 0.049nn
+
+(2.59) (2.56)
+Customer HHI þ 0.458nnn 0.360nnn
+
+(3.91) (3.47)
+Total Major Customer Sales þ 0.250nnn 0.200nnn
+
+(4.66) (4.38)
+Log(Book Assets)  0.487nnn 0.487nnn 0.484nnn 0.312nnn 0.311nnn 0.309nnn
+
+(41.18) (40.97) (40.71) (21.71) (21.68) (21.47)
+Market-to-Book  0.107nnn 0.107nnn 0.107nnn 0.087nnn 0.087nnn 0.087nnn
+
+(6.41) (6.39) (6.42) (6.27) (6.25) (6.27)
+Return on Assets  0.063nnn 0.062nnn 0.062nnn 0.058nnn 0.058nnn 0.058nnn
+
+(6.41) (6.41) (6.41) (7.07) (7.07) (7.07)
+Fixed Assets  0.103nnn 0.105nnn 0.105nnn 0.077nnn 0.079nnn 0.079nnn
+
+(7.51) (7.63) (7.69) (6.62) (6.72) (6.78)
+Book Leverage þ 0.228nnn 0.229nnn 0.228nnn 0.169nnn 0.170nnn 0.170nnn
+
+(16.93) (16.98) (17.00) (15.10) (15.16) (15.16)
+Altman’s Z-Score  0.017 0.016 0.017 0.028n 0.027n 0.028n
+
+(0.92) (0.90) (0.95) (1.84) (1.82) (1.87)
+Log(Loan Maturity) þ 0.002 0.001 0.001
+
+(0.15) (0.09) (0.14)
+Log(Loan Amount) þ 0.159nnn 0.159nnn 0.159nnn
+
+(12.70) (12.71) (12.67)
+Loan Type Fixed Effects No No No Yes Yes Yes
+IndustryYear Fixed Effects Yes Yes Yes Yes Yes Yes
+Observations 14,789 14,789 14,789 14,789 14,789 14,789
+Adjusted R2 0.547 0.548 0.548 0.627 0.627 0.627
+
+Panel B: Customer concentration and the cost of public debt
+
+Pred. Sign Dependent Variable¼Log Public Debt Spread
+(1) (2) (3) (4) (5) (6)
+
+Major Customer þ 0.094nnn 0.068nn
+
+(2.91) (2.41)
+Customer HHI þ 0.975nnn 0.812nnn
+
+(5.10) (4.75)
+Total Major Customer Sales þ 0.428nnn 0.342nnn
+
+(6.19) (5.43)
+Log(Book Assets)  0.371nnn 0.370nnn 0.367nnn 0.324nnn 0.322nnn 0.319nnn
+
+(27.89) (28.12) (27.70) (25.00) (25.26) (24.98)
+Market-to-Book  0.126nnn 0.126nnn 0.125nnn 0.089nnn 0.090nnn 0.089nnn
+
+(5.64) (5.65) (5.68) (4.72) (4.75) (4.70)
+Return on Assets  0.090nnn 0.092nnn 0.092nnn 0.090nnn 0.092nnn 0.092nnn
+
+(7.20) (7.36) (7.39) (8.08) (8.22) (8.25)
+Fixed Assets  0.043nn 0.043nn 0.043nn 0.035nn 0.035nn 0.035nn
+
+(2.25) (2.25) (2.29) (2.14) (2.13) (2.16)
+Book Leverage þ 0.090nnn 0.090nnn 0.088nnn 0.069nnn 0.068nnn 0.067nnn
+
+
+
+D. Dhaliwal et al. / Journal of Accounting and Economics 61 (2016) 23–48 41
+
+Table 9 (continued )
+
+(6.03) (5.98) (5.91) (5.22) (5.16) (5.10)
+Altman’s Z-Score  0.054nn 0.050nn 0.054nn 0.049nn 0.046nn 0.049nn
+
+(2.15) (2.02) (2.16) (2.09) (1.97) (2.10)
+Log(Loan Maturity) þ 0.142nnn 0.142nnn 0.141nnn
+
+(13.32) (13.30) (13.29)
+Log(Loan Amount) þ 0.081nnn 0.079nnn 0.078nnn
+
+(4.84) (4.70) (4.65)
+Security Type Fixed Effects No No No Yes Yes Yes
+IndustryYear Fixed Effects Yes Yes Yes Yes Yes Yes
+Observations 7,016 7,016 7,016 7,016 7,016 7,016
+Adjusted R2 0.666 0.666 0.668 0.746 0.746 0.747
+between suppliers with a concentrated customer base and those with a diverse customer base. Therefore, we use a
+propensity score matched sample to correct for any endogenous selection on observed variables (Dehejia and Wahba, 2002;
+Rosenbaum and Rubin, 1983).
+
+Using a Conditional Logistic Regression model, we first regress the indicator variable for whether a supplier has at least
+one major customer on our previously used control variables and estimate the probability (i.e., the propensity score) that a
+supplier sells to a major customer. Column 1 in Panel A of Table 10 reports the marginal effects from this regression. Next,
+we match each observation when a supplier reports a customer accounting for at least 10% of its annual revenues to an
+observation when a supplier does not rely on sales to a major customer with the closest propensity score. We match without
+replacement and require the propensity scores for each matched pair to be within 71.0% of each other.35 The resulting
+sample consists of 8,926 supplier-years when a supplier is dependent on a major customer matched to 8,926 supplier-years
+when a supplier is not dependent on a major customer.
+
+Following Fang et al. (2014), we perform several diagnostic tests to evaluate the successfulness of our matching
+procedure. If the matching procedure is successful, thenwe should find that: (1) the control variables in the matched sample
+do not explain any variation in whether suppliers have major customers, (2) the difference in the propensity scores of
+suppliers with and without major customers is negligible, and (3) the means of the matched variables are not statistically
+different for suppliers with and without major customers.
+
+We test these predictions in three ways. First, we rerun the same model specification as in column 1 of Panel A for the
+matched sample and report the results in column 2. The results show that all of the control variables are statistically
+insignificant, and the pseudo-R2 drops to less than 0.1%, indicating that the control variables do not explain any variation in
+whether a supplier has a major customer. Second, we examine the difference between the propensity scores of a supplier
+with and without a major customer and tabulate the results in Panel B. The mean difference is less than 0.001 and therefore
+trivial. Third, Panel C reports the univariate comparisons of the means of each matched variable between a supplier with
+and without a major customer. The results show that the means of the matched control variables are statistically the same
+across the two samples. Collectively, these diagnostic tests suggest that the matching procedure is successful.
+
+The univariate results in Panel C also show that, for the matched sample, suppliers with a major customer have a 16.4
+basis point higher cost of equity. Panel D presents the multivariate results from our base regressions in columns 4–6 of
+Table 2 using the matched sample. Consistent with earlier findings, the results show that a supplier with a more
+concentrated customer base has a higher cost of equity. Together, the results from this analysis suggest that omitted
+variables related to nonlinear forms of our control variables are not likely driving our findings.
+4.2. Instrumental variables regressions
+
+While our previous analysis helps alleviate endogeneity concerns, it is still possible that endogeneity arising from
+unobserved omitted variables remains. For instance, we are unable to observe: (1) whether different customer–supplier
+relationships are governed by implicit versus explicit contracts, and (2) the existence of managerial-specific relationships
+between customers and suppliers. The extent to which these factors are more prevalent among major customers and
+correlated with a supplier’s cost of equity could bias our findings. Thus, we next examine the robustness of our main
+findings to controlling for endogeneity using an instrumental variables approach. This approach relies on the notion that our
+instrumental variables are correlated with our customer concentration measures but uncorrelated with the error terms.
+
+Specifically, instrumental variables must satisfy two conditions to be considered valid instruments (e.g., Larcker and
+Rusticus, 2010; Roberts and Whited, 2013). First, the relevance condition requires that the instruments are correlated with
+our measures of customer concentration after controlling for the set of control variables in our main model specification.
+Second, the exclusion restriction requires that, conditioning on the full set of control variables, the instruments are
+correlated with a supplier’s cost of equity only through their correlations with measures of customer concentration.
+35 We use the 71.0% cutoff so that matched suppliers are very similar. The results are robust to using a 70.5%, 72.5%, or 75.0% cutoff point.
+
+
+
+42 D. Dhaliwal et al. / Journal of Accounting and Economics 61 (2016) 23–48
+Table 10
+Propensity score matched sample analysis.
+
+This table reports results relating the implied cost of equity to customer concentration measures and control variables for a propensity score matched sample using Compustat industrial firms from 1981 to 2011.
+The dependent variable in columns 1 and 2 of Panel A isMajor Customer,which is an indicator variable set to one if a supplier discloses at least one corporate customer that accounts for at least 10% of its total sales.
+Column 1 of Panel A shows the first-stage marginal effects from a conditional logistic regression used to calculate the propensity scores for the matching procedure. Column 2 of Panel A shows the marginal effects
+from the conditional logistic regression in column 1 using the subsample of matched suppliers. Panel B reports the distribution of propensity scores calculated from the regression in column 1 of Panel A for the
+subsample of matched suppliers. Panel C tabulates the univariate statistics comparing the mean characteristics of suppliers with and without major customers and their corresponding t-statistics. Panel D reports
+multivariate results relating the implied cost of equity to customer concentration measures. The dependent variable in columns 1–3 of Panel D is the implied cost of equity calculated by taking the mean of the four
+individual estimates and is in excess of the yield on 10-year Treasury bonds (Cost of Equity Mean). Customer HHI is the customer sales-based Herfindahl-Hirschman Index. Total Major Customer Sales is the fraction of
+a supplier’s total sales to all customers that account for at least 10% of total sales. Control variables include Beta Value-Weighted, Idiosyncratic Risk, Log(Market Value of Equity), Book-to-Market, Book Leverage,
+Momentum, Analyst Forecast Dispersion, Long-Term Growth Rate, and Return on Assets. Control variables are defined in Table 1. All specifications include interacted year and industry fixed effects. Industries are
+defined at the 2-digit SIC level. Continuous variables are winsorized at their 1st and 99th percentiles, and dollar values are expressed in 2009 dollars. Standard errors are corrected for heteroskedasticity and
+clustering at the supplier level (t-statistics are in parentheses). *, **, and *** denote significance at the 10%, 5%, and 1% level, respectively.
+
+Panel A: Pre-match propensity score regression and post-match diagnostic regression
+
+Dependent Variable¼Major Customer
+
+Pre-match regression Post-match regression
+Pred. sign (1) (2)
+
+Beta Value-Weighted þ 0.013n 0.007
+(1.88) (0.23)
+
+Idiosyncratic Risk þ 0.075nnn 0.000
+(7.40) (0.02)
+
+Log(Market Value of Equity)  0.090nnn 0.004
+(7.52) (0.33)
+
+Bookto-Market  0.027nnn 0.007
+(3.38) (0.84)
+
+Book Leverage  0.033nnn 0.003
+(4.34) (0.40)
+
+Momentum 7 0.011nnn 0.001
+(2.90) (0.20)
+
+Analyst Forecast Dispersion 7 0.004 0.003
+(1.05) (0.53)
+
+Long-Term Growth Rate 7 0.009n 0.005
+(1.83) (0.78)
+
+Return on Assets þ 0.029nnn 0.002
+(5.86) (0.40)
+
+IndustryYear Fixed Effects Yes Yes
+Observations 44,218 17,852
+P-value of χ2 o0.001 0.995
+Pseudo R2 0.054 o0.001
+
+Panel B: Estimated Propensity Score Distributions
+
+Mean Std. dev. Min P25 P50 P75 Max
+
+Propensity Score for Suppliers with a Major Customer (obs.¼8,926) 0.363 0.170 0.013 0.238 0.339 0.472 0.931
+Propensity Score for Suppliers without a Major Customer (obs.¼8,926) 0.363 0.170 0.013 0.238 0.339 0.472 0.937
+Difference 0.000 0.000 0.000 0.000 0.000 0.000 0.006
+
+
+
+D. Dhaliwal et al. / Journal of Accounting and Economics 61 (2016) 23–48 43Panel C: Differences in observables
+
+Suppliers with a Major Customer (obs.¼8,926) Suppliers without a Major Customer (obs.¼8,926)
+Mean Mean Difference t-Statistic
+
+Dependent Variable
+Cost of Equity Mean 4.768 4.604 0.164 3.58nnn
+
+Control Variables
+Beta Value-Weighted 1.159 1.156 0.003 0.34
+Idiosyncratic Risk 0.446 0.446 0.000 0.14
+Log(Market Value of Equity) 6.566 0.558 0.008 0.32
+Book-to-Market 0.493 0.490 0.003 0.48
+Book Leverage 0.188 0.187 0.001 0.19
+Momentum 0.245 0.247 -0.002 -0.22
+Analyst Forecast Dispersion 0.077 0.078 -0.001 -0.71
+Long-Term Growth Rate 0.188 0.186 0.002 1.02
+Return on Assets 0.077 0.077 0.000 0.38
+
+Panel D: Multivariate Results
+
+Dependent Variable¼Cost of Equity Mean
+
+Pred. sign (1) (2) (3)
+
+Major Customer þ 0.138nnn
+(2.97)
+
+Customer HHI þ 0.567nn
+(2.23)
+
+Total Major Customer Sales þ 0.355nnn
+(2.91)
+
+Control Variables Yes Yes Yes
+IndustryYear Fixed Effects Yes Yes Yes
+Observations 17,852 17,852 17,852
+Adjusted R2 0.409 0.409 0.409
+
+
+
+44 D. Dhaliwal et al. / Journal of Accounting and Economics 61 (2016) 23–48
+
+Table 11
+Instrumental variables regressions.
+
+This table reports results from 2-Stage Least Squares regressions relating the implied cost of equity to customer concentration measures and control
+variables using instrumental variables for Compustat industrial firms from 1981 to 2011. Panel A presents first-stage results, and Panel B presents second-
+stage results. We use the predicted values from the first-stage in the second-stage regressions. The dependent variables in columns 1–3 of Panel A are
+Major Customer, Customer HHI, and Total Major Customer Sales, respectively. Major Customer is an indicator variable set to one if a supplier discloses at least
+one corporate customer that accounts for at least 10% of its total sales. Customer HHI is the customer sales-based Herfindahl-Hirschman Index. Total Major
+Customer Sales is the fraction of a supplier’s total sales to all customers that account for at least 10% of total sales. Industry Major Customer is the fraction of
+firms in the supplier’s 3-digit SIC industry and year (excluding the supplier) that disclose sales to a major corporate customer. Industry Customer HHI is the
+average Customer HHI of firms in the supplier’s 3-digit SIC industry and year (excluding the supplier). Industry Total Major Customer Sales is the average Total
+Major Customer Sales of firms in the supplier’s 3-digit SIC industry and year (excluding the supplier). The dependent variable in columns 1–3 of Panel B is
+the implied cost of equity calculated by taking the mean of the four individual estimates and is in excess of the yield on 10-year Treasury bonds. All control
+variables are standardized to have a mean of zero and a standard deviation of one. All other variables are defined in Table 1. Continuous variables are
+winsorized at their 1st and 99th percentiles, and dollar values are expressed in 2009 dollars. Standard errors are corrected for heteroskedasticity and
+clustering at the supplier level (t-statistics are in parentheses). *, **, and *** denote significance at the 10%, 5%, and 1% level, respectively.
+
+Panel A: First-stage results
+
+Industry concentration measures used as instrumental variables
+
+Industry major customer Industry customer HHI Industry total major customer sales
+Pred. sign (1) (2) (3)
+
+Industry Concentration Measuret2 þ 0.524nnn 0.346nnn 0.500nnn
+(27.47) (11.30) (20.43)
+
+Industry Concentration Measuret3 þ 0.263nnn 0.129nnn 0.209nnn
+(14.03) (5.86) (9.28)
+
+Beta Value-Weighted þ 0.013nnn 0.002nnn 0.004nnn
+
+(3.76) (2.92) (3.02)
+Idiosyncratic Risk þ 0.027nnn 0.004nnn 0.012nnn
+
+(6.68) (5.39) (6.82)
+Log(Market Value of Equity)  0.045nnn 0.007nnn 0.019nnn
+
+(8.41) (8.29) (8.78)
+Book-to-Market  0.008nn 0.001nn 0.003n
+
+(2.01) (2.25) (1.95)
+Book Leverage  0.007n 0.001 0.003n
+
+(1.84) (1.50) (1.89)
+Momentum 7 0.008nnn 0.001n 0.003nnn
+
+(3.62) (1.83) (2.95)
+Analyst Forecast Dispersion 7 0.006nn 0.001n 0.002
+
+(2.12) (1.80) (1.53)
+Long-Term Growth Rate 7 0.002 0.001n 0.003n
+
+(0.53) (1.91) (1.70)
+Return on Assets þ 0.018nnn 0.003nnn 0.009nnn
+
+(5.19) (4.63) (5.60)
+Observations 43,152 43,152 43,152
+Adjusted R2 0.176 0.084 0.169
+Test of endogeneity, weak instruments, and overidentification
+Wu-Hausman F-statistic 167.16 (po0.001) 14.02 (po0.001) 90.55 (po0.001)
+F-statistic 3456.4 (po0.001) 1310.2 (po0.001) 3199.6 (po0.001)
+Partial R2 0.138 0.057 0.129
+Sargan Test (Pr4χ2) 0.226 0.334 0.330
+
+Panel B: Second-stage results
+
+Dependent Variable¼Cost of Equity Mean
+
+Pred. sign (1) (2) (3)
+
+Predicted Major Customer þ 1.444nnn
+(10.43)
+
+Predicted Customer HHI þ 4.785nnn
+(3.90)
+
+Predicted Total Major Customer Sales þ 3.131nnn
+(8.51)
+
+Beta Value-Weighted þ 0.203nnn 0.225nnn 0.212nnn
+(10.23) (11.68) (10.72)
+
+Idiosyncratic Risk þ 0.455nnn 0.497nnn 0.461nnn
+(17.88) (19.70) (18.27)
+
+Log(Market Value of Equity)  0.236nnn 0.267nnn 0.247nnn
+(7.49) (8.59) (7.91)
+
+Book-to-Market þ 0.632nnn 0.616nnn 0.629nnn
+(22.49) (22.00) (22.50)
+
+
+
+D. Dhaliwal et al. / Journal of Accounting and Economics 61 (2016) 23–48 45
+
+Table 11 (continued )
+
+Book Leverage þ 0.584nnn 0.557nnn 0.575nnn
+(23.32) (22.59) (23.10)
+
+Momentum  0.152nnn 0.145nnn 0.149nnn
+(9.52) (9.21) (9.36)
+
+Analyst Forecast Dispersion þ 0.038n 0.034 0.038n
+(1.79) (1.63) (1.78)
+
+Long-Term Growth Rate þ 0.241nnn 0.232nnn 0.231nnn
+(8.85) (8.55) (8.47)
+
+Return on Assets 7 0.127nnn 0.130nnn 0.133nnn
+(5.87) (6.06) (6.18)
+
+Observations 43,152 43,152 43,152
+Adjusted R2 0.166 0.180 0.175
+We select lagged industry averages of each customer concentration measure as our instrumental variables. Specifically,
+we use two-year and three-year lagged industry averages of the particular concentration measure. We calculate industry
+averages based on the supplier’s 3-digit SIC industry and year and exclude the supplier’s customer concentration from this
+calculation. For example, the instruments for whether a supplier has a major customer are the fraction of firms in the
+supplier’s 3-digit SIC industry that report relying on at least one major customer two years ago and three years ago.
+
+Average industry customer concentration should meet the relevance condition because it is a good proxy for the
+structure of a supplier’s industry and will therefore be highly correlated with an individual supplier’s customer-base
+structure. Further, to the extent that industry customer concentration is correlated with industry risk and a supplier’s
+financing costs are related to industry risk, industry average concentration measures are unlikely related to the individual
+supplier’s financing costs after controlling for the individual supplier’s risk. By using lagged industry average values, it is also
+less likely that industry averages will be correlated with a supplier’s current cost of equity because investors price future risk
+not historical risk. Thus, industry average customer concentration measures likely satisfy the exclusion restriction. Yet,
+because the industry structure of customers is likely persistent through time, these lagged values should still be related to a
+supplier’s current customer concentration.36
+
+Panel A of Table 11 presents the first-stage results that we obtain by regressing each particular customer concentration
+measure on our selected instrumental variables and the set of control variables used in Table 2.37 We perform various tests
+that suggest that our selected sets of instrumental variables are valid. Specifically, the Wu-Hausman test rejects the null
+hypothesis that our customer concentration measures are exogenous by themselves. The high F-statistic and partial R2 of our
+instruments imply that our results do not suffer from the problem of weak instruments. Lastly, using the Sargan
+overidentification test, we are unable to reject the null hypothesis that our selected instruments are uncorrelated with
+the error term, implying that the instruments are exogenous with respect to a supplier’s cost of equity. The second-stage
+results in Panel B show a positive relation between customer concentration and a supplier’s cost of equity across all three
+measures of customer concentration. Thus, to the extent that our instruments are valid, the results in Table 11 suggest that
+greater customer concentration causally increases a supplier’s cost of equity.
+
+5. Conclusion
+
+A supplier that is dependent on a major customer faces the risk that this customer will go bankrupt, switch suppliers, move
+production in-house, and be unable to pay outstanding invoices once bankrupt. While prior evidence suggests that a
+concentrated customer base results in predictably greater risk, whether this risk is priced into a supplier’s cost of equity is
+unclear. Consistent with customer concentration increasing a supplier’s risk, we find a positive relation between customer
+concentration and a supplier’s cost of equity. This finding is robust to accounting for endogeneity concerns using a propensity
+score matched sample and instrumental variables. To the extent that these additional analyses alleviate endogeneity concerns,
+our results can be interpreted as greater customer concentration causally increasing a supplier’s cost of equity.
+
+We also find cross-sectional variation in settings where the risk associated with having a concentrated customer base is
+greater. Specifically, the positive relation between customer concentration and a supplier’s cost of equity is more
+pronounced for a supplier with: (1) a major customer that is more likely to default or declare bankruptcy, (2) a major
+customer that has fewer barriers to switching to a different supplier, (3) greater uncollectible outstanding invoices if a major
+customer defaults, and (4) a non-diversified revenue stream. We also provide evidence that a supplier that relies on
+relatively more stable federal government customers for a significant portion of revenues has a lower cost of equity. Lastly,
+36 Our use of industry averages as instrumental variables is in line with similar approaches in several papers. For example, Jin (2002) uses industry
+average risk measures as instruments for firm-specific risk measures. Hanlon et al. (2003) use industry average employee stock option (ESO) grant values as
+instruments for firm-level ESO grant values. Shi (2003) uses industry average R&D as an instrument for firm-specific R&D. Last, Dass et al. (forthcoming)
+use industry average values of relationship-specific investments as instruments for supplier relationship-specific investments with customers.
+
+37 We exclude industry year fixed effects from this test. In our previous analyses, we included industry-year fixed effects to control for potential
+omitted variables at the industry-year level. However, if our selected instruments pass all the tests needed to be considered a valid instrument, this
+instrumental variables approach corrects for all omitted variables. Therefore, the inclusion of industry  year fixed effects is not needed.
+
+
+
+46 D. Dhaliwal et al. / Journal of Accounting and Economics 61 (2016) 23–48
+we find that a supplier with a concentrated corporate customer base has not only a higher cost of equity but also a higher
+cost of bank and public debt.
+
+Appendix A. Estimation of the implied cost of equity capital
+
+We follow previous research in the cost of equity capital literature by outlining the different methodologies of estimating
+the cost of equity (Chen et al., 2011; Dhaliwal et al., 2006). To ease the discussion, we first define the variables used in the
+following three models.
+
+Pn
+t ¼ Implied market price of a firm’s common stock at time t. We use the price in June following the latest fiscal year-end
+
+to compute Pn
+t .
+
+Bt¼Book value of equity from the most recent available financial statements at time t.
+FEPStþ i¼Median forecasted earnings per share (EPS) from IBES or derived EPS forecasts for the next ith year at time t.
+POUT¼Forecasted dividends payout ratio. We use the ratio of the indicated annual dividends from IBES and FEPStþ1 to
+measure the forecasted payout ratio. If FEPStþ1 is negative, we assume a return on assets of 6% to calculate earnings.
+POUT is winsorized to be within 0 and 1.
+
+A.1. Gebhardt et al. (2001)
+
+TX1 ½FROE
+Pn tþ iRGLS  Btþ i1
+t ¼ Btþ þ½FROEtþT RGLS  BtþT1: ðA 1Þ
+
+i ¼ 1 ð1þRGLSÞi ð1þR 1
+GLSÞT RGLS
+
+We use IBES analysts’ forecasts to proxy for the market expectation of the firm’s earnings for the next 3 years. Thereafter, we
+measure expectations for market earnings by assuming that the future return on equity (FROE) declines linearly to an equilibrium
+return on equity (ROE) from the 4th year to the Tth year. This equilibrium ROE is measured by a historical, 10-year, industry-specific
+median ROE. The ROE is calculated as income available for common shareholders (Compustat data item IBC) scaled by the lagged total
+book value of equity (Compustat data item CEQ). We classify all firms into 48 industries defined by Fama and French (1997). Following
+Botosan and Plumlee (2005), we involve all firms, including those with negative ROEs to compute the industry ROE. If the industry ROE
+is less than the risk-free rate, we set the industry ROE to be the risk-free rate (Liu et al., 2002). The future book value of equity is
+estimated by assuming the clean surplus relation (i.e., Btþ1¼BtþEPStþ1DPStþ1). The future dividend, DPStþ i, is calculated by
+multiplying EPStþ i by POUT. We assume that T¼12. We use a numerical approximation program to solve for RGLS that equates the
+right- and left-hand sides of Eq. (A-1) within a difference of $0.001.
+
+A.2. Claus and Thomas (2001)
+
+X5 ½FEPS
+Pn tþ iRCT  Btþ i1
+t ¼ Btþ þ½FEPStþ5RCT  Btþ4  ð1þgltÞ: ðA 2Þ
+
+i ¼ 1 ð1þRCTÞi ðRCTgltÞð1þRCTÞ5
+
+We use IBES earnings forecasts to estimate the abnormal earnings for the next 5 years. Earnings forecasts for the future
+4th and 5th years are derived from earnings forecasts for the 3rd year and the long-term earnings growth rate. If the long-
+term earnings growth rate is missing from IBES, an implied earnings growth rate from EPStþ2 and EPStþ3 is used. The long-
+term abnormal earnings growth rate is calculated using the contemporaneous risk-free rate (the yield on 10-year Treasury
+bonds) minus 3%. The future book value of equity is also estimated by assuming the clean surplus relation. The future
+dividend, DPStþ i, is calculated by multiplying EPStþ i by the payout ratio, POUT. We use a numerical approximation program
+to solve for RCT that equates the right- and left-hand sides of Eq. (A-2) within a difference of $0.001.
+
+A.3. Ohlson and Juettner-Nauroth (2005) and implemented by Gode and Mohanram (2003)
+
+sffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi
+S
+
+ROJN ¼ Aþ A2þ EtðEP tþ1Þ ðg
+Pn 2gltÞ; ðA 3Þ
+t
+
+where  
+PS
+
+A¼ 0:5 g tþ1
+ltþ
+
+D
+;
+
+Pn
+t
+
+and where g 2 is the average of the short-term earnings growth rate implied in EPStþ1 and EPStþ2 and the analysts’
+forecasted long-term growth rate. The implementation of this model requires that EPStþ140 and EPStþ240. glt is
+calculated using the contemporaneous risk-free rate (the yield on 10-year Treasury bonds) minus 3%.
+
+
+
+D. Dhaliwal et al. / Journal of Accounting and Economics 61 (2016) 23–48 47
+A.4. The modified PEG ratio model by Easton (2004)
+
+Pn
+t ¼
+
+EtðEPStþ1ÞþEtðEPStþ1ÞEt ½gstRMPEG  ð1POUTÞ ð
+RMPEG R2 A 4Þ
+
+MPEG
+
+We use a numerical approximation program to solve for RMPEG that equates the right- and left-hand sides of Eq. (A-4)
+within a difference of $0.001. This model requires that EPStþ2ZEPStþ140.
+
+References
+
+Albuquerque, A., Papadakis, G., Wysocki, P., 2014. The impact of risk on CEO equity incentives: evidence from customer concentration. Working Paper.
+University of Miami.
+
+Altman, E.I., 1968. Financial ratios, discriminant analysis and the prediction of corporate bankruptcy. Journal of Finance 23, 589–609.
+Ashbaugh-Skaife, H., Collins, D.W., Kinney, W.R., LaFond, R., 2009. The effect of SOX internal control deficiencies on firm risk and cost of equity. Journal of
+
+Accounting Research 47, 1–43.
+Banerjee, S., Dasgupta, S., Kim, Y., 2008. Buyer–supplier relationships and the stakeholder theory of capital structure. Journal of Finance 63, 2507–2552.
+Barth, M.E., Konchitchki, Y., Landsman, W.R., 2013. Cost of capital and earnings transparency. Journal of Accounting and Economics 55, 206–224.
+Berrios, R., 2006. Government contracts and contractor behavior. Journal of Business Ethics 63, 119–130.
+Bharath, S.T., Shumway, T., 2008. Forecasting default with the Merton distance to default model. Review of Financial Studies 21, 1339–1369.
+Bhattacharya, N., Ecker, F., Olsson, P.M., Schipper, K., 2012. Direct and mediated associations among earnings quality, information asymmetry, and the cost
+
+of equity. The Accounting Review 87, 449–482.
+Botosan, C.A., 1997. Disclosure level and the cost of equity capital. The Accounting Review 72, 323–349.
+Botosan, C.A., Plumlee, M.A., 2005. Assessing alternative proxies for the expected risk premium. The Accounting Review 80, 21–53.
+Bowen, R.M., DuCharme, L., Shores, D., 1995. Shareholders’ implicit claims and accounting method choice. Journal of Accounting and Economics 20,
+
+255–295.
+Brown, D.T., Fee, C.E., Thomas, S.E., 2009. Financial leverage and bargaining power with suppliers: evidence from leveraged buyouts. Journal of Corporate
+
+Finance 15, 196–211.
+Campbell, J.L., Dhaliwal, D.S., Schwartz Jr., W.C., 2012. Financing constraints and the cost of capital: evidence from the funding of corporate pension plans.
+
+Review of Financial Studies 25, 868–912.
+Campello, M., Gao, J., 2014. Customer concentration and loan contract terms. Working Paper. Cornell University.
+Carhart, M.M., 1997. On persistence in mutual fund performance. Journal of Finance 52, 57–82.
+Cen, L., Dasgupta, S., Sen, R., 2013. Discipline or disruption? Stakeholder relationships and the effect of takeover threat. Working Paper. Hong Kong
+
+University of Science and Technology.
+Chen, K.C., Chen, Z., Wei, J., 2011. Agency costs of free cash flow and the effect of shareholder rights on the implied cost of equity capital. Journal of Financial
+
+and Quantitative Analysis 46, 171–207.
+Chen, H., Kacperczyk, M., Ortiz-Molina, H., 2011. Labor unions, operating flexibility, and the cost of equity. Journal of Financial and Quantitative Analysis 46,
+
+25–58.
+Chen, H., Kacperczyk, M., Ortiz-Molina, H., 2012. Do nonfinancial stakeholders affect the pricing of risky debt? Evidence from unionized workers. Review of
+
+Finance 16, 347–383.
+Claus, J., Thomas, J., 2001. Equity premia as low as three percent? Evidence from analysts’ earnings forecasts for domestic and international stock markets.
+
+Journal of Finance 56, 1629–1666.
+Costello, A., 2013. Mitigating incentive conflicts in inter-firm relationships: evidence from long-term supply contracts. Journal of Accounting and Economics
+
+56, 19–39.
+Coval, J.D., Moskowitz, T.J., 1999. Home bias at home: local equity preference in domestic portfolios. Journal of Finance 54, 2045–2073.
+Dass, N., Kale, J.R., Nanda, V., 2015. Trade credit, relationship-specific investment, and product market power. Review of Finance. forthcoming, http://dx.doi.
+
+org/10.1093/rof/rfu038.
+Dehejia, R.H., Wahba, S., 2002. Propensity score-matching methods for nonexperimental causal studies. Review of Economics and Statistics 84, 151–161.
+Dhaliwal, D., Heitzman, S., Li, O.Z., 2006. Taxes, leverage, and the cost of equity capital. Journal of Accounting Research 44, 691–723.
+Dhaliwal, D.S., Li, O.Z., Tsang, A., Yang, Y.G., 2011. Voluntary nonfinancial disclosure and the cost of equity capital: The initiation of corporate social
+
+responsibility reporting. The Accounting Review 86, 59–100.
+Dhaliwal, D., Michas, P.N., Naiker, V., Sharma, D., 2014. Major customer reliance and auditor going-concern decisions. Working Paper. The University of
+
+Arizona.
+Dimson, E., 1979. Risk measurement when shares are subject to infrequent trading. Journal of Financial Economics 7, 197–226.
+Easton, P.D., 2004. PE ratios, PEG ratios, and estimating the implied expected rate of return on equity capital. The Accounting Review 79, 73–95.
+Ellis, J., Fee, E.C., Thomas, S., 2012. Proprietary costs and the disclosure of information about customers. Journal of Accounting Research 50, 685–727.
+Fama, E.F., French, K.R., 1993. Common risk factors in the returns of stocks and bonds. Journal of Financial Economics 33, 3–56.
+Fama, E.F., French, K.R., 1997. Industry costs of equity. Journal of Financial Economics 43, 153–193.
+Fang, V.W., Tian, X., Tice, S., 2014. Does stock liquidity enhance or impede firm innovation? Journal of Finance 69, 2085–2125.
+Faulkender, M., Petersen, M.A., 2006. Does the source of capital affect capital structure? Review of Financial Studies 19, 45–79.
+Fee, C.E., Thomas, S.E., 2004. Sources of gains in horizontal mergers: evidence from customer, supplier and rival firms. Journal of Financial Economics 74,
+
+423–460.
+Francis, J., LaFond, R., Olsson, P.M., Schipper, K., 2005. The market pricing of accruals quality. Journal of Accounting Economics 39, 295–327.
+Francis, J., Nanda, D., Olsson, P.M., 2008. Voluntary disclosure, earnings quality, and cost of capital. Journal of Accounting Research 46, 53–99.
+Fu, F., 2009. Idiosyncratic risk and the cross-section of expected stock returns. Journal of Financial Economics 91, 24–37.
+Gebhardt, W.R., Lee, C.M.C., Swaminathan, B., 2001. Toward an implied cost of capital. Journal of Accounting Research 39, 135–176.
+Gode, D., Mohanram, P., 2003. Inferring the cost of capital using the Ohlson-Juettner model. Review of Accounting Studies 8, 399–431.
+Goldman, E., Rocholl, J., So, J., 2013. Politically connected boards of directors and the allocation of procurement contracts. Review of Finance 17, 1617–1648.
+Gormley, T.A., Matsa, D.A., 2014. Common errors: how to (and not to) control for unobserved heterogeneity. Review of Financial Studies 2, 617–661.
+Guay, W., Kothari, S.P., Shu, S., 2011. Properties of implied cost of capital using analysts’ forecasts. Australian Journal of Management 36, 125–149.
+Hail, L., Leuz, C., 2006. International differences in the cost of equity capital: do legal institutions and securities regulation matter? Journal of Accounting
+
+Research 44, 485–531.
+Hanlon, M., Rajgopal, S., Shevlin, T., 2003. Are executive stock options associated with future earnings? Journal of Accounting and Economics 36, 3–43.
+Hann, R.N., Ogneva, M., Ozbas, O., 2013. Corporate diversification and the cost of capital. Journal of Finance 68, 1961–1999.
+Hertzel, M.G., Li, Z., Officer, M., Rodgers, K., 2008. Inter-firm linkages and the wealth effects of financial distress along the supply chain. Journal of Financial
+
+Economics 87, 374–387.
+Hui, K.W., Klasa, S., Yeung, P.E., 2012. Corporate suppliers and customers and accounting conservatism. Journal of Accounting and Economics 53, 115–135.
+
+
+
+48 D. Dhaliwal et al. / Journal of Accounting and Economics 61 (2016) 23–48
+Inderst, R., Wey, C., 2007. Buyer power and supplier incentives. European Economic Review 51, 647–667.
+Itzkowitz, J., 2013. Customers and cash: how relationships affect suppliers’ cash holdings. Journal of Corporate Finance 19, 159–180.
+Ivković, Z., Weisbenner, S., 2005. Local does as local is: information content of geography of individual investors’ common stock investments. Journal of
+
+Finance 60, 267–306.
+Jegadeesh, N., Titman, S., 1993. Returns to buying winners and selling losers: implications for stock price efficiency. Journal of Finance 8, 65–91.
+Jin, L., 2002. CEO compensation, diversification, and incentives. Journal of Financial Economics 66, 29–63.
+Jorion, P., Zhang, G., 2009. Credit contagion from counterparty risk. Journal of Finance 64, 2053–2087.
+Kale, J.R., Shahrur, H., 2007. Corporate capital structure and the characteristics of suppliers and customers. Journal of Financial Economics 83, 321–365.
+Kalwani, M.U., Narayandas, N., 1995. Long-term manufacturer-supplier relationships: do they pay off for supplier firms? Journal of Marketing 59, 1–16.
+Kennedy, P., 2008. A Guide to Econometrics, sixth ed. Blackwell Publishing Ltd., Malden, MA.
+Kim, J.B., Song, B.Y., Zhang, L., 2011. Internal control weakness and bank loan contracting: evidence from SOX section 404 disclosures. The Accounting
+
+Review 86, 1157–1188.
+Kolay, M., Lemmon, M., Tashjian, E., 2015. Distress-related spillover effects in the supply chain: information revelation or real economic cost? Working
+
+Paper. University of Utah.
+Lambert, R., Leuz, C., Verrecchia, R., 2007. Accounting information, disclosure, and the cost of capital. Journal of Accounting Research 45, 385–420.
+Larcker, D.F., Rusticus, T.O., 2010. On the use of instrumental variables in accounting research. Journal of Accounting and Economics 49, 186–205.
+Li, S., 2010. Does mandatory adoption of international financial reporting standards in the European Union reduce the cost of equity capital? The
+
+Accounting Review 85, 607–636.
+Lintner, J., 1965. The valuation of risk assets and the selection of risky investments in stock portfolios and capital budgets. Review of Economics and
+
+Statistics 65, 13–37.
+Liu, J., Nissim, D., Thomas, J., 2002. Equity valuation using multiples. Journal of Accounting Research 40, 135–172.
+Malkiel, B., Xu, Y., 2004. Idiosyncratic risk and security returns. Working Paper. The University of Texas at Dallas.
+Merton, R.C., 1974. On the pricing of corporate debt: the risk structure of interest rates. Journal of Finance 29, 449–470.
+Modigliani, F., Miller, M., 1958. The cost of capital, corporation finance, and the theory of investment. American Economic Review 48, 261–297.
+Ohlson, J.A., 1980. Financial ratios and the probabilistic prediction of bankruptcy. Journal of Accounting Research 18, 109–131.
+Ohlson, J.A., 1995. Earnings, book values, and dividends in equity valuation. Contemporary Accounting Research 11, 661–687.
+Ohlson, J.A., Juettner-Nauroth, B.E., 2005. Expected EPS and EPS growth as determinants of value. Review of Accounting Studies 10, 349–365.
+Pástor, L., Stambaugh, R.F., 2003. Liquidity risk and expected stock returns. Journal of Political Economy 111, 642–685.
+Patatoukas, P.N., 2012. Customer-base concentration: implications for firm performance and capital markets. The Accounting Review 87, 363–392.
+Raman, K., Shahrur, H., 2008. Relationship-specific investments and earnings management: evidence on corporate suppliers and customers. The
+
+Accounting Review 83, 1041–1081.
+Reichelstein, S., 1992. Constructing incentive schemes for government contracts: an application of agency theory. The Accounting Review 67, 712–731.
+Roberts, M.R., Whited, T.M., 2013. Endogeneity in empirical corporate finance. In: Constantinides, G.M., Stulz, R.M. (Eds.), Handbook of the Economics of
+
+Finance, Elsevier, pp. 493–572.
+Rosenbaum, P.R., Rubin, D.B., 1983. The central role of the propensity score in observational studies for causal effects. Biometrika 70, 41–55.
+Scholes, M., Williams, J., 1977. Estimating betas from nonsynchronous data. Journal of Financial Economics 5, 309–327.
+Schumacher, U., 1991. Buyer structure and seller performance in U.S. manufacturing industries. Review of Economics and Statistics 73, 277–284.
+Sharpe, W., 1964. Capital asset prices, a theory of market equilibrium under conditions of risk. Journal of Finance 19, 425–442.
+Shi, C., 2003. On the trade-off between the future benefits and riskiness of R&D: a bondholder’s perspective. Journal of Accounting and Economics 35,
+
+227–254.
+Shleifer, A., Summers, L., 1988. Breach of trust in hostile takeovers. In: Auerbach, A.J. (Ed.), Corporate Takeovers: Causes and Consequences, University of
+
+Chicago Press, Chicago, pp. 1988.
+Shumway, T., 2001. Forecasting bankruptcy more accurately: a simple hazard model. Journal of Business 74, 101–124.
+Snyder, C.M., 1996. A dynamic theory of countervailing power. RAND Journal of Economics 27, 747–769.
+Spiegel, M., Wang, Y., 2005. Cross-sectional variation in stock returns: liquidity and idiosyncratic risk. Working Paper. Yale University.
+Taylor, D.J., Verrecchia R.E., 2014. Delegated trade and the risk premium. Working Paper. University of Pennsylvania.
+Titman, S., Wessels, R., 1988. The determinants of capital structure choice. Journal of Finance 43, 1–19.
+Valta, P., 2012. Competition and the cost of debt. Journal of Financial Economics 105, 661–682.
+Wang, J., 2012. Do firms’ relationships with principal customers/suppliers affect shareholders’ income? Journal of Corporate Finance 18, 860–878.
+Williamson, O., 1979. Transaction-cost economics: the governance of contractual relations. Journal of Law and Economics 22, 233–261.

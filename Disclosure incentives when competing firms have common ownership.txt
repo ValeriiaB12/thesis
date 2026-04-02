@@ -1,0 +1,4085 @@
+﻿Journal of Accounting and Economics 67 (2019) 387–415 
+
+Contents lists available at ScienceDirect 
+
+Journal of Accounting and Economics 
+
+journal homepage: www.elsevier.com/locate/jacceco 
+
+Disclosure incentives when competing firms have common 
+
+ownership ✩ 
+
+ 
+
+Jihwon Park a,   Jalal Sani b,   Nemit Shroff c , ∗, Hal White b 
+ 
+
+a Harvard Business School, Boston, Massachusetts, United States 
+b Penn State University, Pennsylvania, United States 
+c Massachusetts Institute of Technology, Massachusetts, United States 
+
+a r t i c l e i n f o a b s t r a c t 
+
+Article history: This paper examines whether common ownership – i.e., instances where investors simulta- 
+Received 26 March 2018 neously own significant stakes in competing firms – affects voluntary disclosure. We argue 
+Revised 4 January 2019 that common ownership (i) reduces proprietary cost concerns of disclosure, and (ii) incen- 
+Accepted 13 February 2019 
+
+tivizes firms to “internalize” the externality benefits of their disclosure for co-owned peer 
+Available online 19 February 2019 
+
+firms. Accordingly, we find a positive relation between common ownership and disclosure. 
+Evidence from cross-sectional tests and a quasi-natural experiment based on financial in- 
+stitution mergers help mitigate concerns that our results are explained by an omitted vari- 
+able bias or reverse causality. Finally, we find that common ownership is associated with 
+increased market liquidity. 
+
+© 2019 Elsevier B.V. All rights reserved. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+1. Introduction 
+
+The share of public U.S. firm stock owned by large institutional investors has substantially increased, and become more
+concentrated, over the past three decades. As a result, competing firms are increasingly becoming owned, in part, by the
+same large institutions (henceforth, common ownership). Theory suggests that when investors have (partial) equity owner-
+ship in competing firms, these firms have (i) less incentive to compete than they would if each firm had separate owners
+without a financial interest in the firms’ competitors and (ii) greater incentive to consider the benefits of their actions for
+commonly-owned peer firms ( Hansen and Lott, 1996; Rubin, 2006; Azar, 2017 ). The intuition is twofold. First, as firms com-
+pete aggressively, they engage in behaviors (e.g., patent races, price under-cutting) to gain an advantage relative to other
+firms, but the collective effect of these actions can negatively impact the common owners’ total portfolio value (i.e., lower
+combined profits across firms). Thus, common ownership can reduce firms’ incentives to compete. Second, if a firm’s actions
+have positive externalities on other firms, common ownership creates incentives for the firm to internalize these externali-
+ties in a manner that increases the portfolio value of the common owner. Consistent with this intuition, recent studies find
+✩ This paper integrates two working papers “Common Institutional Blockholdings and Voluntary Disclosure” by Sani and White, and “Common Owner- 
+ship and Disclosure Incentives” by Park and Shroff. We thank Matt Bloomfield (the reviewer), Wayne Guay (the editor), Karthik Balakrishnan, Dan Givoly, 
+Jeremiah Green, David Haushalter, Karl Muller, Jed Neilson, Martin Nienhaus, Jordan Schoenfeld, and workshop and conference participants at Cornell Uni- 
+versity, Frankfurt School of Finance & Management, MIT, Penn State University, University of Buffalo, University of Mannheim and University of Minnesota 
+Empirical Conference for many helpful comments and suggestions. Park gratefully acknowledges financial support from Samsung Scholarship. All errors are 
+our own. 
+
+∗ Corresponding author. 
+E-mail addresses: jpark@hbs.edu (J. Park), sani@psu.edu (J. Sani), shroff@mit.edu (N. Shroff), hdw113@psu.edu (H. White). 
+
+https://doi.org/10.1016/j.jacceco.2019.02.001 
+0165-4101/© 2019 Elsevier B.V. All rights reserved. 
+
+
+
+388 J. Park, J. Sani and N. Shroff et al. / Journal of Accounting and Economics 67 (2019) 387–415 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+evidence supporting the anticompetitive effects of common ownership ( Azar et al., 2016, 2018; He and Huang, 2017 ) and
+evidence that common ownership leads firms to internalize externalities ( He et al., 2018a ). 
+
+In this paper, we examine whether common ownership increases firms’ incentives to disclose. Our analysis is moti-
+vated by two arguments. First, the research mentioned above suggests that managers of co-owned firms recognize the anti-
+competitive incentives of common owners and behave in ways to increase the portfolio value of the common owners. To
+the extent these co-owned firms are less competitive with each other, we argue they are likely to be less concerned that
+proprietary information conveyed in their disclosures will be used by competitors to gain market share/profits at the ex-
+pense of the disclosing firm. Considering that proprietary cost is one of the primary constraints to full disclosure by firms,
+by relaxing that constraint, common ownership can lead to more disclosure. 
+
+Second, aside from a potential reduction in the proprietary cost of disclosure, there is also a potential increase in the
+benefit of disclosure from common ownership. In particular, prior research provides theoretical and empirical evidence that
+greater disclosure by one firm in an industry can have spillover effects related to liquidity and cost of capital for other firms
+in that industry ( Admati and Pfleiderer, 20 0 0; Bushee and Leuz, 2005; Shroff et al., 2017 ). We argue that common owner-
+ship creates incentives for firms to internalize these positive externalities, thereby increasing disclosure. That is, increased
+disclosure by one co-owned firm can increase the portfolio value of common owners not only through improved liquidity
+and lower cost of capital of the disclosing firm (direct benefit), but also through improved liquidity and lower cost of capital
+of other same-industry firms in the common owner’s portfolio (indirect benefit). Based on the above two arguments, we
+predict that common ownership increases firms’ incentives to disclose. 
+
+Nevertheless, there are at least three reasons why common ownership might not lead to increased disclosure. First, al-
+though co-owned firms might face reduced competition from one another, it’s unclear to what extent common ownership
+would result in greater disclosure because these firms still face nontrivial proprietary costs from non-co-owned firms (e.g.,
+private firms) as well as other disclosure costs that may still bind the firm. Second, prior research suggests that institutional
+investors with large positions in a firm can execute profitable trades based on their private information, especially in opaque
+information environments (e.g., Bushee and Goodman, 2007; Maffett, 2012 ). Specifically, an opaque disclosure environment
+creates incentives for investors to become privately informed ( Verrecchia, 1982; Diamond, 1985 ), and institutional investors
+have greater ability to acquire and execute profitable trades based on private information ( Maffett, 2012 ). As a result, in-
+creased disclosure could reduce the ability of common owners, typically large institutions, to execute profitable trades based
+on their private information. Finally, the theoretical literature offers conflicting predictions on whether competition increases
+or decreases disclosure incentives (see e.g., Verrecchia, 1983, 1990; Darrough and Stoughton, 1990; Darrough, 1993 ), and
+empirical studies find mixed evidence on the association between proxies for competition and disclosure (see Beyer et al.,
+2010 for a review).1  Thus, it is ex ante unclear how common ownership affects disclosure incentives. 
+
+To conduct our analyses, we define firm-year observations as having a common owner if an investor owns at least five
+percent equity in two or more firms in an industry (defined based on the Hoberg and Phillips, 2010; 2016 300-industry
+classification). We focus on investors with at least five percent ownership (henceforth, blockholders) because such investors
+have several mechanisms to influence corporate decisions, including disclosure. In particular, prior research suggests that
+blockholders can influence managers through private communications, board member elections, and shareholders proposals 
+(e.g., Del Guercio and Hawkins, 1999; McCahery et al., 2016 ). In addition to the direct mechanisms, blockholders that aren’t
+required to hold shares (e.g., active investors) can influence firm decisions indirectly via threat of selling, i.e., exiting, the
+firm (e.g., Edmans and Manso, 2011; Bharath et al., 2013 ). 
+
+Our disclosure proxies are based on the intuition that common ownership results in both a decrease in the cost of pro-
+prietary disclosure and an increase in the benefit of disclosure due to externalities to co-owned peer firms. We use three
+disclosure proxies that are all useful to the market (i.e., generate externalities), but differ in the degree to which they re-
+veal proprietary information: (i) earnings forecasts, (ii) capital expenditure (capex) forecasts, and (iii) redacted disclosures.
+Earnings forecasts are arguably the least ‘costly’ means to disclose more information without harm from competitors, be-
+cause they aggregate information rather than reveal the granular level of detail that is most useful to competitors ( Lang and
+Sul, 2014; Glaeser, 2018 ). Moreover, because these forecasts are a function of the manager’s beliefs about how earnings will
+be impacted by the firm’s actions as well as external economic factors ( Goodman et al., 2014 ), it is difficult for competi-
+tors to infer the firm’s actions from the forecasts. Yet, prior research finds evidence that these forecasts are useful in that
+they help increase liquidity and lower the cost of capital for the disclosing firm ( Coller and Yohn, 1997; Shroff et al., 2013;
+Balakrishnan et al., 2014 ) as well as its peers ( Baginski and Hinson, 2016 ). 
+
+Our second proxy, capex forecasts, provides more proprietary information, as these forecasts represent expected future
+cash outlays by the firm ( Li, 2010; Lu and Tucker, 2012 ). As such, a capex forecast can be considered a direct input -based
+proxy. Given the granularity of the information in a capex forecast regarding the firm’s production function and relatively
+longer payoff horizon, these forecasts can impose greater proprietary costs on the disclosing firm. Finally, we use redacted
+disclosures (approved by the SEC via confidential treatment orders (CTOs)) to capture the most direct, granular release
+of proprietary information ( Verrecchia and Weber, 2006; Boone et al., 2016 ). CTO redactions are well-suited to capture
+1 That said, recent evidence based on different quasi-natural experiments consistently finds that competition increases proprietary cost concerns and re- 
+duces disclosure ( Bernard, 2016; Huang et al., 2017; Li et al., 2017; Aobdia, 2018; Bernard et al., 2018 ). Further, surveys of managers suggest that competitive 
+concerns deter, rather than promote, their disclosure ( Graham et al., 2005; Dedman and Lennox, 2009; Minnis and Shroff, 2017 ). 
+
+
+
+J. Park, J. Sani and N. Shroff et al. / Journal of Accounting and Economics 67 (2019) 387–415 389 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+proprietary information, as CTO requests are granted by the SEC if the firm can demonstrate that such disclosure could
+adversely affect its profits via competitive harm—i.e., there are actual 2
+
+ proprietary costs.  
+
+ 
+
+Note that while our main argument is that three types of disclosure vary in the degree to which they reveal proprietary
+information, the externalities they confer upon peer firms could also differ. In particular, it is plausible that forecasts contain
+more systemic information (e.g., industry-related information) relative to the information in material contracts, which could
+be more idiosyncratic to the firm and its immediate competitors. Thus, the externality value of forecasts could be greater
+than that of CTO redactions. 
+
+We test our predictions using a sample of 54,541 (66,455) U.S. public firm-year observations from 1999 to 2015 (1997 to
+2015) when the disclosure proxy is management forecasts (redactions). Consistent with our prediction, we find that common
+ownership is positively associated with the likelihood and frequency of issuing earnings and capex forecasts. These results
+are robust to the inclusion of firm and industry-year fixed effects, blockholder fixed effects, several time-varying control
+variables (including investors’ common ownership in non-competing firms – i.e., firms operating in other industries), several
+proxies for the degree of common ownership interest in competing firms, and different industry classification approaches
+(such as SIC 4-digit and NAICS 4-digit). Our coefficient estimates imply that firms that have common owners are 9.5% (22%)
+more likely to issue an earnings (capex) forecast and issue 8.8% (12.9%) more earnings (capex) forecasts on average than
+firms that do not have a common owner. 
+
+We also find common ownership is not significantly associated with redactions (our most direct, granular proxy for
+proprietary information), consistent with co-owned firms not fully disclosing all information. This lack of disclosure could
+be due to managers’ concern of remaining competition from non-commonly owned firms; however, it is also possible, as we
+note earlier, that the lack of disclosure could result from managers believing that CTOs have less systemic information, and
+therefore provide less of an externality benefit, despite containing more proprietary information. It is also important to note
+that contractual counterparties could feasibly demand that firms refrain from disclosing details about the contract. Thus, it
+is difficult to infer the managerial intent behind the non-disclosure. 
+
+A potential concern with the preceding analyses is that unobservable variables (e.g., performance expectations) may
+be correlated with both disclosure policy and common ownership (even though we include an extensive set of control
+variables and fixed-effects). As an alternative approach, we use financial institution mergers to generate exogenous variation
+in common ownership ( He and Huang, 2017; Azar et al., 2018 ). As we discuss in more detail in Section 5 , this approach
+allows us to identify plausibly exogenous increases in common ownership for some firms while leaving other (similar)
+firms to serve as the control 3
+
+ group.  
+
+ Using a difference-in-differences estimator, we find that treated firms are significantly
+more likely to issue earnings and capex forecasts and provide more frequent capex forecasts relative to control firms after
+exogenous increases in common ownership. Consistent with our main results, we find no significant association between
+changes in common ownership and redactions. 
+
+We conduct two additional tests to shed light on the reason why common ownership increases disclosure. First, we
+test and find that the relation between common ownership and disclosure is greater when the proportion of firms in the
+industry that are commonly owned is higher, consistent with greater perceived disclosure benefits as a result of reduced
+proprietary costs. Second, to isolate the externality channel, we examine whether firms increase disclosure in response
+to their co-owned peer firms’ demand for additional public information. Specifically, we examine whether firms increase
+disclosure in response to a temporary (and exogenous) loss of public information related to co-owned peer firms when
+these peer firms lose analyst coverage due to a broker closure/merger ( Kelly and Ljungqvist, 2012 ). Prior research suggests
+that a loss of analyst coverage increases information asymmetry for that firm, and thus firms experiencing losses in analyst
+coverage respond by increasing voluntary disclosure. If common ownership incentivizes firms to consider the benefits of
+their disclosures for co-owned peers, then a loss in analyst coverage for one co-owned firm increases the externality benefit
+of the disclosures of its co-owned peer firms. Consistent with this argument, we find evidence that exogenous losses in
+analyst coverage for one firm leads to an increase in disclosure by its co-owned peers. 
+
+Finally, we examine whether common ownership is associated with an increase in stock liquidity, as common owners
+are typically large institutions, which greatly value 4
+
+ liquidity due to the size and frequency of their trading.  
+
+ If common
+ownership results in an increase in disclosure, then we should find that these additional disclosures result in increased
+stock liquidity (e.g., Diamond and Verrecchia, 1991 ). Consistent with our expectation, we find that common ownership is
+associated with lower bid-ask spread and higher liquidity, measured using Amihud (2002) approach. Our coefficients suggest
+that firms with common owners have approximately 2.5% lower spreads and 2.4% higher liquidity relative to firms without
+common owners. 
+
+Our evidence is important because consolidation in the asset management industry and the substantial rise in mutual
+fund investing have led to a small number of institutional investors becoming the largest shareholders of most publicly
+traded firms in the U.S. and in other developed economies. For example, our data reveal that as of December 2015, BlackRock
+2 The CTO allows confidential treatment of information in material contracts that would have otherwise been required to be filed with the SEC. 
+These material contracts include, but are not limited to, royalty agreements, joint ventures, research and development, patents, and employee contracts 
+( Verrecchia and Weber, 2006 ). 
+
+3 Nevertheless, this setting has some important limitations, which we discuss in section 5. 
+4 Note that even passive long-term investors value liquidity, as they frequently rebalance their portfolios and incur higher trading costs when the stock 
+
+is illiquid. 
+
+
+
+390 J. Park, J. Sani and N. Shroff et al. / Journal of Accounting and Economics 67 (2019) 387–415 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+and Vanguard are among the largest five shareholders of more than 53% of firms in the universe of Compustat firms (see
+Table 3 ; Anton et al., 2018 report similar evidence). Given the pervasiveness of common ownership as a feature of the new
+economy, it is important to understand the consequences of common ownership on firm behavior. Our paper takes a step
+in this direction by showing the effect of common ownership on disclosure incentives. 
+
+This study contributes to two strands of literature. First, our paper contributes to a growing literature examining the
+economic implications 5
+
+ of common ownership.  
+
+ Specifically, our study (along with Pawliczek and Skinner, 2018 , discussed
+below) is the first to examine the effect of common ownership on disclosure incentives and liquidity. Second, this paper
+is related to the literature examining the relation between institutional ownership and disclosure.6  Much of the literature
+treats each firm as an independent holding of the institutional investor; Jung (2013) being an exception. Jung (2013) finds
+that institutional investor overlap leads to a diffusion of disclosures practices, which leads firms with common investors to
+have more similar disclosure practices. Our findings build on this literature by showing that institutional owners that are
+blockholders of related firms can further affect disclosure incentives by reducing proprietary cost concerns and increasing
+externality benefits. 
+
+Finally, a concurrent working paper, Pawliczek and Skinner (2018 ; henceforth PS), also examines the relation between
+common ownership and disclosure. Our papers differ along four dimensions. First, we propose and provide evidence that
+common ownership can also affect disclosure incentives through externalities. Second, we examine three forms of disclo-
+sure that vary in the degree to which they reveal proprietary information exploitable by competitors. The examination of
+different types of disclosure helps enhance our understanding the degree to which common ownership relaxes proprietary
+cost concerns of disclosure. Third, we document that common ownership results in increased liquidity. Finally, our empirical
+design differs from that in PS along two important dimensions: (i) the proxy for common ownership, and (ii) the fixed ef-
+fects structure. Thus, the evidence using the two approaches is complementary in nature and helps reinforce the inferences
+of both papers. 
+
+2. Literature review and hypothesis 
+
+2.1. Prior research on common ownership 
+
+A large theoretical literature shows that partial common ownership of firms creates incentives for firms to consider, or
+internalize, the consequences of their actions on the value of other firms in the common 7
+
+ owners’ portfolio.  
+
+ As a result,
+common ownership reduces firms’ incentives to compete compared to a situation in which each firm has distinct owners
+that do not have a financial interest in competitors. The intuition underlying these theories is straightforward: the benefit of
+competing aggressively – gains in market share – comes at the expense of firms in the same industry, and reduces industry
+profits. A common owner that holds equal shares in all firms in an industry therefore does not benefit from aggressive
+competition such as price under-cutting, advertising wars, and patent races. Thus, as common ownership increases, fewer
+owners support an aggressive competitive strategy. 
+
+Several recent studies provide empirical support for this theoretical prediction. Azar et al. (2018) study the effect of com-
+mon ownership on ticket prices in the U.S. airline industry and find that increases in common ownership at the airline-route
+level leads to a 3–7% increase in ticket prices in these routes. Studying the U.S. banking sector, Azar et al. (2016) document
+that common ownership increases prices of deposit products, such as maintenance fees, and decreases deposit interest
+rates. Panayides and Thomas (2017) study a broad sample of industries and find that common ownership leads to decreased
+competition for market share and increased profitability. Gutiérrez and Philippon (2017) show that common ownership is
+negatively associated with firms’ tendency to invest despite high profit and Tobin’s q. He et al. (2018a and 2018b ) find that
+common ownership leads firms to 8
+
+ internalize the consequences of their governance choices on other firms.  
+
+ 
+
+To better appreciate the source of the growth of common ownership over time, Anton et al. (2018) provide descriptive
+evidence that large mutual fund companies have grown significantly in the last two decades, thereby becoming common
+owners for a large percentage of firms. Specifically, the growth in mutual fund common ownership is attributed to (i) the
+significant rise in mutual fund investing and (ii) consolidation in the asset management industry. Consistent with the above
+points, we find that BlackRock and Vanguard are among the largest five shareholders of more than 53% of all publicly traded
+firms in the Compustat universe in 2015. In contrast, these two institutions were among the top-five shareholders in fewer
+5 See e.g., Liang (2016), Azar et al. (2016, 2018) , He and Huang (2017), Kang et al. (2018), Anton et al. (2018) . 
+6 See e.g., Lang and Lundholm (1996), Bushee and Noe (20 0 0), Ajinkya et al. (2005), Maffett (2012), Jung (2013), Boone and White (2015), Bourveau and 
+
+Schoenfeld (2017), Schoenfeld (2017) and Abramova et al. (2018) . 
+7 See Rotemberg (1984), Gordon (1990), Hansen and Lott (1996), O’Brien and Salop (20 0 0), Gilo et al. (2006), Rubin (2006) , and Azar (2017) . 
+8 The potential anti-competitive implications of common ownership have concerned even antitrust scholars (See Elhauge (2017) for a re- 
+
+view of related literature in Law) and antitrust enforcers. For instance, the Assistant Attorney General for the Antitrust Division of the Depart- 
+ment of Justice informed a Senate subcommittee that it is exploring common ownership “in more than one industry” ( https://www.judiciary. 
+senate.gov/meetings/oversight- of- the- enforcement- of- the- antitrust- laws- 2016 ). The Federal Trade Commission recently challenged a merger based on 
+anti-competitive concerns related to common ownership ( https://www.shearman.com/perspectives/2017/%2011/ftc- challenge- of- red- ventures- bankrate ). 
+A case study by Martin Schmalz provides anecdotal evidence for anti-competitive effects of common ownership: http://ericposner.com/ 
+martin- schmalz- how- passive- funds- prevent- competition/ . 
+
+
+
+J. Park, J. Sani and N. Shroff et al. / Journal of Accounting and Economics 67 (2019) 387–415 391 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+than five percent of Compustat universe in 1997 (see Table 3 ). Other examples of growth in large institutional common
+ownership include State Street and T. Rowe Price. 
+
+2.2. Hypothesis 
+
+We argue there are two mechanisms through which common ownership affects firms’ disclosure incentives: (i) reduc-
+tion in proprietary costs, and (ii) internalization of disclosure externalities. The first argument is that if common own-
+ership creates anticompetitive incentives, firms should be less concerned about disclosing proprietary information. Given
+investor demand for more complete disclosure, along with relaxed concerns of proprietary costs, firms with common own-
+ers should increase their disclosure. The second argument is based on the disclosure externality literature, which argues
+that the disclosures of one firm can improve the information environment for other firms within the industry by reducing
+uncertainty about demand, supply and cost conditions, as these factors are interrelated within an industry.9  Specifically,
+Dye (1990) and Admati and Pfleiderer (20 0 0) develop analytical models that show disclosures of one firm lead to positive
+externalities in the form of liquidity spillovers for related firms; Bushee and Leuz (2005), Baginski and Hinson (2016) and
+Shroff et al. (2017) provide empirical evidence of such externalities (also see Minnis and Shroff, 2017 ). In the presence of
+such externalities, investors that have an ownership interest in several firms in the industry derive both (i) the direct benefits
+of disclosure, where a firm’s disclosure affects its own liquidity and cost of capital, and (ii) the indirect benefit of disclosure,
+where a firm’s disclosure affects the liquidity and cost of capital of peer firms in the industry. To the extent common own-
+ers incentivize their portfolio of firms to “internalize” the positive externalities of disclosure, these firms should increase
+disclosure. 
+
+As briefly noted earlier, improved liquidity is particularly useful for large institutional investors, which are the domi-
+nant common owners. Illiquidity significantly increases the trading costs for both active and passive investors. It is perhaps
+not surprising that active investors incur significant trading costs, but it might not be obvious why passive investors incur
+significant trading costs. Prior research (e.g., Boone and White, 2015; Bird and Karolyi, 2016; Schoenfeld, 2017 ) suggests
+that index-funds trade large volumes of stock on a daily basis to rebalance portfolios. Portfolio rebalancing needs arise be-
+cause of capital inflows/outflows into such mutual funds as well as corporate actions such as dividend payments. Further,
+Schoenfeld (2017) reports that the overwhelming majority of index-fund trades occur in the open secondary market. Thus,
+to the extent, one firm’s disclosure increases liquidity for several portfolio firms of a common owner, the reduction in trans-
+action costs for common owners can be substantial, creating incentives for common owners to elicit more disclosure from
+their portfolio 1
+
+ firms. 0 
+ 
+
+Nevertheless, there are at least three reasons why we might not observe a positive association between common own-
+ership and voluntary disclosure. First, co-owned firms continue to face competition from non-co-owned firms, which could
+impose significant proprietary costs of disclosure on co-owned firms. Second, prior research suggests that institutional in-
+vestors have greater access to private information, and thus prefer less disclosure because it helps them maintain their
+information advantage (e.g., Bushee and Noe, 20 0 0; Maffett, 2012 ). Thus, it is unclear whether the benefits of more disclo-
+sure from co-owned firms outweigh the cost of the reduction in common owners’ information advantage. Finally, based on
+academic theory, it is unclear whether competition increases or decreases disclosure incentives. 
+
+2.3. Can institutional investors influence firms’ disclosure decisions? 
+
+An important assumption in this paper is that common owners can influence firms’ disclosure decisions. We base
+this assumption on prior research that finds that institutional investors have significant influence on corporate behavior,
+which includes not only firms’ disclosure decisions but the entire spectrum of corporate decisions (e.g., payout policy,
+investment policy, governance provisions, etc.). For example, Appel et al. (2016) show that passive institutional investors
+influence governance choices, mainly through their large voting blocs, while Boone and White (2015), Bird and Karolyi
+(2016) Schoenfeld (2017) and Abramova et al. (2018) find that institutional investors influence disclosure decisions. Bushee
+(1998, 2001 ) and Aghion et al. (2013) find that institutional ownership affects both R&D spending and innovation. 
+
+Prior research discusses two mechanisms through which blockholders can influence their portfolio firms’ policies. First,
+they can actively influence firm policy. For example, they often have private communication with management. In a sur-
+vey of institutional investors, McCahery et al. (2016) document that the most frequently used engagement channel is di-
+rect discussions with management. Blockholders can also actively influence firm policy through board member elections
+9 Consistent with the idea that economic conditions are interrelated within an industry, Breuer et al. (2016), Baginski and Hinson (2016) and Arif and 
+De George (2018) find that the disclosures of related firms can serve as substitutes for each other. Badertscher et al. (2013) find that disclosures of related 
+firms can inform the investment decisions of peer firms and Shroff et al. (2014) find that disclosures of peer firms can reduce moral hazard cost for peer 
+firms. Anilowski et al. (2007) and Bonsall et al. (2013) find that management earnings forecasts are informative about macroeconomic conditions. Further, 
+several studies document intra-industry information transfers associated with disclosures (e.g., Foster, 1981; Baginski, 1987 ) 
+
+10 It is also plausible that common owners use voluntary disclosure as a means to coordinate and implement collusive strategies. Pawliczek and Skin- 
+ner (2018) provide evidence consistent with such a mechanism for why common ownership leads to increased disclosure. While we do not test the 
+collusion hypothesis, our empirical tests attempt to isolate our proposed mechanisms, i.e., lower proprietary costs and greater externality benefits. 
+
+
+
+392 J. Park, J. Sani and N. Shroff et al. / Journal of Accounting and Economics 67 (2019) 387–415 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+and reholder 1
+ sha  proposals ( Del Guercio and Hawkins, 1999 ). 1 
+
+ Institutional investors’ voting can also credibly signal their
+informational preferences to the firm management ( Boone and White, 2015 ). Documenting the impact of common owner-
+ship on institutional investors’ voting decisions, He et al. (2018a ) find that common owners are more likely to vote against
+management in shareholder-sponsored governance proposals, suggesting common owners take into account the negative 
+externalities of poor governance on other portfolio firms. 
+
+Second, institutional investors that have flexibility in their choice of holdings could influence corporate policies indirectly
+through the threat of exit, i.e., selling their shares and driving down the share price ( Edmans and Manso, 2011; Bharath et al.,
+2013; Gallagher et al., 2013 ). Managers who are sufficiently concerned about changes in stock price, ex ante, implement the
+desired policies of institutional investors to avoid ex post actual exit. 
+
+3. Research design, empirical proxies, and sample selection 
+
+3.1. Research design 
+
+We estimate OLS regressions of the following form to test our prediction: 
+
+Disclosur e i,t = α + β1 Common Owne r ′ 
+ 
+
+ i + αt × α
+ 
+
+ ind i,t−1 + r X + ε
+ i,t . (1) 
+
+ 
+
+ 
+
+ 
+
+where i and t index firms and years, respectively; αi and αt ×α
+ 
+
+ ind represent firm and year × industry fixed effects. We
+ 
+
+proxy for Disclosure using annual earnings and capex forecasts and CTO redactions. Common Owner is our proxy for common
+ownership at the firm-year level. X is a vector of control variables based on prior research. All variables are described in
+the Appendix. Standard errors are clustered at the firm and year levels. Continuous variables are winsorized at the 1% and
+99% levels. We use a linear probability model to estimate our regressions even when the dependent variable is an indicator
+because our regressions include several 12 
+
+ fixed effects. 
+
+3.2. Proxies for common ownership 
+
+We extract institutional ownership data from Thomson Reuters’s 13F database.13 
+ We label institutional investors as block-
+
+holders if their ownership is at least five percent of a firm’s outstanding shares. Common ownership arises when an insti-
+tutional investor is simultaneously a blockholder in at least two firms operating in the same Hoberg and Phillips (2010,
+2016 ) 300-industry grouping (henceforth, HP300 industry) at a given point in time. We construct four proxies for common
+ownership at the firm-year level: Common Dummy , No. Common Firms , MV Common Firms , and No. Common Investors . Our
+first proxy, Common Dummy , is an indicator variable that equals one for firm-years in which at least one of the firm’s insti-
+tutional blockholders simultaneously blockholds at least one other firm operating in the same industry. The second proxy,
+No. Common Firms , represents the number of same-industry firms that share at least one common owner with the focal firm
+(whose disclosure decisions we are studying). The third proxy, MV Common Firms , is the sum of the market value of com-
+mon owners’ ownership in the same-industry firms that share common ownership with the focal firm. Our final proxy, No.
+Common Investors , represents the number of unique institutional investors in a firm-year that simultaneously blockhold at
+least one other same-industry firm. We compute firm-year values for No. Common Firms , MV Common Firms and No. Common
+Investors using the average values of these proxies over the four quarters in each fiscal year. We log transform No. Common
+Firms , MV Common Firms and No. Common Investors to reduce skewness.14 
+
+ 
+
+Our common ownership proxies assume that firms operating in the same industry are economically related competi-
+tors. A similar assumption is (implicitly or explicitly) made in the majority of the studies examining the relation between
+product market characteristics and disclosure. We address concerns with this assumption by verifying the robustness of
+our inferences to alternative industry definitions, including the 4-digit NAICS and 4-digit SIC industry classification. For our
+main analyses, we follow Hoberg and Phillips (2010, 2016 ), who show that their industry classification approach (based on
+product description in 10-K filings) better identifies product market competitors. 
+11 Note that these actions are not limited to active investors. As noted above, Appel et al. (2016) find evidence that passive institutional investors influence 
+firms’ governance choices. 
+
+12 Using non-linear models, such as Logit or Probit, in the presence of fixed effects can result in inconsistent point estimates due to the incidental 
+parameter problem (see Wooldridge, 2002; Angrist and Pischke, 2009 ). 
+
+13 This dataset is known to be incomplete. To improve the accuracy of the data (as it relates to our research question), we search for missing institutional 
+holding by plotting the total market value of each institutions holdings in each quarter. If an investor initially appears as a top-seven institution, then falls 
+out of the list of top-ten institutions in the subsequent quarter and reappears in the top-seven list in the next quarter, we manually search Edgar for the 
+investor’s 13F filing. 
+
+14 Another proxy for common ownership in an industry is the modified Herfindhal-Hirschman index delta, which captures the extent to which firms com- 
+peting in a product market are connected through common owners (see e.g., Anton et al., 2018; Azar et al., 2018 ). Pawliczek and Skinner (2018) present 
+evidence consistent with a positive association between common ownership and disclosure using the modified Herfindhal-Hirschman index delta to mea- 
+sure common ownership. 
+
+
+
+J. Park, J. Sani and N. Shroff et al. / Journal of Accounting and Economics 67 (2019) 387–415 393 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+3.3. Proxy for voluntary disclosure 
+
+We focus on three forms of voluntary disclosure that prior research suggests are relevant to (i) firms’ competitors,
+as these disclosures impose proprietary costs on the disclosing firm, and (ii) investors in valuing the firm and mitigat-
+ing adverse selection costs, and thus increasing liquidity. The first form of voluntary disclosure is management earn-
+ings forecasts. Prior studies find that earnings forecasts are one of the primary sources of forward-looking information
+concerning firm performance and expected demand ( Beyer et al., 2010 ). Earnings forecasts not only convey informa-
+tion to the disclosing firms’ investors but also to investors and managers of peer firms. For example, Baginski and Hin-
+son (2016) find that the earnings forecasts of one firm affects the cost of capital of related firms in the industry, and
+Badertscher et al. (2013) find that such forecasts help inform the investment decisions of private firms operating in the
+same industry. In addition, several prior studies argue that management forecasts reveal proprietary information (see e.g.,
+Bamber and Cheon, 1998; Li, 2010; Ali et al., 2014; Huang et al., 2017 ). However, these disclosures aggregate information
+rather than provide more granular information that might help competitors back out a firm’s actions. Thus, earnings fore-
+casts are less revealing of information that is directly exploitable by competitors. Further, earnings forecasts merely advance
+the disclosure of earnings news a few months. Thus, the extent to which earnings forecasts impose incremental propri-
+etary costs on firms over those imposed by mandatory earnings disclosures is arguably limited (see Lang and Sul, 2014;
+Glaeser, 2018 ). 
+
+The second form of voluntary disclosure is management capital expenditure (capex) forecasts. We argue that capex fore-
+casts provide more proprietary information, as these forecasts represent one of the largest expected future cash outlays by
+the firm. The importance and granularity of the information in a capex forecast can be quite valuable to investors. However,
+these forecasts can also be quite helpful to competitors, as this information reveals plans yet to be undertaken, thereby
+allowing time for competitors to take action in response to these plans. If firms are concerned of competitive harm, they
+are less likely to provide these forecasts. 
+
+We construct two disclosure proxies for each type of management forecast based on the probability and frequency of
+forecasting. Specifically, Earnings Guide ( Capex Guide ) is an indicator variable that equals one for firm-years with at least
+one annual earnings (capex) forecast. Earnings Forecast Freq ( Capex Forecast Freq ) is the number of annual earnings (capex)
+forecasts issued in a fiscal year. We log transform Earnings Forecast Freq and Capex Forecast Freq to reduce skewness. We
+focus on annual (rather than quarterly) forecasts because longer-horizon forecasts are more likely to reveal proprietary
+information. 
+
+The third form of voluntary disclosure is the degree to which firms redact information under an SEC confidential
+treatment order ( Verrecchia and Weber, 2006 ). Regulation S-K requires firms to file their material contracts with their
+8-K, 10-K, 10-Q, or registration statements. However, the SEC allows firms to request that proprietary information con-
+tained in the contract be withheld (subject to SEC approval). By definition, information redacted from a firm’s con-
+tracts is proprietary. Examples of information that is typically redacted include cost and pricing data in supply contracts,
+and information in license agreements. We contend that this information is the most susceptible to proprietary
+costs of the three forms of disclosure, as this information is the most granular and factually based, as it relates
+to contractual details. However, contractual information could be idiosyncratic in nature and relevant only to the
+firm’s immediate stakeholders and competitors, but relatively less helpful for peer firms in terms of liquidity spill-
+over. 
+
+To identify redactions from firms’ material contracts, we begin by identifying all 8-K, 10-Q, and 10-K filings with at
+least one material contract (Exhibit 10) from the WRDS SEC Analytics Suite. We then search these filings for several key-
+words/phrases to identify the subset of contracts that contain redactions.15 
+
+ We compute our proxy for (the inverse of) dis-
+closure, %Redaction , by taking the ratio of the number of material contracts with redactions to the total number of material
+contracts in firms’ 8-K, 10-Q and 10-K filings in a 1
+
+ fiscal year. 6 
+ 
+
+3.4. Fixed effects and control variables 
+
+We include several control variables to mitigate concerns that a correlated omitted variable affects our results. Impor-
+tantly, all our regressions control for both firm- and year × industry-fixed effects. The inclusion of firm-fixed effects mitigates
+concerns that time-invariant firm characteristics affect the association between common ownership and disclosure. Further,
+by including firm-fixed effects, our regressions identify an association between common ownership and disclosure from
+15 Specifically, we use the following eight phrases to identify contracts containing redactions: “Rule 24b-2,” “Rule 406,” “FOIA,” “CT Order,” “confiden- 
+tial treatment … (security and exchange commission or SEC),” “(security and exchange commission or SEC) … confidential treatment,” “application …
+confidential treatment,” “confidential (material or portion) … (omit or redact).”
+
+16 We validate our approach to identify contracts with redacted information by cross-checking our approach to classify firm-years as having redactions 
+with a classification created using the SEC’s database on issuances of confidential treatment orders, which contains CTO issued from May 1, 2008 onwards 
+(see https://www.sec.gov/edgar/searchedgar/ctorders.htm ). Note that some degree of mismatch between redactions reported in the SEC database and that 
+identified using our approach is to be expected because we classify firm-years as having a redaction based on the year in which the contract was filed with 
+SEC while the SEC database reports the year in which the CTO was issued by the SEC. Despite this difference in approach, we find that there is over 75% 
+overlap between our approach to identify firm-years as having at least one redacted contract and that report on the SEC website. Glaeser (2018) reports a 
+similar degree of overlap. 
+
+
+
+394 J. Park, J. Sani and N. Shroff et al. / Journal of Accounting and Economics 67 (2019) 387–415 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+within-firm changes in these variables. The inclusion of year × industry-fixed effects mitigate concerns that a time-trend,
+time-varying industry characteristic (e.g., degree of competition, industry concentration), or economy-wide shocks affect the 
+relation between common ownership and disclosures. In addition to the fixed effects structure, our regressions control for
+several time-varying variables such as firm performance, changes in performance, growth opportunities, analyst coverage,
+firm size, leverage, forecasting difficulty, peer-firm forecasting activity, and auditor reputation. All variable definitions are
+provided in the Appendix. 
+
+Importantly, we control for institutional ownership because prior research finds that institutional ownership is posi-
+tively associated with disclosure ( Ajinkya et al., 2005; Boone and White, 2015; Bird and Karolyi, 2016 ), and the percent-
+age of the firm’s shares owned by blockholders ( Blockholder Ownership ) because prior research finds that concentrated
+institutional ownership is negatively associated with disclosure ( Bamber and Cheon, 1998; Ajinkya et al., 2005 ). We also
+control for the extent to which a firm’s blockholders also have blockholding in firms operating in a different industry, as
+Kang et al. (2018) find that institutional investors’ monitoring effectiveness increases with the number of blockholdings.
+Given the similarity of this construct to our construct of interest, i.e., investors’ blockholdings in same industry firms, we
+construct these proxies to mimic those we use for common ownership. We define these proxies ( Common Ownership DiffInd )
+the same way we define our common ownership proxies except that we use different industry firms rather than same in-
+dustry firms. 
+
+3.5. Sample selection 
+
+We create a sample of U.S.-listed firms with common stocks traded on the NASDAQ, NYSE, or AMEX between 1997
+and 2015. Our sample begins in 1997 because the HP industry classification is unavailable prior 1996 and we require one
+year of lagged data to compute control variables. Further, when the disclosure proxy is earnings or capex forecasts, our
+sample begins in 1999 because the availability of management forecast data is sparse and often incomplete prior to 1998
+( Anilowski et al., 2007; Chuk et al., 2013 ) and here again we require one year of lagged forecast data to compute con-
+trol variables. Our sample period ends in 2015 because it is the last fiscal year for which the HP industry classification is
+available. 
+
+To be included in the sample, a firm requires to have positive total assets and to belong to an HP300 industry with at
+least two firms for each fiscal year. We obtain financial statement items from Compustat, stock return and data to calculate
+liquidity variables from CRSP and TAQ, analysts following and management earnings forecasts from IBES and quarterly in-
+stitutional 13F holding data from Thomson Reuters. The final sample includes 54,541 and 66,455 firm-year observations for
+the management forecasts and redaction analysis, respectively (see Table 1 ). 
+
+4. Results 
+
+4.1. Descriptive statistics 
+
+Table 2 provides summary statistics for the variables used in our analyses. We find that 27% (23%) of our firm-years have
+issued at least one management earnings (capex) forecast. The average firm provides 1.18 (0.74) earnings (capex) forecasts
+per year. Approximately 59% of firm-year observations in our sample are co-owned with at least one same-industry firm
+through at least one blockholder ( Common Dummy ). Fig. 1 shows that common ownership ( Common Dummy ) has increased
+from below 5% in 1980 1
+
+ to about 65% in 2016. 7 
+ The mean value of No. Common Firms is 9.39, indicating that the average
+
+commonly owned firm is connected to approximately 16 firms in the same-industry 1
+ through a blockholder. 8 
+
+ The average
+firm has 46% institutional ownership, of which 15% is in the form of Blockholder Ownership . 
+
+To understand why common ownership has increased over the past two decades (per Fig. 1 ), Table 3 presents the fraction
+of firms in Compustat that have a particular investor as one of its largest five shareholders from 1997 to 2015. We focus
+on the ten largest institutional investors as of December 31, 1997 and 2015; we identify large institutional investors based
+on the number of firms in which they are one of the top-five owners. Table 3 reveals two important patterns: First, the
+fraction of firms in which institutional investors are a top-five shareholder has significantly increased from 1997 to 2015.
+For example, in 1999, besides Barclays, DFA and Fidelity, all other institutional investors were in the top-five shareholder
+list of fewer than 10% of the Compustat universe. Further, in 1997, Barclays, DFA and Fidelity were the top five owners in
+27%, 33% and 17% of the Compustat universe, respectively. In contrast, in 2015, the fraction of firms in which Fidelity and
+DFA are the top-five owners has stayed roughly constant but BlackRock (Vanguard) is one of the top-five owners in 61%
+(53%) of the Compustat universe. As such, institutional investors are now the largest owners in the majority of firms in the
+U.S. Second, the concentration of ownership by institutional investors has significantly increased over time, especially the
+ownership interest of BlackRock and Vanguard. As a result, a few large institutional investors now have common ownership
+in several public firms in the U.S. 
+17 We create this figure using four-digit NAICS (rather than HP300) codes to provide a longer time trend. The trend is virtually the same when we use 
+the HP300 industry classification for the restricted 1997 to 2015 period. 
+
+18 We obtain a value of 16 firms connected via blockholders by dividing 9.39, the mean number of firms connected by common owners for the full 
+sample of firm-years, by 59%, the percent of firms co-owned in our sample. 
+
+
+
+J. Park, J. Sani and N. Shroff et al. / Journal of Accounting and Economics 67 (2019) 387–415 395 
+
+Table 1 
+Sample selection. 
+
+Description Table No. of firm-years 
+
+(i) Compustat firms on NYSE, NASDAQ, or AMEX with positive total asset for fiscal years from 1997 to 2015 91,681 
+Eliminate firm-years that: 
+
+do not have HP industry definition (12,168) 
+are the only firm in the industry (748) 
+
+(ii) Sample firm-year available for disclosure tests: 78,765 
+(a) missing control variables used for regressions with disclosure measured using forecasts (14,558) 
+(b) missing control variables used for regressions with disclosure measured using redaction (12,310) 
+(c) fiscal years ending before December 31, 1999 (9666) 
+
+(iii) Final sample for tests when disclosure proxy is earnings or capital expenditure forecasts (ii) - (a) - (c) Table 4, Table 5, Table 7 (panels A & B), Table 10 (panels A - D) 54,541 
+(iv) Final sample for tests when disclosure proxy is redactions from material contracts (ii) - (b) Table 6, Table 7 (panel C), Table 10 (panel E) 66,455 
+Eliminate firm-years that: 
+
+(d) for the period 2013 to 2015 (9339) 
+(e) are missing liquidity proxies (8291) 
+(f) are missing control variables for liquidity tests (6) 
+
+(v) Final sample for liquidity tests (iii) - (d) - (e) - (f) Table 11 36,905 
+
+
+
+396 J. Park, J. Sani and N. Shroff et al. / Journal of Accounting and Economics 67 (2019) 387–415 
+
+Fig. 1. Common ownership over time 
+This figure plots the percentage of common ownership from 1980 to 2016. The y-axis is the percentage of firms in our sample that are owned by at least 
+one institutional blockholder that simultaneously blockholders at least one other same-industry firm. We define blockholders as investors with at least 5% 
+ownership in a firm and classify industry by four-digit NAICS codes. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+4.2. Relation between common ownership and voluntary disclosure 
+
+Tables 4 and 5 report the results from estimating Eq. (1) when the disclosure proxy is earnings and capex forecasts,
+respectively (where Guide is reported in Panel A and Forecast Freq is reported in Panel B). Across all specifications in both
+tables, the coefficient estimate for the common ownership proxy is positive and statistically significant at the 1% level. These
+coefficients indicate that common ownership is positively associated with (i) the likelihood of issuing both earnings and
+capex forecasts ( Tables 4 and 5 , Panel A), and (ii) the frequency of both earnings and capex forecasts ( Tables 4 and 5 , Panel
+B). In economic terms, column 1 in Table 4 , Panel A shows that the coefficient for Common Dummy is 0.019, indicating that
+commonly owned firms are approximately 9.5% (0.019/0.20) more likely to issue an earnings forecast than non-commonly
+owned firms. Similarly, column 1 in Table 4 , Panel B shows that the coefficient for Common Dummy is 0.039, which suggests
+that common ownership is associated with an 8.8% ((e0.039 − 1) × 1+0 . 82 
+
+ 0 ) increase in the frequency of forecasting 1
+ earnings. 9 
+
+ 
+
+ . 82 
+Table 5 provides similar inferences for capex forecasts. In particular, commonly owned firms are 22% more likely to issue a
+capex forecast, and provide 12.9% more capex forecasts than do non-commonly owned firms. 
+
+Tables 4 and 5 also show that the coefficient for Institutional Ownership is positive and significant in all regressions in
+panels A and B, while the coefficient for Blockholder Ownership is negative and significant across all specifications except
+one. These results are consistent with Ajinkya et al. (2005) who find that institutional ownership is positively associated
+with management forecasts but concentrated institutional ownership (i.e., blockholder ownership) is negatively associated 
+
+with forecasts. The positive association between institutional ownership and disclosure is also consistent with recent evi-
+dence such as Boone and White (2015), Bird and Karolyi (2016) and Schoenfeld (2017) . The coefficients for the other control
+variables are also largely consistent with that documented in prior research. Overall, the results in Tables 4 and 5 support
+our prediction that common ownership is associated with greater disclosure. 
+
+Table 6 reports the results from estimating Eq. (1) when the voluntary disclosure proxy is %Redaction. We find no ev-
+idence of a significant association between the common ownership proxies and %Redaction . Since commonly owned firms
+face competition from non-commonly owned firms, it is perhaps not surprising to find that commonly owned firms, on
+average, do not reveal previously redacted information in their contracts. Disclosures that firms redact from contracts likely
+concern the most important proprietary information (otherwise firms would not redact this information), competition from
+19 The unconditional mean values of Earnings Guide and Earnings Forecast Freq (before taking the logarithm) for non-commonly owned firm-years are 0.20 
+and 0.82, respectively (untabulated). 
+
+
+
+J. Park, J. Sani and N. Shroff et al. / Journal of Accounting and Economics 67 (2019) 387–415 397 
+
+Table 2 
+Descriptive statistics 
+This table reports summary statistics for the variables used in our main analyses. Our sample is com- 
+prised of firms listed on the NASDAQ, NYSE, and AMEX between 1997 (1999) and 2015 when the dis- 
+closure proxy is CTO redactions (management forecasts). Definitions for all variables are provided in 
+Variable Appendix. 
+
+Variables N Mean SD P25 P50 P75 
+
+Earnings Guide 54,541 0 .27 0 .45 0 .00 0 .00 1 .00 
+Earnings Forecast Freq 54,541 1 .18 2 .42 0 .00 0 .00 1 .00 
+Capex Guide 54,541 0 .23 0 .42 0 .00 0 .00 0 .00 
+Capex Forecast Freq 54,541 0 .74 1 .74 0 .00 0 .00 0 .00 
+%Redaction 66,455 0 .04 0 .16 0 .00 0 .00 0 .00 
+BidAsk 36,905 11 .96 11 .92 4 .63 8 .49 14 .77 
+Amihud 36,905 1 .66 6 .48 0 .00 0 .01 0 .15 
+Common Dummy 54,541 0 .59 0 .49 0 .00 1 .00 1 .00 
+No. Common Firms 54,541 9 .39 20 .06 0 .00 1 .25 8 .75 
+MV Common Firms (in $Bil) 54,541 2 .51 6 .81 0 .00 0 .05 1 .48 
+No. Common Investors 54,541 1 .04 1 .20 0 .00 1 .00 1 .75 
+Institutional Ownership 54,541 0 .46 0 .34 0 .10 0 .49 0 .76 
+Blockholder Ownership 54,541 0 .15 0 .14 0 .00 0 .12 0 .24 
+Common Ownership DiffInd 
+
+Common Dummy DiffInd 54,541 0 .69 0 .46 0 .00 1 .00 1 .00 
+No. Common Firms DiffInd 54,541 402 .98 491 .24 0 .00 174 .25 673 .00 
+MV Common Firms DiffInd (in $Bil) 54,541 123 .99 245 .78 0 .00 12 .89 140 .71 
+No. Common Investors DiffInd 54,541 1 .69 1 .58 0 .00 1 .50 2 .75 
+
+High Industry Common Own 54,541 0 .40 0 .49 0 .00 0 .00 1 .00 
+Loss 54,541 0 .26 0 .44 0 .00 0 .00 1 .00 
+ROA 54,541 0 .01 0 .17 0 .00 0 .03 0 .08 
+BigN 54,541 0 .79 0 .41 1 .00 1 .00 1 .00 
+Analysts 54,541 5 .30 6 .84 0. 00 3 .00 8 .00 
+Earnings Increase 54,541 0 .59 0 .49 0 .00 1 .00 1 .00 
+Assets (in $ Bil) 54,541 8 .04 63 .50 0 .16 0 .71 2 .82 
+MTB 54,541 1 .91 1 .57 1 .06 1 .37 2 .07 
+Leverage 54,541 0 .54 0 .26 0 .33 0 .53 0 .72 
+No. Stoppers 54,541 1 .05 1 .98 0 .00 0 .00 1 .00 
+Herfindahl 54,541 0 .22 0 .19 0 .09 0 .15 0 .30 
+Stdev. Earn 54,541 0 .08 0 .13 0 .01 0 .03 0 .08 
+Sales growth 54,541 0 .04 0 .29 −0 .03 0 .06 0 .16 
+Debt Issue 66,455 0 .54 0 .50 0 .00 1 .00 1 .00 
+Equity Issue 66,455 0 .09 0 .29 0 .00 0 .00 0 .00 
+Stdev. Return 36,905 0 .03 0 .02 0 .02 0 .03 0 .04 
+Turnover 36,905 0 .01 0 .01 0 .00 0 .01 0 .01 
+Price 36,905 20 .31 19 .18 7 .23 14 .87 26 .98 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+non-commonly owned firms is likely a significant deterrent to disclosing previously redacted information in firms’ con-
+tracts. However, we note that it is also plausible that common ownership is uncorrelated with firms’ redaction decisions
+because the information in contracts do not generate as much spillover benefits to peers as management forecasts. Further,
+the decision to stop redacting information from a contract that was previously redacted perhaps requires consent from the
+counterparty to the contract. As such, it is unclear whether the absence of a relation between common ownership and
+redactions implies that common ownership does not significantly reduce proprietary costs. 
+
+4.3. Does common ownership reduce proprietary cost concerns? 
+
+We conduct two tests to identify the mechanism that gives rise to the positive relation between common ownership
+and disclosure. Our first test focuses on the proprietary cost mechanism—i.e., disclosure increases when proprietary costs
+decrease through common ownership. In particular, we examine whether the relation between common ownership and
+disclosure is stronger when a larger fraction of the industry is composed of commonly owned firms. Since not all industry
+competitors are commonly owned, common ownership reduces, but does not eliminate, proprietary costs of disclosure. As
+the portion of non-commonly owned firms in an industry decreases, proprietary costs for the disclosing commonly owned
+firms also decrease. Thus, we predict that the relation between common ownership and disclosure is stronger in industry-
+years where there is greater industry-wide common ownership. 
+
+To test this prediction, we construct an indicator variable, High Industry Common Own , that equals one for industry-
+years with high-levels of common ownership. Specifically, we compute the market share-weighted percentage of commonly
+owned firms for each industry-year (i.e., the market share-weighted percentage of firms with Common Dummy = 1), where
+market shares are calculated based on firm sales. We then classify industry-years with above median values of market-share
+weighted common ownership as belonging to industries with high common ownership. We modify Eq. (1) by including an
+
+
+
+398 J. Park, J. Sani and N. Shroff et al. / Journal of Accounting and Economics 67 (2019) 387–415 
+
+Table 3 
+Fraction of firms in Compustat universe in which a given institutional investor is among the largest five owners 
+In the table below, we identify all institutional investors that are one of top-ten institutions in terms of the number of firms in which they are a top-five owner as of December 31, 1997 or December 
+31, 2015. This table presents the percentage of firms in the Compustat universe of public firms in which each unique institutional investor is one of the largest five shareholders. 
+
+Institutional Investor 1997 1998 1999 20 0 0 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 
+
+BlackRock Inc. 3% 3% 2% 2% 1% 0% 1% 1% 1% 2% 3% 2% 54% 47% 50% 50% 50% 52% 61% 
+Vanguard Group 4% 6% 9% 12% 14% 15% 12% 13% 12% 12% 15% 21% 29% 32% 38% 46% 41% 48% 53% 
+DFA 33% 29% 30% 28% 31% 29% 23% 20% 20% 19% 20% 23% 22% 20% 20% 20% 18% 19% 20% 
+Fidelity 17% 16% 16% 16% 17% 19% 21% 19% 20% 18% 18% 16% 18% 17% 19% 18% 17% 19% 19% 
+State Street Corp. 1% 2% 3% 4% 6% 8% 10% 7% 7% 6% 6% 9% 10% 9% 10% 12% 9% 13% 12% 
+Renaissance Tech. 0% 0% 0% 0% 0% 0% 0% 0% 1% 5% 10% 12% 9% 6% 6% 8% 7% 8% 10% 
+T. Rowe Price 5% 5% 5% 6% 6% 7% 7% 8% 8% 8% 8% 8% 8% 9% 10% 10% 9% 10% 9% 
+Wellington 9% 9% 8% 9% 10% 11% 11% 11% 12% 11% 11% 10% 9% 10% 11% 11% 10% 11% 10% 
+Capital Research & Mgmt 5% 6% 6% 6% 6% 5% 6% 6% 6% 6% 6% 6% 6% 6% 6% 6% 5% 6% 6% 
+JP Morgan Chase 4% 3% 3% 6% 5% 3% 3% 3% 4% 3% 3% 3% 3% 3% 4% 5% 0% 0% 12% 
+CALPERS 1% 0% 1% 1% 1% 1% 5% 6% 5% 3% 3% 3% 4% 4% 4% 5% 3% 2% 3% 
+Mellon Bank Corp. 8% 8% 9% 9% 8% 7% 5% 4% 5% 12% 3% 0% 3% 3% 3% 3% 26% 0% 1% 
+Barclays Bank 27% 32% 30% 23% 26% 26% 32% 36% 35% 34% 30% 43% 0% 0% 0% 0% 0% 0% 0% 
+Putnam Investment Mgmt 6% 6% 6% 5% 5% 5% 3% 2% 2% 2% 1% 1% 0% 0% 1% 1% 0% 1% 1% 
+Traverlers Inc. 7% 10% 7% 7% 7% 7% 7% 5% 5% 9% 9% 9% 1% 1% 1% 3% 1% 2% 1% 
+ANB Investment Mgmt 19% 0% 0% 0% 0% 0% 0% 0% 0% 0% 0% 0% 0% 0% 0% 0% 0% 0% 0% 
+Bankers Trust 3% 4% 6% 8% 0% 8% 7% 3% 4% 5% 5% 3% 3% 2% 2% 2% 8% 0% 0% 
+
+
+
+J. Park, J. Sani and N. Shroff et al. / Journal of Accounting and Economics 67 (2019) 387–415 399 
+
+Table 4 
+Effect of common ownership on management earnings forecasts 
+This table presents the results from regressing voluntary disclosure on lagged common ownership and 
+other determinants of disclosure. In Panel A, the proxy for voluntary disclosure is Earnings Guide , which 
+is a dummy variable equal to one if the firm issues at least one annual earnings forecast during a fiscal 
+year, and in Panel B, the proxy for voluntary disclosure is Earnings Forecast Freq , which is the natural log 
+of one plus the number of annual EPS forecasts issued during the fiscal year. Continuous variables are 
+winsorized at the 1% and 99% levels and are defined in the Variable Appendix. ∗, ∗∗, ∗∗∗
+
+ indicate statistical 
+significance at the 10%, 5%, and 1% levels, respectively, using a two-tailed t -test. 
+
+Panel A: Using Earnings Guide as the proxy for voluntary disclosure 
+(1) (2) (3) (4) 
+
+Dependent Variable: Pr. Sign Earnings Guide 
+
+Common Dummy + 0 .019∗∗∗
+ 
+
+(3 .451) 
+No. ∗
+
+ Common Firms + 0 .015 ∗∗
+ 
+
+(3 .468) 
+MV Common Firms ∗
+
+ + 0 .005 ∗∗
+ 
+
+(4 .336) 
+No. Common Investors + 0. 030∗∗∗
+
+ 
+
+(3 .414) 
+Institutional Ownership 0 .103∗∗∗
+
+ 0 .097∗∗∗ ∗ ∗
+ 0 .098 ∗
+
+ 0. 100∗∗∗
+ 
+
+(3 .659) (3 .590) (3 .577) (3 .857) 
+Blockholder Ownership −0.143∗∗∗
+
+  −0 .146∗∗∗
+ −0. 145∗∗∗ ∗
+
+ −0. 130∗∗
+ 
+
+(−4 .301) (−4 .285) (−4 .318) (−3. 732) 
+Common Ownership DiffInd −0.036∗∗∗
+
+  −0 .007∗∗∗
+ −0. 004∗∗∗ ∗
+
+ −0. 033∗∗
+ 
+
+(−3 .941) (−3 .577) (−4 .071) (−3. 908) 
+Loss −0. 033∗∗∗
+
+ −0 .033∗∗∗ ∗
+ −0. 033∗∗
+
+ −0. ∗∗
+ 033∗
+
+ 
+
+(−6 .452) (−6 .462) (−6 .477) (−6. 463) 
+ROA ∗
+
+ 0 .055∗ ∗
+ 0 .054∗∗∗ ∗
+
+ 0 ∗
+ .054 ∗ ∗∗
+
+ 0. 054 ∗
+ 
+
+(3 .307) (3 .268) (3 .265) (3 .259) 
+BigN 0 .027∗∗ 0 .028∗∗
+
+ 0 .028∗∗
+  0. 028∗∗
+
+ 
+
+(2 .334) (2 .405) (2 .369) (2 .362) 
+Analysts 0 ∗
+
+ .016 ∗∗
+ 0 .016∗∗∗
+
+ 0 .016∗∗
+ 0. 015∗∗
+
+ 
+
+(2 .942) (2 .925) (2 .915) (2 .842) 
+Earnings Increase −0.018∗∗∗
+
+ −0 .018∗∗∗
+ −0. 018∗∗∗ ∗
+
+  −0. 018∗∗
+ 
+
+(−5 .082) (−5 .073) (−5 .064) (−5. 050) 
+Assets ∗
+
+ 0 .048∗ ∗
+ 0 .048∗∗∗ ∗
+
+ 0 ∗
+ .048 ∗ ∗∗
+
+ 0. 048 ∗
+ 
+
+(8 .388) (8 .4 4 4) (8 .394) (8 .338) 
+MTB 0 .010∗∗∗ 0 .010∗∗∗
+
+ 0 .010∗∗∗
+  0. 009∗∗∗
+
+ 
+
+(4 .054) (4 .019) (4 .057) (4 .037) 
+Leverage −0.039∗∗
+
+  −0 .040∗∗
+ −0. 040∗∗ −0. ∗∗
+
+  039 
+(−2 .306) (−2 .349) (−2 .347) (−2. 306) 
+
+No. Stoppers 0 .185∗∗∗
+ 0 .184∗∗∗ ∗
+
+ 0 .184∗ ∗ ∗∗
+ 0. 184∗
+
+ 
+
+(9 .735) (9 .720) (9 .722) (9 .779) 
+Stdev. Earn −0.093∗∗∗
+
+ −0 .092∗∗∗
+ −0. 092∗∗∗ ∗
+
+  −0. 091∗∗
+ 
+
+(−3 .466) (−3 .431) (−3 .425) (−3. 417) 
+Sales growth 0 .007 0 .007 0 .007 0. 007 
+
+(1 .627) (1 .580) (1 .587) (1 .645) 
+
+No. of Observations 54,541 54,541 54,541 54,541 
+Adj. R-Squared 0 .609 0 .609 0 .609 0. 609 
+Firm & Year × Industry Indicators Yes Yes Yes Yes 
+SE Clustered by Firm and Year Yes Yes Yes Yes 
+
+Panel B: Using Earnings Forecast Freq as the proxy for voluntary disclosure 
+(1) (2) (3) (4) 
+
+Dependent Variable: Pr. Sign Earnings Forecast Freq 
+
+Common Dummy + 0 ∗
+ .039 ∗∗
+
+ 
+
+(3 .403) 
+No. ∗
+
+ Common Firms + 0 .023 ∗∗
+ 
+
+(3 .438) 
+MV Common Firms ∗
+
+ + 0 .010 ∗∗
+ 
+
+(5 .133) 
+No. Common Investors + 0. 053∗∗∗
+
+ 
+
+(3 .644) 
+Institutional Ownership 0 .208∗∗∗
+
+ 0 .192∗∗∗ ∗ ∗
+ 0 .196 ∗
+
+ 0. 200∗∗∗
+ 
+
+(4 .278) (4 .105) (4 .156) (4 .347) 
+Blockholder Ownership −0.310∗∗∗
+
+  −0 .317∗∗∗
+ −0. 314∗∗∗ ∗
+
+ −0. 290∗∗
+ 
+
+(−5 .321) (−5 .304) (−5 .369) (−4. 957) 
+Common Ownership DiffInd −0.068∗∗∗
+
+  −0 .010∗∗∗
+ −0. 007∗∗∗ ∗
+
+ −0. 056∗∗
+ 
+
+(−4 .291) (−3 .349) (−4 .688) (−4. 351) 
+
+( continued on next page ) 
+
+
+
+400 J. Park, J. Sani and N. Shroff et al. / Journal of Accounting and Economics 67 (2019) 387–415 
+
+Table 4 
+( continued ) 
+
+Panel B: Using Earnings Forecast Freq as the proxy for voluntary disclosure 
+(1) (2) (3) (4) 
+
+Dependent Variable: Pr. Sign Earnings Forecast Freq 
+
+Loss −0 .065∗∗∗
+ −0. ∗ ∗
+
+ 065∗ ∗
+ −0. ∗
+
+ 065 ∗
+ −0 .065∗∗∗
+
+ 
+
+(−6 .960) (−7 .004) (−6 .996) (−6 .961) 
+ROA 0 .058∗ 0. 056∗ ∗
+
+  0 .056 0 .056∗
+ 
+
+(1 .833) (1 .796) (1 .793) (1 .789) 
+BigN 0 .081∗∗∗ 0. ∗ ∗
+
+ 083 ∗
+ 0 .082∗∗∗
+
+ 0 .082∗∗∗
+  
+
+(3 .670) (3 .704) (3 .675) (3 .672) 
+Analysts 0 .024∗∗∗ 0. ∗ ∗
+
+ 023 ∗
+ 0 .023∗∗∗
+
+ 0 .022∗∗
+  
+
+(3 .062) (3 .021) (3 .027) (2 .914) 
+Earnings Increase −0 .017∗∗∗ −0. ∗ ∗
+
+ 017∗ ∗
+  −0. ∗
+
+ 017 ∗
+ −0 .017∗∗∗
+
+ 
+
+(−3 .561) (−3 .550) (−3 .547) (−3 .530) 
+Assets 0 .082∗∗∗ 0. ∗ ∗
+
+ 083 ∗
+ 0 .082∗∗∗
+
+ 0 .082∗∗∗
+  
+
+(8 .237) (8 .302) (8 .239) (8 .226) 
+MTB 0 .011∗∗∗ 0. ∗ ∗
+
+ 011 ∗
+ 0 .011∗∗∗
+
+  0 .011∗∗∗
+ 
+
+(2 .967) (2 .941) (2 .950) (2 .949) 
+Leverage −0 .036 −0. 037 −0. 037 −0 .036 
+
+(−1 .313) (−1 .360) (−1 .362) (−1 .318) 
+No. Stoppers 0 .331∗∗∗ 0. ∗ ∗
+
+ 330 ∗
+ 0 .330∗∗∗
+
+ 0 .330∗∗∗
+  
+
+(13 .746) (13 .720) (13 .724) (13 .808) 
+Stdev. Earn −0 .148∗∗∗ −0. ∗ ∗
+
+ 147∗ ∗
+  −0. ∗
+
+ 146 ∗
+ −0 .146∗∗∗
+
+ 
+
+(−3 .410) (−3 .354) (−3 .348) (−3 .342) 
+Sales growth ∗
+
+ 0 .014 0. 014∗ ∗
+ 0 .014 0 .015∗
+
+ 
+
+(2 .042) (1 .992) (2 .016) (2 .053) 
+
+No. of Observations 54,541 54,541 54,541 54,541 
+Adj. R-Squared 0 .667 0. 667 0 .667 0 .667 
+Firm & Year × Industry Indicators Yes Yes Yes Yes 
+SE Clustered by Firm and Year Yes Yes Yes Yes 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+interaction term between our common ownership proxies and High Industry Common Own to test our prediction. Note that
+the main effect of High Industry Common Own is subsumed by the Year × Industry fixed effects. 
+
+Table 7 , Panel A (B, C) presents the results using earnings forecasts (capex forecasts; CTO redactions) as the disclosure
+proxy. Panel A (B) shows that in five (eight) out of the eight earnings (capex) forecast specifications, the coefficient for
+Common Ownership Proxy × High Industry Common Own is positive and significant. These coefficients suggest that the relation
+between common ownership and management forecasts is stronger when a larger fraction of the industry is owned by the
+same investors. Interestingly, Panel C shows that in three of the four regressions with %Redaction as the dependent variable,
+the coefficient for Common Ownership Proxy × High Industry Common Own is negative and significant. The results in Panel C
+suggest that while managers are hesitant to reverse redaction decisions on average, they are more likely to do so when the
+fraction of firms in the industry that are connected through common owners increases. These results suggest that managers
+are less likely to redact information from material contracts only when they perceive the proprietary costs to be significantly
+lower (as reported in Table 6 and as observed from the insignificant main effect of common ownership in Table 7 ). 
+
+4.4. Does common ownership lead firms to internalize disclosure externalities? 
+
+Next, we examine whether co-owned firms increase disclosure to internalize the externalities of their disclosure. Specif-
+ically, we examine whether changes in information asymmetry for one firm, and thus the demand for public information
+by the investors of that firm, elicits a change in disclosure by co-owned peer firms. To test this prediction, we employ
+the setting originally used by Kelly and Ljungqvist (2012) and Derrien and Kecskes (2013) who show that when bro-
+kerage houses close or merge, some firms experience an exogenous loss of analyst coverage. Such losses in analyst cov-
+erage lead to an increase in information asymmetry and consequently a decrease in external financing and investment.
+Balakrishnan et al. (2014) argue that such exogenous losses in analyst coverage increase the marginal benefit of disclosure
+and go on to show that firms respond to losses in analyst coverage by increasing disclosure. 
+
+We hypothesize that when one firm experiences a loss in analyst coverage, the externality benefit of a peer-firm’s dis-
+closure increases. As a result, we predict that firms increase disclosure in response to a loss in analyst coverage for their
+co-owned peer firms. In other words, if firms do indeed consider the spillover effects of their disclosure on co-owned peer
+firms when making disclosure decisions, then firms should increase disclosure in response to a loss of public information
+for co-owned peer firms. 
+
+To test our prediction, we obtain a list of 43 brokerage house mergers or closures from Kelly and Ljungqvist (2012) and
+construct a sample of firms that lose analyst coverage as a result of these events. We refer to the firms experiencing such
+exogenous losses in analyst coverage as Affected Peers . We then construct a sample of firms that operate in the same industry
+
+
+
+J. Park, J. Sani and N. Shroff et al. / Journal of Accounting and Economics 67 (2019) 387–415 401 
+
+Table 5 
+Effect of common ownership on management capital expenditure forecasts 
+This table presents the results from regressing voluntary disclosure on lagged common ownership and other determi- 
+nants of disclosure. In Panel A, the proxy for voluntary disclosure is Capex Guide , which is a dummy variable equal 
+to one if the firm issues at least one capital expenditure forecast during a fiscal year, and in Panel B, the proxy for 
+voluntary disclosure is Capex Forecast Freq , which is the natural log of one plus the number of capital expenditure fore- 
+casts issued during the fiscal year. Continuous variables are winsorized at the 1% and 99% levels and are defined in the 
+Variable Appendix. ∗, ∗∗, ∗∗∗
+
+ indicate statistical significance at the 10%, 5%, and 1% levels, respectively, using a two-tailed 
+t -test. 
+
+Panel A: Using Capex Guide as the proxy for voluntary disclosure 
+(1) (2) (3) (4) 
+
+Dependent Variable: Pr. Sign Capex Guide 
+
+Common Dummy + 0. 033∗∗∗
+ 
+
+(4 .589) 
+No. Common Firms + 0 ∗∗
+
+   .015 ∗
+ 
+
+(4 .935) 
+MV Common Firms + 0 .007∗∗∗
+
+ 
+
+(5 .613) 
+No. Common Investors + 0 .040∗∗∗
+
+ 
+
+(4 .914) 
+Institutional Ownership 0.091∗∗∗ 5∗∗ ∗∗ ∗∗
+
+  0 .06  0 .071 0 .073 
+(3 .637) (2 .480) (2 .726) (2 .773) 
+
+Blockholder Ownership −0. 057 −0. 069∗
+ −0 ∗
+
+ .064∗
+ −0 .063 
+
+(−1 .631) (−2 .006) (−1 .839) (−1 .871) 
+Common Ownership DiffInd −0. 049∗∗∗
+
+ −0. ∗
+ 003∗
+
+ −0 .003∗∗ 0 23∗∗
+ −  .0  
+
+(−5 .667) (−1 .812) (−3 .704) (−2 .819) 
+Loss −0. 005 −0. 005 −0 .005 −0 .005 
+
+(−0 .874) (−0 .926) (−0 .925) (−0 .923) 
+ROA −0. 019 −0. 020 −0 .020 −0 .019 
+
+(−1 .215) (−1 .277) (−1 .282) (−1 .250) 
+BigN ∗∗ .101∗∗∗
+
+ 0. 099∗
+ 0  0 .100∗∗∗ .100∗∗∗
+
+ 0  
+
+(4 .619) (4 .609) (4 .595) (4 .626) 
+Analysts 0. 002 0 .002 0 .002 0 .002 
+
+(0 .547) (0 .448) (0 .436) (0 .386) 
+Earnings Increase −0. 001 −0. 001 −0 .001 −0 .001 
+
+(−0 .238) (−0 .248) (−0 .224) (−0 .255) 
+Assets 0.026∗∗∗ 0 26∗∗∗
+
+   .0  0 .026∗∗∗ .026∗∗∗
+ 0  
+
+(4 .881) (4 .978) (4 .939) (4 .952) 
+MTB ∗
+
+ −0.004∗
+  −0. 004 0 04∗
+
+ −  .0  −0 .004∗
+ 
+
+(−1 .990) (−1 .943) (−1 .980) (−1 .932) 
+Leverage 0.036∗
+
+ 0 .035∗
+ 0 .035∗
+
+  0 .036∗
+ 
+
+(2 .025) (1 .973) (1 .975) (2 .020) 
+No. Stoppers −0. 002 −0. 002 −0 .003 −0 .002 
+
+(−0 .286) (−0 .309) (−0 .351) (−0 .307) 
+Stdev. Earn 0. 009 0 .012 0 .012 0 .012 
+
+(0 .389) (0 .498) (0 .493) (0 .507) 
+Sales ∗∗
+
+ growth −0.011∗∗
+  −0. 011 −0 .011∗∗ 0 ∗∗
+
+ −  .011 
+(−2 .249) (−2 .321) (−2 .297) (−2 .276) 
+
+No. of Observations 54,541 54,541 54,541 54,541 
+Adj. R-Squared 0. 584 0 .584 0 .584 0 .584 
+Firm & Year × Industry Indicators Yes Yes Yes Yes 
+SE Clustered by Firm and Year Yes Yes Yes Yes 
+
+Panel B: Using Capex Forecast Freq as the proxy for voluntary disclosure 
+(1) (2) (3) (4) 
+
+Dependent Variable: Pr. Sign Capex Forecast Freq 
+
+Common Dummy + ∗∗∗
+ 0. 042 
+
+(4 .060) 
+No. Common Firms + . 1∗∗∗
+
+  0 02  
+
+(5 .690) 
+MV Common Firms + 0 .010∗∗∗
+
+ 
+
+(5 .901) 
+No. Common Investors + 0 .056∗∗∗
+
+ 
+
+(5 .486) 
+Institutional Ownership ∗
+
+ 0. 104∗
+ 0. 069∗
+
+ 0 .079∗
+ 0 .080∗
+
+ 
+
+(2 .582) (1 .675) (1 .900) (1 .940) 
+Blockholder ∗∗
+
+ Ownership −0. 096∗
+ −0. 112∗∗ ∗
+
+ −0. 105 −0 .103 
+(−1. 873) (−2 .237) (−2 .072) (−2 .209) 
+
+(continued on next page) 
+
+
+
+402 J. Park, J. Sani and N. Shroff et al. / Journal of Accounting and Economics 67 (2019) 387–415 
+
+Table 5 
+( Continued ) 
+
+Panel B: Using Capex Forecast Freq as the proxy for voluntary disclosure 
+(1) (2) (3) (4) 
+
+Dependent Variable: Pr. Sign Capex Forecast Freq 
+
+Common ∗∗∗
+ Ownership fInd .065∗∗∗ ∗
+
+ Dif  −0 0. ∗∗∗
+ −0. 004 −  005 −0 .034 
+
+(−5 .293) (−1. 688) (−3 .942) (−3 .334) 
+Loss −0 .006 −0. 007 −0. 007 −0 .007 
+
+(−0 .769) (−0. 816) (−0 .813) (−0 .813) 
+ROA −0 .026 −0. 027 −0. 027 −0 .027 
+
+(−1 .365) (−1. 426) (−1 .432) (−1 .388) 
+BigN ∗∗∗
+
+ 0 .150 0.151∗∗∗
+  0 .150∗∗∗
+
+ 0 .151∗∗∗
+ 
+
+(5 .210) (5 .189) (5 .170) (5 .196) 
+Analysts 0 .014∗
+
+ 0. 014∗
+ 0 .014∗
+
+ 0 .013∗
+ 
+
+(1 .951) (1 .872) (1 .867) (1 .804) 
+Earnings Increase −0 .002 −0. 002 −0. 002 −0 .002 
+
+(−0 .356) (−0. 372) (−0 .343) (−0 .375) 
+Assets ∗∗
+
+ 0 .037∗∗∗
+ 0. 037∗∗∗
+
+ 0 .037∗
+ 0 ∗∗∗
+
+ .037 
+(4 .098) (4 .168) (4 .130) (4 .147) 
+
+MTB −0 .006∗
+ −0. 006∗
+
+ −0. 006∗
+ −0 .006∗
+
+ 
+
+(−2 .028) (−1. 982) (−2 .024) (−1 .976) 
+Leverage ∗∗
+
+ 0 .061 0. ∗∗
+ 060 0 .060∗∗
+
+ 0 .061∗∗
+ 
+
+(2 .512) (2 .460) (2 .463) (2 .512) 
+No. Stoppers −0 .008 −0. 008 −0. 008 −0 .008 
+
+(−0 .837) (−0. 882) (−0 .927) (−0 .884) 
+Stdev. Earn 0 .025 0. 029 0 .028 0 .029 
+
+(0 .739) (0. 844) (0 .839) (0 .851) 
+Sales growth −0 ∗
+
+ .014∗
+ −0. 014 −0. ∗
+
+ 014 −0 .014∗
+ 
+
+(−1 .974) (−2. 061) (−2 .037) (−2 .005) 
+
+No. of Observations 54,541 54,541 54,541 54,541 
+Adj. R-Squared 0 .637 0. 637 0 .637 0 .637 
+Firm & Year × Industry Indicators Yes Yes Yes Yes 
+SE Clustered by Firm and Year Yes Yes Yes Yes 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+as an Affected Peer but do not experience a loss of analyst coverage from the broker closures/mergers. From this sample of
+un affected firms, we classify firm-years as treatment (control) firms if they share (do not share) at least one blockholder
+with an Affected Peer in the year. Importantly, we drop all Affected Peers from our analyses because prior research finds that
+these firms increase disclosure in response to the loss of analyst coverage ( Balakrishnan et al., 2014 ). In other words, our
+analysis excludes firms that lose analyst coverage due to broker closures/mergers, and focuses on firms in the same industry
+that do not lose analyst coverage due to a broker closure/merger. We predict that treated firms increase voluntary disclosure
+(relative to control firms) to partially compensate for the exogenous increase in information asymmetry experienced by
+their co-owned peer firms (i.e., Affected Peers ). We estimate the following difference-in-differences regression to test our
+prediction: 
+
+Disclosur e c,i, j,t = αc × α + 
+
+ i × α t + β
+ 
+
+ 
+
+ j α 1 T r eatment Closur e × P ost Closure 
+  
+
++ β2 T r eatment Closur e × P re [ −1] Closure + β3 P ost Closure (2) 
+  
+
++ β4 P re [ −1] Closure + β5 T reatment Closure ′ 
+ + r X + ε
+
+  c,i, j,t 
+
+where c , i , j , and t index closure/merger events, Affected Peers , treated or control firms, and years respectively. It is worth
+noting that the unit of observation for this test is at the “Broker Closure”-“Affected Peer ”-“Firm”-“Year” level. Each broker
+closure can affect analyst coverage for several firms (i.e., Affected Peers ), and each Affected Peer shares industry membership
+with several firms that do not have a loss in analyst coverage – some of which are co-owned (i.e., treated firms) while
+others are not co-owned (i.e., control firms). However, the Affected Peers themselves, i.e., firms that lose analyst coverage
+due to a broker closure/merger, are excluded from our analysis. In the equation above, αc ×αi × α p e e t c o u
+
+ j re r s n  l s re/merger
+ 
+
+ 
+
+events × affected peers × firm fixed effects and αt represent year fixed effects. Given the unit of analysis for this regression
+ 
+
+(described above), our regressions are identified in the presence of fixed effects for each broker closure, affected peer and
+firm combination.20 
+
+ Disclosure is one of the five voluntary disclosure variables: (i) Earnings Guide , (ii) Earnings Forecasts Freq ,
+(iii) Capex Guide , (iv) Capex Forecasts Freq or (v) %Redaction . Treatment Closure is an indicator variable that equals one for
+same-industry firms that share at least one blockholder with an Affected Peer and zero for same-industry firms that do not
+share any blockholder with any Affected Peer in a year. Post Closure is an indicator variable that equals one for the year after
+the broker closure/merger for both treatment and control firms. Pre [ −1] Closure is an indicator variable that equals one
+20 A firm-year can be in our sample more than once if there are more than one Affected Peers in its industry in the year. Therefore, the number of 
+observations in our sample of broker closure/merger test is greater than that of main tests. 
+
+
+
+J. Park, J. Sani and N. Shroff et al. / Journal of Accounting and Economics 67 (2019) 387–415 403 
+
+Table 6 
+Effect of common ownership on redactions from material contracts 
+This table presents the results from regressing voluntary disclosure on lagged common ownership and 
+other determinants of disclosure. The proxy for voluntary disclosure is %Redaction , which is a ratio of the 
+number of fillings with redacted disclosures to the total number of fillings with at least one material con- 
+tracts filed with the SEC in a fiscal year. All continuous variables are winsorized at the 1% and 99% levels 
+and are defined in the Variable Appendix. All specifications include firm and industry × year fixed effects. 
+Standard errors are clustered at the year and firm level. ∗, ∗∗, ∗∗∗
+
+ indicate statistical significance at the 10%, 
+5%, and 1% levels, respectively, using a two-tailed t -test. 
+
+(1) (2) (3) (4) 
+Dependent Variable: Pr. Sign %Redaction 
+
+Common Dummy -/? −0. 002 
+(−0. 853) 
+
+No. Common Firms -/? 0 .001 
+(0 .656) 
+
+MV Common Firms -/? −0. 0 0 0 
+(−1 .015) 
+
+No. Common Investors -/? −0 .001 
+(−0 .439) 
+
+Institutional Ownership −0. 012 −0 .010 −0. 011 −0 .012 
+(−1. 355) (−1 .131) (−1 .233) (−1 .394) 
+
+Blockholder Ownership 0. 005 0 .005 0 .005 0 .003 
+(0. 544) (0 .547) (0 .562) (0 .319) 
+
+Common Ownership DiffInd 0. 004 −0 .0 0 0 0 .0 0 0 0 .003 
+(1 .206) (−0 .414) (1 .150) (1 .070) 
+
+Loss 0. 002 0 .002 0 .002 0 .002 
+(0. 519) (0 .524) (0 .523) (0 .521) 
+
+ROA 0. 001 0 .001 0 .001 0 .001 
+(0. 103) (0 .110) (0 .109) (0 .116) 
+
+BigN 0. 003 0 .003 0 .003 0 .003 
+(0. 871) (0 .813) (0 .844) (0 .838) 
+
+Analysts −0. 001 −0 .001 −0. 001 −0 .001 
+(−0. 631) (−0 .543) (−0 .602) (−0 .551) 
+
+Earnings Increase −0. 0 0 0 −0 .0 0 0 −0. 0 0 0 −0 .0 0 0 
+(−0. 009) (−0 .013) (−0 .012) (−0 .032) 
+
+Assets −0. 0 0 0 −0 .0 0 0 −0. 0 0 0 −0 .0 0 0 
+(−0. 030) (−0 .100) (−0 .054) (−0 .051) 
+
+MTB 0. 001 0 .0 0 0 0 .0 0 0 0 .001 
+(0. 550) (0 .512) (0 .543) (0 .561) 
+
+Leverage −0.012∗∗
+ −0 .012∗∗
+
+ −0. 012∗∗
+  −0 .012∗∗
+
+ 
+
+(−2. 232) (−2 .220) (−2 .220) (−2 .230) 
+Debt Issue 0. 001 0 .001 0 .001 0 .001 
+
+(0. 626) (0 .623) (0 .628) (0 .625) 
+Equity Issue 0. 002 0 .002 0 .002 0 .002 
+
+(0. 671) (0 .685) (0 .676) (0 .704) 
+Sales growth 0.009∗∗∗ ∗∗
+
+ 0 .009 ∗
+ 0 .009∗∗∗ ∗ ∗
+
+ 0 .009 ∗
+  
+
+(3 .607) (3 .608) (3 .610) (3 .604) 
+
+No. of Observations 66,455 66,455 66,455 66,455 
+Adj. R-Squared 0. 301 0 .301 0 .301 0 .301 
+Firm & Year × Industry Indicators Yes Yes Yes Yes 
+SE Clustered by Firm and Year Yes Yes Yes Yes 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+for the year immediately before the broker closure/merger for both treatment and control firms. X is a vector of control
+variables used in the baseline regression ( Eq. (1) ). Standard errors are clustered at the broker closure/merger level. 
+
+We highlight two features of our research design that help mitigate endogeneity concerns. First, we exploit the fact that
+broker closures/mergers are staggered over several years and thus affect different firms at different times during our sam-
+ple period. The staggered design helps mitigate concerns that a confounding event around any one broker closure/merger
+explains our results. Second, we control for closure/merger events × affected peers × firms fixed effects; thus, the treatment
+effect is identified by comparing the change in disclosure of firms that share a common owner with an Affected Peer to the
+change in disclosure of same-industry firms that do not share a common owner with the same Affected Peer . As a result, our
+inferences are unlikely to be affected by alternative explanations related to industry or economy related shocks to disclosure
+incentives or concerns about reverse causality. 
+
+Table 8 presents the results from estimating Eq. (2) . Columns 1 and 3 present the results when Earnings Guide and Capex
+Guide are the dependent variables, respectively. The coefficient of Treatment Closure × Post Closure is positive in both regres-
+sions, but significant only for Capex Guide . The coefficient estimate in column 3 implies that treated firms are 2.7 percentage
+points more likely to issue a capex forecast than control firms, on average. Columns 2 and 4 present the regression results
+when Earnings Forecasts Freq and Capex Forecasts Freq are the dependent variables, respectively. The coefficient estimate
+
+
+
+404 J. Park, J. Sani and N. Shroff et al. / Journal of Accounting and Economics 67 (2019) 387–415 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+for Treatment Closure × Post Closure is positive and significant in both regressions. Column 5 shows that the coefficient for
+Treatment Closure × Post Closure is insignificant when the dependent variable is %Redaction, which is consistent with our
+main results. Finally, Table 8 shows that the coefficient for Treatment Closure × Pre [ −1] Closure is statistically insignificant
+for all five regressions, suggesting that there is no difference in pre-treatment disclosure between treated and control firms
+(consistent with the validity of the parallel trends assumption). 
+
+Overall, Table 8 shows that firms increase disclosure in response to losses in analyst coverage for their co-owned peer
+firms. Since the broker closures/mergers in our sample do not affect treated firms’ information environment and only af-
+fect that of their co-owned peers, our results suggest that treated firms increase disclosure because they internalize the
+externalities of their disclosure for co-owned peers. 
+Table 7 
+Degree of industry-level common ownership: Cross-sectional variation in the effect of common ownership on disclosure 
+This table presents the results from regressing voluntary disclosure on lagged common ownership, interaction terms between common ownership 
+and an indicator for the industries with higher than average common ownership ( High Industry Common Own ), and other determinants of disclosure. 
+Panels A, B, and C report results when management earnings forecasts, management capital expenditure forecasts, and redactions from disclosure of 
+material contracts are proxies for voluntary disclosure, respectively. All continuous variables are winsorized at the 1% and 99% levels and are defined in 
+the Variable Appendix. All specifications include firm and industry × year fixed effects. Standard errors are clustered at the year and firm level. ∗, ∗∗, ∗∗∗
+
+ 
+
+indicate statistical significance at the 10%, 5%, and 1% levels, respectively, using a two-tailed t -test. 
+
+Panel A: Using earnings forecasts as the proxy for voluntary disclosure 
+(1) (2) (3) (4) (5) (6) (7) (8) 
+
+Dependent Variable: Earnings Guide Earnings Forecast Freq 
+
+Common Dummy × High Industry ∗ ∗∗
+   Common Own 0 .012 0 .025 
+
+(1 .682) (2 .509) 
+Common Dummy 0 18∗∗∗
+
+  .0  0 .036∗∗∗
+ 
+
+(3 .261) (3 .282) 
+No. Common Firms × High Industry Common Own 0 .004 0 .009 
+
+(1 .036) (1 .499) 
+No. Common Firms .014∗∗∗
+
+ 0 0 .021∗∗∗
+  
+
+(3 .434) (3 .349) 
+MV Common Firms × High Industry Common Own 0 .002 0.004∗∗
+
+  
+
+(1 .472) (2 .167) 
+MV Common Firms 0 ∗
+
+  .005 ∗∗
+ 0.010∗∗∗
+
+  
+
+(4 .072) (4 .977) 
+No. Common rs ∗
+
+  Investo  × High Industry Common Own 0 .015 0. 033∗∗
+ 
+
+(1 .922) (2 .571) 
+No. Common tors ∗
+
+  Inves  0 .026 ∗∗
+ 0. 45∗∗∗
+
+ 0  
+
+(3 .175) (3 .297) 
+No. of Observations 54,541 54,541 54,541 54,541 54,541 54,541 54,541 54,541 
+Adj. R-Squared 0 .609 0 .609 0 .609 0 .609 0 .667 0 .667 0. 667 0. 667 
+Control Variables Included Yes Yes Yes Yes Yes Yes Yes Yes 
+Firm & Year × Industry Indicators Yes Yes Yes Yes Yes Yes Yes Yes 
+SE Clustered by Firm and Year Yes Yes Yes Yes Yes Yes Yes Yes 
+
+Panel B: Using capital expenditure forecasts as the proxy for voluntary disclosure 
+(1) (2) (3) (4) (5) (6) (7) (8) 
+
+Dependent Variable: Capex Guide Capex Forecast Freq 
+
+Common Dummy × High Industry Common Own 0 .020∗∗
+ 0 .023∗∗
+
+ 
+
+(2 .893) (2 .174) 
+Common Dummy 0 .030∗∗∗
+
+ 0 ∗∗
+ .040∗
+
+ 
+
+(4 .471) (3 .989) 
+No. Common Firms × High Industry Common Own 0 .008∗∗
+
+ 0 ∗∗
+ .015∗
+
+ 
+
+(2 .665) (3 .684) 
+No. Common ∗
+
+ Firms 0 .013∗∗∗
+ 0 .017∗∗
+
+ 
+
+(4 .626) (5 .059) 
+MV Common Firms × High Industry Common Own 0 .004∗∗∗ ∗
+
+ 0 .006∗∗
+ 
+
+(3 .132) (3 .4 4 4) 
+MV ∗
+
+ Common Firms 0 .006∗∗∗
+ 0 .009∗∗
+
+ 
+
+(5 .503) (5 .852) 
+No. Common Investors × High Industry Common ∗∗∗
+
+ Own 0 .030 0 .044∗∗∗
+ 
+
+(4 .568) (4 .484) 
+No. Common Investors ∗
+
+ 0 .033∗∗∗
+ 0 .046∗∗
+
+ 
+
+(4 .473) (5 .119) 
+No. of Observations 54,541 54,541 54,541 54,541 54,541 54,541 54,541 54,541 
+Adj. R-Squared 0 .584 0 .584 0 .584 0 .584 0 .637 0 .637 0 .637 0 .637 
+Control Variables Included Yes Yes Yes Yes Yes Yes Yes Yes 
+Firm & Year × Industry Indicators Yes Yes Yes Yes Yes Yes Yes Yes 
+SE Clustered by Firm and Year Yes Yes Yes Yes Yes Yes Yes Yes 
+
+(continued on next page) 
+
+
+
+J. Park, J. Sani and N. Shroff et al. / Journal of Accounting and Economics 67 (2019) 387–415 405 
+
+Table 7 
+( Continued ) 
+
+Panel C: Using redactions from material contracts filed with the SEC as the proxy for voluntary disclosure 
+(1) (2) (3) (4) 
+
+Dependent Variable: %Redaction 
+
+Common Dummy × High Industry Common Own −0.007∗∗∗
+  
+
+(−2 .977) 
+Common Dummy −0. 001 
+
+(−0 .540) 
+No. Common Firms × High Industry Common Own −0. 001 
+
+(−1 .201) 
+No. Common Firms 0 .001 
+
+(0 .974) 
+MV Common Firms × High Industry Common Own −0. 001∗
+
+ 
+
+(−1 .671) 
+MV Common Firms −0. 0 0 0 
+
+(−0 .738) 
+No. Common Investors × High Industry Common Own −0. 005∗
+
+ 
+
+(−1 .801) 
+No. Common Investors −0. 0 0 0 
+
+(−0 .040) 
+No. of Observations 66,455 66,455 66,455 66,455 
+Adj. R-Squared 0.301 0.301 0.301 0.301 
+Control Variables Included Yes Yes Yes Yes 
+Firm & Year × Industry Indicators Yes Yes Yes Yes 
+SE Clustered by Firm and Year Yes Yes Yes Yes 
+
+Table 8 
+Difference-in-Differences analyses of the effect of common ownership on disclosure in response to exogenous changes in analyst coverage of peer firms 
+This table reports difference-in-difference results examining the effects of exogenous shock to a peer firm’s analyst coverage due to a broker closure/merger 
+on voluntary disclosure. A firm is included in the treated sample if the firm shares at least one blockholder with at least one same-industry Affected Peer 
+(i.e., firm that experiences a loss in analyst coverage), where the treatment firm did not have a loss in analyst coverage. A firm is included in the control 
+group if the firm does not share any blockholder with any same-industry Affected Peer , where the control firm did not have a loss in analyst coverage. 
+Treatment Closure is an indicator variable that equals one for treated firms and zero for control firms. Pre [ −1] Closure and Post Closure are indicator variables 
+that equal one for the year that ends one month before the merger announcement and the year that starts one month after the broker closure/merger. All 
+specifications include broker closure/merger event × affected peer × firm and year fixed effects. Standard errors are clustered at the broker closure/merger 
+level. ∗ ,∗∗ ∗
+
+ ,∗ ∗
+  indicate statistical significance at the 10%, 5%, and 1% levels, respectively, using a two-tailed t -test. 
+
+(1) (2) (3) (4) (5) 
+Dependent Variable: Earnings Guide Earnings Forecast Freq Capex Guide Capex Forecast Freq %Redaction 
+
+Treatment Closure × Pre [ −1] Closure −0 .005 0 .003 0 .015 0 .016 −0. 003 
+(−0 .661) (0 .257) (1 .508) (1 .318) (−0. 911) 
+
+Treatment Closure × Post Closure 0 .005 ∗
+ 0 .024 0 .027∗∗∗ ∗
+
+ 0 .041∗∗
+  −0. 004 
+
+(0 .513) (1 .954) (2 .861) (3 .581) (−0. 756) 
+Treatment Closure ∗
+
+ 0 .009 0 .001 ∗
+ −0. 011∗∗ ∗
+
+ −0 .013 0 .002 
+(1 .826) (0 .169) (−2 .098) (−2 .079) (0 .884) 
+
+Pre [ −1] Closure −0 .015 −0. 013 0 .004 0 .004 −0. 0 0 0 
+(−0 .888) (−0 .571) (0 .711) (0 .610) (−0. 146) 
+
+Post Closure 0 .009 0 .039 0 .003 0 .005 −0. 003 
+(0. 394) (1 .228) (0 .411) (0 .407) (−0. 785) 
+
+Institutional Ownership ∗
+ 0 .101 0 .155 0 .002 −0 .023 −0. 010 
+
+(1 .435) (1 .919) (0 .114) (−0 .851) (−0. 721) 
+Blockholder Ownership −0 .163∗∗ −0. ∗ ∗
+
+ 269 ∗
+  −0. 002 0 .018 0 .009 
+
+(−2 .479) (−3 .801) (−0 .121) (0 .860) (0 .681) 
+
+No. of Observations 419,566 419,566 419,566 419,566 581,742 
+Adj. R-Squared 0 .566 0 .676 0 .526 0 .546 0 .372 
+Firm × Closure × Affected Peer Indicators Yes Yes Yes Yes Yes 
+Year Indicators Yes Yes Yes Yes Yes 
+Other controls from Tables 4 to 6 Yes Yes Yes Yes Yes 
+SE Clustered by Closure Yes Yes Yes Yes Yes 
+
+ 
+
+ 
+
+ 
+
+ 
+
+5. Endogeneity: analyses of financial institution mergers 
+
+Institutional investors do not randomly invest, and it is plausible that common ownership endogenously arises as a result
+of the typical disclosure practices followed by firms in an industry. Specifically, it is plausible that institutional investors have
+a preference for firms that provide more voluntary disclosure; if the voluntary disclosure practices of firms in an industry
+are correlated then we might observe greater common ownership in that industry. Alternatively, institutional blockholders
+
+
+
+406 J. Park, J. Sani and N. Shroff et al. / Journal of Accounting and Economics 67 (2019) 387–415 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+might be better at picking stocks with better future prospects, which also tend to provide more voluntary disclosures (e.g.,
+Miller, 2002 ). To mitigate such endogeneity concerns, we follow He and Huang (2017) who use financial institution mergers
+to generate plausibly exogenous variation in common ownership. 
+
+Financial institutions such as asset management companies, bank holding companies, security brokers, etc. often merge
+for reasons unrelated to the fundamentals of their portfolio holdings. When two financial institutions merge, the acquirer
+takes over the portfolios of the target, creating increases in common ownership for some portfolio firms while leaving the
+degree of common ownership in other portfolio firms unchanged. For example, when BlackRock acquired Barclays in 2009,
+BlackRock was a blockholder in Williams Clayton Energy Inc. in the Oil and Gas Extraction industry while Barclays was a
+blockholder in fifteen other firms in the same industry but not Williams Clayton Energy. Thus, the merger created additional
+common ownership links between Williams Clayton Energy and the fifteen firms Barclays owned. These newly formed com-
+mon ownership links are plausibly exogenous to the disclosure incentives of these firms. Our identifying assumption is that
+institutions merge for reasons unrelated to their portfolio firms’ disclosure decisions.21 
+
+ 
+
+We obtain a list of six financial institution mergers that occurred during our sample period from He and Huang (2017) 22 
+ . 
+
+We identify treated firms as those which experience an increase in common ownership due to the financial institution
+mergers. Specifically, to be included in the treatment group, a firm has to satisfy two conditions in the quarter before the
+merger announcement: (i) the firm is blockheld by one of the merging institutions, and (ii) the other merging institution
+does not blockhold the same firm, but blockholds at least one of its same-industry peers. Importantly, the procedure to
+identify treated firms uses only ex ante information available at the time of the merger. This ex ante approach mitigates the
+concern that assignment of treatment firms is affected by subsequent trading decisions of the merged entity, which might
+contain information about the future prospects of portfolio firms or their disclosure policies. 
+
+To control for differences in the investment and stock picking styles of the merging institutions, we create a control
+sample of firms that are simultaneously owned by at least one of the merging institutions but do not witness a change in
+common ownership. Specifically, to be included in the control sample, a firm has to satisfy two conditions in the quarter
+before the merger announcement: (i) the firm has to be blockheld by the same institution that blockholds a treated firm,
+and (ii) the other merging institution does not blockhold any peer firms from the same industry. Thus, the merger does not
+affect the common ownership of control firms and yet these control firms are (partially) owned by the merged institution.
+An important advantage of our identification approach is that we have six financial institution mergers that occurred at
+different times during our sample period. The presence of multiple shocks mitigates the concern that confounding events
+around 2
+
+ any one merger explains our results. 3 
+ We estimate the following difference-in-differences regression to compare
+
+the disclosure of treated and control firms: 
+
+Disclosur e i, j,t = αi × α t + β T 
+ 
+
+ j + α  reatment × P ost + β T reatment × P re [ −1] 
+ 1 2 
+
+  
+
++ β3 P ost + β4P re [ −1] + ′ (3) 
+ 
+
+ r X + ε
+  i,t. 
+
+where i , j , and t index firms, mergers, and years respectively; αi × αj and αt represent firm × merger and year fixed effects,
+ 
+
+  
+
+respectively. Disclosure is one of the five disclosure variables: (i) Earnings Guide , (ii) Earnings Forecasts Freq , (iii) Capex Guide ,
+(iv) Capex Forecasts Freq or (v) %Redaction . Treatment is an indicator variable that equals one for treated firms and zero for
+control firms. We include firm-year observations for one year after each merger and three years before each merger. We
+restrict the post-merger period to one year because we find that merger induced increases in common ownership declines
+after the year immediately following the merger (untabulated). Post is an indicator variable that equals one for the fiscal
+year following the financial institution mergers and zero for other years. Pre [ −1] is an indicator variable that equals one for
+firm-year observations in the fiscal year immediately preceding the mergers. 
+
+X is a vector of control variables used in the baseline regression ( Eq. (1) ). However, we change the fixed effects struc-
+ture to include firm × merger indicators and year indicators, rather than firm and industry × year fixed effects. We make
+this research design choice because the treatment firms, by construction, operate in different industries than control firms.
+Thus, the inclusion of industry × year fixed effects subsumes part of 2
+
+ the treatment effect. 4 
+ The treatment effect is identified
+
+from changes in disclosure for the same firm following a change in common ownership that results from a financial insti-
+tution merger. Such changes in disclosure are benchmarked to changes in disclosure of other firms owned by the merging
+21 Consistent with the validity of our identifying assumption, prior research suggests that financial institution mergers are typically a response to finan- 
+cial sector deregulations (see e.g., Houston et al., 2001 ). For instance, commercial banks were allowed to directly acquire existing investment banks as 
+Section-20 subsidiaries in 1997. Further, following the Gramm-Leach-BlileyAct of 1999, commercial banks, investment banks, securities firms, and insurance 
+companies were allowed to consolidate. He and Huang (2017) discuss that changes in regulations led to a wave of financial institution mergers in the 
+20 0 0s, which covers our entire sample period for this test. 
+
+22 The mergers included in our sample are: (i) Wells Fargo & Benson Associates in 2003, (ii) Bank of America & Fleet Boston in 2004, (iii) Wells Fargo & 
+Strong Financial in 2005, (iv) Barclays & Lehman Brothers in 2008, (v) Bank of America & Merrill Lynch in 2009, and (vi) BlackRock & Barclays in 2009. 
+
+23 Azar et al. (2018) use just the BlackRock-Barclays merger to generate exogenous variation in common ownerships at the industry level. In untabulated 
+analyses, we follow their approach and find evidence consistent with our predictions. However, we use our multiple mergers setting to mitigate the effect 
+of confounding event. 
+
+24 Since we do not include industry × year fixed effects in this analysis, time-varying industry level variables, such as the Herfindhal index, are identified 
+and thus included as a control variable in the regressions. 
+
+
+
+J. Park, J. Sani and N. Shroff et al. / Journal of Accounting and Economics 67 (2019) 387–415 407 
+
+Table 9 
+Difference-in-Differences analyses of the effect of common ownership on disclosure 
+This table reports difference-in-difference results examining the effects of increased common blockholdings due to institution mergers on voluntary dis- 
+closure. A firm is included in the treated sample if (i) it is blockheld by one, but not both, of merging institution in the quarter before the announcement 
+of the merger and (ii) the other merging institutions blockholds at least one of the same-industry firms in the quarter before the announcement of the 
+merger. A firm is included in the control group if (i) it is blockheld by the same institution that holds a treated firm and (ii) none of its same-industry 
+peers are blockheld by the other merging institution in the quarter immediately before the announcement of the merger. Treatment is an indicator variable 
+that equals one for treated firms and zero for control firms. Pre [ −1] and Post are indicator variables that equal one for the fiscal year immediately before 
+the merger announcement and the fiscal year immediately after the merger completion. All specifications include firm × merger and year fixed effects. 
+Standard errors are clustered at the year and firm level. ∗, ∗∗, ∗∗∗
+
+ indicate statistical significance at the 10%, 5%, and 1% levels, respectively, using a two-tailed 
+t -test. 
+
+(1) (2) (3) (4) (5) 
+Dependent Variable: Earnings Guide Earnings Forecast Freq Capex Guide Capex Forecast Freq %Redaction 
+
+Treatment × Pre [ −1] 0 .022 0. 018 0 .012 0 .049 0 .009 
+(0 .969) (0 .517) (0 .463) (1 .020) (0 .772) 
+
+Treatment × Post 0 .055∗∗ 0. ∗
+  033 0 .069 0 .116∗
+
+ 0 .001 
+(2 .078) (0 .534) (1 .739) (1 .832) (0 .151) 
+
+Pre [ −1] −0 .002 −0. 014∗
+ 0 .0 0 0 −0. 008 0 .005 
+
+(−0 .283) (−2 .016) (0 .004) (−0 .746) (1 .369) 
+Post −0 .046 −0.107 −0. 087∗
+
+  −0. 119∗
+ 0 .015 
+
+(−0 .873) (−1 .217) (−2 .115) (−1 .811) (0 .926) 
+Common Dummy DiffInd −0 .002 −0.047 −0. 066∗
+
+  −0. 121∗∗
+ −0 .012 
+
+(−0 .048) (−0 .952) (−1 .908) (−2 .875) (−1 .512) 
+Institutional Ownership 0 .039 0. 195 0 .069 0 .093 0 .018 
+
+(0 .437) (1 .418) (0 .804) (1 .023) (0 .704) 
+Blockholder Ownership −0 .054 −0.251∗∗
+
+  −0. 029 −0. 194 0 .010 
+(−0 .767) (−2 .266) (−0 .288) (−1 .568) (0 .446) 
+
+No. of Observations 5896 5896 5896 5896 7080 
+Adj. R-Squared 0.701 0.741 0.591 0.654 0.337 
+Firm × Merger Indicators Yes Yes Yes Yes Yes 
+Year Indicators Yes Yes Yes Yes Yes 
+Other controls from Tables 4 to 6 Yes Yes Yes Yes Yes 
+SE Clustered by Firm and Year Yes Yes Yes Yes Yes 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+institution that do not experience a change in common ownership resulting from the merger. In this specification, Treat-
+ment is not identified because the regressions include firm × merger fixed effects. However, the coefficients for Post and Pre
+[ −1] are identified despite the inclusion of year fixed effects because the post-period occurs in different fiscal years for
+firms treated by the different financial institution mergers in our sample. Standard errors are clustered at the firm and year
+level.25 
+
+ 
+
+Table 9 presents the results from estimating Eq. (3) . Columns 1 and 3 present the results when Earnings Guide and
+Capex Guide are the dependent variables, respectively. The coefficient of Treatment × Post is positive and significant in both
+regressions. The coefficient estimate implies that treated firms are, on average, 5.5 (6.9) percentage points more likely to
+issue an earnings (capex) forecast when common ownership increases as a result of a financial institution merger relative
+to the change in forecasting behavior of control firms (which are also blockheld by the same merging institution over the
+same period). Compared to the pre-merger average value of 0.48 (0.34) (untabulated) for Earnings Guide ( Capex Guide ), the
+coefficient estimates imply that forecasting probability increases by 11.5% (0.055/0.48) and 20.3% (0.069/0.34) due to changes
+in common ownership induced by financial institution mergers. 
+
+Column 2 and 4 present the regression results when Earnings Forecasts Freq and Capex Forecasts Freq are the dependent
+variables, respectively. The coefficient estimate for Treatment × Post is positive in both regressions, but significant only for
+Capex Forecasts Freq . Considering the pre-merger average value of Capex Forecasts Freq is 0.41 (untabulated), the coefficient
+estimates imply that frequency of providing capex forecasts increases by 28.3% (0.116/0.41) as a result of changes in common
+ownership induced by financial institution mergers. The coefficient of Treatment × Post is insignificant when the dependent
+variable is %Redaction, which is consistence with our main results. Overall, Table 9 shows that the firms that experience an
+increase in their common ownership as a result of financial institution mergers provide more forecasts after the merger
+than those without changes in their common ownership. 
+
+To test for existence of pre-treatment trends, our regressions include an interaction term between an indicator variable
+for fiscal year preceding each financial institution merger ( Pre [ −1] ) and the treatment indicator. Table 9 show that co-
+efficient for Treatment × Pre [ −1] is insignificant in all regressions, suggesting that the pre-treatment disclosure trends for
+treated and control firms are statistically indistinguishable. 
+25 Ideally, we would cluster standard errors based on the source of treatment – i.e., financial institution mergers. However, since we have only six mergers 
+in our sample period, we have too few clusters at the merger-level to reliably estimate standard error clustered at the merger-level. 
+
+
+
+408 J. Park, J. Sani and N. Shroff et al. / Journal of Accounting and Economics 67 (2019) 387–415 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Although the above test has several advantages, which help mitigate endogeneity concerns related to our main tests,
+we note that it has two limitations. Most importantly, there are relatively few firms receiving treatment as a result of the
+financial institution mergers, which limits the power of the test. In particular, the six mergers during our sample period
+affect the common ownership of just 111 firms, only ten of which had no common ownership before the merger. That
+is, the addition of a common owner for most of the sample (101 of the 111 firms receiving treatment) is an incremental
+Table 10 
+Blockholder fixed effects 
+This table presents the results from regressing voluntary disclosure on lagged common ownership and other 
+determinants of disclosure. Panels A, B, C, D, and E report results when Earnings Guide , Earnings Forecast Freq , 
+Capex Guide , Capex Forecast Freq , and %Redaction are proxies for voluntary disclosure, respectively. All continuous 
+variables are winsorized at the 1% and 99% levels and are defined in the Variable Appendix. All specifications 
+include firm, industry × year, and blockholder fixed effects. Standard errors are clustered at the year and firm 
+
+level. ∗, ∗∗, ∗∗∗
+ indicate statistical significance at the 10%, 5%, and 1% levels, respectively, using a two-tailed t -test. 
+
+Panel A: Using an indicator variable for earnings forecasts as the proxy for voluntary disclosure 
+(1) (2) (3) (4) 
+
+Dependent Variable: Pr. Sign Earnings Guide 
+
+Common Dummy + 0. 017∗
+ 
+
+(1 .970) 
+No. Common Firms ∗
+
+ + 0 .013 ∗
+ 
+
+(2 .546) 
+MV Common Firms + 0 .005∗∗
+
+ 
+
+(2 .522) 
+No. Common Investors + 0 .024∗∗
+
+ 
+
+(2 .240) 
+No. of Observations 54,541 54,541 54,541 54,541 
+Adj. R-Squared 0.620 0.620 0.620 0.620 
+Firm & Year × Industry Indicators Yes Yes Yes Yes 
+Blockholder Indicators Yes Yes Yes Yes 
+Control Variables Included Yes Yes Yes Yes 
+SE Clustered by Firm and Year Yes Yes Yes Yes 
+
+Panel B: Using earnings forecast frequency as the proxy for voluntary disclosure 
+(1) (2) (3) (4) 
+
+Dependent Variable: Pr. Sign Earnings Forecast Freq 
+
+Common Dummy + 0 ∗
+ .034 ∗
+
+ 
+
+(2 .265) 
+No. Common Firms ∗
+
+ + 0 .019 ∗
+ 
+
+(2 .328) 
+MV Common Firms ∗
+
+ + 0 .008 ∗∗
+ 
+
+(2 .955) 
+No. Common Investors + 0 ∗
+
+ .036 ∗
+ 
+
+(2 .154) 
+No. of Observations 54,541 54,541 54,541 54,541 
+Adj. R-Squared 0.678 0.678 0.678 0.678 
+Firm & Year × Industry Indicators Yes Yes Yes Yes 
+Blockholder Indicators Yes Yes Yes Yes 
+Control Variables Included Yes Yes Yes Yes 
+SE Clustered by Firm and Year Yes Yes Yes Yes 
+
+Panel C: Using an indicator variable for capex forecasts as the proxy for voluntary disclosure 
+(1) (2) (3) (4) 
+
+Dependent Variable: Pr. Sign Capex Guide 
+
+Common Dummy + 0 .023 
+(1 .262) 
+
+No. Common Firms + 0 .011∗∗∗
+ 
+
+(3 .066) 
+MV Common Firms ∗
+
+ + 0 .005 ∗
+ 
+
+(2 .298) 
+No. Common Investors + 0 .025 
+
+(0 .370) 
+No. of Observations 54,541 54,541 54,541 54,541 
+Adj. R-Squared 0.596 0.596 0.596 0.596 
+Firm & Year × Industry Indicators Yes Yes Yes Yes 
+Blockholder Indicators Yes Yes Yes Yes 
+Control Variables Included Yes Yes Yes Yes 
+SE Clustered by Firm and Year Yes Yes Yes Yes 
+
+(continued on next page) 
+
+
+
+J. Park, J. Sani and N. Shroff et al. / Journal of Accounting and Economics 67 (2019) 387–415 409 
+
+Table 10 
+( Continued ) 
+
+Panel D: Using capex forecast frequency as the proxy for voluntary disclosure 
+(1) (2) (3) (4) 
+
+Dependent Variable: Pr. Sign Capex Forecast Freq 
+
+Common Dummy + 0 .028∗
+ 
+
+(2 .100) 
+No. Common Firms + 0 .014∗∗
+
+ 
+
+(2 .428) 
+MV Common Firms + 0.007∗∗
+
+  
+
+(2 .531) 
+No. Common Investors + 0.034∗∗
+
+  
+
+(2 .719) 
+No. of Observations 54,541 54,541 54,541 54,541 
+Adj. R-Squared 0.649 0.649 0.649 0.649 
+Firm & Year × Industry Indicators Yes Yes Yes Yes 
+Blockholder Indicators Yes Yes Yes Yes 
+Control Variables Included Yes Yes Yes Yes 
+SE Clustered by Firm and Year Yes Yes Yes Yes 
+
+Panel E: Using redactions from material contracts filed with the SEC as the proxy for voluntary disclosure 
+(1) (2) (3) (4) 
+
+Dependent Variable: Pr. Sign %Redaction 
+
+Common Dummy -/? −0. 002 
+(−0. 480) 
+
+No. Common Firms -/? 0 .001 
+(0 .481) 
+
+MV Common Firms -/? −0 .0 0 0 
+(−0 .686) 
+
+No. Common Investors -/? −0 .002 
+(−0 .382) 
+
+No. of Observations 66,455 66,455 66,455 66,455 
+Adj. R-Squared 0.310 0.310 0.310 0.310 
+Firm & Year × Industry Indicators Yes Yes Yes Yes 
+Blockholder Indicators Yes Yes Yes Yes 
+Control Variables Included Yes Yes Yes Yes 
+SE Clustered by Firm and Year Yes Yes Yes Yes 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+effect. As a result, the test has limited generalizability and is of lower power, which likely (i) contributes to the muted sig-
+nificance of our results and (ii) limits the variation needed to conduct our cross-sectional tests (which is why we do not
+use the merger setting to conduct our main analyses). In addition, when exploring the data in more detail, we observed
+that the changes in common ownership due to mergers are often temporary. This is not surprising as the merged entity
+is likely to rebalance its portfolio following the merger. Accordingly, we expect that a firm’s incentive to change disclo-
+sure in response to predictably transitory changes in common ownership is weaker than with more permanent common
+ownership.26 
+
+ 
+
+To address the limitations of the financial institution merger test, we conduct an additional test using a more stringent
+fixed effects structure than that employed in our main analyses. Specifically, in additional analyses, we re-run our main
+analyses controlling for blockholder fixed effects. The inclusion of blockholder fixed effects in our regressions holds the
+blockholder-ownership pattern of the disclosing firm constant and identifies the effect of common ownership on disclosure
+using changes in the other portfolio holdings of a firm’s investor base . For example, let’s say that Vanguard is a blockholder in
+company XYZ; by controlling for blockholder fixed effects (along with Firm and Year × Industry fixed effects), our regressions
+are testing whether company XYZ increases disclosure when Vanguard initiates a blockholding in another company in the
+same industry as company XYZ.27 
+
+ The inclusion of blockholder fixed-effects not only mitigates concerns related to omitted
+variables and reverse causality but also addresses the concern that individual common owner’s might have idiosyncratic
+preference for voluntary disclosure, which explains our results. 
+
+Table 10 Panel A (B, C, D, E) presents the results our main analyses after controlling for blockholder fixed effects when
+Earnings Guide ( Earnings Forecast Freq ; Capex Guide ; Capex Forecast Freq ; %Redactions ) is the dependent variable. The panels
+show that our inferences are unaffected by the inclusion of blockholder fixed effects, even though the statistical significance
+of the results is weaker. Specifically, we continue to find that common ownerships is positively associated with both proxies
+26 Although there are some limitations with the financial institution merger test as an exogenous shock, we would like to highlight that the broker closure 
+test serves as an additional test using an exogenous shock to provide more support for our inferences. 
+
+27 Note that despite its identification benefits, we do not include blockholder fixed effects in our main tests tabulated in the paper because these fixed- 
+effects partially control for treatment we are seeking to identify. 
+
+
+
+410 J. Park, J. Sani and N. Shroff et al. / Journal of Accounting and Economics 67 (2019) 387–415 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+for earnings and capex guidance, but insignificantly associated with redactions. These results reinforce our main inference
+and further mitigate endogeneity concerns. 
+
+6. Additional analyses and robustness tests 
+
+6.1. Market liquidity 
+
+Common owners are mostly large investors who could meet with managers privately (e.g., Solomon and Soltes, 2015;
+Bushee et al., 2018 ). Thus, it is not obvious how common owners benefit from increased public disclosure. We argue that
+common owners have a preference for greater public disclosure because of its effect on liquidity. Common owners benefit
+from improved liquidity for two reasons. First, improved liquidity lowers cost of capital and hence increases the market
+value of their portfolio firm ( Amihud, 2002 ). Second, improved liquidity lowers trading costs for investors. Large institutional
+investors (who account for much of the common ownership) trade fairly frequently to rebalance their portfolios (e.g., passive
+investors) and to profit from their private information (e.g., active investors). Such increases in liquidity are not an outcome
+that is possible via private discussions with firms, as the investing public needs to learn of the information to impact market
+liquidity. Thus, common owners benefit from increased public disclosure via its effect on liquidity ( Diamond and Verrecchia,
+1991; Shroff et al., 2013; Balakrishnan et al., 2014 ). 
+
+To examine the effects of common ownership on liquidity, we estimate Eq. (1) , but change the dependent variable from
+disclosure to liquidity proxies. We also change the set of control variables to match the dependent variable. We employ
+two proxies for liquidity: size-weighted effective bid-ask spreads ( BidAsk ) and Amihud (2002) ’s proxy for price impact of
+trades ( Amihud ). The vector of control variables includes the natural logarithm of stock price to control for order processing
+costs, the natural logarithm of the standard deviation of daily returns and share turnover to control for holding costs. We
+include the natural logarithm of one plus the number of analysts following a firm and total assets to control for information
+environment. Finally, we control for the percentage of the firm’s shares owned by blockholders, institutional ownership
+percentage, and different-industry common ownership proxies to explore the incremental effect of common ownership.
+Variable definitions are provided in the Appendix. 
+
+Table 11 reports the results for our regressions (where BidAsk is reported in Panel A and Amihud is reported in Panel
+B). Across all specifications (based on two proxies for liquidity and four proxies for common ownership), we find that the
+coefficient for the common ownership proxy is negative and statistically significant. These results suggest that common own-
+ership is associated with increased liquidity. In terms of economic significance, firms with common ownership, on average,
+experience about a 2.5% (0.35/13.83) −
+
+ lower spread and a 2.4% (e 0.024 
+ − 1) lower Amihud illiquidity measure.28 
+
+ These effects
+are the incremental effects of common ownership after controlling for institutional ownership and blockholder ownership
+in the focal firm. 
+
+6.2. Untabulated robustness tests 
+
+We conduct a number untabulated robustness tests to further validate our inferences and mitigate endogeneity con-
+cerns. First, following Ajinkya et al. (2005) , we conduct Granger causality tests to verify that common ownership leads to
+changes in firms’ disclosure behavior. The Granger causality test isolates the incremental effect of lagged common owner-
+ship on disclosure (our effect of interest) after controlling for the potential effects of lagged disclosure on common own-
+ership. Specifically, Granger (1969) proposes a test for causality that involves conducting F-tests to see whether lagged
+information of one variable, X, (i.e., common ownership) provides any statistically significant information about a sec-
+ond variable, Y, (i.e., disclosure) in the presence of lagged values of that second variable (i.e., disclosure). If yes, then X
+(i.e., common ownership) Granger causes Y (disclosure). We perform the Granger test by calculating F-statistics that com-
+pares the explanatory power of an unrestricted model to that of a restricted model. We add Disclosure t-1, Disclosure 
+
+ t-2,
+ 
+
+Disclosure t-3 to the Eq. (1) to obtain the unrestricted model and drop Common Owner from this unrestricted model to
+ t-1 
+
+obtain the restricted model. Across all four proxies for common ownership and four proxies for management forecasts,
+the F-statistics rejects the null hypothesis of Common Owner t-1 = 0. In addition, consistent with our main results, we find
+
+ 
+
+that the F-statistics fails to reject the null hypothesis of Common Owner t-1 = 0 when the dependent variable is %Redac-
+ 
+
+tion across all four proxies for common ownership. These results are consistent with common ownership Granger causing
+disclosure. 
+
+Second, in an effort to tease out the effect on common ownership on disclosure via the externality channel, we test
+whether our results are robust to controlling for firm aspects that would likely explain proprietary costs. We find that
+common ownership is associated with an increase in disclosure even after controlling for proprietary costs, as proxied by
+pair-wise product similarity ( Hoberg and Phillips, 2010; 2016 ), R&D intensity, and intangible intensity. Our results are robust
+to including these proprietary cost controls in our regressions. 
+
+Finally, we conduct several robustness tests related to (i) using two other industry classification schemes (NAICS 4-
+digit; the SIC 4-digit), (ii) estimating a base-line regression model without control variable, (iii) using different fixed effect
+28 The unconditional average of values for BidAsk ( Amihud ) for non-commonly owned firms is 13.83 (3.21). 
+
+
+
+J. Park, J. Sani and N. Shroff et al. / Journal of Accounting and Economics 67 (2019) 387–415 411 
+
+Table 11 
+Effect of common ownership on stock liquidity 
+This table presents the results from regressing stock liquidity on lagged common ownership and other 
+determinants of liquidity. In Panel A, the proxy for liquidity is BidAsk , which is the effective bid-ask 
+spreads of quoted prices. In Panel B, the proxy for liquidity is Amihud , which is a proxy for price impact 
+of trades based on Amihud (2002) . All continuous variables are winsorized at the 1% and 99% levels and 
+are defined in the Variable Appendix. All specifications include firm and industry × year fixed effects. 
+Standard errors are clustered at the year and firm level. ∗, ∗∗, ∗∗∗
+
+ indicate statistical significance at the 10%, 
+5%, and 1% levels, respectively, using a two-tailed t -test. 
+
+Panel A: Using Bid-Ask spreads as the proxy for liquidity 
+(1) (2) (3) (4) 
+
+Dependent Variable: Pr.  Sign BidAsk 
+
+Common Dummy – −0 .350∗∗
+ 
+
+(−2 .507) 
+No. Common Firms – −0. 165∗
+
+ 
+
+(−1. 682) 
+MV Common Firms – −0 .052∗
+
+ 
+
+(−1 .923) 
+No. Common Investors – −0 ∗
+
+ .599 ∗∗
+ 
+
+(−3 .123) 
+Institutional Ownership −2 .610∗∗∗ −2 ∗∗
+
+ .309 ∗
+ −2 .333∗∗∗
+
+  −2 .681∗∗∗
+ 
+
+(−3 .931) (−3. 512) (−3 .479) (−4 .175) 
+Blockholder Ownership ∗
+
+ 2 .424 ∗
+ 2. ∗∗
+
+ 549 2 .473∗∗
+ 2 .281∗∗
+
+ 
+
+(2 .736) (2. 915) (2 .821) (2 .575) 
+Common Ownership DiffInd 0. 470∗
+
+ 0. 003 0. 008 0. 545∗∗
+ 
+
+(1 .892) (0. 076) (0. 332) (2 .480) 
+Analysts −0 .458∗∗ −0. ∗
+
+ 454 ∗
+  −0 .451∗∗
+
+ −0 .454∗∗
+ 
+
+(−2 .639) (−2. 608) (−2 .584) (−2 .614) 
+Assets −2 .103∗∗∗ −2 ∗∗
+
+  .098 ∗
+ −2 .102∗∗∗
+
+ −2 .099∗∗∗
+ 
+
+(−8 .661) (−8. 571) (−8 .583) (−8 .672) 
+Stdev. Return 4 .134∗∗∗ 4. ∗ ∗
+
+ 132 ∗
+ 4 .137∗∗∗
+
+  4 .136∗∗∗
+ 
+
+(8 .702) (8. 672) (8 .683) (8 .701) 
+Price 6 .397∗∗∗ 6. ∗ ∗
+
+ 376 ∗
+ 6 .382∗∗∗
+
+  6 .409∗∗∗
+ 
+
+(24 .266) (24. 227) (24 .151) (24 .152) 
+Turnover −3 .121∗∗∗
+
+ −3 ∗∗
+ .126 ∗
+
+ −3 .126∗∗∗
+ −3 .121∗∗∗
+
+ 
+
+(−7 .592) (−7. 575) (−7 .591) (−7 .586) 
+
+No. of Observations 36,905 36,905 36,905 36,905 
+Adj. R-Squared 0. 804 0. 804 0. 804 0. 804 
+Firm & Year × Industry Indicators Yes Yes Yes Yes 
+SE Clustered by Firm and Year Yes Yes Yes Yes 
+
+Panel B: Using the Amihud (2002) measure of price impact of trades as the proxy for liquidity 
+(1) (2) (3) (4) 
+
+Dependent Variable: Pr.  Sign Amihud 
+
+Common Dummy – −0. 024∗
+ 
+
+(−1. 796) 
+No. Common Firms – −0. 024∗∗
+
+ 
+
+(−2 .204) 
+MV Common Firms – −0. 005∗
+
+ 
+
+(−1 .938) 
+No. Common Investors – −0 .040∗∗
+
+ 
+
+(−2 .276) 
+Institutional Ownership −0.784∗∗∗
+
+ −0. 772∗∗∗
+ −0. 756∗∗∗ ∗
+
+ −0 ∗
+ .777 ∗
+
+  
+
+(−9. 671) (−9 .742) (−9 .660) (−9 .687) 
+Blockholder Ownership 0. 614∗∗∗ ∗∗ ∗
+
+ 0. 632 ∗ ∗∗
+ 0. 626 0. ∗∗
+
+ 634 ∗
+  
+
+(7. 984) (8. 314) (8. 112) (8. 340) 
+Common Ownership DiffInd 0. 009 0. 002 −0. 002 0. 006 
+
+(0. 569) (0. 503) (−0. 981) (0. 380) 
+Analysts −0. ∗
+
+ 133 ∗∗
+ −0. ∗
+
+ 133∗ ∗
+ −0. ∗ ∗
+
+ 133 ∗
+ −0 .133∗∗∗
+
+ 
+
+(−8. 397) (−8 .332) (−8 .322) (−8 .367) 
+Assets −0.306∗∗∗
+
+  −0. 305∗∗∗
+ −0. 305∗∗∗ ∗
+
+ −0 ∗
+ .306 ∗
+
+ 
+
+(−13 .623) (−13 .717) (−13 .701) (−13 .657) 
+Stdev. Return 1.080∗∗∗ ∗∗ ∗
+
+  1. 080 ∗ ∗∗
+ 1. 081 1 .081∗∗∗
+
+  
+
+(28 .966) (28 .989) (28 .964) (29 .050) 
+Price −0.963∗∗∗
+
+  −0. 964∗∗∗
+ −0. 965∗∗∗ ∗
+
+ −0 ∗
+ .964 ∗
+
+ 
+
+(−37 .930) (−38 .262) (−38 .188) (−38 .041) 
+Turnover ∗
+
+ −1 .002 ∗∗ −1 ∗∗
+  .002 ∗
+
+ −1 .002∗∗∗
+ −1 .002∗∗∗
+
+ 
+
+(−42 .832) (−43 .052) (−42 .860) (−42 .794) 
+
+No. of Observations 36,905 36,905 36,905 36,905 
+Adj. R-Squared 0. 982 0. 982 0. 982 0. 982 
+Firm & Year × Industry Indicators Yes Yes Yes Yes 
+SE Clustered by Firm and Year Yes Yes Yes Yes 
+
+
+
+412 J. Park, J. Sani and N. Shroff et al. / Journal of Accounting and Economics 67 (2019) 387–415 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+structures (firm and year; industry and year), and (iv) clustering standard errors at different levels (just firm; just year). Our
+inferences are qualitatively similar. 
+
+7. Conclusion 
+
+This paper studies the effects of common ownership on the voluntary disclosure of co-owned firms. Prior research in-
+dicates that competition decreases the aggregate profits of the competing firms and thus investors that own large stakes
+in several firms in the industry – i.e., common owners, have incentives to soften the intensity of competition to increase
+their aggregate portfolio value. To the extent these co-owned firms are less competitive with each other, we argue they are
+likely to be less concerned that proprietary information conveyed in their disclosures will be used by competitors at the
+expense of the disclosing firm. In addition, because disclosure by one firm has positive externalities for peer firms, firms
+and common owners also obtain indirect benefits from disclosure. Increased disclosure is beneficial to both firms and com-
+mon owners, as it can reduce the cost of capital and increase liquidity, which is particularly important for large institutional
+investors, which need to frequently readjust their portfolio weightings. 
+
+We provide evidence that common ownership is associated with greater voluntary disclosure of management forecasts
+of earnings and capital expenditures. However, we do not find a relation between common ownership and the disclosure
+of more granular proprietary information contained in firms’ material contracts. To support our inferences, we conduct
+two cross-sectional tests that show that common ownership affects disclosure through both the externality mechanism and
+through a reduction in proprietary costs. To address potential endogeneity concerns, we use financial institution mergers as
+plausibly exogenous sources of variation in common ownership, and our results are robust. Finally, our results show that
+common ownership increases market liquidity of co-owned firms, suggesting that increased disclosure benefits these firms
+and their common owners. 
+
+Variable appendix 
+
+Detailed definitions of all variables used in our empirical analyses 
+This table provides a detailed description of the procedures used to compute each variable used in our analyses. Our data
+
+are obtained either through Compustat, CRSP, I/B/E/S, TAQ, or the Thomson Reuters 13F database. All continuous variables
+are winsorized at 1% and 99% of the distribution. The variables are listed according to alphabetical order. 
+
+Variable Definition 
+Amihud The natural logarithm of the annual average of the Amihud (2002) illiquidity measure. The illiquidity measure 
+
+is computed as the absolute value of the daily stock returns divided by trading volume in dollar amounts 
+multiplied ∗
+
+ by 10 0 0,0 0 0. Daily stock returns (RET), trading volume (VOL CFACSHR) and stock price 
+(abs(PRC)/CFACPR) are obtained from CRSP. 
+
+Analysts The natural logarithm of one plus the number of analysts who make at least one annual EPS forecast for the 
+firm (NUMEST from IBES STATSUM) 
+
+Assets The natural logarithm of total assets (AT from Compustat). 
+BidAsk The effective spread, computed using intraday trades and quotes from the TAQ database (following 
+
+Shroff et al., 2017 ). We compute each effective spread by matching each intraday trade to an intraday quote 
+using the Lee and Ready (1991) algorithm. For each trade-matched quote at time s for firm i , we compute 
+the intraday effective spread, IntraESpread i,s , as: 
+
+ 
+
+bid pric e + ask pric e 
+Int i,s 
+
+ raESprea d i,s = 2 |t  rade pric e i,s 
+ | 
+
+ i,s −
+ 2 
+
+where ask price i,s ( bid price  price (bid price) for the quote at time s for firm i , and trade price 
+ i,s) is the ask
+
+ i,s 
+
+is the trade price at which the trade is executed at time s for firm i . We compute the daily effective spreads 
+by size-weighting the intraday effective spreads then compute the annual spread by taking average of daily 
+spread over the fiscal year. 
+
+BigN Dummy variable which equals one if the firm’s auditor is one of the big N auditors (AU from Compustat is 
+smaller than 9), zero otherwise. 
+
+Blockholder Ownership Blockholders’ ownership percentage, measured as the sum of shares held by blockholders (investors with at 
+least 5% ownership), divided by total number of shares outstanding (SHROUT∗
+
+ 10 0 0,0 0 0 from Thomson 
+Reuters 13F database). 
+
+Capex Forecasts Freq The natural logarithm of one plus the number of management’s capital expenditure forecasts issued during 
+the fiscal year. 
+
+Capex Guide Dummy variable which equals one if the firm’s management issues at least one capital expenditure forecast 
+during a fiscal year, zero otherwise. 
+
+Common Dummy Dummy variable which equals one if the firm shares at least one blockholder with at least one same-industry 
+firm in at least one of the four quarters of a fiscal year, zero otherwise. Industry is defined based on Hoberg 
+and Phillips (2010, 2016 ) 300-industry. 
+
+( continued on next page ) 
+
+
+
+J. Park, J. Sani and N. Shroff et al. / Journal of Accounting and Economics 67 (2019) 387–415 413 
+Common Dummy DiffInd Dummy variable which equals one if the firm shares at least one blockholder with at least one 
+different-industry firm in at least one of the four quarters of a fiscal year, zero otherwise. 
+
+Common Ownership DiffInd This variable captures the extent to which a firm’s investors have blockholdings in different-industry firms. 
+Given the similarity of this variable to our variable of interest – i.e., investors’ blockholdings in same 
+industry firms, we construct proxies for blockholding in different-industry firms to mimic those we use for 
+common ownership. Specifically, when the common ownership proxy is Common Dummy , we control for 
+Common Dummy DiffInd , an indicator variable that equals one for firm-years in which at least one of the 
+firm’s institutional blockholders simultaneously blockholds at least one firm outside the focal firm’s industry. 
+When the common ownership proxy is No. Common Firms , we control for No. Common Firms DiffInd in our 
+regressions. No. Common Firms DiffInd is the number of unique firms that do not belong to the same 
+industry and share at least one institutional blockholder with the firm. Similarly, we define No. Common 
+Investors DiffInd and MV Common Firms DiffInd using different-industry firms, and use them as control 
+variables in our regressions when the common ownership proxy is No. Common Investors and MV Common 
+Firms , respectively. 
+
+Debt Issue Dummy variable which equals one if the firm issued debt (DLTIS from Compustat) during the fiscal year. 
+Earnings Forecasts Freq The natural logarithm of one plus the number of management’s annual EPS forecasts issued during the fiscal 
+
+year. 
+Earnings Guide Dummy variable which equals one if the firm’s management issues at least one annual EPS forecast during a 
+
+fiscal year, zero otherwise. 
+Earnings Increase Dummy variable which equals one if earnings before extraordinary (IB from Compustat) is larger than that of 
+
+the previous year’s, zero otherwise. 
+Equity Issue Dummy variable which equals one if the firm issued equity (from SDC database) during the fiscal year. 
+Herfindahl Sum of squared of sales market shares for all firms in the firm’s industry. 
+High Industry Common Own Dummy variable that equals one if the firm belongs to an industry whose Co-owned Percent is positive and 
+
+above the median of industries with positive Co-owned Percent , zero otherwise. Co-owned Percent is defined 
+as the market share-weighted average of Dummy Common in an industry. Market share is computed based 
+on sales (SALE from Compustat). 
+
+Institutional Ownership Institutional ownership percentage, measured as the sum of shares held by institutional investors, divided by 
+total number of shares outstanding (SHROUT × 10 0 0,0 0 0 from Thomson Reuters 13F database). 
+
+Leverage The ratio of total debt to total assets measured at the beginning of the fiscal year (LT/AT from Compustat). 
+Loss Dummy variable which equals one if earnings before extraordinary items (IB from Compustat) is negative, zero 
+
+otherwise. 
+MTB The ratio of market value to book value of total assets measured at the beginning of the fiscal year 
+
+((AT + (abs(PRCC_F) × CSHO - CEQ))/AT from Compustat). 
+MV Common Firms The natural logarithm of one plus the average market value of common owners’ ownership in the 
+
+same-industry firms that are co-owned with the focal firm over the four quarters of a fiscal year. 
+MV Common Firms DiffInd The natural logarithm of one plus the average market value of common owners’ ownership in the 
+
+different-industry firms that are co-owned with the focal firm over the four quarters of a fiscal year. 
+No. Common Firms The natural logarithm of one plus the average number of same-industry firms that are co-owned with the 
+
+focal firm over the four quarters of a fiscal year. 
+No. Common Firms DiffInd The natural logarithm of one plus the average number of different-industry firms that are co-owned with the 
+
+focal firm over the four quarters of a fiscal year. 
+No. Common Investors The natural logarithm of one plus the average number of the firm’s blockholders that are a blockholder of at 
+
+least one same-industry firm over the four quarters of a fiscal year. 
+No. Common Investors DiffInd The natural logarithm of one plus the average number of the firm’s blockholders that are a blockholder of at 
+
+least one different-industry firm over the four quarters of a fiscal year. 
+No. Stoppers The number of same-industry Stoppers . Stopper is defined as a firm that issues at least one annual EPS forecast 
+
+in each of years t-3 and t-2 but does not issue any annual EPS forecast in year t-1. Management earnings 
+forecasts are obtained from IBES. 
+
+Post Dummy variable which equals one for the fiscal year that starts immediately after the effective date of the 
+financial institutions mergers, zero otherwise. 
+
+Post Closure Dummy variable which equals one for the year that starts one month after broker closures, zero otherwise. 
+Pre [ −1] Dummy variable which equals one for the fiscal year that ends immediately before the announcement date of 
+
+the financial institutions mergers, zero otherwise. 
+Pre [ −1] Closure Dummy variable which equals one for the year that ends one month before broker closures, zero otherwise. 
+Price The natural logarithm of the average of the daily closing price (abs(PRC)/CFACPR, from CRSP) over the year. 
+%Redaction Ratio of the number of (10-K, 10-Q or 8-K) filling with at least one of the redaction phrases to the total 
+
+number of (10-K, 10-Q or 8-K) fillings with at least one material contract in a fiscal year. Redactions phrases 
+are: “Rule 24b-2,” “Rule 406,” “FOIA,” “CT Order,” “confidential treatment … (security and exchange 
+commission or SEC),” “(security and exchange commission or SEC) … confidential treatment,” “application …
+confidential treatment,” “confidential (material or portion) … (omit or redact).”
+
+ROA Earnings before extraordinary items (IB from Compustat) over total assets (AT from Compustat) at the 
+beginning of the fiscal year. 
+
+Sales growth Percentage change in sales, computed as (Sales - prior year’s Sales)/Sales. Sales is obtained from Compustat 
+(SALE). 
+
+Stdev. Earn The standard deviation of annual earnings before extraordinary items over total assets (IB/AT from Compustat) 
+over the past five years (with a minimum of three years). 
+
+Stdev. Return The natural logarithm of the standard deviation of daily returns (RET from CRSP) over the year. 
+
+( continued on next page ) 
+
+
+
+414 J. Park, J. Sani and N. Shroff et al. / Journal of Accounting and Economics 67 (2019) 387–415 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Treatment Dummy variable which equals one if (i) the firm is blockheld by one of merging institution in the quarter 
+immediately before the announcement of the merger and (ii) the other merging institution does not 
+blockhold the firm but blockholds at least one of its same-industry firms in the quarter immediately before 
+the announcement of the merger. 
+
+Treatment Closure Dummy variable which equals one if the firm shares at least one blockholder with at least one same-industry 
+firm that experiences analyst coverage termination due to a broker closure/merger. 
+
+Turnover The natural logarithm of the average of daily trading volume divided by shares outstanding (VOL/SHROUT 
+from CRSP) over the year. 
+
+References 
+
+Abramova, I. , Core, J.E. , Sutherland, A. , 2018. Institutional investor attention and firm disclosure. Working Paper . 
+Admati, A.R. , Pfleiderer, P. , 20 0 0. Forcing firms to talk: financial disclosure regulation and externalities. Rev. Financ. Stud. 13 (3), 479–519 . 
+Aghion, P. , Van Reenen, J. , Zingales, L. , 2013. Innovation and institutional ownership. Am. Econ. Rev. 103 (1), 277–304 . 
+Ajinkya, B. , Bhojraj, S. , Sengupta, P. , 2005. The association between outside directors, in- stitutional investors and the properties of management earnings
+
+forecasts. J. Account. Res. 43 (3), 343–376 . 
+Ali, A. , Klasa, S. , Yeung, E. , 2014. Industry concentration and corporate disclosure policy. J. Account. Econ. 58 (2), 240–264 . 
+Amihud, Y. , 2002. Illiquidity and stock returns: cross-section and time-series effects. J. Financ. Market. 5 (1), 31–56 . 
+Angrist, J. , Pischke, J.-S. , 2009. Mostly Harmless Econometrics: An Empiricist’s Companion. Princeton University Press, Princeton . 
+Anilowski, C. , Feng, M. , Skinner, D.J. , 2007. Does earnings guidance affect market returns? The nature and information content of aggregate earnings guid-
+
+ance. J. Account. Econ. 44, 36–63 . 
+Anton, M. , Ederer, F. , Gin ́e, M. , Schmalz, M.C. , 2018. Common ownership, competition, and top management incentives. Working Paper . 
+Aobdia, D. , 2018. Employee mobility, noncompete agreements, product-market competition, and company disclosure. Rev. Account. Stud. 23 (1), 296–346 . 
+Appel, I.R. , Gormley, T.A. , Keim, D.B. , 2016. Passive investors, not passive owners. J. Financ. Econ. 121 (1), 111–141 . 
+Arif, S. , De George, E.T. , 2018. Does financial reporting frequency affect investors’ Reliance on alternative sources of information? Evidence from earnings
+
+information spillovers around the world. Working Paper . 
+Azar, J. , 2017. Portfolio diversification, market power, and the theory of the firm. Working Paper . 
+Azar, J. , Raina, S. , Schmalz, M.C. , 2016. Ultimate ownership and bank competition. Working Paper . 
+Azar, J. , Schmalz, M.C. , Tecu, I. , 2018. Anticompetitive effects of common ownership. J. Finance 74 (4), 1513–1565 . 
+Badertscher, B. , Shroff, N. , White, H.D. , 2013. Externalities of public firm presence: evidence from private firms’ investment decisions. J. Financ. Econ. 109
+
+(3), 682–706 . 
+Baginski, S.P. , 1987. Intraindustry information transfers associated with management forecasts of earnings. J. Account. Res. 25 (2), 196–216 . 
+Baginski, S.P. , Hinson, L.A. , 2016. Cost of capital free-riders. Account. Rev. 91 (5), 1291–1313 . 
+Balakrishnan, K. , Billings, M.B. , Kelly, B. , Ljungqvist, A. , 2014. Shaping liquidity: on the causal effects of voluntary disclosure. J. Finance 69 (5), 2237–2278 . 
+Bamber, L.S. , Cheon, Y.S. , 1998. Discretionary management earnings forecast disclosures: antecedents and outcomes associated with forecast venue and
+
+forecast specificity choices. J. Account. Res. 36 (2), 167–190 . 
+Bernard, D. , 2016. Is the risk of product market predation a cost of disclosure? J. Account. Econ. 62 (2–3), 305–325 . 
+Bernard, D. , Burgstahler, D. , Kaya, D. , 2018. Size management by European private firms to minimize proprietary costs of disclosure. J. Account. Econ. 66
+
+(1), 94–122 . 
+Beyer, A. , Cohen, D.A. , Lys, T.Z. , Walther, B.R. , 2010. The financial reporting environment: review of the recent literature. J. Account. Econ. 50 (2), 296–343 . 
+Bharath, S.T. , Jayaraman, S. , Nagar, V. , 2013. Exit as governance: an empirical analysis. J. Finance 68, 2515–2547 . 
+Bird, A. , Karolyi, S.A. , 2016. Do institutional investors demand public disclosure? Rev. Financ. Stud. 29 (12), 3245–3277 . 
+Bonsall, S.B. , Bozanic, Z. , Fischer, P.E. , 2013. What do management earnings forecasts convey about the macroeconomy? J. Account. Res. 51 (2), 225–266 . 
+Boone, A.L. , Floros, I.V. , Johnson, S.A. , 2016. Redacting proprietary information at the initial public offering. J. Financ. Econ. 120 (1), 102–123 . 
+Boone, A.L. , White, J.T. , 2015. The effect of institutional ownership on firm transparency and information production. J. Financ. Econ. 117 (3), 508–533 . 
+Bourveau, T. , Schoenfeld, J. , 2017. Shareholder activism and voluntary disclosure. Rev. Account Stud. 22 (3), 1307–1339 . 
+Breuer, M. , Hombach, K. , Müller, M.A. , 2016. When you talk, I remain silent: Spillover effects of peers’ mandatory disclosures on firms’ voluntary disclosures.
+
+Working Paper . 
+Bushee, B.J. , 1998. The influence of institutional investors on myopic R&D investment behavior. Account. Rev. 73 (3), 305–333 . 
+Bushee, B.J. , 2001. Do institutional investors prefer near-term earnings over long-run value? Contemp. Account. Res. 18 (2), 207–247 . 
+Bushee, B.J. , Gerakos, J. , Lee, L.F. , 2018. Corporate jets and private meetings with investors. J. Account. Econ. 65 (2–3), 358–379 . 
+Bushee, B.J. , Goodman, T.H. , 2007. Which institutional investors trade based on private information about earnings and returns? J. Account. Res. 45 (2),
+
+289–321 . 
+Bushee, B.J. , Leuz, C. , 2005. Economic consequences of SEC disclosure regulation: evidence from the OTC bulletin board. J. Account. Econ. 39 (2), 233–264 . 
+Bushee, B.J. , Noe, C.F. , 20 0 0. Corporate disclosure practices, institutional investors, and stock return volatility. J. Account. Res. 38, 171–202 . 
+Chuk, E. , Matsumoto, D. , Miller, G.S. , 2013. Assessing methods of identifying management forecasts: CIG vs. researcher collected. J. Account. Econ. 55 (1),
+
+23–42 . 
+Coller, M. , Yohn, T.L. , 1997. Management forecasts and information asymmetry: an examination of bid-ask spreads. J. Account. Res. 35 (2), 181–191 . 
+Darrough, M.N. , 1993. Disclosure Policy and Competition: cournot vs. Bertrand. Account. Rev. 68 (3), 534–561 . 
+Darrough, M.N. , Stoughton, N. , 1990. Financial disclosure policy in an entry game. J. Account. Econ. 12, 219–243 . 
+Dedman, E. , Lennox, C. , 2009. Perceived competition, profitability and the withholding of information about sales and the cost of sales. J. Account. Econ. 48
+
+(2–3), 210–230 . 
+Del Guercio, D. , Hawkins, J. , 1999. The motivation and impact of pension fund activism. J. Financ. Econ. 52 (3), 293–340 . 
+Derrien, F. , Kecskés, A. , 2013. The real effects of financial shocks: evidence from exogenous changes in analyst coverage. J. Finance 68 (4), 1407–1440 . 
+Diamond, D.W. , 1985. Optimal release of information by firms. J. Finance 40, 1071–1094 . 
+Diamond, D.W. , Verrecchia, R.E. , 1991. Disclosure, liquidity, and the cost of capital. J. Finance 46 (4), 1325–1359 . 
+Dye, R.A. , 1990. Mandatory versus voluntary disclosures: the cases of financial and real externalities. Account. Rev. 65 (1), 1–24 . 
+Edmans, A. , Manso, G. , 2011. Governance through trading and intervention: a theory of multiple blockholders. Rev. Financ. Stud. 24 (7), 2395–2428 . 
+Elhauge, E. , 2017. The growing problem of horizontal shareholding. Compet. Policy Int. 3 . 
+Foster, G. , 1981. Intra-industry information transfers associated with earnings releases. J. Account. Econ. 3 (3), 201–232 . 
+Gallagher, D.R. , Gardner, P.A. , Swan, P.L. , 2013. Governance through trading: institutional swing trades and subsequent firm performance. J. Financ. Quantitat.
+
+Anal. 48 (2), 427–458 . 
+Gilo, D. , Moshe, Y. , Spiegel, Y. , 2006. Partial cross ownership and tacit collusion. RAND J. Econ. 37 (1), 81–99 . 
+Glaeser, S. , 2018. The effects of proprietary information on corporate disclosure and transparency: evidence from trade secrets. J. Account. Econ. 66 (1),
+
+163–193 . 
+Goodman, T.H. , Neamtiu, M. , Shroff, N. , White, H.D. , 2014. Management forecast quality and capital investment decisions. Account. Rev. 89 (1), 331–365 . 
+Gordon, R.H. , 1990. Do publicly traded corporations act in the public interest? Working Paper . 
+
+
+
+J. Park, J. Sani and N. Shroff et al. / Journal of Accounting and Economics 67 (2019) 387–415 415 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Graham, J.R. , Harvey, C.R. , Rajgopal, S. , 2005. The economic implications of corporate financial reporting. J. Account. Econ. 40 (1), 3–73 . 
+Granger, C.W. , 1969. Investigating causal relations by econometric models and cross-spectral methods. Econometrica 424–438 . 
+Gutiérrez, G. , Philippon, T. , 2017. Declining Competition and Investment in the U.S. NBER Working Paper . 
+Hansen, R.G. , Lott, J.R. , 1996. Externalities and corporate objectives in a world with diversified shareholder/consumers. J. Financ. Quantitat. Anal. 31 (1),
+
+43–68 . 
+He, J. , Huang, J. , 2017. Product market competition in a world of cross-ownership: evidence from institutional blockholdings. Rev. Financ. Stud. 30 (8),
+
+2674–2718 . 
+He, J. , Huang, J. , Zhao, S. , 2018a. Internalizing governance externalities: the role of institutional cross-ownership. J. Financ. Econ. Forthcoming . 
+He, J. , Li, L. , Yeung, E. , 2018b. Two tales of monitoring: Effects of institutional cross-blockholding on accruals. Working paper . 
+Hoberg, G. , Phillips, G. , 2010. Product market synergies and competition in mergers and acquisitions: a text-based analysis. Rev. Financ. Stud. 23 (10),
+
+3773–3811 . 
+Hoberg, G. , Phillips, G. , 2016. Text-based network industries and endogenous product differentiation. J. Polit. Econ. 124 (5), 1423–1465 . 
+Houston, J.F. , James, C.M. , Ryngaert, M.D. , 2001. Where do merger gains come from? Bank mergers from the perspective of insiders and outsiders. J. Financ.
+
+Econ. 60 (2–3), 285–331 . 
+Huang, Y. , Jennings, R. , Yu, Y. , 2017. Product market competition and managerial disclosure of earnings forecasts: evidence from import tariff rate reductions.
+
+Account. Rev. 92 (3), 185–207 . 
+Jung, M.J. , 2013. Investor overlap and diffusion of disclosure practices. Rev. Account. Stud. 18 (1), 167–206 . 
+Kang, J.-K. , Luo, J. , Na, H.S. , 2018. Are institutional investors with multiple blockholdings effective monitors? J. Financ. Econ. 128 (3), 576–602 . 
+Kelly, B. , Ljungqvist, A. , 2012. Testing asymmetric-information asset pricing models. Rev. Financ. Stud. 25 (5), 1366–1413 . 
+Lang, M. , Lundholm, R. , 1996. Corporate disclosure policy and analyst behavior. Account. Rev. 71, 467–492 . 
+Lang, M. , Sul, E. , 2014. Linking industry concentration to proprietary costs and disclosure: challenges and opportunities. J. Account. Econ. 58, 265–274 . 
+Lee, C. , Ready, M.J. , 1991. Inferring trade direction from intraday data. J. Finance 46 (2), 733–746 . 
+Li, X. , 2010. The impacts of product market competition on the quantity and quality of voluntary disclosures. Rev. Account. Stud. 15 (3), 663–711 . 
+Li, Y. , Lin, Y. , Zhang, L. , 2017. Trade secrets law and corporate disclosure: causal evidence on the proprietary cost hypothesis. J. Account. Res. 56 (1), 265–308 .
+Liang, L. , 2016. Common ownership and executive compensation. Working Paper . 
+Lu, H. , Wu Tucker, J. , 2012. Nonearnings corporate guidance. Financial Manag. 41 (4), 947–977 . 
+Maffett, M. , 2012. Financial reporting opacity and informed trading by international institutional investors. J. Account. Econ. 54 (2), 201–220 . 
+McCahery, J.A. , Sautner, Z. , Starks, L.T. , 2016. Behind the scenes: the corporate governance preferences of institutional investors. J. Finance 71 (6), 2905–2932 .
+Miller, G.S. , 2002. Earnings performance and discretionary disclosure. J. Account. Res. 40 (1), 173–204 . 
+Minnis, M. , Shroff, N. , 2017. Why regulate private firm disclosure and auditing? Account. Business Res. 47 (5), 473–502 . 
+O’Brien, D.P. , Salop, S.C. , 20 0 0. Georgetown law. Antitrust Law J. 67 (3), 559–614 . 
+Panayides, M.A. , Thomas, S. , 2017. Commonality in institutional ownership and competition in product markets. Working Paper . 
+Pawliczek, A. , Skinner, A.N. , 2018. Common ownership and voluntary disclosure. Working Paper . 
+Rotemberg, J. , 1984. Financial transaction costs and industrial performance. Working Paper . 
+Rubin, A. , 2006. Diversification and corporate decisions. Corp. Ownership Control 3 (3), 209–212 . 
+Schoenfeld, J. , 2017. The effect of voluntary disclosure on stock liquidity: new evidence from index funds. J. Account. Econ. 63, 51–74 . 
+Shroff, N. , Sun, A.X. , White, H.D. , Zhang, W. , 2013. Voluntary disclosure and information asymmetry: evidence from the 2005 securities offering reform. J.
+
+Account. Res. 51 (5), 1299–1345 . 
+Shroff, N. , Verdi, R. , Yu, G. , 2014. Information environment and the investment decisions of multinationals corporations. Account. Rev. 89 (2), 759–790 . 
+Shroff, N. , Verdi, R.S. , Yost, B.P. , 2017. When does the peer information environment matter? J. Account. Econ. 64 (2–3), 183–214 . 
+Solomon, D. , Soltes, E. , 2015. What are we meeting for? The consequences of private meetings with investors. J. Law Econ. 58 (2), 325–355 . 
+Verrecchia, R.E. , 1982. Information acquisition in a noisy rational expectations economy. Econometrica 50 (6), 1415–1430 . 
+Verrecchia, R.E. , 1983. Discretionary disclosure. J. Account. Econ. 5, 179–194 . 
+Verrecchia, R.E. , 1990. Information quality and discretionary disclosure. J. Account. Econ. 12, 365–380 . 
+Verrecchia, R.E. , Weber, J. , 2006. Redacted disclosure. J. Account. Res. 44 (4), 791–814 . 
+Wooldridge, J.M. , 2002. Econometric Analysis of Cross Section and Panel Data. MIT Press, Cambridge, MA .

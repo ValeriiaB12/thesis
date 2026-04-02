@@ -1,0 +1,1274 @@
+﻿Paci c-Basin Finance Journal 94 (2025) 102926 
+
+Contents lists available at ScienceDirect
+
+Pacific-Basin Finance Journal
+journal homepage: www.elsevier.com/locate/pacfin
+
+Common ownership and corporate violations: Evidence 
+from China
+Rongrong Yao , Min Xiao *
+
+School of Management, Xiamen University School of Management, No. 422, Siming South Road, Xiamen, Fujian 361005, China
+
+A R T I C L E  I N F O A B S T R A C T
+
+Keywords: Using a sample of Chinese listed firms from 2007 to 2022, we provide robust evidence of a 
+Common ownership negative relationship between common ownership and corporate violations, and document that 
+Corporate violations the potential mechanisms are improved corporate governance and enhanced information trans
+Corporate governance parency. Our cross-sectional analyses reveal that the negative effect of common ownership on 
+Information transparency
+
+corporate violations is more pronounced among firms with a higher level of media monitoring 
+and those with a lower proportion of state ownership. By distinguishing between different types 
+of common ownership, we identify that common state ownership and common foreign ownership 
+serve as key forces in reducing corporate violations. Overall, our findings are consistent with the 
+notion that common ownership serves as an effective form of “synergistic governance” and plays a 
+critical role in curbing corporate violations.
+
+1. Introduction
+
+Common ownership of public firms occurs when an investor cross-holds equity stakes in peer firms within the same industry 
+(Ramalingegowda et al., 2021; Chen et al., 2023a). Common ownership has become a prevalent phenomenon, raising widespread 
+concern in both developed and emerging markets (Azar et al., 2018; Athira and Lukose, 2023). In China, the number of common 
+owners and the proportion of firms with common owners are increasing year on year (Fig. 1). Although some literature suggests that 
+common ownership can result in governance synergies among co-owned firms (e.g., Kang et al., 2018; He et al., 2019), others 
+document that it can cause anti-competitive effects across an industry and weaken oversight over management (e.g., He and Huang, 
+2017; Lu et al., 2022; Antón et al., 2023). Given the persistent controversy over the governance implications of common ownership, we 
+focus on corporate violations, which are a direct manifestation of governance failures, to assess the impact of common ownership.
+
+Corporate violations are an important consideration for investors, as they can affect shareholder wealth, firm value, and the overall 
+health of the capital market (Fich and Shivdasani, 2007; Chen et al., 2023b). Prior research documents that external law environment 
+(La Porta et al., 2002; Kedia and Rajgopal, 2011), industry and geographic regulations (Dyck et al., 2010; Kedia and Rajgopal, 2011; 
+Wang, 2013), auditors (Dyck et al., 2010), and the media (Miller, 2006; Dyck et al., 2008, 2010; Heese et al., 2022), play central roles 
+in monitoring corporate violations. Internally, firm-specific characteristics, such as performance pressure and managers’ self- 
+interested behaviors (Bell and Carcello, 2000; Agrawal and Chadha, 2005; Khanna et al., 2015), as well as board and CEO charac
+teristics (Chen et al., 2006; Efendi et al., 2007; Khanna et al., 2015), can also influence corporate violations. Yet, despite an extensive 
+body of research examining various determinants of corporate violations, the potential impact of common ownership on firms’ 
+
+* Corresponding author.
+E-mail addresses: rryaoxmu@126.com (R. Yao), mxiao@xmu.edu.cn (M. Xiao). 
+
+https://doi.org/10.1016/j.pacfin.2025.102926
+Received 28 September 2024; Received in revised form 11 July 2025; Accepted 5 September 2025  
+Available online 6 September 2025 
+0927-538X/© 2025 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies. 
+
+
+
+R. Yao and M. Xiao                                                                                                                                                       P a  c  i   c - B  a  s i n    F  i n  a n  c  e   J o u r n a l   94 (2025) 102926 
+
+Fig. 1. Common ownership in Chinese stock market. 
+The figure plots the number of common owners, the ratio of firms with common owners to all firms, and the average number of firms held by each 
+common owner for each year from 2003 to 2022. The bar chart represents the number of common owners in the market, the solid line stands for the 
+ratio of firms with common owners to all firms, and the dashed line indicates the average number of firms held by each common owner.
+
+violation behaviors has received surprisingly little attention. Our study extends prior research on corporate violations by introducing 
+the effect of common ownership.
+
+We predict that common ownership will be a proactive force curbing corporate violations. This prediction is grounded in the 
+theoretical frameworks of the positive effect of common ownership on corporate governance and information transparency. First, 
+common owners serve as effective monitors. They can directly intervene in corporate governance through voice, voting, and exit 
+threats to prevent managers from pursuing private benefits (Kang et al., 2018; Edmans et al., 2019; He et al., 2019). They also have 
+access to more knowledge, expertise, and experience across their portfolio, which enhances their monitoring capabilities (Kang et al., 
+2018). Additionally, they benefit from economies of scale, particularly in terms of information acquisition and monitoring multiple 
+firms in the same industry, which further enhances their monitoring efficiency (Chen et al., 2023a). These advantages work to reduce 
+managerial opportunism, thus curbing the occurrence of corporate violations. Second, common ownership tends to enhance a firm’s 
+transparency. Co-owned firms are not only motivated to voluntarily disclose more information (Park et al., 2019; Pawliczek et al., 
+2022), but they are also subject to greater external oversight (Edmans et al., 2019; Jang et al., 2022). This enhanced transparency 
+increases the likelihood of managers’ wrongdoings being detected, which helps to suppress corporate violations.
+
+To investigate whether common ownership affects corporate violations, we empirically examine the relationship using a sample of 
+Chinese A-share listed firms over the period 2007 to 2022. Our baseline regression results suggest a negative relationship between 
+common ownership and corporate violations. The effect is not only statistically significant but also economically relevant. To address 
+potential endogeneity issues, we employ a series of identification strategies, including propensity score matching (PSM), Heckman 
+two-stage, instrumental variable, placebo, and DiD tests. The consistency of results across these different methods confirms the reli
+ability of our baseline findings and strengthens the validity of our causal inference. Our results remain robust after adopting alternative 
+independent variables, sample period, model, and fixed effects. Moreover, we identify improvements in corporate governance and 
+information transparency as potential mechanisms through which common ownership affects corporate violations. In cross-sectional 
+analyses, we find that the negative relationship between common ownership and corporate violations is more pronounced for firms 
+with a greater extent of external media monitoring and those with a relatively lower proportion of state-owned shares. Additional 
+analyses indicate that, among various types of common ownership, common state ownership and common foreign ownership exhibit 
+the most significant negative relationship with corporate violations.
+
+Our study makes three main contributions. First, this paper adds to the literature on the effect of common ownership. While some 
+research suggests that common ownership creates governance synergies across portfolio firms, referred to as the “synergistic gover
+nance” effect (e.g., Kang et al., 2018; Ramalingegowda et al., 2021), other studies suggest that common ownership decreases 
+competition and fosters coordination or tacit collusion among firms in the industry, referred to as the “collusion” effect (e.g., He and 
+Huang, 2017; Azar et al., 2018). There is also a third strand of literature that suggests common ownership has only a limited impact (e. 
+g., Lewellen and Lowry, 2021). Our study contributes to this literature by documenting a tendency toward synergistic governance as a 
+result of common ownership. Unlike prior studies on governance synergies that examine the role of common ownership in specific 
+aspects of managerial misconduct, such as curbing tax avoidance (Athira and Lukose, 2023), constraining insider trading (Dai et al., 
+2024), mitigating earnings management (Ramalingegowda et al., 2021), and deterring bad news hoarding (Chen et al., 2023a), we 
+focus on corporate violations, a direct and comprehensive manifestation of governance failure, to assess the impact of common 
+ownership. Furthermore, we provide evidence that improved corporate governance and increased information transparency serve as 
+mechanisms through which common ownership acts as an effective form of “synergistic governance”.
+
+Second, we enrich the literature on the determinants that influence corporate violations. An existing body of literature documents 
+some of these factors, including external forces such as the legal and regulatory environment, the media, and auditors (La Porta et al., 
+
+2 
+
+
+
+R. Yao and M. Xiao                                                                                                                                                       P a  c  i   c - B  a  s i n    F  i n  a n  c  e   J o u r n a l   94 (2025) 102926 
+
+2002; Kedia and Rajgopal, 2011; Dyck et al., 2010; Heese et al., 2022), as well as the internal characteristics of the boardroom and CEO 
+(Chen et al., 2006; Efendi et al., 2007; Khanna et al., 2015). We complement this line of literature by introducing a cross-firm factor, 
+common ownership, and document that corporate violations decrease in portfolio firms of common owners. Our study highlights that 
+common owners serve as one of the governance forces that deter the occurrence and enhance the detection of corporate violations. 
+Given the widespread prevalence of common ownership, our novel evidence on its impact on corporate violations deserves attention 
+for academic research and regulatory policy.
+
+Third, our paper provides nuanced insights into the differential impact of various types of common ownership on corporate vio
+lations. By distinguishing between common institutional ownership, common enterprise ownership, and common individual 
+ownership, we find that common enterprise ownership is the key force in curbing corporate violations. Further decomposing common 
+enterprise ownership into state-owned, non-state-owned, and foreign-owned categories demonstrates that common state ownership 
+and common foreign ownership are particularly effective at reducing corporate violations. These findings indicate that the identity and 
+nature of common owners matter significantly, not just the presence of common ownership itself. Thus, this study should be of interest 
+to researchers, regulators, and corporations, as it provides evidence that the governance efficiency of common ownership differs 
+between different types of common ownership.
+
+The remainder of our paper is organized as follows: Section 2 provides literature review and hypothesis. Section 3 describes the 
+sample and research design. Section 4 presents empirical results. Section 5 concludes.
+
+2. Literature review and hypothesis development
+
+2.1. Prior research on common ownership
+
+Common owners simultaneously hold shares in competing firms within the same industry, shifting their goals from maximizing the 
+value of individual firms to maximizing returns across an entire portfolio (e.g., Azar et al., 2018; He et al., 2019). This can generate 
+countervailing effects: efficiency gains from coordinated governance (the “synergistic governance” effect) versus anti-competitive and 
+collusion effects through reduced market discipline (the “collusion” effect). One strand of the literature suggests that common 
+ownership creates governance synergies due to more information advantages and greater corporate governance (e.g., Kang et al., 
+2018; Edmans et al., 2019; He et al., 2019). However, an opposing strand of literature points out that common ownership can facilitate 
+market coordination or tacit collusion and decrease competition among firms in the common owner’s portfolio (e.g., He and Huang, 
+2017; Lu et al., 2022; Antón et al., 2023), which creates a hidden social cost for the entire industry. There is also a third strand of 
+literature suggesting that common ownership only has a modest impact on competition (Lewellen and Lowry, 2021; Lewellen and 
+Lewellen, 2022). In fact, Lewellen and Lowry (2021) document that any anti-competitive effects observed likely stem from other 
+factors, such as firms’ or industries’ differential responses to the 2008 financial crisis. They find little robust evidence that common 
+ownership affects firm behavior when using modified empirical approaches that are less sensitive to these issues.
+
+2.2. Hypothesis development
+
+Corporate violations refer to actions taken by firms that violate the law or deviate from social norms, resulting in a loss of value for 
+the firms and harming the interests of investors (e.g., Holzman et al., 2021; Chen et al., 2023b). Violations are typically driven by 
+managers’ opportunistic motives to maximize their own interests, which often arise from inadequate internal governance systems 
+(Chen et al., 2006; Donelson et al., 2017). Building on the literature that documents the governance synergies effect of common 
+ownership, we propose that common ownership will reduce corporate violations due to improved corporate governance and increased 
+information transparency.
+
+The first channel through which common ownership reduces corporate violations is improved corporate governance. Common 
+ownership can improve corporate governance for three reasons. First, common owners can directly intervene in corporate governance 
+via mechanisms such as voice and exit, thereby preventing managers from pursuing their own private benefits. For example, they are 
+more likely to vote against management on shareholder-sponsored governance proposals, and their exit is effective because a reduction 
+in their holdings in a specific firm signals a pessimistic outlook to the market (He et al., 2019; Edmans et al., 2019). Additionally, they 
+can force poorly performing executives to turnover and vote on director candidates to monitor managerial behavior and curb 
+opportunistic insider trading (Kang et al., 2018; Dai et al., 2024). Such interventions can prompt managers to take actions that better 
+align with the interests of shareholders.
+
+Second, owning multiple blockholdings within a portfolio not only strengthens the incentives for common owners to monitor the 
+firms in their portfolio but also improves their governance capabilities. Common owners have a strong incentive to maximize the value 
+of their portfolio, which drives them to leverage their advantages to enhance monitoring efficiency (He et al., 2019; Ramalingegowda 
+et al., 2021). They can also spread knowledge and governance expertise among co-owned peer firms, acting as an information bridge 
+among portfolio firms and thereby reducing monitoring costs (Kang et al., 2018; Ramalingegowda et al., 2021; Athira and Lukose, 
+2023).
+
+Third, common owners benefit from economies of scale, which also helps to strengthen their monitoring efficiency. For example, 
+when an industry is influenced by unfortunate macroeconomic factors, a common owner does not need to develop a different coping 
+strategy for each firm in their portfolio. Rather, one good strategy should suffice for all firms. Moreover, common owners generally 
+have access to overarching information and expertise, making them better equipped to identify misconduct and bad news 
+(Ramalingegowda et al., 2021; Chen et al., 2023a; Liu and He, 2024).
+
+3 
+
+
+
+R. Yao and M. Xiao                                                                                                                                                       P a  c  i   c - B  a  s i n    F  i n  a n  c  e   J o u r n a l   94 (2025) 102926 
+
+Given that common ownership can constrain managerial opportunistic behaviors and mitigate agency conflicts, managers will be 
+more cautious and compliant in making decisions. Several studies provide evidence that stronger external monitoring and internal 
+governance result in fewer violations. For example, Dyck et al. (2010), Karpoff and Lou (2010), and Wang et al. (2010) find that 
+auditors, media, industry regulators, employees, short sellers, and underwriters can play a monitoring role that prevents firms from 
+engaging in misconduct and violations. Therefore, we expect that the monitoring role of common ownership can suppress the 
+opportunistic behaviors of managers, which in turn inhibits corporate violations.
+
+The second channel through which common ownership reduces corporate violations is enhanced information transparency. 
+Common owners can improve the transparency of portfolio firms for at least two reasons. First, co-owned firms are more motivated to 
+disclose information. Common owners aim to promote cooperation and resource sharing. Firms with common owners can have greater 
+voluntary disclosure because common ownership reduces proprietary cost concerns of disclosure and internalizes the externality 
+benefits of disclosure (Park et al., 2019). The sharing of information among portfolio firms, coupled with the enhanced monitoring 
+capabilities of common owners, also contributes to greater transparency in the information disclosed by these firms.
+
+Second, co-owned firms can attract greater public attention and are subject to stricter oversight. Under external pressure, these 
+firms become more transparent, which deters them from manipulating earnings and concealing bad news (Ramalingegowda et al., 
+2021; Chen et al., 2023a). Additionally, common owners can systematically compare financial reporting and other information among 
+industry peers, enabling them to identify anomalies and potential misconduct more effectively than isolated investors. A firm’s 
+violation behaviors have negative externalities (He et al., 2019; Park et al., 2019). When a violation occurs, false disclosures and 
+misleading statements may distort the investment decisions of peer firms. Therefore, common ownership can reduce the prevalence of 
+false information in financial reports and help avoid losses for portfolio firms (He et al., 2019).
+
+Common ownership can improve information transparency, which increases the probability that misconduct will be detected and 
+thereby deters such behaviors. Jin and Myers (2006) and Bleck and Liu (2007) find that managers opt to support bad projects to 
+maximize their benefits in markets with significant information asymmetry. Once violations are discovered, the perpetrators must bear 
+the consequences, which include returning illegally obtained profits and facing significant penalties. Given that common ownership 
+can increase a firm’s information transparency, we expect it to help suppress corporate violations.
+
+Based on the above discussion, we propose that common ownership can improve corporate governance and enhance information 
+transparency, thereby leading to a decrease in corporate violations. Therefore, we propose our hypothesis as follows: 
+Hypothesis. Common ownership is associated with lower corporate violations.
+
+While our primary hypothesis predicts a negative relationship between common ownership and corporate violations, we 
+acknowledge compelling theoretical arguments supporting an alternative perspective. The “collusion” effect of common ownership 
+may increase corporate violations. First, common ownership may diminish product market competition (Hansen and Lott, 1996; He 
+and Huang, 2017; Lu et al., 2022), thereby weakening an important external governance mechanism (Hart, 1983; Chhaochharia et al., 
+2017). In less competitive environments, managers may have greater latitude to engage in opportunistic behaviors that serve their own 
+private interests rather than shareholders’ interests. Second, common ownership might facilitate information sharing that enables 
+sophisticated violations across portfolio firms through complex related-party transactions (Brooks et al., 2018). These countervailing 
+effects create a tension that ultimately renders the relationship between common ownership and regulatory violations an empirical 
+question worthy of rigorous investigation.
+
+3. Research design
+
+3.1. Data and sample
+
+Our initial sample consists of Chinese A-share listed firms over the period of 2007–2021. The data are primarily collected from the 
+China Stock Market & Accounting Research (CSMAR) database and supplemented by the Chinese Research Data Services (CNRDS) 
+dataset and the DIB database. We extract common ownership holdings information from the CSMAR database and define a holding as a 
+block if it exceeds 5 % of the firm’s outstanding shares. Given the revision of the Chinese Accounting Standards in 2007, this study 
+selects 2007 as the initial research year. We exclude the following observations from the initial sample: (1) financial firms; (2) ST and 
+*ST firms; (3) firms with leverage ratios exceeding 1; and (4) firms with missing data for key variables. After these exclusions, we 
+obtain 37,957 firm-year observations. To mitigate the impact of extreme values, all continuous variables are winsorized at the 1st and 
+99th percentiles.
+
+3.2. Variable construction
+
+3.2.1. Common ownership
+To measure the impact of common ownership in a given fiscal year, following He and Huang (2017) and Athira and Lukose (2023), 
+
+we focus on blockholders owning at least 5 % of a firm’s outstanding shares and construct two measures: (1) Cross5_Dum is a dummy 
+variable that equals 1 if the focal firm and at least one of its industry peers are simultaneously held by at least one blockholder in any 
+quarter of the fiscal year, and 0 otherwise. (2) Cross5_Num is measured as the natural logarithm of 1 plus the average number of 
+common blockholders that hold the focal firm and its industry peers across the four quarters of a fiscal year. We use the 3-digit industry 
+code to identify industry peers based on the Guidelines for the Industry Classification of Listed Companies issued by the China Se
+curities Regulatory Commission in 2012.
+
+4 
+
+
+
+R. Yao and M. Xiao                                                                                                                                                       P a  c  i   c - B  a  s i n    F  i n  a n  c  e   J o u r n a l   94 (2025) 102926 
+
+Table 1 
+Summary statistics.
+
+Variable N Mean SD Min p25 p50 p75 Max
+
+VioDummy 37,957 0.178 0.383 0.000 0.000 0.000 0.000 1.000
+VioNum 37,957 0.305 0.808 0.000 0.000 0.000 0.000 10.000
+Cross5_Dum 37,957 0.104 0.305 0.000 0.000 0.000 0.000 1.000
+Cross5_Num 37,957 0.068 0.210 0.000 0.000 0.000 0.000 1.609
+Size 37,957 22.043 1.283 19.719 21.106 21.854 22.772 26.069
+Lev 37,957 0.423 0.206 0.051 0.258 0.417 0.579 0.884
+ROA 37,957 0.039 0.060 − 0.239 0.015 0.039 0.069 0.198
+OCF 37,957 0.048 0.071 − 0.163 0.008 0.047 0.089 0.248
+Growth 37,957 0.183 0.399 − 0.554 − 0.012 0.120 0.286 2.499
+Invest 37,957 0.052 0.049 0.000 0.016 0.038 0.073 0.236
+Top1 37,957 0.351 0.147 0.094 0.235 0.330 0.451 0.746
+Indirect 37,957 0.373 0.053 0.300 0.333 0.333 0.429 0.571
+Dual 37,957 0.277 0.447 0.000 0.000 0.000 1.000 1.000
+SOE 37,957 0.373 0.484 0.000 0.000 0.000 1.000 1.000
+Fix 37,957 0.219 0.164 0.002 0.092 0.185 0.311 0.710
+Age 37,957 16.814 5.965 4.000 13.000 17.000 21.000 32.000
+BIG4 37,957 0.032 0.177 0.000 0.000 0.000 0.000 1.000
+
+This table presents descriptive statistics of our key variables. Definitions of all variables are detailed in Appendix Table 1.
+
+3.2.2. Corporate violations
+Drawing on the methods of Zhang (2018) and Chen et al. (2023b), the corporate violations are proxied by VioDummy and VioNum. 
+
+VioDummy is a dummy variable that equals 1 when a firm is sanctioned for violations by the regulatory authorities, and 0 otherwise. 
+VioNum is calculated as the sum of the number of violations committed by the firm.
+
+3.2.3. Control variables
+Following Zhang (2018), Jiang et al. (2022), and Chen et al. (2023b), we include a series of firm-level financial characteristics and 
+
+external government variables to control for the potential drivers of corporate violations. These control variables include firm size 
+(Size), leverage (Lev), profitability (ROA), operating cash flow (OCF), sales growth (Growth), capital expenditure (Invest), the largest 
+shareholding (Top1), independent directors (Indirect), CEO duality (Dual), state ownership (SOE), fixed assets (Fix), firm age (Age), and 
+whether the firm is audited by a Big Four accounting firm (BIG4). For detailed definitions of the variables, please refer to 
+Appendix Table 1.
+
+3.3. Regression specifications
+
+To examine the effect of common ownership on corporate violations, we construct the following baseline regression model: 
+Vioi,t+1 = β0 + β1Crossi,t + βnControlsi,t + Firm FE+Year FE+ εi,t (1) 
+
+where i represents the firm, and t represents the year. The dependent variable is corporate violations (Vio) as proxied by VioDummy and 
+VioNum. The independent variable is common ownership (Cross), proxied by Cross5_Dum and Cross5_Num. In our regression specifi
+cation, we include firm fixed effects to absorb time-invariant firm characteristics. We also include year fixed effects to mitigate 
+concerns that our results might be driven by time trends. Standard errors are clustered at the firm level, and εi,t represents the residual 
+term. The coefficient for Cross, β1, captures the relationship between common ownership and corporate violations. Specifically, we 
+employ ordinary least squares (OLS) to estimate the coefficients in Eq. (1).
+
+3.4. Summary statistics
+
+Table 1 presents the summary statistics for the key variables. There is significant variation in firms’ violations: the mean value of 
+VioDummy is 0.178, indicating that approximately 17.8 % of firm-years in our sample involve violations. The average VioNum is 0.305. 
+In terms of common ownership measures, the mean value of Cross5_Dum is 0.104, which means that 10.4 % of the sample firms have 
+common ownership. The mean value of Cross5_Num is 0.068. The standard deviation of Cross5_Dum (Cross5_Num) is 0.305 (0.210). The 
+sample means of control variables are similar to those reported in previous studies (Chen et al., 2023b). Appendix Table 21 reports the 
+Pearson correlation coefficients for the main variables. The results show that the common ownership measures (Cross5_Dum and 
+Cross5_Num) are negatively correlated with the corporate violation measures (VioDummy and VioNum), providing preliminary support 
+for our hypothesis.
+
+1 Appendix Tables 2–5 are included in the online appendix due to space limitations.
+
+5 
+
+
+
+R. Yao and M. Xiao                                                                                                                                                       P a  c  i   c - B  a  s i n    F  i n  a n  c  e   J o u r n a l   94 (2025) 102926 
+
+Table 2 
+The effect of common ownership on corporate violations.
+
+(1) (2) (3) (4)
+
+VioDummy VioNum VioDummy VioNum
+
+Cross5_Dum − 0.030*** − 0.083***
+(− 2.91) (− 4.22)
+
+Cross5_Num − 0.051*** − 0.139***
+(− 3.24) (− 4.64)
+
+Size 0.046*** 0.135*** 0.046*** 0.135***
+(6.33) (7.82) (6.33) (7.82)
+
+Lev 0.045 0.115 0.045 0.114
+(1.55) (1.59) (1.55) (1.59)
+
+ROA − 0.595*** − 1.374*** − 0.594*** − 1.373***
+(− 10.76) (− 10.17) (− 10.75) (− 10.16)
+
+OCF − 0.047 − 0.112 − 0.048 − 0.113
+(− 1.30) (− 1.34) (− 1.31) (− 1.36)
+
+Growth − 0.003 0.003 − 0.003 0.003
+(− 0.56) (0.26) (− 0.56) (0.26)
+
+Invest − 0.064 − 0.201 − 0.064 − 0.201
+(− 1.08) (− 1.60) (− 1.07) (− 1.60)
+
+Top1 − 0.111** − 0.342*** − 0.112** − 0.343***
+(− 2.34) (− 2.97) (− 2.35) (− 2.98)
+
+Indirect − 0.030 − 0.096 − 0.030 − 0.096
+(− 0.40) (− 0.63) (− 0.40) (− 0.63)
+
+Dual − 0.002 0.010 − 0.002 0.010
+(− 0.17) (0.45) (− 0.17) (0.45)
+
+SOE − 0.098*** − 0.250*** − 0.098*** − 0.250***
+(− 4.23) (− 4.63) (− 4.22) (− 4.62)
+
+Fix − 0.114*** − 0.365*** − 0.114*** − 0.364***
+(− 3.33) (− 4.57) (− 3.32) (− 4.56)
+
+Age − 0.008 − 0.023 − 0.008 − 0.023
+(− 0.70) (− 1.09) (− 0.70) (− 1.08)
+
+BIG4 − 0.043*** − 0.125*** − 0.043*** − 0.124***
+(− 2.82) (− 4.14) (− 2.79) (− 4.10)
+
+Constant − 0.577** − 1.931*** − 0.576** − 1.928***
+(− 2.30) (− 3.76) (− 2.30) (− 3.76)
+
+Firm FE Yes Yes Yes Yes
+Year FE Yes Yes Yes Yes
+N 37,957 37,957 37,957 37,957
+Adjusted R2 0.250 0.299 0.250 0.299
+
+This table presents the baseline regression results. The dependent variables are VioDummy and VioNum. The key explanatory variables are Cross5_Dum 
+and Cross5_Num. We include firm and year fixed effects in all columns. Definitions of all variables are detailed in Appendix Table 1. All continuous 
+variables are winsorized at the 1st and 99th percentiles. T-statistics with standard errors clustered at the firm level are reported in parentheses. *, **, 
+and *** denote P-values of 10 %, 5 %, and 1 %, respectively.
+
+4. Empirical results
+
+4.1. Baseline results
+
+Table 2 presents our baseline results based on the regression specified in Eq. (1). The dependent variables are VioDummy in Columns 
+(1) and (3) and VioNum in Columns (2) and (4). The independent variables are Cross5_Dum in Columns (1)–(2), and Cross5_Num in 
+Columns (3)–(4). The results show that both coefficients of Cross5_Dum and Cross5_Num are negative and statistically significant at the 
+1 % level. The economic magnitude of the effect is also substantial. As suggested in Column (2), compared to those in non-co-owned 
+firms, the number of violations in co-owned firms decreases by 27.2 % relative to the sample mean. In Column (4), a one-standard- 
+deviation increase in common ownership results in a 9.57 % decrease in corporate violations relative to the sample mean. These 
+results lend support to the hypothesis that common ownership can reduce corporate violations.
+
+4.2. Endogeneity tests
+
+Our baseline regression results may have potential endogeneity issues in terms of identifying the relationship between common 
+ownership and corporate violations. To address concerns associated with self-selection bias, omitted variables, and reverse causality, 
+we conduct a series of tests using the following approaches: propensity score matching, Heckman analysis, instrumental variable 
+approach, placebo test, and DiD analysis.
+
+4.2.1. Propensity score matching analysis
+To eliminate the possibility that fundamental differences between co-owned firms and non-co-owned firms may be driving our 
+
+6 
+
+
+
+R. Yao and M. Xiao                                                                                                                                                       P a  c  i   c - B  a  s i n    F  i n  a n  c  e   J o u r n a l   94 (2025) 102926 
+
+Table 3 
+Endogeneity tests.
+
+Panel A: Propensity score matching results
+
+(1) (2) (3) (4)
+
+VioDummy VioDummy VioNum VioNum
+
+Cross5_Dum − 0.030* − 0.066**
+(− 1.82) (− 2.25)
+
+Cross5_Num − 0.051** − 0.099**
+(− 2.20) (− 2.42)
+
+Controls Yes Yes Yes Yes
+Firm FE Yes Yes Yes Yes
+Year FE Yes Yes Yes Yes
+N 7018 7018 7018 7018
+Adjusted R2 0.304 0.304 0.374 0.375
+
+Panel B: Heckman two-stage results
+
+the first stage the second stage
+
+(1) (2) (3) (4) (5)
+
+Cross5_Dum VioDummy VioNum VioDummy VioNum
+
+CSI300in 0.246**
+(2.03)
+
+Cross5_Dum − 0.030*** − 0.085***
+(− 2.80) (− 4.17)
+
+Cross5_Num − 0.048*** − 0.139***
+(− 2.98) (− 4.47)
+
+IMR − 0.014 − 0.037 − 0.014 − 0.037
+(− 1.23) (− 1.37) (− 1.23) (− 1.38)
+
+Controls Yes Yes Yes Yes Yes
+Industry FE Yes No No No No
+Firm FE No Yes Yes Yes Yes
+Year FE Yes Yes Yes Yes Yes
+N 36,746 36,746 36,746 36,746 36,746
+Adjusted R2/Pseudo R2 0.194 0.253 0.302 0.253 0.302
+
+Panel C: Instrumental variable results
+
+the first stage the second stage
+
+(1) (2) (3) (4) (5) (6)
+
+Cross5_Dum Cross5_Num VioDummy VioNum VioDummy VioNum
+
+Dividend 0.011** 0.009***
+(2.55) (2.89)
+
+Cross5_Dum − 3.282** − 8.257**
+(− 2.31) (− 2.37)
+
+Cross5_Num − 4.329** − 10.893***
+(− 2.56) (− 2.64)
+
+Controls Yes Yes Yes Yes Yes Yes
+Firm FE Yes Yes Yes Yes Yes Yes
+Year FE Yes Yes Yes Yes Yes Yes
+N 37,516 37,516 37,516 37,516 37,516 37,516
+Cragg-Donald Wald F statistic 12.895 17.749 NA NA NA NA
+
+Panel D: DiD results
+
+(1) (2)
+
+VioDummy VioNum
+
+Treat×Post − 0.054*** − 0.168***
+(− 3.97) (− 6.13)
+
+Controls Yes Yes
+Firm FE Yes Yes
+Year FE Yes Yes
+N 32,892 32,892
+Adjusted R2 0.249 0.301
+
+7 
+
+
+
+R. Yao and M. Xiao                                                                                                                                                       P a  c  i   c - B  a  s i n    F  i n  a n  c  e   J o u r n a l   94 (2025) 102926 
+
+This table presents the results of the endogeneity tests. Panel A presents the results of the one-to-one PSM procedure. Panel B presents the results of the 
+Heckman two-stage analysis. Panel C presents the results of the instrumental variable analysis. Panel D presents the DiD results. Definitions of all 
+variables are detailed in Appendix Table 1. All continuous variables are winsorized at the 1st and 99th percentiles. T-statistics with standard errors 
+clustered at the firm level are reported in parentheses. *, **, and *** denote P-values of 10 %, 5 %, and 1 %, respectively.
+
+Fig. 2. Placebo test (coefficient). 
+This figure plots the empirical distribution of the estimated coefficients from a placebo test based on 1000 simulations using the false Cross5_Dum. 
+The left side of Fig. 2 shows the distribution of the coefficient estimates when the dependent variable is VioDummy. The right side of Fig. 2 shows the 
+distribution of the coefficient estimates when the dependent variable is VioNum. The vertical dotted lines (from left to right) show the results of 
+Columns (1) and (2) in Table 2, respectively.
+
+findings, we perform a propensity score matching analysis to address this potential selection bias. First, we estimate a probit model to 
+predict the likelihood of common ownership presence. The covariates are all the control variables. Then, following the literature (Hsu 
+et al., 2023; Yao et al., 2024), we utilize a one-to-one PSM procedure to select a matched control group. Specifically, we match each 
+observation with common ownership to one control firm in the same industry in the same year. Through this procedure, we obtain 
+3509 samples for the treatment group and 3509 samples for the control group. For interested readers, Appendix Table 3 provides the 
+results of the covariate balance checks on the mean difference between the treatment and the matched control groups. We find that the 
+differences after matching are statistically insignificant, indicating no significant differences between the treatment group and the 
+matched control group. Finally, we re-estimate Eq. (1) using the matched sample. The results are presented in Panel A of Table 3. The 
+coefficients of Cross5_Dum and Cross5_Num remain negative and significant, verifying that our findings are robust.
+
+4.2.2. Heckman analysis
+There is another concern regarding self-selection caused by omitted variables that could result in a biased coefficient—namely, that 
+
+investors may prefer investing in certain types of firms. Firms in the same industry may share the same characteristics, such as similar 
+market trends or technological levels. These common characteristics may lead to common ownership linkages. In other words, our 
+results may be driven by a firm’s industry-specific factors rather than by common ownership. Following the prior procedure (Heckman, 
+1979), we conduct a Heckman analysis to mitigate concerns about investors’ self-selection. Lennox et al. (2012) propose the use of 
+restriction variables to estimate the omitted variables in the regression analyses. Our paper imposes exclusion restrictions to imple
+ment the Heckman procedure. In the first stage, we use probit modeling to estimate the inverse Mills ratios (IMR). Following the 
+literature (Yao et al., 2024), we use CSI300in as the exclusion restriction variable. This is because firms newly included in the Shanghai 
+Shenzhen 300 Stock Market Index (CSI 300 index) tend to receive increased attention from investors. CSI300in is a dummy variable, 
+which equals 1 if a firm is newly added to the CSI 300 index in that year, and 0 otherwise. In Panel B of Table 3, we report the first-stage 
+estimation results, which show that CSI300in is positively and significantly associated with common ownership. In the second stage, 
+we re-estimate the regression of the effect of common ownership on corporate violations, adding the IMR variable as a control variable. 
+In Columns (2)–(5), the coefficients of IMR are insignificant, suggesting that the potential endogeneity from self-selection is weak. The 
+coefficients of Cross5_Dum and Cross5_Num are negative and significant. So, our results are robust after controlling for unobserved 
+factors.
+
+4.2.3. Instrumental variable analysis
+Our findings might be attributed to the fact that firms with fewer corporate violations attract common owners to invest. That is, our 
+
+findings may be affected by the issue of reverse causality. Thus, we adopt an instrumental variable approach to further mitigate 
+potential endogeneity concerns. Previous literature has found that investors generally have specific stock preferences, such as those 
+paying high dividends, stocks in firms listed on indexes, and stocks in large firms (Ferreira and Matos, 2008; Aggarwal et al., 2011). 
+Since corporate dividends are directly related to investment returns for shareholders, most will expect the firm to maintain consistent 
+
+8 
+
+
+
+R. Yao and M. Xiao                                                                                                                                                       P a  c  i   c - B  a  s i n    F  i n  a n  c  e   J o u r n a l   94 (2025) 102926 
+
+and stable dividend payments. Aggarwal et al. (2011) and Athira and Lukose (2023) use the dividend payments as an instrumental 
+variable for institutional ownership. Paying higher dividends may imply that the firm has strong cash flow and profitability, but this 
+does not directly lead to fewer corporate violations. This is because dividend payments do not directly affect a firm’s regulatory 
+environment, violation costs, managers’ business strategies, or their risk appetite. Thus, dividend payments are unlikely to directly 
+affect corporate violations. As a result, we use dividend payment (Dividend) as an instrumental variable for common ownership. 
+Dividend is a dummy variable that equals 1 if the firm pays a cash dividend in that year, and 0 otherwise. Panel C of Table 3 reports the 
+results, with Columns (1) and (2) presenting the results for the first stage of the regressions. As expected, Dividend is positively and 
+significantly associated with common ownership, consistent with common owners preferring to invest in firms with higher dividend 
+payouts. Columns (3)–(6) present the second-stage results. The coefficients on Cross5_Dum and Cross5_Num are all negative and sta
+tistically significant at the 1 % level, confirming the reliability of our baseline findings. To assess instrument strength, we conduct a 
+weak identification test. Following the empirical rules proposed by Cragg and Donald (1993) and Stock and Yogo (2005), we calculate 
+the Cragg-Donald Wald F statistic. Columns (1) and (2) of Panel C show that the Cragg-Donald Wald F statistics are all above 10, 
+confirming the validity of Dividend as an instrumental variable.
+
+4.2.4. Placebo test
+The observed negative relationship between common ownership and corporate violations may be influenced by unobserved fac
+
+tors. To assess whether our findings are driven purely by chance, we conduct a placebo test following established methods (Chetty 
+et al., 2009; Ferrara et al., 2012). More specifically, we generate a random treatment group from our sample and construct a “false” 
+common ownership variable. To increase the identification power, we repeat this exercise 1000 times. We then re-estimate the baseline 
+model Eq. (1) using the “false” common ownership. The distribution of estimated coefficients of the placebo test is provided in Fig. 2. 
+The left side of Fig. 2 plots the coefficient distribution of “false” Cross5_Dum on VioDummy. The right side of Fig. 2 plots the coefficient 
+distribution of “false” Cross5_Dum on VioNum. The vertical dotted lines (from left to right) show the results from Columns (1) and (2) of 
+Table 2, respectively. These lie outside the range of the estimated false coefficients, indicating that there are no unobserved factors 
+driving the baseline regression results.
+
+4.2.5. DiD analysis
+To further address endogeneity concerns, we examine changes in common ownership over time, focusing specifically on firms 
+
+transitioning from having no common ownership to now having common ownership. We employ the following DiD model to estimate 
+the differences in corporate violations associated with these changes in common ownership: 
+
+Vioi,t+1 = β0 + β1Treat×Posti,t + βnControlsi,t + Firm FE+Year FE+ εi,t (2) 
+
+where Treat is a dummy variable that equals 1 if the firms have changed from having no common ownership to having common 
+ownership, and 0 otherwise.2 Post is a dummy variable that equals 1 for years after the firm has acquired common ownership, and 
+0 otherwise. In our sample, the majority of firms have experienced a change in common ownership from none to some. We exclude 
+observations with frequent changes in common ownership. If the coefficient on the interaction term (Treat×Post) is significantly 
+negative, it means that the change in common ownership can impede firms’ violation behaviors. The interaction term (Treat×Post) 
+captures the effect of the change in common ownership on firms’ violation behaviors. Panel D of Table 3 reports the results of the DiD 
+analysis. As shown in Columns (1) and (2), the coefficients of Treat×Post are all negative and significant, supporting that an increase in 
+common ownership could lead to a reduction in corporate violations.
+
+4.3. Robustness tests
+
+4.3.1. Alternative measures of common ownership
+To further test the robustness of our results, we replace our explanatory variable with two alternative measures: (1) Density and (2) 
+
+Cross5_Share. Prior studies (Azar et al., 2018; Lewellen and Lowry, 2021) use the traditional Herfindahl-Hirschman Index to measure 
+common ownership concentration. Following Lewellen and Lowry (2021), we use this method to calculate the density of the ownership 
+network, which is defined as the sum of the products of shareholding ratios. Specifically, Density is defined as: 
+
+∑K ∑N
+Densityi,t = ωk,t × μj,i,t × μj,k,t (3) 
+
+k=1 j=1
+
+where ωk,t represents the weight of each rival firm k in year t. We use the ratio of a firm’s sales to total industry sales as the weight. μj,i,t 
+represents investor j’s ownership percentages in firm i during the year t. μj,k,t represents investor j’s ownership percentages in firm k 
+during the year t. As shown in Columns (1) and (2) of Panel A of Appendix Table 5, the coefficients for Density are significantly 
+
+2 Treatment firms are firms that experience a change in common ownership from 0 to 1 only once during our sample period. Control firms are 
+firms that have never had common ownership. Following Dai et al. (2024), if we redefine treatment firms as firms that have only once experienced a 
+change in common ownership from 0 to 1 or from 1 to 0, the coefficient on Treat×Post remains significantly negative. The results are presented in 
+Appendix Table 4 for interested readers.
+
+9 
+
+
+
+R. Yao and M. Xiao                                                                                                                                                       P a  c  i   c - B  a  s i n    F  i n  a n  c  e   J o u r n a l   94 (2025) 102926 
+
+Table 4 
+Mechanism tests.
+
+Panel A: Corporate governance
+
+(1) (2) (3) (4) (5) (6) (7) (8)
+
+CODirector ICQ SGA ORR CODirector ICQ SGA ORR
+
+Cross5_Dum 0.118*** 6.885** − 0.009*** − 0.002**
+(20.80) (1.97) (− 3.15) (− 2.29)
+
+Cross5_Num 0.205*** 13.560** − 0.016*** − 0.003**
+(22.72) (2.56) (− 3.51) (− 2.25)
+
+Controls Yes Yes Yes Yes Yes Yes Yes Yes
+Firm FE Yes Yes Yes Yes Yes Yes Yes Yes
+Year FE Yes Yes Yes Yes Yes Yes Yes Yes
+N 37,951 34,608 37,957 37,957 37,951 34,608 37,957 37,957
+Adjusted R2 0.707 0.348 0.737 0.415 0.728 0.348 0.737 0.415
+
+Panel B: Information transparency
+
+(1) (2) (3) (4)
+
+REM ASY REM ASY
+
+Cross5_Dum − 0.010** − 0.073***
+(− 2.01) (− 6.45)
+
+Cross5_Num − 0.019** − 0.099***
+(− 2.43) (− 5.22)
+
+Controls Yes Yes Yes Yes
+Firm FE Yes Yes Yes Yes
+Year FE Yes Yes Yes Yes
+N 37,957 37,740 37,957 37,740
+Adjusted R2 0.354 0.702 0.355 0.702
+
+This table presents the results for the two potential mechanisms. Panel A presents the results about improved corporate governance mechanism. The 
+dependent variables are proxies for corporate internal governance. Panel B presents the results about enhanced information transparency mechanism. 
+The dependent variables are proxies for corporate information transparency. The key explanatory variables are Cross5_Dum and Cross5_Num. We 
+include firm and year fixed effects in all columns. Definitions of all variables are detailed in Appendix Table 1. All continuous variables are winsorized 
+at the 1st and 99th percentiles. T-statistics with standard errors clustered at the firm level are reported in parentheses. *, **, and *** denote P-values of 
+10 %, 5 %, and 1 %, respectively.
+
+negative. Next, we use the shareholdings of common ownership (Cross5_Share) to measure the common ownership. Cross5_Share is 
+measured by the average shareholdings of common ownership that holds the focal firm and industry peers across the four quarters of a 
+fiscal year. The results are presented in Columns (3) and (4) of Panel A of Appendix Table 5. The results show that the coefficients for 
+Cross5_Share are significantly negative at the 1 % level. The results suggest that our findings remain unchanged using different 
+measures of common ownership.
+
+4.3.2. Alternative thresholds of ownership proportions
+In our baseline analysis, we construct common ownership using a 5 % threshold for block holders. One potential concern is that 
+
+investors with higher shareholdings may have stronger incentives to engage in corporate governance. When an investor’s shareholding 
+is relatively low, the effect on governance may diminish. To address this concern, we redefine common owners as those who own at 
+least 3 % or 1 % of the firm’s outstanding shares. Then, we construct Cross3_Dum and Cross1_Dum to re-estimate Eq. (1). All other 
+settings remain unchanged. As shown in Panel B of Appendix Table 5, the coefficients of Cross3_Dum and Cross1_Dum are negative and 
+statistically significant. The results show that our findings remain unchanged after using different thresholds.
+
+4.3.3. Alternative sample period
+Another possible concern about our baseline findings is that the sample period overlaps with COVID-19. The ongoing disruption 
+
+and uncertainty caused by the COVID-19 pandemic have dealt a severe blow to the global economy, as noted by Shehzad et al. (2020), 
+Wu et al. (2023), and Lin et al. (2024). To prevent the pandemic’s spread, China implemented a zero-Covid policy till December 2022. 
+Similarly, Li et al. (2021) and Banerjee et al. (2023) show that the COVID-19 pandemic has led to disruptions in supply chains and 
+substantial declines in corporate operational performance. Under pressure from the operating environment, managers might commit 
+fraud to achieve their goals. However, the restrictions posed by the pandemic would make it difficult for regulators to detect violations. 
+As a result, our findings are likely to be influenced by COVID-19. To eliminate this issue, we exclude the COVID-19 years and re- 
+estimate our Eq. (1) using the 2007–2019 sample period. As shown in Panel C of Appendix Table 5, the conclusions remain nega
+tive and significant after addressing this concern.
+
+4.3.4. Alternative model and fixed effects
+In addition, we repeat our baseline regression with an alternative model and fixed effects. Given that our dependent variable, 
+
+10 
+
+
+
+R. Yao and M. Xiao                                                                                                                                                       P a  c  i   c - B  a  s i n    F  i n  a n  c  e   J o u r n a l   94 (2025) 102926 
+
+Table 5 
+The impact of external monitoring.
+
+(1) (2) (3) (4) (5) (6) (7) (8)
+
+Media = 1 Media = 0 Media = 1 Media = 0 Media = 1 Media = 0 Media = 1 Media = 0
+
+VioDummy VioDummy VioNum VioNum VioDummy VioDummy VioNum VioNum
+
+Cross5_Dum − 0.036*** 0.003 − 0.069*** − 0.029
+(− 2.74) (0.20) (− 3.11) (− 0.86)
+
+Cross5_Num − 0.054*** 0.001 − 0.114*** − 0.044
+(− 2.79) (0.04) (− 3.54) (− 0.81)
+
+Controls Yes Yes Yes Yes Yes Yes Yes Yes
+Firm FE Yes Yes Yes Yes Yes Yes Yes Yes
+Year FE Yes Yes Yes Yes Yes Yes Yes Yes
+Difference P-value 0.000*** 0.000*** 0.000*** 0.000***
+N 17,238 18,451 17,238 18,451 17,238 18,451 17,238 18,451
+Adjusted R2 0.243 0.241 0.273 0.271 0.243 0.241 0.273 0.271
+
+This table presents the cross-sectional analysis results concerning the impact of external monitoring. Columns (1), (3), (5), and (7) present the results 
+of subsamples with a greater extent of external media monitoring. Columns (2), (4), (6), and (8) present the results of subsamples with a lower extent 
+of external media monitoring. We include firm and year fixed effects in all columns. Definitions of all variables are detailed in Appendix Table 1. All 
+continuous variables are winsorized at the 1st and 99th percentiles. T-statistics with standard errors clustered at the firm level are reported in pa
+rentheses. *, **, and *** denote P-values of 10 %, 5 %, and 1 %, respectively.
+
+VioDummy, is a dummy variable, we re-estimate the baseline specification using a probit model. The results are presented in Columns 
+(1) and (3) of Panel D of Appendix Table 5. Given that our dependent variable, VioNum, is a count variable, we re-estimate the baseline 
+using a Poisson model. The results are presented in Columns (2) and (4) of Panel D of Appendix Table 5. In Panel E of Appendix Table 5, 
+we include Industry×Year fixed effects to control for time-varying changes in industry differences. The coefficients of Cross5_Dum and 
+Cross5_Num are negative and statistically significant, suggesting that the baseline regression results are robust.
+
+4.4. Mechanism analyses
+
+4.4.1. Corporate governance
+According to our hypothesis, common ownership plays a role in corporate governance by leveraging its monitoring capabilities 
+
+(Kang et al., 2018; Edmans et al., 2019; Ramalingegowda et al., 2021; Athira and Lukose, 2023). As corporate governance improves, 
+management’s financial decisions become more cautious and compliant, which in turn reduces corporate violations. To test whether 
+corporate governance serves as a channel through which common ownership curbs corporate violations, we examine the effect of 
+common ownership on corporate governance.
+
+Specifically, we construct four measures to capture corporate governance following prior literature (Dai et al., 2024; Cheng et al., 
+2024; Singh and Davidson III, 2003; Jiang et al., 2010). The first measure, common ownership directors (CODirector), is defined as the 
+ratio of directors appointed by common owners to total number of directors. The second measure, the quality of internal control (ICQ), 
+is defined as the internal control index constructed by the DIB database. The third measure, SG&A expense (SGA), is defined as the 
+amount of selling, general, and administrative expenses scaled by total sales. The fourth measure, other receivables (ORR), is defined as 
+the amount of other receivables scaled by total assets.
+
+The regression results are presented in Panel A of Table 4. In Columns (1) and (5), where the dependent variable is CODirector, the 
+coefficients of Cross5_Dum and Cross5_Num are positive and significant. These results indicate that common owners gain board rep
+resentation in their portfolio firms, allowing them to actively participate in corporate governance. In Columns (2) and (6), where the 
+dependent variable is ICQ, the coefficients of Cross5_Dum and Cross5_Num are also positive and significant, suggesting that common 
+ownership enhances the quality of internal controls for firms. In Columns (3) and (7), with SGA as the dependent variable, and in 
+Columns (4) and (8), where the dependent variable is ORR, the coefficients of Cross5_Dum and Cross5_Num are both negative and 
+significant, suggesting that common ownership can reduce corporate agency problems.
+
+Collectively, these results provide evidence that common ownership improves corporate governance. Given that an effective in
+ternal governance system plays a crucial role in detecting and deterring corporate fraud and misconduct (e.g., Chen et al., 2006; Shan, 
+2013), our findings suggest that improved corporate governance serves as a mediator in the effect of common ownership on curbing 
+corporate violations.
+
+4.4.2. Information transparency
+Common owners of multiple firms within the same industry can obtain supplementary information and achieve economies of scale 
+
+in information acquisition (Chen et al., 2023a). They can also share their knowledge and experiences among co-owned peer firms, 
+acting as information bridges within their portfolios, which enhances the information transparency of these firms. This generally 
+translates to a greater likelihood of detecting and preventing corporate violations. To test whether information transparency serves as a 
+channel through which common ownership curbs corporate violations, we examine the effect of common ownership on information 
+transparency.
+
+Specifically, we measure information transparency using two proxies. The first is real earnings management (REM), which is 
+
+11 
+
+
+
+R. Yao and M. Xiao                                                                                                                                                       P a  c  i   c - B  a  s i n    F  i n  a n  c  e   J o u r n a l   94 (2025) 102926 
+
+Table 6 
+The impact of state ownership.
+
+(1) (2) (3) (4) (5) (6) (7) (8)
+
+SOE_Share = SOE_Share = SOE_Share = SOE_Share = SOE_Share = SOE_Share = SOE_Share = SOE_Share =
+1 0 1 0 1 0 1 0
+
+VioDummy VioDummy VioNum VioNum VioDummy VioDummy VioNum VioNum
+
+Cross5_Dum − 0.016 − 0.026** − 0.047 − 0.072***
+(− 0.68) (− 2.11) (− 1.00) (− 3.23)
+
+Cross5_Num − 0.020 − 0.052*** − 0.076 − 0.133***
+(− 0.57) (− 2.71) (− 1.00) (− 3.92)
+
+Controls Yes Yes Yes Yes Yes Yes Yes Yes
+Firm FE Yes Yes Yes Yes Yes Yes Yes Yes
+Year FE Yes Yes Yes Yes Yes Yes Yes Yes
+Difference P- 
+
+value 0.021** 0.003*** 0.000*** 0.000***
+N 7863 30,094 7863 30,094 7863 30,094 7863 30,094
+Adjusted R2 0.275 0.263 0.295 0.313 0.275 0.263 0.295 0.313
+
+This table presents the cross-sectional analysis results concerning the impact of state ownership. Columns (1), (3), (5), and (7) present the results of 
+subsamples with a higher proportion of state ownership. Columns (2), (4), (6), and (8) present the results of subsamples with a lower proportion of 
+state ownership. We include firm and year fixed effects in all columns. Definitions of all variables are detailed in Appendix Table 1. All continuous 
+variables are winsorized at the 1st and 99th percentiles. T-statistics with standard errors clustered at the firm level are reported in parentheses. *, **, 
+and *** denote P-values of 10 %, 5 %, and 1 %, respectively.
+
+constructed using the methodology developed by Roychowdhury (2006). The second is information asymmetry index (ASY), which is 
+constructed following Amihud et al. (1997), Amihud (2002), and Pástor and Stambaugh (2003). In both measures, a higher value 
+indicates lower information transparency. Using REM and ASY as dependent variables, the regression results are presented in Panel B 
+of Table 4. As shown in Columns (1) to (4), the coefficients for Cross5_Dum and Cross5_Num are negative and significant. These results 
+suggest that common ownership improves corporate transparency. Given that more transparent information makes it easier to detect 
+misbehavior (Dyck et al., 2010; Xu et al., 2024), our results indicate that increased information transparency acts as a mediator, 
+enabling common shareholders to deter management from engaging in violation activities.
+
+4.5. Cross-sectional analyses
+
+4.5.1. The impacts of media monitoring
+Prior literature suggests that the media plays an external governance role in monitoring corporate violations (Dyck et al., 2010; 
+
+Jiang et al., 2022). To examine whether this effect is complementary or substitutive, we investigate whether and how media moni
+toring changes the negative relationship between common ownership and corporate violations.
+
+We use the negative media attention to measure media monitoring (Media) following Jiang et al. (2022). By classifying the ob
+servations above and below the year-industry median, we divided the sample into high and low media monitoring subsamples. We 
+then re-estimate our baseline regressions using each subsample and present the results in Table 5. As shown, the coefficients of both 
+Cross5_Dum and Cross5_Num are significantly negative for the high media monitoring subsample but are insignificant for the low media 
+monitoring subsample. The difference between the coefficients in the two subsamples is significant. These results show that the 
+negative effect of common ownership on corporate violations is more pronounced for firms with greater media monitoring, which 
+implies that media monitoring and common ownership are complementary in deterring corporate violations.
+
+4.5.2. The impacts of state ownership
+According to the literature (e.g., Wang et al., 2004; Liu et al., 2024), state-owned firms are subject to direct government regulation 
+
+and supervision. They also face greater public scrutiny and social pressure. State ownership can prompt firms to adopt stricter 
+corporate governance structures and also make them more responsive to the public interests, which helps to supervise and control 
+corporate behavior. In this section, we examine whether and how the deterrence effect of common ownership on violations varies with 
+state ownership.
+
+We measure state ownership (SOE_Share) as the proportion of a firm owned by the state following Hou et al. (2012). We classify the 
+observations above and below the year-industry median into high and low state ownership subsamples. We then re-estimate Eq. (1) for 
+both subsamples and present the results in Table 6. The results show that the coefficients of Cross5_Dum and Cross5_Num are signif
+icantly negative for the low state ownership subsample, and insignificant for the high subsample. The difference between the co
+efficients is significant, suggesting that the negative relationship between common ownership and corporate violations is more 
+pronounced for firms with low state ownership.
+
+4.5.3. The impacts of different types of common ownership
+Compared to previous studies that primarily focus on common institutional ownership (e.g., Azar et al., 2018; Lewellen and Lowry, 
+
+2021), our sample from China provides an opportunity to distinguish the effects of different types of common ownership. To examine 
+
+12 
+
+
+
+R. Yao and M. Xiao                                                                                                                                                       P a  c  i   c - B  a  s i n    F  i n  a n  c  e   J o u r n a l   94 (2025) 102926 
+
+Table 7 
+The impact of types of common ownership.
+
+Panel A: The type of common ownership
+
+(1) (2) (3) (4)
+
+VioDummy VioNum VioDummy VioNum
+
+CrossInst_Dum − 0.018 0.053
+(− 0.53) (0.63)
+
+CrossEnt_Dum − 0.029*** − 0.088***
+(− 2.72) (− 4.42)
+
+CrossInd_Dum 0.160 0.082
+(1.39) (0.62)
+
+CrossInst_Num − 0.029 0.073
+(− 0.59) (0.61)
+
+CrossEnt_Num − 0.041*** − 0.124***
+(− 2.90) (− 4.65)
+
+CrossInd_Num 0.231 0.117
+(1.39) (0.62)
+
+Controls Yes Yes Yes Yes
+Firm FE Yes Yes Yes Yes
+Year FE Yes Yes Yes Yes
+N 37,957 37,957 37,957 37,957
+Adjusted R2 0.250 0.299 0.250 0.299
+
+Panel B: The type of common enterprise ownership
+
+(1) (2) (3) (4)
+
+VioDummy VioNum VioDummy VioNum
+
+CrossSOE_Dum − 0.028** − 0.076***
+(− 2.08) (− 2.87)
+
+CrossNSOE_Dum − 0.016 − 0.066
+(− 0.62) (− 1.54)
+
+CrossFOR_Dum − 0.040*** − 0.116***
+(− 2.80) (− 5.19)
+
+CrossSOE_Num − 0.040** − 0.110***
+(− 2.21) (− 3.03)
+
+CrossNSOE_Num − 0.021 − 0.093
+(− 0.60) (− 1.55)
+
+CrossFOR_Num − 0.055*** − 0.164***
+(− 2.72) (− 5.20)
+
+Controls Yes Yes Yes Yes
+Firm FE Yes Yes Yes Yes
+Year FE Yes Yes Yes Yes
+N 37,957 37,957 37,957 37,957
+Adjusted R2 0.250 0.299 0.250 0.299
+
+This table reports the regression results for the relation between common ownership of different types of investors and corporate violations. Panel A 
+reports the results for common institutional owners, common enterprise owners, and common individual owners. Panel B reports the results for 
+common state owners, common non-state owners, and common foreign owners. We include firm and year fixed effects in all columns. Definitions of 
+all variables are detailed in Appendix Table 1. All continuous variables are winsorized at the 1st and 99th percentiles. T-statistics with standard errors 
+clustered at the firm level are reported in parentheses. *, **, and *** denote P-values of 10 %, 5 %, and 1 %, respectively.
+
+the impact of different types of common owners on corporate violations, we categorize common ownership based on the nature of the 
+shareholders and construct several variables accordingly. The first is common institutional ownership (CrossInst_Dum), which equals 1 
+if an institutional investor simultaneously held shares in the focus firm and at least one of its industry peers in any quarter of the year, 
+and 0 otherwise. The second is common enterprise ownership (CrossEnt_Dum), which equals 1 if an enterprise simultaneously held 
+shares in the focus firm and at least one of its industry peers in any quarter of the year, and 0 otherwise. The third is common individual 
+ownership (CrossInd_Dum), which equals 1 if an individual investor simultaneously held shares in the focus firm and at least one of its 
+peers in any quarter of the year, and 0 otherwise. We also construct corresponding continuous variables (CrossInst_Num, CrossEnt_Num, 
+and CrossInd_Num) by taking the natural logarithm of 1 plus the average number of each types of common ownership. Using these 
+variables as explanatory variables, the regression results are presented in Panel A of Table 7. The coefficient of CrossEnt_Dum 
+(CrossEnt_Num) is significantly negative, while the coefficients of CrossInst_Dum (CrossInst_Num) and CrossInd_Dum (CrossInd_Num) are 
+insignificant. These results indicate that common enterprise ownership is the key force in curbing corporate violations.
+
+To further explore the effect of common enterprise ownership, we break it down into three subtypes based on the nature of the 
+common enterprise: common state ownership (CrossSOE_Dum), common non-state ownership (CrossNSOE_Dum), and common foreign 
+ownership (CrossFOR_Dum). The three variables are measured similarly to those above, with a value of 1 indicating that common 
+
+13 
+
+
+
+R. Yao and M. Xiao                                                                                                                                                       P a  c  i   c - B  a  s i n    F  i n  a n  c  e   J o u r n a l   94 (2025) 102926 
+
+ownership types are state-owned, non-state-owned, and foreign-owned enterprises, respectively. We also construct corresponding 
+continuous variables (CrossSOE_Num, CrossNSOE_Num, and CrossFOR_Num) by taking the natural logarithm of 1 plus the average 
+number of each subtypes of common enterprise ownership. As shown in Panel B of Table 7,3 the coefficients of CrossSOE_Dum 
+(CrossSOE_Num) and CrossFOR_Dum (CrossFOR_Num) are significantly negative, while the coefficient of CrossNSOE_Dum (Cross
+NSOE_Num) is insignificant. These results suggest that common state ownership and common foreign ownership are likely to act as 
+more active monitors and play a stronger governance role. These findings are consistent with previous studies, which show that state 
+ownership enhances firm performance through effective monitoring (Chen et al., 2009), and that foreign investors have superior 
+experience in information management than domestic investors (Gul et al., 2010).
+
+5. Conclusion
+
+In this paper, we empirically examine whether and how common ownership impacts corporate violations using a sample of Chinese 
+A-share listed firms from 2007 to 2022. Consistent with the view of the “synergistic governance” effect, we find significant evidence of 
+a negative relationship between common ownership and firms’ violation behaviors. This negative relationship remains robust after 
+addressing endogeneity concerns through various methodologies. We also conduct additional robustness tests, including alternative 
+independent variables, shortened sample periods, alternative models, and alternative fixed effects. We find that the potential mech
+anisms are improved corporate governance and enhanced information transparency. The negative relationship between common 
+ownership and corporate violations is more pronounced among firms with a higher external monitoring and those with a lower 
+proportion of state-owned shares. By distinguishing between different types of common ownership, we identify that common state 
+ownership and common foreign ownership serve as key forces in curbing corporate violations. Overall, we shed light on the role of 
+common ownership in deterring a firm’s violation behaviors. Thus, this study contributes to the literature on the determinants of 
+corporate violations and also enriches the existing literature related to common ownership.
+
+These findings provide policy implications for governments and corporations. In terms of the public interest, the Chinese gov
+ernment should take advantage of the positive role of common ownership to stabilize the capital market. This stabilization can be 
+achieved by encouraging practices that enhance transparency and accountability among firms. In terms of business, commercial 
+enterprises should proactively introduce and actively manage common ownership to ensure their “synergistic governance”, which 
+helps mitigate the risk of corporate violations and enhances long-term value. In addition, many countries are strengthening the 
+regulatory requirements surrounding common ownership; however, they face significant debate about whether common ownership is 
+beneficial or detrimental. Hence, the insights from this study may be applicable to countries far beyond China, helping to inform policy 
+and regulatory frameworks in broader international contexts.
+
+CRediT authorship contribution statement
+
+Rongrong Yao: Writing – original draft, Visualization, Software, Resources, Data curation, Conceptualization. Min Xiao: 
+Conceptualization, Writing – review & editing.
+
+Acknowledgements
+
+The authors gratefully acknowledge the financial support provided by the Major Projects of Fujian Social Science Research Base 
+(FJ2024MJDZ012).
+
+Appendix A. Appendix
+
+Appendix Table 1 
+Variable definitions.
+
+Variable Definitions
+
+Dependent variable
+VioDummy A dummy variable that equals 1 when a firm is sanctioned for violations by regulatory authorities, and 0 otherwise.
+VioNum The sum of violations of the firm.
+
+Independent variable
+A dummy variable that equals 1 if the focal firm and at least one of its industry peers are simultaneously held by at least one blockholder in any 
+
+Cross5_Dum quarter of the fiscal year, and 0 otherwise.
+(continued on next page)
+
+3 The regression results reported in Panel B of Table 7 do not control for CrossInst_Dum (CrossInst_Num) and CrossIncDNum (CrossInd_Num). The 
+results remain unchanged when these two variables are controlled.
+
+14 
+
+
+
+R. Yao and M. Xiao                                                                                                                                                       P a  c  i   c - B  a  s i n    F  i n  a n  c  e   J o u r n a l   94 (2025) 102926 
+
+Appendix Table 1 (continued )
+Variable Definitions
+
+Cross5_Num Measured by the natural logarithm of 1 plus the average number of common blockholders that hold the focal firm and industry peers across the 
+four quarters of a fiscal year.
+
+Control variables
+Size The natural logarithm of total assets.
+Lev Total liabilities divided by total assets.
+ROA Net income divided by total assets.
+OCF Net cash flow from operating activities scaled by total assets.
+Growth The change in sales from year t-1 to year t, divided by sales in year t-1.
+Invest Capital expenditure scaled by total assets.
+Top1 The shareholdings of the largest shareholder.
+Indirect The ratio of independent directors to total directors.
+Dual A dummy variable that equals to 1 when the firm’s CEO is also the chairman, and 0 otherwise.
+SOE A dummy variable that equals 1 if the firm is controlled by the state, and 0 otherwise.
+Fix The ratio of tangible fixed assets to total assets.
+Age The natural logarithm of one plus the number of years since the firm was listed.
+BIG4 A dummy variable equals one if the firm is audited by Big 4 auditors, and zero otherwise.
+
+Other variables
+CSI300in A dummy variable that equals 1 if a firm newly adds to the CSI 300 index in that year, and 0 otherwise.
+Dividend A dummy variable that equals 1 if the firm pays a cash dividend, and 0 otherwise.
+
+The density of the ownership network is calculated by multiplying the stakes held by each common shareholder in the two firms and then 
+Density aggregating these products across all common shareholders within the same industry. See Formula (3).
+Cross5_Share The average shareholdings of common ownership that holds the focal firm and industry peers across the four quarters of a fiscal year.
+Cross3_Dum A dummy variable that equals 1 if the focal firm and at least one of its industry peers are simultaneously held by at least one blockholder who 
+
+own at least 3 % of a firm’s outstanding shares in any quarter of the fiscal year, and 0 otherwise.
+A dummy variable that equals 1 if the focal firm and at least one of its industry peers are simultaneously held by at least one blockholder who 
+
+Cross1_Dum own at least 1 % of a firm’s outstanding shares in any quarter of the fiscal year, and 0 otherwise.
+CODirector The ratio of directors appointed by common investors to total directors.
+ICQ The Internal Control Index was published by Diebold to present the quality of a firm’s internal control.
+SGA The ratio of the amount of selling, general, and administrative expenses to total sales.
+ORR The ratio of other receivables to total assets.
+
+The real earnings management follows Roychowdhury (2006) and is specified as REM = standardized R_Prod - standardized R_Cfo - 
+REM standardized R_Disexp. R_Prod represents abnormal production costs. R_Cfo represents abnormal cash flows from operations. R_Disexp represents 
+
+abnormal discretionary expenses. Then we take absolute values as a proxy for real earnings management.
+The index of information asymmetry is the first principal component of LR, ILL, and GAM following Amihud et al. (1997), Amihud (2002), and 
+
+√̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅
+1 ∑Di,t Vi,t(k)Pástor and Stambaugh (2003). Amihud et al. (1997) construct liquidity ratio: LRi,t = − ⃒ ⃒. Amihud (2002) constructs 
+
+Di k 1
+,t = ⃒ri ⃒
+
+,t(k)
+√⃒̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅ASY ⃒
+
+1 ∑D ⃒ri,t(k)⃒illiquidity ratio: ILL i,t
+i,t = . r
+
+D ,t(k) denotes the stock return of firm i on the kth trading day of year t. Vi,t(k) denotes daily 
+i k 1
+,t = V i
+
+i,t(k)
+volume, and Di,t denotes the number of trading days in the year. Pástor and Stambaugh (2003) propose the return reversal (GAM) to measure of 
+liquidity.
+
+Media The natural logarithm of the number of online financial negative news articles plus 1.
+SOE_Share The shareholdings of the firm’s proportion of state ownership.
+
+A dummy variable that equals 1 if the focal firm and at least one of its industry peers are simultaneously held by at least one common 
+CrossInst_Dum institutional ownership in any quarter of the fiscal year, and 0 otherwise.
+
+The natural logarithm of 1 plus the average number of common institutional ownership that hold the focal firm and industry peers across the 
+CrossInst_Num
+
+four quarters of a fiscal year.
+CrossEnt_Dum A dummy variable that equals 1 if the focal firm and at least one of its industry peers are simultaneously held by at least one common enterprise 
+
+ownership in any quarter of the fiscal year, and 0 otherwise.
+CrossEnt_Num The natural logarithm of 1 plus the average number of common enterprise ownership that hold the focal firm and industry peers across the four 
+
+quarters of a fiscal year.
+A dummy variable that equals 1 if the focal firm and at least one of its industry peers are simultaneously held by at least one common individual 
+
+CrossInd_Dum ownership in any quarter of the fiscal year, and 0 otherwise.
+The natural logarithm of 1 plus the average number of common individual ownership that hold the focal firm and industry peers across the four 
+
+CrossInd_Num
+quarters of a fiscal year.
+
+CrossSOE_Dum A dummy variable that equals 1 if the focal firm and at least one of its industry peers are simultaneously held by at least one common state 
+ownership in any quarter of the fiscal year, and 0 otherwise.
+The natural logarithm of 1 plus the average number of common state ownership that hold the focal firm and industry peers across the four 
+
+CrossSOE_Num quarters of a fiscal year.
+A dummy variable that equals 1 if the focal firm and at least one of its industry peers are simultaneously held by at least one common non-state 
+
+CrossNSOE_Dum ownership in any quarter of the fiscal year, and 0 otherwise.
+The natural logarithm of 1 plus the average number of common non-state ownership that hold the focal firm and industry peers across the four 
+
+CrossNSOE_Num
+quarters of a fiscal year.
+
+CrossFOR_Dum A dummy variable that equals 1 if the focal firm and at least one of its industry peers are simultaneously held by at least one common foreign 
+ownership in any quarter of the fiscal year, and 0 otherwise.
+The natural logarithm of 1 plus the average number of common foreign ownership that hold the focal firm and industry peers across the four 
+
+CrossFOR_Num quarters of a fiscal year.
+
+15 
+
+
+
+R. Yao and M. Xiao                                                                                                                                                       P a  c  i   c - B  a  s i n    F  i n  a n  c  e   J o u r n a l   94 (2025) 102926 
+
+Appendix B. Supplementary data
+
+Supplementary data to this article can be found online at https://doi.org/10.1016/j.pacfin.2025.102926.
+
+References
+
+Aggarwal, R., Erel, I., Ferreira, M., Matos, P., 2011. Does governance travel around the world? Evidence from institutional investors. J. Financ. Econ. 100 (1), 
+154–181.
+
+Agrawal, A., Chadha, S., 2005. Corporate governance and accounting scandals. J. Law Econ. 48 (2), 371–406.
+Amihud, Y., 2002. Illiquidity and stock returns: cross-section and time-series effects. J. Financ. Mark. 5 (1), 31–56.
+Amihud, Y., Mendelson, H., Lauterbach, B., 1997. Market microstructure and securities values: evidence from the Tel Aviv Stock exchange. J. Financ. Econ. 45 (3), 
+
+365–390.
+Antón, M., Ederer, F., Giné, M., Schmalz, M., 2023. Common ownership, competition, and top management incentives. J. Polit. Econ. 131 (5), 1294–1355.
+Athira, A., Lukose, P.J.J., 2023. Do common institutional owners’ activisms deter tax avoidance? Evidence from an emerging economy. Pac. Basin Financ. J. 80, 
+
+102090.
+Azar, J., Schmalz, M.C., Tecu, I., 2018. Anticompetitive effects of common ownership. J. Financ. 73 (4), 1513–1565.
+Banerjee, P., Dhole, S., Mishra, S., 2023. Operating performance during the COVID-19 pandemic: is there a business group advantage? Pac. Basin Financ. J. 79, 
+
+102031.
+Bell, T.B., Carcello, J.V., 2000. A decision aid for assessing the likelihood of fraudulent financial reporting. Audi. A J. Pract. Theory 19 (1), 169–184.
+Bleck, A., Liu, X., 2007. Market transparency and the accounting regime. J. Account. Res. 45 (2), 229–256.
+Brooks, C., Chen, Z., Zeng, Y., 2018. Institutional cross-ownership and corporate strategy: the case of mergers and acquisitions. J. Corp. Finan. 48, 187–216.
+Chen, G., Firth, M., Gao, D.N., Rui, O.M., 2006. Ownership structure, corporate governance, and fraud: evidence from China. J. Corp. Finan. 12 (3), 424–448.
+Chen, G., Firth, M., Xu, L., 2009. Does the type of ownership control matter? Evidence from China’s listed companies. J. Bank. Financ. 33 (1), 171–181.
+Chen, S., Ma, H., Wu, Q., Zhang, H., 2023a. Common institutional ownership and stock price crash risk. Contemp. Account. Res. 41 (1), 679–711.
+Chen, Y., Wu, S., Zhou, Y., Huo, D., 2023b. Gambling culture and corporate violations: evidence from China. Pac. Basin Financ. J. 80, 102099.
+Cheng, W., Li, C., Zhao, T., 2024. The stages of enterprise digital transformation and its impact on internal control: evidence from China. Int. Rev. Financ. Anal. 92, 
+
+103079.
+Chetty, R., Looney, A., Kroft, K., 2009. Salience and taxation: theory and evidence. Am. Econ. Rev. 99 (4), 1145–1177.
+Chhaochharia, V., Grinstein, Y., Grullon, G., Michaely, R., 2017. Product market competition and internal governance: Evidence from the Sarbanes–Oxley Act. Manag. 
+
+Sci. 63 (5), 1405–1424.
+Cragg, J.G., Donald, S.G., 1993. Testing identifiability and specification in instrumental variable models. Economet. Theor. 9 (2), 222–240.
+Dai, J., Xu, R., Zhu, T., Lu, C., 2024. Common institutional ownership and opportunistic insider selling: evidence from China. Pac. Basin Financ. J. 88, 102580.
+Donelson, D.C., Ege, M.S., McInnis, J.M., 2017. Internal control weaknesses and financial reporting fraud. Audit. J. Pract. Theory 36 (3), 45–69.
+Dyck, A., Volchkova, N., Zingales, L., 2008. The corporate governance role of the media: evidence from Russia. J. Financ. 63 (3), 1093–1135.
+Dyck, A., Morse, A., Zingales, L., 2010. Who blows the whistle on corporate fraud? J. Financ. 65 (6), 2213–2253.
+Edmans, A., Levit, D., Reilly, D., 2019. Governance under common ownership. Rev. Financ. Stud. 32 (7), 2673–2719.
+Efendi, J., Srivastava, A., Swanson, E.P., 2007. Why do corporate managers misstate financial statements? The role of option compensation and other factors. 
+
+J. Financ. Econ. 85 (3), 667–708.
+Ferrara, E.L., Chong, A., Duryea, S., 2012. Soap operas and fertility: evidence from Brazil. Am. Econ. J. Appl. Econ. 4 (4), 1–31.
+Ferreira, M.A., Matos, P., 2008. The colors of investors’ money: the role of institutional investors around the world. J. Financ. Econ. 88 (3), 499–533.
+Fich, E.M., Shivdasani, A., 2007. Financial fraud, director reputation, and shareholder wealth. J. Financ. Econ. 86 (2), 306–336.
+Gul, F.A., Kim, J.-B., Qiu, A.A., 2010. Ownership concentration, foreign shareholding, audit quality, and stock price synchronicity: evidence from China. J. Financ. 
+
+Econ. 95 (3), 425–442.
+Hansen, R.G., Lott, J.R., 1996. Externalities and corporate objectives in a world with diversified shareholder/consumers. J. Finan. Quantitat. Anal. 31 (1), 43–68.
+Hart, O.D., 1983. The market mechanism as an incentive scheme. Bell J. Econ. 14 (2), 366–382.
+He, J., Huang, J., 2017. Product market competition in a world of cross-ownership: evidence from institutional blockholdings. Rev. Financ. Stud. 30 (8), 2674–2718.
+He, J., Huang, J., Zhao, S., 2019. Internalizing governance externalities: the role of institutional cross-ownership. J. Financ. Econ. 134 (2), 400–418.
+Heckman, J.J., 1979. Sample selection bias as a specification error. Econometrica 47 (1), 153–161.
+Heese, J., Pérez-Cavazos, G., Peter, C.D., 2022. When the local newspaper leaves town: the effects of local newspaper closures on corporate misconduct. J. Financ. 
+
+Econ. 145 (2), 445–463.
+Holzman, E.R., Miller, B.P., Williams, B.M., 2021. The local spillover effect of corporate accounting misconduct: evidence from city crime rates. Contemp. Account. 
+
+Res. 38 (3), 1542–1580.
+Hou, W., Kuo, J.-M., Lee, E., 2012. The impact of state ownership on share price informativeness: the case of the Split share structure reform in China. Br. Account. 
+
+Rev. 44 (4), 248–261.
+Hsu, C., Ma, Z., Zhou, K., 2023. Does Common Ownership Affect Employee Welfare? Evidence from corporate pension funding. SSRN Electronic Journal. https://doi. 
+
+org/10.2139/ssrn.4388014.
+Jang, I.J., Kang, N., Yezegel, A., 2022. Common ownership, price informativeness, and corporate investment. J. Bank. Financ. 135, 106373.
+Jiang, G., Lee, C.M.C., Yue, H., 2010. Tunneling through intercorporate loans: the China experience. J. Financ. Econ. 98 (1), 1–20.
+Jiang, Z., Liu, B., Liu, J., Ying, Q., 2022. Media attention and regulatory efficiency of corporate violations: evidence from China. J. Account. Public Policy 41 (3), 
+
+106931.
+Jin, L., Myers, S., 2006. R2 around the world: new theory and new tests. J. Financ. Econ. 79 (2), 257–292.
+Kang, J.-K., Luo, J., Na, H.S., 2018. Are institutional investors with multiple blockholdings effective monitors? J. Financ. Econ. 128 (3), 576–602.
+Karpoff, J.M., Lou, X., 2010. Short sellers and financial misconduct. J. Financ. 65 (5), 1879–1913.
+Kedia, S., Rajgopal, S., 2011. Do the SEC’s enforcement preferences affect corporate misconduct? J. Account. Econ. 51 (3), 259–278.
+Khanna, V., Kim, E., Lu, Y., 2015. CEO connectedness and corporate fraud. J. Financ. 70 (3), 1203–1252.
+La Porta, R., Lopez-de-Silanes, F., Shleifer, A., Vishny, R., 2002. Investor protection and corporate valuation. J. Financ. 57 (3), 1147–1170.
+Lennox, C.S., Francis, J.R., Wang, Z., 2012. Selection models in accounting research. Account. Rev. 87 (2), 589–616.
+Lewellen, J., Lewellen, K., 2022. Institutional investors and corporate governance: the incentive to be engaged. J. Financ. 77 (1), 213–264.
+Lewellen, K., Lowry, M., 2021. Does common ownership really increase firm coordination? J. Financ. Econ. 141 (1), 322–344.
+Li, K., Liu, X., Mai, F., Zhang, T., 2021. The role of corporate culture in bad times: evidence from the COVID-19 pandemic. J. Financ. Quant. Anal. 56 (7), 2545–2583.
+Lin, L., Xiao, M., Yao, R., Zhang, X., 2024. Product market liberalization and corporate cash holdings: evidence from China. Pac. Basin Financ. J. 86, 102468.
+Liu, C., He, J., 2024. Does common institutional ownership improve the similarity of behavior between firms? Evidence from China. Pac. Basin Financ. J. 83, 102225.
+Liu, X., Boubaker, S., Liao, J., Yao, S., 2024. The rise of common state ownership and corporate environmental performance. Br. Account. Rev. 101368.
+Lu, R., Shen, Q., Wang, T., Zhang, X., 2022. Frenemies: corporate advertising under common ownership. Manag. Sci. 68 (6), 4645–4669.
+Miller, G.S., 2006. The press as a watchdog for accounting fraud. J. Account. Res. 44 (5), 1001–1033.
+
+16 
+
+
+
+R. Yao and M. Xiao                                                                                                                                                       P a  c  i   c - B  a  s i n    F  i n  a n  c  e   J o u r n a l   94 (2025) 102926 
+
+Park, J., Sani, J., Shroff, N., White, H., 2019. Disclosure incentives when competing firms have common ownership. J. Account. Econ. 67 (2–3), 387–415.
+Pástor, Ľ., Stambaugh, R.F., 2003. Liquidity risk and expected stock returns. J. Polit. Econ. 111 (3), 642–685.
+Pawliczek, A., Skinner, A.N., Zechman, S.L.C., 2022. Facilitating tacit collusion through voluntary disclosure: evidence from common ownership. J. Account. Res. 60 
+
+(5), 1651–1693.
+Ramalingegowda, S., Utke, S., Yu, Y., 2021. Common institutional ownership and earnings management. Contemp. Account. Res. 38 (1), 208–241.
+Roychowdhury, S., 2006. Earnings management through real activities manipulation. J. Account. Econ. 42 (3), 335–370.
+Shan, Y.G., 2013. Can internal governance mechanisms prevent asset appropriation? Examination of type I tunneling in China. Corp. Gov. 21 (3), 225–241.
+Shehzad, K., Liu, X., Kazouz, H., 2020. COVID-19’s disasters are perilous than global financial crisis: a rumor or fact? Financ. Res. Lett. 36, 101669.
+Singh, M., Davidson III, W.N., 2003. Agency costs, ownership structure and corporate governance mechanisms. J. Bank. Financ. 27 (5), 793–816.
+Stock, J.H., Yogo, M., 2005. Testing for weak instruments in Linear IV regression. Nber Techn. Work. Papers. 14 (1), 80–108.
+Wang, T.Y., 2013. Corporate securities fraud: insights from a new empirical framework. J. Law Econ. Org. 29 (3), 535–568.
+Wang, X., Xu, L.C., Zhu, T., 2004. State-owned enterprises going public: the case of China. Econ. Transit. 12 (3), 467–487.
+Wang, T.Y., Winton, A., Yu, X., 2010. Corporate fraud and business conditions: evidence from IPOs. J. Financ. 65 (6), 2255–2292.
+Wu, J., Zhan, X., Xu, H., Ma, C., 2023. The economic impacts of COVID-19 and city lockdown: early evidence from China. Struct. Chang. Econ. Dyn. 65, 151–165.
+Xu, Z., Wang, S., Ye, J., 2024. The effect of digitization on corporate fraud detection evidence from China. Int. Rev. Financ. Anal. 96, 103788.
+Yao, S., Guo, X., Sensoy, A., Goodell, J.W., Cheng, F., 2024. Collusion or governance? Common ownership and corporate risk-taking. Corp. Gov. 32 (4), 645–669.
+Zhang, J., 2018. Public governance and corporate fraud: evidence from the recent anti-corruption campaign in China. J. Bus. Ethics 148 (2), 375–396.
+
+17

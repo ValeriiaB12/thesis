@@ -1,0 +1,693 @@
+﻿International Review of Financial Analysis 103 (2025) 104261 
+
+Contents lists available at ScienceDirect
+
+International Review of Financial Analysis
+journal homepage: www.elsevier.com/locate/irfa
+
+Concentration of supply chain, internal control, and corporate risk-taking
+Yu Li a, Tianpeng Bai b, Ya Sha c,d, Zitong Xu b,*
+
+a School of Economics, Tianjin Normal University, Tianjin 300387, China
+b School of Economics, Renmin University of China, Beijing 100872, China
+c YiLi Normal University, YiNing, XinJiang 835000, China
+d Xinjiang Port Economic Development and Management Research Center of Yili Normal University, YiNing, XinJiang 835000, China
+
+A R T I C L E  I N F O A B S T R A C T
+
+Keywords: This study uses a dataset of publicly traded companies from 2010 to 2022 to conduct a comprehensive analysis of 
+Supply chain concentration how supply chain concentration and internal controls affect corporate risk-taking behavior. The findings reveal a 
+Internal controls significant positive relationship between supply chain concentration and the degree of corporate risk-taking. 
+Risk-taking Notably, internal controls play a critical moderating role in this relationship, effectively reducing the level of 
+
+risk-taking. Additionally, the research identifies distinct impacts of supply chain concentration and internal 
+controls on risk-taking behavior between state-owned and private enterprises.
+
+1. Introduction studies contend that close supply chain cooperation promotes informa
+tion sharing and collaborative innovation, reducing transaction costs 
+
+Amid the wave of global economic integration, supply chain man and enhancing a firm’s market competitiveness. These seemingly con
+agement has quietly become a core element of corporate strategy, where tradictory perspectives reflect the complexity and multifaceted nature of 
+its efficiency and stability serves as a lifeline for enterprises, directly how supply chain concentration influences corporate risk-bearing 
+influencing their survival and development (Wen, Li, Sha, & Shao, (Huang & Fan, 2022).
+2021). As market competition intensifies and external uncertainty con With respect to internal control, the academic consensus holds that a 
+tinues to rise, supply chain concentration—a key indicator measuring sound internal control system is essential for mitigating risk and 
+the closeness of relationships between enterprises and suppliers—has an improving management efficiency. By establishing rules and proced
+increasingly significant impact on operational risks and the overall risk- ures, optimizing workflows, and implementing targeted actions, internal 
+bearing capacity of enterprises (Tian, Li, & Cheng, 2022). As such, in control ensures the smooth operation of corporate activities while 
+ternal control, as the foundation of a company’s internal management effectively identifying, assessing, and responding to potential risks. A 
+system, plays an indispensable role in risk prevention and improving robust internal control system is key to reducing internal fraud, mini
+management efficiency. Therefore, a thorough analysis of the complex mizing errors, and lowering a firm’s overall risk level, thereby sup
+relationships among supply chain concentration, internal control, and porting stable development (Raithatha & Popli, 2022). However, most 
+corporate risk-bearing is of great importance for both academic existing research examines these elements in isolation and lacks an in
+advancement and practical decision-making in business operations. tegrated view of the interplay among supply chain concentration, in
+
+In recent years, studies exploring the connection between supply ternal control, and corporate risk-bearing. As a result, enterprises 
+chain concentration and corporate risk-bearing have yielded notable struggle to fully understand how these elements interact in real-world 
+findings. Some scholars have argued that, although a high degree of operations, which hinders the development of well-informed, scientifi
+supply chain concentration may bring advantages such as cost reduction cally grounded decisions. For this reason, constructing a comprehensive 
+and efficiency gains, it can also lead to supplier dependency risks, analytical framework that links supply chain concentration, internal 
+increasing operational uncertainty and financial exposure for enter control, and corporate risk-bearing, revealing their intrinsic connections 
+prises (Zhou, Jiang, & Chen, 2022). This dependency renders enterprises and mechanisms—has become a focal point in current research.
+particularly vulnerable in the face of emergencies such as supplier The significance of this research lies in several key areas. First, by 
+bankruptcies, supply disruptions, or price volatility. Conversely, other developing a comprehensive analytical framework that encompasses 
+
+* Corresponding author.
+E-mail address: ruc_xzt@163.com (Z. Xu). 
+
+https://doi.org/10.1016/j.irfa.2025.104261
+Received 5 November 2024; Received in revised form 10 April 2025; Accepted 11 April 2025  
+Available online 15 April 2025 
+1057-5219/© 2025 Elsevier Inc. All rights are reserved, including those for text and data mining, AI training, and similar technologies. 
+
+
+
+Y. Li et al.                                                                                                                                                                             I n  t e r  n a  t i o  n  a  l R   e v  i e w   o  f  F  i n  a  n c  i a l  A   n  a l y  s i s 103 (2025) 104261 
+
+supply chain concentration, internal control, and corporate risk-bearing, the paper introduces the first hypothesis. 
+this paper addresses gaps in current literature related to the interrela
+tionship among these factors. This framework considers not only the H1: The concentration of the supply chain enhances the risk-bearing 
+direct effect of supply chain concentration on corporate risk-taking but capacity of enterprises.
+also explores the crucial role of internal control in moderating this Internal control, as a critical internal management mechanism for 
+relationship. Through this structure, enterprises can gain a deeper un enterprises, primarily aims to ensure stability, compliance, and opera
+derstanding of the complex dynamics at play, enabling more informed tional efficiency, thereby significantly influencing a firm’s risk-bearing 
+and scientific decision-making. Additionally, this study highlights the capacity (Qian, Chao, & Feng, 2023). In the context of high supply 
+critical function of internal control in moderating the link between chain concentration, where enterprises rely on a limited number of key 
+supply chain concentration and corporate risk-bearing. As a central part suppliers, internal control plays an especially vital role (Sun, Li, Ai, & Li, 
+of an enterprise’s internal management system, internal control can 2023).
+effectively identify and manage risks through the creation of rules, Conversely, internal control establishes a comprehensive risk man
+optimization of processes, and implementation of specific measures, agement framework that enables enterprises to proactively identify, 
+thereby reducing overall risk exposure. Under conditions of high supply assess, and address various risks (Ye & Yue, 2023). These include risks 
+chain concentration, the role of internal control becomes even more such as supply chain disruptions, price volatility, and supplier bank
+important. It enables enterprises to conduct more comprehensive as ruptcies (Wang, Mao, Wu, & Luo, 2023). By developing detailed risk 
+sessments of potential risks (e.g., supply chain disruptions and price management strategies and contingency plans, internal control can 
+volatility) and to develop appropriate preventive and responsive stra significantly reduce operational uncertainty and financial exposure 
+tegies. By improving supplier management and establishing backup caused by high supply chain concentration (Yang & Wang, 2023). For 
+supply chains, enterprises can reduce the risks posed by disruptions and example, enterprises can adopt a diversified supplier strategy and create 
+maintain stable development. Finally, this paper offers empirical sup backup supply chains to reduce reliance on a single supplier, thereby 
+port for government policy-making by comparing the differences in risk- mitigating the risks of supply chain disruption (Shang, Raza, Huo, 
+bearing behavior related to supply chain management between state- Shahzad, & Zhao, 2023).
+owned and private enterprises. These differences are primarily re Conversely, internal control enhances internal management pro
+flected in areas such as resource acquisition, market positioning, and cesses and strengthens the overall internal control system, thereby 
+policy support. Through comparative analysis, this study reveals the improving operational efficiency and risk management capabilities (Sun 
+different strategies and response mechanisms adopted by these two & Zhong, 2023). This includes better supplier management, optimized 
+types of enterprises when managing supply chain concentration, inter inventory control, and greater financial transparency (Lee, Li, Yu, & 
+nal control, and corporate risk-bearing. The findings offer valuable in Zhao, 2021). By applying these measures, enterprises can respond more 
+sights for government agencies in developing effective policies and effectively to market competition and external changes, reducing 
+helping enterprises allocate resources more rationally. operational costs and mitigating risks associated with high supply chain 
+
+concentration.
+2. Theoretical analysis and research hypotheses Moreover, internal control can reduce the enterprise’s risk-bearing 
+
+capacity by increasing employees’ risk awareness and refining their 
+Supply chain concentration, as an important indicator of the degree risk management skills (Lu, Song, & Yu, 2023). Training and educational 
+
+of cooperation between enterprises and suppliers, directly affects the initiatives can equip employees with the knowledge needed to under
+operational stability and risk-bearing capacity of enterprises (Marcelin, stand the diverse risks facing the enterprise and how to respond 
+Sun, Teclezion, & Junarsin, 2022). When supply chain concentration is appropriately (Lu, Zhou, Luan, & Song, 2024). This, in turn, increases 
+high, enterprises form long-term and stable partnerships with a limited employee awareness and capabilities in risk management, leading to 
+number of key suppliers (Chatjuthamard, Wongboonsin, Kongsompong, greater attention to risk prevention and control in daily operations (Lou, 
+& Jiraporn, 2020). This model of collaboration facilitates cost optimi Chen, Yin, Zhang, & Yu, 2022). Following the theoretical analysis pre
+zation, efficiency improvements, and timely information sharing, sented earlier, the paper introduces the second hypothesis as follows: 
+thereby supporting the sustainable and stable development of enter H2: Internal control reduce the risk-bearing capacity of enterprises.
+prises (Zhang, Shi, Yang, & Zhou, 2021). However, it also results in 
+excessive reliance on specific suppliers (Ongsakul, Chatjuthamard, & Internal control plays a significant moderating role in the relation
+Jiraporn, 2022). If these suppliers encounter operational difficulties ship between supply chain concentration and an enterprise’s risk- 
+such as bankruptcy, supply interruptions, or significant price fluctua bearing capacity (Zhang, Dou, & Wang, 2023). Although supply chain 
+tions, the enterprise’s normal operations can be directly affected, concentration can offer efficiency and cost advantages, it also increases 
+potentially leading to crisis (He, Song, & Chen, 2023). dependence on specific suppliers, thereby raising potential risks (Ye & 
+
+To address the risks associated with such dependence, enterprises Yue, 2024). At this point, a sound and effective internal control system 
+must implement a series of measures to maintain supply chain stability, provides critical support for enterprises (Chen, Yang, Zhang, & Zhou, 
+such as stockpiling inventory in advance and signing long-term contracts 2020).
+with suppliers (Bai, Ba, Huang, & Hu, 2020). Although these measures Internal control supports uninterrupted operations through regula
+can reduce risk to some extent, they also raise operational costs and tion development, process optimization, and targeted implementation, 
+increase the enterprise’s risk-bearing capacity (Lu, Liu, & Yu, 2022). while also accurately identifying, thoroughly assessing, and effectively 
+Additionally, supply chain concentration may indirectly influence an responding to risks (Salehi, Arianpoor, & Naghshbandi, 2022). Its role 
+enterprise’s risk-bearing capacity by affecting its market power (Li, becomes even more vital under conditions of high supply chain con
+Wang, Wu, & Zhou, 2021). In a highly concentrated supply chain sys centration (Jia, Xu, Chen, & Fernandes, 2024). It enables enterprises to 
+tem, enterprises may face significant bargaining pressure from upstream analyze potential risks such as supply chain disruptions and price fluc
+suppliers or downstream customers, resulting in shrinking profit mar tuations in depth, thereby providing strong support for the development 
+gins (Lu, Deng, Yu, Song, & Liu, 2021). To remain competitive, enter of preventive and responsive strategies.
+prises may adopt more aggressive market strategies, such as increasing By enhancing supplier management, enterprises can improve the 
+investment in research and development or actively expanding market stability and reliability of their supply networks, reducing risks associ
+share (Liu, Padgett, & Yin, 2022). However, these strategies often ated with supplier-related issues (Qiao, He, Wang, Cai, & Zheng, 2023). 
+involve higher levels of risk, including research failures and unsuccessful Furthermore, the establishment of backup supply chains is an effective 
+market expansion. Following the theoretical analysis presented earlier, strategy for risk mitigation (Liu, Brahma, & Boateng, 2020). If the 
+
+2 
+
+
+
+Y. Li et al.                                                                                                                                                                             I n  t e r  n a  t i o  n  a  l R   e v  i e w   o  f  F  i n  a  n c  i a l  A   n  a l y  s i s 103 (2025) 104261 
+
+primary supply chain encounters problems, the backup can be activated companies classified as Special Treatment(ST), *ST, and Particular 
+quickly, ensuring that normal operations continue without major dis Transfer were excluded to ensure the robustness of the sample; second, 
+ruptions. Following the theoretical analysis presented earlier, the paper samples with missing key data were removed to maintain data 
+introduces the third hypothesis as follows: completeness; third, records dated before the company’s public listing 
+
+H3: Internal control exerts a moderating influence on the link between were eliminated to concentrate on the postlisting performance period; 
+supply chain concentration and the risk-bearing capacity of enterprises. and finally, to minimize the influence of extreme values on the analyt
+
+ical results, all continuous variables were subjected to 1 % winsorization 
+Regarding the institutional environment, state-owned enterprises at both ends. After this series of meticulous filtering steps, a total of 
+
+(SOEs) often benefit from more favorable policy support, such as tax 34,861 valid observations were obtained.
+exemptions and government subsidies, which partially reduce their risk- 
+taking level (Ma, Ock, Wu, & Zhang, 2022). They also face fewer market 3.2. Variable definitions
+entry restrictions and can more easily enter industries with high barriers 
+to entry. In terms of resource acquisition, they typically secure low-cost 3.2.1. Dependent variable
+financing and steady government support, enhancing their ability to To evaluate the level of risk-taking by enterprises, this study adopts 
+withstand risks. SOEs can also access more extensive information and corporate earnings volatility as the key indicator of risk (risk − taking). 
+resources through government channels to mitigate risks associated The method involves a three-year rolling window that spans the previ
+with supply chain concentration (Andries, Balutel, Ihnatov, & Ursu, ous year (t − 1), the current year (t), and the following year (t + 1). 
+2020). Moreover, they often hold relatively stable market positions and During this period, the return on assets (ROA) is first adjusted based on 
+maintain strong relationships with suppliers and customers, which the industry average to eliminate the effects of industry-level differ
+softens the impact of supply chain concentration on their risk-bearing ences. Then, within this observation window, the adjusted ROA values 
+capacity (Zhu, Yeung, & Zhou, 2021). serve as the basis for assessing the enterprise’s risk-taking level. This 
+
+In contrast, private enterprises face more intense market competition approach provides a more accurate reflection of company performance 
+and often lack sufficient resource support. When supply chain concen under risk while preserving comparability and timeliness across 
+tration is high, these enterprises may show greater dependence on different industries.
+specific suppliers, along with limited resources and capabilities to 
+manage potential risks (Huang, Ma, & Wang, 2022). As a result, private 3.2.2. Independent variables
+enterprises face greater pressure when confronting risks such as supply This study measures a company’s supply chain concentration (chain) 
+chain disruptions and price volatility. However, to maintain competi by averaging the sum of procurement ratios from the top five suppliers 
+tiveness, they often place increased emphasis on supply chain manage and sales ratios to the top five customers. By integrating both supplier 
+ment and optimization, which may help alleviate some of the negative and customer concentration, this metric offers a more complete depic
+effects of supply chain concentration on their risk-bearing capacity. tion of supply chain risk. This approach acknowledges that risks may 
+Following the theoretical analysis presented earlier, the paper in arise from both upstream suppliers and downstream customers. Using 
+troduces the fourth hypothesis as follows: the average of procurement and sales ratios ensures that neither side of 
+
+H4: Compared with SOEs, the impact of supply chain concentration on the supply chain is neglected, avoiding the limitations of a single- 
+the risk-bearing capacity of private enterprises is more pronounced. dimensional measure.
+
+The natural logarithm of the Dibo Internal Control Index is used to 
+For SOEs, internal control mechanisms typically emphasize compli assess the quality of internal control (icq). This index is built on di
+
+ance and stability to protect state-owned assets and implement national mensions of compliance with internal control standards, reporting ac
+policy directives (Rashid, Akmal, & Shah, 2024). Although this curacy, asset protection, operational efficiency, and strategic goal 
+approach may constrain flexibility and innovation, it also limits risks achievement. It also incorporates internal control deficiencies as a 
+caused by decision-making errors or weak internal management (Si & Li, modifying factor, offering a comprehensive measure of a firm’s internal 
+2022). Therefore, in terms of risk-bearing, SOEs tend to adopt more control strength and its risk management capability. A higher icq value 
+conservative strategies, preferring to avoid risk through cautious oper reflects stronger internal control quality.
+ational planning.
+
+By contrast, private enterprises tend to prioritize efficiency and 3.2.3. Moderator variable
+flexibility in their internal controls to keep pace with rapidly changing Internal Control (icq): Internal control serves not only as an 
+markets and competitive pressures. This type of internal control fosters explanatory variable in this study but also as a moderating variable.
+innovation and risk-taking but can also increase exposure to risks 
+resulting from poor internal management or flawed decision-making 3.2.4. Control variables
+(Connelly, Li, Shi, & Lee, 2020). As a result, private enterprises are The control variables used in this study include firm size (size), debt- 
+typically more proactive in their risk-bearing behavior and more in to-asset ratio (lever), years since listing (age), ownership type (state), 
+clined to pursue rapid growth through high-risk, high-reward strategies. fixed asset ratio (fixed), cash flow ratio (cash), revenue growth rate 
+Following the theoretical analysis presented earlier, the paper in (growth), and equity balance degree (balance).Table 1 lists the defini
+troduces the fifth hypothesis as follows: tions of all variables.
+
+H5: Compared with SOEs, the role of internal control in influencing the 
+risk-bearing capacity of private enterprises is more pronounced/ 3.3. Model construction
+significant.
+
+To assess the effect of supply chain concentration and internal con
+trols on corporate risk-taking, this paper establishes Models 1 and 2 for 
+
+3. Study design panel regression analysis: 
+∑
+
+3.1. Sample selection n
+risk − takingi,t = α0 +α1chaini,t + α control + + ε
+
+k i t +ψ ζ i, (1
+=1 k , i t t ) 
+
+This study focuses on publicly listed companies from 2010 to 2022 ∑n
+risk − takingi,t = η0 + η1icqi,t + η control + ζ +
+
+k i, +ψ εi,t 2)
+=1 k t i t (  
+
+and involves the collection of relevant data that underwent rigorous 
+screening and processing. The specific steps are as follows: first, To examine the moderating effect of internal control, this paper 
+
+3 
+
+
+
+Y. Li et al.                                                                                                                                                                             I n  t e r  n a  t i o  n  a l  R   e v  i e w   o  f  F  i n  a  n c  i a l  A   n  a l y  s i s 103 (2025) 104261 
+
+Table 1 Table 2 
+Variable definitions. Descriptive statistics.
+
+Variable Name Variable Variable Definition Obs Mean SD Min Median Max
+Symbol
+
+risk-taking 34,861 0.0041 0.0641 − 0.2641 0.0032 0.1841
+Adjust the company’s return chain 34,861 0.3138 0.1687 0.0300 0.2933 0.8172
+on assets based on the average icq 34,861 6.1855 1.2991 0.0000 6.4877 6.7194
+level of various industries to size 34,861 22.2030 1.3136 19.7810 22.0076 26.2979
+eliminate the impact of lever 34,861 0.4212 0.2088 0.0545 0.4099 0.9293
+industry differences on the age 34,861 2.1685 0.8402 0.1427 2.3192 3.3767
+
+Dependent Enterprise risk- 
+variable taking risk-taking results. Subsequently, within state 34,861 0.3846 0.4865 0.0000 0.0000 1.0000
+
+a rolling time observation fixed 34,861 0.2079 0.1582 0.0008 0.1756 0.6927
+window, utilize this adjusted cash 34,861 0.0474 0.0690 − 0.1609 0.0467 0.2444
+ROA value as a basis for growth 34,861 0.1365 0.3181 − 0.5636 0.0981 1.6456
+measuring the level of balance 34,861 0.3662 0.2859 0.0105 0.2885 0.9963
+enterprise risk-taking
+(Ratio of purchases from the 
+
+Supply chain five largest suppliers + Ratio 
+chain Table 2 presents the detailed descriptive statistics for each variable.
+
+Independent concentration of sales to the five largest 
+variables customers)/2
+
+Internal control icq ln(Dibo internal control 
+index) 4.2. Basic regression analysis
+
+Moderator ln(Dibo internal control 
+variable Internal control icq index) Table 3 presents the regression results. In Column 1, supply chain 
+
+Enterprise size size ln(total assets)
+Debt-to-asset concentration (chain) and internal control (icq) are used as independent 
+
+lever Total liabilities/Total assets
+ratio variables, with corporate risk-taking (risk − taking) as the dependent 
+
+variable, and fixed effects are applied. Column 2 includes time effects in 
+Listing age age ln(current year − year of 
+
+listing +1) addition to the fixed effects. Column 3 shows results after controlling for 
+A value of one is assigned to individual effects. Finally, Column 4 reports results after controlling for 
+state-owned enterprises, 
+
+Enterprise nature state while all others are assigned a both individual and time effects. The results in Table 3 indicate that the 
+value of 0 double fixed effects model yields the most robust findings, with co
+
+Control Proportion of 
+fixed Net fixed assets/Total assets efficients for supply chain concentration (chain) and internal control 
+
+variables fixed assets (icq) both statistically significant at the 1 % level. Therefore, H1 and H2 
+Cash flow ratio cash Operating cash flow to total 
+
+assets ratio are supported. Variations in supply chain concentration significantly 
+Operating (Current year operating affect a firm’s level of risk-taking. High concentration may reduce a 
+revenue growth growth revenue/Previous year company’s bargaining power, placing it at a disadvantage in negotia
+rate operating revenue) − 1 tions with suppliers or customers. Additionally, excessive dependence 
+
+Ratio of shares held by the on a limited number of suppliers or customers may increase difficulties 
+Equity balance balance second-largest shareholder to 
+degree those held by the largest in cost control and reduce supply chain stability. These dynamics 
+
+shareholder compel firms to enhance their risk management strategies and improve 
+their ability to navigate uncertainty, which may, in turn, lead to a higher 
+level of risk-taking.
+
+establishes Model 3 for empirical analysis: 
+
+risk − takingi,t =δ0 + δ1chaini,t + δ2icqi,t + δ3chaini,t*icqi,t Table 3 
+∑n (3) Basic regression results.
+
++ δ control + +
+k i t +ψ ζ
+=1 k , i t εi,t .
+
+Variables 1 2 3 4
+
+4. Empirical analysis risk-taking risk-taking risk-taking risk-taking
+
+− 0.0020 0.0016 0.0055** 0.0062***
+chain
+
+4.1. Descriptive statistical analysis (− 1.1400) (0.8754) (2.0060) (3.1962)
+
+icq − 0.0016*** − 0.0015*** − 0.0007*** − 0.0009***
+(− 6.8504) (− 6.4303) (− 2.7302) (− 2.9007)
+
+The overall risk-taking capacity of enterprises (risk − taking) is 
+relatively low but shows some fluctuation, indicating variations in risk size 0.0097*** 0.0103*** 0.0098*** 0.0110***
+
+(35.4208) (36.7482) (15.8344) (16.3372)
+tolerance across different enterprises. The concentration level of supply − 0.0896*** − 0.0911*** − 0.1234*** − 0.1266***
+
+lever
+chains (chain) is moderate, though significant disparities exist, with (− 53.0266) (− 53.9817) (− 47.0398) (− 47.4853)
+
+some firms exhibiting high concentration and others being more − 0.0103*** − 0.0101*** − 0.0173*** − 0.0150***
+age
+
+(− 25.5661) (− 24.8196) (− 21.9519) (− 13.1964)
+dispersed. The quality of internal controls (icq) is generally high, though 
+improvement is still possible. The average size of enterprises (size) is state 0.0047*** 0.0037*** 0.0025*** 0.0028***
+
+(7.0324) (5.5658) (4.3725) (5.0148)
+relatively large, and the debt-to-asset ratio (lever) is at a moderate level; fixed − 0.0627*** − 0.0647*** − 0.0585*** − 0.0616***
+however, there are substantial differences in financial conditions across (− 33.1650) (− 34.0646) (− 16.1057) (− 16.8969)
+
+0.3086*** 0.3095*** 0.1884*** 0.1839***
+firms. These enterprises also have a relatively short listing history (age) cash (70.0934) (69.9793) (40.4686) (39.4361)
+and an even distribution between SOEs (state) and non-SOEs. The fixed 0.0383*** 0.0390*** 0.0363*** 0.0381***
+
+growth
+asset ratio (fixed) and the cash flow ratio (cash) are at moderate levels, (42.1465) (42.2401) (42.3412) (43.6560)
+though there is notable variation in cash flow from operating activities balance − 0.0078*** − 0.0072*** − 0.0088*** − 0.0081***
+
+among enterprises. The overall growth rate of operating revenue (− 7.6525) (− 7.0939) (− 4.7642) (− 4.4119)
+− 0.1662*** − 0.1755*** − 0.1277*** − 0.1570***
+
+(growth) is positive, reflecting a general upward trend, although the Constant (− 29.3893) (− 30.5151) (− 10.0861) (− 11.1437)
+degree of growth varies across firms. Lastly, the equity balance degree ID FE NO NO YES YES
+(balance) is moderate, suggesting that some mechanisms for checks and Year FE NO YES NO YES
+balances exist within the ownership structures of these enterprises. Observations 34,861 34,861 34,861 34,861
+
+R2 0.3134 0.3198 0.3045 0.3349
+
+4 
+
+
+
+Y. Li et al.                                                                                                                                                                             I n  t e r  n a  t i o  n  a l  R   e v  i e w   o  f  F  i n  a  n c  i a l  A   n  a l y  s i s 103 (2025) 104261 
+
+4.3. Moderating effect Table 5 
+Heterogeneity analysis (1).
+
+The findings in Column 1 of Table 4 indicate that the coefficient for Variables State-owned enterprises Private enterprises
+supply chain concentration (chain) is 0.0062, which is statistically sig
+
+risk-taking risk-taking
+nificant at the 5 % level. The significance test also shows that the co
+efficient for internal control (icq) is − 0.0005, confirming statistical 0.0016 0.0106***
+
+chain
+significance and aligning with the core regression analysis on the effects (0.4133) (2.5980)
+
+size 0.0080*** 0.0136***
+of supply chain concentration and internal control on corporate risk- (8.6590) (14.8081)
+taking. In Column 2 of Table 4, the coefficient for the interaction term − 0.1273*** − 0.1267***
+
+lever
+between supply chain concentration and internal control (chain× icq) is (− 32.8257) (− 35.8545)
+significantly negative, indicating that internal control plays a substantial − 0.0089*** − 0.0173***
+
+age (− 4.3427) (− 11.4041)
+moderating role in the relationship between supply chain concentration − 0.0479*** − 0.0719***
+and corporate risk-taking. These results support H3. fixed
+
+(− 9.7423) (− 13.7524)
+cash 0.1485*** 0.2071***
+
+(21.9926) (32.7295)
+4.4. Heterogeneity analysis 0.0314*** 0.0415***
+
+growth (23.3460) (36.3987)
+The regression results presented in Table 5 clearly show that for both − 0.0066*** − 0.0096***
+
+balance
+SOEs and private enterprises, the coefficient for supply chain concen (− 2.5905) (− 3.7534)
+
+tration (chain) trends positively. This suggests that higher supply chain Constant − 0.0955*** − 0.2125***
+(− 4.6417) (− 11.0258)
+
+concentration tends to increase the risk-taking behavior of enterprises. ID FE YES YES
+However, a distinct difference appears in the statistical significance of Year FE YES YES
+these coefficients between the two types of enterprises. Specifically, the Observations 13,408 21,453
+
+R2
+coefficient for supply chain concentration is statistically significant only 0.3848 0.3346
+
+in the private enterprise sample, although it is not significant in the SOE 
+sample. This suggests that the impact of supply chain concentration on 
+corporate risk-taking is more pronounced for private enterprises than for Table 6 
+SOEs. Therefore, H4 is validated. Heterogeneity analysis (2).
+
+Drawing from the regression results shown in Table 6, it is evident Variables State-owned enterprises Private enterprises
+that the coefficient for internal control (icq) is negative in both the SOEs risk-taking risk-taking
+and private enterprise samples, indicating that internal control may 
+
+icq − 0.0004 − 0.0013***
+suppress enterprise risk-taking to some extent. However, the signifi (− 1.5577) (− 2.9338)
+cance of the coefficient differs notably between the two types of enter
+
+size 0.0077*** 0.0130***
+prises. The internal control coefficient is significant only in the private (8.1714) (14.1447)
+enterprise sample; however, it does not reach statistical significance in − 0.1261*** − 0.1261***
+
+lever
+the SOE sample. This suggests that the effect of internal control on risk- (− 31.9927) (− 35.2538)
+
+− 0.0089*** − 0.0178***
+taking is more pronounced in private enterprises than in SOEs. There age
+
+(− 4.3636) (− 11.6881)
+fore, H5 is validated. Private enterprises often display greater flexibility 
+
+fixed − 0.0477*** − 0.0725***
+and efficiency in the implementation of internal systems, enabling them (− 9.7118) (− 13.8980)
+
+0.1482*** 0.2070***
+cash (21.9365) (32.6973)
+
+Table 4 0.0314*** 0.0416***
+Moderating effect. growth (23.3205) (36.5555)
+
+Variables (1) (2) − 0.0065** − 0.0096***
+balance
+
+(− 2.5577) (− 3.7309)
+risk-taking risk-taking Constant − 0.0912*** − 0.2009***
+
+(− 4.4815) (− 10.6339)
+0.0062** 0.0128***
+
+chain ID FE YES YES
+(2.1962) (2.7409) Year FE YES YES
+
+icq − 0.0005** − 0.0008*** Observations 13,408 21,453
+(− 2.39007) (− 2.7987) R2 0.3850 0.3344
+
+Chain × icq − 0.0121***
+(− 2.9656)
+
+0.0110*** 0.0110***
+size (16.3372) (16.3651) to respond quickly to market shifts and to adjust internal control stra
+
+− 0.1266*** − 0.1266*** tegies accordingly. Although their oversight frameworks may not be as 
+lever
+
+(− 47.4853) (− 47.4385) formalized as those in SOEs, once internal control mechanisms are in 
+age − 0.0150*** − 0.0150*** place, they tend to have a more direct impact on operations by reducing 
+
+(− 13.1964) (− 13.2129) hierarchical barriers. This efficient implementation and direct oversight 
+fixed − 0.0616*** − 0.0614***
+
+(− 16.8969) (− 16.8255) enable internal controls to be more effective in lowering risk and 
+0.1839*** 0.1840*** increasing sensitivity to risk-taking within private enterprises.
+
+cash (39.4361) (39.4452)
+0.0381*** 0.0381***
+
+growth
+(43.6560) (43.5753) 4.5. Endogeneity test
+
+balance − 0.0081*** − 0.0081***
+(− 4.4119) (− 4.4071) To address potential endogeneity concerns between supply chain 
+− 0.1570*** − 0.1601***
+
+Constant (− 11.1437) (− 11.0827) concentration and corporate risk-taking, this study employs an instru
+ID FE YES YES mental variable approach, using lagged supply chain concentration 
+Year FE YES YES (L.chain) as the instrument. The results of this test are presented in 
+Observations 34,861 34,861 Table 7. The accompanying tests for nonidentifiability and weak in
+R2 0.3149 0.3371 struments confirm that the selected instrumental variable is appropriate. 
+
+5 
+
+
+
+Y. Li et al.                                                                                                                                                                             I n  t e r  n a  t i o  n  a  l R   e v  i e w   o  f  F  i n  a  n c  i a l  A   n  a l y  s i s 103 (2025) 104261 
+
+Table 7 is especially important for firms with highly concentrated supply chains, 
+Endogeneity test (1). which require more careful risk management. Second, internal control 
+
+Variables 1 2 was identified as a key moderating factor in the relationship between 
+supply chain concentration and corporate risk-taking. Strong internal 
+
+Phase one Phase two
+control mechanisms enable firms to more effectively identify, evaluate, 
+
+chain risk-taking and respond to risks associated with supply chain concentration. 
+L.chain 0.8055*** (248.1527) Moreover, internal control was shown to suppress corporate risk-taking 
+chain_pre 0.0076*** (2.8321) overall. Finally, the study found differing impacts of supply chain con
+Controlvariable Yes Yes centration and internal control on risk-taking behavior between SOEs 
+LM value 20,519.5037
+
+(nonidentification test) and private enterprises. Owing to their unique institutional status and 
+First stage F value access to resources, SOEs show greater resilience to risks associated with 
+
+61,579.5524
+(weak instrument variable test) supply chain concentration. In contrast, private firms, facing more 
+
+intense market competition, tend to rely on agile and flexible internal 
+control mechanisms to adapt and manage risk. These findings highlight 
+
+In the preliminary analysis, the instrument exhibits strong predictive how differences in ownership structure shape the way firms approach 
+power for current supply chain concentration. The subsequent analysis supply chain management and internal control, ultimately influencing 
+also confirms a significant positive relationship between supply chain their risk-taking behavior.
+concentration and corporate risk-taking, passing the statistical signifi Although this study offers an in-depth analysis of the relationships 
+cance test. These results indicate that an increase in supply chain con among supply chain concentration, internal control, and corporate risk- 
+centration significantly contributes to a rise in corporate risk-taking. taking, it is not without limitations. First, the dataset was limited to 
+
+To further address endogeneity concerns stemming from possible listed companies from 2010 to 2022, which may not fully capture the 
+sample selection bias, this study applied a propensity score matching conditions of nonlisted enterprises or reflect broader market dynamics. 
+approach. Eight covariates were selected based on the control variables, Second, to simplify model construction, some real-world complexities 
+and sample matching was conducted accordingly. The one-to-three may have been abstracted, potentially limiting the generalizability of 
+nearest neighbor matching principle was applied, with equity balance the findings. Future research should broaden the data scope by incor
+considered to ensure a highly comparable sample set. A regression porating nonlisted firms and refine the model to better reflect real-world 
+analysis was then performed using the matched samples. Table 8 pre intricacies, thereby improving the study’s accuracy and practical 
+sents the results, showing that the coefficients for supply chain con relevance.
+centration and internal control remain consistent in both sign and 
+significance when compared to the original basic regression analysis. Funding
+These findings suggest that, even after accounting for potential endo
+geneity, the core regression results of the study remain valid and robust. This work was supported by the National Social Science Fund Project 
+
+(No.23BJL108), the Renmin University Seeking Truth “Seeking Truth 
+5. Conclusions Academic-Pillars” Education and Talent Cultivation Project(No. 
+
+RUC24QSDL033).
+Following a thorough analysis of publicly listed companies from 
+
+2010 to 2022, this study arrived at several key conclusions. First, the Declaration of competing interest
+findings revealed a clear positive correlation between a company’s 
+supply chain concentration and its risk-taking level, highlighting the None.
+critical role of supply chain management in corporate risk strategy. This 
+
+Data availability
+Table 8 
+Endogeneity test (2). The authors do not have permission to share data.
+
+Variables risk-taking
+References
+
+0.0071***
+chain
+
+(3.4357) Andries, A. M., Balutel, D., Ihnatov, I., & Ursu, S. G. (2020). The nexus between corporate 
+icq − 0.0012*** governance, risk taking, and growth. PLoS One, 15, Article e0228371. https://doi. 
+
+(− 2.9832) org/10.1371/journal.pone.0228371
+0.0114***
+
+size Bai, H., Ba, S., Huang, W., & Hu, W. (2020). Expected government support and bank risk- 
+(16.4728) taking: Evidence from China. Finance Research Letters, 36, Article 101328. https:// 
+− 0.1245*** doi.org/10.1016/j.frl.2019.101328
+
+lever (− 44.3792) Chatjuthamard, P., Wongboonsin, P., Kongsompong, K., & Jiraporn, P. (2020). Does 
+
+age − 0.0148*** economic policy uncertainty influence executive risk-taking incentives? Finance 
+(− 12.7936) Research Letters, 37, Article 101385. https://doi.org/10.1016/j.frl.2019.101385
+
+state 0.0026*** Chen, H., Yang, D., Zhang, J. H., & Zhou, H. (2020). Internal controls, risk management, 
+(4.8247) and cash holdings. Journal of Corporate Finance, 64, Article 101695. https://doi.org/ 
+− 0.0608*** 10.1016/j.jcorpfin.2020.101695
+
+fixed Connelly, B. L., Li, Q., Shi, W., & Lee, K. B. (2020). CEO dismissal: Consequences for the 
+(− 16.5034) strategic risk taking of competitor CEOs. Strategic Management Journal, 41(11), 
+0.1827***
+
+cash 2092–2125. https://doi.org/10.1002/smj.3190
+(39.1532) He, M., Song, G., & Chen, Q. (2023). Fintech adoption, internal control quality and bank 
+
+growth 0.0379*** risk taking: Evidence from Chinese listed banks. Finance Research Letters, 57, Article 
+(43.2718) 104235. https://doi.org/10.1016/j.frl.2023.104235
+
+balance − 0.0075*** Huang, L., Ma, M., & Wang, X. (2022). Clan culture and risk-taking of Chinese 
+(− 4.3852) enterprises. China Economic Review, 72, Article 101763. https://doi.org/10.1016/j. 
+− 0.1570*** chieco.2022.101763
+
+Constant (− 10.7042) Huang, Y., & Fan, Y. (2022). Risk along the supply chain: Geographic proximity and 
+ID FE YES corporate risk taking. Finance Research Letters, 50, Article 103150. https://doi.org/ 
+Year FE YES 10.1016/j.frl.2022.103150
+R2 0.3402 Jia, F., Xu, Y., Chen, L., & Fernandes, K. (2024). Does supply chain concentration 
+
+improve sustainability performance: The role of operational slack and information 
+
+6 
+
+
+
+Y. Li et al.                                                                                                                                                                             I n  t e r  n a  t i o  n  a  l R   e v  i e w   o  f  F  i n  a  n c  i a l  A   n  a l y  s i s 103 (2025) 104261 
+
+transparency. International Journal of Operations & Production Management, 44(10), institutional quality. Journal of Islamic Accounting and Business Research, 15, 
+1831–1862. https://doi.org/10.1108/ijopm-12-2022-0807 466–498. https://doi.org/10.1108/jiabr-12-2021-0317
+
+Lee, C. C., Li, X., Yu, C. H., & Zhao, J. (2021). Does fintech innovation improve bank Salehi, M., Arianpoor, A., & Naghshbandi, N. (2022). The relationship between 
+efficiency? Evidence from China’s banking industry. International Review of managerial attributes and firm risk-taking. The TQM Journal, 34, 728–748. https:// 
+Economics and Finance, 74, 468–483. https://doi.org/10.1016/j.iref.2021.03.009 doi.org/10.1108/tqm-10-2020-0246
+
+Li, Z., Wang, B., Wu, T., & Zhou, D. (2021). The influence of qualified foreign Shang, Y., Raza, S. A., Huo, Z., Shahzad, U., & Zhao, X. (2023). Does enterprise digital 
+institutional investors on internal control quality: Evidence from China. International transformation contribute to the carbon emission reduction? Microlevel evidence 
+Review of Financial Analysis, 78, Article 101916. https://doi.org/10.1016/j. from China. International Review of Economics and Finance, 86, 1–13. https://doi.org/ 
+irfa.2021.101916 10.1016/j.iref.2023.02.019
+
+Liu, Y., Brahma, S., & Boateng, A. (2020). Impact of ownership structure and ownership Si, D. K., & Li, X. L. (2022). Shadow banking business and firm risk-taking: Evidence from 
+concentration on credit risk of Chinese commercial banks. International Journal of China. Research in International Business and Finance, 62, Article 101729. https://doi. 
+Managerial Finance, 16, 253–272. https://doi.org/10.1108/ijmf-03-2019-0094 org/10.1016/j.ribaf.2022.101729
+
+Liu, Y., Padgett, C., & Yin, C. (2022). Internal information quality and financial policy Sun, G., Li, T., Ai, Y., & Li, Q. (2023). Digital finance and corporate financial fraud. 
+peer effects. International Review of Financial Analysis, 84, Article 102357. https:// International Review of Financial Analysis, 87, Article 102566. https://doi.org/ 
+doi.org/10.1016/j.irfa.2022.102357 10.1016/j.irfa.2023.102566
+
+Lou, Z., Chen, S., Yin, W., Zhang, C., & Yu, X. (2022). Economic policy uncertainty and Sun, H., & Zhong, Y. (2023). Carbon emission reduction and green marketing decisions in 
+firm innovation: Evidence from a risk-taking perspective. International Review of a two-echelon low-carbon supply chain considering fairness concern. Journal of 
+Economics and Finance, 77, 78–96. https://doi.org/10.1016/j.iref.2021.09.014 Business & Industrial Marketing, 38(4), 905–929. https://doi.org/10.1108/jbim-02- 
+
+Lu, Q., Deng, Y., Yu, M., Song, H., & Liu, B. (2021). Supply chain network and financing 2021-0090
+performance of small and medium enterprises in China: A survey and quasi- Tian, G., Li, B., & Cheng, Y. (2022). Does digital transformation matter for corporate risk- 
+replication using fuzzy-set qualitative comparative analysis. Baltic Journal of taking? Finance Research Letters, 49, Article 103107. https://doi.org/10.1016/j. 
+Management, 16(5), 785–803. https://doi.org/10.1108/bjm-09-2020-0331 frl.2022.103107
+
+Lu, Q., Liu, B., & Yu, K. (2022). Effect of supplier-buyer cooperation on supply chain Wang, H., Mao, K., Wu, W., & Luo, H. (2023). Fintech inputs, nonperforming loans risk 
+financing availability of SMEs. International Journal of Logistics Research and reduction and bank performance improvement. International Review of Financial 
+Applications, 25(9), 1244–1262. https://doi.org/10.1080/13675567.2021.1897090 Analysis, 90, Article 102849. https://doi.org/10.1016/j.irfa.2023.102849
+
+Lu, Q., Song, L., & Yu, K. (2023). The effects of operational and digitalization capabilities Wen, F., Li, C., Sha, H., & Shao, L. (2021). How does economic policy uncertainty affect 
+on SMSs’ supply chain financing under supply risk. International Journal of Logistics corporate risk-taking? Evidence from China. Finance Research Letters, 41, Article 
+Research and Applications, 26(12), 1642–1662. https://doi.org/10.1080/ 101840. https://doi.org/10.1016/j.frl.2020.101840
+13675567.2022.2104232 Yang, X., & Wang, J. (2023). The relationship between sustainable supply chain 
+
+Lu, Q., Zhou, Y., Luan, Z., & Song, H. (2024). The effect of SMEs’ ambidextrous management and enterprise economic performance: Does firm size matter? Journal 
+innovations on supply chain financing performance: Balancing effect and of Business & Industrial Marketing, 38(3), 553–567. https://doi.org/10.1108/jbim-04- 
+moderating effect. International Journal of Operations & Production Management, 44 2021-0193
+(2), 424–461. https://doi.org/10.1108/ijopm-10-2022-0684 Ye, X., & Yue, P. (2023). Financial literacy and household energy efficiency: An analysis 
+
+Ma, X., Ock, Y. S., Wu, F., & Zhang, Z. (2022). The effect of internal control on green of credit market and supply chain. Finance Research Letters, 52, Article 103563. 
+innovation: Corporate environmental investment as a mediator. Sustainability, 14, https://doi.org/10.1016/j.frl.2022.103563
+1755. https://doi.org/10.3390/su14031755 Ye, X., & Yue, P. (2024). What matters to reshaping consumption patterns in China? 
+
+Marcelin, I., Sun, W., Teclezion, M., & Junarsin, E. (2022). Financial inclusion and bank Digital inclusion and supply chain. Finance Research Letters, 59, Article 104804. 
+risk-taking: The effect of information sharing. Finance Research Letters, 50, Article https://doi.org/10.1016/j.frl.2023.104804
+103182. https://doi.org/10.1016/j.frl.2022.103182 Zhang, H., Shi, Y., Yang, X., & Zhou, R. (2021). A firefly algorithm modified support 
+
+Ongsakul, V., Chatjuthamard, P., & Jiraporn, P. (2022). Does the market for corporate vector machine for the credit risk assessment of supply chain finance. Research in 
+control impede or promote corporate innovation efficiency? Evidence from research International Business and Finance, 58, Article 101482. https://doi.org/10.1016/j. 
+quotient. Finance Research Letters, 46, Article 102212. https://doi.org/10.1016/j. ribaf.2021.101482
+frl.2021.102212 Zhang, L., Dou, Y., & Wang, H. (2023). Green supply chain management, risk-taking, and 
+
+Qian, Q., Chao, X., & Feng, H. (2023). Internal or external control? How to respond to corporate value—Dual regulation effect based on technological innovation 
+credit risk contagion in complex enterprises network. International Review of capability and supply chain concentration. Frontiers in Environmental Science, 11, 
+Financial Analysis, 87, Article 102604. https://doi.org/10.1016/j.irfa.2023.102604 Article 1096349. https://doi.org/10.3389/fenvs.2023.1096349
+
+Qiao, S., He, M., Wang, J., Cai, J., & Zheng, J. (2023). Robust optimization for a dynamic Zhou, M., Jiang, K., & Chen, Z. (2022). Temperature and corporate risk taking in China. 
+emergency materials supply chain network under major infectious disease Finance Research Letters, 48, Article 102862. https://doi.org/10.1016/j. 
+epidemics. International Journal of Logistics Research and Applications, 1–36. https:// frl.2022.102862
+doi.org/10.1080/13675567.2023.2269101 Zhu, M., Yeung, A. C., & Zhou, H. (2021). Diversify or concentrate: The impact of 
+
+Raithatha, M., & Popli, M. (2022). Persistence of past: Impact of historical institutions on customer concentration on corporate social responsibility. International Journal of 
+corporate risk taking. Finance Research Letters, 45, Article 102195. https://doi.org/ Production Economics, 240, Article 108214. https://doi.org/10.1016/j. 
+10.1016/j.frl.2021.102195 ijpe.2021.108214
+
+Rashid, A., Akmal, M., & Shah, S. M. A. R. (2024). Corporate governance and risk 
+management in Islamic and convectional financial institutions: Explaining the role of 
+
+7

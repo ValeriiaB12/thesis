@@ -1,0 +1,674 @@
+﻿Finance Research Letters 83 (2025) 107691 
+
+Contents lists available at ScienceDirect
+
+Finance Research Letters
+journal homepage: www.elsevier.com/locate/frl
+
+Institutional investor stability, executive equity incentives, and 
+corporate innovation
+Haoyi Jia , Weina Che *
+
+School of Accounting, Zhengzhou Shengda University, Zhengzhou, Henan, 451191, China
+
+A R T I C L E  I N F O A B S T R A C T
+
+JEL classification: This study utilizes financial data from listed companies between 2013 and 2022 to examine the 
+G32 relationship between institutional investor stability and corporate innovation. The results indicate 
+O31 that institutional investor stability enhances corporate innovation levels. This positive effect 
+M52 exhibits heterogeneity across firms with varying levels of managerial control and different scales. 
+G34
+L25 Furthermore, institutional investor stability promotes corporate innovation by increasing exec
+
+utive equity incentives, while the increase in agency costs weakens the positive effect of insti
+Keywords:
+Institutional investor stability tutional investor stability on corporate innovation.
+Executive equity incentives
+Agency costs
+Corporate innovation
+
+1. Introduction
+
+Amid intensifying global economic competition and rising uncertainties, corporate innovation has become a core driver for 
+enhancing national and enterprise competitiveness. Internationally, developed economies such as the United States and Germany have 
+been actively fostering innovation ecosystems by optimizing capital markets and corporate governance systems (Bolor-Erdene et al., 
+2023). Among these efforts, stable institutional investors provide crucial support for corporate innovation through sustained capital 
+investment and alleviation of short-term performance pressures (Cella, 2020). Simultaneously, executive equity incentives, widely 
+employed across firms in various countries, serve as an important tool for motivating management to pursue innovative endeavors. 
+However, the instability in institutional investor behavior caused by increasing capital mobility, along with executives’ inclination 
+toward short-term decision-making, has emerged as a critical challenge in global corporate innovation governance, particularly in 
+emerging economies (García-Sánchez et al., 2024). In China, the rapid expansion of capital markets has led to a significant increase in 
+the scale of institutional investors, whose investment behaviors have drawn considerable attention regarding their impact on corporate 
+innovation. Compared to developed economies, China’s capital markets exhibit higher levels of uncertainty, with institutional in
+vestors demonstrating a mix of short-term and long-term investment preferences. At the same time, the executive equity incentive 
+mechanism is still in the process of gradual improvement, and how to release the potential for corporate innovation through effective 
+incentives has become an urgent issue to be resolved.
+
+The academic community has produced a wealth of research on the stability of institutional investors, equity incentives for ex
+ecutives, and corporate innovation. From the perspective of institutional investor stability, Cella (2020) emphasizes the role of 
+
+* Corresponding author.
+E-mail addresses: 101709@shengda.edu.cn (H. Jia), 100357@shengda.edu.cn (W. Che). 
+
+https://doi.org/10.1016/j.frl.2025.107691
+Received 24 March 2025; Received in revised form 21 April 2025; Accepted 1 June 2025  
+Available online 2 June 2025 
+1544-6123/© 2025 Elsevier Inc. All rights are reserved, including those for text and data mining, AI training, and similar technologies. 
+
+
+
+H. Jia and W. Che                                                                                                                                                                F  i n a  n  c e    R e s e a r c h  L e t t e r s   83 (2025) 107691 
+
+long-term institutional investors in mitigating agency problems and improving investment efficiency, highlighting the importance of 
+institutional investor stability for corporate policies and performance. Kaldonski et al. (2020) argue that institutional investor stability 
+plays a critical role in corporate governance and earnings management, as it helps to reduce real earnings management practices by 
+managers aimed at meeting short-term performance targets. Li and Jiang (2022) offer new insights into institutional investor stability 
+and its impact on corporate governance and market efficiency, particularly in emerging markets like China, where the influence of 
+institutional investor networks is especially significant. Saci and Jasimuddin (2021) explore the impact of institutional investor 
+research activities on the equity costs of Chinese listed companies, demonstrating that institutional investor stability enhances the 
+fairness and transparency of information disclosure and reduces corporate equity costs. Regarding executive equity incentives, 
+extensive studies have confirmed that equity incentives improve executives’ willingness to take risks and their enthusiasm for inno
+vation (Lahlou and Navatte, 2017; Zhang et al., 2024). For instance, the research of Zhang and Li (2024) demonstrates that equity 
+incentives effectively stimulate executives to focus on long-term corporate value. However, some studies also indicate that executives’ 
+risk tolerance may be influenced by external factors such as capital market uncertainty and regulatory environments, which could 
+affect the effectiveness of equity incentives (Chapman and Hewitt-Dundas, 2018; Cheng et al., 2023). From the perspective of 
+corporate innovation, it is a critical factor in enhancing competitiveness and driving national economic growth. Bai et al. (2024) find 
+that supply chain financing significantly promotes corporate innovation, and this effect is more pronounced in the context of inclusive 
+digital financial development. Yang et al. (2024) examine the impact of administrative monopolies on corporate innovation, revealing 
+that administrative monopolies significantly enhance innovation levels through resource access and market competition mechanisms. 
+Yang et al. (2024) investigate the relationship between industry and regional peer effects and corporate innovation, concluding that 
+firms’ innovation behaviors are significantly influenced by industry and regional peer dynamics.
+
+A review and synthesis of the aforementioned literature reveal that while substantial research has been conducted on institutional 
+investor stability, executive equity incentives, and corporate innovation individually, studies integrating these three themes remain 
+relatively scarce. This paper addresses this gap by examining the impact of institutional investor stability on corporate innovation, with 
+executive equity incentives as a mediating variable. The study also examines the role of agency costs in the relationship between 
+institutional investor stability and corporate innovation. The results show that institutional investor stability significantly fosters 
+corporate innovation, particularly in firms with strong internal controls and larger organizations. Mediation analysis reveals that 
+institutional investor stability promotes corporate innovation by increasing executive equity incentives. Additionally, moderation 
+analysis indicates that higher agency costs diminish the positive effect of institutional investor stability on corporate innovation.
+
+This study theoretically enriches the research on internal and external governance mechanisms of corporate innovation and 
+provides practical guidance for designing more effective incentive mechanisms and optimizing shareholder structures. It also offers 
+valuable insights for policymakers to improve the governance framework of capital markets and enhance corporate innovation ca
+pabilities. By uncovering the multifaceted roles of internal and external governance in corporate innovation, this study contributes to 
+fostering long-term corporate competitiveness and promoting high-quality economic development.
+
+2. Theoretical analysis and research hypotheses
+
+2.1. Institutional investor stability and corporate innovation
+
+Institutional investor stability, as a critical feature of external governance, is considered to play a significant role in promoting 
+corporate innovation. According to agency theory, stable institutional investors, through long-term shareholding, provide clear in
+centives and constraints for management, encouraging them to focus on the firm’s long-term development rather than short-term 
+performance (Zhang et al., 2024). Innovation activities are often associated with high risks and uncertainties, and management 
+may reduce R&D investments due to market pressures. Stable institutional investors, however, can alleviate this short-term orientation 
+by offering sustained capital support and oversight of decision-making, thereby ensuring the continuous advancement of innovation 
+activities. Moreover, long-term institutional investors develop a deep understanding of the firm’s operations, enabling them to provide 
+high-quality informational support to management and reduce information asymmetry. This role not only improves decision-making 
+efficiency but also enhances the firm’s credibility in capital markets, strengthening its financing capacity and laying a solid resource 
+foundation for innovation activities (Kałdoński and Jewartowski, 2024). Additionally, behavioral finance theory highlights that stable 
+institutional investors act as “stabilizers” during market fluctuations, helping firms maintain consistent R&D investments, which in 
+turn enhances innovation efficiency and the conversion rate of innovation outcomes (Altaf and Jan 2023). Building on the previous 
+findings, this study puts forward the following hypothesis:
+Hypothesis 1. Institutional investor stability has a significant positive impact on corporate innovation.
+
+2.2. Institutional investor stability, executive equity incentives, and corporate innovation
+
+Corporate innovation is a crucial pathway for enhancing core competitiveness and achieving sustainable development. However, 
+its characteristics of high investment, high risk, and high uncertainty make effective external governance and internal incentives 
+particularly important (Belghitar and Clark, 2015). As a key factor in external governance, institutional investor stability provides 
+firms with sustained capital support through long-term shareholding while establishing stable supervision and constraints on man
+agement. Internally, executive equity incentives serve as a vital mechanism to stimulate innovation motivation by aligning man
+agement interests with the firm’s long-term goals, thereby enhancing executives’ willingness to commit to innovation projects. Equity 
+
+2 
+
+
+
+H. Jia and W. Che                                                                                                                                                                F  i n a  n  c e    R e s e a r c h  L e t t e r s   83 (2025) 107691 
+
+incentives not only encourage executives to take on the high risks associated with innovation but also drive their focus on R&D and 
+technological upgrades, facilitating the realization of long-term corporate value (Huang et al., 2025; Lai et al., 2017). Additionally, 
+equity incentives help firms attract and retain core managerial talent, which is particularly crucial for knowledge-intensive and 
+technology-oriented enterprises. Specifically, institutional investor stability offers external assurance for corporate innovation through 
+sustained support and governance optimization. Meanwhile, executive equity incentives provide internal momentum for innovation 
+through multi-level incentive mechanisms. Together, they complement each other, jointly enhancing corporate innovation capabilities 
+and laying a solid foundation for long-term competitiveness. Based on the above analysis, this study proposes the following hypothesis:
+Hypothesis 2. Institutional investor stability enhances corporate innovation by increasing executive equity incentives.
+
+2.3. Institutional investor stability, agency costs, and corporate innovation
+
+Agency costs refer to the efficiency losses arising from information asymmetry, conflicting objectives, and other factors between 
+corporate management and shareholders, which are particularly pronounced in the context of corporate innovation activities 
+(Belghitar and Clark, 2015). High-stability institutional investors provide long-term capital support and foster greater focus on 
+long-term development and innovation through effective supervision mechanisms. However, as agency costs increase, the positive 
+effect of institutional investor stability on innovation tends to weaken. High agency costs signify more pronounced information 
+asymmetry and conflicts of interest between management and shareholders. Under such conditions, management may be inclined to 
+avoid high-risk innovation projects and favor conservative strategies with short-term returns (Zhang and Li, 2024). This weakens the 
+supervisory and incentivizing effects of institutional investors, thereby diminishing their positive impact on corporate innovation. In 
+light of the previous analysis, the following hypothesis is proposed in this study:
+Hypothesis 3. The increase in agency costs weakens the positive effect of institutional investor stability on corporate innovation.
+
+3. Research design
+
+3.1. Data sources
+
+This study analyzes A-share listed companies from 2013 to 2022, using data sourced from the CSMAR database. Companies 
+categorized as ST and *ST, as well as those in the financial sector, were excluded from the sample. Furthermore, observations with 
+incomplete data were omitted, and all continuous variables underwent winsorization. The final dataset includes 11,759 observations.
+
+3.2. Variable definitions
+
+Dependent variable: Corporate innovation (RD). Innovation is the primary driver of development, directly influencing a firm’s 
+sustainable growth and its ability to gain a competitive edge in intense market competition, thereby enhancing overall competitiveness 
+(Bai et al., 2024). This study uses firms’ R&D expenditure to measure their level of innovation. R&D expenditure forms the foundation 
+of corporate innovation activities, encompassing direct financial investments in new products, new services, and technological im
+provements. In the robustness tests, the number of annual patent applications is used as an alternative measure of corporate 
+innovation..
+
+Independent variable: Institutional investor stability (IO). Following the methodologies of Callen and Fang (2013) and Wang and 
+Sun (2022), this study measures institutional investor stability based on the proportion of institutional shareholding, calculated from a 
+temporal perspective. As shown in Eq. (1), institutional investor stability is defined as the ratio of the institutional shareholding 
+proportion of firm i in year t to the standard deviation of institutional shareholding proportions for firm ii over the previous three years 
+(from t − 1 to t − 3). 
+
+INVH
+SD it
+
+it = (1) 
+STD(INVHit− 3, INVHit− 2, INVHit− 1)
+
+Where INVHit represents the proportion of institutional shareholding for firm i in year t, STD(INVHit − 3, INVHit − 2, INVHit − 1) denotes 
+the standard deviation of institutional shareholding proportions for firm i over the preceding three years, and SDit is the calculated 
+value of institutional investor stability. A higher SDit indicates greater stability of institutional investors.
+
+Mediating variable: Executive equity incentives (MSR). Building on existing literature and considering data availability, this study 
+measures executive equity incentives using the natural logarithm of the number of shares held by executives plus one. A larger value 
+indicates a higher level of executive equity incentives (Li and Kuo, 2017; Zeng et al., 2023).
+
+Moderating variable: Agency costs (AC). Following relevant theories (Varela, 2017) and drawing on the studies by Schäuble (2019)
+and Lin et al. (2020), this study uses the administrative expense ratio to measure agency costs. The administrative expense ratio is 
+calculated as the proportion of administrative expenses to operating revenue. A higher administrative expense ratio suggests greater 
+agency costs between shareholders and management.
+
+Control variables. To capture other factors that may impact corporate innovation and improve the model’s explanatory power, this 
+study incorporates the following control variables based on relevant literature (Wang et al., 2023): leverage ratio (Lev), return on 
+equity (Roe), cash flow ratio (Cashflow), fixed asset ratio (FIXED), revenue growth rate (Growth), audit quality (Big4), total asset 
+
+3 
+
+
+
+H. Jia and W. Che                                                                                                                                                                F  i n a  n  c e    R e s e a r c h  L e t t e r s   83 (2025) 107691 
+
+turnover (ATO), and Tobin’s Q value (TobinQ), as shown in Table 1.
+
+3.3. Model specification
+
+In order to examine the link between institutional investor stability and corporate innovation, this study designates corporate 
+innovation as the dependent variable and institutional investor stability as the independent variable. The following model is proposed: 
+
+RDit = α0 + α1IOit + Controlit + μi + γt + εit (2) 
+
+Where the subscript i denotes the firm, and t represents the time period. RDit measures the innovation level of firm i at time t. IOit 
+represents institutional investor stability, and Controlit is the set of control variables. μi and γt denote industry and time fixed effects, 
+respectively, while εit is the exogenous disturbance term.
+
+For Hypothesis 2, this study introduces MSR to construct a mediation effect model, as shown in Eqs. (3) and (4). 
+RDit = β0 + β1IOit + Controlit + μi + γt + εit (3) 
+
+RDit = θ0 + θ1IOit + θ2MSRit + Controlit + μi + γt + εit (4) 
+
+Where MSRit represents executive equity incentives.
+For Hypothesis 3, this study incorporates AC and its interaction term with IO to establish a moderation effect model, as presented in 
+
+Eq. (5). 
+RDit = π0 + π1IOit + π2ACit + π3IOit × ACit + Controlit + μi + γt + εit (5) 
+
+Where ACit represents agency costs, and IOit × ACit denotes the interaction term between institutional investor stability and agency 
+costs.
+
+4. Empirical analysis
+
+4.1. Descriptive analysis
+
+Table 2 presents the descriptive statistics for the data used in this study. The standard deviation of RD indicates some differences 
+across firms, though the overall fluctuation is relatively moderate. The median suggests a relatively symmetric distribution of the data. 
+The average value of IO reflects a moderately high level among sample firms, while the standard deviation suggests significant 
+variation across firms. The maximum and minimum values of MSR reveal a wide range, which may be related to differences in firms’ 
+ownership structures and incentive policies. The median value is slightly higher than the mean, indicating a possible right-skewed 
+distribution, with a subset of firms exhibiting particularly high MSR. The standard deviation of AC reflects a certain degree of 
+dispersion. The values of AC highlight substantial differences across firms. Overall, these indicators demonstrate the diversity and 
+moderate central tendency in RD, IO, MSR, and AC among firms, providing a solid foundation for subsequent empirical analysis.
+
+4.2. Baseline regression
+
+Table 3 presents the baseline regression results. Column (1) shows the results without control variables, where the impact of IO on 
+RD is statistically significant at the 1 % level, indicating that RD has a significantly positive effect on IO, thus validating Hypothesis 1. 
+In Column (2), after incorporating a series of control variables, the results remain positively significant at the 1 % level. This dem
+onstrates that even when accounting for other potential factors influencing RD, IO continues to exert a significantly positive effect on 
+RD. Specifically, for every one standard deviation increase in institutional investor stability, corporate innovation increases by 10.02 
+
+Table 1 
+Variable definitions.
+
+Variable type Variable name Symbol Definition
+
+Dependent variable Corporate innovation RD Log-transformed R&D investment plus 1.
+PT Log-transformed total annual patent applications plus 1.
+
+Independent variable Institutional investor stability IO Calculated according to Eq. (1).
+Mediating variable Executive equity incentives MSR Log-transformed number of shares held by management plus 1.
+Moderating variable Agency costs AC Administrative expenses / operating revenue.
+Control variables Debt-to-Asset ratio Lev Total liabilities / total assets.
+
+Return on equity Roe Net profit / average net assets.
+Cash flow ratio Cashflow Net cash flow from operating activities / total assets.
+Fixed asset ratio FIXED Net fixed assets / total assets.
+Revenue growth rate Growth (Current year’s revenue / Previous year’s revenue) - 1.
+Audit quality Big4 Equal to 1 if audited by big four (PwC, Deloitte, KPMG, EY), otherwise 0.
+Asset turnover ratio ATO Operating revenue divided by average total assets of the current and previous year.
+Tobin’s Q TobinQ Firm’s market value divided by total assets.
+
+4 
+
+
+
+H. Jia and W. Che                                                                                                                                                                F  i n a  n  c e    R e s e a r c h  L e t t e r s   83 (2025) 107691 
+
+Table 2 
+Summary statistics.
+
+VarName Obs Mean SD Min Max
+
+RD 11,759 18.3176 1.3032 14.9731 22.0448
+PT 11,759 2.0646 2.1764 0.0000 6.9976
+IO 11,759 2.4292 1.2223 0.1022 5.8576
+MSR 11,759 12.5426 6.6763 0.0000 19.9874
+AC 11,759 0.0863 0.0642 0.0068 0.6409
+Lev 11,759 0.4104 0.1867 0.0645 0.8542
+ROE 11,759 0.0617 0.1166 − 0.4794 0.3319
+Cashflow 11,759 0.0498 0.0615 − 0.1129 0.2265
+FIXED 11,759 0.2075 0.1339 0.0083 0.6030
+Growth 11,759 0.1613 0.3318 − 0.4644 1.7399
+Big4 11,759 0.0451 0.2075 0.0000 1.0000
+ATO 11,759 0.6255 0.3589 0.1259 2.2256
+TobinQ 11,759 2.1672 1.2969 0.8619 7.6868
+
+Table 3 
+Baseline regression.
+
+(1) (2)
+RD RD
+
+IO 0.1603*** 0.0820***
+​ (6.5444) (6.0822)
+Lev ​ 1.8114***
+​ ​ (8.9780)
+ROE ​ 2.1829***
+​ ​ (12.9620)
+Cashflow ​ 1.9984***
+​ ​ (7.9113)
+FIXED ​ − 0.4413**
+​ ​ (− 2.0255)
+Growth ​ − 0.0882*
+​ ​ (− 1.9319)
+Big4 ​ 1.1379***
+​ ​ (7.3863)
+ATO ​ 0.5254***
+​ ​ (6.7075)
+TobinQ ​ − 0.1730***
+​ ​ (− 8.0677)
+_cons 17.9282*** 17.2414***
+​ (301.3521) (169.4495)
+Ind FE Yes Yes
+Year FE Yes Yes
+N 11,759 11,759
+Adj. R2 0.1871 0.3953
+
+Note: *** indicates a significance level of P< 0.01, ** indicates P< 0.05, and * repre
+sents P< 0.1. The t-values are presented in parentheses. FE stands for fixed effects The 
+same applies to the following table.
+
+%. This further corroborates Hypothesis 1.
+
+4.3. Robustness tests
+
+To further verify the reliability and validity of the research results, this study conducts robustness tests by replacing the dependent 
+variable and excluding specific samples for regression analysis.
+
+4.3.1. Replacing the dependent variable
+To ensure that the research results are not dependent on a specific measurement indicator, this study uses alternative measures of 
+
+corporate innovation. Specifically, the original dependent variable RD is replaced with PT (patent applications). R&D investment may 
+be influenced by various factors, such as firm size, industry characteristics, and R&D efficiency, which could affect the relationship 
+between R&D investment and corporate innovation. By using the number of patent applications as a proxy for innovation, this study 
+mitigates potential biases caused by these factors and provides a complementary perspective for measuring innovation. Additionally, 
+patent applications enable a better comparison of innovation levels across firms and industries, enhancing the generalizability and 
+comparability of the results. The results, as shown in Table 4, indicate that after replacing the dependent variable, IO still has a 
+significantly positive impact on PT at the 1 % level, further supporting Hypothesis 1.
+
+5 
+
+
+
+H. Jia and W. Che                                                                                                                                                                F  i n a  n  c e    R e s e a r c h  L e t t e r s   83 (2025) 107691 
+
+4.3.2. Reducing the sample size
+The 2015 stock market crash significantly disrupted the Chinese stock market, leading to a sharp decline in market value and a loss 
+
+of investor confidence. Similarly, the 2020 COVID-19 pandemic triggered a global economic recession. To reduce the potential in
+fluence of outliers and improve the reliability and validity of the regression results, this study excludes data from these two exceptional 
+years. The regression results, as presented in Table 4, demonstrate that the positive impact of IO on RD remains significant at the 1 % 
+level, thereby validating the conclusions drawn for Hypothesis 1.
+
+4.4. Endogeneity test
+
+Given the long cycle of corporate innovation activities and the delayed effect of institutional investors on innovation, this study 
+incorporates lagged regression models for robustness testing. The results are presented in Table 5. In Column (1), when RD is lagged by 
+one period, the coefficient of IO on RD is 0.0780, which remains significant at the 1 % level. In Column (2), when RD is lagged by two 
+periods, IO continues to exhibit a significant positive effect at the 1 % level. Similarly, Columns (3) and (4) present the regression 
+results when IO is lagged by one and two periods, respectively, where the impact of IO on RD remains significant at the 1 % level. The 
+results indicate that as the lag period increases, the coefficient of IO on RD gradually decreases. This suggests that the impact of 
+institutional investor stability on corporate innovation weakens over time. However, the long-term effect remains significant, 
+demonstrating the robustness of the conclusions.
+
+4.5. Mechanism analysis
+
+The results of the main effect analysis indicate that institutional investor stability contributes to enhancing corporate innovation 
+capability. Next, this study further explores how institutional investor stability affects corporate innovation.
+
+4.5.1. Mediation effect
+This study examines the mediating effect of MSR in the relationship between IO and RD. The results are presented in Table 6. 
+
+Column (1) shows the baseline regression results, where IO has a significant positive impact on RD at the 1 % level. In Column (2), after 
+introducing MSR, the results still indicate that IO has a significant positive impact on RD at the 1 % level. This demonstrates the 
+presence of the mediating effect of MSR. In other words, IO promotes RD by enhancing MSR, thereby confirming Hypothesis 2.
+
+4.5.2. Moderation effect
+Table 7 introduces AC as a moderating variable and incorporates the interaction term IO × AC into Eq. (4). Column (1) presents the 
+
+baseline regression results. In Column (2), the coefficient of AC is negative, indicating that AC is negatively correlated with RD. This 
+suggests that an increase in AC suppresses RD. Moreover, the coefficient of the interaction term IO × AC is also negative and significant 
+at the 1 % level. This finding implies that the increase in AC weakens the positive effect of IO on RD, indicating that AC negatively 
+moderates the relationship between IO and RD. Thus, Hypothesis 3 is confirmed.
+
+5. Further analysis
+
+5.1. Internal control quality
+
+As a critical tool for enterprise risk management and operational efficiency, the value of internal control (IC) has become 
+increasingly prominent in today’s complex and dynamic business environment. IC not only affects the effective execution of strategic 
+goals but also directly influences financial stability and market competitiveness (Li et al., 2024). Based on the sample data, this study 
+conducts regressions by grouping firms according to the median value of IC and tests for differences in coefficients between groups. The 
+results are shown in Table 8. In the Low IC group, the coefficient of IO on RD is 0.0602, while in the High IC group, the coefficient is 
+0.0972. Both coefficients are significant at the 1 % level. According to the coefficient difference test, the positive effect of IO on RD is 
+more pronounced in firms with high IC. High levels of IC are often accompanied by stricter management and supervision systems, 
+
+Table 4 
+Robustness checks.
+
+Replacing the dependent variable Reducing the sample size
+PT RD
+
+IO 0.1445*** 0.0884***
+​ (5.5567) (5.6236)
+_cons 1.3572*** 17.2932***
+​ (10.2655) (163.7486)
+Controls Yes Yes
+Ind FE Yes Yes
+Year FE Yes Yes
+N 11,759 9256
+Adj. R2 0.0886 0.4001
+
+6 
+
+
+
+H. Jia and W. Che                                                                                                                                                                F  i n a  n  c e    R e s e a r c h  L e t t e r s   83 (2025) 107691 
+
+Table 5 
+Endogeneity test.
+
+(1) (2) (3) (4)
+L.RD L2.RD RD RD
+
+IO 0.0780*** 0.0766*** ​ ​
+​ (5.9327) (5.2608) ​ ​
+L.IO ​ ​ 0.0804*** ​
+​ ​ ​ (6.2546) ​
+L2.IO ​ ​ ​ 0.0785***
+​ ​ ​ ​ (5.4629)
+_cons 17.3111*** 17.3101*** 17.3257*** 17.3918***
+​ (166.8849) (150.8633) (178.9966) (171.7490)
+Controls Yes Yes Yes Yes
+Ind FE Yes Yes Yes Yes
+Year FE Yes Yes Yes Yes
+N 8152 6420 8152 6420
+Adj. R2 0.3822 0.3659 0.3931 0.4014
+
+Table 6 
+MSR mediation effects.
+
+(1) (2)
+RD RD
+
+IO 0.0820*** 0.1074***
+​ (6.0822) (8.5100)
+MSR ​ 0.0167***
+​ ​ (5.1753)
+_cons 17.2414*** 16.9275***
+​ (169.4495) (149.1161)
+Controls Yes Yes
+Ind FE Yes Yes
+Year FE Yes Yes
+N 11,759 11,759
+Adj. R2 0.3953 0.4011
+
+Table 7 
+Moderating effect of AC.
+
+(1) (2)
+RD RD
+
+IO 0.0820*** 0.0809***
+​ (6.0822) (5.4622)
+AC ​ − 1.7194***
+​ ​ (− 2.9787)
+IO × AC ​ − 0.8573***
+​ ​ (− 6.2201)
+_cons 17.2414*** 17.5105***
+​ (169.4495) (127.1491)
+Controls Yes Yes
+Ind FE Yes Yes
+Year FE Yes Yes
+N 11,759 11,759
+Adj. R2 0.3953 0.3736
+
+which not only effectively reduce operational risks but also enhance decision-making efficiency and transparency. Furthermore, 
+high-quality IC ensures the reliability of financial reporting, lowers the cost of capital, and attracts more external investment. In such 
+an environment, institutional investor stability provides more predictable and reliable external support, further boosting firms’ 
+confidence in undertaking long-term and high-risk innovation activities.
+
+5.2. Firm size
+
+Significant differences exist between firms of varying sizes in terms of resource allocation, managerial complexity, and market 
+influence. Based on the median value of firm size, the sample is divided into two groups: small-to-medium-sized enterprises (SMEs) and 
+large firms, and regressions are performed for each group. The results are shown in Table 8. The effect of IO on RD in large firms is 
+positively significant at the 1 % level. Compared to SMEs, large firms, with their stronger capital base and more extensive resource 
+
+7 
+
+
+
+H. Jia and W. Che                                                                                                                                                                F  i n a  n  c e    R e s e a r c h  L e t t e r s   83 (2025) 107691 
+
+Table 8 
+Heterogeneity analysis.
+
+Low IC High IC SMEs Large Enterprises
+RD RD RD RD
+
+IO 0.0602*** 0.0972*** − 0.0092 0.0791***
+​ (4.3446) (5.2529) (− 0.6909) (3.4013)
+_cons 17.5609*** 17.0257*** 17.5279*** 17.5744***
+​ (186.1812) (144.1605) (242.7106) (126.4787)
+Controls Yes Yes Yes Yes
+Ind FE Yes Yes Yes Yes
+Year FE Yes Yes Yes Yes
+N 5879 5880 5879 5880
+Adj. R2 0.3670 0.4255 0.3003 0.3867
+Fisher combined test p-values 0.0080 0.0000
+
+reserves, are able to allocate more funds to R&D activities and better absorb the potential risks associated with innovation failure. 
+Additionally, differences in market influence between the two groups are noteworthy. Large firms, due to their size and resource 
+advantages, often dominate the market, making it easier for their R&D outcomes to gain acceptance and be commercialized. In 
+contrast, SMEs need to rely on differentiation strategies and niche markets to enhance their market influence and the success rate of 
+their innovation commercialization. In this context, institutional investor stability plays a critical role by providing sustained capital 
+support and governance optimization. This helps firms maintain an optimal scale for maximizing innovation returns, further 
+improving innovation efficiency and the conversion of innovation outcomes into tangible benefits.
+
+6. Conclusions and recommendations
+
+Based on firm internal financial data, this study explores the relationship between institutional investor stability, executive in
+centives, and corporate innovation. The findings are as follows: (1) Institutional investor stability enhances corporate innovation 
+levels. (2) Institutional investor stability promotes corporate innovation by increasing executive equity ownership. (3) The positive 
+effect of institutional investor stability on corporate innovation diminishes as agency costs increase. (4) The incentivizing effect of 
+institutional investor stability varies across firms of different sizes and management characteristics, being more significant in large- 
+scale firms and those with higher levels of internal management. Based on these findings, the following recommendations are 
+proposed:
+
+First, improve internal control mechanisms. Strengthen internal governance and enhance the quality of internal controls to ensure 
+transparency in decision-making and reliability in financial information. High-quality internal controls not only reduce operational 
+risks but also create a more stable investment environment for institutional investors, thereby increasing their willingness for long- 
+term shareholding and providing stronger support for corporate innovation. Second, optimize executive equity incentive mecha
+nism. Align executives’ personal interests with the company’s long-term innovation goals through equity incentives. Such mechanisms 
+can enhance executives’ sense of responsibility and belonging, motivating them to focus more on the firm’s long-term development 
+and innovation activities, ultimately boosting the company’s overall innovation capacity. Third, reduce agency costs. Implement 
+effective measures to lower agency costs by optimizing corporate governance structures, increasing information transparency, and 
+strengthening internal audits. By reducing information asymmetry and conflicts of interest between management and shareholders, 
+the stability of institutional investors can be better leveraged to drive innovation. Fourth, adopt differentiated innovation strategies. 
+The scale of a firm determines its resource endowment and strategic choices. Large firms should fully leverage their capital and 
+resource advantages to increase R&D investment and attract stable institutional investors to strengthen long-term innovation capacity. 
+Meanwhile, SMEs should enhance internal controls and actively integrate external resources to alleviate financial constraints through 
+institutional investor support, thereby improving innovation efficiency. Fifth, optimize the capital market policy environment. Poli
+cymakers should improve regulatory mechanisms in the capital market and encourage institutional investors to adopt long-term 
+shareholding strategies. Measures such as optimizing tax policies and enhancing information disclosure transparency can increase 
+institutional investor stability. Additionally, policymakers should provide support for corporate innovation, such as establishing 
+innovation incentive funds or targeted support programs, to guide firms toward efficient innovation within a stable investment 
+environment.
+
+Although this study reveals the positive effect of institutional investor stability on corporate innovation, there are still some 
+limitations: First, sample data limitation. The sample data is confined to listed companies, without adequately considering differences 
+in industries, regions, or ownership structures, which restricts the generalizability of the conclusions. Second, lack of dynamic analysis. 
+The study lacks an analysis of the dynamic evolution of the relationship between institutional investor stability and corporate inno
+vation, failing to capture its long-term effects. Future research could expand the sample data range and employ methods such as 
+dynamic panel data models to enhance the generalizability and representativeness of the research conclusions.
+
+CRediT authorship contribution statement
+
+Haoyi Jia: Writing – review & editing, Data curation, Conceptualization. Weina Che: Writing – original draft, Methodology, 
+
+8 
+
+
+
+H. Jia and W. Che                                                                                                                                                                F  i n a  n  c e    R e s e a r c h  L e t t e r s   83 (2025) 107691 
+
+Formal analysis.
+
+Declaration of competing interest
+
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to 
+influence the work reported in this paper.
+
+Data availability
+
+The authors do not have permission to share data.
+
+References
+
+Altaf, H., Jan, A., 2023. Generational theory of behavioral biases in investment behavior. Borsa Istanbul Rev. 23, 834–844. https://doi.org/10.1016/j. 
+bir.2023.02.002.
+
+Bai, H.R., Huang, L.Y., Wang, Z.Q., 2024. Supply chain financing, digital financial inclusion and enterprise innovation: evidence from China. Int. Rev. Financ. Anal. 
+91, 103044. https://doi.org/10.1016/j.irfa.2023.103044.
+
+Belghitar, Y., Clark, E., 2015. Managerial risk incentives and investment related agency costs. Int. Rev. Financ. Anal. 38, 191–197. https://doi.org/10.1016/j. 
+irfa.2014.11.012.
+
+Bolor-Erdene, B., Jung, S.M., Park, S., 2023. The ties that bind: social capital and perceived competition during financial crisis. Finance Res. Lett. 53, 103667. https:// 
+doi.org/10.1016/j.frl.2023.103667.
+
+Callen, J.L., Fang, X.H., 2013. Institutional investor stability and crash risk: monitoring versus short-termism? J. Bank Financ 37, 3047–3063. https://doi.org/ 
+10.1016/j.jbankfin.2013.02.018.
+
+Cella, C., 2020. Institutional investors and corporate investment. Finance Res. Lett. 32, 101169. https://doi.org/10.1016/j.frl.2019.04.026.
+Chapman, G., Hewitt-Dundas, N., 2018. The effect of public support on senior manager attitudes to innovation. Technovation 69, 28–39. https://doi.org/10.1016/j. 
+
+technovation.2017.10.004.
+Cheng, F., Ji, S.S., Chen, Y.C., 2023. The contract design of employee stock ownership plan and enterprise innovation investment: evidence from China. Sustainability 
+
+15, 2601. https://doi.org/10.3390/su15032601.
+García-Sánchez, I.M., Aibar-Guzman, B., Raimo, N., Vitolla, F., Schiuma, G., 2024. Climate governance, growth opportunities, and innovation in addressing climate 
+
+change: empirical evidence from emerging countries. Finance Res. Lett. 70, 106328. https://doi.org/10.1016/j.frl.2024.106328.
+Huang, X., Zhao, J., Hu, B., Zhu, C., 2025. Analysis of changes in corporate external guarantee behavior and the role of governance factors under economic policy 
+
+uncertainty. Int. Rev. Financ. Anal. 97, 103801. https://doi.org/10.1016/j.irfa.2024.103801.
+Kałdoński, M., Jewartowski, T., 2024. Corrigendum to ‘tax aggressiveness under concentrated ownership: the importance of long-term institutional investors’ 
+
+[Finance Research Letters 65 (2024) Article 105541]. Finance Res. Lett. 66, 105895. https://doi.org/10.1016/j.frl.2024.105895.
+Kaldonski, M., Jewartowski, T., Mizerka, J., 2020. Capital market pressure, real earnings management, and institutional ownership stability - evidence from Poland. 
+
+Int. Rev. Financ. Anal. 71, 101315. https://doi.org/10.1016/j.irfa.2019.01.009.
+Lahlou, I., Navatte, P., 2017. Director compensation incentives and acquisition performance. Int. Rev. Financ. Anal. 53, 1–11. https://doi.org/10.1016/j. 
+
+irfa.2017.07.005.
+Lai, J.H., Chen, L.Y., Chen, C.R., 2017. Agency hazard, managerial incentives, and the wealth effects of joint venture investments. Int. Rev. Financ. Anal. 52, 190–202. 
+
+https://doi.org/10.1016/j.irfa.2017.06.001.
+Li, F.Z., Jiang, Y.X., 2022. Institutional investor networks and crash risk: evidence from China. Finance Res. Lett. 47, 102627. https://doi.org/10.1016/j. 
+
+frl.2021.102627.
+Li, L., Kuo, C.S., 2017. CEO equity compensation and earnings management: the role of growth opportunities. Finance Res. Lett. 20, 289–295. https://doi.org/ 
+
+10.1016/j.frl.2016.10.013.
+Li, W.B., Huang, Y.L., Zhou, H.Y., Liu, X., 2024. CEO power, internal control quality, and entrepreneurial innovation spirit in family enterprises. Int. Rev. Financ. Anal. 
+
+95, 103364. https://doi.org/10.1016/j.irfa.2024.103364.
+Lin, H.T., He, Y.R., Wang, M.L., Huang, Y.H., 2020. The State-owned Capital Gains Handover System and managerial agency cost: evidence from central state-owned 
+
+listed companies in China. Finance Res. Lett. 36, 101325. https://doi.org/10.1016/j.frl.2019.101325.
+Saci, F., Jasimuddin, S.M., 2021. Does the research done by the institutional investors affect the cost of equity capital? Finance Res. Lett. 41, 101834. https://doi.org/ 
+
+10.1016/j.frl.2020.101834.
+Schäuble, J., 2019. The impact of external and internal corporate governance mechanisms on agency costs. Corporate Governan. Int. J. Business Society 19, 1–22. 
+
+https://doi.org/10.1108/CG-02-2018-0053.
+Varela, O., 2017. Agency costs" when agents perform better than owners. Finance Res. Lett. 23, 103–113. https://doi.org/10.1016/j.frl.2017.07.019.
+Wang, J.X., Liu, J.M., Wang, J.W., Huang, X., Liu, Y., 2023. The puzzle of household wealth preservation and corporate innovation. Int. Rev. Financ. Anal. 90, 102893. 
+
+https://doi.org/10.1016/j.irfa.2023.102893.
+Wang, K.T., Sun, A.N., 2022. Institutional ownership stability and corporate social performance. Finance Res. Lett. 47, 102861. https://doi.org/10.1016/j. 
+
+frl.2022.102861.
+Yang, X., Li, F., Liu, Y., 2024a. Industry and regional peer effects on company innovation. Finance Res. Lett. 67, 105719. https://doi.org/10.1016/j.frl.2024.105719.
+Yang, X.Q., Zhang, K.X., Liao, G.M., Gao, P.F., 2024b. Administrative monopoly and state-owned enterprise innovation: evidence from the fair competition review 
+
+system in China. Int. Rev. Financ. Anal. 95, 103463. https://doi.org/10.1016/j.irfa.2024.103463.
+Zeng, Y.L., Zhao, X.F., Zhu, Y.W., 2023. Equity incentives and ESG performance: evidence from China. Finance Res. Lett. 58, 104592. https://doi.org/10.1016/j. 
+
+frl.2023.104592.
+Zhang, M., Guo, X., Lu, X., Jiang, Y., 2024a. Credit guarantee, financing structure, and firm ESG performance. Finance Res. Lett. 63, 105315. https://doi.org/ 
+
+10.1016/j.frl.2024.105315.
+Zhang, X.E., Li, N., 2024. Management myopia and corporate innovation in China: focus on the moderating role of equity incentives. Int. Rev. Financ. Anal. 96, 
+
+103733. https://doi.org/10.1016/j.irfa.2024.103733.
+Zhang, X.Q., Deng, Y., Wu, X.P., 2024b. Exploring fiscal incentives, financial constraints, and firm innovation performance: a multidimensional correlation analysis 
+
+and mechanism exploration. Int. Rev. Financ. Anal. 96, 103534. https://doi.org/10.1016/j.irfa.2024.103534.
+
+9

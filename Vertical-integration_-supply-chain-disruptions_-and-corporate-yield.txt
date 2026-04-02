@@ -1,0 +1,1701 @@
+                                                           The British Accounting Review xxx (xxxx) xxx
+
+
+                                                            Contents lists available at ScienceDirect
+
+
+                                                    The British Accounting Review
+                                                    journal homepage: www.elsevier.com/locate/bar
+
+
+
+
+Vertical integration, supply chain disruptions, and corporate yield
+spreads
+Yifei Li a ,∗, Anni Wang a , Qun Wu a , Zejiang Zhou b
+a
+    College of Business, University of Nevada, Reno, USA
+b
+    School of Business, Anhui University, China
+
+
+
+ARTICLE                  INFO                              ABSTRACT
+
+JEL classification:                                        Vertical integration can lower transaction costs and enhance a firm’s control over its supply
+F15                                                        chain, thereby mitigating supply chain risk and leading to lower yield spreads. However, it
+G12                                                        may also lead to asset specificity, which can reduce the liquidation value of assets and increase
+G32
+                                                           investment uncertainty, potentially resulting in higher yield spreads. We find that firms with
+L22
+                                                           greater vertical integration exhibit lower bond yield spreads. This effect is more pronounced for
+Keywords:                                                  companies facing elevated supply chain risk, supporting the supply chain risk channel. Amid
+Vertical integration
+                                                           global supply chain disruptions such as the Covid-19 pandemic and the U.S.-China trade war,
+Supply chain risk
+                                                           vertical integration takes on an even more important role in reducing credit spreads.
+Bond yield spreads
+Supply chain disruptions
+
+
+
+
+           What the current situation exposes is that the risks associated with supply chain fragmentation and globalization have been
+           unpriced and largely ignored. For many companies, the combination of lean production and global multistage supply networks
+           is leading to crises. This should be a wake-up call for managers who need to understand their supply chain’s strategic
+           vulnerabilities.
+                                                                                                                                     [Willy Shih (2020)]1
+
+1. Introduction
+
+    In recent decades, the business landscape has witnessed a notable surge in the significance of global supply chains,2 which have
+evolved into fully developed networks comprising a complex web of suppliers, manufacturers, and distributors.3 As firms increasingly
+rely on effective supply chain management, the global economy has encountered disruptions from events like the Covid-19 pandemic
+and the U.S.-China trade war, posing challenges for companies in managing supply chain risk. Vertical integration emerges as a
+noteworthy tool for effectively mitigating supply chain risk (Ahern & Harford, 2014; Ersahin et al., 2024; Garfinkel & Hankins,
+2011). Several studies have examined the role of vertical integration in corporate organizational structures (e.g. Grossman & Hart,
+1986; Klein et al., 1978; Williamson, 1971, 1979) and its effect on equity prices (e.g. Fan & Goyal, 2006; Helfat & Teece, 1987;
+
+
+     ∗ Corresponding author.
+    E-mail addresses: yifeil@unr.edu (Y. Li), anniw@unr.edu (A. Wang), qunw@unr.edu (Q. Wu), zhouzejiang@ahu.edu.cn (Z. Zhou).
+     1
+    Is It Time to Rethink Globalized Supply Chains? by Willy Shih, March 19, 2020, MIT Sloan Management Review
+  2 In 2020, the combined value of imports and exports of goods and services in the United States amounted to $3.88 trillion, accounting for approximately
+
+18% of the U.S. GDP.
+  3 For example, Apple’s global supply chain includes more than 200 suppliers, located in 43 countries and more than 800 production locations, as per the
+
+2022 Apple supplier list.
+
+https://doi.org/10.1016/j.bar.2025.101639
+Received 27 May 2024; Received in revised form 11 February 2025; Accepted 17 March 2025
+Available online 29 March 2025
+0890-8389/© 2025 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.
+
+
+
+Please cite this article as: Yifei Li et al., The British Accounting Review, https://doi.org/10.1016/j.bar.2025.101639
+Y. Li et al.                                                                                                              The British Accounting Review xxx (xxxx) xxx
+
+Hendricks et al., 2009);4 however, its impact on bond pricing has received little attention. In this paper, we investigate the effect
+of vertical integration on corporate bond yield spreads.
+    We examine the vertical integration effect in the corporate bond market for two important reasons. First, corporate bonds, while
+generally regarded as safe investments under normal circumstances, are exposed to downside risk (Augustin et al., 2024), such as
+severe disruptions in global supply chains. Bond prices impound the probability of default, and yield spreads reflect the expected
+risk premiums for bearing both default risk (Campello et al., 2008) and tail risk (Gourio, 2013).5 In case of default, bondholders
+have priority over equity holders in claiming firms’ assets, often leaving equity holders with little or no residual value. Consequently,
+the impact of supply chain risk may be more prominently observed in firms’ bond yield spreads than in their equity prices. Second,
+since the corporate bond yield spread is a forward-looking measure of expected bond performance, it serves as a clean proxy for
+a firm’s ex ante risk premium compared to ex post equity-based risk proxies, which are susceptible to both cash flow and discount
+rate shocks (Campello et al., 2008; Elton et al., 2001). In our paper, we use transaction yield spreads in the secondary market as a
+proxy for time-varying corporate bond risk premiums, as they capture real-time variations in firm-specific supply chain risk.6
+    The classic theoretical literature in finance has extensively documented the concept of vertical integration (Coase, 1937;
+Grossman & Hart, 1986; Hart & Moore, 1990; Klein et al., 1978; Williamson, 1971, 1979), showing that the coordination
+of production occurs within a firm rather than in the market, especially when transaction costs and hold-up problems are
+considerable (Holmström & Roberts, 1998).7 At the same time, modern products frequently integrate essential components or
+sophisticated materials, demanding specialized technological expertise for their production. Therefore, it is a very challenging task
+for a single company to encompass the extensive capabilities needed to independently manufacture everything (Shih, 2020). Due to
+this reason, over the past two decades, we have witnessed a wave of global supply chains being established, which simultaneously
+highlights the fragility of these systems. This phenomenon naturally leads to intriguing research questions: Should companies
+strategically choose vertical integration as a corporate policy to address increased supply chain risk? And if so, would this advantage
+be recognized by financial markets?
+    To evaluate these questions, we begin by considering the trade-offs between the benefits and costs of vertical integration. With
+vertical integration, firms have different stages of production along the supply chain under greater control, implement better
+management in both quantity and quality and from inputs to outputs, and reduce their exposure to external risks. According to
+transaction cost theory, firms choose vertical integration when the expenses associated with arm’s length transactions surpass those
+of coordinating activities within a single firm (Williamson, 1971, 1979). Firms with higher degrees of vertical integration are posited
+to gain advantages in reducing transaction costs and improving information flow along the supply chain (Mahoney, 1992; Pishchulov
+et al., 2023), thereby lowering the firm’s risk. A more vertically integrated company, through control of critical elements in the
+supply chain, not only reduces its dependence on external suppliers and allows the company to adapt more quickly to changes in
+supply and demand, but also establishes a buffer against supply chain disruptions. As a result, the benefit of vertical integration
+predicts a negative relationship between vertical integration and corporate yield spreads, indicative of reduced supply chain risk
+premiums.
+    On the other hand, there is a potential downside of asset specificity linked with vertical integration. By investing in assets
+uniquely customized for their internal operation processes and supply chain requirements, vertically integrated firms increase their
+asset specificity. High levels of asset specificity can result in reduced liquidation value on these assets (Shleifer & Vishny, 1992)
+and magnify the impact of uncertainty on investment decisions (Kedia et al., 2009; Kermani & Ma, 2023).8 Additionally, the risk
+of post-contractual opportunistic behavior, driven by the specificity of investments (Anderson & Weitz, 1992; Coase, 2006; Klein
+et al., 1978), could result in higher risks borne by firms with increased levels of vertical integration.9 Therefore, the cost of vertical
+integration could posit a positive relationship between vertical integration and corporate yield spreads, reflecting the potential costs
+of asset specificity. Considering both the benefits and the costs of vertical integration, the relationship between vertical integration
+and corporate yield spreads remains an open question.
+    Our main finding demonstrates a negative relationship between vertical integration and corporate yield spreads. The result of a
+reduction in risk premium indicates that the benefits of vertical integration in mitigating supply chain risk outweigh the potential
+costs. To explore how bond investors value production coordination by demanding a diminished risk premium from highly vertically
+
+
+   4 Researchers have broadly investigated the effect of vertical-related integration from the perspective of shareholders. For instance, Helfat and Teece (1987)
+
+suggest that vertical mergers may reduce a firm’s systematic risk. Fan and Goyal (2006) find that vertical mergers generate significantly greater positive wealth
+effects than vertically unrelated mergers. According to Hendricks et al. (2009), companies with a high level of vertical relatedness encounter a less adverse stock
+market reaction to supply chain disruptions.
+   5 Tail risk refers to low-probability events with catastrophic consequences, such as the major global supply chain disruptions addressed in this paper.
+   6 We focus on transaction yield spreads as they are more dynamic, reflecting shifts in investor expectations, firm-specific developments, and macroeconomic
+
+conditions. In contrast, offering yield spreads capture issuer credit quality and prevailing market condition only at the time of issuance. Additionally, the secondary
+bond market offers greater liquidity, allowing for more frequent trading and updated pricing based on new information. This makes transaction yield spreads a
+more reliable proxy for time-varying risk perceptions, particularly during events like supply chain disruptions.
+   7 Holmström and Roberts (1998) demonstrates that when a supply relationship encounters more extensive hold-up problems, the optimal solution may involve
+
+vertical integration. In such cases, all components of the operation are sourced internally rather than externally. The organization and governance structure of
+a firm are thus considered as mechanisms for addressing hold-up problems.
+   8 Due to the fear of future renegotiation or expropriation involving high-specificity assets, firms might hesitate to invest, leading to underinvestment that
+
+could otherwise enhance efficiency and competitiveness.
+   9 Asset specificity can reduce a firm’s versatility and make its assets difficult to reconfigure for external markets. This can lead to opportunistic behavior, as
+
+these assets may lose substantial value if repurposed for other uses.
+
+
+                                                                                  2
+Y. Li et al.                                                                                                            The British Accounting Review xxx (xxxx) xxx
+
+integrated firms, we employ firm-year-specific vertical integration scores as introduced by Frésard et al. (2020) to gauge the extent
+of vertical integration within firms. The vertical integration (𝑉 𝐼) score indicates the potential of the given firm’s products to be
+vertically related to the other products sold by the same firm. Intuitively, if this score is higher, the firm is more vertically integrated.
+Empirical results of our study show that vertical integration plays a significant role in explaining corporate bond yield spreads when
+controlling for well-established bond yield determinant variables in the literature.10 Specifically, we observe that a firm with a higher
+degree of vertical integration is associated with lower credit spreads. A one-standard-deviation increase in 𝑉 𝐼 correlates with an 17
+basis points decrease in bond yield spreads without control variables, and a 4 basis points decrease in yield spreads when accounting
+for a set of yield spread determinants.
+    Next, we explore the underlying mechanism by which vertical integration is associated with lower corporate yield spreads.
+Vertical integration is recognized as a potent strategy for mitigating supply chain risk (e.g., Ersahin et al., 2024), giving firms
+greater control over their supply chain and reducing reliance on external suppliers and logistics providers. Thus, the supply chain risk
+channel serves as a plausible mechanism for the influence of vertical integration on corporate credit spreads. To test this conjecture,
+we classify the sample into three groups each year, based on both firm-level and industry-level supply chain risk, and then perform
+the baseline regressions for each subsample. Our findings reveal a heightened vertical integration effect within the high supply chain
+risk group, suggesting that the reduction in yield spreads attributable to vertical integration likely stems from its role in mitigating
+supply chain risk and thereby lowering the associated risk premium.
+    The preceding analysis does not rule out the possibility of other risk channels that might intersect with the vertical integration
+effect on supply chain risk. For instance, the impact of vertical integration on the reduction of supply chain risk could also lead to
+lower credit risk and liquidity risk. To provide further insight into these potential risk channels introduced by vertical integration, we
+undertake supplementary tests to investigate its effects within different credit risk and liquidity risk subgroups.11 Regarding credit
+risk, our findings reveal a heightened vertical integration effect within the medium credit risk group, with no significant impact
+observed for the high and low credit risk groups. In terms of bond liquidity risk, we observe a more pronounced effect within the
+high liquidity risk group, contrasting with weaker effects for both the medium and low liquidity risk groups. Our results suggest
+that the negative effect of vertical integration on credit spreads could be interacted with a reduction in bond liquidity risk, while
+the effect dissipates for bonds facing high or low credit risk.
+    We further investigate the impact of vertical integration on corporate yield spreads during supply chain disruptions. Recent
+disruptions have imposed significant costs on firms relying on global supply chains, underscoring the importance of examining
+vertical integration in this context. In addition, by employing recent global supply chain disruptions as exogenous industry-wide
+shocks, we address potential endogeneity concerns in assessing the relationship between vertical integration and yield spreads. Prior
+studies suggest that supply chain risk influences vertical integration decisions (Ersahin et al., 2024); however, the effect of vertical
+integration on risk premiums under various types of supply chain disruptions remains largely unexplored. To address this gap, we
+analyze two major supply chain disruptions during our sample period: the Covid-19 pandemic and the U.S.-China trade war. Despite
+their differences, these events represent distinct types of global supply chain disruptions,12 offering a broader perspective on the
+effect of vertical integration on bond yield spreads.
+    In particular, we examine how the effect of vertical integration on corporate yield spreads varies with the onset of these two
+events. First, our findings show a notable association between vertical integration and substantially reduced yield spreads during
+the pandemic period. Specifically, a one-standard-deviation increase in vertical integration results in a significant decrease of 7
+basis points in yield spreads during this challenging period. This effect becomes even more pronounced for firms exposed to greater
+Covid-19-related uncertainties and those facing heightened supply chain risk. Second, we observe a comparable impact of vertical
+integration during the U.S.-China trade war. Vertical integration assumes a more significant role with the onset of the trade war,
+particularly for firms reliant on imported Chinese goods. Collectively, our findings illustrate that vertical integration mitigates the
+risks amplified by global supply chain disruptions, thereby resulting in lower bond yield spreads.
+    We also explore the interaction between vertical integration and firm inventory on corporate yield spreads, and analyze this
+interaction amidst supply chain disruptions. Our findings show that vertical integration plays a more prominent role for firms
+with low inventory levels estimated from the previous quarter. During supply chain disruptions, the marginal impact of vertical
+integration on firms with low inventory levels diverges, with a positive effect during the pandemic period, while a negative effect
+emerges during the U.S.-China trade war. This divergent effect is likely attributed to the distinct features of these two events.
+Moreover, we also examine whether a firm’s level of vertical integration interact with its product market power in determining
+yield spreads. We find that vertical integration has a more pronounced impact on reducing yield spreads for firms with higher
+product pricing power, as these firms derive greater benefits from vertical integration.
+
+
+  10 These control variables include credit ratings, bond illiquidity, maturity in years, issue size, coupon, pretax interest coverage, operating income to sales,
+
+long-term debt to assets and equity volatility. Section 4 provides more details.
+  11 Specifically, bonds are classified into three credit risk groups according to their credit rating: high credit risk with credit ratings of BB+ or below, medium
+
+credit risk with ratings between BBB- to A+, and low credit risk with ratings of AA- or above. Alternatively, bonds are sorted into three illiquidity groups based
+on Roll (1984)’s bond illiquidity measure: high if it exceeds 75%, medium if it falls between 25% and 75%, and low if it is below 25%. Section 4 provides
+details on sample construction.
+  12 The Covid-19 pandemic caused sudden and widespread disruptions due to factory shutdowns, labor shortages and logistics bottlenecks, affecting entire
+
+supply chains and multiple industries simultaneously (ECB Economic Bulletin, Issue 8/2021). In contrast, the U.S.-China trade war represents a more politically
+driven disruption, primarily impacting specific industries and firms with international supply chains tied to the U.S. and China, largely through tariffs and
+regulatory changes (May 2019 IMF World Economic Outlook).
+
+
+                                                                                 3
+Y. Li et al.                                                                                                        The British Accounting Review xxx (xxxx) xxx
+
+    Our research makes three contributions to the existing literature. First, our paper contributes to the ongoing discussion on the
+implications of organizational structure, specifically examining the strain of literature on vertical integration. While existing studies
+examine the risk reduction and value enhancement of vertical integration mainly from the perspective of shareholders (e.g., Fan
+& Goyal, 2006; Helfat & Teece, 1987; Kedia et al., 2009; Spiller, 1985), to our knowledge, we are the first to explore if and how
+creditors value the firms’ vertical integration. For instance, we differ from Fan and Goyal (2006) by providing new evidence from the
+perspective of bondholders.13 In addition, our study is novel in several aspects: Firstly, we take advantage of the newly developed
+construct of firm-level vertical integration by Frésard et al. (2020), allowing us to examine the issue across a broader sample rather
+than being limited to firm-level events. Secondly, we utilize the macroeconomic events such as U.S.-China Trade War and Covid-19
+Pandemic as exogenous shocks, thereby demonstrating the amplified impact of vertical integration during times of significant shock
+and uncertainty. In a nutshell, our study examines the effect of vertical integration in the corporate bonds markets, and finds that
+bond investors demand lower risk premiums, as indicated by lower credit spreads, for more vertically integrated firms.
+    Second, we enhance the burgeoning body of work emphasizing the significance of global supply chain shocks. Building on the
+theoretical work of Long and Plosser (1983), a pioneering study to explore production network shocks, subsequent studies have
+shown that the propagation of these shocks through supply chain linkages can result in significant aggregate fluctuations.14 For
+instance, Acemoglu and Tahbaz-Salehi (2020) reveal that firm failures and the resulting disruptions to supply chains can amplify
+negative shocks. In light of the recent global supply chain disruptions, Carvalho et al. (2021) study the disruption caused by the Great
+East Japan Earthquake, showing how it propagated upstream and downstream along supply chains. Fajgelbaum et al. (2020) find
+the negative externality of protectionism on the U.S. economy, demonstrating that import and retaliatory tariffs caused substantial
+declines in imports and exports. Additionally, Hassan et al. (2023) observe the effects of Covid-19 as a simultaneous shock to
+demand and supply, both of which impact firms’ market valuations. Our research further examines the effect of vertical integration
+on corporate credit spreads amid supply chain disruptions and provides empirical evidence that the vertical integration plays a more
+prominent role in reducing yield spreads during these periods.
+    Third, our study enriches the current research on the determinants of credit spreads and their implications for financial markets.
+Standard bond pricing models, including both structural and reduced-form models, have encountered limitations in explaining
+observed bond yield spreads. Empirical applications of these bond-pricing models find that credit risk explains only a fraction of yield
+spreads (Collin-Dufresn et al., 2001; Elton et al., 2001; Huang & Huang, 2012). Recent studies suggest that some of the variations
+could be driven by the effect of equity volatility (Campbell & Taksler, 2003), bond illiquidity (Bao et al., 2011; Chen et al., 2007),
+and rollover risk (Nagler, 2020), among others. While these factors might account for the determinants of yield spreads, they are
+unlikely to be the sole explanation. Our study contributes to the literature by demonstrating that vertical integration can effectively
+manage a firm’s supply chain risk, which represents an additional source of risk not previously considered in bond pricing models.
+    The remainder of this paper is organized as follows. Section 2 offers an exploration of the institutional background and hypothesis
+development. The subsequent Section 3 delves into the details of the data and methodology, while Section 4 presents our primary
+findings. We then explore how firm vertical integration responds to diverse global supply chain shocks in Section 5. Section 6
+presents additional analyses. Finally, Section 7 concludes.
+
+2. Institutional background
+
+2.1. Global supply chains
+
+    For decades, global supply chains have been a prevalent feature of the international business arena. The advent of globalization
+has ignited a new phase of international competition, leading to a transformation in global production and trade, consequently
+reshaping the organizational structure of industries (Gereffi et al., 2005; Gereffi & Lee, 2012).15
+    Since the mid-1960s, U.S. manufacturing firms have been fragmenting their supply chains in pursuit of cost-effective and capable
+offshore suppliers. The 1970s and 1980s witnessed the inclusion of U.S. retailers and brand-name companies in the quest for offshore
+suppliers across various consumer goods categories.16 The 1990s and 2000s marked a substantial expansion of global supply chains,
+encompassing not just finished goods but also components and subassemblies. This expansion not only impacted manufacturing
+industries but also extended its influence to sectors such as energy, food production, and a diverse range of services, ranging from
+call centers and accounting to medical procedures and the core research and development (R&D) activities of the world’s leading
+multinational corporations (Engardio et al., 2005; Gereffi et al., 2005).
+
+
+  13 Fan and Goyal (2006) examine the value creation effects of firms’ decisions on vertical integration by analyzing stock returns around the announcement of
+
+vertical mergers from 1962 to 1996, representing one of the earlier empirical investigations into the equity valuation of vertical integration.
+  14 Studies, including those by Carvalho (2014), Baqaee and Farhi (2019), Liu (2019), and Bigio and La’O (2020), explore the role of supply chain linkages in
+
+propagating shocks and distortions.
+  15 According to the survey literature by Antràs and Yeaple (2014), data from the U.S. Bureau of Economic Analysis shows that sales of domestically produced
+
+goods to foreign customers constituted only 25% of the total sales of large American firms. The remaining 75% was attributed to the sales of foreign affiliates
+of American multinational corporations (Yeaple, 2013). Additionally, information from the U.S. Census Bureau indicates that approximately 90% of both U.S.
+exports and imports are facilitated through multinational firms. Almost half of U.S. imports occur within the operations of multinational firms rather than
+between unaffiliated parties (Bernard et al., 2009).
+  16 In the 1960s, the concept of ‘‘global outsourcing’’ primarily concentrated on the basic assembly of parts provided by U.S. manufacturers, exemplified by
+
+initiatives like the U.S. production-sharing or ‘‘twin plant’’ program with Mexico. Transitioning to the 1970s and 1980s, these chains evolved from regional
+production-sharing arrangements to comprehensive global supply chains, with an increasing focus on East Asia (Dicken, 2007; Gereffi, 1996).
+
+
+                                                                              4
+Y. Li et al.                                                                                                              The British Accounting Review xxx (xxxx) xxx
+
+
+
+
+Fig. 1. Timeline of global supply chains and major disruption events.
+Fig. 1 presents a flow chart illustrating the evolution of global supply chains from the mid-1960s to the post-Covid-19 era, outlining key milestones and events
+shaping their trajectory. It captures the historical evolution, demonstrating how global supply chains adapt and reassess continuously in response to significant
+events (Carvalho et al., 2021; Constantinescu et al., 2020; Engardio et al., 2005; Hass & Denmark, 2020).
+
+
+
+
+    Entering the 21st century, fully developed global supply chains were established, setting the stage for significant events capable
+of profoundly impacting their flow. A notable illustration is the Great East Japan Earthquake of 2011, marked by its exogenous
+and regional nature, which underscores the vulnerable state of global supply chains. The subsequent disruptions spread both
+upstream and downstream along the supply chains, affecting the direct and indirect suppliers and customers of the disaster-stricken
+firms (Carvalho et al., 2021). The limitations of putting all their eggs with one supplier strategies become evident when considering
+that not all manufacturers, with their intricate networks of suppliers, share the same level of experience or possess extensive backup
+plans. This realization leads to a chaotic scramble, unveiling the disadvantages and resulting in production delays, product shortages,
+and increased prices (Fisher, 2011).17 In the wake of the unforeseen and disastrous interruption caused by the Japanese earthquake,
+numerous offshore firms now have the opportunity to assess the cost and benefit trade-offs of implementing measures such as
+increasing supplier or geographic diversity.
+    In the wake of the 2008 financial crisis, a trend towards international trade protectionism was set in motion, impacting global
+supply chains (Zahoor et al., 2023). Numerous economically developed governments have implemented populist policies and
+measures that endorse the local sourcing of supplies, with the goal of safeguarding their local industries and jobs (Constantinescu
+et al., 2020). These policy interventions have attracted considerable attention, prompted by the efforts of the 45th President of the
+United States, Donald Trump, to reestablish U.S. global leadership with a more inward-looking and fortress-like mentality.18 The
+shift ultimately led to the commencement of the U.S.-China trade war, a phenomenon contrasting with the original inception of the
+global supply chain.
+    Over the past decade, in addition to the 2011 Great East Japan earthquake and the U.S.-China trade war, another significant
+occurrence has become part of the series of black swan events: the Covid-19 pandemic. After the 2011 earthquake, certain companies,
+especially in the semiconductor industry, made gradual adjustments by creating alternative sources (Okada & Shirahada, 2022).
+Despite the lessons drawn from the trade war, a substantial number of businesses returned to the status quo, deeming it nearly
+impossible to replace key suppliers in China (Hass & Denmark, 2020). However, the Covid-19 pandemic stands out as it has
+highlighted country risk on an unprecedented scale. The global disruption resulting from the world’s second-largest economy
+going offline and cutting external logistics connections was unforeseeable. Many firms are now recognizing the extent of their
+dependencies, prompting the necessity to reassess supply chain risks and enhance their networks for greater resilience (Shih, 2020).
+    In summary, Fig. 1 illustrates the development of global supply chains, highlighting key events that have shaped their trajectory,
+including major disruptive shocks. Drawing on the concept of ‘‘renationalization’’ as discussed in Bonadio et al. (2021) which entails
+the reestablishment of economic activities or production processes within a country, particularly in response to global disruptions
+like the Covid-19 pandemic, we delve deeper into the role of vertical integration strategies in mitigating supply chain risk.19
+
+
+  17 For instance, approximately 22% of the global 300 mm silicon wafer supply can be traced back to the Shin-Etsu Handotai’s Shirakawa plant in Fukushima
+
+prefecture, with 60% of crucial automotive components originating from the same region. Moreover, this area assumes a pivotal role as a supplier of lithium
+battery chemicals, flash memory, and anisotropic conductive film used in LCD flat panel displays.
+  18 Prasad, R. (2021).U.S. historians on what Donald Trump’s legacy will be. BBC News. January 1, 2021, https://www.bbc.com/news/world-us-canada-55640427.
+  19 Prior research indicates that the ‘‘renationalization’’ of global supply chains does not necessarily enhance a country’s resilience to pandemic-induced
+
+contractions. This is because, in the context of a labor-supply shock, reducing reliance on foreign inputs merely shifts the emphasis to domestic inputs. If
+domestic inputs are also susceptible to lockdowns, renationalization fails to mitigate contraction. Resilience through renationalization is contingent on the country’s
+lockdown stringency compared to its trading partners; a less stringent lockdown or vice versa would contribute to increased economic resilience (Bonadio et al.,
+2021).
+
+
+                                                                                  5
+Y. Li et al.                                                                                                          The British Accounting Review xxx (xxxx) xxx
+
+2.2. Firm vertical integration
+
+    The exploration of vertical integration within firms provides invaluable insights into corporate organizational structures. Building
+on the pioneering work of Coase (1937) regarding the firm boundaries, extensive literature has laid the theoretical groundwork for
+vertical integration (e.g. Grossman & Hart, 1986; Hart & Moore, 1990; Klein et al., 1978; Williamson, 1971, 1979). These studies
+emphasize that production is often coordinated within a firm, rather than in the market, particularly when transaction costs and
+hold-up problems are significant. Furthermore, vertically integrated firms, facilitated by technical dialogs between upstream and
+downstream units, are more inclined to possess internal access to extensive knowledge base of firm-specific information compared
+to vertically specialized firms (Monteverde, 1995). Adopting vertical integration can thus be a strategic choice that enhances a firm’s
+product portfolio and competitive advantage, ultimately boosting firm performance (Lahiri & Narayanan, 2013; Rothaermel et al.,
+2006).20
+    To effectively illustrate the concept of vertical integration, which involves owning or controlling various stages of an industry’s
+value chain,21 we turn to the automobile industry, focusing on Tesla. Tesla’s unique vertical integration structure and operational
+efficiency have significantly contributed to its industry prominence.
+    The idea of vertical integration is not new; it dates back to the early days of automobile manufacturing. In the 1920s, Ford
+Motors pioneered this approach by controlling resources and production processes, from mining iron ore to manufacturing tires,
+glass, and powertrain. This comprehensive strategy helped Ford secure essential components, particularly during times of high
+demand. Following a similar strategy, Tesla minimizes reliance on external suppliers by integrating across various stages, from
+battery production to electric powertrain manufacturing and self-driving software development. CEO Elon Musk describes this as
+a ‘‘chain of startups’’, enabling Tesla to navigate battery shortages that have limited traditional automakers’ ability to scale electric
+vehicle production.22
+    The automotive sector has faced considerable challenges due to the recent supply chain disruptions caused by the Covid-19 pan-
+demic. A global shortage of chips, coupled with various supply chain shocks, has significantly impacted the entire industry (Ramani
+et al., 2022). In navigating these challenges, Tesla’s vertically integrated strategy has demonstrated to be particularly advantageous,
+allowing the company to better withstand and adapt to the complexities of the disrupted supply chain. Organized into three main
+divisions — Auto, Energy, and Information Technology, Fig. 2 outlines Tesla’s vertical integration strategy and its corresponding
+competitors in each sector.
+    As supply chain uncertainty escalates and the likelihood of bottlenecks increases, the challenges associated with hold-up problems
+between a company and its suppliers become more pronounced, leading to a heightened preference for vertical integration (Ersahin
+et al., 2024; Grossman & Hart, 1986). Viewing this issue from an alternative perspective, if firm vertical integration demonstrates
+itself as a better alternative for mitigating supply chain disruptions, then it follows that vertical integration is a strategic approach for
+firms to navigate the adverse impacts of supply chain risk. Consider the case of Tesla, where in every crucial aspect of its operations,
+the company is self-sufficient and does not depend on external sources for vital components like chips, software, or batteries. In
+this context, vertical integration should be acknowledged as an effective strategy to move away from ‘‘catalogue engineering’’ and is
+reflected as a meaningful corporate strategy.23
+
+2.3. Main hypothesis
+
+    In this paper, we propose hypotheses with respect to the pricing of firm-level vertical integration within financial markets, with
+a particular emphasis on the perspective of bond investors. On the positive side, vertical integration can benefit firms from two
+distinct perspectives.
+    Firstly, vertical integration may reduce transaction costs and alleviate hold-up problems. Expanding upon Coase (1937), market
+transactions between independently operated vertically related firms may suffer significant costs. This line of literature, exemplified
+by seminal works like Williamson (1971, 1979), posits that transactions should occur within a firm (vertical integration) when
+the expenses associated with arm’s length transactions between specialized firms exceed those of coordinating multiple activities
+within a single firm. Moreover, vertical integration can facilitate information flow and enhance transparency between upstream
+and downstream entities along the supply chain (Mahoney, 1992; Pishchulov et al., 2023). Therefore, firms with a high degree of
+vertical integration benefit by reducing transaction costs and mitigating information asymmetry.
+    Secondly, from the risk management perspective, vertical integration emerges as a strategic tool to mitigate risks associated with
+the supply chain. By controlling critical elements along the supply chain, a more vertically integrated company lessens its reliance
+
+
+  20 The benefits of pursuing vertical integration have been underscored in numerous prior studies, as exemplified by Dyer (1996), Dyer and Singh (1998), Hill
+
+and Hoskisson (1987), Ireland et al. (2002), Jones and Hill (1988), Stuart (2000).
+  21 There are two types of vertical integration: forward and backward. Forward integration involves merging with or acquiring businesses closer to the end
+
+consumer, such as downstream manufacturers, retailers, or distributors. In contrast, backward integration involves integrating with upstream entities, such as
+suppliers or raw material producers, to better manage input quality, cost, and availability. In this paper, we do not attempt to distinguish between the two types
+when referring to vertical integration.
+  22 In 2014, before other automakers entered the electric vehicle market, Tesla collaborated with Panasonic to establish its gigafactory for battery production
+
+in 2014, ensuring a consistent and reliable battery supply. https://en.wikipedia.org/wiki/Gigafactory_Nevada.
+  23 In a 2020 earnings call, Elon Musk stated, ‘‘We’re designing and building much more of the car than other OEMs, who primarily resort to the traditional
+
+supply base and, as I refer to it, engage in what I call catalog engineering’’.
+
+
+                                                                                6
+Y. Li et al.                                                                                                          The British Accounting Review xxx (xxxx) xxx
+
+
+
+
+Fig. 2. Comparative analysis of vertical integration: tesla vs. competitors.
+Fig. 2 illustrates Tesla’s diverse business segments and their respective competitors, providing a comprehensive overview of the company’s vertical integration
+across automotive, energy, and information technology industries. It highlights key competitors in each sector, ranging from traditional automotive rivals in the
+auto division to competitors in energy solutions and information technology. This comprehensive figure visually represents Tesla’s competitive positioning across
+its diverse business lines, showcasing how the vertical integration approach facilitates rapid learning and retained control over key design details (Perkins &
+Murmann, 2018).
+
+
+
+
+on external suppliers (Grossman & Hart, 1986) and allows for better coordination of the production process (Alfaro et al., 2019).
+Beyond the traditional approaches such as fostering relationships with nearby and domestic suppliers, as well as with industry-
+leading suppliers, firms use vertical integration to navigate supply chain complexities, improve operational efficiency, and stay
+ahead of the competition (Ersahin et al., 2024).
+   In addition, firms establish vertical integration as a buffer against supply chain disruptions, enabling them to respond more
+swiftly to fluctuations in supply and demand. While earlier studies focus on cash-flow uncertainty (Garfinkel & Hankins, 2011) and
+industry shocks (Ahern & Harford, 2014) as factors motivating firms to integrate different stages of production, recent disruption
+events have further revealed the vulnerabilities of global supply chains. These disruptions result in production delays, product
+shortages, increased costs, and changes in firms’ resourcing strategies. Vertical integration stands out as a strategy to provide firms
+with greater resilience and flexibility to mitigate risks associated with global supply chain disruptions (Arora et al., 2024).
+   Taken together, vertical integration could decrease a firm’s risk (Helfat & Teece, 1987), thereby reducing the ex ante bond risk
+premium and associated bond yield spreads. Hence, we anticipate lower corporate yield spreads for more vertically integrated firms,
+thereby forming the main hypothesis of the paper.
+
+Hypothesis 1a. There is a negative relationship between vertical integration and corporate yield spreads.
+
+    On the flip side, vertical integration introduces the potential pitfall of asset specificity. By investing in assets uniquely tailored to
+their internal production processes and industry needs, vertically integrated firms become more asset-specific. Assets designed for
+highly specific purposes generally exhibit low redeployability and liquidation value (Shleifer & Vishny, 1992).24 As a result, asset
+specificity is often linked to poor debt recoveries during periods of industry- or firm-level distress (Acharya et al., 2007), which can
+adversely impact firm value, particularly when liquidity is urgently needed (Kim, 2018). Concerned about the limited liquidation
+value of specific assets, firms may hesitate to invest (Kermani & Ma, 2023), due to the possibility that they may need to sell capital
+in an uncertain future but recover little of the undepreciated asset value (Chirinko & Schaller, 2009). Hence, high asset specificity
+can reduce the value of existing investments and amplify the effect of uncertainty on investment activities.
+    In addition, asset specificity can be associated with post contractual opportunistic behavior, prompting other involved parties to
+extract rents ex post (Coase, 2006; Klein et al., 1978; Williamson, 1985). Once a specific investment is undertaken, the prospect of
+
+
+
+ 24 The equilibrium model by Shleifer and Vishny (1992) predicts that assets tailored for highly industry-specific purposes typically exhibit low redeployability
+
+outside the industry, particularly when firms become financially constrained due to industry-wide negative cash flow shocks.
+
+
+                                                                               7
+Y. Li et al.                                                                                                              The British Accounting Review xxx (xxxx) xxx
+
+opportunistic behavior emerges,25 and the resulting asset loses substantial value if repurposed for another use (Anderson & Weitz,
+1992; Gulati et al., 1994; Hwang, 2006). Under this assumption, the assets of vertically integrated firms become highly specific to
+their internal operations, making them less versatile and more challenging to reconfigure for external markets. This specialization can
+lead to a substantial loss in asset value if the firm attempts to use or sell these assets for purposes other than their original intended
+use within the integrated production process. This cost can incentive other transacting parties to generate rents post-transaction.
+   To summarize, if the market factors in the cost of asset specificity in reducing firm value, we anticipate that investors will
+perceive such firms as riskier and, therefore, demand higher credit spreads for more vertically integrated firms in bond markets.
+
+Hypothesis 1b. There is a positive relationship between vertical integration and corporate yield spreads.
+
+3. Data and sample
+
+3.1. Text-based vertical integration data
+
+     The sample used in this study consists of non-financial firms from July 2002 to June 2020.26 The data of the firm-level score of
+vertical integration is constructed and validated by Frésard et al. (2020). The score provides the degree which a firm’s products to
+be vertically related to the other products sold by the same firm in a year. In Frésard et al. (2020), the establishment of vertical
+relatedness between pairs of commodities is based on the 2002 BEA input–output (IO) tables. The annually updated information
+regarding the products offered by firms, sourced from 10-K annual firm business descriptions in the SEC Edgar database, is utilized
+to identify vertical relatedness among products within firms by combining the vocabulary found in firm 10-Ks with the terminology
+defining the BEA IO commodities. By the construct, the score of vertical integration will be higher if a firm’s business description
+contains many word pairs that are vertically related. In another word, a firm has higher score of vertical integration when its product
+vocabulary spans vertically related markets.27
+     To begin the process of applying Frésard et al. (2020)’s text-based measure of vertical integration, the 10-K annual firm business
+descriptions are first identified and extracted from the SEC Edgar Database following the same process as in Hoberg and Phillips
+(2016). Then, use the 2002 BEA input–output (IO) tables, which provide dollar flows between producers and purchasers in the
+U.S. economy, and the Detailed Item Output table, which verbally describes each commodity and its subcommodities to assist in
+identifying vertical relatedness. Note that, in this step, only nouns and proper nouns are included, and additional screens are put in
+place to ensure the identification of vertical links is accurate.28
+     The next step involves merging the vocabulary from firms’ 10-K reports with the vocabulary that defines BEA IO commodities to
+determine vertical relatedness between firms. The detailed process consists of three primary stages. First, Frésard et al. (2020)
+connect each firm-year in the Compustat/Edgar universe to BEA IO commodities by calculating the similarity between the
+firm’s business description and the textual description of each BEA commodity. Second, the vocabularies of both firms and BEA
+commodities are represented as vectors, with lengths equal to the number of nouns and proper nouns found in the 10-K business
+descriptions for each year. Each element of these vectors corresponds to an individual word. The third step involves computing the
+‘‘firms to IO commodity correspondence matrix’’, 𝐵, which has dimensions 𝑀 ×𝐶, where 𝐶 represents the number of IO commodities
+and 𝑀 represents the number of firms. An entry 𝐵𝑚,𝑐 (row 𝑚, column 𝑐) is the cosine similarity between the text of the given IO
+commodity 𝑐 and the text in firm 𝑚’s business description.29
+     To measure the extent to which firm 𝑖 is located upstream relative to firm 𝑗, use the following triple product: UP𝑖,𝑗 = [𝐵 ⋅ 𝑉 ⋅ 𝐵 ′ ]𝑖,𝑗 ,
+where 𝑉 is a sparse square matrix based on the extent to which a given commodity is vertically linked (upstream or downstream) to
+another commodity.30 This step yields an 𝑀 × 𝑀 matrix of upstream-to-downstream relatedness between firms 𝑖 and 𝑗. Downstream
+relatedness is simply the mirror image of upstream relatedness, DOWN𝑖𝑗 = UP𝑖𝑗 . Frésard et al. (2020) then repeat this procedure
+for each year, creating a time-varying network of firm-pairwise vertical integration (𝑉 𝐼) measure.
+
+
+  25 When assets are specific, firms face the risk of being expropriated by the counterpart through opportunistic renegotiation. This can happen when the
+
+transaction partner realizes that the firm has few or no alternatives and can threaten to exit or impose new terms to capture a larger share of these quasi-rents.
+  26 We start the sample in 2002 as this coincides with the availability of data from the TRACE Enhanced database.
+  27 We thank Frésard et al. (2020) for the data.
+  28 As stated in Frésard et al. (2020), the filtering process includes manually discarding expressions indicating a vertical relation, removing expressions indicating
+
+exceptions, discarding common words from commodity vocabularies, and removing any words that do not frequently co-appear with other words in a given
+commodity’s vocabulary.
+  29 In calculating cosine similarity, the weights of commodity word vectors are assigned based on the economic importance of each word from the commodity-
+
+word correspondence matrix (𝐶𝑊 ). The 𝐶𝑊 matrix is structured with three columns: a commodity, a commodity word, and the corresponding economic
+importance. The firm word vectors are equally weighted, following Hoberg and Phillips (2016).
+  30 According to Frésard et al. (2020), the matrix 𝑉 is obtained by first constructing the SHARE matrix, an 𝐼 × 𝐶 matrix (Industry × Commodity) that contains
+
+the percentage of commodity 𝑐 produced by a given industry 𝑖. The USE matrix is a 𝐶 × 𝐼 matrix that records the dollar value of industry 𝑖’s purchase of
+commodity 𝑐 as input. The CFLOW matrix is then given by USE × SHARE, resulting in a 𝐶 × 𝐶 matrix of dollar flows from an upstream commodity 𝑐 to
+a downstream commodity 𝑑. In line with Fan and Goyal (2006), the SUPP matrix is defined as CFLOW divided by the total production of the downstream
+commodity 𝑑. SUPP records the fraction of commodity 𝑐 that is used as an input to produce commodity 𝑑. Likewise, the CUST matrix is given by CFLOW divided
+by the total production of the upstream commodity 𝑐, recording the fraction of commodity 𝑐’s total production that is used to produce commodity 𝑑. The 𝑉
+matrix is then calculated as the average of SUPP and CUST. A higher value in 𝑉 indicates a stronger vertical relationship between commodities 𝑐 and 𝑑.
+
+
+                                                                                  8
+Y. Li et al.                                                                                                        The British Accounting Review xxx (xxxx) xxx
+
+3.2. Corporate bond data
+
+    Corporate bond data come from the enhanced Trade Reporting and Compliance Engine (TRACE) and Mergent’s Fixed Investment
+Securities Database (FISD). The enhanced TRACE database provides transaction details for all publicly traded corporate bonds, with
+coverage beginning in July 2002. The FISD database offers issuance information for all fixed-income securities, including information
+on both the issue and issuer, such as coupon rates, issue date, maturity date, issue size, ratings, and other bond characteristics. Bond
+yields and trade data for corporate bonds are sourced from the TRACE, while ratings and bond-specific characteristics are obtained
+from the FISD. To compute monthly bond yield spreads, we first calculate daily bond yields as the trade-size weighted average of
+intraday yields.31 We then take the last available daily bond yield from the last five trading days of the month (excluding weekends
+and holidays) as the month-end bond yield. Using the last transaction yield within this window, rather than relying solely on the
+last day, increases the number of non-missing monthly observations. If no trades occur within the last five trading days, the month’s
+yield is recorded as missing. Finally, we define the primary variable, Yield Spread, as the difference between the yield of a bond and
+the corresponding treasury bond yield with a comparable maturity.32
+    We implement standard filters (e.g., Dick-Nielsen, 2009; Dick-Nielsen et al., 2012) and clean the TRACE data by eliminating
+canceled, corrected, and reversed trades. Then, we follow Bessembinder et al. (2009) and Lin et al. (2011) and remove bonds that
+are not listed or traded in the U.S. public market such as bonds issued through private placement, bonds issued under the 144 A
+rule, bonds that do not trade in U.S. dollars, and bond issuers outside the jurisdiction of the United States. We also exclude bonds
+with a maturity of less than 1 year and longer than 30 years, preferred shares, non-U.S. dollar-denominated bonds, and bonds that
+are mortgage-backed, asset-backed, convertible and exchangeable as well as secured bonds. Finally, we mainly use the Standard
+& Poor’s (S&P) rating from the FISD, but, if it is not available, we use the Moody’s or Fitch rating when possible and drop bonds
+whose ratings we cannot identify.
+    We then match the sample with Compustat database to obtain accounting data. The final dataset includes 393,379 bond-month
+observations spanning from July 2002 to June 2020. Appendix A provides variable definitions.
+
+3.3. Summary statistics
+
+    Table 1 presents summary statistics of vertical integration as well as firm and bond characteristics. To minimize the influence
+of extreme values, we winsorize all continuous variables at their 1st and 99th percentiles. Vertical integration assesses the extent
+to which a firm provides products or services that are vertically connected. A higher value signifies a greater degree of vertical
+integration. The average of vertical integration is 0.0141 with a standard deviation of 0.0115 ranging from 0.0025 to 0.0296 between
+the 10th to 90th percentiles.
+    The main variable of interest is the bond yield spread, which has a mean of 1.60% and a standard deviation of 2.11%. Roll
+(1984)’s bond illiquidity (𝐼𝑙𝑙𝑖𝑞𝑢𝑖𝑑𝑖𝑡𝑦) measure estimates the percentage bid–asks spread, with an average bond illiquidity at 1.44%.
+To facilitate empirical analysis, we translate bond credit ratings into numerical values using a rating conversion scheme: AAA=1,
+AA+=2, . . . , C=21, and D=22. The median credit rating is 8, equivalent to BBB+. Concurrently, the median issue size is $450
+million, with a maturity period of 7 years and a coupon rate of 5.38%. In addition, we report the bond sample distribution by year
+in Table B.1. The bond issuers have an average long-term debt to assets ratio of 0.30 and a total debt to capitalization ratio of 0.32.
+Their average operating income to sales ratio is 0.24, and the pretax interest coverage ratio is 9.17. We also furnish statistics for a
+list of variables utilized in various analyses, with further elaboration provided in the empirical sections of the paper.
+
+4. Empirical results
+
+4.1. Vertical integration and corporate yield spreads
+
+    As previously discussed, firms could strategically use vertical integration as an efficient tool for managing supply chain risk.
+Vertical integration allows a company to have greater control over its entire supply chain, thereby reducing reliance on external
+suppliers and logistics providers. Thus, we anticipate that a more vertically integrated firm can mitigate the potential supply chain
+risk, resulting in lower credit spreads. Alternatively, vertical integration comes with the costs of asset specificity, thus may increase
+the risk and higher bond yield spreads.
+    To empirically test the impact of vertical integration on bond yield spreads, we employ a panel regression approach to regress
+yield spreads on vertical integration, along with various control variables.33 The model is specified as follows:
+
+         𝑌 𝑆𝑖,𝑚,𝑡 = 𝛼 + 𝛽𝑉 𝐼𝑖,𝑡 + 𝛾 ′ 𝐶𝑜𝑛𝑡𝑟𝑜𝑙𝑠𝑖,𝑡 + 𝜏𝑡 + 𝜆𝑗 + 𝜖𝑖,𝑚,𝑡                                                                                       (1)
+
+where i indexes bond, j indexes industry, m indexes month and t indexes year. 𝑌 𝑆𝑖,𝑚,𝑡 denotes bond i’s yield spreads in month 𝑚
+of year t. Vertical integration (𝑉 𝐼) measures the degree to which a firm provides products or services that are vertically related
+
+
+  31 This methodology aligns with Bessembinder et al. (2009), which show that a daily price based on trade-size weighted intraday prices is less noisy than the
+
+last price of the day.
+  32 The benchmark treasury bond yield is estimated following Gürkaynak et al. (2007), with updates available through the Federal Reserve Bank website.
+  33 Petersen (2009) shows that panel regressions with fixed effects enable researchers to enhance the efficiency of estimates and straightforwardly compute
+
+standard errors clustered, making the estimated coefficients and standard errors more robust than those obtained using the traditional Fama-MacBeth framework.
+
+
+                                                                              9
+Y. Li et al.                                                                                                              The British Accounting Review xxx (xxxx) xxx
+
+                Table 1
+                Summary Statistics.
+                This table reports summary statistics for bond-month observations over the sample period from 2002 to 2020. The descriptive
+                statistics include the sample mean, median, standard deviation (Std Dev.), 10th percentile, and 90th percentile of the variables
+                used in this study. The main variables include vertical integration and bond yield spreads (%). Vertical integration (VI) measures
+                the degree to which a firm provides products or services that are vertically related, as estimated by Frésard et al. (2020).
+                Bond yield spread is defined as the difference between corporate bond yield and the corresponding treasury bond yield. Bond
+                characteristics include Roll (1984)’s illiquidity measure (%), credit rating, issuing size (in millions), maturity in years and coupon
+                rate (%). The bond’s numerical credit rating is determined using the following letter rating conversion scheme: AAA=1, AA+=2,
+                . . . , C=21, and D=22. Firm characteristics include long-term debt to assets (Long-Term Debt/Assets), total debt to capitalization
+                (Total Debt/Capitalization), operating income to sales (Operating Income/Sales), equity volatility and pretax interest coverage. We
+                also include other variables used in our study, including firm-level supply chain risk, Covid risk (estimated during the Covid-19
+                Pandemic period), the proportion of imported goods from China (Input China), the proportion of imported differentiated products
+                from China (Input China (Diff)), industry-adjusted inventory to assets ratio (Inventory/Assets), and product similarity and product
+                pricing power scores. The detailed construction of variables are defined in Appendix A.
+                 Variable                               10th Pctl.            Mean               Median              Std Dev.             90th Pctl.
+                 Vertical Integration (VI)              0.0025                0.0141             0.0112              0.0115               0.0296
+                 Yield Spread (%)                       0.40                  1.60               1.08                2.11                 3.21
+                 Illiquidity (%)                        0.09                  1.44               0.78                2.26                 3.29
+                 Credit Rating                          4.00                  7.60               8.00                2.88                 10.00
+                 Issue Size (in Millions)               200                   593.6              450                 607.7                1,200
+                 Maturity (in years)                    2.08                  10.59              7.00                9.04                 26.67
+                 Coupon (%)                             2.70                  5.25               5.38                1.88                 7.55
+                 Long-Term Debt/Assets                  0.15                  0.30               0.29                0.12                 0.45
+                 Total Debt/Capitalization              0.11                  0.32               0.30                0.19                 0.57
+                 Operating Income/Sales                 0.09                  0.24               0.23                0.14                 0.42
+                 Equity Volatility (%)                  0.18                  0.46               0.39                0.30                 0.82
+                 Pretax Interest Coverage               2.75                  9.17               6.09                10.18                18.62
+                 Supply Chain Risk                      0.74                  4.20               2.15                7.57                 6.74
+                 Covid Risk                             0.00                  0.14               0.10                0.19                 0.38
+                 Input China                            0.00                  0.19               0.00                0.34                 0.91
+                 Input China (Diff)                     0.00                  0.14               0.00                0.30                 0.75
+                 Inventory/Assets                       −0.08                 0.00               0.00                0.07                 0.06
+                 Product Similarity                     1.03                  3.74               1.84                4.59                 7.85
+                 Product Pricing Power                  0.03                  0.24               0.15                0.25                 0.59
+
+
+
+
+measured at the beginning of the year 𝑡. To account for factors that may affect yield spreads, the analysis includes a set of firm
+and bond-level variables, consistent with previous research on bond yield spreads (Campbell & Taksler, 2003; Chen et al., 2007).
+The first set of control variables include bond-specific characteristics, including the bond’s illiquidity measure, credit ratings, years
+to maturity, issue size, and coupon rate.34 The second set of control variables is related to issuers of the bond: long-term debt
+to assets (Long-Term Debt/Assets), total debt to capitalization (Total Debt/Capitalization), operating income to sales (Operating
+Income/Sales), equity volatility, and four variables constructed to measure the incremental influence of the pretax interest coverage
+(Pretax D1–Pretax D4) using the procedure outlined in Blume et al. (1998).35 Additionally, time (𝜏) fixed effects and industry (𝜆)
+fixed effects are included in the regression to account for potential time-series trends and other unobserved firm characteristics,
+with regression standard errors clustered by bond issuer and year.36
+    Table 2 presents empirical results. In Column (1), we exclusively include 𝑉 𝐼 alongside year and industry fixed effects. Consistent
+with Hypothesis 1a, we find a robust and negative coefficient of −14.576 on 𝑉 𝐼, with a t-statistic of −4.93. Given the standard
+deviation of 𝑉 𝐼 as 0.0115, a one-standard-deviation increase in 𝑉 𝐼 correlates with an 17 basis points decline in bond yield spreads.
+Expanding the model to include bond-level control variables, with and without credit ratings in Column (2) and (3), respectively,
+reveals consistent findings. Bond characteristics exhibit substantial explanatory power for corporate bond yield spreads, evidenced by
+an increase in adj. 𝑅2 from 20.3% (without bond controls) to 52.5%. The coefficient on 𝑉 𝐼 drops from −14.576 to −3.002, indicating
+that the influence of 𝑉 𝐼 on credit spreads is, in part, explained by bond-specific characteristics. Nonetheless, the coefficient remains
+negative and highly statistically significant. Coefficients on bond characteristics align with previous literature (Bao et al., 2011;
+Chen et al., 2007); for instance, higher bond illiquidity and higher coupon correlate with higher credit spreads.
+    In Column (4), we additionally incorporate firm-level control variables and observe that the explanatory power of 𝑉 𝐼 is not
+attributable to issuer characteristics. The coefficient on 𝑉 𝐼 is −3.546 with a t-statistic of −2.62. This suggests that even after
+controlling for both bond and firm-level control variables, a one-standard-deviation increase in 𝑉 𝐼 is still associated with a 4
+basis points decline in yield spreads. To address seasonal time effects, we further introduce month fixed effects in Column (5),
+
+
+  34 We do not assume that yield spreads are a linear function of credit ratings and use dummy variables as a fixed effect to capture variations across different
+
+rating categories.
+  35 For each transaction, we consider the equity data for the 252 days prior to (not including) the bond trade and accounting data for the previous calendar
+
+year.
+  36 Consistent with recent studies that examine the effect of firm characteristics on corporate credit spreads (e.g. Nagler, 2020), we control for industry fixed
+
+effects rather than issuer fixed effects because we examine the effect of vertical integration (at the annual frequency) on monthly bond yield spreads.
+
+
+                                                                                 10
+Y. Li et al.                                                                                                                The British Accounting Review xxx (xxxx) xxx
+
+               Table 2
+               Vertical Integration and Corporate Yield Spreads.
+               This table presents the panel regression results of the effect of vertical integration on corporate yield spreads. The dependent
+               variable is the bond yield spread, defined as the difference between corporate bond yield and the corresponding treasury bond
+               yield. The main variables of interest is vertical integration (VI) estimated from Frésard et al. (2020). The yield spread determinants
+               are based on bond-specific effects (credit ratings, bond illiquidity, maturity in years, issue size and coupon), and firm-specific
+               characteristics (long-term debt to assets, total debt to capitalization, operating income to sales, equity volatility and pretax interest
+               coverage). The pretax interest coverage is further grouped into one of four categories according to Blume et al. (1998). The
+               bond’s numerical credit rating is determined using the following letter rating conversion scheme: AAA=1, AA+=2, . . . , C=21, and
+               D=22. We include rating dummy variables as a fixed effect to capture variations across different rating categories. The detailed
+               construction of variables are defined in Appendix A. Industry and time fixed effects are included in all regressions and t-values
+               based on standard errors clustered at the issuer and year level are reported in parentheses. *, ** or *** denotes the significance
+               at the 10%, 5%, or 1% level, respectively.
+                                                     (1)                   (2)                    (3)                 (4)                  (5)
+                 VI                                  −14.576***            −11.764***             −3.002**            −3.546***            −3.555***
+                                                     (−4.93)               (−5.35)                (−2.26)             (−2.62)              (−2.63)
+                 Illiquidity                                               0.260***               0.206***            0.198***             0.198***
+                                                                           (9.10)                 (8.93)              (8.46)               (8.48)
+                 Maturity                                                  −0.012***              0.005***            0.006***             0.006***
+                                                                           (−5.85)                (3.63)              (3.69)               (3.71)
+                 Ln [Issue Size]                                           −0.057                 0.002               −0.004               −0.005
+                                                                           (−1.52)                (0.11)              (−0.22)              (−0.22)
+                 Coupon                                                    0.277***               0.085***            0.083***             0.083***
+                                                                           (30.04)                (13.66)             (12.89)              (12.85)
+                 Long-Term Debt/Assets                                                                                −0.978***            −0.980***
+                                                                                                                      (−5.06)              (−5.06)
+                 Total Debt/Capitalization                                                                            1.947***             1.949***
+                                                                                                                      (8.43)               (8.43)
+                 Operating Income/Sales                                                                               −0.017               −0.018
+                                                                                                                      (−0.12)              (−0.13)
+                 Equity Volatility                                                                                    1.363***             1.363***
+                                                                                                                      (3.98)               (3.99)
+                 Pretax D1                                                                                            −0.713***            −0.714***
+                                                                                                                      (−2.60)              (−2.61)
+                 Pretax D2                                                                                            −0.583**             −0.583**
+                                                                                                                      (−2.44)              (−2.44)
+                 Pretax D3                                                                                            −0.473**             −0.473**
+                                                                                                                      (−2.07)              (−2.07)
+                 Pretax D4                                                                                            −0.453**             −0.453**
+                                                                                                                      (−2.01)              (−2.01)
+                 Rating Dummies                      No                    No                     Yes                 Yes                  Yes
+                 Year FE                             Yes                   Yes                    Yes                 Yes                  Yes
+                 Month FE                            No                    No                     No                  No                   Yes
+                 Industry FE                         Yes                   Yes                    Yes                 Yes                  Yes
+                 Observations                        393,379               391,035                391,035             381,694              381,694
+                 Adj. 𝑅2                             0.203                 0.335                  0.525               0.541                0.542
+
+
+
+
+and the results remain robust. Our findings regarding firm-level control variables align with recent studies such as Campbell and
+Taksler (2003) and Nanda et al. (2019). In the subsequent analysis, we employ model 5 from Table 2 as the foundational model to
+delve deeper into the mechanism underlying the relationship and assess the effects of vertical integration across different market
+conditions.
+   In summary, we present robust results indicating a negative effect of vertical integration on bond yield spreads. This suggests
+that a firm with a higher degree of vertical integration is associated with lower yield spreads, supporting our Hypothesis 1a.
+
+4.2. Supply chain risk and vertical integration
+
+    Next, we investigate whether the effect of vertical integration on corporate credit spreads is likely manifesting through the supply
+risk channel. We posit that if the influence of vertical integration primarily operates via the supply chain risk channel, its effect
+should be more prominent in companies grappling with elevated supply chain risk. To quantify firm-level supply chain risk, we
+employ textual analysis of earnings conference calls following the methodology outlined by Ersahin et al. (2024).37 Each year, we
+classify the firms into three groups based on supply chain risk : high if it exceeds 75th percentile, medium if it falls between the
+25th and 75th percentile, and low if it is below 25th percentile. Additionally, we perform an alternative classification based on
+
+
+  37 To define firm-level supply chain risk, Ersahin et al. (2024) count the number of occurrences of bigrams related to supply chain discussions within a
+
+window of 10 words surrounding a synonym for ‘‘risk’’ or ‘‘uncertainty’’ on either side, in the earnings performed during year 𝑡, and divide by the total number
+of bigrams in the transcript.
+
+
+                                                                                  11
+Y. Li et al.                                                                                                              The British Accounting Review xxx (xxxx) xxx
+
+               Table 3
+               Supply Chain Risk and the Vertical Integration Effect.
+               This table presents the panel regression results of the effect of vertical integration on corporate yield spreads sorted by supply chain
+               risk. The dependent variable is the bond yield spread, defined as the difference between corporate bond yield and the corresponding
+               treasury bond yield. The main variables of interest is vertical integration (VI) estimated from Frésard et al. (2020). We categorize the
+               samples into three groups, considering both firm-level and industry supply chain risks (Ersahin et al., 2024). Specifically, firms are
+               classified into three groups based on their individual supply chain risk: high if it exceeds 75%, medium if it falls between 25% and
+               75%, and low if it is below 25%. Additionally, an alternative classification is conducted based on industry supply chain risk. Industries
+               ranking within the top 10 in overall supply chain risk are designated as high-risk, while those in the bottom 10 are classified as
+               low-risk. The remaining industries fall into the medium-risk category. The yield spread determinants are based on bond-specific effects
+               (credit ratings, bond illiquidity, maturity in years, issue size and coupon), and firm-specific characteristics (long-term debt to assets,
+               total debt to capitalization, operating income to sales, equity volatility and pretax interest coverage). The pretax interest coverage is
+               further grouped into one of four categories according to Blume et al. (1998). We include rating dummy variables as a fixed effect to
+               capture variations across different rating categories. The detailed construction of variables are defined in Appendix A. Industry and time
+               fixed effects are included in all regressions and t-values based on standard errors clustered at the issuer and year level are reported in
+               parentheses. *, ** or *** denotes the significance at the 10%, 5%, or 1% level, respectively.
+                                                 Firm Supply Chain Risk                                 Industry Supply Chain Risk
+                                                 (1)                (2)                (3)              (4)               (5)               (6)
+                                                 High               Medium             Low              High              Medium            Low
+                VI                               −5.365***          −3.248**           −3.172*          −5.161**          −4.623***         −1.318
+                                                 (−3.20)            (−2.06)            (−1.94)          (−2.28)           (−2.66)           (−0.52)
+                Illiquidity                      0.122***           0.217***           0.119***         0.357***          0.140***          0.108***
+                                                 (7.19)             (3.70)             (12.90)          (4.91)            (17.02)           (13.59)
+                Maturity                         0.013***           0.007**            0.013***         −0.003            0.006***          0.006***
+                                                 (7.82)             (2.01)             (8.52)           (−0.50)           (6.40)            (5.09)
+                Ln [Issue Size]                  −0.067***          −0.019             −0.083***        0.088**           −0.051**          −0.129***
+                                                 (−3.19)            (−0.97)            (−2.69)          (2.41)            (−2.18)           (−4.31)
+                Coupon                           0.088***           0.071***           0.102***         0.054***          0.085***          0.107***
+                                                 (9.69)             (6.25)             (12.68)          (3.25)            (16.81)           (11.94)
+                Long-Term Debt/Assets            −0.484**           −0.901***          −0.391*          −1.223***         −0.452**          −0.729**
+                                                 (−2.41)            (−2.82)            (−1.70)          (−2.98)           (−2.56)           (−2.44)
+                Total Debt/Capitalization        1.852***           2.485***           1.792***         2.815***          1.574***          1.219***
+                                                 (5.29)             (5.25)             (7.02)           (4.73)            (6.74)            (3.86)
+                Operating Income/Sales           −0.300             0.115              −0.136           −0.131            −0.327***         −0.073
+                                                 (−1.38)            (0.66)             (−0.80)          (−0.15)           (−2.71)           (−0.21)
+                Equity Volatility                1.140***           1.248*             1.687***         1.071             1.656***          1.038***
+                                                 (5.50)             (1.85)             (6.27)           (1.43)            (6.63)            (2.78)
+                Pretax D1                        −0.456**           −0.424***          −0.352**         −1.076            −0.605***         −0.302
+                                                 (−2.19)            (−2.86)            (−1.96)          (−1.28)           (−4.24)           (−0.68)
+                Pretax D2                        −0.385**           −0.298**           −0.272*          −0.760            −0.579***         −0.147
+                                                 (−2.15)            (−2.18)            (−1.73)          (−1.11)           (−4.52)           (−0.34)
+                Pretax D3                        −0.307*            −0.226*            −0.087           −0.553            −0.457***         −0.070
+                                                 (−1.88)            (−1.67)            (−0.58)          (−0.89)           (−3.65)           (−0.16)
+                Pretax D4                        −0.304*            −0.184             −0.100           −0.446            −0.469***         −0.251
+                                                 (−1.92)            (−1.36)            (−0.67)          (−0.84)           (−3.66)           (−0.57)
+                Rating Dummies                   Yes                Yes                Yes              Yes               Yes               Yes
+                Year FE                          Yes                Yes                Yes              Yes               Yes               Yes
+                Month FE                         Yes                Yes                Yes              Yes               Yes               Yes
+                Industry FE                      Yes                Yes                Yes              Yes               Yes               Yes
+                Observations                     65,626             151,003            64,317           93,442            236,644           51,608
+                Adj. 𝑅2                          0.665              0.566              0.680            0.564             0.576             0.675
+
+
+
+
+industry-level supply chain risk by estimating the average risk for each two-digit SIC industry per year and then calculating the
+time-series average over the sample period. We rank industries based on their industry-year average supply chain risk, with the top
+10 industries in overall supply chain risk designated as high-risk and the bottom 10 as low-risk.38 The remaining industries fall into
+the medium-risk category.
+    Regression results are reported in Table 3. Columns (1) to (3) present findings sorted by firm-level supply chain risk, while
+Columns (4) to (6) display results sorted by industry-level supply chain risk. Notably, we observe a more pronounced vertical
+integration effect for firms facing elevated supply chain risk. In Column (1), the coefficient on 𝑉 𝐼 stands at −5.365, significant at
+the 1% level. By contrast, for the medium supply chain risk group, the 𝑉 𝐼 coefficient is −3.248 (𝑡-value = −2.06), and for the low
+supply chain risk group, it is −3.172 (𝑡-value = −1.94), suggesting a weakened 𝑉 𝐼 effect for firms subject to moderate and lower
+supply chain risk. These outcomes align with our conjecture, indicating that vertical integration can effectively lower risk premium
+through the supply chain risk channel. For firms facing higher supply chain risk, vertical integration can be a more efficient strategy
+to manage and mitigate this risk. In contrast, for firms with relatively low supply chain risk, the role of vertical integration becomes
+
+
+ 38   The top 10 and bottom 10 industries in terms of overall supply chain risk are listed in the Appendix Table B.2.
+
+
+                                                                                  12
+Y. Li et al.                                                                                         The British Accounting Review xxx (xxxx) xxx
+
+less significant in managing supply chain risk. Thus, the impact of vertical integration on credit spreads is more pronounced when
+channeled through the supply chain risk. To reinforce our findings, we conduct a further analysis on 𝑉 𝐼 sorted by industry supply
+chain risk groups. In Columns (4) to (6), we identify negative and significant coefficients on 𝑉 𝐼 for firms in high and medium
+supply chain risk industries. Conversely, the effect is statistically insignificant for industries characterized by low supply chain risk.
+This once again substantiates our hypothesis, emphasizing the heightened relevance of vertical integration when supply chain risk
+is more pronounced.
+
+4.3. Other potential risk channels
+
+    The preceding analysis lends support for the supply chain risk channel in explaining the vertical integration effect. However,
+this might not rule out other potential risk channels could intersect with the vertical integration effect on corporate yield spreads.
+Specifically, the impact of vertical integration on reduction in supply chain risk could be associated with lower credit risk and
+liquidity risk. To delve into these alternative risk channels, we focus on two main risk factors: bond credit risk and illiquidity risk.
+Drawing from the findings of Huang and Huang (2012), which assert that credit risk contributes one third of credit spreads, along
+with studies by Chen et al. (2007) and Bao et al. (2011) indicating that bond liquidity can explain a comparable portion of credit
+spreads, we categorize bonds into groups according to their credit and liquidity risk profiles.
+    The credit risk is proxied by a bond’s credit rating, categorizing bonds into groups with high credit risk (ratings of BB+ or below),
+medium credit risk (ratings between BBB- to A+), and low credit risk (ratings of AA- or above). Alternatively, each month, bonds
+are classified into three groups based on Roll’s bond illiquidity measure: high bond illiquidity risk if it exceeds 75%, medium if it
+falls between 25% and 75%, and low if it is below 25%.
+    Columns (1) – (3) of Table 4 show results categorized into three rating groups. Interestingly, the most pronounced effect of 𝑉 𝐼
+is observed within the medium credit risk group, with a coefficient of −2.813, significant at the 1% level. Although the coefficient
+on 𝑉 𝐼 for the high credit risk group has the largest magnitude, it lacks statistical significance. For the low credit risk group, the
+coefficient is negative at −3.077 but also statistically insignificant. These outcomes suggest that the role of 𝑉 𝐼 is stronger among
+firms with a medium credit risk profile. In instances where a bond holds a non-investment grade rating, the risk mitigation effect of
+vertical integration might be overshadowed by heightened credit risk. Conversely, when a firm faces low credit risk, the contribution
+of vertical integration to further risk reduction appears limited. This observation aligns with Longstaff et al. (2005), illustrating
+that the risk premium of highly rated investment-grade bonds is predominantly determined by credit risk. Another noteworthy
+observation is that the medium credit risk group comprises approximately 80% of the entire sample in our dataset, while the low
+and high credit risk Group each account for about 10%. This distribution suggests that the reduction effect of 𝑉 𝐼 on yield spreads
+holds both economic and statistical significance for the vast majority of the sample.
+    Columns (4) to (6) present results sorted into three bond illiquidity groups. We observe the most substantial 𝑉 𝐼 effect within the
+high bond illiquidity group, with a coefficient of −5.941 (𝑡-value = −3.03). This translates to a 7 bps reduction in credit spreads for
+a one-standard-deviation increase in 𝑉 𝐼. In contrast, the coefficient estimates on 𝑉 𝐼 decrease to −2.431 and −2.552 for the medium
+and low illiquidity groups, respectively. These findings suggest that the 𝑉 𝐼 effect on credit spreads may also operate through the
+liquidity risk channel, with the most substantial negative 𝑉 𝐼 effect observed in the high illiquidity group. Additionally, statistical
+significance is observed at the 1% level across all bond illiquidity groups, indicating that the negative 𝑉 𝐼 effect is robust across
+various levels of bond liquidity risk.
+
+5. Global supply chain disruptions
+
+    In this section, we examine the impact of vertical integration on credit spreads during global chain disruptions for two purposes:
+On the one hand, with the evolution of global supply chains, firms often rely on each other for specific components, technologies,
+or materials, fostering a highly interconnected global economy. However, such interconnectedness of global supply chains exposes
+vulnerabilities in production strategies and supply chains (Chopra & Sodhi, 2014), with disruptions potentially leading to significant
+costs and business standstills. We are interested to test whether a higher degree of vertical integration respond better to market
+changes or disruptions in the supply chain under such conditions. On the other hand, exogenous global supply chain shocks, like
+Covid-19 and the U.S.-China trade war, offer a (quasi-)natural experiment to mitigate endogeneity concerns in assessing the link
+between firm vertical integration and bond yield spreads. These disruptions, beyond the control or influence of individual firms,
+result in firms not being able to immediately adjust their organizational structures ahead of them, thus enabling us to isolate the
+impact of vertical integration on bond market perceptions. Applying such events provides a clearer understanding of how vertical
+integration influences firm risk and bond yields.
+
+5.1. Covid-19 pandemic crisis
+
+   First, we investigate the role of vertical integration on corporate credit spreads during the Covid-19 pandemic crisis. The
+pandemic significantly disrupted entire supply chains, with lockdown, quarantine measures, and movement restrictions leading to
+the closure of numerous factories and production facilities worldwide. To assess the vertical integration effect during the pandemic
+period, we include the interaction term between 𝑉 𝐼 and Covid-19 pandemic (𝐶𝑜𝑣𝑖𝑑) dummy variable into the Eq. (1). The pandemic
+period is defined as from February to April of 2020. The main variable of interest is the interaction term between 𝑉 𝐼 and 𝐶𝑜𝑣𝑖𝑑.
+
+                                                                   13
+Y. Li et al.                                                                                                            The British Accounting Review xxx (xxxx) xxx
+
+               Table 4
+               The Vertical Integration Effect Sorted by Credit Risk and Illiquidity Risk.
+               This table presents the panel regression results of the effect of vertical integration on corporate yield spreads sorted by bond
+               credit risk and illiquidity risk. The dependent variable is the bond yield spread, defined as the difference between corporate
+               bond yield and the corresponding treasury bond yield. The main variables of interest is vertical integration (VI) estimated from
+               Frésard et al. (2020). We categorize the sample into three groups, considering both bond credit risk and illiquidity risk (Chen
+               et al., 2007; Huang & Huang, 2012). Specifically, bond are classified into three groups based on their credit ratings: high credit
+               risk with credit ratings of BB+ or below, medium credit risk with ratings between BBB- to A+, and low credit risk with ratings
+               of AA- or above. Alternatively, bonds are sorted into three groups based on Roll (1984)’s bond illiquidity measure: high if it
+               exceeds 75%, medium if it falls between 25% and 75%, and low if it is below 25%. The yield spread determinants are based on
+               bond-specific effects (credit ratings, bond illiquidity, maturity in years, issue size and coupon), and firm-specific characteristics
+               (long-term debt to assets, total debt to capitalization, operating income to sales, equity volatility and pretax interest coverage).
+               The pretax interest coverage is further grouped into one of four categories according to Blume et al. (1998). We include rating
+               dummy variables as a fixed effect to capture variations across different rating categories. The detailed construction of variables
+               are defined in Appendix A. Industry and time fixed effects are included in all regressions and t-values based on standard errors
+               clustered at the issuer and year level are reported in parentheses. *, ** or *** denotes the significance at the 10%, 5%, or 1%
+               level, respectively.
+                                                 Credit Risk                                        Bond Illiquidity Risk
+                                                 (1)               (2)               (3)            (4)               (5)              (6)
+                                                 High              Medium            Low            High              Medium           Low
+                 VI                              −5.478            −2.813***         −3.077         −5.941***         −2.413***        −2.552***
+                                                 (−0.56)           (−3.67)           (−0.84)        (−3.03)           (−3.86)          (−3.25)
+                 Illiquidity                     0.312***          0.092***          0.031***       0.238***          0.468***         0.423***
+                                                 (5.32)            (14.21)           (5.15)         (15.15)           (26.27)          (7.86)
+                 Maturity                        −0.033***         0.012***          0.015***       −0.009***         0.008***         0.017***
+                                                 (−2.96)           (18.66)           (14.85)        (−4.42)           (10.99)          (17.01)
+                 Ln [Issue Size]                 0.049             −0.077***         0.019          0.087***          0.017            −0.093***
+                                                 (0.63)            (−7.68)           (1.51)         (2.62)            (1.56)           (−6.75)
+                 Coupon                          0.160***          0.103***          0.065***       0.054***          0.075***         0.095***
+                                                 (4.49)            (30.98)           (16.52)        (4.00)            (16.42)          (20.31)
+                 Long-Term Debt/Assets           −3.910***         −0.097            0.139          −1.897***         −0.596***        −0.910***
+                                                 (−4.77)           (−1.07)           (0.99)         (−7.65)           (−8.24)          (−8.80)
+                 Total Debt/Capitalization       3.983***          1.108***          1.158**        2.583***          1.638***         1.976***
+                                                 (6.04)            (8.63)            (2.14)         (9.40)            (17.93)          (18.19)
+                 Operating Income/Sales          −0.432            −0.082            0.936***       0.258*            −0.044           −0.249***
+                                                 (−0.69)           (−0.69)           (4.05)         (1.88)            (−0.81)          (−3.36)
+                 Equity Volatility               0.567             1.097***          0.908***       1.590***          1.210***         1.199***
+                                                 (0.86)            (8.49)            (4.04)         (7.19)            (13.98)          (8.76)
+                 Pretax D1                       −1.298            −0.275***         −0.158         −1.323***         −0.449***        −0.512***
+                                                 (−1.46)           (−3.98)           (−1.02)        (−5.34)           (−6.84)          (−5.89)
+                 Pretax D2                       −0.826            −0.256***         −0.010         −1.169***         −0.387***        −0.350***
+                                                 (−1.06)           (−4.03)           (−0.17)        (−5.09)           (−6.60)          (−4.78)
+                 Pretax D3                       −1.588**          −0.186***         0.044          −1.081***         −0.300***        −0.230***
+                                                 (−2.08)           (−2.95)           (0.76)         (−4.76)           (−5.34)          (−3.34)
+                 Pretax D4                       0.255             −0.158**          0.071          −1.113***         −0.265***        −0.182***
+                                                 (0.28)            (−2.42)           (1.24)         (−4.83)           (−4.72)          (−2.71)
+                 Rating Dummies                  Yes               Yes               Yes            Yes               Yes              Yes
+                 Year FE                         Yes               Yes               Yes            Yes               Yes              Yes
+                 Month FE                        Yes               Yes               Yes            Yes               Yes              Yes
+                 Industry FE                     Yes               Yes               Yes            Yes               Yes              Yes
+                 Observations                    37,487            304,069           40,138         94,894            190,637          96,163
+                 Adj. 𝑅2                         0.474             0.504             0.534          0.546             0.565            0.549
+
+
+
+
+    As shown in Column (1) of Table 5, the coefficient on 𝑉 𝐼 is negative and significant, suggesting that a higher degree of 𝑉 𝐼 is
+associated with lower yield spreads during non-pandemic period, consistent with our prior findings. More importantly, the coefficient
+on the interaction term of 𝑉 𝐼 * 𝐶𝑜𝑣𝑖𝑑 is −2.786 with a 𝑡-value of −2.47. Specifically, a one-standard-deviation increase in 𝑉 𝐼 results
+in 7 bps lower yield spreads during the pandemic period. Our findings underscore the heightened importance of vertical integration
+in mitigating credit spreads during supply chain disruptions.
+    We extend our analysis to investigate the impact of 𝑉 𝐼 under different levels of firm-level Covid-19 risk. Following the
+methodology of Hassan et al. (2023), firm-level Covid-19 risk is measured using transcripts from quarterly earnings conference call
+from February to April of 2020.39 This measure reflects the degree of risk a firm associated with the spread of Covid-19, allowing
+us to explore whether the effect of vertical integration varies for firms with higher Covid risk exposure during the pandemic. Our
+sample comprises 686 firms, 334 of which can be identified with Covid risk. We then perform a panel regression, including the
+
+
+  39 This measure is constructed by analyzing the text of earning call transcripts to identify mentions of Covid-19 in proximity to terms related to risk or
+
+uncertainty. The data on firm-level Covid-19 risk is obtained from www.firmlevelrisk.com. We thank Tarek Hassan, Stephan Hollander, Laurence van Lent, Markus
+Schwedeler, and Ahmed Tahoun for making the data available.
+
+
+                                                                                14
+Y. Li et al.                                                                                                               The British Accounting Review xxx (xxxx) xxx
+
+               Table 5
+               The Vertical Integration Effect in Covid-19 Pandemic.
+               This table presents the panel regression results of the interaction effect between vertical integration and the Covid-19 pandemic
+               on corporate yield spreads. The dependent variable is the bond yield spread, defined as the difference between corporate bond
+               yield and the corresponding treasury bond yield. The main variable of interest is the interaction term between vertical integration
+               (VI) and Covid-19 pandemic period (Covid). The pandemic period is defined as from February to April of 2020. Firm Covid-19
+               risk (Covid Risk) is estimated from transcripts of earnings call during the Covid-19 pandemic period (Hassan et al., 2023). Firm
+               supply chain risk is estimated from transcripts of earnings call following Ersahin et al. (2024). The yield spread determinants
+               are based on bond-specific effects (credit ratings, bond illiquidity, maturity in years, issue size and coupon), and firm-specific
+               characteristics (long-term debt to assets, total debt to capitalization, operating income to sales, equity volatility and pretax interest
+               coverage). The pretax interest coverage is further grouped into one of four categories according to Blume et al. (1998). The
+               detailed construction of variables are defined in Appendix A. Industry and time fixed effects are included in all regressions and
+               t-values based on standard errors clustered at the issuer and year level are reported in parentheses. *, ** or *** denotes the
+               significance at the 10%, 5%, or 1% level, respectively.
+                                                                        (1)                              (2)                               (3)
+                VI                                                      −3.538***                        −3.265**                          −2.350**
+                                                                        (−2.60)                          (−2.38)                           (−2.32)
+                VI * Covid                                              −2.786**                                                           −1.622**
+                                                                        (−2.47)                                                            (−2.13)
+                VI * Covid Risk                                                                          −35.190***
+                                                                                                         (−3.16)
+                VI * Covid * Supply Chain Risk                                                                                             −0.164**
+                                                                                                                                           (−2.22)
+                VI * Supply Chain Risk                                                                                                     −0.177**
+                                                                                                                                           (−2.39)
+                Covid * Supply Chain Risk                                                                                                  0.003*
+                                                                                                                                           (1.94)
+                Covid                                                   0.630***                         0.642***                          0.624***
+                                                                        (7.40)                           (10.68)                           (6.06)
+                Covid Risk                                                                               0.32**
+                                                                                                         (2.18)
+                Supply Chain Risk                                                                                                          0.002**
+                                                                                                                                           (2.31)
+                Illiquidity                                             0.197***                         0.196***                          0.174***
+                                                                        (8.42)                           (8.03)                            (5.10)
+                Maturity                                                0.006***                         0.006***                          0.010***
+                                                                        (3.76)                           (3.80)                            (4.91)
+                Ln [Issue Size]                                         −0.005                           −0.005                            −0.034
+                                                                        (−0.25)                          (−0.25)                           (−1.43)
+                Coupon                                                  0.083***                         0.083***                          0.082***
+                                                                        (12.82)                          (12.56)                           (11.49)
+                Long-Term Debt/Assets                                   −0.984***                        −0.993***                         −0.657***
+                                                                        (−5.08)                          (−4.99)                           (−3.54)
+                Total Debt/Capitalization                               1.952***                         1.949***                          2.034***
+                                                                        (8.42)                           (8.21)                            (7.43)
+                Operating Income/Sales                                  −0.016                           0.007                             −0.068
+                                                                        (−0.11)                          (0.05)                            (−0.55)
+                Equity Volatility                                       1.359***                         1.324***                          1.298***
+                                                                        (3.97)                           (3.74)                            (2.91)
+                Pretax D1                                               −0.723***                        −0.752**                          −0.381***
+                                                                        (−2.63)                          (−2.47)                           (−3.29)
+                Pretax D2                                               −0.591**                         −0.621**                          −0.286***
+                                                                        (−2.46)                          (−2.33)                           (−2.72)
+                Pretax D3                                               −0.480**                         −0.511**                          −0.200**
+                                                                        (−2.09)                          (−2.01)                           (−1.99)
+                Pretax D4                                               −0.459**                         −0.493*                           −0.183*
+                                                                        (−2.03)                          (−1.96)                           (−1.89)
+                Rating Dummies                                          Yes                              Yes                               Yes
+                Year FE                                                 Yes                              Yes                               Yes
+                Month FE                                                Yes                              Yes                               Yes
+                Industry FE                                             Yes                              Yes                               Yes
+                Observations                                            381,694                          280,946                           381,182
+                Adj. 𝑅2                                                 0.543                            0.539                             0.591
+
+
+
+
+interaction term between Covid risk and 𝑉 𝐼 in the baseline regression. The results are reported in Column (2). Consistent with the
+previous findings, we observe a stronger 𝑉 𝐼 effect for firms subject to higher Covid risk. When both 𝑉 𝐼 and Covid risk increase by
+one-standard-deviation, the yield spreads decease by an additional 8 bps (−35.19 * 0.0115 * 0.19).
+    The Covid-19 pandemic caused simultaneous disruptions in demand, supply, and logistic infrastructure, setting it apart from
+classical disruption risks that typically affect either supply or demand but not both. To explore whether the impact of 𝑉 𝐼 is more
+pronounced for firms confronted with heightened supply chain risk during the pandemic, we use the triple-interaction term involving
+
+                                                                                   15
+Y. Li et al.                                                                                                       The British Accounting Review xxx (xxxx) xxx
+
+vertical integration, a 𝐶𝑜𝑣𝑖𝑑 pandemic dummy, and firm supply chain risk in Column (3). The key finding is that the coefficient
+on this triple-interaction term is negative and significant, suggesting that vertical integration plays a more crucial role for firms
+with higher supply chain risk in reducing yield spreads during the pandemic period. Additionally, the coefficient on the interaction
+between 𝐶𝑜𝑣𝑖𝑑 and supply chain risk is positive, indicating that investors demand a higher risk premium for firms subject to greater
+supply chain risk. Consistent with the findings presented in Table 3, we find that a higher level of 𝑉 𝐼 is associated with lower yield
+spreads for firms facing higher supply chain risk during non-pandemic periods.
+
+5.2. U.S.-China trade war
+
+    Next, we explore the impact of vertical integration on corporate credit spreads during the U.S.-China trade war. Global supply
+chains are typically established in anticipation of free trade. However, the U.S. government’s imposition of input tariffs surprised the
+industries heavily reliant on imported goods, resulting in additional cost such as renegotiation with existing suppliers or searching
+for alternative suppliers (Grossman et al., 2024). In this section, we investigate whether the U.S.-China trade war disproportionately
+affect more vertically integrated U.S. firms, especially those that depend significantly on imports from China.
+    Since 2018, the U.S. government has been engaged in an unprecedented trade war, characterized by widespread tariffs imposed
+on its trading partners, particularly China.40 This event of considerable magnitude is unparalleled in the post-war era and has a
+significant impact for the global supply chain Benguria and Saffie (2023), Fajgelbaum et al. (2020), Huang et al. (2023). To examine
+the role of vertical integration on corporate credit spreads during the U.S.-China trade war, we introduce the interaction term
+between 𝑉 𝐼 and trade war indicator variables into the Eq. (1). Specifically, we examine two distinct phases of the U.S.-China trade
+war. In the initial phase, the Trump administration issued a presidential memorandum on March 22, 2018, proposing significant
+tariffs on over $50 billion of Chinese imports.41 The scope and value of targeted Chinese products expanded with subsequent tariff
+waves implemented in July and September, targeting $200 billion Chinese products.42 In this study, the initial phase (TW Phase 1)
+spans from March to June 2018, while the second phase (TW Phase 2) ranges from July to October 2018.
+    We examine the interaction effect between 𝑉 𝐼 and these two phases separately in Column (1) and Column (2) of Table 6. First,
+we find that the coefficients on 𝑉 𝐼 in both columns are negative and statistically significant at the 5% level, confirming that a
+higher degree of 𝑉 𝐼 is associated with lower spreads. Second, the coefficient on the interaction term 𝑉 𝐼 * 𝑇 𝑊 𝑃 ℎ𝑎𝑠𝑒 1 is negative
+at −2.801, with a t-statistic of −2.22. This suggests that, during the initial phase of the U.S.-China trade war, the reduction in yield
+spreads for firms with a higher degree of vertical integration is more pronounced. By contrast, the coefficient on 𝑉 𝐼 * 𝑇 𝑊 𝑃 ℎ𝑎𝑠𝑒
+2 is neither economically nor statistically significant. This implies that the impact of the trade war on bond pricing is primarily
+concentrated during the first phase. Subsequent analyses will consequently center on the interaction effect between 𝑉 𝐼 and 𝑇 𝑊
+𝑃 ℎ𝑎𝑠𝑒 1 under various scenarios.
+    Since the U.S. government imposed higher tariffs on certain imported goods from China, we anticipate a more pronounced
+interaction effect between vertical integration and the trade war for U.S. firms that depend on imports from China. As such, we
+use the proportion of imported input from China as a proxy for firms’ exposure to the U.S.-China trade war. Previous studies (e.g.
+Huang et al., 2023) have shown that the tariffs imposed by the U.S. government directly impact firms with a greater reliance on
+imported goods from China.43 Additionally, the trade war’s effect is particularly concentrated among U.S. firms that outsource to
+Chinese suppliers for differentiated inputs.
+    To assess a firm’s exposure to the trade war, we follow Huang et al. (2023) and estimate the percentage of imported products
+from China using U.S. bill of lading and USA Trade Online datasets. Specifically, we calculate the ratio of a firm’s inputs from China
+to its total imported input for the year 2017, which precedes the onset of the trade war.44 Next, we analyze the triple interaction
+between 𝑉 𝐼, 𝑇 𝑊 Phase 1, and 𝐼𝑛𝑝𝑢𝑡 𝐶ℎ𝑖𝑛𝑎, with the results reported in Column (3).45 The coefficient of our main variable of
+interest is −27.257, significant at the 5% level. As expected, a high degree of vertical integration is associated with lower yield
+spreads for firms with a higher reliance on imported Chinese goods during the trade war. In addition, the interaction term between
+𝑉 𝐼 and TW Phase 1 becomes insignificant, indicating that the negative interaction effect shown in Column (1) is primarily driven
+by U.S. firms that depend on imports from China. Moreover, the positive coefficient on 𝑇 𝑊 Phase 1 ∗ 𝐼𝑛𝑝𝑢𝑡 𝐶ℎ𝑖𝑛𝑎 indicates that
+bond investors require higher risk premium for firms relying on Chinese inputs during the trade war period.
+    As a robustness check, we further investigate U.S. firms that have purchased differentiated products from China. Using the
+detailed product categories in the lading database and the definition of product differentiation introduced by Rauch (1999), we
+follow Huang et al. (2023) to construct the measure of 𝐼𝑛𝑝𝑢𝑡 𝐶ℎ𝑖𝑛𝑎 (𝐷𝑖𝑓 𝑓 ). This measure, defined as the average exposure to inputs
+from China across suppliers with differentiated product inputs, captures the share of a U.S. firm’s differentiated goods imported
+from China in 2017. Consistent with the results observed in Column(3), the coefficient of the triple interaction term escalates to
+−36.14 (t-stat = −2.28), indicating that the negative 𝑉 𝐼 effect on bond yield spreads is more pronounced for firms that import
+differentiated goods from China.
+
+
+  40 In response, China and other U.S. trading partners have imposed retaliatory tariffs on U.S. exports. For instance, between April and September of 2018,
+
+China implemented retaliatory tariffs on U.S. goods, collectively covering over $92 billion (6% of annual U.S. exports) across 7,474 products.
+  41 Huang et al. (2023) focus on a significant event: the March 22, 2018 announcement of U.S. tariffs on a substantial portion of Chinese imports. Their
+
+findings show that U.S. firms with higher dependencies on exports to and imports from China experience larger declines in market value.
+  42 As shown in Fajgelbaum et al. (2020), tariffs on China targeted 11,207 imported products worth $247 billion, and increased tariffs, on average, from 3.0%
+
+to 15.5%. A total of 48.8% of imports from China were targeted with tariff increases.
+  43 Our focus is specifically on the offshoring of capital goods and intermediate goods, excluding any imported final goods.
+  44 As of 2017, 38% of the sample firms reported positive imports from China, with these imports accounting for an average of 19% of their total imported
+
+inputs.
+  45 Considering that the input from China is estimated from the year 2017, we focus on the effect of 𝐼𝑛𝑝𝑢𝑡 𝐶ℎ𝑖𝑛𝑎 conditional on the trade war period.
+
+
+
+                                                                             16
+Y. Li et al.                                                                                                             The British Accounting Review xxx (xxxx) xxx
+
+               Table 6
+               The Vertical Integration Effect in U.S-China Trade War.
+               This table presents the panel regression results of the interaction effect between vertical integration and the U.S.-China trade
+               war on corporate yield spreads. The dependent variable is the bond yield spread, defined as the difference between corporate
+               bond yield and the corresponding treasury bond yield. The main variable of interest is the interaction term between vertical
+               integration (VI) and trade war indicator variables. We examine two distinct phases of the U.S.-China trade war. The initial phase
+               (TW Phase 1) spans from March to June 2018, while the second phase (TW Phase 2) ranges from July to October 2018. The yield
+               spread determinants are based on bond-specific effects (credit ratings, bond illiquidity, maturity in years, issue size and coupon),
+               and firm-specific characteristics (long-term debt to assets, total debt to capitalization, operating income to sales, equity volatility
+               and pretax interest coverage). The pretax interest coverage is further grouped into one of four categories according to Blume
+               et al. (1998). Input China is the proportion of the estimated value of imported goods from China to the total estimated value
+               of imported goods from the world in 2017, and Input China (Diff) is the ratio of the estimated value of imported differentiated
+               products from China to the total estimated value of imported goods in 2017 (Huang et al., 2023). The detailed construction
+               of variables are defined in Appendix A. Industry and time fixed effects are included in all regressions and t-values based on
+               standard errors clustered at the issuer and year level are reported in parentheses. *, ** or *** denotes the significance at the
+               10%, 5%, or 1% level, respectively.
+                                                                    (1)                    (2)                    (3)                    (4)
+                VI                                                  −3.050**               −3.102**               −3.042**               −3.039**
+                                                                    (−2.19)                (−2.24)                (−2.15)                (−2.13)
+                VI * TW Phase 1                                     −2.801**                                      0.182                  −0.034
+                                                                    (−2.22)                                       (0.04)                 (−0.01)
+                VI * TW Phase 2                                                            −0.245
+                                                                                           (−0.20)
+                VI * TW Phase 1 * Input China                                                                     −27.257**
+                                                                                                                  (−2.16)
+                VI * TW Phase 1 * Input China (Diff)                                                                                     −36.140**
+                                                                                                                                         (−2.28)
+                TW Phase 1 * Input China                                                                          0.231**
+                                                                                                                  (1.98)
+                TW Phase 1 * Input China (Diff)                                                                                          0.310**
+                                                                                                                                         (2.22)
+                TW Phase 1                                          −0.002                                        −0.029                 −0.028
+                                                                    (−0.10)                                       (−0.46)                (−0.45)
+                TW Phase 2                                                                 −0.019
+                                                                                           (−1.10)
+                Illiquidity                                         0.224***               0.224***               0.224***               0.224***
+                                                                    (7.14)                 (7.13)                 (7.14)                 (7.14)
+                Maturity                                            0.007***               0.007***               0.007***               0.007***
+                                                                    (3.93)                 (3.93)                 (3.93)                 (3.93)
+                Ln [Issue Size]                                     0.028                  0.028                  0.028                  0.028
+                                                                    (0.98)                 (0.98)                 (0.98)                 (0.98)
+                Coupon                                              0.076***               0.076***               0.076***               0.076***
+                                                                    (9.33)                 (9.33)                 (9.34)                 (9.34)
+                Long-Term Debt/Assets                               −0.915***              −0.914***              −0.916***              −0.917***
+                                                                    (−3.71)                (−3.70)                (−3.71)                (−3.71)
+                Total Debt/Capitalization                           1.983***               1.984***               1.984***               1.985***
+                                                                    (6.90)                 (6.91)                 (6.91)                 (6.91)
+                Operating Income/Sales                              0.217                  0.217                  0.217                  0.217
+                                                                    (1.27)                 (1.27)                 (1.27)                 (1.27)
+                Equity Volatility                                   1.634***               1.635***               1.634***               1.634***
+                                                                    (3.83)                 (3.83)                 (3.83)                 (3.83)
+                Pretax D1                                           −0.861**               −0.862**               −0.861**               −0.861**
+                                                                    (−2.14)                (−2.14)                (−2.14)                (−2.14)
+                Pretax D2                                           −0.677**               −0.677**               −0.676**               −0.677**
+                                                                    (−1.99)                (−1.99)                (−1.99)                (−1.99)
+                Pretax D3                                           −0.538*                −0.538*                −0.538*                −0.538*
+                                                                    (−1.69)                (−1.69)                (−1.69)                (−1.69)
+                Pretax D4                                           −0.535*                −0.535*                −0.535*                −0.534*
+                                                                    (−1.71)                (−1.71)                (−1.71)                (−1.71)
+                Rating Dummies                                      Yes                    Yes                    Yes                    Yes
+                Year FE                                             Yes                    Yes                    Yes                    Yes
+                Month FE                                            Yes                    Yes                    Yes                    Yes
+                Industry FE                                         Yes                    Yes                    Yes                    Yes
+                Observations                                        311,204                311,204                311,204                311,204
+                Adj. 𝑅2                                             0.523                  0.523                  0.523                  0.523
+
+
+
+
+                                                                                 17
+Y. Li et al.                                                                                                            The British Accounting Review xxx (xxxx) xxx
+
+6. Extended analyses
+
+6.1. Vertical integration and firm inventory
+
+    Vertical integration plays a crucial role in inventory management within a supply chain by transforming inter-firm information
+sharing into intra-firm information sharing. By ensuring internal knowledge access (Monteverde, 1995) and enhancing information
+integrity and transparency (Lin et al., 2014; Williamson, 1979), vertical integration enables more accurate demand forecasting and
+inventory planning (Wan & Sanders, 2017). This leads to more efficient inventory levels, reducing the likelihood of excess inventory
+because highly vertically integrated firms may not carry excessive safety stock to guard against supply uncertainties (Syntetos et al.,
+2009). In this subsection, we examine the interaction effect between vertical integration and firm inventory on corporate yield
+spreads and further analyze this interaction effect amid supply chain disruptions.
+    Considering inventory levels vary significantly across industries, we use the industry-adjusted inventory to assets ratio from the
+quarter preceding each monthly bond observation to gauge a firm’s inventory level over time. We define a firm’s inventory level
+as high (low) by setting a dummy variable to 1 when the industry-adjusted inventory to assets ratio lies within the top (bottom)
+quartile of the sample for each month, and 0 otherwise. Next, we include the interaction term between vertical integration and the
+high/low inventory dummies in the baseline regression. Regression results are reported in Column (1) and (2) of Table 7. We find
+that the interaction term with the high inventory dummy (High INVT) is positive but insignificant, while the interaction term with
+the low inventory dummy (Low INVT) is negative and significant. With a one-standard-deviation increase in 𝑉 𝐼 for firms with low
+inventory, there is an additional reduction of yield spreads by 6 bps (−5.591 * 0.0115) compared to other firms. This indicates
+that vertical integration plays a more substantial role for firms with low inventory levels, suggesting that vertical integration can
+improve inventory management efficiency and further reduce the risk premium. In contrast, for firms with high inventory levels,
+the effect of vertical integration is not significantly different from that of other firms.
+    Next, we further examine this interaction effect amid supply chain disruptions. To investigate this issue, we use a triple-
+interaction term involving vertical integration, the high/low inventory dummies, and supply chain disruption indicators (𝐶𝑜𝑣𝑖𝑑
+and TW Phase 1). We report the results with 𝐶𝑜𝑣𝑖𝑑 in Columns (3) and (4) of Table 7 and the results with U.S.-China Trade
+War in Columns (5) and (6). Interestingly, we find a positive coefficient on the triple interaction term with Covid, but a negative
+coefficient with the U.S.-China Trade War for low inventory firms. The opposite effect is likely due to the different nature of these two
+disruptions. During the Covid pandemic, the entire supply chain was disrupted. Even for firms that are more vertically integrated,
+those with low inventory levels may still have difficulty replenishing needed inventory. This can result in supply shortages, leading
+investors to demand a higher premium. In contrast, the U.S.-China trade war led to high tariffs between the two countries, resulting
+in higher supply chain costs. Although this situation caused supply chain disruptions, the global supply chain system continued
+to function, albeit at a higher cost. In this scenario, vertically integrated firms could quickly adapt to disruptions and cope with
+unexpected changes in supply, maintaining inventory levels and reducing risk premiums. It is also worth noting that interaction
+terms between Low INVT and disruption dummies are both positive, showing the investors demand higher premiums for firms with
+low inventory level during supply chain disruptions.
+
+6.2. Vertical integration and production market competition
+
+    Our main result documents a negative and significant effect of firm-level vertical integration on bond yield spreads, indicating
+that investors demand a lower risk premium for more vertically integrated firms. In the dynamic global business environment,
+vertical integration can be an innovative strategy for firms to overcome supply chain challenges and mitigate supply chain risks.
+Additionally, economists have shown that vertical integration can increase a firm’s market power (Arora et al., 2024) and reduce
+market competition (Boehm & Sonntag, 2023). Existing horizontal market power creates further motivation for firms to vertically
+integrate to better exploit the market power they already have (Díez-Vial, 2007). Given such insights, we provide an additional
+analysis on whether a firm’s level of vertical integration intersects with variations in its product market power in determining
+corporate yield spreads.
+    To test our question, we incorporate firm-level product similarity and industry concentration measures from Hoberg and Phillips
+(2016) into our study. Unlike traditional methods that use pre-defined industry group stratifications, this approach identifies related
+firms through textual analysis of the business description section in the 10-K reports. 𝑃 𝑟𝑜𝑑𝑢𝑐𝑡 𝑆𝑖𝑚𝑖𝑙𝑎𝑟𝑖𝑡𝑦 is determined by the total
+similarity data customized to each firm based on the Text-based Network Industry Classification (TNIC) data, and is negatively
+related to pricing power according to product differentiation theory (Hotelling, 1929). Alternatively, 𝑃 𝑟𝑜𝑑𝑢𝑐𝑡 𝑃 𝑟𝑖𝑐𝑖𝑛𝑔 𝑃 𝑜𝑤𝑒𝑟 is
+measured using the TNIC industry concentration, and is customized to each firm.46 We define a high (low) product similarity dummy
+as 1 when the total product similarity score lies within the top (bottom) quartile of the sample for each month, and 0 otherwise.
+Likewise, a high (low) pricing power dummy is defined as 1 if the industry concentration (HHI) score falls within the top (bottom)
+quartile of the sample for each month, and 0 otherwise.
+    Table 8 presents the results of our findings. Across Columns (1) to (4), 𝑉 𝐼 remains negative and significant. Interestingly, the
+coefficient on the interaction terms in Columns (2) and (3) is negative and significant at the 1% level, while those in Columns
+
+
+ 46 The Text-based Network Industry Classification (TNIC) industry classification is tailored to individual firms, each with its unique array of competitors (Hoberg
+
+& Phillips, 2016).
+
+
+                                                                                18
+Y. Li et al.                                                                                                           The British Accounting Review xxx (xxxx) xxx
+
+               Table 7
+               Vertical Integration and Firm Inventory.
+               This table presents the panel regression results of the interaction effect between vertical integration and inventory level on
+               corporate yield spreads. The dependent variable is the bond yield spread, defined as the difference between corporate bond yield
+               and the corresponding treasury bond yield. The main variables of interest is vertical integration (VI) estimated from Frésard
+               et al. (2020). Inventory to assets ratio is defined as the industry-adjusted inventory to assets ratio from the previous quarter for
+               each bond observation. We define a high (low) inventory dummy as 1 if inventory to assets ratio falls within the top (bottom)
+               quartile of the sample for each month and 0 otherwise. The yield spread determinants are based on bond-specific effects (credit
+               ratings, bond illiquidity, maturity in years, issue size and coupon), and firm-specific characteristics (long-term debt to assets,
+               total debt to capitalization, operating income to sales, equity volatility and pretax interest coverage dummies). We include rating
+               dummy variables as a fixed effect to capture variations across different rating categories. The detailed construction of variables
+               are defined in Appendix A. Industry and time fixed effects are included in all regressions and t-values based on standard errors
+               clustered at the issuer and year level are reported in parentheses. *, ** or *** denotes the significance at the 10%, 5%, or 1%
+               level, respectively.
+                                                     (1)              (2)            (3)             (4)              (5)             (6)
+                VI                                   −3.733***        −2.031**       −3.672***       −1.890**         −3.685***       −2.026**
+                                                     (−2.86)          (−2.22)        (−2.80)         (−2.05)          (−2.82)         (−2.20)
+                VI * High INVT                       1.495                           1.498                            1.547
+                                                     (0.89)                          (0.88)                           (0.91)
+                VI * Low INVT                                         −5.591**                       −6.118***                        −5.400**
+                                                                      (−2.54)                        (−2.76)                          (−2.44)
+                VI * High INVT * Covid                                               2.187
+                                                                                     (0.69)
+                VI * Low INVT * Covid                                                                11.942***
+                                                                                                     (3.39)
+                VI * High INVT * TW Phase 1                                                                           −2.516
+                                                                                                                      (−0.92)
+                VI * Low INVT * TW Phase 1                                                                                            −7.528***
+                                                                                                                                      (−2.86)
+                VI * Covid                                                           −2.345**        −2.866***
+                                                                                     (−2.29)         (−2.75)
+                VI * Trade War                                                                                        −2.963**        −1.204*
+                                                                                                                      (−2.22)         (−1.88)
+                High INVT * Covid                                                    0.015
+                                                                                     (0.08)
+                Low INVT * Covid                                                                     0.102**
+                                                                                                     (2.15)
+                High INVT * TW Phase 1                                                                                0.039
+                                                                                                                      (0.45)
+                Low INVT * TW Phase 1                                                                                                 0.136**
+                                                                                                                                      (2.51)
+                High INVT                            −0.078                          −0.079                           −0.079
+                                                     (−1.62)                         (−1.63)                          (−1.62)
+                Low INVT                                              0.020                          0.034                            0.018
+                                                                      (0.36)                         (0.61)                           (0.32)
+                Covid                                                                0.620***        0.752***
+                                                                                     (5.53)          (8.23)
+                TW Phase 1                                                                                            0.008           −0.013
+                                                                                                                      (0.44)          (−0.83)
+                Controls                             Yes              Yes            Yes             Yes              Yes             Yes
+                Year FE                              Yes              Yes            Yes             Yes              Yes             Yes
+                Month FE                             Yes              Yes            Yes             Yes              Yes             Yes
+                Industry FE                          Yes              Yes            Yes             Yes              Yes             Yes
+                Observations                         381,583          381,583        381,583         381,583          381,583         381,583
+                Adj. 𝑅2                              0.539            0.539          0.539           0.540            0.539           0.539
+
+
+
+
+(1) and (4) are not statistically significant. Our findings show that the impact of vertical integration on reducing yield spreads is
+more pronounced among firms characterized by lower product similarities and greater pricing power. For firms with high product
+pricing power, a one-standard-deviation increase in vertical integration marginally reduces yield spreads by an additional 5 bps
+(−4.194*0.0115) compared to other firms. However, for firms characterized by high product similarities with their competitors,
+typically in more competitive industries, the role of vertical integration in further reducing risk premiums is indifferent from that
+of other firms. This suggests that the interaction between firm vertical integration and market power amplifies the risk-reduction
+effect in the eyes of bondholders.
+    We find our results intriguing from the perspective of supply chain management. Conceptually, firms in highly competitive
+industries might have more incentives to utilize a vertical integration strategy to mitigate supply chain risk. However, for these
+firms where product similarities with competitors are high, the marginal benefits of being more vertically integrated with upstream
+and downstream partners diminish. Instead, the reduction in risk premiums manifest more prominently for firms that possess high
+
+                                                                                19
+Y. Li et al.                                                                                                               The British Accounting Review xxx (xxxx) xxx
+
+               Table 8
+               Vertical Integration and Production Market Competition.
+               This table presents the panel regression results of the interaction effect between vertical integration and product market
+               competition on corporate yield spreads. The dependent variable is the bond yield spread, defined as the difference between
+               corporate bond yield and the corresponding treasury bond yield. The main variables of interest is vertical integration (VI)
+               estimated from Frésard et al. (2020). Firm’s product market competition is assessed through two main metrics: total product
+               similarity and product pricing power, as estimated by Hoberg and Phillips (2016). We define a high (low) product similarity
+               dummy as 1 if the product similarity score falls within the top (bottom) quartile of the sample for each month and 0 otherwise.
+               Similarly, we define a high (low) pricing power dummy as 1 if the industry concentration (HHI) score falls within the top
+               (bottom) quartile of the sample for each month and zero otherwise. The yield spread determinants are based on bond-specific
+               effects (credit ratings, bond illiquidity, maturity in years, issue size and coupon), and firm-specific characteristics (long-term debt
+               to assets, total debt to capitalization, operating income to sales, equity volatility and pretax interest coverage dummies). We
+               include rating dummy variables as a fixed effect to capture variations across different rating categories. The detailed construction
+               of variables are defined in Appendix A. Industry and time fixed effects are included in all regressions and t-values based on
+               standard errors clustered at the issuer and year level are reported in parentheses. *, ** or *** denotes the significance at the
+               10%, 5%, or 1% level, respectively.
+                                                                (1)                      (2)                     (3)                      (4)
+                VI                                              −3.863***                −1.694**                −1.990**                 −2.928***
+                                                                (−2.94)                  (−2.03)                 (−2.19)                  (−2.77)
+                VI * High Product Similarity                    3.194
+                                                                (0.86)
+                VI * Low Product Similarity                                              −5.896***
+                                                                                         (−3.16)
+                VI * High Product Pricing Power                                                                  −4.194***
+                                                                                                                 (−2.79)
+                VI * Low Product Pricing Power                                                                                            −1.200
+                                                                                                                                          (−0.37)
+                High Product Similarity                         0.057
+                                                                (1.43)
+                Low Product Similarity                                                   0.061
+                                                                                         (1.31)
+                High Product Pricing Power                                                                       0.001
+                                                                                                                 (0.03)
+                Low Product Pricing Power                                                                                                 0.178**
+                                                                                                                                          (2.45)
+                Controls                                        Yes                      Yes                     Yes                      Yes
+                Year FE                                         Yes                      Yes                     Yes                      Yes
+                Month FE                                        Yes                      Yes                     Yes                      Yes
+                Industry FE                                     Yes                      Yes                     Yes                      Yes
+                Observations                                    381,694                  381,694                 381,694                  381,694
+                Adj. 𝑅2                                         0.539                    0.539                   0.539                    0.539
+
+
+
+
+pricing power, as these firms are typically the leaders in their sectors and could disproportionately increase the market power from
+vertical relatedness in the highly concentrated industries.
+
+7. Conclusion
+
+     In recent years, the growing significance of global supply chains and disruptions caused by events like the U.S.-China trade war
+and the Covid-19 pandemic have emphasized the need for effective supply chain management. While vertical integration within
+firms is recognized as a valuable tool for managing supply chain risk, its impact on asset prices has remained uncertain. This paper
+fills this gap by examining the interaction between firm-level vertical integration, supply chain disruptions, and corporate bond
+yield spreads.
+     Our findings show that firm vertical integration is priced in the corporate bond market, with reduced risk premiums for more
+vertically integrated firms. We identify that this negative effect operates through the supply chain risk channel. Our results shed
+light on how, in the midst of supply chain disruptions, vertical integration emerges as a strategic tool to mitigate risks associated
+with external suppliers. A more vertically integrated company, through ownership or control of critical elements along the supply
+chain, reduces reliance on external sources for essential inputs and gains greater control over the entire production process. This
+enhanced control not only establishes a buffer against disruptions affecting external suppliers but also allows the company to adapt
+more quickly to changes in supply and demand. Consequently, during significant supply chain disruption events when market risks
+are exacerbated, firms with higher levels of vertical integration can be better positioned to mitigate the supply chain risk.
+
+Appendix A
+
+    See Table A.1.
+
+
+
+                                                                                 20
+Y. Li et al.                                                                                                The British Accounting Review xxx (xxxx) xxx
+
+               Table A.1
+               Variable Descriptions.
+               The variables used in the paper are listed below.
+                Variable                                           Definition
+                Main variables
+                Vertical Integration (VI)                          Measures the degree to which a firm provides products or
+                                                                   services that are vertically related (Frésard et al., 2020).
+                Yield Spreads                                      Defined as the difference between corporate bond yield and the
+                                                                   corresponding Treasury bond yield with a comparable maturity.
+                Control variables
+                Illiquidity                                        Roll’s illiquidity measure. Roll (1984) finds that the percentage
+                                                                   bis-ask spread equals two times the square roo of minus the
+                                                                   covariance between consecutive returns:
+                                                                                           √
+                                                                                  Roll𝑡 = 2 −𝑐𝑜𝑣(𝑅𝑡,𝑘 , 𝑅𝑡,𝑘−1 )
+                                                                   where 𝑅𝑡,𝑘 and 𝑅𝑡,𝑘−1 are returns to two consecutive trades
+                                                                   indexed by 𝑘 and 𝑘 − 1, the covariance is computed over all
+                                                                   trades during a 21-day window ending on day 𝑡. We require at
+                                                                   least one trade during the 21-day window for the daily Roll
+                                                                   measure to be valid. Then the monthly Roll measure is the
+                                                                   median of all valid daily Roll measures during the month.
+                Credit Rating                                      The bond’s numerical credit rating based on the following letter
+                                                                   rating conversion scheme: AAA=1, AA+=2, . . . , C=21 and D=22.
+                                                                   We mainly use the Standard & Poor’s (S&P) rating from the
+                                                                   FISD; when it is not available, we use Moody’s or Fitch rating
+                                                                   when possible and drop bonds whose ratings are not identified.
+                Maturity                                           Bond’s time to maturity in years.
+                Issue Size                                         The amount of the bond issue.
+                Coupon                                             Bond’s annual coupon rate in percentage.
+                Long-term Debt/Assets                              Ratio of long-term debt (dltt) to book assets (at).
+                Operating Income/Sales                             Ratio of operating income (oibdp) to sales. (sale).
+                Equity Volatility                                  Equity volatility is estimated as the variance of the issuer’s daily
+                                                                   excess stock returns over the past 252 days from fiscal year 𝑡.
+                Pretax Interest Coverage                           Ratio of operating income after depreciation (oiadp) plus
+                                                                   interest expense (xint) to interest expense.
+                Pretax D1                                          First increment of pretax interest coverage ratio between 0 and
+                                                                   5, using the procedure outlined in Blume et al. (1998).
+                Pretax D2                                          Second increment of pretax interest coverage ratio between 5
+                                                                   and 10, using the procedure outlined in Blume et al. (1998).
+                Pretax D3                                          Third increment of pretax interest coverage ratio between 10
+                                                                   and 20, using the procedure outlined in Blume et al. (1998).
+                Pretax D4                                          Fourth increment of pretax interest coverage ratio between 20
+                                                                   and 100, using the procedure outlined in Blume et al. (1998).
+                Other variables
+                Supply Chain Risk                                  Firm supply chain risk measure estimated from transcripts of
+                                                                   earning calls (Ersahin et al., 2024).
+                Covid Risk                                         Firm Covid-19 risk measure estimated from transcripts of
+                                                                   earning calls (Hassan et al., 2023).
+                Input China                                        The proportion of imported good from China, measured as the
+                                                                   ratio of a firm’s input from China to its total imported inputs
+                                                                   (Huang et al., 2023).
+                Input China (Diff)                                 The proportion of imported differentiated good from China,
+                                                                   measured as the ratio of a firm’s differentiated input from China
+                                                                   to its total imported inputs (Huang et al., 2023).
+                Inventory/Assets                                   Industry-adjusted inventory to asset ratio, estimated as the
+                                                                   difference between the raw inventory to assets ratio (invt/at)
+                                                                   and medians for two-digit industries.
+                Product Similarity                                 Product similarity scores obtained by parsing the product
+                                                                   descriptions from the firm 10Ks customized to each firm based
+                                                                   on TNIC data (Hoberg & Phillips, 2016).
+                Product Pricing Power                              Firm-level Text-based Network Industry Classifications (TNIC)
+                                                                   HHI measure of industry concentration (Hoberg & Phillips,
+                                                                   2016).
+
+
+
+
+Appendix B. Supplementary tables
+
+
+
+
+    See Tables B.1 and B.2.
+
+
+
+                                                                    21
+Y. Li et al.                                                                                                            The British Accounting Review xxx (xxxx) xxx
+
+                Table B.1
+                Sample Distribution by Year.
+                This table reports the sample distribution by year from July 2002 to June 2020. It includes the total number of observations,
+                the number of bonds and issuers for each year, as well as the average vertical integration score and yield spreads (%).
+                 Year          # of Observations          # of Bonds         # of Bond Issuers          Vertical Integration        Yield Spreads
+                 2002          9830                       2412               397                        0.0176                      3.26
+                 2003          20,714                     2785               422                        0.0177                      1.91
+                 2004          18,979                     2447               407                        0.0170                      1.14
+                 2005          16,451                     2147               388                        0.0166                      1.29
+                 2006          15,376                     1966               373                        0.0166                      1.40
+                 2007          14,016                     1918               372                        0.0166                      1.61
+                 2008          14,429                     1864               351                        0.0158                      3.75
+                 2009          17,048                     2058               359                        0.0155                      3.42
+                 2010          17,969                     2173               379                        0.0152                      1.55
+                 2011          19,045                     2177               380                        0.0154                      1.44
+                 2012          21,685                     2596               397                        0.0141                      1.49
+                 2013          24,454                     2753               380                        0.0129                      1.22
+                 2014          25,571                     2859               387                        0.0130                      1.02
+                 2015          27,170                     3033               397                        0.0129                      1.46
+                 2016          28,287                     3091               383                        0.0120                      1.58
+                 2017          27,738                     3065               365                        0.0121                      1.05
+                 2018          29,280                     3196               361                        0.0119                      1.19
+                 2019          30,271                     3270               360                        0.0119                      1.22
+                 2020          15,741                     3260               345                        0.0126                      1.99
+
+
+                Table B.2
+                Industry Level Supply Chain Risk.
+                This table reports the top and bottom 10 industries in terms of overall supply chain risk. Industry-year average of firms’ supply
+                chain risk is used to rank the industries.
+                 SIC2           Top 10 industries                                         SIC2          Bottom 10 industries
+                 20             Food & Kindred Products                                   21            Tobacco Products
+                 30             Rubber & Miscellaneous Plastic Products                   23            Apparel, Finished Products from Fabrics
+                                                                                                        & Similar Materials
+                 33             Primary Metal Industries                                  27            Printing & Publishing
+                 35             Industrial Machinery & Equipment                          39            Miscellaneous Manufacturing Industries
+                 36             Electronic & Other Electric Equipment                     48            Communications
+                 37             Transportation Equipment                                  53            General Merchandise Stores
+                 42             Trucking & Warehousing                                    56            Apparel & Accessory Stores
+                 44             Water Transportation                                      72            Personal Services
+                 52             Building Materials, Hardware, Garden Supplies             79            Amusement & Recreation Services
+                                & Mobile Homes
+                 75             Auto Repair, Services, & Parking                          80            Health Services
+
+
+
+
+Data availability
+
+    Data will be made available on request.
+
+
+References
+
+Acemoglu, D., & Tahbaz-Salehi, A. (2020). Firms, failures, and fluctuations: The macroeconomics of supply chain disruptions. National Bureau of Economic
+    Research.
+Acharya, V. V., Bharath, S. T., & Srinivasan, A. (2007). Does industry-wide distress affect defaulted firms? Evidence from creditor recoveries. Journal of Financial
+    Economics, 85(3), 787–821.
+Ahern, K. R., & Harford, J. (2014). The importance of industry links in merger waves. The Journal of Finance, 69(2), 527–576.
+Alfaro, L., Chor, D., Antras, P., & Conconi, P. (2019). Internalizing global value chains: A firm-level analysis. Journal of Political Economy, 127(2), 508–559.
+Anderson, E., & Weitz, B. (1992). The use of pledges to build and sustain commitment in distribution channels. Journal of Marketing Research, 29(1), 18–34.
+Antràs, P., & Yeaple, S. R. (2014). Multinational firms and the structure of international trade. In Handbook of International Economics: vol. 4, (pp. 55–130).
+    Elsevier.
+Arora, K., Singh, A., & Sahare, M. (2024). Vertical integration and market power in supply networks. Available At SSRN 4826945.
+Augustin, P., Cong, L. F., Lopez A, R., & Tédongap, R. (2024). Downside risk and the cross-section of corporate bond returns. In Proceedings of Paris December
+    2020 finance meeting EUROFIDAI-ESSEC.
+Bao, J., Pan, J., & Wang, J. (2011). The illiquidity of corporate bonds. The Journal of Finance, 66(3), 911–946.
+Baqaee, D. R., & Farhi, E. (2019). The macroeconomic impact of microeconomic shocks: Beyond Hulten’s theorem. Econometrica, 87(4), 1155–1203.
+Benguria, F., & Saffie, F. (2023). Escaping the trade war: Finance and relational supply chains in the adjustment to trade policy shocks. Working Paper.
+Bernard, A. B., Jensen, J. B., & Schott, P. K. (2009). Importers, exporters and multinationals: a portrait of firms in the US that trade goods. Producer Dynamics:
+    New Evidence from Micro Data, 513–552.
+Bessembinder, H., Kahle, K. M., Maxwell, W. F., & Xu, D. (2009). Measuring abnormal bond performance. The Review of Financial Studies, 22(10), 4219–4258.
+Bigio, S., & La’O, J. (2020). Distortions in production networks. The Quarterly Journal of Economics, 135(4), 2187–2253.
+
+
+                                                                                22
+Y. Li et al.                                                                                                            The British Accounting Review xxx (xxxx) xxx
+
+Blume, M. E., Lim, F., & MacKinlay, A. C. (1998). The declining credit quality of US corporate debt: Myth or reality? The Journal of Finance, 53(4), 1389–1413.
+Boehm, J., & Sonntag, J. (2023). Vertical integration and foreclosure: Evidence from production network data. Management Science, 69(1), 141–161.
+Bonadio, B., Huo, Z., Levchenko, A. A., & Pandalai-Nayar, N. (2021). Global supply chains in the pandemic. Journal of International Economics, 133, Article
+     103534.
+Campbell, J. Y., & Taksler, G. B. (2003). Equity volatility and corporate bond yields. The Journal of Finance, 58(6), 2321–2350.
+Campello, M., Chen, L., & Zhang, L. (2008). Expected returns, yield spreads, and asset pricing tests. The Review of Financial Studies, 21(3), 1297–1338.
+Carvalho, V. M. (2014). From micro to macro via production networks. Journal of Economic Perspectives, 28(4), 23–48.
+Carvalho, V. M., Nirei, M., Saito, Y. U., & Tahbaz-Salehi, A. (2021). Supply chain disruptions: Evidence from the Great East Japan earthquake. The Quarterly
+     Journal of Economics, 136(2), 1255–1321.
+Chen, L., Lesmond, D. A., & Wei, J. (2007). Corporate yield spreads and bond liquidity. The Journal of Finance, 62(1), 119–149.
+Chirinko, R. S., & Schaller, H. (2009). The irreversibility premium. Journal of Monetary Economics, 56(3), 390–408.
+Chopra, S., & Sodhi, M. S. (2014). Reducing the risk of supply chain disruptions. MIT Sloan Management Review.
+Coase, R. H. (1937). The nature of the firm. Economica, 4(16), 386–405.
+Coase, R. (2006). The conduct of economics: The example of Fisher body and general motors. Journal of Economics & Management Strategy, 15, 255–278.
+Collin-Dufresn, P., Goldstein, R. S., & Martin, J. S. (2001). The determinants of credit spread changes. The Journal of Finance, 56(6), 2177–2207.
+Constantinescu, C., Mattoo, A., & Ruta, M. (2020). Policy uncertainty, trade and global value chains: some facts, many questions. Review of Industrial Organization,
+     57, 285–308.
+Dick-Nielsen, J. (2009). Liquidity biases in TRACE. The Journal of Fixed Income, 19(2), 43.
+Dick-Nielsen, J., Feldhütter, P., & Lando, D. (2012). Corporate bond liquidity before and after the onset of the subprime crisis. Journal of Financial Economics,
+     103(3), 471–492.
+Dicken, P. (2007). Global shift: Mapping the changing contours of the world economy. SAGE Publications Ltd.
+Díez-Vial, I. (2007). Explaining vertical integration strategies: Market power, transactional attributes and capabilities. Journal of Management Studies, 44(6),
+     1017–1040.
+Dyer, J. H. (1996). Specialized supplier networks as a source of competitive advantage: Evidence from the auto industry. Strategic Management Journal, 17(4),
+     271–291.
+Dyer, J. H., & Singh, H. (1998). The relational view: Cooperative strategy and sources of interorganizational competitive advantage. Academy of Management
+     Review, 23(4), 660–679.
+Elton, E. J., Gruber, M. J., Agrawal, D., & Mann, C. (2001). Explaining the rate spread on corporate bonds. The Journal of Finance, 56(1), 247–277.
+Engardio, P., Einhorn, B., Kripalani, M., Reinhardt, A., Nussbaum, B., & Burrows, P. (2005). Outsourcing innovation. Bloomberg News.
+Ersahin, N., Giannetti, M., & Huang, R. (2024). Supply chain risk: Changes in supplier composition and vertical integration. Journal of International Economics,
+     147, Article 103854.
+Fajgelbaum, P. D., Goldberg, P. K., Kennedy, P. J., & Khandelwal, A. K. (2020). The return to protectionism. The Quarterly Journal of Economics, 135(1), 1–55.
+Fan, J. P., & Goyal, V. K. (2006). On the patterns and wealth effects of vertical mergers. The Journal of Business, 79(2), 877–902.
+Fisher, D. (2011). Japan disaster shakes up supply-chain strategies. Harvard Business School, 31.
+Frésard, L., Hoberg, G., & Phillips, G. M. (2020). Innovation activities and integration through vertical acquisitions. The Review of Financial Studies, 33(7),
+     2937–2976.
+Garfinkel, J. A., & Hankins, K. W. (2011). The role of risk management in mergers and merger waves. Journal of Financial Economics, 101(3), 515–532.
+Gereffi, G. (1996). Commodity chains and regional divisions. Journal of Asian Business Volume, 12(1).
+Gereffi, G., Humphrey, J., & Sturgeon, T. (2005). The governance of global value chains. Review of International Political Economy, 12(1), 78–104.
+Gereffi, G., & Lee, J. (2012). Why the world suddenly cares about global supply chains. Journal of Supply Chain Management, 48(3), 24–32.
+Gourio, F. (2013). Credit risk and disaster risk. American Economic Journal: Macroeconomics, 5(3), 1–34.
+Grossman, S. J., & Hart, O. D. (1986). The costs and benefits of ownership: A theory of vertical and lateral integration. Journal of Political Economy, 94(4),
+     691–719.
+Grossman, G. M., Helpman, E., & Redding, S. J. (2024). When tariffs disrupt global supply chains. American Economic Review, 114(4), 988–1029.
+Gulati, R., Khanna, T., & Nohria, N. (1994). Unilateral commitments and the importance of process in alliances. MIT Sloan Management Review, 35(3), 61.
+Gürkaynak, R. S., Sack, B., & Wright, J. H. (2007). The US treasury yield curve: 1961 to the present. Journal of Monetary Economics, 54(8), 2291–2304.
+Hart, O., & Moore, J. (1990). Property rights and the nature of the firm. Journal of Political Economy, 98(6), 1119–1158.
+Hass, R., & Denmark, A. (2020). More pain than gain: How the U.S.-China trade war hurt America. Brookings Institution.
+Hassan, T. A., Hollander, S., Van Lent, L., Schwedeler, M., & Tahoun, A. (2023). Firm-level exposure to epidemic diseases: Covid-19, SARS, and H1N1. The
+     Review of Financial Studies, 36(12), 4919–4964.
+Helfat, C. E., & Teece, D. J. (1987). Vertical integration and risk reduction. The Journal of Law, Economics, and Organization, 3(1), 47–67.
+Hendricks, K. B., Singhal, V. R., & Zhang, R. (2009). The effect of operational slack, diversification, and vertical relatedness on the stock market reaction to
+     supply chain disruptions. Journal of Operations Management, 27(3), 233–246.
+Hill, C. W., & Hoskisson, R. E. (1987). Strategy and structure in the multiproduct firm. Academy of Management Review, 12(2), 331–341.
+Hoberg, G., & Phillips, G. (2016). Text-based network industries and endogenous product differentiation. Journal of Political Economy, 124(5), 1423–1465.
+Holmström, B., & Roberts, J. (1998). The boundaries of the firm revisited. Journal of Economic Perspectives, 12(4), 73–94.
+Hotelling, H. (1929). Stability in competition. The Economic Journal, 39(153), 41–57.
+Huang, J.-Z., & Huang, M. (2012). How much of the corporate-treasury yield spread is due to credit risk? The Review of Asset Pricing Studies, 2(2), 153–202.
+Huang, Y., Lin, C., Liu, S., & Tang, H. (2023). Trade networks and firm value: Evidence from the U.S.-China trade war. Journal of International Economics, 145,
+     Article 103811.
+Hwang, P. (2006). Asset specificity and the fear of exploitation. Journal of Economic Behavior and Organization, 60(3), 423–438.
+Ireland, R. D., Hitt, M. A., & Vaidyanath, D. (2002). Alliance management as a source of competitive advantage. Journal of Management, 28(3), 413–446.
+Jones, G. R., & Hill, C. W. (1988). Transaction cost analysis of strategy-structure choice. Strategic Management Journal, 9(2), 159–172.
+Kedia, S., Ravid, S. A., & Pons, V. (2009). Vertical mergers and the market valuation of the benefits of vertical integration. Available At SSRN 1329088.
+Kermani, A., & Ma, Y. (2023). Asset specificity of nonfinancial firms. The Quarterly Journal of Economics, 138(1), 205–264.
+Kim, J. H. (2018). Asset specificity and firm value: Evidence from mergers. Journal of Corporate Finance, 48, 375–412.
+Klein, B., Crawford, R. G., & Alchian, A. A. (1978). Vertical integration, appropriable rents, and the competitive contracting process. The Journal of Law and
+     Economics, 21(2), 297–326.
+Lahiri, N., & Narayanan, S. (2013). Vertical integration, innovation, and alliance portfolio size: Implications for firm performance. Strategic Management Journal,
+     34(9), 1042–1064.
+Lin, Y.-T., Parlaktürk, A. K., & Swaminathan, J. M. (2014). Vertical integration under competition: Forward, backward, or no integration? Production and Operations
+     Management, 23(1), 19–35.
+Lin, H., Wang, J., & Wu, C. (2011). Liquidity risk and expected corporate bond returns. Journal of Financial Economics, 99(3), 628–650.
+Liu, E. (2019). Industrial policies in production networks. The Quarterly Journal of Economics, 134(4), 1883–1948.
+Long, J. B., & Plosser, C. I. (1983). Real business cycles. Journal of Political Economy, 91(1), 39–69.
+
+
+                                                                                23
+Y. Li et al.                                                                                                             The British Accounting Review xxx (xxxx) xxx
+
+Longstaff, F. A., Mithal, S., & Neis, E. (2005). Corporate yield spreads: Default risk or liquidity? New evidence from the credit default swap market. The Journal
+     of Finance, 60(5), 2213–2253.
+Mahoney, J. T. (1992). The choice of organizational form: Vertical financial ownership versus other methods of vertical integration. Strategic Management Journal,
+     13(8), 559–584.
+Monteverde, K. (1995). Technical dialog as an incentive for vertical integration in the semiconductor industry. Management Science, 41(10), 1624–1638.
+Nagler, F. (2020). Yield spreads and the corporate bond rollover channel. Review of Finance, 24(2), 345–379.
+Nanda, V., Wu, W., & Zhou, X. A. (2019). Investment commonality across insurance companies: Fire sale risk and corporate yield spreads. Journal of Financial
+     and Quantitative Analysis, 54(6), 2543–2574.
+Okada, M., & Shirahada, K. (2022). Organizational learning for sustainable semiconductor supply chain operation: A case study of a Japanese company in cross
+     border M&A. Sustainability, 14(22), 15316.
+Perkins, G., & Murmann, J. P. (2018). What does the success of Tesla mean for the future dynamics in the global automobile sector? Management and Organization
+     Review, 14(3), 471–480.
+Petersen, M. A. (2009). Estimating standard errors in finance panel data sets: Comparing approaches. The Review of Financial Studies, 22(1), 435–480.
+Pishchulov, G., Richter, K., & Golesorkhi, S. (2023). Supply chain coordination under asymmetric information and partial vertical integration. Annals of Operations
+     Research, 329(1), 1315–1356.
+Ramani, V., Ghosh, D., & Sodhi, M. S. (2022). Understanding systemic disruption from the Covid-19-induced semiconductor shortage for the auto industry.
+     Omega, 113, Article 102720.
+Rauch, J. E. (1999). Networks versus markets in international trade. Journal of International Economics, 48(1), 7–35.
+Roll, R. (1984). A simple implicit measure of the effective bid-ask spread in an efficient market. The Journal of Finance, 39(4), 1127–1139.
+Rothaermel, F. T., Hitt, M. A., & Jobe, L. A. (2006). Balancing vertical integration and strategic outsourcing: Effects on product portfolio, product success, and
+     firm performance. Strategic Management Journal, 27(11), 1033–1056.
+Shih, W. C. (2020). Global supply chains in a post-pandemic world. Harvard Business Review, 98(5), 82–89.
+Shleifer, A., & Vishny, R. W. (1992). Liquidation values and debt capacity: A market equilibrium approach. The Journal of Finance, 47(4), 1343–1366.
+Spiller, P. T. (1985). On vertical mergers. The Journal of Law, Economics, and Organization, 1(2), 285–312.
+Stuart, T. E. (2000). Interorganizational alliances and the performance of firms: A study of growth and innovation rates in a high-technology industry. Strategic
+     Management Journal, 21(8), 791–811.
+Syntetos, A. A., Nikolopoulos, K., Boylan, J. E., Fildes, R., & Goodwin, P. (2009). The effects of integrating management judgement into intermittent demand
+     forecasts. International Journal of Production Economics, 118(1), 72–81.
+Wan, X., & Sanders, N. R. (2017). The negative impact of product variety: Forecast bias, inventory levels, and the role of vertical integration. International Journal
+     of Production Economics, 186, 123–131.
+Williamson, O. E. (1971). The vertical integration of production: Market failure considerations. The American Economic Review, 61(2), 112–123.
+Williamson, O. E. (1979). Transaction-cost economics: The governance of contractual relations. The Journal of Law and Economics, 22(2), 233–261.
+Williamson, O. E. (1985). The Economic Institutions of Capitalism: Firms, markets, relational Contracting. Free Press.
+Yeaple, S. R. (2013). The multinational firm. Annuual Review of Economics, 5(1), 193–217.
+Zahoor, N., Wu, J., Khan, H., & Khan, Z. (2023). De-globalization, international trade protectionism, and the reconfigurations of global value chains. Management
+     International Review, 1–37.
+
+
+
+
+                                                                                 24
+

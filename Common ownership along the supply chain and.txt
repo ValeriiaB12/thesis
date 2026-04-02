@@ -1,0 +1,2402 @@
+﻿Pacific-Basin Finance Journal 87 (2024) 102478
+
+Contents lists available at ScienceDirect 
+
+Pacific-Basin Finance Journal 
+journal homepage: www.elsevier.com/locate/pacfin 
+
+Common ownership along the supply chain and 
+supplier innovations 
+Xian Chen 
+Department of Accounting and Finance, Luter School of Business, Christopher Newport University1 Avenue of the Arts, Newport News, VA 23606, 
+United States   
+
+A R T I C L E  I N F O   A B S T R A C T   
+
+JEL classification: Common owners are the (institutional) investors that hold equities of multiple firms. I examine 
+O31 the impact of common ownership of suppliers and customers on suppliers’ innovation activities. I 
+G32 find suppliers’ investment in innovation, quantity, and quality of innovation output increase 
+L14 when common owners control higher fractions of their and their customers’ shares outstanding. 
+Keywords: The impact of this vertical common ownership on innovation input and quality of innovation 
+Corporate innovation output is stronger and more robust than that of the horizontal common ownership. I provide 
+Ownership structure 
+Transactional relationships plausible evidence for causality using both a difference-in-differences approach and an instru
+
+ment variable approach based on a quasi-natural experiment in the form of financial institution 
+mergers and acquisitions. Moreover, I test the potential channels through which the vertical 
+common ownership could influence supplier innovation. My evidence suggests that common 
+ownership increases suppliers’ investment in innovation by mitigating hold-up issues between 
+suppliers and customers and enhances suppliers’ innovation output performance by improving 
+technological spillovers between suppliers and customers. However, my results also suggest that 
+for suppliers producing mainly capital goods, these positive effects of common ownership on 
+innovation are offset by a negative effect due to vertical creative destruction. Overall, my evi
+dence suggests that common institutional ownership enhances suppliers’ innovation performance 
+by improving relationships between suppliers and their customers.   
+
+1. Introduction 
+
+Common ownership describes the situation in which equities of multiple companies are held by the same (institutional) investors. 
+Table 1 demonstrates an example of common ownership of suppliers and customers (i.e., vertical common ownership). Tenneco, a 
+designer and manufacturer of emissions and ride-control products, is selling to multiple automotive companies all over the world. Its 
+customers include U.S. companies such as Caterpillar, Ford Motor, Navistar, Harley Davidson, etc. Table 1 reports the top 10 insti
+tutional investors for Tenneco and its four major U.S. customers as of 2010 Q4. Among these institutional investors, Fidelity, Vanguard, 
+and BlackRock hold equities in all five companies; Wellington and State Street hold four out of the five companies. In sum, Tenneco and 
+its major customers all have a similar structure of top institutional investors. It is interesting to assess the impact of common owners on 
+the firms in their holding portfolios. 
+
+To the extent that common owners may aim to maximize portfolio value instead of a single firm’s value, they could attempt to 
+maximize portfolio value by mitigating the conflicts between the firms in the portfolios. A growing literature has examined the anti- 
+
+E-mail address: xian.chen@cnu.edu.  
+
+https://doi.org/10.1016/j.pacfin.2024.102478 
+Received 4 October 2023; Received in revised form 1 July 2024; Accepted 5 August 2024   
+Available online 6 August 2024
+0927-538X/© 2024 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.
+
+
+
+X. Chen                                                                                                                                                                        P a c i fi c - B a s i n  F in a n c e  J o u r n a l 87 (2024) 102478
+
+Table 1 
+Top 10 Institutional Investors of Tenneco and its Major U.S. Customers as of 2010 Q4.  
+
+Tenneco Caterpillar Ford Motor 
+
+Institution  Institution  Institution  
+
+Fidelity 13.70% State Street 12.02% Evercore 7.25% 
+Vanguard 4.97% Vanguard 4.03% Wellington 4.43 
+Blackrock 4.92% Blackrock 3.82% Blackrock 3.62% 
+Wellington 4.23% Fidelity 3.28% Janus Capital 3.44% 
+Westfield Capital 3.39% State Farm 3.13% State Street 3.39% 
+Columbia Management 3.05% Capital World 1.86% Vanguard 3.33% 
+Next Century 2.85% Mellon Bank 1.59% Axa Financial 2.33% 
+Gamco 2.80% Bill&Melinda Gates 1.52% Fidelity 1.81% 
+Iridian 2.51% Northern Trust 1.31% Mellon Bank 1.37% 
+State Street 2.24% Primecap 1.30% Capital Growth 1.11%   
+
+Navistar Harley Davidson 
+
+Institution  Institution  
+
+Fidelity 12.52% David Selected 10.58% 
+Owl Creek 8.01% Capital Research 7.63% 
+Wellington 6.67% Vanguard 4.98% 
+Blackrock 4.41% Wellington 4.64% 
+Gamco 4.29% Fidelity 4.50% 
+Vanguard 4.21% Blackrock 4.00% 
+Oppenheimer 3.33% T Row Price 3.56% 
+Deutsche Bank 2.36% State Street 3.54% 
+Frontier Capital 2.26% Independent Franchise 1.53% 
+Columbia Management 2.10% MFS Investment 1.41% 
+
+This table reports the top 10 institutional investors for Tenneco and its four major U.S. customers as of 2010 Q4. Tenneco is a designer and 
+manufacturer of emissions and ride-control products. Its major U.S. customers include Caterpillar, Ford Motor, Navistar, and Harley Davidson. Among 
+the institutional investors, Fidelity, Vanguard, and BlackRock hold all five companies; Wellington and State Street hold four out of the five companies. 
+
+competitive effects of common holdings of competitors (e.g., He and Huang, 2017; Azar et al., 2018). The potential anti-competitive 
+effects have also led to debates among legal scholars and economists concerning anti-trust regulations for institutional investors (e.g., 
+Elhauge, 2015; Bebchuk and Hirst, 2019). Nevertheless, the relationships between the firms in common owners’ portfolios are quite 
+complex, including not only competitors but also collaborators. Studies of common owners’ influence on other relationships in their 
+portfolios, for example, suppliers and customers, can lead to a new perspective for more comprehensive examinations of common 
+ownership, and may adjust scholars’ and regulators’ negative opinions about common ownership. However, very few studies have 
+assessed the effects of common ownership of suppliers and customers. Moreover, the existing literature has largely overlooked an 
+important impact of common ownership: its effects on corporate investment decisions. In this paper, I focus on the impact of supplier- 
+customer common holdings on a special type of corporate investment — technological innovation, which is critical for a firm’s long- 
+term competitive advantage and sustainable growth (Porter, 1992). 
+
+Although common ownership may in principle affect the innovation activities of both suppliers and customers, I focus in this paper 
+on the activities of suppliers because suppliers are generally more innovation active than customers reported in commonly available 
+databases. In contrast, a lot of customers, such as firms in the retail industry, are generally dormant in innovation.1 Furthermore, it is 
+important to study suppliers’ innovation activities because upstream innovation is crucial along the supply chain. It has a strong 
+impact on downstream firms and acts as a double-edged sword. On one hand, it can devalue customers’ assets-in-place through vertical 
+creative destruction (Gofman et al., 2020), but on the other hand, collaboration with innovative suppliers is an important way to 
+improve customers’ own innovation performance (Huston and Sakkab, 2006; Henke and Zhang, 2010). 
+
+Common ownership of suppliers and customers could affect suppliers’ innovations through a number of plausible channels. The 
+first one is the hold-up mitigation channel. Customized innovations by suppliers lead to products for specific customers. These 
+relationship-specific projects are not easily marketed or used elsewhere. Therefore, concerns over possible opportunism and hold-up 
+behavior of the customer will lead to underinvestment in (relationship-specific) innovation by the supplier (Klein et al., 1978). Some 
+seminal theoretical studies (e.g., Grossman and Hart, 1986; Hart and Moore, 1990) suggest that joint asset ownership attenuates hold- 
+up problems under conditions of asset specificity and ex-ante incomplete contracting. As one type of joint asset ownership, common 
+owners could actually benefit from improved supplier innovation performance resulting from better supplier-customer relationships, 
+because the positive spillovers of supplier innovations towards customers help increase the value of the entire portfolio. Therefore, 
+
+1 In untabulated results, I also test the impact of common ownership on innovation-active customers. The sample size of innovation-active 
+customers is much smaller than that for suppliers because the dataset I use, Compustat Customer Segment, reports only the major customers 
+(the sales value to the customer constitutes at least 10% of its supplier’s total sales) for each supplier. And I find no statistically significant results. 
+
+2
+
+
+
+X. Chen                                                                                                                                                                        P a c i fi c - B a s i n  F in a n c e  J o u r n a l 87 (2024) 102478
+
+common owners could be motivated to lower the likelihood for hold-up problems to occur, thereby improving suppliers’ innovation 
+performance, especially their investment in (relationship-specific) innovation activities. 
+
+The second plausible channel through which vertical common ownership may affect supplier innovation is the technological 
+spillover channel. Manso (2011)’s principal-agent model proposes that timely feedback from the principal to the agent enhances the 
+agent’s innovation. Consistently, Chu et al. (2019) provide empirical evidence that timely feedback from customers to suppliers is one 
+of the potential channels that improve suppliers’ innovation performance. Past empirical studies imply that common ownership fa
+cilitates information exchange about technological innovation between the held firms. In particular, common ownerships increase the 
+cross-citations between the patents assigned to different firms in the same portfolio (Freeman, 2021; Kostovetsky and Manconi, 2020). 
+By increasing information exchange between suppliers and customers, common ownership could lead to more technological spillovers 
+between customers and suppliers, and consequently improved innovation performance by suppliers. 
+
+The third channel is a vertical creative destruction channel. Vertical creative destruction describes the situation that innovations by 
+suppliers can devalue customers’ assets-in-place (Gofman et al., 2020). Common owners tend to internalize all the externalities 
+imposed to firms held in the same portfolio (Hansen and Lott, 1996), so they might also react to the negative impact due to vertical 
+creative destruction by weakening suppliers’ innovation activities. 
+
+Using the Compustat customer segment dataset, I match each supplier to its principal customers from 1980 to 2010.2 I examine the 
+impact of institutional common holdings of both suppliers and customers on the suppliers’ innovation activities along three di
+mensions: inputs to innovation (measured by R&D intensity), quantity of innovation output (measured by the number of patent ap
+plications), and quality of innovation output (measured by the average market value of patents). The baseline regression analyses show 
+that suppliers’ innovation input, quantity and quality of innovation output all increase significantly when institutional common 
+owners are holding higher fractions of the equity issued by suppliers and their principal customers. This result is robust to alternative 
+common ownership measures based on different assumptions about institutional investors’ attention. The effect of vertical common 
+ownership on innovation activities is different from that of horizontal common ownership. In particular, vertical common ownership 
+has a stronger and more robust impact on innovation input and quality of innovation output. 
+
+Nevertheless, institutions do not randomly invest in firms. A potential endogeneity concern is that institutions could choose to 
+invest in firms with good innovation prospects. In addition, other omitted variables, such as managerial traits, could drive both 
+common ownership and supplier innovation. To mitigate those potential endogeneity concerns, I exploit a quasi-natural experiment 
+based on financial institution mergers and acquisitions (M&As) with both difference-in-differences (DiD) and instrument variable (IV) 
+approaches following He and Huang (2017) and Azar et al. (2018). M&As of financial institutions lead acquirers to hold more firms in 
+their portfolios. As a result, potentially more suppliers and customers will be commonly held by the acquirers. M&As of financial 
+institutions thus cause mechanical increments of vertical common ownership. Meanwhile, M&As of financial institutions are not likely 
+to be driven mainly by an intent to affect corporate innovation. Therefore, such M&As can be used as a plausibly exogenous reason for 
+changes of common ownership. The DiD analysis shows that the treated firms, relative to control firms, experience about 2% higher 
+increase in R&D intensity, 9% higher increase in patent applications, and 9% higher increase in average patent value after the financial 
+institution mergers. The analysis using the instrumental variable approach leads to a similar result. 
+
+All these findings suggest that there exist positive, and plausibly causal, effects of supplier vertical common ownership on supplier 
+innovation activities. Next, I examine potential channels through which vertical common ownership could affect supplier’s in
+novations. First, I test the hold-up channel. If common ownership actually affects suppliers’ innovation activities by mitigating the 
+hold-up issues, I expect to find that the impact is less pronounced for firms with fewer hold-up problems in the first place. I construct 
+three proxies for hold-up issues: (1) the supplier’s vertical integration with its operating segments, (2) the supplier’s bargaining power 
+relative to its customers, and (3) the asset specificity of the supplier’s input to customers. Consistent with the prediction, I find that the 
+impact of common ownership on innovation activities is weaker for suppliers that (1) are more vertically integrated, (2) have stronger 
+bargaining power relative to their customers, and (3) supply to customers using assets that are more easily redeployed. 
+
+Second, I test the technological spillover channel. If technological spillover is the underlying force for common ownership to 
+improve supplier innovation activities, I expect that the impact is stronger for suppliers with higher technology proximity to their 
+customers. I find results consistent with this prediction. 
+
+Third, I test the vertical creative destruction channel. The vertical creative destruction effect should be the strongest if the suppliers 
+are capital-goods producers. Consistently, I find that vertical common ownership can potentially weaken innovation output for sup
+pliers in capital-producing industries and the positive association between vertical common ownership and innovation output exists 
+only for intermediate-goods producers. 
+
+Interestingly, I find that common ownership mainly influences innovation input (i.e., investment in innovation) through the hold- 
+up mitigation channel, and affects innovation output (both quantity and quality) through the technological spillover and vertical 
+creative destruction channels. The findings suggest that these three channels work on different aspects of innovation activities. 
+Mitigation of hold-up issues increases the incentive to invest but does not necessarily increase innovation efficiency. In contrast, 
+improved technological spillovers as well as vertical creative destruction work mainly on increasing innovation efficiency, but have 
+little influence on investment in innovation. 
+
+In addition, I also test the relation between common ownership and patent cross-citations at supplier-customer level. I find that 
+common ownership at the firm-pair level mainly increases the citations from suppliers to their customers. This finding is potentially 
+
+2 Due to the quality issues of Thomson 13f ownership data starting in 2010, the data sample ends in 2010 for more reliable empirical results. More 
+discussions in 3.1 Sample Construction. 
+
+3
+
+
+
+X. Chen                                                                                                                                                                        P a c i fi c - B a s i n  F in a n c e  J o u r n a l 87 (2024) 102478
+
+consistent with both channels. On one hand, citations from suppliers towards customers could imply technological information 
+spreading from customers to suppliers, which suggests that common ownership improves technological spillovers between suppliers 
+and customers. On the other hand, it could imply suppliers’ customized innovation towards customers, suggesting common ownership 
+improves relationship-specific innovation. Furthermore, I find that the citations from suppliers to their customers are more likely to be 
+a proxy for relationship-specific innovation, because common ownership has a significantly weaker impact on citations when the 
+intensity of hold-up issues is lower. This finding provides additional evidence that common ownership could mitigate hold- up issues, 
+thereby leading to more relationship-specific innovation. 
+
+This study contributes to four strands of literature. First, this study contributes to the emerging literature on common ownership. 
+The literature on common ownership focuses mainly on its anti-competitive effects on corporate policies and product markets (e.g., 
+Ant’on et al., 2018; Azar et al., 2018), but ignores its potential positive effects. Freeman (2021) shows that common ownership can 
+improve cooperation between suppliers and customers, and my paper provides evidence for the bright side of common ownership 
+through its impact on supplier innovation. 
+
+Second, this study contributes to the literature on hold-up problems. While theoretical analysis on this topic is extensive (e.g., 
+Grossman and Hart, 1986; Hart and Moore, 1990), empirical evidence is scarce, and focuses mainly on vertical integration as one 
+potential solution to mitigate hold-up problems (e.g., Lafontaine and Slade, 2007). In the absence of vertical integration, partial equity 
+holdings can also improve relationships along the supply chain. For example, Edward Fee et al. (2006) show that when the customer 
+owns an equity stake in its supplier, the relationship lasts longer. This study investigates an alternative method to mitigate hold-up 
+problems based on integration through a third party, i.e., institutional investors. 
+
+Third, this study contributes to the literature on the impacts of supply-chain relationships on corporate decisions. The past liter
+ature has assessed how supplier- customer relationships affect corporate financing decisions, such as capital structure (Kale and 
+Shahrur, 2007; Banerjee et al., 2008; Chu, 2012) and the cost of debt (Cen et al., 2016a). Chu et al. (2019) show the geographic 
+proximity between a customer and its suppliers can enhance firm innovation. This study examines how improved supplier-customer 
+relationships, on the basis of vertical common ownership, could influence corporate innovation activities. 
+
+Lastly, this study contributes to the literature on corporate innovation by finding another potential determinant for corporate 
+innovation. One of the drivers of corporate innovation is variation in ownership structure, such as the formation of strategic alliances 
+(Chemmanur et al., 2016) and hedge fund activism (Brav et al., 2018). This paper examines a more general form of ownership structure 
+(institutional common ownership of suppliers and customers) that takes into account all types of institutions. 
+
+A significant body of academic work has expressed serious concern about the potential anti-competitive effects of common 
+ownership. Some legal scholars propose strong anti-trust measures on institutional investors, such as limiting investment managers’ 
+holdings in each economic sector, and having regulators scrutinize the behavior of common owners (e.g., Posner et al., 2016; Scott 
+Morton and Hovenkamp, 2017). The findings of this paper shed light upon the brighter side of common ownership. Regulators may 
+motivate institutional investors to hold firms in different sectors along the supply chain, thereby mitigating the anti-competitive ef
+fects, and obtaining extra benefit by improving collaboration between upstream and downstream firms. 
+
+The rest of the paper is organized as follows. Section 2 discusses the antecedent literature. Section 3 describes sample construction 
+and reports summary statistics. Section 4 presents the analyses and results covering the relationship between common ownership and 
+suppliers’ innovations, including baseline regressions, identification, and additional tests. Section 5 presents the analyses and the 
+results of the potential channels through which vertical common ownership could influence suppliers’ innovations. Section 6 
+concludes. 
+
+2. Literature review and hypotheses development 
+
+2.1. Related literature 
+
+2.1.1. Common ownership 
+One basic assumption in financial economics is that the ultimate goal of firm management is to maximize shareholders’ value. 
+
+When shareholders are holding multiple firms in their portfolios, value optimization is no longer focused on a single firm, but the entire 
+portfolio. The past literature has suggested that shareholder diversification can induce managers to internalize all types of externalities 
+(including technological innovation, legal litigation, etc.) imposed on commonly owned firms (e.g., Hansen and Lott, 1996; Gordon, 
+2003). However, there are concerns about the mechanisms whereby common owners coordinate the firms in their portfolio, especially 
+when the shareholder is a passive investment fund that holds massive numbers of firms in its portfolio. The emerging empirical 
+literature has provided support for multiple potential channels, including voice, vote, and incentives. Azar et al. (2018) discuss 
+anecdotal evidence for a voice channel, including engagement meetings between “passive” funds and portfolio firm managers. He et al. 
+(2019) show that common owners (including both passive and active funds) are more likely to vote against management on 
+shareholder-sponsored governance proposals. Regarding incentives, Ant’on et al. (2018) show that common owners have rendered the 
+compensation of top managers less sensitive to firm performance. 
+
+Based on the plausible mechanisms discussed above, past studies have documented the impacts of common ownership on various 
+aspects of corporate policies, such as mergers and acquisitions (Matvos and Ostrovsky, 2008), product market competition (Azar et al., 
+2018; Azar et al., 2019), technological spillover (Kostovetsky and Manconi, 2020), and financing friction (Cici et al., 2015; Ojeda, 
+2018). Among all these studies, my paper is most closely related to research about the impact of common ownership on vertically 
+related firms. For example, Freeman (2021) shows that vertical common ownership can improve duration of relationships between 
+suppliers and customers and tests innovative collaborations as a potential channel. My study differs from prior studies in this area by 
+
+4
+
+
+
+X. Chen                                                                                                                                                                        P a c i fi c - B a s i n  F in a n c e  J o u r n a l 87 (2024) 102478
+
+(a) examining the impact of vertical common ownership on different aspects of corporate innovation activities and (b) exploring 
+potential channels for the results. 
+
+Among all the studies in this area, my paper is most relevant to Geng et al. (2017)’s work. They define companies with cited patents 
+as upstream firms and define companies with patents citing the upstream firms as downstream firms. They then examine how the joint 
+ownership of upstream and downstream firms mitigates patent hold-up problems. In contrast, my paper studies the joint ownership of 
+suppliers and their customers along the supply chain. 
+
+2.1.2. Hold-up problem 
+The hold-up problem as first described by Williamson (1975) and Klein et al. (1978) has been accepted by economists as a 
+
+determinant of corporate underinvestment (e.g., Ellingsen and Johannesson, 2004). A hold-up problem occurs to the party in a 
+transaction with two factors: (1) relation-specific investments and (2) an incomplete contract (Rogerson, 1992). Factor (1) implies that 
+the investment produces (employs) customized products for specific customers (from specific suppliers). The customized products 
+largely increase the bargaining power of the counterparty in the transaction, because if the counterparty ends the transaction, the 
+customized products and the related investment will devalue substantially as it is difficult to use these products elsewhere. Ideally, a 
+complete contract will preclude the potential counterparty opportunism.3 However, in reality, because of bounded rationality and 
+economic uncertainty, it is never possible to write a complete contract ex-ante.4 Together with factor (1), factor (2) implies that, under 
+an incomplete contract, there could be chances for a contractual party to act opportunistically, thereby leading to significant losses for 
+the counterparty with relation-specific investment for this transaction. Such a situation will definitely deter relation-specific 
+investment. 
+
+A well-known example of the hold-up problem for the customer side is between General Motors (GM) and Fisher Body (Hart, 1995). 
+Fisher Body was the only company to deliver the components according to GM’s specifications. In 1920, a sharp increase in demand 
+occurred that was above the contractual expectation. It is claimed that Fisher Body held up GM by increasing the price for additional 
+parts produced. My study is related more to the hold-up problem for the supplier side. A good example is that ship leasing firms 
+(threaten to) cancel (already established) shipbuilding contracts with shipyards because of “non-permissible” delays in production due 
+to COVID-19.5 
+
+Since it is costly to write a comprehensive contract listing all specific rights over assets in the contract, Grossman and Hart (1986) 
+suggest, in their seminal theoretical work, that it may be optimal to let one contractual party purchase all residual rights in the form of 
+ownership. Therefore, ownership integration is a way to reduce opportunistic behavior and hold-up problems under the condition of 
+ex-ante incomplete contracting (Hart and Moore, 1990). Lafontaine and Slade (2007) review the studies on the effects of vertical 
+integration. In the absence of vertical integration, Edward Fee et al. (2006) show that partial equity holdings can also improve re
+lationships along the supply chain. My paper differs from other studies in this area by assessing a different type of integration in the 
+form of common ownership. 
+
+It is empirically challenging to test the hold-up problem since it occurs under unobservable conditions. Martin and Otto (2017) is 
+one of the very few studies to empirically test the effect of a hold-up problem. In particular, they use tariff changes in suppliers’ in
+dustries as a shock for customers’ hold-up issues and study how customers respond in terms of investment. In contrast, my research 
+examines suppliers’ responses to various levels of hold-up problems and focuses on a special type of investment: investment in 
+innovation activities. 
+
+2.1.3. Supply chain 
+Similar to studies on the hold-up problem, studies on the role of supply-chain relationships in corporate finance also stem from the 
+
+seminal theoretical studies on transaction costs between upstream and downstream firms (e.g., Williamson, 1975; Hart and Moore, 
+1990). The literature in this area extends the empirical analysis to more specific determinants of supply-chain relationships besides 
+corporate integration, such as mergers and acquisitions (Edward Fee and Thomas, 2004; Shahrur, 2005), partial integration (Edward 
+Fee et al., 2006), financial distress (Hertzel et al., 2008), anti-takeover measures (Cen et al., 2016b), and CEO turnovers (Intintoli et al., 
+2017). Another stream of this literature examines how supply-chain relationships may influence corporate financial decisions, such as 
+capital structure (Kale and Shahrur, 2007; Banerjee et al., 2008; Chu, 2012) and the cost of debt (Cen et al., 2016a). 
+
+The literature on the impacts of supply-chain relationships on corporate financial decisions is relatively scarce, especially con
+cerning their impacts on real investment activities. Among all the studies in this area, my paper is most closely related to Chu et al. 
+
+3 Williamson (1975) defines opportunism as an effort to realize individual gains with guile in transactions. It can have two types. The first type 
+happens at the initial negotiation stage. One party can strategically disclose incomplete or distorted information to write the contract to her own 
+advantage. The second type manifests itself during contract execution and renewal. The contractual parties may behave irresponsibly when lack of 
+monitoring, or may pose problems at the contract renewal interval due to first-mover advantage. In particular, the first-mover advantage here means 
+that winners of original bids acquire firm-specific experience which places them at a cost advantage in relation to non-winners on subsequent rounds 
+of negotiation (Williamson, 1971).  
+
+4 Bounded rationality refers to limited capacities of individuals to receive, store, retrieve, and process information without error. With cognitive 
+limits, the economic actors cannot write contracts of unlimited complexity that would specify all possible contingencies in an economic exchange.  
+
+5 Pandemic, such as COVID-19, is not specifically defined as a permissible situation for production delay in shipbuilding contracts, especially 
+under English law. More details can be found in BIMCO’s explanations on its website. BIMCO is the largest of the international shipping associations 
+representing shipowners. 
+
+5
+
+
+
+X. Chen                                                                                                                                                                        P a c i fi c - B a s i n  F in a n c e  J o u r n a l 87 (2024) 102478
+
+(2019)’s work. They demonstrate that geographic proximity between suppliers and customers can improve corporate innovation. My 
+research differs from their work by studying how improved supplier-customer relationships, due to common ownership, can influence 
+innovation. 
+
+2.1.4. Corporate innovation 
+Manso (2011)’s theoretical study suggests that corporate innovation can be facilitated by (1) tolerance of failures and (2) timely 
+
+feedback on performance. The empirical literature has widely studied how variations in ownership structure could affect corporate 
+innovation through several potential channels: mergers and acquisitions (Bena and Li, 2014; Seru, 2014), formation of strategic al
+liances (Chemmanur et al., 2016), venture capital (Tian and Wang, 2014; Chemmanur et al., 2014), and hedge fund activism (Brav 
+et al., 2018). My paper examines the impact on corporate innovation of a new form of ownership structure, common ownership, and 
+tests feedback between suppliers and customers as a potential channel. The work is most closely related to Anton et al. (2018)’s work. 
+They theoretically analyze the impact of horizontal common ownership on corporate innovation. In contrast, this paper is the first one 
+to empirically test the impact of vertical common ownership on innovation. 
+
+2.1.5. Regulation implications 
+The potential anti-competitive effects of common ownership have led to controversies over proposals for related regulations. 
+
+Empirical studies have documented increases in product prices or decreased market entry due to common ownership in different 
+sectors, such as airlines (Azar et al., 2018), banking (Azar et al., 2019), and pharmaceuticals (Newham et al., 2018). Some legal 
+scholars claim that common ownership may disincentivize output and employment and increase economic inequality, so they propose 
+strong anti-trust scrutiny for common owners (Elhauge, 2015; Posner et al., 2016; Scott Morton and Hovenkamp, 2017). 
+
+On the contrary, some scholars suggest that the common ownership scrutiny should not be implemented for all investors, especially 
+index funds (Bebchuk and Hirst, 2019). Index fund managers have weak incentives to engage in stewardship because their contri
+butions to improve held firms’ performances will invite free riding by other investors. In addition, index fund managers have incentives 
+to defer to the preferences of corporate managers because of potential business ties with corporate managers of the firms in portfolios 
+(e.g., having the index funds included in the menu of investment options for 401(k) plans). 
+
+My paper reports a bright side of common ownership, which implies potentially helpful regulatory measures: regulators may wish 
+to encourage institutional investors to hold equities in different sectors along the supply chain. 
+
+2.2. Development of hypotheses 
+
+The main hypothesis is that vertical common ownership can enhance suppliers’ innovation performance by improving the rela
+tionship between suppliers and their customers. In particular, I hypothesize that vertical common ownership can influence suppliers’ 
+innovation through three potential channels. 
+
+The first channel is hold-up mitigation channel. In my analytical framework, hold-up problems happen when suppliers invest in 
+production of relation-specific products. This situation can potentially decrease the bargaining power of suppliers because it is hard to 
+sell these specialized products to other customers.6 Therefore, customers may act opportunistically in their relationship with suppliers. 
+For example, they may attempt to push down the prices of specialized inputs or (threaten to) cancel the order during a negative 
+demand shock. These potential hold-up issues will lead to underinvestment in relation-specific investments/innovations. However, 
+theoretical studies (e.g., Grossman and Hart, 1986; Hart and Moore, 1990) suggest that joint asset ownership, such as common 
+ownership, can mitigate the hold-up issues. Therefore, I hypothesize that vertical common ownership can improve suppliers’ inno
+vation performance by mitigating hold-up issues between suppliers and their customers. 
+
+The second channel is a technological spillover channel. Both theoretical and empirical studies (e.g., Manso, 2011; Chu et al., 2019) 
+suggest that the exchange of information about innovation activities can improve corporate innovation performance. Past studies also 
+suggest that common ownership can improve rates of information exchange about corporate innovation activities. For example, 
+Kostovetsky and Manconi (2020) show that common ownership can increase cross-citations between patents assigned to firms held in 
+the same portfolio. Therefore, I hypothesize that vertical common ownership can improve suppliers’ innovation performance by 
+improving technological spillovers between suppliers and their customers. 
+
+The third channel is a vertical creative destruction channel. Vertical creative destruction describes a situation where innovations by 
+suppliers can devalue customers’ assets-in-place (Gofman et al., 2020). For example, Nvidia supplies Graphics Processing Units (GPUs) 
+to Amazon for its Amazon Web Services (AWS). AWS then uses Nvidia’s GPUs to accelerate artificial intelligence and high-performance 
+computing workloads. An updated version of these GPUs, due to technological improvements by Nvidia, can devalue the existing old 
+versions of GPUs used by Amazon. Theoretically, common owners tend to internalize all types of externalities imposed on the firms 
+held in the same portfolio (Hansen and Lott, 1996), so they might also react to the negative effect due to vertical creative destruction. 
+The impact of vertical creative destruction is strongest for capital-goods producers, so I hypothesize that vertical common ownership 
+can weaken innovation activities, especially for suppliers in capital-producing industries. 
+
+6 These relation-specific products can also cause hold-up issues for customers. In my data sample, however, a lot of the customers are retailers 
+without investment in relation-specific inputs. It is thus easier for customers to get rid of the customized products because they do not have to suffer 
+from a loss of sunk costs due to any relation-specific investments. 
+
+6
+
+
+
+X. Chen                                                                                                                                                                        P a c i fi c - B a s i n  F in a n c e  J o u r n a l 87 (2024) 102478
+
+3. Data and variable construction 
+
+3.1. Sample construction 
+
+The data sample is constructed from variables in four databases: Compustat Segment Customer, Thomson Reuters 13F, and Kogan 
+et al. (2017)’s patent dataset. Supplier-customer relationships are identified from the Compustat Segment Customer database. Ac
+cording to the FASB 14 (1976) and 131 (1997), public firms are required to disclose customers who account for at least 10% of their 
+total sales. Some firms may opt to report significant customers below this threshold as well. The Segment database includes the names 
+of corporate customers, as well as the supplier’s sales to each of its customers. 
+
+Data on institutional ownership are drawn from the Thomson Reuters 13F database. This database includes institutional investors 
+with over $100 million in assets under management. These institutions include pension funds, endowments, insurance companies, 
+bank trusts, mutual funds, hedge funds and independent advisors. These data go back to 1980, and report holding fractions for each 
+firm at fund family level at the end of each quarter. For a given firm, if its fiscal year end is not at quarter end, I use institutional 
+holdings at the nearest quarter end prior to its fiscal year end to construct variables developed from information in this database. 
+Starting in 2010, Thomson’s system generating 13f ownership data began losing and corrupting data. WRDS and Thomson have 
+collaborated to correct some of the data quality issues.7 However, multiple studies still expressed additional concerns about the data 
+quality, including data aggregation issues (e.g., Backus et al., 2019; Ben-David et al., 2021). To maintain a better reliability of the 
+empirical results, the data sample ends in 2010. 
+
+Data on patents are drawn from the dataset constructed by Kogan et al. (2017). The dataset matches patent numbers to firm 
+identifier variables (CRSP “permco”) starting from 1926. This resource provides patent application dates, estimated market values of 
+patents, and information on patent cross-citations. In particular, this dataset matches the citing patent numbers with the cited patent 
+numbers. 
+
+I generate supplier-level common ownership measures on the basis of the Segment and 13F datasets, and merge them with firm- 
+level innovation variables generated from the datasets provided by Kogan et al. (2017). Then I merge the resulting data, by firm, with 
+fundamental accounting variables from Compustat. I exclude utility firms (SIC code from 4900 to 4999) and financial firms (SIC code 
+from 6000 to 6999) from the estimating sample because these two industries are highly regulated. I delete all the innovation-inactive 
+firms that have no R&D expenditure or patent applications throughout the sample period. All variables in the form of ratios are 
+winsorized at the 1st and 99th percentiles to minimize distortions due to outliers. This variable construction procedure results in an 
+estimating sample consisting of 17,063 firm-year observations from 1980 to 2010. 
+
+3.2. Variable construction 
+
+3.2.1. Common ownership measures 
+Following the recent literature on common ownership (e.g., He and Huang, 2017; Lewellen and Lowry, 2021), I first construct my 
+
+firm-pair level measure of common ownership along a supply chain (i.e., vertical common ownership), called pairwise VCO, as: 
+∑F
+
+pairwise VCOsct = β β
+f=1 fst fct  
+
+where there are F institutions holding both supplier s and its customer c. βfs(c)t denotes institution f ‘s holding fraction of supplier s 
+(customer c) in year t. The value of pairwise VCO is higher when there are more common owners and/or when these common owners 
+hold higher fractions of suppliers and/or customers. 
+
+Then, I aggregate pairwise VCO to the level of supplier s to construct VCO as: 
+∑C
+
+VCOst = w pairwise VCO
+c c
+=1 ct s t  
+
+where there are C customers for supplier s. The weight wct denotes customer c’s relative share among all the supplier’s customers in 
+year t. I employ both equal weights and value weights on the basis of sales value between the supplier and each customer. 
+
+As documented in numerous studies (e.g., Schmalz, 2018; Ben-David et al., 2021), financial institutions hold an increasing share of 
+corporate equities because of the rapid development of highly diversified mutual funds and other institutional investors in the past 
+decades. Echoing the previous findings, Figs. 1 and 2 display noticeable growing trends in the number of common owners and holding 
+fractions of both suppliers and customers from 1980 to 2010. As a result, the value of average VCO in Fig. 3 also exhibits an increasing 
+trend over the sample period. 
+
+3.2.2. Innovation measures 
+As mentioned earlier in Introduction, corporate innovation activities are typically measured along three dimensions: innovation 
+
+input, quantity of innovation output, and quality of innovation output. Innovation input is measured by R&D Intensity, which is R&D 
+expenditures per unit of sales. 
+
+The quantity of innovation output is measured by the number of patent applications submitted (and eventually granted) at the firm- 
+
+7 See more details in the WRDS file S12/S34 Regenerated Data (2010-2016). 
+
+7
+
+
+
+X. Chen                                                                                                                                                                        P a c i fi c - B a s i n  F in a n c e  J o u r n a l 87 (2024) 102478
+
+Fig. 1. Average number of institutions holding each supplier-customer pair from 1980 to 2010. 
+Fig. 1 displays the time series for the average number of institutions that are commonly holding each supplier-customer pair in the data sample from 
+1980 to 2010. Fig. 2 displays the time series of average common owners’ holding fractions of suppliers and customers from 1980 to 2010. Fig. 3 
+displays the time series of average vertical common ownership from 1980 to 2010. The market-level vertical common ownership in the graph is the 
+average VCO weighted by firm market value. 
+
+Fig. 2. Average common owners’ holding fractions of suppliers and customers from 1980 to 2010.  
+
+year level. On average, there is more than a two-year lag between applications and grant years. The recorded application year thus 
+better captures the actual time of innovation than the eventual grant year. 
+
+Many innovation studies use a patent’s subsequent lifetime citations as the proxy for quality of innovation output. By that measure, 
+however, the number of citations for patents filed near the end of sample period is highly truncated. Hall et al. (2001) therefore attempt 
+to mitigate the truncation problem by adjusting subsequent citations based on structural models. However, the current literature 
+empirically demonstrates that this adjustment method does not work well (Dass et al., 2017). Kogan et al. (2017) provide another 
+proxy for the quality of innovation output by measuring the market response to patent grants. In this study, the quality of innovation 
+output is measured by the average market value of patents at the firm-year level. Kogan et al. (2017) estimate these patent market 
+values and provide the data used in this analysis. 
+
+3.2.3. Control variables 
+To net out any potential confounding effects from other institutional ownership measures, I control the percentage of total insti
+
+tutional holdings (IO) and the concentration of institutional holdings (IO HHI) at the firm level. Following other studies in the 
+innovation literature (e.g., Atanassov and Liu, 2019), I control for other firm-level variables including Q, sales, leverage, profitability, 
+and capital intensity. More details about control variable construction are in Appendix A. 
+
+8
+
+
+
+X. Chen                                                                                                                                                                        P a c i fi c - B a s i n  F in a n c e  J o u r n a l 87 (2024) 102478
+
+Fig. 3. Average vertical common ownership (weighted by firm size) from 1980 to 2010.  
+
+3.3. Summary statistics 
+
+Table 2 reports summary statistics for the main variables used in this paper. An average supplier has R&D intensity of 0.42 and 
+14.29 patent applications each year, and each patent’s inferred market value averages $8.16 million. Given that the innovation 
+measures are skewed, I use shifted natural logarithms of these measures in my analyses. The average value of vertical common 
+ownership (VCO) is 0.0019. On average, 27% of a supplier’s equity is held by institutional investors, and the concentration of insti
+tutional holdings (i.e., HHI of institutional holding) is 0.14.8 
+
+4. The relationship between common ownership and suppliers’ innovation activities 
+
+4.1. Baseline regressions and results 
+
+To assess the relationship between vertical common ownership and suppliers’ innovation activities, I estimate the baseline 
+regression: 
+
+Innovationit = β0 + β1VCOi,t− 1 + β2Xi,t− 1 + αi +αtj + εit,
+
+where Innovation is one of the innovation activity measures (i.e., ln(1 + R&D Intensity), ln(1 + #pat), and ln(1 + Avg.xi)), VCO is the 
+supplier-level proxy for vertical common ownership on the basis of both equal weights and sales-value weights, and X is a vector of 
+control variables that could systematically affect corporate innovation activities.9 All explanatory variables are lagged one year to 
+mitigate simultaneity. The αi captures firm-level fixed effects which control for any observable or unobservable heterogeneity across 
+firms that affect innovation activities (e.g., corporate culture that encourages innovation). The αtj captures industry-year fixed effects 
+which rule out spurious associations between vertical common ownership and innovation activities due to time-varying industry-level 
+shocks. Standard errors are clustered at the industry level in case variations of firm-level innovation activities are correlated within 
+industries because of industry-level technological innovation shocks or technological collaboration among peer firms in the industry. 
+
+Table 3 reports the results of baseline regressions. Columns (1) and (2) show the results when the dependent variable is innovation 
+input, ln(1 + R&D Intensity), with equally weighted and value-weighted VCO. The coefficient estimates on the two types of VCO are 
+both positive and statistically significant at the 5% and 1% levels respectively, suggesting a positive association between a supplier’s 
+vertical common ownership and the supplier’s innovation input. The economic effect is sizeable: a one standard deviation increase in 
+equally (value-) weighted VCO is associated with a 3.27% (2.19%) increase in R&D intensity. 
+
+Columns (3) and (4) show the results when the dependent variable is the quantity of innovation output measured by ln(1 + #pat). 
+The coefficient estimates on the two types of VCO are again positive and statistically significant at the 1% level, suggesting a positive 
+association between a supplier’s vertical common ownership and the supplier’s quantity of innovation output. The effect is also 
+economically large: a one standard deviation increase in equally (value-) weighted VCO is associated with a 10.85% (10.39%) increase 
+in the number of successful patent applications. 
+
+8 The market-level institutional holding percentage (market-cap weighted average) increases from around 30% to around 60% from 1980 to 2010. 
+However, the institutional holding percentages are higher for large market-cap firms, and the supplier firms in my sample in general are small in 
+size. Therefore, the average firm-level institutional ownership percentage in the sample period is relatively small.  
+
+9 The data on patent market values are estimated and provided by Kogan et al. (2017). They denote patent market value as xi. 
+
+9
+
+
+
+X. Chen                                                                                                                                                                        P a c i fi c - B a s i n  F in a n c e  J o u r n a l 87 (2024) 102478
+
+Table 2 
+Summary Statistics.   
+
+count mean s.d. 
+
+Innovation    
+R&D Intensity 17,045 0.421 1.345 
+ln(1 + #pat) 17,063 1.022 1.346 
+#pat 17,063 14.29 90.69 
+ln(1 + Avg.xi) 17,063 0.953 1.269 
+Avg.xi ($mil) 17,063 8.160 31.78 
+Common Ownership     
+
+VCO (EW)  17,063  0.002  0.003 
+VCO (VW) 17,063 0.002 0.003 
+Controls     
+
+IO HHI  17,063  0.141  0.207 
+IO 17,063 0.270 0.292 
+Q 15,770 2.405 2.241 
+ln(Sales) 17,043 4.452 2.248 
+Capital Intensity 17,057 0.219 0.162 
+Profitability 17,019 0.011 0.285 
+Leverage 17,000 0.196 0.234 
+
+This table reports summary statistics for the main variables used in this paper. R&D Intensity is R&D expenditure scaled 
+by sales. #pat is the number of patent applications (for patents eventually granted) at the firm-year level. Avg.xi is the 
+average market value of patents at the firm-year level. VCO is the supplier-level vertical common ownership, which is 
+calculated as the weighted average of supplier-customer-pair-level common ownership for each supplier. I use both equal 
+weights (EW) and value weights (VW) on the basis of sales from a supplier to each of its customers. IO is the percentage of 
+total institutional holdings. IO HHI is the proxy for institutional ownership concentration, which is calculated as the 
+Herfindahl–Hirschman Index of institutional holdings. Q is the market value of total assets divided by book value of total 
+assets. Capital Intensity is net PPE divided by total assets. Profitability is EBITDA divided by total assets. Leverage is total 
+debt divided by total assets. 
+
+Lastly, columns (5) and (6) show the results when the dependent variable is the quality of innovation output measured by ln(1 +
+Avg.xi). The coefficient estimates on the two types of VCO are still positive and statistically significant at the 1% level, suggesting a 
+positive association between a supplier’s vertical common ownership and the supplier’s quality of innovation output. The economic 
+effect is large: a one standard deviation increase of equally (value-) weighted VCO is associated with a 5.83% (5.58%) increase in 
+average patent market value, which corresponds to a $0.42 million increase in value. 
+
+Overall, the baseline results in Table 3 show that, on average, a supplier’s vertical common ownership has a significant effect on the 
+supplier’s innovation activities. Suppliers’ innovation input, quantity and quality of innovation output all rise significantly when the 
+value of suppliers’ vertical common ownership increases. Based on the construction of VCO, a higher value of vertical common 
+ownership implies that more institutions hold higher fractions of equities in both the supplier and its customers. 
+
+4.2. Identification using mergers of financial institutions 
+
+The baseline regression results provide evidence concerning significant associations between vertical common ownership and 
+supplier innovation activities. However, there are still several qualifications with respect to these findings. First, these specifications 
+cannot exclude other unobservable confounding factors that covary with common ownership. Second, they cannot exclude the pos
+sibility of reverse causality. It is possible that common owners intentionally search for and invest in firms with better innovation 
+performances. Therefore, I follow the current literature (e.g., He and Huang, 2017; Azar et al., 2018) to implement an event study 
+based on financial institution mergers and acquisitions (M&As) to more rigorously assess the causality between variations in common 
+ownership and changes in supplier innovation activities. 
+
+4.2.1. Quasi-experimental design 
+M&As among financial institutions are plausibly exogenous shocks relative to common ownership. M&As allow the acquirers to 
+
+hold more firms, or higher fractions of firms, in their portfolios, thereby leading to mechanical increments in common ownership for 
+the firms in the merged portfolios. This quasi-experimental design satisfies the exclusion condition. The M&As between financial 
+institutions are complex and mainly driven by the intention to extend business lines and increase market shares in the financial service 
+industry. It is unlikely that one institution will acquire another mainly aiming to affect a few suppliers’ innovation activities in their 
+portfolios. In addition, I consider multiple events to permit tests of the average effects of these shocks. Even if some of the financial 
+institutional M&As could be driven by a desire to affect the corporate innovation of firms in their portfolios, such idiosyncratic cases 
+are unlikely to have significant impacts on the overall average result. Thus, concerns about endogeneity when using financial in
+stitutions M&As to study corporate innovation are likely to be minimized. 
+
+I follow He and Huang (2017) to identify instances of M&As in financial institutions, in the 30 years from 1980 to 2010, from the 
+
+10
+
+
+
+X. Chen                                                                                                                                                                        P a c i fi c - B a s i n  F in a n c e  J o u r n a l 87 (2024) 102478
+
+Table 3 
+Baseline Regression.   
+
+ln(1 + R&D Intensity) ln(1 + #pat) ln(1 + Avg.xi)  
+
+EW VW EW VW EW VW 
+
+(1) (2) (3) (4) (5) (6) 
+
+VCO 3.234** 2.158*** 33.810*** 32.371*** 17.312*** 16.557***  
+(2.613) (3.010) (4.263) (4.027) (2.892) (2.695) 
+
+IO HHI − 0.034 − 0.034 − 0.036 − 0.035 0.051 0.051  
+(− 1.204) (− 1.202) (− 0.691) (− 0.679) (1.056) (1.059) 
+
+IO 0.096* 0.101* 0.109 0.116 0.197* 0.200*  
+(1.849) (1.822) (0.985) (1.036) (1.828) (1.813) 
+
+Q − 0.008** − 0.008** 0.018** 0.018** 0.036*** 0.036***  
+(− 2.110) (− 2.105) (2.176) (2.157) (4.719) (4.725) 
+
+ln(Sales) − 0.076* − 0.076* 0.277*** 0.278*** 0.157*** 0.157***  
+(− 1.965) (− 1.968) (3.841) (3.836) (11.234) (10.959) 
+
+Capital Intensity 0.016 0.016 0.222* 0.224* 0.125 0.126  
+(0.417) (0.407) (1.968) (1.976) (1.034) (1.041) 
+
+Profitability − 0.070** − 0.070** − 0.180*** − 0.181*** − 0.039 − 0.039  
+(− 2.483) (− 2.480) (− 2.943) (− 2.952) (− 0.739) (− 0.745) 
+
+Leverage − 0.081** − 0.081** − 0.373*** − 0.371*** − 0.184*** − 0.183***  
+(− 2.539) (− 2.552) (− 5.793) (− 5.720) (− 3.116) (− 3.069) 
+
+Constant 0.545*** 0.543*** − 0.217 − 0.220 0.165** 0.163**  
+(3.136) (3.142) (− 0.614) (− 0.619) (2.329) (2.271) 
+
+Obs. 10,741 10,741 10,751 10,751 10,751 10,751 
+R-squared 0.842 0.842 0.841 0.840 0.809 0.809 
+Firm FE Y Y Y Y Y Y 
+Ind.-Yr. FE Y Y Y Y Y Y 
+
+This table reports the baseline regression results for the model: 
+Innovationit = β0 + β1VCOi,t− 1 + β2Xi,t− 1 +αi + αjt + εit   
+
+The dependent variables are ln(1 + R&D Intensity) in columns (1) and (2), ln(1 + #pat) in columns (3) and (4), and ln(1 + Avg.xi) in columns (5) and 
+(6). The supplier-level variable VCO is the equally weighted average of supplier-customer-pair-level vertical common ownership in columns (1), (3) 
+and (5); and the sales-value weighted average in columns (2), (4) and (6). Details about the control variables are in Appendix A. Both firm and 
+industry-year fixed effects are included in all regressions. Standard errors are clustered at the industry level. t-statistics are reported in parentheses 
+below coefficient estimates. Significance at the 10%, 5%, and 1% level is denoted by *, **, and ***, respectively.  
+
+Capital IQ dataset. The sample inclusion criteria are:  
+
+1. The merger is between two 13F institutions (or their parent firms) in the financial sector (with primary SIC codes in the 6000 to 
+6999 range) and announced during the period between 1980 and 2010;  
+
+2. The merger is completed within one year after the initial announcement;  
+3. The target institution stops filing 13F forms within one year after the completion of the deal. 
+
+Altogether, I collect 51 such events between 1980 and 2010. The names of acquirers and targets, the announcement dates, and the 
+effective dates are listed in Appendix B. 
+
+I follow Azar et al. (2018)’s method to identify the treated group by checking the implied changes of common ownership for each 
+firm. First, I calculate counterfactual VCO in the year before the announcement year of M&As as if the M&As had already happened at 
+that time. Then, the differences between the counterfactual VCO and real VCO are defined as “implied changes in VCO” (ΔVCO). Firms 
+are categorized on the basis of ΔVCO: the firms in the top tercile of ΔVCO are considered to be treated firms, and the firms in the bottom 
+tercile of ΔVCO are considered to be control firms. I calculate ΔVCO on the basis of pre-merger hypothetical VCO, rather than post- 
+merger actual VCO, because this method constructs an ex-ante measure of mechanical changes of VCO due to institutional mergers. The 
+hypothetical pre-merger VCO is less endogenous than the actual post-merger VCO because it is less likely to be influenced by the 
+investors’ reaction to the merger during the event year. 
+
+Appendix B shows that there are M&A events in consecutive years, and the treatment effects could last for multiple years. 
+Therefore, the observations in a given event can be affected by (lagged) treatment effects of other events. In particular, the distortions 
+due to treatment effects of other events would be potentially reflected from three perspectives. First, in the pre-event window of a given 
+event, some firms in the treatment or control group could be in the treatment group in other events. As a result, for this specific event, 
+the parallel trends between treatment and control groups in the pre-event window will no longer hold. Second, in the post-event 
+window of a given event, some firms in the control group could be in the treatment groups in other events. As a result, for this spe
+cific event, the difference between control and treatment groups in the post-event window will be biased downward. Third, in the post- 
+event window of a given event, some firms in the treatment group could be in the treatment groups in other events. As a result, for this 
+
+11
+
+
+
+X. Chen                                                                                                                                                                        P a c i fi c - B a s i n  F in a n c e  J o u r n a l 87 (2024) 102478
+
+specific event, the difference between control and treatment groups in the post-event window will be biased upward. 
+To mitigate the distortions due to other events, I follow Gormley and Matsa (2011)’s method to stack the data sample of multiple 
+
+events. First, a 5-year pre- event and 5-year post-event window is set around each merger. For a specific merger, any firms that are 
+treated by other mergers within the 11-year window are dropped. Thereby a data sample for the specific merger is constructed. Then, I 
+stack the constructed data samples for all the mergers into one dataset. To keep the 11-year windows for all events in my following 
+regression analyses, the stacked data sample only covers the mergers from 1985 to 2005. Using mergers during the financial crisis from 
+2008 to 2009 could contaminate the empirical results because of substantial changes in firm or industry behavior in response to the 
+crisis (Lewellen and Lowry, 2021). My data sample avoids that concern as well. 
+
+4.2.2. DiD regressions and results 
+The treated firms are exposed to higher common ownership increments due to the financial institutional M&As, so I expect that 
+
+these events will lead the treated firms to have a larger increase in innovation input and output. I run the following difference-in- 
+differences (DiD) regression to test the hypothesis: 
+
+Innovationijt = β0 + β1 Treatmentij ×Postjt + β2Xijt + αij +αtj + εijt ,
+
+where Treatmentij is a dummy variable that equals one if firm i is the treated firm in merger j. Postjt is a dummy variable that equals one 
+if year t is in the post-event period for merger j. X is the vector of control variables. The institutional ownership concentration (IO HHI) 
+and the percentage of total institutional holdings (IO) are excluded from the vector of control variables because they are directly 
+affected by the treatment. Both firm-merger and time-merger fixed effects are controlled.10 Standard errors are clustered at the merger 
+level to mitigate the concern that innovations by firms in the same institutional merger might be correlated. 
+
+Table 4 reports the results of these DiD regressions. The treated firms are identified based on both equally weighted and value- 
+weighted ΔVCOs. The results for both models with and without control variables are reported and they are largely similar to each 
+other. For all innovation measures, the estimated coefficients on Treatmentij × Postjt are positive and significant. This result suggests 
+that treated firms (i.e., those whose common ownership increases due to financial institution mergers) exhibit a greater increase in 
+innovation input and output than control firms. In terms of economic significance, the estimated coefficients on Treatmentij × Postjt in 
+columns (1) and (3) indicate that treated firms, relative to control firms, experience about 2% higher increase in R&D intensity, 9% 
+higher increase in patent applications, and 9% higher increase in average patent value during the five years after the financial 
+institution mergers, compared to the five years before the merger. 
+
+4.2.3. IV regressions and results 
+In this subsection, I complement the DiD analysis above with an instrument variable (IV) strategy to obtain a quantitative estimate 
+
+of the effect of the VCO on suppliers’ innovation activities from the variation generated by the financial institutional mergers. I run 
+specifications with the difference between average log innovation variables in the periods before and after the mergers as the 
+dependent variable, and the difference between average VCO in percentage in the periods before and after the mergers as the main 
+explanatory variable. I control merger fixed effects and all control variables in the baseline regression. All the control variables are 
+evaluated in the year prior to the mergers. I instrument the main explanatory variable with the treatment dummy constructed using the 
+top and bottom terciles of the implied change in VCO, as in the DiD analysis above.11 In particular, the first-stage regression is as 
+follow: 
+
+Δpost− preVCOijt = δ1 Treatmentij +Xij,t− 1 +αj + εij,
+
+where firm i is in merger j that happens in year t. Δpost− preVCO denotes the difference between the average VCO in the five years after 
+the mergers and the average VCO in the five years before the mergers: 
+
+∑5 ∑
+
+Δ +k × 100 5
+t− k × 100
+
+post− preVCOijt =
+k=1VCOij,t
+
+− k=1VCOij,
+5 5 
+
+And the second-stage regression is 
+
+Δpost− preinnovationijt = δ2 Δpost ̂− preVCOijt +Xij,t− 1 +αj + εij,
+
+where Δpost− preinnovation denotes the difference between the average innovation variables in the five years after the mergers and the 
+average innovation variables in the five years before the mergers: 
+
+Δpost− preinnovationijt  
+
+10 The construction of stacked dataset discussed above will lead to duplicate firm-year observations, because the same firm-year observations can 
+serve as treated/control observations in data samples for different mergers. Therefore, it is necessary to control firm/year-merger fixed effects.  
+11 The raw implied change in VCO could also be used as the instrument. The benefit of using implied change in VCO as the instrument is that it 
+
+makes use of more variation. But it potentially has more measurement error. 
+
+12
+
+
+
+X. Chen                                                                                                                                                                        P a c i fi c - B a s i n  F in a n c e  J o u r n a l 87 (2024) 102478
+
+Table 4 
+DiD Regression.   
+
+(1) (2) (3) (4)  
+
+EW EW VW VW 
+
+Panel A ln(1 + R&D Intensity) 
+Treatment × Post 0.015** 0.027*** 0.018** 0.028***  
+
+(2.172) (7.702) (2.505) (8.029) 
+Q  − 0.005***  − 0.005***   
+
+(− 3.500)  (− 3.511) 
+ln(Sales)  − 0.177***  − 0.177***   
+
+(− 17.478)  (− 17.509) 
+Capital Intensity  0.241***  0.241***   
+
+(7.771)  (7.776) 
+Profitability  − 0.367***  − 0.367***   
+
+(− 14.961)  (− 14.981) 
+Leverage  − 0.152***  − 0.152***   
+
+(− 10.681)  (− 10.679) 
+Observations 49,244 43,478 49,244 43,478 
+R-squared 0.757 0.818 0.757 0.818 
+Firm-merger FE Yes Yes Yes Yes 
+Year-merger FE Yes Yes Yes Yes    
+
+(1) (2) (3) (4)  
+
+EW EW VW VW 
+
+Panel B ln(1 + #pat) 
+Treatment × Post 0.098*** 0.059*** 0.089*** 0.058***  
+
+(5.234) (3.706) (4.512) (3.618) 
+Q  − 0.001  − 0.001   
+
+(− 0.450)  (− 0.462) 
+ln(Sales)  0.243***  0.243***   
+
+(22.956)  (23.045) 
+Capital Intensity  0.244***  0.244***   
+
+(4.759)  (4.746) 
+Profitability  − 0.226***  − 0.226***   
+
+(− 10.681)  (− 10.654) 
+Leverage  − 0.195***  − 0.195***   
+
+(− 9.088)  (− 9.077) 
+Observations 49,330 43,478 49,330 43,478 
+R-squared 0.762 0.832 0.762 0.832 
+Firm-merger FE Yes Yes Yes Yes 
+Year-merger FE Yes Yes Yes Yes 
+Panel C ln(1 + Avg.xi) 
+Treatment × Post 0.089*** 0.078*** 0.086*** 0.081***  
+
+(3.022) (3.556) (2.892) (3.679) 
+Q  0.024***  0.024***   
+
+(7.206)  (7.229) 
+ln(Sales)  0.144***  0.144***   
+
+(8.548)  (8.538) 
+Capital Intensity  − 0.094**  − 0.094**   
+
+(− 2.241)  (− 2.225) 
+Profitability  − 0.028  − 0.028   
+
+(− 1.541)  (− 1.527) 
+Leverage  − 0.159***  − 0.159***   
+
+(− 6.211)  (− 6.200) 
+Observations 49,330 43,478 49,330 43,478 
+
+(continued on next page) 
+
+13
+
+
+
+X. Chen                                                                                                                                                                        P a c i fi c - B a s i n  F in a n c e  J o u r n a l 87 (2024) 102478
+
+Table 4 (continued )  
+(1) (2) (3) (4)  
+
+EW EW VW VW 
+
+R-squared 0.731 0.788 0.731 0.788 
+Firm-merger FE Yes Yes Yes Yes 
+Year-merger FE Yes Yes Yes Yes 
+
+This table reports the DiD regression results for the model: 
+Innovationijt = β0 + β1 Treatmentij ×Postjt + β2Xijt +αij + αtj + εijt   
+
+The dependent variables are ln(1 + R&D Intensity) in Panel A, ln(1 + #pat) in Panel B, and ln(1 + Avg.xi) in Panel C. Treatmentij is a dummy variable 
+that equals one if firm i is a treated firm in merger j. Postjt is a dummy variable that equals one if year t is in post-event period for merger j. The treated 
+firms are those in the top tercile of ΔVCO, while the control firms are those in the bottom tercile of ΔVCO. ΔVCO is the difference between (1) the 
+hypothetical VCO assuming the merger had already happened in the year before announcement and (2) the actual VCO in the year before the 
+announcement. The treated firms are identified based on equally weighted ΔVCO in columns (1) and (2), and on sales-value-weighted ΔVCO in 
+columns (3) and (4). X is a vector of control variables. Results of DiD regressions without control variables are reported in columns (1) and (3). Both 
+firm-merger and time-merger fixed effects are employed. Standard errors are clustered at the merger level. t-statistics are reported in parentheses 
+below coefficient estimates. Significance at the 10%, 5%, and 1% level is denoted by *, **, and ***, respectively.  
+
+( ∑ ) (
+5 ∑ )
+
+innovation 5
+= ln 1+ k=1 ij,t− k in
+
+− ln 1+ k=1 novationij,t+k
+,
+
+5 5
+
+Panel A of Table 5 reports the result of first-stage regression. The treatment dummy works as a strong instrument for the difference 
+between average VCOs before and after the mergers. Specifically, the p-values from underidentification tests are smaller than 1%, and 
+the F-statistics from weak identification tests are around 75. The coefficient estimates for the instrument variable suggest that, 
+compared with the control firms, the increase in the average VCO of the treated firms in the five years after the mergers is around 0.07 
+percentage point higher. Panel B of Table 5 presents the results of second-stage regressions. These results show positive and significant 
+effects of the instrumented change in the VCO on the change in innovation. Multiplying the coefficients on Δpost− preVCO by the co
+efficient on Treatment in the first-stage regression, the results suggest that compared with the control firms, the increase in R&D in
+tensity of the treated firms after the mergers is about 4% higher, the increase in the number of applied patents is around 9% higher, and 
+the increase in the average patent value is around 12% higher. These estimates are consistent with the results from the DiD analysis. 
+
+One crucial condition for the DiD approach to be appropriate is the assumption of parallel trends between the treatment and control 
+groups in the pre-event period. I verify this assumption by comparing the average growth of the innovation measures for treated versus 
+control firms during the five years prior to the institutional mergers and find that the parallel trends assumption is likely to hold in my 
+setting. Please refer to Appendix C for more details about the test. Overall, the DiD and the IV analyses suggest that an exogenous 
+increase in a supplier’s vertical common ownership leads, on average, to greater amounts of supplier innovation input and output. The 
+findings provide plausible evidence for a causal interpretation of the positive relation between vertical common ownership and 
+supplier innovation activities. 
+
+4.3. Additional tests 
+
+To assess whether there are different effects between vertical and horizontal common ownerships, I include a proxy for common 
+ownership of competitors (i.e., horizontal common ownership) in the baseline regressions. Similar to the construction of vertical 
+common ownership, I first construct a firm-pair-level measure of horizontal common ownership, called pairwise HCO, as: 
+
+∑F
+pairwise HCOijt = β β ,
+
+f=1 fit fjt
+
+where there are F institutions holding both firm i and its competitor j. βfi(j)t denotes institution f ‘s holding fraction of firm i (competitor 
+j) in year t. The value of pairwise VCO is higher when there are more common owners and/or when these common owners are holding 
+higher fractions of firms and/or their competitors. I use FIC500 code developed by Hoberg and Phillips (2016) to identify 
+competitors.12 
+
+Next, I aggregate pairwise HCO at the level of firm i to construct HCO as: 
+
+12 I do not use SIC codes because industry identification on the basis of SIC codes has multiple issues. First, the industry of a conglomerate cannot 
+be described by a single SIC. Second, firms with the same SIC code are not necessarily competitors, but could be upstream and downstream firms in 
+the same industry. FIC codes mitigate these issues by introducing text-based industry categorization. In particular, FIC codes group the firms into 
+different industries based on the similarity of their product descriptions in 10-K files. FIC500 categorizes firms in the market into 500 industry 
+groups. In untabulated results, I also use FIC300 and FIC400, and get similar results. 
+
+14
+
+
+
+X. Chen                                                                                                                                                                        P a c i fi c - B a s i n  F in a n c e  J o u r n a l 87 (2024) 102478
+
+Table 5 
+IV Regressions.  
+
+Panel A Δpost− preV CO  
+
+EW VW  
+
+(1) (2) 
+
+Treatment 0.071*** 0.067***  
+(8.727) (7.702) 
+
+IO 0.001 0.002  
+(0.076) (0.085) 
+
+IO HHI − 0.007 − 0.009  
+(− 1.214) (− 1.317) 
+
+Q 0.006*** 0.007***  
+(5.413) (5.642) 
+
+ln(Sales) 0.011*** 0.012***  
+(3.436) (3.866) 
+
+Capital Intensity − 0.072*** − 0.058**  
+(− 2.880) (− 2.524) 
+
+Profitability 0.010 0.012  
+(0.906) (1.132) 
+
+Leverage − 0.016 − 0.01  
+(− 0.674) (− 0.764) 
+
+Observations 4200 4200 
+Merger FE Yes Yes 
+P-val. 0.0000 0.0000 
+(Underidentification Test)   
+Kleibergen-Paap Wald rk F-stat. 76.16 74.61 
+(Weak Identification Test)     
+
+Panel B Δln(1 + R&D Intensity) Δln(1 + #pat) Δln(1 + Avg.xi)  
+
+EW VW EW VW EW VW  
+
+(1) (2) (3) (4) (5) (6) 
+
+Δpost− preVCO 0.626** 0.703*** 1.329*** 1.256*** 1.698*** 1.701***  
+(2.485) (2.769) (3.412) (3.052) (4.190) (3.965) 
+
+IO − 0.242*** − 0.243*** 0.072 0.069 0.134** 0.132**  
+(− 4.053) (− 4.141) (1.470) (1.387) (2.312) (2.193) 
+
+IO HHI − 0.260** − 0.259** − 0.123*** − 0.122*** − 0.045 − 0.044  
+(− 2.319) (− 2.298) (− 3.049) (− 3.039) (− 0.995) (− 0.980) 
+
+Q − 0.004 − 0.005 0.023*** 0.023*** 0.008 0.008  
+(− 0.353) (− 0.432) (3.853) (3.839) (1.388) (1.250) 
+
+ln(Sales) 0.017* 0.016 − 0.015 − 0.015 − 0.007 − 0.009  
+(1.905) (1.679) (− 0.964) (− 0.964) (− 0.787) (− 0.956) 
+
+Capital Intensity − 0.631*** − 0.634*** 0.086 0.060 0.171* 0.159*  
+(− 4.690) (− 4.666) (0.688) (0.463) (1.930) (1.706) 
+
+Profitability 0.831*** 0.829*** 0.370*** 0.370*** 0.133*** 0.132***  
+(8.975) (8.961) (8.137) (8.168) (3.695) (3.762) 
+
+Leverage − 0.118** − 0.115** − 0.137*** − 0.133*** − 0.081 − 0.075  
+(− 2.154) (− 2.081) (− 2.919) (− 2.894) (− 1.276) (− 1.205) 
+
+Observations 4200 4200 5026 5026 5026 5026 
+R-squared 0.067 0.060 0.044 0.039 0.173 0.193 
+Merger FE Yes Yes Yes Yes Yes Yes 
+
+Panel A of this table reports the first-stage IV regression results for the model: 
+Δpost− preVCOijt = δ1 Treatmentij +Xij,t− 1 +αj + εij   
+
+Δpost− pre VCO measures the difference between average VCO in the periods before and after the mergers. The instrument variable is the treatment 
+dummy constructed using the top and bottom terciles of the implied change in VCO, as in the DiD analysis. Panel B of this table reports the second- 
+stage regression results for the model: 
+
+Δpost− preinnovationijt = δ2 Δpost ̂− preVCOijt +Xij,t− 1 + αj + εij   
+
+Δpost− pre innovation measures the difference between average log innovation variables in the periods before and after the mergers. In Panel B, the log 
+innovation variables are ln(1 + R&D Intensity) columns (1) and (2), ln(1 + #pat) in columns (3) and (4), and ln(1 + Avg.xi) in columns (5) and (6). X is 
+a vector of all control variables used in baseline regression evaluated in the year before the mergers. Δpost− pre VCO and Treatment are constructed based 
+on both equally weighted and sale-value-weighted VCO. Merger fixed effects are employed. Standard errors are clustered at the merger level. t- 
+statistics are reported in parentheses below coefficient estimates. Significance at the 10%, 5%, and 1% level is denoted by *, **, and ***, respectively.  
+
+15
+
+
+
+X. Chen                                                                                                                                                                        P a c i fi c - B a s i n  F in a n c e  J o u r n a l 87 (2024) 102478
+
+Table 6 
+Vertical vs. Horizontal Common Ownership.   
+
+(1) (2) (3) (4) (5) (6)  
+
+EW VW EW VW EW VW 
+
+Panel A ln(1 + R&D Intensity) 
+VCO 2.818* 1.851**   2.996* 1.588**  
+
+(1.896) (2.500)   (1.756) (2.066) 
+HCO   0.942 1.606*** − 0.860 0.814    
+
+(1.054) (2.833) (− 0.563) (1.649) 
+Obs. 6237 6237 6237 6237 6237 6237 
+R-squared 0.847 0.847 0.847 0.847 0.847 0.847 
+Controls Yes Yes Yes Yes Yes Yes 
+Firm FE Yes Yes Yes Yes Yes Yes 
+Year FE Yes Yes Yes Yes Yes Yes 
+Panel B ln(1 + #pat) 
+VCO 24.890*** 22.687***   19.644** 13.346*  
+
+(3.495) (3.154)   (2.605) (1.768) 
+HCO   34.036*** 30.346*** 19.318* 22.507***    
+
+(3.222) (4.834) (1.699) (3.611) 
+Obs. 6671 6671 6671 6671 6671 6671 
+R-squared 0.837 0.837 0.837 0.837 0.837 0.837 
+Controls Yes Yes Yes Yes Yes Yes 
+Firm FE Yes Yes Yes Yes Yes Yes 
+Year FE Yes Yes Yes Yes Yes Yes 
+Panel C ln(1 + Avg.xi) 
+VCO 11.107*** 9.995**   9.033* 7.286*  
+
+(2.817) (2.548)   (1.967) (1.752) 
+HCO   14.441* 10.681* 7.461 6.283    
+
+(1.710) (1.841) (0.773) (0.991) 
+Obs. 6673 6673 6673 6673 6673 6673 
+R-squared 0.779 0.779 0.779 0.779 0.779 0.779 
+Controls Yes Yes Yes Yes Yes Yes 
+Firm FE Yes Yes Yes Yes Yes Yes 
+Year FE Yes Yes Yes Yes Yes Yes 
+
+This table reports the results for models that regress the innovation activity measure on vertical common ownership, horizontal common ownership, 
+and both. The dependent variables are ln(1 + R&D Intensity) in Panel A, ln(1 + #pat) in Panel B, and ln(1 + Avg.xi) in Panel C. The results for vertical 
+common ownership are in columns (1) and (2), those for horizontal common ownership are in columns (3) and (4), and those for both are in columns 
+(5) and (6). Columns (1), (3), and (5) show the results with equally weighted common ownership measures, and columns (2), (4), and (6) show the 
+results with value-weighted measures. All control variables, firm and year fixed effects are included in all regressions. Standard errors are clustered at 
+the industry level. t-statistics are reported in parentheses below coefficient estimates. Significance at the 10%, 5%, and 1% level is denoted by *, **, 
+and ***, respectively. 
+
+∑J
+HCOit = w p
+
+j t airwi
+=1 j se HCO  
+
+where there are J competitors for firm i. The weight wjt denotes competitor j’s relative share among all the competitors in year t. I 
+employ both equal weights and weights on the basis of the market value of each competitor. 
+
+Table 6 reports the results for models that also control for horizontal common ownership. Given that the needed FIC code is 
+available only for 1996 and later, the sample period for these models is from 1996 to 2010, and sample sizes are smaller than baseline 
+regressions. Panel A compares the effects of vertical versus horizontal common ownership on innovation input as measured by R&D 
+Intensity. Columns (1) and (2) show that equally weighted and value-weighted vertical common ownerships are positively associated 
+with R&D Intensity at the 10% and 5% significance levels respectively. Columns (3) and (4) show that only value-weighted horizontal 
+common ownership is positively associated with R&D Intensity, at the 1% significance level, if VCO is excluded from the model. It 
+implies that the impact of horizontal common ownership on R&D Intensity works mainly through the common holdings of the large 
+firms. When both vertical and horizontal common ownership are included in the regressions, as in columns (5) and (6), horizontal 
+common ownership loses statistical significance, while equally weighted and value-weighted vertical common ownerships still keep 
+statistical significance at 10% and 5% levels respectively. The coefficient magnitudes of vertical common ownership are larger than 
+those of horizontal common ownership in all six columns. The vertical common ownership effect clearly dominates. 
+
+Panel B compares the effects between vertical and horizontal common ownership on suppliers’ quantity of innovation output as 
+measured by ln(1 + #pat). Columns (1) and (2) show that both equally weighted and value-weighted vertical common ownerships are 
+positively associated with ln(1 + #pat) at the 1% significance level. Columns (3) and (4) show that both equally weighted and value- 
+weighted horizontal common ownerships are positively related to ln(1 + #pat) at the 1% significance level as well, and the coefficient 
+magnitudes of horizontal common ownership are larger than those of vertical common ownership. When both vertical and horizontal 
+common ownerships are included in the regressions in columns (5) and (6), both vertical and horizontal common ownerships retain 
+their statistical significances. 
+
+Lastly, Panel C compares the effects of vertical and horizontal common ownership on the quality of innovation output as measured 
+
+16
+
+
+
+X. Chen                                                                                                                                                                        P a c i fi c - B a s i n  F in a n c e  J o u r n a l 87 (2024) 102478
+
+by ln(1 + Avgxi). Columns (1) and (2) show that equally weighted and value-weighted vertical common ownership are positively 
+associated with ln(1 + Avgxi) at the 1% and 5% significance levels respectively. Columns (3) and (4) show that both equally weighted 
+and value-weighted horizontal common ownership are also positively associated with ln(1 + Avgxi) at the 10% significance level. 
+When both vertical and horizontal common ownerships are included in the regressions in columns (5) and (6), horizontal common 
+ownership loses statistical significance, while vertical common ownership retains statistical significance at the 10% level, suggesting 
+that the effect of VCO again dominates. 
+
+Overall, Table 6 shows that vertical common ownership has a more robust effect on innovation input and quality of innovation 
+output than horizontal common ownership does. The magnitude of vertical common ownership’s impact on input to innovation is 
+consistently larger than that of horizontal common ownership. The reason might be that there are two countervailing effects of 
+horizontal common ownership on corporate innovation: a positive effect from technology spillovers and a negative business-stealing 
+effect from competitors (Bloom et al., 2013; Anton et al., 2018). In contrast, the impact of vertical common ownership on corporate 
+innovation has two positive effects: a positive technology spillover effect and a positive effect from hold-up mitigation along the supply 
+chain. 
+
+I also test the baseline regression results for alternative vertical common ownership measures on the basis of different assumptions 
+about shareholder attention (Gilje et al., 2020) and find positive and significant associations with the outcomes for most cases. Please 
+refer to Appendix D for more details about the test. Overall, the positive and statistically significant relationships between innovation 
+activities and supplier vertical common ownership are robust across models that use alternative measures of common ownership and 
+different assumptions about the allocation of shareholder attention. 
+
+5. Vertical common ownership and suppliers’ innovation activities: potential channels 
+
+Baseline regressions and DiD analyses suggest that vertical common ownership leads suppliers to improve their innovation input 
+and output. This section explores potential reasons why vertical common ownership may affect supplier innovation activities: (1) a 
+hold-up mitigation channel, (2) a technological spillover channel, and (3) a vertical creative destruction channel. 
+
+5.1. Hold-up mitigation channel 
+
+A hold-up problem could emerge for a supplier when its customers act opportunistically towards the supplier’s relationship-specific 
+innovation or products. Customer opportunism could reduce the supplier’s incentives to invest in and thus generate innovations. The 
+hold-up problems are unobservable; therefore, I construct proxies for the scenarios that are related to the severities of potential hold-up 
+problems. In particular, a hold-up channel is examined from three perspectives: (1) a supplier’s vertical integration with its operating 
+segments, (2) a supplier’s bargaining power relative to its customers, and (3) the asset specificity of inputs to a supplier’s customers.13 
+
+Vertically integrated firms are those for whom at least one of their operating segments is in the downstream industry. When the 
+customers of vertically integrated firms act or tend to act opportunistically, the segments in downstream industries can at least 
+temporarily function as “internal customers.” Therefore, customer opportunism has less impact on vertically integrated suppliers. 
+
+When the market power of a supplier in its own industry is relatively stronger than that of its customer in that customer’s industry, 
+the bargaining power of the supplier is stronger vis-`a-vis the customer. The strong market power of a supplier in its industry implies 
+that the supplier has relatively better production capability than peer firms. Its products thus have a relatively larger market share and 
+more stable quality control. If a customer switches to other less competitive suppliers, the marginal cost for purchasing the input could 
+be larger due to less accessibility or potentially worse quality. From the customer side, weak market power in its industry implies that 
+the customer has a relatively smaller market share than peer firms, and therefore, there will be less opportunity cost for its supplier to 
+break the relationship and transfer to other customers. In sum, it is less likely for the customer to act opportunistically by threatening to 
+transfer to other suppliers that provide similar products. Suppliers with stronger bargaining power relative to their customers, 
+therefore, have fewer hold-up problems. 
+
+Customer opportunism arises mainly towards relationship-specific products because these customized products are hard to market 
+or difficult to use for other customers. When the input to customers can be more easily used in other industries (i.e., these assets have 
+less asset specificity), it is less likely for the suppliers to produce relationship-specific products, thereby leading to fewer hold-up 
+problems for the suppliers. 
+
+Theoretical studies (e.g., Grossman and Hart, 1986) suggest that joint ownership could mitigate the severities of hold-up problems. 
+Common owners have the incentive to mitigate the severities of hold-up problems because they could actually benefit from better 
+(relationship-specific) innovation performance of the suppliers that could result from improved supplier-customer relationships. For 
+example, relationship-specific products can lower the cost of inputs for the customers, thereby leading to higher profits and, thus, 
+potentially higher values for the customers as well as the entire portfolio. If vertical common ownership really improves suppliers’ 
+innovation performance by mitigating the hold-up problems between suppliers and customers in the same portfolio, I expect to see that 
+the impact of vertical common ownership is less pronounced for the suppliers with fewer hold-up problems in the first place. 
+
+13 According to FASB 131, an operating segment is a component of an entity that (1) engages in business activities from which it may earn revenues 
+and incur expenses and (2) has discrete financial information available. An operating segment’s operating results are reviewed regularly by the 
+entity’s chief operating decision maker to make decisions about resources to be allocated to the segment and assess its performance. An operating 
+segment could be a division, unit, or department of a firm. Public firms are required to disclose information about their operating segments. 
+
+17
+
+
+
+X. Chen                                                                                                                                                                        P a c i fi c - B a s i n  F in a n c e  J o u r n a l 87 (2024) 102478
+
+The following subsections report the construction of proxies for hold-up issues and results of the tests for the conjectures above. 
+
+5.1.1. Vertical integration 
+As discussed above, if vertical common ownership really affects suppliers’ innovation activities by lessening opportunities for hold- 
+
+up problems between the supplier and its customers, the impact of vertical common ownership on innovation activities should be less 
+pronounced for vertically integrated suppliers. I test this conjecture by running the following regression: 
+
+Innovationit = β0 + β1VCOi,t− 1 + β2PVIi,t− 1 + μVCOi,t− 1PVIi,t− 1 + β3Xi,t− 1 + αi +αt + εit , (1)  
+
+where PVIit is the percentage of sales from operating segments in downstream industries out of the total sales from all its segments.14 I 
+expect to see a negative and statistically significant estimate for the coefficient μ on the interaction term in Eq. (1) if the conjecture 
+holds. 
+
+Table 7 reports the results for tests of this conjecture. The estimated coefficients on the interaction terms between vertical common 
+ownership and the weight of segments in downstream industries measured by PVI are negative and significant when the dependent 
+variables are the innovation input and the quality of innovation output. This finding suggests that the effects of vertical common 
+ownership on the outcome variables, (1) investment in innovation and (2) quality of innovation output, are weaker for more vertically 
+integrated suppliers. This finding is consistent with the argument that vertical common ownership improves the innovation input and 
+the quality of innovation output by reducing the likelihood of hold-up problems. 
+
+5.1.2. Supplier bargaining power 
+If a supplier has stronger bargaining power, relative to its customers, then these customers are less likely to act opportunistically 
+
+against the supplier. I construct the variable Size Rank Ratio (SRR) as a proxy for a supplier’s bargaining power relative to its 
+customers: 
+
+∑C SR
+SRRit = w it
+
+,
+c=1 ctSRct
+
+where supplier i in year t has C customers. SRi(c)t denotes supplier i (customer c)’s size rank in year t. Size rank of a firm is measured as 
+the decile of its accumulated sales, across the current year and the past two years, in its market as identified by its three-digit SIC code. 
+The weight wct applies to customer c in year t. I use both (1) equal weights, and (2) value weights based on the sales value between 
+supplier and its customers. 
+
+I use accumulated sales because the market power of a firm is the consequence of persistent market performance in multiple years. 
+Short-term sales in a single year may not correctly reflect the true market power of a firm. Size rank reflects the relative market 
+performance of a firm compared with its peers in the same industry. It is more comparable across different industries than sales value or 
+market share. Sales value ignores different sizes across industries. Market share takes industry size into consideration but ignores the 
+relation between the firm and its peers in the same industry. For example, Firm A has a 30% market share in an industry with only two 
+firms, and the other firm has a 70% market share, while Firm B also has a 30% market share, but in an industry with many firms and 
+each of these other firms has less than 5% market share. Firm A and B have the same market share, but the market power is unlikely to 
+be the same. 
+
+If vertical common ownership really affects suppliers’ innovation activities by mitigating the hold-up issues between a supplier and 
+its customers, the impact of vertical common ownership on innovation activities should be less pronounced for suppliers with higher 
+SRR. I test this conjecture using the following regression: 
+
+Innovationit = β0 + β1VCOi,t− 1 + β2SRRi,t− 1 + μVCOi,t− 1SRRi,t− 1 + β3Xi,t− 1 +αi +αt + εit, (2) 
+If the conjecture holds, I expect to see a negative and statistically significant estimate for the coefficient μ on the interaction term in 
+
+Eq. (2). 
+Table 8 reports the results for tests of this conjecture. The estimating sample retains only those suppliers having all their customers 
+
+with available sales data, so the sample size for these regressions is smaller. The estimate for the coefficient on interaction term be
+tween vertical common ownership and the size-rank ratio is negative and significant in the model to explain innovation input. The 
+result suggests that the effect of vertical common ownership on investment in innovation is weaker for a supplier with stronger 
+bargaining power relative to its customers. This finding is consistent with the argument that vertical common ownership improves 
+innovation input by minimizing the potential for hold-up problems. 
+
+5.1.3. Customer input redeployability 
+If customers are using an input that can be redeployed more easily to other industries, so that their suppliers’ products and related 
+
+innovation are less relationship-specific, these suppliers are less likely to be held up by their customers. Kim and Kung (2017) develop 
+proxies for asset redeployability according to the BEA I/O table. Based on their measures, I construct the variable Input Redeployability 
+(IR) as proxy for the asset specificity of customer inputs: 
+
+14 I follow Martin and Otto (2017)’s procedures to identify operating segments in the downstream industries of a firm. More details about the 
+method are in Appendix E. 
+
+18
+
+
+
+X. Chen                                                                                                                                                                        P a c i fi c - B a s i n  F in a n c e  J o u r n a l 87 (2024) 102478
+
+Table 7 
+Hold-up Channel: Vertical Integration.   
+
+ln(1 + R&D Intensity) ln(1 + #pat) ln(1 + Avg.xi)  
+
+EW VW EW VW EW VW  
+
+(1) (2) (3) (4) (5) (6) 
+
+VCO 3.057** 3.310** 27.549*** 27.048*** 32.983*** 31.691***  
+(2.515) (2.323) (2.958) (3.171) (3.537) (3.400) 
+
+PVI − 0.003 0.002 − 0.011 − 0.011 − 0.058 − 0.063  
+(− 0.165) (0.105) (− 0.101) (− 0.103) (− 0.557) (− 0.602) 
+
+VCO PVI − 5.780** − 7.210** − 9.275 − 9.282 − 30.959*** − 29.179***  
+(− 2.269) (− 2.045) (− 0.605) (− 0.627) (− 2.938) (− 2.750) 
+
+IO HHI 0.003 0.003 0.090* 0.090* 0.104** 0.104**  
+(0.203) (0.218) (1.816) (1.819) (2.438) (2.444) 
+
+IO − 0.003 0.000 − 0.193 − 0.192 0.143 0.143  
+(− 0.175) (0.011) (− 1.613) (− 1.586) (1.301) (1.279) 
+
+Q − 0.003 − 0.003 0.036*** 0.036*** 0.047*** 0.047***  
+(− 0.839) (− 0.842) (5.199) (5.196) (7.101) (7.111) 
+
+ln(Sales) 0.018*** 0.018*** 0.397*** 0.397*** 0.207*** 0.207***  
+(3.795) (3.650) (8.604) (8.601) (10.781) (10.659) 
+
+Capital Intensity − 0.032 − 0.032 0.319** 0.321** 0.243 0.245  
+(− 1.478) (− 1.477) (2.305) (2.326) (1.562) (1.577) 
+
+Profitability − 0.189** − 0.189** − 0.165*** − 0.165*** 0.039 0.039  
+(− 2.189) (− 2.195) (− 2.856) (− 2.843) (0.977) (0.971) 
+
+Leverage − 0.103** − 0.103** − 0.330*** − 0.329*** − 0.146*** − 0.146***  
+(− 2.155) (− 2.157) (− 4.951) (− 4.963) (− 2.793) (− 2.778) 
+
+Obs. 11,859 11,859 11,868 11,868 11,868 11,868 
+R-squared 0.824 0.824 0.821 0.821 0.775 0.775 
+Firm FE Yes Yes Yes Yes Yes Yes 
+Year FE Yes Yes Yes Yes Yes Yes 
+
+This table reports regression results for the model: 
+Innovationit = β0 + β1VCOi,t− 1 + β2PVIi,t− 1 + μVCOi,t− 1PVIi,t− 1 + β3Xi,t− 1 +αi + αt + εit ,
+
+where PVI is the percentage of sales from segments in downstream industries out of the total sales from all segments. The dependent variables are ln(1 
++ R&D Intensity) in columns (1) and (2), ln(1 + #pat) in columns (3) and (4), and ln(1 + Avg.xi) in columns (5) and (6). The supplier-level variable 
+VCO is an equally weighted average of supplier-customer-pair-level vertical common ownership in columns (1), (3) and (5); and a sales-value- 
+weighted average in columns (2), (4) and (6). Firm and year fixed effects are employed in all regressions. Standard errors are clustered at the in
+dustry level. t- statistics are reported in parentheses below coefficient estimates. Significance at the 10%, 5%, and 1% level is denoted by *, **, and 
+***, respectively.  
+
+∑C
+IRit = w Re
+
+c t depl
+=1 c oyabilityct ,
+
+where supplier i in year t has C customers. Redeployabilityct is the firm-level redeployability score developed by Kim and Kung (2017) 
+for customer c in year t. Higher Redeployabilityct implies that customer c is using a more redeployable (i.e., less relationship-specific) 
+input from her suppliers. Kim and Kung (2017) also provide their dataset of redeployability scores. The factor wct denotes the weight of 
+customer c in year t. I use both equal weights and value weights based on the value of sales between the supplier and its customers. 
+
+If vertical common ownership really affects suppliers’ innovation activities by mitigating the hold-up issues between suppliers and 
+their customers, the impact of vertical common ownership on innovation activities should be less pronounced for suppliers with higher 
+IR. I test this conjecture by running the following regression: 
+
+Innovationit = β0 + β1VCOi,t− 1 + β2IRi,t− 1 + μVCOi,t− 1IRi,t− 1 + β3Xi,t− 1 +αi + αt + εit, (3) 
+I expect to see a negative and statistically significant estimate for the coefficient μ on the interaction term in Eq. (3) if the conjecture 
+
+holds. 
+Table 9 reports the results for tests of this conjecture. Kim and Kung (2017)’s dataset starts only in 1985, so the sample size for these 
+
+regressions is smaller. The estimates for the coefficient on the interaction term between vertical common ownership and customer 
+input redeployability are negative and significant when the dependent variable is innovation input. This result suggests that the effect 
+of vertical common ownership on investment in innovation is weaker for the suppliers with customers that are using more rede
+ployable inputs from these suppliers. This finding is consistent with the argument that vertical common ownership improves inno
+vation input by reducing the potential for hold-up problems with specific consumers. 
+
+Overall, the three tests with different proxies for the intensity of hold-up issues consistently suggest that vertical common 
+ownership influences suppliers’ innovation through a hold-up channel. Investment in innovation is the only robust measure of 
+innovation performance for the three tests. It suggests that this hold-up channel works mainly for innovation input, and has little 
+
+19
+
+
+
+X. Chen                                                                                                                                                                        P a c i fi c - B a s i n  F in a n c e  J o u r n a l 87 (2024) 102478
+
+Table 8 
+Hold-up Channel: Supplier Bargaining Power.   
+
+ln(1 + R&D Intensity) ln(1 + #pat) ln(1 + Avg.xi)  
+
+EW VW EW VW EW VW  
+
+(1) (2) (3) (4) (5) (6) 
+
+VCO 6.630** 5.883*** 10.927 12.855 14.413 14.432*  
+(2.560) (2.815) (0.667) (0.850) (1.464) (1.746) 
+
+SRR 0.025*** 0.025*** − 0.102 − 0.109 − 0.104*** − 0.105***  
+(2.676) (2.635) (− 1.402) (− 1.520) (− 3.426) (− 3.115) 
+
+VCO SRR − 5.595** − 5.106** 19.703 16.771 5.602 4.362  
+(− 2.548) (− 2.604) (0.930) (0.854) (0.657) (0.578) 
+
+IO HHI − 0.030 − 0.030 0.011 0.012 0.097* 0.098*  
+(− 1.338) (− 1.341) (0.166) (0.188) (1.660) (1.688) 
+
+IO 0.031 0.033 − 0.043 − 0.039 0.269* 0.275**  
+(1.565) (1.544) (− 0.260) (− 0.230) (1.956) (1.998) 
+
+Q − 0.005 − 0.005 0.023** 0.023** 0.036*** 0.036***  
+(− 0.973) (− 0.972) (2.252) (2.257) (4.022) (4.038) 
+
+ln(Sales) − 0.059 − 0.059 0.326*** 0.328*** 0.201*** 0.202***  
+(− 1.644) (− 1.646) (3.693) (3.704) (6.961) (6.929) 
+
+Capital Intensity − 0.084 − 0.083 0.079 0.080 − 0.117 − 0.115  
+(− 1.440) (− 1.432) (0.398) (0.401) (− 0.790) (− 0.775) 
+
+Profitability − 0.038* − 0.038* − 0.290*** − 0.290*** − 0.035 − 0.035  
+(− 1.713) (− 1.727) (− 4.506) (− 4.500) (− 0.515) (− 0.516) 
+
+Leverage − 0.056*** − 0.056*** − 0.272*** − 0.272*** − 0.049 − 0.050  
+(− 2.770) (− 2.782) (− 3.067) (− 3.050) (− 0.669) (− 0.669) 
+
+Obs. 7763 7763 7763 7763 7763 7763 
+R-squared 0.866 0.866 0.829 0.829 0.799 0.799 
+Firm FE Yes Yes Yes Yes Yes Yes 
+Year FE Yes Yes Yes Yes Yes Yes 
+
+This table reports regression results for the model: 
+Innovationit = β0 + β1VCOi,t− 1 + β2SRRi,t− 1 + μVCOi,t− 1SRRi,t− 1 + β3Xi,t− 1 +αi + αt + εit ,
+
+∑
+where SRR C
+
+it = c=1wctSRit/SRct . SRi(c)t denotes supplier i (customer c)’s size rank in year t. Size rank of a firm is measured as the decile of its 
+accumulated sales in the current year and the past two years in its market, as identified by three-digit SIC codes. wct denotes the weight of customer c 
+in year t. The dependent variables are ln(1 + R&D Intensity) in columns (1) and (2), ln(1 + #pat) in columns (3) and (4), and ln(1 + Avg.xi) in columns 
+(5) and (6). V CO and SRR are equally weighted in columns (1), (3) and (5); and sales-value weighted in columns (2), (4) and (6). Firm and year fixed 
+effects are employed in all regressions. Standard errors are clustered at the industry level. t-statistics are reported in parentheses below coefficient 
+estimates. Significance at the 10%, 5%, and 1% level is denoted by *, **, and ***, respectively.  
+
+influence on innovation output. 
+
+5.2. Technological spillover channel 
+
+Another potential channel whereby vertical common ownership may impact a supplier’s innovation activities is through tech
+nological spillover. Technological spillover has been shown to improve corporate innovation performance (e.g., Chu et al., 2019). 
+Empirical evidence (e.g., Kostovetsky and Manconi, 2020) also demonstrates that common ownership is associated with more in
+formation exchange concerning innovation, such as patent citations between firms. It is empirically challenging to test unobservable 
+technological spillover. In this paper, I use a proxy for conditions that can facilitate technological spillover, in particular, the “tech
+nology proximities” between suppliers and their customers. 
+
+Jaffe (1986) suggests that technological spillover is related to the technological nature of firms’ past research, and presents evi
+dence that closer technological positions of firms’ research programs lead to stronger spillover effects between them. The similarity 
+between firms’ research programs facilitates the information spillover because it is easier for researchers in similar fields to 
+communicate with and learn from each other. If vertical common ownership really enhances suppliers’ innovation performance by 
+improving technological spillovers between suppliers and customers in the same portfolio, I expect to observe that the impact of 
+vertical common ownership on innovation activities is stronger for suppliers having closer technology proximity with their customers. 
+
+Following Jaffe (1986), I construct the variable called Technology Proximity (TP) as a proxy for the degree of similarity in the 
+technological spaces of suppliers and customers: 
+
+(
+∑C Sʹ )2
+
+TPit = w itCct
+c=1 ct ( Sʹ )( ),
+
+itSit CćtCct
+
+where supplier i in year t has C customers. Sit (Cct) is a column vector, and each element of Sit (Cct) is the ratio of the number of supplier i 
+
+20
+
+
+
+X. Chen                                                                                                                                                                        P a c i fi c - B a s i n  F in a n c e  J o u r n a l 87 (2024) 102478
+
+Table 9 
+Hold-up Channel: Customer Input Redeployability.   
+
+ln(1 + R&D Intensity) ln(1 + #pat) ln(1 + Avg.xi)  
+
+EW VW EW VW EW VW  
+
+(1) (2) (3) (4) (5) (6) 
+
+VCO 11.946* 12.881** 26.124 32.594 13.766 8.662  
+(1.833) (2.165) (0.687) (0.863) (0.424) (0.282) 
+
+IR − 0.086 − 0.062 0.062 0.048 0.012 0.008  
+(− 0.929) (− 0.712) (0.188) (0.158) (0.038) (0.028) 
+
+VCO IR − 23.407* − 27.383** − 3.687 − 20.231 − 1.877 6.825  
+(− 1.733) (− 2.036) (− 0.040) (− 0.220) (− 0.023) (0.088) 
+
+IO HHI − 0.040 − 0.040 − 0.051 − 0.051 0.059 0.059  
+(− 1.279) (− 1.276) (− 0.991) (− 0.997) (0.869) (0.865) 
+
+IO 0.077*  0.081* 0.091 0.094 0.296***  
+(1.795) (1.754) (0.709) (0.723) (2.818) (2.862) 
+
+Q − 0.008 − 0.008 0.016* 0.016* 0.038*** 0.038***  
+(− 1.420) (− 1.423) (1.922) (1.915) (5.287) (5.272) 
+
+ln(Sales) − 0.070** − 0.070** 0.248*** 0.249*** 0.155*** 0.155***  
+(− 2.013) (− 2.020) (3.618) (3.613) (8.227) (8.191) 
+
+Capital Intensity − 0.009 − 0.009 0.057 0.058 0.056 0.056  
+(− 0.351) (− 0.354) (0.409) (0.421) (0.357) (0.355) 
+
+Profitability − 0.058*** − 0.059*** − 0.218*** − 0.219*** 0.038 0.037  
+(− 4.521) (− 4.581) (− 2.763) (− 2.782) (0.685) (0.674) 
+
+Leverage − 0.035* − 0.035* − 0.309*** − 0.309*** − 0.118* − 0.118*  
+(− 1.952) (− 1.961) (− 4.400) (− 4.403) (− 1.882) (− 1.871) 
+
+Obs. 8914 8914 8920 8920 8920 8920 
+R-squared 0.842 0.842 0.836 0.836 0.787 0.787 
+Firm FE Yes Yes Yes Yes Yes Yes 
+Year FE Yes Yes Yes Yes Yes Yes 
+
+This table reports regression results for the model: 
+Innovationit = β0 + β1VCOi,t− 1 + β2IRi,t− 1 + μVCOi,t− 1IRi,t− 1 + β3Xi,t− 1 +αi + αt + εit ,
+
+∑
+where IR C
+
+it = c=1wctRedeployabilityct . Redeployabilityct is firm-level redeployability score developed by Kim and Kung (2017) for customer c in year t. 
+The term wct denotes the weight of customer c in year t. The dependent variables are ln(1 + R&D Intensity) in columns (1) and (2), ln(1 + #pat) in 
+columns (3) and (4), and ln(1 + Avg.xi) in columns (5) and (6). V CO and IR are equally weighted in columns (1), (3) and (5); and sales-value weighted 
+in columns (2), (4) and (6). Firm and year fixed effects are employed in all regressions. Standard errors are clustered at the industry level. t-statistics 
+are reported in parentheses below coefficient estimates. Significance at the 10%, 5%, and 1% level is denoted by *, **, and ***, respectively.  
+
+(customer c)’s patents in the last three years (i.e., from year t − 2 to year t), in a given patent class, to the total number of supplier i 
+(customer c)’s patents in the last three years.15 The factor wct denotes the weight of customer c in year t. I use both equal weights and 
+value weights based on the sales value between a supplier and its customers. The impact of vertical common ownership on a supplier’s 
+innovation activities should be stronger for suppliers with higher technology proximity with its customers if a technological spillover 
+channel exists. I test this conjecture by running the following regression: 
+
+Innovationit = β0 + β1VCOi,t− 1 + β2TPi,t− 1 + μVCOi,t− 1TPi,t− 1 + β3Xi,t− 1 +αi +αt + εit, (4) 
+I expect to see a positive and statistically significant estimate for the coefficient μ on the interaction term in Eq. (4), if the conjecture 
+
+holds. 
+Table 10 reports the results for tests of this conjecture. The estimates for the coefficients on the interaction term between vertical 
+
+common ownership and technology proximity are positive and significant for both the quantity and the quality of innovation output, 
+but insignificant for the innovation input. These results suggest that the effect of vertical common ownership on innovation output is 
+stronger for firms with greater technology proximity to their customers. This finding is consistent with the argument that vertical 
+common ownership improves innovation output by improving technological spillovers between suppliers and their customers. 
+
+5.3. Vertical creative destruction channel 
+
+Vertical creative destruction describes the situation that innovations by suppliers can devalue customers’ assets-in-place (Gofman 
+et al., 2020). Common owners tend to internalize all the externalities imposed on firms held in the same portfolio (Hansen and Lott, 
+1996), so they might also react to the negative impact caused by vertical creative destruction. 
+
+15 Before 2013, the United States Patent and Trademark Office (USPTO) used the United States Patent Classification (USPC) system to categorize 
+patents based on the technical features. It has 420 unique classification codes. 
+
+21
+
+
+
+X. Chen                                                                                                                                                                        P a c i fi c - B a s i n  F in a n c e  J o u r n a l 87 (2024) 102478
+
+Table 10 
+Technological Spillover Channel: Technology Proximity.   
+
+ln(1 + R&D Intensity) ln(1 + #pat) ln(1 + Avg.xi)  
+
+EW VW EW VW EW VW  
+
+(1) (2) (3) (4) (5) (6) 
+
+VCO 1.511** 1.027 25.917*** 24.972*** 12.070* 11.682*  
+(2.319) (1.575) (3.471) (3.451) (1.909) (1.919) 
+
+TP 0.021 0.018 0.312** 0.294** 0.215* 0.175  
+(1.007) (0.850) (2.339) (2.435) (1.699) (1.380) 
+
+VCO TP 14.159 8.853 54.750* 50.141* 51.126* 47.971*  
+(1.511) (1.471) (1.919) (1.772) (1.776) (1.716) 
+
+IO HHI − 0.030 − 0.030 − 0.006 − 0.006 0.061 0.060  
+(− 1.366) (− 1.365) (− 0.125) (− 0.120) (1.393) (1.391) 
+
+IO 0.079* 0.083* 0.042 0.049 0.227** 0.231**  
+(1.763) (1.732) (0.324) (0.371) (2.071) (2.096) 
+
+Q − 0.008* − 0.008* 0.018*** 0.017*** 0.036*** 0.036***  
+(− 1.730) (− 1.729) (2.657) (2.630) (5.678) (5.644) 
+
+ln(Sales) − 0.067** − 0.066** 0.268*** 0.269*** 0.163*** 0.163***  
+(− 2.074) (− 2.073) (4.961) (4.955) (5.459) (5.445) 
+
+Capital Intensity 0.018 0.019 0.013 0.018 0.024 0.028  
+(0.610) (0.616) (0.102) (0.134) (0.190) (0.219) 
+
+Profitability − 0.078*** − 0.079*** − 0.259*** − 0.262*** − 0.060 − 0.063  
+(− 2.703) (− 2.670) (− 3.831) (− 3.860) (− 1.100) (− 1.139) 
+
+Leverage − 0.075** − 0.074** − 0.362*** − 0.361*** − 0.179*** − 0.179***  
+(− 2.429) (− 2.450) (− 4.560) (− 4.553) (− 3.181) (− 3.179) 
+
+Obs. 11,857 11,857 11,866 11,866 11,866 11,866 
+R-squared 0.832 0.832 0.815 0.815 0.774 0.774 
+Firm FE Yes Yes Yes Yes Yes Yes 
+Year FE Yes Yes Yes Yes Yes Yes 
+
+This table reports regression results for the model: 
+Innovationit = β0 + β1VCOi,t− 1 + β2TPi,t− 1 + μVCOi,t− 1TPi,t− 1 + β3Xi,t− 1 +αi +αt + εit ,
+
+∑
+where TP C ( )2 [( )( ) ]
+
+it = c=1wct ŚitCct / ŚitSit CćtCct . Sit (Cct) is a column vector, and each element of Sit (Cct) is the ratio of (a) the number of supplier i 
+(customer c)’s patents in the last three years (i.e., from year t − 2 to year t) in a patent class to (b) the total number of supplier i (customer c)’s patents 
+in the last three years. The term wct denotes the weight of customer c in year t. The dependent variables are ln(1 + R&D Intensity) in columns (1) and 
+(2), ln(1 + #pat) in columns (3) and (4), and ln(1 + Avg.xi) in columns (4) and (6). VCO and TP are equally weighted in columns (1), (3) and (5); and 
+sales-value weighted in columns (2), (4) and (6). Firm and year fixed effects are employed in all regressions. Standard errors are clustered at the 
+industry level. t-statistics are reported in parentheses below coefficient estimates. Significance at the 10%, 5%, and 1% level is denoted by *, **, and 
+***, respectively.  
+
+The vertical creative destruction effect should be the strongest if the suppliers are capital-goods producers. In my empirical test, I 
+identify suppliers in capital-producing industries based on BEA I/O tables. In particular, I construct a variable called capital-to-total- 
+use ratio (CTUR) based on the USE table: 
+
+/
+CTURjt = Capital Goodjt Total Usejt ,
+
+where the use of a commodity by industry j as Capital Good is the sum of non-residential fixed investment in equipment, intellectual 
+property, and structures, and residential fixed investment in the USE table. Furthermore, Total Use of the commodity by industry j 
+includes the intermediate use, consumption, government use, and all other types of investment in the USE table. Then I identify the 
+capital-producing industries as those industries with CTUR larger than 0.5. 
+
+The impact of vertical common ownership on a supplier’s innovation activities should be weaker for a supplier in a capital- 
+producing industry if a vertical creative destruction channel really exists. I test this conjecture by running the following regression: 
+
+Innovationit = β0 + β1VCOi,t− 1 + β2Capi,t− 1 + μVCOi,t− 1Capi,t− 1 + β3Xi,t− 1 +αi + αt + εit, (5)  
+
+where Cap is a dummy equal to one if supplier i is in an industry with CTUR larger than 0.5. If the conjecture holds, I expect to see a 
+negative and statistically significant estimate for the coefficient μ on the interaction term in Eq. (5). 
+
+Table 11 reports the results of tests of this conjecture. The estimate for the coefficient on the interaction term between vertical 
+common ownership and a dummy for a capital-goods producer is negative and significant for both the quantity and the quality of 
+innovation output, but does not achieve significance for innovation input. For the innovation output variables, the magnitudes of 
+coefficients on the interaction terms are larger than those of coefficients on VCO. This result implies that the positive effect of vertical 
+common ownership on innovation is offset by the negative effect caused by vertical creative destruction suppliers that mainly produce 
+
+22
+
+
+
+X. Chen                                                                                                                                                                        P a c i fi c - B a s i n  F in a n c e  J o u r n a l 87 (2024) 102478
+
+Table 11 
+Vertical Creative Destruction Channel: Capital Good Producer.   
+
+ln(1 + R&D Intensity) ln(1 + #pat) ln(1 + Avg.xi)  
+
+EW VW EW VW EW VW  
+
+(1) (2) (3) (4) (5) (6) 
+
+VCO 2.509* 1.953* 23.196*** 22.052*** 11.210*** 11.535***  
+(1.870) (1.972) (2.853) (2.776) (3.659) (4.141) 
+
+VCO CAP − 2.026 − 1.750* − 31.575** − 29.906** − 38.528* − 39.501*  
+(− 1.627) (− 1.689) (− 2.151) (− 1.983) (− 1.905) (− 1.968) 
+
+IO HHI − 0.030 − 0.029 − 0.012 − 0.012 0.057 0.056  
+(− 1.280) (− 1.280) (− 0.246) (− 0.251) (1.192) (1.186) 
+
+IO 0.081* 0.084* 0.098 0.103 0.248** 0.247**  
+(1.889) (1.877) (0.813) (0.862) (2.268) (2.254) 
+
+Q − 0.008* − 0.008* 0.015* 0.015* 0.036*** 0.036***  
+(− 1.667) (− 1.666) (1.869) (1.864) (5.888) (5.892) 
+
+ln(Sales) − 0.069** − 0.069** 0.275*** 0.275*** 0.168*** 0.168***  
+(− 2.067) (− 2.068) (3.920) (3.910) (10.703) (10.642) 
+
+Capital Intensity 0.025 0.025 0.034 0.037 0.043 0.045  
+(0.789) (0.789) (0.290) (0.317) (0.308) (0.327) 
+
+Profitability − 0.078*** − 0.079*** − 0.276*** − 0.276*** − 0.051 − 0.051  
+(− 2.738) (− 2.738) (− 4.095) (− 4.085) (− 0.973) (− 0.963) 
+
+Leverage − 0.078** − 0.079*** − 0.378*** − 0.377*** − 0.187*** − 0.186***  
+(− 2.607) (− 2.620) (− 5.884) (− 5.881) (− 3.517) (− 3.507) 
+
+Obs. 11,357 11,357 11,365 11,365 11,365 11,365 
+R-squared 0.834 0.834 0.817 0.817 0.777 0.777 
+Firm FE Yes Yes Yes Yes Yes Yes 
+Year FE Yes Yes Yes Yes Yes Yes 
+
+This table reports regression results for the model: 
+Innovationit = β0 + β1VCOi,t− 1 + β2Capi,t− 1 + μVCOi,t− 1Capi,t− 1 + β3Xi,t− 1 +αi + αt + εit ,
+
+where Cap is a dummy equal to one if supplier i is in an industry with CTUR larger than 0.5. CTURjt = Capital Goodjt/Total Usejt, where the use of a 
+commodity by industry j as a Capital Good is the sum of nonresidential fixed investment in equipment, intellectual property, and structures, and 
+residential fixed investment. And Total Use of the commodity by industry j includes the intermediate use, consumption, government use, and all other 
+types of investment. The dependent variables are ln(1 + R&D Intensity) in columns (1) and (2), ln(1 + #pat) in columns (3) and (4), and ln(1 + Avg.xi) 
+in columns (5) and (6). VCO is equally weighted in columns (1), (3) and (5); and sales-value weighted in columns (2), (4) and (6). Firm and year fixed 
+effects are employed in all regressions. Standard errors are clustered at the industry level. t-statistics are reported in parentheses below coefficient 
+estimates. Significance at the 10%, 5%, and 1% level is denoted by *, **, and ***, respectively.  
+
+capital goods. The positive associations between vertical common ownership and innovation exist only for intermediate-goods pro
+ducers This finding is consistent with the argument that vertical common ownership can weaken innovation activities, especially for 
+capital-goods suppliers, due to vertical creative destruction. 
+
+In addition to tests of possible supplier-level mechanisms, I also test the association between patent cross-citations and vertical 
+common ownership at the supplier-customer-pair level and find that vertical common ownership can increase a supplier’s relationship- 
+specific innovation by reducing the likelihood of hold-up by the supplier’s customers. Please refer to Appendix F for more details about 
+the test. Overall, tests of the mechanisms behind the hold-up mitigation, the technological spillover, and the vertical creative 
+destruction channels provide plausible evidence to support the contention that vertical common ownership (1) increases a supplier’s 
+investment in innovation by mitigating the hold-up issues between the supplier and its customers, (2) increases a supplier’s quantity 
+and quality of innovation output by improving technological spillovers between the supplier and its customers, and (3) weakens a 
+supplier’s quantity and quality of innovation output due to vertical creative destruction. 
+
+6. Conclusion 
+
+Although there is an emerging literature concerning the impact of common ownership on corporate financial decisions, studies that 
+specifically address vertical common ownership, especially its impacts on corporate investment and innovation, are still rare. This 
+paper examines the impact of vertical common ownership on suppliers’ innovation activities. I find that suppliers’ investment in 
+innovation, and the quantity and quality of suppliers’ innovation output, all increase when common owners hold higher fractions of 
+the equities of suppliers and their customers. The impacts of vertical common ownership on innovation activities are stronger and more 
+robust than the impacts of horizontal common ownership. I provide plausible evidence for causality using both a difference-in- 
+differences approach and an instrument variable approach based on mergers of financial institutions. Moreover, I test the potential 
+channels through which vertical common ownership could influence supplier innovation activities. I find that such vertical common 
+ownership increases investment in innovation by mitigating potential hold-up problems between suppliers and their customers and 
+
+23
+
+
+
+X. Chen                                                                                                                                                                        P a c i fi c - B a s i n  F in a n c e  J o u r n a l 87 (2024) 102478
+
+enhances innovation output performance by improving technological spillovers between the suppliers and their customers. However, 
+my results also suggest that for suppliers producing mainly capital goods, these positive effects of common ownership on innovation 
+are offset by a negative effect due to vertical creative destruction. 
+
+Overall, my evidence suggests that institutional common ownership enhances suppliers’ innovation performance by improving 
+relationships between suppliers and their customers. This research establishes plausible evidence for a causal association between 
+common ownership and supplier innovation. Furthermore, by exploring potential economic channels, this study has important im
+plications for our understanding of the impacts of common ownership along the supply chain, thereby suggesting another possible 
+driver for corporate innovation. 
+
+The concern about potential anti-competitive effects due to common ownership has led academics to recommend anti-trust scrutiny 
+for institutional investors. The findings of this paper suggest a positive side of common ownership. My analyses imply that regulators 
+may motivate institutional investors to hold firms along the supply chain, which can be beneficial for the economy by improving 
+relationships between upstream and downstream firms. 
+
+CRediT authorship contribution statement 
+
+Xian Chen: Conceptualization, Data curation, Formal analysis, Methodology, Visualization, Writing – original draft. 
+
+Appendix A. Variable definitions  
+
+∑C ∑F
+• VCO: vertical common ownership. VCOit = c=1wct f=1βfitβfct , where there are F institutions holding both firm i and its customer 
+
+c. βfi(c)t denotes institution f ‘s holding fraction of firm i (customer c) in year t. There are C customers for firm i. The weight wct 
+denotes customer c’s relative share among all firm i’s customers in year t. Both equal weight and value weight on the basis of sales 
+value between firm i and each customer are employed (Source: Thomson Reuters, Compustat Customer Segment).  
+
+∑J ∑
+• HCO: horizontal common ownership. HCO F
+
+it = j=1wjt f=1βfitβfjt , where there are F institutions holding both firm i and its 
+competitor j. βfi(j)t denotes institution f ‘s holding fraction of firm i (competitor j) in year t. I use the FIC500 codes developed by 
+Hoberg and Phillips (2016) to identify competitors. There are J competitors for firm i. The weight wjt denotes competitor j’s relative 
+share among all the competitors in year t. Both equal weights and value weights on the basis of market values of competitors are 
+employed (Source: Thomson Reuters, Hoberg and Phillips (2016), CRSP).  
+
+∑
+• GGLV CO: vertical common ownership under various assumptions about investors’ attention: GGLVCO C
+
+st = c=1wctGGLsct, where 
+there are C customers for supplier s in year t. GGLsct is the common ownership measure for the pair of supplier s and customer c in 
+year t. GGL can be constructed under three different assumptions of investors’ attention: linear attention, concave attention, and 
+convex attention. More details about the construction of the GGL measures are provided in Appendix D. wct denotes the weight of 
+customer c. Both equal weight and sales-value weight are employed. Following Gilje et al. (2020), I also rescale the common 
+ownership measures by the sample mean (Source: Compustat Customer Segment, Gilje et al. (2020)).  
+
+• R&D Intensity: R&D expenditure (XRD) divided by sales (SALE) (Source: Compustat).  
+• #pat: the number of patent applications at firm-year level (Source: Kogan et al. (2017)).  
+• Avg.xi: average patent value at firm-year level (Source: Kogan et al. (2017)).  
+
+∑
+• IO HHI: Institutional ownership concentration. IO HHI F
+
+it = f=1r2
+fit, where there are F institutions holding firm i’s equity. rfit denotes 
+
+institution f ‘s holding fraction of firm i among the total institutional holding in year t (Source: Thomson Reuters).  
+• IO: The percentage of institutional holding among a firm’s total equity (Source: Thomson Reuters, CRSP).  
+• Q: Tobin’s Q. Q = [Market value of equity (CSHOQ × PRCCQ) + total assets (AT) - book value of equity (CEQQ) - deferred taxes 
+
+(TXDBQ)] / total assets (AT) (Source: Compustat).  
+• ln(Sales): Natural log of sales (SALE in $million) (Source: Compustat).  
+• Leverage: Total debt divided by total assets (AT), where total debt = short-term debt (DLC) + long-term debt (DLTT) (Source: 
+
+Compustat).  
+• Profitability: Earnings before interest, depreciation, taxes and amortization (EBIDTA) divided by total assets (AT) (Source: 
+
+Compustat).  
+• Capital Intensity: Net property, plant and equipment (PPENT) divided by total assets (AT) (Source: Compustat).  
+• PVI: the percentage of sales from segments in downstream industries out of the total sales from all segments. The downstream 
+
+industries are identified based on BEA I–O tables; more details about the identification method can be referred to in Appendix C 
+(Source: Compustat Segment, BEA I–O tables).  
+
+∑
+• SRR: size rank ratio.SRR C
+
+it = c=1wctSRit/SRct. SRi(c)t denotes supplier i (customer c)’s size rank in year t. Size rank of a firm is 
+measured as the decile of its accumulated sales in current year and past two years in its market identified by three-digit SIC code. wct 
+denotes the weight of customer c in year t. Both equal weight and sales-value weight are employed (Source: Compustat Customer 
+Segment). 
+
+∑
+• IR: customer input redeployability. IR C
+
+it = c=1wctRedeployabilityct . Redeployabilityct is the firm-level redeployability score devel
+oped by Kim and Kung (2017) for customer c in year t. wct denotes the weight of customer c in year t. Both equal weight and sales- 
+value weight are employed (Source: Compustat Customer Segment, Kim and Kung (2017)). 
+
+24
+
+
+
+X. Chen                                                                                                                                                                        P a c i fi c - B a s i n  F in a n c e  J o u r n a l 87 (2024) 102478
+∑ [( )( ) ]
+
+ technology proximity. TP C ( )2
+• TP: it = c=1wct ŚitCct / SítSit CćtCct . Sit (Cct) is a column vector, and each element of Sit (Cct) is the 
+
+ratio of the number of supplier i (customer c)’s patents in the last three years (i.e., from year t-2 to year t) in a patent class to the total 
+number of supplier i (customer c)’s patents in the last three years. wct denotes the weight of customer c in year t. Both equal weight 
+and sales-value weight are employed (Source: Compustat Customer Segment, Kogan et al. (2017)).  
+
+• cite: firm-pair level patent cross-citations. citesc includes (1) the total cross-citations between supplier s and customer c, (2) the 
+citations from supplier s to customer c, and (3) the citations from customer c to supplier s (Source: Kogan et al. (2017)). 
+
+Appendix B. M&As among financial institutions  
+
+Announce- ment Date Effective Date Acquirer Target 
+
+04/19/1982 01/19/1983 Pittsburgh National Corp Provident National Bank 
+08/02/1982 04/01/1983 Mellon Financial Girard Bank 
+11/18/1982 04/01/1983 Huntington National Bank Union Commerce Bank 
+12/21/1983 07/01/1984 Chase Manhattan Corp Lincoln First Banks Inc. 
+06/30/1986 02/27/1987 PNC Financial Corp Citizens Fidelty Bk & Tr 
+03/18/1987 01/01/1988 Fleet Financial Group Norstar Trust Company 
+04/27/1987 11/01/1987 Sovran Financial Corp Commerce Union Bank 
+07/31/1987 02/29/1988 PNC Financial Corp Central Bancorp 
+05/04/1988 12/26/1988 Boatmen’s Bancshares Inc Centerre Bancorp 
+07/15/1991 12/31/1991 Chemical Banking Corp Manufacturers Hanover Co 
+09/16/1991 07/23/1992 PNC Financial Corp First Natl Bank/Penn 
+12/30/1991 11/02/1992 Banc One Corp Affiliated Bksh/Colorado 
+03/18/1992 10/15/1992 NBD Bancorp Inc INB Financial Corp 
+09/09/1992 07/13/1993 Bank of Boston Corp Multibank Financial Corp 
+09/14/1992 05/21/1993 Mellon Bank Corp Boston Company Inc 
+11/23/1992 07/22/1993 Equitable Companies Inc Alliance Capital Mgmt 
+09/20/1993 05/31/1994 Marshall & Ilsley Corp Valley Trust Co/Wisc 
+10/18/1993 07/01/1994 First Union Corp Lieber & Co 
+03/06/1994 06/30/1994 First Union Corp Evergreen Asset Mgmt 
+11/28/1994 04/12/1995 KeyCorp Spears Benzak Salomon 
+02/21/1995 11/30/1995 Fleet Financial Group Shawmut Natl Corp 
+06/16/1995 06/16/1995 TCW Group Inc Continental Asset Mgmt 
+06/19/1995 01/02/1996 First Union Corp First Fidelity Bancorp 
+08/07/1995 02/16/1996 First Bank System Inc FirsTier Financial Inc 
+06/25/1996 11/01/1996 Franklin Resources Inc Heine Securities Corp 
+07/10/1996 10/31/1996 LGT Asset Mgmt Inc Chancellor Capital Mgmt 
+09/06/1996 12/12/1996 First Union Corp Keystone Invt Mgmt Co 
+12/30/1996 06/02/1997 Banc One Corp Liberty Bancorp Inc 
+01/20/1997 05/20/1997 Mellon Bank Corp Ganz Capital Mgmt Inc 
+03/20/1997 08/01/1997 First Bank System Inc U S Bancorp 
+11/05/1997 12/01/1997 Pimco Advisors LP Oppenheimer & Co LP 
+04/06/1998 10/08/1998 Travelers Inc Citicorp 
+04/13/1998 09/30/1998 NationsBank Corp BankAmerica Corp 
+07/20/1998 12/31/1998 SunTrust Banks Inc Crestar Bank 
+02/15/1999 07/06/1999 Credit Suisse Asset M Warburg Pincus Asset M 
+03/14/1999 10/01/1999 Fleet Boston Corp BankBoston Corp 
+06/20/2000 10/02/2000 AXA Financial Sanford C Berstein 
+09/13/2000 12/31/2000 JP Morgan & Co Chase Manhattan 
+10/25/2000 04/10/2001 Franklin Resources Fiduciary Trust Intl 
+10/18/2000 02/14/2001 Allianz Dresdner Nicholas-Applegate 
+08/26/2003 08/26/2003 Wells Fargo & Co Benson Associate 
+10/27/2003 04/01/2004 Bank of America Fleet Boston 
+05/26/2004 01/03/2005 Wells Fargo & Co Strong Capital Mgmt 
+08/26/2004 01/31/2005 BlackRock StateStreet Res & Mgmt 
+05/19/2005 08/04/2005 Transamerica Invt Mgmt WestCap Investors 
+10/31/2006 12/04/2006 Morgan Stanley FrontPoint 
+12/03/2006 07/02/2007 Bank of NY Trust Mellon Bank 
+07/07/2008 11/07/2008 RiverSource Invt J.&W. Seligman 
+09/16/2008 09/22/2008 Barclays Bank Lehman Brothers Inc 
+09/15/2008 01/01/2009 Bank of America Merrill Lynch 
+06/12/2009 12/01/2009 BlackRock Inc Barclays Bank Plc  
+
+Appendix C. Testing the parallel trends assumption 
+
+Table C reports the results of t-tests for differences between the average changes in innovation variables between treatment and 
+control groups in the pre-event period. The treated firms are identified using both equally weighted and value-weighted ΔVCOs. The p- 
+values associated with the test statistics for these t-tests suggest that there are no significant differences of average changes in the 
+
+25
+
+
+
+X. Chen                                                                                                                                                                        P a c i fi c - B a s i n  F in a n c e  J o u r n a l 87 (2024) 102478
+
+innovation variable between treatment and control groups in pre-event period. Therefore, the parallel trends assumption is likely to 
+hold in my setting.  
+
+Table C 
+Tests to assess the prior parallel trend assumption.   
+
+Changes in Pre-event Period Difference t-test  
+
+Treatment Mean Control Mean (1)–(3) (2)–(4) P-val. P-val.  
+
+EW VW EW VW EW VW EW VW  
+
+(1) (2) (3) (4) (5) (6) (7) (8) 
+
+ln(1 + R&D Intensity) − 0.001 − 0.001 − 0.016 − 0.017 0.015 0.016 0.132 0.123 
+ln(1 + #pat) 0.199 0.195 0.245 0.253 − 0.046 − 0.058 0.291 0.187 
+ln(1 + Avg.xi) 0.242 0.241 0.291 0.297 − 0.049 − 0.057 0.282 0.211 
+
+This table presents the test to verify the parallel trend assumption. Columns (1) and (2) report the average changes in the innovation measures for 
+treated firms during the five years before financial institution mergers, while columns (3) and (4) report the average changes in innovation measures 
+for control firms during the five years before the mergers. The treated and control firms are identified based on equally weighted ΔVCO in columns (1) 
+and (3), and based on sales-value-weighted ΔVCO in columns (2) and (4). Columns (5) and (6) report the differences in means of innovation measures 
+between treatment and control groups. Columns (7) and (8) report p-values associated with test statistics of t-tests for differences in means. 
+
+Appendix D. Different assumptions concerning shareholder attention 
+
+Gilje et al. (2020) construct their common ownership measure by taking into account heterogeneous institutional attention to 
+different firms in a portfolio. In particular, a shareholder’s attention to a specific firm in her portfolio is positively related to the 
+“importance” of this firm, which is measured by the weight of this firm in the shareholder’s portfolio. Gilje et al. (2020), hereafter GGL, 
+provide three different firm-pair measures of common ownership on the basis of three different assumptions about shareholders’ 
+attention:  
+
+(1) Linear attention: The shareholder’s attention is proportional to the weight of a specific firm in her portfolio,  
+(2) Convex attention: The shareholder allocates more attention to the firm with higher weight in her portfolio,  
+(3) Concave attention: The shareholder devotes less attention to the firm with higher weight in her portfolio. 
+
+In particular, the GGL measure of common ownership at the firm-pair level is constructed as follows: 
+∑I ( )
+
+GGL(A,B) = α
+i A g
+=1 i, • βi,A • αi,B,
+
+where αi,A(B) denotes institution i’s holding fraction of firm A(B), βi,A denotes the weight of firm A in institution i’s portfolio. g(⋅) is a 
+function mapping from βi,A to institution i’s attention towards firm A. The form of g(⋅) varies according to three assumptions about an 
+asset manager’s attention:  
+
+(1) Linear attention: g(βi,A) = βi,A. 
+
+An investor’s attention is proportional to the weight of a specific firm in her portfolio.  
+
+(2) Convex attention: g(βi,A) = β2
+i,A. 
+
+An investor devotes more attention to the firm with higher weight in her portfolio.  
+
+(3) Concave attention: g(βi,A) = β0.5
+i,A . 
+
+An investor devotes less attention to the firm with higher weight in her portfolio. 
+The firm-pair-level measures are further aggregated to the supplier level: 
+
+∑J
+supplier GGLit = w • GGL(i, j)
+
+j=1 jt t ,
+
+where supplier i has J customers. The term wjt denotes the weight of customer j among all customers in year t. I use both (1) equal 
+weights and (2) value weights on the basis of sales from the supplier to each of its customers. Following Gilje et al. (2020), I also rescale 
+each measure by its sample mean. 
+
+Table D reports the baseline regression results for alternative vertical common ownership measures on the basis of different as
+sumptions about shareholder attention. Panel A shows positive and statistically significant relationships between innovation input 
+measured by ln(1 + R&D Intensity) and vertical common ownership measures under assumptions of linear attention and concave 
+
+26
+
+
+
+X. Chen                                                                                                                                                                        P a c i fi c - B a s i n  F in a n c e  J o u r n a l 87 (2024) 102478
+
+attention in columns (1), (2), (5) and (6). Panel B demonstrates positive and statistically significant associations between the quantity 
+of innovation output measured by ln(1 + #pat) and vertical common ownership measures, differentiated by the three different as
+sumptions about shareholder attention. Lastly, Panel C also displays positive and statistically significant associations between the 
+quality of innovation output measured by ln(1 + Avg.xi) and the vertical common ownership measures under assumptions of linear 
+attention and concave attention in columns (1), (2), (5) and (6).  
+
+Table D 
+Different Assumptions about Shareholder Attention.   
+
+(1) (2) (3) (4) (5) (6)  
+
+EW VW EW VW EW VW 
+
+Panel A ln(1 + R&D Intensity)  
+Linear Convex Concave 
+
+GGLVCO 0.001* 0.001* 0.000 0.000 0.003*** 0.002**  
+(1.777) (1.685) (1.102) (1.114) (2.637) (2.232) 
+
+Obs. 11,857 11,857 11,857 11,857 11,857 11,857 
+R-squared 0.827 0.827 0.827 0.827 0.827 0.827 
+Controls Yes Yes Yes Yes Yes Yes 
+Firm FE Yes Yes Yes Yes Yes Yes 
+Year FE Yes Yes Yes Yes Yes Yes 
+Panel B ln(1 + #pat)  
+
+Linear Convex Concave 
+GGLVCO 0.023*** 0.021*** 0.007*** 0.006* 0.047*** 0.043***  
+
+(3.272) (2.976) (2.005) (1.700) (3.529) (3.114) 
+Obs. 11,866 11,866 11,866 11,866 11,866 11,866 
+R-squared 0.814 0.814 0.814 0.814 0.815 0.815 
+Controls Yes Yes Yes Yes Yes Yes 
+Firm FE Yes Yes Yes Yes Yes Yes 
+Year FE Yes Yes Yes Yes Yes Yes    
+
+(1) (2) (3) (4) (5) (6)  
+
+EW VW EW VW EW VW 
+
+Panel C ln(1 + Avg.xi)  
+Linear Convex Concave 
+
+GGLVCO 0.011** 0.010** 0.002 0.002 0.024*** 0.021**  
+(2.057) (1.998) (0.925) (0.941) (2.815) (2.609) 
+
+Obs. 11,866 11,866 11,866 11,866 11,866 11,866 
+R-squared 0.774 0.774 0.774 0.774 0.775 0.775 
+Controls Yes Yes Yes Yes Yes Yes 
+Firm FE Yes Yes Yes Yes Yes Yes 
+Year FE Yes Yes Yes Yes Yes Yes 
+
+This table reports the regression results with alternative vertical common ownership measures differentiated on the basis of shareholder attention 
+assumptions. The shareholder attention models and firm-pair level common ownership measures are developed and provided by Gilje et al. (2020). 
+
+∑
+GGLVCO C
+
+st = c=1wctGGLsct , where there are C customers for supplier s in year t. GGLsct is the common ownership measure for the pair of supplier s 
+and customer c in year t. GGL can be constructed under three different assumptions about investors’ attention: linear attention, concave attention, and 
+convex attention. More details about the construction of the GGL measures are provided in Appendix D. wct denotes the weight of customer c. Both 
+equal weights and sales-value weights are employed. Following Gilje et al. (2020), I also rescale the common ownership measures by the sample 
+mean. The dependent variables are ln(1 + R&D Intensity) in Panel A, ln(1 + #pat) in Panel B, and ln(1 + Avg.xi) in Panel C. The estimated effects of 
+vertical common ownership in the case of linear shareholder attention are in columns (1) and (2), those with convex shareholder attention are in 
+columns (1) and (4), and those with concave shareholder attention are in columns (5) and (6). Columns (1), (3), and (5) show the results with equally 
+weighted common ownership measures, and columns (2), (4), and (6) show the results with value-weighted measures. All control variables, firm and 
+year fixed effects are included in all regressions. Standard errors are clustered at the industry level. t-statistics are reported in parentheses below 
+coefficient estimates. Significance at the 10%, 5%, and 1% level is denoted by *, **, and ***, respectively. 
+
+Appendix E. Operating segments in downstream industries 
+
+An operating segment is a profitable unit of a firm that (1) reports its own financial information, such as revenues and expenses, and 
+(2) is regularly supervised by the firm’s executives. I identify operating segments in the downstream industries for a firm following the 
+procedures of Martin and Otto (2017). 
+
+First, following Acemoglu et al. (2016), I identify industry-level supplier-customer relationships based on the gross flows of 
+commodities between industries reported in the U.S. Bureau of Economic Analysis input-output (BEA I/O) tables. The tables include 
+“MAKE” table that links the producers’ industries with the commodities’ industries, and “USE” table that links the consumers’ in
+dustries with the commodities’ industries. By matching the two tables on the basis of commodities’ industries, I can identify the 
+upsteam industries and their related downstream industries. BEA I/O tables are provided every five years. For my data sample, I refer 
+
+27
+
+
+
+X. Chen                                                                                                                                                                        P a c i fi c - B a s i n  F in a n c e  J o u r n a l 87 (2024) 102478
+
+to the BEA I/O tables from 1982 to 2007. The BEA I/O tables report IO code as industry identification for producers, commodities, and 
+consumers. The linking tables between IO code and SIC or NAICS are also provided.16 
+
+Next, the Compustat Segment database reports SIC codes for each firm and its primary operating segments. An operating segment is 
+identified as being in the downstream industry of its firm if the SIC codes of the firm and the operating segment show that they are in 
+the upstream industry and related downstream industry according to BEA I/O tables. 
+
+Appendix F. Pair-level analyses 
+
+In addition to tests of possible supplier-level mechanisms, I also test the association between patent cross-citations and vertical 
+common ownership at the supplier-customer-pair level.17 In particular, I run the following regression: 
+
+( )
+ln 1+ citesc,t = β0 + β1 pairwise VCOsc,t− 1 + αs +αc +αt + εsct , (F1)  
+
+where citesc includes (1) total patent cross-citations between supplier s and customer c, (2) patent citations from supplier s to customer 
+c, and (3) patent citations from customer c to supplier s. Both supplier and customer fixed effects are included in the model to absorb 
+unobserved heterogeneity across firms that may also potentially influence patent cross-citations. The αt captures year fixed effects. 
+Standard errors are clustered at both the supplier and the customer industry levels. It is a challenge to explain the implications of 
+greater numbers of patent cross-citations between suppliers and their customers. On the one hand, patent cross-citations could be a 
+proxy for innovation information exchange, which would be relevant to the technological spillover channel. On the other hand, patent 
+cross-citations could be a proxy for relationship-specific innovation from the citing firm directed towards the cited firms, which would 
+be more relevant to the hold-up channel. To clarify the theoretical ambiguity concerning the expected sign of the patent cross-citation 
+effect, I run two more regressions: 
+
+( )
+ln 1+ citesc,t = β0 + β1 pairwise VCOsc,t− 1 + β2 pairwise SRRsc,t− 1  
+
++ μ pairwise VCOsc,t− 1 pairwise SRRsc,t− 1  
+
++ αs + αc + αt + εsct, (F2)  
+( )
+
+ln 1+ citesc,t = β0 + β1 pairwise VCOsc,t− 1 + β2 pairwise TPsc,t− 1  
+
++ μ pairwise VCOsc,t− 1 pairwise TPsc,t− 1  
+
++ αs + αc + αt + εsct, (F3) 
+If patent cross-citations between suppliers and customers are relevant to relationship-specific innovation, the impact of pair-level 
+
+common ownership will be cross-sectionally different based on the hold-up issues for the supplier-customer pair. In particular, pair- 
+level common ownership will have a less pronounced impact on cross-citations for a supplier-customer pair with weaker hold-up issues 
+in the first place. I use the pair-level Size Rank Ratio (pairwise SRR) as the proxy for the hold-up issues between a specific supplier- 
+customer pair. I expect to see a negative and statistically significant estimate for the coefficient μ in Eq. (F2). 
+
+Similarly, if patent cross-citations are relevant to information spillover between suppliers and customers, the pair-level common 
+ownership will have a stronger impact on cross-citations for the supplier-customer pair with closer technology proximity. I use the pair- 
+level Technology Proximity (pairwise TP) as the proxy for the technology proximity between a specific supplier-customer pair. I expect 
+to see a positive and statistically significant estimate for the coefficient μ in Eq. (F3). 
+
+Table F reports results for the three models specified above in Eqs. (F1), (F2), and (F3). Panel A shows that greater pair-level vertical 
+common ownership increases the number of patent cross-citations between suppliers and customers, especially the number of cross- 
+citations from suppliers towards their customers. Panel B tests Eq. (F2) and shows a negative and statistically significant estimate for 
+the coefficient on the interaction between the pair-level vertical common ownership (VCO) and the pair-level size rank ratio (SRR) 
+when the dependent variable is the number of patent citations from suppliers to their customers. Panel C tests Eq. (F3) and shows no 
+statistical significance for the estimate of the coefficient on the interaction term between the pair-level VCO and pair-level technology 
+proximity. In all panels, there is no significant association between pair-level VCO and patent cross-citations from customers to their 
+suppliers. These results suggest that patent cross-citations between suppliers and their customers are more likely to be a proxy for 
+relationship-specific innovation from suppliers towards their customers. The findings here provide additional evidence that vertical 
+common ownership can increase a supplier’s relationship-specific innovation by reducing the likelihood of hold-up by the supplier’s 
+customers. 
+
+16 According to US Census Bureau, NAICS replaced SIC in 1997. Thus, BEA I/O tables start to provide IO-linking-NAICS table instead of IO-linking- 
+SIC table from 1997. A detailed conversion between SIC and NAICS is available from US Census Bureau  
+17 Kogan et al. (2017)’s dataset provides the patent identifiers of citing patents linked with the patent identifiers of cited patents. Therefore, I can 
+
+calculate the number of customers(suppliers)’ patents cited by their suppliers(customers)’ patents. 
+
+28
+
+
+
+X. Chen                                                                                                                                                                        P a c i fi c - B a s i n  F in a n c e  J o u r n a l 87 (2024) 102478
+
+Table F 
+Pair-level Analyses.   
+
+(1) (2) (3)  
+
+ln(1 + total cite) ln(1 + supplier- citing-customer) ln(1 + customer- citing-supplier) 
+
+Panel A    
+pairwise V CO 7.112*** 6.777*** − 0.105  
+
+(2.797) (3.181) (− 0.064) 
+Observations 7809 7809 7809 
+R-squared 0.720 0.662 0.662 
+Supplier FE Yes Yes Yes 
+Customer FE Yes Yes Yes 
+Year FE Yes Yes Yes    
+
+(1) (2) (3)  
+
+ln(1 + total cite) ln(1 + supplier- citing-customer) ln(1 + customer- citing-supplier) 
+Panel B    
+pairwise VCO 9.197** 8.694*** − 0.111  
+
+(2.366) (3.374) (− 0.048) 
+pairwise SRR 0.024 − 0.000 0.025  
+
+(1.309) (− 0.048) (0.943) 
+pairwise VCO× pairwise SRR − 2.650 − 2.338** − 0.234  
+
+(− 1.271) (− 2.158) (− 0.150) 
+Observations 7773 7773 7773 
+R-squared 0.721 0.662 0.663 
+Supplier FE Yes Yes Yes 
+Customer FE Yes Yes Yes 
+Year FE Yes Yes Yes 
+Panel C    
+pairwise VCO 6.341*** 6.016*** − 0.482  
+
+(3.033) (3.261) (− 0.353) 
+pairwise TP 0.448** 0.601* 0.059  
+
+(2.035) (1.969) (0.435) 
+pairwise VCO× pairwise TP 12.066 6.547 11.291  
+
+(0.486) (0.265) (0.533) 
+Observations 7809 7809 7809 
+R-squared 0.721 0.665 0.662 
+Supplier FE Yes Yes Yes 
+Customer FE Yes Yes Yes 
+Year FE Yes Yes Yes 
+
+This table reports regression results for three different models. Panel A: 
+( )
+
+ln 1+ citesc,t = β0 + β1 pairwise VCOsc,t− 1 +αs +αc +αt + εsct   
+
+Panel B: 
+( )
+
+ln 1+ citesc,t = β0 + β1 pairwise VCOsc,t− 1 + β2 pairwise SRRsc,t− 1  
+
++ μ pairwise VCOsc,t− 1 pairwise SRRsc,t− 1 +αs +αc +αt + εsct   
+
+Panel C: 
+( )
+
+ln 1+ citesc,t = β0 + β1 pairwise VCOsc,t− 1 + β2 pairwise TPsc,t− 1  
+
++ μ pairwise VCOsc,t− 1 pairwise TPsc,t− 1 + αs + αc + αt + εsct   
+
+where citesc includes (1) the total cross-citations between supplier s and customer c, (2) the citations from supplier s to customer c, and (3) the citations 
+from customer c to supplier s. Supplier, customer and year fixed effects are included in each model. Standard errors are clustered at both the supplier 
+and the customer industry levels. t-statistics are reported in parentheses below coefficient estimates. Significance at the 10%, 5%, and 1% level is 
+denoted by *, **, and ***, respectively. 
+
+29
+
+
+
+X. Chen                                                                                                                                                                        P a c i fi c - B a s i n  F in a n c e  J o u r n a l 87 (2024) 102478
+
+References 
+
+Acemoglu, Daron, Autor, David, Dorn, David, Hanson, Gordon H., Price, Brendan, 2016. Import competition and the great US employment sag of the 2000s. J. Labor 
+Econ. 34 (S1), S141–S198. 
+
+Anton, Miguel, Ederer, Florian, Gine, Mireia, Schmalz, Martin C., 2018. Innovation: The bright side of common ownership? Available at SSRN 3099578. 
+Ant’on, Miguel, Ederer, Florian, Gine, Mireia, Schmalz, Martin C., 2018. Common ownership, competition, and top management incentives. Ross School Bus. Pap. 
+
+1328. 
+Atanassov, Julian, Liu, Xiaoding, 2019. Can corporate income tax cuts stimulate innovation? J. Financ. Quant. Anal. 1–51. 
+Azar, Jose, Schmalz, Martin C., Tecu, Isabel, 2018. Anticompetitive effects of common ownership. J. Financ. 73 (4), 1513–1565. 
+Azar, Jose, Raina, Sahil, Schmalz, Martin C., 2019. Ultimate ownership and bank competition. Available at SSRN 2710252. 
+Backus, Matthew, Conlon, Christopher, Sinkinson, Michael, 2019. The common ownership hypothesis: Theory and evidence. In: Economic Studies at Brookings, 
+
+1980–2017. 
+Banerjee, Shantanu, Dasgupta, Sudipto, Kim, Yungsan, 2008. Buyer–supplier relationships and the stakeholder theory of capital structure. J. Financ. 63 (5), 
+
+2507–2552. 
+Bebchuk, Lucian, Hirst, Scott, 2019. Index funds and the future of corporate governance: theory, evidence, and policy. Columbia Law Rev. 119, 2029–2145. 
+Bena, Jan, Li, Kai, 2014. Corporate innovations and mergers and acquisitions. J. Financ. 69 (5), 1923–1960. 
+Ben-David, Itzhak, Franzoni, Francesco, Moussawi, Rabih, Sedunov, John, 2021. The granular nature of large institutional investors. Manag. Sci. 67 (11), 6629–6659. 
+Bloom, Nicholas, Schankerman, Mark, Van Reenen, John, 2013. Identifying technology spillovers and product market rivalry. Econometrica 81 (4), 1347–1393. 
+Brav, Alon, Jiang, Wei, Ma, Song, Tian, Xuan, 2018. How does hedge fund activism reshape corporate innovation? J. Financ. Econ. 130 (2), 237–264. 
+Cen, Ling, Dasgupta, Sudipto, Elkamhi, Redouane, Pungaliya, Raunaq S., 2016a. Reputation and loan contract terms: the role of principal customers. Rev. Financ. 20 
+
+(2), 501–533. 
+Cen, Ling, Dasgupta, Sudipto, Sen, Rik, 2016b. Discipline or disruption? Stakeholder relationships and the effect of takeover threat. Manag. Sci. 62 (10), 2820–2841. 
+Chemmanur, Thomas J., Loutskina, Elena, Tian, Xuan, 2014. Corporate venture capital, value creation, and innovation. Rev. Financ. Stud. 27 (8), 2434–2473. 
+Chemmanur, Thomas J., Shen, Yao, Xie, Jing, 2016. Innovation beyond firm bound- aries: Common blockholders, strategic alliances, and corporate innovation. In: 
+
+American Economic Association 2017 Meetings Paper, Asian Finance Association (AsianFA) 2016 Conference Paper. 
+Chu, Yongqiang, 2012. Optimal capital structure, bargaining, and the supplier market structure. J. Financ. Econ. 106 (2), 411–426. 
+Chu, Yongqiang, Tian, Xuan, Wang, Wenyu, 2019. Corporate innovation along the supply chain. Manag. Sci. 65 (6), 2445–2466. 
+Cici, Gjergji, Gibson, Scott, Rosenfeld, Claire M., 2015. Cross-company effects of common ownership: Dealings between borrowers and lenders with a common 
+
+blockholder. Available at SSRN 2705856. 
+Dass, Nishant, Nanda, Vikram, Xiao, Steven Chong, 2017. Truncation bias corrections in patent data: implications for recent research on innovation. J. Corp. Finan. 
+
+44, 353–374. 
+Edward Fee, C., Thomas, Shawn, 2004. Sources of gains in horizontal mergers: evidence from customer, supplier, and rival firms. J. Financ. Econ. 74 (3), 423–460. 
+Edward Fee, C., Hadlock, Charles J., Thomas, Shawn, 2006. Corporate equity ownership and the governance of product market relationships. J. Financ. 1217–1251. 
+Elhauge, Einer, 2015. Horizontal shareholding. Harv. L. Rev. 129, 1267. 
+Ellingsen, Tore, Johannesson, Magnus, 2004. Is there a hold-up problem? Scand. J. Econ. 106 (3), 475–494. 
+Freeman, Kayla, 2021. Overlapping ownership along the supply chain. Kelley School Bus. Res. Pap. 16-84. 
+Geng, Heng, Hau, Harald, Lai, Sandy, 2017. Patent success, patent holdup, and the structure of property rights. In: Work. Pap., Sch. Econ. Finance, Vic. Univ. 
+
+Wellingt., Wellington, NZ Google Scholar Article Location. 
+Gilje, Erik, P., Gormley, Todd, A., Levit, Doron, 2020. Who’s paying attention? Measuring common ownership and its impact on managerial incentives. J. Financ. 137 
+
+(1), 152–178. 
+Gofman, Michael, Segal, Gill, Youchang, Wu., 2020. Production networks and stock returns: the role of vertical creative destruction. Rev. Financ. Stud. 03. 
+Gordon, Roger H., 2003. Do publicly traded corporations act in the public interest? BE J. Econ. Anal. Policy 3 (1). 
+Gormley, Todd A., Matsa, David A., 2011. Growing out of trouble? Corporate responses to liability risk. Rev. Financ. Stud. 24 (8), 2781–2821. 
+Grossman, Sanford J., Hart, Oliver D., 1986. The costs and benefits of ownership: a theory of vertical and lateral integration. J. Polit. Econ. 94 (4), 691–719. 
+Hall, Bronwyn H., Jaffe, Adam B., Trajtenberg, Manuel, 2001. The NBER Patent Citation Data File: Lessons, Insights and Methodological Tools. Technical report. 
+
+National Bureau of Economic Research. 
+Hansen, Robert G., Lott, John R., 1996. Externalities and corporate objectives in a world with diversified shareholder/consumers. J. Financ. Quant. Anal. 31 (1), 
+
+43–68. 
+Hart, Oliver, 1995. Firms, Contracts, and Financial Structure. Clarendon press. 
+Hart, Oliver, Moore, John, 1990. Property rights and the nature of the firm. J. Polit. Econ. 98 (6), 1119–1158. 
+He, Jie Jack, Huang, Jiekun, 2017. Product market competition in a world of cross- ownership: evidence from institutional blockholdings. Rev. Financ. Stud. 30 (8), 
+
+2674–2718. 
+He, Jie Jack, Huang, Jiekun, Zhao, Shan, 2019. Internalizing governance externalities: the role of institutional cross-ownership. J. Financ. Econ. 134 (2), 400–418. 
+Henke, John W., Zhang, Chun, 2010. Increasing supplier-driven innovation. IT Manag. Sel. 16. 
+Hertzel, Michael G., Li, Zhi, Officer, Micah S., Rodgers, Kimberly J., 2008. Interfirm linkages and the wealth effects of financial distress along the supply chain. 
+
+J. Financ. Econ. 87 (2), 374–387. 
+Hoberg, Gerard, Phillips, Gordon, 2016. Text-based network industries and endogenous product differentiation. J. Polit. Econ. 124 (5), 1423–1465. 
+Huston, Larry, Sakkab, Nabil, 2006. Connect and develop. Harv. Bus. Rev. 84 (3), 58–66. 
+Intintoli, Vincent J., Serfling, Matthew, Shaikh, Sarah, 2017. CEO turnovers and disruptions in customer-supplier relationships. J. Financ. Quant. Anal. 52 (6). 
+Jaffe, Adam B., 1986. Technological Opportunity and Spillovers of R&D: Evidence from firms’ Patents, Profits and Market Value. Technical report. National Bureau of 
+
+Economic Research. 
+Kale, Jayant R., Shahrur, Husayn, 2007. Corporate capital structure and the characteristics of suppliers and customers. J. Financ. Econ. 83 (2), 321–365. 
+Kim, Hyunseob, Kung, Howard, 2017. The asset redeployability channel: how uncertainty affects corporate investment. Rev. Financ. Stud. 30 (1), 245–280. 
+Klein, Benjamin, Crawford, Robert G., Alchian, Armen A., 1978. Vertical integration, appropriable rents, and the competitive contracting process. J. Law Econ. 21 (2), 
+
+297–326. 
+Kogan, Leonid, Papanikolaou, Dimitris, Seru, Amit, Stoffman, Noah, 2017. Technological innovation, resource allocation, and growth. Q. J. Econ. 132 (2), 665–712. 
+Kostovetsky, Leonard, Manconi, Alberto, 2020. Common institutional ownership and diffusion of innovation. Available at SSRN 2896372. 
+Lafontaine, Francine, Slade, Margaret, 2007. Vertical integration and firm boundaries: the evidence. J. Econ. Lit. 45 (3), 629–685. 
+Lewellen, Katharina, Lowry, Michelle, 2021. Does common ownership really increase firm coordination? J. Financ. Econ. 141 (1), 322–344. 
+Manso, Gustavo, 2011. Motivating innovation. J. Financ. 66 (5), 1823–1860. 
+Martin, Thorsten, Otto, Clemens A., 2017. The effect of hold-up problems on corporate investment: Evidence from import tariff reductions. In: HEC Paris Research 
+
+Paper No. FIN-2017-1208. 
+Matvos, Gregor, Ostrovsky, Michael, 2008. Cross-ownership, returns, and voting in mergers. J. Financ. Econ. 89 (3), 391–403. 
+Morton, Fiona Scott, Hovenkamp, Herbert, 2017. Horizontal shareholding and anti-trust policy. Yale LJ 127, 2026. 
+Newham, Melissa, Seldeslachts, Jo, Banal-Estanol, Albert, 2018. Common ownership and market entry: Evidence from pharmaceutical industry. 
+Ojeda, Waldo, 2018. Common Ownership in the Loan Market. University of California, Berkeley.  
+Porter, Michael E., 1992. Capital disadvantage: America’s failing capital investment system. Harv. Bus. Rev. 70 (5), 65–82. 
+Posner, Eric A., Scott Morton, Fiona M., Weyl, E. Glen, 2016. A proposal to limit the anti-competitive power of institutional investors. Antitrust Law J. 81, 669. 
+Rogerson, William P., 1992. Contractual solutions to the hold-up problem. Rev. Econ. Stud. 59 (4), 777–793. 
+
+30
+
+
+
+X. Chen                                                                                                                                                                        P a c i fi c - B a s i n  F in a n c e  J o u r n a l 87 (2024) 102478
+
+Schmalz, Martin C., 2018. Common-ownership concentration and corporate conduct. Annu. Rev. Financ. Econ. 10, 413–448. 
+Seru, Amit, 2014. Firm boundaries matter: evidence from conglomerates and R&D activity. J. Financ. Econ. 111 (2), 381–405. 
+Shahrur, Husayn, 2005. Industry structure and horizontal takeovers: analysis of wealth effects on rivals, suppliers, and corporate customers. J. Financ. Econ. 76 (1), 
+
+61–98. 
+Tian, Xuan, Wang, Tracy Yue, 2014. Tolerance for failure and corporate innovation. Rev. Financ. Stud. 27 (1), 211–255. 
+Williamson, Oliver E., 1971. The vertical integration of production: market failure considerations. Am. Econ. Rev. 61 (2), 112–123. 
+Williamson, Oliver E., 1975. Markets and Hierarchies. New York, 2630. 
+
+31

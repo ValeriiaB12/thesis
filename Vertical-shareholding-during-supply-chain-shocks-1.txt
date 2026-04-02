@@ -1,0 +1,289 @@
+                                                                    Economics Letters 235 (2024) 111566
+
+
+                                                                  Contents lists available at ScienceDirect
+
+
+                                                                      Economics Letters
+                                                        journal homepage: www.elsevier.com/locate/ecolet
+
+
+
+
+Vertical shareholding during supply chain shocks
+Shunlan Fang *, Rui-Zhong Zhang
+Ambassador Crawford College of Business and Entrepreneurship, Kent State University, 475 Terrace Drive, PO Box 5190, Kent, OH 44242-0001, USA
+
+
+
+
+A R T I C L E I N F O                                   A B S T R A C T
+
+JEL classification:                                     The paper examines whether common ownership along supply chains (i.e., vertical shareholding) is associated
+G30                                                     with better firm performance during supply chain shock. We find that supplier-customer dyads with vertical
+G32                                                     shareholding report higher combined monthly returns since the outbreak of the COVID-19 pandemic. The
+G34
+                                                        dedicated common investors have the most positive effects, followed by the common quasi-indexers.
+L14
+Keywords:
+COVID-19
+Vertical shareholding
+Supply chain shocks
+
+
+
+
+1. Introduction                                                                              and thereby encourage information sharing and balance the bargaining
+                                                                                             power in supply chain contract renegotiations. For example, institu­
+    As overlapping institutional ownership becomes more prevalent, it                        tional investors can influence the supplier firms to prioritize the
+has been heatedly debated whether it plays a positive role in market                         co-owned customer firms during supply shortages (Sheffi 2020).
+competition and corporate governance (e.g., Azar et al., 2018; Edmans                            We find that supplier-customer pairs with vertical shareholding have
+et al., 2019; Schmalz 2021; Koch et al., 2021; Bebchuk and Hirst 2022).                      significantly better stock market performance than those without since
+Most studies focus on its effects on industry rivals (i.e., horizontal                       the outbreak of COVID-19 pandemic. From March 2020 to December
+shareholding). Compared to industry rivals, firms along the supply chain                     2020, the supplier-customer pairs with vertical shareholding report
+network have more collaborative and interdependent relationships.                            approximately 3.7% higher combined monthly market-adjusted stock
+Hence, overlapping institutional ownership of supplier-customer dyads                        returns. Moreover, we show that the differences in stock performance
+(i.e., vertical shareholding)1 may have distinct effects, especially in                      vary with institutional investors’ incentives. The proportion of dedi­
+response to disruptive events that could jeopardize collaboration.                           cated institutional investors has the most pronounced effects, followed
+    We utilize the COVID-19 pandemic as an exogenous supply chain                            by that of quasi-indexers. Both types of investors are considered to have
+shock to investigate whether vertical shareholding is associated with                        long-term focus.
+stock performance. Supply chain disruptions can be devastating to both                           Our study adds to the emerging literature on common ownership
+upstream and downstream firms (e.g., Carvalho et al., 2021) and                              along the supply chain. Prior studies show that vertical shareholding can
+significantly exacerbate interfirm conflicts as opportunism and infor­                       reduce the holdup problem (Freeman, 2023), improve information
+mation asymmetry increase. Economic theories predict that                                    sharing (Xia et al., 2021), and encourage innovation (Chen 2020). We
+cross-ownership can address inherent interfirm conflicts, such as the                        further document the distinct effect of vertical shareholding during
+holdup problem (e.g., Klein et al., 1978; Grossman and Hart 1986).                           supply chain shocks. Our evidence also lends support to the debate on
+Institutional investors simultaneously holding shares of economically                        whether quasi-indexers may influence corporate decisions. Finally, we
+connected firms have incentives to prevent either contracting party from                     provide additional evidence on the impact of the COVID-19 pandemic
+making a move that will hurt the value of their portfolios. Hence, they                      on supply chain dyads. The evidence implies that ownership structure
+can influence the management of both upstream and downstream firms                           may help to manage supply chain risks.
+
+
+
+ * Corresponding author.
+   E-mail addresses: sfang2@kent.edu (S. Fang), rzhang28@kent.edu (R.-Z. Zhang).
+ 1
+   For example, Berkshire Hathaway owns significant shares in General Motors and is also the largest shareholder of Axalta, the supplier of coatings for General
+Motors (BusinessWire 2017).
+
+https://doi.org/10.1016/j.econlet.2024.111566
+Received 11 November 2023; Received in revised form 29 December 2023; Accepted 21 January 2024
+Available online 27 January 2024
+0165-1765/Published by Elsevier B.V. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).
+S. Fang and R.-Z. Zhang                                                                                                                Economics Letters 235 (2024) 111566
+
+
+Table 1
+Market reactions in March 2020.
+  March 2020 abnormal returns
+  Aggregated abnormal stock returns                                                        Common = 0                     Common = 1                     Diff.
+
+  Benchmark: Fama-French market capitalization-market-to-book ratio 2 × 3                  − 0.210                        0.020                          0.230***
+  No. of supply chain pairs                                                                464                            1194                           t-stats = 14.13
+
+  Benchmark: CRSP value-weighted market portfolio                                          − 0.451                        − 0.218                        0.233***
+  No. of supply chain pairs                                                                507                            1305                           t-stats = 13.62
+
+This table reports the univariate test on the stock performance differences. Common=0 refers to the supply chain pairs without any common owners. Common=1 refers
+to the supply chain pairs with at least one common owner.
+
+
+Table 2
+Long-run performance from June 2019 to December 2020.
+                                          RET                    RET_VWADJ            RET_FFADJ              RET                    RET_VWADJ                RET_FFADJ
+  Variables                               (1)                    (2)                  (3)                    (4)                    (5)                      (6)
+
+  COMMON × POST                           0.038***               0.039***             0.037***
+                                          (9.41)                 (9.61)               (9.20)
+  COMMON_%DED × POST                                                                                         0.214***               0.216***                 0.146***
+                                                                                                             (3.66)                 (3.70)                   (2.66)
+  COMMON_%QIX × POST                                                                                         0.048***               0.049***                 0.059***
+                                                                                                             (3.84)                 (3.92)                   (4.81)
+  COMMON_%TRA × POST                                                                                         0.004                  0.005                    − 0.022
+                                                                                                             (0.12)                 (0.15)                   (− 0.67)
+  SUP_ROA                                 − 0.075**              − 0.075**            − 0.081**              − 0.071*               − 0.071**                − 0.079**
+                                          (− 2.01)               (− 2.03)             (− 2.24)               (− 1.94)               (− 1.96)                 (− 2.21)
+  CUS_ROA                                 − 0.330***             − 0.337***           − 0.354***             − 0.329***             − 0.335***               − 0.353***
+                                          (− 6.89)               (− 6.89)             (− 7.38)               (− 6.82)               (− 6.83)                 (− 7.31)
+  SUP_LEV                                 0.109***               0.112***             0.094***               0.102***               0.105***                 0.089***
+                                          (3.15)                 (3.28)               (2.86)                 (2.94)                 (3.06)                   (2.71)
+  CUS_LEV                                 0.241***               0.244***             0.194***               0.241***               0.244***                 0.193***
+                                          (4.75)                 (4.79)               (3.94)                 (4.78)                 (4.82)                   (3.91)
+  SUP_SIZE                                − 0.070***             − 0.069***           − 0.053***             − 0.066***             − 0.065***               − 0.050***
+                                          (− 6.35)               (− 6.32)             (− 5.07)               (− 6.03)               (− 6.00)                 (− 4.81)
+  CUS_SIZE                                − 0.030**              − 0.030**            − 0.024**              − 0.030**              − 0.030**                − 0.024**
+                                          (− 2.50)               (− 2.49)             (− 2.10)               (− 2.52)               (− 2.51)                 (− 2.11)
+  SUP_BM                                  0.020***               0.021***             0.020***               0.020***               0.021***                 0.020***
+                                          (8.71)                 (8.99)               (8.90)                 (8.77)                 (9.05)                   (8.94)
+  CUS_BM                                  0.084***               0.084***             0.082***               0.084***               0.084***                 0.082***
+                                          (11.00)                (10.95)              (10.96)                (10.96)                (10.92)                  (10.93)
+  Intercept                               0.615***               0.585***             0.441***               0.590***               0.560***                 0.423***
+                                          (4.16)                 (3.94)               (3.08)                 (4.02)                 (3.80)                   (2.96)
+  S.E. Clustered by Sup-Cus Pair          Yes                    Yes                  Yes                    Yes                    Yes                      Yes
+  N                                       30,192                 30,192               29,812                 30,192                 30,192                   29,812
+  Adjusted R2                             0.47                   0.30                 0.11                   0.47                   0.30                     0.11
+
+***, **, * indicate significance at the 1 percent, 5 percent, and 10 percent levels. All models include supplier-customer pair and year-month fixed effects.
+
+
+2. Descriptive evidence                                                               3. Empirical models and main results
+
+    We use Compustat Segment and Thompson Refinitiv databases to                         Next, we compare the long-term performance between customer-
+identify supply chain relationships and institutional ownership. Our                  supplier pairs with and without common institutional investors from
+final sample comprises 1733 unique supplier-customer pairs of 768                     June 2019 through December 2020:
+
+
+
+PAIRRET = β0 + β1 COMMON × POST + β2 SUP ROA + β3 CUS ROA + β4 SUP LEV
+                                                                                                                                                                      (1)
++β5 CUS LEV + β6 SUP SIZE + β7 CUS SIZE + β8 SUP BM + β9 CUS BM + Supplier − CustomerPairFixedEffects + Year − MonthFixedEffects + ε
+
+
+
+unique suppliers and 484 unique customers with non-missing control
+variables. For supplier-customer pairs with at least one common insti­                where the PAIR RET is the aggregated stock performance measure. We
+tutional investor and those without any common owners, we first                       use the raw aggregated monthly stock returns and the abnormal
+compare the stock market reactions when the United States declared                    monthly returns based on two different benchmark returns for robust­
+COVID-19 a national emergency in March 2020. Table 1 shows the                        ness checks.2 The indicator variable, COMMON, equals one if a supplier-
+univariate results on aggregate market reactions of supplier-customer                 customer pair shares at least one common owner and zero otherwise.
+dyads, measured by raw returns minus the two benchmark returns,                       The time period indicator, POST, is equal to one if the monthly stock
+respectively. The results indicate that the stock performance of supplier-            return is from March 2020 to December 2020, and zero otherwise.
+customer pairs with at least one common institutional investor is
+significantly better than those without during the event month.
+                                                                                       2
+                                                                                           Results are robust to additional measures of abnormal returns.
+
+                                                                                  2
+S. Fang and R.-Z. Zhang                                                                                                              Economics Letters 235 (2024) 111566
+
+
+
+
+Fig. 1. Cumulative abnormal market returns by common quasi-indexer owners
+Common, H (L) refers to the supply chain pairs, of which the proportion of common quasi-indexer owners is above (below) the sample median.
+
+
+
+Table 3
+Long-run performance from June 2019 to December 2020 with a continuous measure of common ownership.
+                                           RET                   RET_VWADJ              RET_FFADJ            RET                   RET_VWADJ               RET_FFADJ
+  Variables                                (1)                   (2)                    (3)                  (4)                   (5)                     (6)
+
+  INNER PRODUCT × POST                     0.887***              0.928***               0.905***
+                                           (3.86)                (4.03)                 (3.91)
+  INNER PRODUCT_%DED × POST                                                                                  0.048***              0.049***                0.046***
+                                                                                                             (9.31)                (9.51)                  (9.14)
+  INNER PRODUCT_%QIX × POST                                                                                  0.018*                0.018*                  0.020**
+                                                                                                             (1.86)                (1.90)                  (2.21)
+  INNER PRODUCT_%TRA × POST                                                                                  0.019                 0.021                   0.004
+                                                                                                             (0.89)                (1.00)                  (0.19)
+  SUP_ROA                                  − 0.086**             − 0.086**              − 0.092**            − 0.080**             − 0.080**               − 0.086**
+                                           (− 2.29)              (− 2.32)               (− 2.54)             (− 2.13)              (− 2.16)                (− 2.37)
+  CUS_ROA                                  − 0.300***            − 0.307***             − 0.324***           − 0.334***            − 0.340***              − 0.359***
+                                           (− 6.52)              (− 6.54)               (− 7.07)             (− 6.93)              (− 6.94)                (− 7.46)
+  SUP_LEV                                  0.122***              0.125***               0.108***             0.109***              0.112***                0.094***
+                                           (3.47)                (3.60)                 (3.26)               (3.16)                (3.28)                  (2.88)
+  CUS_LEV                                  0.200***              0.202***               0.152***             0.237***              0.240***                0.188***
+                                           (3.98)                (4.01)                 (3.10)               (4.64)                (4.69)                  (3.79)
+  SUP_SIZE                                 − 0.071***            − 0.070***             − 0.054***           − 0.068***            − 0.067***              − 0.051***
+                                           (− 6.32)              (− 6.29)               (− 5.12)             (− 6.17)              (− 6.13)                (− 4.90)
+  CUS_SIZE                                 − 0.035***            − 0.035***             − 0.029***           − 0.030**             − 0.030**               − 0.025**
+                                           (− 3.00)              (− 3.00)               (− 2.58)             (− 2.51)              (− 2.50)                (− 2.15)
+  SUP_BM                                   0.020***              0.020***               0.020***             0.021***              0.021***                0.020***
+                                           (8.58)                (8.87)                 (8.80)               (8.77)                (9.05)                  (8.94)
+  CUS_BM                                   0.084***              0.085***               0.083***             0.085***              0.085***                0.083***
+                                           (11.11)               (11.06)                (11.07)              (11.07)               (11.02)                 (11.04)
+  Intercept                                0.706***              0.678***               0.531***             0.601***              0.571***                0.436***
+                                           (4.90)                (4.69)                 (3.81)               (4.07)                (3.85)                  (3.03)
+  S.E. Clustered by Sup-Cus Pair           Yes                   Yes                    Yes                  Yes                   Yes                     Yes
+  N                                        30,192                30,192                 29,812               30,192                30,192                  29,812
+  Adjusted R2                              0.47                  0.30                   0.11                 0.47                  0.30                    0.11
+
+***, **, * indicate significance at the 1 percent, 5 percent, and 10 percent levels. All models include supplier-customer pair and year-month fixed effects.
+
+
+    To further examine whether the performance differences are asso­                  hold diversified portfolios with    high trading turnover. Quasi-indexers
+ciated with institutional investors’ incentives, we follow Bushee (1998)              hold diversified portfolios with    low turnover, and dedicated investors
+to classify common institutional investors into three types: transient                hold concentrated portfolios         with low trading turnover. Both
+investors, quasi-indexers and dedicated investors. Transient investors                quasi-indexers and dedicated        investors are considered to have a
+
+                                                                                  3
+S. Fang and R.-Z. Zhang                                                                                                                   Economics Letters 235 (2024) 111566
+
+
+long-term focus. We replace the indicator of common ownership with                 relationships and supply chain risk management.
+the proportions of different types of common institutional owners. Ap­
+pendix A provides detailed definitions of the variables.                           Data availability
+    Table 2 presents the regression results. From columns (1) to (3), the
+coefficients of COMMON × POST are all positive and statistically sig­                  Data will be made available on request.
+nificant, suggesting that the customer-supplier pairs with common
+institutional investor ownership exhibit better stock performance since            Acknowledgments
+the outbreak of the pandemic. For example, the presence of vertical
+shareholding increases RET_VWADJ by 3.9% relative to the combined                     We appreciate helpful comments from discussants Christopher Cal­
+stock returns of firm pairs without vertical shareholding on average.              vin, Hanup Park, Minjia Li, and participants at the 2023 Journal of
+Further analyses show that the effects on stock performance are the most           Accounting, Auditing and Finance Conference, 2023 Haskayne and Fox
+pronounced with dedicated common investors (COMMON_%DED), fol­                     Accounting Conference, 2023 Accounting Alumni Conference of Temple
+lowed by common quasi-indexers (COMMON_%QIX). Common transient                     University, and 2023 All-Ohio Accounting Research Conference.
+institutional investors do not have significant effects on stock
+performance.                                                                       Supplementary materials
+    To further investigate the role of common quasi-indexer investors in
+supply chains, we divide the supplier-customer dyads into three groups                Supplementary material associated with this article can be found, in
+based on the sample median: the pairs without common ownership, the                the online version, at doi:10.1016/j.econlet.2024.111566.
+ones with high quasi-indexers common ownership, and the ones with
+low quasi-indexers common ownership. Fig. 1 shows that the cumulative              References
+abnormal returns were similar for the three groups before the pandemic
+but diverted afterward. The portfolio with low common quasi-indexers               Azar, J., 2012. Ph.D. Thesis. Princeton University.
+                                                                                   Azar, J., 2022. Common shareholders and interlocking directors: the relation between
+exhibits the best performance, followed by the one with high quasi-                     two corporate networks. J. Competit. Law Econ. 18 (1), 75–98. https://doi.org/
+indexers common ownership. Both have significantly better perfor­                       10.1093/joclec/nhab026.
+mance than those without any common owners. These results indicate                 Azar, J., Schmalz, M.C., Tecu, I., 2018. Anticompetitive effects of common ownership.
+                                                                                        J. Finance 73 (4), 1513–1565. https://doi.org/10.1111/jofi.12698.
+that quasi-indexers seem to take a more active role during supply chain            Azar, J., Vives, X., 2021. General equilibrium oligopoly and ownership structure.
+disruptions than during normal periods.                                                 Econometrica 89 (3), 999–1048. https://doi.org/10.3982/ECTA17906.
+    To take into account the effects of common owner concentration                 Bebchuk, L., Hirst, S., 2022. Big three power, and why it matters. BUL Rev. 102, 1547.
+                                                                                   BusinessWire, 2017. Axalta Coating Systems Recognized By General Motors As a 2016
+level, we rerun our analyses with a continuous measure, Inner Product,                  Supplier of the Year Winner. BusinessWire. April 3. https://www.businesswire.co
+developed by Azar (2022). This measure is based on the theory initially                 m/news/home/20170403006369/en/Axalta-Coating-Systems-Recognized-General-
+proposed by Azar (2012) and applied by Azar and Vives (2021).3 The                      Motors-2016.
+                                                                                   Bushee, B.J., 1998. The influence of institutional investors on myopic R&D investment
+measure is defined as:
+                                                                                        behavior. Account. Rev. 73 (3), 305–333.
+                  ∑                                                                Carvalho, V.M., Nirei, M., Saito, Y.U., Tahbaz-Salehi, A., 2021. Supply chain disruptions:
+Inner Productij =    Sgi Sgj,                                                           evidence from the great east Japan earthquake. Q. J. Econ. 136 (2), 1255–1321.
+                     g∈G
+                                                                                        https://doi.org/10.1287/msom.2019.0777.
+                                                                                   Chen, X., 2020. Working Paper.
+where G is the set of common institutional shareholders of firms i and j,          Edmans, A., Levit, D., Reilly, D., 2019. Governance under common ownership. Rev.
+                                                                                        Financ. Stud. 32 (7), 2673–2719. https://doi.org/10.1093/rfs/hhy108.
+and Sgi (Sgj ) is the percentage of firm i (firm j) owned by investor g. The
+                                                                                   Koch, A., Panayides, M., Thomas, S., 2021. Common ownership and competition in
+inner product measure is essentially the Herfindahl measure for the level               product markets. J. Financ. Econ. 139 (1), 109–137. https://doi.org/10.1016/j.
+of shareholding concentration. We also calculate the relative common                    jfineco.2020.07.007.
+owner concentration by different types of institutional investors. Results         Freeman, K.M., 2023. Overlapping ownership along the supply chain. J. Financ. Quantit.
+                                                                                        Analy. 1–55. https://doi.org/10.1017/S0022109023001266.
+are reported in Table 3. The evidence is consistent with that reported in          Grossman, S.J., Hart, O.D., 1986. The costs and benefits of ownership: a theory of vertical
+Table 2.                                                                                and lateral integration. J. Politi. Econ. 94 (4), 691–719. https://doi.org/10.1086/
+                                                                                        261404.
+                                                                                   Klein, B., Crawford, R.G., Alchian, A.A., 1978. Vertical integration, appropriable rents,
+4. Conclusion                                                                           and the competitive contracting process. J. Law Econ. 21 (2), 297–326. https://doi.
+                                                                                        org/10.1086/466922.
+    We show that supply chain dyads with vertical shareholding have                Schmalz, M.C., 2021. Recent studies on common ownership, firm behavior, and market
+                                                                                        outcomes. Antitrust Bull. 66 (1), 12–38. https://doi.org/10.1177/
+significantly better aggregate stock market performance since the                       0003603X20985804.
+COVID-19 pandemic. The effects vary with the incentives of common                  Sheffi, Y., 2020. The New (ab) normal: Reshaping Business and Supply Chain Strategy
+institutional shareholders. To our knowledge, we are one of the first                   Beyond covid-19. MIT CTL Media.
+                                                                                   Xia, L., Kong, Q., Li, Y., Qin, J., 2021. Effect of equity holding on a supply chain’s pricing
+empirical studies to show that vertical shareholding mitigates negative
+                                                                                        and emission reduction decisions considering information sharing. Ann. Oper. Res.
+consequences of supply chain shocks. Our evidence sheds light on the                    1–38. https://doi.org/10.1007/s10479-021-03930-7.
+debates over the roles common institutional investors play in interfirm
+
+
+
+
+ 3
+   We thank an anonymous reviewer for suggesting this continuous common
+ownership measure.
+
+                                                                               4
+

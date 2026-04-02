@@ -1,0 +1,1853 @@
+﻿DOI: 10.1111/fima.12473
+
+OR I G I N A L A RT I C L E
+
+Does common institutional ownershipmitigate
+hold-up problems along the supply chain?
+
+Yongning Deng1 Jing Li2 Qilin Peng3 Wentao Yao4
+
+1Invesco GreatWall, Shenzhen, China
+2Institute of Real Estate and Urban Studies, Abstract
+National University of Singapore, Singapore, We show that common institutional ownership (CIO) along
+Singapore
+
+the supply chain mitigates hold-up problems faced by
+3School of Business, University College Dublin,
+Dublin, Ireland supplier–customer relationships resulting from incomplete
+4School ofManagement, XiamenUniversity, contracts. Suppliers make more relationship-specific invest-
+Xiamen, China ments (RSIs) measured by R&D and patent filings toward
+
+Correspondence their customers that share common institutional investors.
+Jing Li, National University of Singapore, 3 Such effect is stronger as the CIO network between a sup-
+Research Link, #04-02 Innovation 4.0,
+Singapore 117602, Singapore. plier and customer pair becomes wider and deeper. We
+Email: jingli@nus.edu.sg establish causality by exploiting exogenous shocks to CIO
+
+using a broad sample of mergers between financial institu-
+Funding information
+National Natural Science Foundation of China, tions and further find the CIO effects on suppliers’ inno-
+Grant/AwardNumber: 72202192 vation specificity are stronger for those who ex ante face
+
+severer hold-up concerns. Lastly, we provide evidence that
+
+CIO involvement increases the combined valuations of sup-
+
+ply chain pairs (mainly for customers). Our work sheds light
+
+on the hold-up mitigation effect of CIO on firms’ decision to
+
+make RSIs along the supply chain.
+
+KEYWORDS
+common ownership, innovation, investment specificity, supply chain
+hold-up problems
+
+This is an open access article under the termsof theCreativeCommonsAttribution-NonCommercial-NoDerivs License,which permits
+use and distribution in any medium, provided the original work is properly cited, the use is non-commercial and no modifications or
+adaptations aremade.
+© 2024 The Author(s). Financial Management published by Wiley Periodicals LLC on behalf of Financial Management Association
+International.
+
+Financial Management. 2025;54:3–31. wileyonlinelibrary.com/journal/fima 3
+
+
+
+4 DENG ET AL.
+
+1 INTRODUCTION
+
+Supply chain relationships constitute one of the most important linkages in the economy. Suppliers not only serve as
+production input providers to their customers, but they are increasingly engaging inR&Dand innovation activities that
+are beneficial to the customers (Cen &Dasgupta, 2021). However, supplier–customer relationships are generally gov-
+ernedby contracts and the challenge ofwriting complete contracts exposes suppliers to postcontractual opportunistic
+behaviors by their customers; for example, customers may threaten to walk away from the deal, leaving suppliers’
+specialized investments much less valuable (Klein et al., 1978). Existing literature has explored solutions to hold-up
+problems and shown that complete vertical integration between the two parties (Frésard et al., 2020; Seru, 2014),
+partial equity ownership in the supplier firm by the customer (Fee et al., 2006), and social connections between direc-
+tors and senior managers of supplier and customer firms (Dasgupta et al., 2021) can mitigate hold-ups and promote
+relationship-specific investments (RSIs) between suppliers and customers. While previous studies focus on strategic
+actions taken by the two parties of the bilateral business relationship, little is known about whether a third party out-
+side the supply chain can help overcome this hold-up problem.We fill this gap by drawing insights from a type of third
+parties that are becoming increasingly prominent among US public firms—common institutional investors.
+
+The hold-up problem arises when a supplier makes RSIs for a customer, including customized production technol-
+ogy, tailored inventory management systems, collaborative R&D projects, dedicated infrastructures, and employee
+training programs (Crawford, 1990). Inmany cases, supply chains stand to gain fromdeeper relationships throughRSIs
+and the exchange of information, owing to the potential for generating relationship rents. However, strong buyersmay
+take advantage of weak suppliers (Goldberg, 1976; Klein et al., 1978), as the value of these investments is much lower
+outside the relationship, and the relationship could terminate after suppliers havemade substantial RSIs (Williamson,
+1979). Moreover, there is considerable uncertainty regarding the outcomes of RSIs, making them difficult to describe
+ex ante and therefore not easily contractible (Tirole, 1999). This uncertainty exacerbates the risk of opportunistic
+behaviors that favor one party but harm the other, thus undermining the bond between suppliers and customers.
+Consequently, a supplier facing higher opportunistic risk may strategically underinvest in customer-specific projects,
+resulting in suboptimal outcomes (Grossman &Hart, 1986).
+
+We hypothesize that common institutional ownership (CIO) can help align interests and reduce opportunistic risks
+along the supply chain. An institutional investor aims tomaximize the risk-adjusted returns of its portfolio rather than
+individual firm profits. As a result, portfolio diversification can mitigate market frictions (Admati et al., 1994; Clay-
+ton & Jorgensen, 2005; Hansen & Lott, 1996; Rubin, 2006). Hansen and Lott’s (1996) model suggests that individual
+firms may impose various types of externalities—pecuniary or nonpecuniary, vertical or horizontal—on one another,
+and diversification helps internalize these externalities to maximize portfolio returns. Therefore, in supply chain rela-
+tionships, while a customer can strategically choose to act opportunistically at the expense of its supplier by imposing
+negative externalities, a customer whose owners also hold stakes in its suppliers is more likely to consider the impact
+of the externalities on its supplier. As a result, holding stakes in both customers and suppliers could align their incen-
+tives and reduce the risk of opportunistic behavior, resulting in an improved coordinationwithmore efficient RSIs and
+higher overall returns.
+
+One empirical challenge in studying hold-up problems is to reliably measure and quantify investment specificity
+and the direction toward whom the specialized investments are tailored. In this paper, we use patent cross-citations
+between supplier and customer firms to construct measures of RSIs, as the citing and cited patents can be linked to
+individual filing firms, which allows us to use them as a proxy for the citing firm’s direction of innovation investments.
+Our measure is more direct compared to other metrics used in the literature such as patent technology class overlap
+(Dasgupta et al., 2021) and computational textual analysis of patents (Bena et al., 2021), as these measures cannot
+identify the direction of innovation investments between suppliers and customers. In addition, innovation investment
+is particularly relevant to hold-up problems, as innovation investment is a long-term and risky process by nature,
+rendering it impossible to specify all the contingencies in a contract. More broadly, as a special type of corporate
+investment, innovation is critical for a firm’s long-term competitive advantages and sustainable growth (Porter, 1992).
+
+ 1755053x, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/fima.12473 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+DENG ET AL. 5
+
+To empirically test our hypotheses on CIO as a potential solution to hold-up problems, we extract a large sample
+of supplier–customer pairs from the Compustat Segment Files and obtain institutional holdings data from Thomson’s
+CDA/Spectrum database (form 13F). Using a pairwise fixed-effect model, we first exploit within supplier–customer
+pair variation in CIO and show that suppliers conduct more R&Dwhen they and their major customers are commonly
+held by institutional investors. Next, we show that higher R&D expenditures translate into more innovation outputs,
+as measured by number of patents filed and eventually granted to suppliers. We then use patents’ cross-citations
+between supplier and customer firms to evaluate the specificity of innovation investments. Our results indicate that
+suppliers produce more innovation outputs that are specific to their major customers when they share common own-
+ership linkageswith their customers. The above findings are robust to controlling for suppliers’ and customers’ overall
+institutional investors’ holdings levels, in addition to an array of firm and firm-pair level characteristics as well as year
+fixed effects.
+
+Nevertheless, institutional investors conduct dedicated research and analysis to pick their investment targets. The
+nonrandom nature of the investment decision process leads to an endogeneity concern that investors may choose
+to hold supplier and customer firms with certain innovation prospects. Moreover, unobservable firm characteristics
+may also correlate with both our explanatory and outcome variables, thus making the ordinary least square (OLS)
+results spurious. To address these endogeneity concerns, we exploit a quasi-natural experiment of financial institu-
+tion mergers using a difference-in-differences (DiD) framework (He & Huang, 2017; Lewellen & Lowry, 2021). When
+two financial institutions merge, a firm held by onemerging institution is likely to experience an increase in CIOwhen
+one of its major customers is held by the other merging institution prior to the merger.1 Thus, the treatment sam-
+ple consists of firms whose ownership linkages with customer firms are likely to increase just because of the merger,
+while the control sample consists of other firms in the same institution’s portfolio that are unlikely to experience such
+changes. We find evidence that treatment firms, relative to control firms, make more relationship-specific innovation
+investments in the year after the institution mergers, which suggests a causal impact of CIO on suppliers’ specialized
+innovation investments made toward their customers.
+
+Our DiD analysis reveals that treatment firms, compared to control firms, exhibit a higher propensity for making
+specialized innovation investments targeted toward their commonly held customers in the year following institu-
+tional mergers. This finding corroborates our OLS results and helps us establish a causal relation between CIO and
+suppliers’ innovation specificity toward their customers. Notably, these results remain robust across various model
+specifications, including the incorporation of merger-time pair-fixed effects as well as merger- and pair-fixed effects.
+The results are also robust when we look at innovation investments in the post-3-year window and when accounting
+for heterogeneous treatment effects in DiD settings.
+
+Building upon this DiD framework, we further investigate heterogeneous effects to provide additional evidence
+supporting the mitigation of hold-up concerns as the underlying mechanism driving the increased innovation speci-
+ficity. If CIO indeed fosters supplier innovation specificity by alleviating hold-up concerns,weexpect toobserve amore
+pronounced increase in investment specificity among suppliers facing more severe hold-up concerns ex ante. We use
+two measures to capture the severity of the hold-up problems. The first measure is asset redeployability, developed
+by Kim and Kung (2017), which accounts for the usability of assets within and across industries. More redeployable
+assets exhibit higher recovery rates and are traded more actively in secondary markets. For suppliers with higher
+asset redeployability, they should be less concerned about being held up by their customers, since it is relatively easier
+for these suppliers to find other buyers in case of a hold-up. Our second measure is the Herfindahl–Hirschman Index
+(HHI), which serves as a proxy for suppliers’ and customers’ relative bargaining powers. For suppliers operating in
+industries with higher HHI, an indicator of less competitionwithin the industry, they should possess higher bargaining
+power relative to their customers, and thus have less hold-up concerns. On the other hand, if customers hold more
+bargaining power, suppliers should be more concerned about being held up in the future. We find that the increase
+in suppliers’ innovation specificity is lower after institution mergers for suppliers with higher asset redeployability or
+
+1 Our definition of held is that greater than 1% of outstanding shares are owned by the institution.
+
+ 1755053x, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/fima.12473 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+6 DENG ET AL.
+
+greater bargaining power, while such increase is higher when customers hold more bargaining power. In other words,
+suppliers tend to allocate more resources to RSIs following a positive shock to their CIO linkages with customers if
+suppliers have higher hold-up concerns ex ante.
+
+Next, we investigate and rule out some alternative explanations for our main results. In particular, we exam-
+ine whether knowledge spillovers and innovation collaboration between suppliers and customers are the channels
+leading to increased supplier innovation specificity. If knowledge spillovers were indeed the primary mechanism,
+we would anticipate observing effects on customers’ innovation specificity. In this scenario, customers’ innovation
+endeavors would becomemore tailored toward their suppliers, indicating a convergence of innovation efforts toward
+a common direction. This alignment would result from the exchange of ideas and know-how, facilitating a shared
+knowledge reservoir between suppliers and customers.However, our results show that customers’ innovations exhibit
+reduced specificity toward their suppliers following institutionalmergers. This discrepancy contradicts the notion that
+knowledge spillovers are the driving force behind the increase in supplier innovation specificity.
+
+Then, we investigate whether firm-pairs initiate or terminate joint ventures and strategic alliances after becom-
+ing commonly owned, as these are significant organizational mechanisms for fostering innovation collaboration
+(Robinson, 2008; Seru, 2014). Our analysis shows that treated firm-pairs are less inclined to establish an innovation
+collaboration entity after the institutionmerger.
+
+He and Huang (2017) also examine joint ventures and strategic alliances using the institution merger setting. They
+find that cross-ownership improves firms’ tendency to engage in joint ventures, strategic alliances, or acquisitions.
+While it may seem that we provide an opposite finding using the same setting, it is important to note that their study
+focuses on the cross-ownership of same-industry firms, whereas our study examines the cross-ownership of sup-
+ply chain partners. Johnson and Houston (2000) find that horizontal joint ventures create synergistic gains for both
+partners, while vertical joint ventures generate gains only for suppliers. Supplier–customer pairs only choose joint
+ventures when hold-up hazards are high due to a governance motive, as firms become mutually reliant on a venture
+framework to reduce potential hold-up hazards. Given that our baseline results suggest that CIO among supply chain
+partners mitigates hold-up problems, our findings corroborate this line of research by demonstrating the substitutive
+effect of CIO on collaboration in terms of joint ventures and strategic alliances.
+
+As the last step of our analyses, we examine the welfare implications of CIO on the value of the suppliers and
+customers. We investigate this effect at both the firm and firm-pair levels, specifically on the market valuations of
+suppliers, customers, and joint parties. Our findings reveal that the combined market value of supplier and customer
+pairs increases following CIO involvement. At the firm level, we find that the substantial increase in market value
+is concentrated among customers rather than suppliers. In addition, we show that the effect of our main findings is
+stronger for active investors rather than passive investors. These results are consistentwith our predictions and eluci-
+date investors’ incentives for promotingRSIsmade fromsuppliers toward their commonly held customers, as suppliers
+stand to benefit from such coordination while customers can benefit from the value effects. Our findings suggest that
+CIO involvement can lead toPareto improvements in such scenarios, resulting in advantageousoutcomes for the three
+parties involved.
+
+Our paper is related to several strands of literature. First, we add to the literature on the interaction between
+transaction cost economics and supply chain management by showing that CIO along the supply chain can potentially
+mitigate hold-up problems. Williamson (1979) and Grossman and Hart (1986) develop the transaction costs theory
+and property rights theory, respectively, to tackle the questions of whether a firm’s transactions with other firms
+should remain at arm’s length or internalized via vertical integration, whenRSIs are needed, but facedwith incomplete
+contracts and hold-up problems. Klein et al. (1978) argue that complete vertical integration canmitigate hold-up prob-
+lems in the supply chain, so thatmergers along the supply chain can lead to increased efficiency (see also Frésard et al.,
+2020; Seru, 2014). Fee et al. (2006) show that customer’s equity stake in its supplier firm also encourages efficient
+actions when firms are concerned with expropriation or hold-up problems arising from RSIs. A more recent study by
+Dasgupta et al. (2021) finds social connections between directors and seniormanagers of supplier and customer firms
+help mitigate hold-up concerns. Prior studies focus on strategic actions taken by the firms themselves to solve the
+
+ 1755053x, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/fima.12473 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+DENG ET AL. 7
+
+hold-up problems. Our paper contributes to this literature by uncovering a third party, that is, common institutional
+investors, that also helps tomitigate hold-up problems along the supply chain and promote RSIs.
+
+Our paper also contributes to the burgeoning literature of CIO by looking at the cross-held firms along the supply
+chain. The literature has documented that as common owners are incentivized to internalize each firm’s actions to
+maximize the portfolio benefit (Hansen & Lott, 1996; Rubin, 2006), CIOs could have real impacts on firms’ strategic
+choices, including product market competition (Azar et al., 2018; Dennis et al., 2022; He & Huang, 2017; Koch et al.,
+2021; Lewellen & Lowry, 2021; López & Vives, 2019), managerial incentives and compensations (Antón et al., 2023;
+Gilje et al., 2020; Liang, 2016), corporate governance (He et al., 2019), executive, and financial disclosure and account-
+ing accruals (He et al., 2020; Jung, 2013; Park et al., 2019; Pawliczek et al., 2022). The literature began by focusing on
+horizontal CIOs (i.e., commonly owned firms in the same industry) (Azar et al., 2018;He&Huang, 2017;Heet al., 2019;
+Koch et al., 2021; López&Vives, 2019; Park et al., 2019), andmore recently, moved on to examineCIOs between firms
+from different industries that are economically linked in different contexts, such as CIOs between acquirers and tar-
+get firms (Brooks et al., 2018; Harford et al., 2011; Matvos & Ostrovsky, 2008), banks and industrial firms (Azar et al.,
+2022; He et al., 2023; Ojeda, 2019;Wang&Wang, 2022), media and industrial firms (Chen et al., 2022; He et al., 2022,
+Ruet al., 2020).While growing fast, the literature has paid little attention to the effects ofCIOalong supply chain firms.
+Our paper is among the first to extend this strand of literature.
+
+While Freeman (2023) and Cheung et al. (2020) also examine CIO effects on supply chain issues, our study distin-
+guishes itself in severalways. First, Freeman (2023) focuses on the supply chain partnership duration andCheung et al.
+(2020) focus on suppliers’ operating performance. In contrast, our focus lies on the specificity of supplier innovation
+investments tailored to their customers. Second, we employ institution mergers as a quasi-natural experiment to pro-
+vide causal inference, while Cheung et al. (2020) primarily demonstrate correlations. While Freeman (2023) employs
+a similar DiD approach, our methodology involves supplier–customer pairwise fixed effects rather than supplier- and
+customer-fixed effects. This enables us to account for changes in supplier innovation activities directed at specific
+customers within a given relationship, thus addressing supply chain hold-up concerns more directly. Third, our sam-
+ple spans from 1980 till 2019 while Freeman’s stops in 2010 and Cheung et al.’s in 2011, making the results and
+implications of our study applicable to a wider andmore recent time period.
+
+Our paper also adds to the literature on corporate innovation. A vast body of literature investigates various factors
+that foster or hinder innovation, including financial market developments (Hsu et al., 2014; Moshirian et al., 2021),
+shareholder characteristics (Aghion et al., 2013; Brav et al., 2018; Chemmanur et al., 2014), managerial incentives
+(Manso, 2011), CEO traits (Hirshleifer et al., 2012), financial analysts (He & Tian, 2013), firm boundaries (Seru, 2014),
+and product market competition (Aghion et al., 2005).2 Fewer studies have looked at innovation activities through
+the lens of institutional cross-ownership. He and Huang (2017) find that cross-ownership enhances firms’ innova-
+tion productivity. Kostovetsky and Manconi (2020) find that CIO facilitates the diffusion of innovation across firms.
+Using project-level data, Li et al. (2023) find that CIOs prompt venture capitalists to terminate underperforming drug
+projects and withhold funding from struggling startups. Antón et al. (2024) show that common ownership decreases
+innovations since commonowners are incentivized todiscouragebusiness stealingbetweencross-held firms that com-
+pete in one product market, while common ownership can only increase innovation when technological spillovers are
+sufficiently large relative to product market spillovers. Compared to prior studies that focus on knowledge spillovers
+and innovation outcomes in general, we are interested in hold-up mitigation and we show that CIO can help reduce
+the supply chain hold-up costs. Furthermore, we provide suggestive evidence that RSIs induced by CIO can substitute
+for formal collaborations, such as joint ventures and strategic alliances, between suppliers and customers.
+
+2 See He and Tian (2020) for a comprehensive review on the innovation literature.
+
+ 1755053x, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/fima.12473 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+8 DENG ET AL.
+
+2 DATA, SAMPLE, AND VARIABLES
+
+2.1 Data sources
+
+Our supplier–customer relationship sample is fromCompustat Segment Files, covering firm-years from1978 to 2019.
+We stop at the end of 2019 to avoid the impact of the COVID-19 pandemic on firms’ activities. According to the State-
+ment of Financial Accounting Standards (SFAS) No. 131, firms are required to disclose the names of customers that
+account for more than 10% of their total sales, while some firms voluntarily report customers even below this thresh-
+old.Weexclude government buyers or generic customers such as “Foreign Sales,” “MajorCustomer,” “Vendor,” or “Not
+Reported” in our sample. Since the Compustat Segment database only discloses customer names, and in many cases,
+only name abbreviations, it requires manual matching of each disclosed name to a Compustat identifier. We use the
+supplier–customer links provided by Barrot and Sauvagnat (2016), who use a string-matching algorithm tomatch cus-
+tomer names to their corresponding firms in Compustat from 1978 to 2013, and augmented the data coverage to
+2019 with a fuzzy name-matching algorithm between company names from Compustat Segment Files and names in
+Compustat/CRSP.
+
+Data on institutional ownership is from the Thomson (13F) database. This database includes institutional investors
+with over $100million in assets undermanagement, including pension funds, endowments, insurance companies, bank
+trusts, mutual funds, hedge funds, and independent advisors. The ownership data report institutions’ holdings at the
+end of each calendar quarter. Institutional investors’ stock holding information from the Thomson (13F) database is
+available from 1980 to the present. We then merge Thomson (13F) data with CRSP’s quarterly database to obtain
+data on firms’ shares outstanding and share prices.
+
+Finally, we require both supplier and customer firms to have nonmissing relevant financial information to be
+included in our final sample. We also require firm-year observations to have nonnegative values for total assets
+and sales. Firm-level information is obtained from the Compustat/CRSP merged database. Following prior supply
+chain studies (Banerjee et al., 2008, 2021), we exclude financial firms (Standard Industrial Classification [SIC] code
+6000−6999) and utility firms (SIC codes 4900−4999) as they are subject to different sets of regulatory require-
+ments. The final sample covers the periods from 1980 to 2019, consisting of 22,847 supplier–customer pair by year
+observations with 2715 unique suppliers, 983 unique customers, and 4805 unique supplier–customer pairs.
+
+2.2 Investment specificity measures
+
+We are interested in how CIO influences suppliers’ specialized investments made toward customers. We investigate
+three dimensions of investments on innovation activities: innovation input, innovation output, and innovation speci-
+ficity, withmost attention devoted to innovation specificity. R&D expenditures have beenwidely used in the literature
+to proxy for innovation input (Allen & Phillips, 2000). Specifically, we scale R&D expenses by the book value of total
+assets and replace them with zero if R&D is missing. For innovation output, we count the number of patents filed and
+eventually granted in each application year (Fang et al., 2014).We retrieve patent data fromKogan et al. (2017), which
+complies the entire universe of US patents from 1926 to 2020.3 The primary interest of this paper is innovation speci-
+ficity, as RSI is the focal issue in hold-up problems. Kelly et al. (2021) further provide patent pairwise citations for all
+United States Patent and Trademark Office (USPTO) patents from 1836 to 2022.4 We construct two pairwise mea-
+sures based on their cross-citations data to capture whether suppliers’ innovative activities are more tailored to the
+
+3 This data set includes basic information on patent number, filing date, issue date, CRSP permco, and patent values. It can be accessed via https://github.com/
+KPSS2017/Technological-Innovation-Resource-Allocation-and-Growth-Extended-Data.
+
+4 This data set includes information on patent similarities, importance, and pairwise cross-citations. It can be accessed via https://github.com/KPSS2017/
+Measuring-Technological-Innovation-Over-the-Long-Run-Extended-Data/blob/main/README.md.
+
+ 1755053x, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/fima.12473 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+DENG ET AL. 9
+
+needs of their major customers (Alcacer &Gittelman, 2006; Jaffe et al., 2000). The first measure is TotalCiter, the num-
+ber of supplier patents that cite their customer’s patents in an application year; the second measure is TotalCited, the
+number of customer patents that cited by their supplier in an application year. These two measures together cap-
+ture the width and depth of the extent to which suppliers tailor their R&D activities toward their major customers. If
+more supplier patents cite their major customer’s patents, and cite a more diverse range of customer patents, we can
+interpret this as the supplier conductingmore relationship-specific innovation investment toward its customer. These
+cross-citation measures can deliver more direct information about investment specificity compared with other mea-
+sures employed by the literature, such as patent technology classes overlap (Dasgupta et al., 2021) and computational
+textual analysis of patents (Bena et al., 2021). Both these two measures aim to capture the similarity of the patents’
+technology, which should naturally be high for firms along the supply chain that mostly operate in the same industry.
+However, similarity alone provides no information about direction, which is our main focus in the paper. By employing
+cross-citation information, we can directly quantify whether suppliers tailor their innovation investment toward their
+customers.
+
+2.3 CIO measures
+
+FollowingHe andHuang (2017), we construct twomeasures of CIO,NumCross and TotalCrossOwn.NumCross is defined
+as the number of unique common investors holding both the supplier and customer (with holdings larger than 1% of
+total shares outstanding). This measure is discrete, capturing the width of common investor networks. TotalCrossOwn
+is calculated as the sum of supplier shares held across common investors, divided by the supplier’s total share out-
+standing (also considering only holdings larger than 1% of total shares outstanding). This measure captures the level
+of influence that common investors can exert on suppliers, sincewe are interested inwhether common ownership can
+incentivize suppliers to conductmore relationship-specific R&D.We calculate the CIOmeasures for each quarter and
+then average to construct an annual figure. In all specifications, CIO is measured with a 1-year lag.
+
+2.4 Control variables
+
+Following prior literature (Banerjee et al., 2008; Fee et al., 2006), we construct and control for an array of supplier,
+customer, and firm-pair-level characteristics in the regression analyses. We control for the same set of characteris-
+tics for both suppliers and customers, including institutional ownership (sumof total percentage institutional holdings
+reported on 13F), firm size (natural logarithmic of the book value of total assets), leverage (total debt divided by the
+book valueof total assets),market-to-book ratio (market value of total assets dividedby thebook valueof total assets),
+asset tangibility (net property, plant, and equipment [PPE] divided by the book value of total assets), return on assets
+(operating income divided by the book value of total assets), and capital expenditures (capital expenditures divided
+by the book value of total assets). To take into consideration pairwise strength and relative importance of business
+relationship, we control for pairwise sales fraction (supplier’s sales to eachmajor customer divided by total sales).
+
+2.5 Summary statistics
+
+We tabulate the summary statistics of the main variables in the empirical analysis in Table 1. On average, a supplier–
+customer pair in our sample has 2.1 common investors, which confirms that US public firms indeed are highly
+interconnected through institutional investors. Common investors on average hold 7.3% of supplier shares, thus
+they have certain level of power affecting supplier decisions or have enough stakes in the business relationship to
+care about being held up. Moreover, in our DiD sample, a supplier–customer pair is commonly held by the merging
+
+ 1755053x, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/fima.12473 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+10 DENG ET AL.
+
+TABLE 1 Summary statistics.
+
+N Mean SD P25 P50 P75
+
+Dependent variables
+
+Sup_R&D 22,874 0.080 0.159 0.000 0.021 0.103
+
+ln(Patents+1) 22,874 0.885 1.400 0.000 0.000 1.386
+
+TotalCiter 8783 2.202 7.528 0.000 0.000 1.000
+
+TotalCited 8783 2.912 9.687 0.000 0.000 1.000
+
+Sup_TobinQ 4887 2.043 1.886 1.199 1.574 2.253
+
+Cust_TobinQ 4887 1.965 1.338 1.164 1.583 2.170
+
+Pair_TobinQ 4887 1.972 1.130 1.236 1.676 2.206
+
+Alliances 4887 0.015 0.120 0.000 0.000 0.000
+
+Independent variables
+
+NumCross 22,874 2.107 2.348 0.000 1.250 3.500
+
+TotalCrossOwn 22,874 0.073 0.097 0.000 0.028 0.114
+
+Redeploy 4887 0.369 0.070 0.337 0.388 0.416
+
+Sup_HHI 4887 0.304 0.226 0.124 0.222 0.413
+
+Cust_HHI 4887 0.393 0.222 0.227 0.346 0.545
+
+Control variables
+
+Sup_InstOwn 22,874 0.338 0.219 0.140 0.334 0.533
+
+Sup_Size 22,874 5.512 2.104 3.956 5.322 6.946
+
+Sup_Leverage 22,874 0.213 0.225 0.015 0.143 0.338
+
+Sup_MB 22,874 1.990 4.117 1.089 1.459 2.179
+
+Sup_Tangibility 22,874 0.262 0.221 0.092 0.195 0.370
+
+Sup_ROA 22,874 0.062 0.254 0.034 0.110 0.166
+
+Sup_Capex 22,874 0.063 0.169 0.025 0.049 0.090
+
+Cust_InstOwn 22,874 0.405 0.170 0.301 0.430 0.531
+
+Cust_Size 22,874 9.975 1.835 8.943 10.185 11.332
+
+Cust_Leverage 22,874 0.265 0.230 0.102 0.190 0.364
+
+Cust_MB 22,874 1.883 1.264 1.135 1.491 2.113
+
+Cust_Tangibility 22,874 0.319 0.205 0.138 0.281 0.485
+
+Cust_ROA 22,874 0.138 0.101 0.091 0.138 0.178
+
+Cust_Capex 22,874 0.066 0.063 0.030 0.056 0.091
+
+SalesFraction 22,874 0.186 0.166 0.097 0.140 0.225
+
+institution after the merger for an average of 5.5 years, which suggests that the effect of CIO lasts long enough for
+innovation outcomes to be realized.
+
+On average, a supplier invests 8% of total assets in R&D, while a customer only invests 3.4% of total assets in R&D,
+suggesting that R&D intensity is much larger for suppliers than customers. This is consistent with Dasgupta et al.
+(2021), which confirm that supplier innovation is an important part of innovation along the supply chain, and for the
+economy as a whole. On average, a customer is much larger than a supplier in terms of asset size, with average sup-
+plier size only 1.15%of customer size, consistentwith the findings in Fee et al. (2006) that disclosed customers are the
+principal ones. Suppliers and customers in our sample both have high levels of institutional ownership, with average
+
+ 1755053x, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/fima.12473 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+DENG ET AL. 11
+
+institutional ownership of 33.8% for suppliers and 40.5% for customers. Customers are more leveraged than suppli-
+ers, with average debt-to-total assets ratio of 26.5% for customers and21.3% for suppliers.On average, a supplier sells
+18.6% of its total sales to amajor customer. Thus, suppliers heavily depend on their major customers.
+
+For patenting variables, on average, a supplier files for (and is eventually granted) 18 patents in an application year
+and cites three customer’s patents in two new patent applications.
+
+3 EMPIRICAL METHODOLOGY AND RESULTS
+
+3.1 OLS analysis: Innovation quantity
+
+We begin our analyses by investigating whether CIO promotes suppliers to make more innovation investments in
+general. We regress supplier innovative activities on the pairwise common ownership measures with the following
+regression specification:
+
+Sup_Innovationi,t+1 = 𝛼CIOi,j,t + 𝛽Xi,t + 𝛾Yj,t + 𝛿Zi,j,t + 𝜇i,j + 𝜐t + 𝜀i,t+1, (1)
+
+where i, j, and t denote supplier, customer, and year, respectively. Sup_Innovationi,t+1 represents supplier-level inno-
+vative activities defined in Section 2.2 (including innovative input, i.e., R&D expenditures, and innovative output, i.e.,
+patenting outcomes).Wemeasure the dependent variable in year t+1 since it takes time for innovative ideas tomate-
+rialize. CIOi,j,t is the main variable of interest (including two different measures) that captures the common investor
+networks, defined in Section 2.3. In addition, we control for a series of supplier-level (Xi,t), customer-level (Yj,t), and
+supplier–customer pair-level (Zi,j,t) characteristics that might affect supplier innovation. Finally, we include year fixed
+effects (υt) to capture the time trend of innovation activities and possible fluctuation of overall economic conditions,
+and supplier–customer pair fixed effects (µi,j) to control for any unobserved time-invariant heterogeneity at the rela-
+tionship level (e.g., unobserved technology synergy). Supplier–customer-pair fixed effects ensure that our results
+capture the effect of the within-relationship variations in pairwise CIO on supplier innovation. In other words, any
+changes in supplier innovation activities can be seen as reactions targeting the customer in the specific relationship
+pair. We cluster standard errors at the supplier–customer pair level to account for pairwise serial correlation of the
+residuals.
+
+Table 2 reports the regression results on supplier R&D expenditures and patenting outcomes. In columns (1) and
+(2), we consistently observe a positive effect of CIO on supplier R&D (significant at the 1% level). For example, column
+(1) suggests that, when they become commonly held (by one additional common investor) with its major customer,
+holding all else equal, suppliers’ R&D expenditures increase by 0.2% of total assets, a 2.50% increase relative to the
+sample mean. Column (2) shows that a 10% increase in TotalCrossOwn, that is, holding 10% more of the total market
+values of the supplier–customer pair, increases suppliers’ R&D expenditures by 0.5% of their total assets, equivalent
+to a 6.1% increase relative to the samplemean. Columns (3) and (4) report the regression results on supplier patenting
+outcomes. Consistent with the results in R&D expenditures, we find a strong correlation between common ownership
+and supplier innovation output. Column (3) shows that the number of supplier patents increases by 2.2% if a sup-
+plier becomes commonly held (by one additional common investor) with itsmajor customer; while column (4) suggests
+that a one-standard-deviation increase in TotalCrossOwn translates into a 0.84% increase in the number of supplier
+patents, though not statistically significant. Results in Table 2 lend support to our hypothesis that CIO along the supply
+chain mitigates the underinvestment (in specialized assets) problems, promoting both supplier innovation inputs and
+outputs.
+
+ 1755053x, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/fima.12473 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+12 DENG ET AL.
+
+TABLE 2 Common ownership and supplier R&D and innovation output.
+
+(1) (2) (3) (4)
+
+Sup_R&D ln(Patent+ 1)
+
+NumCross 0.002*** 0.022***
+
+[0.001] [0.008]
+
+TotalCrossOwn 0.049*** 0.084
+
+[0.013] [0.164]
+
+Sup_InstOwn 0.007 0.006 −0.264*** −0.179**
+[0.008] [0.008] [0.091] [0.088]
+
+Sup_Size −0.035*** −0.035*** 0.176*** 0.181***
+
+[0.003] [0.003] [0.024] [0.024]
+
+Sup_Leverage −0.034*** −0.034*** −0.254*** −0.260***
+[0.010] [0.010] [0.052] [0.052]
+
+Sup_MB 0.001 0.001 0.002* 0.002*
+
+[0.001] [0.001] [0.001] [0.001]
+
+Sup_Tangibility 0.049*** 0.049*** 0.138 0.140
+
+[0.016] [0.016] [0.114] [0.113]
+
+Sup_ROA −0.174*** −0.174*** −0.005 −0.005
+[0.040] [0.040] [0.029] [0.029]
+
+Sup_Capex 0.044*** 0.044*** −0.040* −0.043**
+[0.014] [0.014] [0.022] [0.022]
+
+Cust_InstOwn 0.006 0.006 −0.219** −0.160
+[0.011] [0.011] [0.102] [0.101]
+
+Cust_Size 0.003 0.003 −0.034 −0.035
+[0.002] [0.002] [0.036] [0.036]
+
+Cust_Leverage −0.006 −0.006 −0.165** −0.166**
+[0.006] [0.006] [0.067] [0.067]
+
+Cust_MB 0.001 0.001 −0.009 −0.009
+[0.001] [0.001] [0.008] [0.008]
+
+Cust_Tangibility −0.023* −0.023* 0.085 0.081
+
+[0.013] [0.013] [0.153] [0.153]
+
+Cust_ROA 0.020 0.020 −0.139* −0.147*
+[0.014] [0.014] [0.078] [0.079]
+
+Cust_Capex 0.013 0.013 0.028 0.024
+
+[0.011] [0.011] [0.082] [0.082]
+
+SalesFraction −0.003 −0.003 −0.013 −0.012
+[0.011] [0.011] [0.050] [0.051]
+
+Year FE Yes Yes Yes Yes
+
+Firm-Pair FE Yes Yes Yes Yes
+
+Observations 22,874 22,874 22,874 22,874
+
+Adj. R2 0.786 0.786 0.866 0.865
+
+(Continues)
+
+ 1755053x, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/fima.12473 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+DENG ET AL. 13
+
+TABLE 2 (Continued)
+
+Notes: This table examines theOLS relationship between supplier R&D and the level of pairwise common institutional owner-
+ship. The dependent variable is supplier R&D expense over the book value of total assets. The main explanatory variables are
+two different measures of common institutional ownership, NumCross and TotalCrossOwn, as defined in Appendix A. Supplier
+level, customer level, and pairwise control variables are defined in Appendix A. Year and firm-pair fixed effects are included
+in all regressions. Standard errors, reported in brackets, are clustered at supplier–customer pair levels. ***, **, and * denote
+statistical significance at the 1%, 5%, and10% level, respectively.
+
+3.2 OLS analysis: Innovation specificity
+
+Having shown that CIO is associated with suppliers conducting more innovation activities, we proceed to investigate
+whether these innovations aremore specialized toward their commonly held customers, which is the focal issue of the
+hold-up problem.We take advantage of the patent pairwise cross-citations data to gauge suppliers’ innovation speci-
+ficity and estimate Equation (1) by replacing Sup_Innovationwith Innovation_Specificity, which ismeasured by TotalCiter,
+the number of supplier patents that cite their customer’s patents in an application year, and TotalCited, the number of
+customer patents that cited by their supplier in an application year. We tabulate the regression results in Table 3. For
+the TotalCiter measure, NumCross and TotalCrossOwn have positive and significant coefficients (at the 1% level). Col-
+umn (1) suggests that, on average, being commonly held by one additional common investor with its major customer is
+associatedwith the supplier citing 0.388more of its commonly held customers’ patents, which is equivalent to a 17.6%
+increase relative to the sample mean. Similarly, in column (4) we show that a 10% increase in the holding of the total
+market values of supplier–customer pairs will bolster suppliers cite 0.747 more of their commonly held customers’
+patents, a 25.7% increase relative to the samplemean. Results in this section further support ourmain hypothesis that
+common ownership incentivizes suppliers to conduct more relationship-specific innovation toward their commonly
+held customers by alleviating suppliers’ concerns of being held up.
+
+3.3 Identification
+
+As discussed earlier, an endogeneity concern of our OLS results is that omitted variables correlated with both a sup-
+plier being commonly held with its major customers and its innovation prospects could bias the results. Another
+concern is that supply chains with better innovation synergies or technological cooperation prospects may attract
+more common institutional investors, resulting in reverse causality. In this section, we address these concerns using
+an identification strategy that is widely exploited in the CIO literature: a DiD approach based on the quasi-natural
+experiment of financial institution mergers that generates plausibly exogenous variation of a firm’s common owner-
+ship levels.5 Financial institutions usually merge for reasons unrelated to the fundamentals of their portfolio holdings.
+He and Huang (2017) show that the majority of financial institution mergers happen either due to deregulation or
+strategic considerations of the investors. In addition, the acquiring investor usually maintains the holdings of the tar-
+get investor for a period of time following a merger, possibly due to liquidity or transaction cost concerns. Therefore,
+if one party of the supply chain is held by one of the merging institutions before the merger, while the other party of
+the supply chain is held by the other merging institution, then both firms would be held (commonly held) by the same
+institution right after the merger. This event provides us with a nice quasi-natural experiment to test how common
+
+5 Although being commonly used in the literature, Lewellen and Lowry (2021) show that this identification strategy has some problems in horizontal common
+ownership studies that havebeenpreviously overlooked.Despite that there are several dozens of financial institutionmerger events, close to half of the treat-
+ment firms are associated with mergers occurring during 2008 and 2009, the largest of which is the Blackrock–BGI merger. This means that the postmerger
+period for these firms coincides with the aftermath of the financial crisis. This problem may be a serious one for studies looking at horizontal effects (firms
+competing in the same industry), because in these studies, control firms are sampled fromdifferent industries than treatment firms.Different industries could
+have responded differently to the crisis even in the absence of themerger event. This problem is less of a concern for studies on vertical effects (supply chain
+relationships), because treatment firms and control firms do not have to come from different industries.
+
+ 1755053x, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/fima.12473 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+14 DENG ET AL.
+
+TABLE 3 Common ownership and supplier innovation specificity.
+
+(1) (2) (3) (4)
+
+TotalCiter TotalCited
+
+NumCross 0.388*** 3.708
+
+[0.116] [2.302]
+
+TotalCrossOwn 0.623*** 7.473***
+
+[0.160] [2.847]
+
+Sup_InstOwn −4.532*** −7.549*** −3.329** −5.954***
+[1.483] [2.036] [1.320] [1.810]
+
+Sup_Size 0.943*** 1.217*** 1.009*** 1.320***
+
+[0.244] [0.293] [0.246] [0.295]
+
+Sup_Leverage −2.614*** −3.161*** −2.722*** −3.327***
+[0.949] [1.114] [0.957] [1.132]
+
+Sup_MB 0.002 0.000 0.002 0.000
+
+[0.002] [0.003] [0.002] [0.003]
+
+Sup_Tangibility 1.433 2.921 1.315 2.718
+
+[1.880] [2.188] [1.870] [2.190]
+
+Sup_ROA −0.613* −0.907* −0.587* −0.873*
+[0.350] [0.484] [0.350] [0.486]
+
+Sup_Capex 1.589** 0.928 1.638** 1.021
+
+[0.804] [1.083] [0.798] [1.083]
+
+Cust_InstOwn −1.370 0.639 −0.373 2.039
+
+[1.736] [2.258] [1.756] [2.300]
+
+Cust_Size 1.092** 1.401** 1.045** 1.328**
+
+[0.487] [0.600] [0.487] [0.604]
+
+Cust_Leverage 1.757 2.829* 1.801 2.903*
+
+[1.262] [1.538] [1.282] [1.571]
+
+Cust_MB 0.235 0.254 0.238 0.258
+
+[0.143] [0.162] [0.145] [0.164]
+
+Cust_Tangibility 2.918 4.483 2.692 4.159
+
+[2.137] [3.043] [2.154] [3.107]
+
+Cust_ROA −0.789 −1.602* −1.013 −1.945**
+[0.736] [0.868] [0.757] [0.908]
+
+Cust_Capex −1.364 −1.421 −1.119 −1.049
+[1.491] [2.276] [1.510] [2.340]
+
+SalesFraction −0.134 −0.225 −0.080 −0.145
+[0.387] [0.541] [0.387] [0.542]
+
+Year FE Yes Yes Yes Yes
+
+Firm-Pair FE Yes Yes Yes Yes
+
+Observations 8783 8783 8783 8783
+
+Adj. R2 0.653 0.656 0.651 0.653
+
+(Continues)
+
+ 1755053x, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/fima.12473 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+DENG ET AL. 15
+
+TABLE 3 (Continued)
+
+Notes: This table examines the OLS relationship between supplier innovation specificity and the level of pairwise common
+institutional ownership. Thedependent variables,TotalCiterandTotalCited, aredifferentmeasuresof supplier innovation speci-
+ficity, which are defined in Table A1. The main explanatory variables are two different measures of common institutional
+ownership, NumCross and TotalCrossOwn, as defined in Appendix A. Supplier level, customer level, and pairwise control vari-
+ables are defined in Appendix A. Year and firm-pair fixed effects are included in all regressions. Standard errors, reported in
+brackets, are clustered at supplier–customer pair levels. ***, **, and * denote statistical significance at the 1%, 5%, and 10%
+level, respectively.
+
+ownership along the supply chain affects supplier innovation specificity. A key advantage of this identification strategy
+is that there aremultiple shocks that affect different firms at exogenously different times. Identification withmultiple
+shocks can alleviate the concerns in studies using only one single shock, namely, potential omitted variables coinciding
+with the single shock directly affect the outcome of interest.
+
+The financial institution merger events used in our paper are from Lewellen and Lowry (2021), which includes a
+total of 64 merger events from 1984 to 2010. Given the merger events available, we keep the DiD analysis within the
+time span between 1980 and 2012.We identify treatment firm-pairs as those that are likely to experience an increase
+in commonownership linkages between the twoentities due to the institutionmergers. Specifically,we require that (1)
+one party of the supply chain is held (>1%of outstanding shares) by one of themerging institutions during the quarter
+immediately before the merger announcement date and (2) the other party of the supply chain is held (>1% of out-
+standing shares) by the other party of the supply chain during the same quarter.6 In particular, some treatment pairs
+may be commonly held by one of themerging institutions before themerger. These pairs are also considered “treated”
+because theywill also experiencepositive exogenous shockson the sumof sharesheldby common investors. For exam-
+ple, if a supplier–customer pair was commonly held by investor A while only the supplier was held by investor B prior
+to the merger, the supplier firmwill experience an increase in its shares held across common investors postmerger, as
+its holdings from investors A and B are combined.
+
+For control pairs, we require that one party of the supply chain is held (>1% of outstanding shares) by one of the
+merging institutions, while the other party of the supply chain is not held by the other merging institution. Our defini-
+tion of the control pairs ensures thatmanagerial skills or investment styles of themerging institutions that potentially
+relate to portfolio firms’ innovation prospects are the same between control pairs and treatment pairs.
+
+We choose to study a symmetric 7-year window around the event year (i.e., 3 years before and 3 years after the
+institution merger plus the year of the merger).7 We employ a multivariate DiD approach to compare the change in
+innovation specificity for treatment pairs with that for control pairs, with the following regression:
+
+Innovation_Specificityi,j,k,t+1 = 𝛼1Treat × Post + 𝛼12Post + 𝛼3Treat + 𝛽Xi,t (2)
++ 𝛾Yj,t + 𝛿Zi,j,t + 𝜇i,j,k + 𝜐t + 𝜀i,j,k,t+1,
+
+where i, j, k, and t denote supplier, customer, merger event, and year, respectively. Treat is a dummy that equals one
+for treatment pairs and zero for control pairs. Post is a dummy that equals one after the merger date and zero before
+the merger date. Innovation_Specificityi,j,k,t+1 is the outcome variable of interest defined the same as in Equation (1),
+whileXi,t,Yj,t, and Zi,j,t are supplier-, customer-, and pairwise-level control variables defined the same as in Equation (1).
+Year fixed effects (υt) are included to capture the time trend of innovation activities and possible fluctuation of overall
+economic conditions. Inmost specifications,we includemerger× pair fixed effectwhich captures time-varying common
+trends across mergers and time-invariant characteristics across firm-pairs within merger. In particular, a firm-pair can
+
+6 Using the holding information in the quarter immediately before themerger announcement date ensures thatwe only use ex ante information to define our
+treatment and control firm-pairs. A key advantage of relying on ex ante information is to alleviate concern that actual holding of the institution after merger
+may be driven by innovation prospects of the supplier–customer firms (He &Huang, 2017).
+
+7 Results are similar if we use a 9-year window around the event year, and can be provided upon request.
+
+ 1755053x, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/fima.12473 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+16 DENG ET AL.
+
+serve as either treatment or control in our sample for different merger events. Themerger × pair fixed effects ensure
+that our specification identifies treatment effect through variation in innovation specificity for the same firm-pair in
+a given merger. We also include specifications with firm-pair fixed effects and merger fixed effects separately. We
+cluster standard errors by institution merger to address the possibility that firm-pairs in the same institution merger
+might be correlated.
+
+We start with the DiD analysis to test whether institution mergers increase the level of CIO for treatment firms
+relative to control groups, that is, the first-stage analysis. In columns (1) and (2) of Table 4, Panel A, the coefficients of
+Treat × Post are both positive and significant at 5% level, suggesting that institution mergers indeed increase the level
+of CIO for treatment firms relative to control groups. These results confirm the validity of the setting.
+
+Next,weconduct theDiDanalysis usingEquation (2) and tabulate the results inTable4, PanelB.Across all specifica-
+tions, the coefficients of Treat×Post are positive and significant, suggesting that supplierswho become commonly held
+with their customers (or receivemore common ownership linkages) due to financial institutionmergers conductmore
+relationship-specific innovation investments toward their commonly held customers, relative to the control group. In
+terms of economic magnitude, for the TotalCiter measure, the coefficients across columns (1)–(3) indicate that sup-
+pliers in the treatment pairs, relative to the control pairs, on average file 2.210 to 2.561 more patents that cite their
+commonly held customers’, amounting to 29.4–34.0% of the standard deviation. Columns (4)–(6) indicate that suppli-
+ers cite 2.169 to 2.416 more of their commonly held customers’ patents following a positive shock to their common
+ownership linkages, amounting to 21.4–24.9% of the standard deviation. In addition, Figure 1 shows the dynamics of
+the coefficients of TotalCiter and TotalCited. Using different regression specifications, we confirm that suppliers’ invest-
+ment specificity toward their commonly held customers only increases after themerger events, satisfying the parallel
+trend assumption.Overall, theDiD results corroborate ourmain hypothesis and provide causal evidence that common
+ownership along the supply chain facilitates suppliers to conduct more relationship-specific innovations toward their
+customers.
+
+3.4 Robustness tests
+
+There could be a concern that the effects of patenting behavior might take longer than 1 year to manifest. To address
+this concern, we extend our baseline results to include supplier innovation outcomes in year t + 3 in Table 5. Panel A
+presents the results of CIO on the patent amount aswell as suppliers’ investment specificity for theOLS sample. Panel
+B presents the results on suppliers’ investment specificity for the DiD sample. The results are similar and consistent
+with those in Tables 3 and 4, indicating that the effect of CIO persists long enough for suppliers’ relationship-specific
+innovation investments tomaterialize.
+
+Recent research demonstrates that the traditional staggered DID approach, which uses already-treated firms,
+never treated, and not-yet-treated firms as the control group, can produce biased estimates in the heterogeneous
+treatment effects (Baker et al., 2022). To mitigate this concern, we follow the recent econometrics literature and
+conduct several robustness tests. Table A1 reports the result and shows that our results are robust to a number
+of alternative specifications including the Callaway and Sant’Anna’s (2021) estimators, Goodman-Bacon’s (2021)
+decomposition, and Sun and Abraham’s (2021) event study diagnosis.
+
+4 CHANNEL INVESTIGATION
+
+4.1 Hold-up problems mitigation channel: Asset redeployability
+
+Our results from the OLS and DiD analyses both indicate that CIO along the supply chain promotes more
+relationship-specific innovation by suppliers toward their commonly held customers. In this section, we investigate
+
+ 1755053x, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/fima.12473 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+DENG ET AL. 17
+
+TABLE 4 Difference-in-differences (DiD) test of common ownership on supplier innovation specificity.
+
+Panel A: First-stage DiD results of financial institutionmergers on common institutional ownership
+
+(1) (2)
+
+NumCross TotalCrossOwn
+
+Treat × Post 0.112*** 0.009**
+
+[0.039] [0.004]
+
+Post −0.024 −0.002
+[0.028] [0.002]
+
+Treat −0.029 −0.002
+[0.024] [0.002]
+
+Controls Yes Yes
+
+Year FE Yes Yes
+
+Merger × Firm-Pair FE No No
+
+Merger FE Yes Yes
+
+Firm-Pair FE Yes Yes
+
+Observations 4887 4887
+
+Adj. R2 0.602 0.633
+
+Panel B: DiD results of financial institutionmergers on suppliers’ investment specificity
+
+(1) (2) (3) (4) (5) (6)
+
+TotalCiter TotalCited
+
+Treat × Post 2.561*** 2.432*** 2.210*** 2.416*** 2.221*** 2.069**
+
+[0.714] [0.655] [0.779] [0.674] [0.694] [0.793]
+
+Post −0.334* −0.292 −0.426** −0.479 −0.474 −0.577**
+[0.175] [0.178] [0.175] [0.291] [0.288] [0.271]
+
+Treat −0.802** −0.416
+[0.345] [0.507]
+
+Controls No Yes Yes No Yes Yes
+
+Year FE Yes Yes Yes Yes Yes Yes
+
+Merger × Firm-Pair FE Yes Yes No Yes Yes No
+
+Merger FE No No Yes No No Yes
+
+Firm-Pair FE No No Yes No No Yes
+
+Observations 4,887 4,887 4,887 4,887 4,887 4,887
+
+Adj. R-squared 0.893 0.896 0.888 0.905 0.905 0.901
+
+Notes: This table examines the DiD test on the relation between supplier innovation specificity and pairwise common institu-
+tional ownership by exploiting financial institution mergers. Panel A reports the first-stage results effect of DiD on common
+institutional ownerships. We define a pair as a treatment if the supplier is held (>1% of outstanding shares) by one of the
+merging institutions during the quarter immediately before themerger announcement date and the customer is held (>1% of
+outstanding shares) by the other party to the merger during the same premerger quarter. A pair is a control if the supplier is
+held by the same institution and the customer is not held by theother party to themerger, and vice versa.Treat is a dummyvari-
+able that equals one if a pair is a treatment and zero if it is a control. Post is a dummy that equals one for the postevent period
+and zero for the preevent period. Dependent variables are two different measures of common institutional ownership, Num-
+Cross andTotalCrossOwn. Panel B reports the results ofDiD regressions on supplier innovation specificity.Dependent variables
+are two different measures of supplier’s investment specificity, TotalCiter and TotalCited, as defined in Appendix A. Supplier
+level, customer level, and pairwise control variables are suppressed and defined in Appendix A. Standard errors, reported in
+brackets, are clustered at institution merger levels. ***, **, and * denote statistical significance at the 1%, 5%, and 10% level,
+respectively.
+
+ 1755053x, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/fima.12473 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+18 DENG ET AL.
+
+F IGURE 1 Diff-in-diff dynamics.
+[Color figure can be viewed at wileyonlinelibrary.com]
+Notes: The black solid lines show diff-in-diff year-by-year coefficient estimates for TotalCiter and TotalCited, which are defined
+in Table A1. Financial institutionmerger event-years are omitted. The vertical lines represent 95% confidence intervals.
+Panels (a) and (b) are for specificationwith Year andMerger × Firm-pair fixed effects; Panels (c) and (d) are for specification
+with Year, Merger × Firm-pair fixed effects and all control variables; and Panels (e) and (f) are for specification with Year,
+Merger, Firm-pair fixed effects and all control variables.
+
+ 1755053x, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/fima.12473 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+DENG ET AL. 19
+
+TABLE 5 Robustness: Using innovation outcomes 3 years forward.
+
+Panel A: OLS regression results
+
+(1) (2) (3) (4) (5) (6)
+
+ln(Patent+1)t+3 TotalCitert+3 TotalCitedt+3
+NumCross 0.020** 0.477*** 0.646***
+
+[0.009] [0.180] [0.200]
+
+TotalCrossOwn 0.143 5.682 7.686*
+
+[0.191] [3.544] [4.308]
+
+Controls Yes Yes Yes Yes Yes Yes
+
+Year FE Yes Yes Yes Yes Yes Yes
+
+Firm-Pair FE Yes Yes Yes Yes Yes Yes
+
+Observations 22,874 22,874 5525 5525 5525 5525
+
+Adj. R2 0.744 0.744 0.640 0.638 0.628 0.626
+
+Panel B: DiD results
+
+(1) (2)
+
+TotalCitert+3 TotalCitedt+3
+Treat × Post 1.457** 1.880**
+
+[0.662] [0.694]
+
+Post −0.710*** −0.755**
+[0.220] [0.306]
+
+Treat −0.563* −0.548
+[0.326] [0.509]
+
+Controls Yes Yes
+
+Year FE Yes Yes
+
+Merger × Firm-Pair FE No No
+
+Merger FE Yes Yes
+
+Firm-Pair FE Yes Yes
+
+Observations 3972 3972
+
+Adj. R2 0.903 0.915
+
+Notes: This table examines the dynamic effects of relationship between patenting outcomes and the level of pairwise com-
+mon institutional ownership lagged by 3 years. Panel A represents theOLS regression results of patent number and suppliers’
+investment specificity. Panel B uses the financial institution merger setting as in Table 4 and reports the difference-in-
+differences (DiD) results around merger events results on suppliers’ investment specificity. The main explanatory variables
+are two different measures of common institutional ownership, NumCross and TotalCrossOwn, as defined in Appendix A. Sup-
+plier level, customer level, and pairwise control variables are suppressed and defined inAppendixA. Standard errors, reported
+in brackets, are clustered at supplier–customer pair levels. ***, **, and * denote statistical significance at the 1%, 5%, and 10%
+level, respectively.
+
+the heterogeneous patterns in the DiD effects to provide more evidence supporting that suppliers increase
+relationship-specific innovation to mitigate the hold-up concern toward their customers. If the increased innovation
+specificity indeed results frommitigation of hold-up problems, thenwe should see the effect be stronger for suppliers
+ex ante faced with severer hold-up problems. We capture the severity of hold-up problems faced by suppliers from
+two dimensions. First, we consider the flexibility of suppliers’ assets. We follow Kim and Kung (2017) and use asset
+redeployability (i.e., Redeploy) to capture whether a firm is more flexible to reallocate its assets. Firms with more
+
+ 1755053x, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/fima.12473 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+20 DENG ET AL.
+
+TABLE 6 Heterogeneous difference-in-differences (DiD) effects by asset redeployability.
+
+(1) (2) (3) (4)
+
+TotalCiter TotalCited
+
+Treat × Post× Redeploy −62.362*** −57.214*** −48.621*** −43.350***
+[10.783] [12.697] [9.370] [10.534]
+
+Treat × Post 25.309*** 23.037*** 20.154*** 17.831***
+
+[4.105] [4.904] [3.448] [3.991]
+
+Treat × Redeploy 42.775** 21.827*** 59.230*** 13.793**
+
+[15.923] [7.099] [21.240] [6.492]
+
+Post× Redeploy 4.789 3.707 11.082* 8.444
+
+[5.002] [4.908] [6.315] [5.981]
+
+Redeploy 1.055 2.133 −7.317 −3.919
+[3.658] [4.143] [5.653] [5.981]
+
+Post −2.050 −1.768 −4.570* −3.677
+[1.801] [1.770] [2.345] [2.238]
+
+Treat −8.807*** −5.494**
+[2.530] [2.304]
+
+Controls Yes Yes Yes Yes
+
+Year FE Yes Yes Yes Yes
+
+Merger × Firm-Pair FE Yes No Yes No
+
+Merger FE No Yes No Yes
+
+Firm-Pair FE No Yes No Yes
+
+Observations 4887 4887 4887 4887
+
+Adj. R2 0.899 0.890 0.906 0.901
+
+Notes: This table examines the heterogeneous difference-in-differences (DiD) effects of pairwise common institutional owner-
+ship on supplier innovation specificity by exploiting different levels of supplier asset redeployability prior to themerger event,
+proxy by asset redeployability from Kim and Kung (2017). Supplier level, customer level, and pairwise control variables are
+suppressed and defined in Appendix A. Standard errors, reported in brackets, are clustered at institutionmerger levels. ***, **,
+and * denote statistical significance at the 1%, 5%, and 10% level, respectively.
+
+redeployable assets exhibit higher recovery rates and trade more actively in secondary markets (He & Huang, 2017).
+Thus, suppliers with higher asset redeployability should concern less about being held up by their customers, as they
+can more easily sell their assets at a lower cost. We empirically test this hypothesis in a Difference in difference in
+differences (DDD) model by adding interaction terms of Redeploy × Treat, Redeploy × Post, and Redeploy × Treat × Post.
+We use firms’ asset redeployability 1 year before themerger to show the channel effect.
+
+We tabulate the regression results in Table 6. Across columns (1)–(4), the coefficients of Treat× Post× Redeploy are
+negative and significant (at the 1% level), indicating that for suppliers with higher asset redeployability prior to the
+merger, the increase in innovation specificity after being commonly heldwith theirmajor customers is lower. Econom-
+ically, compared to firms with lower asset redeployability, firms with higher redeployability see a decrease of 4.005
+(= 0.07*57.214) TotalCiter for each standard deviation increase in their asset redeployability. Similarly, compared to
+firms with lower asset redeployability, firms with higher redeployability see a decrease of 3.035 (= 0.07*43.350)
+TotalCited for each standard deviation increase in redeployability. The results support the hypothesis that for sup-
+pliers faced with more severe hold-up problems, common ownership with their customers is particularly relevant in
+promoting innovation specificity.
+
+ 1755053x, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/fima.12473 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+DENG ET AL. 21
+
+TABLE 7 Heterogeneous difference-in-differences (DiD) effects by bargaining power.
+
+(1) (2) (3) (4) (5) (6) (7) (8)
+
+Supplier-HHI Customer-HHI
+TotalCiter TotalCited TotalCiter TotalCited
+
+Treat× Post×HHI −13.276** −13.278** −11.841** −12.831** 16.129*** 14.751*** 10.791*** 9.283**
+
+[5.646] [5.379] [5.001] [4.620] [2.645] [3.050] [3.263] [3.517]
+
+Treat× Post 5.780** 5.665** 5.173** 5.385** −3.739*** −3.567*** −1.916 −1.573
+[2.228] [2.330] [2.105] [2.167] [0.714] [0.840] [1.432] [1.404]
+
+Treat×HHI 12.474** 7.877*** 7.373 6.785*** −18.051* −7.834*** −13.409* −5.456
+[5.349] [2.827] [4.831] [2.032] [9.425] [2.793] [7.545] [3.351]
+
+Post×HHI −1.222 −0.624 −2.849 −1.467 −0.126 −0.217 −2.408 −1.980
+[1.716] [1.598] [1.944] [1.840] [1.006] [0.979] [2.194] [1.916]
+
+HHI 3.287* 5.281** 4.726** 5.724** 8.667*** 5.137** 9.813** 6.132**
+
+[1.816] [1.934] [1.813] [2.170] [2.643] [2.306] [3.534] [2.499]
+
+Post 0.088 −0.226 0.389 −0.125 −0.241 −0.331 0.433 0.175
+
+[0.604] [0.533] [0.773] [0.687] [0.514] [0.440] [1.071] [0.893]
+
+Treat −2.689*** −2.005** 2.206* 1.673
+
+[0.962] [0.862] [1.181] [1.576]
+
+Controls Yes Yes Yes Yes Yes Yes Yes Yes
+
+Year FE Yes Yes Yes Yes Yes Yes Yes Yes
+
+Merger × Firm-Pair FE Yes No Yes No No Yes No No
+
+Merger FE No Yes No Yes Yes No Yes Yes
+
+Firm-Pair FE No Yes No Yes Yes No Yes Yes
+
+Observations 4887 4887 4887 4887 4887 4887 4887 4887
+
+Adj. R2 0.897 0.889 0.906 0.901 0.898 0.889 0.906 0.901
+
+Notes: This table examines the heterogeneous DiD effects of pairwise common institutional ownership on supplier innovation
+specificity by exploiting different levels of bargaining power of both supplier and customer prior to the merger event, proxy by
+Herfindahl–Hirschman Index (HHI), with similar regression specification as in Table 6. Supplier level, customer level, and pairwise con-
+trol variables are suppressed and defined in Appendix A. Standard errors, reported in brackets, are clustered at institution merger
+levels. ***, **, and * denote statistical significance at the 1%, 5%, and 10% level, respectively.
+
+4.2 Hold-up problems mitigation channel: Bargaining power
+
+The second dimension of firm heterogeneitywe explore is suppliers’ bargaining power. Following prior studies, we use
+industryHHI to proxy for the suppliers’ and customers’ relative bargaining power. For suppliers operating in industries
+with higher HHI, an indicator for less competition within the industry, they should have higher bargaining power rela-
+tive to their customers, thus be less concernedwith being held up. If customers have relatively large bargaining power,
+on the other hand, suppliers should be more concerned with being held up in the future. Similar to previous analysis,
+we incorporate supplier’s and customer’s HHI 1 year before themerger event into the DiD regression. The results are
+reported in Table 7. The first four columns study how suppliers’ bargaining power interacts with the effects of com-
+mon ownership. The coefficients on Treat × Post × Sup_HHI suggest that for suppliers with higher bargaining power,
+the increase in innovation specificity after being commonly held with their major customers is lower. Economically,
+compared to suppliers with lower HHI, suppliers with higher HHI see a decrease of 3.000 (= 0.226*13.278) TotalCiter
+for each standard deviation increase in suppliers’ HHI, and a decrease of 2.900 (= 0.226*12.831) TotalCited for each
+standard deviation increase in suppliers’ HHI. Columns (5)–(8) study how customers’ bargaining power interacts with
+the effects of common ownership. The results are just the opposite, with the main variable of interest, Treat × Post ×
+Cust_HHI being positive and significant.
+
+ 1755053x, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/fima.12473 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+22 DENG ET AL.
+
+TABLE 8 Difference-in-differences (DiD) test of common ownership on customer innovation specificity.
+
+(1) (2) (3) (4) (5) (6)
+
+Cust_TotalCiter Cust_TotalCited
+
+Treat × Post −0.751 −0.688 −0.641 −1.900** −1.980** −1.795**
+[0.588] [0.555] [0.578] [0.728] [0.724] [0.805]
+
+Post 0.338 0.316 0.049 0.219 0.161 −0.217
+[0.358] [0.333] [0.443] [0.482] [0.457] [0.658]
+
+Treat 0.208 0.712
+
+[0.922] [1.142]
+
+Controls No Yes Yes No Yes Yes
+
+Year FE Yes Yes Yes Yes Yes Yes
+
+Merger × Firm-Pair FE Yes Yes No Yes Yes No
+
+Merger FE No No Yes No No Yes
+
+Firm-Pair FE No No Yes No No Yes
+
+Observations 4478 4478 4478 4478 4478 4478
+
+Adj. R2 0.838 0.841 0.824 0.852 0.854 0.821
+
+Notes: This table examines the DiD test on the relation between customer innovation specificity and pairwise common insti-
+tutional ownership by exploiting financial institution mergers using the same regression specification as in Table 4, with the
+dependent variables measuring customers’ innovation specificity. Supplier level, customer level, and pairwise control vari-
+ables are suppressed and defined in Appendix A. Standard errors, reported in brackets, are clustered at institution merger
+levels. ***, **, and * denote statistical significance at the 1%, 5%, and 10% level, respectively.
+
+The heterogeneity analysis corroborates with our main findings and lends further support to the hold-up mitiga-
+tion channel. Under circumstances where suppliers are faced with severer hold-up problems—either with lower asset
+redeployability or lower bargaining power relative to their major customers—common ownership along the supply
+chain exerts a larger impact on promoting innovation specificity.
+
+4.3 Alternative explanations: Knowledge spillover
+
+Our next test considers an alternative explanation—knowledge spillover. If our main results are driven by knowledge
+spillover, thenwe should observe not only that suppliers conductmore specialized innovation toward their customers,
+but customers’ innovation being more specialized to their suppliers. In other words, the effect of knowledge spillover
+should be two-way. We might observe both suppliers’ and customers’ innovations becoming more aligned with each
+other during the exchanges of ideas and know-hows. We test this explanation by looking at customers’ innovation
+specificity. Specifically, we define Cust_TotalCiter as the number of customer patents that cite its suppliers’ patents in
+an application year, and Cust_TotalCited as the number of supplier patents that are cited by the customer in an appli-
+cation year. The results are reported in Table 8. Our main variable of interest, Treat × Post, is statistically insignificant
+across columns (1)–(3), while it is significantly negative in columns (4)–(6). This suggests that customers cite less of
+their suppliers’ patents after being commonly held due to institution mergers, which is against the prediction of the
+knowledge spillover channel.
+
+4.4 Alternative explanations: Collaboration
+
+We next consider firm collaboration as another possible channel driving our main results, as common investors
+may promote R&D collaborations between their commonly held suppliers and customers, thus achieving more
+
+ 1755053x, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/fima.12473 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+DENG ET AL. 23
+
+TABLE 9 Difference-in-differences (DiD) test of common ownership on innovation collaboration.
+
+(1) (2) (3)
+
+Alliances
+
+Treat × Post −0.016** −0.016** −0.017**
+[0.007] [0.006] [0.006]
+
+Post 0.006 0.006 0.007
+
+[0.006] [0.006] [0.006]
+
+Treat 0.006
+
+[0.006]
+
+Controls No Yes Yes
+
+Year FE Yes Yes Yes
+
+Merger × Firm-Pair FE Yes Yes No
+
+Merger FE No No Yes
+
+Firm-Pair FE No No Yes
+
+Observations 4887 4887 4887
+
+Adj. R2 0.067 0.069 0.150
+
+Notes: This table examines the DiD test on the relation between innovation collaboration and pairwise common institutional
+ownership by exploiting financial institutionmergers using the same regression specification as in Table 4, with the dependent
+variable Alliances, a dummy indicator for whether the supplier and customer establish a joint venture or strategic alliance in a
+year. Supplier level, customer level, and pairwise control variables are suppressed and defined in Appendix A. Standard errors,
+reported in brackets, are clustered at institution merger levels. ***, **, and * denote statistical significance at the 1%, 5%, and
+10% level, respectively.
+
+relationship-specific innovations without necessarily addressing the hold-up concerns between the two parties. To
+test for this potential mechanism, we consider an explicit form of R&D collaboration, that is, joint ventures and
+strategic alliances established by the two trading partners. Prior studies have found that joint ventures and strategic
+alliances are important organizational forms for two distinct entities to conduct innovation collaboration (Robinson,
+2008; Seru, 2014). If commonownershippromotes innovation specificity through facilitating innovation collaboration,
+we expect to see the probability of establishing a joint venture and strategic alliance to be higher after the two trading
+partners become commonly held.We collect information on all the joint ventures and strategic alliances between the
+suppliers and customers in our sample from the SDCPlatinumDatabase.We estimate a linear probabilitymodel using
+theDiD framework as in Equation (2) and tabulate the results in Table 9. Across columns (1)–(3),Treat×Post is negative
+and significant, suggesting that suppliers and customers are less likely to form joint ventures and strategic alliances
+after being commonly held. This evidence helps us rule out firm collaboration as an alternative channel. One possible
+explanation for the decrease in innovation collaboration could be the substitution effect, as the increase in suppliers’
+innovation specificity toward their commonly held customers spares the customers from either tailoring their tech-
+nology to fit into their suppliers’ more generalized products (the reasonwhywe see less innovation specificity toward
+suppliers by customers), or forming joint ventures and strategic alliances that aim to research on know-hows to meet
+customers’ specialized needs. This is consistent with the argument viewing vertical joint ventures as alternatives to
+simple contracts, and firms in buyer–supplier transactions only choose joint ventures when hold-up costs are high
+(Johnson &Houston, 2000).
+
+ 1755053x, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/fima.12473 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+24 DENG ET AL.
+
+TABLE 10 Difference-in-differences (DiD) test of common ownership on supply chain values.
+
+(1) (2) (3)
+
+Sup_TobinQ Cust_TobinQ Pair_TobinQ
+
+Treat × Post 0.028 0.209** 0.195**
+
+[0.104] [0.090] [0.084]
+
+Post −0.123*** −0.020 −0.012
+[0.036] [0.032] [0.031]
+
+Treat −0.074 −0.061 −0.061
+[0.065] [0.061] [0.058]
+
+Controls Yes Yes Yes
+
+Year FE Yes Yes Yes
+
+Firm-Pair FE Yes Yes Yes
+
+Observations 4887 4887 4887
+
+Adj. R2 0.732 0.811 0.804
+
+Notes: This table examines the DiD test on the relation between supply chain valuations and pairwise common institutional
+ownership by exploiting financial institution mergers using the same regression specification as in Table 4. The dependent
+variables are the supplier-, customer-, and pairwise Tobin’s Q, Sup_TobinQ, Cust_TobinQ, Pair_TobinQ at year t + 1. We remove
+the market-to-book control variables for both supplier and customer as they are highly correlated to the value of Tobin’s Q
+in the regressions. Supplier level, customer level, and pairwise control variables are suppressed and defined in Appendix A.
+Standard errors, reported in brackets, are clustered at institution merger levels. ***, **, and * denote statistical significance at
+the 1%, 5%, and 10% level, respectively.
+
+5 WELFARE IMPLICATIONS
+
+Our results so far have provided evidence that CIO along the supply chain promotes relationship-specific innovation
+investments of suppliers toward their commonly held customers bymitigating the hold-up problem. In this section, we
+explore the welfare implications on the investors from such effect.
+
+Institutional investors aim to maximize the risk-adjusted returns of its portfolio. A substantial body of literature
+has argued that shareholders with diversified portfolios aim to maximize portfolio profits rather than individual firm
+profits, and as a result, portfolio diversification can mitigate market frictions (Admati et al., 1994; Clayton & Jor-
+gensen, 2005; Hansen & Lott, 1996; Rubin, 2006). Hansen and Lott’s (1996) model suggests that individual firms may
+impose various types of externalities—pecuniary or nonpecuniary, vertical or horizontal—on one another, and diver-
+sification helps internalize these externalities to maximize portfolio returns. Therefore, we predict that an institution
+holding stakes in both customers and suppliers could align incentives between the two parties and reduce the risk of
+opportunistic behaviors, resulting in an improved coordination with higher overall returns.
+
+To empirically test this prediction, we examine whether CIO involvement leads to higher valuations (measured by
+Tobin’s Q) of suppliers, customers, and supplier–customer pairs using a similar DiD framework. Specifically, the joint
+valuation of a supplier–customer pair at a given year is defined as the combined book value of assets minus the book
+value of common equity plus the market value of common equity of both supplier and customer, then scaled by the
+combinedbookvalueof assets of both supplier and customer. Table10 reports the results.We find that the coefficients
+of Treat × Post across columns (1)–(3) are positive and statistically significant. In column (2), the coefficient of Treat ×
+Post is 0.209, indicating a 10.6% (= 0.209/1.965) increase in Tobin’sQ for treated customers compared to the control
+group. In column (3), the coefficient of Treat× Post is 0.195, indicating a 9.9% (= 0.195/1.972) increase in the combined
+value of the treated pairs, relative to the control pairs.
+
+ 1755053x, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/fima.12473 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+DENG ET AL. 25
+
+TABLE 11 Investor types.
+
+(1) (2) (3) (4)
+
+TotalCiter TotalCited
+
+NumCross_TRA 0.266* 0.440**
+
+[0.161] [0.213]
+
+NumCross_QIX 0.341*** 0.586***
+
+[0.121] [0.160]
+
+NumCross_DED 0.507** 0.742**
+
+[0.248] [0.349]
+
+TotalCrossOwn_TRA 3.650 6.804
+
+[3.757] [4.880]
+
+TotalCrossOwn_QIX 3.722 9.137***
+
+[2.348] [3.041]
+
+TotalCrossOwn_DED 0.716 0.692
+
+[3.193] [3.802]
+
+Controls Yes Yes Yes Yes
+
+Year FE Yes Yes Yes Yes
+
+Firm-Pair FE Yes Yes Yes Yes
+
+Observations 8783 8783 8783 8783
+
+Adj. R2 0.652 0.650 0.656 0.653
+
+Notes: This table examines the relation between supplier innovation activities and type of common owned investors. We
+followBushee’s (1998, 2001) classification of institutional investors and decompose ourmeasures of CIO,NumCross and Total-
+CrossOwn, into three variables indicating “dedicated” (DED), “quasi-indexer” (QIX), and “transient” (TRA) investors. Standard
+errors, reported in brackets, are clustered at institutionmerger levels. ***, **, and * denote statistical significance at the 1%, 5%,
+and 10% level, respectively.
+
+The results on firm value suggest that common ownership of a supplier–customer pair significantly creates value
+for investors, particularly in the formof customer valuations. Our findings are consistentwith prior studies, which also
+report increased value effects of CIO involvement (e.g., Freeman, 2023; He &Huang, 2017). Combined with our main
+findings that CIO involvement may mitigate supply chain hold-up problems for suppliers, CIO involvement along the
+supply chain could be Pareto improving, leading to beneficial outcomes for all three parties.
+
+We next investigate the mechanism through which common institutional investors exert influence on their port-
+folio companies’ operations. First, we examine the types of institutions based on Bushee’s (1998, 2001) classification
+to determine whether “dedicated” (DED), “quasi-indexer” (QIX), or “transient” (TRA) institutions that commonly hold
+supplier–customer pairs lead to the cooperation along the supply chain.8 According to Bushee’s definition, DED
+investors actively select assets to own for the long term, while QIX and TRA investors hold a diversified portfolio of
+assets in a more passive manner. Specifically, we decompose NumCross into three variables (i.e., NumCross_DED, Num-
+Cross_QIX, and NumCross_TRA) representing the number of unique common investors of each type, and decompose
+TotalCrossOwn into three variables (i.e., TotalCrossOwn _DED, TotalCrossOwn_QIX, and TotalCrossOwn_TRA) representing
+the sum of supplier shares held by each type of common investors, divided by the supplier’s total shares outstanding.
+We then conduct horserace regressions using Equation (1). Table 11 reports the results. We find that CIO of all three
+types has significantly positive effect on supplier’s investment specificity. Particularly, in columns (1) and (3), the coef-
+
+8 We are grateful to Brian Bushee for providing these data on his website.
+
+ 1755053x, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/fima.12473 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+26 DENG ET AL.
+
+ficients of NumCross_DED are larger than those of NumCross_TRA and NumCross_QIX, suggesting that active investors
+have a stronger effect than passive investors in facilitating cooperation along the supply chain.
+
+Next, we examine the “cross-blockholders” who hold at least 3% or 5% of both suppliers and customers, instead of
+the 1% threshold used in our baseline analysis. In untabulated results, we find that the impact of CIO on investment
+specificity using the 3%or 5% cutoff is economically similar to our baseline results but not statistically significant. This
+lack of statistical significance is due to the rarity of such cases in our sample. The average number of unique common
+investors holding both the supplier and customer with holdings larger than 1% of total shares outstanding is 2.107,
+but this sharply decreases to 0.517 for the 3% cutoff and 0.179 for the 5% cutoff. This observation is consistent with
+Freeman (2023), who also found that such cases are extremely limited.
+
+6 CONCLUSION
+
+In this paper, we analyze supplier investment specificity toward their commonly held customers via patent cross-
+citations, and show that vertical CIO can mitigate hold-up problems along the supply chain. We find that when
+commonly held with their major customers, suppliers conduct more specialized R&D and produce more specialized
+patents, more so when the common ownership networks are wider and deeper. We establish causality using a DiD
+approach based on a quasi-natural experiment of financial institution mergers. Our results are robust to a battery
+of robustness tests. Furthermore, we investigate the differential effects of vertical CIO by suppliers’ ex ante hold-
+up concern severity and provide evidence on hold-up concerns mitigation as the underlying mechanism driving the
+increase in suppliers’ innovation specificity. We also provide evidence that our main findings are stronger in active
+institutions rather than passive institutions. As the last step of our analysis, we show that common ownership of a
+supplier–customer pair creates value for investors, particularly benefiting customer valuations.
+
+Ourpapernotonly tries to tacklehold-upproblemsbyoffering anewsolutionwhich is independentof actions taken
+by the two parties of the business relationship, but is also among the first to extend the common ownership literature
+to study its vertical effects along the supply chain.Our paper sheds new light on the hold-up concernsmitigation effect
+of common ownership on suppliers’ relationship-specific innovation investments toward customers. In view of this
+positive effect, our studyhas important policy implications given the recent debates on imposing tighter regulations on
+financial institutions’ cross-holdings due to the widely documented anticompetition effect (on firms competing in the
+same industries).9 Our study provides new evidence on the efficiency implications of common ownership that future
+regulatory discussions should take into consideration.
+
+ACKNOWLEDGMENTS
+We thankKathleenKahle (the editor) and an anonymous referee for very thoughtful suggestions.We are also grateful
+to Ju Hu, Shiyang Huang, Alan Kwan, Tse-Chun Lin, Tingjun Liu, Dragon Yongjun Tang, Xuan Tian, HaoWang, Yan Xu,
+Junbiao Yu (discussant), Hong Zou, and seminar and conference participants at Southwestern University of Finance
+and Economics, the 2022 AFR International Conference of Economics and Finance, the 4th Camphor Conference
+for Finance, the 2022 Chinese Finance Annual Meeting, the 2022 Financial Management Association Meetings, the
+HKU PhD Brownbag, the IFMRGSB Research Symposium, and the 6th Peking University CCER Summer Institute for
+their valuable comments and advice. Wentao Yao acknowledges financial support from the National Natural Science
+Foundation of China (Grant No. 72202192). All errors are our own.
+
+9 “Common ownership of shares faces regulatory scrutiny” (Financial Times, January 22, 2019). https://www.ft.com/content/59325462-fe57-11e8-aebf-
+99e208d3e521.
+
+ 1755053x, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/fima.12473 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+DENG ET AL. 27
+
+REFERENCES
+Admati, A. R., Pfleiderer, P., & Zechner, J. (1994). Large shareholder activism, risk sharing, and financial market equilibrium.
+
+Journal of Political Economy, 102(6), 1097–1130.
+Aghion, P., Bloom, N., Blundell, R., Griffith, R., & Howitt, P. (2005). Competition and innovation: An inverted-u relationship.
+
+Quarterly Journal of Economics, 120(2), 701–728.
+Aghion, P., Van Reenen, J., & Zingales, L. (2013). Innovation and institutional ownership. American Economic Review, 103(1),
+
+277–304.
+Alcacer, J., & Gittelman, M. (2006). Patent citations as a measure of knowledge flows: The influence of examiner citations.
+
+Review of Economics and Statistics, 88(4), 774–779.
+Allen, J.W., & Phillips, G.M. (2000). Corporate equity ownership, strategic alliances, and productmarket relationships. Journal
+
+of Finance, 55(6), 2791–2815.
+Antón, M., Ederer, F., Giné, M., & Schmalz, M. C. (2023). Common ownership, competition, and top management incentives.
+
+Journal of Political Economy, 131(5), 1294–1355.
+Antón, M., Ederer, F., Giné, M., & Schmalz, M. C. (2024). Innovation: The bright side of common ownership? National Bureau of
+
+Economic ResearchWorking Paper.
+Azar, J., Raina, S., & Schmalz, M. (2022). Ultimate ownership and bank competition. Financial Management, 51(1), 227–269.
+Azar, J., Schmalz, M. C., & Tecu, I. (2018). Anticompetitive effects of common ownership. Journal of Finance, 73(4), 1513–1565.
+Baker, A. C., Larcker, D. F., & Wang, C. C. (2022). How much should we trust staggered difference-in-differences estimates?
+
+Journal of Financial Economics, 144(2), 370–395.
+Banerjee, S., Dasgupta, S., & Kim, Y. (2008). Buyer–supplier relationships and the stakeholder theory of capital structure.
+
+Journal of Finance, 63(5), 2507–2552.
+Banerjee, S., Dasgupta, S., & Shi, R. (2021).The dark side of stakeholder influence: The surprising effect of customer fraud on suppliers.
+
+SSRNWorking Paper.
+Barrot, J. N., & Sauvagnat, J. (2016). Input specificity and the propagation of idiosyncratic shocks in production networks.
+
+Quarterly Journal of Economics, 131(3), 1543–1592.
+Bena, J., Erel, I., Wang, D., &Weisbach, M. S. (2021). Specialized investments and firms’ boundaries: Evidence from textual analysis
+
+of patents. National Bureau of Economic ResearchWorking Paper.
+Brav, A., Jiang, W., Ma, S., & Tian, X. (2018). How does hedge fund activism reshape corporate innovation? Journal of Financial
+
+Economics, 130(2), 237–264.
+Brooks, C., Chen, Z., & Zeng, Y. (2018). Institutional cross-ownership and corporate strategy: The case of mergers and
+
+acquisitions. Journal of Corporate Finance, 48, 187–216.
+Bushee, B. (1998). The influence of institutional investors onmyopic R&D investment behavior.Accounting Review,73(3), 305–
+
+333.
+Bushee, B. (2001). Do institutional investors prefer near-term earnings over long-run value?. Contemporary Accounting
+
+Research, 18, 207–246.
+Callaway, B., & Sant’Anna, P. H. (2021). Difference-in-differences with multiple time periods. Journal of Econometrics, 225(2),
+
+200–230.
+Cen, L., & Dasgupta, S. (2021). The economics and finance of customer-supplier relationships. SSRNWorking Paper.
+Chemmanur, T. J., Loutskina, E., & Tian, X. (2014). Corporate venture capital, value creation, and innovation.Review of Financial
+
+Studies, 27(8), 2434–2473.
+Cheung, Y. L., Haw, I. M., Hu, B., Swink, M., & Zhang, W. (2020). Common institutional investors and supplier performance in
+
+supply chains. Journal of Operations Management, 66(6), 670–696.
+Chen, S., Jin, Z., & Yang, Y. J. (2022).Do institutional investors affect news coverage? The role of media ownership. Working Paper.
+Clayton,M. J., & Jorgensen, B.N. (2005).Optimal cross holdingwith externalities and strategic interactions. Journal of Business,
+
+78(4), 1505–1522.
+Crawford, V. P. (1990). Relationship-specific investment.Quarterly Journal of Economics, 105(2), 561–574.
+Dasgupta, S., Zhang, K., & Zhu, C. (2021). Do social connections mitigate hold-up and facilitate cooperation? Evidence from
+
+supply chain relationships. Journal of Financial and Quantitative Analysis, 56(5), 1679–1712.
+Dennis, P., Gerardi, K., & Schenone, C. (2022). Common ownership does not have anti-competitive effects in the airline
+
+industry. Journal of Finance, 77(5), 2765–2798.
+Fang, V.W., Tian, X., & Tice, S. (2014). Does stock liquidity enhance or impede firm innovation? Journal of Finance, 69(5), 2085–
+
+2125.
+Fee, C. E., Hadlock, C. J., & Thomas, S. (2006). Corporate equity ownership and the governance of productmarket relationships.
+
+Journal of Finance, 61(3), 1217–1251.
+Freeman, K. M. (2023). Overlapping ownership along the supply chain. Journal of Financial and Quantitative Analysis, 1–30.
+
+Published online, https://doi.org/10.1017/S0022109023001266
+
+ 1755053x, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/fima.12473 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+28 DENG ET AL.
+
+Frésard, L., Hoberg, G., & Phillips, G. M. (2020). Innovation activities and integration through vertical acquisitions. Review of
+Financial Studies, 33(7), 2937–2976.
+
+Gilje, E. P., Gormley, T., & Levit, D. (2020).Who’s paying attention?Measuring commonownership and its impact onmanagerial
+incentives. Journal of Financial Economics, 137(1), 152–178.
+
+Goldberg, V. P. (1976). Regulation and administered contracts. Bell Journal of Economics, 7(2), 426–448.
+Goodman-Bacon, A. (2021). Difference-in-differenceswith variation in treatment timing. Journal of Econometrics,225(2), 254–
+
+277.
+Grossman, S. J., & Hart, O. D. (1986). The costs and benefits of ownership: A theory of vertical and lateral integration. Journal
+
+of Political Economy, 94(4), 691–719.
+Hansen, R. G., & Lott, J. R. (1996). Externalities and corporate objectives in a world with diversified shareholder/consumers.
+
+Journal of Financial and Quantitative Analysis, 31(1), 43–68.
+Harford, J., Jenter, D., & Li, K. (2011). Institutional cross-holdings and their effect on acquisition decisions. Journal of Financial
+
+Economics, 99(1), 27–39.
+He, J., Li, L., & Yeung, P. E. (2020). Two tales of monitoring: Effects of institutional cross-blockholding on accruals. SSRN Working
+
+Paper.
+He, J., Liang, L., Wang, H., & Xia, H. (2023). Networking behind the scenes: Institutional cross-industry holdings and corporate
+
+loanmarkets.Management Science, 70(7), 4932–4952.
+He, J., Xia, H., Zhao, Y., & Zuo, L. (2022). The power behind the pen: Institutional investors’ influence on media during corporate
+
+litigation. SSRNWorking Paper.
+He, J. J., & Huang, J. (2017). Product market competition in a world of cross-ownership: Evidence from institutional
+
+blockholdings. Review of Financial Studies, 30(8), 2674–2718.
+He, J. J., Huang, J., & Zhao, S. (2019). Internalizing governance externalities: The role of institutional cross-ownership. Journal
+
+of Financial Economics, 134(2), 400–418.
+He, J. J., & Tian, X. (2013). The dark side of analyst coverage: The case of innovation. Journal of Financial Economics, 109(3),
+
+856–878.
+He, J. J., & Tian, X. (2020). Institutions and innovation. Annual Review of Financial Economics, 12, 377–398.
+Hirshleifer, D., Low, A., & Teoh, S. H. (2012). Are overconfident CEOs better innovators? Journal of Finance, 67(4), 1457–1498.
+Hsu, P. H., Tian, X., & Xu, Y. (2014). Financial development and innovation: Cross-country evidence. Journal of Financial
+
+Economics, 112(1), 116–135.
+Jaffe, A. B., Trajtenberg, M., & Fogarty, M. S. (2000). Knowledge spillovers and patent citations: Evidence from a survey of
+
+inventors. American Economic Review, 90(2), 215–218.
+Johnson, S. A., & Houston, M. B. (2000). A rexamination of the motives and gains in joint ventures. Journal of Financial and
+
+Quantitative Analysis, 35(1), 67–85.
+Jung,M. J. (2013). Investor overlap and diffusion of disclosure practices. Review of Accounting Studies, 18(1), 167–206.
+Kelly, B., Papanikolaou, D., Seru, A., & Taddy, M. (2021). Measuring technological innovation over the long run. American
+
+Economic Review: Insights, 3(3), 303–320.
+Kim, H., & Kung, H. (2017). The asset redeployability channel: How uncertainty affects corporate investment. Review of
+
+Financial Studies, 30(1), 245–280.
+Klein, B., Crawford, R. G., & Alchian, A. A. (1978). Vertical integration, appropriable rents, and the competitive contracting
+
+process. Journal of Law and Economics, 21(2), 297–326.
+Koch, A., Panayides, M., & Thomas, S. (2021). Common ownership and competition in product markets. Journal of Financial
+
+Economics, 139(1), 109–137.
+Kogan, L., Papanikolaou, D., Seru, A., & Stoffman, N. (2017). Technological innovation, resource allocation, and growth.
+
+Quarterly Journal of Economics, 132(2), 665–712.
+Kostovetsky, L., &Manconi, A. (2020). Common institutional ownership and diffusion of innovation. SSRNWorking Paper.
+Lewellen, K., & Lowry, M. (2021). Does common ownership really increase firm coordination? Journal of Financial Economics,
+
+141(1), 322–344.
+Li, X., Liu, T., & Taylor, L. A. (2023). Common ownership and innovation efficiency. Journal of Financial Economics, 147(3), 475–
+
+497.
+Liang, L. (2016). Common ownership and executive compensation. University of Texas at DallasWorking Paper.
+López, Á. L., &Vives, X. (2019).Overlapping ownership, R&Dspillovers, and antitrust policy. Journal of Political Economy,127(5),
+
+2394–2437.
+Manso, G. (2011). Motivating innovation. Journal of Finance, 66(5), 1823–1860.
+Matvos, G., & Ostrovsky, M. (2008). Cross-ownership, returns, and voting in mergers. Journal of Financial Economics, 89(3),
+
+391–403.
+Moshirian, F., Tian, X., Zhang, B., & Zhang,W. (2021). Stockmarket liberalization and innovation. Journal of Financial Economics,
+
+139(3), 985–1014.
+
+ 1755053x, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/fima.12473 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+DENG ET AL. 29
+
+Ojeda,W. (2019). Common ownership in the loan market. Working Paper.
+Park, J., Sani, J., Shroff, N., & White, H. (2019). Disclosure incentives when competing firms have common ownership. Journal
+
+of Accounting and Economics, 67(2–3), 387–415.
+Pawliczek, A., Skinner, A. N., & Zechman, S. L. C. (2022). Facilitating tacit collusion: A new perspective on common ownership
+
+and voluntary disclosure. Journal of Accounting Research, 60(5), 1651–1693.
+Porter, M. E. (1992). Capital disadvantage: America’s failing capital investment system.Harvard Business Review, 70(5), 65–82.
+Robinson, D. T. (2008). Strategic alliances and the boundaries of the firm. Review of Financial Studies, 21(2), 649–681.
+Ru, Y., Xie, F., & Xue, J. (2020). Common business group affiliation, media reporting, and firm real effects. European Corporate
+
+Governance Institute–FinanceWorking Paper.
+Rubin, A. (2006). Diversification and corporate decisions. Corporate Ownership and Control, 3(3), 209–212.
+Seru, A. (2014). Firmboundariesmatter: Evidence fromconglomerates andR&Dactivity. Journal of Financial Economics,111(2),
+
+381–405.
+Sun, L., & Abraham, S. (2021). Estimating dynamic treatment effects in event studies with heterogeneous treatment effects.
+
+Journal of Econometrics, 225(2), 175–199.
+Tirole, J. (1999). Incomplete contracts:Where dowe stand? Econometrica, 67(4), 741–781.
+Wang, J., &Wang, L. (2022).When shareholders cross-hold lenders’ equity: The effects on loan terms. SSRNWorking Paper.
+Williamson, O. E. (1979). Transaction-cost economics: The governance of contractual relations. Journal of Law and Economics,
+
+22(2), 233–261.
+
+How to cite this article: Deng, Y., Li, J., Peng, Q., & Yao,W. (2025). Does common institutional ownership
+mitigate hold-up problems along the supply chain? Financial Management, 54, 3–31.
+https://doi.org/10.1111/fima.12473
+
+APPENDIX A: VARIABLE DEFINITIONS
+
+Variable name Description
+
+NumCross The number of unique common investors holding both the supplier and customer (with
+holdings larger than 1% of total shares outstanding).
+
+TotalCrossOwn The sum of supplier shares held across common investors, divided by the supplier’s
+total share outstanding (holdings larger than 1% of total shares outstanding).
+
+Sup_R&D Supplier R&D expenditures divided by the book value of total assets.
+
+Sup_MB Supplier market value of total assets divided by the book value of total assets.
+
+Sup_Size Supplier natural logarithmic of the book value of total assets.
+
+Sup_Leverage Supplier total debt divided by the book value of total assets.
+
+Sup_ROA Supplier operating income divided by the book value of total assets.
+
+Sup_Tangibility Supplier net property, plant, and equipment (PPE) divided by the book value of total
+assets.
+
+Sup_Capex Supplier capital expenditures divided by the book value of total assets.
+
+Sup_InstOwn Supplier total shares held by institutional investors divided by total shares
+outstanding.
+
+Cust_MB Customermarket value of total assets divided by the book value of total assets.
+
+Cust_Size Customer natural logarithmic of the book value of total assets.
+
+Cust_Leverage Customer total debt divided by the book value of total assets.
+
+Cust_ROA Customer operating income divided by the book value of total assets.
+(Continues)
+
+ 1755053x, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/fima.12473 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+30 DENG ET AL.
+
+Variable name Description
+
+Cust_Tangibility Customer net PPE divided by the book value of total assets.
+
+Cust_Capex Customer capital expenditures divided by the book value of total assets.
+
+Cust_InstOwn Customer total shares held by institutional investors divided by total shares
+outstanding.
+
+SalesFraction Supplier’s sales to eachmajor customer divided by total sales.
+
+ln(Patents+1) Natural logarithmic of one plus the number of patents filed and eventually granted in
+each application year.
+
+TotalCiter The number of supplier patents that cite its customer’s patents in an application year.
+
+TotalCited The number of customer patents that cited by its supplier in an application year.
+
+Cust_TotalCiter The number of customer patents that cite its supplier’s patents in an application year
+for difference-in-differences (DiD) sample.
+
+Cust_TotalCiter The number of supplier patents that cited by its customer in an application year for
+DiD sample.
+
+Redeploy The redeployability score fromKim and Kung (2017). Asset redeployability score is
+calculated as the value-weighted average of the industry-level redeployability index
+across the business segments. Industry-level redeployability is calculated as the
+value-weighted average of the asset-level redeployability scores from the Bureau of
+Economic Analysis (BEA) 1997 capital flow table. Asset-level redeployability scores is
+calculated as the sum ofmarket capitalization of all public firms in industries that use
+the asset over the sum ofmarket capitalization across all public firms in the 123
+industries in the BEA 1997 capital flow table.
+
+Sup_HHI The sum of squaredmarket shares in sales of the supplier’s industry. Industry is
+defined using four-digit Standard Industrial Classification (SIC) code.
+
+Cust_HHI The sum of squaredmarket shares in sales of the customer’s industry. Industry is
+defined using four-digit SIC code.
+
+Sup_TobinQ Suppliers’ the book value of assets (at) minus the book value of common equity (ceq)
+plus themarket value of common equity (csho*prcc_f), then scaled by the book value
+of assets (at).
+
+Cust_TobinQ Customers’ the book value of assets (at) minus the book value of common equity (ceq)
+plus themarket value of common equity (csho*prcc_f), then scaled by the book value
+of assets (at).
+
+Pair_TobinQ Combined the book value of assets (at) minus the book value of common equity (ceq)
+plus themarket value of common equity (csho*prcc_f) of both supplier and customer,
+then scaled by the combined the book value of assets (at) of both supplier and
+customer.
+
+Alliances A dummy variable for whether the supplier and customer establish a joint venture or
+strategic alliance in a year.
+
+ 1755053x, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/fima.12473 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+DENG ET AL. 31
+
+TABLE A1 Robustness: Alternative estimators to account for heterogeneous treatment effects.
+
+Panel A: Using Callaway and Sant’Anna’s (2021) estimators
+
+(1) (2) (3) (4)
+
+TotalCiter TotalCited
+
+NumCross TotalCrossOwn NumCross TotalCrossOwn
+
+ATT 3.090*** 2.653*** 2.495*** 1.924***
+
+[0.868] [0.779] [0.535] [0.599]
+
+Controls Yes Yes Yes Yes
+
+Year FE Yes Yes Yes Yes
+
+Firm-Pair FE Yes Yes Yes Yes
+
+Observations 4322 4043 4322 4043
+
+Cluster at Merger event Merger event Merger event Merger event
+
+Panel B: Using Goodman-Bacon’s (2021) decomposition
+
+Panel C. Using Sun and Abraham’s (2021) event studymethod
+
+Total Citer (Sun & Abraham, 2021) Total Cited (Sun & Abraham, 2021)
+
+_3 _2 _1 0 1 2 _3 _2 _1 0 1 2
+Year to Merger Year to Merger
+
+(a) TotalCiter (b) TotalCited
+
+Note: This table reports the results of alternative estimators to account for heterogeneous treatment effects in our staggered
+difference-in-differences (DID) setting. Panel A reports the results using Callaway and Sant’Anna’s (2021) estimators by the
+Stata command “csdid.” Panel B presents the Goodman-Bacon’s (2021) estimators using the Stata command “bacondecomp.”
+Panel Cpresents Sun andAbraham’s (2021) estimator using the Stata command “eventstudyinteract.” Supplier level, customer
+level, and pairwise control variables are suppressed and defined in Appendix A. Standard errors, reported in brackets, are
+clustered at the institutionmerger level. ***, **, and * denote statistical significance at the 1%, 5%, and 10% levels, respectively.
+
+_1 _0.5 0 0.5 1
+
+_1.5 _1 _0.5 0 0.5 1
+
+ 1755053x, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/fima.12473 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

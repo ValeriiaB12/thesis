@@ -1,0 +1,1207 @@
+﻿Journal of Business Research 144 (2022) 690–702
+
+Contents lists available at ScienceDirect 
+
+Journal of Business Research 
+journal homepage: www.elsevier.com/locate/jbusres 
+
+Determinants of common ownership: Exploring an information-based and a 
+competition-based perspective in a global context 
+Jan C. Hennig a,*, Jana Oehmichen b,c, Philip J. Steinberg c, Judith Heigermoser d 
+
+a Department of Accounting, University of Groningen, Nettelbosje 2, 9747 AE Groningen, The Netherlands 
+b Chair of Organization, Human Resources, and Management, University of Mainz, Jakob-Welder-Weg 9, 55128 Mainz, Germany 
+c Department of Innovation Management & Strategy, University of Groningen, Nettelbosje 2, 9747 AE Groningen, The Netherlands 
+d Chair of Management and Control, Georg-August University of Goettingen, Platz der Göttinger Sieben 3, 37073 Göttingen, Germany   
+
+A R T I C L E  I N F O   A B S T R A C T   
+
+Keywords: This study explores the determinants of common ownership. Drawing on two explanatory lenses, we suggest an 
+Common ownership information-based perspective and a competition-based perspective. We theorize on and empirically test both 
+Agency theory perspectives at the firm, industry, and country levels. Based on 14,372 observations of firms from the MSCI All 
+Competition Country World Index for the years 2008 to 2017, we find evidence supporting the information-based perspective 
+Information advantage 
+Competitive dynamics at the firm, industry, and country levels: Access to and the value of private information about rival firms in
+Institutional investors creases common ownership. For the competition-based perspective, we find support at the industry and country 
+
+levels, specifically uncovering that common ownership is higher in more concentrated industries and in countries 
+with more extensive laws regarding anticompetitive conduct. Our findings contribute to research by stressing the 
+relevance of both perspectives. Overall, our study has broader implications for understanding the emerging 
+phenomenon of common ownership.   
+
+1. Introduction To answer their call, we analyze the determinants of common 
+ownership on multiple levels and in a global context. We build our 
+
+Institutional ownership of corporations has been the subject of many analysis of the determinants on the motivation of investors to maximize 
+studies to date (Bajo et al., 2020; Gillan & Starks, 2003; Goranova et al., the financial returns from their investments. In the case of common 
+2010; La Porta et al., 1999). More recently, scholars have begun to owners, their aim is to maximize the joint asset value (Goranova et al., 
+investigate the phenomenon of common ownership—i.e., one institu 2010; Matvos & Ostrovsky, 2008). Currently, the literature suggests two 
+tional investor owning a sizeable number of publicly traded shares in dominant mechanisms through which common owners can achieve this 
+two (or more) rival firms (e.g., Azar et al., 2018; Connelly et al., 2019; objective: First, common owners benefit from their superior access to 
+Schmalz, 2018). Previous research has, for instance, shown that most of private information about firms (Connelly et al., 2019; Edmans et al., 
+the major investors of U.S. airlines also own shares of their competitor 2019); second, common ownership can result in anti-competitive ef
+companies (Schmalz, 2018). In our sample, institutional investors that fects, such as increased prices for consumers (Azar et al., 2018; Elhauge, 
+own stocks in at least two firms of one industry held about one quarter of 2016; Posner et al., 2016). We shed light on how investors’ motivation 
+all stakes. While previous studies have provided initial insights to maximize the joint asset value may affect the prevalence of common 
+regarding the implications of common ownership at the firm or dyad ownership within firms. Hence, we go beyond primarily structurally- 
+levels (Azar et al., 2018; Connelly et al., 2019; He & Huang, 2017) as induced and more passive determinants of common ownership, such 
+well as discussed the related potential policy consequences (Coates, as diversified investment strategies and index investments (e.g., Backus 
+2018; Elhauge, 2016; Posner et al., 2016), there is relatively little et al., 2021), and specifically investigate whether access to private in
+empirical research exploring its antecedents. Accordingly, scholars have formation and the potential for anti-competitive effects also explain the 
+called for future research to explore the determinants of common prevalence of common ownership. While acknowledging that these two 
+ownership (e.g., Gilje et al., 2020). perspectives may only be partly distinct, we believe that this research 
+
+* Corresponding author. 
+E-mail addresses: j.c.hennig@rug.nl (J.C. Hennig), j.oehmichen@uni-mainz.de (J. Oehmichen), p.j.steinberg@rug.nl (P.J. Steinberg), judith.heigermoser@wiwi. 
+
+uni-goettingen.de (J. Heigermoser).  
+
+https://doi.org/10.1016/j.jbusres.2022.02.019 
+Received 28 June 2021; Received in revised form 1 February 2022; Accepted 5 February 2022   
+Available online 18 February 2022
+0148-2963/© 2022 The Author(s). Published by Elsevier Inc. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).
+
+
+
+J.C. Hennig et al.                                                                                                                                                                                    J  o  u  r n  a l  o  f  B  u  s i n  e  s s  R  e  s e a  r  c h   144 (2022) 690–702
+
+not only informs the greater ownership research but also provides integration of both the information-based and the competition-based 
+essential insights for practitioners on how to assess common ownership. perspectives. 
+Insights regarding these two theoretical perspectives can thus serve as a 
+basis for discussions about potential consequences, such as regulatory 2. Literature review 
+changes. Specifically, we draw on insights from an information-based 
+perspective, highlighting private information (i.e., the ability of In the past few years, the phenomenon of active common ownership 
+shared principals to gather intimate insights on multiple rival agents), has gained the attention of scholars from multiple disciplines, such as 
+and a competition-based perspective, highlighting anti-competitive ef management, marketing, finance, and law (Azar et al., 2018; Bajo et al., 
+fects, which lead to potentially less competition when firms maximize 2020; Connelly et al., 2019; Lu et al., 2021; Schmalz, 2018). At first, 
+their investors’ portfolio value instead of their individual firm value. scholars renewed the attention given to the concept of joint asset value 
+
+Leveraging the above-mentioned information-based and as an important principle that guides common owners (e.g., Goranova 
+competition-based perspectives, we test both mechanisms from an in et al., 2010; Hansen & Lott, 1996). Like any other investor, common 
+vestor’s point of view and consider their explanatory power for common owners are interested in maximizing the value of their entire portfolio 
+ownership. In our empirical analysis, we focus on three different levels (Daily et al., 2003; Hansen & Lott, 1996). This could have consequences 
+per perspective—the firm, industry, and country levels— as these have for the strategic decisions of firms that have common owners, as these 
+been identified as useful analytical categories (Peng et al., 2009). For the firms might no longer maximize their own value but their owners’ 
+information-based perspective, we develop hypotheses for analyst portfolio value (Rotemberg, 1984; Schmalz, 2018). For instance, pre
+coverage (firm level), industry dynamism (industry level), and disclo vious research has shown that, in M&A deals, common owners seek the 
+sure requirements (country level). For the competition-based perspec highest aggregate value, if necessary, at the expense of non-common 
+tive, we hypothesize on the determinants of the diversity of a firm’s owners (Goranova et al., 2010; Matvos & Ostrovsky, 2008). Other 
+competitive repertoire (firm level), industry concentration (industry studies have built on the principle of joint asset value and studied the 
+level), and the strength of competition law (country level). mechanisms common owners use to maximize it (i.e., the value of pri
+
+To test our hypotheses, we compiled a large international dataset. vate information and the possibility of anti-competitive effects) (Antón 
+We started with the firms listed in the MSCI All Country World Index et al., 2021; Azar et al., 2018; Connelly et al., 2019). 
+between 2008 and 2017, which contains about 2,500 firms from up to 50 Private information can be useful for common owners in several 
+developed and emerging countries annually. This index covers about ways. Edmans et al. (2019) developed a theoretical model where com
+85% of the free-float adjusted market capitalization in each country. We mon owners utilize superior insights on their firms to make a more 
+included every firm listed at least once in the index between 2008 and informed decision about which stakes to hold and which to sell. He et al. 
+2017 and excluded firms headquartered in tax havens (Dharmapala & (2019) found that common ownership increases monitoring efficiency 
+Hines, 2009). We clustered the firms by industry, calculated the share of and reduces externalities, as owners have access to information from 
+common ownership by institutional investors at the firm level, and multiple sources to hold the management accountable. Moreover, 
+enriched the dataset with a broad range of financial, governance, and common ownership also mitigates earnings management (Ram
+institutional data. Overall, our analyses are based on a sample of 14,372 alingegowda et al., 2021): Since common owners possess detailed in
+firm-year observations. We found that all three levels of the information- formation about more than one firm per industry, their knowledge helps 
+based perspective explained common ownership according to our them realistically calibrate financial results and investment opportu
+argumentation. This suggests that superior access to private information nities across multiple firms (Ramalingegowda et al., 2021). In addition, 
+indeed motivates common ownership. With regard to the competition- common owners may provide their firms with such key information, 
+based perspective, we found support for the hypotheses on anti- serving as informational bridges between them (Massa & Žaldokas, 
+competitive potential at the industry level—where we argue that 2017). Building on these insights, Connelly et al. (2019) argued that, by 
+concentrated industries are related to increased common own serving as informational bridges, common owners help their firms 
+ership—and at the country-level—where we find evidence that compe engage in indirect competition by employing different competitive 
+tition laws are related to increased common ownership as an repertoires, while the firms can retain their overall competitive 
+unregulated alternative. aggressiveness. 
+
+Our study contributes to the literature on common ownership, as we Another body of theoretical and empirical studies on common 
+add an important aspect to the nascent discussion on this major phe ownership analyzes whether the phenomenon is associated with anti- 
+nomenon (e.g., Bajo et al., 2020; He & Huang, 2017; Ramalingegowda competitive effects (for an overview of this research, see, e.g., 
+et al., 2021; Schmalz, 2018, 2021). By exploring the determinants of Schmalz, 2021) and, hence, potential costs for the customer. Some law 
+common ownership in a systematic and integrated manner, we offer a scholars (e.g., Coates, 2018) have even begun discussing the adequacy of 
+missing piece of evidence that has sparked calls for clarification (Gilje antitrust regulations against common ownership. He and Huang (2017) 
+et al., 2020). Hence, we add to the understanding of common ownership argue that common owners encourage coordination between their firms 
+and the mechanisms through which institutional investors seek to via alliances, acquisitions, and board interlocks, with these measures 
+maximize their value creation. Moreover, we empirically explore the resulting in increased market shares for firms with common owners. 
+two main theoretical perspectives used by previous research to motivate Azar et al. (2018) analyzed the airline industry in the U.S., in which 
+common ownership: 1) access to private information (derived from an common ownership is prevalent and has steadily increased. They found 
+information-based perspective), where shared principals have prefer increased ticket prices, which confirms their assumption that common 
+ential access to their rival agents (Connelly et al., 2019), and 2) potential ownership can result in anti-competitive behavior. Shekita (2020) built 
+anti-competitive behavior (Rubinstein & Yaari, 1983) (derived from a on this study and identified specific forms of common owners’ in
+competition-based perspective). While the two perspectives are distinct terventions, such as private engagements with CEOs, adjusted CEO 
+in their mechanisms through which common owners can optimize their compensation arrangements, and specific voting behavior during 
+portfolio investments, our results show that both have explanatory shareholder meetings. More recently, Anton et al. (2021) highlighted 
+power and determine common ownership. This implies that the two that common ownership may affect firm behavior even without direct 
+perspectives identify more active determinants of common ownership communication—i.e., by affecting managerial incentives via tolerating 
+that need to be considered in addition to rather passive determinants, managerial productivity inefficiency in their portfolio firms. However, 
+such as rising index investments and investment diversification (cf.; in contrast, other research has not found evidence for any anti- 
+Backus et al., 2021; Banal-Estañol et al., 2020). Thus, we demonstrate competitive effects of common ownership on industry profitability, 
+that future analyses of common ownership could benefit from an output prices, or nonprice competition (Koch et al., 2021; Lewellen & 
+
+691
+
+
+
+J.C. Hennig et al.                                                                                                                                                                                    J  o  u  r n  a l  o  f  B  u  s i n  e  s s  R  e  s e a  r  c h   144 (2022) 690–702
+
+Lowry, 2021). López and Vives (2019), who scrutinized the effects of Industry-level – Dynamism. Industry dynamism captures the extent 
+common ownership on social welfare, found that the socially optimal to which the industry’s firms are exposed to difficult-to-predict change 
+extent of overlapping ownership is determined by, for instance, industry and, in turn, uncertainty (Dess & Beard, 1984; Miles et al., 1974; Nad
+concentration and demand conditions. karni & Chen, 2014). In industries with volatile environments and tur
+
+bulence, it is difficult for firms to forecast the future developments of the 
+3. Hypothesis development industry or the performance of single players and, accordingly, to 
+
+organize and plan (Aldrich, 1979). Moreover, with increased uncer
+Recent literature discussing the outcomes of common ownership has tainty, firms will have to acquire and process more information in order 
+
+assumed two perspectives that could guide the choices of investors: to achieve sustained performance (Galbraith, 1973). Hence, every 
+First, an information-based perspective that stresses the access to and additional piece of information is useful for firms. As such, informational 
+value of private information for common owners (Connelly et al., 2019; advantage is especially beneficial for firms operating in industries that 
+Edmans et al., 2019); second, a competition-based perspective in which are not strongly linked to general macroeconomic developments or 
+common owners are motivated by the possibility of anti-competitive those experiencing abnormal operational situations (Hutton et al., 
+effects (Elhauge, 2016; Posner et al., 2016). Research about de 2012). 
+terminants of common ownership, however, primarily focused on rather Institutional investors often have superior access to private knowl
+passive determinants, such as index investing or diversification (e.g., edge about their firms (Bushee & Goodman, 2007). As we have estab
+Backus et al., 2021). We expect the information-based perspective and lished above, this can be especially relevant in terms of firm 
+competition-based perspective will lead to additional insights on the performance within dynamic industries. Consequentially, we expect that 
+determinants of common ownership at the three aforementioned anal institutional investors are motivated to gather as many insights as 
+ysis levels (e.g., the firm, industry, and country levels). possible in such an environment. Investors with common ownership of 
+
+various rival firms within an industry possess private information on not 
+only one but at least two firms within that industry. Since uncertainty 
+
+3.1. Potential for information advantages from common ownership within an industry often originates from firms’ interconnectedness and 
+the unintended consequences of one firm’s actions on the other firms 
+
+Agency theory is one perspective the literature has used to analyze within that industry (Pfeffer & Salancik, 1978), common owners’ access 
+common ownership (Connelly et al., 2019). To prevent agency conflicts, to such information is especially valuable to the owned firms. In a vol
+principals look for as much information as possible about their firms. atile and dynamic environment, investors can use this superior infor
+Information is also a crucial factor in ownership competence, which in mation to make more accurate forecasts about the industry, guide their 
+turn is important in terms of value creation (Foss et al., 2020) and the firms by serving as informational bridges (Connelly et al., 2019; Massa & 
+impact on firms’ strategy (Oehmichen et al., 2021). In the case of Žaldokas, 2017), and react more quickly to suddenly appearing chal
+common ownership, principals have access to private information of two lenges. This information can increase the owned firm’s performance 
+or more firms from the same industry. Investors’ portfolios have been and, in turn, the common owner’s returns from their portfolio invest
+shown to be biased towards familiar industries, as investors utilize their ment. We test this argument using the following hypothesis: 
+information advantage (Fedenia et al., 2013). Thus, in the subsequent 
+sections, we hypothesize that common ownership is more pronounced in Hypothesis (H1b). Industry dynamism is positively related to common 
+contexts where institutional investors can specifically benefit from their ownership. 
+superior access to private information. Private information is especially Country-level – Disclosure requirements. In our development of 
+valuable if access to public information is restricted. We test this H1a, we hypothesize that a lack of publicly available information fosters 
+perspective at the firm, industry, and country levels. common ownership. At the country level, disclosure requirements are 
+
+Firm-level – Analyst coverage. Institutional investors benefit from designed exactly for that purpose: to reduce the information asymmetry 
+economies of scale when gathering and processing large amounts of between firms and their (potential) owners. Firms benefit if investors 
+information on their investment objects (Schnatterly et al., 2008). Many exhibit some amount of transparency about their business model, their 
+of them employ in-house analysts to cover a specific industry to compile operations, and their finances, which all decrease their cost of capital: 
+data and knowledge. While institutional investors usually keep the most Extensive disclosure requirements facilitate a larger stock market and 
+valuable information private, they also publish business insights and mitigate agency conflicts (La Porta et al., 2006). Similarly, Shroff et al. 
+investment recommendations. In fact, Bradley et al. (2017) state that (2014) described transparent external information environments in the 
+analysts “are among the most important information agents in capital form of increased media coverage to also reduce agency problems. It is 
+markets” (p. 751). The number of analysts who follow a firm can serve as more difficult—and, hence, more costly—to gather insights on in
+a proxy for the amount of publicly available information, as analyst dustries and single firms if the disclosure requirements are lax. Conse
+coverage reduces the information asymmetry between investors and quentially, institutional investors could be deterred from investment 
+companies (Roulstone, 2003). opportunities. However, once an investor has invested in a firm, they 
+
+Institutional investors, however, are interested in generating experience easier access to private information. Possessing insights on 
+competitive information advantages. Owners receive preferred access to one firm in a specific industry allows the owners to contextualize 
+private insights on their firms, which is more beneficial if analyst cov potentially rare or vague information about another firm. The costs 
+erage—and, hence, information for the more general public—is scarce. associated with collecting additional information for evaluating firms 
+Common owners are able to obtain intimate knowledge of two or more decrease with each acquisition and expands investment opportunities 
+firms within one industry. Hence, becoming a common owner is when compared with investors without private insights. Hence, we 
+attractive if there is a high possibility of possessing an information suggest that the information advantage of common ownership is less 
+advantage due to a lack of analyst coverage. In line, Brooks et al. (2018) pronounced in countries with strong disclosure requirements, as indi
+found that common owners increase the chances of long-term positive cated in the following hypothesis: 
+outcomes in M&A deals when analyst coverage is low and, hence, the 
+information asymmetry between the acquirer and target is high. In Hypothesis (H1c). Strong national disclosure requirements are negatively 
+summary, we hypothesize that common ownership is more pronounced related to common ownership. 
+in cases where there is a lack of publicly available information: 
+Hypothesis (H1a). The number of analysts covering a firm is negatively 
+related to common ownership. 
+
+692
+
+
+
+J.C. Hennig et al.                                                                                                                                                                                    J  o  u  r n  a l  o  f  B  u  s i n  e  s s  R  e  s e a  r  c h   144 (2022) 690–702
+
+3.2. Potential for anti-competitive effects of common ownership Table 1 
+Framework  
+
+In addition to the information-based perspective, we employ a Overarching goal of common owners: increase joint asset value  
+competition-based perspective to examine whether the potential for 
+
+Information-based Competition-based perspective 
+anti-competitive effects is a determinant of common ownership. Policy perspective 
+proposals calling for a regulation of common ownership—e.g., by 
+limiting ownership stakes (Posner et al., 2016)—are grounded in the Level Argument Measure Argument Measure 
+
+assumption that common ownership can result in anti-competitive ef Firm Broad analyst Analyst Common Repertoire 
+fects. Generally, common owners look to maximize the joint asset value, coverage coverage (-) owners want to diversity (+) 
+
+minimizes the avoid 
+and this joint value is jeopardized if their firms compete too aggressively benefits of cannibalization - 
+and cannibalize themselves. Hence, it is assumed that common owner private easier with 
+ship leads to potential anti-competitive effects within industries. Indeed, knowledge diverse 
+common owners have been found to prioritize the joint asset value in repertoires 
+
+M&A deals (Goranova et al., 2010)—even if it means accepting a sub Industry Collecting Industry M&A less likely Industry 
+information dynamism approved in concentration 
+
+optimal outcome for one of their two firms. Despite potential benefits, on & (+) concentrated (+) 
+such as economies of scale and synergy effects on a micro-economic influencing industries - leads 
+level, M&A deals are not always allowed, as in the case of already multiple firms to “hidden 
+concentrated industries or antitrust legislation, to ensure a macro- is beneficial in mergers” 
+
+volatile 
+economic balance. Thus, in the following, we theorize that common industries 
+ownership—which is only interested in the micro-economic benefits Country Broad Disclosure Strong antitrust Competition 
+increasing the asset value—could be used by institutional investors as a disclosure requirements laws lead to law index (+) 
+tool to silently engage in anti-competitive behavior. Once again, we test requirements (-) “hidden 
+
+this perspective at the firm, industry, and country levels. minimize the mergers” or 
+benefit of “tacit collusion” 
+
+Firm-level – Repertoire diversity. Connelly et al. (2017) found that private 
+firms are more successful in the long term if they use a complex set of knowledge 
+competitive actions. Connelly et al. (2019) apply this concept in a Note: (-) means expected negative relationship between variable and common 
+common ownership context and show that common owners are not ownership; (+) positive 
+interested in having their firms compete less but in avoiding direct 
+competition. Common owners need their firms to stay on top of potential reducing anti-competitive conduct, reducing state involvement in busi
+third-party competitors to maximize their portfolio value and, hence, ness sectors, and facilitating market entry (Bradford & Chilton, 2018; 
+incentivize aggressive competition. However, it is crucial that the Koske et al., 2015). Hence, the efficacy of such legislation is contingent 
+commonly owned firms stay out of each other’s way by utilizing on an adequate definition of anti-competitive behavior—such as 
+differing sets of competitive actions (i.e., competitive dissimilarity). excessive M&A, unfair pricing, or collusion—and its enforcement. 
+Establishing competitive dissimilarity between two firms is easier if the Nonetheless, competition law has so far been confined to regulating 
+firms have demonstrated their ability to employ a diverse portfolio of anti-competitive activities of firms—not of common owners. 
+competitive actions. Hence, we hypothesize that common owners seek Institutional investors have the resources and capabilities to process 
+to invest in firms with a broad range of competitive actions: large amounts of information (Schnatterly et al., 2008). Thus, they 
+Hypothesis (H2a). The diversity of a firm’s competitive repertoire is should be able to analyze the business models and industry de
+positively related to common ownership. velopments, in accordance with the legislative environment and adapt 
+
+their investment choices accordingly. La Porta et al. (1998) presented an 
+Industry-level – Concentration. Stillman (1983) states that “hori example of investors adjusting their choices to legislation: If investor 
+
+zontal mergers have the clearest anticompetitive potential” (p. 226). protection is weak, investors guard themselves by owning larger stakes 
+Antitrust legislation aims to protect consumers from welfare-decreasing of one single company, which leads to more concentrated ownership 
+effects stemming from anti-competitive conduct and the abuse of structures. Moreover, strong anti-competitive legislation hinders firms 
+dominant competitive positions. Competition is intense in industries and their owners to openly pursue anti-competitive conduct, such as 
+with many participants who share the sales relatively evenly among price-fixing or M&A deals in concentrated industries, investors could 
+each other, and it is unlikely that one firm alone can successfully engage choose to resort to unregulated common ownership in the form of 
+in a behavior harmful to customers, such as high prices (Stonehouse & “hidden mergers” or “tacit collusion”. We, thus, hypothesize: 
+Snowdon, 2007). Consumers have too many available choices and can 
+easily opt to buy products or services from other firms. When a Hypothesis (H2c). Strong competition law is positively related to common 
+competitive industry is entering the maturity and decline phases of its ownership. 
+lifecycle and the market shares have been distributed, M&A activity We summarize all the hypotheses in Table 1. In the following section, 
+becomes especially desirable for firms looking for economies of scale we describe our strategy for testing the developed hypotheses. 
+(Bauer et al., 2017). However, antitrust authorities are less inclined to 
+allow M&A deals in the case of already concentrated industries. 4. Research design 
+Consequentially, from the owners’ point of view, common ownership 
+could serve as a vehicle for “hidden mergers”. Accordingly, we 4.1. Data and sample 
+hypothesize: 
+Hypothesis (H2b). Industry concentration is positively related to common To test our hypotheses at the different levels (i.e., firm, industry, and 
+ownership. country), we aimed to compile a broad international dataset of firms and 
+
+their owners. Hence, to construct our initial sample, we used an index 
+Country-level – Competition laws. The regulation of competition at with around 2,500 firms from up to 50 countries worldwide that also 
+
+the country level is common around the globe (Bradford & Chilton, covers 85% of the free-float adjusted market capitalization per country: 
+2018). Competition law is an important policy instrument that allows the MSCI All Country World Index. We included every firm included in 
+countries to promote or inhibit competition (Hylton & Deng, 2007; the index at least once between 2008 and 2017 and not headquartered in 
+Koske et al., 2015). Essentially, pro-competition regulation aims at 
+
+693
+
+
+
+J.C. Hennig et al.                                                                                                                                                                                    J  o  u  r n  a l  o  f  B  u  s i n  e  s s  R  e  s e a  r  c h   144 (2022) 690–702
+
+Table 2 
+Sample distribution  
+
+Country # of firms-years % of firms-years Mean Common Ownership 
+
+Argentina 2 0.01  0.06 
+Australia 353 2.46  0.12 
+Austria 23 0.16  0.07 
+Belgium 72 0.5  0.09 
+Brazil 236 1.64  0.15 
+Canada 724 5.04  0.20 
+Chile 47 0.33  0.05 
+China 316 2.2  0.15 
+Colombia 25 0.17  0.13 
+Czech Republic 10 0.07  0.06 
+Denmark 122 0.85  0.10 
+Egypt 10 0.07  0.17 
+Finland 98 0.68  0.08 
+France 443 3.08  0.08 
+Germany 310 2.16  0.13 
+Greece 34 0.24  0.09 
+Hungary 10 0.07  0.20 
+India 661 4.6  0.14 
+Indonesia 77 0.54  0.13 
+Ireland 152 1.06  0.28 
+Israel 72 0.5  0.13 
+Italy 180 1.25  0.07 
+Japan 1,279 8.9  0.13 
+Luxembourg 15 0.1  0.21 
+Malaysia 162 1.13  0.13 
+Malta 3 0.02  0.12 
+Mexico 92 0.64  0.07 
+Morocco 14 0.1  0.18 
+Netherlands 230 1.6  0.16 
+New Zealand 33 0.23  0.08 
+Norway 31 0.22  0.07 
+Pakistan 3 0.02  0.10 
+Panama 10 0.07  0.22 
+Peru 3 0.02  0.03 
+Philippines 59 0.41  0.05 
+Poland 168 1.17  0.12 
+Portugal 30 0.21  0.12 
+Qatar 5 0.03  0.19 
+Russia 14 0.1  0.02 
+Singapore 161 1.12  0.22 
+South Africa 415 2.89  0.20 
+South Korea 288 2  0.13 
+Spain 199 1.38  0.11 
+Sweden 155 1.08  0.14 
+Switzerland 312 2.17  0.14 
+Thailand 27 0.19  0.11 
+Turkey 87 0.61  0.06 
+United Arab Emirates 47 0.33  0.38 
+United Kingdom 984 6.85  0.21 
+United States 5,569 38.75  0.32 
+Total 14,372 100.0  0.22  
+
+a tax haven (Dharmapala & Hines, 2009). Next, we utilized ownership protection was pulled from The Global Competitiveness Report 2013 by the 
+data from the Thomson Reuters Institutional Holdings Database to build World Economic Forum. Table A1 in the Appendix provides a detailed 
+our dependent variable. Following prior research (Tihanyi et al., 2003), description of all the regression variables. 
+we restricted our data to institutional owners with an equity stake of at 
+least 1%. Next, we excluded observations with missing control variables. 4.2. Dependent variable – Common ownership 
+This left us with a potential sample of 14,372 firm-year observations of 
+1,796 firms from 50 countries for which we had data on the dependent In line with prior research, we define common ownership as insti
+variable and control variables. Since our explanatory variables are on tutional investors holding a substantial amount of shares in more than 
+different levels (i.e., firm, industry, and country), the sample sizes varied one firm in the same industry at a given point in time (Cheng, Wang, & 
+across the tests and are noted in the tables. Table 2 shows the distri Wang, 2021; Connelly, Lee, Tihanyi, Certo, & Johnson, 2019).1 We 
+bution of our sample over countries. followed prior research to determine common ownership at the firm 
+
+For our explanatory variables, we drew on a range of data sources. 
+We used IBES data to operationalize analyst coverage; RavenPack News 
+Analytics for information on firms’ competitive actions (Connelly et al., 1 
+2019); data compiled by the World Bank on disclosure requirements; Prior studies on institutional ownership have used different thresholds to 
+
+capture meaningful equity positions. In our main analysis, we excluded insti
+and the product market regulation index by the OECD. Financial data tutional investors holding less than 1% of firms’ equity (e.g., Connelly et al., 
+was extracted from Thomson Financial Datastream and governance data 2019; Tihanyi et al., 2003). The results (available upon request) remained 
+from BoardEx. Macroeconomic data on the gross domestic product similar when we used 5% as an alternative threshold (Cheng et al., 2021; He & 
+(GDP) per capita is reported by the World Bank. The data on investor Huang, 2017). 
+
+694
+
+
+
+J.C. Hennig et al.                                                                                                                                                                                    J  o  u  r n  a l  o  f  B  u  s i n  e  s s  R  e  s e a  r  c h   144 (2022) 690–702
+
+level by conducting the following steps (Cheng et al., 2021; He & Huang, for reports. Furthermore, they group the obtained information into 
+2017). We start with extracting ownership data from the Thomson different categories. First, we defined seven different action categories 
+Reuters Institutional Holdings Database. We next mark common owners (Product, Capacity, Pricing, and Marketing Action as well as Acquisi
+by determining whether investors hold at least 1% in two firms within tions, Strategic Alliances, and Market Expansions), which were 
+the same four-digit SIC industry in the same year. We then sum up all comprised of a total of 329,216 underlying and first-reported actions. 
+ownership stakes per firm held by institutional investors that have been The focus on reported actions, the choice of categories, and the mean of 
+identified as common owners. Finally, we scale the sum of common 10.6 actions per year and firm are all in line with prior studies (Chen & 
+ownership from the previous step by all institutional ownership of free- Miller, 2012; Connelly et al., 2017, 2019). Second, we operationalized 
+floating stock to obtain a ratio. This measure captures the extent to the variable repertoire diversity as a standardized Shannon index. 
+which the focal firm is held by common owners. The calculation is 
+
+∑A
+represented by the following formula: Sk,t = − pi,k,tlnpi,k.t 
+
+∑C i=1
+i,t
+
+k COH
+Common Ownership k
+
+i,t = ∑Ci ∑
+,t Di,t
+
+k COHk + k DOH This method captures how many actions from the seven different 
+l  categories one firm (k) employs in any given year (t) (Connelly et al., 
+
+where C 2017). We calculated the Shannon index by adding up the product of the 
+i,t is the number of common owners of the focal firm i as defined 
+
+above in year t. Di,t is the number of institutional owners of the focal firm proportion of actions per category, i (out of A), and the natural log of the 
+i in year t who are non-common institutional owners. COH and DOH proportion per category. The index approaches zero if a competitive 
+denote the holdings (in USD) of common and non-common owners of repertoire is skewed in one specific direction. If a firm uses a more 
+the focal firm, respectively. equally distributed range of actions, the index reaches the maximum of 
+
+ln(A). 
+Industry-level – Concentration. We used the Herfindahl-Hirschman 
+
+4.3. Independent variables and moderators index (HHI) of firms’ sales to measure the industry concentration. A high 
+HHI value means that an industry is concentrated, which thus increases 
+
+Firm-level – Analyst coverage. We operationalized this variable using the power of the remaining firms and likely limits competition. We again 
+the logarithm of 1 plus the number of analysts covering a given firm per used a four-digit SIC-level to cluster the industries (Connelly et al., 
+year as reported by IBES. 2019). We used all available sales data from Datastream across the 
+
+Industry-level – Dynamism. This variable is defined as the unpre countries and winsorized at the 5% and 95% level to obtain the market 
+dictability of change in the industry (measured as four-digit SIC codes). shares per firm for each industry and year. The HHI is calculated as the 
+We followed the literature (e.g., Bergh & Lawless, 1998; Lien et al., squared sum of the market shares (Haw et al., 2015). 
+2021; Nadkarni & Chen, 2014) to construct the variable: (1) we Country-level – Competition laws. We captured competition law 
+regressed the total values of industry sales over five years (i.e, the sum of using the OECD product market regulation indicator (Koske et al., 
+firms’ individual sales winsorized at the 5% and 95% levels for each 2015). It comprehensively measures the degree to which countries’ 
+industry) against time, and (2) we took the standard error of the policies promote or inhibit competition and has been frequently applied 
+regression coefficient related to a time dummy variable and (3) divided in the literature (e.g., Aghion et al., 2020; Diana & Giaccaria, 2018; 
+it by the average value of the industry’s sales, with a higher value Felbermayr et al., 2018; Pierre, 2015). The indicator is based on surveys 
+indicating higher dynamism in an industry.2 
+
+conducted by the OECD, which were sent to national governments and 
+Country-level – Disclosure requirements. We used annual data on aggregates their responses to over 700 questions (Koske et al., 2015). 
+
+countries’ disclosure requirements from the World Bank’s business Within our sample period, the OECD conducted a first wave of surveys in 
+extent of disclosure index (Kim & Song, 2017; Parsley & Popper, 2020; 2008 and a second wave in 2013. Thus, we used the values from 2008 for 
+Uras, 2020). The disclosure index captures to what extent investors are the years 2008–2012 and the values rom 2013 for the years 2013–2017.4 
+
+protected through the disclosure of financial and ownership informa
+tion. The index ranges from 0 to 10. The higher the value of the variable, 4.4. Control variables 
+the stricter the requirements on firm disclosures.3 
+
+Firm-level – Repertoire diversity. A competitive repertoire consists We used a comprehensive set of control variables for our model. Firm 
+of one or more externally directed and observable competitive actions size (calculated as the natural logarithm of the total assets) accounts for 
+that a firm implements to stay ahead of competition (Ferrier et al., such differences in our sample; the return on assets (ROA), free cash flow 
+1999). To measure a firm’s competitive repertoire, we followed Con (divided by sales), and leverage ratio serve as indicators of firm perfor
+nelly et al. (2017) and downloaded data from RavenPack News Ana mance as well as the ability to support operations and meet financial 
+lytics. This database covers more than 40,000 listed companies globally obligations. Board size and time in roles for board members approximate 
+and uses an algorithm to scan over 19,000 international media outlets the influence that the board of directors is able to exert. Furthermore, we 
+
+included dummy variables to control for year and industry effects. For 
+the latter, we employed the standard industry classification at the one- 
+
+2 In unreported tests, we found that our results (available upon request) held digit level. We also controlled for the natural log of GDP per capita to 
+when we used the yearly change in industry sales as an alternative proxy. While account for country-specific effects. Since La Porta et al. (1998, 2002) 
+the yearly change reflects the rate of change, our measure was designed to have argued that investor protection takes on an important role for in
+capture the unpredictability of change, which better suits our arguments in the 
+hypothesis development. vestors, we added the relevant control variable. We also controlled for 
+
+3 Higher disclosure requirements might also be an indicator of better devel year and industry fixed effects to account for temporal- and sector- 
+oped capital markets, where a higher number of investors and listed firms could related trends in common ownership.5 To attenuate the impact of 
+dilute ownership. To attenuate concerns that our results are driven by this 
+relation, we used alternative proxies for the level of public information at the 
+country level and included the number of listed firms per country as a control 4 In the robustness section, we conducted tests using alternative proxies and 
+variable. For the level of public information at the country level, we used the found that our results held.  
+number of articles per country calculated based on the news database, Rav 5 In our analyses on the industry level in H1b and H2b, we excluded industry 
+enpack, and the country values for freedom of press from Reporters Without fixed effects, as our arguments leading to our hypotheses mostly build on the 
+Borders, respectively. The results (available upon request) were consistent with variation between industries. However, the results (available upon request) still 
+our main analyses. held when we included industry fixed effects. 
+
+695
+
+
+
+J.C. Hennig et al.                                                                                                                                                                                    J  o  u  r n  a l  o  f  B  u  s i n  e  s s  R  e  s e a  r  c h   144 (2022) 690–702
+
+Table 4 
+Results of hypotheses testing   
+
+Model 1 Model 2 Model 3 
+Method GEE GEE GEE 
+
+Dependent variable Common ownership 
+Analyst coverage − 0.332***    
+
+[0.000]   
+Industry dynamism  2.652***    
+
+[0.002]  
+Disclosure requirements    − 0.196***     
+
+[0.000] 
+Repertoire diversity − 0.017    
+
+[0.296]   
+Industry competition  6.023***    
+
+[0.000]  
+Competition law    3.771***     
+
+[0.000] 
+Control variables    
+Firm size 0.266*** 0.178***  0.178***  
+
+[0.000] [0.000]  [0.000] 
+Leverage ratio − 0.422** − 0.619***  − 0.394  
+
+[0.034] [0.003]  [0.131] 
+Return on assets − 0.337 − 0.589***  − 0.551*  
+
+[0.117] [0.009]  [0.058] 
+Free cash flow 0.051 0.012  0.091  
+
+[0.454] [0.896]  [0.304] 
+Board size − 0.010 0.001  0.011  
+
+[0.380] [0.909]  [0.455] 
+Directors’ time in role − 0.056*** − 0.059***  − 0.078***  
+
+[0.000] [0.000]  [0.000] 
+GDP per capita − 1.243*** − 1.530***  1.152***  
+
+[0.000] [0.000]  [0.000] 
+Investor protection − 0.191*** − 0.313***  − 0.479***  
+
+[0.000] [0.000]  [0.000] 
+Constant 16.324*** 20.869***  − 13.399***  
+
+[0.000] [0.000]  [0.000] 
+Year effects Yes Yes Yes 
+Industry effects Yes No Yes 
+# of observations 13,760 10,499 10,993 
+
+Notes: All tests are two-tailed. P values in parentheses below coefficients. Stan
+dard errors are clustered at the firm level. *, **, and *** denote significance at 
+the 0.1, 0.05, and 0.01 level, respectively. 
+
+outliers, we winsorized all continuous financial variables at the 1st and 
+99th percentiles. 
+
+4.5. Method 
+
+Our sample is a longitudinal panel where each firm exists at least 
+once and ten times (i.e., in every year of the sample) at maximum. We 
+repeatedly measured the same variables and were interested in inter- 
+firm differences caused by both time-variant and time-invariant pre
+dictors. It is possible that firm-year observations were correlated, since 
+factors that we did not incorporate in our analysis (e.g., management) 
+could have remained constant across the years (Ndofor et al., 2011). 
+Furthermore, institutional ownership is highly “sticky” and usually does 
+not change on a large scale from one year to another. The Woolridge test 
+confirmed these arguments and suggests the presence of serial correla
+tion. Another important feature of our data is that the distribution of our 
+dependent variable was skewed to the right, as small common owner
+ship made up a smaller proportion of investments in the sample firms. 
+
+To adequately account for the structure of our data, we used the 
+generalized estimating equation (GEE) approach as our analytical 
+method. GEE is an extension of the generalized linear model (GLM) and 
+allows for the modeling of within-subject correlation in longitudinal 
+data analysis (Liang & Zeger, 1986). As such, GEE has been highlighted 
+for its clear advantages over other models, such as fixed- or random- 
+effect models, because of its more consistent and robust parameter es
+timations when autocorrelation due to nonindependence is present and 
+the dependent variable in not normally distributed (Liang & Zeger, 
+1986; Ndofor et al., 2011). Unlike other techniques, GEE allows for 
+
+696
+
+Table 3 
+Descriptive statistics and correlations    
+
+Obs. Mean SD Min Max 1 2 3 4 5 6 7 8 9 10 11 12 13 14 
+
+Common ownership 1 14,372  0.22  0.16  0.01  1.00               
+Analyst coverageb 2 13,760  2.85  0.52  0.69  4.06  0.09              
+Industry dynamism 3 10,499  0.03  0.03  0.00  0.77  0.01  0.02             
+Disclosure requirements 4 10,993  7.30  1.85  0.00  10.00  0.08  − 0.02  0.01            
+Repertoire diversity 5 13,760  0.28  1.00  − 1.05  2.51  0.08  0.31  − 0.01  − 0.01           
+Industry concentration 6 10,499  0.04  0.05  0.00  1.00  − 0.09  − 0.07  0.03  − 0.01  0.04          
+Competition laws 7 10,993  1.57  0.62  0.92  3.40  − 0.24  0.06  0.04  − 0.03  − 0.18  − 0.14         
+Firm sizeb 8 14,372  16.11  1.58  10.26  21.93  − 0.06  0.33  0.06  − 0.03  0.33  − 0.14  − 0.06        
+Leverage ratioa 9 14,372  0.26  0.18  0.00  0.80  0.03  − 0.03  0.02  0.01  − 0.01  0.04  0.00  0.02       
+ROAa 10 14,372  0.05  0.08  − 0.36  0.37  − 0.05  0.04  0.01  − 0.01  0.02  0.12  0.06  − 0.22  − 0.18      
+Free cash flowa 11 14,372  0.18  0.21  − 0.69  0.93  0.13  0.07  0.02  0.02  − 0.06  − 0.08  − 0.08  0.07  0.01  0.12     
+Board size 12 14,372  8.43  3.09  1.00  31.00  0.08  0.20  − 0.02  − 0.01  0.27  0.00  0.01  0.35  0.05  − 0.03  0.03    
+Directors’ time in role 13 14,372  5.38  2.84  0.60  14.44  0.25  0.03  0.00  − 0.04  0.08  0.09  − 0.10  0.00  0.00  0.08  0.06  0.21   
+GDP per capita 14 14,372  10.39  0.94  6.91  11.69  0.24  − 0.02  0.03  − 0.04  0.18  0.13  − 0.59  0.11  0.02  − 0.05  0.08  0.02  0.10  
+Investor protection 15 14,372  7.07  1.35  3.00  9.70  0.37  − 0.09  − 0.15  0.53  0.12  0.09  − 0.38  − 0.12  0.01  0.03  0.06  0.09  0.21  0.26 
+
+Notes: This table presents the descriptive statistics and correlations for all regression variables. a: winsorized at the 1st and 99th percentile; b: logarithmized. All correlations greater than or equal to 0.017 are significant at 
+the 5 percent level. 
+
+
+
+J.C. Hennig et al.                                                                                                                                                                                    J  o  u  r n  a l  o  f  B  u  s i n  e  s s  R  e  s e a  r  c h   144 (2022) 690–702
+
+Table 5 correlation between Firm size and Board size as well as between Firm size 
+Results of robustness checks   and GDP (Barkema & Vermeulen, 1998). Of the country-level variables, 
+
+Model 1 Model 2 we found Investor protection to be positively correlated with Disclosure 
+Method GEE GEE requirements and negatively correlated with Competition law, while GDP 
+Dependent variable Common ownership was negatively correlated with Competition law.6 The share of common 
+Analyst coverage − 0.258***   ownership across the countries was in line with assumptions about 
+
+[0.004]  capital- vs. bank-based economies (Fainshmidt et al., 2016): The share of 
+Industry dynamism 4.311***   common ownership is higher in liberal market economies, such as the 
+
+[0.001]  
+Disclosure requirements − 0.216***  − 11.033***  United States (32%) or the United Kingdom (21%) and lower in coor
+
+[0.000]  [0.000] dinated market economies, such as Germany and Japan (both 13%). 
+Repertoire diversity − 0.002   Overall, the descriptive statistics are generally consistent with prior 
+
+[0.906]  literature. 
+Industry competition 12.818***   
+
+[0.000]  
+Competition law 3.454***  0.850*  5.2. Hypothesis testing 
+
+[0.000]  [0.090] 
+Control variables   We present the results of our GEE model in Table 4. In total, we tested 
+Firm size 0.241***  0.140***  
+
+[0.000]  [0.001] six hypotheses: three in relation to shared principals having an infor
+Leverage ratio − 0.506**  − 0.305  mation advantage and three testing the anti-competitive behavior of 
+
+[0.040]  [0.116] common owners—each at the firm, industry, and country level. Due to 
+Return on assets − 0.556**  − 0.369*  the source of variation in our hypothesis-specific variables, we con
+
+[0.037]  [0.095] 
+Free cash flow − 0.004  0.068  ducted the firm-, industry-, and country-level analyses together in one 
+
+[0.969]  [0.371] regression, respectively. Thus, in Model 1, we tested the hypotheses at 
+Board size 0.003  0.014  the firm-level (H1a and H2a). In Model 2, we tested the hypotheses at 
+
+[0.817]  [0.224] the industry-level (H1b and H2b), and, in Model 3, we tested the hy
+Directors’ time in role − 0.054***  − 0.032***  potheses at the country-level (H1c and H2c). 
+
+[0.000]  [0.003] 
+GDP per capita 0.806***  − 0.659***  In Hypothesis 1a, we suggest that large amounts of publicly available 
+
+[0.001]  [0.000] information—due to analyst coverage—minimize the benefits of private 
+Investor protection − 0.642***  − 0.023  knowledge and are thus negatively correlated with common ownership. 
+
+[0.000]  [0.597] Model 1 confirmed this hypothesis, as the coefficient of Analyst coverage 
+Constant − 9.991***  18.906***  
+
+[0.001]  [0.000] was negative and statistically significant (β = − 0.332, p = 0.000). To 
+Year effects Yes Yes assess the economic effect, we examined marginal effects and focused on 
+Industry effects Yes Yes a 1 SD-increase from the mean in the independent variables. We found 
+# of observations 7,994 13,760 that common ownership was 3.73% lower for firms with higher Analyst 
+
+Notes: All tests are two-tailed. P values in parentheses below coefficients. Stan coverage (mean + 1 SD). In Hypothesis 1b, we posit that common 
+dard errors are clustered at the firm level. *, **, and *** denote significance at ownership could be beneficial in volatile industries. Consistent with this 
+the 0.1, 0.05, and 0.01 level, respectively. Model 1 reports the full model. Model hypothesis, we found a positive and significant coefficient for Industry 
+2 reports results using alternative country-level variables: the disclosure dynamism (β = 2.625, p = 0.002) in Model 2. To put this result in 
+requirement index by La Porta et al. (2006) and the competition law index by perspective, a 1 SD-increase from the mean in Industry dynamism was 
+Bradford and Chilton (2018). associated with an increase of 1.82% in common ownership. Hypothesis 
+
+1c, which examines the information-based perspective at the country 
+specifying the distribution of the dependent variable, the link function, level, states that broad disclosure requirements decrease the importance 
+and accounting for interdependent observations (Ballinger, 2004). GEE of private information—similar to analyst coverage at the firm level (see 
+first assumes a correlation structure within the sample (reflecting the Hypothesis 1a). Model 3 supported this hypothesis, as we found a 
+within-subject correlation) and estimates the regression parameters as a negative and significant coefficient for Disclosure requirements (β =
+second step (Ballinger, 2004). In line with our data structure, we − 0.196, p = 0.000). The result indicates that, for firms with higher 
+implemented GEE regressions using a gamma distribution of the Disclosure requirements (mean + 1 SD), common ownership is 6.89% 
+dependent variable with a reciprocal link and an autoregressive corre lower than on average. 
+lation structure of the first order (ar1). Thus, GEE assumes interdepen For our second block of hypotheses, we employed a competition- 
+dence between the values for the year t and the year t-1. based perspective of common ownership. First, as mentioned in the 
+
+argumentation leading up to Hypothesis 2a, common owners look to 
+5. Results avoid cannibalization between their firms. Since this endeavor is easier 
+
+if the firms have a more diverse competitive repertoire to start with, we 
+5.1. Descriptive statistics expected a positive relationship between repertoire diversity and com
+
+mon ownership. However, our analysis in Model 1 revealed a negative 
+Table 3 reports the means, standard deviations, and correlations for and non-significant coefficient of Repertoire diversity (β = − 0.017, p =
+
+all variables in our analysis. The mean for common ownership was 22% 0.296). Second, we hypothesized that common ownership could serve as 
+for our sample. Similar to Cheng et al. (2021), we found Common “hidden mergers”, especially when industries are already concentrated 
+ownership to be negatively correlated with Firm size and ROA and posi and conventional mergers are less likely to be approved by authorities. 
+tively correlated with Free cash flow or cash holdings, respectively. Our empirical results in Model 2 support Hypothesis 2b in the form of a 
+Moreover, as expected, we found a positive and slightly higher positive and significant coefficient of Industry competition (β = 6.023, p 
+
+6 We found that our results (available upon request) held when (1) we 
+excluded the country-level control variables, (2) we included them as they are, 
+and (3) we orthogonalized them. In the main results, we orthogonalized the 
+variables for Model 3 when they were included at the same time. 
+
+697
+
+
+
+J.C. Hennig et al.                                                                                                                                                                                    J  o  u  r n  a l  o  f  B  u  s i n  e  s s  R  e  s e a  r  c h   144 (2022) 690–702
+
+= 0.000). In terms of economic significance, an increase of 1 SD from the Selection concerns. We followed Shaver (1998) to control for po
+mean in Industry competition was found to be associated with an increase tential selection bias by including a correction factor in the second-stage 
+of 6.04% in common ownership. Finally, we suggest in Hypothesis 2c regressions of our firm-level analysis (Busenbark et al., 2017; Certo 
+that stronger competition laws could increase common ownership in a et al., 2016). For the firm-level analyses, we derived correction factors 
+similar way. In Model 3, we found a positive and highly significant from first-stage probit models estimating the likelihood of selecting a 
+relationship (β = 3.771, p = 0.000), in line with our expectation. The firm with high analyst coverage or high repertoire diversity (above the 
+marginal effect suggests that common ownership is 26.92% higher for median). As exclusion criteria, we used the industry averages of analyst 
+firms in countries with a more pronounced Competition laws (mean + 1 coverage and repertoire diversity (Certo et al., 2016). We then repeated 
+SD) compared to firms underlying the average level of Competition laws. our GEE regressions, including the inverse mills ratios from the first-stage 
+This large economic effect is clearly driven by levels and not changes in regressions as additional control variables. The results remained un
+the explanatory country-level variable. Moreover, as firms do not changed. Additionally, in all our analyses, we controlled for the likeli
+change countries, we observe a mere association. hood to be included in the MSCI All Country World Index by again 
+
+adding an inverse mills ratio. Specifically, we ran a first-stage regression 
+to derive the inverse mills ratio with all firm years in Datastream, in which 
+
+5.3. Robustness of results and endogeneity we used the index inclusion as our dependent variable, the firm-level 
+control variables, and a firm’s free float as the exclusion criterion. 
+
+5.3.1. Sensitivity tests Again, the results held, suggesting that our results are not likely to be 
+We conducted a battery of tests to validate our results. First, we driven by a selection bias. 
+
+examined the firm, industry, and country levels together by running a Investor characteristics. We also conducted tests in which we spe
+full model to account for potential impacts among the different levels. cifically accounted for characteristics of firms’ investors that might drive 
+Model 1 of Table 5 reports the results, which are qualitatively similar to our results. First, we considered that common ownership could be the 
+the main results and also highly significant. Second, we used alternative result of increasing index investing (e.g., ETFs) and excluded all hold
+proxies for the determinants at the country level. While the country- ings from the dominating index investment firms BlackRock, Vanguard, 
+level proxies in the main analysis very well reflect the institutional and State Street to calculate our common ownership variable anew. 
+contexts at the time of the analysis, there are also good arguments for Second, we accounted for the influence of investors’ global portfolio 
+other widely applied proxies. For the disclosure requirements, we diversification strategy by adding the aggregated (weighted) Herfindahl 
+applied the index put forward by La Porta et al. (2006), which is the index of all investors of one firm. Third, to distinguish common 
+mean of six dummy variables—each of which reflects a specific disclo ownership from block ownership, we controlled for the existence, 
+sure requirement (e.g., the publication of compensation for directors extent, and number of block holders in the firm, respectively. All tests 
+and officers). For the competition laws, we exploited the indicator supported our main findings. 
+developed by Bradford and Chilton (2018), which captures the extent to Propensity-score matching. We next performed a propensity score 
+which countries curtail competition using law. In Model 2 of Table 5, we matching analysis for the firm-level determinants, where firm charac
+find that our results are consistent with our hypotheses and thus support teristics are similar and the observations only vary in the respective 
+our main findings. Third, as neither our main measure nor our alterna determinants (e.g., analyst coverage, repertoire diversity) to remove the 
+tive measure for competition law are available for all years of our effect of other firm characteristics in the relation between the de
+sample, we varied the procedure to extrapolate the values for the terminants and common ownership. Due to the high similarity in 
+remaining years. All possible specifications, such as using the average observable characteristics, observations are also assumed to be similar 
+over all years, using data from the closest available year, or holding the when it comes to unobservable characteristics that may be linked to 
+value of the last available year constant, for both the main and alter these observable characteristics (Chang et al., 2013; Chen et al., 2015). 
+native variable yielded consistent and highly significant results in line 
+with our main findings.7 We began with estimating the propensity score to be in our treatment 
+
+Fourth, we repeated our main tests using a group (e.g., high analyst coverage, high repertoire diversity) based on all 
+sample without firms from the two most represented countries in our our controls using a probit regression. Next, each treated firm year was 
+sample: the US and Japan. Again, we found that our results hold. Fifth, matched to a firm-year from the control group with the closest pro
+we reran our main analysis using an exchangeable correlation structure. pensity score using a conservative cut-off distance of 5% (caliper). We 
+This GEE option does not require a one-year lag and thus enabled us to then reran our main regression at the firm-level—once with the matched 
+expand our number of observations. At the same time, our estimates are sample for analyst coverage and once with the matched sample for 
+likely to become less efficient. The results strongly support our main repertoire diversity. We found results consistent with our main findings. 
+findings. Generalized method of moments (GMM). We also ran GMM re
+
+gressions for our firm-level determinants, as GMM has several advan
+5.3.2. Endogeneity tages over other methods, such as the instrumental variable approach or 
+
+Ownership is an endogenous choice, and, thus, unobserved factors fixed-effects regressions. First, GMM accounts for reverse causality by 
+could drive ownership and other firm characteristics at the same time. using instrumental variable estimates that are retrieved from the lagged 
+Besides such omitted variable concerns, we cannot rule out the potential values, thereby eliminating the need for strictly external instruments 
+for reverse causality, as common ownership could also drive some of the (Roodman, 2009; Wintoki et al., 2012). Second, GMM accounts for un
+examined determinants of common ownership. To this end, we per observable heterogeneity by including firm-fixed effects, which can also 
+formed a number of methodological procedures to attenuate these be assessed even when they are constant over time (Ullah et al., 2018; 
+concerns.8,9 
+
+Wintoki et al., 2012). Hence, compared to fixed-effects models, GMM 
+could provide more valid estimates in the presence of autocorrelation. 
+Third, GMM considers the dynamic relationship between our firm-level 
+
+7 The results of the sensitivity tests are not reported unless stated otherwise, determinants (i.e., analyst coverage and repertoire diversity) and com
+but they are available from the authors upon request.  
+
+8 mon ownership by allowing for the inclusion of the lagged common 
+The results of the endogeneity tests are not reported, but are available from 
+
+the authors upon request.  ownership values, further tackling reverse causality (Girod & Whit
+9 We consider the potential for endogeneity issues to be larger at the firm tington, 2016; Ullah et al., 2018). The results using GMM models again 
+
+level, while we expect it to be less of an issue at the more exogenous industry supported our main findings. 
+and country levels. Thus, we focus the tests in this section mostly on the de Sensitivity of results to bias and omitted variables. We aimed to 
+terminants at the firm level. mitigate endogeneity concerns by running a battery of tests. However, 
+
+698
+
+
+
+J.C. Hennig et al.                                                                                                                                                                                    J  o  u  r n  a l  o  f  B  u  s i n  e  s s  R  e  s e a  r  c h   144 (2022) 690–702
+
+we lack clear exogenous variations and cannot completely rule out that build dissimilar competitive strategies. The diversity of a firm’s portfolio 
+an omitted variable drives both the independent variables and the of competitive actions does not seem to be a selection criterion for in
+dependent variable. To assess the sensitivity of our results to bias and vestors when it comes to common ownership. At first glance, this might 
+omitted variables, we ran two tests frequently applied in recent studies be surprising, as firms’ competitive portfolios can be means for common 
+(e.g., Ege, Glenn, & Robinson, 2020; Graffin, Hubbard, Christensen, & owners to prevent direct competition between their commonly owned 
+Lee, 2020; Quigley, Hubbard, Ward, & Graffin, 2020; Busenbark, Yoon, firms (Connelly et al., 2019). However, analyzing each potential target 
+Gamache, & Withers, 2022) for all determinants of common ownership. firm in detail to generate insights on the firm’s competitive action 
+First, we calculated the percent bias to invalidate the inference for all portfolio might be too resource-intensive for an investor and thus not 
+our findings (Frank et al., 2021). The results showed that, to invalidate efficient. It is likely more costly for investors to generate relevant in
+our inferences in the firm-level analysis regarding analyst coverage, 64% formation on anti-competitive potential at the firm level than on the 
+of the sample (8,806 cases) would have to be replaced with observations industry or country levels. Still, this does not mean that the competition- 
+for which the effect of analyst coverage on common ownership was zero. related perspective at the firm level is not relevant at all. Future research 
+In the industry-level analysis, 47.9% of the sample (5,030 cases) might investigate further competition-related determinants of common 
+regarding industry dynamism and 91.9% (9,650 cases) regarding in ownership at the firm level to help contextualize our related findings. 
+dustry concentration would have to be replaced with cases for which 
+there was an effect of zero to invalidate the inferences. In the country- 6.1. Implications for common ownership research and policymakers 
+level analysis, 55.8% of the sample (6,132 cases) regarding disclosure 
+requirement and 83.9% of the sample (9,226 cases) regarding compe We contribute to the literature by adding to the current discussion on 
+tition law would need to be replaced with cases for which the effect of the highly relevant phenomenon of common ownership, which has been 
+the determinant of common ownership was zero to invalidate the in increasingly gaining attention the attention of scholars (e.g., Bajo et al., 
+ferences. Second, we calculated the extent to which a confounding 2020; He & Huang, 2017; Ramalingegowda et al., 2021; Schmalz, 2018, 
+variable would need to be correlated with both factors—the determinant 2021). Specifically, we explore the determinants of common ownership, 
+and common ownership—to alter our results by using the impact as called for in the literature (Gilje et al., 2020), by using a large, in
+threshold of a confounding variable (ITCV) (Frank, 2000; Busenbark ternational sample covering over 1,000 of the largest firms from 
+et al., 2022). We followed Larcker and Rusticus (2010) and compared different industries and up to 50 countries. We systematically disen
+the ITCV with the impact of our control variables. The results suggest tangle two separate theoretical perspectives on common ownership 
+that a potential omitted variable would have to be correlated more previously highlighted in the literature: access to private information 
+strongly with both the determinants and common ownership than any of (Connelly et al., 2019) and the potential for anti-competitive effects (e. 
+the firm control variables in all regressions tested. For all our hypothe g., Antón et al., 2021; Azar et al., 2018). We theorize and empirically test 
+ses, for example, the omitted variable would have to be correlated with whether and how these two perspectives explain the prevalence of 
+the predictor and the outcome at a higher level than with firm size, common ownership. By analyzing potential antecedents of common 
+which is considered to be an important benchmark (e.g., Ege et al., ownership from both perspectives at three different levels (i.e., firm, 
+2020).10 Overall, this demonstrates that our results are not likely biased industry, and country), we add to the understanding of how institutional 
+by omitted variables. investors may actively pursue common ownership to optimize their 
+
+portfolio investments. Hence, our results do not only help identify spe
+6. Discussion and conclusion cific antecedents, but they also add to recent literature, which has rather 
+
+focused on the rise of index investments and investment diversification 
+With this study, we explore the determinants of common ownership. as indirect drivers of common ownership (cf.; Backus et al., 2021; Banal- 
+
+We draw on two different perspectives: first, an information-based Estañol et al., 2020). The influence of index investments on common 
+perspective, highlighting that common owners seek and get access to ownership requires less active strategic involvement by investors, as the 
+superior, private information and, second, a competition-based investments simply replicate a benchmark index. However, the infor
+perspective, highlighting the potential for anti-competitive effects by mation- and competition-based determinants that we uncover in our 
+common ownership. study suggest that investors, at least partly, also actively pursue common 
+
+We theorize on and empirically test each perspective on a firm-, in ownership in firms. While index investments intend to create value 
+dustry-, and country-level. For the information-based perspective, we through value increases and hedging effects in entire indices, the value 
+find evidence that common ownership is negatively related to analyst of information- and competition-driven investor strategies could reside 
+coverage, as private information becomes less valuable for heavily in the active influence on firm behavior. Thus, we provide further 
+covered firms. Common ownership increases with industry dynamism, tentative indications that the increase in common ownership may be 
+where having private information on more than one firm is particularly driven by passive and active determinants on the investor side in 
+valuable, since fast and informed decision-making is critical in these parallel. 
+environments. Last, common ownership decreases with vast disclosure Our study also provides insights for policymakers on the one hand 
+requirements, which lessen the value of private information. When it and practitioners (e.g., investment managers) on the other. Some 
+comes to the competition-based perspective, we find support for two of scholars have called for the regulation of common ownership, such as 
+our three hypotheses. Our findings show that common ownership has a limiting the allowed stake per firm in concentrated industries or a cur
+significant positive relationship with both industry concentration and tailing of voting rights (Coates, 2018; Elhauge, 2016; Posner et al., 
+the presence of competition laws within a country. In contrast, we do not 2016). Our results suggest that the potential for anti-competitive effects 
+find support for our argument at the firm level that common owners indeed might drive some cases of common ownership. Nevertheless, our 
+invest in firms with existing diverse competitive action portfolios to study does not focus on the outcomes of common ownership. Thus, we 
+
+do not know whether the costs of anti-competitive effects outweigh 
+welfare effects (for an insightful reflection on this, see the discussion of 
+
+10 These tests were complemented by the approach of Oster (2019), which Azar et al., 2018, or Schmalz, 2018). Therefore, we agree with previous 
+showed that the coefficients of the determinants vary only slightly despite the research that potential antitrust regulating policies have to be decided 
+addition or removal of a substantial amount of control variables. The results based on the specific context of the case (e.g., López & Vives, 2019). 
+indicate that the omitted variable bias is limited. In line with endogeneity being Consequently, institutional investors that are common owners could 
+more likely on the firm level, we find that the stability of the coefficients is the examine their engagements and business model preemptively while 
+strongest at the industry and country levels. following new policy developments. 
+
+699
+
+
+
+J.C. Hennig et al.                                                                                                                                                                                    J o u r n a l  o f  B u s i n e s s  R e s e a r c h  144 (2022) 690–702
+
+6.2. Limitations and future research Declaration of Competing Interest 
+
+Our study is not free from limitations. In this section, we outline The authors declare that they have no known competing financial 
+limitations that translate into opportunities for future research. First, we interests or personal relationships that could have appeared to influence 
+disentangle the information-based and competition-based perspectives the work reported in this paper. 
+in our study to empirically test their distinct relevance and also highlight 
+partly distinct mechanisms for both perspectives through which com Acknowledgments 
+mon owners can optimize their portfolio investments. Nevertheless, 
+with respect to their effect on the portfolio maximization of investors, The authors kindly thank Fuming Jiang (the editor) and two anon
+the two perspectives should not be seen as separate silos. While the ymous reviewers for their guidance in developing the published manu
+performance implications are not within the scope of our determinants script. We are also grateful to Sebastian Firk and Michelle Lang for 
+study, the literature suggests that the two perspectives can overlap and helpful comments and suggestions on an earlier version of this paper. 
+that inputs from one perspective can be critical to the other. For 
+example, information-based advantages (cf.; Massa & Žaldokas, 2017) Appendix A 
+may be used to avoid cannibalization (i.e., strong competition) between 
+commonly owned firms (cf.; Connelly et al., 2019). Thus, information- See Table A1. 
+based advantages and competition-based advantages likely go hand- 
+in-hand and even reinforce each other to potentially maximize in
+vestors’ portfolio value. Future research might want to investigate this 
+in further detail by asking how these two perspectives function together 
+in affecting investors’ outcomes and commonly owned firms’ behavior. Table A1 
+
+Second, our data allows us to explore the determinants of common Variable overview.  
+ownership using a large international sample and among different levels Variable Description/Calculation Data source 
+of analysis, increasing the generalizability of our findings. However, at Dependent variable  
+the same time, it prevents us from deep-diving into the important as Common The percentage of a firm’s equity that Thomson Reuters 
+pects of common ownership. For example, a country-specific deep dive ownership is held by investors that hold at least Institutional Holdings 
+on common owners’ motives and related outcomes would eliminate 1% in two or more firms in the same Database 
+variation in terms of the institutional environment, while case studies of four-digit SIC industry. 
+
+Independent variables  
+commonly owned firms or the portfolio of an investor with rival firms Analyst Natural logarithm of one plus the IBES 
+would generate detailed insights. We also do not distinguish between coverage number of analysts covering a given 
+different types of institutional investors. Still, the landscape of common firm per year. 
+owners is diverse, with actors ranging from hedge- and sovereign wealth Industry We regress industry values of sales Thomson Financial 
+
+funds to large family offices. Different types of institutional investors do dynamism over 5 years against time and use the Datastream 
+standard error of the regression 
+
+not only have diverse interests (Kavadis & Castañer, 2015), but they coefficient related to a time dummy 
+could also use different levels of dedication (Bushee, 1998; Goranova & variable divided by the average value 
+Ryan, 2014; Hadani et al., 2011; McNulty & Nordberg, 2016; Oehmi of industry’s sales. 
+chen et al., 2021). Both of these characteristics could translate into Disclosure The disclosure index measures the World Bank 
+
+requirements extent to which investors are 
+different determinants and outcomes of common ownership. protected through the disclosure of 
+
+Third, as with any study that lacks a strictly exogenous shock, our ownership and financial information. 
+findings provide evidence of an association—not causation. As we The index ranges from 0 to 10, with 
+cannot rule out the issue of endogeneity in the investigated relation higher values indicating more 
+
+ships, specifically regarding our firm-level determinants, the results disclosure. The disclosure index is 
+part of the World Bank’s Doing 
+
+should be interpreted with caution. Nevertheless, the battery of different Business project (business extent of 
+methodological specifications, especially the sensitivity tests (e.g., the disclosure index). Data for the project 
+use of percent bias to invalidate the inference and ITCV), suggest that was gathered with a standardized 
+our results are not likely biased by endogeneity. However, given that our survey that used a simple business 
+
+case to ensure comparability across 
+analyses were exploratory in nature, future research could further economies and over time. Surveys 
+challenge the causality of our findings, for example, by identifying and were administered to more than 
+employing suitable instrument variables for our study’s antecedents of 9,000 local experts, including 
+common ownership—specifically those at the firm level. In conclusion, lawyers, government officials, and 
+
+more empirical studies will advance our understanding of common other professionals who routinely 
+administer or advise on legal and 
+
+ownership and help in making informed policy decisions about this regulatory requirements. 
+growing and important phenomenon. Repertoire Standardized Shannon index based on Ravenpack 
+
+diversity the number of strategic actions within 
+CRediT authorship contribution statement the seven different action categories 
+
+Jan C. Hennig: Formal analysis, Writing – review & editing, Writing defined by Connelly et al. (2017) per 
+firm and year. 
+
+– original draft, Methodology, Investigation, Conceptualization. Jana Industry The Herfindahl-Hirschman index of Thomson Financial 
+Oehmichen: Formal analysis, Writing – review & editing, Writing – concentration firms’ sales within firms’ four-digit Datastream 
+original draft, Methodology, Investigation, Conceptualization. Philip SIC industry. 
+
+Julian Steinberg: Writing – original draft, Conceptualization, Investi Competition The OECD’s product market OECD 
+laws regulation indicator is the average of 
+
+gation, Methodology, Writing – review & editing. Judith Heigermoser: its three pillar scores: state control, 
+Data curation, Formal analysis, Investigation, Methodology, Writing – barriers to entrepreneurship, and 
+original draft. barriers to trade and investment. Each 
+
+of these pillars is again divided into 
+several subsections. “State control”, 
+
+(continued on next page) 
+
+700
+
+
+
+J.C. Hennig et al.                                                                                                                                                                                    J o u r n a l  o f  B u s i n e s s  R e s e a r c h  144 (2022) 690–702
+
+Table A1 (continued ) Busenbark, J. R., Yoon, H. (Elle), Gamache, D. L., & Withers, M. C. (2022). Omitted 
+Variable Bias: Examining Management Research With the Impact Threshold of a 
+
+Variable Description/Calculation Data source Confounding Variable (ITCV). Journal of Management, 48(1), 17–48. 
+for example, is divided into Bushee, B. J. (1998). The influence of institutional investors on myopic R&D investment 
+
+behavior. Accounting Review, 73(3), 305–333. 
+“involvement in business Bushee, B. J., & Goodman, T. H. (2007). Which institutional investors trade based on 
+organizations” (with subsections private information about earnings and returns? Journal of Accounting Research, 45 
+“price control” and “use of commands (2), 289–321. 
+and control regulation”) and “public Certo, S. T., Busenbark, J. R., Woo, H., & Semadeni, M. (2016). Sample selection bias and 
+ownership” (which in turn is divided Heckman models in strategic management research. Strategic Management Journal, 
+into “scope of public enterprises”, 37(13). 
+“government involvement in network Chen, M.-J., & Miller, D. (2012). Competitive dynamics: Themes, trends, and a 
+sectors”, and “direct control over prospective research platform. Academy of Management Annals, 6(1), 135–210. 
+business enterprises”). For more Coates, J. C. (2018). The future of corporate governance part I: The problem of twelve. 
+detailed information, see the OECD Working Paper. 
+paper by Koske et al. (2015). Cheng, X., Wang, H. H., & Wang, X. (2021). Common institutional ownership and 
+
+Control variables  corporate social responsibility. Journal of Banking and Finance, 106218. 
+Firm size Natural log of the firm’s total assets. Thomson Financial Connelly, B. L., Lee, K. B., Tihanyi, L., Certo, S. T., & Johnson, J. L. (2019). Something in 
+
+Winsorized at the 1st and 99th Datastream Common: Competitive Dissimilarity and Performance of Rivals with Common 
+Shareholders. Academy of Management Journal, 62(1), 1–21. 
+
+percentiles. Connelly, B. L., Tihanyi, L., Ketchen, D. J., Carnes, C. M., & Ferrier, W. J. (2017). 
+Leverage ratio Short-term debt and current portion Thomson Financial Competitive repertoire complexity: Governance antecedents and performance 
+
+of long-term debt divided by total Datastream outcomes. Strategic Management Journal, 38(5), 1151–1173. 
+assets. Winsorized at the 1st and 99th Daily, C. M., Dalton, D. R., & Cannella, A. A. (2003). Corporate Governance: Decades of 
+percentiles. Dialogue and Data. Academy of Management Review, 28(3), 371–382. 
+
+Return on assets Calculated as the firm’s net income Thomson Financial Dess, G. G., & Beard, D. W. (1984). Dimensions of Organizational Task Environments. 
+divided by total assets. Winsorized at Datastream Administrative Science Quarterly, 29(1), 52. 
+the 1st and 99th percentiles. Dharmapala, D., & Hines, J. R. (2009). Which countries become tax havens? Journal of 
+
+Free cash flow Free cash flow divided by sales. Thomson Financial Public Economics, 93(9–10), 1058–1068. 
+Winsorized at the 1st and 99th Datastream Diana, T., & Giaccaria, S. (2018). Market regulation and environmental productivity 
+percentiles. changes in the electricity and gas sector of 13 observed EU countries. Energy, 164, 
+
+Board size The number of directors on the board. BoardEx 1286–1297. 
+Directors’ time The average tenure of the directors on BoardEx Edmans, A., Levit, D., & Reilly, D. (2019). Governance Under Common Ownership. The 
+
+Review of Financial Studies, 32(7), 2673–2719. 
+in role the board. Ege, M., Glenn, J. L., & Robinson, J. R. (2020). Unexpected SEC Resource Constraints and 
+
+GDP per capita Natural logarithm of the gross World Bank Comment Letter Quality. Contemporary Accounting Research, 37(1), 33–67. 
+domestic product per capita. Elhauge, E. (2016). Horizontal shareholding. Harvard Law Review, 129, 1267–1317. 
+
+Investor This indicator is the average of the World Economic Fainshmidt, S., Judge, W. Q., Aguilera, R. V., & Smith, A. (2016). Varieties of 
+protection extent of disclosure index Forum  institutional systems: A contextual taxonomy of understudied countries. Journal of 
+
+(transparency of transactions), the World Business, 53(3), 307–322. 
+extent of director liability index Fedenia, M., Shaffer, S., & Skiba, H. (2013). Information immobility, industry 
+(liability for self-dealing), and the concentration, and institutional investors’ performance. Journal of Banking and 
+ease of shareholder suit index Finance, 37(6), 2140–2159. 
+(shareholders’ ability to sue officers Felbermayr, G., Impullitti, G., & Prat, J. (2018). Firm dynamics and residual inequality in 
+and directors for misconduct). open economies. Journal of the European Economic Association, 16(5), 1476–1539. 
+
+Ferrier, W. J., Smith, K. G., & Grimm, C. M. (1999). The role of competitive action in 
+market share erosion and industry dethronement: A study of industry leaders and 
+challengers. Academy of Management Journal, 42(4), 372–388. 
+
+References Foss, N. J., Klein, P. G., Lien, L. B., Zellweger, T., & Zenger, T. (2020). Ownership 
+competence. Strategic Management Journal, July. 
+
+Aghion, P., Bénabou, R., Martin, R., & Roulet, A. (2020). Environmental preferences and Frank, K. A. (2000). Impact of a Confounding Variable on a Regression Coefficient. 
+technological choices: is market competition clean or dirty? National Bureau of Sociological Methods & Research, 29(2), 147–194. 
+Economic Research. Frank, K. A., Lin, Q., Maroulis, S., Mueller, A. S., Xu, R., Rosenberg, J. M., Hayter, C. S., 
+
+Aldrich, H. E. (1979). Organizations and environments. Englewood Cliffs, NJ: Prentice- Mahmoud, R. A., Kolak, M., Dietz, T., & Zhang, L. (2021). Hypothetical case 
+Hall.  replacement can be used to quantify the robustness of trial results. Journal of Clinical 
+
+Antón, M., Ederer, F., Giné, M., & Schmalz, M. (2021). Common Ownership, Epidemiology, 134, 150–159. 
+Competition, and Top Management Incentives. SSRN Electronic Journal. Galbraith, J. (1973). Designing complex organizations. Addison- Wesley.  
+
+Azar, J., Schmalz, M. C., & Tecu, I. (2018). Anticompetitive Effects of Common Gilje, E. P., Gormley, T. A., & Levit, D. (2020). Who’s paying attention? Measuring 
+Ownership. Journal of Finance, 73(4), 1513–1565. common ownership and its impact on managerial incentives. Journal of Financial 
+
+Backus, M., Conlon, C., & Sinkinson, M. (2021). Common Ownership in America: Economics, 137, 152–178. 
+1980–2017. American Economic Journal: Microeconomics, 13(3), 273–308. Gillan, S. L., & Starks, L. T. (2003). Corporate governance, corporate ownership, and the 
+
+Bajo, E., Croci, E., & Marinelli, N. (2020). Institutional investor networks and firm value. role of institutional investors: A global perspective. Journal of Applied Finance, 13(2), 
+Journal of Business Research, 112, 65–80. 4–22. 
+
+Ballinger, G. A. (2004). Using generalized estimating equations for longitudinal data Girod, S. J. G., & Whittington, R. (2016). Reconfiguration, restructuring and firm 
+analysis. Organizational Research Methods, 7(2), 127–150. performance: Dynamic capabilities and environmental dynamism. Strategic 
+
+Banal-Estañol, A., Seldeslachts, J., & Vives, X. (2020). Diversification, Common Management Journal, 51(2), 315–334. 
+Ownership, and Strategic Incentives. AEA Papers and Proceedings, 110, 561–564. Goranova, M., Dharwadkar, R., & Brandes, P. (2010). Owners on both sides of the deal: 
+
+Barkema, H. G., & Vermeulen, F. (1998). International Expansion Through Start-Up or Mergers and acquisitions and overlapping institutional ownership. Strategic 
+Acquisition: A Learning Perspective. Academy of Management Journal, 41(1), 7–26. Management Journal, 31, 1114–1135. 
+
+Bauer, F., Dao, M. A., Matzler, K., & Tarba, S. (2017). How industry lifecycle sets Goranova, M., & Ryan, L. V. (2014). Shareholder activism: A multidisciplinary review. 
+boundary conditions for M&A integration. Longe Range Planning, 50(4), 501–517. In. Journal of Management, 40, Issue 5). 
+
+Bergh, D. D., & Lawless, M. W. (1998). Portfolio Restructuring and Limits to Hierarchical Graffin, S. D., Hubbard, T. D., Christensen, D. M., & Lee, E. Y. (2020). The influence of 
+Governance: The Effects of Environmental Uncertainty and Diversification Strategy. CEO risk tolerance on initial pay packages. Strategic Management Journal, 41(4), 
+Organization Science, 9(1), 87–102. 788–811. 
+
+Bradford, A., & Chilton, A. S. (2018). Competition law around the world from 1889 to Hadani, M., Goranova, M., & Khan, R. (2011). Institutional investors, shareholder 
+2010: The competition law index. Journal of Competition Law and Economics, 14(3), activism, and earnings management. Journal of Business Research, 64(12), 
+393–432. 1352–1360. 
+
+Bradley, D., Gokkaya, S., & Liu, X. (2017). Before an analyst becomes an analyst: Does Hansen, R. G., & Lott, J. R. (1996). Externalities and Corporate Objectives in a World 
+industry experience matter? The Journal of Finance, 72(2), 751–792. with Diversified Shareholder/Consumers. The Journal of Financial and Quantitative 
+
+Brooks, C., Chen, Z., & Zeng, Y. (2018). Institutional cross-ownership and corporate Analysis, 31(1), 43. 
+strategy: The case of mergers and acquisitions. Journal of Corporate Finance, 48, Haw, I. M., Hu, B., & Lee, J. J. (2015). Product market competition and analyst 
+187–216. forecasting activity: International evidence. Journal of Banking and Finance, 56 
+
+Busenbark, J. R., Lange, D., & Certo, S. T. (2017). Foreshadowing as impression (February), 48–60. 
+management: Illuminating the path for security analysts. Strategic Management He, J., & Huang, J. (2017). Product market competition in a world of cross-ownership: 
+Journal, 38(12), 2486–2507. Evidence from institutional blockholdings. Review of Financial Studies, 30(8), 
+
+2674–2718. 
+
+701
+
+
+
+J.C. Hennig et al.                                                                                                                                                                                    J  o  u  r n  a l  o  f  B  u  s i n  e  s s  R  e  s e a  r  c h   144 (2022) 690–702
+
+He, J., Huang, J., & Zhao, S. (2019). Internalizing governance externalities: The role of Posner, E. A., Scott Morton, F. M., & Weyl, E. G. (2016). A proposal to limit the anti- 
+institutional cross-ownership. Journal of Financial Economics. competitive power of institutional investors. SSRN Electronic Journal. 
+
+Hutton, A. P., Lee, L. F., & Shu, S. Z. (2012). Do Managers Always Know Better? The Quigley, T. J., Hubbard, T. D., Ward, A., & Graffin, S. D. (2020). Unintended 
+Relative Accuracy of Management and Analyst Forecasts. Journal of Accounting Consequences: Information Releases and CEO Stock Option Grants. Academy of 
+Research, 50(5), 1217–1244. Management Journal, 63(1), 155–180. 
+
+Hylton, K. N., & Deng, F. (2007). Antitrust around the world: An empirical analysis of the Ramalingegowda, S., Utke, S., & Yu, Y. (2021). Common Institutional Ownership and 
+scope of competition laws and their effects. Antitrust Law Journal, 74(2), 271–341. Earnings Management. Contemporary Accounting Research, 38(1), 208–241. 
+
+Kavadis, N., & Castañer, X. (2015). Who drives corporate restructuring? Co-existing Roodman, D. (2009). How to do xtabond2: An introduction to difference and system 
+owners in French firms. Corporate Governance: An International Review, 23(5), GMM in Stata. Stata Journal, 9(1), 86–136. 
+417–433. Rotemberg, J. J. (1984). Financial Transaction Costs and Industrial Performance. 
+
+Kim, H., & Song, J. (2017). Filling institutional voids in emerging economies: The impact Working Paper, Alfred P Sloan School of Management, 1–36. 
+of capital market development and business groups on M&A deal abandonment. Roulstone, D. T. (2003). Analyst following and market liquidity. Contemporary Accounting 
+Journal of International Business Studies, 48(3), 308–323. Research, 20(3), 552–578. 
+
+Koch, A., Panayides, M., & Thomas, S. (2021). Common ownership and competition in Rubinstein, A., & Yaari, M. E. (1983). The Competitive Stock Market as Cartel Maker: Some 
+product markets. Journal of Financial Economics, 139(1), 109–137. Examples. 
+
+Koske, I., Wanner, I., Bitetti, R., & Barbiero, O. (2015). The 2013 update of the OECD’s Schmalz, M. C. (2018). Common-ownership concentration and corporate conduct. 
+database on product market regulation. 1200, 74. Annual Review of Financial Economics, 10, 413–448. 
+
+La Porta, R., Lopez-de-Silanes, F., & Shleifer, A. (2006). What works in securities laws? Schmalz, M. C. (2021). Recent Studies on Common Ownership, Firm Behavior, and 
+The Journal of Finance, 61(1), 1–32. Market Outcomes. The Antitrust Bulletin, 66(1), 12–38. 
+
+La Porta, R., Lopez-de-Silanes, F., Shleifer, A., & Vishny, R. (1998). Law and finance. The Schnatterly, K., Shaw, K. W., & Jennings, W. W. (2008). Information advantages of large 
+Journal of Political Economy, 106(6), 1113–1155. institutional owners. Strategic Management Journal, 29, 219–227. 
+
+La Porta, R., Lopez-de-Silanes, F., Shleifer, A., & Vishny, R. (1999). The quality of Shaver, J. M. (1998). Accounting for endogeneity when assessing strategy performance: 
+government. Journal of Law, Economics, and Organization, 15(1), 222–279. Does entry mode choice affect FDI survival? Management Science, 44(4), 571–585. 
+
+La Porta, R., Lopez-de-Silanes, F., Shleifer, A., & Vishny, R. (2002). Investor protection Shekita, N. (2020). Interventions by Common Owners. SSRN Electronic Journal. 
+and corporate valuation. The Journal of Finance, 57(3), 1147–1170. Shroff, N., Verdi, R. S., & Yu, G. (2014). Information environment and the investment 
+
+Lewellen, K., & Lowry, M. (2021). Does common ownership really increase firm decisions of multinational corporations. The Accounting Review, 89(2), 759–790. 
+coordination? Journal of Financial Economics, 141(1), 322–344. Stillman, R. (1983). Examining antitrust policy towards horizontal mergers. Journal of 
+
+Liang, K.-Y., & Zeger, S. L. (1986). Longitudinal data analysis using generalized linear Financial Economics, 11, 225–240. 
+models. Biometrika Trust, 73(1), 13–22. Stonehouse, G., & Snowdon, B. (2007). Competitive advantage revisited Michael Porter 
+
+Lien, W. C., Chen, T., Chen, J., & Sohl, J. E. (2021). How do financial analysts’ on strategy and competitiveness. Journal of Management Inquiry, 16(3), 256–273. 
+recommendations affect firm competitive actions? A rival-centric view. Journal of Tihanyi, L., Johnson, R. A., Hoskisson, R. E., & Hitt, M. A. (2003). Institutional ownership 
+Business Research, 134, 531–539. differences and international diversification: The effects of boards of directors and 
+
+López, Á. L., & Vives, X. (2019). Overlapping ownership, R&D spillovers, and antitrust technological opportunity. Academy of Management Journal, 46(2), 195–211. 
+policy. Journal of Political Economy, 127(5), 2394–2437. Ullah, S., Akhtar, P., & Zaefarian, G. (2018). Dealing with endogeneity bias: The 
+
+Lu, R., Shen, Q., Wang, T., & Zhang, X. (2021). Frenemies: Corporate Advertising Under generalized method of moments (GMM) for panel data. Industrial Marketing 
+Common Ownership. Management Science, November. Management, 71, 69–78. 
+
+Massa, M., & Žaldokas, A. (2017). Information transfers among co-owned firms. Journal Uras, B. R. (2020). Finance and development: Rethinking the role of financial 
+of Financial Intermediation, 31, 77–92. transparency. Journal of Banking and Finance, 111. https://doi.org/10.1016/j. 
+
+Matvos, G., & Ostrovsky, M. (2008). Cross-ownership, returns, and voting in mergers. jbankfin.2019.105721 
+Journal of Financial Economics, 89(3), 391–403. Wintoki, M. B., Linck, J. S., & Netter, J. M. (2012). Endogeneity and the dynamics of 
+
+McNulty, T., & Nordberg, D. (2016). Ownership, activism and engagement: Institutional internal corporate governance. Journal of Financial Economics, 105(3), 581–606. 
+investors as active owners. Corporate Governance: An International Review, 24(3), 346. 
+
+Miles, R. E., Snow, C. C., & Pfeffer, J. (1974). Organization-Environment: Concepts and 
+Issues. Industrial Relations, 13(3), 244–264. Jan C. Hennig is an Assistant Professor at the Department of Accounting at the University 
+
+Nadkarni, S., & Chen, J. (2014). Bridging yesterday, today, and tomorrow: CEO temporal of Groningen. His work has been published in the European Accounting Review and the 
+focus, environmental dynamism, and rate of new product introduction. Academy of Controlling & Management Review. His main interests are international corporate 
+Management Journal, 57(6), 1810–1833. governance, corporate strategy, and corporate control. 
+
+Ndofor, H. A., Sirmon, D. G., & He, X. (2011). Firm resources, competitive actions and 
+performance: Investigating a mediated model with evidence from the in-vitro Jana Oehmichen is a Full Professor of Organization, Human Resources, and Management 
+diagnostics industry. Strategic Management Journal, 32(6), 640–657. Studies at the University of Mainz. Her work has been published in journals such as the 
+
+Oehmichen, J., Firk, S., Wolff, M., & Maybuechen, F. (2021). Standing out from the Strategic Management Journal, Global Strategy Journal, and the Journal of Management 
+crowd: Dedicated institutional investors and strategy uniqueness. Strategic Studies. Her research is focused on international corporate governance, corporate incen
+Management Journal, smj.3269. tive structures, and digital strategy & leadership. 
+
+Oster, E. (2019). Unobservable Selection and Coefficient Stability: Theory and Evidence. 
+Journal of Business and Economic Statistics, 37(2), 187–204. Philip J. Steinberg is an Assistant Professor at the Department of Innovation Management 
+
+Parsley, D., & Popper, H. (2020). Return comovement. Journal of Banking and Finance, and Strategy at the University of Groningen. His work has been published in journals such 
+112. as Research Policy, the Journal of International Management, the Journal of Economic 
+
+Peng, M. W., Sunny, L. S., Brian, P., & Hao, C. (2009). The institution-based view as a Psychology and the Journal of Business Research. His research interests lie at the in
+third leg for a strategy tripod. Academy of Management Perspectives, 23(3), 63–81. tersections of innovation management, international management, and corporate strategy. 
+
+Pfeffer, J., & Salancik, G. R. (1978). The external control of organizations: A resource 
+dependence perspective. Harper & Row.  
+
+Pierre, J. (2015). Varieties of capitalism and varieties of globalization: Comparing Judith Heigermoser is a strategy consultant. She has a doctoral degree in management 
+patterns of market deregulation. Journal of European Public Policy, 22(7), 908–926. from the University of Goettingen. Her major research areas are ownership structures, 
+
+corporate strategy, and international corporate governance. 
+
+702

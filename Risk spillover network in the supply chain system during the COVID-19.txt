@@ -1,0 +1,1332 @@
+﻿Economic Modelling 126 (2023) 106403
+
+Contents lists available at ScienceDirect 
+
+Economic Modelling 
+journal homepage: www.journals.elsevier.com/economic-modelling 
+
+Risk spillover network in the supply chain system during the COVID-19 
+crisis: Evidence from China 
+Zhinan Li a,*, Shan Pei b, Ting Li c, Yu Wang b 
+
+a School of Finance, Shanxi University of Finance and Economics, Taiyuan, China 
+b School of Finance, Southwestern University of Finance and Economics, Chengdu, China 
+c College of Economics and Management, China Agricultural University, Beijing, China   
+
+A R T I C L E  I N F O   A B S T R A C T   
+
+Handling Editor: Sushanta Mallick  The COVID-19 crisis seriously impacted the global economy and supply chain system. Unlike previous studies, 
+this paper examines the risk spillover effects within the supply chain system rather than between financial and 
+
+Keywords: other specific industries. The hypotheses are proposed by developing and simulating an agent-based model; the 
+Supply chain system copula-conditional value at risk model is employed to empirically validate these hypotheses in China during the 
+Risk spillovers COVID-19 crisis. The findings reveal that risks are transmitted and amplified from downstream, through 
+Agent-based model 
+Copula-CoVaR model midstream to upstream. Additionally, the financial industry amplifies the risk spillover from the midstream to the 
+COVID-19 upstream and downstream. Moreover, the risk spillovers exhibit significant time-varying characteristics, and 
+
+policy interventions can potentially mitigate the effect of such spillovers. This paper provides a theoretical basis 
+and empirical evidence for risk spillover in supply chain systems and offers suggestions for industrial practi
+tioners and regulators.   
+
+1. Introduction in the real economy during the COVID-19 crisis (Zhu et al., 2021; Zhang 
+et al., 2020; Zhang and Hamori, 2021; Tan et al., 2022). However, due to 
+
+In 2020, the COVID-19 pandemic greatly impacted the global the different roles played by different sectors in the supply chain,1 the 
+economy, resulting in production shutdown, supply chain disruption, real economy can also be divided into upstream, midstream, and 
+and drastic fluctuations in international capital and commodity markets. downstream industries, forming complex linkages among themselves 
+At the same time, the behavioral interaction between economic agents, based on transactions and with banks based on financing, with little 
+such as transaction and credit linkage, led to the further spread of risks, research having been conducted on risk spillover during the COVID-19 
+which caused severe losses to the real economy and financial markets, crisis in such a supply chain system2. 
+thus affecting the profitability and sustainability of global supply chains, Risk spillovers in the stock market indicating risk correlation reflect 
+which has aroused the widespread interest of practitioners and real-world shock propagation. Regarding the theoretical analysis of 
+researchers. shock propagation in the supply chain system, Gatti et al. (2006, 2009, 
+
+The COVID-19 pandemic has substantially negatively affected the 2010) simulated the behavioral evolution mechanism and bankruptcy 
+stock market (Al-Awadhi et al., 2020; Baker et al., 2020) and caused diffusion between upstream and downstream firms and banks based on 
+many bank loans to be nonperforming (Goodell, 2020). Rizwan et al. an endogenous credit network, setting a precedent for further related 
+(2020) further elaborated that this financial instability exerts significant research. After that, many scholars discussed the mechanism of shock 
+risk spillover effects on the real economy. From a more fine-tuned propagation in firm and bank networks in greater detail (Georg, 2013; 
+perspective, many existing studies focus on the risk spillover among Popoyan et al., 2020; Gatti and Grugni, 2022; Alexandre et al., 2023); 
+finance and various specific industries, such as energy and agriculture, however, there is a lack of empirical testing based on market data in 
+
+* Corresponding author. No. 140, Wucheng Road, Taiyuan City, Shanxi Prov. 030006, China. 
+E-mail address: LiZhinan@sxufe.edu.cn (Z. Li).   
+
+1 Wu and Shao (2006) defined the supply chain as an organic combination of supply and demand chain, firm chain, space chain and value chain based on upstream 
+to downstream industrial links, emphasizing the industrial competition and cooperation relationship and the docking relationship among all parties.  
+
+2 Finance is deeply involved in the credit linkage with firms, so this paper collectively refers to the financial, upstream, midstream, and downstream industries as 
+the supply chain system. 
+
+https://doi.org/10.1016/j.econmod.2023.106403 
+Received 14 October 2022; Received in revised form 5 June 2023; Accepted 6 June 2023   
+Available online 9 June 2023
+0264-9993/© 2023 Elsevier B.V. All rights reserved.
+
+
+
+Z. Li et al.                                                                                                                                                                                                             E  c o  n  o  m  i c   M   o d  e  ll i n  g 126 (2023) 106403
+
+these studies. Therefore, this paper aims to empirically examine the risk Extensive literature has examined risk spillover among the various 
+spillover effect in the supply chain system during the COVID-19 crisis. specific industries of the real economy during the COVID-19 pandemic. 
+
+We conduct our analysis using a sample of stock markets in China Specifically, systemic risk spillovers between energy and agriculture and 
+during the COVID-19 pandemic. As the COVID-19 pandemic signifi among energy and stock markets in the context of COVID-19 have been 
+cantly impacted the global economy, China implemented a dynamic studied by Zhu et al. (2021) and Zhang et al. (2020). Zhang and Hamori 
+zero-clearing policy that differed from other countries. In such a unique (2021) focused on the volatility spillover effect between crude oil and 
+policy environment, the shock faced by the supply chain, the further risk stock markets during the COVID-19 pandemic. Si et al. (2021) suggested 
+spillover, and the time-varying effect under policy influence are much that COVID-19 exerts a significant risk spillover effect on energy sub
+more valuable to analyze. Therefore, selecting China as a sample can sectors across subperiods in China. They found that transportation and 
+more fully reflect the risk spillover effect of the supply chain under the service industries were directly affected by the COVID-19 pandemic, and 
+impact of the COVID-19 pandemic. adverse effects were passed on to other industries (Tan et al., 2022); 
+
+First, this paper constructs an agent-based model of the behavior of however, research has been lacking on the risk spillover effect along the 
+the supply chain’s upstream, midstream, downstream, and financial upstream, midstream, downstream, and financial industries. 
+agents. We conduct a numerical simulation of the shock propagation In essence, the stock price is the embodiment of firm value; as a 
+within it to advance the hypotheses of risk spillover among different result, the risk spillover effect in the stock market reflects the shock 
+industries. Then, based on the copula-conditional value at risk (CoVaR) propagation among different firms. Related studies on shock propaga
+model, this paper conducts an empirical analysis of the risk spillover tion in the supply chain system primarily focus on counterparty risk due 
+among different industries during the COVID-19 pandemic and details to credit linkage. The most relevant study, Gatti et al. (2010), examined 
+the risk spillover network of the supply chain system. The empirical the linkages among upstream and downstream firms and banks based on 
+results show that upstream is the ultimate risk-taker, and midstream and the endogenous credit network model; however, they did not consider 
+finance play significant roles in risk transmission and amplification. We the unique role of midstream firms in the process of shock propagation. 
+also conduct dynamic analysis on the risk spillover network based on Additionally, many studies have found that a firm agent’s default affects 
+time series and policy influence. The results indicate that risk spillover other related agents through the firm-firm credit network. These 
+in the supply chain system has significant time-varying characteristics affected agents pass this negative impact on to the bank through the 
+and a significant effect under which risk spillover increases and is then bank-firm credit network, leading to the spread of the counterparty risk 
+offset by related policies. Finally, we offer relevant feasibility sugges through the bank-firm credit association network (Kwan and Laderman, 
+tions from the perspectives of midstream firms, banks, and 1999; Santos, 2006; Allen and Carletti, 2006; Gatti et al., 2006, 2009; 
+policymakers. Weisbuch and Battiston, 2007; Heise and Kühn, 2012; Georg et al., 2013; 
+
+Our study contributes to the literature in three ways. First, we Popoyan et al., 2020; Gatti et al., 2022; Alexandre et al., 2023). 
+establish a theoretical supply chain system through an agent-based In addition to the counterparty risk resulting from credit linkage, the 
+model to simulate shock propagation, adding midstream firms to the causes of risk spillover in the supply chain could also involve the bull
+existing research. Second, we conduct empirical analysis by the copula- whip effect, proposed by Lee et al. (1997), which refers to the external 
+CoVaR model to study the risk spillover effect in the supply chain system impact on the industrial chain, first affecting the downstream and then 
+in China during the COVID-19 crisis. We analyze the results by transmitting to the upstream through the midstream following the 
+combining the theory of the bullwhip effect and credit linkage. Third, we supply and demand mechanism. Due to the supply chain system’s un
+dynamically analyze the time-varying risk spillover effect based on the stable, uncertain, complex, and dynamic characteristics, it is necessary 
+relative policies of China. to effectively manage and control supply chain risk in firm competition 
+
+The rest of this paper is organized as follows. Section 2 discusses the (Wu et al., 2007). Scarpin et al. (2022) showed how the bullwhip effect 
+achievements and shortcomings of the previous literature, and Section 3 was affected by the COVID-19 pandemic both upstream and down
+introduces the methodology, including the agent-based model and the stream. Xu et al. (2022) used additional information provided by the 
+copula-CoVaR model. Section 4 presents the data description and supply chain structure through the TENQR model, demonstrating that 
+empirical research, Section 5 proposes relevant policy suggestions for the upstream industry dominated the propagation of risks under extreme 
+practice, and Section 6 summarizes the conclusions. market conditions before the COVID-19 crisis, contrary to the bullwhip 
+
+effect. Thus, whether the risk spillover in the supply chain is consistent 
+2. Literature review with the bullwhip effect theory under the influence of the pandemic and 
+
+related policies in China is worth further analysis. 
+After the 2008 global financial crisis, many scholars focused on the In summary, although the risk spillover in the financial industry and 
+
+risk spillover in the financial industry and the real economy. Ke et al. the real economy has been extensively studied, empirical works have 
+(2010) tested the volatility spillovers between the Shanghai market and mostly emphasized specific industries rather than considering the sup
+the main developed stock markets. Choudhry and Jayasekera (2014) ply chain level. Additionally, related theoretical studies have been used 
+investigated the influence of the global crisis on the spillover between to provide the mechanism of shock propagation in the supply chain 
+the banking and industrial stock markets of Europe and the United States system, but there is a lack of empirical tests. Thus, this paper aims to 
+(US). Chiu et al. (2015) proposed that a real economy with high debt empirically study the risk spillover effect in the supply chain system 
+financing can exert a strong risk spillover effect on the financial in under the influence of the COVID-19 crisis. This approach allows us to 
+dustry. Zhou et al. (2020) studied the interaction between China’s stock further form the risk spillover network and analyze the mechanism 
+market industry risk and the macroeconomy. behind it by combining the theory of credit linkage and the bullwhip 
+
+In 2020, the COVID-19 pandemic had an unprecedented impact on effect and propose reference suggestions for risk management 
+finance and the real economy (Baker et al., 2020), exerting a direct in policymaking. 
+fluence on the financial industry and various other industries in the real 
+economy and a mutual effect through risk spillovers (Fang et al., 2021). 3. Methodology 
+Historically, when some regions or sectors are affected by a pandemic, 
+changes in production and operation decisions spread to other economic Due to the commercial credit linkage among firms based on trans
+and financial sectors through the supply chain, which has regional and actions and the bank credit linkage between banks and firms based on 
+global impacts and poses a very high risk to the safe operation of the financing, a risk may be transmitted in the supply chain system when 
+social and economic system (Rose and Lim, 2002; Acemoglu et al., 2012; impacted by an external shock, presenting the risk spillover effects in the 
+Helbing, 2013; Putri et al., 2018). stock market. Moreover, the supply and demand decision mechanism 
+
+2
+
+
+
+Z. Li et al.                                                                                                                                                                                                             E  c o  n  o  m  i c   M   o d  e  ll i n  g 126 (2023) 106403
+
+during shock propagation in the supply chain system may also lead to be identified based on instances of bankruptcy using inverse timing. 
+risk spillover because of the bullwhip effect. First, the upstream firms go bankrupt at t = 2,3,4 because of the bank
+
+This paper conducts a more in-depth analysis of the theoretical ruptcies of banks and downstream and midstream firms at t = 1,2,3. 
+mechanism of the risk spillover in the supply chain system, referring to Second, no more midstream firms go bankrupt at t = 3,4,5; thus, the 
+the most relevant research of Gatti et al. (2010) on the propagation of midstream firms that are bankrupt at t = 2 are the result of bankrupt 
+shocks among economic and financial agents in the endogenous credit downstream firms at t = 1. Third, no more downstream firms go bank
+network. In an agent-based model, we establish a supply chain system rupt at t = 2,3,4,5; therefore, the downstream firms are little affected by 
+that includes upstream, midstream, and downstream firms and banks. others. Fourth, the banks that are bankrupt at t = 2,3 are the result of 
+Modeling different agents’ decision mechanisms and their nonlinear bankrupt firms at t = 1,2. 
+interactions depicts the behavior of micro agents in the supply chain In conclusion, the risk appears to be transmitted from downstream to 
+system to simulate how the shock propagates to assess our empirical midstream firms, then to upstream firms along the supply chain, and 
+hypotheses regarding risk spillover effects in the supply chain system. finance also plays a role in the process of shock propagation. Therefore, 
+Finally, we introduce the copula-CoVaR model to empirically measure this paper proposes the following hypotheses and further verifies them 
+the risk spillover effect in the supply chain system between the stock through the empirical analysis described in the next section. 
+market variables. Hypothesis 1. When an external shock impacts the supply chain, the 
+
+risk is transmitted from the downstream to the upstream through the 
+3.1. Agent-based model midstream. 
+
+Fig. 1 presents the basic framework of the agent-based model Hypothesis 2. Risks among different supply chain industries can be 
+depicting the supply chain system. The figure includes four types of transmitted through financial intermediaries. 
+agents: upstream firms, midstream firms, downstream firms, and banks. 
+Downstream firms’ assets include cash, and their liabilities include net 3.2. Copula-CoVaR 
+worth, bank loans, and accounts payable. The assets of midstream firms 
+include cash and accounts receivable, and their liabilities include net This section mainly refers to the research of Yang et al. (2020) and 
+worth, bank loans, and accounts payable. Upstream firms’ assets include Reboredo et al. (2016) to measure the risk spillover effect based on stock 
+cash and accounts receivables, and their liabilities include net worth and market data. First, we establish the mean model for stock market vari
+bank loans. Banks’ assets include cash and firm loans, and their liabil ables and outline the various copula functions for paired variables. We 
+ities include net worth and deposits. then introduce a method to calculate the CoVaR for paired market var
+
+In this supply chain system, upstream (midstream) firms provide iables using the copula function. 
+products to midstream (downstream) firms, forming accounts receivable 
+and accounts payable within the balance sheet of the firm agents; the 3.2.1. Mean model and copula function 
+capital flow is transmitted against the supply chain. Banks provide loans The mean stock return model is shown in Eq. (1). 
+to upstream, midstream, and downstream firms, forming firm loans and 
+bank loans in the balance sheets of banks and firms, respectively. The rt =E(rt) + et (1)  
+Appendix presents details of modeling and calculating the agent-based 
+model. where rt is the stock return time variable, E(rt) is the mean return, and et 
+
+A numerical simulation is conducted based on the agent-based model is the residual sequence of the return variable after modeling. 
+to demonstrate the shock propagation in the supply chain system after The standardized residual sequences, zt, can be obtained from Eq. 
+an external shock. The first 100 periods (T1) are used for initialization (2), where σt represents the volatility risk. 
+without shocks. The external shock, set as 20% of firms are randomly e
+
+z t
+t = σ (2) 
+
+selected into bankruptcy, is given after T1, and the shock propagation is t
+observed over the subsequent 10 periods (T2). The simulations are Referring to the measure of volatility risk σt, Andersen and Bollerslev 
+repeated 1000 times to ensure the robustness of the numerical simula (1998) introduced realized volatility (RV). RV is equal to the summation 
+tion results, and their mean value is taken as the final result. Fig. 2 shows of finely sampled squared high-frequency returns within a day and is a 
+the numerical simulation results after the external shock during the more accurate measure than the parametric method3 for estimating 
+periods comprising T2. The descriptions and analyses are illustrated volatility risk. Moreover, to obtain an unbiased estimator that is simple 
+below: to implement practically, the calculation of the RV needs to be adjusted 
+
+At t = 1, due to the external shock, 20% of downstream, midstream, rather than directly calculated by the summation of the squared of the 
+and upstream firms go bankrupt. These bankrupt banks and firms highest frequency returns (Andersen et al., 2005); thus, this paper 
+further affect other healthy firms and banks through commercial credit measures the volatility risk by adjusted realized volatility (RV′ ), as 
+linkages, bank credit linkages, and the supply and demand decision shown in Eq. (3) (Yang et al., 2020). 
+mechanism in the supply chain system. 
+
+∑
+Under the influence of bankrupt firms at t = 1, at t = 2, approxi e2
+
+mately 27% of banks and 7.5% of midstream and upstream firms are RV′
+
+t =∑
+i RV (3) 
+
+RV t
+i
+
+bankrupt; no additional downstream firms go bankrupt. 
+At t = 3, under the influence of bankrupt firms and banks at t = 2, the The zt is an independent and identically distributed random variable 
+
+upstream firms are further affected by a widespread bankruptcy rate of with zero mean and unit variance. It follows a skewed student-t 
+more than 20%, and approximately 2% of banks are bankrupt, while the 
+proportion of bankrupt midstream firms decreases to 0%. 3 
+
+At t = 4, under the influence of bankrupt firms and banks at t = 3, no Measuring volatility risk can be divided into parametric and nonparametric 
+
+more banks go bankrupt, while approximately 2% of upstream firms methods. The former uses parametric models such as ARCH (Engle, 1982), 
+GARCH (Bollerslev, 1986), and stochastic volatility (Hull and White, 1987) to 
+
+become bankrupt. estimate volatility risk. In terms of measurement accuracy and error, due to the 
+No further bankruptcies emerge at t = 5, under the influence of lack of information contained on the sample in the above method, a new path, 
+
+bankrupt upstream firms at t = 4. such as a nonparametric realized volatility measure, has been opened up to 
+As the new bankrupt agents in each period result from other bank volatility research through intraday high-frequency trading data (Corsi et al., 
+
+rupt agents in the previous period, the process of shock propagation can 2008). 
+
+3
+
+
+
+Z. Li et al.                                                                                                                                                                                                             E  c o  n  o  m  i c   M   o d  e  ll i n  g 126 (2023) 106403
+
+Fig. 1. Agent-based model. Note: An agent-based model is established based on the behavior of upstream firms, midstream firms, downstream firms, and banks in the 
+supply chain system to form an association network of the product and capital link, represented by the solid and dashed lines. The directions of arrows represent the 
+directions of product flow and capital flow. 
+
+(
+and satisfy 2 < λ < ∞, − 1 < η < 1. a = 4ηc λ− 2) 2
+
+λ , b 1+ η2 − 2, 
+− 1 = 3 a
+
+( √
+c = Γ λ+1)
+
+̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅ ( )
+2 / π(λ − 2)Γ λ
+
+2 , and Γ() as the gamma function. 
+The mean model and marginal distribution fitting can only be used to 
+
+measure individual risk, while copula functions—which can capture 
+nonlinear, tail, time-varying, and asymmetric correlations—charac
+terize the structure of interdependence between paired variables. The 
+parameters and dependence structures of different copula functions are 
+introduced in Table 1. We test the different static or dynamic correlation 
+characteristics between pairs of variables by modeling the level of 
+asymmetric multivariate dependence (Patton, 2006). 
+
+Note: This table summarizes various bivariate copula functions, of
+fering an overview of the types, forms, parameters, and dependence 
+structures of the functions that can be used to capture different corre
+lations between paired uniform distribution variables. The time-varying 
+copula function has the same form as the corresponding static copula 
+function, except that the corresponding parameters change with time, 
+where the time-varying symmetrized Joe–Clayton is abbreviated as TVP 
+SJC. 
+
+Fig. 2. Numerical simulation results. Notes: The figure reflects the shock 
+propagation process, the horizontal axis represents the time, and the vertical 
+axis is the risk as measured by the proportion of bankruptcy agents. The blue, 3.2.2. CoVaR 
+orange, green, and red lines represent the trend of the bankruptcy proportion of The value at risk, VaR, measures the individual risk, i.e., the 
+upstream, midstream, and downstream firms and banks over time, respectively. maximum possible loss of an asset at a given confidence level under 
+(For interpretation of the references to color in this figure legend, the reader is normal market fluctuations. Financial assets in the stock market are 
+referred to the Web version of this article.) assumed to obey the skewed student-t distribution in this paper; the 
+
+algorithm of VaR is shown in Eq. (5). 
+distribution that captures the fat tail and asymmetry in stock return VaRi
+distributions, and its density function is shown in Eq. (4) (Reboredo α,t = μi,t + st− 1
+
+α (λi; ηi) σi,t (5)  
+
+et al., 2016). where VaRi
+α,t is the risk of i at the α significance level. μi,t is the mean 
+
+⎧ ( ( ) )2 − (λ+1)/2 /
+⎪ 1 bz + a return of i, σi,t is the volatility of i, st− 1
+
+α (λi; ηi) is the quantile of the 
+⎪
+⎪ bc 1 t
+
++
+⎨ λ − 2 1 − η , zt < − a b skewed student-t distribution with λi as the degree of freedom, and ηi is 
+
+f(zt; λ; η)=
+⎪ ( 4)  the symmetry parameter of i at the α significance level. 
+
+( ) )− (
+⎪
+⎪ 1 bz 2 λ+1)/2 / (
+
+t + a The conditional value at risk, CoVaR, defined by Tobias and Brun
+⎩ bc 1 + , z a b
+
+λ − 1 t ≥
++ η −
+
+2 nermeier (2016), can measure the extreme risk level of another asset 
+when one asset suffers an extreme risk event, as shown in Eq. (6). 
+
+where λ and η are the two parameters of the skewed student-t distri ( ⃒
+Pr Xj ≤CoVaRji⃒ i )
+
+α X =VaRi
+α = α (6) 
+
+bution (the degree of freedom and symmetry parameter, respectively) 
+
+4
+
+
+
+Z. Li et al.                                                                                                                                                                                                             E  c o  n  o  m  i c   M   o d  e  ll i n  g 126 (2023) 106403
+
+5
+
+Table 1 
+Overview of the various copula functions.  
+
+Type Copula Function Parameter Dependence Structure 
+
+Gaussian C(u,v; ρ) = Φ(Φ− 1(u),Φ− 1(v)) − 1≤ρ ≤ 1 Zero tail 
+Clayton 1 θ ≥ 0 Lower tail 
+
+−
+C(u,v; θ) = (u− θ + v− θ − 1) θ 
+
+Rotated Clayton 1 θ ≥ 0 Upper tail 
+−
+
+C − θ − θ
+(u,v; θ) = u+ v − 1+ ((1 − u) + (1 − v) − 1) θ 
+
+Frank (
+1 (1 − e− θu )
+
+)(1 − e− θv) θ∈R Zero tail 
+C(u,v; θ) = − In 1 −
+
+θ 1 − e− θ
+
+Gumbel [ 1] θ ≥ 1 Upper tail 
+C θ θ
+(u,v; θ) = exp − ((− Inu) + (− Inv) )θ
+
+Rotated Gumbel [ 1] θ ≥ 1 Lower tail 
+C(u,v; θ) = u+ v θ θ
+
+− 1+ exp − ((− In(1 − u)) + (− In(1 − v)) )θ
+
+Student’s t C(u,v; ρ,υ) = T(t− 1 1
+υ (u), t−υ (v)) − 1≤ρ ≤ 1 Symmetric tail 
+
+Symmetrized Joe–Clayton ( ( 1 1 1 1 γ, χ 
+[ )) Asymmetric tail 
+
+− ] ) ( [ − ]
+C χ − γ χ − γ
+(u,v; γ, χ) = 0.5 (u + v − 1) + 1 − 1 − [[1 − (1 − u) ] + [1 − (1 − v) ] − 1] γ χ + 1 − γ
+
+− 1 − [[1 − uχ ] + [1 − γ
+− vχ ] − 1] γ χ
+
+TVP Gaussian C(u, v; ρ − 1
+t) = Φ(Φ (u),Φ− 1(v)) ω,α,β Zero tail 
+( ∑ )
+
+ρ q
+t = Λ ω+α 1
+
+Φ− 1(u 1 1 
+q j t− j) ⋅Φ− (vt− j)+βρ
+
+=1 t− 1 where,Λ(X) = (1－ e− x) (1 + e− x −
+)
+
+TVP Rotated Gumbel [ 1 ] ω,β,α Time-varying lower tail 
+C θ
+(u,v; θt) = u+ v − 1+ exp − ((− In(1 θ
+
+− u)) t + (− In(1 − v)) t )θt
+
+∑q ⃒ ⃒
+θt = ω+ βθt ⃒ ⃒
+
+− 1 + α 1
+u
+
+q j t− j − vt− j
+=1
+
+TVP SJC ( ( 1 1 1 1
+[ )) ω1,α1 ,β1 Time-varying asymmetric tail  
+
+− ] ) ( [ − ]
+C − γ γ
+(u, v; γt , χt) = 0.5 (u+v − 1)+ 1 − 1 − [[1 χ
+
+− (1 − u) t − γ
+] t + [1 − (1 − v χ
+
+) t ] t − 1] γt χt + 1 − 1 − [[1 − uχt −
+] t + [1 − vχt − γ
+
+] t − 1] γt χt ω2,α2 ,β2 
+
+( 1∑q ⃒ ⃒)
+γt = Δ ω1 +β1 γt− 1 +α1 ⃒u − v
+
+q j t− j t− j⃒
+=1
+
+( ⃒ ⃒)
+χ 1∑q ⃒
+
+t = Δ ω2 +β2 χt− 1 +α2 u − 1 
+q j t− j − vt ⃒− j where,Δ(x) = (1 + e− x)
+
+=1
+
+
+
+Z. Li et al.                                                                                                                                                                                                             E  c o  n  o  m  i c   M   o d  e  ll i n  g 126 (2023) 106403
+
+where CoVaRji
+α represents the conditional value at risk of j when i is at in Fig. 3. The sample includes periods with high COVID-19 pandemic 
+
+exposure and relatively normal periods for comparative analyses. 
+risk (Xi = VaRi
+
+α) at the α significance level, including j’s risk and the risk The upstream component industries5 include materials II, energy II, 
+spillovers from i to j. Pr () is the probability function. pharmaceuticals, biotechnology and life sciences, and others, account
+
+We capture the nonlinear risk correlation between variables using ing for 67.60%, 30.60%, 1.40%, and 0.40%, respectively, of the total 
+the following copula-CoVaR model to solve for CoVaR, as shown in Eq. upstream industry SSE market share. The midstream component in
+(7) (Reboredo et al., 2016). dustries include capital goods, semiconductors, and semiconductor 
+( ( ) ( ))
+
+C F equipment, materials II, technology hardware and equipment, auto
+j CoVaRj
+
+β,t ，Fi VaRi
+α,t = αβ (7)  
+
+mobiles and components, transportation, commercial and professional 
+services, and others, accounting for 32.70%, 22.90%, 19.50%, 7.40%, 
+
+where C () is the joint distribution copula function of pairwise variables. 4.70%, 3.10%, 0.70%, and 9%, respectively. The downstream compo
+Fj and Fi are the marginal distribution functions of j and i, and α and β are nent industries include consumer staples, health care, consumer 
+the significance levels. discretionary, industrials, information technology, telecommunication 
+
+Girardi and Ergün (2013) claimed that CoVaR underestimates risk services, and real estate, accounting for 44.20%, 23.40%, 15%, 8.30%, 
+under extreme conditions; they conducted an innovative analysis to 7.10%, 1.70%, and 0.20%, respectively (data source: Wind database). 
+obtain a generalizable measure, ΔCoVaR. Thus, this paper measures the Stock index data are processed into logarithmic return sequences; see 
+risk spillover effect between pairwise variables by ΔCoVaR; see Eq. (8). Eq. (9). Table 2 displays the statistical characteristics of the return 
+ΔCoVaRji variables. The Jarque–Bera (J-B) and Dickey–Fuller (DF) statistics are 
+
+α =CoVaRji
+α − VaRj
+
+α (8)  
+significant at the 1% level, indicating that the normal distribution is 
+
+where ΔCoVaRji
+α measures the risk spillovers from i to j, which is the rejected for each variable and that all variables are stable. The Ljung–
+
+difference between the CoVaR of j when i is at risk (Xi = VaRi
+α) and the Box Q statistics are insignificant, indicating no autocorrelation in any 
+
+VaR of j. variable. 
+The bootstrap method is used to conduct statistical tests on the rt = Ln(pt) − Ln(pt− 1) (9)  
+
+samples to determine whether CoVaR is equal to VaR, i.e., whether there 
+is a significant risk spillover effect between the pairwise variables. 4.2. Correlation between variables 
+
+4. Data and empirical results The mean model of each industry is established according to Eq. (1); 
+the residual of each industry is then extracted and processed into the 
+
+This section first explains the data and analyzes the descriptive sta standardized residual sequence—see Eq. (2) and Eq. (3). The integral 
+tistics. Then, the correlation between the pairwise industries is probability transformation of the standardized residual sequence is 
+compared, and the optimal copula function is selected by fitting the joint conducted, i.e., the original sequence is transformed, and all the vari
+distribution probability of pairwise industries. Next, VaR,CoVaR, and Δ ables in the stock market are fitted with the skewed student-t distribu
+CoVaR are calculated, and the risk spillover network in the supply chain tion, see Eq. (4). After the Kolmogorov‒Smirnov test, the transformed 
+system is formed. Finally, a dynamic analysis of the risk spillover effect variables all obey a uniform distribution, indicating that the fitting effect 
+during the sample period combines the related Chinese policies. of each marginal distribution is good. 
+
+Then, we draw histograms of the binary frequency distributions for 
+4.1. Data and descriptive statistics the variables to intuitively analyze the correlation between the stock 
+
+market variables of paired industries and to initially select an appro
+Risk measurement indicators are rich and are mainly divided into priate copula function. According to the characteristics of copula func
+
+financial statements and stock price data. Many studies have built tions, if the two-dimensional frequency histogram has a symmetric tail, 
+models of risk contagion networks based on financial statements, with a the Gaussian copula function is suitable to fit it, and if the tail has basic 
+particular focus on the systemic risk of banks (Cao et al., 2017; Jiang and symmetry, the t-copula, and Frank copula functions are suitable to fit it. 
+Fan, 2019); however, financial statements are mostly measured at Fig. 4 shows clear tail correlations between these six paired industry 
+quarterly or annual frequencies. Therefore, the numbers of observations variables, and the correlations all show asymmetry; therefore, we need 
+in the time series of such systemic risk indicators tend to be low. For this to model the dependence structure between paired variables in the 
+reason, many scholars favor daily stock prices. For example, Hanif et al. copula function. 
+(2021) used the stock indexes of different industries to examine the risk Note: This figure shows the histograms of the two-dimensional fre
+spillovers between various sectors in the US and China; therefore, we quency distributions of any two variables. The fin axis, up axis, mid axis, 
+measure the risk of individual industries based on daily and intraday and down axis correspond to the distribution of financial, upstream, 
+5-min stock price trading data, specifically that of adjusted RV. midstream, and downstream industries, respectively, and the frequency 
+
+We select 5-min high-frequency stock price trading data from July 1, axis represents the number of occurrences of flag values in a variable 
+2019, to December 1, 2021, including the Shanghai Industrial Chain value. Each variable is uniformly distributed from 0 to 1, and the fre
+Index4 and the Financial Industry Index for the Shanghai Stock Ex quency is relatively high around the straight line from point (0,0) to 
+change (SSE). The upstream, midstream, and downstream industry in point (1,1), showing a significant correlation between the paired vari
+dexes have different weights for their respective components, as shown ables. The symmetry is judged by observing the plane formed by (0,0,z) 
+
+and (1,1,z). 
+
+4 The Shanghai Industrial Chain Index series consists of three indexes: The 
+Shanghai upstream industry index, the Shanghai midstream industry index, and 
+Shanghai downstream industry index. China Securities Index Co., Ltd. uses the 
+sample shares of the companies with relevant industrial chain characteristics in 
+the sample shares of the Shanghai Composite Index to form the sample shares 5 The component industries of upstream, midstream, and downstream in
+and uses the free-floating market value weighting method to reflect the overall dustries used in this paper are the Secondary Industry Classification under Wind 
+performance of the upstream, midstream, and downstream industrial chain Industry Classification Benchmark; the symbols “II” of materials and energy are 
+stocks in the secondary market in Shanghai. The sample shares are adjusted used to distinguish between materials and energy in Primary Industry 
+semiannually. Classification. 
+
+6
+
+
+
+Z. Li et al.                                                                                                                                                                                                             E  c o  n  o  m  i c   M   o d  e  ll i n  g 126 (2023) 106403
+
+Fig. 3. Component industries of different industry indexes. Note: This figure shows the specific component industries of the upstream industry index, midstream 
+industry index, and downstream industry index for the SSE. Different indexes include different industries in a particular proportion. 
+
+Table 2 
+Descriptive statistics of return variables.   
+
+Mean Sd Min Max Kurtosis Skewness J-B DF Ljung–Box Q 
+
+rfin − 0.0003 0.0129 − 0.0756 0.0868 8.3810 0.3973 727.30 − 24.141 36.8823 
+*** *** *** *** 
+
+rup 0.0007 0.0179 − 0.0895 0.0725 4.8486 − 0.2039 88.09 − 23.285 39.3604 
+*** ** *** *** 
+
+rmid 0.0008 0.0142 − 0.0950 0.0540 7.3521 − 0.6291 504.50 − 23.652 49.3415 
+*** *** *** *** 
+
+rdown 0.0006 0.0138 − 0.0704 0.0322 5.5119 − 0.8518 226.50 − 23.884 24.2624 
+*** *** *** *** 
+
+Note: This table shows the statistical results of the return variables of the financial, upstream, midstream, and downstream industry indexes (denoted by rfin, rup, rmid, 
+and rdown) from July 1, 2019, to December 1, 2021. Sd, Min, and Max denote the return variables’ standard deviation, minimum, and maximum, respectively. ***, **, 
+and * signify significance, i.e., rejecting the null hypotheses of normality, unit roots, and lack of autocorrelation of the Jarque–Bera (J-B) test, Dickey–Fuller (DF) test, 
+and Ljung–Box Q test at the 1%, 5%, and 10% levels, respectively. 
+
+4.3. Copula model fitting results distribution is “U” shaped. The TVP SJC copula function is suitable for 
+asymmetric tail correlation, and the lower tail correlation is larger than 
+
+As the copula function can capture the dependence structure be the upper tail correlation. Furthermore, because markets are nonlinear 
+tween variables, we select the appropriate copula functions to fit the and fluctuate with changes in the external environment, the dynamic 
+joint distribution between the paired industry variables. Eight static dependence between markets can be well characterized by the TVP SJC 
+copula functions and three time-varying copula functions are used. copula. 
+Table 3 displays the results of the parameter estimation. According to Note: This table shows the fitting results of various time-invariance 
+Liu et al. (2011), the optimal copula function can be selected by the and time-varying copula functions for industry pair variables. The hor
+log-likelihood value (LL) and Akaike information criterion (AIC). The izontal axis represents the fit of any two variables, and fin, up, mid, and 
+selection results are consistent, the Frank copula for the finance and down correspond to finance, upstream, midstream, and downstream, 
+downstream industries is suitable, and the TVP SJC copula function is respectively. The vertical axis shows different copula functions’ pa
+applied to fit the correlation between the other variable pairs. From a rameters, LL and AIC. Comparing the fitting effect based on the LL and 
+theoretical perspective, compared with other copula functions, the AIC, * denotes the optimal copula function chosen. The smaller the 
+Frank copula can capture the negative correlation between variables and negative LL and AIC are, the better the fitting effect is. 
+measure symmetric non-tail correlation; the resulting density 
+
+7
+
+
+
+Z. Li et al.                                                                                                                                                                                                             E  c o  n  o  m  i c   M   o d  e  ll i n  g 126 (2023) 106403
+
+Fig. 4. Histograms of two-dimensional frequency distributions.  
+
+8
+
+
+
+Z. Li et al.                                                                                                                                                                                                             E  c o  n  o  m  i c   M   o d  e  ll i n  g 126 (2023) 106403
+
+Fig. 4. (continued). 
+
+4.4. Risk spillover effect from the downstream industry to the midstream industry and then to the 
+upstream industry, which is consistent with the bullwhip effect theory 
+
+First, a single industry’s value at risk (VaR) is calculated by its and credit linkage mechanism. The transmission mechanism can be 
+marginal distribution; see Eq. (5). Table 4 shows that in 2019, the summarized as follows. The shock of COVID-19 caused the fluctuation of 
+financial industry had the highest risk, and the upstream industry had the downstream market demand, which was transmitted from the 
+the lowest risk. COVID-19 arose at the end of 2019 and tremendously downstream industry to the midstream industry and then to the up
+shocked the Chinese market in 2020 and 2021, making the upstream stream industry through the production decisions of firms, indicating 
+highest risk and risk of all industries much higher than in 2019. the risk spillover effect. The impact of downstream industry default also 
+
+Second, we statistically analyze the risk spillover between pairwise affected the midstream and upstream industries along the supply chain, 
+industries. Based on Eq. (7) and the bootstrap method, the results show reflected in the inter-industrial commercial credit relations formed by 
+no solutions of CoVaR from upstream to other industries; furthermore, accounts receivable and accounts payable. 
+no significant risk spillovers occur from finance to midstream, Meanwhile, the average value of ΔCoVaR from the downstream to 
+midstream to downstream, or downstream to finance. Therefore, the the upstream industry was 0.0094, meaning almost no direct risk spill
+significant one-way risk spillover directions and their ΔCoVaR are over. In contrast, the average value of ΔCoVaR was − 0.0209 from the 
+calculated as shown in Table 5. Furthermore, based on the annual values downstream industry to the midstream industry and − 0.0476 from the 
+of ΔCoVaR, Fig. 5 further illustrates the risk spillover network. midstream industry to the upstream industry, with a significant risk 
+
+Table 5 shows that the average risk spillover from midstream in spillover effect. This finding demonstrates that the midstream industry 
+dustry to upstream industry was the largest (− 0.0476), followed by magnifies the risk spillover effect and increases the risk for the upstream 
+downstream to midstream (− 0.0209), finance to upstream (− 0.0165), industry. 
+midstream to finance (− 0.0071), finance to downstream (− 0.0070), and With the addition of the financial industry, risk also spills from the 
+downstream to upstream (0.0094). Specifically, there are several posi midstream industry to the financial industry and then to the downstream 
+tive ΔCoVaR, indicating little risk spillover effect. and upstream industries. When finance receives a risk spillover from the 
+
+Fig. 5 is based on the results displayed in Table 5. In the supply chain, midstream with an average value of − 0.0071, it transmits a risk spill
+the ultimate risk bearer is the upstream industry. The risk is transmitted over with an average value of − 0.0165 to the upstream industry and 
+
+9
+
+
+
+Z. Li et al.                                                                                                                                                                                                             E  c o  n  o  m  i c   M   o d  e  ll i n  g 126 (2023) 106403
+
+Table 3 
+Parameter estimation of the binary copula function model.  
+
+Time-invariant copulas 
+
+Copulas (Parameter & LL & AIC) fin&up fin&mid fin&down up&mid up&down mid&down  
+
+Gaussian ρ 0.3856 0.4467 0.3840 0.6173 0.3606 0.5516 
+LL (− 47.49) (− 65.66) (− 47.06) (− 141.53) (− 41.10) (− 107.01) 
+AIC (− 94.98) (− 131.32) (− 94.12) (− 283.06) (− 82.19) (− 214.03) 
+
+Clayton θ 0.4810 0.5961 0.4505 1.0266 0.4293 0.8540 
+LL (− 35.80) (− 52.50) (− 30.83) (− 111.83) (− 29.71) (− 85.99) 
+AIC (− 71.61) (− 105.00) (− 61.67) (− 223.66) (− 59.43) (− 171.98) 
+
+Rotated Clayton θ 0.4892 0.5981 0.5074 1.0051 0.4827 0.8936 
+LL (− 38.38) (− 50.34) (− 39.23) (− 111.89) (− 37.93) (− 89.07) 
+AIC (− 76.77) (− 100.67) (− 78.46) (− 223.78) (− 75.87) (− 178.14) 
+
+Frank θ 2.4830 2.9342 2.7039 4.8533 2.3267 4.3449 
+LL (− 44.68) (− 61.55) (− 52.93)* (− 141.35) (− 38.96) (− 115.34) 
+AIC (− 89.37) (− 123.11) (− 105.86)* (− 282.70) (− 77.92) (− 230.69) 
+
+Gumbel θ 1.3108 1.3826 1.3186 1.6852 1.2973 1.6040 
+LL (− 45.39) (− 61.67) (− 45.25) (− 136.14) (− 44.24) (− 112.06) 
+AIC (− 90.78) (− 123.35) (− 90.50) (− 272.28) (− 88.49) (− 224.13) 
+
+Rotated Gumbel θ 1.3080 1.3774 1.3066 1.6962 1.2812 1.5873 
+LL (− 45.22) (− 62.70) (− 40.06) (− 138.57) (− 38.69) (− 108.35) 
+AIC (− 90.43) (− 125.39) (− 80.13) (− 277.14) (− 77.38) (− 216.71) 
+
+Student’s t ρ 0.3897 0.4516 0.3972 0.6289 0.3643 0.5834 
+v 9.5519 10.4105 13.9369 6.4563 5.8785 4.2340 
+LL (− 50.21) (− 68.68) (− 48.58) (− 150.70) (− 48.09) (− 124.71) 
+AIC (− 100.41) (− 137.36) (− 97.15) (− 301.40) (− 96.17) (− 249.43) 
+
+Symmetrized Joe–Clayton γ 0.2131 0.2649 0.2350 0.4155 0.2235 0.3942 
+χ 0.1910 0.2437 0.1403 0.4216 0.1507 0.3474 
+LL (− 49.15) (− 67.50) (− 43.83) (− 142.54) (− 45.90) (− 113.04) 
+AIC (− 98.30) (− 135.00) (− 87.67) (− 285.09) (− 91.80) (− 226.08) 
+
+Time-varying copulas 
+TVP Gaussian ω 1.5817 − 0.0928 − 0.0202 − 0.1370 0.8628 2.3597 
+
+α 0.1892 0.0589 0.0236 − 0.0522 0.1293 0.3202 
+β − 2.3128 2.3258 2.1370 2.6614 − 0.5107 − 2.3982 
+LL (− 47.86) (− 75.73) (− 47.44) (− 149.92) (− 41.53) (− 108.53) 
+AIC (− 95.71) (− 151.46) (− 94.88) (− 299.83) (− 83.06) (− 217.06) 
+
+TVP Rotated Gumbel ω 0.1469 0.1961 − 0.1360 1.3495 0.5103 2.5214 
+β 0.4655 0.4517 0.6021 − 0.0217 0.3284 − 0.4871 
+α − 0.7816 − 0.9085 − 0.4080 − 2.3359 − 1.5845 − 4.8956 
+LL (− 51.75) (− 73.47) (− 44.42) (− 149.95) (− 52.27) (− 124.33) 
+AIC (− 103.49) (− 146.94) (− 88.84) (− 299.89) (− 104.54) (− 248.66) 
+
+TVP SJC ω1 − 0.0692 2.1224 − 1.6542 0.9785 − 0.0378 5.1976 
+α1 − 8.3157 − 14.8721 − 1.7862 − 7.4617 − 7.8379 − 20.7193 
+β1 2.8107 0.1407 3.7247 0.3303 2.4743 − 3.8309 
+ω2 − 5.8815 − 1.4251 − 0.9484 1.3539 3.7357 3.5907 
+α2 13.4244 3.7551 − 5.7252 − 7.1394 − 20.2655 − 18.0288 
+β2 − 0.2096 − 3.3039 3.2431 − 0.6972 − 3.3199 − 4.2751 
+LL (− 66.85)* (− 81.45)* (− 47.90) (− 154.72)* (− 65.11)* (− 136.26)* 
+AIC (− 133.69)* (− 162.89)* (− 95.79) (− 309.43)* (− 130.20)* (− 272.50)*  
+
+brings a small risk spillover with an average value of − 0.007 to the 
+Table 4 downstream industry. There are two essential results regarding the role 
+VaR.  of the financial industry. First, the risk spillover received by the up
+
+year fin up mid down stream industry from the midstream industry is − 0.0476, and the risk 
+2019 − 0.0161 − 0.0099 − 0.0134 − 0.0147 received by the upstream industry is additionally magnified. Second, the 
+2020 − 0.0377 − 0.0493 − 0.0390 − 0.0321 midstream industry exerts adverse feedback of risk spillover down
+2021 − 0.0272 − 0.0910 − 0.0280 − 0.0338 stream through the financial industry; however, this effect is smaller 
+average − 0.0292 − 0.0565 − 0.0294 − 0.0291 
+
+than that of upstream finance. The reasons for this are as follows. Ac
+Note: This table shows the annual and average VaR of a single variable at the cording to the credit linkage mechanism, the characteristics of loan size 
+95% confidence level. The fin, up, mid, and down represent financial, upstream, play an essential role in the pass-through effect of the financial industry. 
+midstream, and downstream industries, respectively.  Actually, upstream and midstream firms generally need more bank loans 
+
+than downstream firms based on their different roles in the supply chain, 
+resulting in a stronger link between banks and upstream (midstream) 
+
+Table 5 
+Risk spillover directions and ΔCoVaR Note: This table reveals the annual and average ΔCoVaR representing the risk spillover effect between the variables at the 95% 
+confidence level. Fin, up, mid, and down represent financial, upstream, midstream, and downstream industries, respectively.  
+
+Year\Direction fin to up fin to down mid to fin mid to up down to up down to mid 
+
+2019 − 0.0590 − 0.0186 − 0.0201 − 0.0943 − 0.0375 − 0.0369 
+2020 − 0.0250 − 0.0048 0.0015 − 0.0546 0.0021 − 0.0113 
+2021 0.0171 − 0.0029 − 0.0090 − 0.0134 0.0445 − 0.0223 
+average − 0.0165 − 0.0070 − 0.0071 − 0.0476 0.0094 − 0.0209  
+
+10
+
+
+
+Z. Li et al.                                                                                                                                                                                                             E  c o  n  o  m  i c   M   o d  e  ll i n  g 126 (2023) 106403
+
+Fig. 5. The risk spillover network. Note: This figure shows the risk spillover network among financial, upstream, midstream, and downstream industries. The arrow 
+indicates the direction of the risk spillover, and the magnitude of ΔCoVaR is indicated by the thickness of the line (the thicker the line is and the darker the color is, 
+the stronger the risk spillover effect). (For interpretation of the references to color in this figure legend, the reader is referred to the Web version of this article.) 
+
+firms. After COVID-19, the financing of Chinese industrial debt Since February 2020, the Chinese government has insisted on 
+increased significantly in the first quarter of 2020 to promote the growth combating both the pandemic and maintaining stability in the economy, 
+of the manufacturing industry and the real economy, with significant and a loose monetary policy was introduced to effectively offset the 
+circulation in the transportation and trade industries6. Thus, when risk pressure of the demand contraction, supply shock, and expected weak
+spills along the supply chain, banks are more likely to be influenced by ening facing the economy currently, corresponding to an upwards trend 
+midstream firms and further affect upstream firms. of the figure. 
+
+Overall, for each year, especially 2020, which is the year most The effect of implementing this series of policies has been remark
+affected by the COVID-19 pandemic, the risk transmission path is able in the following periods, significantly reversing the downward 
+consistent with the average result. Compared with 2019, the year before trend of risk spillovers below the zero-scale line, showing that the 
+the COVID-19 pandemic, and 2020, the year following the outbreak, the gradual increase in the risk spillover effect between industries was 
+main risk transmission path remained unchanged in 2021. offset. In February 2020, the government strengthened macro control 
+
+and introduced a series of policies regarding government interest sub
+sidies, phased and targeted tax and fee breaks, and the deferment of 
+
+4.5. Further analyses taxes. In April 2020, the People’s Bank of China cut the rate on medium- 
+term lending facilities to drive down the loan prime rate offer price and 
+
+A dynamic analysis of the interindustry risk spillovers is carried out reduce financing costs to ease the downward pressure on the real 
+based on a time series. Fig. 6 shows significant variation over time in the economy. In March 2021, its open market operations were dominated by 
+risk spillover effect among different industries. The dynamic trends of renewal upon expiration, and it conducted seven-day and fourteen-day 
+risk spillovers across industries are similar and coincide with the timing reverse repurchase agreements to regulate market liquidity. Fig. 6 
+of the pandemic. shows that implementing policies during these times reversed the 
+
+From July 2019 to January 2020, the risk spillovers across industries downward trend of risk spillovers below the zero-scale line from finance 
+were less volatile; however, Fig. 6 indicates that at the beginning of to upstream, finance to downstream, midstream to finance, midstream 
+February 2020, the stock market fell sharply due to investors’ panic and to upstream, downstream to upstream, and downstream to midstream. 
+risk aversion. Furthermore, the risk of each industry was relatively high, 
+making the risk spillovers between industries positive and causing risk 5. Implications for practice and research 
+spillovers from finance to upstream, finance to downstream, midstream 
+to finance, midstream to upstream, downstream to upstream, and Based on this paper’s results, there are three suggestions for the 
+downstream to midstream; however, this reaction was quickly offset. midstream industry, financial industry, and regulators. 
+
+First, it is necessary to establish a comprehensive risk management 
+system for the midstream industry due to its core intermediary and risk- 
+
+6 http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/last amplifying role in risk spillover. Regarding production management, 
+est/rptid/638539990083/index.phtml. 
+
+11
+
+
+
+Z. Li et al.                                                                                                                                                                                                             E  c o  n  o  m  i c   M   o d  e  ll i n  g 126 (2023) 106403
+
+Fig. 6. Dynamic risk spillover effect. Note: This figure displays the trend of risk spillovers among the variables over time during the sample period. The abscissa is the 
+time series of stock trading days from July 1, 2019, to December 1, 2021, and the ordinate is the risk spillovers from one industry to another. 
+
+timely communication and cooperation between the downstream and situation and reaction to any shock or policy and establish a risk rating 
+upstream industries should be ensured, and supply and demand should and forecasting system through machine learning and deep learning 
+be adjusted promptly according to market changes to prevent extreme technology to ensure the policy’s timeliness, accuracy, and effective
+inventory shortages or excesses leading to poor liquidity conditions. ness. Furthermore, before publishing any policy, regulators should 
+Furthermore, by simultaneously holding accounts payable and accounts conduct policy effect simulations and predictions based on historical 
+receivable, midstream firms need to retain portions of cash or high- data and computing technology. 
+quality liquid assets as risk preparation and formulate prearranged 
+plans to cope with external shocks, such as public emergencies. 6. Conclusion 
+
+Second, due to the intermediate and risk-amplifying role in risk 
+spillover, the financial industry should pay more attention to their loans Based on the modeling and simulation of agent behavior in the 
+in the same supply chain. Lending to firms in the same supply chain supply chain system through an agent-based model, the hypotheses of 
+concentrates risk, and loans are more likely to default continuously due risk spillover in the supply chain system are proposed. Then, this paper 
+to risk spillover along the supply chain. Meanwhile, with the application measures the risk spillovers among China’s financial, upstream, 
+of information technology, big data technology can collect firm and midstream, and downstream industries during the COVID-19 pandemic 
+supply chain information to improve different credit evaluation models based on the copula-CoVaR model and draws three important conclu
+and algorithms according to different supply chains. Banks need to sions. First, the risk is transmitted and amplified from the downstream 
+establish data collection, behavior modeling, user portrait depiction, industry to the upstream industry through the midstream industry. 
+risk pricing, and other processes in their risk assessment model, partic Second, risks can also be transmitted from the midstream industry to 
+ularly placing additional focus on the core firms in the supply chain, to downstream and upstream industries through the financial industry. 
+effectively identify the credit risk status of different supply chains and Third, on a dynamic basis, the risk spillovers between industries showed 
+adjust their loan strategies. significant time-varying characteristics, and there were periods when 
+
+Finally, given the dynamic risk spillover effect between industries in the risk spillovers increased and were then offset by Chinese policies. 
+uncertain times, the corresponding policy should also be dynamically Finally, our findings offer several suggestions and implications from the 
+adjusted based on timely monitoring. Regulators should explore dy perspectives of midstream firms, banks, and policymakers focusing on 
+namic real-time web-crawler technology to promptly monitor the risk management and preventing risk spillover in the supply chain 
+
+12
+
+
+
+Z. Li et al.                                                                                                                                                                                                             E  c o  n  o  m  i c   M   o d  e  ll i n  g 126 (2023) 106403
+
+Fig. 6. (continued). 
+
+13
+
+
+
+Z. Li et al.                                                                                                                                                                                                             E  c o  n  o  m  i c   M   o d  e  ll i n  g 126 (2023) 106403
+
+system. entitled. 
+This paper measures the extreme risk spillovers among the financial, 
+
+upstream, midstream, and downstream industries by the conditional Data availability 
+value at risk. The main idea is to study the loss probability based on 
+market fluctuations; however, market volatility before crises is usually Data will be made available on request. 
+low, significantly reducing this method’s predictive ability as an early- 
+warning indicator for extreme risks. Given the above limitations, Acknowledgment 
+future research should consider constructing a more forward-looking 
+early-warning indicator system for risk spillovers. We are grateful to Prof. Charlie X. Cai, Prof. Sushanta Mallick, the 
+
+Editor, the Copy Editor and two anonymous reviewers for their 
+Declaration of competing interest constructive comments and suggestions. Furthermore, we are also 
+
+grateful for the financial support from the National Social Science 
+We declare that we have no financial and personal relationships with Foundation of China (No. 18BJY231), the Program for the Philosophy 
+
+other people or organizations that can inappropriately influence our and Social Sciences Research of Shanxi (No. 2021YJ076), the Program 
+work, there is no professional or other personal interest of any nature or for the Philosophy and Social Sciences Research of the Higher Learning 
+kind in any product, service and/or company that could be construed as Institutions of Shanxi (No. 2020W064), and the Shanxi Scholarship 
+influencing the position presented in, or the review of, the manuscript Council of China (No. ’’HZXM’’-20200041).  
+
+Appendix 
+
+The upstream firms (u), midstream firms (m), downstream firms (d), and banks (b) are modeled below. The assets of downstream firms include cash 
+(Cd), and their liabilities include net worth (Ad), bank loans (TBd), and accounts payable (TPd). The assets of midstream firms include cash (Cm) and 
+accounts receivable (TRm), and their liabilities include net worth (Am), bank loans (TBm), and accounts payable (TPm). The assets of upstream firms 
+include cash (Cu) and accounts receivables (TRu), and their liabilities include net worth (Au) and bank loans (TBu). The assets of banks include cash 
+(Cb) and firm loans (TLb), and their liabilities include net worth (Ab) and deposits (Db).  
+
+1. Firm 
+
+Firms engaging in production establish commercial credit linkages through transactions in the supply chain and bank credit linkages through bank 
+financing. 
+
+Due to the limitation of production capacity, each firm’s output depends on its net worth. At time t, firm x (x = u, m, d) calculates its ideal output 
+Ydesired
+
+xt , which is determined by its net worth Axt according to Eq. (1). 
+Ydesired
+
+xt =φAβ
+xt φ > 1, 0 < β < 1 (1) 
+
+φ and β are firm production parameters. Then, to distinguish the firms based on the product flow, let c (c=d, m) represent customer firms and s (s =
+u, m) represent supplier firms. Assuming that production is based on the Leontief production function, the production of customer firms can be 
+expressed as in Eq. (2). 
+
+{ }
+N
+
+Yct =min ct Qct
+, δ > 0, γ > 0 (2) 
+
+δ γ
+
+δ is the firm labor requirement parameter, and γ is the intermediate goods requirement parameter. Qct is the intermediate goods desired, and Nct is 
+labor desired, which can be expressed as follows. 
+Qdesired
+
+ct = γYdesired
+ct = γφAβ
+
+ct (3)  
+
+Ndesired
+ct = δYdesired
+
+ct = δφAβ
+ct (4) 
+
+At each time, downstream (midstream) firms issue intermediate goods orders to midstream (upstream) firms that can offer the lowest commercial 
+credit interest rate. The commercial credit interest rate can be expressed as Eq. (5). 
+rc
+
+st =αA− α α
+st + α(lct) (5) 
+
+s = u, m and c = d, m so that rd
+mt is the commercial credit interest rate set by the midstream firm and enjoyed by the downstream firm, and rm
+
+ut is the 
+commercial credit interest rate set by the upstream firm and enjoyed by the midstream firm. α > 0 is the interest rate parameter, Ast is the net worth of 
+supplier firm s, and lct is the leverage ratio of customer firm c. A larger net worth of supplier firms and a lower leverage ratio of customer firms lead to a 
+smaller value of the commercial credit interest rate. 
+
+When customer firms cannot obtain enough intermediate goods from the supplier firm that provides the lowest commercial credit interest rate, 
+they can seek the remaining intermediate goods from other supplier firms until their demand is fully met or the supplier market has no more pro
+duction capacity to provide. For a supplier firm, when the orders from its customer firms are less than its ideal output, all orders are met. In contrast, if 
+the orders exceed their ideal output, priority is given to customer firms with larger net value. 
+
+Therefore, the production of downstream firms is influenced by the number of intermediate goods provided by midstream firms, the production of 
+midstream firms is influenced by the number of intermediate goods provided by upstream firms and the order from downstream firms, and the 
+production of upstream firms is influenced by the order from midstream firms. These influences mean that demand and supply can affect firms’ 
+production decisions, which is essential for this model as the basic logic of the bullwhip effect theory. 
+
+Under the dual constraints of the firm’s net worth and the demand/supply of intermediate goods, the real output of downstream, midstream, and 
+upstream firms are as follows. 
+
+14
+
+
+
+Z. Li et al.                                                                                                                                                                                                             E c o n o m i c  M o d e ll i n g 126 (2023) 106403
+{ }
+∑
+
+Yreal
+dt =min Qd / des r d
+
+mt γ,Y i e
+dt (6)  
+
+m∈Φdt
+
+{ }
+∑ ∑
+
+Yreal
+mt =min Qm /
+
+ut γ, Qd desi e
+mt, Y r d
+
+mt (7)  
+u∈Φmt d ′
+
+∈Φmt
+
+{ }
+∑
+
+Yreal
+ut =min Qm
+
+ut,Y
+desired
+ut (8)  
+
+m∈Φ′
+ut
+
+where Qd
+mt is the quantity of intermediate goods provided by the midstream firm and obtained by the downstream firm and Φdt is the downstream 
+
+firm’s set of supplier (midstream) firms. Qm
+ut is the quantity of intermediate goods provided by upstream firms and obtained by midstream firms, and 
+
+Φmt is the midstream firm’s set of supplier (upstream) firms. Φ′
+
+mt is the midstream firm’s set of customer (downstream) firms. Φ′
+
+ut is the upstream firm’s 
+set of customer (midstream) firms. 
+
+At the same time, assuming that the labor supply is not limited, the actual labor requirement Nreal
+xt corresponding to the real output Yreal
+
+xt is as 
+described in Eq. (9). 
+Nreal
+
+xt = δxYreal
+xt (9) 
+
+At time t, the firm issues a loan application to the bank in anticipation of the capital demand of the current period according to its income and 
+expenditure. For customer firm c, the expected cash inflow is the expected sales revenue of the product μ̂Yreal
+
+ct (μ̂ is the expected price of the product). 
+The expected cash outflow includes the interest payment of commercial credit and repayment of the principal of commercial credit due, the interest 
+payment on the bank loan and repayment of the principal of bank loan due, and wage payment ωNreal
+
+ct (ω is the unit labor wage). For supplier firm s, the 
+expected cash inflow includes the interest income from commercial credit and principal recovery of the commercial credit due, and its expected cash 
+outflow includes the interest payment of the bank loan and the repayment of the principal of the bank loan due and wage payment ωNreal
+
+st . When the 
+difference between the expected net expenditure of the firm and its cash holdings is positive, firm x has a capital gap Gxt ; therefore, it issues a loan 
+application to the bank. 
+
+When firm x has a capital gap Gxt, it applies for a loan from a bank that can provide it with the lowest bank loan interest rate. The bank loan interest 
+rate rx
+
+bt for a firm set by bank b at time t is as follows (Gatti et al., 2010). 
+rx α
+
+bt = αA− α
+bt + α(lxt) (10)  
+
+where α > 0 is the interest rate parameter, Abt is the net worth of bank b and lxt is the leverage ratio of firm x. The larger the net worth of a bank and the 
+lower the leverage ratio of a firm, the smaller value of the bank loan interest rate. 
+
+When firm x cannot obtain sufficient capital from the bank that provides the lowest credit interest rate, it follows the same rules for commercial 
+credit to seek liquidity from other banks until all its capital needs are met, or there is no additional liquidity available in the banking market. Bx
+
+bt 
+denotes the loan obtained by firm x from bank b at time t, and Ωxt denotes the lending bank set of firm x; therefore, the total bank loans TBxt of firm x at 
+time t are as follows. 
+
+∑
+TBxt = Bx
+
+bt (11) 
+b∈Ωxt
+
+Firms update their cash holdings and net worth. The cash flow for customer c needs to be updated as follows: product sales revenue μ̂Yrea
+ct (where μ̂ 
+
+is the expected price of the product), commercial credit interest payment and due principal repayment, bank loan interest payment and due principal 
+repayment, wage payment, and new bank loan inflow. The cash flow for supplier s must be updated as follows: interest income of commercial credit 
+and recovery of commercial credit due principal, interest payment of bank loan and repayment of due principal, wage payment, and inflow of new 
+bank loan. After firm x updates the above elements, the cash holding is Cxt . 
+
+The net worth A of downstream firms, midstream firms, and upstream firms at time t are updated based on the new values of their balance sheet 
+items as follows. 
+Adt =Cdt − TPdt − TBdt (12)  
+
+Amt =Cmt + TRmt − TPmt − TBmt (13)  
+
+Aut =Cut + TRut − TBut (14) 
+When a firm’s net worth is less than or equal to 0, or when that net worth is larger than 0 but cannot obtain sufficient liquidity from the banking 
+
+market to make its cash nonnegative, the firm goes bankrupt and is removed from the system.  
+
+2. Bank 
+
+At time t, the primary behavior of bank b consists of paying interest on deposits, providing liquidity to firms, establishing bank credit linkage, and 
+updating liquidity and net worth. The total loan amount TLbt of bank b at time t is as follows. 
+
+∑
+TLbt = Bx
+
+bt (15)  
+x∈Ω′
+
+bt
+
+15
+
+
+
+Z. Li et al.                                                                                                                                                                                                             E  c o  n  o  m  i c   M   o d  e  ll i n  g 126 (2023) 106403
+
+where Bx
+bt denotes the loan obtained by firm x from bank b at time t and Ω′
+
+bt is the set of borrowing firms of bank b. 
+Suppose that the deposit fluctuation of bank b follows a random walk (Georg, 2013). 
+
+ΔDbt =(1 − ϑ+ 2ϑθ)Dbt− 1 (16)  
+
+where θ is the random variable in the interval [0, 1] and ϑ > 0 is the deposit fluctuation parameter. 
+C̃bt represents the period liquidity of bank b, and Cbt represents the cash holdings, i.e., the final liquidity of bank b at time t. At time t, the liquidity of 
+
+bank b is updated based on the liquidity of the previous period Cbt− 1 as follows: interest income from firm loans and the recovery of the due principal of 
+loans, changes in bank deposits ΔDbt and deposit interest payment rpDbt− 1 (where rp is the deposit interest rate), and bank operating cost expenditure 
+q(Abt− 1 +Dbt− 1) (where q is the cost ratio coefficient) (Riccetti et al., 2013). After the above update, the period liquidity ̃Cbt of bank b is obtained. At this 
+point, the net worth of bank b is updated as follows. 
+
+∑
+Abt = C̃bt + Bx
+
+bt − Dbt (17) 
+x∈Ω′
+
+bt
+
+When ̃Cbt > 0, bank b can accept the loan application of the firms, and the maximum amount of loan provided by bank b is C̃bt − πDbt, where π is the 
+deposit reserve ratio. When the total amount of loan applications issued by the firms is less than C̃bt − πDbt, bank b approves all loan applications; when 
+the total amount of loan applications it receives is greater than C̃bt − πDbt, the maximum loan amount that bank b can approve is C̃bt − πDbt. At this 
+time, bank b prioritizes firms with a larger net worth. Therefore, the cash flow of bank b is updated as follows. 
+
+∑
+Cbt = C̃bt − Bx
+
+bt (18) 
+x∈Ω′
+
+bt
+
+When the bank’s net worth is less than or equal to 0 or the cash flow is negative, the bank is insolvent and removed from the system.  
+
+3. Firm default 
+
+When the customer firm goes bankrupt, the supplier firm with commercial credit linkage suffers losses. When the firm goes bankrupt, the bank with 
+a loan linkage to that firm suffers losses. When the bank goes bankrupt, the liquidity of the firm with a loan linkage to that bank decreases due to loan 
+recovery. 
+
+Let LOSSyt be the loss suffered by agent y (y = u, m, d, b) at time t. When LOSSyt ≥ Ayt, agent y defaults. In this case, the loss LOSSz|yt caused by the 
+default of agent y to its creditor z (z = u, m, b) is equal to the credit exposure of z to y multiplied by the loss rate LRyt of the creditor caused by the default 
+of agent y. LRyt can be expressed as follows. 
+
+{ }
+LOSSyt − A
+
+LRyt =min yt
+, 1 (19)  
+
+TLyt
+
+where TLyt represents all liabilities of agent y at time t, including the principal payable and interest. 
+Therefore, the loss LOSSz|yt caused by the default of agent y to creditor z can be expressed as follows. 
+
+LOSSz|yt =OLy
+zt × LRyt (20)  
+
+where OLy
+zt is the credit exposure of agent z to y. 
+
+In this case, the bad debt of creditor z caused by agent y’s default is as follows. 
+∑
+
+Badzt = LOSSz|yt (21)  
+y∈Ψbad
+
+z
+
+where Ψbad
+z represents the set of defaulting agents connected to agent z. 
+
+Next, the net worth of agent z is adjusted to directly deduct the corresponding bad debt from the net worth, i.e., Azt= Azt − Badzt. After that, the 
+liquidity of agent z is adjusted, and the interest paid by the defaulting agent and the due principal is deducted from Czt (C̃bt when the defaulting agent is 
+a bank) to calculate the loss caused by the default of agent y to creditor z, and the recoverable claim of creditor z is used to adjust Czt (C̃bt when the 
+defaulting agent is a bank).  
+
+4. Simulation and parameter setting 
+
+The numerical simulation is conducted based on the above agent-based model, with 50 upstream firms, 100 midstream firms, 200 downstream 
+firms, and 20 banks. The first 100 periods (T1) are used for initialization, the initial shock is given after T1, and the shock propagation is observed over 
+the subsequent 10 periods (T2). At the initial moment of simulation, a random number in the range of 1–1.5 is set for the net worth of each firm and 
+bank. The remaining parameter settings are shown in Table 1.  
+
+16
+
+
+
+Z. Li et al.                                                                                                                                                                                                             E  c o  n  o  m  i c   M   o d  e  ll i n  g 126 (2023) 106403
+
+Table 1 
+Parameters of simulation  
+
+Parameter Value Interpretation 
+
+φ 2 firm production parameter 
+β 0.9 firm production parameter 
+δd, δm, δu 0.5, 0.5, 1 firm labor requirement parameter 
+γ 0.5 intermediate goods requirement parameter 
+α 0.01 interest rate parameter 
+ϑ 0.02 deposit fluctuation parameter 
+rp 0.0035 deposit interest rate 
+ω 1 unit labor wage 
+μ̂ 1 expected price of products 
+q 0.1 bank operational costs 
+π 0.2 reserve ratio 
+
+Notes: Referring to Gatti et al. (2006, 2010), Iori et al. (2006), Riccetti et al. (2013), and Georg 
+(2013), this paper conducts the numerical simulation for the agent-based model using the above 
+parameter values. 
+
+References Jiang, S., Fan, H., 2019. Systemic risk in the interbank market with overlapping 
+portfolios. Complexity 2019 article ID 5317819.  
+
+Acemoglu, D., Carvalho, V.M., Ozdaglar, A., Tahbaz-Salehi, A., 2012. The network Ke, J., Wang, L., Murray, L., 2010. An empirical analysis of the volatility spillover effect 
+between primary stock markets abroad and China. J. Chin. Econ. Bus. Stud. 8 (3), 
+
+origins of aggregate fluctuations. Econometrica 80 (5), 1977–2016. 315–333. 
+Alexandre, M., Lima, G.T., Riccetti, L., Russo, A., 2023. The financial network channel of 
+
+monetary policy transmission: an agent-based model. J. Economic Interact. Kwan, S.H., Laderman, E.S., 1999. On the portfolio effects of financial convergence-A 
+review of the literature. Econ. Rev. 2, 18–31. 
+
+Coordinat. https://doi.org/10.1007/s11403-023-00377-w. 
+Al-Awadhi, A.M., Alsaifi, K., Al-Awadhi, A., Alhammadi, S., 2020. Death and contagious Lee, H.L., Padmanabhan, V., Whang, S., 1997. Information distortion in a supply chain: 
+
+the bullwhip effect. Manag. Sci. 43 (4), 546–558. 
+infectious diseases: impact of the COVID-19 virus on stock market returns. Liu, X., Duan, B., Xie, F., 2011. Risk spillover effect of stock market: an analysis based on 
+J. Behavior. Experim. Finance 27, 100326. 
+
+Allen, F., Carletti, E., 2006. Credit risk transfer and contagion. J. Monetary Econ. 53 (1), EVT-copula-CoVaR model. J World Economy 11, 145–159. 
+Patton, A.J., 2006. Modelling asymmetric exchange rate dependence. Int. Econ. Rev. 47 
+
+89–111. 
+Andersen, T.G., Bollerslev, T., 1998. Answering the skeptics: yes, standard volatility (2), 527–556. 
+
+Popoyan, L., Napoletano, M., Roventini, A., 2020. Winter is possibly not coming: 
+models do provide accurate forecasts. Int. Econ. Rev. 39 (4), 885–905. 
+
+Andersen, T.G., Bollerslev, T., Meddahi, N., 2005. Correcting the errors: volatility mitigating financial instability in an agent-based model with interbank market. 
+J. Econ. Dynam. Control 117, 103937. 
+
+forecast evaluation using high-frequency data and realized volatilities. Econometrica Putri, W.C.W.S., Muscatello, D.J., Stockwell, M.S., Newall, A.T., 2018. Economic burden 
+73 (1), 279–296. 
+
+Baker, S.R., Bloom, N., Davis, S.J., Kost, K., Sammon, M., Viratyosin, T., 2020. The of seasonal influenza in the United States. Vaccine 36 (27), 3960–3966. 
+Reboredo, J.C., Rivera-Castro, M.A., Ugolini, A., 2016. Downside and upside risk 
+
+unprecedented stock market reaction to COVID-19. Rev. Asset Pricing Studies 10 (4), 
+742–758. spillovers between exchange rates and stock prices. J. Bank. Finance 62, 76–96. 
+
+Riccetti, L., Russo, A., Gallegati, M., 2013. Leveraged network-based financial 
+Bollerslev, T., 1986. Generalized autoregressive conditional heteroskedasticity. accelerator. J. Econ. Dynam. Control 37 (8), 1626–1640. 
+
+J. Econom. 31 (3), 307–327. 
+Cao, H., Li, Y., Chen, W., Chen, J., 2017. Systemic risk in China’s interbank lending Rizwan, M.S., Ahmad, G., Ashraf, D., 2020. Systemic risk: the impact of COVID-19. 
+
+Finance Res. Lett. 36, 101682. 
+market. J. Math. Finance 7 (1), 188–198. 
+
+Chiu, W.C., Peña, J.I., Wang, C.W., 2015. Industry characteristics and financial risk Rose, A., Lim, D., 2002. Business interruption losses from natural hazards: conceptual 
+and methodological issues in the case of the Northridge earthquake. Global Environ. 
+
+contagion. J. Bank. Finance 50, 411–427. 
+Choudhry, T., Jayasekera, R., 2014. Returns and volatility spillover in the European Change B Environ. Hazards 4 (1), 1–14. 
+
+Santos, T., 2006. Comment on: credit risk transfer and contagion. J. Monetary Econ. 53 
+banking industry during global financial crisis: flight to perceived quality or (1), 113–121. 
+contagion? Int. Rev. Financ. Anal. 36, 36–45. 
+
+Corsi, F., Mittnik, S., Pigorsch, C., Pigorsch, U., 2008. The volatility of realized volatility. Scarpin, M.R.S., Scarpin, J.E., Krespi Musial, N.T.K., Nakamura, W.T., 2022. The 
+implications of COVID-19: bullwhip and ripple effects in global supply chains. Int. J. 
+
+Econom. Rev. 27 (1–3), 46–78. 
+Engle, R.F., 1982. Autoregressive conditional heteroscedasticity with estimates of the Prod. Econ. 251, 108523. 
+
+Si, D.K., Li, X.L., Xu, X., Fang, Y., 2021. The risk spillover effect of the COVID-19 
+variance of United Kingdom inflation. Econometrica 50 (4), 987–1007. pandemic on energy sector: evidence from China. Energy Econ. 102, 105498. 
+
+Fang, Y., He, W., Jing, Z., 2021. A study of risk spillovers between China’s real economy 
+and financial markets. J World Economy 44 (8), 3–27. Tan, L., Wu, X., Guo, J., Santibanez-Gonzalez, E.D.R., 2022. Assessing the impacts of 
+
+COVID-19 on the industrial sectors and economy of China. Risk Anal.: Offi. Pub. 
+Gatti, D.D., Gallegati, M., Greenwald, B., Russo, A., Stiglitz, J.E., 2006. Business 
+
+fluctuations in a credit-network economy. Physica. Part A, Statistical Mechanics and Soci. Risk Analys. 42 (1), 21–39. 
+Tobias, A., Brunnermeier, M.K., 2016. CoVaR. Am. Economic Rev. 106 (7), 1705–1741. 
+
+its Applications 370 (1), 68–74. 
+Gatti, D.D., Gallegati, M., Greenwald, B.C., Russo, A., Stiglitz, J.E., 2009. Business Weisbuch, G., Battiston, S., 2007. From production networks to geographical economics. 
+
+J. Econ. Behav. Organ. 64 (3–4), 448–469. 
+fluctuations and bankruptcy avalanches in an evolving network economy. Wu, J., Shao, C., 2006. Research on formation mechanism of industry chain: “4+4+4” 
+J. Economic Interact. Coordinat. 4 (2), 195–212. 
+
+Gatti, D.D., Gallegati, M., Greenwald, B., Russo, A., Stiglitz, J.E., 2010. The financial model. J. China Industr. Economy 8, 85–92. 
+Wu, T., Blackhurst, J., O’Grady, P., 2007. Methodology for supply chain disruption 
+
+accelerator in an evolving credit network. J. Econ. Dynam. Control 34 (9), 
+1627–1650. analysis. Int. J. Prod. Res. 45 (7), 1665–1682. 
+
+Xu, Q., Yan, H., Zhao, T., 2022. Contagion effect of systemic risk among industry sectors 
+Gatti, D.D., Grugni, E., 2022. Breaking bad: supply chain disruptions in a streamlined in China’s stock market. N. Am. J. Econ. Finance 59, 101576. 
+
+agent-based model. Eur. J. Finance 28, 13–15. 
+Georg, C.P., 2013. The effect of the interbank network structure on contagion and Yang, K., Wei, Y., Li, S., He, J., 2020. Asymmetric risk spillovers between Shanghai and 
+
+Hong Kong stock markets under China’s capital account liberalization. N. Am. J. 
+common shocks. J. Bank. Finance 37 (7), 2216–2228. 
+
+Girardi, G., Ergün, A.T., 2013. Systemic risk measurement: multivariate GARCH Econ. Finance 51, 101100. 
+Zhang, W., Hamori, S., 2021. Crude oil market and stock markets during the Covid-19 
+
+estimation of CoVaR. J. Bank. Finance 37 (8), 3169–3180. 
+Goodell, J.W., 2020. COVID-19 and finance: agendas for future research. Finance Res. pandemic: evidence from the US, Japan, and Germany. Int. Rev. Financ. Anal. 74, 
+
+Lett. 35, 101512. 101702. 
+Zhang, W., Zhuang, X., Wang, J., Lu, Y., 2020. Connectedness and systemic risk spillovers 
+
+Hanif, W., Mensi, W., Vo, X.V., 2021. Impacts of COVID-19 outbreak on the spillovers 
+between US and Chinese stock sectors. Finance Res. Lett. 40, 101922. analysis of Chinese sectors based on tail risk network. N. Am. J. Econ. Finance 54, 
+
+101248. 
+Heise, S., Kühn, R., 2012. Derivatives and credit contagion in interconnected networks. 
+
+Eur. Phys. J. B 85, 1–19. Zhou, K., Xing, Z., Peng, S., 2020. The contagion mechanism between industrial risk and 
+the macro economy in China. J. Financ. Res. 12, 151–168. 
+
+Helbing, D., 2013. Globally networked risks and how to respond. Nature 497 (7447), Zhu, B., Lin, R., Deng, Y., Chen, P., Chevallier, J., 2021. Intersectoral systemic risk 
+51–59. 
+
+Hull, J., White, A., 1987. The pricing of options on assets with stochastic volatilities. spillovers between energy and agriculture under the financial and COVID-19 crises. 
+Econ. Modell. 105, 105651. 
+
+J. Finance 42 (2), 281–300. 
+Iori, G., Jafarey, S., Padilla, F.G., 2006. Systemic risk on the interbank market. J. Econ. 
+
+Behav. Organ. 61 (4), 525–542. 
+
+17

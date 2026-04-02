@@ -1,0 +1,1882 @@
+﻿Zhong et al. Financial Innovation          (2024) 10:126  Financial Innovation
+https://doi.org/10.1186/s40854-024-00633-3
+
+RESEARCH Open Access
+
+Managing crash risks through supply chain 
+transparency: evidence from China
+Qiming Zhong1, Qinghua Song1 and Chien‑Chiang Lee2,3,4*    
+
+*Correspondence:   
+cclee6101@gmail.com Abstract 
+1 School of Finance, Zhongnan Using data on Chinese non-financial listed firms covering 2009 to 2022, we explore 
+University of Economics and Law, the effect of supply chain transparency on stock price crash risk. Two proxies for sup‑
+Wuhan, China ply chain transparency are constructed using the number of supply chain partners’ 
+2 School of Economics 
+and Management, Nanchang names and the proportion of their transactions disclosed in annual reports. The results 
+University, Nanchang, Jiangxi, reveal that enhancing supply chain transparency can decrease crash risk, specifically 
+China by mitigating tax avoidance and earnings management. Moreover, the analysis sug‑
+3 Research Center of Central 
+China for Economic and Social gests that this risk-reduction effect is more prominent in companies where managers 
+Development, Nanchang are more incentivized to hide negative information and investors possess superior 
+University, Nanchang, China abilities to acquire information. Interestingly, supplier transparency is more influential 
+4 Adnan Kassar School 
+of Business, Lebanese American in mitigating crash risk than customer transparency. These findings emphasize the sig‑
+University, Beirut, Lebanon nificance of supply chain transparency in managing financial risk.
+
+Keywords:  Supply chain transparency, Stock price crash risk, Corporate governance, 
+Information transfer
+JEL Classification:  G30, G32, M14
+
+Introduction
+Inter-firm economic connections have become increasingly complex, with supplier-cus-
+tomer relationships being of significant importance. Recent high-profile cases, such as 
+Luckin Coffee’s delisting, highlight the damaging effects of fraudulent transactions with 
+related parties in supply chains. NMC Health PLC. (Arabic: ) 
+was also accused of manipulating its financial statements through undisclosed related-
+party transactions and inflated asset values. Complex supply chain activities make it easy 
+for companies to conceal negative news by fabricating sales information or manipulat-
+ing supply chain costs, resulting in substantial wealth loss for investors once exposed 
+(Lanier et  al. 2019; Richardson et  al. 2022). Given the growing significance of supply 
+chain transparency (SCT), it is imperative to investigate its potential impact on financial 
+risk management.
+
+SCT refers to the practice of a company sharing information with the public, involving 
+consumers and investors regarding its upstream operations and the products it offers to 
+consumers. This entails providing detailed information about the various stages of the 
+supply chain, such as sourcing, manufacturing, and distribution, and the environmental 
+
+© The Author(s) 2024. Open Access  This article is licensed under a Creative Commons Attribution 4.0 International License, which permits 
+use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original 
+author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third 
+party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the mate‑
+rial. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or 
+exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://​
+creat​iveco​mmons.​org/​licen​ses/​by/4.​0/.
+
+
+
+Zhong et al. Financial Innovation          (2024) 10:126 Page 2 of 31
+
+and social impacts associated with these processes. Firms’ cash flows are intricately 
+linked to their supply chains, with profits generated from suppliers’ purchases and cus-
+tomer sales. Accordingly, their earning status is also reflected in their suppliers’ or cus-
+tomers’ sales revenue and procurement costs (Guo et  al. 2023; Pandit et  al. 2011; Liu 
+et  al. 2024). Thus, understanding their partners better can help reduce information 
+asymmetry and uncover opportunistic behavior within firms. Despite the importance of 
+SCT, its impact on corporate behavior remains largely unknown.
+
+Stock price crash risk pertains to the extreme negative skewness in the distribution of 
+firm-specific stock returns (Zhang et al., 2024; Chen et al. 2001). In information asym-
+metry situations, managers may prioritize their interests by withholding or stalling the 
+disclosure of negative information. Its accumulation can eventually exceed the market’s 
+acceptance threshold, resulting in a rapid and substantial release of bad news, which can 
+cause a significant decline in a firm’s stock price, ultimately leading to a crash (Jin & 
+Myers 2006; Dewally & Shao 2013). Using this analytical framework, researchers have 
+evaluated the determinants of crash risk, such as managerial incentives, reporting qual-
+ity, tax avoidance, analyst coverage, and institutional ownership (Kim et al. 2019a, b; Kim 
+et al. 2011a, 2011b, 2019a, b). Despite these efforts, the effect of supply chain informa-
+tion on such risks has not received much attention.
+
+The literature most closely related to this study examines the correlation between sup-
+ply chain relationships and crash risk. Notably, Lee et  al. (2020) and Ma et  al. (2020) 
+conducted thorough investigations into this matter, revealing that higher customer con-
+centration is linked to an increased risk of such crashes. Moreover, Cao et al. (2022) shed 
+light on the proximity of large customers in mitigating crash risk for suppliers, whereas 
+Shi et al. (2022) examined the positive effect of supply chain network centrality in this 
+context. However, the impact of a supply chain’s information environment has received 
+relatively little attention.
+
+Previous studies have presented two opposing hypotheses on the correlation between 
+SCT and crash risk. Supply chain transparency can mitigate crash risks. Providing sup-
+ply chain information enables stakeholders to assess a company’s sales and purchasing 
+activities and the stability of its relationships with upstream and downstream partners 
+along the supply chain. Such information is crucial in determining a company’s future 
+cash flow, profitability, and other key indicators. It can be utilized by investors and ana-
+lysts to reduce information asymmetry and prevent managers from concealing nega-
+tive information (Luo & Nagarajan 2015). However, SCT may amplify crash risk. If a 
+company’s supply chain information is obtained from its competitors, it faces the risk 
+of having its transaction contract information and trade secrets stolen or even losing 
+major customers or suppliers (You et al., 2024; Ellis et al. 2012; Li et al. 2018; Tiwari et al. 
+2023). Macready et al. (2020) also find that managers may strategically disclose positive 
+information while withholding bad news along the supply chain, leading to a cumula-
+tive build-up of crash risk. Thus, the impact of SCT on crash risk is a subject that needs 
+empirical investigation, as it is contingent upon a delicate balance between mitigating 
+information asymmetry and the associated proprietary costs.
+
+To bridge this gap, we examine the impact of SCT on the crash risk of nonfinancial 
+Chinese listed firms from 2009 to 2022. By developing two proxies for SCT based on the 
+reported names and transaction proportions of supply chain partners, we provide novel 
+
+
+
+Z	 hong et al. Financial Innovation          (2024) 10:126 Page 3 of 31
+
+evidence of the effect of SCT on financial risks. Our findings reveal that enhancing SCT 
+can help mitigate crash risk by reducing tax avoidance and earnings management. The 
+results indicate supplier transparency plays a more critical role than customer transpar-
+ency in mitigating risks. Moreover, our analysis illustrates that the benefits of SCT are 
+more pronounced in firms with higher managers’ incentives to conceal bad news and in 
+investors with better information acquisition abilities.
+
+This study expands the existing literature in several ways. First, while prior evidence 
+has predominantly focused on the determinants of crash risk such as human capital, 
+ESG ratings, digital transformation, and causal language intensity (Pan et al., 2024; Cal-
+len & Fang 2015; Feng et al. 2022; Jiang et al. 2022; Kong et al. 2021), we uniquely explore 
+the origins of this phenomenon through the lens of SCT. Second, we provide novel evi-
+dence for SCT. Despite increasing evidence on the importance of SCT, research on this 
+topic still lags behind other corporate finance themes and lacks sufficient practical and 
+theoretical significance (Li & Wang 2016; Li et al. 2022; Montecchi et al. 2021; Yahya & 
+Lee 2023). We uncover a potential mechanism by examining two competing hypotheses 
+on the correlation between SCT and crash risk. Third, although business transactions 
+between firms and their supply chain partners significantly influence a firm’s informa-
+tion environment, there is an ongoing debate over whether the government should push 
+for increased supply chain disclosures (She 2022). We provide crucial evidence for busi-
+nesses and regulatory agencies by highlighting the positive role of SCT and the interplay 
+between corporate governance and information environments in preventing financial 
+risks.
+
+The rest of this paper is structured as follows: Sect.  "Literature review and hypoth-
+esis development" provides a literature review and presents the formulated hypoth-
+eses. Sect.  "Methods and data" outlines the methods and variables used in this study. 
+Sect. "Empirical results and analysis" analyses the results of the baseline regression and 
+robustness tests. Sect.  "Further analysis" validates the proposed impact mechanism. 
+Finally, the study concludes and provides implications.
+
+Literature review and hypothesis development
+Literature review
+The literature relevant to our research examines the correlation between supply chain 
+characteristics and firms’ decision-making. Supply chain concentration affects various 
+aspects, such as risk-taking, search behavior, and merger and acquisition performance 
+(Cao et al. 2021; Dong et al. 2021; Zhong et al. 2021). Information shared along the sup-
+ply chain has spillover effects because suppliers and customers play significant roles. 
+Stakeholders, including investors and analysts, can use this complementary information 
+to make informed decisions and provide accurate performance predictions for target 
+firms. Specifically, analysts who track a firm’s customers can obtain informative news 
+and provide more accurate profit forecasts (Guan et al. 2015; Lee and Yuan 2024), while 
+the disclosure of customer earnings announcements can correct investors’ expectations 
+of a firm’s cash flow and earnings (Pandit et al. 2011). Such information disclosure has 
+significant economic consequences, which have been studied previously. By disclosing 
+information regarding supply chain production practices and ethics, companies can 
+alleviate regulatory pressure from authorities (Gualandris et al. 2015; Shi et al. 2021She 
+
+
+
+Zhong et al. Financial Innovation          (2024) 10:126 Page 4 of 31
+
+et  al., 2022) while also fostering trust and long-term cooperation with customers and 
+suppliers (Villena & Dhanorkar 2020). This can also attract talent, potential partners, 
+and valued investors. However, scholars have noted that disclosing supply chain infor-
+mation may result in the leakage of competitive advantages and vulnerabilities, leading 
+to adverse reactions from stakeholders. For example, Tang et al. (2022) found that inves-
+tors perceive increased future business risks for companies when they disclose informa-
+tion about their five largest customers, as reflected in lower long-term earnings response 
+coefficients.
+
+Another category of related literature pertains to crash risk, which arises from the 
+management’s tendency to withhold bad news, leading to its accumulation (Liu et  al. 
+2023a; Lee et al. 2024). In an environment characterized by information asymmetry and 
+management incentives, the likelihood of withholding negative information is signifi-
+cant, and its detection can be challenging (Kim et al. 2011a, 2011b; Jin et al. 2022). Earlier 
+studies establish that corporate governance is critical for mitigating crash risk. In con-
+trast, recent studies emphasize the growing importance of other factors such as industry 
+structure (Li & Zhan 2019), brand capital (Hasan et al. 2022), COVID-19 (Huang & Liu 
+2021), gambling preferences (Ji et al. 2021) CEO inside debt (Lee et al. 2023a) and regu-
+lation (Lu & Qiu 2023). Amid these developments, researchers have increasingly focused 
+on the role of supplier-customer relationships in managing risks. According to Lee et al. 
+(2020) and Ma et al. (2020), customer concentration results in the accumulation of bad 
+news, thereby increasing the risk of collapse. Moreover, Cao et al. (2022) reveal that the 
+geographic proximity of large customers mitigates the crash risk for suppliers.
+
+It is widely acknowledged that supply chain partners are crucial stakeholders of a firm, 
+and their characteristics significantly impact its costs and benefits. Correspondingly, 
+information transfer among transaction partners influences a firm’s operational deci-
+sion-making. Nonetheless, most current evidence concentrates on the influence of cus-
+tomer or supplier information disclosure on a firm’s crash risk (Guan et al. 2015; Pandit 
+et al. 2011; Wang & Lee 2023), with limited knowledge of the effect of voluntary supply 
+chain disclosure on its associated risk. Specifically, despite an intense economic connec-
+tion along the supply chain, there is a lack of evidence examining the effect of overall 
+SCT on crash risk and the mechanism and heterogeneous effects related to supplier and 
+customer information disclosure. Thus, we leverage the text analysis methodology to 
+thoroughly investigate these matters.
+
+Hypothesis development
+Overall, we utilized the “bad news hiding” framework Chen (2001) proposed to inves-
+tigate the influence mechanism, as shown in Fig.  1. Specifically, we posit that SCT 
+influences a firm’s bad news-holding behavior through earnings management and tax 
+avoidance. In turn, these factors can affect crash risk. Throughout this process, hetero-
+geneous supply chain information can generate varying effects, and information inter-
+mediaries’ managerial incentives and informational production functions can play a 
+moderating role.
+
+
+
+Z	 hong et al. Financial Innovation          (2024) 10:126 Page 5 of 31
+
+Fig. 1  Mechanism analysis
+
+The impact of SCT on crash risk
+The impact of a company’s disclosure of supply chain information is multifaceted. 
+First, increased transparency may prevent management from concealing adverse 
+news, mitigating the risk of stock price crashes. Second, it can amplify the proprietary 
+costs of bad news concealment and selective reporting, consequently magnifying the 
+risk of stock price crashes. Therefore, this study proposed two opposing hypotheses.
+
+Hypothesis 1a  Ceteris paribus, SCT significantly mitigates crash risk.
+
+Hypothesis 1b  Ceteris paribus, SCT significantly amplifies crash risk.
+
+Supply chain transparency significantly mitigates crash risk. Supply chain trans-
+parency can serve as a tool for investor surveillance to prevent management from 
+concealing negative news, thereby reducing crash risks. This allows investors to 
+effectively assess supply chain intelligence, evaluate the quality of a firm’s financial 
+information, and predict its future profitability. First, by analyzing the identity and 
+transaction amounts of customers or suppliers, investors can assess the stability of a 
+firm’s supply chain relationship, evaluate its reliance on major customers or suppli-
+ers, and determine the impact of changes in trading partners on its competitive posi-
+tion (Dhaliwal et  al. 2016). Second, information about customers or suppliers gives 
+investors insights into their governance, operations, and stock prices. Supplier iden-
+tities are particularly crucial for investors to identify product quantity, quality, and 
+costs, whereas customer identities help determine the authenticity of sales revenue, 
+sustainability, and accounts receivable recoverability (Liu et  al. 2024; Pandit et  al. 
+2011). Third, analysts with access to firm information about their trading partners can 
+offer investors more precise earnings forecasts, bridging the information gap between 
+investors and management (Luo & Nagarajan 2015). In conclusion, an improvement 
+in SCT can enhance the accessibility of information across different dimensions, 
+including financial information, supply chain details, and intermediary-generated 
+data. Such enhancements can serve as a mechanism to prevent management from 
+
+
+
+Zhong et al. Financial Innovation          (2024) 10:126 Page 6 of 31
+
+concealing negative news, thereby reducing the risk of stock price crashes. Further-
+more, the voluntary disclosure of such information can assist companies in building 
+trust with their supply chain partners, mitigating political risks, improving their rep-
+utations, and ultimately lowering the risk of cash flow fluctuations and stock price 
+crashes (Amihud 2019; Wang et al. 2023; Wu & Jia 2018).
+
+However, enhancing SCT may result in increased stock price crash risk. Proprietary 
+costs are involved in information disclosure, which may impair a company’s ability to pro-
+tect sensitive information, such as supplier or customer confidentiality, and even suggest 
+the source of its competitive advantage or cause supply chain vulnerabilities (Sodhi & Tang 
+2019). Competitors may exploit the acquired information to imitate the firm’s products, 
+lobby clients or suppliers, and deliberately disrupt the target firm’s production and opera-
+tional activities, increasing its cash flow and earnings fluctuations, thus amplifying crash 
+risks. Furthermore, the disclosure of supply chain information may not be driven by the 
+firm’s intention to elevate transparency but by management’s discretionary disclosure prac-
+tices, which are associated with heightened crash risk. Specifically, because the disclosure 
+of bad news concerning the supply chain may result in a decline in firm value and, thus, 
+managers’ compensation, managers may selectively reveal positive information while delib-
+erately withholding negative information, leading to a cumulative build-up of crash risk 
+(Khan et al., 2024; Macready et al. 2020).
+
+The role of earnings management and tax avoidance
+Earnings management and tax avoidance are two common practices employed by manage-
+ment to conceal bad news (Wan et al., 2023; Jo and Kim, 2007; Kim et al. 2011a). We posit 
+that these may have vital implications for the risk governance effect of SCT. Therefore, we 
+propose the following hypothesis:
+
+Hypothesis 2  Ceteris paribus, earnings management, and tax avoidance mediate the 
+negative relationship between SCT and crash risk.
+
+Supply chain transparency can mitigate the likelihood of crashes by decreasing earnings 
+management and tax avoidance activities. The disclosure of information related to supply 
+chain management plays a pivotal role in rectifying information asymmetry and prevent-
+ing managers from selectively manipulating earnings information. Jo and Kim (2007) find a 
+favorable correlation between extensive disclosure and reduced levels of information asym-
+metry and earnings management. This ensures that negative news does not accumulate 
+over time, preventing possible stock price crashes (Obaydin et al. 2021). Moreover, an open 
+and transparent supply chain environment facilitates the detection of collusive tax plan-
+ning activities among companies in both the upstream and downstream sectors. Cen et al. 
+(2017) reveal that complex supply chain activities are related to incentivized tax practices, 
+whereas Overesch and Wolff (2021) suggest that mandatory information disclosure can aid 
+in reducing tax evasion. This identification enables investors to take corrective measures 
+to prevent these practices from occurring in the future, thereby reducing the probability of 
+crashes resulting from tax activities (Chen et al. 2022).
+
+
+
+Z	 hong et al. Financial Innovation          (2024) 10:126 Page 7 of 31
+
+The effect of information production and manager’s incentive
+Drawing on the “bad news hiding” perspective, we propose that information producers’ 
+and managers’ incentives to hide negative information play a crucial role in shaping the 
+relationship between SCT and crash risks. Hence, we propose the following hypothesis:
+
+Hypothesis 3  Ceteris paribus, the risk suppression effect is more pronounced among 
+firms with a higher manager’s incentive to conceal bad news and investors with better 
+information acquisition abilities.
+
+The impact of SCT on crash risk is influenced by the ability to produce information 
+and manager incentives. While companies may only disclose partial supply chain infor-
+mation due to proprietary costs (Ellis et  al. 2012), institutional investors and financial 
+analysts can leverage their information-gathering advantages and production capabili-
+ties to disseminate relevant information to investors (Kim et  al. 2019a, b). The more 
+sophisticated institutional investors and financial analysts pay attention to a company’s 
+supply chain information, the more accurately it reflects the stock price and the less 
+likely it is to hide and accumulate negative information (Zaman et al. 2021). However, 
+agency theory suggests that management may prioritize short-term gains over long-
+term company value, potentially sacrificing the latter to boost current stock prices (Kim 
+et al. 2011b). According to Baginski et al. (2018), managers may stop sharing bad news 
+because of career-related anxieties surrounding their performance. However, disclosing 
+supply chain information can deter such short-sighted behavior, leading to a stronger 
+risk-suppression effect (She 2022).
+
+Methods and data
+Sample
+Historically, researchers have concentrated primarily on developed countries. However, 
+it is imperative to recognize that developing countries and emerging economies com-
+prise most of the world’s population and serve as key drivers of global economic growth 
+and supply chains. China, the largest developing country and the second largest econ-
+omy worldwide, assumes a pivotal role. Consequently, a comprehensive understanding 
+of the role of SCT in China’s financial risk management is important. To address the sig-
+nificant impact of the 2008 global financial crisis, this study employs data from Chinese 
+A-share listed companies from 2009 to 2022. Supply chain information transparency is 
+derived from annual report texts. In contrast, other financial and stock price data are 
+obtained from the China Stock Market and Accounting Research (CSMAR) and Chi-
+nese Research Data Services (CNRDS) databases. Data processing adheres to established 
+principles (Xu et al. 2014), including excluding B- and H-share listed enterprises,1 spe-
+cial treatment or delisted enterprises, and those with severe sample deficiencies or from 
+financial industries. In addition, samples with fewer than 30 weeks of cumulative stock 
+trading days per year were excluded from the dataset. Ultimately, 20,870 observations 
+
+1  As B-shares and H-shares are primarily intended for foreign investors and face a completely different investment envi-
+ronment compared to A-shares in China, we exclude these two categories of stocks.
+
+
+
+Zhong et al. Financial Innovation          (2024) 10:126 Page 8 of 31
+
+were obtained. The continuous variables were winsorized at 1% and 99% percentiles to 
+mitigate any influence from outliers.
+
+Model design
+To address the potential effect on estimation accuracy, we employ the following fixed-
+effects model to examine the influence of SCT on firms’ crash risk (Kim et al. 2014):
+
+CrashRiski,t+1 = α0+βSCT ′
+i,t+γ Controli,t+IndustryFE+YearFE+IndustryFE×YearFE+εi,t
+
+(1)
+where i , t denote the firm and year, respectively. CrashRiski,t+1 represents the crash risk 
+for firm i in period t + 1 , proxied by the downside-upside volatility ratio (DUVOL) and 
+the negative skewness coefficient of returns (NCSKEW), which will be further explained 
+in Sect. "Dependent variable". SCTi,t denotes a firm’s level of SCT in a given year. In addi-
+tion, we incorporate IndustryFE, YearFE, and Industry × YearFE to control for industry 
+fixed effects, year fixed effects, and industry-year interaction fixed effects. The vector 
+Controli,t represents a set of control variables, while γ denotes the vector represent-
+ing the corresponding regression coefficients. Of particular interest is the coefficient β , 
+which measures the impact of SCT on crash risk and is, therefore, a vital focus of this 
+study.
+
+Variable definition and descriptive statistics
+Dependent variable
+In line with previous literature (Kim et al. 2011b, 2014), this study employs two com-
+monly used variables as proxies for stock price crash risk. We estimate the market-
+adjusted rate of return for stock i using its weekly return data and Eq. (2).
+
+Ri,t = αi + β1Rm,t−2 + β2Rm,t−1 + β3Rm,t + β4Rm,t+1 + β5Rm,t+2 + εi,t (2)
+
+where Ri,t represents the return on stock i in week t and Rm,t denotes the value-weighted 
+A-share market return for that specific week. The weekly returns for firm i in week t are 
+estimated using the equation Wi,t = Ln(1+ εi,t) , where εi,t signifies the residual men-
+tioned in Eq. (2).
+
+First, we use the negative coefficient of skewness crash risk, denoted as NCSKEW, as 
+a proxy for crash risk. This is derived by negating the third moment of the firm-specific 
+weekly returns in a given year and dividing it by the cubed standard deviation of these 
+returns. More precisely, NCSKEW for each firm i in year t is calculated as follows:
+
+3
+3 2
+
+NCSKEW 3
+i,t = − n(n− 1) 2 W t / (n− 1)(n− 2) W 2
+
+i, i,t (3)
+
+Second, we use the disparity in volatility between the upward and downward phases, 
+known as down-to-up volatility (DUVOL), as a proxy for crash risk. To compute this, we 
+first split the stock return sample for stock i into two subsets: the “up weeks” with weekly 
+returns higher than the annual average and the “down weeks” with returns lower than 
+it. We then separately calculate the standard deviations for the returns in each subset 
+(specifically, Rd corresponds to the down weeks, and Ru corresponds to the up weeks). 
+Finally, we employed the following model to derive the DUVOL measure:
+
+
+
+Z	 hong et al. Financial Innovation          (2024) 10:126 Page 9 of 31
+
+∑ ∑
+
+DUVOLi,t = ln[(nu − 1) R2
+d/(n
+
+2
+d − 1) Ru] (4)
+
+Down Up
+
+where nu and nd represent the number of weeks in which specific weekly returns Wi,t for 
+stock i exceed (fall below) the average annual return Wi.
+
+Core independent variable
+We constructed two proxies for SCT using textual data from annual corporate reports. 
+Specifically, the number of disclosed supply chain partners with specific names (includ-
+ing suppliers and customers) is utilized as a measure of SCT (SCT_Num), along with 
+their transaction proportion (SCT_Ratio). Discoursing specific names (e.g., Huawei or 
+Apple) of customers or suppliers in a company’s annual report facilitates the acquisi-
+tion of relevant publicly available or confidential information regarding the firm’s sup-
+ply chain. In contrast, the calculation excludes cases where no mention or disclosure 
+of information lacks informative content (e.g., Supplier A, Customer 1). Overall, larger 
+SCT_Num values signify elevated levels of transparency in the supply chain. Further-
+more, SCT_Ratio denotes the proportion of transaction volume between the disclosed 
+named partners compared to that of the five largest suppliers and customers combined. 
+Higher values for SCT_Ratio indicate a higher degree of SCT.
+
+Control variables
+To enhance the reliability, we incorporated several controlling variables (Liu et  al., 
+2023b; Kim et al. 2011a; Lou et al. 2024; Xu et al. 2014), including: stock annual returns 
+(Ret), the standard deviation of weekly stock returns (Sigma), average excess turnover 
+rate (Dturn), firm size (Size), return on assets (ROA), market-to-book ratio as a meas-
+ure of growth potential (MB), leverage ratio (Lev) and information asymmetry measured 
+by accruals-based earnings management (DA, the absolute value of discretionary accru-
+als, as estimated using the performance-adjusted modified cross-sectional Jones (1991) 
+model) developed by Cen et al. (2017). The definitions of the main variables are listed in 
+Table 1.
+
+Empirical results and analysis
+Descriptive statistics
+Table 2 presents the descriptive statistics of the main variables. Concerning corporate 
+SCT, SCT_Num has an average value of 2.2884, implying that these firms generally dis-
+close approximately two customer or supplier names in their supply chains. In contrast, 
+the SCT_Ratio’s mean denotes that the disclosed transaction amount with the identified 
+supply chain partners represents an average of 33.94% of the top five partner transac-
+tion amounts. Collectively, these results suggest inadequate and inconsistent levels of 
+transparency in supply chains. Furthermore, the correlation analysis results in Panel C 
+indicate a preliminary negative relationship between SCT and crash risk.
+
+Results of benchmark regression
+Table  3 presents the benchmark results for the impact of SCT on crash risk. We 
+employ the volatility ratio DUVOL as the explained variable in columns (1) and (3) 
+
+
+
+Zhong et al. Financial Innovation          (2024) 10:126 Page 10 of 31
+
+Table 1  Variable definition
+
+Variable Definition
+
+DUVOL Ratio of up and down volatility in returns
+NCSKEW Coefficient of negative skewness in returns
+SCT_Num Number of disclosed specific supply chain partners
+SCT_Ratio Ratio of disclosed specific supply chain partner’s transactions to 
+
+total transactions with top five suppliers and customers
+Ret Annual stock return
+Sigma Standard deviation of weekly stock returns during the fiscal year
+Dturn Stock turnover rate
+Size Total asset (in logarithm)
+ROA Return on assets
+MB Market-to-book ratio
+Lev Asset-liability ratio
+DA Information asymmetry measured by abnormal accruals
+
+Table 2  Descriptive statistics
+
+Panel A: Summary statistics
+
+Variable Observation Mean SD Min Median Max
+
+DUVOL 20,870  − 0.2105 0.4689  − 1.3894  − 0.2079 1.0756
+NCSKEW 20,870  − 0.3201 0.7049  − 2.4412  − 0.2785 1.7509
+SCT_Num 20,870 2.2884 3.6987 0.0000 0.0000 10.0000
+SCT_Ratio 20,870 0.3394 0.5382 0.0000 0.0000 2.0000
+Ret 20,870 0.0030 0.0094  − 0.0357 0.0017 0.0752
+Sigma 20,870 0.0602 0.0221 0.0151 0.0562 0.2322
+Dturn 20,870  − 0.0973 0.4795  − 6.8860  − 0.0333 4.3291
+Size 20,870 22.3785 1.2684 19.5027 22.2273 26.0469
+ROA 20,870 0.0489 0.0400 0.0009 0.0387 0.2078
+MB 20,870 1.9021 1.1310 0.9024 1.5417 8.4663
+Lev 20,870 0.4412 0.1977 0.0468 0.4391 0.8714
+DA 20,870 0.0523 0.0513 0.0000 0.0372 0.4131
+
+Panel B: Correlation 
+analysis
+
+Variable DUVOL NCSKEW SCT_Num SCT_Ratio
+DUVOL 1 0.883***  − 0.046***  − 0.040***
+NCSKEW 0.879*** 1  − 0.038***  − 0.033***
+SCT_Num  − 0.048***  − 0.039*** 1 0.974***
+SCT_Ratio  − 0.034***  − 0.028*** 0.894*** 1
+
+Pearson’s correlation coefficients are presented in the lower-triangular cells, and Spearman’s are in the upper triangle. 
+***p < 0.01, **p < 0.05, *p < 0.1
+
+and NCSKEW in the other columns. The OLS model incorporates industry, year, and 
+industry–year fixed effects (FE) (i.e., Industry FE, Year FE, and IndustryYear FE) while 
+utilizing robust standard errors clustered at the industry level. Our findings illustrate 
+that the coefficients of SCT_Num and SCT_Ratio are significantly negative regardless of 
+the dependent variables used. This finding indicates that SCT is negatively correlated 
+with crash risk, implying that improving transparency within a supply chain can help 
+reduce the likelihood of crashes. These results align with those of Pandit et al. (2011) and 
+
+
+
+Z	 hong et al. Financial Innovation          (2024) 10:126 Page 11 of 31
+
+Table 3  The results of benchmark regression
+
+Variable (1) (2) (3) (4)
+DUVOL NCSKEW DUVOL NCSKEW
+
+SCT_Num  − 0.0050***  − 0.0058***
+(0.001) (0.001)
+
+SCT_Ratio  − 0.0286***  − 0.0326***
+(0.008) (0.011)
+
+Ret 4.4153*** 7.1931*** 4.4248*** 7.2040***
+(0.569) (0.919) (0.568) (0.922)
+
+Sigma  − 1.4700***  − 1.9448***  − 1.4883***  − 1.9658***
+(0.169) (0.322) (0.173) (0.322)
+
+Dturn  − 0.0263**  − 0.0359**  − 0.0263**  − 0.0359**
+(0.010) (0.013) (0.010) (0.013)
+
+SIZE  − 0.0141*  − 0.0055  − 0.0136*  − 0.0049
+(0.007) (0.009) (0.007) (0.009)
+
+ROA 0.4786*** 0.9726*** 0.4806*** 0.9750***
+(0.138) (0.197) (0.138) (0.198)
+
+MB 0.0200*** 0.0335*** 0.0202*** 0.0337***
+(0.005) (0.010) (0.005) (0.011)
+
+LEV 0.0891*** 0.1136** 0.0887*** 0.1131**
+(0.029) (0.041) (0.029) (0.041)
+
+DA 0.0787 0.1375 0.0785 0.1373
+(0.054) (0.082) (0.054) (0.081)
+
+Constant 0.0873  − 0.2611 0.0751  − 0.2753
+(0.161) (0.198) (0.159) (0.196)
+
+Year FE Y Y Y Y
+Industry FE Y Y Y Y
+Industry × Year FE Y Y Y Y
+N 20,870 20,870 20,870 20,870
+Adj. R2 0.0533 0.0500 0.0529 0.0497
+
+Standard errors (in parentheses) are clustered at the industry level. ***p < 0.01, **p < 0.05, *p < 0.1
+
+support H1a, revealing that the benefits of SCT in reducing crash risk are greater than 
+the associated costs, highlighting the importance of such transparency for firms to man-
+age their financial risks effectively.
+
+Robustness tests
+This section examines the robustness of SCT’s impact of SCT using a series of 
+approaches.
+
+Reverse causality issue
+Supply chain information disclosure is an endogenous firm characteristic that can affect 
+the risk of stock price crashes. While our previous analysis controlled for this effect 
+using crash risk as a dependent variable, this section employs a difference-in-differences 
+model and a 2SLS regression to address this concern.
+
+Difference-in-difference (DiD) model To address the potential issue of reverse causality, 
+we use an exogenous shock to corporate supply chain disclosures, specifically, the revi-
+sion of disclosure requirements for the annual reports of listed companies by the China 
+
+
+
+Zhong et al. Financial Innovation          (2024) 10:126 Page 12 of 31
+
+Table 4  Results of difference-in-difference
+
+Variable (1) (2) (3) (4)
+NCSKEW NCSKEW DUVOL DUVOL
+
+Treat × Post  − 0.0638***  − 0.0530**  − 0.0421***  − 0.0339**
+(0.020) (0.020) (0.013) (0.013)
+
+Constant  − 0.2838***  − 0.4720**  − 0.1828***  − 0.1137
+(0.011) (0.184) (0.008) (0.142)
+
+Control N Y N Y
+Year FE Y Y Y Y
+Firm FE Y Y Y Y
+Industry × Year FE Y Y Y Y
+N 20,870 20,870 20,870 20,870
+Adj. R2 0.0046 0.0197 0.0053 0.0184
+
+Standard errors (in parentheses) are clustered at the industry level. The asterisks (***) denote statistical significance at 1%, 
+(**) at 5%, and (*) at 10% levels
+
+Securities Regulatory Commission (CSRC) in 2012. This policy document explicitly 
+encourages companies to disclose detailed information on their top five suppliers and 
+customers, including their names and procurement amounts. Although this policy was 
+not mandatory, many companies strengthened their supply chain information disclosure 
+after its implementation. We construct a treatment group dummy variable Treat (taking 
+1 for companies that did not disclose their supply chain partner information before 2012 
+but disclosed it afterward, and 0 otherwise), a post-2012 dummy variable Post (taking 1 
+for years from 2012 onwards, and 0 otherwise), and an interaction term between them—
+Treat × Post—to construct a DiD model with a two-way fixed effects form. We report 
+the results in Table 4, where columns (1) and (3) do not control for any other variables, 
+and the other columns control for the same characteristics as in Eq.  (1). Our findings 
+indicate that the coefficient of the interaction term Treat × Post was significantly nega-
+tive. This finding suggests that the shock of supply chain disclosures effectively mitigates 
+the likelihood of crashes, reinforcing the robustness of our results.
+
+Two-stage least squares (2SLS) regression To mitigate the potential endogeneity issue 
+arising from the relationship between SCT and stock price crash risk, we employ a two-
+stage least squares (2SLS) approach and present the results in Table 5. Specifically, we 
+used the response rate of companies on online interactive platforms obtained from the 
+CNRDS database as an instrumental variable for SCT. Unlike traditional media, online 
+platforms offer greater convenience to small shareholders and facilitate their engage-
+ment in company decision-making and inquiries. We believe that companies that proac-
+tively respond to small investors online are more inclined to voluntarily disclose supply 
+chain-related information. The first-stage test results reveal that the Wald F statistic is 
+significantly greater than the empirical value of 10, indicating the appropriateness of 
+selecting this instrumental variable. Moreover, the results from the second-stage estima-
+tion indicate significantly negative coefficients of the instrumental variable, which fur-
+ther strengthens support for our research hypothesis.
+
+
+
+Z	 hong et al. Financial Innovation          (2024) 10:126 Page 13 of 31
+
+Table 5  Results of two-stage least squares
+
+Variable (1) (2) (3) (4)
+NCSKEW DUVOL NCSKEW DUVOL
+
+SCT_Num  − 0.0685***  − 0.0678***
+(0.019) (0.014)
+
+SCT_Ratio  − 0.9411***  − 0.9320***
+(0.298) (0.230)
+
+Wald F statistic 117.725 117.725 33.555 33.555
+Control Y Y Y Y
+Year FE Y Y Y Y
+Industry FE Y Y Y Y
+Industry × Year FE Y Y Y Y
+N 17,618 17,618 17,618 17,618
+
+Standard errors (in parentheses) are clustered at the industry level. ***p < 0.01, **p < 0.05, *p < 0.1. Because of the negative 
+R-squared values in the regression results, they are not reported. According to the Stata Journal, a negative R-squared may 
+occur in 2SLS models but does not affect model evaluation
+
+Table 6  Results of propensity score matching method
+
+Variable (1) (2) (3) (4)
+DUVOL NCSKEW DUVOL NCSKEW
+
+SCT_Num  − 0.0050***  − 0.0058***
+(0.001) (0.001)
+
+SCT_Ratio  − 0.0286***  − 0.0327***
+(0.008) (0.011)
+
+Constant 0.0770 0.1340 0.0768 0.1338
+(0.055) (0.083) (0.055) (0.083)
+
+Control Y Y Y Y
+Year FE Y Y Y Y
+Industry FE Y Y Y Y
+Industry × Year FE Y Y Y Y
+N 14,568 14,568 14,568 14,568
+Adj. R2 0.0550 0.0563 0.0546 0.0561
+
+Standard errors (in parentheses) are clustered at the industry level. ***p < 0.01, **p < 0.05, *p < 0.1
+
+Selection bias
+Propensity Score Matching (PSM) method Given that samples with higher and lower 
+levels of SCT may have inherent differences, this study matches the samples based 
+on their SCT indicators using PSM to ensure comparability. A treatment group com-
+prising firms with SCT levels above the median is constructed, and a matched sam-
+ple from other firms is selected using the optimal nearest neighbor matching method 
+to construct a control group with the control variables in Eq.  (1) as covariates. We 
+conducted a re-estimation, and the results in Table 6 demonstrate that the regression 
+coefficients of SCT_Num and SCT_Ratio are both significantly negative, confirming 
+an adverse correlation between SCT and crash risk. Overall, our findings address the 
+inherent differences between samples with varying levels of SCT.
+
+Heckman’s two-step method Our study acknowledges the potential for selection bias 
+as a firm’s specific demands may influence the supply chain disclosure strategy (Luo 
+
+
+
+Zhong et al. Financial Innovation          (2024) 10:126 Page 14 of 31
+
+Table 7  Results of Heckman’s two-step method
+
+Variable First stage Second stage First stage Second stage
+
+(1)SCT_Dum (2)DUVOL (3)NCSKEW (4)SCT_Dum (5)DUVOL (6)NCSKEW
+
+SCT_Num_Ind 1.3025***
+(0.195)
+
+SCT_Ratio_Ind 1.3025***
+(0.195)
+
+SCT_Num  − 0.0058***  − 0.0068***
+(0.001) (0.001)
+
+SCT_Ratio  − 0.0374***  − 0.0430***
+(0.010) (0.012)
+
+IMR_SCT_Num 0.0205 0.0670**
+(0.018) (0.028)
+
+IMR_SCT_Ratio 0.0070 0.0489*
+(0.015) (0.024)
+
+Constant 2.3740***  − 0.0622  − 0.4538* 2.3740***  − 0.0451  − 0.3746
+(0.593) (0.184) (0.231) (0.593) (0.183) (0.228)
+
+lnsig2u 0.6430*** 0.7901***
+(0.053) (0.056)
+
+Control Y Y Y Y Y Y
+Industry FE Y Y Y Y Y Y
+Year FE Y Y Y Y Y Y
+Industry × Year FE Y Y Y Y Y Y
+N 17,612 17,612 17,612 17,612 17,612 17,612
+Adj. R2 0.0567 0.0558 0.0562 0.0555
+
+The inverse Mills ratio (IMR_SCT_Num and IMR_SCT_Ratio) coefficients are not equal to zero and are mostly statistically 
+significant, suggesting the existence of selection bias in our sample and the validity of our analysis. The standard errors (in 
+parentheses) were clustered at the industry level. ***p < 0.01, **p < 0.05, *p < 0.1
+
+& Nagarajan 2015). To address this issue, Heckman’s two-step method is employed. 
+In the first stage, a selection model is constructed to deal with sample selection prob-
+lems, with the dependent variable being SCT_Dum (a dummy for whether the firm 
+discloses the names of its supply chain partners). We introduce an exogenous instru-
+mental variable, SCT_Num_Ind (SCT_Ratio_Ind), which represents the industry 
+average level of SCT (excluding the given firm). The other variables are as in Eq. (1). 
+Table 7 presents the results of Heckman’s two-stage regression model. SCT_Num and 
+SCT_Ratio have significant negative coefficients that are consistent with the bench-
+mark results. This indicates that even after mitigating the potential issues of self-
+selection, the risk-management effect of SCT still holds.
+
+Additional robustness checks
+This study conducted robustness checks using various measures. First, alternative proxy 
+variables, SCT_to_ALL_Ratio (the ratio of disclosed supply chain partners’ names to the 
+total transaction amount) and SCT_Dum (a dummy variable for whether supply chain 
+partner names are disclosed), are used to replace the transparency proxies (Gong et al. 
+2022), which may be affected by measurement bias. Second, we incorporate the proxies 
+for crash risk in year t (DUVOLt and NCSKEWt) because firms exhibiting high crash 
+
+
+
+Z	 hong et al. Financial Innovation          (2024) 10:126 Page 15 of 31
+
+risk in year t are characterized by a lower likelihood of experiencing a collapse in year 
+t + 1 (Barany et al. 2012; Xu et al. 2021). Moreover, we introduce firm-fixed effects into 
+our framework to account for potential individual-dependent effects. Third, the Chinese 
+stock market experienced a significant and extensive downturn in 2015, with numerous 
+individual stocks experiencing significant price declines. We excluded samples from that 
+year to ensure robustness in mitigating the interference caused by this event. Fourth, 
+COVID-19-related lockdown policies, implemented in China in 2020 and continued 
+until the end of 2022, profoundly impacted the country’s supply chain. To address the 
+country-level shocks caused by the COVID-19 pandemic, we excluded samples from 
+2020 and beyond. The results of these tests in Table 8 support Hypothesis 1a and con-
+firm the robustness of the estimates in Table 3. Overall, these measures provide addi-
+tional support for our findings.
+
+Further analysis
+Despite evidence that SCT is negatively related to crash risk, the underlying mecha-
+nisms remain unclear. This section examines this channel from earnings management 
+and tax avoidance perspectives. Furthermore, we explore how managerial incentives and 
+information production mechanisms affect risk-mitigating effects and other alternative 
+explanations. Finally, we investigate heterogeneity in the effects of different types of sup-
+ply chain information.
+
+The role of earnings management and tax avoidance
+Numerous studies suggest that crash risk negatively correlates with earnings manage-
+ment behavior (Jo & Kim 2007). Specifically, when SCT is low, the management pos-
+sesses a significant information advantage, enabling it to manipulate information 
+disclosure through earnings management and other strategies. This allows the manage-
+ment to selectively report positive news while concealing negative information, resulting 
+in concentration and increased crash risk. However, introducing comprehensive supply 
+chain information enables investors to accurately assess a company’s operating condi-
+tions. Consequently, increased SCT effectively increases the difficulties and pressures 
+associated with concealing unfavorable news through earnings management, thereby 
+decreasing the risk of a significant decline in stock prices (Obaydin et al. 2021).
+
+Agency theory suggests that tax avoidance activities may increase opportunistic 
+behaviors through management. The supply chain is highly complex, and stakehold-
+ers find obtaining accurate and reliable information challenging. An opaque informa-
+tion environment in the supply chain creates opportunities for companies to evade taxes 
+(Cen et al. 2017). Specifically, managerial collusion with upstream or downstream enti-
+ties for tax planning is more likely in instances characterized by inadequate information 
+environments within the supply chain. Consequently, this increases the likelihood of 
+being subjected to penalties from tax authorities, securities regulators, and capital mar-
+kets upon discovery. Such actions infringe upon investor interests and exacerbate the 
+risk of financial downturns (Lee and Lee, 2024; Kim et al. 2011a). Therefore, companies 
+can reduce the likelihood of aggressive tax practices and mitigate crash risks by promot-
+ing SCT.
+
+
+
+Zhong et al. Financial Innovation          (2024) 10:126 Page 16 of 31
+
+Table 8  Results of additional robustness checks
+
+Panel A: Alternative proxy variables
+
+Variable (1) (2) (3) (4)
+
+DUVOL NCSKEW DUVOL NCSKEW
+
+SCT_to_ALL_Ratio  − 0.1273***  − 0.1414***
+(0.022) (0.026)
+
+SCT_Dum  − 0.0437***  − 0.0522***
+(0.009) (0.013)
+
+Constant  − 0.0341  − 0.3637  − 0.0430  − 0.3703
+(0.175) (0.220) (0.183) (0.234)
+
+Control Y Y Y Y
+Industry FE Y Y Y Y
+Year FE Y Y Y Y
+Industry × Year FE Y Y Y Y
+N 17,612 17,612 17,612 17,612
+Adj. R2 0.0569 0.0555 0.0564 0.0554
+
+Panel B: Additional control variable
+
+Variable (1) (2) (3) (4)
+
+DUVOLt+1 DUVOLt+1 NCSKEWt+1 NCSKEWt+1
+
+DUVOLt  − 0.0623***  − 0.0624***
+(0.011) (0.011)
+
+NCSKEWt  − 0.0564***  − 0.0565***
+(0.013) (0.013)
+
+SCT_Num  − 0.0030**  − 0.0031*
+(0.001) (0.002)
+
+SCT_Ratio  − 0.0237**  − 0.0249**
+(0.010) (0.012)
+
+Constant  − 1.4246***  − 1.4156***  − 2.8580***  − 2.8485***
+(0.276) (0.273) (0.435) (0.433)
+
+Control Y Y Y Y
+Firm FE Y Y Y Y
+Year FE Y Y Y Y
+Industry × Year FE Y Y Y Y
+N 18,866 18,866 18,866 18,866
+Adj. R2 0.1425 0.1426 0.1406 0.1406
+
+Panel C: The shock of the Chinese 2015 stock market crisis
+
+Variable (1) (2) (3) (4)
+
+DUVOL NCSKEW DUVOL NCSKEW
+
+SCT_Num  − 0.0054***  − 0.0062***
+(0.001) (0.001)
+
+SCT_Ratio  − 0.0299***  − 0.0341***
+(0.008) (0.011)
+
+Constant 0.0504  − 0.3050 0.0371  − 0.3204
+(0.164) (0.204) (0.163) (0.202)
+
+Control Y Y Y Y
+Industry FE Y Y Y Y
+Year FE Y Y Y Y
+Industry × Year FE Y Y Y Y
+
+N 19,745 19,745 19,745 19,745
+Adj. R2 0.0481 0.0461 0.0476 0.0458
+
+
+
+Z	 hong et al. Financial Innovation          (2024) 10:126 Page 17 of 31
+
+Table 8  (continued)
+Panel D: The shock of COVID-19
+
+Variable (1) (2) (3) (4)
+
+DUVOL NCSKEW DUVOL NCSKEW
+
+SCT_Num  − 0.0064***  − 0.0078***
+(0.001) (0.001)
+
+SCT_Ratio  − 0.0453***  − 0.0543***
+(0.008) (0.011)
+
+Constant  − 0.1337  − 0.4491*  − 0.1439  − 0.4621*
+(0.196) (0.232) (0.196) (0.232)
+
+Control Y Y Y Y
+Industry FE Y Y Y Y
+Year FE Y Y Y Y
+Industry × Year FE Y Y Y Y
+N 16,140 16,140 16,140 16,140
+Adj. R2 0.0587 0.0576 0.0583 0.0573
+
+Standard errors (in parentheses) are clustered at the industry level. ***p < 0.01, **p < 0.05, *p < 0.1
+
+Supply chain transparency is crucial in mitigating financial risk through two distinct 
+channels: curtailing corporate earnings management practices and minimizing tax 
+avoidance. To examine the effects of these mechanisms, we use the following economet-
+ric model:
+
+CrashRiski,t+1 = α0 + β2SCTi,t ×Mi,t + β3SCTi,t + β4Mi,t + γ ′Controli,t+
+IndustryFE + YearFE + IndustryFE rFE (5)
+
+× Yea + εi,t
+
+where Mi,t represents two mechanisms, earnings management (DA) and tax avoidance 
+(ETR), the remaining parameters had the same measurements as those in Eq. (1). If the 
+coefficient of SCTi,t ×Mi,t is significant, it indicates that SCT affects crash risk through 
+this pathway (i.e., earnings management or tax avoidance).
+
+We employ abnormal accruals (DA; a larger DA implies a higher level of earnings man-
+agement activities undertaken by the firm) as a measure of earnings management (Cen 
+et al. 2017). Moreover, we use Eq. (5) to conduct a path analysis of earnings management 
+and present our findings in Table 9. Our findings indicate that regardless of the explana-
+tory variable SCT_Num or SCT_Ratio, their interactions with earnings management DA 
+are significantly negative. These results suggest that SCT can effectively deter corporate 
+earnings management practices, thereby mitigating the likelihood of crashes.
+
+We analyze the impact of tax avoidance by conducting a path analysis and introducing 
+ETR, which refers to the difference between nominal and actual tax rates (a higher ETR 
+signifies a greater degree of tax avoidance by the firm) and its interaction with SCT. Our 
+findings in Panel B of Table 9 suggest that the coefficients of SCT_Num × ETR and SCT_
+Ratio × ETR are significantly negative at the 1% level. This implies that improving SCT can 
+help restrain management’s tax avoidance behavior, reducing crash risk. These results were 
+consistent with those reported by J.-B. Kim et al. (2011a) provide valuable insights into the 
+significance of corporate tax management concerning the management risk effect of SCT.
+
+
+
+Zhong et al. Financial Innovation          (2024) 10:126 Page 18 of 31
+
+Table 9  Results of path analysis
+
+Panel A: Path Analysis of Earnings Management
+
+Variable (1) (2) (3) (4)
+
+DUVOL NCSKEW DUVOL NCSKEW
+
+SCT_Num  − 0.0027  − 0.0021
+(0.002) (0.002)
+
+SCT_Num × DA  − 0.0048**  − 0.0076**
+(0.002) (0.003)
+
+SCT_Ratio  − 0.0126  − 0.0067
+(0.012) (0.015)
+
+SCT_Ratio × DA  − 0.0327*  − 0.0531**
+(0.016) (0.022)
+
+Constant 0.0895  − 0.2577 0.0771  − 0.2721
+(0.160) (0.197) (0.158) (0.194)
+
+Control Y Y Y Y
+Industry FE Y Y Y Y
+Year FE Y Y Y Y
+Industry × Year FE Y Y Y Y
+N 20,870 20,870 20,870 20,870
+Adj. R2 0.0537 0.0504 0.0533 0.0501
+
+Panel B: Path analysis of tax avoidance
+
+Variable (1) (2) (3) (4)
+
+DUVOL NCSKEW DUVOL NCSKEW
+
+ETR 0.0299 0.0579** 0.0331* 0.0570***
+(0.020) (0.024) (0.018) (0.020)
+
+SCT_Num  − 0.0036***  − 0.0039**
+(0.001) (0.001)
+
+SCT_Num × ETR  − 0.0037***  − 0.0044***
+(0.001) (0.001)
+
+SCT_Ratio  − 0.0160  − 0.0200
+(0.011) (0.014)
+
+SCT_Ratio × ETR  − 0.0305***  − 0.0280*
+(0.010) (0.014)
+
+Constant 0.0775  − 0.2306 0.0636  − 0.2469
+(0.173) (0.225) (0.172) (0.223)
+
+Control Y Y Y Y
+Industry FE Y Y Y Y
+Year FE Y Y Y Y
+Industry × Year FE Y Y Y Y
+N 20,870 20,870 20,870 20,870
+Adj. R2 0.0556 0.0538 0.0551 0.0534
+
+Standard errors (in parentheses) are clustered at the industry level
+***p < 0.01, **p < 0.05, *p < 0.1
+
+
+
+Z	 hong et al. Financial Innovation          (2024) 10:126 Page 19 of 31
+
+Table 10  The effect of information production
+
+Panel A: Institutional investors
+
+Variable (1) (2) (3) (4)
+
+Low Inst High Inst (3) Low Inst (4) High 
+Inst
+
+SCT_Num  − 0.0033*  − 0.0083***
+(0.002) (0.002)
+
+SCT_Ratio  − 0.0001  − 0.0468***
+(0.018) (0.017)
+
+Constant 0.0943  − 0.4509  − 0.0018  − 0.6448**
+(0.182) (0.353) (0.256) (0.304)
+
+Control Y Y Y Y
+Industry FE Y Y Y Y
+Year FE Y Y Y Y
+Industry × Year FE Y Y Y Y
+Chow test 2.50*** 3.05***
+N 10,420 10,431 8965 10,242
+Adj. R2 0.0393 0.0646 0.0400 0.0563
+
+Panel B Analyst coverage
+
+Variable (5) (6) (7) (8)
+
+Low Cover High Cover Low Cover High Cover
+
+SCT_Num 0.0003  − 0.0064**
+(0.003) (0.003)
+
+SCT_Ratio  − 0.0051  − 0.0536**
+(0.018) (0.021)
+
+Constant  − 1.4454*  − 0.4899* 0.2384  − 0.4959*
+(0.811) (0.265) (0.312) (0.267)
+
+Control Y Y Y Y
+Industry FE Y Y Y Y
+Year FE Y Y Y Y
+Industry × Year FE Y Y Y Y
+Chow test 4.09*** 4.28***
+N 7783 7463 7783 7463
+Adj. R2 0.0411 0.0653 0.0411 0.0653
+
+Standard errors (in parentheses) are clustered at the industry level. ***p < 0.01, **p < 0.05, *p < 0.1. The findings on DUVOL as 
+the dependent variable are presented in Table 14 of the Appendix
+
+The effect of information production
+The preliminary analysis reveals that firms with greater SCT face a lower risk of stock 
+price crashes. The research framework of this study is grounded in the hypothesis of 
+“bad news hiding,” but the precise mechanisms by which these negative signals are 
+revealed remain unclear. Therefore, we examine the roles of two information producers, 
+institutional investors, and analysts, in producing and processing these messages.
+
+
+
+Zhong et al. Financial Innovation          (2024) 10:126 Page 20 of 31
+
+First, institutional investors possess remarkable information-mining capabilities, 
+making them crucial information producers in the capital market (Lee et al. 2023b). 
+To explore the effect of institutional investors, we categorized the sample into two 
+groups based on institutional ownership and conducted separate regression analyses 
+using Eq. (1). Our findings, as presented in Panel A of Table 10, reveal that the coef-
+ficients of SCT_Num and SCT_Ratio are negative in the high institutional ownership 
+groups (significant at the 10% level) and are greater than those in the low institutional 
+ownership group. This may be attributed to professional institutional investors’ inter-
+pretative proficiency with information compared to small retail investors (Blau et al. 
+2015). Moreover, higher levels of institutional shareholding led to greater corporate 
+governance and information efficiency. Thus, institutional investors can accurately 
+interpret disclosed supply chain information and promptly integrate it into stock 
+prices through relevant operations.
+
+Second, we examined the role of analysts as information producers in this process. Our 
+sample is divided into two subgroups based on analyst coverage: high and low analyst 
+coverage, with the latter defined as less than the median. Using Eq. (1), we conducted sep-
+arate regressions for each subgroup. Our findings, as shown in Panel B of Table 10, reveal 
+that the coefficients of SCT are insignificant for low analyst attention groups. However, 
+the high analyst coverage groups’ SCT coefficients are significantly negative. This may be 
+attributed to the fact that supply chain partner names and transaction amount disclosure 
+only provide fragmented information about a company’s operations, making it difficult 
+for investors to accurately evaluate companies based on this limited information. Con-
+versely, analysts can integrate and analyze disclosed supply chain information and infor-
+mation from suppliers, customers, official announcements, and other sources. By doing 
+so, they can provide valuable insights for investors that can be communicated through 
+analyst reports or other channels. This facilitates the timely absorption of information by 
+the market and its reflection in stock prices, ultimately reducing the risk of a stock crash.
+
+The effect of a manager’s incentive
+As previously examined, divulging details about the supply chain can aid investors in 
+detecting management’s attempts to withhold bad news. However, this effect may be 
+more pronounced in firms with stronger incentives to retain such information. We 
+developed proxy variables for management incentives based on managers’ sharehold-
+ing ratios and state ownership to investigate this hypothesis. Specifically, managers’ 
+shareholding ratio provides insights into the economic motivation of managers who 
+hold shares, as changes in stock prices can impact their income. Meanwhile, managers 
+of state-owned enterprises in China may have political incentives to suppress negative 
+information to prevent market crashes during their tenure (Xu et al. 2014).
+
+We divide our sample based on whether the managerial shareholding ratio exceeds the 
+median value (low- and high-equity groups) and whether the enterprise is state-owned 
+(SOE and non-SOEs). Using Eq.  (1), we estimate each group separately to identify any 
+differential effects on supply chain information disclosure associated with managers’ 
+incentives. Table  11 provides the results with NCSKEW as the explained variable. It 
+
+
+
+Z	 hong et al. Financial Innovation          (2024) 10:126 Page 21 of 31
+
+Table 11  The effect of a manager’s incentive
+
+Panel A: Manager’s economic incentive
+
+Variable (1) (2) (3) (4)
+
+Low equity High equity Low equity High equity
+
+SCT_Num  − 0.0029  − 0.0066***
+(0.004) (0.001)
+
+SCT_Ratio  − 0.0109  − 0.0386***
+(0.035) (0.010)
+
+Constant  − 0.4720*  − 0.1982  − 0.4874*  − 0.2141
+(0.269) (0.194) (0.275) (0.191)
+
+Control Y Y Y Y
+Industry FE Y Y Y Y
+Year FE Y Y Y Y
+Industry × Year FE Y Y Y Y
+Chow test 1.84** 1.88**
+N 5085 15,758 5085 15,758
+Adj. R2 0.0615 0.0588 0.0612 0.0588
+
+Panel B: Manager’s political incentive
+
+Variable (1) (2) (3) (4)
+
+Non-SOE SOE Non-SOE SOE
+
+SCT_Num  − 0.0002  − 0.0118***
+(0.003) (0.002)
+
+SCT_Ratio 0.0061  − 0.0663***
+(0.021) (0.011)
+
+Constant  − 0.4225  − 0.1277  − 0.4311  − 0.1576
+(0.345) (0.176) (0.349) (0.169)
+
+Control Y Y Y Y
+Industry FE Y Y Y Y
+Year FE Y Y Y Y
+Industry × Year FE Y Y Y Y
+Chow test 5.50*** 5.29***
+N 10,935 8255 10,935 8255
+Adj. R2 0.0469 0.0706 0.0469 0.0693
+
+Standard errors (in parentheses) are clustered at the industry level. ***p < 0.01, **p < 0.05, *p < 0.1. The findings on DUVOL as 
+the dependent variable are presented in Table 15 of the Appendix
+
+shows significant and negative coefficients for SCT in the high-equity and SOE groups, 
+which are greater than other sub-samples. These findings support our hypothesis that 
+increased SCT mitigates crash risk in firms with greater management wealth and politi-
+cal incentives.
+
+Other alternative explanations
+One explanation is that higher-level relationship-specific investments increase the pro-
+prietary costs of disclosing information about customers and suppliers, thereby increas-
+ing the risk of competitive advantage leakage. This scenario may lead to significant 
+
+
+
+Zhong et al. Financial Innovation          (2024) 10:126 Page 22 of 31
+
+Table 12  Other alternative explanations
+
+Panel A: Relationship-specific investments
+
+Variable (1) (2) (3) (4)
+
+Low R&D High R&D Low R&D High R&D
+
+SCT_Num  − 0.0069**  − 0.0014
+(0.003) (0.002)
+
+SCT_Ratio  − 0.0256  − 0.0273**
+(0.020) (0.012)
+
+Constant  − 0.0469 0.1580  − 0.0722 0.1659
+(0.159) (0.285) (0.156) (0.282)
+
+Control Y Y Y Y
+Industry FE Y Y Y Y
+Year FE Y Y Y Y
+Industry × Year FE Y Y Y Y
+Chow test 2.80*** 2.29**
+N 9024 6426 9024 6426
+Adj. R2 0.0517 0.0385 0.0507 0.0388
+
+Panel B: Switching costs
+
+Variable (5) (6) (7) (8)
+
+Low PCM High PCM Low PCM High PCM
+
+SCT_Num  − 0.0078***  − 0.0026*
+(0.002) (0.001)
+
+SCT_Ratio  − 0.0416***  − 0.0153*
+(0.014) (0.009)
+
+Constant  − 0.3125  − 0.3868  − 0.3297  − 0.3942
+(0.200) (0.258) (0.197) (0.259)
+
+Control Y Y Y Y
+Industry FE Y Y Y Y
+Year FE Y Y Y Y
+Industry × Year FE Y Y Y Y
+Chow test 2.28** 2.22**
+N 10,701 8485 10,701 8485
+Adj. R2 0.0473 0.0589 0.0467 0.0588
+
+Standard errors (in parentheses) are clustered at the industry level. ***p < 0.01, **p < 0.05, *p < 0.1. The findings on DUVOL as 
+the dependent variable are presented in Table 16 in the Appendix
+
+fluctuations in a firm’s cash flow and profits, amplifying crash risk. We used research 
+and development intensity (R&D) as a proxy variable for relationship-specific invest-
+ments to investigate this concern. We partitioned our sample into two cohorts based 
+on R&D intensity for the sub-sample analysis. As presented in Table 12, the coefficients 
+of SCT are significantly negative in the low-R&D subgroup but not significant in the 
+other subgroups. This finding aligns with that of Ma et al. (2020) and indicates that rela-
+tionship-specific investment weakens the risk-reducing effect of SCT. However, combin-
+ing Table 3 and 12, our findings reveal that, while relationship-specific investments have 
+played a certain role, the main impact remains in suppressing crash risk by increasing 
+SCT. This supports hypothesis H1a with greater conviction.
+
+
+
+Z	 hong et al. Financial Innovation          (2024) 10:126 Page 23 of 31
+
+Switching costs are another risk factor related to SCT. An abrupt shift in a company’s 
+supplier or customer may trigger cost or income shocks, leading to significant investor 
+reactions and sharp declines in stock prices. This bad news can be concealed by a com-
+pany when supply chain information is not disclosed. To address this concern, we use 
+the Lerner index (PCM), which reflects a firm’s market power (higher values indicate 
+lower switching costs), as a proxy variable for switching costs. This is because trading 
+partners with low switching costs are highly unlikely to collude with customers or sup-
+pliers to hide negative information from investors (S. Li & Zhan 2019). We partition 
+the sample into two subsets according to whether it is greater than the average PCM 
+and estimate them separately. These results in Table 12 align with our hypothesis and 
+are only significant for the low-switching-cost subsamples. This finding suggests that 
+although switching costs are a potential mechanism through which SCT affects collapse 
+risk, it is not the primary factor.
+
+Heterogeneous effect of different types of supply chain information
+The disclosure of information by customers and suppliers in supply chain activities has 
+varying effects on stock price crash risk, given their distinct roles in revenue and cost. 
+Hence, we refine SCT into two categories–supplier information transparency (SCT_
+Num_SU, SCT_Ratio_SU) and customer information transparency (SCT_Num_CU, 
+SCT_Ratio_CU)–to investigate their differentiated effects on crash risk. Table 13 reports 
+the results of the heterogeneous effects of different types of supply chain information 
+with NCSKEW as the explained variable.
+
+Table 13  Heterogeneous effect of different types of supply chain information
+
+(1) (2) (3) (4) (5) (6)
+
+SCT_Num_SU  − 0.0132***  − 0.0152**
+(0.003) (0.006)
+
+SCT_Num_CU  − 0.0067* 0.0027
+(0.003) (0.006)
+
+SCT_Ratio_SU  − 0.0716***  − 0.0709***
+(0.020) (0.020)
+
+SCT_Ratio_CU  − 0.0258  − 0.0015
+(0.017) (0.017)
+
+Constant  − 0.2530  − 0.2798  − 0.2548  − 0.2693  − 0.2928  − 0.2691
+(0.189) (0.202) (0.191) (0.189) (0.196) (0.191)
+
+Control Y Y Y Y Y Y
+Industry FE Y Y Y Y Y Y
+Year FE Y Y Y Y Y Y
+Industry × Year FE Y Y Y Y Y Y
+N 20,870 20,870 20,870 20,870 20,870 20,870
+Adj. R2 0.0503 0.0495 0.0503 0.0500 0.0493 0.0499
+
+Standard errors (in parentheses) are clustered at the industry level. *** p < 0.01, ** p < 0.05, * p < 0.1. The findings on DUVOL 
+as the dependent variable are presented in Table 17 of the Appendix
+
+
+
+Zhong et al. Financial Innovation          (2024) 10:126 Page 24 of 31
+
+Our findings demonstrate that supplier and customer information transparency sig-
+nificantly negatively impacts crash risk, further supporting hypothesis H1a. However, 
+the estimated coefficients of supplier transparency are significantly larger than customer 
+transparency. Moreover, when we incorporated both sides into the model, we found that 
+the coefficient estimate of customer transparency lost its significance. Thus, our results 
+suggest supplier transparency has a more pronounced effect on curbing crash risk than 
+customer transparency. This phenomenon can be explained by investors’ current focus 
+on earnings, which aligns with customer interests. Consequently, companies can use 
+cost-control measures that reflect their supplier relationships to withhold bad news.
+
+Conclusions and implications
+The intricate network of economic connections among firms has witnessed a surge, with 
+the supplier-customer relationship acting as a catalyst for transformative shifts. This 
+study examines the pivotal role of SCT in shaping the risk of stock price crashes, uti-
+lizing an extensive dataset compiled from Chinese nonfinancial listed firms spanning 
+2009–2022. To measure the extent of SCT, our analysis centers on meticulously exam-
+ining the names and transaction proportions of supply chain partners, as disclosed in 
+firms’ annual reports. Our empirical findings underscore that bolstering SCT can sub-
+stantially reduce crash risk, primarily by curbing tax avoidance and earnings manage-
+ment. Notably, our analysis reveals the noteworthy beneficial impact of SCT in firms 
+where the management exhibits a stronger inclination to conceal unfavorable news, 
+particularly when coupled with investors who possess enhanced abilities to acquire 
+information. Furthermore, our results shed light on the varying degrees of influence 
+exerted by supplier and customer information transparency, with the former assuming 
+a more critical role in mitigating crash risk than the latter. This study makes a signifi-
+cant contribution to the ongoing discourse surrounding the question of whether govern-
+ment authorities should mandate increased supply chain disclosure. These findings are 
+important in facilitating a deeper understanding of the potential advantages of fostering 
+greater transparency within supply chains. Moreover, this study provides new empirical 
+evidence substantiating the positive influence of SCT in effectively managing crash risks.
+
+The practical implications of this study are significant for policymakers, managers, 
+and investors. Policymakers should consider promoting measures to incentivize firms to 
+enhance their SCT. This could involve mandating firms to disclose information regard-
+ing their customers and suppliers and offering incentives to firms that voluntarily dis-
+close such information. Furthermore, we explore the drivers of crash risk through the 
+lens of SCT and highlight the crucial role of policymakers in implementing regulations 
+that curb tax avoidance and earnings management practices while promoting greater 
+transparency in financial reporting. Firms seeking to manage their financial risk should 
+prioritize minimizing opportunistic behavior and enhancing voluntary disclosure of 
+information about supply chain partners, particularly information related to suppliers. 
+In addition, ambitious enterprises should focus on effectively utilizing information inter-
+mediaries and enhancing managerial incentive systems, both political and economic. 
+However, investors should emphasize SCT more, strive to acquire a wider range of 
+
+
+
+Z	 hong et al. Financial Innovation          (2024) 10:126 Page 25 of 31
+
+supply chain information, and enhance their ability to analyze and utilize it effectively in 
+making investment decisions. However, this study is still limited. (1) Given supply chain 
+relationships’ intricate and complex nature, future research can explore more encom-
+passing measurement methods. (2) Because of imperfect supply chain information dis-
+closure systems, our findings might only capture a fraction of them, and future studies 
+should consider exploring the effects of SCT from alternative angles.
+
+Appendix
+See Table 14, 15, 16 and 17.
+
+Table 14  The effect of information production (with DUVOL as dependent variable)
+
+Panel A: Institutional investors
+
+Variable (1) (2) (3) (4)
+
+Low Inst High Inst (3) Low Inst (4) High Inst
+
+SCT_Num  − 0.0032***  − 0.0066***
+(0.001) (0.002)
+
+SCT_Ratio  − 0.0109  − 0.0376***
+(0.012) (0.012)
+
+Constant 0.4100***  − 0.0532 0.3053*  − 0.1903
+(0.100) (0.273) (0.180) (0.200)
+
+Control Y Y Y Y
+Industry FE Y Y Y Y
+Year FE Y Y Y Y
+Industry × Year FE Y Y Y Y
+Chow test 2.39*** 3.06***
+N 10,420 10,431 8965 10,242
+Adj. R2 0.0472 0.0634 0.0456 0.0560
+
+Panel B: Analyst coverage
+
+Variable (5) (6) (7) (8)
+
+Low Cover High Cover Low Cover High Cover
+
+SCT_Num  − 0.0019  − 0.0041**
+(0.002) (0.002)
+
+SCT_Ratio -0.0143 -0.0363**
+(0.011) (0.015)
+
+Constant  − 0.2361  − 0.1840 0.4602** -0.1857
+(0.525) (0.203) (0.205) (0.205)
+
+Control Y Y Y Y
+Industry FE Y Y Y Y
+Year FE Y Y Y Y
+Industry × Year FE Y Y Y Y
+Chow test 2.24** 2.37***
+N 7435 7463 7783 7463
+Adj. R2 0.1548 0.0636 0.0502 0.0638
+
+The standard errors (in parentheses) are clustered at the industry level. ***p < 0.01, **p < 0.05, *p < 0.1
+
+
+
+Zhong et al. Financial Innovation          (2024) 10:126 Page 26 of 31
+
+Table 15  The effect of manager’s incentive (with DUVOL as dependent variable)
+
+Panel A: Manager’s economic incentive
+
+Variable (1) (2) (3) (4)
+
+Low equity High equity Low equity High equity
+
+SCT_Num  − 0.0032  − 0.0056***
+(0.003) (0.001)
+
+SCT_Ratio  − 0.0170  − 0.0325***
+(0.024) (0.008)
+
+Constant  − 0.1658 0.1634  − 0.1736 0.1495
+(0.183) (0.173) (0.185) (0.171)
+
+Control Y Y Y Y
+Industry FE Y Y Y Y
+Year FE Y Y Y Y
+Industry × Year FE Y Y Y Y
+Chow test 1.44 1.41
+N 5085 15,758 5085 15,758
+Adj. R2 0.0418 0.0562 0.0415 0.0557
+
+Panel B: Manager’s political incentive
+
+Variable (1) (2) (3) (4)
+
+Non-SOE SOE Non-SOE SOE
+
+SCT_Num  − 0.0020  − 0.0091***
+(0.002) (0.001)
+
+SCT_Ratio  − 0.0099  − 0.0512***
+(0.015) (0.008)
+
+Constant  − 0.0256 0.1718  − 0.0314 0.1495
+(0.245) (0.169) (0.248) (0.164)
+
+Control Y Y Y Y
+Industry FE Y Y Y Y
+Year FE Y Y Y Y
+Industry × Year FE Y Y Y Y
+Chow test 4.02*** 3.68***
+N 10,935 8255 10,935 8255
+Adj. R2 0.0492 0.0717 0.0491 0.0701
+
+The standard errors (in parentheses) are clustered at the industry level. ***p < 0.01, **p < 0.05, *p < 0.1
+
+
+
+Z	 hong et al. Financial Innovation          (2024) 10:126 Page 27 of 31
+
+Table 16  Other alternative explanations (with DUVOL as dependent variable)
+
+Panel A: Relationship − specific investments
+
+Variable (1) (2) (3) (4)
+
+Low R&D High R&D Low R&D High R&D
+
+SCT_Num  − 0.0063*** 0.0001
+(0.002) (0.001)
+
+SCT_Ratio  − 0.0288*  − 0.0109
+(0.014) (0.007)
+
+Constant 0.2256* 0.4497** 0.2060 0.4561**
+(0.130) (0.211) (0.125) (0.212)
+
+Control Y Y Y Y
+Industry FE Y Y Y Y
+Year FE Y Y Y Y
+Industry × Year FE Y Y Y Y
+Chow test 3.52*** 2.60***
+N 9024 6426 9024 6426
+Adj. R2 0.0634 0.0447 0.0620 0.0449
+
+Panel B: Switching costs
+
+Variable (5) (6) (7) (8)
+
+Low PCM High PCM Low PCM High PCM
+
+SCT_Num  − 0.0067***  − 0.0030**
+(0.001) (0.001)
+
+SCT_Ratio  − 0.0367***  − 0.0201*
+(0.012) (0.010)
+
+Constant 0.1016  − 0.1001 0.0878  − 0.1060
+(0.155) (0.188) (0.154) (0.187)
+
+Control Y Y Y Y
+Industry FE Y Y Y Y
+Year FE Y Y Y Y
+Industry × Year FE Y Y Y Y
+Chow test 1.99** 1.88**
+N 10,701 8485 10,701 8485
+Adj. R2 0.0518 0.0579 0.0508 0.0578
+
+The standard errors (in parentheses) are clustered at the industry level. ***p < 0.01, **p < 0.05, *p < 0.1
+
+
+
+Zhong et al. Financial Innovation          (2024) 10:126 Page 28 of 31
+
+Table 17  Heterogeneous effect of different types of supply chain information (with DUVOL as 
+dependent variable)
+
+(1) (2) (3) (4) (5) (6)
+
+SCT_Num_SU  − 0.0106***  − 0.0107***
+(0.002) (0.003)
+
+SCT_Num_CU  − 0.0065*** 0.0001
+(0.002) (0.003)
+
+SCT_Ratio_SU  − 0.0582***  − 0.0548***
+(0.013) (0.012)
+
+SCT_Ratio_CU  − 0.0261*  − 0.0073
+(0.013) (0.013)
+
+Constant 0.0912 0.0735 0.0912 0.0783 0.0610 0.0794
+(0.154) (0.164) (0.156) (0.153) (0.160) (0.155)
+
+Control Y Y Y Y Y Y
+Industry FE Y Y Y Y Y Y
+Year FE Y Y Y Y Y Y
+Industry × Year FE Y Y Y Y Y Y
+N 20,870 20,870 20,870 20,870 20,870 20,870
+Adj. R2 0.0537 0.0527 0.0536 0.0532 0.0523 0.0531
+
+The standard errors (in parentheses) are clustered at the industry level. ***p < 0.01, **p < 0.05, *p < 0.1
+
+Abbreviations
+NMC Health PLC	   (In Arabic)
+
+COVID-19	 Corona virus disease 2019
+SCT	 Supply chain transparency
+CSMAR	 China stock market and accounting research
+CNRDS	 Chinese research data services
+FE	 Fixed effect
+DiD	 Difference-in-difference
+2SLS	 Two-stage least squares
+PSM	 Propensity score matching
+SOE	 State-owned enterprise
+R&D	 Research and development
+
+Acknowledgements
+All authors contributed equally to this study and shared first authorship.
+
+Author contributions
+QZ was writing responsible for conceptualization, investigation, and writing of original draft and analysis. QS was 
+responsible for the investigation, and writing of the original draft. C–CL was responsible for the investigation, supervi‑
+sion, visualization, and analysis.
+
+Funding
+This research was supported by the National Social Science Foundation Key Project of China for financial support 
+through Grant No: 22AJL004.
+
+Availability of data and materials
+Data are available from the authors upon request.
+
+Declarations
+Ethics approval and consent to participate
+This article does not contain any studies with human participants or animals performed by any of the authors.
+
+Competing interests
+The authors declare that they have no competing interests.
+
+Received: 15 May 2023   Accepted: 7 February 2024
+
+
+
+Z	 hong et al. Financial Innovation          (2024) 10:126 Page 29 of 31
+
+References
+Amihud Y (2019) Illiquidity and stock returns: a revisit. Critical Finance Review 8(1–2):203–221. https://​doi.​org/​10.​1561/​
+
+104.​00000​073
+Baginski SP, Campbell JL, Hinson LA, Koo DS (2018) Do career concerns affect the delay of bad news disclosure? Account 
+
+Rev 93(2):61–95. https://​doi.​org/​10.​2308/​accr-​51848
+Barany E, Varela MB, Florescu I, Sengupta I (2012) Detecting market crashes by analysing long-memory effects using 
+
+high-frequency data. Quant Financ 12(4):623–634. https://​doi.​org/​10.​1080/​14697​688.​2012.​664937
+Bayer E, Tuli KR, Skiera B (2017) Do disclosures of customer metrics lower investors’ and analysts’ uncertainty but hurt firm 
+
+performance? J Mark Res 54(2):239–259. https://​doi.​org/​10.​1509/​jmr.​14.​0028
+Blau BM, DeLisle JR, Price SM (2015) Do sophisticated investors interpret earnings conference call tone differently than 
+
+investors at large? Evidence from short sales. J Corp Finan 31:203–219. https://​doi.​org/​10.​1016/j.​jcorp​fin.​2015.​02.​003
+Callen JL, Fang X (2015) Religion and stock price crash risk. J Financ Quanti Anal 50(1–2):169–195. https://​doi.​org/​10.​
+
+1017/​S0022​10901​50000​46
+Cao Y, Dong Y, Ma D, Sun L (2021) Customer concentration and corporate risk-taking. J Financ Stab 54:100890. 
+
+https://​doi.​org/​10.​1016/j.​jfs.​2021.​100890
+Cao F, Zhang X, Yuan R (2022) Do geographically nearby major customers mitigate suppliers’ stock price crash risk? 
+
+British Account Rev 54(6):101118. https://​doi.​org/​10.​1016/j.​bar.​2022.​101118
+Cen L, Maydew EL, Zhang L, Zuo L (2017) Customer–supplier relationships and corporate tax avoidance. J Financ 
+
+Econ 123(2):377–394. https://​doi.​org/​10.​1016/j.​jfine​co.​2016.​09.​009
+Chen J, Hong H, Stein JC (2001) Forecasting crashes: Trading volume, past returns, and conditional skewness in stock 
+
+prices. J Financ Econ 61(3):345–381. https://​doi.​org/​10.​1016/​S0304-​405X(01)​00066-6
+Chen S, Ye Y, Jebran K (2022) Tax enforcement efforts and stock price crash risk: evidence from China. J Int Financ 
+
+Manag Acc 33(2):193–218. https://​doi.​org/​10.​1111/​jifm.​12145
+Dewally M, Shao Y (2013) Financial derivatives, opacity, and crash risk: evidence from large US banks. J Financ Stab 
+
+9(4):565–577. https://​doi.​org/​10.​1016/j.​jfs.​2012.​11.​001
+Dhaliwal D, Judd JS, Serfling M, Shaikh S (2016) Customer concentration risk and the cost of equity capital. J Account 
+
+Econ 61(1):23–48. https://​doi.​org/​10.​1016/j.​jacce​co.​2015.​03.​005
+Dong Y, Li C, Li H (2021) Customer concentration and M&A performance. J Corp Finan 69:102021. https://​doi.​org/​10.​
+
+1016/j.​jcorp​fin.​2021.​102021
+Ellis JA, Fee CE, Thomas SE (2012) Proprietary costs and the disclosure of information about customers. J Account Res 
+
+50(3):685–727. https://​doi.​org/​10.​1111/j.​1475-​679X.​2012.​00441.x
+Feng J, Goodell JW, Shen D (2022) ESG rating and stock price crash risk: evidence from China. Financ Res Lett 
+
+46:102476. https://​doi.​org/​10.​1016/j.​frl.​2021.​102476
+Gong X, Quan X, Li X (2022) Supply chain transparency and corporate tax avoidance. China Industrial Economics 
+
+11:155–173 (in Chinese)
+Gualandris J, Klassen RD, Vachon S, Kalchschmidt M (2015) Sustainable evaluation and verification in supply chains: 
+
+aligning and leveraging accountability to stakeholders. J Oper Manag 38:1–13. https://​doi.​org/​10.​1016/j.​jom.​
+2015.​06.​002
+
+Guan Y, Wong MHF, Zhang Y (2015) Analyst following along the supply chain. Rev Acc Stud 20(1):210–241. https://​doi.​
+org/​10.​1007/​s11142-​014-​9295-6
+
+Guo Q, Zeng D, Lee CC (2023) Impact of smart city pilot on energy and environmental performance: China-based empiri‑
+cal evidence. Sustain Cities Soc 97:104731. https://​doi.​org/​10.​1016/j.​scs.​2023.​104731
+
+Hasan MM, Taylor G, Richardson G (2022) Brand capital and stock price crash risk. Manage Sci 68(10):7221–7247. https://​
+doi.​org/​10.​1287/​mnsc.​2021.​4197
+
+Huang S, Liu H (2021) Impact of COVID-19 on stock price crash risk: evidence from Chinese energy firms. Energy Eco‑
+nomics 101:105431. https://​doi.​org/​10.​1016/j.​eneco.​2021.​105431
+
+Ji Q, Quan X, Yin H, Yuan Q (2021) Gambling preferences and stock price crash risk: evidence from China. J Bank Finance 
+128:106158. https://​doi.​org/​10.​1016/j.​jbank​fin.​2021.​106158
+
+Jiang K, Du X, Chen Z (2022) Firms’ digitalization and stock price crash risk. Int Rev Financ Anal 82:102196. https://​doi.​org/​
+10.​1016/j.​irfa.​2022.​102196
+
+Jin L, Myers SC (2006) R2 around the world: new theory and new tests. J Financ Econ 79(2):257–292. https://​doi.​org/​10.​
+1016/j.​jfine​co.​2004.​11.​003
+
+Jin HM, Su ZQ, Wang L, Xiao Z (2022) Do academic independent directors matter? Evidence from stock price crash risk. J 
+Bus Res 144:1129–1148
+
+Jo H, Kim Y (2007) Disclosure frequency and earnings management. J Financ Econ 84(2):561–590. https://​doi.​org/​10.​
+1016/j.​jfine​co.​2006.​03.​007
+
+Khan F, Muhammadullah S, Sharif A, Lee CC (2024) The role of green energy stock market in forecasting China’s crude oil 
+market: An application of IIS approach and sparse regression models Energy Econ. 130:107269. https://​doi.​org/​10.​
+1016/j.​eneco.​2023.​107269
+
+Kim J-B, Li Y, Zhang L (2011a) Corporate tax avoidance and stock price crash risk: firm-level analysis. J Financ Econ 
+100(3):639–662. https://​doi.​org/​10.​1016/j.​jfine​co.​2010.​07.​007
+
+Kim J-B, Li Y, Zhang L (2011b) CFOs versus CEOs: equity incentives and crashes. J Financ Econ 101(3):713–730. https://​doi.​
+org/​10.​1016/j.​jfine​co.​2011.​03.​013
+
+Kim Y, Li H, Li S (2014) Corporate social responsibility and stock price crash risk. J Bank Finance 43:1–13. https://​doi.​org/​10.​
+1016/j.​jbank​fin.​2014.​02.​013
+
+Kim C, Wang K, Zhang L (2019a) Readability of 10-K reports and stock price crash risk. Contemp Account Res 36(2):1184–
+1216. https://​doi.​org/​10.​1111/​1911-​3846.​12452
+
+Kim J-B, Lu LY, Yu Y (2019b) analyst coverage and expected crash risk: evidence from exogenous changes in analyst 
+coverage. Account Rev 94(4):345–364. https://​doi.​org/​10.​2308/​accr-​52280
+
+
+
+Zhong et al. Financial Innovation          (2024) 10:126 Page 30 of 31
+
+Kong D, Shi L, Zhang F (2021) Explain or conceal? Causal language intensity in annual report and stock price crash risk. 
+Econ Model 94:715–725. https://​doi.​org/​10.​1016/j.​econm​od.​2020.​02.​013
+
+Lanier D, Wempe WF, Swink M (2019) Supply chain power and real earnings management: stock market perceptions, 
+financial performance effects, and implications for suppliers. J Supply Chain Manag 55(1):48–70. https://​doi.​org/​10.​
+1111/​jscm.​12186
+
+Lee CC, Yuan Z (2024) Impact of energy poverty on public health: a non-linear study from an international perspective. 
+World Dev 174:106444. https://​doi.​org/​10.​1016/j.​world​dev.​2023.​106444
+
+Lee SM, Jiraporn P, Song H (2020) Customer concentration and stock price crash risk. J Bus Res 110:327–346. https://​doi.​
+org/​10.​1016/j.​jbusr​es.​2020.​01.​049
+
+Lee CC, Wang CW, Wu YC (2023a) CEO inside debt and downside risk: evidence from internal and external environments. 
+Pac Basin Financ J 80:102073. https://​doi.​org/​10.​1016/j.​pacfin.​2023.​102073
+
+Lee CC, Wang Y, Zhang X (2023b) Corporate governance and systemic risk: evidence from Chinese-listed banks. Int Rev 
+Econ Financ 87:180–202. https://​doi.​org/​10.​1016/j.​iref.​2023.​04.​023
+
+Lee CC, Lu M, Wang CW, Cheng CY (2024) ESG engagement, country-level political risk and bank liquidity creation. Pac 
+Basin Financ J 83:102260. https://​doi.​org/​10.​1016/j.​pacfin.​2024.​102260
+
+Lee CC, Lee CC (2024) Not all are alike: Assessing the effect of geopolitical risk on regional renewable energy develop‑
+ment in China. Renew Energy 222:119763. https://​doi.​org/​10.​1016/j.​renene.​2023.​119763
+
+Li D, Wang D (2016) The impact of supply chain customer information on firm’s information environment. J Financ Res 
+12:191–206 (in Chinese)
+
+Li S, Zhan X (2019) Product market threats and stock crash risk. Manage Sci 65(9):4011–4031. https://​doi.​org/​10.​1287/​
+mnsc.​2017.​3016
+
+Li Y, Lin Y, Zhang L (2018) Trade secrets law and corporate disclosure: causal evidence on the proprietary cost hypothesis. 
+J Account Res 56(1):265–308. https://​doi.​org/​10.​1111/​1475-​679X.​12187
+
+Li Z, Tian M, Li D, Du Y (2022) Will customer information disclosure affect corporate tax avoidance. Nankai Bus Rev 
+06:75–85 (in Chinese)
+
+Liu Q, Tang J, Li D, Xing L (2023a) The role of bad-news coverage and media environments in crash risk around the world. 
+J Empir Financ. https://​doi.​org/​10.​1016/j.​jempf​in.​2023.​04.​007
+
+Liu M, Guo J, Bi D (2023b) Comparison of administrative and regulatory green technologies development between China 
+and the US based on patent analysis. Data Sci Manage 6(1):34–45. https://​doi.​org/​10.​1016/j.​dsm.​2023.​01.​001
+
+Liu H, Liu S, Shen JH, Lee CC (2024) Global value chain embeddedness and Chinese firms’ cross-border mergers & acquisi‑
+tions. Struct Chang Econ Dyn 68:393–411. https://​doi.​org/​10.​1016/j.​strue​co.​2023.​11.​004
+
+Lou Z, Xie Q, Shen JH, Lee CC (2024) Does Supply Chain Finance (SCF) alleviate funding constraints of SMEs? Evidence 
+from China. Res Int Bus Financ 67:102157. https://​doi.​org/​10.​1016/j.​ribaf.​2023.​102157
+
+Lu J, Qiu Y (2023) Does non-punitive regulation diminish stock price crash risk? J Bank Finance 148:106731. https://​doi.​
+org/​10.​1016/j.​jbank​fin.​2022.​106731
+
+Luo S, Nagarajan NJ (2015) Information complementarities and supply chain analysts. Account Rev 90(5):1995–2029. 
+https://​doi.​org/​10.​2308/​accr-​51011
+
+Ma X, Wang W, Wu J, Zhang W (2020) Corporate customer concentration and stock price crash risk. J Bank Finance 
+119:105903. https://​doi.​org/​10.​1016/j.​jbank​fin.​2020.​105903
+
+Macready AL, Hieke S, Klimczuk-Kochańska M, Szumiał S, Vranken L, Grunert KG (2020) Consumer trust in the food value 
+chain and its impact on consumer confidence: a model for assessing consumer trust and evidence from a 5-country 
+study in Europe. Food Policy 92:101880. https://​doi.​org/​10.​1016/j.​foodp​ol.​2020.​101880
+
+Montecchi M, Plangger K, West DC (2021) Supply chain transparency: a bibliometric review and research agenda. Int J 
+Prod Econ 238:108152. https://​doi.​org/​10.​1016/j.​ijpe.​2021.​108152
+
+Obaydin I, Zurbruegg R, Hossain MN, Adhikari BK, Elnahas A (2021) Shareholder litigation rights and stock price crash risk. 
+J Corp Finan 66:101826. https://​doi.​org/​10.​1016/j.​jcorp​fin.​2020.​101826
+
+Overesch M, Wolff H (2021) Financial transparency to the rescue: effects of public Country-by-country reporting in the 
+European Union banking sector on tax avoidance. Contemp Account Res 38(3):1616–1642. https://​doi.​org/​10.​1111/​
+1911-​3846.​12669
+
+Pan Y, Zhang C, Lee CC, Lv S (2024) Environmental performance evaluation of electric enterprises during a power crisis: 
+Evidence from DEA methods and AI prediction algorithms. Energy Econ 130:107285. https://​doi.​org/​10.​1016/j.​
+eneco.​2023.​107285
+
+Pandit S, Wasley CE, Zach T (2011) Information externalities along the supply chain: the economic determinants of sup‑
+pliers’ stock price reaction to their customers’ earnings announcements. Contemp Account Res 28(4):1304–1343. 
+https://​doi.​org/​10.​1111/j.​1911-​3846.​2011.​01092.x
+
+Richardson G, Obaydin I, Liu C (2022) The effect of accounting fraud on future stock price crash risk. Econ Model 
+117:106072. https://​doi.​org/​10.​1016/j.​econm​od.​2022.​106072
+
+She G (2022) The real effects of mandatory nonfinancial disclosure: evidence from supply chain transparency. Account 
+Rev 97(5):399–425. https://​doi.​org/​10.​2308/​TAR-​2020-​0178
+
+Shi D, Bu C, Xue H (2021) Deterrence effects of disclosure: the impact of environmental information disclosure on emis‑
+sion reduction of firms. Energy Economics 104:105680. https://​doi.​org/​10.​1016/j.​eneco.​2021.​105680
+
+Shi J, Liu X, Li Y, Yu C, Han Y (2022) Does supply chain network centrality affect stock price crash risk? Evidence from Chi‑
+nese listed manufacturing companies. Int Rev Financ Anal 80:102040. https://​doi.​org/​10.​1016/j.​irfa.​2022.​102040
+
+Si Y, Xia C (2022) The effect of human capital on stock price crash risk. J Bus Ethics. https://​doi.​org/​10.​1007/​
+s10551-​022-​05134-w
+
+Sodhi MS, Tang CS (2019) Research opportunities in supply chain transparency. Prod Oper Manag 28(12):2946–2959. 
+https://​doi.​org/​10.​1111/​poms.​13115
+
+Tang S, Guo H, Li D (2022) Is it really beneficial for listed companies to disclose customer names – from the perspective of 
+investor perception. Accounting Research 01:29–43 (in Chinese)
+
+
+
+Z	 hong et al. Financial Innovation          (2024) 10:126 Page 31 of 31
+
+Tiwari AK, Trabelsi N, Abakah EJA, Nasreen S, Lee CC (2023) An empirical analysis of the dynamic relationship between 
+clean and dirty energy markets. Energy Economics 124:106766. https://​doi.​org/​10.​1016/j.​eneco.​2023.​106766
+
+Villena VH, Dhanorkar S (2020) How institutional pressures and managerial incentives elicit carbon transparency in global 
+supply chains. J Oper Manag 66(6):697–734. https://​doi.​org/​10.​1002/​joom.​1088
+
+Wan G, Dawod A, Chanaim S, Ramasamy S (2023) Hotspots and trends of environmental social and governance (ESG) 
+research: a bibliometric analysis. Data Sci Manage 6(2):65–75. https://​doi.​org/​10.​1016/j.​dsm.​2023.​03.​001
+
+Wang EZ, Lee CC (2023) The impact of commercial bank branch expansion on energy efficiency: micro evidence from 
+China. China Econ Rev 80:102019. https://​doi.​org/​10.​1016/j.​chieco.​2023.​102019
+
+Wang CW, Lee CC, Wu LT (2023) The relationship between cash flow uncertainty and extreme risk: International evidence. 
+Pac Basin Financ J 77:101927. https://​doi.​org/​10.​1016/j.​pacfin.​2022.​101927
+
+Wu Z, Jia F (2018) Toward a theory of supply chain fields – understanding the institutional process of supply chain locali‑
+zation. J Oper Manag 58–59:27–41. https://​doi.​org/​10.​1016/j.​jom.​2018.​03.​002
+
+Xu N, Li X, Yuan Q, Chan KC (2014) Excess perks and stock price crash risk: Evidence from China. J Corp Finan 25:419–434. 
+https://​doi.​org/​10.​1016/j.​jcorp​fin.​2014.​01.​006
+
+Xu Y, Xuan Y, Zheng G (2021) Internet searching and stock price crash risk: evidence from a quasi-natural experiment. J 
+Financ Econ 141(1):255–275. https://​doi.​org/​10.​1016/j.​jfine​co.​2021.​03.​003
+
+Yahya F, Lee CC (2023) Disentangling the asymmetric effect of financialization on green output gap. Energy Economics 
+125:106899. https://​doi.​org/​10.​1016/j.​eneco.​2023.​106899
+
+You W, Huang Y, Lee CC (2024) Forecasting tourist flows in the COVID‐19 era using nonparametric mixed frequency VARs. 
+Abstr J Forecast 43(2):473-489. https://​doi.​org/​10.​1002/​for.​3044
+
+Zaman R, Atawnah N, Haseeb M, Nadeem M, Irfan S (2021) Does corporate eco-innovation affect stock price crash risk? 
+Br Account Rev 53(5):101031. https://​doi.​org/​10.​1016/j.​bar.​2021.​101031
+
+Zhong W, Ma Z, Tong TW, Zhang Y, Xie L (2021) Customer concentration, executive attention, and firm search behavior. 
+Acad Manag J 64(5):1625–1647. https://​doi.​org/​10.​5465/​amj.​2017.​0468
+
+Zhang X, Tian Y, Lee CC (2024) Enforcement actions and systemic risk Emerging Markets Review 59:101115. https://​doi.​
+org/​10.​1016/j.​ememar.​2024.​101115
+
+Publisher’s Note
+Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.

@@ -1,0 +1,2003 @@
+﻿Received: 18 May 2018 Revised: 26 February 2020 Accepted: 19 March 2020
+
+DOI: 10.1002/joom.1089
+
+R E S E A R CH AR T I C L E
+
+Common institutional investors and supplier performance
+in supply chains
+
+Yan-Leung Cheung1 | In-Mu Haw2 | Bingbing Hu3 | Morgan Swink2 |
+Wenlan Zhang4
+
+1Department of Asian and Policy Studies,
+The Education University of Hong Kong, Abstract
+Tai Po, New Territories, Hong Kong We investigate how common institutional investors (CIIs) in supply chains
+2Neeley School of Business, Texas affect supplier performance. Social network theory suggests that buyer–
+Christian University, Fort Worth, Texas supplier relationships are influenced by networks of ties in which they are
+3Department of Accountancy and Law,
+
+embedded. While prior research has concentrated on networks of trade inter-
+Hong Kong Baptist University, Kowloon,
+Hong Kong actions, we instead examine the influences of networks through common
+4School of Accounting, Dongbei investors. Utilizing a large sample of buyer–supplier relationships, we find that
+University of Finance and Economics, the presence of CIIs improves suppliers' operating and market performance,
+Dalian, China
+
+especially for suppliers with greater dependence on buyers. In addition, sup-
+Correspondence plier performance increases with the common ownership stakes held by CIIs,
+In-Mu Haw, Neeley School of Business, but decreases with the asymmetric ownership stakes of CIIs across supply
+Texas Christian University, Fort Worth,
+TX 76129. chain partners. We find that better financial collaboration between the partners
+Email: i.haw@tcu.edu appears to be a mechanism through which CIIs enhance supplier performance.
+
+Lastly, we find that the role of CIIs in strengthening supplier performance is dis-
+Handling Editor: Fabrizio Salvador
+
+tinct from that of direct equity links. Collectively, our findings highlight a novel
+[Correction added on 28 July 2020 after role of indirect cross-ownership in fostering supply chain collaboration and coor-
+first online publication: Sriram Narayanan
+and Subodha Kumar were incorrectly dinating vertical relationships and, in turn, improving supplier performance.
+included as handling editors.]
+
+KEYWORD S
+
+asymmetric ownership stake, buyer–supplier relationships, common institutional investors
+(CIIs), common ownership stake, supplier performance
+
+1 | INTRODUCTION theory to explain how social ties fostered by network
+embeddedness create the potential for governance mech-
+
+Buyer–supplier relationships are influenced by the anisms, as well as for informational and reputational
+networks in which they are embedded. In addition to advantages (Dong, Liu, Yu, & Zheng, 2015; Kim, 2014;
+influences related to the characteristics of a specific Moran, 2005). To date, however, research has neglected
+buyer–supplier relationship, the perceptions and actions an important network in which buyer–supplier relation-
+of both partners are influenced by structural and rela- ships are embedded—the network of ties created by com-
+tional attributes stemming from the direct and indirect mon institutional investors (CIIs) who simultaneously
+ties they have with other partners, associations, and insti- own shares in buyers and suppliers.1
+
+tutions (Cao & Lumineau, 2015; Dong, Ju, & Fang, 2016; The present study examines the influences of CIIs
+Wang, Zhang, Wang, & Sheng, 2016). Researchers have shared by buyer–supplier dyads. Because of the low rede-
+created a sizable and growing literature using social net- ployability of relationship-specific investments in a sup-
+work theory, social exchange theory, and social capital ply chain, both suppliers and buyers have incentives to
+
+670 © 2020 Association for Supply Chain Management, Inc. wileyonlinelibrary.com/journal/joom J Oper Manag. 2020;66:670–696.
+
+
+
+CHEUNG ET AL. 671
+
+exploit the other partner. In such a setting, direct or indi- on supplier performance. Specifically, we investigate the
+rect ownership linkages establish effective governance effects of the presence of CIIs and the levels of common
+mechanisms to safeguard investments and create value for ownership stake and asymmetric ownership stake of CIIs
+both partners. Whereas a buyer or supplier who partially on supplier performance. In addition, we examine the
+owns its partner is inclined to maximize its own value, a role of a supplier's asymmetric dependence on the buyer
+common investor for a buyer–supplier pair seeks to maxi- as a moderator of the beneficial effects of CII, and a
+mize the joint value of the portfolio (Ahmadjian & mechanism through which CIIs affect supplier perfor-
+Oxley, 2005; Lanier Jr, Wempe, & Zacharia, 2010; mance. Finally, we compare the distinct effects of direct
+Williamson, 1985).2 As a result, supplier and buyer policies and indirect equity links in supply chains.
+in the presence of CIIs could significantly differ from those Based on a large sample of buyer–supplier relation-
+absent CIIs, especially those policies that create externalities ships and a research design that decomposes the effect of
+for the other partner. For instance, partners with CIIs are CIIs into between- and within-firm components, we find
+likely to view relationship-specific investments differently that the presence of CIIs is positively associated with the
+from those without. In a more general setting, a growing operating and market performance of supplier firms. This
+body of literature has established that common owners seek effect is more pronounced when the suppliers are more
+to maximize their portfolio values by inducing their dependent on the principal buyers. Further, we find that
+portfolio firms to internalize externalities (e.g., Hansen & supplier firm performance increases with common own-
+Lott, 1996; Rubin, 2006). ership stakes but decreases with asymmetric ownership
+
+Despite the important role of CIIs, there is little under- stakes held by CIIs across the buyer–supplier dyad. These
+standing on how CIIs influence value creation in buyer– results are mostly driven by the between-firm compo-
+supplier interactions. Social network theory suggests that nents of the common (asymmetric) ownership stakes of
+embedded ties created by intense co-investments by CIIs CIIs and are consistent with our conjecture that CIIs fos-
+mitigate frictions inherent in buyer–supplier relationships. ter collaboration, enhance coordination, and curb oppor-
+Common investors likely exploit their access to buyer and tunism in buyer–supplier interactions, thereby improving
+supplier information to influence the decisions of both supplier performance. Our findings are corroborated by a
+parties. Such influence might be applied through informa- battery of robustness tests addressing endogeneity con-
+tional, reputational, monitoring, and/or controlling ele- cerns, using alternative performance measures, and com-
+ments (Kim, 2014) designed to limit opportunism and paring long-term versus short-term ownership. We also
+maximize the combined value of both parties (Heide, identify trade credits as a mechanism through which CIIs
+Wathne, & Rokkan, 2007; Kim, 2014). Prior research influence supplier performance. Finally, we find that the
+shows that institutional investors can influence firms effect of indirect equity links through CIIs is distinct from
+through direct communications with top managers that of direct equity links in the supply chain.
+(McCahery, Sautner, & Starks, 2016). CIIs can also directly This study makes several contributions to the literature.
+make shareholder proposals aimed at improving supply First, while a number of studies evaluate the performance
+chain performance and integration (He, Huang, & effects of direct equity linkages in a buyer–supplier dyad
+Zhao, 2019). In addition, CIIs can nominate directors to the (e.g., Allen & Phillips, 2002; Dyer, 1997; Fee, Edward,
+buyer–supplier pairs to mitigate supply chain frictions Hadlock, & Thomas, 2006; Gerlach, 1992), we focus on the
+(Rubin, 2006). For example, CIIs can link the executive com- indirect ownership created through CIIs. In the corporate
+pensation of one partner with the performance of the other world, indirect common ownership through CIIs is far more
+and thus increase the incentive of executives to collaborate to prevalent than direct ownership in supply chains. Fee
+improve joint performance of the partners (Liang, 2016). As et al. (2006) document that only 3.31% of buyer–supplier
+such, common investors might push both parties to invest in relationships (in a sample of 10,211 buyer–supplier-years)
+interorganizational systems to decrease information have direct equity linkages. In our preliminary sample
+asymmetries and to improve coordination (Sanders, 2008; (46,353 buyer–supplier-years),3 however, 42% of buyer–
+Wang & Wei, 2007). Beyond direct influences, the presence supplier relationships have indirect equity linkages through
+of CIIs may encourage the development of relational norms CIIs. Our findings indicate that the positive influences of
+that breed stronger information sharing, cooperation, and CIIs on the supplier performance are distinct from, and
+trust between buyers and suppliers. A recognition of their more substantial than, those of direct equity links in buyer–
+common institutional owners can prompt buyer–supplier supplier dyads. Furthermore, we find that the beneficial
+pairs to engage in joint value creation, while curbing oppor- effects of CIIs increase with suppliers' asymmetric depen-
+tunism (Granovetter, 1985; Gulati & Sytch, 2007). dence on the major buyers. This finding extends our under-
+
+In this study, we draw upon social network theory to standing of the interaction between network effects and
+develop and test predictions regarding the effects of CIIs power dependence.
+
+ 18731317, 2020, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/joom.1089 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+672 CHEUNG ET AL.
+
+Second, this study documents an economically signifi- Guo, 2018; Wang et al., 2016). The present study seeks to
+cant net benefit of CIIs in creating value in the supply advance social network theory by applying it to the context
+chain; 1 SD increase in the between-firm component of of ownership networks.
+the presence of CIIs corresponds to a 2-percentage-point Prior studies find that institutional investors have infor-
+rise in suppliers' gross profit margin. Further, we find mation advantages and play monitoring roles in corporate
+that supplier firm performance increases with common activities (Kochhar & David, 1996). A varied stream of
+ownership stakes but decreases with asymmetric owner- research documents evidence regarding the effects of CIIs
+ship stakes held by CIIs across a buyer–supplier dyad. on the outcome of mergers and acquisitions (Matvos &
+Therefore, by directing attention to the performance Ostrovsky, 2008), financial reporting (Jung, 2013), and
+implication of equity link through CIIs, this study offers industry competition (Azar, Schmalz, & Tecu, 2018; He &
+a novel extension of prior social network studies on sup- Huang, 2017). Matvos and Ostrovsky (2008) show that the
+ply chains, which largely focus on material flows (Kim, distorted incentives of common owners lead to adverse con-
+Choi, Yan, & Dooley, 2011) and knowledge and informa- sequences of mergers and acquisitions. Jung (2013) finds
+tion flows (Bellamy, Ghosh, & Hora, 2014). Third, the that a firm tends to follow a first-mover in information dis-
+exploratory portion of our study identifies trade receiv- closure if the firm and the first-mover have common
+ables as a mechanism through which CIIs influence sup- owners. Recent studies find that CIIs in the same industry
+plier performance, suggesting fruitful opportunities for affect industry competition. Azar et al. (2018) document
+future research. Lastly, this study provides an original that common investors in the airline industry strengthen
+comparison of the distinct effects of direct and indirect industry market power, leading to higher ticket prices. In
+equity links in the supply chain, extending prior work on contrast, He and Huang (2017) find that CIIs in the same
+the role of direct ownership (e.g., Dyer, 1997; Fee industry strengthen the coordination of product market
+et al., 2006). Altogether, our findings are important to decisions, leading to higher market share growth for the
+suppliers, buyers, and investors who seek to understand commonly held firms.
+the role of institutional cross-ownership in creating value Closer to our interests, Hansen and Lott (1996) demon-
+in vertical relationships. strate that common owners seek to maximize their portfo-
+
+lio values by inducing their portfolio firms to internalize
+externalities. Similarly, Rubin (2006) claims that common
+
+2 | LITERATURE REVIEW AND investors push boards of directors to make decisions based
+HYPOTHESIS DEVELOPMENT on the total benefit of firms within the investment portfo-
+
+lios, rather than the benefits of individual firms. These
+Buyers and suppliers are linked by incomplete contracts studies suggest that common owners maximize joint port-
+and relationship-specific investments that vary in level folio value as opposed to individual firm value. However,
+and specificity (Williamson, 1996). Because of differences this stream of research addresses collections of firms typi-
+in dependence and redeployability of investments, an cally selected by owners to minimize risk through diversi-
+exchange partner, either a supplier or a buyer, often has fication. Externalities and interdependencies among firms
+incentives to exploit quasi-rent (Handley & Benton, 2012). who populate such portfolios are broad and indirect, and
+Effective governance mechanisms can alleviate such perpetuated through common industry membership, com-
+opportunism and improve collaboration between the petition, or complementarities. Our study of common
+parties (Cao & Lumineau, 2015; Williamson, 1975). ownership in buyer–supplier dyads provides a much more
+
+Structural embeddedness of buyers and suppliers granular analysis of CIIs' influences on firms who are
+within social networks fosters informational, reputa- directly tied together through specific commercial trade
+tional, monitoring, and controlling influences, which act agreements and relationship-specific investments.
+as governance mechanisms (Kim, 2014). For example, In a concurrent study, Freeman (2019) finds that com-
+social network theory suggests that firms embedded in a mon institutional ownership along supply chains increases
+network of interdependent relationships develop relational the relationship duration and transaction size. Though
+norms that breed stronger information sharing, coopera- both studies investigate the economic consequences of
+tion, and trust, thereby facilitating joint value creation CIIs in buyer–supplier dyads, our study is distinct from
+while curbing opportunism (Granovetter, 1985; Gulati & Freeman (2019) in three important ways. First, we focus
+Sytch, 2007). Prior research has explored the influences of on the aggregate economic effects of CIIs in buyer–
+embeddedness in buyer–supplier networks (Dong supplier dyads, which are captured by the operating and
+et al., 2015; Kim, 2014; Kim, 2017) and institutional market performance of suppliers. As such, our findings
+(mostly national) networks (Cao & Lumineau, 2015; Dong corroborate and extend those from Freeman (2019). Sec-
+et al., 2016; Handley & Angst, 2015; Sheng, Zhou, Li, & ond, we demonstrate that the common ownership stakes
+
+ 18731317, 2020, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/joom.1089 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+CHEUNG ET AL. 673
+
+and asymmetric ownership stakes of CIIs exhibit con- (Liu, Luo, & Liu, 2009; Polidoro, Ahuja, & Mitchell, 2011;
+flicting effects on supplier performance, and thus extend Zaheer & Bell, 2005). Firms utilize relational norms
+Freeman (2019) who examines only one dimension of the as safeguards against opportunism and to protect
+effects. Third, we present novel evidence on the relative relationship-specific investments (Heide & John, 1988;
+effects of direct and indirect cross-ownership on supply Lee & Johnson, 2010; Lui & Ngo, 2004).
+chain relationships over and beyond Freeman (2019) who Studies on buyer–supplier relationships in the United
+examines only the effect of the latter. States generally find that suppliers tend to be more bound
+
+We propose that embeddedness in networks of com- by the relationship than buyers (Chen, Zhang, &
+mon ownership creates structural ties that influence Zhang, 2016; Hertzel, Li, Officer, & Rodgers, 2008), they are
+buyer and supplier behaviors in three primary ways: fos- more dependent, and they have lower bargaining power
+tering collaboration, enhancing coordination, and curb- (Cen, Maydew, Zhang, & Zuo, 2017; Radhakrishnan,
+ing opportunism. First, CIIs foster co-commitment and Wang, & Zhang, 2014). Therefore, we expect the influences
+norms of solidarity, that is, the willingness to strive for of CIIs in fostering collaboration, facilitating coordination,
+joint benefits (Rokkan, Heide, & Wathne, 2003). Institu- and curbing opportunism to be particularly beneficial for
+tional investors' interactions and communications with suppliers, as they often occupy the weaker position in the
+buyers and suppliers encourage them to view their rela- relationship. Accordingly, we focus on supplier perfor-
+tionship as a single maximizing unit as opposed to mance to investigate the influences of CIIs in buyer–
+exchange between separate maximizers (Macneil, 1981). supplier relationships. Our first hypothesis builds on the
+Activities (such as relationship-specific investments) of expectation that CIIs strengthen vertical relationships and
+one partner often have externalities to the other. Com- mitigate potential conflicts in buyer–supplier dyads, leading
+mon owners can internalize such externalities and raise to favorable performance of suppliers:
+the expectation of repeated exchange, thereby inducing
+partners to collaborate to maximize their joint benefits Hypothesis 1 When CIIs are present in buyer–supplier
+(Dyer, 1996, 1997; Jap, 1999). For instance, CIIs can link dyads, suppliers are more profitable than otherwise.
+the executive compensation of one partner with the per-
+formance of the other, which strengthens the incentive of Our second hypothesis relies upon the power depen-
+collaboration to enhance joint performance of the part- dence theory, which posits that the higher-power party
+ners (Liang, 2016). More broadly, a shared vision of the uses its power to appropriate value from the lower-power
+future through common ownership encourages collabo- party (Emerson, 1962). The literature contends that a
+ration (Dyer, 1997; Handley & Benton, 2012; Rokkan supplier's dependence on a given buyer grows in propor-
+et al., 2003). tion to the fraction of the supplier's total sales that are
+
+Second, common investors can access and share consumed by the buyer (Elking, Paraskevas, Grimm, &
+information from both the supplier and buyer (Cohen & Corsi, 2017; Kim, 2017; Kim & Zhu, 2018; Lanier Jr
+Frazzini, 2008), enabling them to incorporate financial et al., 2010). Similarly, a buyer's dependence grows in
+and operating conditions of a buyer–supplier pair into proportion to the fraction of its total purchases provided
+decisions that could maximize their joint value (Heide by the supplier.
+et al., 2007; Kim, 2014). CIIs create structural channels A number of researchers argue that asymmetric
+for information processing and coordination (Bensaou & dependence in a buyer–supplier relationship, namely the
+Venkatraman, 1995). For example, investors can hold pri- differential levels of dependence of one partner on the
+vate discussions with executives or board members of the other, creates power imbalance which encourages oppor-
+partners, providing them an opportunity to influence the tunism, primarily because the dependent (weaker) party
+managerial and operating decisions of the partners lacks abilities to influence the independent (stronger)
+(McCahery et al., 2016). party (Casciaro & Mikolaj, 2005; Elking et al., 2017;
+
+Third, CIIs may provide structures for curbing opportun- Kim & Zhu, 2018; Park & Ungson, 1997). Thus, asymmet-
+ism arising in the buyer–supplier interactions. For example, ric dependence benefits the higher-power party, but harms
+CIIs can nominate directors to both buyers and suppliers to the lower-power party in the short term. A number of
+mitigate supply chain frictions (Rubin, 2006). As noted prior studies provide related empirical evidence. Crook
+above, such structural embeddedness leads to relational and Combs (2007) find that when task interdependence
+embeddedness and ties that increase the costs of opportun- among supply chain members is not reciprocal, strong
+ism and/defections by either party (Carey, Lawson, & members utilize their bargaining power to appropriate
+Krause, 2011; Kim, 2014; Parkhe, 1993; Schelling, 1978). In partnership gains. Using the relative dependence of a dis-
+addition, relational norms foster cooperation and impose tributor on the manufacturer as a proxy for potential hold-
+sanctions on partners who violate norms and shared values up in supply chains, Schloetzer (2012) finds that a decrease
+
+ 18731317, 2020, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/joom.1089 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+674 CHEUNG ET AL.
+
+in asymmetric dependence improves process integration Moreover, we expect that asymmetry in ownership
+and information sharing between partners in the supply stakes held by CIIs in a supplier–buyer dyad matters. We
+chain, leading to favorable financial performance for the define asymmetric ownership (ownership asymmetry) as
+partners and contract renewal. Park and Ungson (1997) the absolute difference in the ownership stakes held by a
+document how dependence asymmetries lead to instability CII across the supplier and buyer. If CIIs hold an equal
+and dissolution in joint ventures. Kim and Zhu (2018) ownership stake in a buyer and its supplier, they aim
+show that suppliers' lack of monitoring ability and finan- to maximize the joint value of the pair and have little
+cial distress caused by heavy dependence on major buyers incentive to transfer profit from one to the other
+limit their abilities to invest in R&D. (Hansen & Lott, 1996). However, if their stakes in the
+
+The foregoing discussions suggest that asymmet- partners are asymmetric, common investors have an
+ric dependence exerts adverse effects on the lower- incentive to transfer profit from the partner with a
+power party in a buyer–supplier relationship, as it is lower stake to the one with a higher stake to maximize
+likely to face opportunistic behaviors and threats the portfolio value. As such, CIIs with higher asymme-
+from the powerful counterpart. In such a case, CIIs try in ownership stakes between partners have a lower
+who seek to maximize their portfolio value likely incentive to strengthen collaboration, foster coordina-
+have stronger incentives to promote joint improve- tion, and curb opportunism in the supply chain. Thus,
+ment efforts, create channels for coordination, the benefits of CIIs for suppliers are muted by the
+and curb opportunism, thereby defusing frictions asymmetric ownership stakes. This leads to our fourth
+between the parties and improving collaboration hypothesis as follows:
+(Bensaou & Venkatraman, 1995; Benton &
+Maloni, 2005; Zhao, Huo, Flynn, & Yeung, 2008). Hypothesis 4 The positive effect of the presence of CIIs on
+Taken together, we expect that the beneficial influence the supplier's profitability decreases with the level of
+of CIIs is more pronounced for suppliers with greater asymmetric ownership of CIIs in a supplier–buyer
+asymmetric dependence on their major buyers. There- dyad.
+fore, our second hypothesis is stated as follows:
+
+Hypothesis 2 The effect of the presence of CIIs on the 3 | DATA AND VARIABLES
+supplier's profitability is more pronounced when
+the supplier is more asymmetrically dependent on the 3.1 | Buyer–supplier data
+buyer.
+
+We select a sample period over 1982–2011 in order to
+Next, we consider the impacts of two distinct features obtain all required data from various data sources. Fol-
+
+of ownership that CIIs hold in the partners. The first fea- lowing the literature, we identify buyer–supplier relation-
+ture is the level of common ownership, defined as the ships using COMPUSTAT Segment Customer files.4 First,
+minimum ownership stake (i.e., percentage of sharehold- to get the unique buyer identifiers, we use an algorithm
+ing) a CII holds in either the supplier or buyer in a to match buyer names to the name file of COMPUSTAT,
+supplier–buyer dyad. When CIIs hold a higher level of and select the one with the smallest difference. Then, we
+common ownership stake across the two partners, they conduct a visual inspection and use industry information
+have a greater incentive to maximize their portfolio value to verify whether the selected one is indeed the buyer for
+by strengthening collaboration, improving coordination, a given supplier. Finally, we match the buyer identifiers
+and curbing opportunism by the powerful partner to identifiers in COMPUSTAT, CRSP, and Thomson
+(Kochhar & David, 1996; Wilson, 1975). In contrast, insti- Reuters, and obtain fundamental buyer information and
+tutional investors with a lower level of common owner- institutional shareholding information. To exclude cases
+ship stake have limited abilities to influence the supply where the supplier and buyer are in a business group, we
+chain partners, as they might be superseded by owners use data from WRDS corporate library to check whether
+with greater shareholdings. Accordingly, we expect the the supplier (buyer) is the dominant shareholder of the
+hypothesized effect in H1 to increase with the level of buyer (supplier), or they have the same dominant share-
+common ownership stake of CIIs. Our third hypothesis holder. Since WRDS corporate library data begin from
+is, therefore: 2001 and have limited coverage, we also use the WRDS
+
+blockholders' database and the SEC EDGAR system5 to
+Hypothesis 3 The positive effect of the presence of CIIs on identify blockholders of a supplier and buyer and delete
+
+the supplier's profitability increases with the level of those buyer–supplier fiscal years where the shareholding
+common ownership of CIIs in a supplier–buyer dyad. percentage by one over the other is greater than 25%.
+
+ 18731317, 2020, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/joom.1089 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+CHEUNG ET AL. 675
+
+We exclude observations where either the supplier or XJ
+buyer is a financial (SIC codes 6000–6999) or utility firm CII_COi,t = CII_COi,t,j × Supplier ownershipi,t,j ð1Þ
+(SIC codes 4900–4999), observations where supplier sales j=1
+
+or buyer cost of goods sold is negative and where the pro-
+portion of sales to the buyer or the proportion of cost of where j is the number of CIIs for a relationship i.CII_COi,t,j is
+goods sold from the supplier exceeds 1. We also drop measured by a CII j's percentage of shareholding in a buyer
+observations with missing values for variables employed or supplier of the relationship i, whichever is lower, in year
+in the regressions. To distinguish the between- and t (see Figure 1). The lower ownership is considered the lower
+within-firm components of our explanatory variables,6 bound of the CIIs' incentives to improve collaboration and
+we exclude suppliers with only 1 year of data in the sam- coordination and curb opportunism in the supply chain. Sup-
+ple period. Our final sample consists of 11,052 supplier plier ownershipi,t,j is the percentage of shares held by a CII j in
+firm-years for 14,708 pair-years over the sample period. a supplier of the relationship i in year t. We weight CII_COi,t,j
+
+by supplier ownership as it determines the influence that
+CIIs can exert on the supplier's operating decisions.8
+
+3.2 | Institutional investor and The average asymmetric ownership stake of CIIs
+other data (CII_ASY) for the buyer–supplier relationship i in year
+
+t is calculated as follows:
+Institutional investor data are extracted from the Thom-
+son Reuters Institutional (13F) Holdings database from XJ
+1982 to 2011.7 As Klein and Zur (2009) find that hedge CII_ASYi,t = CII_ASYi,t,j × Supplier ownershipi,t,j ð2Þ
+
+j=1
+funds, individuals, private equity funds, venture capital
+firms, and asset management groups are monitors, we
+focus on a broad group of institutional investors, includ- CII_ASYi,t,j is calculated as the absolute difference
+ing investment companies and their managers, and inde- between the supplier ownership stake and the buyer
+pendent investment advisors. Specifically, we consider ownership stake held by a CII j in the relationship i in
+Type 3 (investment companies and their managers) and year t. For buyer–supplier relationships without CIIs,
+Type 4 (independent investment advisors) institutional CII_COi,t and CII_ASYi,t are equal to 0. Figure 1 further
+investors in the Thomson Reuters Institutional (13F) illustrates the calculation of CII_COi,t and CII_ASYi,t.
+Holdings database. We search through these data to iden- We measure asymmetric dependence (ADEPi,t) of a sup-
+tify institutional investors that hold shares in both the plier on a buyer as the distance between sales dependence
+buyer and supplier. A supplier–buyer relationship is (i.e., supplier dependence on the buyer) based on the percent-
+deemed to have a CII in year t if an institutional investor age of supplier sales to the buyer and cost dependence
+simultaneously holds shares of the buyer and supplier for (i.e., buyer dependence on the supplier) based on the percent-
+more than two quarters of year t. age of buyer cost of goods sold from the supplier (Elking
+
+Financial data come from COMPUSTAT or CRSP/ et al., 2017; Kim, 2017; Kim & Zhu, 2018; Lanier Jr
+COMPUSTAT Merged database. Market data are from et al., 2010). Factors such as product complexity, requirements
+CRSP/COMPUSTAT Merged database. Data for directors for relationship-specific investments, and resource scarcity
+are from RiskMetrics (currently Institutional Shareholder (e.g., technological know-how) can also cause asymmetric
+Services [ISS]), and data for analysts are from IBES. All dependence in buyer–supplier relationships. We consider
+nominal variables are winsorized at the 1% and 99% these factors using an alternative measure of dependence in
+levels to minimize the effect of outliers. the later analysis.
+
+Since one supplier may have more than one buyer, we
+treat all buyers for a given supplier as a portfolio and weight
+
+3.3 | Measuring common ownership, CII_COi,t,CII_ASYi,t, andADEPi,t by the percentage of supplier
+asymmetric ownership, and dependence in sales to each buyer to construct supplier firm-level counter-
+buyer–supplier dyads parts9: CII_COf,t, CII_ASYf,t and ADEPf,t. For empirical ana-
+
+lyses, we use the decile ranks ofCII_COf,t andCII_ASYf,t.
+Cohen and Frazzini (2008) and Jung (2013) measure
+common ownership by the number of CIIs over the total
+number of institutional investors. In this study, we mea- 4 | RESEARCH DESIGN
+sure the average common ownership stake of CIIs
+(CII_COi,t) for a buyer–supplier relationship i in year t as To test our hypotheses, we extend the supplier firm per-
+follows: formance model of Patatoukas (2012) to include an
+
+ 18731317, 2020, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/joom.1089 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+676 CHEUNG ET AL.
+
+FIGURE 1 Illustration of
+common institutional
+ownership along a supply chain.
+(A)–(C) are institutional
+investors who simultaneously
+hold shares of the supplier and
+buyer. As an example, the figure
+shows the ownership stakes of
+each common institutional
+investor in the supplier and
+buyer at the end of the last
+quarter of their shareholdings in
+year t. The common
+institutional ownership
+(CII_COi,t) at the relationship
+level is calculated as min (1%,
+2%) × 2% + min (3%, 4%) × 4%
++ min (5%, 6%) × 6% = 0.46%;
+the asymmetric institutional
+ownership (CII_ASYi,t) at the
+relationship level is calculated
+as |1%–2%| × 2% + |3%–
+4%| × 4% + |5%–
+6%| × 6% = 0.12%
+
+indicator of CIIs (CII_D), firm-specific institutional own- also employ alternative operating and market performance
+ership (INST), and other common governance vari- measures.
+ables.10 Institutional investors tend to invest in firms with CII_Dft captures the existence of CIIs. We first mea-
+high performance (Covrig, Lau, & Ng, 2006; Ferreira & sure CII_Di,t at the relationship level, in which it takes a
+Matos, 2008; Lang & Mcnichols, 1997). To mitigate the value of 1 if a relationship has at least one CII, and 0 oth-
+reverse causality concern, we measure supplier perfor- erwise. Then, we weight the relationship-level CII_Di,t by
+mance in year t + 1 (e.g., Balafas & Florackis, 2014; Cal- the corresponding percentage of sales to each buyer to
+len & Fang, 2013; Hall, Mairesse, & Mohnen, 2010; Qian & obtain the counterpart at the supplier firm level, CII_Dft.
+Steiner, 2017)11 and control for supplier performance in Likewise, we construct CDIft, CANft, and CAUft, which
+year t. The extended model is specified as follows: capture the existence of a common director, a common
+
+analyst, and a common auditor, respectively. We control
+GPMft+1 = α0 + α1CII_Dft + α2CDIft + α3CANft for these variables to account for the effects of other com-
+
++ α munication channels between the supplier and buyer.
+4CAUft + α5INSTft + α6Sizeft
+
++ α7Sales grow We also control for institutional ownership (INSTft) as
+Xthft + α8Ageft + α9Debt ratioft
+
+prior research finds a positive effect of institutional own-
++ α10ROSft + ∂ FY A
+X j 1j E R j ership on firm performance (e.g., Smith, 1996). Control-
+
++ ∂ N ling for INSTft also allows us to detect the incremental
+j 2jI D j +ωft
+
+effect of CIIs beyond other institutional investors. Sizeft isð3Þ the natural logarithm of total assets. Sales growthft is the
+growth rate of sales. Ageft is the number of years since
+
+where f indexes supplier firms and t indexes years. GPM the supplier listed or existed in COMPUSTAT, which-
+is the gross profit margin of suppliers, calculated as net ever is earlier. Debt ratioft is total debt divided by total
+sales minus cost of goods sold divided by net sales. We assets. Following prior literature (e.g., Waldman,
+use the gross profit margin as the main operating per- Ramirez, House, & Puranam, 2001), we control for sup-
+formance measure because it is most relevant to the plier net profit margin in year t, measured by net
+buyer–supplier relationships and commonly used as a income divided by net sales (ROSft). FYEAR and IND
+performance measure for buyer–supplier relationships are indicators for fiscal years and industries based on
+(e.g., Corbett & Karmarkar, 2001; Kulp, Lee, & Ofek, 2004; two-digit SIC codes. Appendix A provides detailed vari-
+Radhakrishnan et al., 2014). In the following sections, we able definitions.
+
+ 18731317, 2020, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/joom.1089 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+CHEUNG ET AL. 677
+
+Though our panel data exhibit both within- and coefficient on CII ASY f or CII_ASYft − CII ASY f is sig-
+between-firm variations along key variables, Equation (3) nificantly negative. To address the concern that within-
+does not distinguish the between- and within-firm effects firm residuals are positively correlated, we use the stan-
+of explanatory variables on supplier performance and dard errors clustered by firm to test the significance of
+assumes the two are identical. Certo, Withers, and coefficients.
+Semadeni (2017) find that the between-firm relationship
+differs from the within-firm relationship in the majority
+of strategic management studies involving panel data, 5 | EMPIRICAL RESULTS
+and stress that theorizing and testing the two types of
+relationships generate additional insights. Therefore, fol- Current accounting standards (SFAS 14 and SFAS 131)
+lowing Certo et al. (2017) and Schunck (2013), we decom- require firms to disclose major buyers (greater than 10%
+pose each explanatory variable in Equation (3) into the of sales), but not major suppliers. As a result, our sample
+between- and within-firm components and estimate the has comprehensive information about major buyers, but
+following hybrid regression model: limited information about major suppliers. The sample
+
+  average (median) sales dependence of suppliers is about
+GPMft+1 = β0 + β1CII_Df + β2 CII_Dft−CII_D f 20% (15%) and the average (median) cost dependence of
+
++ β buyers is about 2% (0.2%). Given that the dependence of
+3CDI f + β4 CDIft−CDI f + β5CAN f
+
+buyers on their suppliers is quite low, it is unlikely that
++ β6CANft−CAN f + β7CAU f the sample contains a substantial representation of sup-
++ β8 CAUft−CAU f + β9INST f pliers who threaten dependent buyers. Hence, the sample
++ β10INSTft− INST f + β11Size f composition supports our focus on dependent suppliers
++ β in buyer–supplier relationships. In the following sections,
+
+12Sizeft−Size f + β13Sales growthf we first present the descriptive statistics of sample firms'
++ β14 Sales growthft−Sales growth
+
+  f characteristics and main variables. Then, we provide
+
++ main results concerning the effects of CIIs on supplier
+β15Age f + β16 Ageft−Age f + β17Debt ratio f
+
+  performance. Lastly, we provide a series of robustness
++ β18Debt ratioft−DebtXratio f + β19ROS f tests, including endogeneity checks, and a potential
++ β mechanism test.
+
+20 ROSft−ROS f + φ E R
+X j 1jFY A j
+
++ φ
+j 2jIND j + εft
+
+ð4Þ 5.1 | Descriptive statistics
+
+Table 1 presents the firm-level statistics for suppliers and
+−
+Xf is the average value of Xft of firm f over the sample buyers in our final sample. Consistent with prior
+
+period, denoting the between-firm component of Xft. research, buyers are much larger and older than suppliers
+−
+
+Xft-Xf denotes the within-firm component of Xft. We have and a typical COMPUSTAT firm. Buyers have more capi-
+no a priori theory to expect the between-firm effect of CIIs tal expenditures (CAPEX) and lower growth potential
+to differ from the within-firm effect. Therefore, Hypothesis (TobinQ) than suppliers on average. However, the mean
+1 is supported if β1 and/or β2 is significantly positive. and median values of R&D intensity (R&D/TA) of sup-
+
+To test Hypothesis 2, we follow Shaver (2019) and use pliers are significantly higher than those of buyers. Com-
+subsample analyses.12 We split supplier-years by the pared with a median COMPUSTAT firm, suppliers have
+industry median of ADEPft into high vs. low dependence larger size, higher growth potential, a longer history of
+groups. Hypothesis 2 predicts β1 and/or β2 to be signifi- listing, and greater R&D expenditures. In total, our final
+cantly greater in the high dependence group than in the sample (consisting of distinct supplier and buyer firms)
+low dependence group. accounts for around 12% of COMPUSTAT firms over our
+
+To test Hypotheses 3 and 4, we add the proxies for the sample period, excluding financial and utility industries.
+common ownership stake of CIIs (CII_COft) and the asym- Table 2 reports the descriptive statistics of our regres-
+metric ownership stake that CIIs hold across the partners sion variables. The average gross profit margin (GPMft + 1)
+(CII_ASYft) to Equation (3) and further decompose them is 24%. Its intraclass correlation coefficient13 is 0.71 (0.762/
+into CII CO f , CII_COft − CII CO f , CII ASY f and [0.762 + 0.492]), suggesting that for GPMft + 1, between-
+CII_ASYft − CII ASY f . Hypothesis 3 predicts that the firm variance is the primary source of variance. The
+coefficient on CII CO f or CII_COft − CII CO f is signifi- weighted average value of the presence of CIIs (CII_Dft) is
+cantly positive, while Hypothesis 4 predicts that the 82%. The greater standard deviation of CII D f relative to
+
+ 18731317, 2020, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/joom.1089 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+678 CHEUNG ET AL.
+
+TABLE 1 Sample description
+
+COMPUSTAT (1) Supplier (2) Buyer (3)
+
+Total Assets ($ in million) Mean 1,750 1,987 22,325
+
+Median 75 178 5,572
+
+Obs. 215,921 11,052 5,265
+
+CAPEX Mean 0.08 0.06 0.07
+
+Median 0.04 0.04 0.05
+
+Obs. 215,231 11,052 5,265
+
+TobinQ Mean 14.04 2.22 2.08
+
+Median 1.45 1.56 1.54
+
+Obs. 183,724 11,020 5,252
+
+Age Mean 11.64 15.37 26.74
+
+Median 8.00 11.00 24.00
+
+Obs. 232,054 11,052 5,265
+
+R&D/TA Mean 0.10 0.08 0.04
+
+Median 0.00 0.03 0.01
+
+Obs. 215,231 11,052 5,265
+
+Note: The variables in the first column are calculated using the COMPUSTAT data after excluding firm-years from financial and utility
+industries, and over our sample period. CAPEX is capital expenditure divided by total assets. TobinQ is calculated as the sum of market
+value of equity and the book value of total liabilities divided by total assets. Age equals fiscal year minus the minimum between IPO
+year and the first year the firm exists in COMPUSTAT. R&D/TA equals R&D expenditure divided by total assets. Missing capital expen-
+diture and R&D expenditure values are set to 0.
+
+that of CII_Dft − CII D f suggests that the between-firm growth rate of 10%, and a debt ratio of 14%, and a net
+variance of CII_Dft is greater than its within-firm vari- income to sales ratio of 3%. The median size in natural
+ance. For the two characteristics of common institutional logarithm (age) of the suppliers is around 5.18 million
+ownership, the weighted average (median) common own- dollars (11 years). All control variables except Sales
+ership stake of CIIs is 0.08% (0.05%), and the weighted growthft have greater between-firm variances than
+average (median) asymmetric ownership stake of CIIs is within-firm variances.
+0.21% (0.11%).14 In terms of the dollar amount of invest-
+ment for CIIs, the average (median) market value of
+stocks they hold in the partner with lower ownership is 5.2 | Effects of CIIs on supplier
+around $88 ($13) million, which is about 5% (15%) of the performance
+average (median) market value of COMPUSTAT universe
+(mean of $1,681 million; median of $88 million). The Table 3 reports our main results. In Column 1 based
+greater standard deviation of CII CO f (CII ASY f ) relative on Equation (4), the coefficient on the between-firm
+to that of CII_COft − CII CO f (CII_ASYft − CII ASY f ) component of CII_Dft (CII D f ) is 0.09 and significantly
+suggests that the between-firm variance of CII_COft positive (p< .05), indicating that suppliers with the pres-
+(CII_ASYft) dominates the within-firm one. The weighted ence of CIIs outperform peers without, consistent with
+average of the presence of long-term CIIs with a holding Hypothesis 1. In economic terms, one standard deviation
+period more than 2 years is 4%. increase in CII D f corresponds to a rise in gross profit
+
+The greater standard deviation of CII Long f relative margin (GPMft+ 1) by 2 percentage points (0.26× 0.09).
+to that of CII_Longft − CII Long f suggests a greater However, the coefficient on the within-firm compo-
+between-firm variance than the within-firm one. The nent of CII_Dft (CII_Dft − CII D f ) is not significant.
+weighted average of asymmetric dependence of the Columns 2–3 present the effect of CIIs on supplier perfor-
+supplier on their buyers (ADEPft) is 20%. The weighted mance in groups with high and low dependence.
+average of the presence of the same director, analysts, The coefficient on CII D f is only significant in the high
+and auditor is 0.4%, 25%, and 21%, respectively. For dependence group (p< .01), which is significantly greater
+other control variables, at the median level, suppliers than that in the low dependence group as shown in the
+have an institutional ownership (INSTft) of 12%, a sales bottom line (p< .10). This result supports Hypothesis 2.
+
+ 18731317, 2020, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/joom.1089 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+CHEUNG ET AL. 679
+
+TABLE 2 Descriptive statistics
+
+Variable Obs. Mean Std. P1 Q1 Median Q3 P99
+
+GPMft + 1 11,052 0.24 0.91 −6.36 0.23 0.37 0.53 0.93
+
+GPM f 11,052 0.24 0.76 −3.84 0.23 0.36 0.51 0.89
+
+GPMft + 1- GPM f 11,052 0.00 0.49 −2.03 −0.03 0.00 0.03 1.65
+
+CII_Dft 11,052 0.82 0.37 0.00 1.00 1.00 1.00 1.00
+
+CII D f 11,052 0.82 0.26 0.00 0.75 0.95 1.00 1.00
+
+CII_Dft - CII D f 11,052 0.00 0.25 −0.86 0.00 0.00 0.10 0.51
+
+CII_COft 11,052 4.45 2.95 0.00 2.00 4.50 7.00 9.00
+
+CII CO f 11,052 4.45 2.31 0.00 2.67 4.50 6.36 8.50
+
+CII_COft - CII CO f 11,052 0.00 1.82 −5.33 −1.00 0.00 1.04 4.20
+
+CII_ASYft 11,052 4.45 2.95 0.00 2.00 4.50 7.00 9.00
+
+CII ASY f 11,052 4.45 2.11 0.00 3.00 4.71 6.00 8.67
+
+CII_ASYft - CII ASY f 11,052 0.00 2.05 −5.56 −1.15 0.00 1.33 4.60
+
+CII_Longft 11,052 0.04 0.05 0.00 0.00 0.01 0.06 0.24
+
+CII Long f 11,052 0.04 0.04 0.00 0.00 0.03 0.06 0.18
+
+CII_Longft - CII Long f 11,052 0.00 0.03 −0.09 −0.01 0.00 0.01 0.12
+
+ADEPft 11,052 0.20 0.18 −0.11 0.10 0.15 0.24 0.90
+
+CDIft 11,052 0.00 0.06 0.00 0.00 0.00 0.00 0.00
+
+CDI f 11,052 0.00 0.05 0.00 0.00 0.00 0.00 0.02
+
+CDIft - CDI f 11,052 0.00 0.03 0.00 0.00 0.00 0.00 0.00
+
+CANft 11,052 0.25 0.42 0.00 0.00 0.00 0.54 1.00
+
+CAN f 11,052 0.25 0.34 0.00 0.00 0.06 0.48 1.00
+
+CANft - CAN f 11,052 0.00 0.25 −0.70 −0.04 0.00 0.00 0.80
+
+CAUft 11,052 0.21 0.39 0.00 0.00 0.00 0.10 1.00
+
+CAU f 11,052 0.21 0.32 0.00 0.00 0.00 0.35 1.00
+
+CAUft - CAU f 11,052 0.00 0.22 −0.61 0.00 0.00 0.00 0.75
+
+INSTft 11,052 0.13 0.13 0.00 0.03 0.09 0.19 0.58
+
+INST f 11,052 0.13 0.10 0.00 0.06 0.12 0.18 0.43
+
+INSTft - INST f 11,052 0.00 0.09 −0.21 −0.04 0.00 0.04 0.27
+
+Sizeft 11,052 5.41 1.94 1.51 3.99 5.18 6.73 10.32
+
+Size f 11,052 5.41 1.87 1.77 4.05 5.16 6.68 10.17
+
+Sizeft - Size f 11,052 0.00 0.54 −1.72 −0.20 0.01 0.24 1.41
+
+Sales growthft 11,052 0.23 0.58 −0.58 −0.03 0.10 0.30 3.74
+
+Sales growth f 11,052 0.23 0.33 −0.18 0.05 0.14 0.28 1.70
+
+Sales growthft -Sales growth f 11,052 0.00 0.48 −1.23 −0.17 −0.02 0.12 2.09
+
+Ageft 11,052 15.35 13.30 1.00 6.00 11.00 21.00 57.00
+
+Age f 11,052 15.35 12.76 2.33 6.50 10.27 19.67 55.09
+
+Ageft − Age f 11,052 0.00 3.75 −10.50 −1.83 0.00 2.00 9.78
+
+Debt ratioft 11,052 0.19 0.20 0.00 0.01 0.14 0.31 0.93
+
+Debt ratio f 11,052 0.19 0.18 0.00 0.04 0.16 0.30 0.74
+
+Debt ratioft - Debt ratio f 11,052 0.00 0.10 −0.28 −0.04 0.00 0.04 0.34
+
+ROSft 11,052 −0.25 1.09 −7.84 −0.08 0.03 0.08 0.41
+
+ROS f 11,052 −0.25 0.90 −4.79 −0.09 0.01 0.05 0.25
+
+ROSft - ROS f 11,052 0.00 0.62 −2.95 −0.03 0.01 0.07 1.88
+
+Note: See Appendix A for variable definitions.
+
+ 18731317, 2020, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/joom.1089 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+680 CHEUNG ET AL.
+
+TABLE 3 Effects of CIIs on supplier operating performance
+
+(1) High dependence (2) Low dependence (3) (4)
+
+Intercept 0.35*** 0.44*** 0.23 0.35***
+
+(2.66) (2.64) (1.18) (2.59)
+
+CII D f 0.09** 0.14*** 0.04 0.19***
+
+(2.29) (2.72) (1.05) (3.16)
+
+CII_Dft - CII D f 0.02 0.04 −0.03 0.00
+
+(0.98) (1.09) (−1.03) (0.14)
+
+CII CO f 0.02**
+
+(2.11)
+
+CII_COft - CII CO f 0.00
+
+(0.79)
+
+CII ASY f −0.04***
+(−3.82)
+
+CII_ASYft - CII ASY f 0.00
+
+(0.16)
+
+CDI f 0.15 0.36 0.10 0.14
+
+(1.49) (1.18) (1.27) (1.32)
+
+CDIft - CDI f −0.03 0.19 −0.02 −0.03
+(−0.76) (0.75) (−0.57) (−0.68)
+
+CAN f −0.05 −0.05 −0.05 −0.05
+(−1.26) (−0.97) (−1.27) (−1.31)
+
+CANft - CAN f −0.02 −0.03 −0.01 −0.02
+(−0.83) (−0.73) (−0.35) (−0.91)
+
+CAU f −0.02 −0.00 −0.03 −0.02
+(−0.75) (−0.02) (−0.99) (−0.79)
+
+CAUft -CAU f 0.02 0.04 0.00 0.02
+
+(0.71) (0.89) (0.04) (0.75)
+
+INST f −0.08 −0.19 0.04 0.19
+
+(−0.84) (−1.35) (0.38) (1.52)
+
+INSTft - INST f 0.12 0.06 0.03 0.08
+
+(1.32) (0.40) (0.26) (0.83)
+
+Size f −0.01 −0.01 −0.00 −0.01
+(−1.05) (−1.06) (−0.28) (−1.39)
+
+Sizeft - Size f −0.02 0.01 −0.04 −0.02
+(−0.57) (0.33) (−1.34) (−0.68)
+
+Sales growth f 0.21*** 0.24*** 0.16** 0.21***
+
+(3.17) (2.97) (1.97) (3.12)
+
+Sales growthft - Sales growth f 0.05** 0.08** −0.02 0.05**
+
+(2.20) (2.46) (−0.57) (2.23)
+
+Age f −0.00 −0.00 −0.00 −0.00
+(−0.71) (−0.53) (−1.09) (−0.62)
+
+Ageft - Age f 0.00 0.01 −0.00 0.00
+
+(0.49) (1.14) (−0.34) (0.33)
+
+Debt ratio f 0.25*** 0.31*** 0.12 0.25***
+
+ 18731317, 2020, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/joom.1089 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+CHEUNG ET AL. 681
+
+TABLE 3 (Continued)
+
+(1) High dependence (2) Low dependence (3) (4)
+
+(3.32) (3.03) (1.41) (3.36)
+
+Debt ratioft - Debt ratio f 0.29*** 0.31** 0.20 0.28***
+
+(3.34) (2.35) (1.54) (3.33)
+
+ROS f 0.68*** 0.71*** 0.53*** 0.68***
+
+(17.03) (17.82) (8.35) (17.11)
+
+ROSft - ROS f 0.24*** 0.27*** 0.17*** 0.24***
+
+(6.07) (5.24) (2.95) (6.07)
+
+Adj. R2 0.50 0.56 0.34 0.50
+
+Obs. 11,052 5,850 5,202 11,052
+
+Difference in coefficient on CII D f 0.10*
+between subgroups (1.86)
+
+Note: The regression model is based on Equation (4). t statistics are in parentheses; standard errors are clustered by firm. Fiscal year and
+industry fixed effects are controlled for. See Appendix A for variable definitions.
+*p ≤ .10.
+**p ≤ .05.
+***p ≤ .01 (two tailed).
+
+FIGURE 2 The
+moderating effect of ADEPft on
+the relationship between CII D f
+
+and GPMft+ 1. This figure plots
+the pick-a-point simple slopes of
+the regression of gross profit
+margin (GPMft+ 1) on the
+between-firm component of
+CII_Dft (CII D f ) at the high and
+low levels of asymmetric
+dependence of the supplier on
+its buyer (ADEPft). Firms fall in
+the high (low) dependence
+group if their asymmetric
+dependences on buyers are
+above (below) the industry
+median for each year. The slope
+for the high dependence group
+is significant, whereas that for
+low dependence group is not
+
+Following Bauer and Curran (2005), we plot the pick- common ownership of CIIs (CII CO f ) is significantly
+a-point simple slopes of CII D f at the high and low levels and positively associated with supplier performance
+of ADEPft in Figure 2. The steeper slope of the “high (p< .05). One standard deviation increase in CII CO f
+dependence” group relative to that of the “low depen- results in a 5 percentage point increase in GPMft+ 1
+
+dence” group signifies the more pronounced effect of (2.31× 0.02). This result suggests that, after controlling
+CII D f on supplier performance in the former group. for the existence of CIIs, a greater ownership stake by
+
+Column 4 presents the regression results after CIIs further enhances the operating performance of
+adding both the between- and within-firm components suppliers. The coefficient on CII D f remains significant.
+of the common ownership stakes (CII_COft) and Further, the between-firm component of ownership
+the asymmetric ownership stakes of CIIs (CII_ASYft) asymmetry (CII ASY f ) is negatively associated with
+to Equation (4). The between-firm component of GPMft+ 1 (p< .01). One standard deviation increase in
+
+ 18731317, 2020, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/joom.1089 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+682 CHEUNG ET AL.
+
+TABLE 4 Robustness checks on the role of CIIs
+
+(1) High dependence (2) Low dependence (3) (4)
+
+Panel A: Two-year-ahead gross profit margin
+
+CII D f 0.12** 0.15** 0.10* 0.24***
+
+(2.55) (2.52) (1.86) (3.27)
+
+CII_Dft - CII D f 0.03 −0.01 0.05 −0.04
+(1.02) (−0.14) (1.14) (−1.04)
+
+CII CO f 0.02*
+
+(1.84)
+
+CII_COft - CII CO f 0.01
+
+(1.17)
+
+CII ASY f −0.05***
+(−3.60)
+
+CII_ASYft - CII ASY f 0.01*
+
+(1.93)
+
+Controls Yes Yes Yes Yes
+
+Adj. R2 0.45 0.51 0.31 0.45
+
+Obs. 10,400 5,465 4,935 10,400
+
+Difference in coefficient on CII D f between subgroups 0.04
+
+(0.66)
+
+Panel B: Classifying Top 20 fund families as non-CIIs
+
+CII D f 0.09** 0.15*** 0.05 0.20***
+
+(2.49) (2.88) (1.21) (3.48)
+
+CII_Dft - CII D f 0.03 0.05 −0.02 0.02
+
+(1.18) (1.32) (−0.78) (0.43)
+
+CII CO f 0.01*
+
+(1.66)
+
+CII_COft - CII CO f 0.01
+
+(0.83)
+
+CII ASY f −0.04***
+(−3.68)
+
+CII_ASYft - CII ASY f −0.00
+(−0.04)
+
+Controls Yes Yes Yes Yes
+
+Adj. R2 0.50 0.56 0.34 0.50
+
+Obs. 11,052 5,850 5,202 11,052
+
+Difference in coefficient on CII D f between subgroups 0.10*
+
+(1.89)
+
+Panel C: Alternative measure of suppliers' dependence
+
+CII D f 0.15** 0.01
+
+(2.12) (0.36)
+
+CII_Dft - CII D f 0.00 0.03*
+
+(0.09) (1.66)
+
+Controls Yes Yes
+
+Adj. R2 0.53 0.32
+
+ 18731317, 2020, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/joom.1089 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+CHEUNG ET AL. 683
+
+TABLE 4 (Continued)
+
+(1) High dependence (2) Low dependence (3) (4)
+
+Obs. 5,522 5,530
+
+Difference in coefficient on CII D f between subgroups 0.14*
+
+(1.86)
+
+Panel D: Long-term common institutional investors
+
+CII D f 0.08** 0.13** 0.03
+
+(2.04) (2.30) (0.90)
+
+CII_Dft - CII D f 0.01 0.03 −0.03
+(0.62) (0.68) (−1.00)
+
+CII Long f 0.18 0.42 0.13
+
+(0.65) (0.94) (0.50)
+
+CII_Longft - CII Long f 0.56*** 1.03*** 0.02
+
+(3.19) (3.38) (0.07)
+
+Controls Yes Yes Yes
+
+Adj. R2 0.50 0.56 0.34
+
+Obs. 11,052 5,850 5,202
+
+Difference in coefficient on CII_Longft - CII Long f 1.02***
+between subgroups (2.61)
+
+Note: The regression model is based on Equation (4). t statistics are in parentheses; standard errors are clustered by firm. Fiscal year and
+industry fixed effects are controlled for. Results of control variables are omitted for brevity. See Appendix A for variable definitions.
+*p ≤ .10.
+**p ≤ .05.
+***p ≤ .01 (two tailed).
+
+CII ASY f results in a 8 percentage point decrease in on ROSft indicates the time-series correlation of firm
+GPMft+ 1 (2.11× 0.04). This result suggests that CIIs with performance.
+greater ownership asymmetry between the partners
+weaken the supplier's performance, probably because
+they have biased interests along the supply chain. These 5.3 | Robustness tests
+results support Hypotheses 3 and 4. Again, the within-
+firm effects of CII_COft and CII_ASYft are insignificant. 5.3.1 | Two-year-ahead gross profit
+
+In our research setting, we have no a priori theory margin
+to expect the between-firm effect of CIIs to differ from
+the within-firm effect. Rather, the differential results of Equations (3) and (4) focus on the relationship
+between- and within-firm effects could be due to the fol- between CIIs and one-year-ahead supplier firm perfor-
+lowing reasons. First, for both explanatory and dependent mance. Since it may take time for CIIs to exert influ-
+variables, the between-firm variance accounts for the bulk ence on the partners, we use two-year-ahead gross
+of the total variance. The limited variation of the within- profit margin as an alternative performance measure.
+firm component weakens the testing power to detect the The results are reported in Panel A of Table 4. The
+within-firm effect. Second, omitted variables that are coefficient on CII D f is significantly positive in the full
+invariant at the firm level may introduce biases into the sample and both high and low dependence group.
+between-firm effect and omitted variables that change over Though the coefficient is greater in the high dependence
+time may bias the within-firm effect. We address the endo- group than in the low dependence group, the difference
+geneity issue in the following subsection. is not significant. Consistent with Table 3, the coefficient
+
+Results of other communication channels are not sig- on CII CO f is significantly positive and the coefficient on
+nificant. For other control variables, we find a signifi- CII ASY f is significantly negative. These results confirm
+cantly positive between- and within-firm effect for sales that the role of CIIs in improving supplier performance is
+growthft, Debt ratioft and ROSft. The significant coefficient not temporary.
+
+ 18731317, 2020, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/joom.1089 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+684 CHEUNG ET AL.
+
+5.3.2 | Classifying Top 20 fund families the results should be more pronounced for long-term
+as conventional institutional investors CIIs. Following McCahery et al. (2016), we classify CIIs
+
+as a long-term investor if their holding period of a
+Institutional ownership data in the Thomson Reuters buyer–supplier relationship is longer than 2 years. We
+Institutional (13F) Holdings database aggregate owner- create CII_Longft, which is a weighted indicator of a
+ship across all funds for each institution. One may argue long-term CII by the ownership the CII holds in the
+that different fund managers within the same institution supplier and then is weighted by the percentage of
+could have opposite voting decisions on the same proxy if sales to the buyer to be converted to the firm level. We
+they attempt to maximize the benefit of their fund- include both the between- and within-firm components
+holders. To address this concern, we re-construct all of CII_Longft (CII Long f and CII_Longft − CII Long f ) in
+explanatory variables after excluding Top 20 fund fami- Equation (4).
+lies because large fund families consist of more funds. Panel D of Table 4 shows that in Column 1, the coeffi-
+Top 20 fund families are those ranked Top 20 by the aver- cient on the within-firm component of CII_Longft
+age number of funds under management. We classify (CII_Longft - CII Long f Þ is positive and significant, while
+Top 20 fund families holding a buyer and its supplier as the coefficient on CII_Dft - CII D f is insignificant.
+conventional institutional investors rather than CIIs. The Columns 2–3 demonstrate that the effect of long-term
+results reported in Panel B of Table 4 are consistent with CIIs is more pronounced for supplier firms with a greater
+those in Table 3. dependence on buyers.
+
+5.3.3 | Alternative measure of 5.3.5 | Effects of CIIs on buyers and
+asymmetric dependence supply chain performance
+
+Firms in industries with high R&D investments tend to Our study focuses on the effect of CIIs on supplier perfor-
+offer products of higher complexity. Suppliers in such mance. However, to gain a more complete understanding
+industries tend to invest more in relationship-specific of the role of CIIs in the entire supply chain, we further
+assets, making them more dependent on their buyers. We investigate the effects of CIIs on buyer performance and
+use the median value of R&D expenditure15 over net sales the combined supply chain performance. Our additional
+of the supplier' industry as an alternative measure of sup- analyses reveal that the presence of CIIs improves the
+pliers' dependence on buyers. Industry classification is industry-adjusted gross profit margin for the entire sup-
+based on suppliers' two-digit SIC code. Panel C of Table 4 ply chains. However, the effect on buyer's gross profit
+shows that the coefficient on the between-firm compo- margin alone falls short of statistical significance.17,18
+
+nent of CII_Dft is only significant in the high dependence Although the logic of our hypotheses also applies to the
+group (p < .05), which is significantly greater than that buyer, the latter is not the focus of our study.
+in the low dependence group (p < .10).
+
+5.4 | Addressing endogeneity
+5.3.4 | Cross-sectional analysis for long-
+term institutional investors The endogenous nature of institutional ownership has
+
+been well documented in the literature. In our research
+A further review of our data indicates that, among rela- setting, institutional investors may choose to invest in
+tionship observations with CIIs, 66% have at least one CII both the supplier and buyer based on certain characteris-
+holding at least 1% ownership in the partners. Since prior tics of the partners or the relationships. In this section,
+research (e.g., Brickley, Lease, & Smith, 1988) uses 1% we address the endogeneity concern in two ways. First,
+ownership as a cutoff in determining whether active we utilize the propensity score matching (PSM) method.
+institutional investors have an incentive to monitor Second, we restrict the sample to CIIs that existed only
+managers,16 we expect that the majority of CIIs in our after the formation of a buyer–supplier relationship.
+sample are incentivized to play a monitoring role.
+
+Literature also indicates that long-term institutional
+investors have monitoring incentives (e.g., McCahery 5.4.1 | PSM analysis
+et al., 2016), whereas short-term institutional investors
+play an informational role (e.g., Yan & Zhang, 2009). As To apply the PSM method, we estimate the probability of
+such, if the monitoring role of CIIs explains our results, the presence of CIIs (propensity score) in the first stage.
+
+ 18731317, 2020, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/joom.1089 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+CHEUNG ET AL. 685
+
+TABLE 5 Endogeneity tests
+
+Propensity score matching CIIs existed after the formation of buyer–supplier relationship
+
+(1) (2) (3) (4)
+
+CII D f 0.09** 0.18*** 0.07* 0.24**
+
+(2.05) (2.90) (1.69) (2.24)
+
+CII_Dft - CII D f 0.02 0.00 0.02 0.01
+
+(0.95) (0.03) (0.85) (0.13)
+
+CII CO f 0.02** 0.03
+
+(2.06) (1.18)
+
+CII_COft - CII CO f 0.01 −0.01
+(0.86) (−0.93)
+
+CII ASY f −0.04*** −0.06**
+(−3.81) (−2.28)
+
+CII_ASYft - CII ASY f 0.00 0.01
+
+(0.32) (1.29)
+
+Controls Yes Yes Yes Yes
+
+Adj. R2 0.51 0.51 0.20 0.21
+
+Obs. 10,256 10,256 5,273 5,273
+
+Note: The regression model is based on Equation (4). t statistics are in parentheses; standard errors are clustered by firm. Fiscal year and
+industry fixed effects are controlled for. Results of control variables are omitted for brevity. See Appendix A for variable definitions.
+*p ≤ .10.
+**p ≤ .05.
+***p ≤ .01 (two tailed).
+
+The determinants include the communication channels 5.4.2 | CIIs existed after the formation
+between the partners, characteristics of the partner- of buyer–supplier relationships
+ship, fundamentals of the partners, and industry and
+time effects.19 For each partnership-year in the treat- To mitigate the concern that CIIs may guide the buyer to
+ment sample (relationship-years with CIIs), we choose choose a supplier with better performance, we restrict
+one partnership-year in the control sample (relation- our relationship-level sample to CIIs that exist after the
+ship-years without CIIs) that has the closest propensity formation of a buyer–supplier relationship and redo our
+score and the absolute difference in propensity score is main analysis. In such a sample, CIIs have no chance to
+less than 0.1. Partnership-years with an available influence a buyer's selection of supplier. Again, we con-
+match and their matching counterparties consist of vert relationship-level variables into firm-level ones by
+our new sample at the relationship-year level. We then using the weighted average value of these variables. The
+convert the relationship-level variables into firm-level weight is the percentage of sales to the buyer. The results
+ones by using the weighted average measures. The shown in Columns 3–4 of Table 5 remain qualitatively
+weight is the percentage of sales to the buyer. similar to those in Table 3. The collective evidence from
+
+In the second stage, we run Equation (4) with this Table 5 strengthens the causal inferences.
+new sample and report the results in Columns 1–2 of
+Table 5. Column 1 shows that the coefficient on CII D f is
+significantly positive.20 Column 2 shows that the 5.5 | Tests of market performance of
+between-firm component of common ownership suppliers
+(CII CO f ) is positively associated with supplier perfor-
+mance, while the between-firm component of ownership To the extent that CIIs aim to maximize their portfolio
+asymmetry (CII ASY f ) is negatively associated with sup- value, it would be worthwhile to examine the effect of
+plier performance. The PSM analysis generates results CIIs on supplier market performance. Moreover, while
+consistent with our main findings. financial performance captures firm performance
+
+ 18731317, 2020, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/joom.1089 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+686 CHEUNG ET AL.
+
+TABLE 6 Effects of CIIs on supplier market performance
+
+(1) High dependence (2) Low dependence (3) (4)
+
+Intercept −0.02 −0.02 −0.01 −0.01
+(−1.31) (−1.23) (−0.52) (−0.54)
+
+ΔCII_Dft 0.04 0.10** −0.06 0.04
+
+(1.15) (2.25) (−1.21) (1.32)
+
+ΔCII_COft 0.01**
+
+(2.34)
+
+ΔCII_ASYft −0.01***
+(−2.87)
+
+ΔCDIft −0.08 0.33*** −0.14 −0.08
+(−0.81) (2.67) (−1.28) (−0.79)
+
+ΔCANft 0.03 0.01 0.05 0.03
+
+(1.18) (0.26) (1.51) (1.18)
+
+ΔCAUft −0.00 −0.01 0.01 −0.00
+(−0.03) (−0.20) (0.11) (−0.01)
+
+ΔINSTft 1.12*** 1.11*** 1.14*** 1.16***
+
+(9.24) (6.59) (7.51) (8.97)
+
+ΔEft/Mf,t-1 0.65*** 0.61*** 0.72*** 0.65***
+
+(11.96) (8.89) (8.51) (11.98)
+
+ΔAft/Mf,t-1 0.40*** 0.45*** 0.34*** 0.40***
+
+(10.89) (9.49) (6.39) (10.88)
+
+ΔRDft/Mf, t-1 −0.25 −0.38 0.04 −0.26
+(−0.57) (−0.62) (0.06) (−0.60)
+
+ΔIft/Mt-1 −4.57*** −5.08*** −3.90*** −4.56***
+(−7.58) (−6.21) (−4.67) (−7.58)
+
+ΔDft/Mt-1 1.26* 1.60 0.84 1.30*
+
+(1.67) (1.37) (0.84) (1.71)
+
+Cf,t-1/Mt-1 0.34*** 0.37*** 0.30*** 0.34***
+
+(5.92) (4.84) (3.71) (5.94)
+
+L −0.31*** −0.34*** −0.28*** −0.31***
+(−8.99) (−7.48) (−5.90) (−9.00)
+
+NF/Mt-1 0.12* 0.03 0.26** 0.12*
+
+(1.69) (0.29) (2.46) (1.67)
+
+Adj. R2 0.20 0.19 0.21 0.20
+
+Obs. 7,037 3,796 3,238 7,037
+
+Difference in coefficient on ΔCII_Dft between 0.15**
+subgroups (2.45)
+
+Note: t statistics are in parentheses; standard errors are clustered by firm. Fiscal year and industry fixed effects are controlled for (omitted for
+brevity). See Appendix A for variable definitions.
+*p ≤ .10.
+**p ≤ .05.
+***p ≤ .01 (two tailed).
+
+pertaining to a specific period, market performance as an alternative performance measure mitigates the concern
+reflects the perception of the market about the firm's that the delayed effect of CIIs could make the within-firm
+future performance. Therefore, using market performance components of CIIs insignificant. We follow Faulkender and
+
+ 18731317, 2020, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/joom.1089 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+CHEUNG ET AL. 687
+
+Wang (2006)'s excess return model to detect the change-in- with a higher level of common ownership or lower
+changes effect. The dependent variable is excess return dur- level of ownership asymmetry have lower trade receiv-
+ing the fiscal year, calculated as the realized stock return ables, signaling an enhanced relationship commitment.
+minus the value-weighted return of the Fama–French size- To the extent that a reduction of trade credits corre-
+BE/ME portfolio to which the firm belongs (rft – RB). sponds to a quicker receivable turnover, it is a possible
+ΔCII_Dft is the change in the presence of CIIs from t − 1 to t. mechanism through which CIIs enhance supplier
+The variable is weighted by the percentage of sales to the performance.
+buyer to be converted into the firm level. ΔCII_COft is the
+decile rank of weighted average change in common owner-
+ship from t − 1 to t, as defined in Section 3; ΔCII_ASYft is the 6 | COMPARATIVE ANALYSIS OF
+decile rank of weighted average change in ownership asym- CIIS AND DIRECT EQUITY LINKS
+metry of CIIs from t − 1 to t. Since the between-firm compo-
+nent of a variable does not change over time, the change of The literature documents the effects of direct equity own-
+the variable is equivalent to the change of its within-firm ership (i.e., a focal firm–supplier cross-ownership) on
+component. relationship performance (e.g., Allen & Phillips, 2002;
+
+We report the results in Table 6. In Column 1, the Dyer, 1997; Fee et al., 2006). In this section, we compare
+coefficient on ΔCII_Dft is insignificant. However, Column the effects of the two types of ownership, indirect cross-
+2 shows that there is a positive and significant association ownership (i.e., common institutional ownership) and
+(p < .05) between ΔCII_Dft and excess returns for sup- direct equity links, on supplier performance.
+pliers that are more dependent on their buyers, while the We collect information on equity stakes held by buyers
+coefficient on ΔCII_Dft is insignificant in the low depen- in suppliers (or vice versa) mainly from the SEC EDGAR
+dence group (Column 3). The difference in coefficients system. Since EDGAR's coverage starts in 1994, we search
+on ΔCII_Dft between the two groups is significant
+(p < .05) as shown in the bottom row. Column 4 indicates
+that the change in common ownership (ΔCII_COft) is signif- TABLE 7 Tests on a mechanism of CIIs' effects on supplier
+icantly and positively associated with supplier excess performance
+returns. The change in ownership asymmetry (ΔCII_ASYft)
+is significantly and negatively associated with supplier Trade receivables
+
+excess returns. Overall, the results from the market return (1) (2)
+analysis corroborate the value-enhancing role of common
+
+CII D f −0.01** −0.01
+investors.
+
+(−2.00) (−0.60)
+CII_Dft - CII D f −0.00 −0.00
+
+5.6 | Tests of trade credits offered by (−0.80) (−0.48)
+suppliers CII CO f −0.00***
+
+(−3.51)
+If CIIs enhance collaboration and coordination between CII_COft - CII CO f −0.00
+partners and/or mitigate opportunism, we should observe
+
+(−0.84)
+a negative association between CIIs and trade receivables
+of suppliers. Table 7 presents the analysis. The dependent CII ASY f 0.00**
+
+variable is the industry-adjusted trade receivables (2.00)
+
+deflated by total sales of suppliers. Industry-level trade CII_ASYft - CII ASY f 0.00
+receivables deflated by total sales is the median value of (0.64)
+trade receivables over total sales among all COMPUSTAT Controls Yes Yes
+firms having the same two-digit SIC code. Control vari-
+
+Adj. R2 0.01 0.02
+ables are the same as those in Equation (4). The coefficient
+
+Obs. 10,780 10,780
+on the between-firm component of CII_Dft (CII D f ) is sig-
+nificantly negative in Column 1, indicating that suppliers Note: Control variables are those in Equation (4). Control variable
+with the presence of CIIs have lower trade receivables results are omitted for brevity. t statistics are in parentheses; stan-
+
+than those without. In Column 2, the coefficient on the dard errors are clustered by firm. See Appendix A for variable
+
+between-firm component of CII_COft (CII CO f ) is signifi-
+definitions.
+*p ≤ .10.
+
+cantly negative, whereas the coefficient on CII ASY f is **p ≤ .05.
+significantly positive. These results suggest that suppliers ***p ≤ .01 (two tailed).
+
+ 18731317, 2020, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/joom.1089 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+688 CHEUNG ET AL.
+
+TABLE 8 Comparative analysis of
+Panel A: Descriptive statistics for direct equity links
+
+CIIs and direct equity links
+N Mean P1 Q1 Median Q3 P99
+
+CII_Di,t 14,708 82.52% 0 1 1 1 1
+
+DL_Di,t 14,708 1.84% 0 0 0 0 1
+
+Direct ownershipi,t 270 11.19% 1.10% 6.10% 8.11% 17.90% 24.10%
+
+Panel B: Effects of direct links and CIIs on supplier profit margin
+
+(1) (2) (3)
+
+DL D f −1.19*** −1.19*** −0.33**
+(−3.19) (−3.20) (−2.13)
+
+DL_Dft - DL D f 0.09 0.08 0.19
+
+(0.32) (0.30) (0.75)
+
+CII D f −0.00 0.08**
+
+(−0.06) (2.20)
+
+CII_Dft - CII D f 0.03 0.02
+
+(1.02) (0.90)
+
+Controls No No Yes
+
+Adj. R2 0.02 0.02 0.50
+
+Obs. 11,052 11,052 11,052
+
+Note: t statistics are in parentheses; standard errors are clustered by firm. Only the results of var-
+iables of interest are reported for brevity. Industry and Year fixed effects are controlled for in
+Panel B. The regression model of Panel B is based on Equation (4). See Appendix A for variable
+definitions.
+*p ≤ .10.
+**p ≤ .05.
+***p ≤ .01 (two tailed).
+
+for the information on direct equity links online for adding all control variables in Column 3, while the coeffi-
+relationship-years before 1994 (873 firm-pairs).21 cient on DL D f remains significantly negative. These
+
+Panel A of Table 8 provides the descriptive statistics results indicate that, while direct equity ownership may
+for direct equity links at the relationship level. DL_Di,t is contribute to total supply chain value, it adversely affects
+1 for relationship i in year t with direct equity links (one supplier gross profit margin. In contrast, CIIs create value
+party holds stock of the other), and 0 otherwise. As noted for dependent suppliers.
+earlier, direct equity links are rare, existing in only 1.84%
+of our relationship-years sample. The frequency is substan-
+tially smaller than that of the presence of CIIs (CII_Di,t) 7 | DISCUSSION
+which is 82.52% in our sample. For relationship-years with
+direct equity links, the average percentage of shares the Our research offers a novel extension to prior studies of
+buyer holds in the supplier is around 11.19%.22 embeddedness that have focused on extended buyer–
+
+Panel B of Table 8 presents the results of associations supplier trade networks (Dong et al., 2015; Kim, 2014;
+of direct equity links and CIIs with supplier gross profit Kim, 2017) and nation-based networks (Cao &
+margin at the firm level. We weight the presence of direct Lumineau, 2015; Dong et al., 2016; Handley & Angst, 2015;
+equity links by the percentage of sales to the buyer to Sheng et al., 2018; Wang et al., 2016). Using social network
+convert the variable into the firm level (DL_Dft). We then theory and power dependence theory to derive our expecta-
+decompose DL_Dft into between- and within-firm compo- tions, we employ an econometric approach to uncover
+nents: DL D f and DL_Dft − DL D f . In both Columns supporting evidence of unobservable mechanisms consistent
+1 and 2 without control variables, the coefficients of with our predictions (Makadok, Burton, & Barney, 2018;
+DL D f are significantly negative. The coefficient on Sutton & Staw, 1995).23 Our findings suggest that CIIs
+CII D f in Column 2 is insignificant. However, the coeffi- enhance both the operating and market performance of
+cient on CII D f becomes positive and significant after dependent suppliers. These results are consistent with the
+
+ 18731317, 2020, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/joom.1089 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+CHEUNG ET AL. 689
+
+proposition that CIIs with higher common ownership have significantly positive on supplier profitability in high
+greater incentives to strengthen joint optimization and coor- R&D industries, but it is significantly negative in low
+dination among supply chain partners, while curbing oppor- R&D industries. The presence or absence of alliances and
+tunism. On the other hand, higher CII ownership joint ventures also moderates the effects in their findings.
+asymmetry between partners degrades supplier perfor- Together, our results and the findings of prior research
+mance. This evidence further supports the notion of CIIs' suggest that the effects of direct equity ownership on
+influence, as it suggests that CIIs' ownership asymmetry buyer–supplier relationships are complex and likely mod-
+reduces their incentives to encourage buyer–supplier coordi- erated by other relational factors. For example,
+native actions, and may lessen CII constraints on buyer Dyer (1996) discusses benefits of direct equity stakes, but
+opportunism. Also supporting the role of CIIs is the post primarily in Japanese firms, where norms of obligation
+hoc finding that the positive effect of CIIs on supplier per- associated with equity affiliation are high, and significant
+formance is more pronounced for long-term CIIs. Presum- obstacles to equity divestment exist (Ahmadjian &
+ably, longer tenure provides greater opportunity for Oxley, 2005). In such a circumstance, corporate equity
+influential actions such as those mentioned above, and ownership can act as a type of hostage arrangement that
+more time for buyer–supplier pairs to develop common induces commitment by both parties (Ahmadjian &
+operational norms. An interesting question for future Oxley, 2005; Williamson, 1985). However, Ahmadjian
+research is whether the apparent benefits of long-term CIIs and Oxley (2005) argue that if the size of investment is
+degrade over time due to hold-up, lock-in, or other rigidities small and financial markets are liquid (as in the United
+associated with focused commitments in buyer–supplier States), the impact of equity ownership may be negligible.
+relationships (Dong et al., 2015; Kim & Zhu, 2018; Swink & Our results seem to suggest that in some circumstances,
+Zsidisin, 2006). direct equity ownership might even serve as a means by
+
+Our analysis also identifies one potential operational which a buyer expropriates profits from its supplier
+indicator of enhanced relationship commitment: (Lanier Jr et al., 2010). The complexity of these issues
+decreased trade credits. Suppliers' receivables are reduced points to the need for continued study that develops a
+in the presence of CIIs, pointing to influential roles of more complete theory of direct equity ownership as a
+CIIs in reducing perceived risk and coercion in the governance mechanism.
+buyer–supplier relationship (Lee & Stowe, 1993; We acknowledge that this study is subject to several
+Smith, 1987; Van Horen, 2007). The study of antecedents limitations. First, we use secondary data to address rela-
+and effects of trade credit is emerging as a popular topic tionships that are difficult to observe in practice directly.
+for supply chain management researchers. Studies We offer theory-based explanations for hypothesized
+including Lee, Zhou, and Wang (2018) and Kovach, effects. However, qualitative research efforts might pro-
+Swink, and Rodrigues (2019) indicate that buyers' profits duce a richer understanding of the roles and mechanisms
+decrease with rising trade credits; however, these effects of CIIs who contribute to the governance of buyer–
+are moderated by competition, dependence, financial sta- supplier relationships, while additional quantitative stud-
+bility, and other factors. Future research might examine ies using primary data might provide more direct tests of
+these effects from an information processing perspective theorized relationships. Future research may use surveys
+considering how CIIs and other social network structures or other methods to directly capture the role of CIIs in
+may serve as moderators of frictions that produce non- buyer–supplier relationship and supplier performance.
+optimal trade-credit agreements. Second, our study is limited in its examination of the
+
+Lastly, this is the first study to compare the influences mechanisms that CIIs may use to strengthen collabora-
+of corporate direct equity ownership and indirect owner- tion and coordination and constrain opportunism among
+ship through CIIs on supplier performance in vertical buyers and their suppliers. We conducted post hoc ana-
+relationships. Compared with direct equity links, CIIs are lyses that also revealed that (a) buyer–supplier relation-
+more than 40 times as common in supply chains (in our ships with CIIs are more likely to have connected
+sample). After controlling for direct equity links, the posi- directors from the same employer and (b) buyers with
+tive impacts of CIIs continue to manifest in the models CIIs are more likely to receive shareholder proposals,
+we estimated. In contrast, the association of direct equity which encourage suppliers to increase corporate social
+links with supplier profitability is strongly negative. The responsibility activities. For brevity, these results are not
+literature suggests that direct equity ownership creates reported. Empirically, it is difficult to directly and explic-
+value by promoting greater supply chain collaboration itly capture underlying mechanisms of CIIs' influence.
+and longer relationships (e.g., Allen & Phillips, 2002; However, future research might explore additional
+Dyer, 1997; Fee et al., 2006). Allen and Phillips (2002) mechanisms, again using different research methods.
+find that the effect of equity purchase announcements is Third, the presence of CIIs tends to be endogenous.
+
+ 18731317, 2020, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/joom.1089 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+690 CHEUNG ET AL.
+
+Though we use various empirical methods to address ENDNOTES
+endogeneity issue, we still cannot fully preclude the effect 1Following prior studies (e.g., Klein & Zur, 2009), we define institu-
+of endogeneity of CIIs on our results. Future research tional investors as investment companies (e.g., mutual fund man-
+might search for some exogenous shock to the presence agement companies) and their managers as well as independent
+of CIIs to mitigate the endogeneity issue. Finally, we investment advisors (e.g., asset management companies, investment
+
+identify decreased trade receivables as a mechanism banks, brokers, private wealth management companies) who invest
+
+through which CIIs increase supplier performance. There in securities for its own accounts or on behalf of others (Agarwal,
+Jiang, Tang, & Yang, 2013). Therefore, neither an individual share-
+
+might be some omitted correlated mechanisms through holder nor a corporation is considered as an institutional investor.
+which CIIs affect supplier–buyer relationships. Future A supplier–buyer relationship is deemed to have a common institu-
+research can seek to identify the alternative mechanisms tional investor in year t if an institutional investor simultaneously
+and improve our understanding of the role of CIIs in holds shares of the buyer and the supplier for more than two quar-
+supply chains. ters of year t.
+
+2The portfolio value for CIIs can be regarded as their ownership in
+supplier multiplied by supplier profit plus their ownership in buyer
+
+8 | CONCLUSION multiplied by buyer profit.
+3This is the number of relationship observations before excluding
+
+Buyer–supplier relationships are embedded in complex those where the buyer and supplier are in a business group or
+
+networks; and they are potentially influenced by other where the buyer or supplier is a financial or utility firm.
+4
+
+trade partners, owners (direct and institutional), regula- The majority of prior research on U.S. supplier–buyer relationships
+tors, activist groups, analysts, industry associations, and uses the same data source (for example, Cohen & Frazzini, 2008;
+
+Fee et al., 2006).
+perhaps even other entities. Our study addresses a hereto-
+
+5
+fore scarcely studied source of social influence, CIIs. The The SEC EDGAR system provides company filings beginning in
+
+1994. For relationship-years before 1994, we manually search for
+positive associations of both the presence and intensity of
+
+the firm-pairs on the website to find the shareholding information
+CIIs with supplier performance appear to be quite consis- of one partner in the other.
+tent, robust, and distinct from the influences of direct 6Please refer to Section 4 for the definitions of between- and within-
+equity links in buyer–supplier dyads. Overall, these find- firm components of each variable.
+ings extend the application of social network theory in 7Since the institutional identifier (MGRNO) in the database is not
+supply chain management beyond current considerations unique or permanent over time, we check whether the same
+of exchange partnerships and national institutions. They MGRNO represents different institutions and whether different
+demonstrate that institutional investors also play impor- MGRNOs indicates the same institution by searching the SEC
+tant roles in relational governance, while highlighting a EDGAR system. In the former situation, we assign a different
+number of interesting questions and opportunities for MGRNO to the latter institution. In the latter situation, we assign
+
+future research. the same institution a uniform MGRNO, the smaller one of the two
+MGRNOs. When we cannot determine whether two institutions are
+different, we treat them as different ones.
+
+ACKNOWLEDGMENT
+8
+
+We gratefully acknowledge insightful suggestions from We use supplier ownership as the weight because our study
+focuses on the effect of CIIs on supplier performance and a CII's
+
+the editors and review team, which substantively
+ownership in a supplier captures her incentive and ability to
+
+improved the earlier version of this manuscript. We increase supplier performance. A CII holding a low ownership in a
+appreciate helpful comments from Wenming Wang, Bill supplier has little incentive to improve supplier performance even if
+Wempe, Donghui Wu, Weiqiang Tan, Steven Xu Zhang, she holds a high ownership in the buyer.
+and the seminar participants at Zhongnan University of 9Extant research such as Patatoukas (2012) and Radhakrishnan
+Economics and Law, Hong Kong Baptist University, Uni- et al. (2014) uses the same method to convert relationship-level var-
+versity of Macau, and Hang Seng University of Hong iables to the supplier firm level.
+Kong. All coauthors have made equal contribution to the 10Patatoukas (2012) examines the relationship between customer
+paper. Zhang acknowledges financial support from the concentration and firm profitability. He finds that firm size and
+
+National Natural Science Foundation of China sales growth are positively associated with supplier gross profit
+
+(No. 71702188). Haw acknowledges that parts of his work margin, whereas firm age and leverage are negatively associated
+with supplier gross profit margin. Our results on these control vari-
+
+were conducted during his visit to Hang Seng University ables are generally consistent with his findings.
+of Hong Kong. The authors alone are responsible for all 11Hall et al. (2010) state that one-year-ahead dependent variable
+limitations and errors that may relate to the paper. mitigates the simultaneity bias. Callen and Fang (2013) argue that
+
+using one-year-ahead stock price crash risk alleviates the reverse
+ORCID causality concern between institutional investor stability and stock
+In-Mu Haw https://orcid.org/0000-0002-2766-6406 price crash risk. Balafas and Florackis (2014) examine the
+
+ 18731317, 2020, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/joom.1089 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+CHEUNG ET AL. 691
+
+relationship between CEO compensation and firm value and argue competition (Herfindahl–Hirschman index based on sales) of the
+that using lagged independent variables alleviates the reverse cau- partners.
+sality issue. Qian and Steiner (2017) examine the relationship 20We conduct the subsample analyses and find that the coefficient on
+between international reserves and the external debt maturity and CII D f is only significant in the high dependence group (p < .05).
+state that using lagged independent variables helps to address the 21We use names of the supplier and buyer as keywords to search on
+issue of reverse causality and potential endogeneity.
+
+Google to determine whether there are news or articles mentioning
+12Shaver (2019) demonstrates that the subsample analysis is better the shareholding information between the two firms. If we cannot
+than analysis using interaction terms in capturing the differential find any information, we treat the firm-pairs as one without direct
+effects of the explanatory variables in a fixed-effect model with a equity links.
+third variable. 22Because only shareholders that hold more than 5% of shares are
+13Intraclass correlation coefficient (ICC) is the ratio of between-firm required to file the change of their shareholdings, we can only iden-
+variance to the total variance of the variable (between-firm variance tify the ownership of blockholders via EDGAR System. It is rare
+plus within-firm variance). that supplier block-holds the stocks of the buyer.
+14Table 2 reports descriptive statistics of the decile ranks of CII_COft 23Some scholars argue that theoretical mechanisms are not cap-
+and CII_ASYft. tured in econometric models (see Astbury & Leeuw, 2010;
+15Missing R&D expenditure is set to 0. Mahoney, 2001).
+16SEC officially states that “To be eligible to submit a proposal under
+Rule 14a-8, a shareholder must, among other things, provide docu- REFERENCES
+mentation evidencing that the shareholder has continuously held at
+least $2,000 in market value, or 1%, of the company's securities enti- Agarwal, V., Jiang, W., Tang, Y., & Yang, B. (2013). Uncovering
+
+tled to be voted on the proposal at the shareholder meeting for at least hedge fund skill from the portfolio holdings they hide. The
+
+1 year as of the date the shareholder submits the proposal” (https:// Journal of Finance, 68(2), 739–783.
+www.sec.gov/interps/legal/cfslb14g.htm). Ahmadjian, C., & Oxley, J. (2005). Using hostages to support
+
+exchange: Dependence balancing and partial equity stakes in
+17We measure industry-adjusted supply chain performance as Japanese automotive supply relationships. The Journal of Law,
+follows: Economics, and Organization, 22(1), 213–233.
+(buyer net sales × percentage of cost of goods sold from the supplier – Allen, J. W., & Phillips, G. M. (2002). Corporate equity ownership,
+supplier cost of goods sold × percentage of sales to the buyer) strategic alliances, and product market relationships. The Jour-
+
+buyer net sales × percentage of cost of goods sold from the supplier nal of Finance, 55(6), 2791–2815.
+− Astbury, B., & Leeuw, F. L. (2010). Unpacking black boxes: Mecha-
+(industry gross profit margin of supplier × industry sales of supplier + nisms and theory building in evaluation. American Journal of
+industry gross profit margin of buyer × industry sales of buyer) Evaluation, 31(3), 363–381.
+
+industry sales of supplier + industry sales of buyer Azar, J., Schmalz, M. C., & Tecu, I. (2018). Anticompetitive effects of
+where industry gross profit margin and sales are those of a firm in common ownership. The Journal of Finance, 73(4), 1513–1565.
+the industry with the median-level gross profit margin. Balafas, N., & Florackis, C. (2014). CEO compensation and future
+18The insignificant result of the buyer performance is likely due to shareholder returns: Evidence from the London stock
+an inherent feature of our dataset. As firms are required to disclose exchange. Journal of Empirical Finance, 27, 97–115.
+their major buyers but not major suppliers (SFAS 14 and SFAS Bauer, D. J., & Curran, P. J. (2005). Probing interactions in fixed
+131), our sample has comprehensive information about major and multilevel regression: Inferential and graphical techniques.
+buyers, but limited information about major suppliers. As a result, Multivariate Behavioral Research, 40(3), 373–400.
+the buy-supplier relationships captured in our dataset are more Bellamy, M. A., Ghosh, S., & Hora, M. (2014). The influence of sup-
+accurate to the suppliers than to the buyers, which can more effec- ply network structure on firm innovation. Journal of Operations
+tively detect any effect of CIIs on the suppliers than the buyers. The Management, 32(6), 357–373.
+results on buyers and the combined supply chains are available Benton, W. C., & Maloni, M. (2005). The influence of power driven
+upon request. buyer/supplier relationships on supply chain satisfaction. Jour-
+19Proxies for the communication channels between the partners nal of Operations Management, 23(1), 1–22.
+include the presence of common analyst, common director, and Bensaou, M., & Venkatraman, N. (1995). Configurations of inter-
+common auditor, whether the partners are in the same industry, organizational relationships: A comparison between U.S. and
+and whether the partners are located in the same city. Proxies for Japanese automakers. Management Science, 41(9), 1471–1492.
+the characteristics of a partnership include the percentage of sup- Brickley, J. A., Lease, R. C., & Smith, C. W. (1988). Ownership
+plier sales to the buyer and the percentage of buyer cost of goods structure and voting on antitakeover amendments. Journal of
+sold from the supplier. We include various proxies for the funda- Financial Economics, 20, 267–291.
+mentals of the partners as follows: the average firm size (natural Callen, J. L., & Fang, X. (2013). Institutional investor stability and
+logarithm of total asset) of the partners, and the average lagged crash risk: Monitoring versus short-termism? Journal of Bank-
+leverage (long-term debt divided by total asset), lagged ROA (earn- ing & Finance, 37(8), 3047–3063.
+ings before extraordinary item divided by total asset) and tangibility Cao, Z., & Lumineau, F. (2015). Revisiting the interplay between
+ratio (capital expenditures divided by total asset) of the partners. As contractual and relational governance: A qualitative and meta-
+proxies for the industry effects, we use the average industry percent- analytic investigation. Journal of Operations Management,
+age of firms with CIIs of the partners and the average industry 33–34, 15–42.
+
+ 18731317, 2020, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/joom.1089 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+692 CHEUNG ET AL.
+
+Carey, S., Lawson, B., & Krause, D. R. (2011). Social capital configu- Granovetter, M. (1985). Economic action and social structure: The
+ration, legal bonds and performance in buyer–supplier relation- problem of embeddedness. American Journal of Sociology, 91
+ships. Journal of Operations Management, 29(4), 277–288. (3), 481–510.
+
+Casciaro, T., & Mikolaj, J. P. (2005). Power imbalance, mutual depen- Gulati, R., & Sytch, M. (2007). Dependence asymmetry and joint
+dence, and constraint absorption: A closer look at resource depen- dependence in interorganizational relationships: Effects of
+dence theory. Administrative Science Quarterly, 50(2), 167–199. embeddedness on a manufacturer's performance in procurement
+
+Cen, L., Maydew, E. L., Zhang, L., & Zuo, L. (2017). Customer– relationships. Administrative Science Quarterly, 52(1), 32–69.
+supplier relationships and corporate tax avoidance. Journal of Hall, B. H., J. Mairesse, and P. Mohnen. 2010. Measuring the
+Financial Economics, 123(2), 377–394. returns to R&D. Handbook of the economics of innovation, Vol.
+
+Certo, S. T., Withers, M. C., & Semadeni, M. (2017). A tale of two 2, Ch. 24. Oxford, UK: Elsevier B. V.
+effects: Using longitudinal data to compare within- and between- Handley, S. M., & Angst, C. M. (2015). The impact of culture on the
+firm effects. Strategic Management Journal, 38(7), 1536–1556. relationship between governance and opportunism in out-
+
+Chen, L., Zhang, G., & Zhang, W. (2016). Return predictability in sourcing relationships. Strategic Management Journal, 36,
+the corporate bond market along the supply chain. Journal of 1412–1434.
+Financial Markets, 29, 66–86. Handley, S. M., & Benton, W. C. (2012). The influence of exchange
+
+Cohen, L., & Frazzini, A. (2008). Economic links and predictable hazards and power on opportunism in outsourcing relation-
+returns. The Journal of Finance, 63(4), 1977–2011. ships. Journal of Operations Management, 30(1–2), 55–68.
+
+Corbett, C. J., & Karmarkar, U. S. (2001). Competition and structure Hansen, R. G., & Lott, J. R. (1996). Externalities and corporate
+in serial supply chains with deterministic demand. Manage- objectives in a world with diversified shareholder/consumers.
+ment Science, 47(7), 966–978. Journal of Financial and Quantitative Analysis, 31(1), 43–68.
+
+Covrig, V., Lau, S. T., & Ng, L. (2006). Do domestic and foreign He, J. J., & Huang, J. (2017). Product market competition in a world
+fund managers have similar preferences for stock characteris- of cross-ownership: Evidence from institutional blockholdings.
+tics? A cross-country analysis. Journal of International Business The Review of Financial Studies, 30(8), 2674–2718.
+Studies, 37(3), 407–429. He, J., Huang, J., & Zhao, S. (2019). Internalizing governance exter-
+
+Crook, T. R., & Combs, J. G. (2007). Sources and consequences of nalities: The role of institutional cross-ownership. Journal of
+bargaining power in supply chains. Journal of Operations Man- Financial Economics, 134(2), 400–418.
+agement, 25(2), 546–555. Heide, J. B., & John, G. (1988). The role of dependence balancing in
+
+Dong, M. C., Ju, M., & Fang, Y. (2016). Role hazard between supply safeguarding transaction-specific assets in conventional chan-
+chain partners in an institutionally fragmented market. Journal nels. Journal of Marketing, 52(1), 20–35.
+of Operations Management, 46, 5–18. Heide, J. B., Wathne, K. H., & Rokkan, A. (2007). Interfirm moni-
+
+Dong, M. C., Liu, Z., Yu, Y., & Zheng, J.-H. (2015). Opportunism in toring, social contracts, and relationship outcomes. Journal of
+distribution networks: The role of network embeddedness and Marketing Research, 44(3), 425–433.
+dependence. Production and Operations Management, 24(10), Hertzel, M. G., Li, Z., Officer, M. S., & Rodgers, K. J. (2008). Inter-
+1657–1670. firm linkages and the wealth effects of financial distress along
+
+Dyer, J. H. (1996). Does governance matter? Keiretsu alliances and the supply chain. Journal of Financial Economics, 87(2),
+asset specificity as sources of Japanese competitive advantage. 374–387.
+Organization Science, 7(6), 649–666. Jap, S. D. (1999). Pie-expansion efforts: Collaboration processes in
+
+Dyer, J. H. (1997). Effective interfirm collaboration: How firms min- buyer–supplier relationships. Journal of Marketing Research, 36
+imize transaction costs and maximize transaction value. Strate- (4), 461–475.
+gic Management Journal, 18(7), 535–556. Jung, M. J. (2013). Investor overlap and diffusion of disclosure prac-
+
+Elking, I., Paraskevas, J. P., Grimm, C., & Corsi, T. (2017). Financial tices. Review of Accounting Studies, 18(1), 167–206.
+dependence, lean inventory strategy, and firm performance. Kim, D. Y. (2014). Understanding supplier structural
+Journal of Supply Chain Management, 53(2), 22–38. embeddedness: A social network perspective. Journal of Opera-
+
+Emerson, R. M. (1962). Power-dependence relations. American tions Management, 32, 219–231.
+Sociological Review, 27(1), 31–41. Kim, D. Y., & Zhu, P. (2018). Supplier dependence and R&D inten-
+
+Faulkender, M., & Wang, R. (2006). Corporate financial policy and sity: The moderating role of network centrality and intercon-
+the value of cash. The Journal of Finance, 61(4), 1957–1990. nectedness. Journal of Operations Management, 64, 7–18.
+
+Fee, C., Edward, C., Hadlock, J., & Thomas, S. (2006). Corporate Kim, Y. H. (2017). The effects of major customer networks on sup-
+equity ownership and the governance of product market rela- plier profitability. Journal of Supply Chain Management, 53(1),
+tionships. The Journal of Finance, 61(3), 1217–1251. 26–40.
+
+Ferreira, M. A., & Matos, P. (2008). The colors of investors' money: Kim, Y., Choi, T. Y., Yan, T., & Dooley, K. (2011). Structural investi-
+The role of institutional investors around the world. Journal of gation of supply networks: A social network analysis approach.
+Financial Economics, 88(3), 499–533. Journal of Operations Management, 29(3), 194–211.
+
+Freeman, K. 2019. The effects of common ownership on customer- Klein, A., & Zur, E. (2009). Entrepreneurial shareholder activism:
+supplier relationships. Kelley School of Business Research Paper Hedge funds and other private investors. The Journal of
+No. 16–84. Available at SSRN: https://ssrn.com/abstract= Finance, 64(1), 187–229.
+2873199 or https://doi.org/10.2139/ssrn.2873199. Kochhar, R., & David, P. (1996). Institutional investors and firm
+
+Gerlach, M. L. (1992). Alliance Capitalism. Berkeley, CA: University innovation: A test of competing hypotheses. Strategic Manage-
+of California Press. ment Journal, 17(1), 73–84.
+
+ 18731317, 2020, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/joom.1089 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+CHEUNG ET AL. 693
+
+Kovach, J.J., M. Swink, and M. Rodrigues. 2019. Is slow-paying sup- Qian, X., & Steiner, A. (2017). International reserves and the matu-
+pliers a good idea? Contingent effects of power and riskiness on rity of external debt. Journal of International Money and
+buyer's profits. Working paper. Finance, 73, 399–418.
+
+Kulp, S. C., Lee, H. L., & Ofek, E. (2004). Manufacturer benefits Radhakrishnan, S., Wang, Z., & Zhang, Y. (2014). Customers' capi-
+from information integration with retail customers. Manage- tal market information quality and suppliers' performance. Pro-
+ment Science, 50(4), 431–444. duction and Operations Management, 23(10), 1690–1705.
+
+Lang, M. H., and M. F. Mcnichols. 1997. Institutional trading and Rokkan, A. I., Heide, J. B., & Wathne, K. H. (2003). Specific invest-
+corporate earnings and returns. Working Paper. ments in marketing relationships: Expropriation and bonding
+
+Lanier, D., Jr., Wempe, W. F., & Zacharia, Z. G. (2010). Concen- effects. Journal of Marketing Research, 40(2), 210–224.
+trated supply chain membership and financial performance: Rubin, A. (2006). Diversification and corporate decisions. Corporate
+Chain-and firm-level perspectives. Journal of Operations Man- Ownership and Control, 3, 209–212.
+agement, 28(1), 1–16. Sanders, N. R. (2008). Pattern of information technology use: The
+
+Lee, H.-H., Zhou, J., & Wang, J. (2018). Trade credit financing impact on buyer–supplier coordination and performance. Jour-
+under competition and its impact on firm performance in sup- nal of Operations Management, 26(3), 349–367.
+ply chains. Manufacturing & Service Operations Management, Schelling, T. C. (1978). Micromotives and macrobehavior. New York:
+20(1), 36–52. Norton.
+
+Lee, R. P., & Johnson, J. L. (2010). Managing multiple facets of risk Schloetzer, J. D. (2012). Process integration and information
+in new product alliances. Decision Sciences, 41(2), 271–300. sharing in supply chains. The Accounting Review, 87(3),
+
+Lee, Y. W., & Stowe, J. D. (1993). Product risk, asymmetric informa- 1005–1032.
+tion, and trade credit. The Journal of Financial and Quantitative Schunck, R. (2013). Within and between estimates in random-
+Analysis, 28(2), 285–300. effects models: Advantages and drawbacks of correlated ran-
+
+Liang, L. 2016. Common ownership and executive compensation: dom effects and hybrid models. The Stata Journal, 13(1), 65–76.
+UT Dallas Working Paper. Shaver, J. M. (2019). Interpreting interactions in linear fixed-effect
+
+Liu, Y., Luo, Y., & Liu, T. (2009). Governing buyer–supplier relation- regression models: When fixed-effect estimates are no longer
+ships through transactional and relational mechanisms: Evidence within-effects. Strategy Science, 4(1), 25–40.
+from China. Journal of Operations Management, 27(4), 294–309. Sheng, S., Zhou, K. Z., Li, J. J., & Guo, Z. (2018). Institutions and
+
+Lui, S. S., & Ngo, H.-Y. (2004). The role of trust and contractual opportunism in buyer–supplier exchanges: The moderated
+safeguards on cooperation in non-equity alliances. Journal of mediating effects of contractual and relational governance.
+Management, 30(4), 471–485. Journal of the Academy of Marketing Science, 46, 1014–1031.
+
+Macneil, I. R. (1981). Economic analysis of contractual relations: Its Smith, J. K. (1987). Trade credit and informational asymmetry. The
+shortfalls and the need for a rich classificatory apparatus. Journal of Finance, 42(4), 863–872.
+Northwestern University Law Review, 75, 1018. Smith, M. P. (1996). Shareholder activism by institutional investors:
+
+Mahoney, J. (2001). Review essay: Beyond correlational analysis: Evidence from CalPERS. The Journal of Finance, 51(1),
+Recent innovations in theory and method. Sociological Forum, 227–252.
+16(3), 575–593. Sutton, R. I., & Staw, B. M. (1995). What theory is not. Administra-
+
+Makadok, R., Burton, R., & Barney, J. (2018). A practical guide for tive Science Quarterly, 40(3), 371–384.
+making theory contributions in strategic management. Strategic Swink, M., & Zsidisin, G. (2006). On the benefits and risks of
+Management Journal, 39(6), 1530–1545. focused commitment to suppliers. International Journal of Pro-
+
+Matvos, G., & Ostrovsky, M. (2008). Cross-ownership, returns, and vot- duction Research, 44(20), 4223–4240.
+ing in mergers. Journal of Financial Economics, 89(3), 391–403. Waldman, D. A., Ramirez, G. G., House, R. J., & Puranam, P.
+
+McCahery, J. A., Sautner, Z., & Starks, L. T. (2016). Behind the (2001). Does leadership matter? CEO leadership attributes
+scenes: The corporate governance preferences of institutional and profitability under conditions of perceived environmen-
+investors. The Journal of Finance, 71(6), 2905–2932. tal uncertainty. Academy of Management Journal, 44(1),
+
+Moran, P. (2005). Structural vs. relational embeddedness: Social 134–143.
+capital and managerial performance. Strategic Management Van Horen, N. 2007. Customer market power and the provision of
+Journal, 26(12), 1129–1151. trade credit: Evidence from eastern Europe and Central Asia.
+
+Park, S. H., & Ungson, G. R. (1997). The effect of national culture, orga- Available at SSRN 990782.
+nizational complementarity, and economic motivation on joint ven- Wang, E. T. G., & Wei, H.-L. (2007). Interorganizational governance
+ture dissolution. Academy of Management Journal, 40, 279–307. value creation: Coordinating for information visibility and flexi-
+
+Parkhe, A. (1993). Strategic alliance structuring: A game theoretic bility in supply chains. Decision Sciences, 38(4), 647–674.
+and transaction cost examination of interfirm cooperation. Wang, M., Zhang, Q., Wang, Y., & Sheng, S. (2016). Governing local
+Academy of Management Journal, 36(4), 794–829. supplier opportunism in China: Moderating role of institutional
+
+Patatoukas, P. N. (2012). Customer-base concentration: Implica- forces. Journal of Operations Management, 46, 84–94.
+tions for firm performance and capital markets. The Accounting Williamson, O. E. (1975). Markets and hierarchies: Analysis and
+Review, 87(2), 363–392. antitrust implications. New York: The Free Press.
+
+Polidoro, F., Ahuja, G., & Mitchell, W. (2011). When the social Williamson, O. E. (1985). Assessing contract. Journal of Law, Eco-
+structure overshadows competitive incentives: The effects of nomics, & Organization, 1(1), 177–208.
+network embeddedness on joint venture dissolution. Academy Williamson, O. E. (1996). The mechanisms of governance. USA:
+of Management Journal, 54(1), 203–223. Oxford University Press.
+
+ 18731317, 2020, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/joom.1089 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+694 CHEUNG ET AL.
+
+Wilson, R. (1975). Informational economies of scale. The Bell Jour- supply chain. Journal of Operations Management, 26(3),
+nal of Economics, 6(1), 184–195. 368–388.
+
+Yan, X. S., & Zhang, Z. (2009). Institutional investors and equity
+returns: Are short-term institutions better informed? The
+Review of Financial Studies, 22(2), 893–924. How to cite this article: Cheung Y-L, Haw I-M,
+
+Zaheer, A., & Bell, G. G. (2005). Benefiting from network position:
+Hu B, Swink M, Zhang W. Common institutional
+
+Firm capabilities, structural holes, and performance. Strategic
+Management Journal, 26, 809–825. investors and supplier performance in supply
+
+Zhao, X., Huo, B., Flynn, B. B., & Yeung, J. H. Y. (2008). The chains. J Oper Manag. 2020;66:670–696. https://
+impact of power and relationship commitment on the doi.org/10.1002/joom.1089
+integration between manufacturers and customers in a
+
+ 18731317, 2020, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/joom.1089 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+CHEUNG ET AL. 695
+
+APPENDIX A. VARIABLE DEFINITIONS
+
+Variables Definition
+
+ADEPft Sales dependence minus cost dependence, where sales dependence is calculated as sales to the buyer divided by
+total sales of the supplier, and cost dependence is calculated as purchases from the supplier divided by the
+total cost of goods sold of the buyer. The variable is weighted by the percentage of sales to the buyer to be
+converted into the firm level.
+
+AdjARSft + 1 Trade receivables over net sales minus the industry median of trade receivables over net sales at t + 1.
+
+Ageft Firm age.
+
+Age f The between-firm component of Ageft, which is the average Ageft across all fiscal years for each firm.
+
+Cf,t-1 Cash plus marketable securities in year t − 1, adjusted for inflation to 2011.
+
+CANft 1 if the relationship has a common analyst, and 0 otherwise. The variable is weighted by the percentage of sales
+to the buyer to be converted into the firm level.
+
+CAN f The between-firm component of CANft, which is the average CANft across all fiscal years for each firm.
+
+CAUft 1 if the relationship has a common auditor at the audit firm level, and 0 otherwise. The variable is weighted by
+the percentage of sales to the buyer to be converted into the firm level.
+
+CAU f The between-firm component of CAUft, which is the average CAUft across all fiscal years for each firm.
+
+CDIft 1 if the relationship has a common director, and 0 otherwise. The variable is weighted by the percentage of sales
+to the buyer to be converted into the firm level.
+
+CDI f The between-firm component of CDIft, which is the average CDIft across all fiscal years for each firm.
+
+CII_ASYft The weighted average asymmetric institutional ownership that is calculated as the absolute difference between
+supplier ownership and buyer ownership for each CII at the end of the last quarter of her shareholding in
+year t. The weight is the ownership the CII holds in the supplier. It is 0 for buyer–supplier relationships
+without CIIs. The variable is weighted by the percentage of sales to the buyer to be converted into the firm
+level. We use its decile ranks for empirical tests.
+
+CII ASY f The between-firm component of CII_ASYft, which is the average CII_ASYft across all fiscal years for each firm.
+
+CII_COft The weighted average common institutional ownership that is calculated as the lower between supplier
+ownership and buyer ownership for each CII at the end of the last quarter of her shareholding in year t. The
+weight is the ownership the CII holds in the supplier. It is 0 for buyer–supplier relationships without CIIs.
+The variable is weighted by the percentage of sales to the buyer to be converted into the firm level. We use its
+decile ranks for empirical tests.
+
+CII CO f The between-firm component of CII_COft, which is the average CII_COft across all fiscal years for each firm.
+
+CII_Dft 1 if the relationship has a common institutional investor who simultaneously holds the stock of the supplier
+and buyer for more than two quarters in the fiscal year, and 0 otherwise. The variable is weighted by the
+percentage of sales to the buyer to be converted into the firm level.
+
+CII D f The between-firm component of CII_Dft, which is the average CII_Dft across all fiscal years for each firm.
+
+CII_Longft The weighted indicator of a long-term CII within a buyer–supplier relationship. The weight is the ownership
+the CII holds in the supplier. CIIs are long-term investors if their holding period of a buyer–supplier
+relationship is longer than 2 years. The variable is weighted by the percentage of sales to the buyer to be
+converted into firm level.
+
+CII Long f The between-firm component of CII_Longft, which is the average CII_Longft across all fiscal years for each firm.
+
+Dft Dividends, adjusted for inflation to 2011.
+
+Debt ratioft The ratio of total debt over total assets.
+
+Debt ratio f The between-firm component of Debt ratioft, which is the average Debt ratioft across all fiscal years for each
+firm.
+
+Direct ownershipit The stock ownership of one partner holds in the other.
+
+DL_Dft 1 if one partner holds the stock of the other, and 0 otherwise. The variable is weighted by the percentage of
+sales to the buyer to be converted into firm level.
+
+(Continues)
+
+ 18731317, 2020, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/joom.1089 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+696 CHEUNG ET AL.
+
+Variables Definition
+
+DL D f The between-firm component of DL_Dft, which is the average DL_Dft across all fiscal years for each firm.
+
+Eft Earnings before extraordinary items, adjusted for inflation to 2011.
+
+FYEAR Indicators for every fiscal year except the base year.
+
+GPMft + 1 Gross profit margin at t + 1, calculated as (net sale − cost of goods sold)/net sale.
+
+High dependenceft 1 if ADEPft is above the median of all firms in the same industry and year, and 0 otherwise.
+
+Ift Interest expense, adjusted for inflation to 2011.
+
+IND Indicators for every industry based on two-digit SIC code except the base industry.
+
+Industry R&D Industry-level R&D expenditures divided by industry-level total assets. Industries are classified by two-digit SIC
+codes. Missing value of R&D expenditures is treated as 0.
+
+INSTft Total ownership of all institutional investors (including both CIIs and non-CIIs) at the quarter ending at or
+before the fiscal year end date.
+
+INST f The between-firm component of INSTft, which is the average INSTft across all fiscal years for each firm.
+
+Lft Total debt/(total debt + market value of equity).
+
+Mft Market value of equity (common shares outstanding * price at the end of the fiscal year).
+
+NFft Total equity issuance minus repurchases plus debt issuance minus debt redemption.
+
+RB Value-weighted return of the Fama–French size-BE/ME portfolio to which the firm belongs.
+
+rft Realized stock return during fiscal year t.
+
+ROSft Net income divided by net sales.
+
+ROS f The between-firm component of ROSft, which is the average ROSft across all fiscal years for each firm.
+
+Sales growthft The growth rate of net sales, calculated as (net sale at t − net sale at t − 1)/net sale at t.
+
+Sales growth f The between-firm component of Sales growthft, which is the average Sales growthft across all fiscal years for each
+firm.
+
+Sizeft Natural logarithm of total assets.
+
+Size f The between-firm component of Sizeft, which is the average Sizeft across all fiscal years for each firm.
+
+ΔAft Change in inflation adjusted total assets from t − 1 to t.
+
+ΔCANft Change in the status of common analysts between the supplier and buyer from t − 1 to t. The variable is
+weighted by the percentage of sales to the buyer to be converted into the firm level.
+
+ΔCAUft Change in the status of common auditors between the supplier and buyer from t − 1 to t. The variable is
+weighted by the percentage of sales to the buyer to be converted into the firm level.
+
+ΔCDIft Change in the status of common directors between the supplier and buyer from t − 1 to t. The variable is
+weighted by the percentage of sales to the buyer to be converted into the firm level.
+
+ΔCII_ASYft Change in ownership asymmetry of CIIs from t − 1 to t. The calculation of ownership asymmetry is shown in
+Section 5.5. The variable is weighted by the percentage of sales to the buyer to be converted into the firm
+level. We then use its decile ranks for empirical tests.
+
+ΔCII_COft Change in common ownership of CIIs from t − 1 to t. The calculation of common ownership is shown in
+Section 5.5. The variable is weighted by the percentage of sales to the buyer to be converted into the firm
+level. We then use its decile ranks for empirical tests.
+
+ΔCII_Dft Change in the presence of CIIs from t − 1 to t. The variable is weighted by the percentage of sales to the buyer
+to be converted into the firm level.
+
+ΔDft Change in Dft from t − 1 to t.
+
+ΔEft Change in Eft from t − 1 to t.
+
+ΔINSTft Change in INSTft from t − 1 to t.
+
+ΔIft Change in Ift from t − 1 to t.
+
+ΔRDft Change in inflation adjusted R&D expenditures from t − 1 to t.
+
+ 18731317, 2020, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/joom.1089 by Northwestern Polytechnic, Wiley Online Library on [04/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

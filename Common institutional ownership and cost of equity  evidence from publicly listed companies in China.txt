@@ -1,0 +1,1236 @@
+﻿Cogent Economics & Finance
+
+ISSN: 2332-2039 (Online) Journal homepage: www.tandfonline.com/journals/oaef20
+
+Common institutional ownership and cost of
+equity: evidence from publicly listed companies in
+China
+
+Larry Su
+
+To cite this article: Larry Su (2024) Common institutional ownership and cost of equity:
+evidence from publicly listed companies in China, Cogent Economics & Finance, 12:1, 2417754,
+DOI: 10.1080/23322039.2024.2417754
+
+To link to this article:  https://doi.org/10.1080/23322039.2024.2417754
+
+© 2024 The Author(s). Published by Informa
+UK Limited, trading as Taylor & Francis
+Group
+
+Published online: 22 Oct 2024.
+
+Submit your article to this journal 
+
+Article views: 1204
+
+View related articles 
+
+View Crossmark data
+
+Citing articles: 1 View citing articles 
+
+Full Terms & Conditions of access and use can be found at
+https://www.tandfonline.com/action/journalInformation?journalCode=oaef20
+
+
+
+COGENT ECONOMICS & FINANCE
+2024, VOL. 12, NO. 1, 2417754
+https://doi.org/10.1080/23322039.2024.2417754
+
+FINANCIAL ECONOMICS | RESEARCH ARTICLE
+
+Common institutional ownership and cost of equity: evidence from
+publicly listed companies in China
+
+Larry Su
+
+School of Business, Edge Hill University, Ormskirk, UK
+
+ABSTRACT ARTICLE HISTORY
+Using data from 2682 publicly listed companies in China between 2012 and 2022, the Received 16 April 2024
+study employs panel data regression to investigate the impact of common institu- Revised 7 September 2024
+tional ownership (CIO) on the cost of equity (COE). The findings indicate that CIO sig- Accepted 11 October 2024
+nificantly reduces COE, with this reduction attributed to two main factors: the exit
+threat of common institutional investors (CIIs) and the synergistic governance effect. KEYWORDS
+
+Common institutional
+The results remain robust across alternative measures of COE using the PEG and ownership (CIO); cost of
+MPEG models proposed by Easton (2004), as well as endogeneity tests utilizing Two equity (COE); common
+Stage Least Squares. Moreover, the study identifies several factors that influence the institutional investors (CIIs);
+strength of the CIO-COE relationship, including industry competitiveness, corporate industry competition;
+governance quality, and financing constraints. The findings highlight the importance corporate governance;
+of leveraging the advantages of CIO in corporate supervision and governance, while financial constraint
+also emphasizing the need for effective regulation to prevent collusive behavior and
+promote market efficiency. SUBJECTS
+
+Finance; Business,
+Management and
+
+IMPACT STATEMENT Accounting; Economics
+The implications of the study contribute to a better understanding of the role of CIO
+in shaping the COE and have implications for policymakers, regulators, and market
+participants seeking to enhance corporate governance practices and reduce the COE.
+
+1. Introduction
+
+Common institutional ownership (CIO) refers to the situation where the same institutional investors sim-
+ultaneously hold shares in multiple companies in the same industry. According to Lewellen and Lowry
+(2021), only 17% of the companies in the S&P 500 Index had CIO in 1999. By the end of 2015, this pro-
+portion had increased to 81%.
+
+One vein of the literature suggests that CIO facilitates synergistic governance among publicly listed
+companies (PLCs) within an industry, provides convenience for information exchange and resource shar-
+ing, promotes positive cooperation, and reduces unnecessary costs of destructive competition (Koch
+et al., 2021). For example, Edmans et al. (2019) argue that under common ownership, management has
+a higher motivation for active corporate governance because common institutional investors (CIIs) can
+use their information advantage on the entire industry to sell stocks, transmitting negative signals to the
+capital market and increasing pressure on managers. Park et al. (2019) confirm that CIO helps reduce
+malicious competition within an industry, improve market liquidity, decrease proprietary information dis-
+closure costs for PLCs, and enhance corporate governance. Gao et al. (2019) argues that the portfolio
+maximization objective will prompt CIIs to coordinate actions among PLCs in the same industry within
+their portfolio, thereby enhancing corporate governance and supervision. Ramalingegowda et al. (2021)
+finds that higher CIO is related to less earnings management. Dennis et al. (2022) demonstrate that
+there is an increase in voluntary information disclosure among firms as the level of CIO rises, indicating
+that CIO reduces the costs of information disclosure and improves industry coordination mechanisms
+
+CONTACT Larry Su larry.su@edgehill.ac.uk, su.larry@gmail.com School of Business, Edge Hill University, Ormskirk, UK
+ 2024 The Author(s). Published by Informa UK Limited, trading as Taylor & Francis Group
+This is an Open Access article distributed under the terms of the Creative Commons Attribution License (http://creativecommons.org/licenses/by/4.0/), which
+permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. The terms on which this article has been
+published allow the posting of the Accepted Manuscript in a repository by the author(s) or with their consent.
+
+
+
+2 L. SU
+
+among PLCs. Wang et al. (2023), Gao et al. (2024) and Chen et al. (2024) show that CIIs, with advantages
+in information, experience, and resources, can effectively inhibit corporate misconduct, earnings manage-
+ment and stock price crash risk, respectively.
+
+Another vein of literature has raised concerns about potential monopolistic practices and collusive
+fraud in CIO. For example, Azar et al. (2018) ests that CIIs are more inclined to pursue short-term gains
+without considering long-term development, which may lead to collusion with major shareholders to
+encroach on the interests of minority shareholders. Lewellen and Lowry (2021) evaluates various empirical
+approaches to identify the effects of CIO and finds little robust evidence that CIO positively affects firm
+profitability, investment, mergers, or strategic alliances. Pawliczek et al. (2022) believes that CIIs aim to
+maximize profits and have a strong motivation to collude with companies. Corporate collusion not only
+reduces the positive effects of competition among companies but also lowers investment sensitivity,
+ultimately causing companies to miss investment opportunities and reduce investment efficiency. Cheng
+et al. (2022) finds that CIO is negatively associated with the level of corporate social responsibility, which
+supports an anti-competitive view. Additionally, the anti-competitive effect is more pronounced for
+mature firms, and for firms in industries with lower labor intensity and lower customer sensitivity. Kini
+et al. (2024) finds that common ownership can inhibit product market competition and dynamism, espe-
+cially in industries more prone to quasi-monopoly outcomes in product spaces. Anton et al. (2023) finds
+that managerial incentives are less performance sensitive in firms with more common ownership.
+
+Given the lack of consensus in the academic literature, it is evident that further research is needed to
+gain a comprehensive understanding of the implications of CIO. Conducting studies that employ diverse
+methodologies and data sources can provide valuable insights into the potential effects of CIO on vari-
+ous aspects of corporate governance, performance, and strategic decision-making. However, most stud-
+ies focus on developed capital markets, while only a few (e.g., Bai et al., 2023; Li & Liu, 2023; Wicaksono
+et al., 2024; Xu et al., 2023) explore the effects of CIO in emerging markets. Therefore, the objective of
+this article is to examine whether and to what extent CIO influences the COE, using a dataset comprising
+2682 Chinese PLCs during the period from 2012 to 2022.
+
+The novelties and marginal contributions of this article are primarily manifested in the following three
+aspects: Firstly, while prior research on CIO has primarily focused on its effects on corporate information
+disclosure (Park et al., 2019; Pawliczek et al., 2022), innovation efficiency (Gao et al., 2019; Li et al., 2023),
+mergers and acquisitions (Lewellen & Lowry, 2021), earnings management (Gao et al., 2024;
+Ramalingegowda et al., 2021), financial misconduct (Wang et al., 2023) and stock price crash risk (Chen
+et al., 2024) this article represents one of the first efforts to investigate the influence of CIO on COE. By
+exploring this relationship, the article enriches the literature on the governance role of CIO and extends
+our understanding of how CIO may affect firm valuation.
+
+Secondly, while previous studies have examined the impact of institutional investors in general on
+COE (Edmans et al., 2019; Gillan & Starks, 2000; Gompers et al., 2003; He & Huang, 2017), this article spe-
+cifically focuses on CIIs and investigates their influence on COE through the lenses of ‘exit threat’ and
+‘collaborative governance’ within the framework of CIO. This focused examination allows for a deeper
+exploration of the mechanisms through which CIIs affect COE, thereby extending existing research on
+the determinants of COE.
+
+Thirdly, this article goes beyond merely examining the direct relationship between CIO and COE by
+exploring the moderating roles of industry competition, corporate governance, and financial constraints.
+By considering these contextual factors, the study aims to illuminate the complex interplay between CIO
+and COE. Specifically, it investigates whether levels of industry competition, the quality of corporate gov-
+ernance practices, and financing constraints influence the strength or direction of the relationship
+between CIO and COE. This analysis provides a nuanced understanding of the underlying mechanisms
+through which CIO affects COE and offers empirical evidence that can inform the formulation of relevant
+policies by regulatory authorities.
+
+2. Theoretical analysis and hypothesis development
+
+Under traditional asset pricing theories, CIO would have to be related to a firm’s systematic risk to be
+non-diversifiable and therefore priced into the firm’s cost of equity capital. According to existing studies,
+
+
+
+COGENT ECONOMICS & FINANCE 3
+
+CIO can reduce the COE through three different channels: Price informativeness, product market risks
+and synergistic governance effects. Specifically, CIO can enhance the transparency and informativeness
+of a firm’s financial data. This improved disclosure quality allows investors to better assess the firm’s
+expected value and future cash flows, leading to a reduction in uncertainty and, consequently, a lower
+COE (Boone & White, 2015; Edmans et al., 2019; Wu et al., 2023). In addition, strategic alliances and
+incentives to avoid competition in the product market allow firms to access larger markets, benefit from
+economies of scale, and internalize negative externalities. This reduces a firm’s product market risk,
+which is partially non-diversifiable, ultimately lowering the COE (Bloomfield et al., 2024; Koch et al.,
+2021; Park et al., 2019). Furthermore, CIIs have both the incentives and the ability to influence their port-
+folio firms’ cost of capital through corporate governance and disclosure changes. By promoting better
+corporate governance practices and improving disclosure quality, CIIs can enhance investor confidence
+and reduce the uncertainty surrounding future cash flows. This, in turn, reduces the portfolio firms’ COE
+(Kang et al., 2018; Ni & Yin, 2023).
+
+Firstly, in terms of price informativeness, CIIs typically hold a diversified portfolio consisting of rela-
+tively good and relatively poor PLCs. When faced with liquidity risk or other crises, CIIs can flexibly
+decide which assets to sell. In cases where CIIs hold more than 5% of the shares, their divestment can
+have a detrimental impact on the underlying PLCs. The first assets to be sold are often the relatively
+underperforming ones, which signal negative information of the companies to the market. This process
+leads to a survival-of-the-fittest dynamic, exerting pressure on PLCs from various aspects and compelling
+them to strengthen their governance practices through the mechanism of ‘exit threat’ (Boone & White,
+2015; Edmans et al., 2019; Koch et al., 2021). Such a threat can lead to enhanced disclosure quality,
+greater long-term shareholdings, and higher risk-absorption capacity (Khoo et al., 2024). In the Chinese
+capital market, where herd behavior is significant, price information signals are more easily captured by
+investors, making the informational content of price reactions deeper under the CIO framework. This, in
+turn, compels managers to improve information disclosure and increase corporate transparency, which
+can lead to lower COE (Wu et al., 2023).
+
+Secondly, in terms of product market risks, CIO creates strategic alliances and incentives that enable
+companies to collaborate rather than compete, yielding multiple economic and operational benefits
+(Park et al., 2019). For example, firms can leverage their partners’ market presence, distribution networks,
+and customer bases. The increased market access can lead to higher sales volumes and revenue streams,
+enhancing the firm’s financial stability and reducing the variability in cash flows. This stability is attract-
+ive to investors, as it signifies a lower risk profile (Gao et al., 2024). In addition, when companies collab-
+orate, they can pool resources, share R&D costs, and optimize production processes. The resulting
+efficiencies from larger-scale operations can lead to cost reductions in manufacturing, procurement, and
+distribution (Bai et al., 2023; Li & Liu, 2023). These cost savings improve profit margins and provide a
+competitive edge in pricing. Enhanced profitability and cost efficiency make the firm more resilient to
+market fluctuations and economic downturns, further lowering the perceived risk by investors
+(Bloomfield et al., 2024).
+
+Thirdly, from the perspective of synergistic governance effects under the CIO framework, CIIs with
+stakes in multiple companies within the same industry have a greater advantage in terms of information
+acquisition, industry experience, and corporate influence. Specifically, CIIs can accumulate in-depth
+industry-specific knowledge, information, and experience, making it easier for them to identify inaccurate
+reports and exercise interventions. The governance experience obtained can reduce monitoring costs
+and information uncertainties, enhancing the effectiveness of CIIs’ supervision (Kang et al., 2018).
+Moreover, CIIs’ involvement reduces the competitiveness among companies in the same industry,
+thereby lowering the possibility and costs of destructive competition (Gilje et al., 2020). Overall, the CIO
+framework helps companies to coordinate industry product market strategies, resolve disputes, reduce
+destructive competition, and promote positive cooperation (Kini et al., 2024; Liu & He, 2024). This may
+lead to a reduction in stock price volatility and investors’ risk expectations towards the PLC, and ultim-
+ately help lower its COE.
+
+Based on the above analysis, this study proposes the following hypothesis:
+
+[H1]: Firms with common institutional ownership have lower cost of equity capital.
+
+
+
+4 L. SU
+
+For companies operating in highly competitive industries, the intensity of competition raises concerns
+about the survival of businesses. Moreover, stakeholders are wary of contractual loopholes that result in
+low levels of inter-firm cooperation and inefficiencies. Specifically, intense industry competition exposes
+companies to increased risks and unethical practices. In order to avoid being eliminated in such fierce
+competition, companies in highly competitive environments are more motivated to engage in proactive
+corporate governance to enhance their value and reduce their COE compared to companies in less com-
+petitive environments (He & Huang, 2017).
+
+Additionally, driven by the goal of maximizing individual firm value, the higher the competition
+within an industry, the more likely businesses impose externalities on each other, leading to inefficien-
+cies. Considering the exit mechanism of CIO, companies facing higher levels of industry competition
+release more sensitive signals to the market through the CIO framework. This increased sensitivity cre-
+ates stronger incentives for better corporate governance, which ultimately contributes to reducing a
+company’s COE.
+
+Moreover, the structure of the product market affects a company’s cash flow risk and equilibrium
+return (Li et al., 2023). Through common ownership, competition and inefficiency among companies in
+the investment portfolio can be suppressed, and common owners can reduce a company’s product mar-
+ket risk (Bloomfield et al., 2024). Therefore, as market competition intensifies, the negative correlation
+between CIO and a company’s COE becomes stronger.
+
+Based on these considerations, this study proposes the following hypothesis:
+
+[H2]: The higher the level of industry competition, the more significant the role of common institutional
+ownership in reducing a company’s cost of equity capital.
+
+Good corporate governance mechanisms have several benefits. On one hand, they help alleviate
+agency problems among management and provide effective supervision of PLCs (Gillan & Starks, 2000;
+Sch€auble, 2019). On the other hand, they contribute to improving information asymmetry issues and
+enhancing the quality of information disclosure by PLCs (Hartzell & Starks, 2003). As hypothesized earlier,
+from the perspective of the synergistic governance effect of CIO, whether through active participation in
+corporate governance supervision or by influencing executive behavior, CIIs can achieve the goal of con-
+veying positive signals through proactive corporate governance. This, in turn, reduces investors’ risk
+expectations and lowers a company’s COE.
+
+From the perspective of information asymmetry, CIIs, driven by the maximization of portfolio value,
+often tend to integrate and coordinate industry experience, information resources, economies of scale,
+and other factors within their portfolios, resulting in integration effects (He et al., 2019). This is beneficial
+for reducing cutthroat competition. In other words, when a company has a high level of corporate gov-
+ernance, it not only enables CIIs to exert synergistic governance effects but also facilitates their integra-
+tion of resources and information gathering, leading to economies of scale (Dennis et al., 2022). This, in
+turn, reduces stock price volatility and investors’ risk expectations toward the PLC, ultimately lowering
+the company’s COE.
+
+Based on these considerations, this study proposes the following hypothesis:
+
+[H3]: The higher the level of corporate governance, the more significant the role of common institutional
+ownership in reducing a company’s cost of equity capital.
+
+The level of financial constraints on a PLC directly affects its financing costs, which in turn impact its
+investment capabilities, production scale, and efficiency. Higher financial constraints lead to increased
+financing costs, hindering the company’s ability to invest and affecting its overall operations. Conversely,
+lower financial constraints enable PLCs to secure external financing more easily, facilitating timely invest-
+ments in profitable projects and improving business performance (Parker & van Praag, 2006).
+
+For PLCs facing significant financial constraints, CIIs can play a crucial role in fostering market cooper-
+ation and facilitating strategic acquisitions among their portfolio companies. By mitigating inefficiencies
+and reducing cutthroat competition, CIIs enhance innovation, productivity, and profitability, thereby alle-
+viating the financial pressures faced by these firms (Gao et al., 2019). Research by Du and Zhang (2023)
+further underscores the positive role of CIOs in reducing uncertainty in investment outcomes and
+
+
+
+COGENT ECONOMICS & FINANCE 5
+
+increasing financial flexibility. The presence of a CIO becomes particularly valuable as financial con-
+straints on a PLC intensify, contributing significantly to reducing the company’s COE.
+
+CIIs not only reduce competition within the industry but also facilitate the flow of resources and
+information among companies, leading to improved profitability and production efficiency (Wu et al.,
+2023). This collaboration helps companies overcome high financial constraints and harnesses the syner-
+gistic governance effects of the CIO, ultimately lowering equity costs. Consequently, the more financially
+constrained a PLC is, the more pronounced the CIO’s negative impact on the company’s COE.
+
+Based on these considerations, this study proposes the following hypothesis:
+
+[H4]: The higher the level of financial constraint, the more significant the role of common institutional
+ownership in reducing a company’s cost of equity capital.
+
+3. Data and methodology
+
+This study selects 2682 non-financial listed companies in the A-share market of China from 2012 to 2022
+as the research sample. To ensure the validity of the sample, we follow the convention and delete all
+financial and insurance companies, firms tagged as Special Treatment (ST) due to consecutive losses in
+over two years, and firms with missing data on key variables. The indicator of CIO is manually collected
+and compiled based on quarterly financial reports available from the China Securities Market and
+Accounting Research (CSMAR) database1. Other variables are obtained from both the CSMAR and Wind
+database. To mitigate the impact of outliers on the regression, a winsorization process was employed on
+all continuous variables within the regression model, trimming the upper and lower 1% of the dataset.
+Ultimately, a total of 35,635 observations was obtained.
+
+To test the hypothesis, this paper specifies the following panel data regression model:
+
+PEGi, t ¼ b0 þ b1CIOi, t þ dXit þ ui þ kt þ eit (1)
+
+where PEGi, t represents the cost of equity capital of company i during year t, calculated based on the
+PEG model; CIOi, t Represents the status of common institutional ownership in the listed company. The
+parameter b1 captures the impact of the CIO on COE. The matrix Xit Is a vector of control variables that
+prior studies have shown to explain the cross-section of expected equity returns including firm size
+(Fama & French, 1992, 2015), leverage ratio (Fama & French, 1992), profitability (Fama & French, 2015),
+market-to-book ratio (Fama & French, 1992, 2015), growth opportunities (Hou et al., 2015), and corporate
+governance indicators such as board size, the proportion of independent directors, and institutional
+investor ownership (Core et al., 2006; Ghosh et al., 2022; Gompers et al., 2003; Huo et al., 2021). The
+term ui denotes firm fixed effects, kt denotes year-fixed effects, and the error term eit accounts for ran-
+dom disturbances. To address potential autocorrelation at the firm level, cluster-robust standard errors
+are computed in all regressions. Hypothesis requires b̂1 < 0:
+
+This study utilizes the PEG model proposed by Easton (2004) to calibrate COE. Specifically, the PEG
+model calculates the COE based on the relationship between a company’s price-earnings ratio (P/E ratio)
+and its expected earnings growth rate. It assuqmffiffieffiffiffisffiffiffitffiffihffiffiaffiffiffitffiffiffitffiffihffiffiffie growth rate of earnings is constant, and the
+
+formula for the COE is as follows: PEGi, t ¼ ðepsi, tþ1−epsi, tÞ
+P where eps p
+i, t i, tþ2 and e si, tþ1 are earnings per
+
+share for company i during year tþ 2 and tþ 1, respectively, and Pi, t is its share price at the end of
+year t.
+
+Drawing on existing literature (Chen et al., 2024; He & Huang, 2017; Koch et al., 2021), this study con-
+structs two indicators to measure CIO of listed companies. The first indicator is a CIO dummy variable
+(CIO_1). If a PLC has CIIs holding shares in any single quarter of the year, CIO_1 takes the value 1; other-
+wise, it takes value 0. CIIs refer to institutional investors holding at least a 5% stake in two or more com-
+panies in the same industry. The second indicator is the degree of connectivity of common ownership
+(CIO_2), which is the number of CIIs holding shares in a PLC.
+
+It is worth noting that CIO_1 and CIO_2 are constructed based on quarterly data. If a PLC has CIIs in
+any quarter of a given year, it is considered to have been held by CIIs in that year. The average of the
+quarterly indicator is taken as the corresponding annual indicator data.
+
+
+
+6 L. SU
+
+To examine the moderating role of industry competition, this paper augments model (1) by including
+the interaction of the level of industry competition (HHIit) with the CIO variable and creates the follow-
+ing model:
+
+PEGi, t ¼ b0 þ b1CIOi, tþb2CIOi, t  HHIi, t þ dXit þ ui þ kt þ eit (2)
+
+where HHIit Is the Herfindahl-Hirschman Index calculated by summing the squares of the market shares
+of all firms in an industry. A higher value of this index indicates a higher level of industry concentration
+and less degree of competition. Hypothesis requires b̂2 > 0:
+
+To examine the moderating role of corporate governance (CGit), this paper augments model (1) by
+including the interaction of CGit with the CIO variable and creates the following model:
+
+PEGi, t ¼ b0 þ b1CIOi, tþb2CIOi, t  CGi, t þ dXit þ ui þ kt þ eit (3)
+
+where CGit represents the level of corporate governance, which is constructed by selecting eight varia-
+bles related to different aspects of corporate governance using principal component analysis, namely,
+the separation of the chairman and CEO positions, the proportion of independent directors, the propor-
+tion of board ownership, the proportion of ownership by the largest shareholder, the proportion of
+executive ownership, the size of the board of directors, the size of the supervisory board, and the sum
+of the compensation of the top three executives. Hypothesis requires b̂2 < 0:
+
+To examine the moderating role of financial constraint (SAit), this paper augments model (1) by
+including the interaction of SAit with the CIO variable and creates the following model:
+
+PEGi, t ¼ b0 þ b1CIOi, tþb2CIOi, t  SAi, t þ dXit þ ui þ kt þ eit (4)
+
+where SAit represents the level of financial constraint, which is constructed by the sensitivity of a firm’s
+investment to changes in its cash flow based on the method proposed by Hadlock and Pierce (2010).
+Hypothesis requires b̂2 < 0:
+
+4. Empirical results on the effect of CIO on COE
+
+Table 1 presents the definition and measurement of the main variables. Table 2 presents the descriptive
+statistics. The mean COE is 10.7% with a standard deviation of 3.85%. The minimum is 2.93% and the
+maximum is 22.8%, suggesting that there is a large variation in COE among PLCs. In addition, the mean
+of CIO_1, is 0.103 with a standard deviation of 0.305. This indicates that the proportion of CIIs holding
+at least a 5% stake in two or more companies in the same industry is only 10.3%. The mean of CIO con-
+nectivity, CIO_2, is 1.080, with a maximum value of 4. This indicates that companies have a maximum of
+four common shareholders with shared ownership.
+
+Table 3 presents the estimation results of the panel data model (1). Columns (i) and (ii) contain results
+without control variables or fixed effects, columns (iii) and (iv) contain results with control variables but
+without any fixed effects, while columns (v) and (vi) contain results with control variables as well as
+firm- and year-fixed effects. As shown in columns (i), (iii) and (v), the coefficient estimates for CIO 1it are
+−0.008, −0.006 and −0.008, respectively. These are significant at the 1% level, suggesting that the pres-
+ence of CIO leads to a 0.6 to 0.8 percentage point decrease in COE.
+
+In addition, as shown in columns (ii), (iv) and (vi), the coefficient estimates for CIO 2it are −0.011,
+−0.008, and −0.011, respectively. These are significant at the 1% level, suggesting that the presence of
+an additional CII for the company leads to a 0.8 to 1.1 percentage points decrease in COE. Hence, the
+findings from the panel data regression suggest that the hypothesis cannot be rejected. By fostering a
+more stable and predictable business environment, CIIs help lower the perceived risks associated with
+investing in the company. Thus, the company’s COE decreases, reflecting the lower return investors
+require to compensate for reduced risks.
+
+The above results are consistent with theoretical predictions that the exit threat posed by CIIs and
+the synergistic governance effect they create can help reduce a company’s COE (Boone & White, 2015;
+Edmans et al., 2019; Koch et al., 2021; Li & Liu, 2023). When companies perceive the risk of CIIs reducing
+their shareholdings, they are incentivized to improve their corporate governance practices. This proactive
+approach is driven by the desire to avoid the negative signals and potential market repercussions that
+
+
+
+COGENT ECONOMICS & FINANCE 7
+
+Table 1. Definition and measurement of variables.
+Type of Variable Symbol Measurement
+Dependent PEG The cost of equity capital for a company, calculated using the PEG (Price/Earnings to Growth)
+
+model.
+Core Independent CIO_1 If there are common institutional investors holding shares in the company in the current
+
+year, it takes value of 1; otherwise, it takes value of 0.
+CIO_2 The natural logarithm of the sum of the number of common institutional investors holding
+CIO_3 shares in a listed company and 1.
+
+The sum of the percentage of shares held by all common institutional investors
+Control Size Size of a company, the natural logarithm of its total assets.
+
+Lev Leverage: The ratio of total liabilities to total assets.
+ROA Return on Assets: The ratio of operating profit for the period to total assets at the end of the
+
+period.
+ROE Profitability: The ratio of net profit to the average shareholders’ equity.
+Liquid Liquidity: The ratio of current assets to current liabilities.
+BM Book to Market: The ratio of the market value to the book value of equity.
+
+Board Board Size: The natural logarithm of the number of members on a company’s board of
+directors.
+
+Indep Percentage of independent directors: The ratio of the number of independent directors to
+the total number of directors on the board.
+
+Shrholder Ownership of the largest shareholder: The ratio of the number of shares held by the largest
+shareholder to the total number of shares outstanding.
+
+INST Institutional investor ownership: The ratio of the total number of shares held by institutional
+investors to the total number of shares outstanding.
+
+Growth Revenue growth rate: The ratio of the current year’s revenue to the previous year’s revenue
+minus 1.
+
+Moderator HHI Herfindahl-Hirschman index: The sum of the squared ratios of the revenue of each company
+in the industry to the total revenue of the industry.
+
+CG Level of corporate governance: An index for corporate governance quality using principal
+component analysis on eight variables.
+
+SA Index for financing constraint
+Note. The indicator of CIO is manually collected and compiled based on quarterly financial reports available from the China Securities Market
+and Accounting Research (CSMAR) database. Other variables are obtained from both the CSMAR and Wind database.
+
+Table 2. Descriptive statistics.
+Variable No. of Observations Mean Standard Deviation Minimum Maximum
+CIO_1 35,635 0.103 0.305 0 1
+CIO_2 35,635 1.080 1.260 0 4
+CIO_3 34023 0.025 0.09 0 0.535
+PEG 21,411 0.107 0.0385 0.0293 0.228
+MPEG 20474 0.126 0.051 0.033 0.309
+HHI 34018 0.505 0.200 0 1
+CG 32413 0.002 0.064 −0.107 0.206
+KZ 34023 1.089 2.330 −6.640 6.165
+Size 33,994 22.17 1.310 19.86 26.27
+Lev 33,994 0.408 0.204 0.0514 0.883
+ROA 33,994 0.0361 0.0628 −0.218 0.217
+ROE 33,994 0.0551 0.125 −0.588 0.351
+Liquid 33,901 2.738 2.915 0.338 18.52
+BM 33,901 0.626 0.258 0 1.182
+Board 33,901 2.116 0.199 1.609 2.639
+Indep 33,901 37.51 5.348 28.57 57.14
+Shrholder 33,901 34.27 14.85 8.413 74.02
+INST 33,901 44.31 25.38 0.204 92.95
+Growth 34,022 0.146 0.366 −0.542 2.166
+
+could arise from a reduction in CII ownership. Enhanced corporate governance, in turn, reassures invest-
+ors, leading to lower risk perceptions and a subsequent decrease in COE.
+
+Moreover, CIIs often bring valuable industry-specific knowledge, information, and experience. Their
+involvement can streamline monitoring processes and reduce associated costs by providing more effi-
+cient oversight. Additionally, CIIs can play a pivotal role in aligning and coordinating industry product
+market strategies, competition strategies, and dispute resolutions among companies in which they hold
+shares. This coordination not only helps in mitigating cutthroat competition but also stabilizes the mar-
+ket environment, reducing stock price volatility and the uncertainty faced by investors, which lowers a
+company’s COE.
+
+Regarding control variables, the regression results with firm- and year-fixed effects reveal the follow-
+ing findings: Firstly, firm size and leverage have significantly positive coefficients at the 1% level,
+
+
+
+8 L. SU
+
+Table 3. Estimation Results on the Impact of Common Institutional Investor on Cost of Equity.
+(i) PEG (ii) PEG (iii) PEG (iv) PEG (v) PEG (vi) PEG
+
+CIO_1 −0.008 −0.006 −0.008
+(−7.06) (−7.13) (−6.89)
+
+CIO_2 −0.011 −0.008 −0.011
+(−7.18) (-7.04) (-7.01)
+
+Size 0.000 0.000 0.003 0.003
+(1.66) (1.66) (7.11) (7.10)
+
+Lev 0.029 0.029 0.007 0.007
+(14.68) (14.69) (2.70) (2.70)
+
+ROA −0.085 −0.085 −0.024 −0.024
+(−6.71) (−6.69) (−1.77) (−1.73)
+
+ROE 0.038 0.037 0.001 0.001
+(5.59) (5.57) (0.16) (0.13)
+
+Liquid 0.001 0.001 0.000 0.000
+(6.86) (6.86) (1.10) (1.11)
+
+BM 0.010 0.010 −0.009 −0.009
+(7.87) (7.90) (−5.80) (−5.77)
+
+Board −0.006 −0.006 −0.002 −0.003
+(−3.62) (−3.56) (−1.14) (−1.15)
+
+Indep 0.000 0.000 0.000 0.000
+(0.23) (0.25) (0.92) (0.90)
+
+Shrholder −0.000 −0.000 −0.000 −0.000
+(−1.57) (−1.59) (−0.07) (−0.07)
+
+INST −0.000 −0.000 −0.000 −0.000
+(−5.17) (−5.15) (−1.82) (−1.84)
+
+Growth 0.005 0.005 0.003 0.003
+(6.47) (6.47) (4.20) (4.23)
+
+Constant 0.120 0.120 0.093 0.093 0.053 0.053
+(145.60) (145.54) (13.47) (13.41) (4.53) (4.55)
+
+Year FE N N N N Y Y
+Ind FE N N N N Y Y
+Observations 21,411 21,411 20,584 20,584 20,584 20,584
+Adj R2 0.156 0.156 0.046 0.046 0.166 0.166
+Note. This table presents the results on the impact of common institutional ownership on the cost of equity capital. The dependent variable
+is constructed using the PEG model. Columns (i) and (ii) contain results without control variables or fixed effects. Columns (iii) and (iv)
+contain results with control variables but without any fixed effects. Columns (v) and (vi) contain results with control variables as well as
+firm- and year-fixed effects. Variable definitions are presented in Table 1. Cluster-robust standard errors at the firm level are reported in
+parentheses. , , and indicate statistical significance at the 1%, 5%, and 10% levels, respectively.
+
+indicating that larger firms and those with higher leverage tend to have higher COE. Secondly, growth
+opportunities also have a significantly positive coefficient at the 1% level, suggesting that firms with
+greater growth prospects experience higher COE. Thirdly, ROA has a significantly negative coefficient at
+the 10% level, indicating that firms with better performance tend to have lower COE. Fourthly, the
+book-to-market ratio has a significantly negative coefficient at the 1% level, suggesting that undervalued
+firms have lower COE. Lastly, regarding the effect of institutional ownership on COE, the results indicate
+a significant negative relationship. However, the estimated coefficients are close to zero, suggesting that
+the economic impact of institutional ownership on COE is negligible or minimal.
+
+5. Robustness tests
+
+5.1. Alternative measures of COE and CIO
+
+In order to mitigate the potential impact of the measurement method for COE and CIO on the empirical
+results, this study followed the methodology proposed by Easton (2004) and employed the MPEG model
+to measure COE and assess the robustness of the regression results presented in regression (1). The
+updated results can be found in columns (i) and (ii) of Table 4.
+
+The regression results reveal that the coefficient estimates for CIO 1it and CIO 2it are −0.010 and
+−0.014, respectively, and both are statistically significant at the 1% level. This suggests that when there
+is CIO within a PLC, on average, the COE of the company decreases by 1 percentage point. Moreover,
+for each additional CII in a PLC, the COE decreases by 1.4 percentage points. These findings align with
+the results reported in Table 4, further confirming the robustness of the baseline regression in this
+study.
+
+
+
+COGENT ECONOMICS & FINANCE 9
+
+Table 4. Alternative measure of common institutional investor and COE.
+(i) MPEG (ii) MPEG (iii) MPEG (iv) PEG
+
+CIO_1 −0.010
+(−6.84)
+
+CIO_2 −0.014
+(−6.94)
+
+CIO_3 −0.028 −0.022
+(-4.16) (-4.16)
+
+ROA −0.040 −0.039 −0.039 −0.023
+(−2.21) (−2.17) (−2.15) (−1.71)
+
+ROE 0.005 0.005 0.005 0.001
+(0.55) (0.51) (0.54) (0.16)
+
+Liquid −0.000 −0.000 −0.000 0.000
+(−1.20) (−1.20) (−1.17) (1.14)
+
+BM −0.014 −0.014 −0.014 −0.009
+(−7.06) (−7.04) (−7.21) (-5.93)
+
+Board −0.003 −0.003 −0.003 −0.002
+(−1.03) (−1.04) (−0.97) (−1.08)
+
+Indep 0.000 0.000 0.000 0.000
+(0.45) (0.43) (0.50) (0.96)
+
+Shrholder −0.000 −0.000 −0.000 −0.000
+(−1.47) (−1.47) (−1.55) (−0.14)
+
+INST −0.000 −0.000 −0.000 −0.000
+(−1.75) (−1.77) (−1.67) (−1.75)
+
+Growth 0.002 0.002 0.002 0.003
+(2.25) (2.27) (2.24) (4.19)
+(9.55) (9.56) (9.03) (5.79)
+
+Constant 0.073 0.074 0.074 0.053
+(4.86) (4.89) (4.90) (4.56)
+
+Year FE Y Y Y Y
+Ind FE Y Y Y Y
+Observations 20,184 20,184 20,184 20,584
+Adj R2 0.190 0.191 0.189 0.165
+Note. This table presents the results on the impact of common institutional ownership on the cost of equity capital using alternative meas-
+ures for COE and CIO. Cluster-robust standard errors at the firm level are reported in parentheses. , , and indicate statistical signifi-
+cance at the 1%, 5%, and 10% levels, respectively.
+
+Table 5. Endogeneity test.
+First stage
+
+Second stage
+(i) (ii) (iii) (iv)
+
+CIO_1 CIO_2 PEG PEG
+L.CIO_1 0.851
+
+(105.87)
+L.CIO_2 0.859
+
+(111.13)
+CIO_1 −0.00566
+
+(-3.86)
+CIO_2 −0.00721
+
+(-3.77)
+F-stat (First Stage) 1361.91 1334.19
+Control Y Y Y Y
+Year FE Y Y Y Y
+Ind FE Y Y Y Y
+Observations 17576 17576 17576 17576
+Note. This table presents the Two-stage Least Squares (2SLS) estimation results to examine the possibility of reverse causality. Lagged CIO is
+used as the instrumental variable. Columns (i) and (ii) contain the results from the first stage regressions. columns (iii) and (iv) report the
+results from the second-stage regressions. Cluster-robust standard errors at the firm level are reported in parentheses. , , and indicate
+statistical significance at the 1%, 5%, and 10% levels, respectively.
+
+Furthermore, in line with He and Huang (2017) and Chen et al. (2024), this study employs an alterna-
+tive measure, denoted as CIO 3it , to capture the level of CIO. This measure represents the cumulative
+ownership stakes of all CIIs in a PLC. The updated regression results are presented in columns (iii) and
+(iv) of Table 5. Based on the regression results, the coefficient estimates for CIO 3it are −0.028 and
+−0.022 when the COE is calculated using the MPEG model and the PEG model, respectively. Both coeffi-
+cient estimates are statistically significant at the 1% level. These findings indicate that even after modify-
+ing the measurement method for CIO, the impact of CIO on the COE remains robust.
+
+
+
+10 L. SU
+
+Table 6. The Moderating role of industry competition, corporate governance and financial constraint.
+Industry Competition Corporate Governance Financial Constraint
+
+(i) (ii) (iii) (iv) (v) (vi)
+CIO_1HHI 0.522
+
+(3.75)
+CIO_2HHI 0.527
+
+(3.64)
+CIO_1CG −0.014
+
+(−6.32)
+CIO_2CG −0.019
+
+(-6.43)
+CIO_1SA −0.304
+
+(-3.32)
+CIO_2SA −0.421
+
+(-3.33)
+CIO_1 −0.012 −0.011 −0.007
+
+(−5.69) (−8.80) (−5.83)
+CIO_2 −0.011 −0.009 −0.006
+
+(−6.02) (-8.26) (-5.53)
+HHI −0.000 −0.000
+
+(−0.13) (−0.16)
+CG 0.010 0.009
+
+(1.53) (1.47)
+SA −0.002 −0.002
+
+(−8.45) (−8.68)
+Size 0.003 0.003 0.003 0.003 0.003 0.003
+
+(7.23) (7.22) (7.18) (7.18) (7.14) (7.15)
+Lev 0.007 0.007 0.007 0.007 0.007 0.007
+
+(2.76) (2.77) (2.72) (2.70) (2.73) (2.72)
+ROA −0.022 −0.023 −0.024 −0.024 −0.024 −0.024
+
+(−1.64) (−1.65) (−1.76) (−1.72) (−1.75) (−1.74)
+ROE 0.000 0.001 0.001 0.001 0.001 0.001
+
+(0.07) (0.08) (0.17) (0.13) (0.18) (0.17)
+Liquid 0.000 0.000 0.000 0.000 0.000 0.000
+
+(1.15) (1.17) (1.08) (1.08) (1.10) (1.12)
+BM −0.009 −0.009 −0.009 −0.009 −0.009 −0.009
+
+(−6.00) (−5.98) (−5.87) (−5.85) (−5.95) (−5.93)
+Board −0.002 −0.002 −0.003 −0.003 −0.002 −0.002
+
+(−1.13) (−1.13) (−1.16) (−1.16) (−1.11) (−1.11)
+Indep 0.000 0.000 0.000 0.000 0.000 0.000
+
+(1.00) (0.97) (0.95) (0.92) (0.98) (0.98)
+Shrholder −0.000 −0.000 0.000 0.000 −0.000 −0.000
+
+(−0.11) (−0.10) (0.03) (0.03) (−0.07) (−0.07)
+INST −0.000 −0.000 −0.000 −0.000 −0.000 −0.000
+
+(−1.71) (−1.73) (−1.76) (−1.77) (−1.73) (−1.74)
+Growth 0.003 0.003 0.003 0.003 0.003 0.003
+
+(4.11) (4.12) (4.16) (4.19) (4.09) (4.09)
+Constant 0.051 0.051 0.051 0.052 0.052 0.052
+
+(4.35) (4.37) (4.44) (4.45) (4.45) (4.44)
+Year FE Y Y Y Y Y Y
+Ind FE Y Y Y Y Y Y
+Adj R2 0.165 0.164 0.166 0.166 0.164 0.164
+Note. This table presents the results on the moderation effect of common institutional ownership and the cost of equity capital. Columns (i)
+and (ii) contain results with industry competition as the moderator. Columns (iii) and (iv) contain results with corporate governance as the
+moderator. Columns (v) and (vi) contain results with financial constraints as the moderator. Cluster-robust standard errors at the firm level
+are reported in parentheses. , , and indicate statistical significance at the 1%, 5%, and 10% levels, respectively.
+
+5.2. Endogeneity tests
+
+One potential issue in this study is the influence of firm-specific attributes, such as size, profitability, mar-
+ket share, and managerial characteristics, on the CIO. These factors can affect the investment choices of
+institutional investors, potentially leading to endogeneity problems. To address this concern, the study
+conducts the Heckman test to examine possible sample selection biases. The results of the Heckman
+test fail to reject the null hypothesis that the inverse Mill’s ratio is equal to zero, indicating no statistic-
+ally significant endogeneity issues resulting from sample selection biases in the regression results.
+
+Additionally, the experience and informational advantages of common institutional investors them-
+selves may contribute to their preference for investing in higher-value and lower-risk firms. This could
+potentially result in a significant reduction in the COE. Therefore, the findings presented in Tables 3 and
+
+
+
+COGENT ECONOMICS & FINANCE 11
+
+4 may not solely reflect the synergistic governance effects of CIO but rather the lower risk faced by the
+firms in which CIIs invest. To further address the possibility of reverse causality, the study employs
+lagged CIO as an instrumental variable and utilizes Two-stage Least Squares (2SLS) estimation. The esti-
+mation results of 2SLS are reported in Table 5.
+
+The first-stage regression results are presented in columns (i) and (ii). These results indicate that the
+coefficient estimates of L.CIO_1 and L.CIO_2 are statistically significant and positive, suggesting a posi-
+tive correlation between the instrumental variables and the core explanatory variables. The F-statistics of
+1361.91 and 1334.19 indicate the absence of weak instrument problems, thus supporting the appropri-
+ateness of using lagged CIO as instrumental variables.
+
+The second-stage regression results are reported in columns (iii) and (iv). These results demonstrate
+that, after accounting for potential endogeneity issues using instrumental variables, the impact of CIO
+on COE remains significantly negative at the 5% level. Therefore, the empirical findings of this study are
+robust to potential endogeneity problems.
+
+6. Further analysis
+
+6.1. Moderation effects
+
+Regarding the moderating effect of industry competition, the results in Table 6, columns (i) and (ii), indi-
+cate that the coefficients for the interaction terms between CIO_1 and HHI (CIO 1i, t  HHIi, t) and CIO_2
+and HHI (CIO 2i, t  HHIi, t) are 0.522 and 0.527, respectively. Both coefficients are statistically significant
+at the 1% level. Specifically, a 10-percentage point decrease in HHI (indicating increased industry compe-
+tition) results in an additional decrease in the COE of 5.22 to 5.27 percentage points. Therefore, the
+hypothesis cannot be rejected.
+
+Regarding the moderating effect of corporate governance, the results in Table 6, columns (iii) and
+(iv), show that the coefficient estimates for the interaction terms between CIO_1 and the corporate gov-
+ernance index (CIO 1i, t  CGi, t) and CIO_2 and the corporate governance index (CIO 2i, t  CGi, t) are
+−0.014 and −0.019, respectively. Both coefficients are statistically significant at the 1% level. Specifically,
+a one-point increase in the corporate governance index leads to an additional decrease in the COE of
+1.4 to 1.9 percentage points. This outcome is consistent with the hypothesis.
+
+Regarding the moderating effect of financial constraint, the results presented in Table 6, columns (v)
+and (vi), reveal that the coefficient estimates for the interaction terms between CIO_1 and the SA index
+(CIO 1i, t  SAi, t) and CIO_2 and the SA index (CIO 2i, t  SAi, t) are −0.304 and −0.421, respectively. Both
+coefficients are statistically significant at the 1% level. Specifically, a one-percentage-point increase in
+the SA index leads to an additional decrease in the COE of 0.304 to 0.421 percentage points. The results
+confirm that as the level of financial constraint increases, the governance effect exerted by CIO becomes
+more significant. Thus, hypothesis cannot be rejected.
+
+6.2. Heterogeneity analysis
+
+It is well documented that there are significant differences in corporate governance and operational
+objectives between state-owned enterprises (SOEs) and non-SOEs. SOEs often have political tasks in their
+decision-making processes, which weakens the supervision by institutional investors and diminishes the
+synergistic governance effect. In contrast, non-SOEs usually prioritize profit objectives and have a stron-
+ger motivation to engage in active corporate governance, aligning more closely with CIIs. Consequently,
+the impact of CIIs in facilitating corporate governance is more pronounced in non-SOEs, leading to a
+larger reduction in the COE.
+
+To further investigate this, the study divides the sample into two subsamples based on whether a
+PLC is an SOE and re-estimates regression (1). The empirical results are presented in Table 7. For the
+sample of SOEs, the coefficient estimates for CIIs are −0.004 and −0.005, both statistically significant at
+the 5% level. In the sample of non-SOEs, the coefficient estimates for CIIs are −0.011 and −0.015, both
+statistically significant at the 1% level. The absolute value of the coefficient for non-SOEs is greater than
+
+
+
+12 L. SU
+
+Table 7. Heterogeneity analysis based on ownership structure.
+State-owned Enterprises Non-state-owned Enterprises
+
+(i) (ii) (iii) (iv)
+CIO_1 −0.004 −0.011
+
+(−2.04) (−7.32)
+CIO_2 −0.005 −0.015
+
+(−2.22) (−7.23)
+Size 0.003 0.003 0.003 0.003
+
+(3.44) (3.43) (4.36) (4.37)
+Lev −0.001 −0.001 0.010 0.010
+
+(−0.22) (−0.21) (3.19) (3.19)
+ROA −0.059 −0.059 0.003 0.004
+
+(−2.14) (−2.14) (0.20) (0.25)
+ROE 0.024 0.024 −0.013 −0.014
+
+(1.97) (1.97) (−1.56) (−1.61)
+Liquid 0.001 0.001 0.000 0.000
+
+(1.83) (1.82) (0.15) (0.18)
+BM −0.008 −0.008 −0.009 −0.009
+
+(−2.87) (−2.86) (−4.70) (−4.66)
+Board 0.002 0.002 −0.004 −0.004
+
+(0.47) (0.47) (−1.52) (−1.54)
+Indep 0.000 0.000 0.000 0.000
+
+(0.18) (0.18) (0.86) (0.83)
+Shrholder −0.000 −0.000 0.000 0.000
+
+(−0.40) (−0.41) (0.74) (0.76)
+INST −0.000 −0.000 −0.000 −0.000
+
+(−0.58) (−0.59) (−1.95) (−1.95)
+Growth 0.001 0.001 0.004 0.004
+
+(0.69) (0.71) (4.68) (4.69)
+(0.86) (0.87) (7.26) (7.24)
+
+Constant 0.050 0.050 0.071 0.071
+(2.32) (2.33) (4.81) (4.81)
+
+Year FE Y Y Y Y
+Ind FE Y Y Y Y
+Observations 6,344 6,344 14,240 14,240
+Adj R2 0.128 0.129 0.196 0.195
+F-test 123.0 122.9
+Note. This table presents the results on the heterogeneous impact of ownership structure on the relationship between common institutional
+ownership and the cost of equity capital. Cluster-robust standard errors at the firm level are reported in parentheses. , , and indicate
+statistical significance at the 1%, 5%, and 10% levels, respectively.
+
+that for SOEs. The F-statistics are 123.0 and 122.9 with a p-value of 0.000, indicating that the null
+hypothesis of no difference in the coefficient estimates for the SOE and non-SOE subsamples can be
+rejected at the 1% level. These findings suggest that SOEs face challenges in fully harnessing the bene-
+fits of CIIs’ supervision and governance role. Conversely, non-SOEs experience greater pressure from the
+potential withdrawal of CIIs. Therefore, it can be concluded that the effect of CIIs in reducing the COE is
+more significant for non-SOEs.
+
+Furthermore, considering the variations in regional economic development levels, the study further
+divides the sample into the eastern and non-eastern regions to examine regional heterogeneity. Table 8
+presents the results of this analysis. Columns (i) and (ii) represent the non-eastern region, with coeffi-
+cient estimates of − 0.006 and −0.009, respectively. Columns (iii) and (iv) represent the eastern region,
+with coefficients of −0.009 and −0.012, respectively. All of these coefficients are statistically significant at
+the 1% level. The F-statistics are 78.82 and 78.84 with a p-value of 0.000, indicating that the null hypoth-
+esis of no difference in the coefficient estimates for the eastern and non-eastern regions can be rejected
+at the 1% level.
+
+These findings suggest that the impact of CIO on the COE is weaker in the non-eastern region com-
+pared to the eastern region. One potential explanation is that the eastern region, characterized by
+higher levels of economic development and more intense industry competition, has companies that are
+more sensitive to the threat of withdrawal by CIIs and more likely to benefit from the synergistic govern-
+ance effect. Conversely, the non-eastern region, with a smaller observed sample of companies and rela-
+tively lower levels of development and industry competition, exhibits a weaker impact of CIO on the
+reduction of COE.
+
+
+
+COGENT ECONOMICS & FINANCE 13
+
+Table 8. Heterogeneity Analysis Based on Regional Differences.
+Non-eastern region Eastern region
+
+(i) (ii) (iii) (iv)
+CIO_1 −0.006 −0.009
+
+(−2.89) (−5.20)
+CIO_2 −0.009 −0.012
+
+(−2.89) (−5.24)
+Size 0.003 0.003 0.004 0.004
+
+(3.26) (3.24) (5.31) (5.32)
+Lev 0.005 0.005 0.007 0.007
+
+(0.93) (0.91) (1.84) (1.86)
+ROA −0.038 −0.037 −0.050 −0.049
+
+(−1.42) (−1.39) (-2.35) (-2.35)
+ROE 0.010 0.009 0.017 0.017
+
+(0.77) (0.74) (1.55) (1.55)
+Liquid 0.000 0.000 −0.000 −0.000
+
+(1.60) (1.61) (-0.37) (-0.37)
+BM −0.007 −0.007 −0.010 −0.010
+
+(−2.46) (−2.43) (−4.62) (−4.60)
+Board 0.002 0.002 −0.004 −0.005
+
+(0.53) (0.54) (−1.37) (−1.40)
+Indep 0.000 0.000 0.000 0.000
+
+(0.37) (0.37) (0.25) (0.21)
+shrholder1 −0.000 −0.000 −0.000 −0.000
+
+(−0.46) (−0.47) (−0.45) (−0.45)
+INST −0.000 −0.000 −0.000 −0.000
+
+(−0.96) (−0.96) (−2.17) (−2.19)
+Growth 0.002 0.002 0.004 0.004
+
+(1.34) (1.36) (3.77) (3.79)
+Constant 0.047 0.047 0.056 0.056
+
+(2.00) (2.01) (3.32) (3.34)
+Year FE Y Y Y Y
+Ind FE Y Y Y Y
+Observations 5,568 5,568 10,143 10,143
+Adj R2 0.137 0.137 0.181 0.181
+F-test 78.82 78.84
+Note. This table presents the results on the heterogeneous impact of eastern versus non-eastern regions on the relationship between com-
+mon institutional ownership and the cost of equity capital. Cluster-robust standard errors at the firm level are reported in parentheses.  ,
+, and  indicate statistical significance at the 1%, 5%, and 10% levels, respectively.
+
+7. Conclusions and implications
+
+This paper presents an empirical analysis of the impact of CIO on the COE, using all non-financial com-
+panies publicly listed in China during 2012 and 2022. The study finds that CIO significantly reduces the
+COE for PLCs, aligning with traditional asset pricing theories that suggest CIO is associated with a reduc-
+tion in a firm’s non-diversifiable risk. This risk mitigation may result from the exit threat posed by CIIs
+and their synergistic governance effects. When companies perceive the potential negative signals and
+market consequences from CIIs reducing their shareholdings, they are incentivized to improve their cor-
+porate governance practices. This enhancement reduces investor risk expectations, leading to a lower
+COE. Furthermore, CIIs contribute industry-specific knowledge, information, and expertise, which helps
+lower monitoring costs and uncertainty. They can also facilitate the coordination of industry strategies,
+such as product market strategies, competitive approaches, and dispute resolution, which collectively
+contribute to reduced stock price volatility and investor risk expectations. Consequently, these factors
+lead to a decreased COE for the company.
+
+The study also finds that the impact of CIO on the COE is stronger for firms operating in more com-
+petitive industries, those with better corporate governance, and those facing higher financing con-
+straints. Furthermore, the effect of CIO on the COE is more pronounced for non-SOEs and companies
+located in economically developed eastern regions.
+
+The implications of these findings can be categorized into three main aspects. Firstly, the study
+emphasizes the importance of fully harnessing the advantages of CIO in corporate supervision, manage-
+ment, and synergistic governance. Rather than focusing on short-term gains from collusive misconduct,
+CIIs should utilize their information resources and management expertise to promote cooperative efforts,
+drive innovation and development, and enhance governance models. These actions can reduce unethical
+
+
+
+14 L. SU
+
+competition, lower information costs and the COE, and help companies establish long-term business
+advantages.
+
+Secondly, given that CIO may lead to collusive behavior, monopolistic competition, and inefficiency in
+resource allocation in capital markets, relevant authorities should strengthen the supervision and regula-
+tion of CIO. This may involve revising and implementing anti-monopoly laws and regulations, maintain-
+ing a fair market environment, preventing disorderly capital expansion, and remaining vigilant about
+potential collusive monopolistic practices arising from CIO.
+
+Thirdly, relevant authorities should actively establish mechanisms to mitigate the inefficiencies caused
+by regional market segmentation. They can leverage the synergistic governance role of CIO, reduce
+financing barriers, improve financial service capabilities, and create a favorable financial ecosystem that
+benefits companies and investors alike.
+
+While this study yields interesting results and implications, it is important to acknowledge several lim-
+itations. Firstly, the study primarily focuses on CIO indicators constructed using data from PLCs, which
+may overlook the potential influence of institutional investors simultaneously holding shares in non-
+listed companies. This limitation restricts the analysis to a subset of the overall CIO landscape. Future
+studies could enhance the robustness and comprehensiveness of CIO measures by incorporating data
+on institutional investors’ holdings in both listed and non-listed companies.
+
+Secondly, the measurement of the COE itself introduces certain challenges and complexities. While
+this study employs PEG and MPEG models to measure COE, it is important to note that there is no con-
+sensus on the best approach. Future research could explore more elaborate measures of the COE, taking
+into account additional factors such as firm-specific risk, market conditions, and investor expectations.
+
+Thirdly, the study relies on data from non-financial Chinese PLCs. This may restrict the generalizability
+of the findings to other countries. The dynamics between CIO and the COE may vary across different
+market conditions, regulatory environments, and industry contexts. Future research could include a
+broader range of countries or regions to provide a more comprehensive understanding of the relation-
+ship between CIO and the COE in different contexts. This would enhance the external validity of the
+findings and provide a more robust foundation for drawing broader conclusions.
+
+Note
+1. The China Securities Market and Accounting Research (CSMAR) database is widely regarded as a reliable and
+
+comprehensive source of financial and economic data for Chinese markets. The database is known for its high
+standards of data accuracy. It employs rigorous quality control measures, including multiple layers of data
+verification and validation, to ensure the reliability of the information provided. CSMAR is regularly updated to
+reflect the latest available data, making it a vital resource for those studying Chinese financial markets.
+Extensively utilized by academic researchers, financial analysts, and policymakers, CSMAR has become a
+cornerstone for empirical research in the fields of finance, accounting, and economics. Many articles published
+in top economic and finance journals have used CSMAR data, underscoring its importance and trustworthiness
+in the academic and professional communities.
+
+Disclosure statement
+No potential conflict of interest was reported by the author(s).
+
+Funding
+No funding was received.
+
+About the author
+
+Larry Su hold a PhD in Economics and have taught at University of Greenwich, Coventry University, University
+Technology Brunei prior to joining in Edge Hill Business School. Much of his current research has focused on corpor-
+ate internationalization strategies, managerial compensation, geographical structure of financial institutions, and
+green finance.
+
+
+
+COGENT ECONOMICS & FINANCE 15
+
+ORCID
+Larry Su http://orcid.org/0000-0001-8285-5122
+
+Data availability statement
+Data will be available upon request.
+
+References
+Anton, M., Ederer, F., Gine, M., & Schmalz, M. (2023). Common ownership, competition, and top management incen-
+
+tives. Journal of Political Economy, 131(5), 1294–1355. https://doi.org/10.1086/722414
+Azar, J., Schmalz, M. C., & Tecu, I. (2018). Anticompetitive effects of common ownership. The Journal of Finance,
+
+73(4), 1513–1565. https://doi.org/10.1111/jofi.12698
+Bai, Y., He, L., & Zhang, T. (2023). Common institutional ownership and investment efficiency: Empirical evidence
+
+from China. Borsa Istanbul Review, 23(5), 1067–1077. https://doi.org/10.1016/j.bir.2023.05.006
+Bloomfield, M. J., Friedman, H. L., & Kim, H. Y. (2024). Common ownership, executive compensation, and product
+
+market competition. The Accounting Review, 99(2), 31–56. https://doi.org/10.2308/TAR-2021-0649
+Boone, A. L., & White, J. T. (2015). The effect of institutional ownership on firm transparency and information produc-
+
+tion. Journal of Financial Economics, 117(3), 508–533. https://doi.org/10.1016/j.jfineco.2015.05.008
+Chen, S., Ma, H., Wu, Q., & Zhang, H. (2024). Common institutional ownership and stock price crash risk.
+
+Contemporary Accounting Research, 41(1), 679–711. https://doi.org/10.1111/1911-3846.12915
+Cheng, X., Wang, H. H., & Wang, X. (2022). Common institutional ownership & corporate social responsibility. Journal
+
+of Banking & Finance, 136, 106218. https://doi.org/10.1016/j.jbankfin.2021.106218
+Core, J. E., Guay, W. R., & Rusticus, T. O. (2006). Does weak governance cause weak stock returns? An examination of
+
+firm operating performance and investors’ expectations. The Journal of Finance, 61(2), 655–687. https://doi.org/10.
+1111/j.1540-6261.2006.00851.x
+
+Dennis, P., Gerardi, K., & Schenone, C. (2022). Common ownership does not have anticompetitive effects in the air-
+line industry. The Journal of Finance, 77(5), 2765–2798. https://doi.org/10.1111/jofi.13176
+
+Du, F., & Zhang, F. (2023). Common ownership, competition and customer firm financial policies. Working paper.
+Easton, P. D. (2004). PE ratios, PEG ratios, and estimating the implied expected rate of return on equity capital. The
+
+Accounting Review, 79(1), 73–95. https://doi.org/10.2308/accr.2004.79.1.73
+Edmans, A., Levit, D., & Reilly, D. (2019). Governance under common ownership. The Review of Financial Studies,
+
+32(7), 2673–2719. https://doi.org/10.1093/rfs/hhy108
+Fama, E. F., & French, K. R. (1992). The cross-section of expected stock returns. The Journal of Finance, 47(2), 427–
+
+465. https://doi.org/10.2307/2329112
+Fama, E. F., & French, K. R. (2015). A five-factor asset pricing model. Journal of Financial Economics, 116(1), 1–22.
+
+https://doi.org/10.1016/j.jfineco.2014.10.010
+Gao, K., Shen, H., Gao, X., & Chan, K. C. (2019). The power of sharing: Evidence from institutional investor cross-own-
+
+ership and corporate innovation. International Review of Economics & Finance, 63, 284–296. https://doi.org/10.
+1016/j.iref.2019.01.008
+
+Gao, L., Han, J., Kim, J. B., & Pan, Z. (2024). Overlapping institutional ownership along the supply chain and earnings
+management of supplier firms. Journal of Corporate Finance, 84, 102520. https://doi.org/10.1016/j.jcorpfin.2023.
+102520
+
+Gilje, E. P., Gormley, T. A., & Levit, D. (2020). Who’s paying attention? Measuring common ownership and its impact
+on managerial incentives. Journal of Financial Economics, 137(1), 152–178. https://doi.org/10.1016/j.jfineco.2019.
+12.006
+
+Ghosh, S., Pareek, R., & Sahu, T. N,. (2022). The role of corporate governance and company specific characteristics on
+environmental disclosure practices in India. NMIMS Management Review, 30(04), 64–89. https://doi.org/10.53908/
+NMMR.300404
+
+Gillan, S. L., & Starks, L. T. (2000). Corporate governance proposals and shareholder activism: the role of institutional
+investors. Journal of Financial Economics, 57(2), 275–305. https://doi.org/10.1016/S0304-405X(00)00058-1
+
+Gompers, P. A., Ishii, J., & Metrick, A. (2003). Corporate governance and equity prices. The Quarterly Journal of
+Economics, 118(1), 107–156. https://doi.org/10.1162/00335530360535162
+
+Hadlock, C. J., & Pierce, J. R. (2010). New evidence on measuring financial constraints: Moving beyond the KZ index.
+Review of Financial Studies, 23(5), 1909–1940. https://doi.org/10.1093/rfs/hhq009
+
+Hartzell, J. C., & Starks, L. T. (2003). Institutional investors and executive compensation. The Journal of Finance, 58(6),
+2351–2374. https://doi.org/10.1046/j.1540-6261.2003.00608.x
+
+He, J., & Huang, J. (. (2017). Product market competition in a world of cross-ownership: Evidence from institutional
+blockholdings. The Review of Financial Studies, 30(8), 2674–2718. https://doi.org/10.1093/rfs/hhx028
+
+
+
+16 L. SU
+
+He, J., Huang, J., & Zhao, S. (2019). Internalizing governance externalities: The role of institutional cross-ownership.
+Journal of Financial Economics, 134(2), 400–418. https://doi.org/10.1016/j.jfineco.2018.07.019
+
+Hou, K., Xue, C., & Zhang, L. (2015). Digesting anomalies: An investment approach. Review of Financial Studies, 28(3),
+650–705. https://doi.org/10.1093/rfs/hhu068
+
+Huo, X., Lin, H., Meng, Y., & Woods, P. (2021). Institutional investors and cost of capital: The moderating effect of
+ownership structure. PLOS One, 16(4), e0249963. https://doi.org/10.1371/journal.pone.0249963
+
+Kang, J. K., Luo, J., & Na, H. S. (2018). Are institutional investors with multiple blockholdings effective monitors?
+Journal of Financial Economics, 128(3), 576–602. https://doi.org/10.1016/j.jfineco.2018.03.005
+
+Khoo, J., Zheng, C., & Pathan, S. (2024). The beneficial effect of common ownership: Evidence from bank liquidity
+creation. Journal of Banking & Finance, 163, 107172. https://doi.org/10.1016/j.jbankfin.2024.107172
+
+Kini, O., Lee, S., & Shen, M. (2024). Common institutional ownership and product market threats. Management
+Science, 70(5), 2705–2731. https://doi.org/10.1287/mnsc.2023.4830
+
+Koch, A., Panayides, M., & Thomas, S. (2021). Common ownership and competition in product markets. Journal of
+Financial Economics, 139(1), 109–137. https://doi.org/10.1016/j.jfineco.2020.07.007
+
+Lewellen, K., & Lowry, M. (2021). Does common ownership really increase firm coordination? Journal of Financial
+Economics, 141(1), 322–344. https://doi.org/10.1016/j.jfineco.2021.03.008
+
+Li, J., & Liu, L. (2023). Common institutional ownership and corporate innovation: Synergy of interests or grabs of
+interests. Finance Research Letters, 52, 103512. https://doi.org/10.1016/j.frl.2022.103512
+
+Li, X., Liu, T., & Taylor, L. A. (2023). Common ownership and innovation efficiency. Journal of Financial Economics,
+147(3), 475–497. https://doi.org/10.1016/j.jfineco.2022.12.004
+
+Liu, C., & He, J. (2024). Does common institutional ownership improve the similarity of behavior between firms?
+Evidence from China. Pacific-Basin Finance Journal, 83, 102225. https://doi.org/10.1016/j.pacfin.2023.102225
+
+Ni, X., & Yin, D. (2023). Is institutional common ownership commonly priced? Insights from the cost of equity capital.
+Journal of Banking & Finance, 155, 106990. https://doi.org/10.1016/j.jbankfin.2023.106990
+
+Park, J., Sani, J., Shroff, N., & White, H. (2019). Disclosure incentives when competing firms have common ownership.
+Journal of Accounting and Economics, 67(2-3), 387–415. https://doi.org/10.1016/j.jacceco.2019.02.001
+
+Parker, S. C., & van Praag, C. M. (2006). Schooling, capital constraints, and entrepreneurial performance. Journal of
+Business & Economic Statistics, 24(4), 416–431. https://doi.org/10.1198/073500106000000215
+
+Pawliczek, A., Skinner, A. N., & Zechman, S. L. C. (2022). Facilitating tacit collusion through voluntary disclosure:
+Evidence from common ownership. Journal of Accounting Research, 60(5), 1651–1693. https://doi.org/10.1111/
+1475-679X.12452
+
+Ramalingegowda, S., Utke, S., & Yu, Y. (2021). Common institutional ownership and earnings management.
+Contemporary Accounting Research, 38(1), 208–241. https://doi.org/10.1111/1911-3846.12628
+
+Sch€auble, J. (2019). The impact of external and internal corporate governance mechanisms on agency costs.
+Corporate Governance: The International Journal of Business in Society, 19(1), 1–22. https://doi.org/10.1108/CG-02-
+2018-0053
+
+Wang, Z., Wang, C., & Fang, Z. (2023). Common institutional ownership and corporate misconduct. Managerial and
+Decision Economics, 44(1), 102–136. https://doi.org/10.1002/mde.3669
+
+Wicaksono, A. P., Kusuma, H., Cahaya, F. R., Rosjidi, A. A., Rahman, A., & Rahayu, I. (2024). Impact of institutional own-
+ership on environmental disclosure in Indonesian companies. Corporate Governance: The International Journal of
+Business in Society, 24(1), 139–154. https://doi.org/10.1108/CG-08-2022-0356
+
+Wu, X., Li, Y., & Feng, C. (2023). Green innovation peer effects in common institutional ownership networks.
+Corporate Social Responsibility and Environmental Management, 30(2), 641–660. https://doi.org/10.1002/csr.2379
+
+Xu, T., Xu, L., & Zhu, S. (2023). Common ownership & executive pay-for-performance sensitivity: Evidence from
+China. Research in International Business and Finance, 65, 101947. https://doi.org/10.1016/j.ribaf.2023.101947

@@ -1,0 +1,1620 @@
+﻿Journal of Corporate Finance 89 (2024) 102677 
+
+Contents lists available at ScienceDirect
+
+Journal of Corporate Finance
+journal homepage: www.elsevier.com/locate/jcorpfin
+
+Supply chain vertical common ownership and cost of loans
+Haowen Tian a, Junkai Wang b, Sirui Wu b,*
+
+a School of Management, Northwestern Polytechnical University, Xi’an, China
+b School of Management, Xi’an Jiaotong University, Xi’an, China
+
+A R T I C L E I N F O A B S T R A C T
+
+Editor: R Iyer This study explores how vertical common ownership reduces supply chain risk and influences
+creditors’ decisions, focusing on the cost of loans. Findings reveal that creditors view such firms as
+
+Keywords: less likely to default, evidenced by lower loan spreads. This effect is stronger for suppliers with
+Vertical common ownership more relationship-specific investments, weaker bargaining power, higher information asymmetry,
+Supply chain and long-term common institutional ownership. Results remain robust through quasi-natural
+Hold-up
+Cost of loans experiments from financial institutions’ M&As, supplier-customer pair analyses, etc. We also
+
+compare vertical common ownership with the horizontal one and demonstrate its incremental
+contributions. Moreover, the fraction of customer sales and the institutional investors’ share
+ownership likely influence the likelihood of vertical common ownership, with our results
+consistently holding under Heckman analysis. Overall, the results suggest that vertical common
+ownership enhances coordination and monitoring, reducing risks and creditor risk premiums. The
+findings may offer valuable insights into managing supply chain risks and understanding their
+financial implications.
+
+1. Introduction
+
+Supplier-customer relations are pivotal in the real sector, especially when transactions involve incomplete contracts and
+relationship-specific investments, leading to the hold-up problem. This issue, as noted by Grossman and Hart (1986), results in po-
+tential exploitation and underinvestment. The problem intensifies under the current complex global scenario, characterized by dis-
+rupted supply chains and rising protectionism. An illustrative case is the U.S. port crisis, where container pile-ups due to unclaimed
+cargo have spiked cargo costs, negatively impacting suppliers’ investments. Vertical integration could resolve this, but its feasibility is
+limited by merger risks, high costs, and anti-monopoly laws. Therefore, it is crucial to explore alternative mechanisms that enhance
+cooperation and reduce opportunism and hold-up risks in supply chains.
+
+Traditional economic theory posits that firms are self-interested, aiming to maximize their value (Smith, 1937). This assumes that
+major shareholders do not have significant stakes in competing firms. However, recent studies suggest that institutional investors, who
+aim to maximize their entire portfolio’s value, can coordinate behaviors among commonly owned firms. Harford et al. (2011) found
+that most institutional investors in S&P 500 companies prioritize overall portfolio value over individual firm value. Similarly, Park
+
+Haowen Tian acknowledges financial support from the National Natural Science Foundation of China (No.72402178), Humanities and Social
+Science Youth Foundation of the Ministry of Education of China (No.24XJC790009). and the Fundamental Research Funds for the Central Uni-
+versities of China (No. D5000230339). We appreciate the comments from Gaoliang Tian of Xi’an Jiaotong University, and Haibin Wu and Wen Chen
+of City University of Hong Kong. All remaining errors are the responsibility of the authors.
+
+* Corresponding author.
+E-mail addresses: tianhw@nwpu.edu.cn (H. Tian), wangjunkai0616@163.com (J. Wang), acctwsr@xjtu.edu.cn (S. Wu).
+
+https://doi.org/10.1016/j.jcorpfin.2024.102677
+Received 31 March 2024; Received in revised form 25 August 2024; Accepted 29 September 2024
+Available online 2 October 2024 
+0929-1199/© 2024 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies. 
+
+
+
+H. Tian et al. Journal of Corporate Finance 89 (2024) 102677 
+
+et al. (2019) observed improved performance and increased voluntary information disclosure among companies with common
+institutional ownership. These insights indicate a shift towards a more cooperative approach in company operations. Given that the
+primary effect of common ownership is fostering collaboration compared to normal institutional investors, the supply chain is an ideal
+venue to examine such a topic, as the cooperation between suppliers and customers is especially important. However, most existing
+literature focuses on horizontal common ownership among competing peers, while less attention has been paid to vertical partners.
+There are just three notable exceptions. Freeman (2023) and Chen (2021) find that common ownership between a supplier and its
+customer helps strengthen their relationship and facilitates the supplier firm to invest more in innovation. Based on social network
+theory, Cheung et al. (2020) find that vertical common ownership increases suppliers’ operating and market performance.
+
+In this study, we delve into the effects of vertical common ownership on supply chain hold-up issues and its subsequent influence on
+stakeholder perceptions, with a specific emphasis on resolving agency conflicts between companies and their creditors. Corporate
+loans are a predominant source of financing, comprising a significant portion of U.S. corporate debts. By considering creditors as
+primary stakeholders, we aim to understand how vertical common ownership influences the dynamics in a crucially important creditor
+relationship, offering a clearer understanding of the broader financial implications of these ownership structures in corporate finance.
+Our core argument is that, vertical common ownership can i) coordinate the supply chain partners, to maximize their total investment
+portfolio value; and ii) effectively monitor corporate behaviors, and lower adverse selection and moral hazard issues. Such an influence
+can affect not only the supplier or customer firm itself, but also the attitude and decisions of outside corporate stakeholders. Thus, as an
+important outside stakeholder, creditors will perceive vertical common ownership as a positive signal, and further lower their cost of
+loans.
+
+Noting that we study the role of vertical common ownership on the supplier side. This is mainly because we develop the hypothesis
+based on hold-up problems and relationship-specific investments. Generally, the relationship-specific investment is provided by the
+supplier firm to a specific customer firm, after which the supplier is more vulnerable to the customer’s rent extraction (Grossman and
+Hart, 1986). Therefore, we argue that vertical common ownership is more beneficial for supplier firms considering their weaker
+position in the relationship, rather than customers. In addition, we test the main hypotheses based on the supplier-customer dyad level
+in the robustness check section. However, the negative relationship may not be held according to the collusion hypothesis and private
+information sharing hypothesis, which remains an empirical issue.
+
+Using a sample of 7005 facility observations from the year 1986 to 2017, we empirically test the impact of vertical common
+ownership and the cost of loans. In line with our prediction, there is a negative association between the common ownership of a
+supplier with its customers and the cost of loans. In robustness analysis, we find similar results in other loan pricing variables (i.e.,
+longer loan maturities, greater loan size, number of lenders, and lower total cost of borrowing). Further cross-sectional tests are in
+accordance with the coordination and monitoring channels. The results are robust under a battery of robustness checks. We also argue
+that the fraction of customer sales and the institutional investors’ share ownership are likely to influence the likelihood of vertical
+common ownership. Our results consistently hold under the Heckman analysis.
+
+This study makes the following potential contributions. First, from the supply chain perspective, this study provides new evidence
+on common ownership literature. As the primary role of common ownership is to foster collaboration, the supply chain is an ideal
+venue to examine such a topic, though less attention has been paid to this area. Extant studies mostly focus on the common institutional
+ownership of industry peers (i.e., horizontal common ownership) and find mixed evidence on whether such ownership improves peer
+cooperation. Most of the prior literature has found a positive relationship between common ownership and cooperation among in-
+dustry peers. In contrast, Lewellen and Lowry (2021) document that this type of relationship is mainly driven by other factors, such as
+the 2008 financial crisis. There are also controversies such as the anti-competitiveness effect, limited attention hypothesis, collusion
+hypothesis, etc. The coordination role of vertical common ownership is essentially different from that of horizontal one; whereas the
+former improves total utility, the latter is welfare-reducing due to its anti-competitiveness. In this paper, we examine the creditor’s
+perceptions of common ownership between supply chain partners (rather than competing peers within an industry). Empirical results
+validate the positive role of vertical common ownership in coordinating and monitoring supply chain partners. Results still hold when
+controlling for horizontal common ownership and institutional shareholdings, which indicates the incremental effect of vertical
+common ownership and complements prior studies.
+
+Second, we extend the literature on how supply chain relations affect creditors’ decision-making. Existing studies document that
+corporate internal governance and external monitoring can affect the financial decisions of creditors (e.g., Álvarez-Botas and González,
+2021; Campello et al., 2011; Francis et al., 2017; Valta, 2012).1 However, only few of these studies have ever considered the supply
+chain relationship, which find that durable supply chain relationships (Cen et al., 2016; Croci et al., 2021) and lower customer
+concentration (Campello and Gao, 2017) lead to lower cost of loans. As we know, this study is the first to connect supply chain vertical
+common ownership to the cost of loans. Through the coordination and monitoring mechanisms, vertical common ownership reduces
+creditors’ perceptions of supply chain risk significantly, which adds to the existing literature on how supply chain relations affect
+financial decisions made by creditors.
+
+Lastly, the results of this study potentially mitigate the apprehensions of regulators and policymakers about common ownership.
+While some earlier research posits that common ownership can oversee corporate conduct, there remains a segment of scholarship that
+challenges these assertions (Azar et al., 2018; Dennis et al., 2022; Lewellen and Lowry, 2021) or highlights the detrimental effects of
+
+1 Existing studies have explored how various internal corporate factors like financial reporting (Ertugrul et al., 2017), firm value (Campello et al.,
+2011), and governance (Fields et al., 2012), along with external elements such as financial intermediaries (Francis et al., 2017), market conditions
+(Valta, 2012), and institutional frameworks (Álvarez-Botas and González, 2021), significantly impact cost of loans.
+
+2 
+
+
+
+H. Tian et al. Journal of Corporate Finance 89 (2024) 102677 
+
+common ownership. Given that competition is conducive to societal welfare and the generation of value, the anti-competitive nature
+associated with (horizontal) common ownership could be detrimental. For instance, common ownership might result in lower exec-
+utive pay-performance sensitivity (Antón et al., 2021), greater value-destroying M&As, and lower stock returns (Kempf et al., 2017).
+Our study presents evidence that vertical common ownership can facilitate coordination among supply chain partners and mitigate
+hold-up issues, thereby boosting stakeholder confidence and leading to a reduction in loan costs. These findings suggest that common
+ownership can have a positive impact on total welfare, which should assuage the concerns of regulators and policymakers.
+
+2. Literature and hypothesis
+
+2.1. Prior studies on common ownership
+
+Common ownership occurs when an institutional investor holds shares in multiple firms concurrently. This ownership structure is
+characterized by the investors’ aim to maximize the overall value of their combined holdings, rather than focusing on individual firm
+values (Hansen and Lott, 1996; Gilje et al., 2020). Consequently, common investors tend to coordinate the behavior of the commonly
+owned firms. Most studies on common ownership focus on commonly owned industry peers and find mixed evidence. He and Huang
+(2017) observe that firms with commonly owned industry peers have better operating performance, consistent with the coordination
+argument. Azar et al. (2018) document that common ownership reduces price competition and allows airlines to charge higher prices.
+Ni and Yin (2023) find that common ownership decreases a firm’s cost of capital by lowering product market competition. Brooks et al.
+(2018) present evidence that common ownership not only increases the likelihood of mergers and acquisitions but also improves post-
+deal performance and decreases the probability of unsuccessful deals. Park et al. (2019) argue that commonly owned firms face lower
+proprietary costs and are more inclined to disclose information voluntarily, including management earnings forecasts. Conversely,
+Harford et al. (2011) find that common ownership matters little in firm acquisition decisions, which is difficult to reconcile with the
+point that common ownership accounts for the lack of shareholder resistance to bad firm behaviors. Lewellen and Lowry (2021)
+contest the link between common ownership and firm coordination, suggesting that this relationship is not robust and could be
+influenced by other factors.
+
+Furthermore, previous studies have highlighted the role of common ownership in monitoring and knowledge sharing, attributed to
+their informational advantage. Chen et al. (2021) find that cross-owners in multiple same-industry firms possess informational ben-
+efits, such as broader access to information and industry expertise. Gao et al. (2019) document that this informational advantage under
+common ownership fosters knowledge exchange among firms, thus bolstering corporate innovation. He et al. (2020) and Ram-
+alingegowda et al. (2021) observed that common ownership reduces firms’ earnings management through improved monitoring.
+Edmans et al. (2019) discover that common ownership enhances corporate governance across different industries through both active
+engagement and disinvestment strategies, supporting the monitoring hypothesis. Additionally, He et al. (2024) provide evidence that
+the common ownership between borrower firms and financial banks can alleviate information frictions and decrease the firm’s loan
+spreads, which arise from the information dissemination within the portfolios.
+
+According to existing literature, less attention has been paid to firms with commonly owned vertical partners, where cooperation
+between suppliers and their customers is a major issue. Some notable exceptions are Freeman (2023) and Chen (2021), both of which
+find that supplier firms are more willing to undertake innovative activities when they have commonly owned customer firms, which is
+consistent with institutional investors’ ability to play a coordinating role and thus reduce supplier firms’ perception of hold-up risk.
+Based on social network theory, Cheung et al. (2020) document that vertical common ownership increases suppliers’ operating and
+market performance.
+
+2.2. Hypotheses development
+
+Prior financial literature argues that default risk is the key lending risk faced by creditors and is one of the fundamental factors of
+loan pricing (e.g., Merton, 1974; Demiroglu and James, 2010). Higher default risk may induce higher cost of loans and stricter loan
+contracts in order to alleviate agency conflicts between the borrowers and lenders. This relationship is underscored by agency theory,
+which posits that loan covenants can mitigate agency problems between creditors and shareholders (Jensen and Meckling, 2019;
+Myers, 1977).2 In this article, we argue that common ownership along the supply chain can lower creditors’ perception of corporate
+default risk and thus reduce loan spreads of supplier companies because of the coordination and monitoring channels.
+
+First, vertical common ownership can coordinate the behaviors of supply chain partners, lower hold-up problems, and promote a
+stable supply-customer relationship. When institutional investors hold multiple firms, investors aim to maximize their investments’
+total portfolio value, rather than the value of individual firms (He and Huang, 2017). In this sense, vertical common investors are
+incentivized to coordinate the behaviors of their portfolio firms (i.e., supplier and customer). Cen et al. (2016) show that long-term
+supply chain relationships can act as a reputation signal, which helps diminish informational disparities between enterprises and
+creditors, and lowers corporate loan costs. Campello and Gao (2017) document that companies with fewer hold-up problems may lead
+to lower default risk and lower cost of loans. Similar findings are shown in Dhaliwal et al. (2016). Building on these studies, we argue
+
+2 Smith & Warner (1979) document that there is an ideal set of contracts for the specific characteristics of a certain project. For riskier firms,
+creditors impose greater spreads to compensate for their default risk and construct stricter contracts to mitigate agency problems (Rauh and Sufi,
+2010).
+
+3 
+
+
+
+H. Tian et al. Journal of Corporate Finance 89 (2024) 102677 
+
+that due to the strengthened supply chain relationships created by vertical common ownership, customer firms are less likely to be
+opportunistic, and suppliers will seldom be held up, which lowers the hold-up risk and default risk perceived by creditors. Thus, we
+expect a negative relation between vertical common ownership and suppliers’ cost of loans.
+
+Second, in addition to their coordination role, vertical common shareholders have the motivation and ability to perform effective
+monitoring. Institutional investors can effectively monitor corporate behaviors, thus improving the provision of corporate information
+and quality of financial reporting and reducing information asymmetry (Appel et al., 2016). Such monitoring ability is intensified
+when institutional investors are block-holders of multiple firms simultaneously. In addition, for institutional investors who are
+shareholders of suppliers and their customers simultaneously, the externalities of one side’s behaviors are internalized by the other
+partner they hold, affecting the total portfolio values. Consequently, common owners have stronger motivation in monitoring
+corporate misbehaviors. And the enhanced monitoring may increase corporate information transparency and promote better corporate
+governance (He et al., 2019). To the extent that the vertical common institutional investors’ monitoring increases, creditors perceive
+companies with lower operation and information risk, and their concerns about adverse selection and moral hazard in loan contracts
+are alleviated. Therefore, creditors will provide a reduction in loan pricing.
+
+In brief, vertical common ownership provides new information to creditors, helps improve their confidence in supply chain re-
+lationships, and mitigates their concerns about managers’ opportunistic behaviors, which further lowers the cost of loans.
+
+Nevertheless, the negative influence on the cost of loans may not be significantly observed. First, based on the collusion hypothesis,
+supply chain partners may collude for their own benefit but harm the external stakeholders. In such a situation, the monitoring effect of
+common investors may be undermined due to their resource extraction incentives (Raman and Shahrur, 2008). The common investors
+are given both opportunities and abilities to extract resources for their own interests (Matvos and Ostrovsky, 2008) and expropriate the
+wealth from creditors. In this sense, creditors may view vertical common ownership negatively and increase loan pricing. Second,
+according to the private information sharing hypothesis, customers will reduce the demand for the suppliers’ public information when
+they have better access to suppliers’ private information (Crawford et al., 2020). Since common institutional investors can promote
+information sharing (Freeman, 2023), customers know more information through their common owners. In this regard, considering
+the proprietary costs and disclosing costs, suppliers do not need to disclose such information, and the public information on which the
+creditors can rely becomes less. Thus, creditors may compensate for the higher cost of loans. The last reason is due to the possible
+incapability of creditors. It is unclear whether creditors are able to observe and process the vertical common ownership information
+effectively and whether or not they regard it as a pricing factor.
+
+Therefore, the baseline hypothesis can be stated as a null hypothesis:
+Hypothesis: Others being equal, there is no relationship between vertical common ownership with major customers and a supplier’s cost of
+
+loans.
+
+3. Research design
+
+3.1. Measure of vertical common ownership
+
+We construct four variables to capture vertical common ownership (He and Huang, 2017; He et al., 2019). The first independent
+variable, CO_Firms, is the natural log of one plus the number of the firm’s customers that are co-owned with the supplier firm. The
+second independent variable, CO_Firms_MV, is the natural log of one plus the market value of the firm’s customers that are co-owned
+with the supplier firm. The third independent variable is COwn_#, which equals the natural log of one plus the number of institutional
+investors who are shareholders of both the supplier firm and its major customers. The fourth independent variable is Avg_Investors,
+which is the number of vertical common institutional investors scaled by the number of total institutional investors in the firm. We set
+5 % as the shares’ cutoff for common institutional owners, in order that the investors can exert enough influence on firm decisions. The
+institutional shareholding data from Thomson Reuters 13F are provided at the quarter level. Since stakeholders may evaluate the
+company over a period of time, we average the quarter common ownership measurements into the most adjacent fiscal year to which
+the loan facility belongs.
+
+3.2. Measure of cost of loans
+
+As bank loans remain a predominant source of corporate financing, comprising approximately two-thirds of U.S. corporate debts (e.
+g., Carey and Nini, 2007; Houston and James, 1996),3 we use loan spread (Spread) as the main measurement of the cost of loans in our
+empirical analysis. Spread is the natural log value of the all-in spread drawn, charged by the bank over LIBOR for the drawn portion of
+the loan facility, as reported in the LPC DealScan’s facility-level data. In our robustness analysis, we also investigate the effects on loan
+maturity (Maturity), loan amount (LoanSize), and the number of lenders in a loan facility (NoLenders). Additionally, we use total cost of
+borrowing for complementary analysis (Berg et al., 2016).
+
+3 As the dominant external financing source, debt financing involves borrowing funds and repaying them with interest. Bank loans are the most
+prevalent type of corporate debt financing. Houston and James (1996) document that two-thirds of the debts for U.S. companies are bank loans.
+Carey and Nini (2007) also provide evidence that U.S. private lending operations are predominantly influenced by the position of domestic banks as
+credit institutions.
+
+4 
+
+
+
+H. Tian et al. Journal of Corporate Finance 89 (2024) 102677 
+
+3.3. Regression model
+
+Following Campello and Gao (2017) and Cohen et al. (2014), regression model is shown in eq. (1).
+
+Spreadi,k,t = α+ β×COi,t + γʹFirmControlsi,t + δʹLoanControlsk,t + Loan Purpose FE+ Loan Type FE+Year FE+ Firm FE+ εi,k,t (1)
+
+Here, the subscripts i, k, and t denote firm i, loan facility k, and year t, respectively. The dependent variable, Spread, represents the
+loan spread, which is the most common measurement of the cost of loans.4 CO captures firms’ common ownership status. We use four
+common ownership variables, namely CO_Firms, CO_Firms_MV, COwn_#, and Avg_Investor.
+
+For control variables, firm-level controls include firm size (SIZE), leverage (LEV), market to book (MTB), ROA, Tangibility, cash flow
+volatility (CFO_VOL), Altman (1968) Z-Score (Z_Score), and bond rating dummy (Rating). In addition, loan characteristics controls
+include loan maturity (Maturity), loan amount (LoanSize), and performance pricing dummy (Performance). Detailed variable defini-
+tions are seen in Appendix A.
+
+Moreover, throughout the empirical analysis, we use loan purpose and loan type fixed effects, year fixed effects, and firm fixed
+effects to alleviate potential omitted variable concerns. Loan purposes include corporate purposes, working capital, debt repayment,
+acquisition, backup line for commercial paper, and others. Loan types include term loans, revolvers, and 364-day facilities. The year
+fixed effects represent the period a loan facility belongs to. Continuous variables are winsorized at 1 % and 99 %.
+
+3.4. Data and sample
+
+Data used in this study are from various sources. We obtain supplier chain data from the Compustat Segment file in WRDS, which
+provides comprehensive coverage of major buyer-supplier relationships and is widely used in academic research (e.g., Gu et al., 2017;
+Radhakrishnan et al., 2014). According to the mandate by the Statement of Financial Accounting Standards No. 14 and Statement No. 131,
+public firms are required to disclose their major customers who account for at least 10 % of total sales.5,6 Common ownership measures
+between suppliers and customers are constructed using the Thomson Reuters 13F database. Loan cost data are determined by Thomson
+Reuters loan pricing corporation (LPC) Dealscan, which comprises a variety of loan features. The financial data of control variables are
+from Compustat.
+
+As for dataset matching, following Cen et al. (2017) and Cohen and Frazzini (2008), we utilize the WRDS Analytics Tool, which is
+built on the historical customer piece from Compustat Segment data. This tool employs a fuzzy name-matching algorithm to link
+customer identifiers across historical CRSP and Compustat company fields, ensuring accurate integration of datasets. Each match is
+manually verified to enhance the reliability of our common ownership measures. Additionally, the records are calibrated and com-
+plemented with publicly available data and contributions from researchers.7
+
+We start constructing the sample from supply-customer relationship data, which includes 30,356 pairs in a total of 115,877 ob-
+servations ranging from 1976 to 2017. Then we drop pairs without disclosing the date or sales, and match the remaining data with the
+13F database. The institutional shareholding data in 13F is provided at the quarter level, and we obtain 86,494 quarter observations for
+24,244 pairs. We further aggregate the total quarterly supplier-customer pairs into supplier-level data, and average them within a fiscal
+year.
+
+Later on, we calculate the cost of loans through Dealscan, and merge the loan facility with Compustat, CRSP, and common
+ownership data using the linktable from Dealscan. For financial variables, book value of total assets (or equity) should be greater than
+zero, and all the financial and loan characteristics variables are not missing. Finally, the baseline sample comprises 7005 facility (or
+tranche) observations from the year 1986 to 2017.
+
+4. Results
+
+4.1. Statistics
+
+Table 1 presents the summary statistics for main variables employed in this study. Consistent with Graham et al. (2008) and
+
+4 The subscript t in Spread specifically indicates the year of loan initiation. Essentially, Spreadi, is equivalent to Spreadi,k,t; the latter notation
+explicitly incorporates the time dimension into the model.
+
+5 Our analysis reveals that 76.6 % of firm-years in the dataset do not report any major customers. Among those that do report, the average number
+of customers is 3.5. Furthermore, 97.9 % of supplier-customer-year observations contribute more than 10 % to sales, while 2.1 % contribute less. In
+light of the ongoing discussion regarding the quality of different supply chain relationship datasets (Culot et al., 2023), we acknowledge the
+limitations associated with this data source, such as the reporting threshold that includes only buyers representing at least 10 % of the supplier’s
+sales. This threshold may introduce sample selection bias, potentially excluding smaller but significant buyer-supplier relationships.
+
+6 To address potential biases introduced by the 10 % sales threshold, we conduct a robustness check by excluding all customers accounting for less
+than 10 % of sales, which allows us to just focus on the impact of significant supplier-customer relationships. The results remain unchanged
+(untabulated), confirming that minor customers do not skew our primary results. However, we still must acknowledge the potential limitations of
+our data, as this test only excludes disclosed minor customers; many undisclosed smaller customers, which are not captured by our dataset, remain
+untested.
+
+7 We also refer to the WRDS linktables available at https://wrds-www.wharton.upenn.edu/pages/wrds-research/database-linking-matrix/.
+
+5 
+
+
+
+H. Tian et al. Journal of Corporate Finance 89 (2024) 102677 
+
+Campello and Gao (2017), the mean value of Spread is 5.1400, with a S.D. of 0.7564. In this sample, there are around 19 % observations
+with vertical common ownership. For common ownership measurements, the mean values of CO_Firms, CO_Firms_MV, COwn_# and
+Avg_Investors are 0.1286, 1.0950, 0.1178, and 0.0553, respectively. Statistics of other controls are quite similar to Graham et al. (2008),
+Campello and Gao (2017), and Murfin (2012).
+
+4.2. Baseline regressions
+
+Table 2 reports the regression results on the association between vertical common ownership and cost of loans based on eq. (1). The
+dependent variable loan spread (Spread) is used to measure the cost of loans at the facility level. The t-statistics reported in parentheses
+are calculated using both firm and year clustered heteroscedasticity robust standard error. Column (1) uses CO_Firms as a proxy for
+vertical common ownership. The coefficient is negative and significant at 5 % level (coefficient = − 0.077, t = − 1.995). For economic
+significance, a one S.D. increase in CO_Firms leads to a 0.47 percentage decrease in Spread (0.077 × 0.3135÷5.1400). The remaining
+columns are all significantly negative at 10 % level. As for control variables, firms with higher Lev, and lower Size, MTB, Tangibility,
+Z_Score, LoanSize, and non-performance pricing are associated with greater loan spreads, which is consistent with Graham et al. (2008)
+and Campello and Gao (2017). In summary, baseline regression results document vertical common ownership decreases loan spread.
+
+4.3. The influence of hold-up problems
+
+We then investigate the elements that may mitigate the negative effect of vertical common ownership on suppliers’ cost of loans.
+First, considering the coordination channel, suppliers with significant relationship-specific investments are more vulnerable to hold-
+ups, especially if their customers switch to other suppliers, rendering these investments less valuable elsewhere. Previous research
+indicates that such firms are more likely to resort to accounting strategies to sustain their supply chain relationships (Raman and
+Shahrur, 2008). We argue that vertical common ownership could be particularly effective in reducing perceived supply chain risks
+among creditors, especially in cases where hold-up issues are pronounced. Therefore, the baseline association is anticipated to be
+stronger for businesses with higher relationship-specific investment. We use asset redeployability (Redeploy) measured by the BEA
+capital flow table (Kim and Kung, 2017) to proxy for relationship-specific investment. The subsample regression results based on asset
+redeployability are shown in Table 3. Firms are assigned to the low (high) group if the values of Redeploy are lower (higher) than the
+median.
+
+In Table 3, the baseline results remain significantly negative when Redeploy = Low, but become insignificant when Redeploy =
+High. According to the P-values reported at the bottom of the panel, the differences between the two subsamples are significant at 1 %
+or 5 %. Overall, this cross-sectional test suggests that the baseline relationship is more significant for firms with greater relationship-
+specific investment.
+
+4.4. The influence of bargaining power
+
+Moreover, in line with the coordination role, we consider the baseline relationship to be more significant for suppliers with weaker
+bargaining power. Transactional agreements and their terms are largely influenced by the bargaining power of each party involved.
+Typically, the party with greater bargaining power secures more favorable contract terms (Hui et al., 2012). Suppliers with weaker
+bargaining power are more vulnerable to opportunistic actions from their customers. Therefore, vertical common ownership’s role in
+coordination is likely more critical in these situations, potentially strengthening the baseline relationship. In this test, we use two
+variables to proxy for the bargaining power of the supplier firm and report the results in Table 4. The first one, industry entry rate
+(Entry), is calculated as the proportion of new firms to total firms within an industry, where the new firm is just established for one year
+or two years (Klapper et al., 2006). Higher industry entry rate means more suppliers are available for customers to choose from, where
+the bargaining power of suppliers is lower. Therefore, we argue that the baseline relationship is more pronounced for subsamples of
+Entry = High. This measurement is measured at the industry level. Besides, we also use a firm-level trade measurement to proxy for
+bargaining power. The trade credit provision (AR) is the accounts receivable of the supplier divided by lagged total assets. Suppliers
+with greater bargaining power tend to offer more credit financing to their customers (Fabbri and Klapper, 2016). Therefore, the
+baseline relationship is expected to be more pronounced when AR = High.
+
+The subsample results are shown in Table 4, Panel A and Panel B. Firms are assigned to the low (high) group if the values of
+conditional variables are lower (higher) than the median. The negative baseline relationships remain significant when Entry = High
+and AR = High, but insignificant in the low groups. All of the within-group P-values are lower than 0.001 in Panel A, and lower than
+0.10 in Panel B, which suggests that the negative baseline relationship is more pronounced for supplier firms with weaker bargaining
+power.
+
+4.5. The influence of long-term common investors
+
+Furthermore, we test whether the baseline relationship varies across common institutional investor types. Based on the monitoring
+hypothesis, the baseline relationship should be stronger for common institutional investors with more aptitude for monitoring.
+Research by Borochin and Yang (2017) suggests that long-term investors, unlike short-term investors focused on immediate gains, are
+more inclined to acquire in-depth information and engage in monitoring activities. Consequently, supplier firms with long-term
+institutional investors sharing ownership with their customers are likely under more effective monitoring, leading creditors to view
+
+6 
+
+
+
+H. Tian et al. Journal of Corporate Finance 89 (2024) 102677 
+
+Table 1
+Summary Statistics.
+
+Variables Mean S. D. P25 P50 P75
+
+Spread 5.1400 0.7564 4.7958 5.3033 5.6384
+CO_Firms 0.1286 0.3135 0.0000 0.0000 0.0000
+CO_Firms_MV 1.0950 2.5942 0.0000 0.0000 0.0000
+COwn_# 0.1178 0.2800 0.0000 0.0000 0.0000
+Avg_Investors 0.0553 0.1378 0.0000 0.0000 0.0000
+SIZE 6.6336 1.9705 5.1919 6.7055 8.0858
+LEV 0.2932 0.1817 0.1519 0.2918 0.4246
+MTB 1.6949 0.9710 1.1099 1.4088 1.9142
+ROA 0.0333 0.1284 0.0000 0.0450 0.0886
+Tangibility 0.3095 0.2493 0.1125 0.2310 0.4389
+CFO_VOL 0.0680 0.0766 0.0218 0.0446 0.0844
+Z_Score 1.9165 1.8031 0.8498 1.8182 2.8399
+Rating 0.4718 0.4992 0.0000 0.0000 1.0000
+Maturity 3.6893 0.6414 3.4012 3.9120 4.1109
+LoanSize 4.5175 1.7475 3.2581 4.6151 5.8608
+Performance 0.4049 0.4909 0.0000 0.0000 1.0000
+
+Note: This table presents the descriptive statistics for variables used in the baseline analysis, the detailed variable definitions are presented in Ap-
+pendix A.
+
+Table 2
+Vertical Common Ownership and Supplier’s Cost of Loans.
+
+(1) (2) (3) (4)
+
+Dependent Spread Spread Spread Spread
+
+CO_Firms − 0.077**
+(− 1.995)
+
+CO_Firms_MV − 0.009*
+(− 1.945)
+
+COwn_# − 0.076*
+(− 1.787)
+
+Avg_Investors − 0.157*
+(− 1.848)
+
+SIZE − 0.148*** − 0.148*** − 0.148*** − 0.148***
+(− 6.671) (− 6.661) (− 6.684) (− 6.678)
+
+LEV 0.560*** 0.556*** 0.558*** 0.559***
+(6.176) (6.127) (6.156) (6.168)
+
+MTB − 0.038** − 0.039** − 0.038** − 0.038**
+(− 2.284) (− 2.315) (− 2.279) (− 2.253)
+
+ROA 0.118 0.117 0.117 0.120
+(0.954) (0.948) (0.949) (0.969)
+
+Tangibility − 0.325** − 0.320** − 0.319** − 0.324**
+(− 2.487) (− 2.457) (− 2.443) (− 2.483)
+
+CFO_VOL 0.067 0.065 0.066 0.064
+(0.423) (0.411) (0.413) (0.405)
+
+Z_Score − 0.030** − 0.030** − 0.030** − 0.031**
+(− 2.379) (− 2.370) (− 2.376) (− 2.401)
+
+Rating 0.050 0.049 0.050 0.050
+(1.340) (1.323) (1.331) (1.331)
+
+Maturity − 0.028 − 0.028 − 0.029 − 0.029
+(− 1.525) (− 1.512) (− 1.532) (− 1.540)
+
+LoanSize − 0.132*** − 0.132*** − 0.132*** − 0.132***
+(− 10.296) (− 10.305) (− 10.305) (− 10.309)
+
+Performance − 0.097*** − 0.097*** − 0.097*** − 0.097***
+(− 4.409) (− 4.421) (− 4.412) (− 4.419)
+
+Constant 5.413*** 5.411*** 5.414*** 5.418***
+(13.116) (13.104) (13.122) (13.127)
+
+LoanPurpose FE Yes
+LoanType FE Yes
+Year FE Yes
+Firm FE Yes
+N 7005 7005 7005 7005
+Adjusted R2 0.733 0.733 0.733 0.733
+
+Note: This table reports the baseline regressions results. Variable definitions are presented in Appendix A. Significance at the 1 %, 5 %, and 10 % levels
+is indicated by ***, **, and *, respectively. The same below.
+
+7 
+
+
+
+H. Tian et al. Journal of Corporate Finance 89 (2024) 102677 
+
+Table 3
+Vertical Common Ownership, Hold-up Problems, and Cost of Loans.
+Redeploy= Low High Low High Low High Low High
+
+(1) (2) (3) (4) (5) (6) (7) (8)
+
+Dependent Spread Spread Spread Spread
+
+CO_Firms − 0.112** − 0.041
+(− 1.978) (− 0.918)
+
+CO_Firms_MV − 0.012* − 0.005
+(− 1.948) (− 0.876)
+
+COwn_# − 0.128** − 0.024
+(− 2.025) (− 0.479)
+
+Avg_Investors − 0.233** − 0.075
+(− 2.087) (− 0.743)
+
+Constant 5.922*** 6.477*** 5.917*** 6.477*** 5.923*** 6.475*** 5.935*** 6.478***
+(23.618) (27.301) (23.579) (27.310) (23.615) (27.299) (23.702) (27.270)
+
+Controls Yes
+LoanPurpose FE Yes
+LoanType FE Yes
+Year FE Yes
+Firm FE Yes
+N 3359 3365 3359 3365 3359 3365 3359 3365
+Adjusted R2 0.735 0.759 0.735 0.759 0.736 0.759 0.736 0.759
+P 0.088 0.094 0.024 0.043
+
+Note: This table presents the results of regressing cost of loans on the vertical common ownership measurements partitioned by asset redeployability.
+
+them as lower-risk entities.
+We use the common ownership duration (Duration) counted in months of common investors as the proxy for long-term investors.
+
+Investors with higher duration own sufficient time or resources to monitor corporate behaviors more effectively (Chen et al., 2007). For
+firms with multiple common owners, we measure Duration by calculating the median value of investment lengths for all the common
+owners.8 The subsample regressions are reported in Table 5. In this test, we just keep the sample with vertical common ownership.
+Within this sample, the average value of Duration is 54 months. The negative relationships between vertical common ownership and
+cost of loans remain significant when Duration = High, but become insignificant when Duration = Low. All of the P-values within
+groups are lower than 1 %, indicating that the baseline relationship between vertical common ownership and loan spread is more
+pronounced for commonly owned firms with long-term common institutional owners.
+
+4.6. The influence of the information environment
+
+In addition, to test the monitoring hypothesis, we investigate the effect of information asymmetry. According to Jin and Myers
+(2006) and Jensen and Meckling (2019), agency conflicts between borrowing firms and creditors become more severe when the
+company is operating in an opaque environment. Since we contend that vertical common ownership can effectively monitor supply
+chain partners’ misconduct and lower agency costs, thereby reducing the cost of loans, we hypothesize that the role of vertical common
+ownership may be more prominent for firms with higher information asymmetry.
+
+We use the information opacity measure to proxy for the information environment. Opacity is calculated as the prior three years’
+moving sum of the absolute value of discretionary accruals (Hutton et al., 2009). The subsample regressions are reported in Table 6.
+The negative baseline relationships remain significant when Opacity = High, but become insignificant when Opacity = Low. All of the
+P-values within groups are lower than 5 %, indicating that the baseline relationship is more pronounced for firms with higher in-
+formation asymmetry.
+
+4.7. The influence of financial position
+
+We further test the mediation effect of corporate financial conditions. A firm’s financial condition is a vital determinant of its
+solvency or default risk. External supervision becomes more important for a firm with poorer financial conditions (Fields et al., 2012).
+Thus, creditors will commend vertical common ownership more in terms of lower cost of loans. Moreover, we argue that supplier firms
+with weaker financial positions are more vulnerable to customers’ hold-ups, and thus have stronger incentives to engage in accounting
+manipulation, where the coordination role of common institutional investors may be more important. According to the argument
+above, the influence of financial condition provides evidence for the overall effect of vertical common ownership on the cost of loans,
+so we do not distinguish between coordination and monitoring channels in this test. To sum up, we expect the relation of common
+ownership with reduced cost of loans to be stronger for firms with weaker financial situations.
+
+8 We have not use Bushee’s institutional classification in this study, because the sample size is quite limited for facility data. There are still many
+missing data in Bushee classification, therefore the data will be even less.
+
+8 
+
+
+
+H. Tian et al. Journal of Corporate Finance 89 (2024) 102677 
+
+Table 4
+Vertical Common Ownership, Bargaining Power, and Cost of loans.
+
+Panel A: Entry Rate
+
+Entry= Low High Low High Low High Low High
+
+(1) (2) (3) (4) (5) (6) (7) (8)
+
+Dependent Spread Spread Spread Spread
+
+CO_Firms 0.019 − 0.246***
+(0.406) (− 3.770)
+
+CO_Firms_MV 0.004 − 0.031***
+(0.730) (− 4.196)
+
+COwn_# 0.040 − 0.294***
+(0.810) (− 4.314)
+
+Avg_Investors 0.089 − 0.505***
+(0.927) (− 3.767)
+
+Constant 5.686*** 5.640*** 5.693*** 5.669*** 5.686*** 5.655*** 5.678*** 5.656***
+(17.389) (12.767) (17.488) (12.790) (17.430) (12.800) (17.367) (12.751)
+
+Controls Yes
+LoanPurpose FE Yes
+LoanType FE Yes
+Year FE Yes
+Firm FE Yes
+N 3795 3210 3795 3210 3795 3210 3795 3210
+Adjusted R2 0.756 0.775 0.756 0.775 0.756 0.775 0.756 0.775
+P <0.001 <0.001 <0.001 <0.001
+
+Panel B: Trade Credit
+
+AR= Low High Low High Low High Low High
+
+(1) (2) (3) (4) (5) (6) (7) (8)
+
+Dependent Spread Spread Spread Spread
+CO_Firms − 0.049 − 0.156***
+
+(− 0.944) (− 2.718)
+CO_Firms_MV − 0.007 − 0.018***
+
+(− 1.145) (− 2.590)
+COwn_# − 0.035 − 0.176***
+
+(− 0.607) (− 2.750)
+Avg_Investors − 0.153 − 0.316**
+
+(− 1.480) (− 2.261)
+Constant 5.718*** 6.206*** 5.715*** 6.195*** 5.720*** 6.205*** 5.716*** 6.202***
+
+(16.213) (27.016) (16.180) (27.052) (16.239) (27.066) (16.136) (27.015)
+Controls Yes
+LoanPurpose FE Yes
+LoanType FE Yes
+Year FE Yes
+Firm FE Yes
+N 3588 3417 3588 3417 3588 3417 3588 3417
+Adjusted R2 0.728 0.754 0.728 0.754 0.728 0.754 0.728 0.754
+P 0.063 0.096 0.039 0.087
+
+Note: This table presents the results partitioned by the median of the supplier firm’s bargaining power. Panel A reports the results partitioning the
+sample based on industry entry rate (Entry). The partition variable of Panel B is the trade credit (AR).
+
+We use Altman (1968) Z-Score to proxy for corporate financial position. The lower the value of Z_Score, the weaker of firm’s
+financial position. The subsample regression results based on financial position are shown in Table 7. As can be seen, the baseline
+relationship is stronger for firms with lower Z_Score, and all of the P-values within groups are lower than 0.10, suggesting that the
+baseline relation is stronger for firms with poorer financial positions.
+
+4.8. Additional tests
+
+Lastly, we proceed to unveil whether other financial variables may also change in response to vertical common ownership.9
+Notably, vertical common ownership fosters more efficient supply chain relationships, as indicated by enhanced trade credit provision
+and lowered inventory levels. In addition, since vertical common ownership lowers creditors’ perception of supply chain risk,
+
+9 Due to constraints on word count, detailed results are not included.
+
+9 
+
+
+
+H. Tian et al. Journal of Corporate Finance 89 (2024) 102677 
+
+Table 5
+Vertical Common Ownership, Long-term Common Investors, and Cost of loans.
+Duration= 0 1 0 1 0 1 0 1
+
+(1) (2) (3) (4) (5) (6) (7) (8)
+
+Dependent Spread Spread Spread Spread
+
+CO_Firms 0.287 − 0.312***
+(0.893) (− 3.054)
+
+CO_Firms_MV 0.050 − 0.044***
+(0.563) (− 3.362)
+
+COwn_# 0.862 − 0.343***
+(0.844) (− 2.756)
+
+Avg_Investors 0.236 − 0.395*
+(0.423) (− 1.880)
+
+Constant 5.296*** 3.875*** 5.114*** 3.780*** 5.298*** 3.860*** 5.394*** 3.839***
+(3.980) (4.108) (4.026) (3.925) (3.991) (4.038) (4.222) (3.945)
+
+Controls Yes
+LoanPurpose FE Yes
+LoanType FE Yes
+Year FE Yes
+Firm FE Yes
+N 629 665 629 665 629 665 629 665
+Adjusted R2 0.801 0.756 0.802 0.757 0.801 0.755 0.803 0.750
+P 0.002 <0.001 <0.001 0.001
+
+Note: This table presents the results partitioned by common institutional investors’ types. The long-term investor is measured by the duration of
+ownership (Duration) calculated in months.
+
+Table 6
+Vertical Common Ownership, Information Environment, and Cost of Loans.
+Opacity = Low High Low High Low High Low High
+
+(1) (2) (3) (4) (5) (6) (7) (8)
+
+Dependent Spread Spread Spread Spread
+
+CO_Firms − 0.010 − 0.157***
+(− 0.166) (− 2.680)
+
+CO_Firms_MV − 0.003 − 0.019***
+(− 0.348) (− 2.701)
+
+COwn_# − 0.021 − 0.166**
+(− 0.307) (− 2.389)
+
+Avg_Investors 0.111 − 0.378***
+(0.820) (− 2.955)
+
+Constant 5.006*** 5.531*** 5.005*** 5.512*** 5.007*** 5.527*** 4.999*** 5.568***
+(9.655) (22.247) (9.658) (21.868) (9.659) (22.125) (9.625) (22.481)
+
+Controls Yes
+LoanPurpose FE Yes
+LoanType FE Yes
+Year FE Yes
+Firm FE Yes
+N 3411 3594 3411 3594 3411 3594 3411 3594
+Adjusted R2 0.790 0.750 0.790 0.750 0.790 0.750 0.790 0.750
+P 0.011 0.026 0.034 <0.001
+
+Note: This table presents the results partitioned by the median of the supplier firm’s information environment, as measured by information opacity.
+
+subsequent corporate financing and investment levels will increase intuitively. Empirical results support these arguments.10
+
+5. Robustness
+
+5.1. Endogeneity issues
+
+While the initial regression indicates a negative correlation between common ownership and the cost of loans for supplier firms,
+there are potential issues of causality in these findings. This could be due to variables not accounted for or reverse causality. For
+
+10 Specifically, we measure corporate financing as net debt and equity issuance, then divided by lagged total assets (Shroff, 2017). We choose
+capital expenditures and research and development expenses as investment proxies.
+
+10 
+
+
+
+H. Tian et al. Journal of Corporate Finance 89 (2024) 102677 
+
+Table 7
+Vertical Common Ownership, Financial Position, and Cost of Loans.
+Z_Score = Low High Low High Low High Low High
+
+(1) (2) (3) (4) (5) (6) (7) (8)
+
+Dependent Spread Spread Spread Spread
+
+CO_Firms − 0.129** − 0.030
+(− 2.495) (− 0.597)
+
+CO_Firms_MV − 0.016*** − 0.004
+(− 2.683) (− 0.596)
+
+COwn_# − 0.145** − 0.029
+(− 2.480) (− 0.508)
+
+Avg_Investors − 0.258** − 0.051
+(− 2.347) (− 0.441)
+
+Constant 7.281*** 6.352*** 7.264*** 6.353*** 7.288*** 6.355*** 7.240*** 6.357***
+(24.569) (19.850) (24.478) (19.842) (24.495) (19.843) (24.473) (19.844)
+
+Controls Yes
+LoanPurpose FE Yes
+LoanType FE Yes
+Year FE Yes
+Firm FE Yes
+N 3387 3307 3387 3307 3387 3307 3387 3307
+Adjusted R2 0.776 0.717 0.776 0.717 0.776 0.717 0.776 0.717
+P 0.076 0.046 0.031 0.038
+
+Note: This table presents the results partitioned by the supplier’s financial position, measured by Altman Z-Score.
+
+Table 8
+Endogeneity Analyses.
+
+Panel A: Difference-in-Difference Analysis
+
+(1) (2) (3) (4)
+
+Dependent Spread Spread Spread Spread
+
+Treat*Post − 0.244*** − 0.198* − 0.194** − 0.173*
+(− 2.85) (− 1.91) (− 2.05) (− 1.76)
+
+Constant 4.433*** 5.643*** 5.044*** 5.688***
+(29.61) (5.97) (36.31) (20.70)
+
+Control No Yes No Yes
+LoanPurpose Yes Yes Yes Yes
+LoanType Yes Yes Yes Yes
+Year×Merger FE Yes Yes Yes Yes
+Firm FE Yes Yes Yes No
+N 960 879 536 518
+Adjusted R2 0.835 0.859 0.828 0.866
+
+Panel B: Excluding Banks Involved in M&As
+
+(1) (2) (3) (4)
+
+Dependent Spread Spread Spread Spread
+
+CO_Firms − 0.092*
+(− 1.881)
+
+CO_Firms_MV − 0.012**
+(− 2.196)
+
+COwn_# − 0.088*
+(− 1.649)
+
+Avg_Investors − 0.184*
+(− 1.939)
+
+Constant 5.642*** 5.638*** 5.645*** 5.646***
+(13.618) (13.603) (13.630) (13.628)
+
+Controls Yes Yes Yes Yes
+LoanPurpose FE Yes Yes Yes Yes
+LoanType FE Yes Yes Yes Yes
+Year FE Yes Yes Yes Yes
+Firm FE Yes Yes Yes Yes
+N 5393 5393 5393 5393
+Adjusted R2 0.744 0.745 0.744 0.744
+
+Note: Panel A presents the DiD analysis based on M&As between financial institutions. Columns (3) and (4) in Panel A further exclude M&As involving
+banks. We discard firm fixed effects in column (4) Panel A because many firm-level controls are omitted due to the small sample size. Panel B reports
+baseline regressions after excluding all banks involved in M&A activities.
+
+11 
+
+
+
+H. Tian et al. Journal of Corporate Finance 89 (2024) 102677 
+
+instance, institutional investors might prefer firms with a lower risk of default, and the observed relationship may also stem from
+unobserved common factors. To determine the causal impact of common ownership, we conduct a DiD analysis, utilizing M&As among
+financial institutions as exogenous shocks to common ownership, to more accurately assess this relationship.
+
+Following He and Huang (2017), we identify the total financial institution M&As between financial institutions (i.e., both the
+acquirers and targets are financial institutions). We then match both the acquirers and targets of all such M&As to the 13F database to
+identify merging institutions reported in the 13F. This procedure yields a list of M&As where both the acquirers and targets are 13F
+institutional investors. We construct the sample of treated firms as follows. For each firm held by an acquirer (target) in the quarter just
+before the merger announcement date, the firm is identified as a treated firm if the merging target (acquirer) blockholds any of the
+major customers just before the announcement date. In other words, a treated firm is defined as a firm that experiences an increase in
+vertical common ownership due to the mergers of institutional investors. For each treated firm, a non-treated firm is selected as the
+matched control firm if i) it was blockheld by the same merging institution before the merger, and ii) it did not have major customers
+blockheld by the other merging institution. Finally, there is a total of sixteen financial institutions’ M&As in the sample. We then
+perform the DiD estimation in the following Eq. (2).
+
+Spreadi,j,k,t =α+ β×Treati,j×Postj,t + γʹFirmControlsi,j,t + δʹLoanControlsk,j,t
+(2)
+
++ Loan Purpose FE+ Loan Type FE+Year×Merger FE+ Firm FE+ εi,j,k,t
+Here, i, j, k, t represent firm i, financial institution merger j, facility k, and year t, respectively. Treat is a dummy variable that equals
+
+one if a firm i is a treated firm in merger j (i.e., it experienced an increase in common ownership with its major customers due to the
+
+Table 9
+Vertical Common Ownership versus Horizontal Common Ownership.
+
+Panel A: Intergroup Difference Analysis
+
+(1) (2) (2)–(1)
+
+Spread VCO = 0 VCO = 1 Diff
+
+(3) HCO = 0 5.1383 4.9484 − 0.1899**
+(4) HCO = 1 5.1705 5.0765 − 0.0940**
+(4)–(3) Diff 0.0322 0.1281
+
+Panel B: Regression Tests
+
+(1) (2) (3) (4)
+
+Dependent Spread Spread Spread Spread
+
+CO_Firms − 0.084**
+(− 1.977)
+
+HCO_Firms 0.006
+(0.405)
+
+CO_Firms_MV − 0.009*
+(− 1.773)
+
+HCO_Firms_MV − 0.001
+(− 0.303)
+
+COwn_# − 0.086*
+(− 1.878)
+
+HCOwn_# 0.016
+(0.580)
+
+Avg_Investors − 0.098**
+(− 1.979)
+
+HAvg_Investors 0.004
+(0.216)
+
+INST 0.011 0.011 0.015 0.008
+(0.197) (0.265) (0.137) (0.227)
+
+Constant 5.409*** 5.411*** 5.410*** 5.411***
+(13.081) (13.113) (13.083) (13.094)
+
+Controls Yes
+LoanPurpose FE Yes
+LoanType FE Yes
+Year FE Yes
+Firm FE Yes
+N 7005 7005 7005 7005
+Adjusted R2 0.733 0.733 0.733 0.733
+
+Note: This table compares vertical common ownership and horizontal common ownership. Panel A lists the average value of Spread in four groups
+(VCO= 0 andHCO= 0, VCO= 1 andHCO= 0, VCO= 0 andHCO= 1, VCO= 1 andHCO= 1) and the intergroup differences among every two groups.
+Panel B shows the regression tests adding vertical common ownership, horizontal common ownership and institutional investor shareholdings
+altogether.
+
+12 
+
+
+
+H. Tian et al. Journal of Corporate Finance 89 (2024) 102677 
+
+M&As of financial institutions), and zero otherwise. We use a three-year window around each financial institution’s M&A as the
+sample. Post is a dummy that takes a value of one in the three years after the M&As of financial institutions, and zero in the three years
+before. We include controls similar to those used in the baseline panel regression. There may exist stacked data, because a facility may
+be treated group in a financial institution M&A, but work as a control group in another. Therefore, we control for year×merger fixed
+effect and firm fixed effect in the regressions.
+
+Columns (1) and (2) of Table 8 Panel A show the DiD results on the effect of vertical common ownership on suppliers’ cost of loans
+based on M&As between financial institutions. We regress Spread on Treat×Post, and all the fixed effects in column (1), and also add
+other controls in column (2). As can be seen, coefficients of Treat×Post are negatively significant, supporting baseline relationships.
+
+Furthermore, there may be a concern that many financial institution mergers involve banks. Consequently, these mergers also
+represent a shock to the loan market, suggesting that changes in loan spreads might not solely result from shifts in common ownership
+but also from direct impacts on lenders’ behaviors. To address this complexity and distinguish the effects of common ownership from
+those of lender-specific shocks, we have implemented two more checks. First, we refine our DiD approach by excluding M&As
+involving banks to isolate the effect of common ownership from the potential confounding impacts of financial institution mergers.
+This adjustment reduces our sample size from 960 to 536, cutting it nearly in half. The results are shown in the column (3) and (4) of
+Table 8 Panel A, which remain unchanged. Then, we re-estimate our main regression analysis by excluding all banks involved in M&A
+activities, ensuring that our results are not influenced by direct changes in loan pricing strategies due to these mergers. The results are
+reported in Table 8 Panel B, which are still consistent and affirm our findings. Overall, these two additional tests further alleviate
+endogeneity concerns, demonstrating that our findings are robust against variations in the sample caused by bank mergers.
+
+5.2. Vertical common ownership versus horizontal common ownership
+
+Further, there may be a concern that vertical common ownership acts in the same role as horizontal one, which means the firm has
+common institutional investors with its competing peers. To differentiate the effect of vertical common ownership from horizontal one,
+we conduct two robustness tests in this section.
+
+First, referring to Park et al. (2019), we construct dummy variables VCO (and HCO), which equal one if a firm has common
+ownership with its customers (industry peers) for more than three quarters within the fiscal year, otherwise zero. In this section, the
+industry competing peers are identified by the 4-digit SIC industry classification code. Results remain similar if we use a 2 or 3-digit SIC
+code. As in the baseline regression, we also set 5 % as the shares’ cutoff for common ownership measurements construction. Statistics
+show that the mean value of VCO is 0.12, and the mean value of HCO is 0.45, which is more prevalent. Then, based on the values of
+VCO andHCO, we conduct a 2 × 2 matrix to compare the intergroup differences of loan spread (Spread). The results are shown in Panel
+A of Table 9. Panel A lists the average value of Spread in the four groups (VCO = 0 and HCO = 0, VCO = 1 and HCO = 0, VCO = 0 and
+HCO = 1, VCO = 1 and HCO = 1) and the intergroup differences among every two groups. For any value of HCO, the differences
+between VCO = 1 and VCO = 0 are significantly negative at 5 % level. However, the differences between HCO = 1 and HCO = 0 are
+always insignificantly positive. To sum up, horizontal common ownership has no effect in lowering the cost of loans in supply chain
+settings, while the role of vertical common ownership is still significant, even ruling out the influence of horizontal one.
+
+Second, we set a series of horizontal common ownership measures similar to the vertical ones in baseline tests and add them
+together in the regressions. Specifically, HCO_Firms is the natural log of one plus the number of the firm’s industry peers that are co-
+owned with the firm. HCO_Firms_MV is the natural log of one plus the market value of the firm’s industry peers that are co-owned with
+the firm. HCOwn_# is the natural log of one plus the number of institutional investors who are blockholders of both the firm and its
+industry peers. HAvg_Investors is the number of horizontal common institutional investors scaled by the number of total institutional
+investors in the firm. We also add the percentage of shares held by institutional investors (INST) in the regression. Results of these two
+kinds of common ownership measurements and institutional investor shareholdings are reported in Panel B of Table 9. It shows that the
+coefficients of vertical common ownership measures are still significant at 5 % or 1 % level, while the horizontal ones are far from
+significant; some are even positive. For the only negative coefficient of horizontal common ownership measurement in column (2), the
+coefficient magnitude of vertical common ownership (− 0.009) is 9 times larger than that of horizontal common ownership (− 0.001).
+Vertical common ownership definitely predominates. In addition, coefficients of INST are neither significant. Overall, it illustrates the
+incremental effect of vertical common ownership compared to horizontal common ownership and institutional ownership.
+
+5.3. Supplier-customer pair level analysis
+
+This paper studies the role of vertical common ownership on the supplier side in baseline regressions. We test our research question
+based on the supplier-customer dyad level in this section for robustness check.
+
+We set three variables of interest to measure vertical common ownership for a supplier-customer dyad. The first one is COwn_Pair, a
+dummy variable which equals one if a supplier-customer dyad has any common ownership, otherwise zero. The second one is
+Sum_COwn_Pair, calculated as the natural log value of one plus the number of common institutional owners for a supplier-customer
+dyad. The third one, COwn_Value_Pair, is the percentage of market value held by common institutional investors for a supplier-
+customer dyad, which equals the total market value of shares for which the supplier-customer dyad is commonly held, then
+divided by the total market value of the supplier firm and customer firm. Since institutional shareholdings are provided by quarter data
+in the Thomson database, the above vertical common ownership measurements are calculated in their average value within a fiscal
+year. In this test, we control for loan purpose, loan type, year, supplier firm and customer firm fixed effects in all regressions. Results
+are reported in Table 10, where the observations increase to 9592. The coefficients of vertical common ownership pairs are all
+
+13 
+
+
+
+H. Tian et al. Journal of Corporate Finance 89 (2024) 102677 
+
+significantly negative at 5 %, which further strengthens the findings.
+
+5.4. Alternative vertical common ownership measurements
+
+We further conduct robustness checks using several other vertical common ownership measurements. First, since our analysis is
+conducted at the supplier level, it is crucial to understand how much of the supplier’s supply chain is exposed to common ownership.
+Therefore, firm-based common ownership measurements, which reflect the number of a supplier’s customers that share a major
+institutional investor with the supplier, should be more appropriate. Accordingly, we have adjusted our initial measurements in the
+baseline regression model to be scaled by the total number of customers each firm has. Specifically, CO_AvgFirms represents the number
+of the firm’s customers that are co-owned with the supplier, scaled by the total number of customers that the firm has. Similarly,
+CO_AvgFirms_MV represents the market value of the firm’s customers that are co-owned with the supplier, scaled by the total market
+value of all the firm’s customers. The regression results, presented in columns (1) and (2) of Table 11, remain consistent with previous
+findings.
+
+Additionally, following He and Huang (2017) and Freeman (2023), we consider a series of other vertical common ownership
+measurements. The first one is COwn_D, which equals one if a firm has any common ownership with its customers, otherwise zero. The
+second is COwn_Avg_EW, which is the arithmetic average of the supplier firm i’s shares and customer j’s shares held by common in-
+vestors. It is aggregated at the firm level by using an equal-weighted average across all its customers. We also use the market value-
+weighted average value (COwn_Avg_VW) and sales-weighted average value (COwn_Avg_SW) for robustness tests. In addition, we set the
+variable COwn_Value_EW, which is the total market value held by all the common investors of the supplier firm i and its customer j,
+scaled by the total market capitalization of supplier i and customer j. It is aggregated at the supplier firm level by using an equal-
+weighted average across all of its customers. We also use the market value-weighted average value (COwn_Value_VW) and sales-
+weighted average value (COwn_Value_SW) for robustness tests. Since institutional shareholdings are provided by quarter data in the
+Thomson database, the above vertical common ownership measurements are averaged within a fiscal year. Regression results are
+reported in the remaining columns of Table 11. The coefficients of all the vertical common ownership measures are significantly
+negative at 1 % or 5 %, which further supports our arguments.
+
+5.5. Alternative cost of loans measurements
+
+In this section, we use other measures of cost of loans (Melnik and Plaut, 1986). The first is loan maturity (Maturity), is the natural
+log value of one plus loan facility maturity counted in months. The second one is loan amount (LoanSize), equals the natural log value
+of one plus the total loan amount, measured in millions of dollars.11 The third one is the number of lenders (No_Lenders), which equals
+the natural log value of one plus the number of lenders in a loan facility. The regression results are reported in Panel A (Maturity), Panel
+B (LoanSize), and Panel C (NoLenders) of Table 12, respectively. Most of the coefficients of vertical common ownership measurements
+are significantly positive for loan maturity, loan amount, and the number of lenders (only slightly insignificant for Avg_Investors in
+Panel B and Panel C), providing further evidence that besides loan spread, vertical common ownership can also decrease the other
+dimensions of cost of loans.
+
+Lastly, there may be concerns that relying solely on all-in spread drawn from drawn portion of loan facilities might be incomplete,
+as the undrawn portion of a credit line also incurs spread/fees. Following the methodology outlined by Berg et al. (2016), we have
+expanded our analysis to include the total cost of borrowing (TCB) as a measure of loan costs. TCB equals (Upfront Fee / Expected Loan
+Maturity in Years) + (1-PDD) * (Facility Fee + Commitment Fee) + PDD * (Facility Fee + Spread) + PDD * Prob(Utilization > Uti-
+lizationThreshold | Usage > 0) * Utilization Fee + Prob(Cancellation) * Cancellation Fee. In the equation, the Upfront Fee represents a one-
+time payment made by the borrower at the loan’s closing date. The Expected LoanMaturity in Years is the duration between the facility’s
+start and end dates. PDD stands for the probability of a drawdown, indicating the likelihood that the borrower will draw on the credit
+line. The Facility Fee is an annual fee charged on the total committed amount, regardless of usage, while the Commitment Fee is paid on
+the unused portion of the loan commitment. The Spread is the interest margin above the interbank loan rate for the drawn portion of
+the loan. Prob(Utilization> UtilizationThreshold | Usage> 0) is the probability that the utilization rate will exceed a specified threshold,
+given that there is usage, and the Utilization Fee is charged when this threshold is exceeded. Finally, Prob(Cancellation) represents the
+probability that the loan will be canceled before maturity, and the Cancellation Fee is the cost associated with such an early termi-
+nation.12 The regression results are presented in Table 12 Panel D, which are in line with our findings.
+
+11 We thank the anonymous referee for suggesting that we explore the extensive margin related to loan approvals and vertical common ownership.
+Unfortunately, our dataset does not include data on the approval status of loan applications. Instead, we analyze the total amount of loans received
+by firms, which allows us to indirectly assess the impact of vertical common ownership on financial access. This result aligns with our baseline
+findings and underscores the positive role of vertical common ownership in enhancing financial access at the extensive margin. We acknowledge the
+limitation due to data unavailability.
+12 We thank Professor Tobias Berg for making this data and code publicly available. See https://sites.google.com/view/tobias-berg/startseite/data-
+and-code. However, we do not use TCB as the baseline dependent variable due to the higher incidence of missing values.
+
+14 
+
+
+
+H. Tian et al. Journal of Corporate Finance 89 (2024) 102677 
+
+Table 10
+Pair Level Analysis.
+
+(1) (2) (3)
+
+Dependent Spread Spread Spread
+
+COwn_Pair − 0.088**
+(− 2.555)
+
+COwn_#_Pair − 0.096**
+(− 2.251)
+
+COwn_Value_Pair − 0.813**
+(− 2.448)
+
+Constant 5.459*** 5.459*** 5.455***
+(9.041) (9.041) (9.029)
+
+Control Yes
+LoanPurpose FE Yes
+LoanType FE Yes
+Year FE Yes
+Supplier Firm FE Yes
+Customer Firm FE Yes
+N 9592 9592 9592
+Adjusted R2 0.764 0.763 0.764
+
+Note: This table reports the supplier-customer pair-level regression results.
+
+Table 11
+Alternative Common Ownership Measurements.
+
+(1) (2) (3) (4) (5) (6) (7) (8) (9)
+
+Dependent Spread Spread Spread Spread Spread Spread Spread Spread Spread
+
+CO_AvgFirms − 0.170**
+(− 2.440)
+
+CO_AvgFirms_MV − 21.694**
+(− 2.515)
+
+COwn_D − 0.064*
+(− 1.821)
+
+COwn_Avg_EW − 1.054*
+(− 1.940)
+
+COwn_Avg_VW − 1.016*
+(− 1.946)
+
+COwn_Avg_SW − 1.029*
+(− 1.888)
+
+COwn_Value_EW − 2.144*
+(− 1.924)
+
+COwn_Value_VW − 2.039*
+(− 1.896)
+
+COwn_Value_SW − 2.119*
+(− 1.902)
+
+Constant 60.292*** 56.766*** 7.532*** 7.530*** 7.534*** 7.532*** 7.533*** 7.536*** 7.534***
+(2.955) (2.721) (21.392) (21.363) (21.366) (21.358) (21.373) (21.369) (21.369)
+
+Controls Yes
+LoanPurpose FE Yes
+LoanType FE Yes
+Year FE Yes
+Firm FE Yes
+N 7005 7005 7005 7005 7005 7005 7005 7005 7005
+Adjusted R2 0.719 0.718 0.733 0.733 0.733 0.733 0.733 0.733 0.733
+
+Note: This table shows robustness tests on other independent variables.
+
+5.6. The drivers of vertical common ownership and Heckman analysis
+
+Given that vertical common ownership is an endogenously determined variable and scant literature exists exploring its de-
+terminants, concerns may arise regarding what drives variation in vertical common ownership. Our study aims to address this gap to
+some extent. We propose that the primary drivers of vertical common ownership could stem from two sources: the fraction of customer
+sales and the share ownership held by institutional investors. First, fraction of customer sales reflects a supplier’s dependency on each
+customer. A higher proportion of sales to a particular customer not only highlights strategic importance of that relationship but also
+encourages the alignment of objectives through common ownership. Such alignment is expected to smooth transactional flows,
+enhance trust, and foster stable long-term relationships (Shi, 2016), thereby increasing the likelihood of vertical common ownership as
+a strategic choice to secure and enhance these critical business engagements. Second, we suggest that companies with greater
+
+15 
+
+
+
+H. Tian et al. Journal of Corporate Finance 89 (2024) 102677 
+
+Table 12
+Alternative Cost of loans Measurements.
+
+Panel A: Loan Maturity
+
+(1) (2) (3) (4)
+
+Dependent Maturity Maturity Maturity Maturity
+
+CO_Firms 0.091***
+(2.926)
+
+CO_Firms_MV 0.012***
+(3.317)
+
+COwn_# 0.104***
+(3.034)
+
+Avg_Investors 0.159**
+(2.387)
+
+Constant 2.774*** 2.775*** 2.771*** 2.770***
+(11.902) (11.914) (11.905) (11.885)
+
+Controls Yes
+LoanPurpose FE Yes
+LoanType FE Yes
+Year FE Yes
+Firm FE Yes
+N 7005 7005 7005 7005
+Adjusted R2 0.584 0.584 0.584 0.583
+
+Panel B: Loan Amount
+
+(1) (2) (3) (4)
+
+Dependent LoanSize LoanSize LoanSize LoanSize
+
+CO_Firms 0.180**
+(2.329)
+
+CO_Firms_MV 0.018**
+(2.010)
+
+COwn_# 0.173*
+(1.940)
+
+Avg_Investors 0.250
+(1.624)
+
+Constant − 0.125 − 0.121 − 0.128 − 0.133
+(− 0.430) (− 0.415) (− 0.441) (− 0.456)
+
+Controls Yes
+LoanPurpose FE Yes
+LoanType FE Yes
+Year FE Yes
+Firm FE Yes
+N 7005 7005 7005 7005
+Adjusted R2 0.869 0.868 0.868 0.868
+
+Panel C: Number of Lenders
+
+(1) (2) (3) (4)
+
+Dependent No_Lenders No_Lenders No_Lenders No_Lenders
+
+CO_Firms 0.105**
+(2.250)
+
+CO_Firms_MV 0.011*
+(1.888)
+
+COwn_# 0.107**
+(2.032)
+
+Avg_Investors 0.155
+(1.559)
+
+Constant − 0.529*** − 0.526*** − 0.531*** − 0.534***
+(− 2.837) (− 2.822) (− 2.849) (− 2.861)
+
+Controls Yes
+LoanPurpose FE Yes
+LoanType FE Yes
+Year FE Yes
+Firm FE Yes
+N 7005 7005 7005 7005
+Adjusted R2 0.702 0.702 0.702 0.702
+
+(continued on next page)
+
+16 
+
+
+
+H. Tian et al. Journal of Corporate Finance 89 (2024) 102677 
+
+Table 12 (continued )
+Panel C: Number of Lenders
+
+(1) (2) (3) (4)
+
+Dependent No_Lenders No_Lenders No_Lenders No_Lenders
+
+Panel D: Total Cost of Borrowing
+
+(1) (2) (3) (4)
+
+Dependent TCB TCB TCB TCB
+
+CO_Firms − 35.536***
+(− 3.360)
+
+CO_Firms_MV − 3.525***
+(− 3.908)
+
+COwn_# − 36.151***
+(− 3.577)
+
+Avg_Investors − 56.698***
+(− 3.651)
+
+Constant 232.479*** 231.992*** 231.898*** 231.240***
+(6.392) (6.379) (6.376) (6.385)
+
+Controls Yes
+LoanPurpose FE Yes
+LoanType FE Yes
+Year FE Yes
+Firm FE Yes
+N 3167 3167 3167 3167
+Adjusted R2 0.748 0.748 0.748 0.748
+
+Note: This table shows the results on alternative loan characteristics.
+
+institutional investor share ownership often possess more vertical common ownership. This trend is likely due to the inherent char-
+acteristics of these firms, such as robust governance structures, operational transparency, and strong financial performance, which
+attract institutional investors (Boone and White, 2015). Consequently, firms favored by institutional investors for these traits tend to
+exhibit higher levels of vertical common ownership.
+
+Furthermore, we utilize Heckman model to account for these determinants. Given the need to control for the fraction of customer
+sales, this analysis is conducted at the supplier-customer dyad level. We firstly estimate Probit selection equation to determine the
+likelihood of vertical common ownership based on these potential determinants. Specifically, we regress the vertical common
+ownership dummy (COwn_Pair) on the fraction of customer sales (Sale_Ratio), the share of institutional investors’ ownership (INST),
+and other control variables. This yields the Inverse Mills Ratio (IMR). Moreover, coefficients of Sale_Ratio and INST are both signifi-
+cantly positive, consistent with our arguments above. The second stage involves correcting for any selection bias by incorporating the
+IMR as an additional control. Results are shown in Table 13. The measures of vertical common ownership remain significant, thereby
+corroborating our results.13
+
+6. Conclusions
+
+This paper presents evidence linking vertical common ownership with cost of loans for supplier firms. We find that creditors view
+suppliers with vertical common owners as less likely to default, as indicated by lower loan spreads. This negative correlation is more
+distinct in suppliers with greater relationship-specific investments, weaker bargaining power, higher information asymmetry, long-
+term common institutional owners, and weaker financial positions. The robustness of these results is confirmed through various
+methods, including analyses of financial institution M&As, supplier-customer pair level assessments, and incorporating horizontal
+common ownership and institutional ownership as control variables, along with other tests. Additionally, the study explores the impact
+of vertical common ownership on other financial metrics, revealing an increase in subsequent financing and investment activities,
+including capital and R&D expenditures. We also find that the fraction of customer sales and the institutional investors’ share
+ownership are likely to influence the likelihood of vertical common ownership. Our results consistently hold under the Heckman
+analysis.
+
+These findings align with the argument that institutional investors with vertical common ownership enhance firm coordination and
+monitoring, thereby reducing risks associated with hold-ups, opportunism, and adverse selection, ultimately leading to lower risk
+premiums from creditors. This research illuminates the role of common ownership in supply chains and its effect on reducing the cost
+of loans, offering valuable insights for corporate management, regulators, and external creditors. It underscores the significance of
+
+13 However, we acknowledge the limitation that our analysis does not capture all possible factors influencing vertical common ownership. The
+company characteristics, sales proportions, and ownership structures considered here represent only a partial view. Further research is necessary to
+explore additional determinants that could significantly impact vertical common ownership.
+
+17 
+
+
+
+H. Tian et al. Journal of Corporate Finance 89 (2024) 102677 
+
+Table 13
+Heckman Analysis.
+
+(1) (2) (3) (4)
+
+Dependent COwn_Pair Spread Spread Spread
+
+Sale_Ratio 0.261* − 0.116* − 0.114* − 0.111*
+(1.759) (− 1.755) (− 1.718) (− 1.661)
+
+INST 1.646*** − 0.369 − 0.370 − 0.361
+(16.310) (− 1.213) (− 1.203) (− 1.179)
+
+IMR − 0.125 − 0.118 − 0.110
+(− 0.564) (− 0.528) (− 0.492)
+
+COwn_Pair − 0.090***
+(− 2.665)
+
+COwn_#_Pair − 0.084**
+(− 2.001)
+
+COwn_Value_Pair − 0.737**
+(− 2.298)
+
+Constant − 1.197*** 6.323*** 6.298*** 6.265***
+(− 4.103) (8.037) (7.953) (7.934)
+
+Control Yes Yes Yes Yes
+LoanPurpose FE Yes Yes Yes Yes
+LoanType FE Yes Yes Yes Yes
+Year FE Yes Yes Yes Yes
+Supplier Firm FE No Yes Yes Yes
+Customer Firm FE No Yes Yes Yes
+N 6525 6525 6525 6525
+Adjusted R2 (Pseudo R2) 0.294 0.776 0.776 0.776
+
+Note: This table reports the Heckman two-stage analysis. We omit firm fixed effects in the first stage in column (1) because non-linear models like
+Probit can yield inconsistent point estimates due to the incidental parameter problem (Angrist and Pischke, 2009).
+
+vertical common ownership in both operational coordination and financial stability.
+
+CRediT authorship contribution statement
+
+Haowen Tian: Resources, Project administration, Methodology, Investigation, Funding acquisition, Formal analysis, Data cura-
+tion, Conceptualization. Junkai Wang: Writing – review & editing, Visualization, Validation, Supervision, Software. Sirui Wu:
+Conceptualization, Data curation, Formal analysis, Investigation, Methodology, Supervision, Validation, Writing – review & editing.
+
+Data availability
+
+Data will be made available on request.
+
+Appendix A. Variable Definitions
+
+Dependent Variables
+
+Spread The natural log of the all-in spread drawn charged by the bank over LIBOR for the drawn portion of the loan facility.
+Maturity The natural log of loan facility maturity counted in months.
+LoanSize The natural log of loan facility total amount, measured in millions of dollars.
+NoLenders The natural log of one plus the number of lenders in a loan.
+
+The total cost of borrowing, equals (Upfront Fee / Expected Loan Maturity in Years) + (1-PDD) * (Facility Fee + Commitment Fee) + PDD * (Facility Fee +
+Spread)+ PDD * Prob(Utilization>UtilizationThreshold | Usage> 0) *Utilization Fee+ Prob(Cancellation) * Cancellation Fee. In the equation, theUpfront
+Fee represents a one-time payment made by the borrower at the loan’s closing date. The Expected Loan Maturity in Years is the duration between the
+facility’s start and end dates. PDD stands for the probability of a drawdown, indicating the likelihood that the borrower will draw on the credit line.
+
+TCB The Facility Fee is an annual fee charged on the total committed amount, regardless of usage, while the Commitment Fee is paid on the unused portion of
+the loan commitment. The Spread is the interest margin above the interbank loan rate for the drawn portion of the loan. Prob(Utilization >
+UtilizationThreshold | Usage > 0) is the probability that the utilization rate will exceed a specified threshold, given that there is usage, and the
+Utilization Fee is charged when this threshold is exceeded. Finally, Prob(Cancellation) represents the probability that the loan will be canceled before
+maturity, and the Cancellation Fee is the cost associated with such an early termination.
+
+Independent Variables
+
+CO_Firms The natural log of one plus the number of the firm’s customers that are co-owned with the supplier firm.
+CO_Firms_MV The natural log of one plus the market value of the firm’s customers that are co-owned with the supplier firm.
+COwn_# The natural log of one plus the number of institutional investors who are shareholders of both the supplier firm and its major customers.
+
+(continued on next page)
+
+18 
+
+
+
+H. Tian et al. Journal of Corporate Finance 89 (2024) 102677 
+
+(continued )
+Independent Variables
+
+Avg_Investors The number of vertical common institutional investors scaled by the number of total institutional investors in the firm.
+CO_AvgFirms The number of the firm’s customers that are co-owned with the supplier firm, scaled by the total number of customers that the firm has.
+
+The market value of the firm’s customers that are co-owned with the supplier firm, scaled by the total market value of customers that the firm
+CO_AvgFirms_MV has.
+COwn_D A dummy variable that takes a value of one if the supplier firm has any common ownership with its major customers, and zero otherwise.
+
+COwn_Avg_EW The arithmetic average of the supplier firm i’s shares and customer j’s shares held by common investors. It is aggregated at the firm level by
+using an equal-weighted average across all its customers.
+
+COwn_Avg_VW The arithmetic average of the supplier firm i’s shares and customer j’s shares held by common investors. It is aggregated at the firm level by
+using a market value-weighted average across all its customers.
+The arithmetic average of the supplier firm i’s shares and customer j’s shares held by common investors. It is aggregated at the firm level by
+
+COwn_Avg_SW using a sales-weighted average across all its customers.
+The total market value held by all the common investors of the supplier firm i and its customer j, scaled by the total market capitalization of the
+
+COwn_Value_EW supplier i and customer j. It is aggregated at the supplier firm level by using an equal-weighted average across all of its customers.
+
+COwn_Value_VW The total market value held by all the common investors of the supplier firm i and its customer j, scaled by the total market capitalization of the
+supplier i and customer j. It is aggregated at the firm level by using a market value-weighted average across all its customers.
+
+COwn_Value_SW The total market value held by all the common investors of the supplier firm i and its customer j, scaled by the total market capitalization of the
+supplier i and customer j. It is aggregated at the firm level by using a sales-weighted average across all its customers.
+
+HCO_Firms The natural log of one plus the number of the firm’s industry peers that are co-owned with the firm.
+HCO_Firms_MV The natural log of one plus the market value of the firm’s industry peers that are co-owned with the firm.
+HCOwn_# The natural log of one plus the number of institutional investors who are block holders of both the firm and its industry peers.
+HAvg_Investors The number of horizontal common institutional investors scaled by the number of total institutional investors in the firm.
+INST The percentage of shares held by institutional investors
+COwn_Pair A dummy variable equals one if a supplier-customer dyad has any common ownership, otherwise zero.
+Sum_COwn_Pair The natural log value of one plus the number of common institutional owners for a supplier-customer dyad.
+
+The percentage of market value held by common institutional investors for a supplier-customer dyad, which equals to the total market value of
+COwn_Value_Pair shares for which the supplier-customer dyad is commonly held, then divided by the total market value of the supplier firm and customer firm.
+
+Control Variables
+
+SIZE The natural log of the total assets.
+LEV The ratio of long-term debt plus debt in current liabilities to total assets.
+MTB The ratio of the market value of equity to the book value of equity.
+ROA The income before extraordinary items divided by total assets.
+Tangibility Property, plant and equipment divided by total assets.
+CFO_VOL Cash flow volatility, which is the standard deviation of earnings before extraordinary items (scaled by total assets) over the past three years.
+
+Altman Z-Score, equals to (1.2 × working capital +1.4 × retained earnings +3.3 × earnings before interest and taxes +0.999 × sales)/lagged total
+Z_Score assets.
+Rating Bond rating dummy, which equals one if the firm has an S&P bond rating, otherwise zero.
+Performance Performance pricing dummy, which equals one if the loan facility uses performance pricing and zero otherwise.
+LoanPurpose Loan purpose fixed effects, including corporate purpose, working capital, debt repayment, acquisition, backup line for commercial paper, and
+
+others.
+LoanType Loan type fixed effects, including term loan, revolver, and 364-day facility.
+
+Cross-Sectional Variables
+
+Redeployability The asset redeploability measured by the BEA capital flow table.
+Entry The proportion of new firms to total firms within an industry, where the new firm is just established for one year or two years
+AR The accounts receivable of the supplier divided by lagged total assets.
+Opacity The prior three years’ moving sum of the absolute value of discretionary accruals.
+Duration Common ownership duration counted in months of common institutional investors. For firms with multiple common owners, Duration equals the
+
+median value of investment lengths for all the common owners.
+
+References
+
+Altman, E.I., 1968. Financial ratios, discriminant analysis and the prediction of corporate bankruptcy. J. Financ. 23 (4), 589–609.
+Álvarez-Botas, C., González, V.M., 2021. Does trust matter for the cost of bank loans? Finance 66, 101791.
+Angrist, J., Pischke, J.-S., 2009. Mostly Harmless Econometrics: An Empiricist’s Companion. Princeton University Press, Princeton.
+Antón, M., Ederer, F., Giné, M., Schmalz, M.C., 2021. Innovation: The Bright Side of Common Ownership? Working Paper.
+Appel, I.R., Gormley, T.A., Keim, D.B., 2016. Passive investors, not passive owners. J. Financ. Econ. 121 (1), 111–141.
+Azar, J., Schmalz, M.C., Tecu, I., 2018. Anticompetitive effects of common ownership. J. Financ. 73 (4), 1513–1565.
+Berg, T., Saunders, A., Steffen, S., 2016. The total cost of corporate borrowing in the loan market: Don’t ignore the fees. J. Financ. 71 (3), 1357–1392.
+Boone, A.L., White, J.T., 2015. The effect of institutional ownership on firm transparency and information production. J. Financ. Econ. 117 (3), 508–533.
+Borochin, P., Yang, J., 2017. The effects of institutional investor objectives on firm valuation and governance. J. Financ. Econ. 126 (1), 171–199.
+Brooks, C., Chen, Z., Zeng, Y., 2018. Institutional cross-ownership and corporate strategy: the case of mergers and acquisitions. Finance 48, 187–216.
+Campello, M., Gao, J., 2017. Customer concentration and loan contract terms. J. Financ. Econ. 123 (1), 108–136.
+Campello, M., Lin, C., Ma, Y., Zou, H., 2011. The real and financial implications of corporate hedging. J. Financ. 66 (5), 1615–1647.
+
+19 
+
+
+
+H. Tian et al. Journal of Corporate Finance 89 (2024) 102677 
+
+Carey, M., Nini, G., 2007. Is the corporate loan market globally integrated? A pricing puzzle. J. Financ. 62 (6), 2969–3007.
+Cen, L., Dasgupta, S., Elkamhi, R., Pungaliya, R.S., 2016. Reputation and loan contract terms: the role of principal customers. Rev. Fin. 20 (2), 501–533.
+Cen, L., Maydew, E.L., Zhang, L., Zuo, L., 2017. Customer–supplier relationships and corporate tax avoidance. J. Financ. Econ. 123 (2), 377–394.
+Chen, X., 2021. Common Ownership along the Supply Chain and Supplier Innovations. University of Oregon.
+Chen, X., Harford, J., Li, K., 2007. Monitoring: which institutions matter? J. Financ. Econ. 86 (2), 279–305.
+Chen, Y., Li, Q., Ng, J., Wang, C., 2021. Corporate financing of investment opportunities in a world of institutional cross-ownership. Finance 69 (forthcoming).
+Cheung, Y.L., Haw, I.M., Hu, B., Swink, M., Zhang, W., 2020. Common institutional investors and supplier performance in supply chains. J. Oper. Manag. 66 (6),
+
+670–696.
+Cohen, L., Frazzini, A., 2008. Economic links and predictable returns. J. Financ. 63 (4), 1977–2011.
+Cohen, L.J., Cornett, M.M., Marcus, A.J., Tehranian, H., 2014. Bank earnings management and tail risk during the financial crisis. J. Money Credit Bank. 46 (1),
+
+171–197.
+Crawford, S., Huang, Y., Li, N., Yang, Z., 2020. Customer concentration and public disclosure: evidence from management earnings and sales forecasts. Contemp.
+
+Account. Res. 37 (1), 131–159.
+Croci, E., Degl’Innocenti, M., Zhou, S., 2021. Large customer-supplier links and syndicate loan structure. Finance 66, 101844.
+Culot, G., Podrecca, M., Nassimbeni, G., Orzes, G., Sartor, M., 2023. Using supply chain databases in academic research: a methodological critique. J. Supply Chain
+
+Manag. 59 (1), 3–25.
+Demiroglu, C., James, C.M., 2010. The information content of bank loan covenants. Rev. Financ. Stud. 23 (10), 3700–3737.
+Dennis, P., Gerardi, K., Schenone, C., 2022. Common ownership does not have anticompetitive effects in the airline industry. J. Financ. 77 (5), 2765–2798.
+Dhaliwal, D., Judd, J.S., Serfling, M., Shaikh, S., 2016. Customer concentration risk and the cost of equity capital. J. Account. Econ. 61 (1), 23–48.
+Edmans, A., Levit, D., Reilly, D., 2019. Governance under common ownership. Rev. Financ. Stud. 32 (7), 2673–2719.
+Ertugrul, M., Lei, J., Qiu, J., Wan, C., 2017. Annual report readability, tone ambiguity, and the cost of borrowing. J. Financ. Quant. Anal. 52 (2), 811–836.
+Fabbri, D., Klapper, L.F., 2016. Bargaining power and trade credit. Finance 41, 66–80.
+Fields, L.P., Fraser, D.R., Subrahmanyam, A., 2012. Board quality and the cost of debt capital: the case of bank loans. J. Bank. Financ. 36 (5), 1536–1547.
+Francis, B.B., Hunter, D.M., Robinson, D.M., Robinson, M.N., Yuan, X., 2017. Auditor changes and the cost of bank debt. Account. Rev. 92 (3), 155–184.
+Freeman, K.M., 2023. Overlapping ownership along the supply chain. J. Financ. Quant. Anal. (forthcoming).
+Gao, K., Shen, H., Gao, X., Chan, K.C., 2019. The power of sharing: evidence from institutional investor cross-ownership and corporate innovation. Int. Rev. Econ.
+
+Financ. 63, 284–296.
+Gilje, E.P., Gormley, T.A., Levit, D., 2020. Who’s paying attention? Measuring common ownership and its impact on managerial incentives. J. Financ. Econ. 137 (1),
+
+152–178.
+Graham, J.R., Li, S., Qiu, J., 2008. Corporate misreporting and bank loan contracting. J. Financ. Econ. 89 (1), 44–61.
+Grossman, S.J., Hart, O.D., 1986. The costs and benefits of ownership: a theory of vertical and lateral integration. J. Polit. Econ. 94 (4), 691–719.
+Gu, T., Sanders, N.R., Venkateswaran, A., 2017. CEO incentives and customer-supplier relations. Prod. Oper. Manag. 26 (9), 1705–1727.
+Hansen, R.G., Lott, J.R., 1996. Externalities and corporate objectives in a world with diversified shareholder/consumers. J. Financ. Quant. Anal. 31 (1), 43–68.
+Harford, J., Jenter, D., Li, K., 2011. Institutional cross-holdings and their effect on acquisition decisions. J. Financ. Econ. 99 (1), 27–39.
+He, J., Huang, J., 2017. Product market competition in a world of cross-ownership: evidence from institutional blockholdings. Rev. Financ. Stud. 30 (8), 2674–2718.
+He, J.J., Huang, J., Zhao, S., 2019. Internalizing governance externalities: the role of institutional cross-ownership. J. Financ. Econ. 134 (2), 400–418.
+He, J., Li, L., Yeung, P.E., 2020. Two Tales of Monitoring: Effects of Institutional Cross-Blockholding on Accruals. Working Paper.
+He, J., Liang, L., Wang, H., Xia, H., 2024. Networking behind the scenes: institutional cross-industry holdings and corporate loan markets. Manag. Sci. 70 (7),
+
+4932–4952.
+Houston, J., James, C., 1996. Bank information monopolies and the mix of private and public debt claims. J. Financ. 51 (5), 1863–1889.
+Hui, K.W., Klasa, S., Yeung, P.E., 2012. Corporate suppliers and customers and accounting conservatism. J. Account. Econ. 53 (1–2), 115–135.
+Hutton, A.P., Marcus, A.J., Tehranian, H., 2009. Opaque financial reports, R2, and crash risk. J. Financ. Econ. 94 (1), 67–86.
+Jensen, M.C., Meckling, W.H., 2019. Theory of the firm: managerial behavior, agency costs and ownership structure. Corp. Gov. 77–132.
+Jin, L., Myers, S.C., 2006. R2 around the world: new theory and new tests. J. Financ. Econ. 79 (2), 257–292.
+Kempf, E., Manconi, A., Spalt, O., 2017. Distracted shareholders and corporate actions. Rev. Financ. Stud. 30 (5), 1660–1695.
+Kim, H., Kung, H., 2017. The asset redeployability channel: how uncertainty affects corporate investment. Rev. Financ. Stud. 30 (1), 245–280.
+Klapper, L., Laeven, L., Rajan, R., 2006. Entry regulation as a barrier to entrepreneurship. J. Financ. Econ. 82 (3), 591–629.
+Lewellen, K., Lowry, M., 2021. Does common ownership really increase firm coordination? J. Financ. Econ. 141 (1), 322–344.
+Matvos, G., Ostrovsky, M., 2008. Cross-ownership, returns, and voting in mergers. J. Financ. Econ. 89 (3), 391–403.
+Melnik, A., Plaut, S., 1986. Loan commitment contracts, terms of lending, and credit allocation. J. Financ. 41 (2), 425–435.
+Merton, R.C., 1974. On the pricing of corporate debt: the risk structure of interest rates. J. Financ. 29 (2), 449–470.
+Murfin, J., 2012. The supply-side determinants of loan contract strictness. J. Financ. 67 (5), 1565–1601.
+Myers, S.C., 1977. Determinants of corporate borrowing. J. Financ. Econ. 5 (2), 147–175.
+Ni, X., Yin, D., 2023. Is institutional common ownership commonly priced? Insights from the cost of equity capital. J. Bank. Financ. 155, 106990.
+Park, J., Sani, J., Shroff, N., White, H., 2019. Disclosure incentives when competing firms have common ownership. J. Account. Econ. 67 (2–3), 387–415.
+Radhakrishnan, S., Wang, Z., Zhang, Y., 2014. Customers’ capital market information quality and suppliers’ performance. Prod. Oper. Manag. 23 (10), 1690–1705.
+Ramalingegowda, S., Utke, S., Yu, Y., 2021. Common institutional ownership and earnings management. Contemp. Account. Res. 38 (1), 208–241.
+Raman, K., Shahrur, H., 2008. Relationship-specific investments and earnings management: evidence on corporate suppliers and customers. Account. Rev. 83 (4),
+
+1041–1081.
+Rauh, J.D., Sufi, A., 2010. Capital structure and debt structure. Rev. Financ. Stud. 23 (12), 4242–4280.
+Shi, S., 2016. Customer relationship and sales. J. Econ. Theory 166, 483–516.
+Shroff, N., 2017. Corporate investment and changes in GAAP. Rev. Acc. Stud. 22, 1–63.
+Smith, A., 1937. The Wealth of Nations: An Inquiry into the Nature and Causes. Modern Library.
+Valta, P., 2012. Competition and the cost of debt. J. Financ. Econ. 105 (3), 661–682.
+
+20

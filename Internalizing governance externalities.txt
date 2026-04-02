@@ -1,0 +1,3630 @@
+﻿Journal of Financial Economics 134 (2019) 400–418 
+
+Contents lists available at ScienceDirect 
+
+Journal of Financial Economics 
+
+journal homepage: www.elsevier.com/locate/jfec 
+
+Internalizing governance externalities: The role of 
+institutional cross-ownership 
+
+ 
+
+Jie (Jack) a 
+ He , Jiekun Huang b , ∗
+
+ ,  
+
+ Shan c
+ Zhao 
+
+a Terry College of Business, University of Georgia, Athens GA, 30602, USA 
+b Gies College of Business, University of Illinois at Urbana-Champaign, Champaign IL, 61820, USA 
+c Department of Economics and Finance, City University of Hong Kong, Kowloon Tong, Hong Kong 
+
+a r t i c l e i n f o a b s t r a c t 
+
+Article history: We analyze the role of institutional cross-ownership in internalizing corporate governance 
+Received 28 March 2018 externalities using granular mutual fund proxy voting data. Exploiting within-proposal and 
+Revised 26 June 2018 within-institution variation, we show that an institution’s holdings in peer firms are pos- 
+Accepted 31 July 2018 
+
+itively associated with the likelihood that the institution votes against management on 
+Available online 25 March 2019 
+
+shareholder-sponsored governance proposals. We further find that high aggregate cross- 
+
+JEL classification: ownership positively predicts management losing a vote. Overall, our results provide evi- 
+ 
+
+G23 dence that cross-ownership incentivizes institutional investors to play a more active mon- 
+ 
+
+G32 itoring role, suggesting that institutional cross-ownership serves as a market-based mech- 
+ 
+
+G34 anism to alleviate the inefficiency induced by governance externalities. 
+© 2019 Elsevier B.V. All rights reserved. 
+
+Keywords: 
+Corporate governance 
+Externalities 
+Cross-ownership 
+Proxy voting 
+Institutional investors 
+ We are grateful for helpful comments from an anonymous referee, 
+Heitor Almeida, Matt Billet, Jie Cai, David Dicks, Rüdiger Fahlenbrach, Paul 
+Gao, Stu Gillan, Edith Ginglinger, Itay Goldstein, Todd Gormley, Simon 
+Gueguen, Jarrad Harford, Harald Hau, Gerard Hoberg, John Hund, Peter 
+Iliev, Tim Johnson, Sehoon Kim, Mathias Kronlund, Ugur Lel, Kai Li, Tao 
+Li, Pedro Matos, Harold Mulherin, Jeff Netter, Annette Poulsen, Anjana Ra- 
+jamani, Edward Rice, Laura Starks, David Stolin, Yuehua Tang, Stijn Van 
+Nieuwerburgh, Scott Weisbenner, Josh White, Moqi Xu, Jun Yang, Xiaoyun 
+Yu, and seminar participants at the 2018 European Finance Association 
+meetings, the 2018 Washington University Corporate Finance conference, 
+the 2018 Financial Management Association meetings, the 2017 Western 
+Finance Association meetings, the 2017 China International Conference in 
+Finance, the 2017 Wabash River conference, the 2018 SGF Conference, 
+Second French Workshop on Corporate Governance, University of Geor- 
+gia, Toulouse School of Economics, University of Warwick, Southwestern 
+University of Finance and Economics, EDHEC, and ESSEC. We are solely 
+responsible for any remaining errors. 
+
+∗ Corresponding author. 
+E-mail addresses: jiehe@uga.edu (J. He), huangjk@illinois.edu (J. 
+
+Huang), zhsh333@yahoo.com (S. Zhao). 
+
+https://doi.org/10.1016/j.jfineco.2018.07.019 
+0304-405X/© 2019 Elsevier B.V. All rights reserved. 
+“The significance is not the three or four laggards you 
+
+catch—it’s that you get the herd to run.”
+– John H. Biggs, the chairman and CEO of 
+
+TIAA-CREF ( Wall Street Journal , 1993 ) 
+
+1. Introduction 
+
+Corporations’ governance structure does not exist in a 
+vacuum: the governance choice of one firm can impose 
+externalities on other firms. The theoretical literature 
+argues that corporate governance externalities can arise 
+because firms interact with each other through various 
+types of relationships. For example, one type of interfirm 
+
+interaction is the competition for managerial talents. In the 
+theory of Acharya and Volpin (2010) , when a firm’s com- 
+petitors in the managerial labor market adopt a low level 
+of governance and thus allow their managers to extract 
+large private benefits, the outside options of the firm’s 
+
+
+
+J. He, J. Huang and S. Zhao / Journal of Financial Economics 134 (2019) 400–418 401 
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+ 
+
+  
+
+  
+
+ 
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+ 
+
+  
+
+  
+
+  
+
+  
+
+  
+
+ 
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+managers become more valuable, which in turn forces
+the firm to choose a low level of governance to retain its
+managers. Since firms, as independent decision-makers, do
+not fully internalize this externality, Acharya and Volpin
+(2010) predict that in equilibrium, the chosen level of gov-
+ernance in 1
+
+ the economy can be inefficiently low.  
+
+ In this
+paper, we examine the role of a market-based mechanism
+for internalizing governance externalities that has not
+been explored in the literature, namely, cross-ownership
+by institutional investors. 
+
+Institutional cross-ownership has witnessed a substan-
+tial growth over the past few decades and become a
+widespread and economically important phenomenon (e.g.,
+Matvos and Ostrovsky, 2008; Harford et al., 2011; He and
+Huang, 2017 ). The objective of institutional cross-owners,
+i.e., institutions that own equity in multiple firms that in-
+teract with one another extensively, is to maximize the
+combined value of their portfolio holdings. Therefore, rel-
+ative to institutions that only invest in one of these
+firms, cross-owners have a stronger incentive to internal-
+ize corporate governance externalities among their portfo-
+lio companies. This difference arises because, for the same
+marginal cost of improving governance in one company,
+cross-owners are poised to reap a higher marginal ben-
+efit.2  Specifically, for each additional unit of monitoring
+effort exerted on a company, the cross-owner can bene-
+fit not only from an improvement in governance in the
+company itself, but also from the ensuing improvement in
+governance in the company’s peers that are in its portfo-
+lio. Thus, relative to non-cross-holding shareholders, cross-
+owners should play a stronger monitoring role, particularly
+when the potential for governance 3
+
+ externalities is high.  
+
+ 
+
+In this paper, we analyze the corporate governance role
+of cross-holding institutions by examining their voting be-
+havior on governance-related proposals. One unique ad-
+vantage of the proxy voting setting is that it allows us to
+directly observe an important monitoring action taken by
+institutional investors, i.e., voting against management on
+proposals for which the interests of shareholders and man-
+ 
+
+ 
+
+1 A large literature on the monitoring role of institutional investors  
+
+ is 
+built on the notion that corporations choose an inefficiently low level of 
+
+ 
+
+governance, which necessitates monitoring by institutional shareholders. 
+ 
+
+See, e.g., Gillan and Starks (2003) for an excellent review of the literature. 
+2  
+
+ Monitoring is costly because institutions need to conduct costly in- 
+formation production to evaluate the firm and decide on the appropriate 
+course of action. Also,  
+
+ actively monitoring institutions may run the risk of 
+jeopardizing their relationship with the firm, such as losing pension busi- 
+
+ 
+
+ness ties ( Cvijanovi ́c et al., 2016 ) or selective access to management (e.g., 
+ 
+
+Bushee et al., 2017 ). 
+3  
+
+ Anecdotal evidence suggests that institutional investors, especially 
+those that own shares in a wide spectrum of  
+
+ companies, indeed take 
+governance externalities into serious consideration when conducting their  
+
+ 
+
+monitoring activities. For example, commenting on passive institutions’ 
+ 
+
+role in corporate governance, a Financial Times (2014) article argues that 
+ 
+
+because such institutions “are invested across the entire market, [they] 
+ 
+
+have an interest in raising standards everywhere, not just in individual 
+companies.” As another example, TIAA-CREF, a pension fund with  
+
+ a di- 
+versified portfolio, sent letters to all companies in which it held stock to 
+
+ 
+
+promote sound corporate governance practices. Its former chairman and 
+ 
+
+chief executive officer, John H. Biggs, likens the fund’s corporate gover- 
+ 
+
+nance policy to “a lion chasing a herd of wildebeests” by saying that 
+“[t]he significance is not the three or four laggards you catch—it’s that  
+
+ 
+
+you get the herd to run” ( Wall Street Journal , 1993 ).  
+
+ 
+
+agers are in conflict ( McCahery et al., 2016 ). In contrast,
+common firm-level governance measures such as board at-
+tributes and antitakeover provisions provide only indirect
+proxies for the monitoring effort exerted by the institu-
+tions and are influenced by many unobservable firm and
+industry characteristics. Thus, we focus on the relation be-
+tween cross-ownership and institutions’ tendency to vote
+against management on shareholder-sponsored governance
+proposals for which the interests of shareholders and
+management tend to diverge. If cross-ownership induces
+an institution to play a stronger monitoring role, cross-
+ownership should positively predict the likelihood that the
+institution votes against management on such proposals. 
+
+To test the above prediction, we use a large sample of
+votes on shareholder-sponsored governance proposals cast
+by institutional investors for the period from 2003 through
+2012. We aggregate votes by individual funds to the level
+of fund family. Our sample includes more than 169,0 0 0
+votes at the proposal-family level. The granular nature of
+the voting data enables us to include a rich set of fixed ef-
+fects, such as proposal fixed effects and family-time fixed
+effects, thereby allowing us to identify the effect of cross-
+ownership on institutional monitoring by exploiting the
+variation in cross-ownership across institutions within a
+given proposal and the variation in cross-ownership across
+firms within a given institution’s portfolio at a given time. 
+
+We find that institutional shareholders with larger
+ownership stakes in peer firms (i.e., same-industry
+firms with similar size) are more likely to vote against
+management on shareholder-sponsored governance pro-
+posals. This result is obtained after controlling for the
+above-mentioned fixed effects as well as the institution’s
+holdings in the focal firm itself. The economic magnitude
+is large as well. For example, according to the most strin-
+gent specification, a one-standard-deviation increase in
+the continuous measure of cross-ownership in peer firms
+is associated with an increase of 2.4 percentage points in
+the likelihood of voting against management. This magni-
+tude is economically meaningful given that the standard
+deviation of the likelihood of voting against management
+is 47.0 percentage points. Since shareholder-sponsored
+governance proposals, which management almost always
+opposes, are intended to reduce managerial rents and
+improve shareholder value (e.g., Cuñat et al., 2012 ), our
+results suggest that cross-ownership induces institutions
+to play a valuable monitoring role. 
+
+Since the increased monitoring incentive of
+cross-holding institutions is likely driven by corporate
+governance externalities, their tendency to vote against
+management should increase with the potential for such
+externalities. Recent theories suggest that managerial
+labor market competition can give rise to corporate gov-
+ernance externalities (e.g., Acharya and Volpin, 2010;
+Dicks, 2012 ), which predicts that the governance effects of
+cross-ownership should be stronger for firms whose man-
+agers face more outside opportunities. Using the industry
+homogeneity measure of Parrino (1997) and the number
+of peer firms in the industry as proxies to capture man-
+agers’ outside options, we find evidence consistent with
+this prediction. These results provide suggestive evidence
+that managerial labor market competition is an important
+
+
+
+402 J. He, J. Huang and S. Zhao / Journal of Financial Economics 134 (2019) 400–418 
+
+ 
+
+economic force that gives rise to corporate governance 
+externalities, which in turn provide institutional cross- 
+owners stronger incentives to internalize externalities and 
+
+improve governance. 
+It is worth noting that the various sets of fixed effects 
+
+in our baseline specifications effectively control for con- 
+founding variation such as the differences in the proposals 
+being voted on, differences in information asymmetry 
+across firms, and differences in informational advantages 
+and monitoring capabilities across institutions. For ex- 
+ample, our family × industry × time fixed effects mitigate 
+the concern that institutions’ industry-specific governance 
+expertise drives our results. Also, time-varying traits of 
+institutions (such as funding liquidity, investment skills, 
+and governance preferences) cannot explain our results 
+either, because our institution × time fixed effects absorb 
+observed and unobserved time-varying heterogeneity 
+across institutions. Our results are also robust to the 
+inclusion of institution × firm fixed effects. 
+
+While the inclusion of a large set of fixed effects 
+enables us to rule out alternative interpretations based 
+
+on proposal-specific factors, time-varying characteristics of 
+firms or fund families, and time-invariant factors that are 
+specific to institution-firm pairs, it remains possible that 
+omitted variables, e.g., time-varying factors that are spe- 
+cific to pairs of institutions and firms, drive both cross- 
+ownership and voting decisions. To address these potential 
+endogeneity concerns, we exploit a quasi-natural experi- 
+ment of financial institution mergers using a difference- 
+in-differences (DiD) approach (following He and Huang, 
+2017 ). When two institutions merge, the acquirer institu- 
+tion is likely to experience an increase in the holdings 
+of peer firms after the completion of the merger simply 
+because the target institution holds these peer firms in 
+
+its portfolio before the merger. Thus, a larger increase in 
+
+cross-ownership induced by the merger should lead to a 
+higher likelihood that the acquirer institution votes against 
+management. We find evidence consistent with this pre- 
+diction. These results allow us to get closer to a causal in- 
+terpretation of the relation between cross-ownership and 
+
+institutional monitoring. 
+The results on the voting behavior at the institution 
+
+level raise a natural question: do cross-holding institutions 
+have aggregate effects on actual vote outcomes? To explore 
+this question, we construct cross-ownership measures at 
+the firm level by aggregating cross-ownership by individ- 
+ual institutions. We find that institutional cross-ownership 
+
+positively predicts that management loses to shareholders 
+in a proxy vote. The economic magnitude is large: A one- 
+standard-deviation increase in firm-level cross-ownership 
+
+is associated with an increase of 12.8 percentage points 
+in the likelihood that management loses a vote. This re- 
+sult provides suggestive evidence that institution-level vot- 
+ing behavior observed above has aggregate effects on 
+
+governance outcomes. 
+Finally, to strengthen the interpretation that corporate 
+
+governance externalities are a mechanism for our results, 
+we examine the stock returns of peer firms surrounding 
+close-call votes on shareholder-sponsored governance pro- 
+posals at focal firms. We find that peer firms’ stock prices 
+react positively to the passage of close-call votes at focal 
+firms, suggesting that shocks to the governance practices 
+of the focal firm can impose externalities on peer firms 
+and that the market price rationally reflects such exter- 
+nalities. More important, we find that the positive stock 
+price reaction is particularly pronounced when the focal 
+and peer firms share strong ownership ties through cross- 
+holding institutions, suggesting that the market correctly 
+anticipates the influence of institutional cross-holders on 
+
+governance externalities. 
+Our paper makes several contributions to the lit- 
+
+erature. First, our paper identifies a positive effect of 
+cross-ownership on institutional investors’ monitoring of 
+corporations, complementing the study by Matvos and Os- 
+trovsky (2008) that examines the effect of cross-ownership 
+
+on the monitoring of acquisitions. Our results highlight 
+institutional cross-ownership as an important market- 
+based mechanism in reducing the inefficiency induced by 
+governance externalities. The finding that cross-ownership 
+
+is associated with a stronger disciplining role played by 
+institutional investors in proxy voting contributes to the 
+literature on the monitoring role of institutional investors 
+(e.g., Gillan and Starks, 20 0 0, 20 03; Chen et al., 2007 ).
+Second, while much of the existing literature on cross- 
+ownership focuses on various outcomes at the portfolio 
+firms (such as their product market behavior), it is still 
+largely unknown how institutional cross-owners exert 
+influence on corporate decision-making. By investigating 
+the voting behavior of institutional cross-owners, our 
+study sheds light on a specific channel through which 
+
+these investors affect corporate policies. Third, while 
+recent studies (e.g., Appel et al., 2016, 2018 ) show that 
+passive institutions, e.g., index funds, play an active role 
+in corporate governance, it remains unclear why these 
+institutions care about good governance in the first place. 
+Our paper suggests one possible reason for passive institu- 
+tions’ active involvement in corporate governance, namely, 
+their cross-holding positions that induce them to exert 
+monitoring efforts to internalize governance externalities. 
+
+Our study has important policy implications. The find- 
+ing that cross-ownership induces institutional investors to 
+play a stronger monitoring role suggests a “bright side” of 
+cross-ownership, which provides an important alternative 
+perspective to the current policy debate that centers on 
+
+the potential anticompetitive effects of cross-owners (e.g., 
+New York Times , 2016 ). Our results also have implications 
+for regulatory policies that seek to address corporate gov- 
+ernance externalities. One motivation for corporate gover- 
+nance regulations such as the Sarbanes-Oxley Act of 2002 
+is to reduce negative externalities ( Acharya and Volpin, 
+2010; Dicks, 2012 ). Market-based solutions to governance 
+externalities, however, are largely unexplored. Given that 
+institutional cross-owners are uniquely positioned to col- 
+lect and produce information about firms and incentivized 
+
+to internalize governance externalities, cross-ownership, as 
+a market-based mechanism, can play an important role in 
+
+addressing governance externalities. 
+The rest of the paper is organized as follows. 
+
+Section 2 discusses the related literature. Section 3 de- 
+scribes sample selection and reports summary statis- 
+tics. Section 4 examines the relation between institu- 
+tional cross-ownership and the likelihood of voting against 
+
+
+
+J. He, J. Huang and S. Zhao / Journal of Financial Economics 134 (2019) 400–418 403 
+
+  
+
+  
+
+  
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+management. Section 5 examines the relation between
+firm-level aggregate cross-ownership and vote outcomes as
+well as stock returns of peer firms around close-call votes
+at focal firms. Section 6 concludes. 
+
+2. Related literature 
+
+Our paper is related to three strands of literature. The
+first is the recent literature that examines the role of
+institutional investors in corporate governance through
+the lens of voting behavior. A number of studies show
+that mutual funds’ proxy voting decisions are influenced
+by considerations such as business and social connections
+to management ( Davis and Kim, 2007; Butler and Gurun,
+2012; Ashraf et al., 2012; Cvijanovi ́c et al., 2016 ), peer
+institutions ( Matvos and Ostrovsky, 2010 ), capital gains
+lock-in ( Dimmock et al., 2018 ), and the reliance on proxy
+advisory firms ( Iliev and Lowry, 4
+
+ 2015 ).  
+
+ Our paper adds
+to this literature by investigating the implications of
+cross-ownership for institutions’ proxy voting behavior. 
+
+The second literature our paper is connected to is
+the one on corporate governance externalities. Acharya
+and Volpin (2010) and Dicks (2012) argue that manage-
+rial labor market competition generates corporate gov-
+ernance externalities.5  Several studies provide evidence
+consistent with these theories. For example, Acharya
+et al. (2016) find evidence that managerial labor mar-
+ket competition leads some firms to choose a lower
+level of corporate governance. John and Kadyrzhanova
+(2008), Albuquerque et al. (2019) , and Foroughi et al.
+(2016) find evidence of spillovers of governance prac-
+tices from one firm to another. In the context of ex-
+ecutive compensation, Bizjak et al. (2008), Bizjak et al.
+(2011), Faulkender and Yang (2010) , and Bereskin and Ci-
+cero (2013) find that a firm’s CEO compensation is signif-
+icantly positively affected by that of its peer firms. Our
+paper contributes to this literature by highlighting cross-
+ownership as a market-based mechanism to internalize
+corporate governance externalities. 
+
+The third literature our paper is related to is the bur-
+geoning literature on cross-ownership. Hansen and Lott
+(1996) provide a theory whereby cross-owners maximize
+their portfolio values by inducing their portfolio firms to
+internalize externalities. Recent studies examine the role
+of institutional cross-owners in various settings such as
+acquisitions ( Matvos and Ostrovsky, 2008; Harford et al.,
+2011 ), product market performance and strategies ( He
+and Huang, 2017 ), product pricing in the airline industry
+4 Other studies that examine institutional investors’ governance role 
+through the proxy process include Gillan and Starks (20 0 0), Morgan and 
+Poulsen (2001), Morgan et al. (2011) , and Keswani et al. (2017) . 
+
+5 In their models, a firm needs to find an optimal combination of man- 
+agerial compensation and corporate governance to solve the agency prob- 
+lem between shareholders and managers. Strong governance reduces a 
+manager’s expected private benefits from misbehaving, which decreases 
+the optimal level of pay that the firm needs to offer to the manager to 
+induce effort. This suggests that a firm with weak corporate governance 
+has to offer high pay to its managers, which increases the outside op- 
+tion of its rival firms’ managers. As a result, its rivals have to offer higher 
+pay to their managers and adopt weaker governance, leading to negative 
+corporate governance externalities. 
+( Azar et al., 2018 ), and the informational efficiency of stock
+prices ( Edmans et al., 2018 ). However, none of these papers
+consider corporate governance externalities among port-
+folio firms. Our paper thus fills the gap in the literature
+by exploring the implications of governance externalities
+for cross-owners’ monitoring incentives. Notably, with the
+exception of Matvos and Ostrovsky (2008) , the existing
+studies in this literature mostly focus on outcomes at
+portfolio firms (such as product market performance,
+governance outcomes, or the pricing of products). In con-
+trast, our paper examines actions by institutional investors
+(similar to Matvos and Ostrovsky, 2008 ), thus providing
+direct evidence 6
+
+ on the influence of cross-owners.  
+
+ 
+
+3. Data, sample, and variable construction 
+
+3.1. Data and sample 
+
+We obtain mutual fund voting data for the period from
+2003 through 2012 from the Institutional Shareholder Ser-
+vices (ISS) Voting Analytics database. The detailed voting
+information becomes available following the Securities and
+Exchange Commission (SEC) ruling requiring all mutual
+funds registered in the U.S. to report their proxy votes us-
+ing Form N-PX starting from April 2003. For each proposed
+agenda item (i.e., proposal) voted on by each mutual fund,
+the data report the firm that receives the proposal, the
+date of the shareholder meeting at which the proposal is
+considered, the issue being voted on (e.g., board declassi-
+fication or the elimination of poison pills), the sponsor of
+the proposal, management’s recommendation, the ISS rec-
+ommendation, and the fund’s vote. 
+
+We obtain data on the aggregate votes cast for or
+against a given proposal as well as the voting result (i.e.,
+“pass” or “fail”) from the ISS Voting Outcome data set. Pro-
+posals can be sponsored by shareholders or management.
+Following prior literature (e.g., Davis and Kim, 2007; Cuñat
+et al., 2012 ), we mainly focus on shareholder-sponsored
+proposals, which are more likely to be motivated by an at-
+tempt to reduce managerial agency problems.7  To identify
+proposals on governance-related issues, we adopt the same
+classification scheme as that in Cuñat et al. (2012) by in-
+cluding those related to antitakeover provisions, executive
+compensation, board structure, and voting. 
+
+We merge the voting data with Thomson Reuters Insti-
+tutional Holdings (13F) database. Because there is no com-
+mon identifier for institutions across the two databases,
+we use a name-matching procedure to match the voting
+6 Existing evidence on the effect of cross-ownership on firm-level 
+governance outcomes is indirect and mixed. For instance, Anton et al. 
+(2016) and Kwon (2016) examine the relation between cross-ownership at 
+the industry level and executive compensation structure, but find conflict- 
+ing results. Neither of these papers directly examines the actions taken by 
+institutional cross-owners. 
+
+7 For example, Cuñat et al. (2012) show that the passing of shareholder- 
+sponsored governance proposals has a positive effect on firm value, even 
+though firm management almost always opposes such proposals. In ad- 
+dition, Cvijanovi ́c et al. (2016) contend that management has signifi- 
+cant control and influence over management-sponsored proposals (e.g., 
+by withdrawing or modifying proposals that are likely to be contested), 
+which implies less uncertainty about the outcome of such proposals and 
+hence a lesser need for institutional investors to exert monitoring efforts. 
+
+
+
+404 J. He, J. Huang and S. Zhao / Journal of Financial Economics 134 (2019) 400–418 
+
+V
+
+data with 13F. We are able to identify 332 fund families 
+in the voting database that are 13F institutions. These fund 
+
+families cast about 95% of the votes covered by the voting 
+database during our sample period. We aggregate votes at 
+the fund-family level. The unit of observation in the final 
+data set is a proposal-fund family. 
+
+3.2. Variable construction 
+
+Since mutual fund families often adopt voting guide- 
+lines at the family level and have family-level governance 
+teams that cast votes on behalf of their affiliated funds, 
+we focus on the voting 8
+
+ decision at the fund-family level.  
+
+ 
+
+We follow the literature to define our main dependent 
+variable, VoteAgainstMgmt i, s, f, , as the fraction of votes 
+
+ t 
+against management by funds affiliated with fund family 
+i on shareholder-sponsored proposal s of firm f at time t . 
+Specifically, 
+
+ oteAgainstMgmt  
+( i,s, f,t 
+
+∑ )
+N  F undV oteAgainstM
+
+= n =1 gmt  n,i,s, f,t 
+ 
+
+ , (1) 
+N 
+
+where FundVoteAgainstMgmt n, i, s, f, t is a dummy variable 
+ 
+
+that equals one if fund n from family i votes against man- 
+agement recommendation on proposal s at firm f ’s share- 
+holder meeting at time t , and N is the total number of 
+funds in family i voting 9
+
+ on that proposal.  
+
+ 
+
+We construct two measures of cross-ownership. The 
+first is an equal-weighted measure, HoldingPeersEW 
+
+ , which 
+
+i, f,t 
+is the sum of fund family i ’s fractional ownership in the 
+peers of firm f at the quarter-end immediately before the 
+shareholder meeting that occurs at time t . The second is 
+a value-weighted measure, HoldingPeersV W 
+
+ , which is the 
+i, f,t 
+
+sum of fractional ownership of fund family i in firm f ’s 
+peer firms, weighted by the peers’ market capitalization, at 
+the quarter-end immediately before the shareholder meet- 
+ing that occurs at time t . We discuss the conceptual frame- 
+work that motivates these two empirical measures in the 
+Appendix. 
+
+We use several alternative industry definitions to iden- 
+tify the set of peer firms that are likely to interact directly 
+with the focal firm. In our baseline tests, we follow Bizjak 
+et al. (2008) to define a firm’s peers as those that are in 
+
+the same two-digit Standard Industrial Classification (SIC) 
+industry and with similar size (i.e., sales revenue between 
+
+50% and 200% of that of the focal firm). Same-industry 
+firms with similar size are commonly used as peer firms 
+when setting executive compensation. For example, Bizjak 
+et al. (2008) show that “most peer groups appear to be 
+based on firms of similar size (usually based on revenues) 
+and in similar industries.” Thus, our peer-group definitions 
+8 For example, Iliev and Lowry (2015) show that in over 96% of 
+the cases, funds within a given family vote in the same direction on 
+governance-related proposals. Nevertheless, we obtain qualitatively simi- 
+lar results when we conduct the analysis at the fund level (see Table IA-2 
+of the Internet Appendix). 
+
+9 While a proposal is uniquely identified by s , we keep the subscripts f 
+(for each firm) and t (for each period) because, as will be described below, 
+we construct our cross-ownership measures at the firm-quarter level for 
+each institution. 
+are likely to capture extensive interfirm interactions rea- 
+sonably well.10 
+
+ 
+
+In our analysis of vote outcome at the proposal level, 
+we construct firm-level cross-ownership measures by 
+aggregating cross-holdings by individual institutions. 
+Specifically, we first calculate, for a given institutional 
+investor in a firm, the product of the fractional ownership 
+
+by the institution in the firm and the ownership by the 
+institution in peer firms. We then take the sum of these 
+products across all institutions holding shares in the firm 
+
+as our measure of aggregate cross-ownership at the firm 
+
+level. Specifically, the firm-level cross-ownership measure 
+for firm f at time t is defined as: 
+
+∑I 
+ 
+
+HoldingP eer s _ F ir m f,t = HoldingOw n 
+
+ i, f,t 
+
+i =1 
+
+× HoldingP eer s i, f,t , (2) 
+ 
+
+where HoldingOwn i, f, t is the fractional ownership of 
+ 
+
+fund family i in firm f at time t; HoldingPeers i, f, t is the 
+ 
+
+firm-fund family level cross-ownership measure; and I is 
+the total number of fund families holding shares in firm 
+
+f at time t . We construct two versions of the aggregate 
+cross-ownership measure corresponding to the equal- and 
+
+value-weighted versions of HoldingPeers . 
+Panel A of Table 1 reports the summary statistics. We 
+
+start with the sample of votes by fund families used in our 
+baseline ordinary least squares (OLS) tests of voting behav- 
+ior. The upper portion of the panel shows that the frac- 
+tion of votes against management, i.e., VoteAgainstMgmt , 
+has a mean of 0.581 and a standard deviation of 0.470. The 
+equal-weighted cross-ownership E
+
+ measure ( HoldingPeers W 
+
+ ) 
+has a mean 1
+
+ of 0.036 and a standard deviation of 0.116. 1 
+ 
+
+The corresponding numbers for HoldingPeersVW 
+
+ are 0.031 
+and 0.103, respectively. The average fractional ownership of 
+fund families in the focal firm ( HoldingOwn ) is 0.4%. 
+
+The lower portion of Panel A of Table 1 reports the 
+summary statistics at the proposal level for the sample 
+used in our analysis of vote outcome. MgmtLosesVote is a 
+dummy variable that equals one if the vote outcome is dif- 
+ferent from the management recommendation, and zero 
+otherwise. Management loses about 28.9% of the votes in 
+
+our sample. The firm-level equal-weighed cross-ownership 
+
+measure has a mean of 0.112 and a standard deviation 
+
+of 0.136. The numbers for the value-weighted measures 
+are 0.102 and 0.124, respectively. This panel also shows 
+the summary statistics for the control variables used in 
+
+the vote outcome regressions, including an indicator that 
+equals one if ISS and management recommendations are 
+the same ( ISSWithMgmt ), the total fractional ownership by 
+institutional investors in the firm ( InstOwn ), the natural 
+logarithm of one plus the number of blockholders in the 
+firm ( LnNumBlocks ), etc. 
+10 Moreover, prior studies on managerial labor markets highlight 
+industry-specific knowledge/experience ( Parrino, 1997; Cremers and Grin- 
+stein, 2014 ) and firm size ( Gabaix and Landier, 2008 ) as important con- 
+siderations in the matching between firms and managers. 
+
+11 Unless otherwise noted, the cross-ownership measures use two-digit 
+SIC codes to define industries. 
+
+
+
+J. He, J. Huang and S. Zhao / Journal of Financial Economics 134 (2019) 400–418 405 
+
+Table 1 
+Summary statistics. 
+This table presents the summary statistics for our sample of votes cast by fund families on shareholder-sponsored governance proposals from 2003 
+to 2012. We obtain mutual fund voting data from the ISS Voting Analytics database and the data on voting results from the ISS Voting Outcome 
+database. We merge the ISS voting data with Thomson Reuters Institutional Holdings (13F) database and identify 332 fund families in the voting 
+database that are 13F institutions. The upper portion of Panel A provides summary statistics at the proposal-fund family level for the sample used 
+in our baseline OLS tests of voting behavior. VoteAgainstMgmt is the fraction of votes against management cast by the funds affiliated with the fund 
+family. HoldingPeersEW 
+
+ is the sum of fractional ownership by the fund family in V
+ the peers of the focal firm as given in Eq. (A.1) . HoldingPeers W 
+
+ is 
+the market cap-weighted sum of fractional ownership by the fund family in the peers of the focal firm as given in Eq. (A.2) . HoldingOwn is the fund 
+family’s fractional ownership in the focal firm (in percentage terms). The lower portion of Panel A provides summary statistics at the proposal level for 
+the sample used in our analysis of vote outcome. MgmtLosesVote is a dummy variable that equals one if management loses a vote and zero otherwise. 
+HoldingPeer s _F ir W
+
+ mE  
+
+ and HoldingPeer V
+ s  
+
+ _ F ir m W
+  are firm-level cross-ownership measures as given in Eq. (2) . ISSWithMgmt is a dummy variable that 
+
+equals one if ISS and management recommendations are the same and zero otherwise. InstOwn is the fractional ownership by institutional investors 
+in the firm. LnNumBlocks is the natural logarithm of one plus the number of blockholders in the firm. The panel also provides summary statistics for 
+various firm characteristics, including the natural logarithm of book assets ( LnAssets ), return on assets ( ROA ), past stock returns ( StockReturn ), Tobin’s 
+Q ( TobinQ ), leverage ( Leverage ), capital expenditures over assets ( CapexAt ), cash flow over assets ( CashFlowAt ), and whether the firm is included in 
+the S&P 500 index ( SP 500), as well as CEO and board characteristics, including the natural logarithm of the age of the CEO ( LnCEOAge ), the natural 
+logarithm of CEO tenure ( LnCEOTenure ), the fraction of independent directors serving on the board ( PercentIndep ), the natural logarithm of one plus 
+the number of directors on the board ( LnBoardSize ), fractional ownership by the top five executives in the firm ( Top 5 ExecutiveOwn ), and CEO-chairman 
+duality ( Duality ). For expositional purposes, we multiple the cross-ownership variables by 100. Panel B provides summary statistics on the top ten 
+most frequent proposal types in our sample. For each proposal type, we report the number of proposals, the mean of VoteAgainstMgmt , and the mean 
+of MgmtLosesVote . The mean of VoteAgainstMgmt is calculated first by averaging VoteAgainstMgmt across fund families that vote on each proposal and 
+second by averaging these proposal-level averages across proposals within each proposal type category. 
+
+Panel A: Summary statistics for main variables and controls 
+
+Variable Mean P25 Median P75 S.D. N 
+
+Proposal-family level 
+VoteAgainstMgmt 0.581 0.0 0 0 1.0 0 0 1.0 0 0 0.470 169,533 
+HoldingPeersEW 
+
+ ( × 100) 3.621 0.0 0 0 0.033 1.335 11.554 169,533 
+HoldingPeersVW 
+
+ ( × 100) 3.093 0.0 0 0 0.020 1.032 10.263 169,533 
+HoldingOwn (in%) 0.406 0.0 0 0 0.006 0.188 1.241 169,533 
+
+Proposal level 
+MgmtLosesVote 0.289 0.0 0 0 0.0 0 0 1.0 0 0 0.454 2087 
+HoldingPeers_FirmEW 
+
+ ( × 100) 11.210 2.455 5.623 15.123 13.621 2087 
+HoldingPeers_FirmVW 
+
+ ( × 100) 10.195 2.204 5.378 13.675 12.359 2087 
+ISSWithMgmt 0.151 0.0 0 0 0.0 0 0 0.0 0 0 0.359 2087 
+LnAssets 9.973 8.871 9.971 10.786 1.636 2087 
+InstOwn 0.730 0.645 0.736 0.824 0.139 2087 
+LnNumBlocks 0.881 0.693 1.099 1.386 0.549 2087 
+ROA 0.127 0.079 0.123 0.177 0.075 2087 
+StockReturn 0.117 −0.070 0.106 0.278 0.342 2087 
+TobinQ 1.662 1.067 1.324 1.904 0.935 2087 
+Leverage 0.210 0.115 0.194 0.294 0.134 2087 
+CapexAt 0.046 0.016 0.036 0.064 0.046 2087 
+CashFlowAt 0.084 0.046 0.082 0.128 0.075 2087 
+SP500 0.766 1.0 0 0 1.0 0 0 1.0 0 0 0.424 2087 
+LnCEOAge 4.026 3.951 4.025 4.094 0.097 2087 
+LnCEOTenure 1.655 1.099 1.792 2.197 0.809 2087 
+PercentIndep 0.814 0.750 0.833 0.900 0.101 2087 
+LnBoardSize 2.468 2.398 2.485 2.565 0.171 2087 
+Top5ExecutiveOwn 0.012 0.001 0.002 0.007 0.034 2087 
+Duality 0.712 0.0 0 0 1.0 0 0 1.0 0 0 0.453 2087 
+
+Panel B: Top 10 most frequent proposal types 
+
+Rank Proposal # of proposals Mean (VoteAgainstMgmt) Mean (MgmtLosesVote) 
+
+1 Declassify the board of directors 380 0.786 0.661 
+2 Require a majority vote for the election of directors 322 0.666 0.394 
+3 Require independent board chairman 299 0.427 0.037 
+4 Advisory vote to ratify named executive officers’ compensation 249 0.639 0.153 
+5 Restore or provide for cumulative voting 186 0.507 0.027 
+6 Amend articles/bylaws/charter – call special meetings 178 0.688 0.382 
+7 Performance-based and/or time-based equity awards 120 0.463 0.083 
+8 Company specific-governance related 98 0.604 0.357 
+9 Submit shareholder rights plan (poison pill) to shareholder vote 96 0.722 0.573 
+10 Stock retention/holding period 86 0.463 0.0 0 0 
+
+
+
+406 J. He, J. Huang and S. Zhao / Journal of Financial Economics 134 (2019) 400–418 
+
+V
+
+14 To put this number in perspective, Dimmock et al. (2018) show that 
+a one-standard-deviation increase in the accrued capital gains in a stock 
+is associated with an increase of about 1.2 percentage points in the like- 
+Panel B of Table 1 provides summary statistics for the 
+top ten most frequent proposal types in our sample. For 
+each proposal type in our sample, we report the number 
+of proposals, the mean of VoteAgainstMgmt , and the mean 
+
+of MgmtLosesVote . For example, the most frequent type of 
+proposals in our sample is board declassification, on which 
+
+mutual fund families on average oppose management in 
+
+78.6% of the cases and management loses in 66.1% of the 
+cases. 
+
+4. Cross-ownership and voting behavior 
+
+4.1. Baseline results 
+
+We run OLS regressions to test the relation between 
+
+the tendency to vote against management and cross- 
+ownership.12 
+
+ The main regression takes the following 
+form, 
+
+ oteAgainstMgmt  i,s, f,t = α + δs + δ
+ i + β
+
+ 
+
+ 
+
+× HoldingP eer s i, f,t + ε, (3) 
+ 
+
+where VoteAgainstMgmt is the fraction of votes against 
+management at the fund-family level; δs is the proposal 
+
+ 
+
+fixed effects; δi is the fund-family fixed effects; Holding- 
+ 
+
+Peers is one of the two cross-ownership measures as of the 
+quarter-end immediately before the shareholder meeting. 
+We cluster standard errors at the fund-family level to ac- 
+count for possible correlation in errors within fund fami- 
+lies.13 
+
+ 
+
+Panel A of Table 2 presents the regression results. In 
+
+Columns 1 and 4, we use both proposal fixed effects and 
+
+fund-family fixed effects. With proposal fixed effects, the 
+identification comes from variations across fund families 
+with different cross-ownership for a given proposal. These 
+fixed effects control for any observed or unobserved het- 
+erogeneity across proposals (e.g., issues being voted upon 
+
+and recommendations by proxy advisors) as well as that 
+across firms at which the proposals are being voted on, 
+such as prior performance, ownership structure, gover- 
+nance quality, and stock liquidity (e.g., Back et al., 2018 ). 
+These fixed effects enable us to rule out differences in 
+
+proposals and time-varying firm attributes as potential ex- 
+planations for our results. Fund-family fixed effects control 
+for time-invariant fund-family level heterogeneity (e.g., 
+whether the fund family is an activist or passive indexer 
+and whether the family votes with or against management 
+in general). We find that the coefficient of HoldingPeers 
+is positive and significant at the 1% level, indicating that 
+fund families with greater cross-ownership are more likely 
+to vote against management at the focal firm. 
+
+The specifications in Columns 2 and 5 are more re- 
+strictive: In addition to proposal fixed effects, we include 
+12 Following Cvijanovi ́c et al. (2016) , we use OLS rather than limited 
+dependent variable models because OLS has the advantage of produc- 
+ing consistent estimates with a large number of fixed effects under less 
+restrictive assumptions ( Wooldridge, 2010 ) and yielding results that are 
+easier to interpret. 
+
+13 We note that clustering at the fund-family level produces more con- 
+servative standard errors than clustering at the fund family-year level, the 
+latter of which is used in previous studies on mutual fund voting behav- 
+ior (e.g., Cvijanovi ́c et al., 2016; Dimmock et al., 2018 ). 
+fund family × year fixed effects. With fund family × year 
+fixed effects, identification comes from variations in cross- 
+ownership across proposals within a fund family-year. An 
+
+advantage of this specification is that we are able to con- 
+trol for both time-invariant and time-varying fund-family 
+unobservable heterogeneity such as fund families’ gen- 
+eral governance preferences, funding liquidity, and invest- 
+ment skills. As with our previous specifications, we find 
+
+that cross-ownership in peers has a positive and signifi- 
+cant effect on the fund family’s tendency to vote against 
+management. 
+
+We present the most restrictive specifications 
+in Columns 3 and 6, which include fund fam- 
+ily × year × industry fixed effects in addition to proposal 
+fixed effects. Thus, identification in this specification 
+
+comes from variations in cross-ownership across proposals 
+within a fund family × year × industry triplet. Including 
+these fixed effects enables us to rule out alternative ex- 
+planations such as time-varying industry specialization of 
+fund families (e.g., fund families with large holdings in an 
+
+industry may be better positioned to monitor managers 
+in that industry). The coefficients of cross-ownership 
+
+continue to be positive and significant at the 1% level, 
+suggesting that our results are not driven by fund families 
+with industry-specific informational advantages and/or 
+governance expertise being more likely to discipline 
+management (as documented in Kang et al., 2018 ). In 
+
+terms of economic significance, Column 6 suggests that 
+a one-standard-deviation increase in the value-weighted 
+
+cross-ownership measure (0.103) is associated with an 
+
+increase of 2.4 percentage points in the fraction of votes 
+against the focal management by fund families, which is 
+nontrivial considering that the fraction of votes against 
+management has a standard deviation of 47.0 percentage 
+points.14 
+
+ 
+
+Panel B reports the results when we add HoldingOwn 
+as a control. The coefficients on our cross-ownership mea- 
+sures become slightly larger and continue to be highly sig- 
+nificant. Consistent with the findings in Iliev and Lowry 
+(2015), Cvijanovi ́c et al. (2016) , and Schwartz-Ziv and Wer- 
+mers (2017) , the coefficient of HoldingOwn is negative and 
+
+significant.15 
+ 
+
+Overall, our baseline results in Table 2 show that in- 
+stitutions with larger total equity holdings in the peers 
+of a focal firm are more likely to vote against manage- 
+ment on governance-related shareholder proposals at the 
+focal firm, consistent with the view that cross-holding 
+lihood that a fund votes against management. 
+15 There are at least three reasons why fund families with larger owner- 
+
+ship stakes in a focal firm may be less likely to vote against management 
+of the firm. First, institutional investors are likely to be attracted to firms 
+with effective and competent management and, as a result, tend to sup- 
+port management. Second, institutions that have business ties with a firm 
+
+may simultaneously hold large equity stakes in the firm and vote with 
+management ( Cvijanovi ́c et al., 2016 ). Third, large institutional sharehold- 
+ers may have access to alternative venues to exert influence, e.g., behind- 
+the-scenes negotiations with management, reducing the need to govern 
+through voting ( Schwartz-Ziv and Wermers, 2017 ). 
+
+
+
+J. He, J. Huang and S. Zhao / Journal of Financial Economics 134 (2019) 400–418 407 
+
+Table 2 
+Cross-ownership and voting behavior: Baseline results. 
+This table reports OLS regression analysis of the relation between the tendency to vote against management and cross-ownership. The dependent 
+variable is E
+
+ VoteAgainstMgmt , defined as the fraction of votes against management cast by the funds affiliated with the fund family. HoldingPeers W 
+ is 
+
+the sum of fractional ownership by the fund family in V
+ the peers of the focal firm as given in Eq. (A.1) . HoldingPeers W 
+
+ is the market cap-weighted sum 
+
+of fractional ownership by the fund family in the peers of the focal firm as given in Eq. (A.2) . HoldingOwn is the fund family’s fractional ownership 
+in the focal firm. The unit of observations in the regressions is a proposal-fund family. The numbers in parentheses are t -statistics based on standard 
+errors that are clustered ∗
+
+ at the fund-family level. ∗∗ , ∗∗ ∗
+  , and represent significance at the 1%, 5%, and 10% levels, respectively. 
+
+Panel A: Without additional controls 
+
+Dep. variable VoteAgainstMgmt 
+
+(1) (2) (3) (4) (5) (6) 
+
+HoldingPeersEW 0.119∗∗∗
+ 0.134∗∗∗
+
+ 0.203∗∗∗
+  
+
+(3.693) (3.640) (3.234) 
+HoldingPeersVW 0.128∗∗∗
+
+  0.148∗∗∗ 0.230∗∗∗
+  
+
+(4.204) (4.118) (3.871) 
+Proposal FEs Yes Yes Yes Yes Yes Yes 
+Fund family FEs Yes No No Yes No No 
+Fund family × Year FEs No Yes No No Yes No 
+Fund family × Year × Ind FEs No No Yes No No Yes 
+Observations 169,533 169,487 160,860 169,533 169,487 160,860 
+R -squared 0.497 0.548 0.628 0.497 0.548 0.628 
+
+Panel B: Controlling for HoldingOwn 
+
+Dep. variable VoteAgainstMgmt 
+
+(1) (2) (3) (4) (5) (6) 
+
+HoldingPeersEW 0.140∗∗∗
+ 0.145∗∗∗ 0.210∗∗∗
+
+   
+
+(4.281) (4.023) (3.475) 
+HoldingPeersVW 0.149∗∗∗
+
+  0.158∗∗∗
+ 0.235∗∗∗
+
+ 
+
+(4.832) (4.550) (4.096) 
+HoldingOwn −1.013∗∗∗ −0.896∗∗∗
+
+ −0.894∗∗∗
+  −0.982∗∗∗
+
+ −0.870∗∗∗
+ −0.862∗∗∗
+
+ 
+
+( −3.356) ( −3.480) ( −3.426) ( −3.252) ( −3.374) ( −3.251) 
+Proposal FEs Yes Yes Yes Yes Yes Yes 
+Fund family FEs Yes No No Yes No No 
+Fund family × Year FEs No Yes No No Yes No 
+Fund family × Year × Ind FEs No No Yes No No Yes 
+Observations 169,533 169,487 160,860 169,533 169,487 160,860 
+R -squared 0.497 0.548 0.628 0.497 0.548 0.628 
+
+  
+
+ 
+
+  
+
+  
+
+  
+
+  
+
+  
+
+ 
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+ 
+
+  
+
+  
+institutions have stronger incentives to internalize corpo-
+rate 1
+
+ governance externalities. 6 
+ 
+
+We conduct various robustness checks of the voting be-
+havior analysis and report the results in Table 3 . First, we
+focus on a sample of closely contested proposals, defined
+as those that pass or fail by a small margin, i.e., within
+±5 percentage points around the threshold. Contested pro-
+posals are associated with more uncertainty about the vote
+outcome, suggesting that the monitoring role of cross-
+holders is particularly important in such proposals. This re-
+quirement reduces our sample size to 29,231 votes. Panel
+A of Table 3 shows that the coefficients on the cross-
+ownership measures continue to be positive and highly
+significant despite the reduction in sample size. For ex-
+ample, the coefficient on HoldingPeers ranges from 0.125
+to 0.336, depending on the model specifications, which is
+similar to our baseline results in Table 2 . 
+
+Second, we expand the sample of proposals to include
+contentious management-sponsored governance proposals.
+ 
+
+ 
+
+16 We conduct an omitted variable bias test suggested by Oster (2018) . 
+The results, reported in Table IA-3 of the Internet Appendix, show that the 
+
+ 
+
+identified set safely excludes zero under reasonable assumptions, suggest- 
+ 
+
+ing that the likelihood that omitted variable bias drives our conclusions 
+is low.  
+
+ 
+
+We define contentious management-sponsored governance
+proposals as those that ISS recommends against (following
+Dimmock et al., 2018 ) because such proposals are likely
+associated with agency conflicts between managers and
+shareholders. We repeat our tests using the expanded sam-
+ple. The results, reported in Panel B of Table 3 , show that
+the coefficients on the cross-ownership measures continue
+to be significant and positive. 
+
+Third, we include different sets of fixed effects in
+our regression models and present the results in Panel
+C of Table 3 . In particular, we include firm × fund-
+family fixed effects in addition to proposal fixed effects
+in Columns 1 and 4. To further control for the time-
+varying attitudes of a given fund family towards differ-
+ent types of shareholder-sponsored proposals, we control
+for fund-family × year × proposal-type fixed effects (in ad-
+dition to proposal fixed effects) in Columns 2, 3, 5, and
+6, where proposal types are as defined in the ISS Vot-
+ing Analytics database (i.e., “ISSAgendaItemID”). Panel C of
+Table 3 shows that our results are robust to these changes
+in model specifications, which largely mitigates the con-
+cern for omitted variables at various levels. 
+
+Last, we repeat the baseline tests using cross-ownership
+measures based on alternative industry definitions, namely,
+three-digit SIC codes, four-digit SIC codes, and Fixed
+
+
+
+408 J. He, J. Huang and S. Zhao / Journal of Financial Economics 134 (2019) 400–418 
+
+Table 3 
+Cross-ownership and voting behavior: Robustness checks. 
+This table reports robustness checks of the results on the relation between the tendency to vote against management and cross-ownership. 
+The dependent variable is VoteAgainstMgmt , defined as the fraction of votes against management cast by the funds affiliated with the fund 
+family. HoldingPeersEW 
+
+ is V
+ the sum of fractional ownership by the fund family in the peers of the focal firm as given in Eq. (A.1) . HoldingPeers W 
+
+ 
+
+is the market cap-weighted sum of fractional ownership by the fund family in the peers of the focal firm as given in Eq. (A.2) . HoldingOwn 
+is the fund family’s fractional ownership in the focal firm. Panel A restricts the sample of proposals to closely contested ones, i.e., those that 
+pass or fail by a small margin, i.e., within ±5 percentage points around the threshold. Panel B expands the sample to include contentious 
+management-sponsored proposals. We define contentious management-sponsored proposals as those that ISS recommends against (following 
+Dimmock et al., 2018 ). Panel C uses alternative model specifications with different sets of fixed effects. Panel D uses cross-ownership measures 
+based on alternative industry definitions, including three-digit SIC codes, four-digit SIC codes, and the FIC-300 industries developed by Hoberg 
+and Phillips (2010, 2016 ). The numbers in parentheses are t -statistics based on standard errors that are clustered at the fund-family ∗
+
+ level. ∗∗
+ , 
+
+∗∗ , and ∗
+ represent significance at the 1%, 5%, and 10% levels, respectively. 
+
+Panel A: Contested proposals 
+
+Dep. variable VoteAgainstMgmt 
+
+(1) (2) (3) (4) (5) (6) 
+
+HoldingPeersEW 
+ 0.148∗∗
+
+ 0.125∗
+ 0.326∗∗∗
+
+ 
+
+(2.201) (1.776) (3.010) 
+HoldingPeersVW 
+
+ 0.161∗∗
+ 0.129∗∗
+
+ 0.336∗∗
+ 
+
+(2.009) (2.173) (2.494) 
+HoldingOwn −1.176∗
+
+ −1.149∗∗ ∗
+ −1.420∗
+
+ −1.158∗
+ −1.162∗∗ ∗∗
+
+ −1.385 
+( −1.854) ( −2.325) ( −2.400) ( −1.830) ( −2.349) ( −2.306) 
+
+Proposal FEs Yes Yes Yes Yes Yes Yes 
+Fund family FEs Yes No No Yes No No 
+Fund family × Year FEs No Yes No No Yes No 
+Fund family × Year × Ind FEs No No Yes No No Yes 
+Observations 29,182 29,003 21,639 29,182 29,003 21,639 
+R -squared 0.470 0.567 0.708 0.470 0.567 0.708 
+
+Panel B: Expanded sample that includes contentious management-sponsored proposals 
+
+Dep. variable VoteAgainstMgmt 
+
+(1) (2) (3) (4) (5) (6) 
+
+HoldingPeersEW 0.111∗∗∗
+ 0.117∗∗∗ ∗
+
+ 0.168 ∗∗
+  
+
+(3.458) (3.718) (3.524) 
+HoldingPeersVW 0.106∗∗∗
+
+  0.120∗∗∗ ∗
+ 0.169 ∗∗
+
+ 
+
+(3.732) (4.488) (3.850) 
+HoldingOwn −1.670∗∗∗ −1.595∗∗∗
+
+ −1.667∗∗∗
+ −1.628∗∗∗
+
+ −1.564∗∗∗
+  −1.625∗∗∗
+
+ 
+
+( −5.777) ( −6.714) ( −6.574) ( −5.589) ( −6.513) ( −6.319) 
+Proposal FEs Yes Yes Yes Yes Yes Yes 
+Fund family FEs Yes No No Yes No No 
+Fund family × Year FEs No Yes No No Yes No 
+Fund family × Year × Ind FEs No No Yes No No Yes 
+Observations 248,144 248,107 237,990 248,144 248,107 237,990 
+R -squared 0.455 0.506 0.584 0.455 0.506 0.584 
+
+Panel C: Alternative model specifications 
+
+Dep. variable VoteAgainstMgmt 
+
+(1) (2) (3) (4) (5) (6) 
+
+HoldingPeersEW 0.133∗
+ 0.036∗∗
+
+ 0.034∗∗
+  
+
+(1.899) (2.287) (2.518) 
+HoldingPeersVW 
+
+ 0.148∗∗
+ 0.038∗∗
+
+ 0.058∗∗
+ 
+
+(1.985) (2.297) (2.148) 
+HoldingOwn −1.178∗
+
+ −0.745∗∗∗ ∗
+ −0.813∗∗
+
+ −1.178∗
+ −0.739∗∗∗ ∗
+
+ −0.813∗∗
+ 
+
+( −1.887) ( −3.248) ( −4.831) ( −1.871) ( −3.234) ( −4.840) 
+Proposal FEs Yes Yes Yes Yes Yes Yes 
+Firm × Fund family FEs Yes No Yes Yes No Yes 
+Family × Year × Prop. Type FEs No Yes Yes No Yes Yes 
+Observations 147,193 162,532 139,164 147,193 162,532 139,164 
+R -squared 0.632 0.769 0.842 0.632 0.769 0.842 
+
+( continued on next page ) 
+
+
+
+J. He, J. Huang and S. Zhao / Journal of Financial Economics 134 (2019) 400–418 409 
+
+Table 3 ( continued ) 
+
+Panel D: Alternative industry definitions 
+
+Dep. variable VoteAgainstMgmt 
+
+SIC3 SIC4 FIC-300 
+
+(1) (2) (3) (4) (5) (6) 
+
+HoldingPeersEW 0.334∗∗∗
+  0.402∗∗∗
+
+ 0.337∗∗∗
+ 
+
+(3.061) (2.710) (3.061) 
+HoldingPeersVW 
+
+ 0.371∗∗∗ ∗∗ ∗
+ 0.433 ∗
+
+ 0.386∗∗
+ 
+
+(3.343) (2.992) (3.694) 
+HoldingOwn −0.886∗∗∗ −0.857∗∗∗
+
+ −1.001∗∗∗
+ −0.993∗∗∗ ∗ ∗
+
+  −0.766 ∗
+ −0.755∗∗∗
+
+ 
+
+( −3.405) ( −3.287) ( −3.626) ( −3.528) ( −2.827) ( −2.766) 
+Proposal FEs Yes Yes Yes Yes Yes Yes 
+Fund family × Year × Ind FEs Yes Yes Yes Yes Yes Yes 
+Observations 133,528 133,528 111,769 111,769 125,129 125,129 
+R -squared 0.659 0.659 0.670 0.670 0.655 0.655 
+
+ 
+
+ 
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+ 
+
+  
+
+ 
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+Industry Classification (FIC) 300 industries derived from
+10-K texts by Hoberg and Phillips (2010, 2016 ).17 
+
+ The re-
+sults, reported in Panel D of Table 3 , show that the gover-
+nance effects of cross-holding institutions that we identify
+are robust to these alternative cross-ownership measures.
+The economic magnitudes are nontrivial as well. For
+example, Column 6 shows that a one-standard-deviation
+increase in the value-weighted cross-ownership measure
+using FIC-300 industries (about 0.052) is associated with
+an increase of 2.2 percentage points in the fraction of
+votes against the focal management by fund families. 
+
+To strengthen our interpretation that institutions in-
+ternalize governance externalities that arise among peers,
+we conduct falsification tests by defining non-peers as
+firms that are not in the same industry as the focal firm.
+Specifically, for each industry in each year, we define an
+“unrelated” industry as the industry that is closest to the
+industry under consideration in terms of the number of
+firms. If there are multiple industries with the closest
+number of firms, we pick the industry with the closest
+average firm size (i.e., sales revenue). Non-peers are firms
+that are in the unrelated industry. Similar to HoldingPeers ,
+we construct an equal-weighted and a value-weighted
+version of HoldingNonPeers . We use four alternative in-
+dustry definitions, namely, two-digit SIC codes, three-digit
+SIC codes, four-digit SIC codes, and the FIC-300 industries.
+We repeat the baseline regressions in Table 2 by replacing
+HoldingPeers with HoldingNonPeers . The results, reported
+in Internet Appendix Table IA-1, show that the coefficient
+on HoldingNonPeers is insignificant and generally close to
+zero across all specifications. These findings lend further
+support to our argument that cross-ownership in peer
+firms influences voting decisions. 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+17 In untabulated analysis, we find that the results are robust to us- 
+ 
+
+ing Fama-French 48 industries and Text-based Network Industry Classi- 
+fication (TNIC) industries developed by Hoberg and Phillips (2010, 2016  
+
+ ). 
+Since TNIC industries are intransitive networks (i.e., the competitors of a 
+firm do not necessarily compete against each other), using TNIC industries 
+does not allow us to include fund-family × year × industry fixed effects in 
+the regressions. 
+4.2. Cross-sectional tests 
+
+As discussed above, a cross-holding institution can ben-
+efit from monitoring a portfolio firm in two ways. The first
+is a direct gain from the improvement in the governance of
+the focal firm. The second is an indirect gain from the gov-
+ernance improvement at the peer firms in the institution’s
+portfolio because of governance externalities, i.e., peer
+firms’ tendency to follow the governance choices of the
+focal firm. Since the second benefit of monitoring depends
+on the extent of governance externalities, a cross-holding
+institution may have stronger monitoring incentives when
+governance externalities are more pronounced. 
+
+According to theoretical models such as Acharya and
+Volpin (2010) and Dicks (2012) , corporate governance
+externalities could arise from firms competing for the
+same pool of managerial talents. Their models predict that
+the inefficiencies associated with governance externalities
+are stronger when the managerial labor market is more
+competitive in the sense that each individual manager
+possesses more and better outside options due to a higher
+demand for his or her talent. To better compete with
+peer firms in retaining and attracting talented managers,
+each firm in competitive managerial labor markets adopts
+poorer governance standards than what it would do in
+the absence of such competition. Since the indirect gain
+a cross-holding institution derives from monitoring a
+portfolio firm increases with the strength of governance
+externalities, which in this case is determined by the
+extent of labor market competition, we predict that the
+positive relation between cross-ownership and institutions’
+monitoring intensity should be more pronounced when
+the managers face more outside opportunities. 
+
+To examine this channel, we use two measures to
+capture managers’ outside options in the labor market.
+The first is the industry homogeneity index developed
+by Parrino (1997) , which is defined as the industry aver-
+age of the partial correlation coefficients between a firm’s
+stock returns and industry returns after controlling for
+market returns.18 
+
+ This measure has also been used by
+18 The industry homogeneity measure is calculated at the industry- 
+quarter level: following Kale et al. (2009) , we use a five-year rolling 
+
+
+
+410 J. He, J. Huang and S. Zhao / Journal of Financial Economics 134 (2019) 400–418 
+Gillan et al. (2009) and Kale et al. (2009) as a proxy for 
+managerial labor market competitiveness. An industry with 
+
+a higher value of the homogeneity index is likely to have 
+greater demand and thus enhanced competition for the 
+same pool of managerial talents, because the managers’ 
+industry-specific skills and knowledge can be more easily 
+transferable across firms in such an industry. The second 
+
+measure is the natural logarithm of one plus the number 
+of peer firms (again defined as those in the same indus- 
+try and with similar size as the focal firm). When there 
+are more peer firms that require similar managerial skills 
+to those possessed by the focal firm’s managers, the man- 
+agers are likely to face a larger labor market and thus have 
+access to more outside options ( Taylor, 2013; Gao et al., 
+2015 ). 
+
+Panel A of Table 4 presents the results using the 
+industry homogeneity index as a proxy for managers’ 
+outside opportunities. The specifications follow those in 
+
+Table 2 except that we add interaction terms between the 
+cross-ownership measures and the industry homogeneity 
+index. Note that the industry homogeneity index itself 
+is dropped from the models because it is fully absorbed 
+
+by the proposal fixed effects which control for all time- 
+varying firm and industry characteristics. We find that the 
+coefficients of the interaction terms are positive and sig- 
+nificant at the 1% level in all model specifications, which 
+
+is consistent with our prediction that the effect of cross- 
+ownership on the tendency to vote against management 
+is more pronounced for firms whose managers face more 
+outside options in the labor market. In Panel B of Table 4 , 
+we replace the industry homogeneity index with the log 
+of one plus the number of peer firms. The results again 
+
+suggest that the governance effect of cross-ownership in- 
+creases with managers’ outside opportunities.19 
+
+ 
+
+Overall, these results provide suggestive evidence that 
+institutional cross-owners help internalize governance ex- 
+ternalities arising from managerial labor market competi- 
+tion. It is worth pointing out that governance externalities 
+may arise through other channels such as directors’ repu- 
+tational concerns ( Levit 2
+
+ and Malenko, 2016 ) 0 
+ and product 
+window prior to the quarter of a firm’s shareholder meeting to estimate 
+the partial correlation coefficients between this firm’s stock returns and 
+its industry returns over the same window. In order to obtain a meaning- 
+ful estimate of the industry returns, we follow the literature to require an 
+industry to have at least 35 firms in our estimation window. Please see 
+Parrino (1997) for more details about the construction of the index. 
+
+19 Fig. IA-2 of the Internet Appendix plots the total marginal effect of 
+HoldingPeers on VoteAgainstMgmt conditional on different levels of the in- 
+dustry homogeneity index and the number of peer firms. 
+
+20 In the model of Levit and Malenko (2016) , directors’ reputational con- 
+cerns (i.e., their desires to be invited to other boards) generate corporate 
+governance spillovers across firms. Their model shows that there can be 
+two types of governance equilibria depending on the aggregate quality of 
+corporate governance. In the weak-governance equilibrium (i.e., when the 
+aggregate quality of governance is low), the decision of whom to invite to 
+serve on the board is controlled by managers, which may induce directors 
+to pursue management-friendly policies in the hope of obtaining board 
+seats at other companies. The opposite is true in the strong-governance 
+equilibrium. Hence, their model indicates that if monitoring by institu- 
+tional investors and that by the board are substitutes (complements), the 
+monitoring incentive of cross-owners should be stronger (weaker) in the 
+weak-governance equilibrium, and vice versa in the strong-governance 
+equilibrium. Therefore, the sign of the effect of cross-ownership 
+market competition (e.g., Schmidt, 1997 ).21 
+ We do not test 
+
+these alternative channels because the theories do not pro- 
+vide unambiguous predictions in our empirical setting. 
+
+4.3. Identification using financial institution mergers 
+
+While the granular nature of our voting data enables 
+us to include a large set of fixed effects to rule out alter- 
+native interpretations based on proposal- or firm-specific 
+factors, time-varying characteristics of fund families, and 
+
+time-invariant factors that are specific to institution-firm 
+
+pairs, it remains possible that omitted variables, e.g., time- 
+varying factors that are specific to pairs of institutions and 
+
+firms, drive both cross-ownership and voting decisions. 
+One possibility is that a fund family’s decision to invest in 
+
+a focal firm’s peers is influenced by the focal firm’s gov- 
+ernance quality. That is, when the focal firm has worse 
+governance than its peers, the fund family may shift its 
+holdings more towards the peer firms and at the same 
+time vote against management at the focal firm. This might 
+explain the observed positive relation between holdings 
+in peer firms and voting against focal firm management. 
+To address such endogeneity concerns, we follow the re- 
+cent literature (e.g., He and Huang, 2017 ) to use finan- 
+cial institution mergers as plausibly exogenous shocks to 
+cross-ownership. 
+
+As argued by Huang (2016) and He and Huang (2017) , 
+financial institutions typically merge for reasons unrelated 
+
+to the performance and characteristics of individual firms 
+in their portfolios. Hence, these mergers are plausibly ex- 
+ogenous to the governance practices of individual firms 
+in the merging institutions’ portfolios and thus provide a 
+nice quasi-experimental setting for analyzing the causal ef- 
+fect of cross-ownership on institutional monitoring. When 
+
+two institutions merge, the portfolio of the target insti- 
+tution typically gets absorbed by the acquirer after the 
+completion of the deal. Therefore, the acquirer institu- 
+tion is likely to experience an increase in the holdings 
+of peer firms simply because the target institution holds 
+these peer firms before the merger. We expect that a 
+larger increase in cross-ownership induced by the merger 
+leads to a higher likelihood that the acquirer institution 
+
+votes against management after the merger than before 
+the merger. 
+on monitoring is indeterminate, depending on whether the strong- 
+governance equilibrium or the weak-governance equilibrium prevails and 
+whether shareholder monitoring and board monitoring are substitutes or 
+complements. 
+
+21 Governance improvements at a focal firm may intensify product mar- 
+ket competition and increase the incentives of managers at peer firms, 
+which provides cross-owners an increased incentive to exert monitoring 
+efforts  at the focal firm. However, as Schmidt (1997) argues, an increase in 
+product market competition can have both a positive effect (through in- 
+creased liquidation probabilities) and a negative effect (through reduced 
+profits and thus reduced rents for managers) on managerial incentives. 
+Thus, whether increased product market competition induced by a fo- 
+cal firm’s governance improvement leads to greater managerial effort at 
+peer firms depends on whether the positive or the negative effects dom- 
+inate. Our results are consistent with the net effect being generally pos- 
+itive. However, lacking a compelling theoretical rationale for how the ef- 
+fect should vary in the cross-section of firms, we do not test the cross- 
+sectional implications of this channel. 
+
+
+
+J. He, J. Huang and S. Zhao / Journal of Financial Economics 134 (2019) 400–418 411 
+
+Table 4 
+Cross-ownership and voting behavior: Cross-sectional tests. 
+This table reports OLS regression analysis of the effect of managerial labor market competition on the relation between the tendency to vote against 
+management and cross-ownership. The dependent variable is VoteAgainstMgmt , defined as the fraction of votes against management cast by the funds 
+affiliated with the fund family. E
+
+ HoldingPeers W 
+ is the sum of fractional ownership by the fund family in the peers of the focal firm as given in Eq. (A.1) . 
+
+HoldingPeersVW 
+ is the market cap-weighted sum of fractional ownership by the fund family in the peers of the focal firm as given in Eq. (A.2) . Holdin- 
+
+gOwn is the fund family’s fractional ownership in the focal firm. We use two proxies for managerial labor market competition: Homo is the industry 
+homogeneity index of Parrino (1997) , and LnNumPeers is the natural logarithm of one plus the number of peer firms. The numbers in parentheses 
+are t -statistics based on standard errors that are clustered at the fund-family level. ∗∗∗ , ∗∗ ∗
+
+  , and represent significance at the 1%, 5%, and 10% levels, 
+respectively. 
+
+Panel A: Industry homogeneity index as a proxy for managerial labor market competition 
+
+Dep. variable VoteAgainstMgmt 
+
+(1) (2) (3) (4) (5) (6) 
+
+HoldingPeersEW 
+ × Homo ∗
+
+ 0.566∗ ∗
+ 0.357∗∗∗ 0.539∗∗∗
+
+  
+
+(3.399) (3.235) (3.451) 
+HoldingPeersEW 
+
+ −0.023 0.035 0.048 
+( −0.754) (1.353) (1.385) 
+
+HoldingPeersVW × Homo ∗
+ 0.544∗ ∗
+
+ 0.401∗∗∗
+ 0.540∗∗∗
+
+  
+
+(3.044) (4.140) (3.215) 
+HoldingPeersVW 
+
+ −0.006 −0.002 0.060 
+( −0.234) ( −0.096) (1.479) 
+
+HoldingOwn −1.068∗∗∗ −0.870∗∗∗
+  −0.766∗∗∗
+
+ −1.035∗∗∗ ∗∗
+ −0.833 ∗ ∗
+
+ −0.732 ∗
+ 
+
+( −3.406) ( −3.522) ( −2.607) ( −3.283) ( −3.374) ( −2.468) 
+Proposal FEs Yes Yes Yes Yes Yes Yes 
+Fund family FEs Yes No No Yes No No 
+Fund family × Year FEs No Yes No No Yes No 
+Fund family × Year × Ind FEs No No Yes No No Yes 
+Observations 88,471 88,423 83,838 88,471 88,423 83,838 
+R -squared 0.487 0.542 0.638 0.487 0.542 0.638 
+
+Panel B: Number of peers as a proxy for managerial labor market competition 
+
+Dep. variable VoteAgainstMgmt 
+
+(1) (2) (3) (4) (5) (6) 
+
+HoldingPeersEW × Ln NumPeers 0.046∗∗
+ 0.039∗∗ ∗∗
+
+  0.044 
+(2.504) (2.492) (2.493) 
+
+HoldingPeersEW 
+ −0.022 0.004 0.033 
+
+( −0.532) (0.104) (0.641) 
+HoldingPeersVW × Ln NumPeers 0.049∗∗
+
+  0.046∗∗ ∗∗
+ 0.059 
+
+(2.503) (2.474) (2.505) 
+HoldingPeersVW 
+
+ −0.020 −0.005 0.012 
+( −0.487) ( −0.109) (0.185) 
+
+HoldingOwn −0.963∗∗∗ −0.875∗∗∗ ∗
+  −0.908∗∗∗
+
+ −0.943∗∗∗ ∗∗
+ −0.852 ∗
+
+ −0.881 ∗∗
+ 
+
+( −3.219) ( −3.480) ( −3.460) ( −3.141) ( −3.361) ( −3.274) 
+Proposal FEs Yes Yes Yes Yes Yes Yes 
+Fund family FEs Yes No No Yes No No 
+Fund family × Year FEs No Yes No No Yes No 
+Fund family × Year × Ind FEs No No Yes No No Yes 
+Observations 169,533 169,487 160,860 169,533 169,487 160,860 
+R -squared 0.497 0.548 0.628 0.497 0.548 0.628 
+
+ 
+
+ 
+
+V
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+22 Since our institution merger setting is similar to that of brokerage 
+mergers, we follow prior studies in that literature to use a DiD approach 
+
+ 
+
+(e.g., Hong and Kacperczyk, 2010; Asker and Ljungqvist, 2010; Kelly and 
+ 
+
+Ljungqvist, 2012 ). We obtain identical inferences when using an instru- 
+ 
+
+We follow the procedure in He and Huang (2017) to
+construct our financial institution merger sample using the
+Mergers and Acquisitions database provided by Securities
+Data Corporation (SDC). We require that: (1) the merger
+is between two 13F institutions (or their parent firms) in
+the financial sector (with primary SIC codes in the 60 0 0
+to 6999 range) and announced during the period between
+2004 and 2011; (2) the merger is completed within one
+year after the initial announcement; and (3) the target in-
+stitution stops filing 13F forms within one year after the
+completion of the deal. 
+
+We perform a difference-in-differences (DiD) analysis of
+the effect of cross-ownership on the acquiring institution’s
+tendency to vote against the management of its portfolio
+firms.22 
+ Specifically, we run the following DiD regression, 
+
+ oteAgainstMgmt  m,s, f,t 
+
+= α + δs + δ
+ m + γ1 × T argetHoldingP eer s 
+
+ m, f × P ost  m,t 
+ 
+
+ 
+
++ γ2 × T argetHoldingP eer s m, f + γ3P ost  m,t + ε, (4)
+ 
+
+  
+
+ 
+
+where VoteAgainstMgmt m, is the fraction of votes
+ s, f, t 
+
+against management cast by funds affiliated with the
+acquiring fund family of merger m on proposal s at
+mental variable approach (see Table IA-6 of the Internet Appendix). 
+
+
+
+412 J. He, J. Huang and S. Zhao / Journal of Financial Economics 134 (2019) 400–418 
+firm f ’s annual shareholder meeting at time t; δs is 
+ 
+
+the proposal fixed effect; δm is the merger fixed effect; 
+ 
+
+TargetHoldingPeers m, is the holdings by the target fund 
+
+ f 
+family of merger m in the peers of firm f , as described 
+
+in Eqs. (A.1) and (A.2) , in the quarter immediately before 
+the merger announcement 2
+
+ date; 3 
+ and Post m, s
+
+ t i  an indi- 
+ 
+
+cator variable that equals one if the meeting is in the one- 
+year period after the effective date of merger m , and zero 
+if it is in the one-year period before the announcement of 
+the merger. Similar to our baseline OLS analysis, in some 
+model specifications we control for HoldingOwn , the ac- 
+quiring fund family’s fractional ownership in the focal firm. 
+We include proposal fixed effects and merger fixed ef- 
+fects in all of our specifications, and add fund family × year 
+fixed effects in some specifications. We cluster standard er- 
+rors by merger to account for possible correlation in errors 
+within a merger. 
+
+A higher value of TargetHoldingPeers indicates a higher 
+exposure to the treatment, because the focal firm is likely 
+to experience a greater increase in cross-ownership by the 
+acquiring institution around the merger event. It is impor- 
+tant to note that we define the treatment variable based 
+
+solely on target holdings prior to the announcement of the 
+merger, as opposed to actual holdings of the acquirer af- 
+ter the completion of the merger, the latter of which likely 
+reflect active portfolio decisions of the acquirer. Our treat- 
+ment effect is captured by the estimated coefficient before 
+the interaction term between TargetHoldingPeers and Post . 
+If cross-ownership induced by financial institution merg- 
+ers increases the tendency to vote against management, we 
+expect the coefficient, i.e., γ 1, to be positive and signifi- 
+
+ 
+
+cant. 
+Panel A of Table 5 reports the results. The estimated 
+
+coefficient before TargetHoldingPeers × Post is significantly 
+positive in all model specifications, suggesting that a 
+greater increase in cross-ownership induced by the merger 
+makes the acquiring institution more likely to vote against 
+management. In terms of economic significance, the coef- 
+ficient of 0.312 in Column 4 indicates that a one-standard- 
+deviation increase in the target institution’s holdings of 
+peer firms before the merger (i.e., 0.043) leads to an in- 
+crease of 1.35 percentage points ( = 0.312∗
+
+ 0.043) in the ac- 
+quirer institution’s tendency to vote against the focal firm’s 
+management after the merger than before the merger.24 
+
+ 
+
+23 TargetHoldingPeers does not have a time subscript because it is based 
+on the target fund family’s pre-merger holdings, which are plausibly ex- 
+ogenous to the post-merger voting behavior of the acquirer fund family. 
+
+24 We conduct two additional tests to strengthen the interpretation of 
+our results. First, we check pre-trends using data before the mergers. 
+We assume that the mergers occur 12 or 24 months prior to the actual 
+merger dates and repeat our difference-in-differences tests. The results, 
+reported in Table IA-4, show that the coefficient on HoldingPeers × Post is 
+insignificant and small in magnitude across all specifications, suggesting 
+that the parallel trends assumption is likely to hold in our setting. Second, 
+as a placebo test, we examine whether non-merging institutions, i.e., in- 
+stitutions that are not involved in the mergers but vote on the same pro- 
+posals as the acquirer institutions do, change their voting behavior around 
+the mergers. The results, reported in Table IA-5, show that the coefficient 
+on HoldingPeers × Post is insignificant and close to zero across all speci- 
+fications, suggesting that the observed change in the voting behavior of 
+acquiring fund families is not driven by common shocks that influence 
+the voting behavior of mutual fund families in general. 
+The premise of our quasi-natural experiment is that 
+firms whose peer firms are more heavily held by the target 
+institution before the merger should receive more intense 
+treatment (i.e., the acquirer institution should experience a 
+larger increase in its holdings in these peers after the com- 
+pletion of the merger). To test this, we run the following 
+DiD regression at the stock level, 
+
+Acquirer HoldingP eer s m, f,t 
+
+= α + ϕ 1 × T argetHoldingP eer s m, f × P ost  m,t 
+ 
+
+ 
+
++ ϕ 2 × T argetHoldingP eer s m, f + ϕ 
+
+ 3P ost  m,t + ε, (5) 
+ 
+
+ 
+
+ 
+
+where AcquirerHoldingPeers m, is the holdings by the ac- 
+ f, t 
+
+quirer fund family of merger m in the peers of firm f at 
+time t (either the quarter immediately before the merger 
+announcement date or the quarter immediately after the 
+merger effective date); TargetHoldingPeers m, is the hold- 
+
+ f 
+ings by the target fund family of merger m in the peers 
+of firm f in the quarter immediately before the merger an- 
+nouncement date; and Post m, is an indicator variable that 
+
+ t 
+
+equals one if the observation is in the quarter immedi- 
+ately after merger m ’s effective date, and zero if it is in 
+
+the quarter immediately before the merger announcement 
+date. We again cluster standard errors by merger. If the 
+merging fund families passively hold the peer stocks dur- 
+ing the period from the quarter before merger announce- 
+ment to the quarter following the merger completion, the 
+coefficient on the interaction term, ϕ1, should be one. 
+
+ 
+
+Panel B of Table 5 reports the results. We use the 
+same set of firms as in Panel A (i.e., we require the firm 
+
+to have shareholder-sponsored governance proposals voted 
+
+on by the acquirer fund family during the one-year pe- 
+riod before or after the merger). As we can see, the esti- 
+mated coefficients before TargetHoldingPeers∗
+
+ Post are pos- 
+itive and significant at the 1% or 5% level in all columns, 
+suggesting that firms with higher TargetHoldingPeers are 
+indeed more intensely treated (i.e., experience a greater 
+increase in cross-ownership by the acquiring fund fam- 
+ily) due to the plausibly exogenous shock of financial in- 
+stitution mergers. The coefficient estimates of the inter- 
+action term suggest that a one-percentage-point increase 
+in the cross-ownership by the target institution before the 
+merger leads to an increase of 0.537 to 0.809 percentage 
+points in the acquirer fund family’s cross-ownership after 
+the merger. This result suggests that a major fraction of the 
+pre-merger cross-ownership by the target fund family is 
+retained by the acquirer fund family post-merger, provid- 
+ing support for the premise of our identification strategy. 
+
+Overall, the results using the setting of financial insti- 
+tution mergers show that an increase in cross-ownership 
+
+induced by financial institution mergers leads to a greater 
+likelihood that the acquirer institution votes against man- 
+agement. Since cross-ownership changes due to institution 
+
+mergers are plausibly exogenous to the voting behavior 
+of the institutions and the governance practices of indi- 
+vidual portfolio firms, this test allows us to get closer to 
+a causal interpretation of the positive relation between 
+
+cross-ownership and institutional monitoring. The findings 
+suggest that our main results are unlikely to be driven 
+
+by omitted time-varying characteristics of institution-firm 
+
+
+
+J. He, J. Huang and S. Zhao / Journal of Financial Economics 134 (2019) 400–418 413 
+
+Table 5 
+Difference-in-differences estimation based on financial institution mergers. 
+This table reports difference-in-differences (DiD) analysis of the effect of institutional cross-ownership on the tendency to vote against man- 
+agement in the setting of financial institution mergers. For financial institution mergers that take place between 2004 and 2011, we examine 
+the acquiring fund family’s tendency to vote against management for its portfolio firms during the one-year period before the merger an- 
+nouncement date and the one-year period after the merger effective date. In Panel A, the dependent variable is VoteAgainstMgmt , defined as 
+the fraction of votes against management cast by the funds affiliated with the acquiring fund family. E
+
+ TargetHoldingPeers W 
+ is the sum of frac- 
+
+tional ownership by the target fund family in the peer firms of a focal firm in the quarter immediately before the merger announcement date. 
+TargetHoldingPeersVW 
+
+ is the market cap-weighted sum of fractional ownership by the target fund family in the peer firms of a focal firm in the 
+quarter immediately before the merger announcement date. Post is a dummy variable to indicate the period after the merger effective date. 
+HoldingOwn is the acquiring fund family’s fractional ownership in E
+
+ the focal firm. In Panel B, the dependent variable is AcquirerHoldingPeers W 
+ 
+
+( AcquirerHoldingPeersVW 
+ ), which is the sum of fractional ownership (the market cap-weighted sum of fractional ownership) by the acquiring 
+
+fund family in the peer firms of a focal firm in the quarter immediately before the merger announcement date or the quarter immediately 
+after the merger effective date. To be included in the sample, we require the firm to have shareholder-sponsored governance proposals voted 
+on by the acquirer institution during the one-year period before or after the merger. The numbers in parentheses are t -statistics based on 
+standard errors that are clustered at ∗
+
+ the merger level. ∗∗ , ∗∗ ∗
+  , and represent significance at the 1%, 5%, and 10% levels, respectively. 
+
+Panel A: DiD results on voting 
+
+Dep. variable VoteAgainstMgmt 
+
+(1) (2) (3) (4) 
+
+TargetHoldingPeersEW 
+ × Post ∗
+
+ 0.554∗
+ 0.500∗∗
+
+ 
+
+(2.308) (2.326) 
+TargetHoldingPeersEW 
+
+ −0.116 −0.128 
+( −1.299) ( −1.372) 
+
+TargetHoldingPeersVW × Post ∗
+ 0.488∗ ∗
+
+ 0.312∗∗∗
+  
+
+(2.932) (3.023) 
+TargetHoldingPeersVW 
+
+ −0.172 0.022 
+( −0.641) (0.879) 
+
+Post ∗
+ 0.225 ∗
+
+ 0.024 ∗
+ 0.225 ∗
+
+ 0.026 
+(2.382) (0.675) (2.380) (0.740) 
+
+HoldingOwn −0.095 −0.046 −0.099 −0.074 
+( −0.146) ( −0.072) ( −0.158) ( −0.118) 
+
+Proposal FEs Yes Yes Yes Yes 
+Merger FEs Yes Yes Yes Yes 
+Fund-family × Year FEs No Yes No Yes 
+Observations 4997 4995 4997 4995 
+R -squared 0.691 0.706 0.692 0.706 
+
+Panel B: DiD results on cross-ownership 
+
+Dep. variable AcquirerHoldingPeersEW 
+ AcquirerHoldingPeersVW 
+
+ 
+
+(1) (2) (3) (4) 
+
+TargetHoldingPeersEW × Post ∗
+  0.809∗
+
+ 0.639∗∗∗
+ 
+
+(2.339) (3.563) 
+TargetHoldingPeersEW 
+
+ 0.466 
+(0.769) 
+
+TargetHoldingPeersVW × Post ∗
+ 0.607∗ ∗
+
+ 0.537∗∗∗
+  
+
+(3.112) (3.189) 
+TargetHoldingPeersVW 
+
+ −0.419 
+( −0.641) 
+
+Post −0.002 −0.003 −0.008 −0.003 
+( −0.211) ( −0.679) ( −1.115) ( −0.779) 
+
+Firm FEs Yes No Yes No 
+Merger FEs Yes No Yes No 
+Firm × Merger FEs No Yes No Yes 
+Observations 2766 1290 2766 1290 
+R -squared 0.729 0.994 0.733 0.995 
+
+  
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+pairs that influence both cross-ownership and institutions’
+voting behavior. 
+
+5. Vote outcomes and stock return tests 
+
+5.1. Aggregate cross-ownership and vote outcomes 
+
+While our results so far suggest that cross-ownership
+increases the likelihood of voting against management at
+the institution (i.e., fund family) level, it remains an open
+question whether cross-holding institutions have aggre-
+gate effects on actual vote outcomes, which might lead
+to changes in corporate governance policies. To exam-
+ine the relation between vote outcomes and aggregate
+cross-ownership, we regress the outcome of a shareholder-
+sponsored governance proposal, i.e., whether management
+loses a vote, on our firm-level cross-ownership measures
+and control variables. Following previous literature (e.g.,
+Dimmock et al., 2018 ), we control for various firm char-
+acteristics including firm size, operating performance, past
+
+
+
+414 J. He, J. Huang and S. Zhao / Journal of Financial Economics 134 (2019) 400–418 
+
+25 Compared to the global polynomial method of regression discontinu- 
+ity used in some previous literature, the local linear estimation model has 
+better local fitness ( Bakke and Whited, 2012 ), more attractive rate opti- 
+mality, and superior bias properties ( Fan and Gijbels, 1992; Hahn et al., 
+2001 ). 
+
+26 Our results are robust to alternative kernels (such as a rectangular 
+kernel) and alternative bandwidths (such as those between 50% and 150% 
+of the optimal bandwidth). 
+
+27 Consistent with the presence of governance externalities, we find that 
+the correlation in the cumulative abnormal returns (CARs) between the 
+focal firm and peer firms around close votes is positive and significant. 
+For example, the correlation is 0.256 (0.351) and significant at the 1% 
+level when using the one- (three-)day CAPM-adjusted returns. This re- 
+sult suggests that shocks to the governance structure of a focal firm are 
+transmitted to peer firms. 
+stock returns, Tobin’s Q, leverage, capital expenditures, 
+cash flows, institutional ownership, number of blockhold- 
+ers, Standard and Poor’s (S&P) 500 membership, as well as 
+managerial and board characteristics such as the age and 
+
+tenure of the CEO, board size and independence, executive 
+ownership, and an indicator for CEO-chairman duality. We 
+also control for whether the recommendations of ISS and 
+
+those of the management on the proposal are the same ( IS- 
+SWithMgmt ). Further, we include different sets of fixed ef- 
+fects, including firm fixed effects, year fixed effects, indus- 
+try fixed effects, and industry-year fixed effects. We cluster 
+standard errors by firm in this analysis. 
+
+To show a robust relation between firm-level cross- 
+ownership and vote outcome, we progressively saturate 
+the specification with firm fixed effects and industry × year 
+fixed effects. The results, presented in Table 6 , show that 
+institutional cross-ownership positively predicts that man- 
+agement loses to shareholders in proxy votes on gover- 
+nance proposals. The economic magnitude is large as well. 
+For example, Column 6, our most stringent model speci- 
+fication (with both firm and industry × year fixed effects), 
+shows that a one-standard-deviation increase in the value- 
+weighted firm-level cross-ownership measure (i.e., 0.124) 
+is associated with an increase of 12.8 percentage points 
+( = 1.034∗
+
+ 0.124) in the likelihood that management loses 
+a vote, which is large considering that the unconditional 
+probability of management losing a proxy vote has a mean 
+
+of 27.3% and a standard deviation of 45.4%. 
+Consistent with prior studies (e.g., Bethel and Gillan, 
+
+2002; Malenko and Shen, 2016 ), management is less likely 
+to lose a vote when management recommendations are 
+aligned with ISS recommendations. For example, Column 
+
+6 shows that the likelihood of management losing a vote 
+is 29.9 percentage points lower when ISS and manage- 
+ment recommendations are the same than when they are 
+different. 
+
+Overall, the above results provide suggestive evidence 
+that the voting behavior we observe at the institution 
+
+level has aggregate effects on vote outcomes, which in 
+
+turn might lead to changes in corporate governance ( Cuñat 
+et al., 2012 ). 
+
+5.2. Stock returns around close-call votes 
+
+To strengthen the interpretation that corporate gover- 
+nance externalities are a mechanism for the above ob- 
+served voting behavior by cross-holding institutional in- 
+vestors, we examine stock price reactions of peer firms 
+when the focal firm is likely to experience plausibly ex- 
+ogenous changes in corporate governance. For identifica- 
+tion, we use a regression discontinuity design built around 
+
+close-call votes on shareholder-sponsored governance pro- 
+posals. As Cuñat et al. (2012) point out, the result of a 
+close-call vote around the majority threshold is akin to a 
+random outcome, which enables us to identify corporate 
+governance externalities through stock market reactions. 
+We expect that, relative to the peers of a focal firm that 
+experiences a narrowly failed shareholder proposal, the 
+peers of a focal firm that experiences a narrowly passed 
+
+shareholder proposal (which tends to lead to improved 
+corporate governance) should experience more positive an- 
+nouncement returns around the close-call vote event. 
+
+To test the effect of close votes on peer stock re- 
+turns, we implement a nonparametric local linear estima- 
+tion in the vicinity of the passing threshold using the op- 
+timal bandwidth suggested by Imbens and Kalyanaraman 
+
+(2012) that minimizes the mean squared error in a sharp 
+
+regression discontinuity 2
+ setting. 5 
+
+ In particular, we conduct 
+nonparametric local linear regression analysis of cumula- 
+tive abnormal stock returns of peer firms around close-call 
+vote events at focal firms using a triangular kernel.26 
+
+ We 
+focus on shareholder-sponsored governance proposals that 
+pass or fail by a small margin (i.e., within ±5 percentage 
+points around the passing threshold). Since it may take 
+some time for peer firms’ stock prices to fully incorporate 
+the information on shocks to the focal firm’s governance, 
+we consider a one-day event window (day 0, i.e., the day 
+of the meeting) as well as a three-day window (day 0 to 
++ 2). We use both the capital asset pricing model (CAPM) 
+and the Fama-French-Carhart four-factor model to calculate 
+abnormal returns, and cluster standard errors by close-vote 
+event. 
+
+The results, reported in Panel A of Table 7 , show that 
+peer firms’ stock prices react positively to the passage of 
+close-call votes on shareholder-sponsored governance pro- 
+posals at focal firms. The economic magnitude is nontrivial. 
+For example, the last two columns show that the peers of 
+focal firms that narrowly pass a vote outperform those of 
+focal firms that narrowly fail a vote by 1.1 to 1.5 percent- 
+age points over a three-day window. These results suggest 
+that shocks to the governance practices of the focal firm 
+
+can impose externalities on peer firms and that the mar- 
+ket price rationally reflects such externalities.27 
+
+ 
+
+If institutional cross-owners play an active role in in- 
+ternalizing governance externalities and the market recog- 
+nizes such a role, an improvement in a focal firm’s gov- 
+ernance should be associated with large increases in the 
+market value of the firm’s peers when the peers and the 
+focal firm share strong ownership ties through institutional 
+cross-owners. In other words, the positive stock price re- 
+actions by peer firms to the passage of a shareholder- 
+sponsored governance proposal at the focal firm should 
+
+be particularly pronounced when the peers and the fo- 
+cal firm are highly interconnected through cross-holding 
+institutions. 
+
+To test this conjecture, we measure the strength of 
+ownership ties between two firms in a pair (consisting of 
+
+
+
+J. He, J. Huang and S. Zhao / Journal of Financial Economics 134 (2019) 400–418 415 
+
+Table 6 
+Aggregate cross-ownership at the firm level and vote outcomes. 
+This table reports regression analysis of the relation between the probability that management loses to shareholders in a proxy vote and aggregate 
+cross-ownership at the firm level. The dependent variable is MgmtLosesVote , defined as a dummy variable that equals one if management loses a vote 
+and zero otherwise. HoldingPeer s _F ir W
+
+ mE  
+
+  and HoldingPeer s _ F V  
+
+ ir W
+ m are firm-level cross-ownership as given in Eq. (2) . All other variables are defined in 
+
+Table 1 . The numbers in parentheses are t -statistics ∗
+ based on standard errors that are clustered by firm. ∗∗
+
+ , ∗∗ ∗
+ , and represent significance at the 1%, 
+
+5%, and 10% levels, respectively. 
+
+Dep. variable MgmtLosesVote 
+
+(1) (2) (3) (4) (5) (6) 
+
+HoldingPeers_FirmEW 0.569∗∗∗
+ 0.633∗∗∗
+
+ 0.805∗∗∗
+  
+
+(4.303) (4.272) (2.959) 
+HoldingPeers_FirmVW 
+
+ 0.670∗∗∗ ∗
+ 0.735∗ ∗
+
+ 1.034∗∗∗
+ 
+
+(4.665) (4.539) (3.428) 
+ISSWithMgmt −0.328∗∗∗ −0.322∗∗∗
+
+  −0.299∗∗∗
+ −0.328∗∗∗ ∗∗ ∗
+
+ −0.323 ∗
+ −0.299 ∗∗
+
+ 
+
+( −12.589) ( −11.361) ( −10.187) ( −12.611) ( −11.371) ( −10.204) 
+LnAssets −0.045∗∗∗ −0.048∗∗∗
+
+  0.063 −0.044∗∗∗
+ −0.047∗∗∗
+
+ 0.065 
+( −3.243) ( −3.219) (0.977) ( −3.189) ( −3.175) (1.019) 
+
+InstOwn 0.246∗∗
+ 0.238∗
+
+ −0.027 0.246∗∗
+ 0.239∗
+
+ −0.030 
+(2.096) (1.871) ( −0.123) (2.099) (1.872) ( −0.139) 
+
+LnNumBlocks 0.009 −0.014 0.033 0.009 −0.015 0.031 
+(0.349) ( −0.451) (1.034) (0.317) ( −0.485) (0.968) 
+
+ROA −0.193 −0.117 1.072∗∗
+ −0.191 −0.115 1.095∗∗
+
+ 
+
+( −0.525) ( −0.251) (2.259) ( −0.523) ( −0.249) (2.302) 
+StockReturn −0.032 −0.056 −0.029 −0.032 −0.057 −0.028 
+
+( −1.038) ( −1.389) ( −0.953) ( −1.057) ( −1.412) ( −0.923) 
+TobinQ −0.045∗∗
+
+ −0.041∗
+ −0.039 −0.046∗∗∗
+
+ −0.041∗
+ −0.039 
+
+( −2.543) ( −1.747) ( −1.168) ( −2.603) ( −1.782) ( −1.165) 
+Leverage −0.194∗ −0.126 −0.094 −0.188∗
+
+  −0.118 −0.083 
+( −1.751) ( −0.984) ( −0.438) ( −1.692) ( −0.925) ( −0.390) 
+
+CapexAt 0.209 0.193 −0.715 0.217 0.195 −0.710 
+(0.532) (0.384) ( −1.105) (0.554) (0.389) ( −1.096) 
+
+CashFlowAt 0.267 0.024 0.016 0.271 0.019 0.023 
+(1.029) (0.071) (0.055) (1.048) (0.057) (0.078) 
+
+SP500 −0.007 0.017 0.013 −0.013 0.009 0.013 
+( −0.165) (0.340) (0.194) ( −0.290) (0.182) (0.194) 
+
+LnCEOAge −0.042 −0.096 0.208 −0.040 −0.096 0.191 
+( −0.349) ( −0.723) (0.867) ( −0.329) ( −0.726) (0.800) 
+
+LnCEOTenure −0.019 −0.013 −0.016 −0.020 −0.013 −0.016 
+( −1.215) ( −0.696) ( −0.655) ( −1.223) ( −0.710) ( −0.632) 
+
+PercentIndep 0.334∗∗∗
+ 0.260∗
+
+ 0.351∗
+ 0.333∗∗∗
+
+ 0.256∗ ∗
+ 0.361 ∗
+
+ 
+
+(2.728) (1.908) (1.961) (2.724) (1.883) (2.025) 
+LnBoardSize 0.205∗∗
+
+ 0.131 0.131 0.207∗∗
+ 0.132 0.142 
+
+(2.470) (1.336) (1.053) (2.488) (1.349) (1.149) 
+Top5ExecutiveOwn −0.356 −0.535 0.205 −0.337 −0.520 0.244 
+
+( −1.121) ( −1.393) (0.381) ( −1.056) ( −1.365) (0.441) 
+Duality −0.048 ∗
+
+ −0.062 0.006 −0.047 −0.060∗
+ 0.006 
+
+( −1.590) ( −1.872) (0.155) ( −1.551) ( −1.821) (0.167) 
+Firm FEs No No Yes No No Yes 
+Year FEs Yes No No Yes No No 
+Industry FEs Yes No No Yes No No 
+Industry × Year FEs No Yes Yes No Yes Yes 
+Observations 2087 2009 1921 2087 2009 1921 
+R -squared 0.223 0.309 0.447 0.225 0.310 0.448 
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+a focal firm and a peer firm) using the sum of the product
+of fractional ownership in the focal firm and that in the
+peer firm across institutions that hold shares in both the
+focal and peer firms. We partition the sample of peer firms
+into those with higher-than-median cross-ownership ties
+with the focal firms and those with lower-than-median
+ties, and run separate nonparametric local linear regres-
+sions on the two subsamples. Panel B of Table 7 shows
+that the positive stock price reactions by peer firms
+to the passage of a shareholder-sponsored governance
+proposal at the focal firm are particularly pronounced
+when the focal and peer firms share higher-than-median
+ownership ties through cross-holding institutions. For
+example, the last two columns show that the outperfor-
+mance of the peers of focal firms that narrowly pass a vote
+over those of focal firms that narrowly fail a vote is 1.7 per-
+centage points over a three-day window when ownership
+ties between the focal and peer firms are higher than the
+median. In contrast, this estimate is only 0.3 percentage
+points and statistically insignificant when ownership ties
+are lower than the median. Since it is not feasible to test
+the statistical difference in the coefficients across nonpara-
+metric regressions (e.g., Hansen, 2015; Malenko and Shen,
+2016 ), we caution that we cannot rule out the possibility
+that these two coefficients are equal statistically. Never-
+theless, these results provide suggestive evidence that the
+
+
+
+416 J. He, J. Huang and S. Zhao / Journal of Financial Economics 134 (2019) 400–418 
+
+Table 7 
+Stock returns around close-call votes. 
+This table reports nonparametric local linear regression analysis of cumulative abnormal stock returns of peer firms around close-call vote 
+events at focal firms, using a triangular kernel with optimal bandwidth (following Imbens and Kalyanaraman, 2012 ). We restrict the sample of 
+votes to those that pass or fail by a small margin (within ±5 percentage points around the threshold). The dependent variable is the cumulative 
+abnormal returns of peer firms either on day 0, which is the day of the close vote, or over a three-day window around the close-vote event 
+(i.e., day 0 to + 2). We use the CAPM and the Fama-French-Carhart four-factor model to calculate abnormal returns. Panel A conducts the test 
+using the full sample of peer firms, and Panel B partitions peer firms into a high and low subsample based on the median value of CrossOwn , 
+defined as the sum of the product of fractional ownership in the focal firm and that in the peer firm across institutions that hold shares in 
+both the focal and peer firms. Pass is an indicator that equals one if a shareholder-sponsored governance proposal narrowly passes at the focal 
+firm and zero if it narrowly fails. The ∗
+
+ numbers in parentheses are Z -statistics based on standard errors that are clustered at the firm level. ∗∗
+ , 
+
+∗∗ , and ∗
+ represent significance at the 1%, 5%, and 10% levels, respectively. 
+
+Panel A: Full sample 
+
+Dep. variable CAPM 1-day FFC4 1-day CAPM 3-days FFC4 3-days 
+
+(1) (2) (3) (4) 
+
+Pass ∗
+ 0.008 ∗
+
+ 0.005∗
+ 0.015∗
+
+ 0.011∗∗
+ 
+
+(2.069) (1.717) (1.729) (1.979) 
+Observations 7307 7307 7307 7307 
+
+Panel B: Subsamples by cross-ownership 
+
+Dep. variable CAPM 1-day FFC4 1-day CAPM 3-days FFC4 3-days 
+
+CrossOwn High Low High Low High Low High Low 
+
+(1) (2) (3) (4) (5) (6) (7) (8) 
+
+Pass 0.010∗∗∗ −0.001 0.009∗∗
+ 0.001 ∗
+
+ 0.018 0.006 0.017∗∗
+  0.003 
+
+(2.714) ( −0.218) (2.333) (0.301) (1.717) (0.944) (2.528) (0.379) 
+Observations 3673 3634 3673 3634 3673 3634 3673 3634 
+market perceives institutional cross-ownership as a chan- 
+nel through which one firm’s governance structure affects 
+that of its peers. They also indicate that institutional cross- 
+owners might be able to benefit from the governance im- 
+provement at focal firms through an increase in peer firms’ 
+stock prices.28 
+
+ 
+
+6. Conclusion 
+
+In this paper, we examine the role of institutional 
+cross-owners in alleviating the inefficiency associated with 
+
+corporate governance externalities. Exploiting the variation 
+
+in cross-ownership across institutions within a proposal 
+as well as the variation in cross-ownership across firms 
+within a given institution’s portfolio, we show that an in- 
+stitution’s holdings in peer firms are positively associated 
+
+with the likelihood that the institution votes against man- 
+agement on shareholder-sponsored governance proposals. 
+We also find evidence suggesting that this correlation is 
+stronger for firms whose managers are likely to have more 
+outside job opportunities, which is consistent with man- 
+agerial labor market competition being a possible driver 
+of governance externalities. Exploiting financial institu- 
+tion mergers that generate plausibly exogenous shocks 
+28 While the results here suggest that corporate governance externalities 
+are a plausible mechanism through which cross-ownership affects institu- 
+tions’ voting decisions, they do not rule out the possibility that, because 
+of economies of scale in monitoring, the unit cost of monitoring decreases 
+with the holdings in peer firms, thereby leading to greater monitoring ef- 
+forts. Nevertheless, it is useful to note that since our baseline results con- 
+tinue to hold when we include fund-family × year × industry fixed effects 
+in the regressions, economies of scale in monitoring at the industry level 
+do not seem to explain our findings. 
+to cross-ownership, we find that the relation between 
+
+cross-ownership and institutions’ tendency to vote against 
+management is likely causal. 
+
+We further show that high aggregate cross-ownership 
+
+positively predicts management losing a vote. Consistent 
+with the premise that shocks to the governance prac- 
+tices of a focal firm can impose externalities on its peers, 
+we find that peer firms’ stock prices react positively to 
+the passage of close-call votes on shareholder-sponsored 
+
+governance proposals at focal firms. More important, the 
+positive stock price reaction is particularly pronounced 
+
+when the focal and peer firms share strong ownership 
+
+ties through cross-holding institutions, suggesting that the 
+market correctly anticipates the role of cross-owners in 
+
+internalizing governance externalities. 
+Overall, our evidence highlights the importance of 
+
+a market-based mechanism, i.e., institutional cross- 
+ownership, in reducing the inefficiency induced by 
+governance externalities, which are hard to observe and 
+
+quantify in the first place. Our study also has important 
+policy implications. Given that institutional cross-owners 
+are uniquely positioned to collect and produce information 
+
+about firms and incentivized to internalize governance 
+externalities, cross-ownership, as a market-based solution, 
+can play an important role in addressing governance 
+externalities. 
+
+Appendix. A simple framework for the cross-ownership 
+
+measures 
+
+We use a simple conceptual framework to develop our 
+main measures for cross-ownership. The key objective is 
+to capture an institution’s monitoring gains arising from 
+
+
+
+J. He, J. Huang and S. Zhao / Journal of Financial Economics 134 (2019) 400–418 417 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+governance externalities, which increase its incentive to
+monitor. Suppose an institution holds shares in firm f (a
+focal firm) and P peers of the firm, indexed by 1, 2, …, and
+P . Denote the fractional ownership of fund family i in firm f
+at time t as αi, t nd that in the peers as α , α
+
+ f, a
+  i , 1, t i , …,
+
+  , 2,  
+
+ t 
+and αi, P, , respectively. Suppose a monitoring action taken
+
+  t 
+by institution i at firm f increases the value of firm f by
+f, and because of governance externalities, increases the
+
+ 
+
+value of peer firms by 1, 2, …, and   respectively.
+  P,
+
+ 
+
+Thus, the benefit earned by the institution from monitor-
+ing firm f comprises two components. The first is the gain
+from its holdings in firm f , i.e., αi, second is the
+
+ ∑f, t  f. The 
+ 
+
+ 
+
+gain from its cross-holdings, i.e., P 
+ p=1 αi,p,tp, which is
+
+ 
+
+ 
+
+ 
+
+the focus of our paper. 
+We make two alternative simplifying assumptions
+
+about the impact of the monitoring action at firm f on
+the value of its peer firms. First, we assume that the dol-
+lar value of the impact is the same across peer firms, i.e.,
+1 =  . . . =  = 29 
+
+ c. This assumption enables us to
+ 2 = 
+
+ P 
+re∑write the expected dollar gain on the peer holdings as
+
+ 
+
+c P 
+ p=1 αi,p,t . Thus, other things equal, the expected bene-
+
+ 
+
+ 
+
+fit from the monitoring action at the focal firm increases
+in the sum of the institution’s fractional ownership in the
+peer firms. This leads to an equal-weighted measure of
+cross-ownership by fund family i in the peers of firm f at
+time t , 
+
+∑P 
+ 
+
+HoldingP EW 
+
+ eers i = α .1)
+, f,t i,p,t . (A
+
+ 
+
+ 
+
+p=1 
+
+Second, we assume that the dollar value of the im-
+pact as a fraction of the market capitalization is the same
+
+
+oss 1  
+
+acr  
+
+ peer firms, i.e., 2 
+ M = M = . . . = P 
+
+ M = c, where M p
+ 1   
+
+ 2 P 
+is the market cap of peer firm p at time t . In other words,
+the percentage returns due to governance externalities
+are the same across peer firms. This assumption enables
+us to rewrite the expected dollar gain on peer holdings
+
+∑ ∑ P 
+ M 
+
+as P ∑ 
+
+ P 
+ c p=1 αi,p,t M p = c M̄ α p 1 M p 
+
+ 
+
+ 
+
+ i,p,t , where M̄ = p=
+ 
+
+ 
+
+ p=1 M̄ P .
+ 
+
+ 
+
+Thus, other things equal, the expected benefit from an in-
+stitution’s monitoring action at the focal firm increases in
+the weighted sum of its fractional ownership in peer firms,
+weighting by the latter’s market cap. This leads to our sec-
+ond cross-ownership measure, the value-weighted sum of
+holdings by fund family i in the peers of firm f at time t , 
+
+∑P 
+ M p 
+
+HoldingP eersV W 
+
+ i = α
+, f,t i,p,t . (A.2)
+
+ 
+
+ 
+
+M̄ 
+p=1 
+
+ 
+
+ 
+
+29 We assume that the gains induced by governance externalities are ho- 
+mogeneous across peers in terms of dollar amounts or percentage returns, 
+because there is no clear theoretical rationale for how such gains would 
+
+ 
+
+vary across peers. In the case of pay benchmarking, the dollar gains, in 
+ 
+
+the form of reduced pay for executives, are likely to be the same across 
+peer firms. In the case of governance  
+
+ provisions, the percentage returns 
+are likely to be similar across peers. For example, a focal firm declassi- 
+fying its board may prompt its peers to do the same, which may have  
+
+ 
+
+similar  
+
+ impacts on the peer firms in terms of stock returns regardless of 
+firm size if the peer firms are otherwise identical. While these assump- 
+
+ 
+
+tions are admittedly simplistic, they provide a useful starting point for us 
+ 
+
+to capture the benefits and incentives associated with cross-ownership. 
+References 
+
+Acharya, V. , Gabarro, M. , Volpin, P.F. , 2016. Competition for Managers and
+Corporate Governance. New York University, University of Mannheim,
+and City University of London Unpublished working paper . 
+
+Acharya, V. , Volpin, P.F. , 2010. Corporate governance externalities. Rev. Fi-
+nanc. 14, 1–33 . 
+
+Albuquerque, R.A. , Marques, L.B. , Ferreira, M.A. , Matos, P.P. , 2019. Inter-
+national corporate governance spillovers: evidence from cross-border
+mergers and acquisitions. Rev. Financ. Stud. 32, 738–770 . 
+
+Anton, M. , Ederer, F. , Gine, M. , Schmalz, M. , 2016. Common Ownership,
+Competition, and Top Management Incentives. University of Navarra,
+Yale University, and University of Michigan Unpublished working
+paper . 
+
+Appel, I. , Gormley, T.A. , Keim, D.B. , 2016. Passive investors, not passive
+owners. J. Financ. Econ. 121, 111–141 . 
+
+Appel, I. , Gormley, T.A. , Keim, D.B. , 2018. Standing on the shoulders of
+giants: the effect of passive investors on activism. Rev. Financ. Stud.
+forthcoming . 
+
+Ashraf, R. , Jayaraman, N. , Ryan, H.E. , 2012. Do pension-related business
+ties influence mutual fund proxy voting? Evidence from shareholder
+proposals on executive compensation. J. Financ. Quant. Anal. 47, 
+567–588 . 
+
+Asker, J. , Ljungqvist, A. , 2010. Competition and the structure of vertical
+relationships in capital markets. J. Polit. Econ. 118, 599–647 . 
+
+Azar, J. , Schmalz, M.C. , Tecu, I. , 2018. Anti-competitive effects of common
+ownership. J. Financ. 73, 1513–1565 . 
+
+Back, K. , Collin-Dufresne, P. , Fos, V. , Li, T. , Ljungqvist, A. , 2018. Activism,
+strategic trading, and liquidity. Econometrica 86, 1431–1463 . 
+
+Bakke, T. , Whited, T. , 2012. Threshold events and identification: a study of
+cash shortfalls. J. Financ. 67, 1083–1111 . 
+
+Bereskin, F. , Cicero, D. , 2013. CEO compensation contagion: evidence from
+an exogenous shock. J. Financ. Econ. 107, 477–493 . 
+
+Bethel, J.E. , Gillan, S.L. , 2002. The impact of the institutional and reg-
+ulatory environment on shareholder voting. Financ. Manag. 31, 
+29–54 . 
+
+Bizjak, J.M. , Lemmon, M.L. , Naveen, L. , 2008. Does the use of peer groups
+contribute to higher pay and less efficient compensation? J. Financ.
+Econ. 90, 152–168 . 
+
+Bizjak, J.M. , Lemmon, M.L. , Nguyen, T. , 2011. Are all CEOs above average?
+An empirical analysis of compensation peer groups and pay design. J.
+Financ. Econ. 100, 538–555 . 
+
+Bushee, B. , Jung, M. , Miller, G. , 2017. Do investors benefit from selective
+access to management? J. Financ. Rep. 2, 31–61 . 
+
+Butler, A. , Gurun, U. , 2012. Educational networks, mutual fund vot-
+ing patterns, and CEO compensation. Rev. Financ. Stud. 25, 
+2533–2562 . 
+
+Chen, X. , Harford, J. , Li, K. , 2007. Monitoring: which institutions matter? J.
+Financ. Econ. 86, 279–305 . 
+
+Cremers, M. , Grinstein, Y. , 2014. Does the market for CEO talent explain
+controversial CEO pay practices? Rev. Financ. 18, 921–960 . 
+
+Cuñat, V. , Gine, M. , Guadalupe, M. , 2012. The vote is cast: the effect of
+corporate governance on shareholder value. J. Financ. 67, 1943–1977 . 
+
+Cvijanovi ́c, D. , Dasgupta, A. , Zachariadis, K. , 2016. Ties that bind: how
+business connections affect mutual fund activism. J. Financ. 71,
+2933–2966 . 
+
+Davis, G.F. , Kim, E.H. , 2007. Business ties and proxy voting by mutual
+funds. J. Financ. Econ. 85, 552–570 . 
+
+Dicks, D.L. , 2012. Executive compensation and the role for corporate gov-
+ernance regulation. Rev. Financ. Stud. 25, 1971–2004 . 
+
+Dimmock, S. , Gerken, W. , Ivkovi ́c, Z. , Weisbenner, S. , 2018. Capital gains
+lock-in and governance choices. J. Financ. Econ. 127, 113–135 . 
+
+Edmans, A. , Levit, D. , Reilly, D. , 2018. Governance under common owner-
+ship. Rev. Financ. Stud. forthcoming . 
+
+Fan, J. , Gijbels, I. , 1992. Variable bandwidth and local linear regression
+smoothers. Ann. Stat. 20, 2008–2036 . 
+
+Faulkender, M. , Yang, J. , 2010. Inside the black box: the role and composi-
+tion of compensation peer groups. J. Financ. Econ. 96, 257–270 . 
+
+Financial Times, 2014. Passive investment, active ownership. April 6. 
+Foroughi, P. , Marcus, A.J. , Nguyen, V.Q. , Tehranian, H. , 2016. Peer Effects
+
+in Corporate Governance Practices: Evidence from Universal Demand
+Laws. Boston College Unpublished working paper . 
+
+Gabaix, X. , Landier, A. , 2008. Why has CEO pay increased so much? Q. J.
+Econ. 121, 49–100 . 
+
+Gao, H. , Luo, J. , Tang, T. , 2015. Effects of managerial labor market on exec-
+utive compensation: evidence from job-hopping. J. Account. Econ. 59,
+203–220 . 
+
+Gillan, S.L. , Hartzell, J. , Parrino, R. , 2009. Explicit vs. implicit contracts:
+evidence from CEO employment agreements. J. Financ. 64, 1629–1655 .
+
+
+
+418 J. He, J. Huang and S. Zhao / Journal of Financial Economics 134 (2019) 400–418 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Gillan, S.L. , Starks, L.T. , 20 0 0. Corporate governance proposals and share- 
+holder activism: the role of institutional investors. J. Financ. Econ. 57, 
+275–305 . 
+
+Gillan, S.L. , Starks, L.T. , 2003. Corporate governance, corporate ownership, 
+and the role of institutional investors: a global perspective. J. Appl. 
+Financ. 13, 4–22 . 
+
+Hahn, J. , Todd, P. , Van der Klaauw, W. , 2001. Identification and estimation 
+of treatment effects with a regression-discontinuity design. Econo- 
+metrica 69, 201–209 . 
+
+Hansen, B. , 2015. Punishment and deterrence: evidence from drunk driv- 
+ing. Am. Econ. Rev. 105, 1581–1617 . 
+
+Hansen, R.G. , Lott Jr., J.R. , 1996. Externalities and corporate objectives in a 
+world with diversified shareholder/consumers. J. Financ. Quant. Anal. 
+31, 43–68 . 
+
+Harford, J. , Jenter, D. , Li, K. , 2011. Institutional cross-holdings and their 
+effect on acquisition decisions. J. Financ. Econ. 99, 27–39 . 
+
+He, J. , Huang, J. , 2017. Product market competition in a world of 
+cross-ownership: evidence from institutional blockholdings. Rev. Fi- 
+nanc. Stud. 30, 2674–2718 . 
+
+Hoberg, G. , Phillips, G. , 2010. Product market synergies and competition 
+in mergers and acquisitions: a text-based analysis. Rev. Financ. Stud. 
+23, 3773–3811 . 
+
+Hoberg, G. , Phillips, G. , 2016. Text-based network industries and endoge- 
+nous product differentiation. J. Polit. Econ. 124, 1423–1465 . 
+
+Hong, H. , Kacperczyk, M. , 2010. Competition and bias. Q. J. Econ. 125, 
+1683–1725 . 
+
+Huang, J. , 2016. Shareholder coordination, corporate governance, and firm 
+
+value. University of Illinois Unpublished working paper . 
+Iliev, P. , Lowry, M. , 2015. Are mutual funds active voters? Rev. Financ. 
+
+Stud. 28, 446–485 . 
+Imbens, G. , Kalyanaraman, K. , 2012. Optimal bandwidth choice for the re- 
+
+gression discontinuity estimator. Rev. Econ. Stud. 79, 933–959 . 
+John, K. , Kadyrzhanova, D. , 2008. Peer effects in corporate governance. 
+
+New York University and Georgia State University Unpublished work- 
+ing paper . 
+
+Kale, J.R. , Reis, E. , Venkateswaran, A. , 2009. Rank-order tournaments and 
+incentive alignment: the effect on firm performance. J. Financ. 64, 
+1479–1512 . 
+
+Kang, J. , Luo, J. , Na, H.S. , 2018. Are institutional investors with multiple 
+blockholdings effective monitors? J. Financ. Econ. 128, 576–602 . 
+Kelly, B. , Ljungqvist, A. , 2012. Testing asymmetric-information asset pric- 
+ing models. Rev. Financ. Stud. 25, 1366–1413 . 
+
+Keswani, A. , Stolin, D. , Tran, A.L. , 2017. Frenemies: how do financial firms
+vote on their own kind. Manag. Sci. 63, 631–654 . 
+
+Kwon, H.J. , 2016. Executive Compensation Under Common Ownership. 
+University of Chicago Unpublished working paper . 
+
+Levit, D. , Malenko, N. , 2016. The labor market for directors and externali-
+ties in corporate governance. J. Financ. 71, 775–808 . 
+
+Malenko, N. , Shen, Y. , 2016. The role of proxy advisory firms: evi-
+dence from a regression-discontinuity design. Rev. Financ. Stud. 29, 
+3394–3427 . 
+
+Matvos, G. , Ostrovsky, M. , 2008. Cross-ownership, returns, and voting in 
+mergers. J. Financ. Econ. 89, 391–403 . 
+
+Matvos, G. , Ostrovsky, M. , 2010. Heterogeneity and peer effects in mutual 
+fund proxy voting. J. Financ. Econ. 98, 90–112 . 
+
+McCahery, J.A. , Sautner, Z. , Starks, L.T. , 2016. Behind the scenes: the cor-
+porate governance preferences of institutional investors. J. Financ. 71, 
+2905–2932 . 
+
+Morgan, A. , Poulsen, A. , 2001. Linking pay to performance–compensation 
+proposals in the S&P 500. J. Financ. Econ. 62, 489–523 . 
+
+Morgan, A. , Poulsen, A. , Wolf, J. , Yang, T. , 2011. Mutual funds as monitors:
+evidence from mutual fund voting. J. Corp. Financ. 17, 914–928 . 
+
+New York Times, 2016. A monopoly Donald Trump can pop. Eric Posner, 
+Fiona S. Morton, and Glen Weyl, December 7. 
+
+Oster, E. , 2018. Unobservable selection and coefficient stability: theory and 
+validation. J. Bus. Econ. Stat. Forthcoming . 
+
+Parrino, R. , 1997. CEO turnover and outside succession: a cross-sectional 
+analysis. J. Financ. Econ. 46, 165–197 . 
+
+Schmidt, K.M. , 1997. Managerial incentives and product market competi- 
+tion. Rev. Econ. Stud. 64, 191–213 . 
+
+Schwartz-Ziv, M. , Wermers, R. , 2017. Do institutional investors moni- 
+tor their large vs. small investments differently. Evidence from the 
+Say-On-Pay Vote. Michigan State University and University of Mary- 
+land Unpublished working Paper . 
+
+Taylor, L. , 2013. CEO wage dynamics: estimates from a learning model. J. 
+Financ. Econ. 108, 79–98 . 
+
+Wall Street Journal, 1993. Teachers’ pension plan to give firms tough ex- 
+ams. Leslie Scism, October 6. 
+
+Wooldridge, J.M. , 2010. Econometric Analysis of Cross Section and Panel 
+Data. MIT Press, Cambridge, MA .

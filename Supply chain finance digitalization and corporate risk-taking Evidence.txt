@@ -1,0 +1,954 @@
+﻿International Review of Financial Analysis 109 (2026) 104803 
+
+Contents lists available at ScienceDirect
+
+International Review of Financial Analysis
+journal homepage: www.elsevier.com/locate/irfa
+
+Supply chain finance digitalization and corporate risk-taking: Evidence 
+from China
+Wei Xue *, Shiya Yuan 1
+
+Finance School, Chongqing Technology and Business University, Chongqing, China
+
+A R T I C L E  I N F O A B S T R A C T
+
+Keywords: Supply chain finance (SCF) digitalization that integrates emerging technologies into traditional SCF has attracted 
+Supply chain finance digitalization global attention amid widespread restructuring of industrial value chains. These shifts have increased the rele
+Corporate risk-taking vance of supply chain security and corporate risk-taking. Although prior research has examined SCF digitali
+Finance constraints zation, its impact on corporate risk-taking remains underexplored. Using data on Chinese listed firms from 2011 
+Supply chain concentration
+
+to 2023, SCF digitalization promotes corporate risk-taking by easing financial constraints and reducing supply 
+chain concentration. The effect is significant among small and medium-sized enterprises, growth-stage firms, and 
+nonstate-owned enterprises and is further amplified under China’s supply chain innovation pilot policy.
+
+1. Introduction et al., 2020; Zhang, Hu, et al., 2021). By embedding digital technologies 
+into SCF practices (Gong et al., 2022), enterprises gain real-time access 
+
+Technological advancements in high-tech industries are intensifying to information across the chain. Risk alerts at one node allow others to 
+global competition across geopolitics, technology, and trade, reaching adjust investment and financing decisions promptly, thereby limiting 
+unprecedented levels of complexity. Similarly, industrial and supply contagion. Prior studies examined SCF digitalization’s effects on inno
+chains are undergoing broad restructuring, which is increasingly crys vation (Lei et al., 2024) and reduced financial fraud (Jiang et al., 2024), 
+tallizing into distinct yet interwoven trajectories and reshaping devel yet research on its influence over corporate risk-taking remains limited.
+opment paths and competitive dynamics worldwide. This restructuring Corporate risk-taking reflects firms’ pursuit of higher profits by 
+amplifies credit, operational, and liquidity risks along supply chains, in engaging in risk-taking activities (Boubakri et al., 2013). It is vital for 
+which volatility at a core enterprise can trigger a “domino effect” of value creation (John et al., 2008), capital structure decisions (Chen 
+financing defaults among small and medium-sized enterprises (SMEs; et al., 2017), and resource allocation (Faccio et al., 2016), helping firms 
+Geng et al., 2024), posing significant challenges to traditional risk- seize investment opportunities, enhance performance, and maintain 
+control mechanisms. Meanwhile, rapid digital innovation is trans competitive edge (Dao & Phan, 2023; Koirala et al., 2020). At the macro 
+forming the configuration and management of supply chains and their level, it supports technological innovation and efficient resource allo
+financial activities, bringing digitalization of supply chain finance (SCF) cation, contributing to sustainable economic growth (Su et al., 2017). 
+and shifts in corporate risk-taking to the forefront for academia and Amid uncertainty, firms can rationally assume reasonable risks to pursue 
+industry. higher expected returns (Huang et al., 2021). However, limited evidence 
+
+Regarding SCF digitalization, Song et al. (2020) showed that inte exists on whether SCF digitalization promotes corporate risk-taking or 
+grating physical and financial flows creates a tightly connected the mechanisms through which it may influence firms’ risk behavior.
+ecosystem with enhanced operational linkages and low-friction data Corporate risk-taking is influenced by internal characteristics and 
+exchange. Traditional SCF faces persistent weaknesses such as infor external conditions. Internally, key determinants include managerial 
+mation asymmetry and systemic vulnerability, in which a single-node traits (Kim & Lu, 2011), corporate governance (Chu et al., 2020; Huang 
+default can trigger chain-wide contagion. Digital technologies stabilize et al., 2021; John et al., 2008; Lan et al., 2025), entrepreneur de
+supply chain relationships (Zhou et al., 2024) and improve the risk- mographics (Beber & Fabbri, 2012; Faccio et al., 2016; Huang et al., 
+taking and operational capabilities of node enterprises (Pan, Pan, 2021; Malmendier & Nagel, 2011), managerial incentives (Low, 2009), 
+
+* Corresponding author at: Economics, No. 19, Xuefu Ave, Nanan District, Chongqing 400067, China.
+E-mail address: xuewei@ctbu.edu.cn (W. Xue). 
+
+1 Graduate Student of Finance School, No. 19, Xuefu Ave, Nanan District, Chongqing 400067, China.
+
+https://doi.org/10.1016/j.irfa.2025.104803
+Received 23 June 2025; Received in revised form 21 November 2025; Accepted 22 November 2025  
+Available online 22 November 2025 
+1057-5219/© 2025 Elsevier Inc. All rights are reserved, including those for text and data mining, AI training, and similar technologies. 
+
+
+
+W. Xue and S. Yuan                                                                                                                                                               I n t e  r n  a  t i o n  a  l   R  e  v i e  w    o  f   F  in  a  n  c i a  l   A  n  a  l y s  i s  109 (2026) 104803 
+
+and digital transformation (Wu & Wang, 2024). Externally, financial tailored solutions to core firms and their upstream suppliers (Rahman 
+regulation (Liu & Wu, 2024), market conditions (Sheikh, 2019), fintech et al., 2024), enhancing suppliers’ capacity to fulfill obligations and 
+development (Ding et al., 2022), SCF (Liu et al., 2025), and environ reducing disruption risk. Fintech enabled SCF further strengthens firms’ 
+mental factors (Li et al., 2025; Tran & Le, 2022; Zhang, Yang, & Liu, risk-taking capabilities by expanding investment scope and improving 
+2021) also play critical roles. Research in the digital economy highlights capital allocation efficiency (Xu et al., 2025), thereby supporting supply 
+the interaction between fintech and supply chain ecosystems: leveraging chain resilience amid volatility. Risk-tolerant firms collaborating with 
+text analysis of 3.2 million announcements, Xu et al. (2025) find that financially constrained suppliers are more inclined to adopt SCF, gaining 
+fintech-enabled SCF significantly increases corporate risk-taking. How real-time monitoring through digital risk-control models (Wang, 2025). 
+ever, micro-level evidence on how SCF digitalization affects corporate This reduces the cost of risk-taking (Zhao & Lei, 2024), forming a 
+risk behavior remains scarce. This study addresses that gap by exam virtuous cycle in which SCF digitalization lowers risk costs and increases 
+ining the relationship between SCF digitalization and corporate willingness to take risks (Han & Wang, 2025; Pan, Xu, et al., 2020). As a 
+risk-taking, offering the first empirical analysis on this topic. result, SCF enhances access to financial resources, optimizes capital 
+
+In China, rapid deployment of artificial intelligence, along with ad allocation, and improves supply chain efficiency, positioning corporate 
+vances in large language model auditing since 2023, has heightened risk-taking as a key driver of supply chain security.
+corporate awareness of the need for reliable, automated digital systems. Traditional SCF relies on operational data streams—logistics, capital 
+This shift has fueled the rapid growth of the SCF technology market, flows, and information flows—generated from transactions between 
+where total transaction value increased from RMB 5.2 T in 2020 to RMB core firms and their upstream and downstream partners. These data 
+11.7 T in 2024, with a compound annual growth rate of 22.2 %. Against streams reflect production and operational status and form the basis of 
+this backdrop, this article analyzes the unique characteristics of China’s SCF service offerings (Song & Chen, 2016). New digital technologies 
+listed firms to uncover an underexamined dimension of SCF finance. such as artificial intelligence, blockchain, and cloud computing expand 
+
+This article contributes to the literature in several ways. First, it financial services’ operational and strategic boundaries (Dewan & 
+broadens understanding of the economic effects of SCF digitalization Kraemer, 2000; Tang et al., 2020; Xu et al., 2025). SCF digitalization 
+beyond previously documented outcomes—such as green innovation represents an innovative network-based integration of the industrial and 
+(An et al., 2024), reduced financial fraud (Jiang et al., 2024), and financial processes through networked digital tools (Caniato et al., 
+regional innovation (Zheng & Xiao, 2025)—by examining its influence 2016), enabling full transparency and traceability across procurement, 
+on corporate risk-taking, an area with scarce empirical evidence. Spe production, logistics, and sales. Improved transparency reduces infor
+cifically, this study demonstrates that SCF digitalization reduces finan mation asymmetry and the risks associated with incomplete or inaccu
+cial constraints and lowers supplier concentration, thereby promoting rate data (Wu, Xu, & Lin, 2021). Moreover, digitalization converts soft 
+corporate risk-taking. By clarifying these mechanisms, the findings information into quantifiable “hard information” (Cenni et al., 2015), 
+deepen knowledge of how SCF digitalization enables risk-taking within allowing more sophisticated assessment of enterprise operations and 
+China’s industrial chain. market behavior (Einav & Levin, 2014). Therefore, we proposed Hy
+
+Second, this study enriches the literature on the determinants of pothesis 1. 
+corporate risk-taking. Prior research has largely focused on internal 
+characteristics such as board fault lines (Pu et al., 2023), capital struc H1. SCF digitalization advances corporate risk-taking.
+ture mismatch (Li & Zhou, 2025), enterprise financialization (Zhao A fundamental prerequisite for effective collaboration between 
+et al., 2025), chief executive officer (CEO) traits (Huang et al., 2021; supply chain entities is a foundation of trust (Bouncken et al., 2020). 
+Benmelech & Frydman, 2015), and enterprise, social, and governance Trust supports the provision of trade credit financing (Jiang et al., 2022) 
+performance (He et al., 2015), along with external determinants and increases financial institutions’ credit willingness. SCF digitaliza
+including financial regulations (Liu & Wu, 2024), fintech development tion enhances the availability and distribution of financial services 
+(Tang et al., 2024), industrial robots (Pu et al., 2024), carbon policies (Duncombe & Boateng, 2009) and improves operational transparency 
+(Xing et al., 2023), climate risk (Li et al., 2025), economic policy un by incorporating unstructured information into market evaluation. This 
+certainty (Zhang, Yang, & Liu, 2021), and green finance (Deng et al., creates a rich database of “soft information” (Huang et al., 2021) and 
+2023). Given the limited evidence on SCF digitalization, we establish its facilitates credit risk assessment (Laeven et al., 2015), fostering a busi
+relevance to corporate risk-taking within supply chain networks, high ness environment conducive to growth. By lowering financing thresh
+lighting how financing embedded in digitally enhanced structures olds and integrating SMEs more deeply into supply chains, SCF 
+shapes firms’ risk behavior. digitalization expands access to diverse financing channels. Increased 
+
+Finally, this research complements and extends the empirical liter funding availability helps overcome capital constraints in high-risk ac
+ature by proposing a novel approach for assessing the development level tivities such as R&D (Hu et al., 2025) and market expansion, acceler
+of SCF digitalization. Existing indicators primarily assess SCF digitali ating fund circulation, improving allocation efficiency, and enhancing 
+zation from the financial service provision perspective (Tong & Wang, firms’ resilience to market volatility.
+2024; Liu et al., 2023) and are constructed at the provincial level. In SCF digitalization generates substantial digital transaction data and 
+contrast, this study develops an enterprise-level indicator system, transforms traditionally intangible “soft information” from production 
+broadening the analytical scope of SCF digitalization as a novel devel and operational activities into analyzable content (Mocetti et al., 2017). 
+opment paradigm. The evolving features of supply chains—networked sharing, intelligent 
+
+This study addresses a previously overlooked area by examining the collaboration, and big-data usage (Liu et al., 2023)—are reshaping 
+understudied relationship between SCF digitalization and corporate cooperation among upstream and downstream partners. Digital tech
+risk-taking. Positioned at the intersection of SCF digitalization, corpo nologies enable cross-organizational connectivity, ensuring smoother 
+rate governance, and supply chain management, the study findings flows of production factors (Conceição et al., 2001). Integrated data 
+advance scholarly understanding and offer practical implications for elements broaden the information used in supply chain credit assess
+researchers and practitioners. ments, allowing more accurate identification of risk exposure 
+
+throughout transactions (Song et al., 2022). These advances stabilize 
+2. Hypothesis development supply chain relationships and strengthen firms’ risk-management ca
+
+pabilities (Kwak et al., 2018). They also enhance collaborative effi
+Corporate risk-taking reflects an enterprise’s strategic inclination to ciency, reduce upstream and downstream concentration, and diversify 
+
+pursue high-uncertainty investments for value maximization (Tran, supply chain structures, helping enterprises disperse operational risk 
+2019). SCF alleviates financing and liquidity constraints by providing (Wu & Yao, 2023). Importantly, lower concentration mitigates 
+
+2 
+
+
+
+W. Xue and S. Yuan                                                                                                                                                               I n t e  r n  a  t i o n  a  l   R  e  v i e  w    o  f   F  in  a  n  c i a  l   A  n  a  l y s  i s  109 (2026) 104803 
+
+Table 1 
+Index system for supply chain finance (SCF) digitalization.
+
+Dimension Indicator Indicator description References Properties
+
+SCF level: A1 Extracting keywords, such as SCF from the text of annual reports of listed companies based Zhou and Wu (2022) +
+on word frequency
+
+SCF Financial oriented SCF: Accounts receivable/operating income Li et al. (2019), Liu, 
+A2 Wang, and Shou (2020)
+
++
+Supply chain oriented Accounts receivable holding period + Inventory holding period − Accounts payable Cosci et al. (2020)
+SCF: A3 payment period +
+
+Digitalization Cognition of digital Extracting keywords, such as digital finance from the text of annual reports of listed Wang and Xie (2021) +
+finance: A4 companies based on word frequency
+Enterprise digital Extract keywords, such as artificial intelligence technology, big data technology, cloud 
+
+computing technology, blockchain technology, and digital technology application from Wu, Hu, et al. (2021)
+transformation: A5 the text of annual reports of listed companies. +
+
+The proportion of investments in intangible assets and fixed assets related to digital 
+Digital investment: A6 technology in the detailed breakdown of fixed assets and intangible assets, as a percentage Qi et al. (2020)
+
++
+of the enterprise’s total annual assets.
+
+“relationship-specific investment” risks (Lu et al., 2025), decreasing data. It leverages data elements to improve the efficiency and flow of key 
+over-reliance on key partners and enabling more flexible strategic production factors (Zhang, 2022) and enables end-to-end traceability of 
+decision-making. Therefore, we propose Hypothesis 2. material, information, and capital flows (Gong et al., 2022). Supported 
+H2. SCF digitalization increases corporate risk-taking by easing by strong big-data processing and intelligent infrastructure, SCF digi
+financial constraints and reducing supply chain concentration. talization enhances service accessibility and value, enabling flexible and 
+
+efficient interorganizational integration (Büyüközkan & Göçer, 2018). 
+This stage reflects the deep integration of enterprise digitalization with 
+
+3. Research design SCF. We use the entropy method to measure the level of SCF digitali
+zation across two dimensions—SCF and digitalization—summarized in 
+
+3.1. Data Table 1.
+
+This study examines Chinese A-share listed companies during 
+2011–2023. To ensure data quality and mitigate potential bias, we 3.3.1.1. SCF dimension. SCF practices are categorized into finance- and 
+implemented the following screening rules: supply chain-oriented SCF (Gelsomino et al., 2016). Finance-oriented 
+
+SCF focuses on monitoring transaction-level information for individual 
+firms or specific supply chain segments, such as credit status and asset 
+
+• Removed ST/*ST and delisted firms;
+• Excluded financial and insurance institutions; conditions (Song et al., 2021). In contrast, supply chain-oriented SCF 
+
+emphasizes comprehensive oversight of the entire operational process 
+• Deleted observations with missing or abnormal financial data; and
+• Winsorized continuous variables at the 1 % level. across pre- and post-transaction stages (Song & Lu, 2017); this approach 
+
+integrates upstream and downstream data and prioritizes risk mitigation 
+The final sample included 21,283 firm-year observations, with through supply chain credit evaluation (Moretto et al., 2019). This 
+
+financial data collected from the CSMAR database. dimension is assessed through three perspectives: 
+
+• SCF level (A1). Following Zhou and Wu (2022), we measured supply 
+3.2. Model chain finance level by extracting the frequency of SCF-related key
+
+words in firms’ annual reports.
+To examine the impact of SCF digitalization on corporate risk-taking • Finance-oriented SCF level (A2). Based on Liu, Wang, and Shou 
+
+behavior, we estimated the following model: (2020) and Li et al. (2019), this indicator uses the proportion of 
+Risk revenue tied up in receivables, reflecting financing support from core 
+
+i,t = α0 +α1SCFDi,t + δControlsi,t + + ui + θt + εi,t (1) 
+firms to downstream partners (Song et al., 2021):
+
+where Riski,t denotes corporate risk-taking, SCFDi,t measures the level of • Supply chain-oriented SCF level (A3). Consistent with Cosci et al. 
+supply chain finance digitalization (SCFD), Controli,t represents control (2020), this measure is calculated as follows: A3 = accounts re
+variables, ui and θt indicate firm and year fixed effects, and εi,t is the ceivable holding period + inventory holding period − accounts 
+error term. payable payment period.
+
+Next, we estimate Model (2) to test whether SCFD affects corporate 
+risk-taking (Risk) through reducing financial constraints: 3.3.1.2. Digitalization dimension. This dimension includes three in
+
+dicators: corporate digital finance awareness (A4), corporate digitali
+Riski,t = γ0 + γ1SCFDi,t + δControlsi,t + + ui + θt + . (2) zation (A5), and corporate digital investment (A6). 
+
+We then estimated Model (3) to evaluate the mediating role of supply 
+chain concentration (SCC) in the relationship between SCFD and • Corporate digital finance awareness (A4). Following Wang and Xie 
+corporate risk-taking: (2021), we measured the frequency of digital finance–related key
+
+words such as “internet” and “digitalization” per 10,000 words in 
+Riski,t = γ0 + γ1SCFDi,t + δControlsi,t + + ui + θt + εi,t (3) firms’ annual reports.
+
+• Corporate digitalization (A5). Based on Wu, Hu, et al. (2021), this 
+3.3. Variables indicator captures keyword frequency related to big data, AI, cloud 
+
+computing, blockchain, and other digital applications in annual 
+3.3.1. SCFD reports.
+
+SCFD is an advanced, digitally enhanced form of traditional SCF, 
+characterized by blockchain-based recording of enterprise transaction 
+
+3 
+
+
+
+W. Xue and S. Yuan                                                                                                                                                               I n t e  r n  a  t i o n  a  l   R  e  v i e  w    o  f   F  in  a  n  c i a  l   A  n  a  l y s  i s  109 (2026) 104803 
+
+• Digital investment (A6). Consistent with Zhang and Li (2023) and Qi 1 % level. Therefore, SCFD significantly increases firms’ risk-taking 
+et al. (2020), this measure reflects the share of digital tech levels, empirically supporting H1.
+nology–related intangible and fixed asset investment in firms’ total 
+assets: 4.3. Robustness tests
+
+3.3.2. Corporate RISK-taking (RISK) Although the baseline results support H1—that SCFD encourages 
+Following Tang et al. (2024) and John et al. (2008), this study corporate risk-taking—potential endogeneity concerns persist, 
+
+constructed two measures of corporate risk-taking. Risk_1 is the standard including omitted variable bias, reverse causality, and sample selection 
+deviation of the rolling 3-year industry-adjusted ROA, and Risk_2 is the issues. These factors could affect the reliability of the findings. To 
+range of its rolling 3-year industry-adjusted period: mitigate such risks and strengthen the robustness of the conclusions, we 
+
+1∑ adopted multiple econometric strategies designed to mitigate endoge
+n
+
+AdjROAi,t = ROAi,t − ROA (4  
+n t i t )
+
+− 1 , neity and enhance the validity and reliability of the baseline regression 
+conclusions.
+
+√̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅
+√ ( )
+√ ∑T 2
+√ 1 1 ∑T
+
+SD ROAi,t = Adj ROAi,t − Adj ROAi,t ,T = 3 (5) 4.3.1. IV methods
+T − 1 t T
+
+=1 t=1 SCFD enhances the risk-taking capacity of supply chain enterprises. 
+Meanwhile, increased risk-taking can further promote the expansion of 
+
+( ) ( )
+ROA Diff i,t = Max Adj ROAi,t − Min Adj ROAi,t (6) the SCFD ecosystem, suggesting potential reverse causality. Therefore, 
+
+we conducted an instrumental variable approach. Specifically, we use 
+ROA represents the return on total assets, where subscripts i and t the mean SCFD of firms in the same city and industry—SCFD_IND and 
+
+indicate the supplier firm and year, respectively. Adj_ROA denotes the SCFD_REG—as instrumental variables.
+industry-adjusted return on assets, calculated as the firm’s ROA minus Table 4 presents the IV and 2SLS estimation results. The LM test 
+the annual industry average. SD_ROA is the standard deviation of yields p = 0, and the first-stage F-values exceed critical thresholds; 
+Adj_ROA over rolling 3-year windows (e.g., 2008–2010, 2009–2011), additionally, the Sargan test is passed, confirming instrument validity. 
+and ROA_Diff is the difference between the maximum and minimum Columns (1) and (2) denote that SCFD_IND and SCFD_REG are positive 
+Adj_ROA within the same intervals. We also constructed two customer and significant at the 1 % level (0.7534 and 0.7812, respectively). 
+concentration metrics based on Patatoukas (2012) and Campello and Columns (3) and (4) demonstrate that the coefficients of SCFD_IND on 
+Gao (2017). The first measure is the share of total sales attributed to the RISK1 and RISK2 are 0.0608 and 0.1017, respectively, which is positive 
+top five customers (CustomerSales). and significant at the 1 % level, and columns (5) and (6) show that the 
+
+coefficients of SCFD_REG on RISK1 and RISK2 are 0.0277 and 0.0489, 
+3.3.3. Control variables respectively, suggesting similarly significant positive effects. Therefore, 
+
+Drawing on established research on corporate risk-taking, we include after controlling for endogeneity issues using instrumental variables, the 
+several control variables capturing operational characteristics: firm size positive relationship between SCFD and corporate risk-taking remains 
+(Size), firm age (Age), the ratio of net fixed assets to total assets (Fixed), robust.
+operating income growth rate (Growth), a loss indicator (Loss = 1 if net 
+profit <0, else 0), CEO duality (Dual), operating cash flow ratio (Cash 4.3.2. Propensity score matching method (PSM)
+flow), market-to-book ratio (MB), and ownership concentration To enhance the reliability of the regression results, we performed a 
+(TOP10). PSM robustness test. Based on the annual industry median of SCFD, 
+
+firms were divided into high- and low-SCFD groups. Using the baseline 
+4. Empirical results regression control variables as covariates, 1:1 nearest-neighbor match
+
+ing was conducted, and the matched samples were re-estimated. After 
+4.1. Descriptive statistics matching, both samples met the equilibrium hypothesis, with no sig
+
+nificant differences in covariates between groups. From Table 5, the 
+Table 2 presents the descriptive statistics of all variables. The coefficients of SCFD remained significant at the 1 % and 5 % levels, 
+
+average level of Risk1 was 0.0253, with a median of 0.0160, a maximum confirming the robustness of our main conclusions.
+value of 0.2207, and a minimum value of 0.0009. The mean value of 
+Risk2 was 0.0463, with a standard deviation of 0.0546, a maximum 4.3.3. Lagging one-period processing
+value of 0.3687, and a minimum value of 0.0000. These findings show To further mitigate potential endogeneity from bidirectional cau
+substantial divergence in risk levels, indicating variation in corporate sality, we lagged all explanatory variables by one period. Columns (1) 
+risk-taking across firms. The average SCFD value was 0.1183, with a and (2) of Table 6 show that the coefficients of SCFD remained 
+standard deviation of 0.1105, indicating certain gap in SCFD develop
+ment levels among firms. The descriptive statistical results for the con Table 2 
+trol variables also show clear heterogeneity, supporting the need to Summary statistics.
+include them in the regression models for robust empirical testing. N Mean Std. Dev. Min Median Max
+
+SCFD 21,283 0.1183 0.1105 0.0003 0.0879 0.7326
+Risk1 21,283 0.0253 0.0307 0.0009 0.0160 0.2207
+
+4.2. Main results Risk2 21,283 0.0463 0.0546 0.0000 0.0295 0.3687
+TOP10 21,283 0.5793 0.1744 0.0000 0.5981 0.9081
+
+Initially, we estimated model (1) to test whether SCFD promotes Fixed 21,283 0.2133 0.1448 0.0034 0.1868 0.6486
+corporate risk-taking (H1). Year and firm fixed effects control for tem Dual 21,283 0.2984 0.4576 0.0000 0.0000 1.0000
+
+poral trends and unobservable firm characteristics. Table 3 reports the Size 21,283 22.4243 1.2928 20.5035 22.2156 26.4973
+Growth 21,283 0.1598 0.3146 − 0.4656 0.1125 1.6878
+
+stepwise regression results. From columns (1) and (2) of Table 3, when MB 21,283 0.6304 0.2465 0.1379 0.6283 1.1914
+only the dependent variable, Risk, and the key explanatory variable, Cashflow 21,283 0.0547 0.0651 − 0.1244 0.0522 0.2440
+SCFD, were included, the coefficients of SCFD are positive and signifi Age 21,283 2.0512 0.7892 0.0000 2.0794 3.3322
+cant at the 1 % level. After adding control variables, columns (3) and (4) Loss 21,283 0.0818 0.2741 0.0000 0.0000 1.0000
+
+show that the coefficients of SCFD remain positive and significant at the Note: Std. Dev. means Standard Deviation.
+
+4 
+
+
+
+W. Xue and S. Yuan                                                                                                                                                               I n t e  r n  a  t i o n  a  l   R  e  v i e  w    o  f   F  in  a  n  c i a  l   A  n  a  l y s  i s  109 (2026) 104803 
+
+Table 3 coefficient of SCFD remains significantly positive at the 1 % level, 
+Baseline regression results. demonstrating that SCFD contributes to enhancing corporate risk-taking 
+
+(1) (2) (3) (4) even when pandemic years are excluded. Therefore, our findings are 
+resilient to major exogenous disturbances.
+
+Variable Risk1 Risk2 Risk1 Risk2
+
+SCFD 0.0159*** 0.0296*** 0.0146*** 0.0258*** 4.3.5. Replacement of explained variable
+(0.0044) (0.0078) (0.0042) (0.0074)
+
+TOP10 − 0.0081*** − 0.0126*** To further ensure robustness, we replicated the main regressions 
+(0.0018) (0.0032) using alternative measures of corporate risk-taking. First, we extended 
+
+fixed − 0.0131*** − 0.0200*** the rolling window to 5 years and defined Risk3 as the standard devia
+(0.0036) (0.0064) tion of industry-adjusted ROA over a rolling 5-year period. Additionally, 
+
+Dual − 0.0002 − 0.0001 following Tang et al. (2024), we constructed Risk4 and Risk5 as alter
+(0.0008) (0.0013)
+
+Size − 0.0037*** − 0.0063*** native measures of risk-taking by calculating ROAEBIT, defined as EBIT 
+(0.0008) (0.0013) divided by total assets (Boubakri et al., 2013), and computed its stan
+
+Growth − 0.0023*** − 0.0036** dard deviation and range over rolling windows. Further, consistent with 
+(0.0009) (0.0015) Kini and Williams (2012) and Huang et al. (2021), we defined Risk6 
+
+MB − 0.0084*** − 0.0137***
+(0.0015) (0.0027) using the ratio of R&D expenditure to operating revenue, reflecting the 
+
+Cashflow 0.0149*** 0.0248*** high-risk nature of innovation activity. Therefore, R&D investment 
+(0.0043) (0.0076) expenditure reflects the risk-taking level of enterprises to a certain 
+
+Age 0.0063*** 0.0189*** extent. From Table 7, across all alternative measures, the coefficients of 
+(0.0009) (0.0016) SCFD remain positive and significant at the 1 % level, consistent with 
+
+Loss 0.0280*** 0.0507***
+(0.0011) (0.0020) our baseline results and confirming robustness.
+
+Constant 0.0235*** 0.0428*** 0.1028*** 0.1605***
+(0.0005) (0.0010) (0.0165) (0.0290) 4.3.6. Weaken the influence of missing variables
+
+Observations 21,283 21,283 21,283 21,283 Although the baseline model includes multiple controls, omitted 
+R-squared 0.4075 0.4036 0.4637 0.4658
+Year FE Yes Yes Yes Yes variables may still affect the relationship between SCFD and corporate 
+Firm FE Yes Yes Yes Yes risk-taking (Dou et al., 2024). Therefore, we added provincial fixed ef
+Adjusted R2 0.314 0.309 0.379 0.381 fects using the registered location of each enterprise and include 
+
+Note: ***, **, and * demonstrate significance at the 1 %, 5 %, and 10 % levels, 
+respectively.
+
+Table 5 
+Propensity scores matching method.
+
+significantly positive at the 1 % level, indicating that the results are still 
+robust after considering temporal delays in SCFD’s effect on corporate Variable (1) (2) 
+
+Risk1 Risk2
+risk-taking.
+
+SCFD 0.0123** 0.0214** 
+
+4.3.4. Excluding the impact of major exogenous shocks (0.0059) (0.0104)
+Constant 0.1236*** 0.1953*** 
+
+Major exogenous shocks can strongly influence firms’ investment (0.0225) (0.0399)
+and financing decisions. To isolate the incremental effect of SCFD on Controls Yes Yes
+corporate risk-taking from broader macroeconomic and other factors, Year FE Yes Yes
+we examined the COVID-19 pandemic of 2020 and 2021 as a potential Firm FE Yes Yes
+
+Observations 11,202 11,202
+exogenous shock that could influence the regression outcomes within Adjusted R2 0.371 0.373
+the sample period. To mitigate the potential effects of these external 
+shocks, we performed a benchmark estimation after excluding obser Note: ***, **, and * demonstrate significance at the 1 %, 5 %, and 10 % levels, 
+
+vations from these years. Columns (3) and (4) of Table 6 show that the respectively.
+
+Table 4 
+Instrumental variable approach.
+
+Variable (1) (2) (3) (4) (5) (6)
+
+First stage Second stage (IV = SCFD_IND) Second stage (IV = SCFD_REG)
+
+SCFD SCFD Risk1 Risk2 Risk1 Risk2
+
+SCFD_IND 0.7534***
+(0.0272)
+
+SCFD_REG 0.7812***
+(0.0157)
+
+SCFD 0.0608*** 0.1017*** 0.0277*** 0.0489***
+(0.0200) (0.0350) (0.0096) (0.0172)
+
+Cragg–Donald Wald F statistic 956.463 2592.768
+LM statistics 672.600 1010.400
+
+(0.000) (0.000)
+10 % maximal 16.38 IV size 16.38
+Constant − 0.3402*** − 0.3128***
+
+(0.0316) (0.0310)
+Controls Yes Yes Yes Yes Yes Yes
+Year FE Yes Yes Yes Yes Yes Yes
+Firm FE Yes Yes Yes Yes Yes Yes
+Observations 21,283 21,283 21,283 21,283 21,283 21,283
+Adjusted R2 0.787 0.804 − 0.0578 − 0.0452 − 0.0482 − 0.0371
+
+Note: ***, **, and * demonstrate significance at the 1 %, 5 %, and 10 % levels, respectively.
+
+5 
+
+
+
+W. Xue and S. Yuan                                                                                                                                                               I n t e  r n  a  t i o n  a  l   R  e  v i e  w    o  f   F  in  a  n  c i a  l   A  n  a  l y s  i s  109 (2026) 104803 
+
+Table 6 Table 8 
+Lagged SCFD variables and excluding sample. Change the fixation effect.
+
+Variable (1) (2) (3) (4) (1) (2) (3) (4)
+
+Lagged Excluding Sample Variable Risk1 Risk2 Risk1 Risk2
+
+Risk1 Risk2 Risk1 Risk2 SCFD 0.0141*** 0.0248*** 0.0146*** 0.0258***
+(0.0042) (0.0074) (0.0042) (0.0074)
+
+L.SCFD 0.0145*** 0.0264*** Constant 0.1030*** 0.1611*** 0.1028*** 0.1605***
+(0.0048) (0.0084) (0.0164) (0.0290) (0.0165) (0.0290)
+
+SCFD 0.0103** 0.0184** Controls Yes Yes Yes Yes
+(0.0046) (0.0081) Year FE Yes Yes Yes Yes
+
+Constant 0.1273*** 0.2221*** 0.0886*** 0.1380*** Firm FE Yes Yes Yes Yes
+(0.0196) (0.0346) (0.0178) (0.0314) Province FE Yes Yes No No
+
+Controls Yes Yes Yes Yes Industry FE No No Yes Yes
+Firm FE Yes Yes Yes Yes Observations 21,279 21,279 21,283 21,283
+Year FE Yes Yes Yes Yes Adjusted R2 0.383 0.385 0.379 0.381
+Observations 16,975 16,975 17,483 17,483
+Adjusted R2 0.407 0.412 0.337 0.342 Note: ***, **, and * demonstrate significance at the 1 %, 5 %, and 10 % levels, 
+
+Note: ***, **, and * demonstrate significance at the 1 %, 5 %, and 10 % levels, respectively.
+respectively.
+
+larger and significant for small firms, but not significant for large firms. 
+industry fixed effects with industry dummy variables to control for Panel B indicates that SCFD has a stronger and more significant effect in 
+sector-specific factors. Table 8 reports the results. After controlling for younger firms. Panel C further shows that coefficients for SCFD are 
+regional effects, the coefficients of SCFD are 0.0141 and 0.0248, both significantly positive and larger in nonstate-owned enterprises (SOEs) 
+significant at the 1 % level, consistent with the baseline estimates. When compared with SOEs.
+controlling for industry effects, the coefficients become 0.0146 and Therefore, smaller, younger, and nonstate-owned firms benefit more 
+0.0258, which were significant at the 1 % level. Therefore, SCFD con from SCF digitalization. SCFD significantly increases the risk-taking 
+tinues to positively influence corporate risk-taking even with regional propensity of SMEs, growth-stage firms, and non-SOEs, reflecting its 
+and industry fixed effects, thereby reinforcing the robustness of our nature as an inclusive financial tool that supports firms with greater 
+conclusions. financing constraints and development needs.
+
+5. Further analysis 5.2. Mechanism tests
+
+5.1. Heterogeneity analysis This study further examine the mechanisms through which SCFD 
+influences corporate risk-taking. We propose that SCFD enhances firms’ 
+
+This study evaluates heterogeneity in the effects of SCFD from three risk-taking by reducing financial constraints and lowering SCC. To test 
+perspectives: firm size, age, and ownership structure. First, based on these channels, we use FC as a proxy for financial constraints and 
+information asymmetry theory, digitalization alleviated information construct two dummy variables per Dang Viet & PhanHieu (2016), as FC 
+silos in supply chains, further alleviating financing constraints and more accurately reflects cash flow pressure. In addition, the proportions 
+enhancing risk-taking capacity (Wang et al., 2025). However, informa of purchases from the top five suppliers and sales to the top five cus
+tion transparency differs between state- and nonstate-owned enter tomers for each firm (Tang, 2009) are used to construct a dummy var
+prises, so the impact of SCFD varies by ownership type. Second, from a iable SCC, which equals 1 if the firm’s concentration exceeds the median 
+resource-based view, large firms possess strong digital infrastructure (e. and 0 otherwise.
+g., ERP systems) and can integrate SCFD tools (e.g., blockchain supply Table 10 reports the mediation results. In columns (1)–(3), the co
+chain platforms) efficiently (Lu et al., 2025), while SMEs often depend efficients of SCFD on financing constraints is − 0.0344, on Risk1 is 
+on third-party platforms because of limited resources, affecting their 0.0140, and on Risk2 is 0.0247, respectively, all significant at the 1 % 
+ability to bear independent risks. Thus, firm size may moderate SCFD’s level. This suggests that SCFD promotes corporate risk-taking by easing 
+effect on risk-taking. Finally, according to signaling theory, young firms financial constraints. In columns (4)–(6), the coefficients of SCFD on SCC 
+may lack collateral and rely more on SCFD-generated transaction data as is − 6.6543, on Risk1 is 0.0149, and on Risk2 0.0262, respectively, again 
+credit signals to secure financing, whereas mature firms already possess significant at the 1 % level. These findings indicate that SCFD also in
+strong reputations. Therefore, SCFD will have a strong impact on creases risk-taking by reducing SCC. Thus, both mechanisms hold, 
+younger firms’ risk-taking. providing empirical support for H2.
+
+Panel A of Table 9 demonstrates that the coefficients of SCFD are 
+5.3. Moderation effect tests
+
+Table 7 
+Alternative measure of the explanatory variable. Since 2018, China has implemented pilot policies promoting supply 
+
+Variable (1) (2) (3) (4) chain innovation within selected cities and enterprises. These pilots 
+Risk3 Risk4 Risk5 Risk6 provide a favorable environment for SCFD development by strength
+
+SCFD 0.0111*** 0.0138*** 0.0324*** 0.0400*** ening policy support, improving digital and logistical infrastructure, and 
+(0.0030) (0.0039) (0.0078) (0.0054) cultivating industrial ecosystems. As a result, the pilot policy enhances 
+
+Constant 0.0555*** 0.1186*** 0.2193*** 0.1121*** the effectiveness of SCFD.
+(0.0114) (0.0145) (0.0296) (0.0110) Pilot enterprises benefit from preferential measures, including sub
+
+Controls Yes Yes Yes Yes
+Firm FE Yes Yes Yes Yes sidies, tax incentives, and special funds that lower the cost of building 
+Year FE Yes Yes Yes Yes digital platforms (Shen & Qiao, 2024). Such initiatives encourage 
+Observations 21,283 21,022 21,022 17,230 greater participation in the SCFD ecosystem, facilitating broader 
+Adjusted R2 0.530 0.392 0.529 0.437 involvement in supply chain activities, improving financing access, and 
+
+Note: ***, **, and * demonstrate significance at the 1 %, 5 %, and 10 % levels, reducing excessive supplier or customer concentration.
+respectively. Additionally, local governments in supply chain innovation pilot 
+
+6 
+
+
+
+W. Xue and S. Yuan                                                                                                                                                               I n t e  r n  a  t i o n  a  l   R  e  v i e  w    o  f   F  in  a  n  c i a  l   A  n  a  l y s  i s  109 (2026) 104803 
+
+Table 9 integration. Acting as a “connector” and an “integrator,” these public 
+Heterogeneity analysis. platforms advance SCF digitalization, improve information trans
+
+Panel A: Effect of different firm sizes parency, lower information costs, strengthen risk assessment, and ulti
+mately increase firms’ risk-bearing capacity.
+
+Variable Large firm Small firm
+Geographic proximity and policy guidance enhance trust and 
+
+(1) (2) (3) (4) collaboration, resulting in more mature and industry-specific SCFD so
+Risk1 Risk2 Risk1 Risk2 lutions and reinforcing risk cogovernance. Accordingly, this section 
+
+SCFD − 0.0031 − 0.0045 0.0386*** 0.0669*** proposes the following hypothesis: 
+(0.0048) (0.0085) (0.0074) (0.0130)
+
+Constant 0.1335*** 0.2284*** 0.1945*** 0.3222*** H3. Supply chain innovation policy positively moderates the effect of 
+(0.0233) (0.0421) (0.0419) (0.0719) SCFD on corporate risk-taking.
+
+Controls Yes Yes Yes Yes
+Firm FE Yes Yes Yes Yes The moderating variable “supply chain innovation” (DID) is con
+Year FE Yes Yes Yes Yes structed following Shen and Qiao (2024) using a policy dummy (Treat ×
+p 0.0000 Post) indicating pilot participation. Treat equals 1 if a firm’s city is 
+Observations 10,611 10,611 10,388 10,388 designated as a pilot city and 0 otherwise; Post equals 1 for 2018 and 
+Adjusted R2 0.420 0.419 0.421 0.427 later, and 0 before. Table 11 reports that the interaction coefficients 
+
+(SCFD × DID) are 0.0131 and 0.0237, both significant at the 5 % level. 
+Panel B: Effect of different firm ages This result suggests that the impact of SCFD on corporate risk-taking is 
+
+Mature firm Young firm
+Variable (1) (2) (3) (4) stronger in cities implementing the supply chain innovation pilot policy.
+
+Risk1 Risk2 Risk1 Risk2
+SCFD 0.0012 0.0026 0.0122** 0.0209** 6. Conclusions
+
+(0.0056) (0.0099) (0.0060) (0.0104)
+Constant 0.0725*** 0.1178*** 0.0869*** 0.1195** The global economic system is undergoing a profound reconfigura
+
+(0.0226) (0.0413) (0.0310) (0.0534)
+Controls Yes Yes Yes Yes tion, presenting enterprises and supply chains with an era of systemic 
+Firm FE Yes Yes Yes Yes transformation. Traditional SCF has long supported resource allocation 
+Year FE Yes Yes Yes Yes and operational efficiency in supply chains. However, evolving market 
+p 0.0000 dynamics and technological advancements have exposed its limitations. 
+Observations 10,212 10,212 10,810 10,810
+Adjusted R2 0.485 0.483 0.458 0.458 Traditional SCF struggles to keep pace with the increasing complexity 
+
+and dynamism of contemporary supply chain ecosystems and may 
+inadvertently heighten systemic vulnerabilities. Considerably, the inte
+
+Panel C: Effect of different firm properties
+State-owned firms Nonstate-owned firms gration of digital technology has catalyzed a significant surge in demand 
+
+Variable (1) (2) (3) (4) for digital financial solutions, making SCF innovation a central focus. 
+Risk1 Risk2 Risk1 Risk2 This transformation offers substantial opportunities for the advance
+
+SCFD − 0.0054 − 0.0104 0.0241*** 0.0428*** ment of SCFD systems.
+(0.0066) (0.0115) (0.0054) (0.0094)
+
+Constant 0.0841*** 0.1344*** 0.1235*** 0.1921*** This study examines the impact and mechanisms of SCFD on 
+(0.0210) (0.0378) (0.0227) (0.0399) corporate risk-taking. Using a sample of China’s, A-share listed firms 
+
+Controls Yes Yes Yes Yes from 2011 to 2023, the empirical findings demonstrate that SCFD en
+Firm FE Yes Yes Yes Yes hances corporate risk-taking by easing financing constraints and 
+Year FE Yes Yes Yes Yes reducing SCC. The effect is particularly significant in advancing the risk- 
+p 0.0000
+Observations 7015 7015 14,268 14,268 taking of specific entities, including SMEs, growth-stage firms, and non- 
+Adjusted R2 0.347 0.346 0.386 0.390 SOEs. Moreover, the positive association between SCFD and risk-taking 
+
+is more pronounced under China’s supply chain innovation pilot policy.
+Note: ***, **, and * demonstrate significance at the 1 %, 5 %, and 10 % levels, 
+respectively. Although based on data from Chinese listed firms, these findings 
+
+offer generalizable insights. Despite differences in political and eco
+areas often lead the development of unified service platforms to promote nomic systems, SCF practices share fundamental financial functions 
+coordinated data sharing across departments. As Goldfarb and Tucker worldwide. Thus, the results provide meaningful policy implications for 
+(2019) emphasized, data derive full value through connectivity and financial institutions, enterprises, and policymakers.
+
+Table 10 
+Channel analysis.
+
+Variable Financial constraint Supply chain concentration
+
+(1) (2) (3) (4) (5) (6)
+
+FC Risk1 Risk2 SCC Risk1 Risk2
+
+SCFD − 0.0344** 0.0140*** 0.0247*** − 6.6543*** 0.0149*** 0.0262***
+(0.0152) (0.0042) (0.0074) (1.3322) (0.0044) (0.0077)
+
+FC − 0.0183*** − 0.0302***
+(0.0024) (0.0041)
+
+SCC 0.0001*** 0.0001***
+(0.0000) (0.0001)
+
+Constant 5.0021*** 0.1943*** 0.3118*** 66.7057*** 0.0975*** 0.1542***
+(0.0626) (0.0204) (0.0358) (6.2701) (0.0171) (0.0301)
+
+Controls YES YES YES YES YES YES
+Firm FE YES YES YES YES YES YES
+Year FE YES YES YES YES YES YES
+Observations 21,283 21,283 21,283 20,267 20,267 20,267
+Adjusted R2 0.879 0.382 0.384 0.763 0.379 0.381
+
+Note: ***, **, and * demonstrate significance at the 1 %, 5 %, and 10 % levels, respectively.
+
+7 
+
+
+
+W. Xue and S. Yuan                                                                                                                                                               I n t e  r n  a  t i o n  a  l   R  e  v i e  w    o  f   F  in  a  n  c i a  l   A  n  a  l y s  i s  109 (2026) 104803 
+
+Table 11 Beber, A., & Fabbri, D. (2012). Who times the foreign exchange market? Corporate 
+Moderating effect analysis. speculation and CEO characteristics. Journal of Corporate Finance, 18(5), 1065–1087. 
+
+https://doi.org/10.1016/j.jcorpfin.2012.07.004
+Variable (1) (2) Benmelech, E., & Frydman, C. (2015). Military ceos. Journal of financial Economics, 117 
+
+Risk1 Risk2 (1), 43–59.
+Boubakri, N., Cosset, J. C., & Saffar, W. (2013). The role of state and foreign owners in 
+
+SCFD 0.0115** 0.0197** corporate risk-taking: Evidence from privatization. Journal of Financial Economics, 
+(0.0045) (0.0079) 108(3), 641–658. https://doi.org/10.1016/j.jfineco.2012.12.007
+
+SCFD*DID 0.0131** 0.0237** Bouncken, R., Ratzmann, M., Barwinski, R., & Kraus, S. (2020). Coworking spaces: 
+(0.0061) (0.0106) Empowerment for entrepreneurship and innovation in the digital and sharing 
+
+DID − 0.0003 − 0.0003 economy. Journal of Business Research, 114, 102–110. https://doi.org/10.1016/j. 
+(0.0009) (0.0016) jbusres.2020.03.033
+
+Constant 0.1063*** 0.1647*** Büyüközkan, Gülçin, & Göçer, Fethullah (2018). Digital supply chain: literature review 
+(0.0177) (0.0311) and a proposed framework for future research. Computers in Industry, 97, 157–177. 
+
+Controls Yes Yes https://doi.org/10.1016/j.compind.2018.02.010
+Firm FE Yes Yes Campello, M., & Gao, J. (2017). Customer concentration and loan contract terms. Journal 
+Year FE Yes Yes of Financial Economics, 123(1), 108–136. https://doi.org/10.1016/j. 
+
+jfineco.2016.03.010
+Observations 19,062 19,062 Caniato, F., Gelsomino, L. M., Perego, A., & Ronchi, S. (2016). Does finance solve the 
+Adjusted R2 0.372 0.375 supply chain financing problem? Supply Chain Management: An International Journal, 
+
+Note: ***, **, and * demonstrate significance at the 1 %, 5 %, and 10 % levels, 21(5), 534–549. https://doi.org/10.1108/SCM-11-2015-0436
+Cenni, S., Monferrà, S., Salotti, V., Sangiorgi, M., & Torluccio, G. (2015). Credit rationing 
+
+respectively. and relationship lending. Journal of Banking & Finance, 53, 249–265. https://doi. 
+org/10.1016/j.jbankfin.2014.12.010
+
+First, SCFD promotes risk-taking primarily by alleviating financing Chen, R., El Ghoul, S., Guedhami, O., & Wang, H. (2017). Do state and foreign ownership 
+affect investment efficiency? Evidence from privatizations. Journal of Corporate 
+
+constraints. Advancing SCFD requires deep integration of frontier Finance, 42, 408–421. https://doi.org/10.1016/j.jcorpfin.2014.09.001
+technologies, including big data, cloud computing, cross-chain pro Chu, Y., Liu, M., Ma, T., & Li, X. (2020). Executive compensation and corporate risk- 
+tocols, and high-speed smart contracts. Developing innovative taking: Evidence from private loan contracts. Journal of Corporate Finance, 64, Article 
+
+101683. https://doi.org/10.1016/j.jcorpfin.2020.101683
+IoT–SCFD solutions and leveraging metaverse tools such as digital Conceição, P., Gibson, D. V., Heitor, M. V., & Sirilli, G. (2001). Beyond the digital 
+twinning and edge-cloud synergy will strengthen the digital infrastruc economy: A perspective on innovation for the learning society. Technological 
+ture needed to overcome financing barriers for enterprises. Forecasting and Social Change, 67(2–3), 128–135. https://doi.org/10.1016/S0040- 
+
+Second, SCFD encourages risk-taking by mitigating SCC. SCFD 1625
+Cosci, S., Guida, R., & Meliciani, V. (2020). Does trade credit really help relieving 
+
+development should focus on decentralized, multilateral financial sup financial constraints? European Financial Management, 26(1), 198–215. https://doi. 
+port networks that optimize nodal relationships and limit over-reliance org/10.1111/eufm.12211
+on core enterprises. This includes establishing authenticated full-chain Dang Viet, A., & PhanHieu, V. (2016). CEO inside debt and corporate debt maturity 
+
+structure. Journal of Banking & Finance, 70, 38–54. https://doi.org/10.1016/j. 
+credit records, advancing data standardization and cross-chain inter jbankfin.2016.05.009
+operability and building multicentric platforms to eliminate information Dao, T. T. B., & Phan, M. C. (2023). Stakeholder theory, risk-taking and firm 
+silos. Strengthening digital SCF infrastructure and enhancing the pro performance. Corporate Governance: The International Journal of Business in Society, 23 
+
+(7), 1623–1647. https://doi.org/10.1108/CG-09-2022-0366
+ductive value of data are crucial for efficient allocation and cocreation Deng, H., Li, Y., & Lin, Y. (2023). Green financial policy and corporate risk-taking: 
+among on-chain enterprises. Evidence from China. Finance Research Letters, 58, Article 104381. https://doi.org/ 
+
+Third, the supply chain innovation pilot policy serves as a positive 10.1016/j.frl.2023.104381
+Dewan, S., & Kraemer, K. L. (2000). Information technology and productivity: Evidence 
+
+moderator in the SCFD–risk-taking relationship. Policymakers should from country-level data. Management Science, 46(4), 548–562. https://doi.org/ 
+gradually expand pilot scope and diversify SCFD programs to provide 10.1287/mnsc.46.4.548.12057
+flexible financial support. Mobilizing large financial institutions as sta Ding, N., Gu, L., & Peng, Y. (2022). Fintech, financial constraints and innovation: 
+
+Evidence from China. Journal of Corporate Finance, 73, Article 102194. https://doi. 
+bilizers and core firms as coimplementers of cross-regional SCFD plat org/10.1016/j.jcorpfin.2022.102194
+forms will increase participation. To strengthen incentives, tax benefits, Dou, V. X., Liu, Z. Y., & Yang, D. (2024). The influence of digital transformation on the 
+regulatory support, and performance recognition should be offered to risk appetite of manufacturing enterprises. East China Economic Management, 38(09), 
+
+high-performing participants. 106–115. https://doi.org/10.19629/j.cnki.34-1014/f.240320018. https://kns.cnki. 
+net/kcms2/article/abstract?v=3ruWTMGvziWWlVKDDZjdiFcxIdhomoxgg7A6Zmjv 
+
+In conclusion, this study advances the literature by revealing how 1fG3NdlO7m_wRjbz6ifS1vu7MQ0mLNpbXnjFbM9ML97uUSQAG11gpUqMhF 
+SCFD affects corporate risk-taking and the mechanisms involved. In tylMYCl-aOCpR7h9SCLjd5dLz4C3QnC9Wb-DQWS7gAppv_c6xTxKJwj-_vb 
+China’s context, the findings hold broad relevance for countries seeking m14jXRe3N-BM4Zuzl5GR_jcXA==&uniplatform=NZKPT&language=CHS
+
+Duncombe, R., & Boateng, R. (2009). Mobile phones and financial services in developing 
+to strengthen supply chain security and financial resilience. By clarifying countries: A review of concepts, methods, issues, evidence and future research 
+how SCFD supports risk-taking behavior and economic outcomes, this directions. Third World Quarterly, 30(7), 1237–1258. https://doi.org/10.1080/ 
+research provides valuable guidance for international organizations and 01436590903134882
+
+Einav, L., & Levin, J. (2014). Economics in the age of big data. Science, 346, Article 
+policymakers. These insights enable market participants to make 1243089. https://doi.org/10.1126/science.1243089
+informed decisions, enhance governance, and design innovative policies Faccio, M., Marchica, M. T., & Mura, R. (2016). CEO gender, corporate risk-taking, and 
+that bolster supply chain resilience in diverse economic environments. the efficiency of capital allocation. Journal of Corporate Finance, 39, 193–209. 
+
+https://doi.org/10.1016/j.jcorpfin.2016.02.008
+Gelsomino, L. M., Mangiaracina, R., Perego, A., & Tumino, A. (2016). Supply chain 
+
+Funding finance: A literature review. International Journal of Physical Distribution and Logistics 
+Management, 46(4). https://doi.org/10.1108/IJPDLM-08-2014-0173
+
+Geng, X., Han, B., Yang, D., & Zhao, J. (2024). Credit risk contagion of supply chain 
+This work was supported by the [The National Social Science Fund of finance: An empirical analysis of supply chain listed companies. PLoS One, 19(8), 
+
+China] under Grant [number 24XJY010]. Article 306724. https://doi.org/10.1371/journal.pone.0306724
+Goldfarb, A., & Tucker, C. (2019). Digital economics. Journal of Economic Literature, 57 
+
+(1), 3–43. https://doi.org/10.1257/jel.20171452
+Data availability Gong, Q., Ban, M., & Zhang, Y. (2022). Blockchain, enterprise digitalization, and supply 
+
+chain finance innovation. China Economic Transition=Dangdai Zhongguo Jingji 
+Data will be made available on request. Zhuanxing Yanjiu, 5(2), 131–158. https://doi.org/10.3868/s060-014-022-0008-3
+
+Han, Z., & Wang, Z. (2025). Digitalization and supply chain finance risk: Evidence from 
+listed firms in the construction industry. Finance Research Letters, 74, Article 106726. 
+
+References https://doi.org/10.1016/j.frl.2024.106726
+He, X. G., Deng, H., & Wu, S. Y. (2015). Catch-up pressure and corporate moral failure: 
+
+An, S., Gu, Y., Pan, L., & Yu, Y. (2024). Supply chain digitalization and firms’ green Data analysis from Chinese listed companies. Journal of Management World, 9, 
+innovation: Evidence from a pilot program. Economic Analysis and Policy, 84, 104–124. https://doi.org/10.19744/j.cnki.11-1235/f.2015.09.009
+828–846. https://doi.org/10.1016/j.eap.2024.09.024
+
+8 
+
+
+
+W. Xue and S. Yuan                                                                                                                                                               I n t e  r n  a  t i o n  a  l   R  e  v i e  w    o  f   F  in  a  n  c i a  l   A  n  a  l y s  i s  109 (2026) 104803 
+
+Hu, H. Q., Yuan, M., & Xue, M. (2025). The impact of supply chain finance on R&D Information Management, 52, Article 101946. https://doi.org/10.1016/j. 
+investment efficiency in SMEs: The perspective of financial constraint. Science & ijinfomgt.2019.05.002
+Technology Progress and Policy, 42(01), 102–112. https://doi.org/10.6049/kjjbydc. Patatoukas, P. N. (2012). Customer-base concentration: Implications for firm 
+H202307063 performance and capital markets: 2011 American accounting association 
+
+Huang, A., Qiu, L., & Li, Z. (2021). Applying deep learning method in TVP-VAR model competitive manuscript award winner. The Accounting Review, 87(2), 363–392. 
+under systematic financial risk monitoring and early warning. Journal of https://doi.org/10.2308/accr-10198
+Computational and Applied Mathematics, 382, Article 113065. https://doi.org/ Pu, G., Xie, Y., & Wang, K. (2023). Board faultlines and risk-taking. Finance Research 
+10.1016/j.cam.2020.113065 Letters, 51, Article 103404. https://doi.org/10.1016/j.frl.2022.103404
+
+Jiang, H., Peng, C., & Ren, D. (2024). Supply-chain finance digitalization and corporate Pu, G., Xie, Y., Wu, L., & Wang, K. (2024). Industrial robots and corporate risk-taking 
+financial fraud: Evidence from China. Economic Modelling, 139, Article 106837. value. Finance Research Letters, 70, Article 106252. https://doi.org/10.1016/j. 
+https://doi.org/10.1016/j.econmod.2024.106837 frl.2024.106252
+
+Jiang, L., Liu, J., Peng, L., & Wang, B. (2022). Investor attention and asset pricing Qi, H. J., Cao, X., & Liu, Y. X. (2020). The influence of digital economy on corporate 
+anomalies. Review of Finance, 26(3), 563–593. https://doi.org/10.1093/rof/rfab032 governance: Analyzed from information asymmetry and irrational behavior 
+
+John, K., Litov, L., & Yeung, B. (2008). Corporate governance and risk-taking. The perspective. Reform, 4, 50–64. https://kns.cnki.net/kcms2/article/abstract?v=3ruW 
+Journal of Finance, 63(4), 1679–1728. https://doi.org/10.1111/j.1540- TMGvziVvM_2QG9q_DDUoqXKrQspWyz_sGV3brN0cVKQSXo8K3hcRlQFFlfMkVRD 
+6261.2008.01372.x Etpju43LU7nOzQtN-ZxBjxLWDVGt3kB_IL7-9THMu4nN54UrSCKlADaf5BcyWrUu 
+
+Kim, E. H., & Lu, Y. (2011). CEO ownership, external governance, and risk-taking. J7qZ4HiUfrBGz-2YGfNZ6Jg8EsV2MJIBuuv3Y5oD9LtMJqWLs1w==&uniplatfor 
+Journal of Financial Economics, 102(2), 272–292. https://doi.org/10.1016/j. m=NZKPT&language=CHS.
+jfineco.2011.07.002 Rahman, M. H., Tanchangya, T., Rahman, J., Aktar, M. A., & Majumder, S. C. (2024). 
+
+Kini, O., & Williams, R. (2012). Tournament incentives, firm risk, and corporate policies. Corporate social responsibility and green financing behavior in Bangladesh: Towards 
+Journal of Financial Economics, 103(2), 350–376. https://doi.org/10.1016/j. sustainable tourism. Innovation and Green Development, 3(3), Article 100133. https:// 
+jfineco.2011.09.005 doi.org/10.1016/j.igd.2024.100133
+
+Koirala, S., Marshall, A., Neupane, S., & Thapa, C. (2020). Corporate governance reform Sheikh, S. (2019). CEO power and corporate risk: The impact of market competition and 
+and risk-taking: Evidence from a quasi-natural experiment in an emerging market. corporate governance. Corporate Governance: An International Review, 27(5), 
+Journal of Corporate Finance, 61, Article 101396. https://doi.org/10.1016/j. 358–377.
+jcorpfin.2018.08.007 Shen, K., & Qiao, G. (2024). Supply chain innovation, uncertainty and firm resource 
+
+Kwak, D. W., SeoY, J., & Mason, R. (2018). Investigating the relationship between supply allocation: Based on inventory adjustment perspective. Business Managment Journal, 
+chain innovation, risk management capabilities and competitive advantage in global 46(09), 49–68. https://doi.org/10.19616/j.cnki.bmj.2024.09.003
+supply chains. International Journal of Operations & Production Management (2018), Song, H., & Chen, S. J. (2016). Evolution of supply chain finance and internet supply 
+38(1), 2–21. https://doi.org/10.1108/IJOPM-06-2015-0390 chain finance: A theoretical framework. Journal of Renmin University of China, 30(5), 
+
+Laeven, L., Levine, R., & Michalopoulos, S. (2015). Financial innovation and endogenous 95–104. CNKI:SUN:ZRDX.0.2016-05-011.
+growth. Journal of Financial Intermediation, 24(1), 1–24. https://doi.org/10.1016/j. Song, H., Han, S. Q., & Liu, W. Y. (2022). How does digital technology construct the trust 
+jfi.2014.04.001 relationship of supply chain finance network? Management World, 38, 182–200. 
+
+Lan, G., Gao, X., Zheng, X., Zhou, H., & Li, D. (2025). Does short-selling threat potentially https://doi.org/10.19744/j.cnki.11-1235/f.2022.0034
+influence corporate risk-taking? Evidence from equity lending supply. International Song, H., Li, M., & Yu, K. (2021). Big data analytics in digital platforms: How do financial 
+Review of Financial Analysis, 97, Article 103859. https://doi.org/10.1016/j. service providers customise supply chain finance? International Journal of Operations 
+irfa.2024.103859 & Production Management, 41(4), 410–435. https://doi.org/10.1108/IJOPM-07- 
+
+Lei, W., Tang, K. T., Shao, J. F., & Ran, F (2024). Digital transformation, supply chain 2020-0485
+finance, and enterprise innovation. Finance Research Letters, 70, 106256. https://doi. Song, H., & Lu, Q. (2017). How dose supply chain finance dominate by industral 
+org/10.1016/j.frl.2024.106256 enterprise promote Smes’ finance performance–A multi-case comparative study. 
+
+Li, H., Mai, L., Zhang, W., & Tian, X. (2019). Optimizing the credit term decisions in Economic Theory and Business Management, 12, 47–58. https://doi.org/10.3969/j. 
+supply chain finance. Journal of Purchasing and Supply Management, 25(2), 146–156. issn.1000-596X.2017.12.004
+https://doi.org/10.1016/j.pursup.2018.07.006 Song, H., Yang, X., & Yu, K. (2020). How do supply chain network and SMEs’ operational 
+
+Li, W., Luo, D., & Cheng, T. Y. (2025). Strategy choices in strategic risk-taking: Does capabilities enhance working capital financing? An integrative signaling view. 
+climate risk matter. International Review of Financial Analysis, 97, Article 103861. International Journal of Production Economics, 220, Article 107447.
+https://doi.org/10.1016/j.irfa.2024.103861 Su, K., Li, L., & Wan, R. (2017). Ultimate ownership, risk-taking and firm value: Evidence 
+
+Li, W., & Zhou, Q. (2025). Can capital structure mismatch influence corporate risk- from China. Asia Pacific Business Review, 23(1), 10–26. https://doi.org/10.1080/ 
+taking? From the prospective of earning management. Finance Research Letters, 73, 13602381.2016.1152021
+Article 106566. https://doi.org/10.1016/j.frl.2024.106566 Tang, M., Hou, Y. G., Goodell, J. W., & Hu, Y. (2024). Fintech and corporate risk-taking: 
+
+Liu, B., Wang, Y., & Shou, Y. (2020). Trade credit in emerging economies: An Evidence from China. Finance Research Letters, 64, Article 105411. https://doi.org/ 
+interorganizational power perspective. Industrial Management & Data Systems, 120 10.1016/j.frl.2024.105411
+(4), 768–783. https://doi.org/10.1108/imds-05-2019-0292 Tang, S., Wu, X. C., & Zhu, J. (2020). Digital finance and firm technological innovation: 
+
+Liu, H., Hu, J., Zhang, H. G., Sun, S., & L.. (2023). Supply chain digitalization and firm Structural characteristics, mechanism identification, and effect differences under 
+performance: Mechanism and empirical evidence. Economics and Management, 45(5), financial regulation. Management World, 36, 52–66. https://doi.org/10.19744/j. 
+78–98. https://doi.org/10.19616/j.cnki.bmj.2023.05.005 cnki.11-1235/f.2020.0069
+
+Liu, Q., & Wu, J. (2024). Strong financial regulation and corporate risk-taking: Evidence Tang, Y. J. (2009). Bargaining power of suppliers and buyers, and corporate 
+from a natural experiment in China. Finance Research Letters, 54, Article 103747. performance——evidences from chinese manufacturing listed companies from 2005 
+https://doi.org/10.1016/j.frl.2023.103747 to 2007. China Industrial Economics, 10, 67–76.
+
+Liu, Y., Cao, M., Liu, T., & J. H.. (2025). Research on supply chain finance and Chinese Tong, P., & Wang, K. (2024). The impact of digital supply chain finance on the high- 
+listed companies’ risk-taking level. Systems Engineering - Theory & Practice, 45(2), quality development of industry in chinese-style modernization. Statistics and 
+391–407. https://doi.org/10.12011/SETP2023-1992 Decision-Making, 40(13), 142–147. https://doi.org/10.13546/j.cnki. 
+
+Low, A. (2009). Managerial risk-taking behavior and equity-based compensation☆. tjyjc.2024.13.025/
+Journal of Financial Economics, 92(3), 470–490. https://doi.org/10.1016/j. Tran, Q.  Trung (2019). Economic policy uncertainty and corporate risk-taking: 
+jfineco.2008.05.004 International evidence. Journal of Multinational Financial Management, 52–53, 
+
+Lu, Q., Wang, X. Y., Yang, Y. D., & Song, H. (2025). Supply chain concentration and 100605. https://doi.org/10.1016/j.mulfin.2019.100605
+enterprise digital transformation: Perspective of resource dependence theory Tran, T. P., & Le, A. T. (2022). Which formula for corporate risk-taking around the 
+considering contingency. Science of Science and Managementofs & T, 46(06), 63–83. world? Exploring happiness as the “black box”. Journal of Asian Business and 
+https://doi.org/10.20201/j.cnki.ssstm.20240929.001. https://kns.cnki.net/k Economic Studies, 29(4), 242–262. https://doi.org/10.1108/JABES-01-2021-0009
+cms2/article/abstract?v=3ruWTMGvziVa4L011Am5_Ujyt1RN4jv2lVxqzrEevY Wang, H., & Xie, X. L. (2021). Economic pressure or social pressure: The development of 
+w-SdDiFWyLFo1Or-LU_WnhYiNBHAgGc7diQbTzriVPQJ4412quLFGeUWixWqZ-0pji digital finance and the digital innovation of commercial banks. Economist, 1, 
+dm6HlWXNODO_t5I6GjmG9dRxxkKs4hY0M7JpIzQQ4s0ZFU_zBc9YbsyJuB6AIU 100–108. https://doi.org/10.16158/j.cnki.51-1312/f.2021.01.011
+PKo6zJHbvNxw==&uniplatform=NZKPT&language=CHS Wang, Q. (2025). Motivating supplier performance: Financial constraints, information 
+
+Malmendier, U., & Nagel, S. (2011). Depression babies: Do macroeconomic experiences delay, and smart contracts. IEEE Transactions on Engineering Management, 72, 
+affect risk taking? The Quarterly Journal of Economics, 126(1), 373–416. https://doi. 1862–1876. https://doi.org/10.1109/tem.2025.3565282
+org/10.1093/qje/qjq004 Wang, Z. R., Li, N., Wu, X. K., & Wang, W. (2025). Digital finance, risk-taking and new 
+
+Mocetti, S., Pagnini, M., & Sette, E. (2017). Information technology and banking quality productive forces in manufacturing enterprises: The moderating role of 
+organization. Journal of Financial Services Research, 51, 313–338. https://doi.org/ environmental uncertainty. Science & Technology Progress and Policy, 1–10. https:// 
+10.1007/s10693-016-0244-3 doi.org/10.6049/kjjbydc.D2024100082
+
+Moretto, A., Grassi, L., Caniato, F., Giorgino, M., & Ronchi, S. (2019). Supply chain Wu, F., Hu, H. Z., Lin, H. Y., & Ren, X. Y. (2021). Enterprise digital transformation and 
+finance: From traditional to supply chain credit rating. Journal of Purchasing and capital market performance: Empirical evidence from stock liquidity. Management 
+Supply Management, 25(2), 197–217. https://doi.org/10.1016/j.pursup.2018.06.004 World, 37(7), 130–144. https://doi.org/10.19744/j.cnki.11-1235/f.2021.0097
+
+Pan, A., Xu, L., Li, B., & Ling, R. (2020). The impact of supply chain finance on firm cash Wu, H., & Wang, Y. (2024). Digital transformation and corporate risk taking: Evidence 
+holdings: Evidence from China. Pacific-Basin Finance Journal, 63, Article 101402. from China. Global Finance Journal, 62, Article 101012. https://doi.org/10.1016/j. 
+https://doi.org/10.1016/j.pacfin.2020.101402 gfj.2024.101012
+
+Pan, X., Pan, X., Song, M., Ai, B., & Ming, Y. (2020). Blockchain technology and 
+enterprise operational capabilities: An empirical test. International Journal of 
+
+9 
+
+
+
+W. Xue and S. Yuan                                                                                                                                                               I n t e  r n  a  t i o n  a  l   R  e  v i e  w    o  f   F  in  a  n  c i a  l   A  n  a  l y s  i s  109 (2026) 104803 
+
+Wu, Q., Xu, X., & Lin, R. (2021). Government incentive mechanism of closed-loop supply Zhang, Y., & Li, H. J. (2023). Research on the impact of enterprise intelligent 
+chain based on information asymmetry. RAIRO - Operations Research, 55(6), transformation on the transformation of internal labor structure. Human Resources 
+3359–3378. https://doi.org/10.1051/ro/2021124 Development of China, 39, 98–118. https://doi.org/10.16471/j.cnki.11-2822/ 
+
+Wu, Q., & Yao, Y. X. (2023). Firm digital transformation and supply chain configuration: c.2022.1.007
+Centralization or diversification. China Industrial Economics, 8(99), 117. https://doi. Zhao, R., Wang, Y., Lun, X., Li, N., Wang, R., Zhang, Y., & Wang, M. (2025). Enterprise 
+org/10.19581/j.cnki.ciejournal.2023.08.005 financialization, technological empowerment, and enterprise risk-taking. Finance 
+
+Xing, L., Han, D., & Hui, X. (2023). The impact of carbon policy on corporate risk-taking Research Letters, 74, Article 106701. https://doi.org/10.1016/j.frl.2024.106701
+with a double/debiased machine learning based difference-in-differences approach. Zhao, Z., & Lei, W. (2024). Impact of supply chain finance on the business risk of core 
+Finance Research Letters, 58, Article 104502. https://doi.org/10.1016/j. enterprises: Evidence from China. Journal of Business & Industrial Marketing, 39(12), 
+frl.2023.104502 2545–2555. https://doi.org/10.1108/jbim-08-2023-0490
+
+Xu, Z., Gong, B., Hu, L., & Gu, H. (2025). Supply chain finance, fintech and corporate Zhou, H., Wang, R., Zhang, X., & Chang, M. (2024). The impact of digital technology 
+risk-taking: Evidence from textual analysis of China public companies. adoption on corporate supply chain concentration: Evidence from patent analysis. 
+Announcements. Emerging Markets Finance and Trade, 61(8), 2374–2400. https://doi. Finance Research Letters, 64, Article 105413. https://doi.org/10.1016/j. 
+org/10.1080/1540496X.2025.2454990 frl.2024.105413
+
+Zhang, R. Z. (2022). Digital technology and supply chain efficiency: theoretical Zhou, L., & Wu, H. J. (2022). Supply chain finance and product market performance. 
+mechanism and empirical evidence. Research on Economics and Management, 43(05), Financial Economics Research, 37, 99–112. https://kns.cnki.net/kcms2/article/abstr 
+60–76. https://doi.org/10.13502/j.cnki.issn1000-7636.2022.05.004 act?v=3ruWTMGvziXp0l_ogVnO6E5egFjIbylQ9Qc1GkH22Cb0blXzVVDfsXIL4I4Zvd 
+
+Zhang, C., Yang, C., & Liu, C. (2021). Economic policy uncertainty and corporate risk- ng5eQNzm9XyXUAWUVOSUmHDNZ10_DggKMCYFNSmwSAO078Y8o4MPpvozU 
+taking: Loss aversion or opportunity expectations. Pacific-Basin Finance Journal, 69, Nx1HaYteVfGPGXQYWYccuUJXtOFMICzxlxm-uYZwLW02XPygCWPAEZ55s 
+Article 101640. https://doi.org/10.1016/j.pacfin.2021.101640 N4g6wg==&uniplatform=NZKPT&language=CHS.
+
+Zhang, S. S., Hu, H. G., Sun, L., & Xia, M. L. (2021). Supply chain digitization and supply Zheng, H., & Xiao, H. (2025). Supply chain finance digitalization and regional 
+chain security and stability-a quasi-natural experiment. China Soft Science, 12, technological innovation: Examining the moderating effect of digital finance. 
+21–30. Xingjiang Social and Sicence, (01), 32–42. https://link.cnki.net/urlid/65.1211.f. 
+
+20241125.1825.008.
+
+10
